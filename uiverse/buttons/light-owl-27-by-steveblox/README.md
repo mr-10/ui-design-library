@@ -1,0 +1,57 @@
+# Light Owl 27
+
+A button UI element from Uiverse.io by SteveBloX.
+
+Source: https://uiverse.io/SteveBloX/light-owl-27
+
+Author: SteveBloX
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: white, black, button, shadow, modern, b&w
+
+Colors: #0000000d, #0000001b, #00000020, #00000023, #00000025, #00000026, #222, #fff
+
+Fonts: Montserrat
+
+Spacing and radius: 8px
+
+## Source Code
+
+### index.html
+
+```html
+<button class="button">Click me !</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by SteveBloX  - Tags: white, black, button, shadow, modern, b&w */
+.button {
+  border-radius: 8px;
+  height: 40px;
+  border: none;
+  background: #222;
+  color: white;
+  padding: 15px;
+  box-shadow: 0 1px 1px -1px #00000026, 0 2px 1px -1px #00000025,
+    0 3px 3px -2px #00000023, 0 7px 6px -2px #00000020,
+    0 13px 13px -3px #0000001b, 0 30px 30px -4px #0000000d;
+  font-weight: bold;
+  font-family: Montserrat;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: 150ms ease-in-out;
+}
+
+.button:active {
+  scale: 0.95;
+  background: #fff;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.26) 0px 1px 1px -1px,
+    rgba(0, 0, 0, 0.24) 0px 2px 3px -2px, rgba(0, 0, 0, 0.19) 0px 5px 9px -3px,
+    rgba(0, 0, 0, 0.03) 0px 16px 29px -4.5px;
+}
+```
