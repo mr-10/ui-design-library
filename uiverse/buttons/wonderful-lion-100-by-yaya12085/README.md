@@ -1,0 +1,112 @@
+# Wonderful Lion 100
+
+A button UI element from Uiverse.io by Yaya12085.
+
+Source: https://uiverse.io/Yaya12085/wonderful-lion-100
+
+Author: Yaya12085
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: #5e2986, #8732cb, #d08bfe, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 12px
+
+## Source Code
+
+### index.html
+
+```html
+<button class="pushable">
+  <span class="shadow"></span>
+  <span class="front"
+    >Join Today
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g
+        id="SVGRepo_tracerCarrier"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></g>
+      <g id="SVGRepo_iconCarrier">
+        <path
+          d="M6 12H18M18 12L13 7M18 12L13 17"
+          stroke="#fff"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        ></path>
+      </g>
+    </svg>
+  </span>
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Yaya12085  - Tags: button */
+.pushable {
+  --dark: #5e2986;
+  --medium: #8732cb;
+  --light: #d08bfe;
+  --white: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0;
+  border-radius: 12px;
+  background-color: var(--dark);
+  position: relative;
+}
+
+.front {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  background-color: var(--dark);
+  background-image: linear-gradient(to top, var(--medium), var(--light));
+  color: white;
+  transform: translateY(-4px);
+  border: 2px solid var(--medium);
+}
+
+.front svg {
+  width: 30px;
+  height: 30px;
+}
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  transform: translateY(2px);
+}
+.pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+.front {
+  will-change: transform;
+  transition: transform 250ms;
+}
+
+.pushable:hover .front {
+  transform: translateY(-6px);
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}
+```
