@@ -1,0 +1,73 @@
+# Fresh Octopus 46
+
+A button UI element from Uiverse.io by eslam-hany.
+
+Source: https://uiverse.io/eslam-hany/fresh-octopus-46
+
+Author: eslam-hany
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button, hover
+
+Colors: #0b2447, #0d6efd, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<button class="btn" data-text="HELLO">
+  <span class="hover">HOVER</span>
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by eslam-hany - Tags: button, hover */
+.btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 40px;
+  border: 3px solid #0b2447;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: #0d6efd;
+  overflow: hidden;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.hover {
+  transform: translateX(0%);
+  transition: all 0.5s;
+}
+
+.btn::after {
+  position: absolute;
+  content: attr(data-text);
+  left: 0;
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+
+.btn:hover::after {
+  transform: translateX(50%);
+  transition: all 0.5s;
+}
+
+.btn:hover .hover {
+  position: absolute;
+  transform: translateX(150%);
+  transition: all 0.5s;
+}
+```
