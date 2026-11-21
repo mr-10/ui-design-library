@@ -1,0 +1,85 @@
+# Young Bat 70
+
+A loader UI element from Uiverse.io by csozidev.
+
+Source: https://uiverse.io/csozidev/young-bat-70
+
+Author: csozidev
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loader
+
+Colors: #7289da
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader">
+  <div class="square-1 square"></div>
+  <div class="square-2 square"></div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by csozidev - Tags: loader */
+/* Discord loader made by: csozi | Website: www.csozi.hu*/
+
+.loader {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  box-sizing: content-box;
+  padding: 10px;
+}
+
+.square {
+  background-color: #7289DA;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+}
+
+.square-1 {
+  animation: load 2s infinite;
+}
+
+.square-2 {
+  animation: load 2s infinite;
+  animation-delay: 1s;
+}
+
+@keyframes load {
+  0% {
+    translate: 0px 0px;
+    scale: 1;
+    rotate: 0deg;
+  }
+
+  25% {
+    translate: 40px 0px;
+    scale: 0.5;
+    rotate: -90deg;
+  }
+
+  50% {
+    translate: 40px 40px;
+    scale: 1;
+    rotate: 180deg;
+  }
+
+  75% {
+    translate: 0px 40px;
+    scale: 0.5;
+    rotate: 90deg;
+  }
+}
+```
