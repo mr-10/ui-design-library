@@ -1,0 +1,89 @@
+# Sour Panda 50
+
+A card UI element from Uiverse.io by Satwinder04.
+
+Source: https://uiverse.io/Satwinder04/sour-panda-50
+
+Author: Satwinder04
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: card
+
+Colors: #44a4ff, #8f7eff
+
+Fonts: See styles.css
+
+Spacing and radius: 10px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="card5">
+  <div class="card5-content">
+    <span>Card Title</span>
+    <p>Card description goes here.</p>
+  </div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Satwinder04 - Tags: card */
+.card5 {
+  width: 270px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.card5:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #8f7eff, #44a4ff);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.card5:hover:before {
+  opacity: 0.5;
+}
+
+.card5-content {
+  width: 170px;
+  height: 200px;
+  padding: 0 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card5-content span {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.card5:hover .card5-content {
+  transform: translate(-50%, -50%);
+}
+```

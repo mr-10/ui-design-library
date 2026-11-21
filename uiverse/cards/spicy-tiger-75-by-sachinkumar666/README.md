@@ -1,0 +1,51 @@
+# Spicy Tiger 75
+
+A card UI element from Uiverse.io by SachinKumar666.
+
+Source: https://uiverse.io/SachinKumar666/spicy-tiger-75
+
+Author: SachinKumar666
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: simple, material design, animation, card, shadow, glow, code
+
+Colors: #fdfdfd
+
+Fonts: See styles.css
+
+Spacing and radius: 1rem
+
+## Source Code
+
+### index.html
+
+```html
+<div class="card"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by SachinKumar666  - Tags: simple, material design, animation, card, shadow, glow, code */
+.card {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  height: 254px;
+  background: rgb(255, 255, 255);
+  border-radius: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: all ease-in-out 0.3s;
+}
+
+.card:hover {
+  background-color: #fdfdfd;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+```
