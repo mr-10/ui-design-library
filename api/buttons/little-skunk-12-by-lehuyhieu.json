@@ -5,14 +5,24 @@
  "author": "LeHuyHieu",
  "source": "https://uiverse.io/LeHuyHieu/little-skunk-12",
  "trigger": "hover",
- "description": "A button with box styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined gray button that lifts and glows on hover.",
+ "howItWorks": "On hover, box-shadow becomes 4px 4px 10px #b8b8b8, transform becomes translateY(-5px), height becomes 20px.",
  "tags": [
-  "button",
-  "box",
-  "hover"
+  "outlined",
+  "lift",
+  "glow",
+  "fade",
+  "expand",
+  "button"
  ],
- "html": "<button class=\"btn\">\n  Button\n</button>",
- "css": "/* From Uiverse.io by LeHuyHieu - Tags: button, box */\n.btn {\n  outline: none;\n  display: inline-block;\n  border: 1px solid #fff;\n  padding: .8rem 2rem;\n  border-radius: 5px;\n  background: transparent;\n  color: #fff;\n  font-size: 1rem;\n  transition: .3s;\n  cursor: pointer;\n  position: relative;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  left: 5px;\n  top: 5px;\n  border-top: 2px solid #fff;\n  border-left: 2px solid #fff;\n  width: 0px;\n  height: 0px;\n  opacity: 0;\n  transition: .3s;\n}\n\n.btn::after {\n  content: '';\n  position: absolute;\n  right: 5px;\n  bottom: 5px;\n  border-bottom: 2px solid #fff;\n  border-right: 2px solid #fff;\n  width: 0px;\n  height: 0px;\n  opacity: 0;\n  transition: .3s;\n}\n\n.btn:hover {\n  box-shadow: 4px 4px 10px rgb(184, 184, 184);\n  transform: translateY(-5px);\n}\n\n.btn:hover::after, .btn:hover::before {\n  height: 20px;\n  width: 20px;\n  opacity: 1;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Skunk 12</title>\n<style>\n/* From Uiverse.io by LeHuyHieu - https://uiverse.io/LeHuyHieu/little-skunk-12 */\n/* From Uiverse.io by LeHuyHieu - Tags: button, box */\n.btn {\n  outline: none;\n  display: inline-block;\n  border: 1px solid #fff;\n  padding: .8rem 2rem;\n  border-radius: 5px;\n  background: transparent;\n  color: #fff;\n  font-size: 1rem;\n  transition: .3s;\n  cursor: pointer;\n  position: relative;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  left: 5px;\n  top: 5px;\n  border-top: 2px solid #fff;\n  border-left: 2px solid #fff;\n  width: 0px;\n  height: 0px;\n  opacity: 0;\n  transition: .3s;\n}\n\n.btn::after {\n  content: '';\n  position: absolute;\n  right: 5px;\n  bottom: 5px;\n  border-bottom: 2px solid #fff;\n  border-right: 2px solid #fff;\n  width: 0px;\n  height: 0px;\n  opacity: 0;\n  transition: .3s;\n}\n\n.btn:hover {\n  box-shadow: 4px 4px 10px rgb(184, 184, 184);\n  transform: translateY(-5px);\n}\n\n.btn:hover::after, .btn:hover::before {\n  height: 20px;\n  width: 20px;\n  opacity: 1;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#b8b8b8",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 294,
+ "size": 1176,
+ "html": "<button class=\"btn\">\n  Button\n</button>\n",
+ "css": "/* Little Skunk 12 by LeHuyHieu — https://uiverse.io/LeHuyHieu/little-skunk-12 */\n.btn {\n  outline: none;\n  display: inline-block;\n  border: 1px solid #fff;\n  padding: .8rem 2rem;\n  border-radius: 5px;\n  background: transparent;\n  color: #fff;\n  font-size: 1rem;\n  transition: .3s;\n  cursor: pointer;\n  position: relative;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  left: 5px;\n  top: 5px;\n  border-top: 2px solid #fff;\n  border-left: 2px solid #fff;\n  width: 0px;\n  height: 0px;\n  opacity: 0;\n  transition: .3s;\n}\n\n.btn::after {\n  content: '';\n  position: absolute;\n  right: 5px;\n  bottom: 5px;\n  border-bottom: 2px solid #fff;\n  border-right: 2px solid #fff;\n  width: 0px;\n  height: 0px;\n  opacity: 0;\n  transition: .3s;\n}\n\n.btn:hover {\n  box-shadow: 4px 4px 10px rgb(184, 184, 184);\n  transform: translateY(-5px);\n}\n\n.btn:hover::after, .btn:hover::before {\n  height: 20px;\n  width: 20px;\n  opacity: 1;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Skunk 12</title>\n<style>\n/* Little Skunk 12 by LeHuyHieu — https://uiverse.io/LeHuyHieu/little-skunk-12 */\n.btn {\n  outline: none;\n  display: inline-block;\n  border: 1px solid #fff;\n  padding: .8rem 2rem;\n  border-radius: 5px;\n  background: transparent;\n  color: #fff;\n  font-size: 1rem;\n  transition: .3s;\n  cursor: pointer;\n  position: relative;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  left: 5px;\n  top: 5px;\n  border-top: 2px solid #fff;\n  border-left: 2px solid #fff;\n  width: 0px;\n  height: 0px;\n  opacity: 0;\n  transition: .3s;\n}\n\n.btn::after {\n  content: '';\n  position: absolute;\n  right: 5px;\n  bottom: 5px;\n  border-bottom: 2px solid #fff;\n  border-right: 2px solid #fff;\n  width: 0px;\n  height: 0px;\n  opacity: 0;\n  transition: .3s;\n}\n\n.btn:hover {\n  box-shadow: 4px 4px 10px rgb(184, 184, 184);\n  transform: translateY(-5px);\n}\n\n.btn:hover::after, .btn:hover::before {\n  height: 20px;\n  width: 20px;\n  opacity: 1;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

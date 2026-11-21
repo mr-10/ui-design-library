@@ -5,14 +5,24 @@
  "author": "edwardytb",
  "source": "https://uiverse.io/edwardytb/serious-cat-43",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined pill cyan spinner loader with growing and shrinking; pulsing; rotating motion in a loop.",
+ "howItWorks": "It loops a 1s animation (growing and shrinking; pulsing; rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "cyan",
+  "yellow",
+  "outlined",
+  "rounded",
+  "pill",
+  "flat"
  ],
- "html": "<div class=\"loader\">\n  <div class=\"box\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"triangle\"></div>\n</div>",
- "css": "/* From Uiverse.io by edwardytb - Tags: loader */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.box {\n  width: 50px;\n  height: 50px;\n  border: 4px solid #3498db;\n  animation: box-expand 1s ease-in-out infinite alternate;\n}\n\n.circle {\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  border: 4px solid transparent;\n  border-top-color: #f1c40f;\n  animation: circle-rotate 1s linear infinite;\n}\n\n.triangle {\n  width: 0;\n  height: 0;\n  border-left: 15px solid transparent;\n  border-right: 15px solid transparent;\n  border-bottom: 30px solid #e74c3c;\n  animation: triangle-expand 1s ease-in-out infinite alternate;\n}\n\n@keyframes box-expand {\n  0% {\n    transform: scale(1);\n  }\n\n  100% {\n    transform: scale(1.2);\n  }\n}\n\n@keyframes circle-rotate {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes triangle-expand {\n  0% {\n    width: 0;\n    height: 0;\n  }\n\n  100% {\n    width: 30px;\n    height: 60px;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Serious Cat 43</title>\n<style>\n/* From Uiverse.io by edwardytb - https://uiverse.io/edwardytb/serious-cat-43 */\n/* From Uiverse.io by edwardytb - Tags: loader */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.box {\n  width: 50px;\n  height: 50px;\n  border: 4px solid #3498db;\n  animation: box-expand 1s ease-in-out infinite alternate;\n}\n\n.circle {\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  border: 4px solid transparent;\n  border-top-color: #f1c40f;\n  animation: circle-rotate 1s linear infinite;\n}\n\n.triangle {\n  width: 0;\n  height: 0;\n  border-left: 15px solid transparent;\n  border-right: 15px solid transparent;\n  border-bottom: 30px solid #e74c3c;\n  animation: triangle-expand 1s ease-in-out infinite alternate;\n}\n\n@keyframes box-expand {\n  0% {\n    transform: scale(1);\n  }\n\n  100% {\n    transform: scale(1.2);\n  }\n}\n\n@keyframes circle-rotate {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes triangle-expand {\n  0% {\n    width: 0;\n    height: 0;\n  }\n\n  100% {\n    width: 30px;\n    height: 60px;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"box\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"triangle\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#3498db",
+  "#f1c40f"
+ ],
+ "fonts": [],
+ "tokens": 331,
+ "size": 1325,
+ "html": "<div class=\"loader\">\n  <div class=\"box\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"triangle\"></div>\n</div>\n",
+ "css": "/* Serious Cat 43 by edwardytb — https://uiverse.io/edwardytb/serious-cat-43 */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.box {\n  width: 50px;\n  height: 50px;\n  border: 4px solid #3498db;\n  animation: box-expand 1s ease-in-out infinite alternate;\n}\n\n.circle {\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  border: 4px solid transparent;\n  border-top-color: #f1c40f;\n  animation: circle-rotate 1s linear infinite;\n}\n\n.triangle {\n  width: 0;\n  height: 0;\n  border-left: 15px solid transparent;\n  border-right: 15px solid transparent;\n  border-bottom: 30px solid #e74c3c;\n  animation: triangle-expand 1s ease-in-out infinite alternate;\n}\n\n@keyframes box-expand {\n  0% {\n    transform: scale(1);\n  }\n\n  100% {\n    transform: scale(1.2);\n  }\n}\n\n@keyframes circle-rotate {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes triangle-expand {\n  0% {\n    width: 0;\n    height: 0;\n  }\n\n  100% {\n    width: 30px;\n    height: 60px;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Serious Cat 43</title>\n<style>\n/* Serious Cat 43 by edwardytb — https://uiverse.io/edwardytb/serious-cat-43 */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.box {\n  width: 50px;\n  height: 50px;\n  border: 4px solid #3498db;\n  animation: box-expand 1s ease-in-out infinite alternate;\n}\n\n.circle {\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  border: 4px solid transparent;\n  border-top-color: #f1c40f;\n  animation: circle-rotate 1s linear infinite;\n}\n\n.triangle {\n  width: 0;\n  height: 0;\n  border-left: 15px solid transparent;\n  border-right: 15px solid transparent;\n  border-bottom: 30px solid #e74c3c;\n  animation: triangle-expand 1s ease-in-out infinite alternate;\n}\n\n@keyframes box-expand {\n  0% {\n    transform: scale(1);\n  }\n\n  100% {\n    transform: scale(1.2);\n  }\n}\n\n@keyframes circle-rotate {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes triangle-expand {\n  0% {\n    width: 0;\n    height: 0;\n  }\n\n  100% {\n    width: 30px;\n    height: 60px;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"box\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"triangle\"></div>\n</div>\n\n</body>\n</html>\n"
 }

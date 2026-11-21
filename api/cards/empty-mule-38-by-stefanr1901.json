@@ -5,15 +5,25 @@
  "author": "StefanR1901",
  "source": "https://uiverse.io/StefanR1901/empty-mule-38",
  "trigger": "hover",
- "description": "A card with heart and pump styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon gradient pill amber card that glows and scales up on hover.",
+ "howItWorks": "On hover, transform becomes scale(1.2), background changes from radial-gradient(circle, #ff8800 0%, #ff4dd2 50%, #00d4ff 100%) to radial-gradient(circle, #00d4ff 0%, #ff4dd2 50%, #ff8800 100%), box-shadow becomes 0 0 70px #ffffff, 0 0 20px #ffffff, 0 0 10px #ffffff.",
  "tags": [
-  "card",
-  "heart",
-  "pump",
-  "hover"
+  "amber",
+  "fuchsia",
+  "neon",
+  "gradient",
+  "dark",
+  "rounded"
  ],
- "html": "<div class=\"one-div\"></div>",
- "css": "/* From Uiverse.io by StefanR1901 - Tags: card, heart, pump */\n.one-div-container {\n  position: relative;\n  height: 500px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #000000;\n}\n\n.one-div {\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  background: radial-gradient(circle, rgba(255,136,0,1) 0%, rgba(255,77,210,1) 50%, rgba(0,212,255,1) 100%);\n  box-shadow: 0 0 50px rgba(255,255,255,0.5);\n  transition: all 0.5s ease-in-out;\n  animation: pulse 2s ease-in-out infinite;\n}\n\n.one-div:hover {\n  transform: scale(1.2);\n  background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(255,77,210,1) 50%, rgba(255,136,0,1) 100%);\n  box-shadow: 0 0 70px rgba(255,255,255,0.7), 0 0 20px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.7);\n}\n\n@keyframes pulse {\n  0%, 100% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.1);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Empty Mule 38</title>\n<style>\n/* From Uiverse.io by StefanR1901 - https://uiverse.io/StefanR1901/empty-mule-38 */\n/* From Uiverse.io by StefanR1901 - Tags: card, heart, pump */\n.one-div-container {\n  position: relative;\n  height: 500px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #000000;\n}\n\n.one-div {\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  background: radial-gradient(circle, rgba(255,136,0,1) 0%, rgba(255,77,210,1) 50%, rgba(0,212,255,1) 100%);\n  box-shadow: 0 0 50px rgba(255,255,255,0.5);\n  transition: all 0.5s ease-in-out;\n  animation: pulse 2s ease-in-out infinite;\n}\n\n.one-div:hover {\n  transform: scale(1.2);\n  background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(255,77,210,1) 50%, rgba(255,136,0,1) 100%);\n  box-shadow: 0 0 70px rgba(255,255,255,0.7), 0 0 20px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.7);\n}\n\n@keyframes pulse {\n  0%, 100% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.1);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff8800",
+  "#ff4dd2",
+  "#00d4ff"
+ ],
+ "fonts": [],
+ "tokens": 292,
+ "size": 1169,
+ "html": "<div class=\"one-div\"></div>\n",
+ "css": "/* Empty Mule 38 by StefanR1901 — https://uiverse.io/StefanR1901/empty-mule-38 */\n.one-div-container {\n  position: relative;\n  height: 500px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #000000;\n}\n\n.one-div {\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  background: radial-gradient(circle, rgba(255,136,0,1) 0%, rgba(255,77,210,1) 50%, rgba(0,212,255,1) 100%);\n  box-shadow: 0 0 50px rgba(255,255,255,0.5);\n  transition: all 0.5s ease-in-out;\n  animation: pulse 2s ease-in-out infinite;\n}\n\n.one-div:hover {\n  transform: scale(1.2);\n  background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(255,77,210,1) 50%, rgba(255,136,0,1) 100%);\n  box-shadow: 0 0 70px rgba(255,255,255,0.7), 0 0 20px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.7);\n}\n\n@keyframes pulse {\n  0%, 100% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.1);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Empty Mule 38</title>\n<style>\n/* Empty Mule 38 by StefanR1901 — https://uiverse.io/StefanR1901/empty-mule-38 */\n.one-div-container {\n  position: relative;\n  height: 500px;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #000000;\n}\n\n.one-div {\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  background: radial-gradient(circle, rgba(255,136,0,1) 0%, rgba(255,77,210,1) 50%, rgba(0,212,255,1) 100%);\n  box-shadow: 0 0 50px rgba(255,255,255,0.5);\n  transition: all 0.5s ease-in-out;\n  animation: pulse 2s ease-in-out infinite;\n}\n\n.one-div:hover {\n  transform: scale(1.2);\n  background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(255,77,210,1) 50%, rgba(255,136,0,1) 100%);\n  box-shadow: 0 0 70px rgba(255,255,255,0.7), 0 0 20px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.7);\n}\n\n@keyframes pulse {\n  0%, 100% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.1);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n\n</body>\n</html>\n"
 }

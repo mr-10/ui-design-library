@@ -5,15 +5,25 @@
  "author": "vinodjangid07",
  "source": "https://uiverse.io/vinodjangid07/modern-tiger-48",
  "trigger": "focus",
- "description": "A input with gradient and search styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Gradient rounded light indigo text input that lights up when focused.",
+ "howItWorks": "It has no :focus rule in its CSS; focusing the text input shows only the browser default.",
  "tags": [
+  "indigo",
+  "orange",
   "gradient",
-  "input",
-  "search",
-  "focus"
+  "rounded",
+  "text-input",
+  "input"
  ],
- "html": "<div class=\"InputContainer\">\n  <input placeholder=\"Search..\" id=\"input\" class=\"input\" name=\"text\" type=\"text\">\n  \n</div>",
- "css": "/* From Uiverse.io by vinodjangid07 - Tags: gradient, input, search */\n.InputContainer {\n  width: 210px;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: linear-gradient(to bottom,rgb(227, 213, 255),rgb(255, 231, 231));\n  border-radius: 30px;\n  overflow: hidden;\n  cursor: pointer;\n  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);\n}\n\n.input {\n  width: 200px;\n  height: 40px;\n  border: none;\n  outline: none;\n  caret-color: rgb(255, 81, 0);\n  background-color: rgb(255, 255, 255);\n  border-radius: 30px;\n  padding-left: 15px;\n  letter-spacing: 0.8px;\n  color: rgb(19, 19, 19);\n  font-size: 13.4px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Modern Tiger 48</title>\n<style>\n/* From Uiverse.io by vinodjangid07 - https://uiverse.io/vinodjangid07/modern-tiger-48 */\n/* From Uiverse.io by vinodjangid07 - Tags: gradient, input, search */\n.InputContainer {\n  width: 210px;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: linear-gradient(to bottom,rgb(227, 213, 255),rgb(255, 231, 231));\n  border-radius: 30px;\n  overflow: hidden;\n  cursor: pointer;\n  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);\n}\n\n.input {\n  width: 200px;\n  height: 40px;\n  border: none;\n  outline: none;\n  caret-color: rgb(255, 81, 0);\n  background-color: rgb(255, 255, 255);\n  border-radius: 30px;\n  padding-left: 15px;\n  letter-spacing: 0.8px;\n  color: rgb(19, 19, 19);\n  font-size: 13.4px;\n}\n</style>\n</head>\n<body>\n<div class=\"InputContainer\">\n  <input placeholder=\"Search..\" id=\"input\" class=\"input\" name=\"text\" type=\"text\">\n  \n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#e3d5ff",
+  "#ffe7e7",
+  "#ff5100"
+ ],
+ "fonts": [],
+ "tokens": 250,
+ "size": 1001,
+ "html": "<div class=\"InputContainer\">\n  <input placeholder=\"Search..\" id=\"input\" class=\"input\" name=\"text\" type=\"text\">\n\n</div>\n",
+ "css": "/* Modern Tiger 48 by vinodjangid07 — https://uiverse.io/vinodjangid07/modern-tiger-48 */\n.InputContainer {\n  width: 210px;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: linear-gradient(to bottom,rgb(227, 213, 255),rgb(255, 231, 231));\n  border-radius: 30px;\n  overflow: hidden;\n  cursor: pointer;\n  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);\n}\n\n.input {\n  width: 200px;\n  height: 40px;\n  border: none;\n  outline: none;\n  caret-color: rgb(255, 81, 0);\n  background-color: rgb(255, 255, 255);\n  border-radius: 30px;\n  padding-left: 15px;\n  letter-spacing: 0.8px;\n  color: rgb(19, 19, 19);\n  font-size: 13.4px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Modern Tiger 48</title>\n<style>\n/* Modern Tiger 48 by vinodjangid07 — https://uiverse.io/vinodjangid07/modern-tiger-48 */\n.InputContainer {\n  width: 210px;\n  height: 50px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  background: linear-gradient(to bottom,rgb(227, 213, 255),rgb(255, 231, 231));\n  border-radius: 30px;\n  overflow: hidden;\n  cursor: pointer;\n  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);\n}\n\n.input {\n  width: 200px;\n  height: 40px;\n  border: none;\n  outline: none;\n  caret-color: rgb(255, 81, 0);\n  background-color: rgb(255, 255, 255);\n  border-radius: 30px;\n  padding-left: 15px;\n  letter-spacing: 0.8px;\n  color: rgb(19, 19, 19);\n  font-size: 13.4px;\n}\n</style>\n</head>\n<body>\n<div class=\"InputContainer\">\n  <input placeholder=\"Search..\" id=\"input\" class=\"input\" name=\"text\" type=\"text\">\n\n</div>\n\n</body>\n</html>\n"
 }

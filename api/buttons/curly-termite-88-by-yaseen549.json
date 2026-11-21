@@ -5,14 +5,23 @@
  "author": "Yaseen549",
  "source": "https://uiverse.io/Yaseen549/curly-termite-88",
  "trigger": "active",
- "description": "A button UI element.",
- "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "description": "Dark gray button that responds while pressed down.",
+ "howItWorks": "While pressed, box-shadow becomes 0px 2px 0px #787878, top becomes 2px.",
  "tags": [
+  "dark",
   "button",
   "active",
   "css"
  ],
- "html": "<button class=\"button\"> Button\n</button>",
- "css": "/* From Uiverse.io by Yaseen549 - Tags: button */\n.button {\n color: #ecf0f1;\n font-size: 17px;\n background-color: #212121;\n border: 1px solid #ffffff;\n border-radius: 5px;\n padding: 10px;\n box-shadow: 0px 6px 0px #787878;\n transition: all 50ms;\n width: 120px;\n}\n\n.button:active {\n box-shadow: 0px 2px 0px #787878;\n position: relative;\n top: 2px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Termite 88</title>\n<style>\n/* From Uiverse.io by Yaseen549 - https://uiverse.io/Yaseen549/curly-termite-88 */\n/* From Uiverse.io by Yaseen549 - Tags: button */\n.button {\n color: #ecf0f1;\n font-size: 17px;\n background-color: #212121;\n border: 1px solid #ffffff;\n border-radius: 5px;\n padding: 10px;\n box-shadow: 0px 6px 0px #787878;\n transition: all 50ms;\n width: 120px;\n}\n\n.button:active {\n box-shadow: 0px 2px 0px #787878;\n position: relative;\n top: 2px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\"> Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#787878",
+  "#ecf0f1",
+  "#212121"
+ ],
+ "fonts": [],
+ "tokens": 160,
+ "size": 640,
+ "html": "<button class=\"button\"> Button\n</button>\n",
+ "css": "/* Curly Termite 88 by Yaseen549 — https://uiverse.io/Yaseen549/curly-termite-88 */\n.button {\n color: #ecf0f1;\n font-size: 17px;\n background-color: #212121;\n border: 1px solid #ffffff;\n border-radius: 5px;\n padding: 10px;\n box-shadow: 0px 6px 0px #787878;\n transition: all 50ms;\n width: 120px;\n}\n\n.button:active {\n box-shadow: 0px 2px 0px #787878;\n position: relative;\n top: 2px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Termite 88</title>\n<style>\n/* Curly Termite 88 by Yaseen549 — https://uiverse.io/Yaseen549/curly-termite-88 */\n.button {\n color: #ecf0f1;\n font-size: 17px;\n background-color: #212121;\n border: 1px solid #ffffff;\n border-radius: 5px;\n padding: 10px;\n box-shadow: 0px 6px 0px #787878;\n transition: all 50ms;\n width: 120px;\n}\n\n.button:active {\n box-shadow: 0px 2px 0px #787878;\n position: relative;\n top: 2px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\"> Button\n</button>\n\n</body>\n</html>\n"
 }

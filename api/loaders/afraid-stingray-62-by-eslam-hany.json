@@ -5,14 +5,24 @@
  "author": "eslam-hany",
  "source": "https://uiverse.io/eslam-hany/afraid-stingray-62",
  "trigger": "auto-loop",
- "description": "A loader with circle-loader styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill black loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2.0s animation (rotating).",
  "tags": [
+  "rounded",
+  "pill",
+  "spin",
   "loader",
   "circle-loader",
   "auto-loop"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by eslam-hany - Tags: loader, circle loader */\n.loader {\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;\n  animation: rotate 2.0s infinite linear;\n}\n\n@keyframes rotate {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Stingray 62</title>\n<style>\n/* From Uiverse.io by eslam-hany - https://uiverse.io/eslam-hany/afraid-stingray-62 */\n/* From Uiverse.io by eslam-hany - Tags: loader, circle loader */\n.loader {\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;\n  animation: rotate 2.0s infinite linear;\n}\n\n@keyframes rotate {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 158,
+ "size": 634,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Afraid Stingray 62 by eslam-hany — https://uiverse.io/eslam-hany/afraid-stingray-62 */\n.loader {\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;\n  animation: rotate 2.0s infinite linear;\n}\n\n@keyframes rotate {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Stingray 62</title>\n<style>\n/* Afraid Stingray 62 by eslam-hany — https://uiverse.io/eslam-hany/afraid-stingray-62 */\n.loader {\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;\n  animation: rotate 2.0s infinite linear;\n}\n\n@keyframes rotate {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

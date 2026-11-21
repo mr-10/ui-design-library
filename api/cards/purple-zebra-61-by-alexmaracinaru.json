@@ -5,14 +5,25 @@
  "author": "alexmaracinaru",
  "source": "https://uiverse.io/alexmaracinaru/purple-zebra-61",
  "trigger": "hover",
- "description": "A card UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Sky-blue card that reacts on hover with a smooth transition.",
+ "howItWorks": "On hover, transform becomes scale(0.98).",
  "tags": [
+  "blue",
+  "flat",
+  "shrink",
   "card",
   "hover",
   "css"
  ],
- "html": "<div class=\"card\">\n    <div class=\"card-image\"></div>\n    <div class=\"category\"> Illustration </div>\n    <div class=\"heading\"> A heading that must span over two lines\n        <div class=\"author\"> By <span class=\"name\">Abi</span> 4 days ago</div>\n    </div>\n</div>",
- "css": "/* From Uiverse.io by alexmaracinaru - Tags: card */\n.card {\n  width: 190px;\n  background: white;\n  padding: .4em;\n  border-radius: 6px;\n}\n\n.card-image {\n  background-color: rgb(236, 236, 236);\n  width: 100%;\n  height: 130px;\n  border-radius: 6px 6px 0 0;\n}\n\n.card-image:hover {\n  transform: scale(0.98);\n}\n\n.category {\n  text-transform: uppercase;\n  font-size: 0.7em;\n  font-weight: 600;\n  color: rgb(63, 121, 230);\n  padding: 10px 7px 0;\n}\n\n.category:hover {\n  cursor: pointer;\n}\n\n.heading {\n  font-weight: 600;\n  color: rgb(88, 87, 87);\n  padding: 7px;\n}\n\n.heading:hover {\n  cursor: pointer;\n}\n\n.author {\n  color: gray;\n  font-weight: 400;\n  font-size: 11px;\n  padding-top: 20px;\n}\n\n.name {\n  font-weight: 600;\n}\n\n.name:hover {\n  cursor: pointer;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Zebra 61</title>\n<style>\n/* From Uiverse.io by alexmaracinaru - https://uiverse.io/alexmaracinaru/purple-zebra-61 */\n/* From Uiverse.io by alexmaracinaru - Tags: card */\n.card {\n  width: 190px;\n  background: white;\n  padding: .4em;\n  border-radius: 6px;\n}\n\n.card-image {\n  background-color: rgb(236, 236, 236);\n  width: 100%;\n  height: 130px;\n  border-radius: 6px 6px 0 0;\n}\n\n.card-image:hover {\n  transform: scale(0.98);\n}\n\n.category {\n  text-transform: uppercase;\n  font-size: 0.7em;\n  font-weight: 600;\n  color: rgb(63, 121, 230);\n  padding: 10px 7px 0;\n}\n\n.category:hover {\n  cursor: pointer;\n}\n\n.heading {\n  font-weight: 600;\n  color: rgb(88, 87, 87);\n  padding: 7px;\n}\n\n.heading:hover {\n  cursor: pointer;\n}\n\n.author {\n  color: gray;\n  font-weight: 400;\n  font-size: 11px;\n  padding-top: 20px;\n}\n\n.name {\n  font-weight: 600;\n}\n\n.name:hover {\n  cursor: pointer;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n    <div class=\"card-image\"></div>\n    <div class=\"category\"> Illustration </div>\n    <div class=\"heading\"> A heading that must span over two lines\n        <div class=\"author\"> By <span class=\"name\">Abi</span> 4 days ago</div>\n    </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ececec",
+  "#3f79e6",
+  "#585757"
+ ],
+ "fonts": [],
+ "tokens": 317,
+ "size": 1271,
+ "html": "<div class=\"card\">\n    <div class=\"card-image\"></div>\n    <div class=\"category\"> Illustration </div>\n    <div class=\"heading\"> A heading that must span over two lines\n        <div class=\"author\"> By <span class=\"name\">Abi</span> 4 days ago</div>\n    </div>\n</div>\n",
+ "css": "/* Purple Zebra 61 by alexmaracinaru — https://uiverse.io/alexmaracinaru/purple-zebra-61 */\n.card {\n  width: 190px;\n  background: white;\n  padding: .4em;\n  border-radius: 6px;\n}\n\n.card-image {\n  background-color: rgb(236, 236, 236);\n  width: 100%;\n  height: 130px;\n  border-radius: 6px 6px 0 0;\n}\n\n.card-image:hover {\n  transform: scale(0.98);\n}\n\n.category {\n  text-transform: uppercase;\n  font-size: 0.7em;\n  font-weight: 600;\n  color: rgb(63, 121, 230);\n  padding: 10px 7px 0;\n}\n\n.category:hover {\n  cursor: pointer;\n}\n\n.heading {\n  font-weight: 600;\n  color: rgb(88, 87, 87);\n  padding: 7px;\n}\n\n.heading:hover {\n  cursor: pointer;\n}\n\n.author {\n  color: gray;\n  font-weight: 400;\n  font-size: 11px;\n  padding-top: 20px;\n}\n\n.name {\n  font-weight: 600;\n}\n\n.name:hover {\n  cursor: pointer;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Zebra 61</title>\n<style>\n/* Purple Zebra 61 by alexmaracinaru — https://uiverse.io/alexmaracinaru/purple-zebra-61 */\n.card {\n  width: 190px;\n  background: white;\n  padding: .4em;\n  border-radius: 6px;\n}\n\n.card-image {\n  background-color: rgb(236, 236, 236);\n  width: 100%;\n  height: 130px;\n  border-radius: 6px 6px 0 0;\n}\n\n.card-image:hover {\n  transform: scale(0.98);\n}\n\n.category {\n  text-transform: uppercase;\n  font-size: 0.7em;\n  font-weight: 600;\n  color: rgb(63, 121, 230);\n  padding: 10px 7px 0;\n}\n\n.category:hover {\n  cursor: pointer;\n}\n\n.heading {\n  font-weight: 600;\n  color: rgb(88, 87, 87);\n  padding: 7px;\n}\n\n.heading:hover {\n  cursor: pointer;\n}\n\n.author {\n  color: gray;\n  font-weight: 400;\n  font-size: 11px;\n  padding-top: 20px;\n}\n\n.name {\n  font-weight: 600;\n}\n\n.name:hover {\n  cursor: pointer;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n    <div class=\"card-image\"></div>\n    <div class=\"category\"> Illustration </div>\n    <div class=\"heading\"> A heading that must span over two lines\n        <div class=\"author\"> By <span class=\"name\">Abi</span> 4 days ago</div>\n    </div>\n</div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,24 @@
  "author": "kamehame-ha",
  "source": "https://uiverse.io/kamehame-ha/purple-bullfrog-33",
  "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Rounded sky-blue password input that lights up when focused.",
+ "howItWorks": "It has no :focus rule in its CSS; focusing the password input shows only the browser default.",
  "tags": [
+  "blue",
+  "rounded",
+  "password",
+  "password-input",
   "inputs",
-  "focus",
-  "css"
+  "focus"
  ],
- "html": "<!-- From Uiverse.io by kamehame-ha  - Tags: simple, login, input, tailwind, tailwindcss -->\n<div class=\"input flex flex-col w-fit static\">\n  <label\n    for=\"input\"\n    class=\"text-blue-500 text-xs font-semibold relative top-2 ml-[7px] px-[3px] bg-[#e8e8e8] w-fit\"\n    >Password:</label\n  >\n  <input\n    id=\"password\"\n    type=\"password\"\n    placeholder=\"Write here...\"\n    name=\"input\"\n    class=\"border-blue-500 input px-[10px] py-[11px] text-xs bg-[#e8e8e8] border-2 rounded-[5px] w-[210px] focus:outline-none placeholder:text-black/25\"\n  />\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Bullfrog 33</title>\n<style>\n/* From Uiverse.io by kamehame-ha - https://uiverse.io/kamehame-ha/purple-bullfrog-33 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by kamehame-ha  - Tags: simple, login, input, tailwind, tailwindcss -->\n<div class=\"input flex flex-col w-fit static\">\n  <label\n    for=\"input\"\n    class=\"text-blue-500 text-xs font-semibold relative top-2 ml-[7px] px-[3px] bg-[#e8e8e8] w-fit\"\n    >Password:</label\n  >\n  <input\n    id=\"password\"\n    type=\"password\"\n    placeholder=\"Write here...\"\n    name=\"input\"\n    class=\"border-blue-500 input px-[10px] py-[11px] text-xs bg-[#e8e8e8] border-2 rounded-[5px] w-[210px] focus:outline-none placeholder:text-black/25\"\n  />\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#3b82f6",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 192,
+ "size": 771,
+ "html": "<div class=\"input flex flex-col w-fit static\">\n  <label\n    for=\"input\"\n    class=\"text-blue-500 text-xs font-semibold relative top-2 ml-[7px] px-[3px] bg-[#e8e8e8] w-fit\"\n    >Password:</label\n  >\n  <input\n    id=\"password\"\n    type=\"password\"\n    placeholder=\"Write here...\"\n    name=\"input\"\n    class=\"border-blue-500 input px-[10px] py-[11px] text-xs bg-[#e8e8e8] border-2 rounded-[5px] w-[210px] focus:outline-none placeholder:text-black/25\"\n  />\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Bullfrog 33</title>\n<style>\n/* Purple Bullfrog 33 by kamehame-ha — https://uiverse.io/kamehame-ha/purple-bullfrog-33 */\n\n</style>\n</head>\n<body>\n<div class=\"input flex flex-col w-fit static\">\n  <label\n    for=\"input\"\n    class=\"text-blue-500 text-xs font-semibold relative top-2 ml-[7px] px-[3px] bg-[#e8e8e8] w-fit\"\n    >Password:</label\n  >\n  <input\n    id=\"password\"\n    type=\"password\"\n    placeholder=\"Write here...\"\n    name=\"input\"\n    class=\"border-blue-500 input px-[10px] py-[11px] text-xs bg-[#e8e8e8] border-2 rounded-[5px] w-[210px] focus:outline-none placeholder:text-black/25\"\n  />\n</div>\n\n</body>\n</html>\n"
 }

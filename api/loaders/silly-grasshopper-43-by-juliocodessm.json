@@ -5,14 +5,24 @@
  "author": "JulioCodesSM",
  "source": "https://uiverse.io/JulioCodesSM/silly-grasshopper-43",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill pink loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a 1s animation (pulsing).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "pink",
+  "teal",
+  "rounded",
+  "pill",
+  "flat",
+  "pulse"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by JulioCodesSM - Tags: loader */\n/* From uiverse.io by @JulioCodesSM */\n.loader {\n width: 50px;\n height: 50px;\n position: relative;\n transform: translateX(-25px);\n /* Compensating for the left of 50px in the keyframe. */\n}\n\n.loader::before,\n.loader::after {\n content: '';\n position: absolute;\n width: inherit;\n height: inherit;\n border-radius: 50%;\n mix-blend-mode: multiply;\n animation: rotate9 1s infinite cubic-bezier(0.77, 0, 0.175, 1);\n}\n\n.loader::before {\n background-color: #fc3f9e;\n}\n\n.loader::after {\n background-color: #50e8f3;\n animation-delay: .5s;\n}\n\n@keyframes rotate9 {\n 0%,100% {\n  left: 50px;\n }\n\n 25% {\n  transform: scale(.3);\n }\n\n 50% {\n  left: 0;\n }\n\n 75% {\n  transform: scale(1);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silly Grasshopper 43</title>\n<style>\n/* From Uiverse.io by JulioCodesSM - https://uiverse.io/JulioCodesSM/silly-grasshopper-43 */\n/* From Uiverse.io by JulioCodesSM - Tags: loader */\n/* From uiverse.io by @JulioCodesSM */\n.loader {\n width: 50px;\n height: 50px;\n position: relative;\n transform: translateX(-25px);\n /* Compensating for the left of 50px in the keyframe. */\n}\n\n.loader::before,\n.loader::after {\n content: '';\n position: absolute;\n width: inherit;\n height: inherit;\n border-radius: 50%;\n mix-blend-mode: multiply;\n animation: rotate9 1s infinite cubic-bezier(0.77, 0, 0.175, 1);\n}\n\n.loader::before {\n background-color: #fc3f9e;\n}\n\n.loader::after {\n background-color: #50e8f3;\n animation-delay: .5s;\n}\n\n@keyframes rotate9 {\n 0%,100% {\n  left: 50px;\n }\n\n 25% {\n  transform: scale(.3);\n }\n\n 50% {\n  left: 0;\n }\n\n 75% {\n  transform: scale(1);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#fc3f9e",
+  "#50e8f3"
+ ],
+ "fonts": [],
+ "tokens": 230,
+ "size": 923,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Silly Grasshopper 43 by JulioCodesSM — https://uiverse.io/JulioCodesSM/silly-grasshopper-43 */\n.loader {\n width: 50px;\n height: 50px;\n position: relative;\n transform: translateX(-25px);\n\n}\n\n.loader::before,\n.loader::after {\n content: '';\n position: absolute;\n width: inherit;\n height: inherit;\n border-radius: 50%;\n mix-blend-mode: multiply;\n animation: rotate9 1s infinite cubic-bezier(0.77, 0, 0.175, 1);\n}\n\n.loader::before {\n background-color: #fc3f9e;\n}\n\n.loader::after {\n background-color: #50e8f3;\n animation-delay: .5s;\n}\n\n@keyframes rotate9 {\n 0%,100% {\n  left: 50px;\n }\n\n 25% {\n  transform: scale(.3);\n }\n\n 50% {\n  left: 0;\n }\n\n 75% {\n  transform: scale(1);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silly Grasshopper 43</title>\n<style>\n/* Silly Grasshopper 43 by JulioCodesSM — https://uiverse.io/JulioCodesSM/silly-grasshopper-43 */\n.loader {\n width: 50px;\n height: 50px;\n position: relative;\n transform: translateX(-25px);\n\n}\n\n.loader::before,\n.loader::after {\n content: '';\n position: absolute;\n width: inherit;\n height: inherit;\n border-radius: 50%;\n mix-blend-mode: multiply;\n animation: rotate9 1s infinite cubic-bezier(0.77, 0, 0.175, 1);\n}\n\n.loader::before {\n background-color: #fc3f9e;\n}\n\n.loader::after {\n background-color: #50e8f3;\n animation-delay: .5s;\n}\n\n@keyframes rotate9 {\n 0%,100% {\n  left: 50px;\n }\n\n 25% {\n  transform: scale(.3);\n }\n\n 50% {\n  left: 0;\n }\n\n 75% {\n  transform: scale(1);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

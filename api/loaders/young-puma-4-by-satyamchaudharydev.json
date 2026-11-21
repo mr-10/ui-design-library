@@ -5,14 +5,24 @@
  "author": "satyamchaudharydev",
  "source": "https://uiverse.io/satyamchaudharydev/young-puma-4",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill emerald spinner loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a animation (pulsing, rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "emerald",
+  "green",
+  "rounded",
+  "pill",
+  "flat",
+  "pulse"
  ],
- "html": "<div class=\"spinner\">\n</div>",
- "css": "/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.spinner {\n --size-of-spinner: 50px;\n --spinner-border-width: 4px;\n --spinner-color: #08c18a;\n --circle-color: #8bc34a24;\n --speed-of-animation: 2s;\n --scale: 1.3;\n width: var(--size-of-spinner);\n height: var(--size-of-spinner);\n background: var(--circle-color);\n border-radius: 50%;\n position: relative;\n}\n\n.spinner::after {\n content: \"\";\n display: block;\n position: absolute;\n border-radius: 50%;\n inset: 0;\n border: var(--spinner-border-width) solid var(--spinner-color);\n border-left-color: transparent;\n border-right-color: transparent;\n animation: spinny var(--speed-of-animation) linear infinite;\n}\n\n@keyframes spinny {\n 0% {\n  transform: rotate(0deg) scale(1)\n }\n\n 50% {\n  transform: rotate(45deg) scale(var(--scale))\n }\n\n 100% {\n  transform: rotate(360deg) scale(1)\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Young Puma 4</title>\n<style>\n/* From Uiverse.io by satyamchaudharydev - https://uiverse.io/satyamchaudharydev/young-puma-4 */\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.spinner {\n --size-of-spinner: 50px;\n --spinner-border-width: 4px;\n --spinner-color: #08c18a;\n --circle-color: #8bc34a24;\n --speed-of-animation: 2s;\n --scale: 1.3;\n width: var(--size-of-spinner);\n height: var(--size-of-spinner);\n background: var(--circle-color);\n border-radius: 50%;\n position: relative;\n}\n\n.spinner::after {\n content: \"\";\n display: block;\n position: absolute;\n border-radius: 50%;\n inset: 0;\n border: var(--spinner-border-width) solid var(--spinner-color);\n border-left-color: transparent;\n border-right-color: transparent;\n animation: spinny var(--speed-of-animation) linear infinite;\n}\n\n@keyframes spinny {\n 0% {\n  transform: rotate(0deg) scale(1)\n }\n\n 50% {\n  transform: rotate(45deg) scale(var(--scale))\n }\n\n 100% {\n  transform: rotate(360deg) scale(1)\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\">\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#08c18a",
+  "#8bc34a"
+ ],
+ "fonts": [],
+ "tokens": 278,
+ "size": 1116,
+ "html": "<div class=\"spinner\">\n</div>\n",
+ "css": "/* Young Puma 4 by satyamchaudharydev — https://uiverse.io/satyamchaudharydev/young-puma-4 */\n.spinner {\n --size-of-spinner: 50px;\n --spinner-border-width: 4px;\n --spinner-color: #08c18a;\n --circle-color: #8bc34a24;\n --speed-of-animation: 2s;\n --scale: 1.3;\n width: var(--size-of-spinner);\n height: var(--size-of-spinner);\n background: var(--circle-color);\n border-radius: 50%;\n position: relative;\n}\n\n.spinner::after {\n content: \"\";\n display: block;\n position: absolute;\n border-radius: 50%;\n inset: 0;\n border: var(--spinner-border-width) solid var(--spinner-color);\n border-left-color: transparent;\n border-right-color: transparent;\n animation: spinny var(--speed-of-animation) linear infinite;\n}\n\n@keyframes spinny {\n 0% {\n  transform: rotate(0deg) scale(1)\n }\n\n 50% {\n  transform: rotate(45deg) scale(var(--scale))\n }\n\n 100% {\n  transform: rotate(360deg) scale(1)\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Young Puma 4</title>\n<style>\n/* Young Puma 4 by satyamchaudharydev — https://uiverse.io/satyamchaudharydev/young-puma-4 */\n.spinner {\n --size-of-spinner: 50px;\n --spinner-border-width: 4px;\n --spinner-color: #08c18a;\n --circle-color: #8bc34a24;\n --speed-of-animation: 2s;\n --scale: 1.3;\n width: var(--size-of-spinner);\n height: var(--size-of-spinner);\n background: var(--circle-color);\n border-radius: 50%;\n position: relative;\n}\n\n.spinner::after {\n content: \"\";\n display: block;\n position: absolute;\n border-radius: 50%;\n inset: 0;\n border: var(--spinner-border-width) solid var(--spinner-color);\n border-left-color: transparent;\n border-right-color: transparent;\n animation: spinny var(--speed-of-animation) linear infinite;\n}\n\n@keyframes spinny {\n 0% {\n  transform: rotate(0deg) scale(1)\n }\n\n 50% {\n  transform: rotate(45deg) scale(var(--scale))\n }\n\n 100% {\n  transform: rotate(360deg) scale(1)\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\">\n</div>\n\n</body>\n</html>\n"
 }

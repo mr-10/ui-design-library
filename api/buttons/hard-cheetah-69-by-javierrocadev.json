@@ -4,15 +4,26 @@
  "category": "buttons",
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/hard-cheetah-69",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Pill dark cyan button that scales up on hover.",
+ "howItWorks": "On hover, border changes and it scales.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "cyan",
+  "rounded",
+  "pill",
+  "color-change",
+  "scale",
+  "buttons"
  ],
- "html": "<!-- From Uiverse.io by Javierrocadev - Tags: blue, button, hover, hover effect, scale, hover button, tailwind, button hover effect  -->\n<button class=\"relative border hover:border-sky-600 duration-500 group cursor-pointer text-sky-50  overflow-hidden h-14 w-56 rounded-md bg-sky-800 p-2 flex justify-center items-center font-extrabold\">\n  <div class=\"absolute z-10 w-48 h-48 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75\"></div>\n  <div class=\"absolute z-10 w-40 h-40 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100\"></div>\n  <div class=\"absolute z-10 w-32 h-32 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-150\"></div>\n  <div class=\"absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200\"></div>\n  <div class=\"absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300\"></div>\n  <p class=\"z-10\">Discover More</p>\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Cheetah 69</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/hard-cheetah-69 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev - Tags: blue, button, hover, hover effect, scale, hover button, tailwind, button hover effect  -->\n<button class=\"relative border hover:border-sky-600 duration-500 group cursor-pointer text-sky-50  overflow-hidden h-14 w-56 rounded-md bg-sky-800 p-2 flex justify-center items-center font-extrabold\">\n  <div class=\"absolute z-10 w-48 h-48 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75\"></div>\n  <div class=\"absolute z-10 w-40 h-40 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100\"></div>\n  <div class=\"absolute z-10 w-32 h-32 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-150\"></div>\n  <div class=\"absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200\"></div>\n  <div class=\"absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300\"></div>\n  <p class=\"z-10\">Discover More</p>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#075985",
+  "#f0f9ff",
+  "#0c4a6e"
+ ],
+ "fonts": [],
+ "tokens": 344,
+ "size": 1378,
+ "html": "<button class=\"relative border hover:border-sky-600 duration-500 group cursor-pointer text-sky-50  overflow-hidden h-14 w-56 rounded-md bg-sky-800 p-2 flex justify-center items-center font-extrabold\">\n  <div class=\"absolute z-10 w-48 h-48 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75\"></div>\n  <div class=\"absolute z-10 w-40 h-40 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100\"></div>\n  <div class=\"absolute z-10 w-32 h-32 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-150\"></div>\n  <div class=\"absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200\"></div>\n  <div class=\"absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300\"></div>\n  <p class=\"z-10\">Discover More</p>\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Cheetah 69</title>\n<style>\n/* Hard Cheetah 69 by Javierrocadev — https://uiverse.io/Javierrocadev/hard-cheetah-69 */\n\n</style>\n</head>\n<body>\n<button class=\"relative border hover:border-sky-600 duration-500 group cursor-pointer text-sky-50  overflow-hidden h-14 w-56 rounded-md bg-sky-800 p-2 flex justify-center items-center font-extrabold\">\n  <div class=\"absolute z-10 w-48 h-48 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75\"></div>\n  <div class=\"absolute z-10 w-40 h-40 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100\"></div>\n  <div class=\"absolute z-10 w-32 h-32 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-150\"></div>\n  <div class=\"absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200\"></div>\n  <div class=\"absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300\"></div>\n  <p class=\"z-10\">Discover More</p>\n</button>\n\n</body>\n</html>\n"
 }

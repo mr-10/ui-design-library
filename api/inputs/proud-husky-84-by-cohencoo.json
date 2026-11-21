@@ -5,14 +5,27 @@
  "author": "cohencoo",
  "source": "https://uiverse.io/cohencoo/proud-husky-84",
  "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Rounded amber text input that lights up when focused.",
+ "howItWorks": "On focus, background-color changes from #e2e2e2 to #fff.",
  "tags": [
+  "amber",
+  "rounded",
+  "flat",
+  "text-input",
   "input",
-  "focus",
-  "css"
+  "focus"
  ],
- "html": "<input type=\"text\" placeholder=\"Write here...\" name=\"text\" class=\"input\">",
- "css": "/* From Uiverse.io by cohencoo - Tags: input */\n.input {\n  border-radius: 10px;\n  outline: 2px solid #FEBF00;\n  border: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n  background-color: #e2e2e2;\n  outline-offset: 3px;\n  padding: 10px 1rem;\n  transition: 0.25s;\n}\n\n.input:focus {\n  outline-offset: 5px;\n  background-color: #fff\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Proud Husky 84</title>\n<style>\n/* From Uiverse.io by cohencoo - https://uiverse.io/cohencoo/proud-husky-84 */\n/* From Uiverse.io by cohencoo - Tags: input */\n.input {\n  border-radius: 10px;\n  outline: 2px solid #FEBF00;\n  border: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n  background-color: #e2e2e2;\n  outline-offset: 3px;\n  padding: 10px 1rem;\n  transition: 0.25s;\n}\n\n.input:focus {\n  outline-offset: 5px;\n  background-color: #fff\n}\n</style>\n</head>\n<body>\n<input type=\"text\" placeholder=\"Write here...\" name=\"text\" class=\"input\">\n</body>\n</html>\n"
+ "colors": [
+  "#febf00",
+  "#e2e2e2",
+  "#ffffff"
+ ],
+ "fonts": [
+  "-apple-system"
+ ],
+ "tokens": 186,
+ "size": 745,
+ "html": "<input type=\"text\" placeholder=\"Write here...\" name=\"text\" class=\"input\">\n",
+ "css": "/* Proud Husky 84 by cohencoo — https://uiverse.io/cohencoo/proud-husky-84 */\n.input {\n  border-radius: 10px;\n  outline: 2px solid #FEBF00;\n  border: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n  background-color: #e2e2e2;\n  outline-offset: 3px;\n  padding: 10px 1rem;\n  transition: 0.25s;\n}\n\n.input:focus {\n  outline-offset: 5px;\n  background-color: #fff\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Proud Husky 84</title>\n<style>\n/* Proud Husky 84 by cohencoo — https://uiverse.io/cohencoo/proud-husky-84 */\n.input {\n  border-radius: 10px;\n  outline: 2px solid #FEBF00;\n  border: 0;\n  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\n  background-color: #e2e2e2;\n  outline-offset: 3px;\n  padding: 10px 1rem;\n  transition: 0.25s;\n}\n\n.input:focus {\n  outline-offset: 5px;\n  background-color: #fff\n}\n</style>\n</head>\n<body>\n<input type=\"text\" placeholder=\"Write here...\" name=\"text\" class=\"input\">\n\n</body>\n</html>\n"
 }

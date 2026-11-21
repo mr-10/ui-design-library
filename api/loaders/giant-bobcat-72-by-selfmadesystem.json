@@ -5,14 +5,24 @@
  "author": "SelfMadeSystem",
  "source": "https://uiverse.io/SelfMadeSystem/giant-bobcat-72",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill red loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (rotating, sliding).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "red",
+  "teal",
+  "rounded",
+  "pill",
+  "flat",
+  "spin"
  ],
- "html": "<svg style=\"position: absolute; width: 0; height: 0;\">\n  <filter id=\"goo\">\n  <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"12\"></feGaussianBlur>\n  <feColorMatrix values=\"0 0 0 0 0 \n            0 0 0 0 0 \n            0 0 0 0 0 \n            0 0 0 48 -7\"></feColorMatrix>\n</filter>\n</svg>\n\n<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by SelfMadeSystem - Tags: loader */\n.loader {\n  width: 12em;\n  height: 3em;\n  position: relative;\n  overflow: hidden;\n  border-bottom: 8px solid #000;\n  filter: url(#goo);\n}\n\n.loader::before {\n  content: '';\n  width: 22em;\n  height: 18em;\n  background: #f00;\n  position: absolute;\n  border-radius: 50%;\n  left: -2em;\n  bottom: -18em;\n  animation: wee1 2s linear infinite;\n}\n\n.loader::after {\n  content: '';\n  width: 16em;\n  height: 12em;\n  background: #0ff;\n  position: absolute;\n  border-radius: 50%;\n  left: -4em;\n  bottom: -12em;\n  animation: wee2 2s linear infinite 0.75s;\n}\n\n@keyframes wee1 {\n  0% {\n    transform: translateX(-10em) rotate(0deg);\n  }\n\n  100% {\n    transform: translateX(7em) rotate(180deg);\n  }\n}\n\n@keyframes wee2 {\n  0% {\n    transform: translateX(-8em) rotate(0deg);\n  }\n\n  100% {\n    transform: translateX(8em) rotate(180deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Bobcat 72</title>\n<style>\n/* From Uiverse.io by SelfMadeSystem - https://uiverse.io/SelfMadeSystem/giant-bobcat-72 */\n/* From Uiverse.io by SelfMadeSystem - Tags: loader */\n.loader {\n  width: 12em;\n  height: 3em;\n  position: relative;\n  overflow: hidden;\n  border-bottom: 8px solid #000;\n  filter: url(#goo);\n}\n\n.loader::before {\n  content: '';\n  width: 22em;\n  height: 18em;\n  background: #f00;\n  position: absolute;\n  border-radius: 50%;\n  left: -2em;\n  bottom: -18em;\n  animation: wee1 2s linear infinite;\n}\n\n.loader::after {\n  content: '';\n  width: 16em;\n  height: 12em;\n  background: #0ff;\n  position: absolute;\n  border-radius: 50%;\n  left: -4em;\n  bottom: -12em;\n  animation: wee2 2s linear infinite 0.75s;\n}\n\n@keyframes wee1 {\n  0% {\n    transform: translateX(-10em) rotate(0deg);\n  }\n\n  100% {\n    transform: translateX(7em) rotate(180deg);\n  }\n}\n\n@keyframes wee2 {\n  0% {\n    transform: translateX(-8em) rotate(0deg);\n  }\n\n  100% {\n    transform: translateX(8em) rotate(180deg);\n  }\n}\n</style>\n</head>\n<body>\n<svg style=\"position: absolute; width: 0; height: 0;\">\n  <filter id=\"goo\">\n  <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"12\"></feGaussianBlur>\n  <feColorMatrix values=\"0 0 0 0 0 \n            0 0 0 0 0 \n            0 0 0 0 0 \n            0 0 0 48 -7\"></feColorMatrix>\n</filter>\n</svg>\n\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff0000",
+  "#00ffff"
+ ],
+ "fonts": [],
+ "tokens": 360,
+ "size": 1444,
+ "html": "<svg style=\"position: absolute; width: 0; height: 0;\">\n  <filter id=\"goo\">\n  <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"12\"></feGaussianBlur>\n  <feColorMatrix values=\"0 0 0 0 0\n            0 0 0 0 0\n            0 0 0 0 0\n            0 0 0 48 -7\"></feColorMatrix>\n</filter>\n</svg>\n\n<div class=\"loader\"></div>\n",
+ "css": "/* Giant Bobcat 72 by SelfMadeSystem — https://uiverse.io/SelfMadeSystem/giant-bobcat-72 */\n.loader {\n  width: 12em;\n  height: 3em;\n  position: relative;\n  overflow: hidden;\n  border-bottom: 8px solid #000;\n  filter: url(#goo);\n}\n\n.loader::before {\n  content: '';\n  width: 22em;\n  height: 18em;\n  background: #f00;\n  position: absolute;\n  border-radius: 50%;\n  left: -2em;\n  bottom: -18em;\n  animation: wee1 2s linear infinite;\n}\n\n.loader::after {\n  content: '';\n  width: 16em;\n  height: 12em;\n  background: #0ff;\n  position: absolute;\n  border-radius: 50%;\n  left: -4em;\n  bottom: -12em;\n  animation: wee2 2s linear infinite 0.75s;\n}\n\n@keyframes wee1 {\n  0% {\n    transform: translateX(-10em) rotate(0deg);\n  }\n\n  100% {\n    transform: translateX(7em) rotate(180deg);\n  }\n}\n\n@keyframes wee2 {\n  0% {\n    transform: translateX(-8em) rotate(0deg);\n  }\n\n  100% {\n    transform: translateX(8em) rotate(180deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Bobcat 72</title>\n<style>\n/* Giant Bobcat 72 by SelfMadeSystem — https://uiverse.io/SelfMadeSystem/giant-bobcat-72 */\n.loader {\n  width: 12em;\n  height: 3em;\n  position: relative;\n  overflow: hidden;\n  border-bottom: 8px solid #000;\n  filter: url(#goo);\n}\n\n.loader::before {\n  content: '';\n  width: 22em;\n  height: 18em;\n  background: #f00;\n  position: absolute;\n  border-radius: 50%;\n  left: -2em;\n  bottom: -18em;\n  animation: wee1 2s linear infinite;\n}\n\n.loader::after {\n  content: '';\n  width: 16em;\n  height: 12em;\n  background: #0ff;\n  position: absolute;\n  border-radius: 50%;\n  left: -4em;\n  bottom: -12em;\n  animation: wee2 2s linear infinite 0.75s;\n}\n\n@keyframes wee1 {\n  0% {\n    transform: translateX(-10em) rotate(0deg);\n  }\n\n  100% {\n    transform: translateX(7em) rotate(180deg);\n  }\n}\n\n@keyframes wee2 {\n  0% {\n    transform: translateX(-8em) rotate(0deg);\n  }\n\n  100% {\n    transform: translateX(8em) rotate(180deg);\n  }\n}\n</style>\n</head>\n<body>\n<svg style=\"position: absolute; width: 0; height: 0;\">\n  <filter id=\"goo\">\n  <feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"12\"></feGaussianBlur>\n  <feColorMatrix values=\"0 0 0 0 0\n            0 0 0 0 0\n            0 0 0 0 0\n            0 0 0 48 -7\"></feColorMatrix>\n</filter>\n</svg>\n\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

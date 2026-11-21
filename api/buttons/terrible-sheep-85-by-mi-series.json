@@ -5,15 +5,24 @@
  "author": "mi-series",
  "source": "https://uiverse.io/mi-series/terrible-sheep-85",
  "trigger": "hover",
- "description": "A button with minimalist and minimal styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "3d blue button that changes colour on hover.",
+ "howItWorks": "On hover, text color changes from #FBEAEB to #2F3C7E, transform becomes rotateX(-180deg).",
  "tags": [
+  "blue",
+  "3d",
+  "flat",
+  "color-change",
   "minimalist",
-  "button",
-  "minimal",
-  "hover"
+  "button"
  ],
- "html": "<button>\n  Hover Me\n</button>",
- "css": "/* From Uiverse.io by mi-series - Tags: minimalist, button, minimal */\nbutton {\n  width: 160px;\n  line-height: 40px;\n  font-weight: 500px;\n  font-size: 17px;\n  letter-spacing: 2px;\n  text-decoration: none;\n  text-transform: uppercase;\n  padding: 0;\n  background: #FBEAEB;\n  position: relative;\n  z-index: 2;\n  color: #FBEAEB;\n  perspective: 300px;\n  transform-style: preserve-3d;\n  border-radius: 6px;\n  border: none;\n}\n\nbutton:hover {\n  color: #2F3C7E;\n}\n\nbutton::after {\n  position: absolute;\n  content: \"\";\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  font-weight: 500px;\n  background: #2F3C7E;\n  border-radius: 6px;\n  z-index: -1;\n  transform-origin: center bottom;\n  transform: rotateX(0);\n  transition: all 0.3s ease;\n}\n\nbutton:hover::after {\n  transform: rotateX(-180deg);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Terrible Sheep 85</title>\n<style>\n/* From Uiverse.io by mi-series - https://uiverse.io/mi-series/terrible-sheep-85 */\n/* From Uiverse.io by mi-series - Tags: minimalist, button, minimal */\nbutton {\n  width: 160px;\n  line-height: 40px;\n  font-weight: 500px;\n  font-size: 17px;\n  letter-spacing: 2px;\n  text-decoration: none;\n  text-transform: uppercase;\n  padding: 0;\n  background: #FBEAEB;\n  position: relative;\n  z-index: 2;\n  color: #FBEAEB;\n  perspective: 300px;\n  transform-style: preserve-3d;\n  border-radius: 6px;\n  border: none;\n}\n\nbutton:hover {\n  color: #2F3C7E;\n}\n\nbutton::after {\n  position: absolute;\n  content: \"\";\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  font-weight: 500px;\n  background: #2F3C7E;\n  border-radius: 6px;\n  z-index: -1;\n  transform-origin: center bottom;\n  transform: rotateX(0);\n  transition: all 0.3s ease;\n}\n\nbutton:hover::after {\n  transform: rotateX(-180deg);\n}\n</style>\n</head>\n<body>\n<button>\n  Hover Me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#fbeaeb",
+  "#2f3c7e"
+ ],
+ "fonts": [],
+ "tokens": 263,
+ "size": 1054,
+ "html": "<button>\n  Hover Me\n</button>\n",
+ "css": "/* Terrible Sheep 85 by mi-series — https://uiverse.io/mi-series/terrible-sheep-85 */\nbutton {\n  width: 160px;\n  line-height: 40px;\n  font-weight: 500px;\n  font-size: 17px;\n  letter-spacing: 2px;\n  text-decoration: none;\n  text-transform: uppercase;\n  padding: 0;\n  background: #FBEAEB;\n  position: relative;\n  z-index: 2;\n  color: #FBEAEB;\n  perspective: 300px;\n  transform-style: preserve-3d;\n  border-radius: 6px;\n  border: none;\n}\n\nbutton:hover {\n  color: #2F3C7E;\n}\n\nbutton::after {\n  position: absolute;\n  content: \"\";\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  font-weight: 500px;\n  background: #2F3C7E;\n  border-radius: 6px;\n  z-index: -1;\n  transform-origin: center bottom;\n  transform: rotateX(0);\n  transition: all 0.3s ease;\n}\n\nbutton:hover::after {\n  transform: rotateX(-180deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Terrible Sheep 85</title>\n<style>\n/* Terrible Sheep 85 by mi-series — https://uiverse.io/mi-series/terrible-sheep-85 */\nbutton {\n  width: 160px;\n  line-height: 40px;\n  font-weight: 500px;\n  font-size: 17px;\n  letter-spacing: 2px;\n  text-decoration: none;\n  text-transform: uppercase;\n  padding: 0;\n  background: #FBEAEB;\n  position: relative;\n  z-index: 2;\n  color: #FBEAEB;\n  perspective: 300px;\n  transform-style: preserve-3d;\n  border-radius: 6px;\n  border: none;\n}\n\nbutton:hover {\n  color: #2F3C7E;\n}\n\nbutton::after {\n  position: absolute;\n  content: \"\";\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  font-weight: 500px;\n  background: #2F3C7E;\n  border-radius: 6px;\n  z-index: -1;\n  transform-origin: center bottom;\n  transform: rotateX(0);\n  transition: all 0.3s ease;\n}\n\nbutton:hover::after {\n  transform: rotateX(-180deg);\n}\n</style>\n</head>\n<body>\n<button>\n  Hover Me\n</button>\n\n</body>\n</html>\n"
 }

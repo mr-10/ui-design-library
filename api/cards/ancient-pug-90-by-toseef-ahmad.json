@@ -5,14 +5,24 @@
  "author": "Toseef-Ahmad",
  "source": "https://uiverse.io/Toseef-Ahmad/ancient-pug-90",
  "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Neon amber card with soft shadow with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "amber",
+  "neon",
   "card",
   "static",
   "css"
  ],
- "html": "<div class=\"card\">\n  <p>Write here</p>\n</div>\n<svg class=\"filter\">\n  <filter id=\"wavy2\">\n    <feTurbulence x=\"0\" y=\"0\" baseFrequency=\"0.02\" numOctaves=\"5\" seed=\"1\"></feTurbulence>\n    <feDisplacementMap in=\"SourceGraphic\" scale=\"20\"></feDisplacementMap>\n  </filter>\n</svg>",
- "css": "/* From Uiverse.io by Toseef-Ahmad - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  display: flex;\n  padding: 2em;\n  box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;\n  background: #fffef0;\n  filter: url(#wavy2);\n}\n\n.card p {\n  color: black;\n  font-size: 3rem;\n  align-items: center;\n}\n\n.filter {\n  display: none;\n  position: absolute;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Pug 90</title>\n<style>\n/* From Uiverse.io by Toseef-Ahmad - https://uiverse.io/Toseef-Ahmad/ancient-pug-90 */\n/* From Uiverse.io by Toseef-Ahmad - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  display: flex;\n  padding: 2em;\n  box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;\n  background: #fffef0;\n  filter: url(#wavy2);\n}\n\n.card p {\n  color: black;\n  font-size: 3rem;\n  align-items: center;\n}\n\n.filter {\n  display: none;\n  position: absolute;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <p>Write here</p>\n</div>\n<svg class=\"filter\">\n  <filter id=\"wavy2\">\n    <feTurbulence x=\"0\" y=\"0\" baseFrequency=\"0.02\" numOctaves=\"5\" seed=\"1\"></feTurbulence>\n    <feDisplacementMap in=\"SourceGraphic\" scale=\"20\"></feDisplacementMap>\n  </filter>\n</svg>\n</body>\n</html>\n"
+ "colors": [
+  "#8a4d0f",
+  "#fffef0",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 219,
+ "size": 877,
+ "html": "<div class=\"card\">\n  <p>Write here</p>\n</div>\n<svg class=\"filter\">\n  <filter id=\"wavy2\">\n    <feTurbulence x=\"0\" y=\"0\" baseFrequency=\"0.02\" numOctaves=\"5\" seed=\"1\"></feTurbulence>\n    <feDisplacementMap in=\"SourceGraphic\" scale=\"20\"></feDisplacementMap>\n  </filter>\n</svg>\n",
+ "css": "/* Ancient Pug 90 by Toseef-Ahmad — https://uiverse.io/Toseef-Ahmad/ancient-pug-90 */\n.card {\n  width: 190px;\n  height: 254px;\n  display: flex;\n  padding: 2em;\n  box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;\n  background: #fffef0;\n  filter: url(#wavy2);\n}\n\n.card p {\n  color: black;\n  font-size: 3rem;\n  align-items: center;\n}\n\n.filter {\n  display: none;\n  position: absolute;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Pug 90</title>\n<style>\n/* Ancient Pug 90 by Toseef-Ahmad — https://uiverse.io/Toseef-Ahmad/ancient-pug-90 */\n.card {\n  width: 190px;\n  height: 254px;\n  display: flex;\n  padding: 2em;\n  box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;\n  background: #fffef0;\n  filter: url(#wavy2);\n}\n\n.card p {\n  color: black;\n  font-size: 3rem;\n  align-items: center;\n}\n\n.filter {\n  display: none;\n  position: absolute;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <p>Write here</p>\n</div>\n<svg class=\"filter\">\n  <filter id=\"wavy2\">\n    <feTurbulence x=\"0\" y=\"0\" baseFrequency=\"0.02\" numOctaves=\"5\" seed=\"1\"></feTurbulence>\n    <feDisplacementMap in=\"SourceGraphic\" scale=\"20\"></feDisplacementMap>\n  </filter>\n</svg>\n\n</body>\n</html>\n"
 }

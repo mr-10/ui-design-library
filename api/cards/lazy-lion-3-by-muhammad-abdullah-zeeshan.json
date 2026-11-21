@@ -5,14 +5,24 @@
  "author": "Muhammad-Abdullah-Zeeshan",
  "source": "https://uiverse.io/Muhammad-Abdullah-Zeeshan/lazy-lion-3",
  "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Rounded sky-blue card with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "blue",
+  "rounded",
+  "flat",
   "card",
   "static",
   "css"
  ],
- "html": "<div class=\"card\"></div>",
- "css": "/* From Uiverse.io by Muhammad-Abdullah-Zeeshan - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background: rgb(50, 126, 224);\n border-radius: 40px 0 40px 0;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lazy Lion 3</title>\n<style>\n/* From Uiverse.io by Muhammad-Abdullah-Zeeshan - https://uiverse.io/Muhammad-Abdullah-Zeeshan/lazy-lion-3 */\n/* From Uiverse.io by Muhammad-Abdullah-Zeeshan - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background: rgb(50, 126, 224);\n border-radius: 40px 0 40px 0;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#327ee0",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 111,
+ "size": 447,
+ "html": "<div class=\"card\"></div>\n",
+ "css": "/* Lazy Lion 3 by Muhammad-Abdullah-Zeeshan — https://uiverse.io/Muhammad-Abdullah-Zeeshan/lazy-lion-3 */\n.card {\n width: 190px;\n height: 254px;\n background: rgb(50, 126, 224);\n border-radius: 40px 0 40px 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lazy Lion 3</title>\n<style>\n/* Lazy Lion 3 by Muhammad-Abdullah-Zeeshan — https://uiverse.io/Muhammad-Abdullah-Zeeshan/lazy-lion-3 */\n.card {\n width: 190px;\n height: 254px;\n background: rgb(50, 126, 224);\n border-radius: 40px 0 40px 0;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n\n</body>\n</html>\n"
 }

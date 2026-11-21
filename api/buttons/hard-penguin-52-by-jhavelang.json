@@ -5,16 +5,25 @@
  "author": "JhaveLang",
  "source": "https://uiverse.io/JhaveLang/hard-penguin-52",
  "trigger": "hover",
- "description": "A button with simple, animation and simple-button styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded light red button that changes colour on hover.",
+ "howItWorks": "On hover, background changes from linear-gradient(\n    115deg,\n    #fbd5d5 20%,\n    #f8b4b4 41%,\n    #fce96a 100%\n  ) to linear-gradient(\n    115deg,\n    #fce96a 0%,\n    #fbd5d5 37%,\n    #f8b4b4 100%\n  ).",
  "tags": [
-  "simple",
-  "animation",
-  "simple-button",
-  "buttons",
-  "hover"
+  "red",
+  "yellow",
+  "gradient",
+  "rounded",
+  "color-change",
+  "bounce"
  ],
- "html": "<button class=\"button\">Enter</button>",
- "css": "/* From Uiverse.io by JhaveLang  - Tags: simple, animation, simple button */\n.button {\n  font-weight: 600;\n  padding: 1em 4em 1em 4em;\n  border-radius: 4em;\n  border: 0;\n  background: rgb(251, 213, 213);\n  background: linear-gradient(\n    115deg,\n    rgba(251, 213, 213, 1) 20%,\n    rgba(248, 180, 180, 1) 41%,\n    rgba(252, 233, 106, 1) 100%\n  );\n  cursor: pointer;\n  box-shadow: 0em 0em 0em 0.3em rgb(251, 213, 213);\n  transition: background 0.3s ease;\n}\n.button:hover {\n  background: rgb(252, 233, 106);\n  background: linear-gradient(\n    115deg,\n    rgba(252, 233, 106, 1) 0%,\n    rgba(251, 213, 213, 1) 37%,\n    rgba(248, 180, 180, 1) 100%\n  );\n}\n.button:hover {\n  background: rgb(252, 233, 106);\n  background: linear-gradient(\n    115deg,\n    rgba(252, 233, 106, 1) 0%,\n    rgba(251, 213, 213, 1) 37%,\n    rgba(248, 180, 180, 1) 100%\n  );\n}\n\n@keyframes bounce {\n  0%,\n  20%,\n  50%,\n  80%,\n  100% {\n    transform: translateY(0);\n  }\n  40% {\n    transform: translateY(-10px);\n  }\n  60% {\n    transform: translateY(-5px);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Penguin 52</title>\n<style>\n/* From Uiverse.io by JhaveLang - https://uiverse.io/JhaveLang/hard-penguin-52 */\n/* From Uiverse.io by JhaveLang  - Tags: simple, animation, simple button */\n.button {\n  font-weight: 600;\n  padding: 1em 4em 1em 4em;\n  border-radius: 4em;\n  border: 0;\n  background: rgb(251, 213, 213);\n  background: linear-gradient(\n    115deg,\n    rgba(251, 213, 213, 1) 20%,\n    rgba(248, 180, 180, 1) 41%,\n    rgba(252, 233, 106, 1) 100%\n  );\n  cursor: pointer;\n  box-shadow: 0em 0em 0em 0.3em rgb(251, 213, 213);\n  transition: background 0.3s ease;\n}\n.button:hover {\n  background: rgb(252, 233, 106);\n  background: linear-gradient(\n    115deg,\n    rgba(252, 233, 106, 1) 0%,\n    rgba(251, 213, 213, 1) 37%,\n    rgba(248, 180, 180, 1) 100%\n  );\n}\n.button:hover {\n  background: rgb(252, 233, 106);\n  background: linear-gradient(\n    115deg,\n    rgba(252, 233, 106, 1) 0%,\n    rgba(251, 213, 213, 1) 37%,\n    rgba(248, 180, 180, 1) 100%\n  );\n}\n\n@keyframes bounce {\n  0%,\n  20%,\n  50%,\n  80%,\n  100% {\n    transform: translateY(0);\n  }\n  40% {\n    transform: translateY(-10px);\n  }\n  60% {\n    transform: translateY(-5px);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Enter</button>\n</body>\n</html>\n"
+ "colors": [
+  "#fbd5d5",
+  "#f8b4b4",
+  "#fce96a"
+ ],
+ "fonts": [],
+ "tokens": 322,
+ "size": 1290,
+ "html": "<button class=\"button\">Enter</button>\n",
+ "css": "/* Hard Penguin 52 by JhaveLang — https://uiverse.io/JhaveLang/hard-penguin-52 */\n.button {\n  font-weight: 600;\n  padding: 1em 4em 1em 4em;\n  border-radius: 4em;\n  border: 0;\n  background: rgb(251, 213, 213);\n  background: linear-gradient(\n    115deg,\n    rgba(251, 213, 213, 1) 20%,\n    rgba(248, 180, 180, 1) 41%,\n    rgba(252, 233, 106, 1) 100%\n  );\n  cursor: pointer;\n  box-shadow: 0em 0em 0em 0.3em rgb(251, 213, 213);\n  transition: background 0.3s ease;\n}\n.button:hover {\n  background: rgb(252, 233, 106);\n  background: linear-gradient(\n    115deg,\n    rgba(252, 233, 106, 1) 0%,\n    rgba(251, 213, 213, 1) 37%,\n    rgba(248, 180, 180, 1) 100%\n  );\n}\n.button:hover {\n  background: rgb(252, 233, 106);\n  background: linear-gradient(\n    115deg,\n    rgba(252, 233, 106, 1) 0%,\n    rgba(251, 213, 213, 1) 37%,\n    rgba(248, 180, 180, 1) 100%\n  );\n}\n\n@keyframes bounce {\n  0%,\n  20%,\n  50%,\n  80%,\n  100% {\n    transform: translateY(0);\n  }\n  40% {\n    transform: translateY(-10px);\n  }\n  60% {\n    transform: translateY(-5px);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Penguin 52</title>\n<style>\n/* Hard Penguin 52 by JhaveLang — https://uiverse.io/JhaveLang/hard-penguin-52 */\n.button {\n  font-weight: 600;\n  padding: 1em 4em 1em 4em;\n  border-radius: 4em;\n  border: 0;\n  background: rgb(251, 213, 213);\n  background: linear-gradient(\n    115deg,\n    rgba(251, 213, 213, 1) 20%,\n    rgba(248, 180, 180, 1) 41%,\n    rgba(252, 233, 106, 1) 100%\n  );\n  cursor: pointer;\n  box-shadow: 0em 0em 0em 0.3em rgb(251, 213, 213);\n  transition: background 0.3s ease;\n}\n.button:hover {\n  background: rgb(252, 233, 106);\n  background: linear-gradient(\n    115deg,\n    rgba(252, 233, 106, 1) 0%,\n    rgba(251, 213, 213, 1) 37%,\n    rgba(248, 180, 180, 1) 100%\n  );\n}\n.button:hover {\n  background: rgb(252, 233, 106);\n  background: linear-gradient(\n    115deg,\n    rgba(252, 233, 106, 1) 0%,\n    rgba(251, 213, 213, 1) 37%,\n    rgba(248, 180, 180, 1) 100%\n  );\n}\n\n@keyframes bounce {\n  0%,\n  20%,\n  50%,\n  80%,\n  100% {\n    transform: translateY(0);\n  }\n  40% {\n    transform: translateY(-10px);\n  }\n  60% {\n    transform: translateY(-5px);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Enter</button>\n\n</body>\n</html>\n"
 }

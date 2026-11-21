@@ -5,16 +5,25 @@
  "author": "Lmickk2",
  "source": "https://uiverse.io/Lmickk2/selfish-cougar-98",
  "trigger": "checked",
- "description": "A toggle switch with switch, light and toggle styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Rounded green toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: background-color changes to #59c76b, transform becomes translateX(2.5em). On focus, box-shadow becomes inset 3px 2px 4px #161616.",
  "tags": [
+  "green",
+  "rounded",
+  "toggle-switch",
   "switch",
   "light",
-  "toggle",
-  "toggle-switches",
-  "checked"
+  "toggle"
  ],
- "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>",
- "css": "/* From Uiverse.io by Lmickk2 - Tags: switch, light, toggle */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 4.5em;\n  height: 2em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  box-shadow: inset 1px 2px 5px 1px rgba(0, 0, 0, 0.329);\n  transition: .4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: rgb(255, 255, 255);\n  transition: .4s;\n}\n\n.switch input:checked + .slider {\n  background-color: #59c76b;\n}\n\n.switch input:focus + .slider {\n  box-shadow: inset 3px 2px 4px rgba(22, 22, 22, 0.253);\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(2.5em);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Cougar 98</title>\n<style>\n/* From Uiverse.io by Lmickk2 - https://uiverse.io/Lmickk2/selfish-cougar-98 */\n/* From Uiverse.io by Lmickk2 - Tags: switch, light, toggle */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 4.5em;\n  height: 2em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  box-shadow: inset 1px 2px 5px 1px rgba(0, 0, 0, 0.329);\n  transition: .4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: rgb(255, 255, 255);\n  transition: .4s;\n}\n\n.switch input:checked + .slider {\n  background-color: #59c76b;\n}\n\n.switch input:focus + .slider {\n  box-shadow: inset 3px 2px 4px rgba(22, 22, 22, 0.253);\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(2.5em);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#59c76b",
+  "#161616",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 298,
+ "size": 1194,
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n",
+ "css": "/* Selfish Cougar 98 by Lmickk2 — https://uiverse.io/Lmickk2/selfish-cougar-98 */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 4.5em;\n  height: 2em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  box-shadow: inset 1px 2px 5px 1px rgba(0, 0, 0, 0.329);\n  transition: .4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: rgb(255, 255, 255);\n  transition: .4s;\n}\n\n.switch input:checked + .slider {\n  background-color: #59c76b;\n}\n\n.switch input:focus + .slider {\n  box-shadow: inset 3px 2px 4px rgba(22, 22, 22, 0.253);\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(2.5em);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Cougar 98</title>\n<style>\n/* Selfish Cougar 98 by Lmickk2 — https://uiverse.io/Lmickk2/selfish-cougar-98 */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 4.5em;\n  height: 2em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  box-shadow: inset 1px 2px 5px 1px rgba(0, 0, 0, 0.329);\n  transition: .4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: rgb(255, 255, 255);\n  transition: .4s;\n}\n\n.switch input:checked + .slider {\n  background-color: #59c76b;\n}\n\n.switch input:focus + .slider {\n  box-shadow: inset 3px 2px 4px rgba(22, 22, 22, 0.253);\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(2.5em);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n\n</body>\n</html>\n"
 }

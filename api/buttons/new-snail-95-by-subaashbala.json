@@ -5,16 +5,25 @@
  "author": "Subaashbala",
  "source": "https://uiverse.io/Subaashbala/new-snail-95",
  "trigger": "hover",
- "description": "A button with animation, animated and stripe styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient amber button that reacts on hover with a smooth transition.",
+ "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
+  "amber",
+  "orange",
+  "gradient",
+  "shimmer",
   "animation",
-  "button",
-  "animated",
-  "stripe",
-  "hover"
+  "button"
  ],
- "html": "<button class=\"button\">\n  <div>Hover</div>\n</button>",
- "css": "/* From Uiverse.io by Subaashbala  - Tags: animation, button, animated, stripe */\n.button {\n  cursor: pointer;\n  font-size: 1.25em;\n  padding: 1em 2em;\n  border-radius: 5px;\n  border: none;\n  position: relative;\n  font-weight: 900;\n  background: repeating-linear-gradient(\n    45deg,\n    rgb(255, 209, 124),\n    rgb(255, 209, 124) 10px,\n    rgb(255, 139, 97) 10px,\n    rgb(255, 139, 97) 20px\n  );\n  animation: move 500ms infinite linear forwards;\n  animation-play-state: paused;\n  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.199);\n}\n.button:hover {\n  animation-play-state: running;\n}\n@keyframes move {\n  from {\n    background-position: 0;\n  }\n  to {\n    background-position: 30px;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>New Snail 95</title>\n<style>\n/* From Uiverse.io by Subaashbala - https://uiverse.io/Subaashbala/new-snail-95 */\n/* From Uiverse.io by Subaashbala  - Tags: animation, button, animated, stripe */\n.button {\n  cursor: pointer;\n  font-size: 1.25em;\n  padding: 1em 2em;\n  border-radius: 5px;\n  border: none;\n  position: relative;\n  font-weight: 900;\n  background: repeating-linear-gradient(\n    45deg,\n    rgb(255, 209, 124),\n    rgb(255, 209, 124) 10px,\n    rgb(255, 139, 97) 10px,\n    rgb(255, 139, 97) 20px\n  );\n  animation: move 500ms infinite linear forwards;\n  animation-play-state: paused;\n  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.199);\n}\n.button:hover {\n  animation-play-state: running;\n}\n@keyframes move {\n  from {\n    background-position: 0;\n  }\n  to {\n    background-position: 30px;\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <div>Hover</div>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffd17c",
+  "#ff8b61",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 236,
+ "size": 948,
+ "html": "<button class=\"button\">\n  <div>Hover</div>\n</button>\n",
+ "css": "/* New Snail 95 by Subaashbala — https://uiverse.io/Subaashbala/new-snail-95 */\n.button {\n  cursor: pointer;\n  font-size: 1.25em;\n  padding: 1em 2em;\n  border-radius: 5px;\n  border: none;\n  position: relative;\n  font-weight: 900;\n  background: repeating-linear-gradient(\n    45deg,\n    rgb(255, 209, 124),\n    rgb(255, 209, 124) 10px,\n    rgb(255, 139, 97) 10px,\n    rgb(255, 139, 97) 20px\n  );\n  animation: move 500ms infinite linear forwards;\n  animation-play-state: paused;\n  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.199);\n}\n.button:hover {\n  animation-play-state: running;\n}\n@keyframes move {\n  from {\n    background-position: 0;\n  }\n  to {\n    background-position: 30px;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>New Snail 95</title>\n<style>\n/* New Snail 95 by Subaashbala — https://uiverse.io/Subaashbala/new-snail-95 */\n.button {\n  cursor: pointer;\n  font-size: 1.25em;\n  padding: 1em 2em;\n  border-radius: 5px;\n  border: none;\n  position: relative;\n  font-weight: 900;\n  background: repeating-linear-gradient(\n    45deg,\n    rgb(255, 209, 124),\n    rgb(255, 209, 124) 10px,\n    rgb(255, 139, 97) 10px,\n    rgb(255, 139, 97) 20px\n  );\n  animation: move 500ms infinite linear forwards;\n  animation-play-state: paused;\n  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.199);\n}\n.button:hover {\n  animation-play-state: running;\n}\n@keyframes move {\n  from {\n    background-position: 0;\n  }\n  to {\n    background-position: 30px;\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <div>Hover</div>\n</button>\n\n</body>\n</html>\n"
 }

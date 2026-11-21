@@ -5,15 +5,24 @@
  "author": "SteveBloX",
  "source": "https://uiverse.io/SteveBloX/dangerous-warthog-85",
  "trigger": "hover",
- "description": "A card with glassmorphism and active styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Glass rounded gray card that scales up on hover.",
+ "howItWorks": "On hover, border becomes 1px solid #000000, transform becomes scale(1.05).",
  "tags": [
   "glassmorphism",
+  "rounded",
+  "scale",
   "card",
-  "hover",
-  "active"
+  "hover"
  ],
- "html": "<div class=\"card\">\n  Click me\n</div>",
- "css": "/* From Uiverse.io by SteveBloX - Tags: glassmorphism, card, hover, active */\n.card {\n  box-sizing: border-box;\n  width: 190px;\n  height: 254px;\n  background: rgba(217, 217, 217, 0.58);\n  border: 1px solid white;\n  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);\n  backdrop-filter: blur(6px);\n  border-radius: 17px;\n  text-align: center;\n  cursor: pointer;\n  transition: all 0.5s;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  user-select: none;\n  font-weight: bolder;\n  color: black;\n}\n\n.card:hover {\n  border: 1px solid black;\n  transform: scale(1.05);\n}\n\n.card:active {\n  transform: scale(0.95) rotateZ(1.7deg);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dangerous Warthog 85</title>\n<style>\n/* From Uiverse.io by SteveBloX - https://uiverse.io/SteveBloX/dangerous-warthog-85 */\n/* From Uiverse.io by SteveBloX - Tags: glassmorphism, card, hover, active */\n.card {\n  box-sizing: border-box;\n  width: 190px;\n  height: 254px;\n  background: rgba(217, 217, 217, 0.58);\n  border: 1px solid white;\n  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);\n  backdrop-filter: blur(6px);\n  border-radius: 17px;\n  text-align: center;\n  cursor: pointer;\n  transition: all 0.5s;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  user-select: none;\n  font-weight: bolder;\n  color: black;\n}\n\n.card:hover {\n  border: 1px solid black;\n  transform: scale(1.05);\n}\n\n.card:active {\n  transform: scale(0.95) rotateZ(1.7deg);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  Click me\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#d9d9d9",
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 228,
+ "size": 912,
+ "html": "<div class=\"card\">\n  Click me\n</div>\n",
+ "css": "/* Dangerous Warthog 85 by SteveBloX — https://uiverse.io/SteveBloX/dangerous-warthog-85 */\n.card {\n  box-sizing: border-box;\n  width: 190px;\n  height: 254px;\n  background: rgba(217, 217, 217, 0.58);\n  border: 1px solid white;\n  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);\n  backdrop-filter: blur(6px);\n  border-radius: 17px;\n  text-align: center;\n  cursor: pointer;\n  transition: all 0.5s;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  user-select: none;\n  font-weight: bolder;\n  color: black;\n}\n\n.card:hover {\n  border: 1px solid black;\n  transform: scale(1.05);\n}\n\n.card:active {\n  transform: scale(0.95) rotateZ(1.7deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dangerous Warthog 85</title>\n<style>\n/* Dangerous Warthog 85 by SteveBloX — https://uiverse.io/SteveBloX/dangerous-warthog-85 */\n.card {\n  box-sizing: border-box;\n  width: 190px;\n  height: 254px;\n  background: rgba(217, 217, 217, 0.58);\n  border: 1px solid white;\n  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);\n  backdrop-filter: blur(6px);\n  border-radius: 17px;\n  text-align: center;\n  cursor: pointer;\n  transition: all 0.5s;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  user-select: none;\n  font-weight: bolder;\n  color: black;\n}\n\n.card:hover {\n  border: 1px solid black;\n  transform: scale(1.05);\n}\n\n.card:active {\n  transform: scale(0.95) rotateZ(1.7deg);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  Click me\n</div>\n\n</body>\n</html>\n"
 }

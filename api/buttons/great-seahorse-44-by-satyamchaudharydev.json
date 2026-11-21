@@ -5,15 +5,25 @@
  "author": "satyamchaudharydev",
  "source": "https://uiverse.io/satyamchaudharydev/great-seahorse-44",
  "trigger": "hover",
- "description": "A button with icon and 3d-button styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded dark purple button that reacts on hover.",
+ "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
-  "icon",
-  "button",
-  "3d-button",
-  "hover"
+  "purple",
+  "pink",
+  "gradient",
+  "rounded",
+  "flat",
+  "icon"
  ],
- "html": "<button class=\"button\">\n    <svg viewBox=\"0 0 36 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"m18 0 8 12 10-8-4 20H4L0 4l10 8 8-12z\"></path>\n    </svg>\n    Unlock Pro\n</button>",
- "css": "/* From Uiverse.io by satyamchaudharydev - Tags: icon, button, 3d button */\n/* inspired from this svgbackgrounds.com/ */\n.button {\n  width: fit-content;\n  display: flex;\n  padding: 0.8em 1.1em;\n  gap: 0.4rem;\n  border: none;\n  font-weight: bold;\n  border-radius: 30px;\n  text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);\n  background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;\n  background-size: 300%;\n  background-position: left center;\n  transition: background .3s ease;\n  color: #fff;\n}\n\n.button:hover {\n  background-size: 320%;\n  background-position: right center;\n}\n\n.button:hover svg {\n  fill: #fff;\n}\n\n.button svg {\n  width: 23px;\n  fill: #f09f33;\n  transition: .3s ease;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Great Seahorse 44</title>\n<style>\n/* From Uiverse.io by satyamchaudharydev - https://uiverse.io/satyamchaudharydev/great-seahorse-44 */\n/* From Uiverse.io by satyamchaudharydev - Tags: icon, button, 3d button */\n/* inspired from this svgbackgrounds.com/ */\n.button {\n  width: fit-content;\n  display: flex;\n  padding: 0.8em 1.1em;\n  gap: 0.4rem;\n  border: none;\n  font-weight: bold;\n  border-radius: 30px;\n  text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);\n  background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;\n  background-size: 300%;\n  background-position: left center;\n  transition: background .3s ease;\n  color: #fff;\n}\n\n.button:hover {\n  background-size: 320%;\n  background-position: right center;\n}\n\n.button:hover svg {\n  fill: #fff;\n}\n\n.button svg {\n  width: 23px;\n  fill: #f09f33;\n  transition: .3s ease;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n    <svg viewBox=\"0 0 36 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"m18 0 8 12 10-8-4 20H4L0 4l10 8 8-12z\"></path>\n    </svg>\n    Unlock Pro\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#880088",
+  "#aa2068",
+  "#cc3f47"
+ ],
+ "fonts": [],
+ "tokens": 285,
+ "size": 1141,
+ "html": "<button class=\"button\">\n    <svg viewBox=\"0 0 36 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"m18 0 8 12 10-8-4 20H4L0 4l10 8 8-12z\"></path>\n    </svg>\n    Unlock Pro\n</button>\n",
+ "css": "/* Great Seahorse 44 by satyamchaudharydev — https://uiverse.io/satyamchaudharydev/great-seahorse-44 */\n.button {\n  width: fit-content;\n  display: flex;\n  padding: 0.8em 1.1em;\n  gap: 0.4rem;\n  border: none;\n  font-weight: bold;\n  border-radius: 30px;\n  text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);\n  background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;\n  background-size: 300%;\n  background-position: left center;\n  transition: background .3s ease;\n  color: #fff;\n}\n\n.button:hover {\n  background-size: 320%;\n  background-position: right center;\n}\n\n.button:hover svg {\n  fill: #fff;\n}\n\n.button svg {\n  width: 23px;\n  fill: #f09f33;\n  transition: .3s ease;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Great Seahorse 44</title>\n<style>\n/* Great Seahorse 44 by satyamchaudharydev — https://uiverse.io/satyamchaudharydev/great-seahorse-44 */\n.button {\n  width: fit-content;\n  display: flex;\n  padding: 0.8em 1.1em;\n  gap: 0.4rem;\n  border: none;\n  font-weight: bold;\n  border-radius: 30px;\n  text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);\n  background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;\n  background-size: 300%;\n  background-position: left center;\n  transition: background .3s ease;\n  color: #fff;\n}\n\n.button:hover {\n  background-size: 320%;\n  background-position: right center;\n}\n\n.button:hover svg {\n  fill: #fff;\n}\n\n.button svg {\n  width: 23px;\n  fill: #f09f33;\n  transition: .3s ease;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n    <svg viewBox=\"0 0 36 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"m18 0 8 12 10-8-4 20H4L0 4l10 8 8-12z\"></path>\n    </svg>\n    Unlock Pro\n</button>\n\n</body>\n</html>\n"
 }

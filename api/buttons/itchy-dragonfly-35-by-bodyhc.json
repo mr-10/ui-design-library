@@ -5,16 +5,27 @@
  "author": "Bodyhc",
  "source": "https://uiverse.io/Bodyhc/itchy-dragonfly-35",
  "trigger": "hover",
- "description": "A button with bootsrap-button, business and 3d-button styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded violet button that changes colour on hover.",
+ "howItWorks": "On hover, text color changes from #560bad to #fff, bottom becomes -30px, left becomes -30px.",
  "tags": [
-  "button",
-  "bootsrap-button",
-  "business",
-  "3d-button",
-  "hover"
+  "violet",
+  "indigo",
+  "rounded",
+  "flat",
+  "color-change",
+  "button"
  ],
- "html": "<button class=\"button\">\n  CLICK ME\n</button>",
- "css": "/* From Uiverse.io by Bodyhc - Tags: button, bootsrap button, business, 3d button */\nbutton {\n  --color: #560bad;\n  background-color: #fff;\n  font-family: inherit;\n  display: inline-block;\n  width: 8em;\n  height: 2.6em;\n  line-height: 2.5em;\n  margin: 20px;\n  position: relative;\n  overflow: hidden;\n  border: 2px solid var(--color);\n  transition: color .5s;\n  z-index: 1;\n  font-size: 17px;\n  border-radius: 6px;\n  font-weight: 500;\n  cursor: pointer;\n  color: var(--color);\n}\n\nbutton:before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  background: var(--color);\n  height: 150px;\n  width: 200px;\n  border-radius: 50px;\n  bottom: 100%;\n  right: 100%;\n  transition: .8s ease;\n}\n\nbutton:hover {\n  color: #fff;\n}\n\nbutton:hover:before {\n  bottom: -30px;\n  left: -30px;\n}\n\nbutton:active:before {\n  background: #3a0ca3;\n  transition: background 2s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Itchy Dragonfly 35</title>\n<style>\n/* From Uiverse.io by Bodyhc - https://uiverse.io/Bodyhc/itchy-dragonfly-35 */\n/* From Uiverse.io by Bodyhc - Tags: button, bootsrap button, business, 3d button */\nbutton {\n  --color: #560bad;\n  background-color: #fff;\n  font-family: inherit;\n  display: inline-block;\n  width: 8em;\n  height: 2.6em;\n  line-height: 2.5em;\n  margin: 20px;\n  position: relative;\n  overflow: hidden;\n  border: 2px solid var(--color);\n  transition: color .5s;\n  z-index: 1;\n  font-size: 17px;\n  border-radius: 6px;\n  font-weight: 500;\n  cursor: pointer;\n  color: var(--color);\n}\n\nbutton:before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  background: var(--color);\n  height: 150px;\n  width: 200px;\n  border-radius: 50px;\n  bottom: 100%;\n  right: 100%;\n  transition: .8s ease;\n}\n\nbutton:hover {\n  color: #fff;\n}\n\nbutton:hover:before {\n  bottom: -30px;\n  left: -30px;\n}\n\nbutton:active:before {\n  background: #3a0ca3;\n  transition: background 2s;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  CLICK ME\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#560bad",
+  "#3a0ca3",
+  "#ffffff"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 279,
+ "size": 1117,
+ "html": "<button class=\"button\">\n  CLICK ME\n</button>\n",
+ "css": "/* Itchy Dragonfly 35 by Bodyhc — https://uiverse.io/Bodyhc/itchy-dragonfly-35 */\nbutton {\n  --color: #560bad;\n  background-color: #fff;\n  font-family: inherit;\n  display: inline-block;\n  width: 8em;\n  height: 2.6em;\n  line-height: 2.5em;\n  margin: 20px;\n  position: relative;\n  overflow: hidden;\n  border: 2px solid var(--color);\n  transition: color .5s;\n  z-index: 1;\n  font-size: 17px;\n  border-radius: 6px;\n  font-weight: 500;\n  cursor: pointer;\n  color: var(--color);\n}\n\nbutton:before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  background: var(--color);\n  height: 150px;\n  width: 200px;\n  border-radius: 50px;\n  bottom: 100%;\n  right: 100%;\n  transition: .8s ease;\n}\n\nbutton:hover {\n  color: #fff;\n}\n\nbutton:hover:before {\n  bottom: -30px;\n  left: -30px;\n}\n\nbutton:active:before {\n  background: #3a0ca3;\n  transition: background 2s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Itchy Dragonfly 35</title>\n<style>\n/* Itchy Dragonfly 35 by Bodyhc — https://uiverse.io/Bodyhc/itchy-dragonfly-35 */\nbutton {\n  --color: #560bad;\n  background-color: #fff;\n  font-family: inherit;\n  display: inline-block;\n  width: 8em;\n  height: 2.6em;\n  line-height: 2.5em;\n  margin: 20px;\n  position: relative;\n  overflow: hidden;\n  border: 2px solid var(--color);\n  transition: color .5s;\n  z-index: 1;\n  font-size: 17px;\n  border-radius: 6px;\n  font-weight: 500;\n  cursor: pointer;\n  color: var(--color);\n}\n\nbutton:before {\n  content: \"\";\n  position: absolute;\n  z-index: -1;\n  background: var(--color);\n  height: 150px;\n  width: 200px;\n  border-radius: 50px;\n  bottom: 100%;\n  right: 100%;\n  transition: .8s ease;\n}\n\nbutton:hover {\n  color: #fff;\n}\n\nbutton:hover:before {\n  bottom: -30px;\n  left: -30px;\n}\n\nbutton:active:before {\n  background: #3a0ca3;\n  transition: background 2s;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  CLICK ME\n</button>\n\n</body>\n</html>\n"
 }

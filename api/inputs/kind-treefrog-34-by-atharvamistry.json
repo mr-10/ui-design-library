@@ -5,14 +5,24 @@
  "author": "AtharvaMistry",
  "source": "https://uiverse.io/AtharvaMistry/kind-treefrog-34",
  "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Pill violet text input that lights up when focused.",
+ "howItWorks": "On focus, text colour changes and border changes and a ring appears.",
  "tags": [
-  "inputs",
-  "focus",
-  "css"
+  "violet",
+  "rounded",
+  "pill",
+  "color-change",
+  "ring",
+  "text-input"
  ],
- "html": "<!-- From Uiverse.io by AtharvaMistry  - Tags: simple, purple, input, search, tailwind, tailwindcss -->\n<input\n  class=\"rounded-full bg-violet-100 text-xl border-2 border-purple-500 p-4 placeholder-purple-400 focus:text-violet-950 focus:border-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500\"\n  placeholder=\"Enter anything...\"\n/>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Kind Treefrog 34</title>\n<style>\n/* From Uiverse.io by AtharvaMistry - https://uiverse.io/AtharvaMistry/kind-treefrog-34 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by AtharvaMistry  - Tags: simple, purple, input, search, tailwind, tailwindcss -->\n<input\n  class=\"rounded-full bg-violet-100 text-xl border-2 border-purple-500 p-4 placeholder-purple-400 focus:text-violet-950 focus:border-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500\"\n  placeholder=\"Enter anything...\"\n/>\n</body>\n</html>\n"
+ "colors": [
+  "#ede9fe",
+  "#a855f7"
+ ],
+ "fonts": [],
+ "tokens": 138,
+ "size": 553,
+ "html": "<input\n  class=\"rounded-full bg-violet-100 text-xl border-2 border-purple-500 p-4 placeholder-purple-400 focus:text-violet-950 focus:border-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500\"\n  placeholder=\"Enter anything...\"\n/>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Kind Treefrog 34</title>\n<style>\n/* Kind Treefrog 34 by AtharvaMistry — https://uiverse.io/AtharvaMistry/kind-treefrog-34 */\n\n</style>\n</head>\n<body>\n<input\n  class=\"rounded-full bg-violet-100 text-xl border-2 border-purple-500 p-4 placeholder-purple-400 focus:text-violet-950 focus:border-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500\"\n  placeholder=\"Enter anything...\"\n/>\n\n</body>\n</html>\n"
 }

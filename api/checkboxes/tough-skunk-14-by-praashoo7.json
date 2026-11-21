@@ -5,14 +5,25 @@
  "author": "Praashoo7",
  "source": "https://uiverse.io/Praashoo7/tough-skunk-14",
  "trigger": "checked",
- "description": "A checkbox UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Pill sky-blue checkbox that toggles on and off when clicked.",
+ "howItWorks": "On hover, background-color changes from #ccc to #808080. Clicking it toggles it: background-color changes from #ccc to #2196F3.",
  "tags": [
-  "checkbox",
-  "checked",
-  "css"
+  "blue",
+  "rounded",
+  "pill",
+  "flat",
+  "color-change",
+  "checkbox"
  ],
- "html": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>",
- "css": "/* From Uiverse.io by Praashoo7 - Tags: checkbox */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.34em;\n  width: 1.3em;\n  background-color: #ccc;\n  transition: .4s ease-in-out;\n  border-radius: 50%;\n}\n\n.checkmark:hover {\n  background-color: grey;\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n  background-color: #2196F3;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n  left: 0.25em;\n  top: 0.29em;\n  width: 0.50em;\n  height: 0.50em;\n  border: solid white;\n  background-color: white;\n  border-radius: 50%;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Skunk 14</title>\n<style>\n/* From Uiverse.io by Praashoo7 - https://uiverse.io/Praashoo7/tough-skunk-14 */\n/* From Uiverse.io by Praashoo7 - Tags: checkbox */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.34em;\n  width: 1.3em;\n  background-color: #ccc;\n  transition: .4s ease-in-out;\n  border-radius: 50%;\n}\n\n.checkmark:hover {\n  background-color: grey;\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n  background-color: #2196F3;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n  left: 0.25em;\n  top: 0.29em;\n  width: 0.50em;\n  height: 0.50em;\n  border: solid white;\n  background-color: white;\n  border-radius: 50%;\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#cccccc",
+  "#808080",
+  "#2196f3"
+ ],
+ "fonts": [],
+ "tokens": 306,
+ "size": 1228,
+ "html": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n",
+ "css": "/* Tough Skunk 14 by Praashoo7 — https://uiverse.io/Praashoo7/tough-skunk-14 */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.34em;\n  width: 1.3em;\n  background-color: #ccc;\n  transition: .4s ease-in-out;\n  border-radius: 50%;\n}\n\n.checkmark:hover {\n  background-color: grey;\n}\n\n.container input:checked ~ .checkmark {\n  background-color: #2196F3;\n}\n\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n.container .checkmark:after {\n  left: 0.25em;\n  top: 0.29em;\n  width: 0.50em;\n  height: 0.50em;\n  border: solid white;\n  background-color: white;\n  border-radius: 50%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Skunk 14</title>\n<style>\n/* Tough Skunk 14 by Praashoo7 — https://uiverse.io/Praashoo7/tough-skunk-14 */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.34em;\n  width: 1.3em;\n  background-color: #ccc;\n  transition: .4s ease-in-out;\n  border-radius: 50%;\n}\n\n.checkmark:hover {\n  background-color: grey;\n}\n\n.container input:checked ~ .checkmark {\n  background-color: #2196F3;\n}\n\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n.container .checkmark:after {\n  left: 0.25em;\n  top: 0.29em;\n  width: 0.50em;\n  height: 0.50em;\n  border: solid white;\n  background-color: white;\n  border-radius: 50%;\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n\n</body>\n</html>\n"
 }

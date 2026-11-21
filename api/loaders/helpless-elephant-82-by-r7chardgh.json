@@ -5,15 +5,23 @@
  "author": "r7chardgh",
  "source": "https://uiverse.io/r7chardgh/helpless-elephant-82",
  "trigger": "auto-loop",
- "description": "A loader with loading and adidas styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Black loader with changing colour motion in a loop.",
+ "howItWorks": "It loops a animation (changing colour).",
  "tags": [
+  "flat",
   "loading",
   "loader",
   "adidas",
   "auto-loop"
  ],
- "html": "<div class=\"loader\">\n  <div class=\"leaf\"></div>\n  <div class=\"leaf\"></div>\n  <div class=\"leaf\"></div>\n</div>",
- "css": "/* From Uiverse.io by r7chardgh - Tags: loading, loader, adidas */\n.loader {\n  display: flex;\n  gap: .5em;\n}\n\n.leaf {\n  width: 1em;\n  height: 3em;\n  background-color: rgb(0, 0, 0,.3);\n  clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 81%);\n  transform: rotate(-30deg);\n  animation: color 1200ms infinite;\n  animation-delay: 800ms;\n}\n\n.leaf:nth-child(2) {\n  clip-path: polygon(0% 35%,100% 35%,100% 100%,0% 81%);\n  animation-delay: 400ms;\n}\n\n.leaf:nth-child(1) {\n  clip-path: polygon(0% 70%,100% 70%,100% 100%,0% 81%);\n  animation-delay: 0ms;\n}\n\n@keyframes color {\n  from {\n    background-color: lightblue;\n  }\n\n  to {\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Elephant 82</title>\n<style>\n/* From Uiverse.io by r7chardgh - https://uiverse.io/r7chardgh/helpless-elephant-82 */\n/* From Uiverse.io by r7chardgh - Tags: loading, loader, adidas */\n.loader {\n  display: flex;\n  gap: .5em;\n}\n\n.leaf {\n  width: 1em;\n  height: 3em;\n  background-color: rgb(0, 0, 0,.3);\n  clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 81%);\n  transform: rotate(-30deg);\n  animation: color 1200ms infinite;\n  animation-delay: 800ms;\n}\n\n.leaf:nth-child(2) {\n  clip-path: polygon(0% 35%,100% 35%,100% 100%,0% 81%);\n  animation-delay: 400ms;\n}\n\n.leaf:nth-child(1) {\n  clip-path: polygon(0% 70%,100% 70%,100% 100%,0% 81%);\n  animation-delay: 0ms;\n}\n\n@keyframes color {\n  from {\n    background-color: lightblue;\n  }\n\n  to {\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"leaf\"></div>\n  <div class=\"leaf\"></div>\n  <div class=\"leaf\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 244,
+ "size": 976,
+ "html": "<div class=\"loader\">\n  <div class=\"leaf\"></div>\n  <div class=\"leaf\"></div>\n  <div class=\"leaf\"></div>\n</div>\n",
+ "css": "/* Helpless Elephant 82 by r7chardgh — https://uiverse.io/r7chardgh/helpless-elephant-82 */\n.loader {\n  display: flex;\n  gap: .5em;\n}\n\n.leaf {\n  width: 1em;\n  height: 3em;\n  background-color: rgb(0, 0, 0,.3);\n  clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 81%);\n  transform: rotate(-30deg);\n  animation: color 1200ms infinite;\n  animation-delay: 800ms;\n}\n\n.leaf:nth-child(2) {\n  clip-path: polygon(0% 35%,100% 35%,100% 100%,0% 81%);\n  animation-delay: 400ms;\n}\n\n.leaf:nth-child(1) {\n  clip-path: polygon(0% 70%,100% 70%,100% 100%,0% 81%);\n  animation-delay: 0ms;\n}\n\n@keyframes color {\n  from {\n    background-color: lightblue;\n  }\n\n  to {\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Elephant 82</title>\n<style>\n/* Helpless Elephant 82 by r7chardgh — https://uiverse.io/r7chardgh/helpless-elephant-82 */\n.loader {\n  display: flex;\n  gap: .5em;\n}\n\n.leaf {\n  width: 1em;\n  height: 3em;\n  background-color: rgb(0, 0, 0,.3);\n  clip-path: polygon(0% 0%,100% 0%,100% 100%,0% 81%);\n  transform: rotate(-30deg);\n  animation: color 1200ms infinite;\n  animation-delay: 800ms;\n}\n\n.leaf:nth-child(2) {\n  clip-path: polygon(0% 35%,100% 35%,100% 100%,0% 81%);\n  animation-delay: 400ms;\n}\n\n.leaf:nth-child(1) {\n  clip-path: polygon(0% 70%,100% 70%,100% 100%,0% 81%);\n  animation-delay: 0ms;\n}\n\n@keyframes color {\n  from {\n    background-color: lightblue;\n  }\n\n  to {\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"leaf\"></div>\n  <div class=\"leaf\"></div>\n  <div class=\"leaf\"></div>\n</div>\n\n</body>\n</html>\n"
 }

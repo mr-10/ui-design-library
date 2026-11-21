@@ -5,17 +5,25 @@
  "author": "Deri-Kurniawan",
  "source": "https://uiverse.io/Deri-Kurniawan/tall-robin-6",
  "trigger": "auto-loop",
- "description": "A loader with animation, gradient and loading styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient 3d cyan cube loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 4s animation (rotating).",
  "tags": [
-  "animation",
+  "cyan",
+  "red",
   "gradient",
-  "loading",
-  "loader",
-  "cube",
-  "rotate"
+  "3d",
+  "flat",
+  "spin"
  ],
- "html": "<div class=\"loader\">\n    <div class=\"cube\">\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n    </div>\n</div>",
- "css": "/* From Uiverse.io by Deri-Kurniawan - Tags: animation, gradient, loading, loader, cube, rotate, box, loading animation */\n.loader {\n  perspective: 600px;\n  width: 100px;\n  height: 100px;\n}\n\n.cube {\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  animation: rotate 4s linear infinite;\n}\n\n.face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(45deg, #3498db, #e74c3c);\n  opacity: 0.8;\n  border: 0.5px solid #fff;\n}\n\n.face:nth-child(1) {\n  transform: rotateX(90deg) translateZ(50px);\n}\n\n.face:nth-child(2) {\n  transform: rotateX(-90deg) translateZ(50px);\n}\n\n.face:nth-child(3) {\n  transform: translateZ(50px);\n}\n\n.face:nth-child(4) {\n  transform: rotateY(90deg) translateZ(50px);\n}\n\n.face:nth-child(5) {\n  transform: rotateY(-90deg) translateZ(50px);\n}\n\n.face:nth-child(6) {\n  transform: rotateY(180deg) translateZ(50px);\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotateX(0deg) rotateY(0deg);\n  }\n\n  100% {\n    transform: rotateX(360deg) rotateY(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tall Robin 6</title>\n<style>\n/* From Uiverse.io by Deri-Kurniawan - https://uiverse.io/Deri-Kurniawan/tall-robin-6 */\n/* From Uiverse.io by Deri-Kurniawan - Tags: animation, gradient, loading, loader, cube, rotate, box, loading animation */\n.loader {\n  perspective: 600px;\n  width: 100px;\n  height: 100px;\n}\n\n.cube {\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  animation: rotate 4s linear infinite;\n}\n\n.face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(45deg, #3498db, #e74c3c);\n  opacity: 0.8;\n  border: 0.5px solid #fff;\n}\n\n.face:nth-child(1) {\n  transform: rotateX(90deg) translateZ(50px);\n}\n\n.face:nth-child(2) {\n  transform: rotateX(-90deg) translateZ(50px);\n}\n\n.face:nth-child(3) {\n  transform: translateZ(50px);\n}\n\n.face:nth-child(4) {\n  transform: rotateY(90deg) translateZ(50px);\n}\n\n.face:nth-child(5) {\n  transform: rotateY(-90deg) translateZ(50px);\n}\n\n.face:nth-child(6) {\n  transform: rotateY(180deg) translateZ(50px);\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotateX(0deg) rotateY(0deg);\n  }\n\n  100% {\n    transform: rotateX(360deg) rotateY(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n    <div class=\"cube\">\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n    </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#3498db",
+  "#e74c3c",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 362,
+ "size": 1452,
+ "html": "<div class=\"loader\">\n    <div class=\"cube\">\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n    </div>\n</div>\n",
+ "css": "/* Tall Robin 6 by Deri-Kurniawan — https://uiverse.io/Deri-Kurniawan/tall-robin-6 */\n.loader {\n  perspective: 600px;\n  width: 100px;\n  height: 100px;\n}\n\n.cube {\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  animation: rotate 4s linear infinite;\n}\n\n.face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(45deg, #3498db, #e74c3c);\n  opacity: 0.8;\n  border: 0.5px solid #fff;\n}\n\n.face:nth-child(1) {\n  transform: rotateX(90deg) translateZ(50px);\n}\n\n.face:nth-child(2) {\n  transform: rotateX(-90deg) translateZ(50px);\n}\n\n.face:nth-child(3) {\n  transform: translateZ(50px);\n}\n\n.face:nth-child(4) {\n  transform: rotateY(90deg) translateZ(50px);\n}\n\n.face:nth-child(5) {\n  transform: rotateY(-90deg) translateZ(50px);\n}\n\n.face:nth-child(6) {\n  transform: rotateY(180deg) translateZ(50px);\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotateX(0deg) rotateY(0deg);\n  }\n\n  100% {\n    transform: rotateX(360deg) rotateY(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tall Robin 6</title>\n<style>\n/* Tall Robin 6 by Deri-Kurniawan — https://uiverse.io/Deri-Kurniawan/tall-robin-6 */\n.loader {\n  perspective: 600px;\n  width: 100px;\n  height: 100px;\n}\n\n.cube {\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  animation: rotate 4s linear infinite;\n}\n\n.face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(45deg, #3498db, #e74c3c);\n  opacity: 0.8;\n  border: 0.5px solid #fff;\n}\n\n.face:nth-child(1) {\n  transform: rotateX(90deg) translateZ(50px);\n}\n\n.face:nth-child(2) {\n  transform: rotateX(-90deg) translateZ(50px);\n}\n\n.face:nth-child(3) {\n  transform: translateZ(50px);\n}\n\n.face:nth-child(4) {\n  transform: rotateY(90deg) translateZ(50px);\n}\n\n.face:nth-child(5) {\n  transform: rotateY(-90deg) translateZ(50px);\n}\n\n.face:nth-child(6) {\n  transform: rotateY(180deg) translateZ(50px);\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotateX(0deg) rotateY(0deg);\n  }\n\n  100% {\n    transform: rotateX(360deg) rotateY(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n    <div class=\"cube\">\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n        <div class=\"face\"></div>\n    </div>\n</div>\n\n</body>\n</html>\n"
 }

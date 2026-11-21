@@ -5,14 +5,26 @@
  "author": "laminelawal",
  "source": "https://uiverse.io/laminelawal/helpless-bulldog-88",
  "trigger": "focus",
- "description": "A input with html styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Outlined blue text input that lights up when focused.",
+ "howItWorks": "On focus, outline becomes 1px solid #0000ff, box-shadow becomes none, width becomes 230px.",
  "tags": [
+  "blue",
+  "outlined",
+  "text-input",
   "input",
   "html",
   "focus"
  ],
- "html": "<input placeholder=\"Search...\" class=\"input\" name=\"text\" type=\"text\">",
- "css": "/* From Uiverse.io by laminelawal - Tags: input, html */\n.input {\n  padding: 10px;\n  width: 120px;\n  border: none;\n  outline: none;\n  border-radius: 5px;\n  box-shadow: 0 1px  gray;\n  font-size: 18px;\n  transition: width 0.3s;\n  font-family: Consolas,monaco,monospace;\n}\n\n.input:focus {\n  outline: 1px solid blue;\n  box-shadow: none;\n  width: 230px;\n}\n\n.input::placeholder {\n  color: blue;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Bulldog 88</title>\n<style>\n/* From Uiverse.io by laminelawal - https://uiverse.io/laminelawal/helpless-bulldog-88 */\n/* From Uiverse.io by laminelawal - Tags: input, html */\n.input {\n  padding: 10px;\n  width: 120px;\n  border: none;\n  outline: none;\n  border-radius: 5px;\n  box-shadow: 0 1px  gray;\n  font-size: 18px;\n  transition: width 0.3s;\n  font-family: Consolas,monaco,monospace;\n}\n\n.input:focus {\n  outline: 1px solid blue;\n  box-shadow: none;\n  width: 230px;\n}\n\n.input::placeholder {\n  color: blue;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Search...\" class=\"input\" name=\"text\" type=\"text\">\n</body>\n</html>\n"
+ "colors": [
+  "#0000ff",
+  "#808080"
+ ],
+ "fonts": [
+  "Consolas"
+ ],
+ "tokens": 179,
+ "size": 718,
+ "html": "<input placeholder=\"Search...\" class=\"input\" name=\"text\" type=\"text\">\n",
+ "css": "/* Helpless Bulldog 88 by laminelawal — https://uiverse.io/laminelawal/helpless-bulldog-88 */\n.input {\n  padding: 10px;\n  width: 120px;\n  border: none;\n  outline: none;\n  border-radius: 5px;\n  box-shadow: 0 1px  gray;\n  font-size: 18px;\n  transition: width 0.3s;\n  font-family: Consolas,monaco,monospace;\n}\n\n.input:focus {\n  outline: 1px solid blue;\n  box-shadow: none;\n  width: 230px;\n}\n\n.input::placeholder {\n  color: blue;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Bulldog 88</title>\n<style>\n/* Helpless Bulldog 88 by laminelawal — https://uiverse.io/laminelawal/helpless-bulldog-88 */\n.input {\n  padding: 10px;\n  width: 120px;\n  border: none;\n  outline: none;\n  border-radius: 5px;\n  box-shadow: 0 1px  gray;\n  font-size: 18px;\n  transition: width 0.3s;\n  font-family: Consolas,monaco,monospace;\n}\n\n.input:focus {\n  outline: 1px solid blue;\n  box-shadow: none;\n  width: 230px;\n}\n\n.input::placeholder {\n  color: blue;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Search...\" class=\"input\" name=\"text\" type=\"text\">\n\n</body>\n</html>\n"
 }

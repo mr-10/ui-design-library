@@ -5,15 +5,25 @@
  "author": "MikeAndrewDesigner",
  "source": "https://uiverse.io/MikeAndrewDesigner/jolly-gecko-33",
  "trigger": "checked",
- "description": "A checkbox with rounded and clean styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Gradient pill violet checkbox that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: background changes from #ffeded38 to linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb), opacity becomes 0.9.",
  "tags": [
-  "checkbox",
+  "violet",
+  "blue",
+  "gradient",
   "rounded",
-  "clean",
-  "checked"
+  "pill",
+  "flat"
  ],
- "html": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>",
- "css": "/* From Uiverse.io by MikeAndrewDesigner - Tags: checkbox, rounded, clean */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 30px;\n  user-select: none;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.6em;\n  width: 1.6em;\n  border-radius: 50%;\n  background: #ffeded38;\n  transition: all 0.2s ease;\n}\n\n.checkmark {\n  opacity: 0.4;\n}\n\n.container input:checked ~ .checkmark {\n  background: linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb);\n  opacity: 0.9;\n  transition: all 0.2s ease;\n}\n\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n.container .checkmark:after {\n  left: 0.61em;\n  top: 0.43em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid rgb(255, 255, 255);\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Jolly Gecko 33</title>\n<style>\n/* From Uiverse.io by MikeAndrewDesigner - https://uiverse.io/MikeAndrewDesigner/jolly-gecko-33 */\n/* From Uiverse.io by MikeAndrewDesigner - Tags: checkbox, rounded, clean */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 30px;\n  user-select: none;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.6em;\n  width: 1.6em;\n  border-radius: 50%;\n  background: #ffeded38;\n  transition: all 0.2s ease;\n}\n\n.checkmark {\n  opacity: 0.4;\n}\n\n.container input:checked ~ .checkmark {\n  background: linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb);\n  opacity: 0.9;\n  transition: all 0.2s ease;\n}\n\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n.container .checkmark:after {\n  left: 0.61em;\n  top: 0.43em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid rgb(255, 255, 255);\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#ffeded",
+  "#af40ff",
+  "#5b42f3"
+ ],
+ "fonts": [],
+ "tokens": 333,
+ "size": 1335,
+ "html": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n",
+ "css": "/* Jolly Gecko 33 by MikeAndrewDesigner — https://uiverse.io/MikeAndrewDesigner/jolly-gecko-33 */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 30px;\n  user-select: none;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.6em;\n  width: 1.6em;\n  border-radius: 50%;\n  background: #ffeded38;\n  transition: all 0.2s ease;\n}\n\n.checkmark {\n  opacity: 0.4;\n}\n\n.container input:checked ~ .checkmark {\n  background: linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb);\n  opacity: 0.9;\n  transition: all 0.2s ease;\n}\n\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n.container .checkmark:after {\n  left: 0.61em;\n  top: 0.43em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid rgb(255, 255, 255);\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Jolly Gecko 33</title>\n<style>\n/* Jolly Gecko 33 by MikeAndrewDesigner — https://uiverse.io/MikeAndrewDesigner/jolly-gecko-33 */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 30px;\n  user-select: none;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.6em;\n  width: 1.6em;\n  border-radius: 50%;\n  background: #ffeded38;\n  transition: all 0.2s ease;\n}\n\n.checkmark {\n  opacity: 0.4;\n}\n\n.container input:checked ~ .checkmark {\n  background: linear-gradient(144deg,#af40ff,#5b42f3 50%,#00ddeb);\n  opacity: 0.9;\n  transition: all 0.2s ease;\n}\n\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n.container .checkmark:after {\n  left: 0.61em;\n  top: 0.43em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid rgb(255, 255, 255);\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n\n</body>\n</html>\n"
 }

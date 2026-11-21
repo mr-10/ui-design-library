@@ -4,15 +4,27 @@
  "category": "buttons",
  "author": "lumamantelli",
  "source": "https://uiverse.io/lumamantelli/itchy-elephant-94",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Pill pink button that scales up on hover.",
+ "howItWorks": "On hover, text colour changes and background changes and it scales. On focus, background changes.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "pink",
+  "rounded",
+  "pill",
+  "color-change",
+  "scale",
+  "buttons"
  ],
- "html": "<!-- From Uiverse.io by lumamantelli - Tags: button, focus -->\n<button class=\"cursor-pointer inline-flex items-center rounded-full px-9 py-3 text-xl font-mono font-semibold text-rose-600 hover:text-white border-2 border-rose-600\nhover:bg-rose-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-75 hover:bg-rose-600 duration-300  focus:bg-transparent\">\n  BUTTON\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Itchy Elephant 94</title>\n<style>\n/* From Uiverse.io by lumamantelli - https://uiverse.io/lumamantelli/itchy-elephant-94 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by lumamantelli - Tags: button, focus -->\n<button class=\"cursor-pointer inline-flex items-center rounded-full px-9 py-3 text-xl font-mono font-semibold text-rose-600 hover:text-white border-2 border-rose-600\nhover:bg-rose-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-75 hover:bg-rose-600 duration-300  focus:bg-transparent\">\n  BUTTON\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#e11d48",
+  "#ffffff"
+ ],
+ "fonts": [
+  "mono"
+ ],
+ "tokens": 159,
+ "size": 638,
+ "html": "<button class=\"cursor-pointer inline-flex items-center rounded-full px-9 py-3 text-xl font-mono font-semibold text-rose-600 hover:text-white border-2 border-rose-600\nhover:bg-rose-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-75 hover:bg-rose-600 duration-300  focus:bg-transparent\">\n  BUTTON\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Itchy Elephant 94</title>\n<style>\n/* Itchy Elephant 94 by lumamantelli — https://uiverse.io/lumamantelli/itchy-elephant-94 */\n\n</style>\n</head>\n<body>\n<button class=\"cursor-pointer inline-flex items-center rounded-full px-9 py-3 text-xl font-mono font-semibold text-rose-600 hover:text-white border-2 border-rose-600\nhover:bg-rose-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-75 hover:bg-rose-600 duration-300  focus:bg-transparent\">\n  BUTTON\n</button>\n\n</body>\n</html>\n"
 }

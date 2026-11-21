@@ -4,15 +4,26 @@
  "category": "buttons",
  "author": "EcheverriaJesus",
  "source": "https://uiverse.io/EcheverriaJesus/evil-eagle-46",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Pill gray button that slides on hover with a smooth transition.",
+ "howItWorks": "On hover, it rotates and it shifts position.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "rounded",
+  "pill",
+  "rotate",
+  "slide",
+  "send",
+  "buttons"
  ],
- "html": "<!-- From Uiverse.io by EcheverriaJesus  - Tags: animation, button, hover, rounded, tailwindcss -->\n<button\n  class=\"group cursor-pointer border-2 border-gray-300 bg-white px-2 py-1 font-bold rounded-xl shadow-md\"\n>\n  <div class=\"flex bg-gray-50 rounded-full px-4 py-3 shadow-inner\">\n    <svg\n      stroke=\"currentColor\"\n      stroke-width=\"1.5\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      class=\"size-6 -rotate-45 mr-1 group-hover:rotate-0 duration-300\"\n    >\n      <path\n        d=\"M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n    <span class=\"group-hover:translate-x-1.5 group-hover:duration-300\">\n      Send Message</span\n    >\n  </div>\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Evil Eagle 46</title>\n<style>\n/* From Uiverse.io by EcheverriaJesus - https://uiverse.io/EcheverriaJesus/evil-eagle-46 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by EcheverriaJesus  - Tags: animation, button, hover, rounded, tailwindcss -->\n<button\n  class=\"group cursor-pointer border-2 border-gray-300 bg-white px-2 py-1 font-bold rounded-xl shadow-md\"\n>\n  <div class=\"flex bg-gray-50 rounded-full px-4 py-3 shadow-inner\">\n    <svg\n      stroke=\"currentColor\"\n      stroke-width=\"1.5\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      class=\"size-6 -rotate-45 mr-1 group-hover:rotate-0 duration-300\"\n    >\n      <path\n        d=\"M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n    <span class=\"group-hover:translate-x-1.5 group-hover:duration-300\">\n      Send Message</span\n    >\n  </div>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#d1d5db",
+  "#f9fafb",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 261,
+ "size": 1046,
+ "html": "<button\n  class=\"group cursor-pointer border-2 border-gray-300 bg-white px-2 py-1 font-bold rounded-xl shadow-md\"\n>\n  <div class=\"flex bg-gray-50 rounded-full px-4 py-3 shadow-inner\">\n    <svg\n      stroke=\"currentColor\"\n      stroke-width=\"1.5\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      class=\"size-6 -rotate-45 mr-1 group-hover:rotate-0 duration-300\"\n    >\n      <path\n        d=\"M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n    <span class=\"group-hover:translate-x-1.5 group-hover:duration-300\">\n      Send Message</span\n    >\n  </div>\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Evil Eagle 46</title>\n<style>\n/* Evil Eagle 46 by EcheverriaJesus — https://uiverse.io/EcheverriaJesus/evil-eagle-46 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"group cursor-pointer border-2 border-gray-300 bg-white px-2 py-1 font-bold rounded-xl shadow-md\"\n>\n  <div class=\"flex bg-gray-50 rounded-full px-4 py-3 shadow-inner\">\n    <svg\n      stroke=\"currentColor\"\n      stroke-width=\"1.5\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      class=\"size-6 -rotate-45 mr-1 group-hover:rotate-0 duration-300\"\n    >\n      <path\n        d=\"M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n    <span class=\"group-hover:translate-x-1.5 group-hover:duration-300\">\n      Send Message</span\n    >\n  </div>\n</button>\n\n</body>\n</html>\n"
 }

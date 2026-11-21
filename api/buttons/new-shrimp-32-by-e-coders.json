@@ -5,15 +5,27 @@
  "author": "e-coders",
  "source": "https://uiverse.io/e-coders/new-shrimp-32",
  "trigger": "hover",
- "description": "A button with simple and minimalist styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined rounded black button that lifts and glows on hover.",
+ "howItWorks": "On hover, text color changes from #3B3B3B to #fff, background-color changes from transparent to #1A1A1A, box-shadow becomes #000000 0 8px 15px.",
  "tags": [
-  "simple",
-  "minimalist",
-  "button",
-  "hover"
+  "outlined",
+  "rounded",
+  "lift",
+  "glow",
+  "color-change",
+  "simple"
  ],
- "html": "<button>Button</button>",
- "css": "/* From Uiverse.io by e-coders - Tags: simple, minimalist, button */\nbutton {\n appearance: none;\n background-color: transparent;\n border: 0.125em solid #1A1A1A;\n border-radius: 0.9375em;\n box-sizing: border-box;\n color: #3B3B3B;\n cursor: pointer;\n display: inline-block;\n font-family: Roobert,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n font-size: 16px;\n font-weight: 600;\n line-height: normal;\n margin: 0;\n min-height: 3.75em;\n min-width: 0;\n outline: none;\n padding: 1em 2.3em;\n text-align: center;\n text-decoration: none;\n transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);\n user-select: none;\n -webkit-user-select: none;\n touch-action: manipulation;\n will-change: transform;\n}\n\nbutton:disabled {\n pointer-events: none;\n}\n\nbutton:hover {\n color: #fff;\n background-color: #1A1A1A;\n box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;\n transform: translateY(-2px);\n}\n\nbutton:active {\n box-shadow: none;\n transform: translateY(0);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>New Shrimp 32</title>\n<style>\n/* From Uiverse.io by e-coders - https://uiverse.io/e-coders/new-shrimp-32 */\n/* From Uiverse.io by e-coders - Tags: simple, minimalist, button */\nbutton {\n appearance: none;\n background-color: transparent;\n border: 0.125em solid #1A1A1A;\n border-radius: 0.9375em;\n box-sizing: border-box;\n color: #3B3B3B;\n cursor: pointer;\n display: inline-block;\n font-family: Roobert,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n font-size: 16px;\n font-weight: 600;\n line-height: normal;\n margin: 0;\n min-height: 3.75em;\n min-width: 0;\n outline: none;\n padding: 1em 2.3em;\n text-align: center;\n text-decoration: none;\n transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);\n user-select: none;\n -webkit-user-select: none;\n touch-action: manipulation;\n will-change: transform;\n}\n\nbutton:disabled {\n pointer-events: none;\n}\n\nbutton:hover {\n color: #fff;\n background-color: #1A1A1A;\n box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;\n transform: translateY(-2px);\n}\n\nbutton:active {\n box-shadow: none;\n transform: translateY(0);\n}\n</style>\n</head>\n<body>\n<button>Button</button>\n</body>\n</html>\n"
+ "colors": [
+  "#1a1a1a",
+  "#3b3b3b",
+  "#ffffff"
+ ],
+ "fonts": [
+  "Roobert"
+ ],
+ "tokens": 314,
+ "size": 1256,
+ "html": "<button>Button</button>\n",
+ "css": "/* New Shrimp 32 by e-coders — https://uiverse.io/e-coders/new-shrimp-32 */\nbutton {\n appearance: none;\n background-color: transparent;\n border: 0.125em solid #1A1A1A;\n border-radius: 0.9375em;\n box-sizing: border-box;\n color: #3B3B3B;\n cursor: pointer;\n display: inline-block;\n font-family: Roobert,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n font-size: 16px;\n font-weight: 600;\n line-height: normal;\n margin: 0;\n min-height: 3.75em;\n min-width: 0;\n outline: none;\n padding: 1em 2.3em;\n text-align: center;\n text-decoration: none;\n transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);\n user-select: none;\n -webkit-user-select: none;\n touch-action: manipulation;\n will-change: transform;\n}\n\nbutton:disabled {\n pointer-events: none;\n}\n\nbutton:hover {\n color: #fff;\n background-color: #1A1A1A;\n box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;\n transform: translateY(-2px);\n}\n\nbutton:active {\n box-shadow: none;\n transform: translateY(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>New Shrimp 32</title>\n<style>\n/* New Shrimp 32 by e-coders — https://uiverse.io/e-coders/new-shrimp-32 */\nbutton {\n appearance: none;\n background-color: transparent;\n border: 0.125em solid #1A1A1A;\n border-radius: 0.9375em;\n box-sizing: border-box;\n color: #3B3B3B;\n cursor: pointer;\n display: inline-block;\n font-family: Roobert,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\n font-size: 16px;\n font-weight: 600;\n line-height: normal;\n margin: 0;\n min-height: 3.75em;\n min-width: 0;\n outline: none;\n padding: 1em 2.3em;\n text-align: center;\n text-decoration: none;\n transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);\n user-select: none;\n -webkit-user-select: none;\n touch-action: manipulation;\n will-change: transform;\n}\n\nbutton:disabled {\n pointer-events: none;\n}\n\nbutton:hover {\n color: #fff;\n background-color: #1A1A1A;\n box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;\n transform: translateY(-2px);\n}\n\nbutton:active {\n box-shadow: none;\n transform: translateY(0);\n}\n</style>\n</head>\n<body>\n<button>Button</button>\n\n</body>\n</html>\n"
 }

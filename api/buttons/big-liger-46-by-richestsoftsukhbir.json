@@ -5,17 +5,24 @@
  "author": "RichestsoftSukhbir",
  "source": "https://uiverse.io/RichestsoftSukhbir/big-liger-46",
  "trigger": "hover",
- "description": "A button with simple, minimalist and white styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Pill white button that changes colour on hover.",
+ "howItWorks": "On hover, text color changes from #121212 to #fff, bottom becomes 0, border-radius becomes 0.",
  "tags": [
+  "rounded",
+  "pill",
+  "flat",
+  "color-change",
   "simple",
-  "minimalist",
-  "white",
-  "black",
-  "button",
-  "hover"
+  "minimalist"
  ],
- "html": "<button class=\"button\">Hover Over Me</button>",
- "css": "/* From Uiverse.io by RichestsoftSukhbir  - Tags: simple, minimalist, white, black, button, hover, hover effect, hover button */\n.button {\n  padding: 12px 25px;\n  background: #fff;\n  border: 1px solid #121212;\n  color: #121212;\n  font-weight: 700;\n  cursor: pointer;\n  border-radius: 50px;\n  position: relative;\n  z-index: 2;\n  overflow: hidden;\n  transition: all 0.5s ease;\n}\n.button::after {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background: #121212;\n  position: absolute;\n  bottom: -100%;\n  left: 0;\n  border-radius: 50%;\n  z-index: -1;\n  transition: all 0.5s ease;\n}\n.button:hover {\n  color: #fff;\n}\n.button:hover::after {\n  bottom: 0;\n  border-radius: 0;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Liger 46</title>\n<style>\n/* From Uiverse.io by RichestsoftSukhbir - https://uiverse.io/RichestsoftSukhbir/big-liger-46 */\n/* From Uiverse.io by RichestsoftSukhbir  - Tags: simple, minimalist, white, black, button, hover, hover effect, hover button */\n.button {\n  padding: 12px 25px;\n  background: #fff;\n  border: 1px solid #121212;\n  color: #121212;\n  font-weight: 700;\n  cursor: pointer;\n  border-radius: 50px;\n  position: relative;\n  z-index: 2;\n  overflow: hidden;\n  transition: all 0.5s ease;\n}\n.button::after {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background: #121212;\n  position: absolute;\n  bottom: -100%;\n  left: 0;\n  border-radius: 50%;\n  z-index: -1;\n  transition: all 0.5s ease;\n}\n.button:hover {\n  color: #fff;\n}\n.button:hover::after {\n  bottom: 0;\n  border-radius: 0;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Hover Over Me</button>\n</body>\n</html>\n"
+ "colors": [
+  "#121212",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 224,
+ "size": 896,
+ "html": "<button class=\"button\">Hover Over Me</button>\n",
+ "css": "/* Big Liger 46 by RichestsoftSukhbir — https://uiverse.io/RichestsoftSukhbir/big-liger-46 */\n.button {\n  padding: 12px 25px;\n  background: #fff;\n  border: 1px solid #121212;\n  color: #121212;\n  font-weight: 700;\n  cursor: pointer;\n  border-radius: 50px;\n  position: relative;\n  z-index: 2;\n  overflow: hidden;\n  transition: all 0.5s ease;\n}\n.button::after {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background: #121212;\n  position: absolute;\n  bottom: -100%;\n  left: 0;\n  border-radius: 50%;\n  z-index: -1;\n  transition: all 0.5s ease;\n}\n.button:hover {\n  color: #fff;\n}\n.button:hover::after {\n  bottom: 0;\n  border-radius: 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Liger 46</title>\n<style>\n/* Big Liger 46 by RichestsoftSukhbir — https://uiverse.io/RichestsoftSukhbir/big-liger-46 */\n.button {\n  padding: 12px 25px;\n  background: #fff;\n  border: 1px solid #121212;\n  color: #121212;\n  font-weight: 700;\n  cursor: pointer;\n  border-radius: 50px;\n  position: relative;\n  z-index: 2;\n  overflow: hidden;\n  transition: all 0.5s ease;\n}\n.button::after {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background: #121212;\n  position: absolute;\n  bottom: -100%;\n  left: 0;\n  border-radius: 50%;\n  z-index: -1;\n  transition: all 0.5s ease;\n}\n.button:hover {\n  color: #fff;\n}\n.button:hover::after {\n  bottom: 0;\n  border-radius: 0;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Hover Over Me</button>\n\n</body>\n</html>\n"
 }

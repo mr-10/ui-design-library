@@ -5,14 +5,25 @@
  "author": "ArnavK-09",
  "source": "https://uiverse.io/ArnavK-09/swift-mule-33",
  "trigger": "static",
- "description": "A loader UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient pill pink spinner loader with rounded corners and gradient fill.",
+ "howItWorks": "It has no hover, click, focus or animation states; the spinner loader is a fixed design.",
  "tags": [
-  "loaders",
-  "static",
-  "css"
+  "pink",
+  "violet",
+  "gradient",
+  "rounded",
+  "pill",
+  "spinner-loader"
  ],
- "html": "<!-- From Uiverse.io by ArnavK-09  - Tags: simple, skeuomorphism, loader, spinner, shadow, glow, circle loader, multicolor -->\n<div\n  class=\"p-3 animate-spin drop-shadow-2xl bg-gradient-to-bl from-pink-400 via-purple-400 to-indigo-600 md:w-48 md:h-48 h-32 w-32 aspect-square rounded-full\"\n>\n  <div\n    class=\"rounded-full h-full w-full bg-slate-100 dark:bg-zinc-900 background-blur-md\"\n  ></div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Mule 33</title>\n<style>\n/* From Uiverse.io by ArnavK-09 - https://uiverse.io/ArnavK-09/swift-mule-33 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by ArnavK-09  - Tags: simple, skeuomorphism, loader, spinner, shadow, glow, circle loader, multicolor -->\n<div\n  class=\"p-3 animate-spin drop-shadow-2xl bg-gradient-to-bl from-pink-400 via-purple-400 to-indigo-600 md:w-48 md:h-48 h-32 w-32 aspect-square rounded-full\"\n>\n  <div\n    class=\"rounded-full h-full w-full bg-slate-100 dark:bg-zinc-900 background-blur-md\"\n  ></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#f472b6",
+  "#c084fc",
+  "#4f46e5"
+ ],
+ "fonts": [],
+ "tokens": 142,
+ "size": 569,
+ "html": "<div\n  class=\"p-3 animate-spin drop-shadow-2xl bg-gradient-to-bl from-pink-400 via-purple-400 to-indigo-600 md:w-48 md:h-48 h-32 w-32 aspect-square rounded-full\"\n>\n  <div\n    class=\"rounded-full h-full w-full bg-slate-100 dark:bg-zinc-900 background-blur-md\"\n  ></div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Mule 33</title>\n<style>\n/* Swift Mule 33 by ArnavK-09 — https://uiverse.io/ArnavK-09/swift-mule-33 */\n\n</style>\n</head>\n<body>\n<div\n  class=\"p-3 animate-spin drop-shadow-2xl bg-gradient-to-bl from-pink-400 via-purple-400 to-indigo-600 md:w-48 md:h-48 h-32 w-32 aspect-square rounded-full\"\n>\n  <div\n    class=\"rounded-full h-full w-full bg-slate-100 dark:bg-zinc-900 background-blur-md\"\n  ></div>\n</div>\n\n</body>\n</html>\n"
 }

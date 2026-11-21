@@ -5,14 +5,25 @@
  "author": "PriyanshuGupta28",
  "source": "https://uiverse.io/PriyanshuGupta28/smooth-elephant-43",
  "trigger": "hover",
- "description": "A button with gradient styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient blue button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, box-shadow becomes #000000 0px 19px 38px, #000000 0px 15px 12px.",
  "tags": [
+  "blue",
+  "teal",
   "gradient",
+  "glow",
   "button",
   "hover"
  ],
- "html": "<button class=\"my-button\">Click Me</button>",
- "css": "/* From Uiverse.io by PriyanshuGupta28 - Tags: gradient, button */\n.my-button {\n  display: inline-block;\n  padding: 10px 20px;\n  font-size: 16px;\n  font-weight: bold;\n  text-align: center;\n  text-decoration: none;\n  color: white;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  transition: 0.2s ease-in-out;\n  border: none;\n  border-radius: 4px;\n  cursor: pointer;\n  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;\n}\n\n.my-button:hover {\n  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;\n}\n\n.my-button:active {\n  background-color: #00DBDE;\n  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Elephant 43</title>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - https://uiverse.io/PriyanshuGupta28/smooth-elephant-43 */\n/* From Uiverse.io by PriyanshuGupta28 - Tags: gradient, button */\n.my-button {\n  display: inline-block;\n  padding: 10px 20px;\n  font-size: 16px;\n  font-weight: bold;\n  text-align: center;\n  text-decoration: none;\n  color: white;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  transition: 0.2s ease-in-out;\n  border: none;\n  border-radius: 4px;\n  cursor: pointer;\n  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;\n}\n\n.my-button:hover {\n  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;\n}\n\n.my-button:active {\n  background-color: #00DBDE;\n  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);\n}\n</style>\n</head>\n<body>\n<button class=\"my-button\">Click Me</button>\n</body>\n</html>\n"
+ "colors": [
+  "#4158d0",
+  "#26394d",
+  "#00dbde"
+ ],
+ "fonts": [],
+ "tokens": 252,
+ "size": 1009,
+ "html": "<button class=\"my-button\">Click Me</button>\n",
+ "css": "/* Smooth Elephant 43 by PriyanshuGupta28 — https://uiverse.io/PriyanshuGupta28/smooth-elephant-43 */\n.my-button {\n  display: inline-block;\n  padding: 10px 20px;\n  font-size: 16px;\n  font-weight: bold;\n  text-align: center;\n  text-decoration: none;\n  color: white;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  transition: 0.2s ease-in-out;\n  border: none;\n  border-radius: 4px;\n  cursor: pointer;\n  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;\n}\n\n.my-button:hover {\n  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;\n}\n\n.my-button:active {\n  background-color: #00DBDE;\n  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Elephant 43</title>\n<style>\n/* Smooth Elephant 43 by PriyanshuGupta28 — https://uiverse.io/PriyanshuGupta28/smooth-elephant-43 */\n.my-button {\n  display: inline-block;\n  padding: 10px 20px;\n  font-size: 16px;\n  font-weight: bold;\n  text-align: center;\n  text-decoration: none;\n  color: white;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  transition: 0.2s ease-in-out;\n  border: none;\n  border-radius: 4px;\n  cursor: pointer;\n  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;\n}\n\n.my-button:hover {\n  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;\n}\n\n.my-button:active {\n  background-color: #00DBDE;\n  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);\n}\n</style>\n</head>\n<body>\n<button class=\"my-button\">Click Me</button>\n\n</body>\n</html>\n"
 }

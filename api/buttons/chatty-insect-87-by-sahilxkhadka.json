@@ -4,15 +4,26 @@
  "category": "buttons",
  "author": "sahilxkhadka",
  "source": "https://uiverse.io/sahilxkhadka/chatty-insect-87",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gradient rounded sky-blue button that glows and scales up on hover.",
+ "howItWorks": "On hover, background changes and it scales and shadow grows. On focus, a ring appears.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "blue",
+  "teal",
+  "gradient",
+  "rounded",
+  "color-change",
+  "scale"
  ],
- "html": "<!-- From Uiverse.io by sahilxkhadka - Tags: animated, #button -->\n<button class=\"bg-gradient-to-r from-blue-400 via-teal-500 to-cyan-500 text-white font-bold py-3 px-6 rounded-md hover:bg-gradient-to-r hover:from-teal-500 hover:via-blue-400 hover:to-cyan-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 shadow-md hover:shadow-lg group focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 active:translate-y-2 active:shadow-sm\">\n  <span class=\"group-hover:animate-bounce\">Frenzy Button</span>\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chatty Insect 87</title>\n<style>\n/* From Uiverse.io by sahilxkhadka - https://uiverse.io/sahilxkhadka/chatty-insect-87 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by sahilxkhadka - Tags: animated, #button -->\n<button class=\"bg-gradient-to-r from-blue-400 via-teal-500 to-cyan-500 text-white font-bold py-3 px-6 rounded-md hover:bg-gradient-to-r hover:from-teal-500 hover:via-blue-400 hover:to-cyan-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 shadow-md hover:shadow-lg group focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 active:translate-y-2 active:shadow-sm\">\n  <span class=\"group-hover:animate-bounce\">Frenzy Button</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#60a5fa",
+  "#14b8a6",
+  "#06b6d4"
+ ],
+ "fonts": [],
+ "tokens": 200,
+ "size": 804,
+ "html": "<button class=\"bg-gradient-to-r from-blue-400 via-teal-500 to-cyan-500 text-white font-bold py-3 px-6 rounded-md hover:bg-gradient-to-r hover:from-teal-500 hover:via-blue-400 hover:to-cyan-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 shadow-md hover:shadow-lg group focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 active:translate-y-2 active:shadow-sm\">\n  <span class=\"group-hover:animate-bounce\">Frenzy Button</span>\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chatty Insect 87</title>\n<style>\n/* Chatty Insect 87 by sahilxkhadka — https://uiverse.io/sahilxkhadka/chatty-insect-87 */\n\n</style>\n</head>\n<body>\n<button class=\"bg-gradient-to-r from-blue-400 via-teal-500 to-cyan-500 text-white font-bold py-3 px-6 rounded-md hover:bg-gradient-to-r hover:from-teal-500 hover:via-blue-400 hover:to-cyan-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 shadow-md hover:shadow-lg group focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 active:translate-y-2 active:shadow-sm\">\n  <span class=\"group-hover:animate-bounce\">Frenzy Button</span>\n</button>\n\n</body>\n</html>\n"
 }

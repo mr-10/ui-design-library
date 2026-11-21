@@ -5,15 +5,24 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/silent-donkey-69",
  "trigger": "static",
- "description": "A card with stats and dark styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Dark rounded black card with soft shadow and rounded corners.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "dark",
+  "rounded",
   "stats",
   "card",
-  "dark",
   "static"
  ],
- "html": "<div class=\"stats shadow\">\n  \n  <div class=\"stat\">\n    <div class=\"stat-title\">Total Page Views</div>\n    <div class=\"stat-value\">89,400</div>\n    <div class=\"stat-desc\">21% more than last month</div>\n  </div>\n  \n</div>",
- "css": "/* From Uiverse.io by Yaya12085 - Source: https://daisyui.com/components/stat/ - Tags: stats, card, dark */\n.stats {\n  display: inline-grid;\n  background-color: #111111;\n  color: #fff;\n  border-radius: 1rem;\n  border: 1px solid gray;\n}\n\n.shadow {\n  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n}\n\n.stat {\n  display: inline-grid;\n  width: 100%;\n  grid-template-columns: repeat(1, 1fr);\n  column-gap: 1rem;\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.stat-title {\n  grid-column-start: 1;\n  white-space: nowrap;\n  color: rgb(197, 194, 194);\n}\n\n.stat-value {\n  grid-column-start: 1;\n  white-space: nowrap;\n  font-size: 2.25rem;\n  line-height: 2.5rem;\n  font-weight: 800;\n}\n\n.stat-desc {\n  grid-column-start: 1;\n  white-space: nowrap;\n  font-size: 0.75rem;\n  line-height: 1rem;\n  color: rgb(197, 194, 194);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Donkey 69</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/silent-donkey-69 */\n/* From Uiverse.io by Yaya12085 - Source: https://daisyui.com/components/stat/ - Tags: stats, card, dark */\n.stats {\n  display: inline-grid;\n  background-color: #111111;\n  color: #fff;\n  border-radius: 1rem;\n  border: 1px solid gray;\n}\n\n.shadow {\n  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n}\n\n.stat {\n  display: inline-grid;\n  width: 100%;\n  grid-template-columns: repeat(1, 1fr);\n  column-gap: 1rem;\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.stat-title {\n  grid-column-start: 1;\n  white-space: nowrap;\n  color: rgb(197, 194, 194);\n}\n\n.stat-value {\n  grid-column-start: 1;\n  white-space: nowrap;\n  font-size: 2.25rem;\n  line-height: 2.5rem;\n  font-weight: 800;\n}\n\n.stat-desc {\n  grid-column-start: 1;\n  white-space: nowrap;\n  font-size: 0.75rem;\n  line-height: 1rem;\n  color: rgb(197, 194, 194);\n}\n</style>\n</head>\n<body>\n<div class=\"stats shadow\">\n  \n  <div class=\"stat\">\n    <div class=\"stat-title\">Total Page Views</div>\n    <div class=\"stat-value\">89,400</div>\n    <div class=\"stat-desc\">21% more than last month</div>\n  </div>\n  \n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#c5c2c2",
+  "#111111",
+  "#808080"
+ ],
+ "fonts": [],
+ "tokens": 324,
+ "size": 1297,
+ "html": "<div class=\"stats shadow\">\n\n  <div class=\"stat\">\n    <div class=\"stat-title\">Total Page Views</div>\n    <div class=\"stat-value\">89,400</div>\n    <div class=\"stat-desc\">21% more than last month</div>\n  </div>\n\n</div>\n",
+ "css": "/* Silent Donkey 69 by Yaya12085 — https://uiverse.io/Yaya12085/silent-donkey-69 */\n.stats {\n  display: inline-grid;\n  background-color: #111111;\n  color: #fff;\n  border-radius: 1rem;\n  border: 1px solid gray;\n}\n\n.shadow {\n  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n}\n\n.stat {\n  display: inline-grid;\n  width: 100%;\n  grid-template-columns: repeat(1, 1fr);\n  column-gap: 1rem;\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.stat-title {\n  grid-column-start: 1;\n  white-space: nowrap;\n  color: rgb(197, 194, 194);\n}\n\n.stat-value {\n  grid-column-start: 1;\n  white-space: nowrap;\n  font-size: 2.25rem;\n  line-height: 2.5rem;\n  font-weight: 800;\n}\n\n.stat-desc {\n  grid-column-start: 1;\n  white-space: nowrap;\n  font-size: 0.75rem;\n  line-height: 1rem;\n  color: rgb(197, 194, 194);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Donkey 69</title>\n<style>\n/* Silent Donkey 69 by Yaya12085 — https://uiverse.io/Yaya12085/silent-donkey-69 */\n.stats {\n  display: inline-grid;\n  background-color: #111111;\n  color: #fff;\n  border-radius: 1rem;\n  border: 1px solid gray;\n}\n\n.shadow {\n  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n}\n\n.stat {\n  display: inline-grid;\n  width: 100%;\n  grid-template-columns: repeat(1, 1fr);\n  column-gap: 1rem;\n  padding-left: 1.5rem;\n  padding-right: 1.5rem;\n  padding-top: 1rem;\n  padding-bottom: 1rem;\n}\n\n.stat-title {\n  grid-column-start: 1;\n  white-space: nowrap;\n  color: rgb(197, 194, 194);\n}\n\n.stat-value {\n  grid-column-start: 1;\n  white-space: nowrap;\n  font-size: 2.25rem;\n  line-height: 2.5rem;\n  font-weight: 800;\n}\n\n.stat-desc {\n  grid-column-start: 1;\n  white-space: nowrap;\n  font-size: 0.75rem;\n  line-height: 1rem;\n  color: rgb(197, 194, 194);\n}\n</style>\n</head>\n<body>\n<div class=\"stats shadow\">\n\n  <div class=\"stat\">\n    <div class=\"stat-title\">Total Page Views</div>\n    <div class=\"stat-value\">89,400</div>\n    <div class=\"stat-desc\">21% more than last month</div>\n  </div>\n\n</div>\n\n</body>\n</html>\n"
 }

@@ -5,16 +5,25 @@
  "author": "Pranali9922",
  "source": "https://uiverse.io/Pranali9922/honest-grasshopper-12",
  "trigger": "hover",
- "description": "A card with cool-card, card-animation and card-hover styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Glass neon gradient rounded blue card that scales up on hover.",
+ "howItWorks": "On hover, transform becomes scale(1.04) rotate(1deg).",
  "tags": [
-  "card",
-  "cool-card",
-  "card-animation",
-  "card-hover",
-  "hover"
+  "blue",
+  "fuchsia",
+  "neon",
+  "glassmorphism",
+  "gradient",
+  "rounded"
  ],
- "html": "<div class=\"card\">\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"card-inner\"></div>\n</div>",
- "css": "/* From Uiverse.io by Pranali9922  - Tags: card, cool card, card animation, card hover */\n.card {\n  width: 200px;\n  height: 200px;\n  transition: all 0.2s;\n  position: relative;\n  cursor: pointer;\n}\n\n.card-inner {\n  width: inherit;\n  height: inherit;\n  background: rgba(255, 255, 255, 0.05);\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);\n  backdrop-filter: blur(10px);\n  border-radius: 8px;\n}\n\n.card:hover {\n  transform: scale(1.04) rotate(1deg);\n}\n\n.circle {\n  width: 100px;\n  height: 100px;\n  background: repeating-linear-gradient(48deg, #3023ae 0%, #ff0099 100%);\n  border-radius: 35% 30% 75% 30% / 49% 30% 70% 51%;\n  position: absolute;\n  animation: move-up6 2s ease-in infinite alternate-reverse;\n}\n\n.circle:nth-child(1) {\n  top: -25px;\n  left: -25px;\n}\n\n.circle:nth-child(2) {\n  bottom: -25px;\n  right: -25px;\n  animation-name: move-down1;\n}\n\n@keyframes move-up6 {\n  to {\n    transform: translateY(-10px);\n  }\n}\n\n@keyframes move-down1 {\n  to {\n    transform: translateY(10px);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Honest Grasshopper 12</title>\n<style>\n/* From Uiverse.io by Pranali9922 - https://uiverse.io/Pranali9922/honest-grasshopper-12 */\n/* From Uiverse.io by Pranali9922  - Tags: card, cool card, card animation, card hover */\n.card {\n  width: 200px;\n  height: 200px;\n  transition: all 0.2s;\n  position: relative;\n  cursor: pointer;\n}\n\n.card-inner {\n  width: inherit;\n  height: inherit;\n  background: rgba(255, 255, 255, 0.05);\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);\n  backdrop-filter: blur(10px);\n  border-radius: 8px;\n}\n\n.card:hover {\n  transform: scale(1.04) rotate(1deg);\n}\n\n.circle {\n  width: 100px;\n  height: 100px;\n  background: repeating-linear-gradient(48deg, #3023ae 0%, #ff0099 100%);\n  border-radius: 35% 30% 75% 30% / 49% 30% 70% 51%;\n  position: absolute;\n  animation: move-up6 2s ease-in infinite alternate-reverse;\n}\n\n.circle:nth-child(1) {\n  top: -25px;\n  left: -25px;\n}\n\n.circle:nth-child(2) {\n  bottom: -25px;\n  right: -25px;\n  animation-name: move-down1;\n}\n\n@keyframes move-up6 {\n  to {\n    transform: translateY(-10px);\n  }\n}\n\n@keyframes move-down1 {\n  to {\n    transform: translateY(10px);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"card-inner\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#3023ae",
+  "#ff0099",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 333,
+ "size": 1333,
+ "html": "<div class=\"card\">\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"card-inner\"></div>\n</div>\n",
+ "css": "/* Honest Grasshopper 12 by Pranali9922 — https://uiverse.io/Pranali9922/honest-grasshopper-12 */\n.card {\n  width: 200px;\n  height: 200px;\n  transition: all 0.2s;\n  position: relative;\n  cursor: pointer;\n}\n\n.card-inner {\n  width: inherit;\n  height: inherit;\n  background: rgba(255, 255, 255, 0.05);\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);\n  backdrop-filter: blur(10px);\n  border-radius: 8px;\n}\n\n.card:hover {\n  transform: scale(1.04) rotate(1deg);\n}\n\n.circle {\n  width: 100px;\n  height: 100px;\n  background: repeating-linear-gradient(48deg, #3023ae 0%, #ff0099 100%);\n  border-radius: 35% 30% 75% 30% / 49% 30% 70% 51%;\n  position: absolute;\n  animation: move-up6 2s ease-in infinite alternate-reverse;\n}\n\n.circle:nth-child(1) {\n  top: -25px;\n  left: -25px;\n}\n\n.circle:nth-child(2) {\n  bottom: -25px;\n  right: -25px;\n  animation-name: move-down1;\n}\n\n@keyframes move-up6 {\n  to {\n    transform: translateY(-10px);\n  }\n}\n\n@keyframes move-down1 {\n  to {\n    transform: translateY(10px);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Honest Grasshopper 12</title>\n<style>\n/* Honest Grasshopper 12 by Pranali9922 — https://uiverse.io/Pranali9922/honest-grasshopper-12 */\n.card {\n  width: 200px;\n  height: 200px;\n  transition: all 0.2s;\n  position: relative;\n  cursor: pointer;\n}\n\n.card-inner {\n  width: inherit;\n  height: inherit;\n  background: rgba(255, 255, 255, 0.05);\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);\n  backdrop-filter: blur(10px);\n  border-radius: 8px;\n}\n\n.card:hover {\n  transform: scale(1.04) rotate(1deg);\n}\n\n.circle {\n  width: 100px;\n  height: 100px;\n  background: repeating-linear-gradient(48deg, #3023ae 0%, #ff0099 100%);\n  border-radius: 35% 30% 75% 30% / 49% 30% 70% 51%;\n  position: absolute;\n  animation: move-up6 2s ease-in infinite alternate-reverse;\n}\n\n.circle:nth-child(1) {\n  top: -25px;\n  left: -25px;\n}\n\n.circle:nth-child(2) {\n  bottom: -25px;\n  right: -25px;\n  animation-name: move-down1;\n}\n\n@keyframes move-up6 {\n  to {\n    transform: translateY(-10px);\n  }\n}\n\n@keyframes move-down1 {\n  to {\n    transform: translateY(10px);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"circle\"></div>\n  <div class=\"circle\"></div>\n  <div class=\"card-inner\"></div>\n</div>\n\n</body>\n</html>\n"
 }

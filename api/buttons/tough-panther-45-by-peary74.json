@@ -5,15 +5,25 @@
  "author": "Peary74",
  "source": "https://uiverse.io/Peary74/tough-panther-45",
  "trigger": "hover",
- "description": "A button with neumorphism and delete styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded red button that changes colour on hover.",
+ "howItWorks": "On hover, letter-spacing becomes 4px, text color changes from #ff0000 to #fff, background changes from none to #ff0000.",
  "tags": [
-  "neumorphism",
-  "button",
+  "red",
+  "rounded",
+  "color-change",
+  "expand",
   "delete",
-  "hover"
+  "neumorphism"
  ],
- "html": "<div class=\"del\">\n    <div>\n      Delete\n    </div>     \n</div>",
- "css": "/* From Uiverse.io by Peary74 - Tags: neumorphism, button, delete */\n.del {\n  position: relative;\n  top: 0;\n  left: 0;\n  width: 160px;\n  height: 50px;\n  margin: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.del div {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: none;\n  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),\n              -4px -4px 6px 0 rgba(116, 125, 136, .5), \n    inset -4px -4px 6px 0 rgba(255,255,255,.2),\n    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 30px;\n  letter-spacing: 1px;\n  color: #ff0000;\n  z-index: 1;\n  transition: .6s;\n}\n\n.del:hover div {\n  letter-spacing: 4px;\n  color: #fff;\n  background: #ff0000;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Panther 45</title>\n<style>\n/* From Uiverse.io by Peary74 - https://uiverse.io/Peary74/tough-panther-45 */\n/* From Uiverse.io by Peary74 - Tags: neumorphism, button, delete */\n.del {\n  position: relative;\n  top: 0;\n  left: 0;\n  width: 160px;\n  height: 50px;\n  margin: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.del div {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: none;\n  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),\n              -4px -4px 6px 0 rgba(116, 125, 136, .5), \n    inset -4px -4px 6px 0 rgba(255,255,255,.2),\n    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 30px;\n  letter-spacing: 1px;\n  color: #ff0000;\n  z-index: 1;\n  transition: .6s;\n}\n\n.del:hover div {\n  letter-spacing: 4px;\n  color: #fff;\n  background: #ff0000;\n}\n</style>\n</head>\n<body>\n<div class=\"del\">\n    <div>\n      Delete\n    </div>     \n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff0000",
+  "#747d88",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 282,
+ "size": 1129,
+ "html": "<div class=\"del\">\n    <div>\n      Delete\n    </div>\n</div>\n",
+ "css": "/* Tough Panther 45 by Peary74 — https://uiverse.io/Peary74/tough-panther-45 */\n.del {\n  position: relative;\n  top: 0;\n  left: 0;\n  width: 160px;\n  height: 50px;\n  margin: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.del div {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: none;\n  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),\n              -4px -4px 6px 0 rgba(116, 125, 136, .5),\n    inset -4px -4px 6px 0 rgba(255,255,255,.2),\n    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 30px;\n  letter-spacing: 1px;\n  color: #ff0000;\n  z-index: 1;\n  transition: .6s;\n}\n\n.del:hover div {\n  letter-spacing: 4px;\n  color: #fff;\n  background: #ff0000;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Panther 45</title>\n<style>\n/* Tough Panther 45 by Peary74 — https://uiverse.io/Peary74/tough-panther-45 */\n.del {\n  position: relative;\n  top: 0;\n  left: 0;\n  width: 160px;\n  height: 50px;\n  margin: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.del div {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: none;\n  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),\n              -4px -4px 6px 0 rgba(116, 125, 136, .5),\n    inset -4px -4px 6px 0 rgba(255,255,255,.2),\n    inset 4px 4px 6px 0 rgba(0, 0, 0, .4);\n  border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n  border-top: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 30px;\n  letter-spacing: 1px;\n  color: #ff0000;\n  z-index: 1;\n  transition: .6s;\n}\n\n.del:hover div {\n  letter-spacing: 4px;\n  color: #fff;\n  background: #ff0000;\n}\n</style>\n</head>\n<body>\n<div class=\"del\">\n    <div>\n      Delete\n    </div>\n</div>\n\n</body>\n</html>\n"
 }

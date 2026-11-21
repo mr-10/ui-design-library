@@ -5,14 +5,24 @@
  "author": "Cevorob",
  "source": "https://uiverse.io/Cevorob/good-wolverine-51",
  "trigger": "checked",
- "description": "A checkbox with hamburger styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Outlined rounded black checkbox that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: transform becomes rotate(45deg), top becomes 0px, left becomes 5px.",
  "tags": [
+  "outlined",
+  "rounded",
+  "flat",
+  "checkbox",
   "hamburger",
-  "checkboxes",
-  "checked"
+  "checkboxes"
  ],
- "html": "<label class=\"burger\" for=\"burger\">\n  <input type=\"checkbox\" id=\"burger\">\n  <span></span>\n  <span></span>\n  <span></span>\n</label>",
- "css": "/* From Uiverse.io by Cevorob - Tags: hamburger */\n.burger {\n  position: relative;\n  width: 40px;\n  height: 30px;\n  background: transparent;\n  cursor: pointer;\n  display: block;\n}\n\n.burger input {\n  display: none;\n}\n\n.burger span {\n  display: block;\n  position: absolute;\n  height: 4px;\n  width: 100%;\n  background: black;\n  border-radius: 9px;\n  opacity: 1;\n  left: 0;\n  transform: rotate(0deg);\n  transition: .25s ease-in-out;\n}\n\n.burger span:nth-of-type(1) {\n  top: 0px;\n  transform-origin: left center;\n}\n\n.burger span:nth-of-type(2) {\n  top: 50%;\n  transform: translateY(-50%);\n  transform-origin: left center;\n}\n\n.burger span:nth-of-type(3) {\n  top: 100%;\n  transform-origin: left center;\n  transform: translateY(-100%);\n}\n\n.burger input:checked ~ span:nth-of-type(1) {\n  transform: rotate(45deg);\n  top: 0px;\n  left: 5px;\n}\n\n.burger input:checked ~ span:nth-of-type(2) {\n  width: 0%;\n  opacity: 0;\n}\n\n.burger input:checked ~ span:nth-of-type(3) {\n  transform: rotate(-45deg);\n  top: 28px;\n  left: 5px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Good Wolverine 51</title>\n<style>\n/* From Uiverse.io by Cevorob - https://uiverse.io/Cevorob/good-wolverine-51 */\n/* From Uiverse.io by Cevorob - Tags: hamburger */\n.burger {\n  position: relative;\n  width: 40px;\n  height: 30px;\n  background: transparent;\n  cursor: pointer;\n  display: block;\n}\n\n.burger input {\n  display: none;\n}\n\n.burger span {\n  display: block;\n  position: absolute;\n  height: 4px;\n  width: 100%;\n  background: black;\n  border-radius: 9px;\n  opacity: 1;\n  left: 0;\n  transform: rotate(0deg);\n  transition: .25s ease-in-out;\n}\n\n.burger span:nth-of-type(1) {\n  top: 0px;\n  transform-origin: left center;\n}\n\n.burger span:nth-of-type(2) {\n  top: 50%;\n  transform: translateY(-50%);\n  transform-origin: left center;\n}\n\n.burger span:nth-of-type(3) {\n  top: 100%;\n  transform-origin: left center;\n  transform: translateY(-100%);\n}\n\n.burger input:checked ~ span:nth-of-type(1) {\n  transform: rotate(45deg);\n  top: 0px;\n  left: 5px;\n}\n\n.burger input:checked ~ span:nth-of-type(2) {\n  width: 0%;\n  opacity: 0;\n}\n\n.burger input:checked ~ span:nth-of-type(3) {\n  transform: rotate(-45deg);\n  top: 28px;\n  left: 5px;\n}\n</style>\n</head>\n<body>\n<label class=\"burger\" for=\"burger\">\n  <input type=\"checkbox\" id=\"burger\">\n  <span></span>\n  <span></span>\n  <span></span>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 347,
+ "size": 1391,
+ "html": "<label class=\"burger\" for=\"burger\">\n  <input type=\"checkbox\" id=\"burger\">\n  <span></span>\n  <span></span>\n  <span></span>\n</label>\n",
+ "css": "/* Good Wolverine 51 by Cevorob — https://uiverse.io/Cevorob/good-wolverine-51 */\n.burger {\n  position: relative;\n  width: 40px;\n  height: 30px;\n  background: transparent;\n  cursor: pointer;\n  display: block;\n}\n\n.burger input {\n  display: none;\n}\n\n.burger span {\n  display: block;\n  position: absolute;\n  height: 4px;\n  width: 100%;\n  background: black;\n  border-radius: 9px;\n  opacity: 1;\n  left: 0;\n  transform: rotate(0deg);\n  transition: .25s ease-in-out;\n}\n\n.burger span:nth-of-type(1) {\n  top: 0px;\n  transform-origin: left center;\n}\n\n.burger span:nth-of-type(2) {\n  top: 50%;\n  transform: translateY(-50%);\n  transform-origin: left center;\n}\n\n.burger span:nth-of-type(3) {\n  top: 100%;\n  transform-origin: left center;\n  transform: translateY(-100%);\n}\n\n.burger input:checked ~ span:nth-of-type(1) {\n  transform: rotate(45deg);\n  top: 0px;\n  left: 5px;\n}\n\n.burger input:checked ~ span:nth-of-type(2) {\n  width: 0%;\n  opacity: 0;\n}\n\n.burger input:checked ~ span:nth-of-type(3) {\n  transform: rotate(-45deg);\n  top: 28px;\n  left: 5px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Good Wolverine 51</title>\n<style>\n/* Good Wolverine 51 by Cevorob — https://uiverse.io/Cevorob/good-wolverine-51 */\n.burger {\n  position: relative;\n  width: 40px;\n  height: 30px;\n  background: transparent;\n  cursor: pointer;\n  display: block;\n}\n\n.burger input {\n  display: none;\n}\n\n.burger span {\n  display: block;\n  position: absolute;\n  height: 4px;\n  width: 100%;\n  background: black;\n  border-radius: 9px;\n  opacity: 1;\n  left: 0;\n  transform: rotate(0deg);\n  transition: .25s ease-in-out;\n}\n\n.burger span:nth-of-type(1) {\n  top: 0px;\n  transform-origin: left center;\n}\n\n.burger span:nth-of-type(2) {\n  top: 50%;\n  transform: translateY(-50%);\n  transform-origin: left center;\n}\n\n.burger span:nth-of-type(3) {\n  top: 100%;\n  transform-origin: left center;\n  transform: translateY(-100%);\n}\n\n.burger input:checked ~ span:nth-of-type(1) {\n  transform: rotate(45deg);\n  top: 0px;\n  left: 5px;\n}\n\n.burger input:checked ~ span:nth-of-type(2) {\n  width: 0%;\n  opacity: 0;\n}\n\n.burger input:checked ~ span:nth-of-type(3) {\n  transform: rotate(-45deg);\n  top: 28px;\n  left: 5px;\n}\n</style>\n</head>\n<body>\n<label class=\"burger\" for=\"burger\">\n  <input type=\"checkbox\" id=\"burger\">\n  <span></span>\n  <span></span>\n  <span></span>\n</label>\n\n</body>\n</html>\n"
 }

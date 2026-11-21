@@ -5,14 +5,26 @@
  "author": "cssbuttons-io",
  "source": "https://uiverse.io/cssbuttons-io/friendly-dragon-76",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded white button that lifts and glows on hover.",
+ "howItWorks": "On hover, transform becomes translateY(-3px), box-shadow becomes 0 10px 20px #000000, transform becomes scaleX(1.4) scaleY(1.6).",
  "tags": [
+  "rounded",
+  "lift",
+  "glow",
+  "fade",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button class=\"btn\"> Button\n</button>",
- "css": "/* From Uiverse.io by cssbuttons-io - Tags: button */\n.btn {\n position: relative;\n font-size: 17px;\n text-transform: uppercase;\n text-decoration: none;\n padding: 1em 2.5em;\n display: inline-block;\n border-radius: 6em;\n transition: all .2s;\n border: none;\n font-family: inherit;\n font-weight: 500;\n color: black;\n background-color: white;\n}\n\n.btn:hover {\n transform: translateY(-3px);\n box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);\n}\n\n.btn:active {\n transform: translateY(-1px);\n box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\n}\n\n.btn::after {\n content: \"\";\n display: inline-block;\n height: 100%;\n width: 100%;\n border-radius: 100px;\n position: absolute;\n top: 0;\n left: 0;\n z-index: -1;\n transition: all .4s;\n}\n\n.btn::after {\n background-color: #fff;\n}\n\n.btn:hover::after {\n transform: scaleX(1.4) scaleY(1.6);\n opacity: 0;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Friendly Dragon 76</title>\n<style>\n/* From Uiverse.io by cssbuttons-io - https://uiverse.io/cssbuttons-io/friendly-dragon-76 */\n/* From Uiverse.io by cssbuttons-io - Tags: button */\n.btn {\n position: relative;\n font-size: 17px;\n text-transform: uppercase;\n text-decoration: none;\n padding: 1em 2.5em;\n display: inline-block;\n border-radius: 6em;\n transition: all .2s;\n border: none;\n font-family: inherit;\n font-weight: 500;\n color: black;\n background-color: white;\n}\n\n.btn:hover {\n transform: translateY(-3px);\n box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);\n}\n\n.btn:active {\n transform: translateY(-1px);\n box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\n}\n\n.btn::after {\n content: \"\";\n display: inline-block;\n height: 100%;\n width: 100%;\n border-radius: 100px;\n position: absolute;\n top: 0;\n left: 0;\n z-index: -1;\n transition: all .4s;\n}\n\n.btn::after {\n background-color: #fff;\n}\n\n.btn:hover::after {\n transform: scaleX(1.4) scaleY(1.6);\n opacity: 0;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"> Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 279,
+ "size": 1119,
+ "html": "<button class=\"btn\"> Button\n</button>\n",
+ "css": "/* Friendly Dragon 76 by cssbuttons-io — https://uiverse.io/cssbuttons-io/friendly-dragon-76 */\n.btn {\n position: relative;\n font-size: 17px;\n text-transform: uppercase;\n text-decoration: none;\n padding: 1em 2.5em;\n display: inline-block;\n border-radius: 6em;\n transition: all .2s;\n border: none;\n font-family: inherit;\n font-weight: 500;\n color: black;\n background-color: white;\n}\n\n.btn:hover {\n transform: translateY(-3px);\n box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);\n}\n\n.btn:active {\n transform: translateY(-1px);\n box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\n}\n\n.btn::after {\n content: \"\";\n display: inline-block;\n height: 100%;\n width: 100%;\n border-radius: 100px;\n position: absolute;\n top: 0;\n left: 0;\n z-index: -1;\n transition: all .4s;\n}\n\n.btn::after {\n background-color: #fff;\n}\n\n.btn:hover::after {\n transform: scaleX(1.4) scaleY(1.6);\n opacity: 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Friendly Dragon 76</title>\n<style>\n/* Friendly Dragon 76 by cssbuttons-io — https://uiverse.io/cssbuttons-io/friendly-dragon-76 */\n.btn {\n position: relative;\n font-size: 17px;\n text-transform: uppercase;\n text-decoration: none;\n padding: 1em 2.5em;\n display: inline-block;\n border-radius: 6em;\n transition: all .2s;\n border: none;\n font-family: inherit;\n font-weight: 500;\n color: black;\n background-color: white;\n}\n\n.btn:hover {\n transform: translateY(-3px);\n box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);\n}\n\n.btn:active {\n transform: translateY(-1px);\n box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\n}\n\n.btn::after {\n content: \"\";\n display: inline-block;\n height: 100%;\n width: 100%;\n border-radius: 100px;\n position: absolute;\n top: 0;\n left: 0;\n z-index: -1;\n transition: all .4s;\n}\n\n.btn::after {\n background-color: #fff;\n}\n\n.btn:hover::after {\n transform: scaleX(1.4) scaleY(1.6);\n opacity: 0;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"> Button\n</button>\n\n</body>\n</html>\n"
 }

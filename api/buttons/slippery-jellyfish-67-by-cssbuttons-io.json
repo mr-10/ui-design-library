@@ -5,14 +5,27 @@
  "author": "cssbuttons-io",
  "source": "https://uiverse.io/cssbuttons-io/slippery-jellyfish-67",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined pill violet button that changes colour on hover.",
+ "howItWorks": "On hover, text color changes from #560bad to #fff, top becomes -30px, left becomes -30px.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "violet",
+  "indigo",
+  "outlined",
+  "rounded",
+  "pill",
+  "flat"
  ],
- "html": "<button> Hover me\n</button>",
- "css": "/* From Uiverse.io by cssbuttons-io - Tags: button */\nbutton {\n --color: #560bad;\n font-family: inherit;\n display: inline-block;\n width: 8em;\n height: 2.6em;\n line-height: 2.5em;\n margin: 20px;\n position: relative;\n overflow: hidden;\n border: 2px solid var(--color);\n transition: color .5s;\n z-index: 1;\n font-size: 17px;\n border-radius: 6px;\n font-weight: 500;\n color: var(--color);\n}\n\nbutton:before {\n content: \"\";\n position: absolute;\n z-index: -1;\n background: var(--color);\n height: 150px;\n width: 200px;\n border-radius: 50%;\n}\n\nbutton:hover {\n color: #fff;\n}\n\nbutton:before {\n top: 100%;\n left: 100%;\n transition: all .7s;\n}\n\nbutton:hover:before {\n top: -30px;\n left: -30px;\n}\n\nbutton:active:before {\n background: #3a0ca3;\n transition: background 0s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slippery Jellyfish 67</title>\n<style>\n/* From Uiverse.io by cssbuttons-io - https://uiverse.io/cssbuttons-io/slippery-jellyfish-67 */\n/* From Uiverse.io by cssbuttons-io - Tags: button */\nbutton {\n --color: #560bad;\n font-family: inherit;\n display: inline-block;\n width: 8em;\n height: 2.6em;\n line-height: 2.5em;\n margin: 20px;\n position: relative;\n overflow: hidden;\n border: 2px solid var(--color);\n transition: color .5s;\n z-index: 1;\n font-size: 17px;\n border-radius: 6px;\n font-weight: 500;\n color: var(--color);\n}\n\nbutton:before {\n content: \"\";\n position: absolute;\n z-index: -1;\n background: var(--color);\n height: 150px;\n width: 200px;\n border-radius: 50%;\n}\n\nbutton:hover {\n color: #fff;\n}\n\nbutton:before {\n top: 100%;\n left: 100%;\n transition: all .7s;\n}\n\nbutton:hover:before {\n top: -30px;\n left: -30px;\n}\n\nbutton:active:before {\n background: #3a0ca3;\n transition: background 0s;\n}\n</style>\n</head>\n<body>\n<button> Hover me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#560bad",
+  "#3a0ca3",
+  "#ffffff"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 264,
+ "size": 1057,
+ "html": "<button> Hover me\n</button>\n",
+ "css": "/* Slippery Jellyfish 67 by cssbuttons-io — https://uiverse.io/cssbuttons-io/slippery-jellyfish-67 */\nbutton {\n --color: #560bad;\n font-family: inherit;\n display: inline-block;\n width: 8em;\n height: 2.6em;\n line-height: 2.5em;\n margin: 20px;\n position: relative;\n overflow: hidden;\n border: 2px solid var(--color);\n transition: color .5s;\n z-index: 1;\n font-size: 17px;\n border-radius: 6px;\n font-weight: 500;\n color: var(--color);\n}\n\nbutton:before {\n content: \"\";\n position: absolute;\n z-index: -1;\n background: var(--color);\n height: 150px;\n width: 200px;\n border-radius: 50%;\n}\n\nbutton:hover {\n color: #fff;\n}\n\nbutton:before {\n top: 100%;\n left: 100%;\n transition: all .7s;\n}\n\nbutton:hover:before {\n top: -30px;\n left: -30px;\n}\n\nbutton:active:before {\n background: #3a0ca3;\n transition: background 0s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slippery Jellyfish 67</title>\n<style>\n/* Slippery Jellyfish 67 by cssbuttons-io — https://uiverse.io/cssbuttons-io/slippery-jellyfish-67 */\nbutton {\n --color: #560bad;\n font-family: inherit;\n display: inline-block;\n width: 8em;\n height: 2.6em;\n line-height: 2.5em;\n margin: 20px;\n position: relative;\n overflow: hidden;\n border: 2px solid var(--color);\n transition: color .5s;\n z-index: 1;\n font-size: 17px;\n border-radius: 6px;\n font-weight: 500;\n color: var(--color);\n}\n\nbutton:before {\n content: \"\";\n position: absolute;\n z-index: -1;\n background: var(--color);\n height: 150px;\n width: 200px;\n border-radius: 50%;\n}\n\nbutton:hover {\n color: #fff;\n}\n\nbutton:before {\n top: 100%;\n left: 100%;\n transition: all .7s;\n}\n\nbutton:hover:before {\n top: -30px;\n left: -30px;\n}\n\nbutton:active:before {\n background: #3a0ca3;\n transition: background 0s;\n}\n</style>\n</head>\n<body>\n<button> Hover me\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,25 @@
  "author": "guilhermeyohan",
  "source": "https://uiverse.io/guilhermeyohan/cuddly-kangaroo-87",
  "trigger": "hover",
- "description": "A form UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark teal form that changes colour on hover.",
+ "howItWorks": "On hover, background-color changes from #008CBA to #006F8F.",
  "tags": [
-  "form",
-  "hover",
-  "css"
+  "teal",
+  "cyan",
+  "dark",
+  "flat",
+  "color-change",
+  "form"
  ],
- "html": "<div class=\"container\">\n\t\t<form>\n\t\t\t<label for=\"arquivo\">Choose a file:</label>\n\t\t\t<input accept=\".jpg, .jpeg, .png, .gif, .pdf\" class=\"inpdddut\" name=\"arquivo\" id=\"arquivo\" type=\"file\">\n\t\t\t<input value=\"Send\" type=\"submit\" class=\"inpdddut\">\n\t\t</form>\n\t</div>",
- "css": "/* From Uiverse.io by guilhermeyohan - Tags: form */\n.container {\n  max-width: 300px;\n  margin: 0 auto;\n  padding: 20px;\n  background-color: #13121269;\n  border-radius: 5px;\n}\n\nlabel {\n  font-weight: bold;\n  display: block;\n  margin-bottom: 10px;\n}\n\n.inpdddut[type=\"file\"] {\n  padding: 10px;\n  margin-bottom: 20px;\n  border: none;\n  background-color: #1aa3bb;\n  border-radius: 5px;\n  width: 100%;\n  cursor: pointer;\n}\n\n.inpdddut[type=\"submit\"] {\n  padding: 10px 20px;\n  background-color: #008CBA;\n  color: #fff;\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n}\n\n.inpdddut[type=\"submit\"]:hover {\n  background-color: #006F8F;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Kangaroo 87</title>\n<style>\n/* From Uiverse.io by guilhermeyohan - https://uiverse.io/guilhermeyohan/cuddly-kangaroo-87 */\n/* From Uiverse.io by guilhermeyohan - Tags: form */\n.container {\n  max-width: 300px;\n  margin: 0 auto;\n  padding: 20px;\n  background-color: #13121269;\n  border-radius: 5px;\n}\n\nlabel {\n  font-weight: bold;\n  display: block;\n  margin-bottom: 10px;\n}\n\n.inpdddut[type=\"file\"] {\n  padding: 10px;\n  margin-bottom: 20px;\n  border: none;\n  background-color: #1aa3bb;\n  border-radius: 5px;\n  width: 100%;\n  cursor: pointer;\n}\n\n.inpdddut[type=\"submit\"] {\n  padding: 10px 20px;\n  background-color: #008CBA;\n  color: #fff;\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n}\n\n.inpdddut[type=\"submit\"]:hover {\n  background-color: #006F8F;\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n\t\t<form>\n\t\t\t<label for=\"arquivo\">Choose a file:</label>\n\t\t\t<input accept=\".jpg, .jpeg, .png, .gif, .pdf\" class=\"inpdddut\" name=\"arquivo\" id=\"arquivo\" type=\"file\">\n\t\t\t<input value=\"Send\" type=\"submit\" class=\"inpdddut\">\n\t\t</form>\n\t</div>\n</body>\n</html>\n"
+ "colors": [
+  "#131212",
+  "#1aa3bb",
+  "#008cba"
+ ],
+ "fonts": [],
+ "tokens": 290,
+ "size": 1160,
+ "html": "<div class=\"container\">\n\t\t<form>\n\t\t\t<label for=\"arquivo\">Choose a file:</label>\n\t\t\t<input accept=\".jpg, .jpeg, .png, .gif, .pdf\" class=\"inpdddut\" name=\"arquivo\" id=\"arquivo\" type=\"file\">\n\t\t\t<input value=\"Send\" type=\"submit\" class=\"inpdddut\">\n\t\t</form>\n\t</div>\n",
+ "css": "/* Cuddly Kangaroo 87 by guilhermeyohan — https://uiverse.io/guilhermeyohan/cuddly-kangaroo-87 */\n.container {\n  max-width: 300px;\n  margin: 0 auto;\n  padding: 20px;\n  background-color: #13121269;\n  border-radius: 5px;\n}\n\nlabel {\n  font-weight: bold;\n  display: block;\n  margin-bottom: 10px;\n}\n\n.inpdddut[type=\"file\"] {\n  padding: 10px;\n  margin-bottom: 20px;\n  border: none;\n  background-color: #1aa3bb;\n  border-radius: 5px;\n  width: 100%;\n  cursor: pointer;\n}\n\n.inpdddut[type=\"submit\"] {\n  padding: 10px 20px;\n  background-color: #008CBA;\n  color: #fff;\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n}\n\n.inpdddut[type=\"submit\"]:hover {\n  background-color: #006F8F;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Kangaroo 87</title>\n<style>\n/* Cuddly Kangaroo 87 by guilhermeyohan — https://uiverse.io/guilhermeyohan/cuddly-kangaroo-87 */\n.container {\n  max-width: 300px;\n  margin: 0 auto;\n  padding: 20px;\n  background-color: #13121269;\n  border-radius: 5px;\n}\n\nlabel {\n  font-weight: bold;\n  display: block;\n  margin-bottom: 10px;\n}\n\n.inpdddut[type=\"file\"] {\n  padding: 10px;\n  margin-bottom: 20px;\n  border: none;\n  background-color: #1aa3bb;\n  border-radius: 5px;\n  width: 100%;\n  cursor: pointer;\n}\n\n.inpdddut[type=\"submit\"] {\n  padding: 10px 20px;\n  background-color: #008CBA;\n  color: #fff;\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;\n}\n\n.inpdddut[type=\"submit\"]:hover {\n  background-color: #006F8F;\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n\t\t<form>\n\t\t\t<label for=\"arquivo\">Choose a file:</label>\n\t\t\t<input accept=\".jpg, .jpeg, .png, .gif, .pdf\" class=\"inpdddut\" name=\"arquivo\" id=\"arquivo\" type=\"file\">\n\t\t\t<input value=\"Send\" type=\"submit\" class=\"inpdddut\">\n\t\t</form>\n\t</div>\n\n</body>\n</html>\n"
 }

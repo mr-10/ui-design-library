@@ -5,14 +5,25 @@
  "author": "JohnnyCSilva",
  "source": "https://uiverse.io/JohnnyCSilva/red-gecko-43",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark dark sky-blue button that glows and scales up on hover.",
+ "howItWorks": "On hover, background-color changes from #031d67 to #051749, box-shadow becomes 0px 22px 19px -8px #100877, transform becomes scale(1.02,1.02).",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "blue",
+  "dark",
+  "scale",
+  "glow",
+  "color-change",
+  "button"
  ],
- "html": "<button class=\"btn_center\">\n    Click Me\n</button>",
- "css": "/* From Uiverse.io by JohnnyCSilva - Tags: button */\n.btn_center {\n  display: table-cell;\n  vertical-align: middle;\n  border: none;\n  background-color: transparent;\n}\n\n.btn_center {\n  color: white;\n  margin: auto;\n  width: 150px;\n  line-height: 50px;\n  font-size: 12px;\n  letter-spacing: 2px;\n  border-radius: 0px;\n  font-weight: bold;\n  text-transform: uppercase;\n  background-color: #031d67;\n  box-shadow: 0px 15px 18px -6px rgba(35, 22, 214, 0.65);\n  transition: all 0.4s;\n  -webkit-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n  -ms-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  position: relative;\n}\n\n.btn_center:hover {\n  background-color: #051749;\n  box-shadow: 0px 22px 19px -8px rgba(16, 8, 119, 0.65);\n  transform: scale(1.02,1.02);\n}\n\n.btn_center:active {\n  background-color: #051749;\n  box-shadow: 0px 12px 18px -4px rgba(7, 4, 51, 0.65);\n  transform: scale(0.95,0.95);\n  transition: all 0.4s -0.125s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Gecko 43</title>\n<style>\n/* From Uiverse.io by JohnnyCSilva - https://uiverse.io/JohnnyCSilva/red-gecko-43 */\n/* From Uiverse.io by JohnnyCSilva - Tags: button */\n.btn_center {\n  display: table-cell;\n  vertical-align: middle;\n  border: none;\n  background-color: transparent;\n}\n\n.btn_center {\n  color: white;\n  margin: auto;\n  width: 150px;\n  line-height: 50px;\n  font-size: 12px;\n  letter-spacing: 2px;\n  border-radius: 0px;\n  font-weight: bold;\n  text-transform: uppercase;\n  background-color: #031d67;\n  box-shadow: 0px 15px 18px -6px rgba(35, 22, 214, 0.65);\n  transition: all 0.4s;\n  -webkit-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n  -ms-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  position: relative;\n}\n\n.btn_center:hover {\n  background-color: #051749;\n  box-shadow: 0px 22px 19px -8px rgba(16, 8, 119, 0.65);\n  transform: scale(1.02,1.02);\n}\n\n.btn_center:active {\n  background-color: #051749;\n  box-shadow: 0px 12px 18px -4px rgba(7, 4, 51, 0.65);\n  transform: scale(0.95,0.95);\n  transition: all 0.4s -0.125s;\n}\n</style>\n</head>\n<body>\n<button class=\"btn_center\">\n    Click Me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#051749",
+  "#031d67",
+  "#2316d6"
+ ],
+ "fonts": [],
+ "tokens": 304,
+ "size": 1220,
+ "html": "<button class=\"btn_center\">\n    Click Me\n</button>\n",
+ "css": "/* Red Gecko 43 by JohnnyCSilva — https://uiverse.io/JohnnyCSilva/red-gecko-43 */\n.btn_center {\n  display: table-cell;\n  vertical-align: middle;\n  border: none;\n  background-color: transparent;\n}\n\n.btn_center {\n  color: white;\n  margin: auto;\n  width: 150px;\n  line-height: 50px;\n  font-size: 12px;\n  letter-spacing: 2px;\n  border-radius: 0px;\n  font-weight: bold;\n  text-transform: uppercase;\n  background-color: #031d67;\n  box-shadow: 0px 15px 18px -6px rgba(35, 22, 214, 0.65);\n  transition: all 0.4s;\n  -webkit-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n  -ms-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  position: relative;\n}\n\n.btn_center:hover {\n  background-color: #051749;\n  box-shadow: 0px 22px 19px -8px rgba(16, 8, 119, 0.65);\n  transform: scale(1.02,1.02);\n}\n\n.btn_center:active {\n  background-color: #051749;\n  box-shadow: 0px 12px 18px -4px rgba(7, 4, 51, 0.65);\n  transform: scale(0.95,0.95);\n  transition: all 0.4s -0.125s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Gecko 43</title>\n<style>\n/* Red Gecko 43 by JohnnyCSilva — https://uiverse.io/JohnnyCSilva/red-gecko-43 */\n.btn_center {\n  display: table-cell;\n  vertical-align: middle;\n  border: none;\n  background-color: transparent;\n}\n\n.btn_center {\n  color: white;\n  margin: auto;\n  width: 150px;\n  line-height: 50px;\n  font-size: 12px;\n  letter-spacing: 2px;\n  border-radius: 0px;\n  font-weight: bold;\n  text-transform: uppercase;\n  background-color: #031d67;\n  box-shadow: 0px 15px 18px -6px rgba(35, 22, 214, 0.65);\n  transition: all 0.4s;\n  -webkit-transition: all 0.4s;\n  -moz-transition: all 0.4s;\n  -ms-transition: all 0.4s;\n  -o-transition: all 0.4s;\n  position: relative;\n}\n\n.btn_center:hover {\n  background-color: #051749;\n  box-shadow: 0px 22px 19px -8px rgba(16, 8, 119, 0.65);\n  transform: scale(1.02,1.02);\n}\n\n.btn_center:active {\n  background-color: #051749;\n  box-shadow: 0px 12px 18px -4px rgba(7, 4, 51, 0.65);\n  transform: scale(0.95,0.95);\n  transition: all 0.4s -0.125s;\n}\n</style>\n</head>\n<body>\n<button class=\"btn_center\">\n    Click Me\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,15 +5,25 @@
  "author": "Pradeepsaranbishnoi",
  "source": "https://uiverse.io/Pradeepsaranbishnoi/wet-donkey-50",
  "trigger": "active",
- "description": "A button with claymorphism and emoji styling.",
- "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "description": "Rounded cyan button that responds while pressed down.",
+ "howItWorks": "While pressed, transform becomes scale(0.92), opacity becomes 1, the outline is removed.",
  "tags": [
+  "cyan",
+  "blue",
+  "rounded",
   "button",
   "claymorphism",
-  "emoji",
-  "active"
+  "emoji"
  ],
- "html": "<div class=\"mybutton\">\n<button class=\"button\" type=\"button\">\n   <span>Hello 😊</span>\n</button>\n</div>",
- "css": "/* From Uiverse.io by Pradeepsaranbishnoi - Tags: button, claymorphism, emoji */\n.mybutton {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.button {\n  all: unset;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  column-gap: .5em;\n  position: relative;\n  border-radius: 50px;\n  padding: 16px 24px;\n  background-color: #f0f7fa;\n  box-shadow: inset 0 -4px 8px #87bfd8, 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  color: #0470e3;\n  transition: transform 0.4s cubic-bezier(0.55, 1, 0.15, 1);\n  will-change: transform;\n}\n\n.button:active {\n  transform: scale(0.92);\n}\n\n.button:active::after {\n  opacity: 1;\n  outline: none;\n  border: 0;\n}\n\n.button::after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  border-image-slice: 50%;\n  border-image-width: 40px;\n  border-style: solid;\n  transform: scale(1.04, 1.08);\n  opacity: 0;\n  border: 0;\n  transition-property: opacity;\n  transition-duration: .4s;\n  transition-timing-function: cubic-bezier(0.55, 1, 0.15, 1);\n  will-change: transform;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wet Donkey 50</title>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - https://uiverse.io/Pradeepsaranbishnoi/wet-donkey-50 */\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: button, claymorphism, emoji */\n.mybutton {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.button {\n  all: unset;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  column-gap: .5em;\n  position: relative;\n  border-radius: 50px;\n  padding: 16px 24px;\n  background-color: #f0f7fa;\n  box-shadow: inset 0 -4px 8px #87bfd8, 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  color: #0470e3;\n  transition: transform 0.4s cubic-bezier(0.55, 1, 0.15, 1);\n  will-change: transform;\n}\n\n.button:active {\n  transform: scale(0.92);\n}\n\n.button:active::after {\n  opacity: 1;\n  outline: none;\n  border: 0;\n}\n\n.button::after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  border-image-slice: 50%;\n  border-image-width: 40px;\n  border-style: solid;\n  transform: scale(1.04, 1.08);\n  opacity: 0;\n  border: 0;\n  transition-property: opacity;\n  transition-duration: .4s;\n  transition-timing-function: cubic-bezier(0.55, 1, 0.15, 1);\n  will-change: transform;\n}\n</style>\n</head>\n<body>\n<div class=\"mybutton\">\n<button class=\"button\" type=\"button\">\n   <span>Hello 😊</span>\n</button>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#f0f7fa",
+  "#87bfd8",
+  "#0470e3"
+ ],
+ "fonts": [],
+ "tokens": 342,
+ "size": 1373,
+ "html": "<div class=\"mybutton\">\n<button class=\"button\" type=\"button\">\n   <span>Hello 😊</span>\n</button>\n</div>\n",
+ "css": "/* Wet Donkey 50 by Pradeepsaranbishnoi — https://uiverse.io/Pradeepsaranbishnoi/wet-donkey-50 */\n.mybutton {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.button {\n  all: unset;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  column-gap: .5em;\n  position: relative;\n  border-radius: 50px;\n  padding: 16px 24px;\n  background-color: #f0f7fa;\n  box-shadow: inset 0 -4px 8px #87bfd8, 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  color: #0470e3;\n  transition: transform 0.4s cubic-bezier(0.55, 1, 0.15, 1);\n  will-change: transform;\n}\n\n.button:active {\n  transform: scale(0.92);\n}\n\n.button:active::after {\n  opacity: 1;\n  outline: none;\n  border: 0;\n}\n\n.button::after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  border-image-slice: 50%;\n  border-image-width: 40px;\n  border-style: solid;\n  transform: scale(1.04, 1.08);\n  opacity: 0;\n  border: 0;\n  transition-property: opacity;\n  transition-duration: .4s;\n  transition-timing-function: cubic-bezier(0.55, 1, 0.15, 1);\n  will-change: transform;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wet Donkey 50</title>\n<style>\n/* Wet Donkey 50 by Pradeepsaranbishnoi — https://uiverse.io/Pradeepsaranbishnoi/wet-donkey-50 */\n.mybutton {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.button {\n  all: unset;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  column-gap: .5em;\n  position: relative;\n  border-radius: 50px;\n  padding: 16px 24px;\n  background-color: #f0f7fa;\n  box-shadow: inset 0 -4px 8px #87bfd8, 0 4px 6px rgba(0, 0, 0, 0.2);\n  cursor: pointer;\n  color: #0470e3;\n  transition: transform 0.4s cubic-bezier(0.55, 1, 0.15, 1);\n  will-change: transform;\n}\n\n.button:active {\n  transform: scale(0.92);\n}\n\n.button:active::after {\n  opacity: 1;\n  outline: none;\n  border: 0;\n}\n\n.button::after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  border-image-slice: 50%;\n  border-image-width: 40px;\n  border-style: solid;\n  transform: scale(1.04, 1.08);\n  opacity: 0;\n  border: 0;\n  transition-property: opacity;\n  transition-duration: .4s;\n  transition-timing-function: cubic-bezier(0.55, 1, 0.15, 1);\n  will-change: transform;\n}\n</style>\n</head>\n<body>\n<div class=\"mybutton\">\n<button class=\"button\" type=\"button\">\n   <span>Hello 😊</span>\n</button>\n</div>\n\n</body>\n</html>\n"
 }

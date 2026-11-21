@@ -5,15 +5,25 @@
  "author": "Bartek1238462",
  "source": "https://uiverse.io/Bartek1238462/dry-parrot-99",
  "trigger": "hover",
- "description": "A button with neon and hover-effect styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded fuchsia button that glows and scales up on hover.",
+ "howItWorks": "On hover, box-shadow becomes #f02eaa -5px 5px, #f02eaa -10px 10px, #f02eaa -15px 15px, #f02eaa -20px 20px, #f02eaa -25px 25px\n,#f02eaa 5px -5px, #f02eaa 10px -10px, #f02eaa 15px -15px, #f02eaa 20px -20px, #f02eaa 25px -25px\n,#f02eaa 5px 5px, #f02eaa 10px 10px, #f02eaa 15px 15px, #f02eaa 20px 20px, #f02eaa 25px 25px\n,#f02eaa -5px -5px, #f02eaa -10px -10px, #f02eaa -15px -15px, #f02eaa -20px -20px, #f02eaa -25px -25px, background-color changes from #000000 to #f02eaa, text color changes from #ffffff to #380024.",
  "tags": [
-  "button",
-  "hover",
-  "neon",
-  "hover-effect"
+  "fuchsia",
+  "rounded",
+  "scale",
+  "glow",
+  "color-change",
+  "button"
  ],
- "html": "<button class=\"button\">\n  <p class=\"text-inside\">HOVER ME</p>\n</button>",
- "css": "/* From Uiverse.io by Bartek1238462 - Tags: button, hover, neon, hover effect */\n.button {\n  width: 120px;\n  height: 40px;\n  background-color: rgb(0, 0, 0);\n  border: 3px solid rgb(0, 0, 0);\n  color: white;\n  border-radius: 25px;\n  transition: 1.5s;\n}\n\ntext-inside. {\n  font-weight: bold;\n}\n\n.button:hover {\n  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px\n,rgba(240, 46, 170, 0.4) 5px -5px, rgba(240, 46, 170, 0.3) 10px -10px, rgba(240, 46, 170, 0.2) 15px -15px, rgba(240, 46, 170, 0.1) 20px -20px, rgba(240, 46, 170, 0.05) 25px -25px\n,rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px\n,rgba(240, 46, 170, 0.4) -5px -5px, rgba(240, 46, 170, 0.3) -10px -10px, rgba(240, 46, 170, 0.2) -15px -15px, rgba(240, 46, 170, 0.1) -20px -20px, rgba(240, 46, 170, 0.05) -25px -25px;\n  background-color: rgba(240, 46, 170, 0.4);\n  color: rgb(56, 0, 36);\n  border: 2px solid white;\n  transform: scale(1.2,1.2);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Parrot 99</title>\n<style>\n/* From Uiverse.io by Bartek1238462 - https://uiverse.io/Bartek1238462/dry-parrot-99 */\n/* From Uiverse.io by Bartek1238462 - Tags: button, hover, neon, hover effect */\n.button {\n  width: 120px;\n  height: 40px;\n  background-color: rgb(0, 0, 0);\n  border: 3px solid rgb(0, 0, 0);\n  color: white;\n  border-radius: 25px;\n  transition: 1.5s;\n}\n\ntext-inside. {\n  font-weight: bold;\n}\n\n.button:hover {\n  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px\n,rgba(240, 46, 170, 0.4) 5px -5px, rgba(240, 46, 170, 0.3) 10px -10px, rgba(240, 46, 170, 0.2) 15px -15px, rgba(240, 46, 170, 0.1) 20px -20px, rgba(240, 46, 170, 0.05) 25px -25px\n,rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px\n,rgba(240, 46, 170, 0.4) -5px -5px, rgba(240, 46, 170, 0.3) -10px -10px, rgba(240, 46, 170, 0.2) -15px -15px, rgba(240, 46, 170, 0.1) -20px -20px, rgba(240, 46, 170, 0.05) -25px -25px;\n  background-color: rgba(240, 46, 170, 0.4);\n  color: rgb(56, 0, 36);\n  border: 2px solid white;\n  transform: scale(1.2,1.2);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <p class=\"text-inside\">HOVER ME</p>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#f02eaa",
+  "#380024",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 364,
+ "size": 1457,
+ "html": "<button class=\"button\">\n  <p class=\"text-inside\">HOVER ME</p>\n</button>\n",
+ "css": "/* Dry Parrot 99 by Bartek1238462 — https://uiverse.io/Bartek1238462/dry-parrot-99 */\n.button {\n  width: 120px;\n  height: 40px;\n  background-color: rgb(0, 0, 0);\n  border: 3px solid rgb(0, 0, 0);\n  color: white;\n  border-radius: 25px;\n  transition: 1.5s;\n}\n\ntext-inside. {\n  font-weight: bold;\n}\n\n.button:hover {\n  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px\n,rgba(240, 46, 170, 0.4) 5px -5px, rgba(240, 46, 170, 0.3) 10px -10px, rgba(240, 46, 170, 0.2) 15px -15px, rgba(240, 46, 170, 0.1) 20px -20px, rgba(240, 46, 170, 0.05) 25px -25px\n,rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px\n,rgba(240, 46, 170, 0.4) -5px -5px, rgba(240, 46, 170, 0.3) -10px -10px, rgba(240, 46, 170, 0.2) -15px -15px, rgba(240, 46, 170, 0.1) -20px -20px, rgba(240, 46, 170, 0.05) -25px -25px;\n  background-color: rgba(240, 46, 170, 0.4);\n  color: rgb(56, 0, 36);\n  border: 2px solid white;\n  transform: scale(1.2,1.2);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Parrot 99</title>\n<style>\n/* Dry Parrot 99 by Bartek1238462 — https://uiverse.io/Bartek1238462/dry-parrot-99 */\n.button {\n  width: 120px;\n  height: 40px;\n  background-color: rgb(0, 0, 0);\n  border: 3px solid rgb(0, 0, 0);\n  color: white;\n  border-radius: 25px;\n  transition: 1.5s;\n}\n\ntext-inside. {\n  font-weight: bold;\n}\n\n.button:hover {\n  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px\n,rgba(240, 46, 170, 0.4) 5px -5px, rgba(240, 46, 170, 0.3) 10px -10px, rgba(240, 46, 170, 0.2) 15px -15px, rgba(240, 46, 170, 0.1) 20px -20px, rgba(240, 46, 170, 0.05) 25px -25px\n,rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px\n,rgba(240, 46, 170, 0.4) -5px -5px, rgba(240, 46, 170, 0.3) -10px -10px, rgba(240, 46, 170, 0.2) -15px -15px, rgba(240, 46, 170, 0.1) -20px -20px, rgba(240, 46, 170, 0.05) -25px -25px;\n  background-color: rgba(240, 46, 170, 0.4);\n  color: rgb(56, 0, 36);\n  border: 2px solid white;\n  transform: scale(1.2,1.2);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <p class=\"text-inside\">HOVER ME</p>\n</button>\n\n</body>\n</html>\n"
 }

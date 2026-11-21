@@ -5,14 +5,25 @@
  "author": "joe-watson-sbf",
  "source": "https://uiverse.io/joe-watson-sbf/swift-husky-44",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined amber button that changes colour on hover.",
+ "howItWorks": "On hover, text color changes from #ffedd3 to #1e1e2b, width becomes 100%, height becomes 100%.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "amber",
+  "outlined",
+  "flat",
+  "color-change",
+  "expand",
+  "button"
  ],
- "html": "<button class=\"btn\">\n    Hover me\n</button>",
- "css": "/* From Uiverse.io by joe-watson-sbf - Tags: button, hover */\n.btn {\n  font-size: 17px;\n  background: transparent;\n  border: none;\n  padding: 1em 1.5em;\n  color: #ffedd3;\n  text-transform: uppercase;\n  position: relative;\n  transition: .5s ease;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 2px;\n  width: 0;\n  background-color: #ffc506;\n  transition: .5s ease;\n}\n\n.btn:hover {\n  color: #1e1e2b;\n  transition-delay: .5s;\n}\n\n.btn:hover::before {\n  width: 100%;\n}\n\n.btn::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 0;\n  width: 100%;\n  background-color: #ffc506;\n  transition: .4s ease;\n  z-index: -1;\n}\n\n.btn:hover::after {\n  height: 100%;\n  transition-delay: 0.4s;\n  color: aliceblue;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Husky 44</title>\n<style>\n/* From Uiverse.io by joe-watson-sbf - https://uiverse.io/joe-watson-sbf/swift-husky-44 */\n/* From Uiverse.io by joe-watson-sbf - Tags: button, hover */\n.btn {\n  font-size: 17px;\n  background: transparent;\n  border: none;\n  padding: 1em 1.5em;\n  color: #ffedd3;\n  text-transform: uppercase;\n  position: relative;\n  transition: .5s ease;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 2px;\n  width: 0;\n  background-color: #ffc506;\n  transition: .5s ease;\n}\n\n.btn:hover {\n  color: #1e1e2b;\n  transition-delay: .5s;\n}\n\n.btn:hover::before {\n  width: 100%;\n}\n\n.btn::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 0;\n  width: 100%;\n  background-color: #ffc506;\n  transition: .4s ease;\n  z-index: -1;\n}\n\n.btn:hover::after {\n  height: 100%;\n  transition-delay: 0.4s;\n  color: aliceblue;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n    Hover me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffc506",
+  "#ffedd3",
+  "#1e1e2b"
+ ],
+ "fonts": [],
+ "tokens": 262,
+ "size": 1051,
+ "html": "<button class=\"btn\">\n    Hover me\n</button>\n",
+ "css": "/* Swift Husky 44 by joe-watson-sbf — https://uiverse.io/joe-watson-sbf/swift-husky-44 */\n.btn {\n  font-size: 17px;\n  background: transparent;\n  border: none;\n  padding: 1em 1.5em;\n  color: #ffedd3;\n  text-transform: uppercase;\n  position: relative;\n  transition: .5s ease;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 2px;\n  width: 0;\n  background-color: #ffc506;\n  transition: .5s ease;\n}\n\n.btn:hover {\n  color: #1e1e2b;\n  transition-delay: .5s;\n}\n\n.btn:hover::before {\n  width: 100%;\n}\n\n.btn::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 0;\n  width: 100%;\n  background-color: #ffc506;\n  transition: .4s ease;\n  z-index: -1;\n}\n\n.btn:hover::after {\n  height: 100%;\n  transition-delay: 0.4s;\n  color: aliceblue;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Husky 44</title>\n<style>\n/* Swift Husky 44 by joe-watson-sbf — https://uiverse.io/joe-watson-sbf/swift-husky-44 */\n.btn {\n  font-size: 17px;\n  background: transparent;\n  border: none;\n  padding: 1em 1.5em;\n  color: #ffedd3;\n  text-transform: uppercase;\n  position: relative;\n  transition: .5s ease;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 2px;\n  width: 0;\n  background-color: #ffc506;\n  transition: .5s ease;\n}\n\n.btn:hover {\n  color: #1e1e2b;\n  transition-delay: .5s;\n}\n\n.btn:hover::before {\n  width: 100%;\n}\n\n.btn::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  height: 0;\n  width: 100%;\n  background-color: #ffc506;\n  transition: .4s ease;\n  z-index: -1;\n}\n\n.btn:hover::after {\n  height: 100%;\n  transition-delay: 0.4s;\n  color: aliceblue;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n    Hover me\n</button>\n\n</body>\n</html>\n"
 }

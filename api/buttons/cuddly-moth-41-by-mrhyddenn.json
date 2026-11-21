@@ -5,14 +5,25 @@
  "author": "mrhyddenn",
  "source": "https://uiverse.io/mrhyddenn/cuddly-moth-41",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient 3d rounded sky-blue button that starts animating on hover.",
+ "howItWorks": "On hover, starts the rotate animation (rotating).",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "blue",
+  "purple",
+  "gradient",
+  "3d",
+  "outlined",
+  "rounded"
  ],
- "html": "<button>\n    <a>Hover me</a>\n</button>",
- "css": "/* From Uiverse.io by mrhyddenn - Tags: button */\nbutton {\n  background: transparent;\n  color: #fff;\n  font-size: 17px;\n  text-transform: uppercase;\n  font-weight: 600;\n  border: none;\n  padding: 20px 30px;\n  perspective: 30rem;\n  border-radius: 10px;\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);\n}\n\nbutton::before {\n  content: '';\n  display: block;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  border-radius: 10px;\n  background: linear-gradient(320deg, rgba(0, 140, 255, 0.678), rgba(128, 0, 128, 0.308));\n  z-index: 1;\n  transition: background 3s;\n}\n\nbutton:hover::before {\n  animation: rotate 1s;\n  transition: all .5s;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotateY(180deg);\n  }\n\n  100% {\n    transform: rotateY(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Moth 41</title>\n<style>\n/* From Uiverse.io by mrhyddenn - https://uiverse.io/mrhyddenn/cuddly-moth-41 */\n/* From Uiverse.io by mrhyddenn - Tags: button */\nbutton {\n  background: transparent;\n  color: #fff;\n  font-size: 17px;\n  text-transform: uppercase;\n  font-weight: 600;\n  border: none;\n  padding: 20px 30px;\n  perspective: 30rem;\n  border-radius: 10px;\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);\n}\n\nbutton::before {\n  content: '';\n  display: block;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  border-radius: 10px;\n  background: linear-gradient(320deg, rgba(0, 140, 255, 0.678), rgba(128, 0, 128, 0.308));\n  z-index: 1;\n  transition: background 3s;\n}\n\nbutton:hover::before {\n  animation: rotate 1s;\n  transition: all .5s;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotateY(180deg);\n  }\n\n  100% {\n    transform: rotateY(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<button>\n    <a>Hover me</a>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#008cff",
+  "#800080",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 263,
+ "size": 1054,
+ "html": "<button>\n    <a>Hover me</a>\n</button>\n",
+ "css": "/* Cuddly Moth 41 by mrhyddenn — https://uiverse.io/mrhyddenn/cuddly-moth-41 */\nbutton {\n  background: transparent;\n  color: #fff;\n  font-size: 17px;\n  text-transform: uppercase;\n  font-weight: 600;\n  border: none;\n  padding: 20px 30px;\n  perspective: 30rem;\n  border-radius: 10px;\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);\n}\n\nbutton::before {\n  content: '';\n  display: block;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  border-radius: 10px;\n  background: linear-gradient(320deg, rgba(0, 140, 255, 0.678), rgba(128, 0, 128, 0.308));\n  z-index: 1;\n  transition: background 3s;\n}\n\nbutton:hover::before {\n  animation: rotate 1s;\n  transition: all .5s;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotateY(180deg);\n  }\n\n  100% {\n    transform: rotateY(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Moth 41</title>\n<style>\n/* Cuddly Moth 41 by mrhyddenn — https://uiverse.io/mrhyddenn/cuddly-moth-41 */\nbutton {\n  background: transparent;\n  color: #fff;\n  font-size: 17px;\n  text-transform: uppercase;\n  font-weight: 600;\n  border: none;\n  padding: 20px 30px;\n  perspective: 30rem;\n  border-radius: 10px;\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);\n}\n\nbutton::before {\n  content: '';\n  display: block;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  border-radius: 10px;\n  background: linear-gradient(320deg, rgba(0, 140, 255, 0.678), rgba(128, 0, 128, 0.308));\n  z-index: 1;\n  transition: background 3s;\n}\n\nbutton:hover::before {\n  animation: rotate 1s;\n  transition: all .5s;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotateY(180deg);\n  }\n\n  100% {\n    transform: rotateY(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<button>\n    <a>Hover me</a>\n</button>\n\n</body>\n</html>\n"
 }

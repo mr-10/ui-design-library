@@ -5,16 +5,26 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/big-bear-52",
  "trigger": "auto-loop",
- "description": "A loader with simple, material-design and neumorphism styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient black loader with animating motion in a loop.",
+ "howItWorks": "It loops a 1s animation (animating).",
  "tags": [
+  "gradient",
+  "flat",
   "simple",
   "material-design",
   "neumorphism",
-  "loader",
-  "auto-loop"
+  "loader"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by doniaskima - Tags: simple, material design, neumorphism, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  display: inline-flex;\n  border: 2px solid #000;\n  --c: no-repeat linear-gradient(#000 0 0) 50%;\n  background: var(--c) calc(50% - 5px)/5px 5px,\n    var(--c) calc(50% + 5px)/5px 5px;\n}\n\n.loader::before,\n.loader::after {\n  content: \"12 00 23 40 31 45 60 17 45 32 29 42 50 08 14 07 46 11 03 55\";\n  font-size: 30px;\n  font-family: monospace;\n  font-weight: bold;\n  line-height: 1em;\n  height: 1em;\n  width: 2ch;\n  color: #0000;\n  text-shadow: 0 0 0 #000;\n  overflow: hidden;\n  margin: 5px 10px;\n  animation: l3 1s steps(20) infinite;\n}\n\n.loader::before {\n  animation-duration: 1.5s;\n}\n\n@keyframes l3 {\n  100% {\n    text-shadow: 0 -20em 0 #000\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Bear 52</title>\n<style>\n/* From Uiverse.io by doniaskima - https://uiverse.io/doniaskima/big-bear-52 */\n/* From Uiverse.io by doniaskima - Tags: simple, material design, neumorphism, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  display: inline-flex;\n  border: 2px solid #000;\n  --c: no-repeat linear-gradient(#000 0 0) 50%;\n  background: var(--c) calc(50% - 5px)/5px 5px,\n    var(--c) calc(50% + 5px)/5px 5px;\n}\n\n.loader::before,\n.loader::after {\n  content: \"12 00 23 40 31 45 60 17 45 32 29 42 50 08 14 07 46 11 03 55\";\n  font-size: 30px;\n  font-family: monospace;\n  font-weight: bold;\n  line-height: 1em;\n  height: 1em;\n  width: 2ch;\n  color: #0000;\n  text-shadow: 0 0 0 #000;\n  overflow: hidden;\n  margin: 5px 10px;\n  animation: l3 1s steps(20) infinite;\n}\n\n.loader::before {\n  animation-duration: 1.5s;\n}\n\n@keyframes l3 {\n  100% {\n    text-shadow: 0 -20em 0 #000\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [
+  "monospace"
+ ],
+ "tokens": 242,
+ "size": 972,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Big Bear 52 by doniaskima — https://uiverse.io/doniaskima/big-bear-52 */\n.loader {\n  display: inline-flex;\n  border: 2px solid #000;\n  --c: no-repeat linear-gradient(#000 0 0) 50%;\n  background: var(--c) calc(50% - 5px)/5px 5px,\n    var(--c) calc(50% + 5px)/5px 5px;\n}\n\n.loader::before,\n.loader::after {\n  content: \"12 00 23 40 31 45 60 17 45 32 29 42 50 08 14 07 46 11 03 55\";\n  font-size: 30px;\n  font-family: monospace;\n  font-weight: bold;\n  line-height: 1em;\n  height: 1em;\n  width: 2ch;\n  color: #0000;\n  text-shadow: 0 0 0 #000;\n  overflow: hidden;\n  margin: 5px 10px;\n  animation: l3 1s steps(20) infinite;\n}\n\n.loader::before {\n  animation-duration: 1.5s;\n}\n\n@keyframes l3 {\n  100% {\n    text-shadow: 0 -20em 0 #000\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Bear 52</title>\n<style>\n/* Big Bear 52 by doniaskima — https://uiverse.io/doniaskima/big-bear-52 */\n.loader {\n  display: inline-flex;\n  border: 2px solid #000;\n  --c: no-repeat linear-gradient(#000 0 0) 50%;\n  background: var(--c) calc(50% - 5px)/5px 5px,\n    var(--c) calc(50% + 5px)/5px 5px;\n}\n\n.loader::before,\n.loader::after {\n  content: \"12 00 23 40 31 45 60 17 45 32 29 42 50 08 14 07 46 11 03 55\";\n  font-size: 30px;\n  font-family: monospace;\n  font-weight: bold;\n  line-height: 1em;\n  height: 1em;\n  width: 2ch;\n  color: #0000;\n  text-shadow: 0 0 0 #000;\n  overflow: hidden;\n  margin: 5px 10px;\n  animation: l3 1s steps(20) infinite;\n}\n\n.loader::before {\n  animation-duration: 1.5s;\n}\n\n@keyframes l3 {\n  100% {\n    text-shadow: 0 -20em 0 #000\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

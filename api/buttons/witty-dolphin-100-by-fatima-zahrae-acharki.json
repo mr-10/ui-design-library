@@ -5,14 +5,27 @@
  "author": "Fatima-Zahrae-Acharki",
  "source": "https://uiverse.io/Fatima-Zahrae-Acharki/witty-dolphin-100",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded indigo button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, box-shadow becomes 0 0 5px #765ab5,\n              0 0 25px #352552,\n              0 0 50px #352552,\n              0 0 100px #765ab5,\n              0 0 500px #765ab5.",
  "tags": [
+  "indigo",
+  "rounded",
+  "glow",
   "button",
   "hover",
   "css"
  ],
- "html": "<button class=\"btn\">\n  space\n</button>",
- "css": "/* From Uiverse.io by Fatima-Zahrae-Acharki - Tags: button */\n.btn {\n  font-size: 16px;\n  font-family: monospace;\n  color: white;\n  border-radius: 8px;\n  letter-spacing: 5px;\n  font-weight: 800;\n  text-transform: uppercase;\n  transition: 0.6s;\n  padding: 10px 20px;\n  border: none;\n  transition-property: box-shadow;\n}\n\n.btn {\n  background: #765ab5;\n  box-shadow: 0 0 50px #765ab5;\n}\n\n.btn:hover {\n  box-shadow: 0 0 5px #765ab5,\n              0 0 25px #352552,\n              0 0 50px #352552,\n              0 0 100px #765ab5,\n              0 0 500px #765ab5;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Witty Dolphin 100</title>\n<style>\n/* From Uiverse.io by Fatima-Zahrae-Acharki - https://uiverse.io/Fatima-Zahrae-Acharki/witty-dolphin-100 */\n/* From Uiverse.io by Fatima-Zahrae-Acharki - Tags: button */\n.btn {\n  font-size: 16px;\n  font-family: monospace;\n  color: white;\n  border-radius: 8px;\n  letter-spacing: 5px;\n  font-weight: 800;\n  text-transform: uppercase;\n  transition: 0.6s;\n  padding: 10px 20px;\n  border: none;\n  transition-property: box-shadow;\n}\n\n.btn {\n  background: #765ab5;\n  box-shadow: 0 0 50px #765ab5;\n}\n\n.btn:hover {\n  box-shadow: 0 0 5px #765ab5,\n              0 0 25px #352552,\n              0 0 50px #352552,\n              0 0 100px #765ab5,\n              0 0 500px #765ab5;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n  space\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#765ab5",
+  "#352552",
+  "#ffffff"
+ ],
+ "fonts": [
+  "monospace"
+ ],
+ "tokens": 216,
+ "size": 866,
+ "html": "<button class=\"btn\">\n  space\n</button>\n",
+ "css": "/* Witty Dolphin 100 by Fatima-Zahrae-Acharki — https://uiverse.io/Fatima-Zahrae-Acharki/witty-dolphin-100 */\n.btn {\n  font-size: 16px;\n  font-family: monospace;\n  color: white;\n  border-radius: 8px;\n  letter-spacing: 5px;\n  font-weight: 800;\n  text-transform: uppercase;\n  transition: 0.6s;\n  padding: 10px 20px;\n  border: none;\n  transition-property: box-shadow;\n}\n\n.btn {\n  background: #765ab5;\n  box-shadow: 0 0 50px #765ab5;\n}\n\n.btn:hover {\n  box-shadow: 0 0 5px #765ab5,\n              0 0 25px #352552,\n              0 0 50px #352552,\n              0 0 100px #765ab5,\n              0 0 500px #765ab5;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Witty Dolphin 100</title>\n<style>\n/* Witty Dolphin 100 by Fatima-Zahrae-Acharki — https://uiverse.io/Fatima-Zahrae-Acharki/witty-dolphin-100 */\n.btn {\n  font-size: 16px;\n  font-family: monospace;\n  color: white;\n  border-radius: 8px;\n  letter-spacing: 5px;\n  font-weight: 800;\n  text-transform: uppercase;\n  transition: 0.6s;\n  padding: 10px 20px;\n  border: none;\n  transition-property: box-shadow;\n}\n\n.btn {\n  background: #765ab5;\n  box-shadow: 0 0 50px #765ab5;\n}\n\n.btn:hover {\n  box-shadow: 0 0 5px #765ab5,\n              0 0 25px #352552,\n              0 0 50px #352552,\n              0 0 100px #765ab5,\n              0 0 500px #765ab5;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n  space\n</button>\n\n</body>\n</html>\n"
 }

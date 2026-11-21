@@ -5,14 +5,26 @@
  "author": "Botwe-Felix5820",
  "source": "https://uiverse.io/Botwe-Felix5820/nasty-deer-97",
  "trigger": "hover",
- "description": "A button with shake styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded sky-blue button that starts animating on hover.",
+ "howItWorks": "On hover, starts the shake3856 animation (animating).",
  "tags": [
+  "blue",
+  "rounded",
+  "flat",
+  "animated",
   "button",
-  "shake",
-  "hover"
+  "shake"
  ],
- "html": "<button> Shake\n</button>",
- "css": "/* From Uiverse.io by Botwe-Felix5820 - Tags: button, shake */\nbutton {\n height: 3em;\n width: 8em;\n border: none;\n border-radius: 10em;\n background: #016DD9;\n font-size: 17px;\n color: #ffffff;\n font-family: inherit;\n font-weight: 500;\n}\n\nbutton:hover {\n animation: shake3856 0.3s linear infinite both;\n}\n\n@keyframes shake3856 {\n 0% {\n  -webkit-transform: translate(0);\n  transform: translate(0);\n }\n\n 20% {\n  -webkit-transform: translate(-2px, 2px);\n  transform: translate(-2px, 2px);\n }\n\n 40% {\n  -webkit-transform: translate(-2px, -2px);\n  transform: translate(-2px, -2px);\n }\n\n 60% {\n  -webkit-transform: translate(2px, 2px);\n  transform: translate(2px, 2px);\n }\n\n 80% {\n  -webkit-transform: translate(2px, -2px);\n  transform: translate(2px, -2px);\n }\n\n 100% {\n  -webkit-transform: translate(0);\n  transform: translate(0);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Deer 97</title>\n<style>\n/* From Uiverse.io by Botwe-Felix5820 - https://uiverse.io/Botwe-Felix5820/nasty-deer-97 */\n/* From Uiverse.io by Botwe-Felix5820 - Tags: button, shake */\nbutton {\n height: 3em;\n width: 8em;\n border: none;\n border-radius: 10em;\n background: #016DD9;\n font-size: 17px;\n color: #ffffff;\n font-family: inherit;\n font-weight: 500;\n}\n\nbutton:hover {\n animation: shake3856 0.3s linear infinite both;\n}\n\n@keyframes shake3856 {\n 0% {\n  -webkit-transform: translate(0);\n  transform: translate(0);\n }\n\n 20% {\n  -webkit-transform: translate(-2px, 2px);\n  transform: translate(-2px, 2px);\n }\n\n 40% {\n  -webkit-transform: translate(-2px, -2px);\n  transform: translate(-2px, -2px);\n }\n\n 60% {\n  -webkit-transform: translate(2px, 2px);\n  transform: translate(2px, 2px);\n }\n\n 80% {\n  -webkit-transform: translate(2px, -2px);\n  transform: translate(2px, -2px);\n }\n\n 100% {\n  -webkit-transform: translate(0);\n  transform: translate(0);\n }\n}\n</style>\n</head>\n<body>\n<button> Shake\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#016dd9",
+  "#ffffff"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 274,
+ "size": 1097,
+ "html": "<button> Shake\n</button>\n",
+ "css": "/* Nasty Deer 97 by Botwe-Felix5820 — https://uiverse.io/Botwe-Felix5820/nasty-deer-97 */\nbutton {\n height: 3em;\n width: 8em;\n border: none;\n border-radius: 10em;\n background: #016DD9;\n font-size: 17px;\n color: #ffffff;\n font-family: inherit;\n font-weight: 500;\n}\n\nbutton:hover {\n animation: shake3856 0.3s linear infinite both;\n}\n\n@keyframes shake3856 {\n 0% {\n  -webkit-transform: translate(0);\n  transform: translate(0);\n }\n\n 20% {\n  -webkit-transform: translate(-2px, 2px);\n  transform: translate(-2px, 2px);\n }\n\n 40% {\n  -webkit-transform: translate(-2px, -2px);\n  transform: translate(-2px, -2px);\n }\n\n 60% {\n  -webkit-transform: translate(2px, 2px);\n  transform: translate(2px, 2px);\n }\n\n 80% {\n  -webkit-transform: translate(2px, -2px);\n  transform: translate(2px, -2px);\n }\n\n 100% {\n  -webkit-transform: translate(0);\n  transform: translate(0);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Deer 97</title>\n<style>\n/* Nasty Deer 97 by Botwe-Felix5820 — https://uiverse.io/Botwe-Felix5820/nasty-deer-97 */\nbutton {\n height: 3em;\n width: 8em;\n border: none;\n border-radius: 10em;\n background: #016DD9;\n font-size: 17px;\n color: #ffffff;\n font-family: inherit;\n font-weight: 500;\n}\n\nbutton:hover {\n animation: shake3856 0.3s linear infinite both;\n}\n\n@keyframes shake3856 {\n 0% {\n  -webkit-transform: translate(0);\n  transform: translate(0);\n }\n\n 20% {\n  -webkit-transform: translate(-2px, 2px);\n  transform: translate(-2px, 2px);\n }\n\n 40% {\n  -webkit-transform: translate(-2px, -2px);\n  transform: translate(-2px, -2px);\n }\n\n 60% {\n  -webkit-transform: translate(2px, 2px);\n  transform: translate(2px, 2px);\n }\n\n 80% {\n  -webkit-transform: translate(2px, -2px);\n  transform: translate(2px, -2px);\n }\n\n 100% {\n  -webkit-transform: translate(0);\n  transform: translate(0);\n }\n}\n</style>\n</head>\n<body>\n<button> Shake\n</button>\n\n</body>\n</html>\n"
 }

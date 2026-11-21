@@ -4,15 +4,28 @@
  "category": "cards",
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/light-cheetah-20",
- "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gradient rounded sky-blue card that glows on hover.",
+ "howItWorks": "On hover, shadow grows. On focus, opacity changes and shadow grows.",
  "tags": [
-  "cards",
-  "static",
-  "css"
+  "blue",
+  "gradient",
+  "rounded",
+  "glow",
+  "fade",
+  "cards"
  ],
- "html": "<!-- From Uiverse.io by Yaya12085 - Source: https://www.material-tailwind.com/docs/html/card#card - Tags: card, box-shadow, tailwind -->\n<div class=\"relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md\">\n  <div class=\"relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600\">\n  </div>\n  <div class=\"p-6\">\n    <h5 class=\"mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased\">\n     Tailwind card\n    </h5>\n    <p class=\"block font-sans text-base font-light leading-relaxed text-inherit antialiased\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis ligula. \n    </p>\n  </div>\n  <div class=\"p-6 pt-0\">\n    <button data-ripple-light=\"true\" type=\"button\" class=\"select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none\">\n      Read More\n    </button>\n  </div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Light Cheetah 20</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/light-cheetah-20 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Yaya12085 - Source: https://www.material-tailwind.com/docs/html/card#card - Tags: card, box-shadow, tailwind -->\n<div class=\"relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md\">\n  <div class=\"relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600\">\n  </div>\n  <div class=\"p-6\">\n    <h5 class=\"mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased\">\n     Tailwind card\n    </h5>\n    <p class=\"block font-sans text-base font-light leading-relaxed text-inherit antialiased\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis ligula. \n    </p>\n  </div>\n  <div class=\"p-6 pt-0\">\n    <button data-ripple-light=\"true\" type=\"button\" class=\"select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none\">\n      Read More\n    </button>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#3b82f6",
+  "#374151",
+  "#2563eb"
+ ],
+ "fonts": [
+  "sans"
+ ],
+ "tokens": 361,
+ "size": 1446,
+ "html": "<div class=\"relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md\">\n  <div class=\"relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600\">\n  </div>\n  <div class=\"p-6\">\n    <h5 class=\"mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased\">\n     Tailwind card\n    </h5>\n    <p class=\"block font-sans text-base font-light leading-relaxed text-inherit antialiased\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis ligula.\n    </p>\n  </div>\n  <div class=\"p-6 pt-0\">\n    <button data-ripple-light=\"true\" type=\"button\" class=\"select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none\">\n      Read More\n    </button>\n  </div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Light Cheetah 20</title>\n<style>\n/* Light Cheetah 20 by Yaya12085 — https://uiverse.io/Yaya12085/light-cheetah-20 */\n\n</style>\n</head>\n<body>\n<div class=\"relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md\">\n  <div class=\"relative mx-4 -mt-6 h-40 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r from-blue-500 to-blue-600\">\n  </div>\n  <div class=\"p-6\">\n    <h5 class=\"mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased\">\n     Tailwind card\n    </h5>\n    <p class=\"block font-sans text-base font-light leading-relaxed text-inherit antialiased\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis ligula.\n    </p>\n  </div>\n  <div class=\"p-6 pt-0\">\n    <button data-ripple-light=\"true\" type=\"button\" class=\"select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none\">\n      Read More\n    </button>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

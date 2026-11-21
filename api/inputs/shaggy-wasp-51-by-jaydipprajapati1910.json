@@ -5,16 +5,25 @@
  "author": "JaydipPrajapati1910",
  "source": "https://uiverse.io/JaydipPrajapati1910/shaggy-wasp-51",
  "trigger": "focus",
- "description": "A input with transparent, input-effect and box-shadow styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Outlined rounded gray text input that lights up when focused.",
+ "howItWorks": "On focus, text color changes from #222 to #999.",
  "tags": [
+  "outlined",
+  "rounded",
+  "text-input",
   "input",
   "transparent",
-  "input-effect",
-  "box-shadow",
-  "focus"
+  "input-effect"
  ],
- "html": "<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Username\">",
- "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: input, transparent, input effect , box-shadow */\n.input {\n  max-width: 190px;\n  border: none;\n  outline: none;\n  background: none;\n  font-size: 18px;\n  color: #222;\n  padding: 15px 5px 10px 20px;\n  box-shadow: inset 4px 4px 4px rgba(15, 15, 15, 0.315),4px 4px 4px rgba(28, 28, 28, 0.13);\n  border-radius: 25px;\n  background-clip: padding-box;\n}\n\n.input:focus {\n  padding-bottom: 10px;\n}\n\n.input::placeholder {\n  color: #222;\n  text-transform: uppercase;\n  transition: all 0.3s ease;\n  font-size: 19px;\n  font-weight: 700;\n  letter-spacing: .3px;\n}\n\n.input:focus::placeholder {\n  color: #999;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shaggy Wasp 51</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/shaggy-wasp-51 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: input, transparent, input effect , box-shadow */\n.input {\n  max-width: 190px;\n  border: none;\n  outline: none;\n  background: none;\n  font-size: 18px;\n  color: #222;\n  padding: 15px 5px 10px 20px;\n  box-shadow: inset 4px 4px 4px rgba(15, 15, 15, 0.315),4px 4px 4px rgba(28, 28, 28, 0.13);\n  border-radius: 25px;\n  background-clip: padding-box;\n}\n\n.input:focus {\n  padding-bottom: 10px;\n}\n\n.input::placeholder {\n  color: #222;\n  text-transform: uppercase;\n  transition: all 0.3s ease;\n  font-size: 19px;\n  font-weight: 700;\n  letter-spacing: .3px;\n}\n\n.input:focus::placeholder {\n  color: #999;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Username\">\n</body>\n</html>\n"
+ "colors": [
+  "#222222",
+  "#0f0f0f",
+  "#1c1c1c"
+ ],
+ "fonts": [],
+ "tokens": 232,
+ "size": 929,
+ "html": "<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Username\">\n",
+ "css": "/* Shaggy Wasp 51 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/shaggy-wasp-51 */\n.input {\n  max-width: 190px;\n  border: none;\n  outline: none;\n  background: none;\n  font-size: 18px;\n  color: #222;\n  padding: 15px 5px 10px 20px;\n  box-shadow: inset 4px 4px 4px rgba(15, 15, 15, 0.315),4px 4px 4px rgba(28, 28, 28, 0.13);\n  border-radius: 25px;\n  background-clip: padding-box;\n}\n\n.input:focus {\n  padding-bottom: 10px;\n}\n\n.input::placeholder {\n  color: #222;\n  text-transform: uppercase;\n  transition: all 0.3s ease;\n  font-size: 19px;\n  font-weight: 700;\n  letter-spacing: .3px;\n}\n\n.input:focus::placeholder {\n  color: #999;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shaggy Wasp 51</title>\n<style>\n/* Shaggy Wasp 51 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/shaggy-wasp-51 */\n.input {\n  max-width: 190px;\n  border: none;\n  outline: none;\n  background: none;\n  font-size: 18px;\n  color: #222;\n  padding: 15px 5px 10px 20px;\n  box-shadow: inset 4px 4px 4px rgba(15, 15, 15, 0.315),4px 4px 4px rgba(28, 28, 28, 0.13);\n  border-radius: 25px;\n  background-clip: padding-box;\n}\n\n.input:focus {\n  padding-bottom: 10px;\n}\n\n.input::placeholder {\n  color: #222;\n  text-transform: uppercase;\n  transition: all 0.3s ease;\n  font-size: 19px;\n  font-weight: 700;\n  letter-spacing: .3px;\n}\n\n.input:focus::placeholder {\n  color: #999;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Username\">\n\n</body>\n</html>\n"
 }

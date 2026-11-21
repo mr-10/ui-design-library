@@ -5,15 +5,24 @@
  "author": "PriyanshuGupta28",
  "source": "https://uiverse.io/PriyanshuGupta28/tricky-wolverine-48",
  "trigger": "auto-loop",
- "description": "A loader with 3d-loader and 3d-cude-loader styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "3d sky-blue loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 3s animation (rotating).",
  "tags": [
-  "loader",
-  "3d-loader",
-  "3d-cude-loader",
-  "auto-loop"
+  "blue",
+  "3d",
+  "flat",
+  "spin",
+  "back",
+  "loader"
  ],
- "html": "<div class=\"loader-container\">\n    <div class=\"loader\">\n      <div class=\"face front\"></div>\n      <div class=\"face back\"></div>\n      <div class=\"face left\"></div>\n      <div class=\"face right\"></div>\n      <div class=\"face top\"></div>\n      <div class=\"face bottom\"></div>\n    </div>\n  </div>",
- "css": "/* From Uiverse.io by PriyanshuGupta28 - Tags: loader, 3d loader, 3d cude loader */\n.loader-container {\n  perspective: 800px;\n}\n\n.loader {\n  position: relative;\n  width: 80px;\n  height: 80px;\n  transform-style: preserve-3d;\n  animation: spin 3s linear infinite;\n}\n\n.face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: #2196F3;\n  border: 2px solid #1976D2;\n}\n\n.front {\n  transform: translateZ(40px);\n}\n\n.back {\n  transform: rotateY(180deg) translateZ(40px);\n}\n\n.left {\n  transform: rotateY(-90deg) translateZ(40px);\n}\n\n.right {\n  transform: rotateY(90deg) translateZ(40px);\n}\n\n.top {\n  transform: rotateX(90deg) translateZ(40px);\n}\n\n.bottom {\n  transform: rotateX(-90deg) translateZ(40px);\n}\n\n@keyframes spin {\n  0% {\n    transform: rotateX(0) rotateY(0) rotateZ(0);\n  }\n\n  100% {\n    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tricky Wolverine 48</title>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - https://uiverse.io/PriyanshuGupta28/tricky-wolverine-48 */\n/* From Uiverse.io by PriyanshuGupta28 - Tags: loader, 3d loader, 3d cude loader */\n.loader-container {\n  perspective: 800px;\n}\n\n.loader {\n  position: relative;\n  width: 80px;\n  height: 80px;\n  transform-style: preserve-3d;\n  animation: spin 3s linear infinite;\n}\n\n.face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: #2196F3;\n  border: 2px solid #1976D2;\n}\n\n.front {\n  transform: translateZ(40px);\n}\n\n.back {\n  transform: rotateY(180deg) translateZ(40px);\n}\n\n.left {\n  transform: rotateY(-90deg) translateZ(40px);\n}\n\n.right {\n  transform: rotateY(90deg) translateZ(40px);\n}\n\n.top {\n  transform: rotateX(90deg) translateZ(40px);\n}\n\n.bottom {\n  transform: rotateX(-90deg) translateZ(40px);\n}\n\n@keyframes spin {\n  0% {\n    transform: rotateX(0) rotateY(0) rotateZ(0);\n  }\n\n  100% {\n    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader-container\">\n    <div class=\"loader\">\n      <div class=\"face front\"></div>\n      <div class=\"face back\"></div>\n      <div class=\"face left\"></div>\n      <div class=\"face right\"></div>\n      <div class=\"face top\"></div>\n      <div class=\"face bottom\"></div>\n    </div>\n  </div>\n</body>\n</html>\n"
+ "colors": [
+  "#2196f3",
+  "#1976d2"
+ ],
+ "fonts": [],
+ "tokens": 353,
+ "size": 1413,
+ "html": "<div class=\"loader-container\">\n    <div class=\"loader\">\n      <div class=\"face front\"></div>\n      <div class=\"face back\"></div>\n      <div class=\"face left\"></div>\n      <div class=\"face right\"></div>\n      <div class=\"face top\"></div>\n      <div class=\"face bottom\"></div>\n    </div>\n  </div>\n",
+ "css": "/* Tricky Wolverine 48 by PriyanshuGupta28 — https://uiverse.io/PriyanshuGupta28/tricky-wolverine-48 */\n.loader-container {\n  perspective: 800px;\n}\n\n.loader {\n  position: relative;\n  width: 80px;\n  height: 80px;\n  transform-style: preserve-3d;\n  animation: spin 3s linear infinite;\n}\n\n.face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: #2196F3;\n  border: 2px solid #1976D2;\n}\n\n.front {\n  transform: translateZ(40px);\n}\n\n.back {\n  transform: rotateY(180deg) translateZ(40px);\n}\n\n.left {\n  transform: rotateY(-90deg) translateZ(40px);\n}\n\n.right {\n  transform: rotateY(90deg) translateZ(40px);\n}\n\n.top {\n  transform: rotateX(90deg) translateZ(40px);\n}\n\n.bottom {\n  transform: rotateX(-90deg) translateZ(40px);\n}\n\n@keyframes spin {\n  0% {\n    transform: rotateX(0) rotateY(0) rotateZ(0);\n  }\n\n  100% {\n    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tricky Wolverine 48</title>\n<style>\n/* Tricky Wolverine 48 by PriyanshuGupta28 — https://uiverse.io/PriyanshuGupta28/tricky-wolverine-48 */\n.loader-container {\n  perspective: 800px;\n}\n\n.loader {\n  position: relative;\n  width: 80px;\n  height: 80px;\n  transform-style: preserve-3d;\n  animation: spin 3s linear infinite;\n}\n\n.face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: #2196F3;\n  border: 2px solid #1976D2;\n}\n\n.front {\n  transform: translateZ(40px);\n}\n\n.back {\n  transform: rotateY(180deg) translateZ(40px);\n}\n\n.left {\n  transform: rotateY(-90deg) translateZ(40px);\n}\n\n.right {\n  transform: rotateY(90deg) translateZ(40px);\n}\n\n.top {\n  transform: rotateX(90deg) translateZ(40px);\n}\n\n.bottom {\n  transform: rotateX(-90deg) translateZ(40px);\n}\n\n@keyframes spin {\n  0% {\n    transform: rotateX(0) rotateY(0) rotateZ(0);\n  }\n\n  100% {\n    transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader-container\">\n    <div class=\"loader\">\n      <div class=\"face front\"></div>\n      <div class=\"face back\"></div>\n      <div class=\"face left\"></div>\n      <div class=\"face right\"></div>\n      <div class=\"face top\"></div>\n      <div class=\"face bottom\"></div>\n    </div>\n  </div>\n\n</body>\n</html>\n"
 }

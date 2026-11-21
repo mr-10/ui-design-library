@@ -5,14 +5,24 @@
  "author": "JakkarinKr",
  "source": "https://uiverse.io/JakkarinKr/tough-goat-61",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded purple button that glows on hover.",
+ "howItWorks": "On hover, transform becomes translate(10px, -15px), box-shadow becomes #c643ee -5px 5px, #b92ef0 -10px 10px, #c643ee -15px 15px, #c643ee -20px 20px, #c643ee -25px 25px.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "purple",
+  "violet",
+  "gradient",
+  "outlined",
+  "rounded",
+  "glow"
  ],
- "html": "<button>\n  HOVER ME\n</button>",
- "css": "/* From Uiverse.io by JakkarinKr - Tags: button */\nbutton {\n  width: 200px;\n  height: 70px;\n  border-radius: 12px;\n  background-image: linear-gradient(to right, rgb(135, 108, 197),rgb(45, 241, 255));\n  border: none;\n  cursor: pointer;\n  color: aliceblue;\n  font-weight: bold;\n  font-size: 1rem;\n  transition: all 0.3s ease;\n  box-shadow: rgba(198, 67, 238, 0.4) -5px 5px, rgba(185, 46, 240, 0.3) -10px 10px;\n}\n\nbutton:hover {\n  transform: translate(10px, -15px);\n  box-shadow: rgba(198, 67, 238, 0.4) -5px 5px, rgba(185, 46, 240, 0.3) -10px 10px, rgba(198, 67, 238, 0.2) -15px 15px, rgba(198, 67, 238, 0.1) -20px 20px, rgba(198, 67, 238, 0.05) -25px 25px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Goat 61</title>\n<style>\n/* From Uiverse.io by JakkarinKr - https://uiverse.io/JakkarinKr/tough-goat-61 */\n/* From Uiverse.io by JakkarinKr - Tags: button */\nbutton {\n  width: 200px;\n  height: 70px;\n  border-radius: 12px;\n  background-image: linear-gradient(to right, rgb(135, 108, 197),rgb(45, 241, 255));\n  border: none;\n  cursor: pointer;\n  color: aliceblue;\n  font-weight: bold;\n  font-size: 1rem;\n  transition: all 0.3s ease;\n  box-shadow: rgba(198, 67, 238, 0.4) -5px 5px, rgba(185, 46, 240, 0.3) -10px 10px;\n}\n\nbutton:hover {\n  transform: translate(10px, -15px);\n  box-shadow: rgba(198, 67, 238, 0.4) -5px 5px, rgba(185, 46, 240, 0.3) -10px 10px, rgba(198, 67, 238, 0.2) -15px 15px, rgba(198, 67, 238, 0.1) -20px 20px, rgba(198, 67, 238, 0.05) -25px 25px;\n}\n</style>\n</head>\n<body>\n<button>\n  HOVER ME\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#c643ee",
+  "#b92ef0"
+ ],
+ "fonts": [],
+ "tokens": 232,
+ "size": 931,
+ "html": "<button>\n  HOVER ME\n</button>\n",
+ "css": "/* Tough Goat 61 by JakkarinKr — https://uiverse.io/JakkarinKr/tough-goat-61 */\nbutton {\n  width: 200px;\n  height: 70px;\n  border-radius: 12px;\n  background-image: linear-gradient(to right, rgb(135, 108, 197),rgb(45, 241, 255));\n  border: none;\n  cursor: pointer;\n  color: aliceblue;\n  font-weight: bold;\n  font-size: 1rem;\n  transition: all 0.3s ease;\n  box-shadow: rgba(198, 67, 238, 0.4) -5px 5px, rgba(185, 46, 240, 0.3) -10px 10px;\n}\n\nbutton:hover {\n  transform: translate(10px, -15px);\n  box-shadow: rgba(198, 67, 238, 0.4) -5px 5px, rgba(185, 46, 240, 0.3) -10px 10px, rgba(198, 67, 238, 0.2) -15px 15px, rgba(198, 67, 238, 0.1) -20px 20px, rgba(198, 67, 238, 0.05) -25px 25px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Goat 61</title>\n<style>\n/* Tough Goat 61 by JakkarinKr — https://uiverse.io/JakkarinKr/tough-goat-61 */\nbutton {\n  width: 200px;\n  height: 70px;\n  border-radius: 12px;\n  background-image: linear-gradient(to right, rgb(135, 108, 197),rgb(45, 241, 255));\n  border: none;\n  cursor: pointer;\n  color: aliceblue;\n  font-weight: bold;\n  font-size: 1rem;\n  transition: all 0.3s ease;\n  box-shadow: rgba(198, 67, 238, 0.4) -5px 5px, rgba(185, 46, 240, 0.3) -10px 10px;\n}\n\nbutton:hover {\n  transform: translate(10px, -15px);\n  box-shadow: rgba(198, 67, 238, 0.4) -5px 5px, rgba(185, 46, 240, 0.3) -10px 10px, rgba(198, 67, 238, 0.2) -15px 15px, rgba(198, 67, 238, 0.1) -20px 20px, rgba(198, 67, 238, 0.05) -25px 25px;\n}\n</style>\n</head>\n<body>\n<button>\n  HOVER ME\n</button>\n\n</body>\n</html>\n"
 }

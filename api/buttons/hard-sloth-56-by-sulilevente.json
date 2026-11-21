@@ -5,14 +5,25 @@
  "author": "SuliLevente",
  "source": "https://uiverse.io/SuliLevente/hard-sloth-56",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark sky-blue button that slides on hover with a smooth transition.",
+ "howItWorks": "On hover, transform becomes translateX(0).",
  "tags": [
+  "blue",
+  "dark",
+  "flat",
+  "slide",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button>Button</button>",
- "css": "/* From Uiverse.io by SuliLevente - Tags: button */\nbutton {\n  background-color: #040810;\n  color: #C7C7C7;\n  padding: 15px;\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 17px;\n  overflow: hidden;\n  position: relative;\n  border: 3px double #2D6FBB;\n  z-index: 1;\n}\n\nbutton::before {\n  content: \"\";\n  background-color: #2D6FBB;\n  transform: translateX(-100%);\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n  transition: all 0.3s;\n  z-index: -1;\n}\n\nbutton:hover::before {\n  transform: translateX(0);\n}\n\nbutton::after {\n  content: \"\";\n  background-color: #2D6FBB;\n  transform: translateX(100%);\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n  transition: all 0.3s;\n  z-index: -1;\n}\n\nbutton:hover::after {\n  transform: translateX(0);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Sloth 56</title>\n<style>\n/* From Uiverse.io by SuliLevente - https://uiverse.io/SuliLevente/hard-sloth-56 */\n/* From Uiverse.io by SuliLevente - Tags: button */\nbutton {\n  background-color: #040810;\n  color: #C7C7C7;\n  padding: 15px;\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 17px;\n  overflow: hidden;\n  position: relative;\n  border: 3px double #2D6FBB;\n  z-index: 1;\n}\n\nbutton::before {\n  content: \"\";\n  background-color: #2D6FBB;\n  transform: translateX(-100%);\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n  transition: all 0.3s;\n  z-index: -1;\n}\n\nbutton:hover::before {\n  transform: translateX(0);\n}\n\nbutton::after {\n  content: \"\";\n  background-color: #2D6FBB;\n  transform: translateX(100%);\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n  transition: all 0.3s;\n  z-index: -1;\n}\n\nbutton:hover::after {\n  transform: translateX(0);\n}\n</style>\n</head>\n<body>\n<button>Button</button>\n</body>\n</html>\n"
+ "colors": [
+  "#2d6fbb",
+  "#040810",
+  "#c7c7c7"
+ ],
+ "fonts": [],
+ "tokens": 268,
+ "size": 1073,
+ "html": "<button>Button</button>\n",
+ "css": "/* Hard Sloth 56 by SuliLevente — https://uiverse.io/SuliLevente/hard-sloth-56 */\nbutton {\n  background-color: #040810;\n  color: #C7C7C7;\n  padding: 15px;\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 17px;\n  overflow: hidden;\n  position: relative;\n  border: 3px double #2D6FBB;\n  z-index: 1;\n}\n\nbutton::before {\n  content: \"\";\n  background-color: #2D6FBB;\n  transform: translateX(-100%);\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n  transition: all 0.3s;\n  z-index: -1;\n}\n\nbutton:hover::before {\n  transform: translateX(0);\n}\n\nbutton::after {\n  content: \"\";\n  background-color: #2D6FBB;\n  transform: translateX(100%);\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n  transition: all 0.3s;\n  z-index: -1;\n}\n\nbutton:hover::after {\n  transform: translateX(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Sloth 56</title>\n<style>\n/* Hard Sloth 56 by SuliLevente — https://uiverse.io/SuliLevente/hard-sloth-56 */\nbutton {\n  background-color: #040810;\n  color: #C7C7C7;\n  padding: 15px;\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 17px;\n  overflow: hidden;\n  position: relative;\n  border: 3px double #2D6FBB;\n  z-index: 1;\n}\n\nbutton::before {\n  content: \"\";\n  background-color: #2D6FBB;\n  transform: translateX(-100%);\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n  transition: all 0.3s;\n  z-index: -1;\n}\n\nbutton:hover::before {\n  transform: translateX(0);\n}\n\nbutton::after {\n  content: \"\";\n  background-color: #2D6FBB;\n  transform: translateX(100%);\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  top: 0;\n  left: 0;\n  transition: all 0.3s;\n  z-index: -1;\n}\n\nbutton:hover::after {\n  transform: translateX(0);\n}\n</style>\n</head>\n<body>\n<button>Button</button>\n\n</body>\n</html>\n"
 }

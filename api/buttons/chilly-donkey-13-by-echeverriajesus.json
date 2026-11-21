@@ -4,15 +4,26 @@
  "category": "buttons",
  "author": "EcheverriaJesus",
  "source": "https://uiverse.io/EcheverriaJesus/chilly-donkey-13",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gradient rounded blue button that glows and scales up on hover.",
+ "howItWorks": "On hover, it scales and shadow grows.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "blue",
+  "violet",
+  "gradient",
+  "rounded",
+  "scale",
+  "glow"
  ],
- "html": "<!-- From Uiverse.io by EcheverriaJesus  - Tags: gradient, button, hover, tailwind, tailwindbutton -->\n<button\n  class=\"w-28 h-12 text-white font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg shadow-lg hover:scale-105 duration-200 hover:drop-shadow-2xl hover:shadow-[#7dd3fc] hover:cursor-pointer\"\n>\n  Button\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Donkey 13</title>\n<style>\n/* From Uiverse.io by EcheverriaJesus - https://uiverse.io/EcheverriaJesus/chilly-donkey-13 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by EcheverriaJesus  - Tags: gradient, button, hover, tailwind, tailwindbutton -->\n<button\n  class=\"w-28 h-12 text-white font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg shadow-lg hover:scale-105 duration-200 hover:drop-shadow-2xl hover:shadow-[#7dd3fc] hover:cursor-pointer\"\n>\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#6366f1",
+  "#a855f7",
+  "#ec4899"
+ ],
+ "fonts": [],
+ "tokens": 140,
+ "size": 564,
+ "html": "<button\n  class=\"w-28 h-12 text-white font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg shadow-lg hover:scale-105 duration-200 hover:drop-shadow-2xl hover:shadow-[#7dd3fc] hover:cursor-pointer\"\n>\n  Button\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Donkey 13</title>\n<style>\n/* Chilly Donkey 13 by EcheverriaJesus — https://uiverse.io/EcheverriaJesus/chilly-donkey-13 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"w-28 h-12 text-white font-semibold bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg shadow-lg hover:scale-105 duration-200 hover:drop-shadow-2xl hover:shadow-[#7dd3fc] hover:cursor-pointer\"\n>\n  Button\n</button>\n\n</body>\n</html>\n"
 }

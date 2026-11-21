@@ -5,14 +5,25 @@
  "author": "martinval9",
  "source": "https://uiverse.io/martinval9/white-lionfish-18",
  "trigger": "checked",
- "description": "A toggle switch with switch styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Neon sky-blue toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: background-color changes from #ccc to #000, transform becomes translateX(1.3em). On focus, box-shadow becomes 0 0 1px #2196F3.",
  "tags": [
+  "blue",
+  "neon",
+  "toggle-switch",
   "switch",
   "toggle-switches",
   "checked"
  ],
- "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>",
- "css": "/* From Uiverse.io by martinval9 - Tags: switch */\n/* The switch - the box around the slider */\n.switch {\n font-size: 11px;\n position: relative;\n display: inline-block;\n width: 3.5em;\n height: 1em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n/* The slider */\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background-color: #ccc;\n border: 2px solid #000;\n transition: .4s;\n border-radius: 1px;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 1.3em;\n width: 1.2em;\n border-radius: 2px;\n left: 0.2em;\n bottom: 0.3em;\n background-color: #fff;\n border: 2px solid #000;\n transition: 0.1s;\n}\n\ninput:checked + .slider {\n background-color: #000;\n}\n\ninput:focus + .slider {\n box-shadow: 0 0 1px #2196F3;\n}\n\ninput:checked + .slider:before {\n transform: translateX(1.3em);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>White Lionfish 18</title>\n<style>\n/* From Uiverse.io by martinval9 - https://uiverse.io/martinval9/white-lionfish-18 */\n/* From Uiverse.io by martinval9 - Tags: switch */\n/* The switch - the box around the slider */\n.switch {\n font-size: 11px;\n position: relative;\n display: inline-block;\n width: 3.5em;\n height: 1em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n/* The slider */\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background-color: #ccc;\n border: 2px solid #000;\n transition: .4s;\n border-radius: 1px;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 1.3em;\n width: 1.2em;\n border-radius: 2px;\n left: 0.2em;\n bottom: 0.3em;\n background-color: #fff;\n border: 2px solid #000;\n transition: 0.1s;\n}\n\ninput:checked + .slider {\n background-color: #000;\n}\n\ninput:focus + .slider {\n box-shadow: 0 0 1px #2196F3;\n}\n\ninput:checked + .slider:before {\n transform: translateX(1.3em);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#cccccc",
+  "#2196f3",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 280,
+ "size": 1121,
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n",
+ "css": "/* White Lionfish 18 by martinval9 — https://uiverse.io/martinval9/white-lionfish-18 */\n.switch {\n font-size: 11px;\n position: relative;\n display: inline-block;\n width: 3.5em;\n height: 1em;\n}\n\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background-color: #ccc;\n border: 2px solid #000;\n transition: .4s;\n border-radius: 1px;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 1.3em;\n width: 1.2em;\n border-radius: 2px;\n left: 0.2em;\n bottom: 0.3em;\n background-color: #fff;\n border: 2px solid #000;\n transition: 0.1s;\n}\n\ninput:checked + .slider {\n background-color: #000;\n}\n\ninput:focus + .slider {\n box-shadow: 0 0 1px #2196F3;\n}\n\ninput:checked + .slider:before {\n transform: translateX(1.3em);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>White Lionfish 18</title>\n<style>\n/* White Lionfish 18 by martinval9 — https://uiverse.io/martinval9/white-lionfish-18 */\n.switch {\n font-size: 11px;\n position: relative;\n display: inline-block;\n width: 3.5em;\n height: 1em;\n}\n\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background-color: #ccc;\n border: 2px solid #000;\n transition: .4s;\n border-radius: 1px;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 1.3em;\n width: 1.2em;\n border-radius: 2px;\n left: 0.2em;\n bottom: 0.3em;\n background-color: #fff;\n border: 2px solid #000;\n transition: 0.1s;\n}\n\ninput:checked + .slider {\n background-color: #000;\n}\n\ninput:focus + .slider {\n box-shadow: 0 0 1px #2196F3;\n}\n\ninput:checked + .slider:before {\n transform: translateX(1.3em);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n\n</body>\n</html>\n"
 }

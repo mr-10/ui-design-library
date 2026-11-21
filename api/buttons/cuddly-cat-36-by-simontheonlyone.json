@@ -5,15 +5,25 @@
  "author": "simontheonlyone",
  "source": "https://uiverse.io/simontheonlyone/cuddly-cat-36",
  "trigger": "focus",
- "description": "A button with green and active styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Neon rounded green button that lights up when focused.",
+ "howItWorks": "On focus, width becomes 1.1em, background-color changes from whitesmoke to #ff0000, width becomes 5.5em.",
  "tags": [
   "green",
+  "red",
+  "neon",
+  "rounded",
   "button",
-  "active",
   "focus"
  ],
- "html": "<button>\n</button>",
- "css": "/* From Uiverse.io by simontheonlyone - Tags: green, button, active */\nbutton {\n  position: relative;\n  width: 10em;\n  height: 4em;\n  border: none;\n  border-radius: 2.1em;\n  background-color: whitesmoke;\n  box-shadow: 0 0 30px rgba(0, 0, 0, .22);\n  cursor: pointer;\n  transition: all 100ms;\n}\n\nbutton:active {\n  transform: translate(5px, 5px);\n  box-shadow: none;\n}\n\nbutton::before {\n  content: '';\n  position: absolute;\n  inset: 43% 13%;\n  width: 5.5em;\n  height: .6em;\n  border: none;\n  border-radius: 3em;\n  background-color: rgb(0, 209, 0);\n  transition: all 300ms ease;\n}\n\nbutton::after {\n  content: '';\n  position: absolute;\n  inset: 43% 77%;\n  width: 1.1em;\n  height: .6em;\n  border: none;\n  border-radius: 1em;\n  background-color: rgb(0, 209, 0);\n  transition: all 300ms ease;\n}\n\nbutton:active::before,\nbutton:focus::before {\n  width: 1.1em;\n  background-color: red;\n}\n\nbutton:active::after,\nbutton:focus::after {\n  width: 5.5em;\n  inset: 43% 33%;\n  background-color: red;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Cat 36</title>\n<style>\n/* From Uiverse.io by simontheonlyone - https://uiverse.io/simontheonlyone/cuddly-cat-36 */\n/* From Uiverse.io by simontheonlyone - Tags: green, button, active */\nbutton {\n  position: relative;\n  width: 10em;\n  height: 4em;\n  border: none;\n  border-radius: 2.1em;\n  background-color: whitesmoke;\n  box-shadow: 0 0 30px rgba(0, 0, 0, .22);\n  cursor: pointer;\n  transition: all 100ms;\n}\n\nbutton:active {\n  transform: translate(5px, 5px);\n  box-shadow: none;\n}\n\nbutton::before {\n  content: '';\n  position: absolute;\n  inset: 43% 13%;\n  width: 5.5em;\n  height: .6em;\n  border: none;\n  border-radius: 3em;\n  background-color: rgb(0, 209, 0);\n  transition: all 300ms ease;\n}\n\nbutton::after {\n  content: '';\n  position: absolute;\n  inset: 43% 77%;\n  width: 1.1em;\n  height: .6em;\n  border: none;\n  border-radius: 1em;\n  background-color: rgb(0, 209, 0);\n  transition: all 300ms ease;\n}\n\nbutton:active::before,\nbutton:focus::before {\n  width: 1.1em;\n  background-color: red;\n}\n\nbutton:active::after,\nbutton:focus::after {\n  width: 5.5em;\n  inset: 43% 33%;\n  background-color: red;\n}\n</style>\n</head>\n<body>\n<button>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#00d100",
+  "#ff0000",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 308,
+ "size": 1235,
+ "html": "<button>\n</button>\n",
+ "css": "/* Cuddly Cat 36 by simontheonlyone — https://uiverse.io/simontheonlyone/cuddly-cat-36 */\nbutton {\n  position: relative;\n  width: 10em;\n  height: 4em;\n  border: none;\n  border-radius: 2.1em;\n  background-color: whitesmoke;\n  box-shadow: 0 0 30px rgba(0, 0, 0, .22);\n  cursor: pointer;\n  transition: all 100ms;\n}\n\nbutton:active {\n  transform: translate(5px, 5px);\n  box-shadow: none;\n}\n\nbutton::before {\n  content: '';\n  position: absolute;\n  inset: 43% 13%;\n  width: 5.5em;\n  height: .6em;\n  border: none;\n  border-radius: 3em;\n  background-color: rgb(0, 209, 0);\n  transition: all 300ms ease;\n}\n\nbutton::after {\n  content: '';\n  position: absolute;\n  inset: 43% 77%;\n  width: 1.1em;\n  height: .6em;\n  border: none;\n  border-radius: 1em;\n  background-color: rgb(0, 209, 0);\n  transition: all 300ms ease;\n}\n\nbutton:active::before,\nbutton:focus::before {\n  width: 1.1em;\n  background-color: red;\n}\n\nbutton:active::after,\nbutton:focus::after {\n  width: 5.5em;\n  inset: 43% 33%;\n  background-color: red;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Cat 36</title>\n<style>\n/* Cuddly Cat 36 by simontheonlyone — https://uiverse.io/simontheonlyone/cuddly-cat-36 */\nbutton {\n  position: relative;\n  width: 10em;\n  height: 4em;\n  border: none;\n  border-radius: 2.1em;\n  background-color: whitesmoke;\n  box-shadow: 0 0 30px rgba(0, 0, 0, .22);\n  cursor: pointer;\n  transition: all 100ms;\n}\n\nbutton:active {\n  transform: translate(5px, 5px);\n  box-shadow: none;\n}\n\nbutton::before {\n  content: '';\n  position: absolute;\n  inset: 43% 13%;\n  width: 5.5em;\n  height: .6em;\n  border: none;\n  border-radius: 3em;\n  background-color: rgb(0, 209, 0);\n  transition: all 300ms ease;\n}\n\nbutton::after {\n  content: '';\n  position: absolute;\n  inset: 43% 77%;\n  width: 1.1em;\n  height: .6em;\n  border: none;\n  border-radius: 1em;\n  background-color: rgb(0, 209, 0);\n  transition: all 300ms ease;\n}\n\nbutton:active::before,\nbutton:focus::before {\n  width: 1.1em;\n  background-color: red;\n}\n\nbutton:active::after,\nbutton:focus::after {\n  width: 5.5em;\n  inset: 43% 33%;\n  background-color: red;\n}\n</style>\n</head>\n<body>\n<button>\n</button>\n\n</body>\n</html>\n"
 }

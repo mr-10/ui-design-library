@@ -5,14 +5,25 @@
  "author": "roufkp",
  "source": "https://uiverse.io/roufkp/chilly-dingo-79",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined rounded dark amber button that lifts and glows on hover.",
+ "howItWorks": "On hover, box-shadow becomes inset 0px 0px 0px 0px rgb(2 184 72), background changes from transparent to #211e18, transform becomes translateY(-5px).",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "amber",
+  "outlined",
+  "rounded",
+  "lift",
+  "glow",
+  "color-change"
  ],
- "html": "<button class=\"button\">\n  Button\n</button>",
- "css": "/* From Uiverse.io by roufkp - Tags: button, hover */\n.button {\n  width: fit-content;\n  padding: 12px 28px;\n  font-size: 15px;\n  font-weight: 600;\n  letter-spacing: .1rem;\n  border: none;\n  background: transparent;\n  box-shadow: inset -20px -16px 0px 2px rgb(2 184 72);\n  border-radius: 100px;\n  color: rgb(67, 46, 19);\n  transition: all 1s cubic-bezier(.66, .00, .34, 1.00);\n}\n\nbutton:hover {\n  box-shadow: inset 0px 0px 0px 0px rgb(2 184 72);\n  background: rgb(33, 30, 24);\n  transform: translateY(-5px);\n  color: rgb(230, 221, 221);\n  font-weight: 700;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Dingo 79</title>\n<style>\n/* From Uiverse.io by roufkp - https://uiverse.io/roufkp/chilly-dingo-79 */\n/* From Uiverse.io by roufkp - Tags: button, hover */\n.button {\n  width: fit-content;\n  padding: 12px 28px;\n  font-size: 15px;\n  font-weight: 600;\n  letter-spacing: .1rem;\n  border: none;\n  background: transparent;\n  box-shadow: inset -20px -16px 0px 2px rgb(2 184 72);\n  border-radius: 100px;\n  color: rgb(67, 46, 19);\n  transition: all 1s cubic-bezier(.66, .00, .34, 1.00);\n}\n\nbutton:hover {\n  box-shadow: inset 0px 0px 0px 0px rgb(2 184 72);\n  background: rgb(33, 30, 24);\n  transform: translateY(-5px);\n  color: rgb(230, 221, 221);\n  font-weight: 700;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#432e13",
+  "#211e18",
+  "#e6dddd"
+ ],
+ "fonts": [],
+ "tokens": 209,
+ "size": 839,
+ "html": "<button class=\"button\">\n  Button\n</button>\n",
+ "css": "/* Chilly Dingo 79 by roufkp — https://uiverse.io/roufkp/chilly-dingo-79 */\n.button {\n  width: fit-content;\n  padding: 12px 28px;\n  font-size: 15px;\n  font-weight: 600;\n  letter-spacing: .1rem;\n  border: none;\n  background: transparent;\n  box-shadow: inset -20px -16px 0px 2px rgb(2 184 72);\n  border-radius: 100px;\n  color: rgb(67, 46, 19);\n  transition: all 1s cubic-bezier(.66, .00, .34, 1.00);\n}\n\nbutton:hover {\n  box-shadow: inset 0px 0px 0px 0px rgb(2 184 72);\n  background: rgb(33, 30, 24);\n  transform: translateY(-5px);\n  color: rgb(230, 221, 221);\n  font-weight: 700;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Dingo 79</title>\n<style>\n/* Chilly Dingo 79 by roufkp — https://uiverse.io/roufkp/chilly-dingo-79 */\n.button {\n  width: fit-content;\n  padding: 12px 28px;\n  font-size: 15px;\n  font-weight: 600;\n  letter-spacing: .1rem;\n  border: none;\n  background: transparent;\n  box-shadow: inset -20px -16px 0px 2px rgb(2 184 72);\n  border-radius: 100px;\n  color: rgb(67, 46, 19);\n  transition: all 1s cubic-bezier(.66, .00, .34, 1.00);\n}\n\nbutton:hover {\n  box-shadow: inset 0px 0px 0px 0px rgb(2 184 72);\n  background: rgb(33, 30, 24);\n  transform: translateY(-5px);\n  color: rgb(230, 221, 221);\n  font-weight: 700;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

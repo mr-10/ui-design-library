@@ -5,16 +5,24 @@
  "author": "Efrain2112",
  "source": "https://uiverse.io/Efrain2112/nice-mole-58",
  "trigger": "static",
- "description": "A pattern with simple, blue and white styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient light cyan pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "blue",
-  "white",
+  "cyan",
+  "gradient",
+  "outlined",
+  "flat",
   "pattern",
-  "static"
+  "simple"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by Efrain2112  - Tags: simple, blue, white, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --size: 80px; /* control the size */\n  --color: #add8e6;\n\n  background: linear-gradient(\n      to bottom,\n      transparent 0%,\n      transparent 40%,\n      #add8e6 41%,\n      #add8e6 60%,\n      transparent 61%,\n      transparent 100%\n    ),\n    linear-gradient(\n      45deg,\n      #add8e6 25%,\n      transparent 25%,\n      transparent 50%,\n      #add8e6 50%,\n      #add8e6 75%,\n      transparent 75%,\n      transparent\n    );\n  background-size: var(--size) var(--size);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nice Mole 58</title>\n<style>\n/* From Uiverse.io by Efrain2112 - https://uiverse.io/Efrain2112/nice-mole-58 */\n/* From Uiverse.io by Efrain2112  - Tags: simple, blue, white, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --size: 80px; /* control the size */\n  --color: #add8e6;\n\n  background: linear-gradient(\n      to bottom,\n      transparent 0%,\n      transparent 40%,\n      #add8e6 41%,\n      #add8e6 60%,\n      transparent 61%,\n      transparent 100%\n    ),\n    linear-gradient(\n      45deg,\n      #add8e6 25%,\n      transparent 25%,\n      transparent 50%,\n      #add8e6 50%,\n      #add8e6 75%,\n      transparent 75%,\n      transparent\n    );\n  background-size: var(--size) var(--size);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#add8e6",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 204,
+ "size": 817,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Nice Mole 58 by Efrain2112 — https://uiverse.io/Efrain2112/nice-mole-58 */\n.container {\n  width: 100%;\n  height: 100%;\n  --size: 80px;\n  --color: #add8e6;\n\n  background: linear-gradient(\n      to bottom,\n      transparent 0%,\n      transparent 40%,\n      #add8e6 41%,\n      #add8e6 60%,\n      transparent 61%,\n      transparent 100%\n    ),\n    linear-gradient(\n      45deg,\n      #add8e6 25%,\n      transparent 25%,\n      transparent 50%,\n      #add8e6 50%,\n      #add8e6 75%,\n      transparent 75%,\n      transparent\n    );\n  background-size: var(--size) var(--size);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nice Mole 58</title>\n<style>\n/* Nice Mole 58 by Efrain2112 — https://uiverse.io/Efrain2112/nice-mole-58 */\n.container {\n  width: 100%;\n  height: 100%;\n  --size: 80px;\n  --color: #add8e6;\n\n  background: linear-gradient(\n      to bottom,\n      transparent 0%,\n      transparent 40%,\n      #add8e6 41%,\n      #add8e6 60%,\n      transparent 61%,\n      transparent 100%\n    ),\n    linear-gradient(\n      45deg,\n      #add8e6 25%,\n      transparent 25%,\n      transparent 50%,\n      #add8e6 50%,\n      #add8e6 75%,\n      transparent 75%,\n      transparent\n    );\n  background-size: var(--size) var(--size);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

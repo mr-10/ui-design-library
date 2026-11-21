@@ -5,17 +5,24 @@
  "author": "tarantino421",
  "source": "https://uiverse.io/tarantino421/evil-squid-86",
  "trigger": "checked",
- "description": "A toggle switch with switch, hamburger and arrow styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Rounded black toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: transform becomes translateY(-30%) rotate(40deg), width becomes 50%, top becomes 50%.",
  "tags": [
+  "rounded",
+  "flat",
+  "toggle-switch",
   "switch",
   "hamburger",
-  "arrow",
-  "burger",
-  "switch-menu",
-  "toggle-switches"
+  "arrow"
  ],
- "html": "<label class=\"buttons__burger\" for=\"burger\">\n    <input type=\"checkbox\" id=\"burger\">\n    <span></span>\n    <span></span>\n    <span></span>\n</label>",
- "css": "/* From Uiverse.io by tarantino421 - Tags: switch, hamburger, arrow, burger, switch menu */\n.buttons__burger {\n  --size: 3rem;\n  --clr: #000;\n  width: var(--size);\n  height: calc(0.7 * var(--size));\n  cursor: pointer;\n  position: relative;\n  display: block;\n}\n\n.buttons__burger #burger {\n  display: none;\n  width: 100%;\n  height: 100%;\n}\n\n.buttons__burger span {\n  display: block;\n  position: absolute;\n  width: 100%;\n  border-radius: 0.5rem;\n  border: 3px solid var(--clr);\n  background-color: var(--clr);\n  transition: 0.15s ease-in-out;\n}\n\n.buttons__burger span:nth-of-type(1) {\n  top: 0;\n  right: 0;\n  transform-origin: right center;\n}\n\n.buttons__burger span:nth-of-type(2) {\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.buttons__burger span:nth-of-type(3) {\n  top: 100%;\n  right: 0;\n  transform-origin: right center;\n  transform: translateY(-100%);\n}\n\n.buttons__burger #burger:checked ~ span:nth-of-type(1) {\n  transform: translateY(-30%) rotate(40deg);\n  width: 50%;\n  top: 50%;\n}\n\n.buttons__burger #burger:checked ~ span:nth-of-type(3) {\n  transform: translateY(-70%) rotate(-40deg);\n  width: 50%;\n  top: 50%;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Evil Squid 86</title>\n<style>\n/* From Uiverse.io by tarantino421 - https://uiverse.io/tarantino421/evil-squid-86 */\n/* From Uiverse.io by tarantino421 - Tags: switch, hamburger, arrow, burger, switch menu */\n.buttons__burger {\n  --size: 3rem;\n  --clr: #000;\n  width: var(--size);\n  height: calc(0.7 * var(--size));\n  cursor: pointer;\n  position: relative;\n  display: block;\n}\n\n.buttons__burger #burger {\n  display: none;\n  width: 100%;\n  height: 100%;\n}\n\n.buttons__burger span {\n  display: block;\n  position: absolute;\n  width: 100%;\n  border-radius: 0.5rem;\n  border: 3px solid var(--clr);\n  background-color: var(--clr);\n  transition: 0.15s ease-in-out;\n}\n\n.buttons__burger span:nth-of-type(1) {\n  top: 0;\n  right: 0;\n  transform-origin: right center;\n}\n\n.buttons__burger span:nth-of-type(2) {\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.buttons__burger span:nth-of-type(3) {\n  top: 100%;\n  right: 0;\n  transform-origin: right center;\n  transform: translateY(-100%);\n}\n\n.buttons__burger #burger:checked ~ span:nth-of-type(1) {\n  transform: translateY(-30%) rotate(40deg);\n  width: 50%;\n  top: 50%;\n}\n\n.buttons__burger #burger:checked ~ span:nth-of-type(3) {\n  transform: translateY(-70%) rotate(-40deg);\n  width: 50%;\n  top: 50%;\n}\n</style>\n</head>\n<body>\n<label class=\"buttons__burger\" for=\"burger\">\n    <input type=\"checkbox\" id=\"burger\">\n    <span></span>\n    <span></span>\n    <span></span>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 368,
+ "size": 1475,
+ "html": "<label class=\"buttons__burger\" for=\"burger\">\n    <input type=\"checkbox\" id=\"burger\">\n    <span></span>\n    <span></span>\n    <span></span>\n</label>\n",
+ "css": "/* Evil Squid 86 by tarantino421 — https://uiverse.io/tarantino421/evil-squid-86 */\n.buttons__burger {\n  --size: 3rem;\n  --clr: #000;\n  width: var(--size);\n  height: calc(0.7 * var(--size));\n  cursor: pointer;\n  position: relative;\n  display: block;\n}\n\n.buttons__burger #burger {\n  display: none;\n  width: 100%;\n  height: 100%;\n}\n\n.buttons__burger span {\n  display: block;\n  position: absolute;\n  width: 100%;\n  border-radius: 0.5rem;\n  border: 3px solid var(--clr);\n  background-color: var(--clr);\n  transition: 0.15s ease-in-out;\n}\n\n.buttons__burger span:nth-of-type(1) {\n  top: 0;\n  right: 0;\n  transform-origin: right center;\n}\n\n.buttons__burger span:nth-of-type(2) {\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.buttons__burger span:nth-of-type(3) {\n  top: 100%;\n  right: 0;\n  transform-origin: right center;\n  transform: translateY(-100%);\n}\n\n.buttons__burger #burger:checked ~ span:nth-of-type(1) {\n  transform: translateY(-30%) rotate(40deg);\n  width: 50%;\n  top: 50%;\n}\n\n.buttons__burger #burger:checked ~ span:nth-of-type(3) {\n  transform: translateY(-70%) rotate(-40deg);\n  width: 50%;\n  top: 50%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Evil Squid 86</title>\n<style>\n/* Evil Squid 86 by tarantino421 — https://uiverse.io/tarantino421/evil-squid-86 */\n.buttons__burger {\n  --size: 3rem;\n  --clr: #000;\n  width: var(--size);\n  height: calc(0.7 * var(--size));\n  cursor: pointer;\n  position: relative;\n  display: block;\n}\n\n.buttons__burger #burger {\n  display: none;\n  width: 100%;\n  height: 100%;\n}\n\n.buttons__burger span {\n  display: block;\n  position: absolute;\n  width: 100%;\n  border-radius: 0.5rem;\n  border: 3px solid var(--clr);\n  background-color: var(--clr);\n  transition: 0.15s ease-in-out;\n}\n\n.buttons__burger span:nth-of-type(1) {\n  top: 0;\n  right: 0;\n  transform-origin: right center;\n}\n\n.buttons__burger span:nth-of-type(2) {\n  top: 50%;\n  transform: translateY(-50%);\n}\n\n.buttons__burger span:nth-of-type(3) {\n  top: 100%;\n  right: 0;\n  transform-origin: right center;\n  transform: translateY(-100%);\n}\n\n.buttons__burger #burger:checked ~ span:nth-of-type(1) {\n  transform: translateY(-30%) rotate(40deg);\n  width: 50%;\n  top: 50%;\n}\n\n.buttons__burger #burger:checked ~ span:nth-of-type(3) {\n  transform: translateY(-70%) rotate(-40deg);\n  width: 50%;\n  top: 50%;\n}\n</style>\n</head>\n<body>\n<label class=\"buttons__burger\" for=\"burger\">\n    <input type=\"checkbox\" id=\"burger\">\n    <span></span>\n    <span></span>\n    <span></span>\n</label>\n\n</body>\n</html>\n"
 }

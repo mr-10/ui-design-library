@@ -4,15 +4,23 @@
  "category": "buttons",
  "author": "JesusRafaelNavaCruz",
  "source": "https://uiverse.io/JesusRafaelNavaCruz/grumpy-cougar-86",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "White button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, shadow grows.",
  "tags": [
+  "slide",
+  "glow",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by JesusRafaelNavaCruz - Tags: button, glitch -->\n<button class=\"cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#F44336,-0.5rem_-0.5rem_#00BCD4] transition\">\n  Hover me!\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Grumpy Cougar 86</title>\n<style>\n/* From Uiverse.io by JesusRafaelNavaCruz - https://uiverse.io/JesusRafaelNavaCruz/grumpy-cougar-86 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by JesusRafaelNavaCruz - Tags: button, glitch -->\n<button class=\"cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#F44336,-0.5rem_-0.5rem_#00BCD4] transition\">\n  Hover me!\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 130,
+ "size": 523,
+ "html": "<button class=\"cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#F44336,-0.5rem_-0.5rem_#00BCD4] transition\">\n  Hover me!\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Grumpy Cougar 86</title>\n<style>\n/* Grumpy Cougar 86 by JesusRafaelNavaCruz — https://uiverse.io/JesusRafaelNavaCruz/grumpy-cougar-86 */\n\n</style>\n</head>\n<body>\n<button class=\"cursor-pointer uppercase bg-white px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#F44336,-0.5rem_-0.5rem_#00BCD4] transition\">\n  Hover me!\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,24 @@
  "author": "AqFox",
  "source": "https://uiverse.io/AqFox/tiny-jellyfish-70",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined pill sky-blue spinner loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 0.75s animation (rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "blue",
+  "outlined",
+  "rounded",
+  "pill",
+  "flat",
+  "spin"
  ],
- "html": "<div class=\"spinner\"></div>",
- "css": "/* From Uiverse.io by AqFox - Tags: loader */\n.spinner {\n width: 56px;\n height: 56px;\n border: 11px #004dff double;\n border-left-style: solid;\n border-radius: 50%;\n animation: spinner-aib1d7 0.75s infinite linear;\n}\n\n@keyframes spinner-aib1d7 {\n to {\n  transform: rotate(360deg);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tiny Jellyfish 70</title>\n<style>\n/* From Uiverse.io by AqFox - https://uiverse.io/AqFox/tiny-jellyfish-70 */\n/* From Uiverse.io by AqFox - Tags: loader */\n.spinner {\n width: 56px;\n height: 56px;\n border: 11px #004dff double;\n border-left-style: solid;\n border-radius: 50%;\n animation: spinner-aib1d7 0.75s infinite linear;\n}\n\n@keyframes spinner-aib1d7 {\n to {\n  transform: rotate(360deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#004dff",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 140,
+ "size": 563,
+ "html": "<div class=\"spinner\"></div>\n",
+ "css": "/* Tiny Jellyfish 70 by AqFox — https://uiverse.io/AqFox/tiny-jellyfish-70 */\n.spinner {\n width: 56px;\n height: 56px;\n border: 11px #004dff double;\n border-left-style: solid;\n border-radius: 50%;\n animation: spinner-aib1d7 0.75s infinite linear;\n}\n\n@keyframes spinner-aib1d7 {\n to {\n  transform: rotate(360deg);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tiny Jellyfish 70</title>\n<style>\n/* Tiny Jellyfish 70 by AqFox — https://uiverse.io/AqFox/tiny-jellyfish-70 */\n.spinner {\n width: 56px;\n height: 56px;\n border: 11px #004dff double;\n border-left-style: solid;\n border-radius: 50%;\n animation: spinner-aib1d7 0.75s infinite linear;\n}\n\n@keyframes spinner-aib1d7 {\n to {\n  transform: rotate(360deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\"></div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,25 @@
  "author": "david-mohseni",
  "source": "https://uiverse.io/david-mohseni/witty-kangaroo-75",
  "trigger": "hover",
- "description": "A card UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Light red card that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, filter becomes blur(0px), opacity becomes 1, transform becomes scale(1).",
  "tags": [
-  "card",
-  "hover",
-  "css"
+  "red",
+  "shrink",
+  "glow",
+  "color-change",
+  "fade",
+  "card"
  ],
- "html": "<div class=\"container\">\n    <div class=\"card\">\n        <span>Hover me</span>\n    </div>\n    <div class=\"card\">\n        <span>Hover me</span>\n    </div>\n    <div class=\"card\">\n        <span>Hover me</span>\n    </div>\n</div>",
- "css": "/* From Uiverse.io by david-mohseni - Tags: card */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: 30px;\n}\n\n.card {\n  margin: 2%;\n  background: #DBBDBD;\n  width: 70px;\n  height: 100px;\n  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);\n  border-radius: 3px;\n  transition: .2s all;\n  cursor: pointer;\n  align-items: center;\n  text-align: center;\n  font-size: 13px;\n  padding-top: 30px;\n}\n\n.card > span {\n  display: block;\n  margin: auto;\n  max-width: 40px;\n}\n\n.container:hover .card {\n  filter: blur(3px);\n  opacity: .5;\n  transform: scale(.98);\n  box-shadow: none;\n}\n\n.container:hover .card:hover {\n  transform: scale(1);\n  filter: blur(0px);\n  opacity: 1;\n  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);\n  background: #A82C2C;\n  color: white;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Witty Kangaroo 75</title>\n<style>\n/* From Uiverse.io by david-mohseni - https://uiverse.io/david-mohseni/witty-kangaroo-75 */\n/* From Uiverse.io by david-mohseni - Tags: card */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: 30px;\n}\n\n.card {\n  margin: 2%;\n  background: #DBBDBD;\n  width: 70px;\n  height: 100px;\n  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);\n  border-radius: 3px;\n  transition: .2s all;\n  cursor: pointer;\n  align-items: center;\n  text-align: center;\n  font-size: 13px;\n  padding-top: 30px;\n}\n\n.card > span {\n  display: block;\n  margin: auto;\n  max-width: 40px;\n}\n\n.container:hover .card {\n  filter: blur(3px);\n  opacity: .5;\n  transform: scale(.98);\n  box-shadow: none;\n}\n\n.container:hover .card:hover {\n  transform: scale(1);\n  filter: blur(0px);\n  opacity: 1;\n  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);\n  background: #A82C2C;\n  color: white;\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n    <div class=\"card\">\n        <span>Hover me</span>\n    </div>\n    <div class=\"card\">\n        <span>Hover me</span>\n    </div>\n    <div class=\"card\">\n        <span>Hover me</span>\n    </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#dbbdbd",
+  "#a82c2c",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 318,
+ "size": 1273,
+ "html": "<div class=\"container\">\n    <div class=\"card\">\n        <span>Hover me</span>\n    </div>\n    <div class=\"card\">\n        <span>Hover me</span>\n    </div>\n    <div class=\"card\">\n        <span>Hover me</span>\n    </div>\n</div>\n",
+ "css": "/* Witty Kangaroo 75 by david-mohseni — https://uiverse.io/david-mohseni/witty-kangaroo-75 */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: 30px;\n}\n\n.card {\n  margin: 2%;\n  background: #DBBDBD;\n  width: 70px;\n  height: 100px;\n  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);\n  border-radius: 3px;\n  transition: .2s all;\n  cursor: pointer;\n  align-items: center;\n  text-align: center;\n  font-size: 13px;\n  padding-top: 30px;\n}\n\n.card > span {\n  display: block;\n  margin: auto;\n  max-width: 40px;\n}\n\n.container:hover .card {\n  filter: blur(3px);\n  opacity: .5;\n  transform: scale(.98);\n  box-shadow: none;\n}\n\n.container:hover .card:hover {\n  transform: scale(1);\n  filter: blur(0px);\n  opacity: 1;\n  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);\n  background: #A82C2C;\n  color: white;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Witty Kangaroo 75</title>\n<style>\n/* Witty Kangaroo 75 by david-mohseni — https://uiverse.io/david-mohseni/witty-kangaroo-75 */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: 30px;\n}\n\n.card {\n  margin: 2%;\n  background: #DBBDBD;\n  width: 70px;\n  height: 100px;\n  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);\n  border-radius: 3px;\n  transition: .2s all;\n  cursor: pointer;\n  align-items: center;\n  text-align: center;\n  font-size: 13px;\n  padding-top: 30px;\n}\n\n.card > span {\n  display: block;\n  margin: auto;\n  max-width: 40px;\n}\n\n.container:hover .card {\n  filter: blur(3px);\n  opacity: .5;\n  transform: scale(.98);\n  box-shadow: none;\n}\n\n.container:hover .card:hover {\n  transform: scale(1);\n  filter: blur(0px);\n  opacity: 1;\n  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);\n  background: #A82C2C;\n  color: white;\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n    <div class=\"card\">\n        <span>Hover me</span>\n    </div>\n    <div class=\"card\">\n        <span>Hover me</span>\n    </div>\n    <div class=\"card\">\n        <span>Hover me</span>\n    </div>\n</div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,25 @@
  "author": "Gautammsharma",
  "source": "https://uiverse.io/Gautammsharma/silent-turtle-50",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded red button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, background-color changes from #ff7675 to #fdcb6e, box-shadow becomes 4px 4px 0px #e17055, transform becomes translate(2px, 2px).",
  "tags": [
+  "red",
+  "rounded",
+  "glow",
+  "color-change",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button class=\"comic-btn\">Click me!</button>",
- "css": "/* From Uiverse.io by Gautammsharma - Tags: button */\n.comic-btn {\n  display: inline-block;\n  padding: 1rem 2rem;\n  border-radius: 2rem;\n  border: none;\n  background-color: #ff7675;\n  color: #fff;\n  font-size: 1.5rem;\n  font-weight: bold;\n  text-transform: uppercase;\n  text-shadow: 2px 2px #000;\n  box-shadow: 6px 6px 0px #d63031;\n  cursor: pointer;\n  transition: all 0.3s ease;\n}\n\n.comic-btn:hover {\n  background-color: #fdcb6e;\n  box-shadow: 4px 4px 0px #e17055;\n  transform: translate(2px, 2px);\n}\n\n.comic-btn:active {\n  background-color: #e17055;\n  box-shadow: 0px 0px 0px #d63031;\n  transform: translate(6px, 6px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Turtle 50</title>\n<style>\n/* From Uiverse.io by Gautammsharma - https://uiverse.io/Gautammsharma/silent-turtle-50 */\n/* From Uiverse.io by Gautammsharma - Tags: button */\n.comic-btn {\n  display: inline-block;\n  padding: 1rem 2rem;\n  border-radius: 2rem;\n  border: none;\n  background-color: #ff7675;\n  color: #fff;\n  font-size: 1.5rem;\n  font-weight: bold;\n  text-transform: uppercase;\n  text-shadow: 2px 2px #000;\n  box-shadow: 6px 6px 0px #d63031;\n  cursor: pointer;\n  transition: all 0.3s ease;\n}\n\n.comic-btn:hover {\n  background-color: #fdcb6e;\n  box-shadow: 4px 4px 0px #e17055;\n  transform: translate(2px, 2px);\n}\n\n.comic-btn:active {\n  background-color: #e17055;\n  box-shadow: 0px 0px 0px #d63031;\n  transform: translate(6px, 6px);\n}\n</style>\n</head>\n<body>\n<button class=\"comic-btn\">Click me!</button>\n</body>\n</html>\n"
+ "colors": [
+  "#d63031",
+  "#e17055",
+  "#ff7675"
+ ],
+ "fonts": [],
+ "tokens": 230,
+ "size": 923,
+ "html": "<button class=\"comic-btn\">Click me!</button>\n",
+ "css": "/* Silent Turtle 50 by Gautammsharma — https://uiverse.io/Gautammsharma/silent-turtle-50 */\n.comic-btn {\n  display: inline-block;\n  padding: 1rem 2rem;\n  border-radius: 2rem;\n  border: none;\n  background-color: #ff7675;\n  color: #fff;\n  font-size: 1.5rem;\n  font-weight: bold;\n  text-transform: uppercase;\n  text-shadow: 2px 2px #000;\n  box-shadow: 6px 6px 0px #d63031;\n  cursor: pointer;\n  transition: all 0.3s ease;\n}\n\n.comic-btn:hover {\n  background-color: #fdcb6e;\n  box-shadow: 4px 4px 0px #e17055;\n  transform: translate(2px, 2px);\n}\n\n.comic-btn:active {\n  background-color: #e17055;\n  box-shadow: 0px 0px 0px #d63031;\n  transform: translate(6px, 6px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Turtle 50</title>\n<style>\n/* Silent Turtle 50 by Gautammsharma — https://uiverse.io/Gautammsharma/silent-turtle-50 */\n.comic-btn {\n  display: inline-block;\n  padding: 1rem 2rem;\n  border-radius: 2rem;\n  border: none;\n  background-color: #ff7675;\n  color: #fff;\n  font-size: 1.5rem;\n  font-weight: bold;\n  text-transform: uppercase;\n  text-shadow: 2px 2px #000;\n  box-shadow: 6px 6px 0px #d63031;\n  cursor: pointer;\n  transition: all 0.3s ease;\n}\n\n.comic-btn:hover {\n  background-color: #fdcb6e;\n  box-shadow: 4px 4px 0px #e17055;\n  transform: translate(2px, 2px);\n}\n\n.comic-btn:active {\n  background-color: #e17055;\n  box-shadow: 0px 0px 0px #d63031;\n  transform: translate(6px, 6px);\n}\n</style>\n</head>\n<body>\n<button class=\"comic-btn\">Click me!</button>\n\n</body>\n</html>\n"
 }

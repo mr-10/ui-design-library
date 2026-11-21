@@ -5,14 +5,26 @@
  "author": "satyamchaudharydev",
  "source": "https://uiverse.io/satyamchaudharydev/quick-chicken-50",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined green button that expands on hover with a smooth transition.",
+ "howItWorks": "On hover, width becomes 100%, filter becomes drop-shadow(0 0 23px #37FF8B).",
  "tags": [
+  "green",
+  "outlined",
+  "flat",
+  "expand",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button data-text=\"Awesome\" class=\"button\">\n    <span class=\"actual-text\">&nbsp;uiverse&nbsp;</span>\n    <span class=\"hover-text\" aria-hidden=\"true\">&nbsp;uiverse&nbsp;</span>\n</button>",
- "css": "/* From Uiverse.io by satyamchaudharydev - Tags: button */\n/* === removing default button style ===*/\n.button {\n  margin: 0;\n  height: auto;\n  background: transparent;\n  padding: 0;\n  border: none;\n}\n\n/* button styling */\n.button {\n  --border-right: 6px;\n  --text-stroke-color: rgba(255,255,255,0.6);\n  --animation-color: #37FF8B;\n  --fs-size: 2em;\n  letter-spacing: 3px;\n  text-decoration: none;\n  font-size: var(--fs-size);\n  font-family: \"Arial\";\n  position: relative;\n  text-transform: uppercase;\n  color: transparent;\n  -webkit-text-stroke: 1px var(--text-stroke-color);\n}\n/* this is the text, when you hover on button */\n.hover-text {\n  position: absolute;\n  box-sizing: border-box;\n  content: attr(data-text);\n  color: var(--animation-color);\n  width: 0%;\n  inset: 0;\n  border-right: var(--border-right) solid var(--animation-color);\n  overflow: hidden;\n  transition: 0.5s;\n  -webkit-text-stroke: 1px var(--animation-color);\n}\n/* hover */\n.button:hover .hover-text {\n  width: 100%;\n  filter: drop-shadow(0 0 23px var(--animation-color))\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Quick Chicken 50</title>\n<style>\n/* From Uiverse.io by satyamchaudharydev - https://uiverse.io/satyamchaudharydev/quick-chicken-50 */\n/* From Uiverse.io by satyamchaudharydev - Tags: button */\n/* === removing default button style ===*/\n.button {\n  margin: 0;\n  height: auto;\n  background: transparent;\n  padding: 0;\n  border: none;\n}\n\n/* button styling */\n.button {\n  --border-right: 6px;\n  --text-stroke-color: rgba(255,255,255,0.6);\n  --animation-color: #37FF8B;\n  --fs-size: 2em;\n  letter-spacing: 3px;\n  text-decoration: none;\n  font-size: var(--fs-size);\n  font-family: \"Arial\";\n  position: relative;\n  text-transform: uppercase;\n  color: transparent;\n  -webkit-text-stroke: 1px var(--text-stroke-color);\n}\n/* this is the text, when you hover on button */\n.hover-text {\n  position: absolute;\n  box-sizing: border-box;\n  content: attr(data-text);\n  color: var(--animation-color);\n  width: 0%;\n  inset: 0;\n  border-right: var(--border-right) solid var(--animation-color);\n  overflow: hidden;\n  transition: 0.5s;\n  -webkit-text-stroke: 1px var(--animation-color);\n}\n/* hover */\n.button:hover .hover-text {\n  width: 100%;\n  filter: drop-shadow(0 0 23px var(--animation-color))\n}\n</style>\n</head>\n<body>\n<button data-text=\"Awesome\" class=\"button\">\n    <span class=\"actual-text\">&nbsp;uiverse&nbsp;</span>\n    <span class=\"hover-text\" aria-hidden=\"true\">&nbsp;uiverse&nbsp;</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#37ff8b",
+  "#ffffff"
+ ],
+ "fonts": [
+  "Arial"
+ ],
+ "tokens": 342,
+ "size": 1369,
+ "html": "<button data-text=\"Awesome\" class=\"button\">\n    <span class=\"actual-text\">&nbsp;uiverse&nbsp;</span>\n    <span class=\"hover-text\" aria-hidden=\"true\">&nbsp;uiverse&nbsp;</span>\n</button>\n",
+ "css": "/* Quick Chicken 50 by satyamchaudharydev — https://uiverse.io/satyamchaudharydev/quick-chicken-50 */\n.button {\n  margin: 0;\n  height: auto;\n  background: transparent;\n  padding: 0;\n  border: none;\n}\n\n.button {\n  --border-right: 6px;\n  --text-stroke-color: rgba(255,255,255,0.6);\n  --animation-color: #37FF8B;\n  --fs-size: 2em;\n  letter-spacing: 3px;\n  text-decoration: none;\n  font-size: var(--fs-size);\n  font-family: \"Arial\";\n  position: relative;\n  text-transform: uppercase;\n  color: transparent;\n  -webkit-text-stroke: 1px var(--text-stroke-color);\n}\n\n.hover-text {\n  position: absolute;\n  box-sizing: border-box;\n  content: attr(data-text);\n  color: var(--animation-color);\n  width: 0%;\n  inset: 0;\n  border-right: var(--border-right) solid var(--animation-color);\n  overflow: hidden;\n  transition: 0.5s;\n  -webkit-text-stroke: 1px var(--animation-color);\n}\n\n.button:hover .hover-text {\n  width: 100%;\n  filter: drop-shadow(0 0 23px var(--animation-color))\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Quick Chicken 50</title>\n<style>\n/* Quick Chicken 50 by satyamchaudharydev — https://uiverse.io/satyamchaudharydev/quick-chicken-50 */\n.button {\n  margin: 0;\n  height: auto;\n  background: transparent;\n  padding: 0;\n  border: none;\n}\n\n.button {\n  --border-right: 6px;\n  --text-stroke-color: rgba(255,255,255,0.6);\n  --animation-color: #37FF8B;\n  --fs-size: 2em;\n  letter-spacing: 3px;\n  text-decoration: none;\n  font-size: var(--fs-size);\n  font-family: \"Arial\";\n  position: relative;\n  text-transform: uppercase;\n  color: transparent;\n  -webkit-text-stroke: 1px var(--text-stroke-color);\n}\n\n.hover-text {\n  position: absolute;\n  box-sizing: border-box;\n  content: attr(data-text);\n  color: var(--animation-color);\n  width: 0%;\n  inset: 0;\n  border-right: var(--border-right) solid var(--animation-color);\n  overflow: hidden;\n  transition: 0.5s;\n  -webkit-text-stroke: 1px var(--animation-color);\n}\n\n.button:hover .hover-text {\n  width: 100%;\n  filter: drop-shadow(0 0 23px var(--animation-color))\n}\n</style>\n</head>\n<body>\n<button data-text=\"Awesome\" class=\"button\">\n    <span class=\"actual-text\">&nbsp;uiverse&nbsp;</span>\n    <span class=\"hover-text\" aria-hidden=\"true\">&nbsp;uiverse&nbsp;</span>\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,26 @@
  "author": "aadium",
  "source": "https://uiverse.io/aadium/smooth-cow-62",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded violet button that starts animating on hover.",
+ "howItWorks": "On hover, background-color changes from #6019bd to transparent, border becomes 3px solid #6019bd, box-shadow becomes 0px 0px 27px 5px #6019bd.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "violet",
+  "rounded",
+  "glow",
+  "color-change",
+  "animated",
+  "button"
  ],
- "html": "<button class=\"cti\">\n  <div class=\"CTI\">\n    Code to Infinity\n  </div>\n</button>",
- "css": "/* From Uiverse.io by aadium - Tags: button */\n.cti {\n  background-color: #6019bd;\n  padding: 17px 30px;\n  border: 3px solid transparent;\n  border-radius: 0.6em;\n  transition: 0.2s;\n}\n\n.cti:hover {\n  background-color: transparent;\n  border: 3px solid #6019bd;\n  box-shadow: 0px 0px 27px 5px #6019bd;\n}\n\n.CTI {\n  color: #fff;\n  font-family: 'Courier New', Courier, monospace;\n  font-size: 17px;\n  font-weight: bold;\n  overflow: hidden;\n  border-right: 4px solid transparent;\n  white-space: nowrap;\n  margin: 0 auto;\n}\n\n.cti:hover .CTI {\n  border-right: 4px solid #6019bd;\n  animation: letters 1.75s steps(22, end),\n    cursor .4s step-end infinite;\n}\n\n@keyframes letters {\n  from {\n    width: 0;\n  }\n\n  to {\n    width: 100%;\n  }\n}\n\n@keyframes cursor {\n  from {\n    border-color: transparent\n  }\n\n  50% {\n    border-color: #6019bd\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Cow 62</title>\n<style>\n/* From Uiverse.io by aadium - https://uiverse.io/aadium/smooth-cow-62 */\n/* From Uiverse.io by aadium - Tags: button */\n.cti {\n  background-color: #6019bd;\n  padding: 17px 30px;\n  border: 3px solid transparent;\n  border-radius: 0.6em;\n  transition: 0.2s;\n}\n\n.cti:hover {\n  background-color: transparent;\n  border: 3px solid #6019bd;\n  box-shadow: 0px 0px 27px 5px #6019bd;\n}\n\n.CTI {\n  color: #fff;\n  font-family: 'Courier New', Courier, monospace;\n  font-size: 17px;\n  font-weight: bold;\n  overflow: hidden;\n  border-right: 4px solid transparent;\n  white-space: nowrap;\n  margin: 0 auto;\n}\n\n.cti:hover .CTI {\n  border-right: 4px solid #6019bd;\n  animation: letters 1.75s steps(22, end),\n    cursor .4s step-end infinite;\n}\n\n@keyframes letters {\n  from {\n    width: 0;\n  }\n\n  to {\n    width: 100%;\n  }\n}\n\n@keyframes cursor {\n  from {\n    border-color: transparent\n  }\n\n  50% {\n    border-color: #6019bd\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"cti\">\n  <div class=\"CTI\">\n    Code to Infinity\n  </div>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#6019bd",
+  "#ffffff"
+ ],
+ "fonts": [
+  "Courier New"
+ ],
+ "tokens": 288,
+ "size": 1155,
+ "html": "<button class=\"cti\">\n  <div class=\"CTI\">\n    Code to Infinity\n  </div>\n</button>\n",
+ "css": "/* Smooth Cow 62 by aadium — https://uiverse.io/aadium/smooth-cow-62 */\n.cti {\n  background-color: #6019bd;\n  padding: 17px 30px;\n  border: 3px solid transparent;\n  border-radius: 0.6em;\n  transition: 0.2s;\n}\n\n.cti:hover {\n  background-color: transparent;\n  border: 3px solid #6019bd;\n  box-shadow: 0px 0px 27px 5px #6019bd;\n}\n\n.CTI {\n  color: #fff;\n  font-family: 'Courier New', Courier, monospace;\n  font-size: 17px;\n  font-weight: bold;\n  overflow: hidden;\n  border-right: 4px solid transparent;\n  white-space: nowrap;\n  margin: 0 auto;\n}\n\n.cti:hover .CTI {\n  border-right: 4px solid #6019bd;\n  animation: letters 1.75s steps(22, end),\n    cursor .4s step-end infinite;\n}\n\n@keyframes letters {\n  from {\n    width: 0;\n  }\n\n  to {\n    width: 100%;\n  }\n}\n\n@keyframes cursor {\n  from {\n    border-color: transparent\n  }\n\n  50% {\n    border-color: #6019bd\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Cow 62</title>\n<style>\n/* Smooth Cow 62 by aadium — https://uiverse.io/aadium/smooth-cow-62 */\n.cti {\n  background-color: #6019bd;\n  padding: 17px 30px;\n  border: 3px solid transparent;\n  border-radius: 0.6em;\n  transition: 0.2s;\n}\n\n.cti:hover {\n  background-color: transparent;\n  border: 3px solid #6019bd;\n  box-shadow: 0px 0px 27px 5px #6019bd;\n}\n\n.CTI {\n  color: #fff;\n  font-family: 'Courier New', Courier, monospace;\n  font-size: 17px;\n  font-weight: bold;\n  overflow: hidden;\n  border-right: 4px solid transparent;\n  white-space: nowrap;\n  margin: 0 auto;\n}\n\n.cti:hover .CTI {\n  border-right: 4px solid #6019bd;\n  animation: letters 1.75s steps(22, end),\n    cursor .4s step-end infinite;\n}\n\n@keyframes letters {\n  from {\n    width: 0;\n  }\n\n  to {\n    width: 100%;\n  }\n}\n\n@keyframes cursor {\n  from {\n    border-color: transparent\n  }\n\n  50% {\n    border-color: #6019bd\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"cti\">\n  <div class=\"CTI\">\n    Code to Infinity\n  </div>\n</button>\n\n</body>\n</html>\n"
 }

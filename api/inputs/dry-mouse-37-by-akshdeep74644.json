@@ -5,14 +5,25 @@
  "author": "Akshdeep74644",
  "source": "https://uiverse.io/Akshdeep74644/dry-mouse-37",
  "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Gradient sky-blue text input that lights up when focused.",
+ "howItWorks": "On focus, the outline is removed, border-bottom becomes 3px solid, starts the 3s animation.",
  "tags": [
-  "input",
-  "focus",
-  "css"
+  "blue",
+  "gradient",
+  "outlined",
+  "flat",
+  "text-input",
+  "input"
  ],
- "html": "<section>\n    <div class=\"input-group\">\n        <input class=\"input\" autocomplete=\"off\" name=\"text\" type=\"text\" required=\"\">\n        <label class=\"user-label\">Full Name</label>\n    </div>\n</section>",
- "css": "/* From Uiverse.io by Akshdeep74644 - Tags: input */\n.input-group {\n  position: relative;\n}\n\n.input {\n  border: 3px solid #000;\n  background: none;\n  padding: 1rem;\n  font-size: 1rem;\n  color: black;\n}\n\n.user-label {\n  position: absolute;\n  left: 15px;\n  color: #000;\n  pointer-events: none;\n  transform: translateY(1rem);\n  transition: 350ms;\n}\n\n.input:focus,\ninput:valid {\n  outline: none;\n  --angle: 0deg;\n  border-bottom: 3px solid;\n  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;\n  animation: 3s rotate9234 linear infinite;\n}\n\n@keyframes rotate9234 {\n  to {\n    --angle: 360deg;\n  }\n}\n\n@property --angle {\n  syntax: '<angle>';\n  initial-value: 0deg;\n  inherits: false;\n}\n\n.input:focus~label,\ninput:valid~label {\n  transform: translateY(235%) scale(1);\n  background-color: #e8e8e8;\n  padding: 0 .2em;\n  color: #2196f3;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Mouse 37</title>\n<style>\n/* From Uiverse.io by Akshdeep74644 - https://uiverse.io/Akshdeep74644/dry-mouse-37 */\n/* From Uiverse.io by Akshdeep74644 - Tags: input */\n.input-group {\n  position: relative;\n}\n\n.input {\n  border: 3px solid #000;\n  background: none;\n  padding: 1rem;\n  font-size: 1rem;\n  color: black;\n}\n\n.user-label {\n  position: absolute;\n  left: 15px;\n  color: #000;\n  pointer-events: none;\n  transform: translateY(1rem);\n  transition: 350ms;\n}\n\n.input:focus,\ninput:valid {\n  outline: none;\n  --angle: 0deg;\n  border-bottom: 3px solid;\n  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;\n  animation: 3s rotate9234 linear infinite;\n}\n\n@keyframes rotate9234 {\n  to {\n    --angle: 360deg;\n  }\n}\n\n@property --angle {\n  syntax: '<angle>';\n  initial-value: 0deg;\n  inherits: false;\n}\n\n.input:focus~label,\ninput:valid~label {\n  transform: translateY(235%) scale(1);\n  background-color: #e8e8e8;\n  padding: 0 .2em;\n  color: #2196f3;\n}\n</style>\n</head>\n<body>\n<section>\n    <div class=\"input-group\">\n        <input class=\"input\" autocomplete=\"off\" name=\"text\" type=\"text\" required=\"\">\n        <label class=\"user-label\">Full Name</label>\n    </div>\n</section>\n</body>\n</html>\n"
+ "colors": [
+  "#e8e8e8",
+  "#2196f3",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 329,
+ "size": 1318,
+ "html": "<section>\n    <div class=\"input-group\">\n        <input class=\"input\" autocomplete=\"off\" name=\"text\" type=\"text\" required=\"\">\n        <label class=\"user-label\">Full Name</label>\n    </div>\n</section>\n",
+ "css": "/* Dry Mouse 37 by Akshdeep74644 — https://uiverse.io/Akshdeep74644/dry-mouse-37 */\n.input-group {\n  position: relative;\n}\n\n.input {\n  border: 3px solid #000;\n  background: none;\n  padding: 1rem;\n  font-size: 1rem;\n  color: black;\n}\n\n.user-label {\n  position: absolute;\n  left: 15px;\n  color: #000;\n  pointer-events: none;\n  transform: translateY(1rem);\n  transition: 350ms;\n}\n\n.input:focus,\ninput:valid {\n  outline: none;\n  --angle: 0deg;\n  border-bottom: 3px solid;\n  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;\n  animation: 3s rotate9234 linear infinite;\n}\n\n@keyframes rotate9234 {\n  to {\n    --angle: 360deg;\n  }\n}\n\n@property --angle {\n  syntax: '<angle>';\n  initial-value: 0deg;\n  inherits: false;\n}\n\n.input:focus~label,\ninput:valid~label {\n  transform: translateY(235%) scale(1);\n  background-color: #e8e8e8;\n  padding: 0 .2em;\n  color: #2196f3;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Mouse 37</title>\n<style>\n/* Dry Mouse 37 by Akshdeep74644 — https://uiverse.io/Akshdeep74644/dry-mouse-37 */\n.input-group {\n  position: relative;\n}\n\n.input {\n  border: 3px solid #000;\n  background: none;\n  padding: 1rem;\n  font-size: 1rem;\n  color: black;\n}\n\n.user-label {\n  position: absolute;\n  left: 15px;\n  color: #000;\n  pointer-events: none;\n  transform: translateY(1rem);\n  transition: 350ms;\n}\n\n.input:focus,\ninput:valid {\n  outline: none;\n  --angle: 0deg;\n  border-bottom: 3px solid;\n  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;\n  animation: 3s rotate9234 linear infinite;\n}\n\n@keyframes rotate9234 {\n  to {\n    --angle: 360deg;\n  }\n}\n\n@property --angle {\n  syntax: '<angle>';\n  initial-value: 0deg;\n  inherits: false;\n}\n\n.input:focus~label,\ninput:valid~label {\n  transform: translateY(235%) scale(1);\n  background-color: #e8e8e8;\n  padding: 0 .2em;\n  color: #2196f3;\n}\n</style>\n</head>\n<body>\n<section>\n    <div class=\"input-group\">\n        <input class=\"input\" autocomplete=\"off\" name=\"text\" type=\"text\" required=\"\">\n        <label class=\"user-label\">Full Name</label>\n    </div>\n</section>\n\n</body>\n</html>\n"
 }

@@ -5,16 +5,25 @@
  "author": "csemszepp",
  "source": "https://uiverse.io/csemszepp/smart-ladybug-43",
  "trigger": "static",
- "description": "A pattern with simple, material-design and honeycomb styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient amber pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "material-design",
+  "amber",
+  "gradient",
+  "flat",
   "pattern",
-  "honeycomb",
-  "static"
+  "simple",
+  "material-design"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by csemszepp  - Tags: simple, material design, pattern, honeycomb */\n.container {\n  width: 100%;\n  height: 100%;\n  background: radial-gradient(\n        circle farthest-side at 0% 50%,\n        #fb1 23.5%,\n        rgba(240, 166, 17, 0) 0\n      )\n      21px 30px,\n    radial-gradient(\n        circle farthest-side at 0% 50%,\n        #b71 24%,\n        rgba(240, 166, 17, 0) 0\n      )\n      19px 30px,\n    linear-gradient(\n        #fb1 14%,\n        rgba(240, 166, 17, 0) 0,\n        rgba(240, 166, 17, 0) 85%,\n        #fb1 0\n      )\n      0 0,\n    linear-gradient(\n        150deg,\n        #fb1 24%,\n        #b71 0,\n        #b71 26%,\n        rgba(240, 166, 17, 0) 0,\n        rgba(240, 166, 17, 0) 74%,\n        #b71 0,\n        #b71 76%,\n        #fb1 0\n      )\n      0 0,\n    linear-gradient(\n        30deg,\n        #fb1 24%,\n        #b71 0,\n        #b71 26%,\n        rgba(240, 166, 17, 0) 0,\n        rgba(240, 166, 17, 0) 74%,\n        #b71 0,\n        #b71 76%,\n        #fb1 0\n      )\n      0 0,\n    linear-gradient(90deg, #b71 2%, #fb1 0, #fb1 98%, #b71 0%) 0 0 #fb1;\n  background-size: 40px 60px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smart Ladybug 43</title>\n<style>\n/* From Uiverse.io by csemszepp - https://uiverse.io/csemszepp/smart-ladybug-43 */\n/* From Uiverse.io by csemszepp  - Tags: simple, material design, pattern, honeycomb */\n.container {\n  width: 100%;\n  height: 100%;\n  background: radial-gradient(\n        circle farthest-side at 0% 50%,\n        #fb1 23.5%,\n        rgba(240, 166, 17, 0) 0\n      )\n      21px 30px,\n    radial-gradient(\n        circle farthest-side at 0% 50%,\n        #b71 24%,\n        rgba(240, 166, 17, 0) 0\n      )\n      19px 30px,\n    linear-gradient(\n        #fb1 14%,\n        rgba(240, 166, 17, 0) 0,\n        rgba(240, 166, 17, 0) 85%,\n        #fb1 0\n      )\n      0 0,\n    linear-gradient(\n        150deg,\n        #fb1 24%,\n        #b71 0,\n        #b71 26%,\n        rgba(240, 166, 17, 0) 0,\n        rgba(240, 166, 17, 0) 74%,\n        #b71 0,\n        #b71 76%,\n        #fb1 0\n      )\n      0 0,\n    linear-gradient(\n        30deg,\n        #fb1 24%,\n        #b71 0,\n        #b71 26%,\n        rgba(240, 166, 17, 0) 0,\n        rgba(240, 166, 17, 0) 74%,\n        #b71 0,\n        #b71 76%,\n        #fb1 0\n      )\n      0 0,\n    linear-gradient(90deg, #b71 2%, #fb1 0, #fb1 98%, #b71 0%) 0 0 #fb1;\n  background-size: 40px 60px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#bb7711",
+  "#ffbb11",
+  "#f0a611"
+ ],
+ "fonts": [],
+ "tokens": 338,
+ "size": 1354,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Smart Ladybug 43 by csemszepp — https://uiverse.io/csemszepp/smart-ladybug-43 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: radial-gradient(\n        circle farthest-side at 0% 50%,\n        #fb1 23.5%,\n        rgba(240, 166, 17, 0) 0\n      )\n      21px 30px,\n    radial-gradient(\n        circle farthest-side at 0% 50%,\n        #b71 24%,\n        rgba(240, 166, 17, 0) 0\n      )\n      19px 30px,\n    linear-gradient(\n        #fb1 14%,\n        rgba(240, 166, 17, 0) 0,\n        rgba(240, 166, 17, 0) 85%,\n        #fb1 0\n      )\n      0 0,\n    linear-gradient(\n        150deg,\n        #fb1 24%,\n        #b71 0,\n        #b71 26%,\n        rgba(240, 166, 17, 0) 0,\n        rgba(240, 166, 17, 0) 74%,\n        #b71 0,\n        #b71 76%,\n        #fb1 0\n      )\n      0 0,\n    linear-gradient(\n        30deg,\n        #fb1 24%,\n        #b71 0,\n        #b71 26%,\n        rgba(240, 166, 17, 0) 0,\n        rgba(240, 166, 17, 0) 74%,\n        #b71 0,\n        #b71 76%,\n        #fb1 0\n      )\n      0 0,\n    linear-gradient(90deg, #b71 2%, #fb1 0, #fb1 98%, #b71 0%) 0 0 #fb1;\n  background-size: 40px 60px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smart Ladybug 43</title>\n<style>\n/* Smart Ladybug 43 by csemszepp — https://uiverse.io/csemszepp/smart-ladybug-43 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: radial-gradient(\n        circle farthest-side at 0% 50%,\n        #fb1 23.5%,\n        rgba(240, 166, 17, 0) 0\n      )\n      21px 30px,\n    radial-gradient(\n        circle farthest-side at 0% 50%,\n        #b71 24%,\n        rgba(240, 166, 17, 0) 0\n      )\n      19px 30px,\n    linear-gradient(\n        #fb1 14%,\n        rgba(240, 166, 17, 0) 0,\n        rgba(240, 166, 17, 0) 85%,\n        #fb1 0\n      )\n      0 0,\n    linear-gradient(\n        150deg,\n        #fb1 24%,\n        #b71 0,\n        #b71 26%,\n        rgba(240, 166, 17, 0) 0,\n        rgba(240, 166, 17, 0) 74%,\n        #b71 0,\n        #b71 76%,\n        #fb1 0\n      )\n      0 0,\n    linear-gradient(\n        30deg,\n        #fb1 24%,\n        #b71 0,\n        #b71 26%,\n        rgba(240, 166, 17, 0) 0,\n        rgba(240, 166, 17, 0) 74%,\n        #b71 0,\n        #b71 76%,\n        #fb1 0\n      )\n      0 0,\n    linear-gradient(90deg, #b71 2%, #fb1 0, #fb1 98%, #b71 0%) 0 0 #fb1;\n  background-size: 40px 60px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

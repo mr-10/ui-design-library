@@ -5,14 +5,24 @@
  "author": "Markoslc",
  "source": "https://uiverse.io/Markoslc/gentle-termite-56",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined pill white loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a 2.5s animation (pulsing).",
  "tags": [
+  "outlined",
+  "rounded",
+  "pill",
+  "pulse",
   "loader",
-  "auto-loop",
-  "css"
+  "auto-loop"
  ],
- "html": "<div class=\"loader\">\n  <div class=\"item1\"></div>\n  <div class=\"item2\"></div>\n  <div class=\"item3\"></div>\n</div>",
- "css": "/* From Uiverse.io by Markoslc - Tags: loader */\n.item1, .item2, .item3 {\n  position: absolute;\n  background-color: transparent;\n  left: calc(50% - (var(--size) / 2));\n  top: calc(50% - (var(--size) / 2));\n  height: var(--size);\n  width: var(--size);\n  border-radius: 50%;\n}\n\n.loader .item1 {\n  --size: 90px;\n  animation: size1_1 2.5s infinite alternate;\n  z-index: 1;\n}\n\n.loader .item2 {\n  --size: 60px;\n  animation: size1_2 2.5s infinite alternate;\n  z-index: 2;\n}\n\n.loader .item3 {\n  --size: 30px;\n  animation: size1_3 2.5s infinite alternate;\n  z-index: 3;\n}\n\n@keyframes size1_1 {\n  0%,\n  10% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n\n@keyframes size1_2 {\n  0%,\n  40% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n\n@keyframes size1_3 {\n  0%,\n  70% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Gentle Termite 56</title>\n<style>\n/* From Uiverse.io by Markoslc - https://uiverse.io/Markoslc/gentle-termite-56 */\n/* From Uiverse.io by Markoslc - Tags: loader */\n.item1, .item2, .item3 {\n  position: absolute;\n  background-color: transparent;\n  left: calc(50% - (var(--size) / 2));\n  top: calc(50% - (var(--size) / 2));\n  height: var(--size);\n  width: var(--size);\n  border-radius: 50%;\n}\n\n.loader .item1 {\n  --size: 90px;\n  animation: size1_1 2.5s infinite alternate;\n  z-index: 1;\n}\n\n.loader .item2 {\n  --size: 60px;\n  animation: size1_2 2.5s infinite alternate;\n  z-index: 2;\n}\n\n.loader .item3 {\n  --size: 30px;\n  animation: size1_3 2.5s infinite alternate;\n  z-index: 3;\n}\n\n@keyframes size1_1 {\n  0%,\n  10% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n\n@keyframes size1_2 {\n  0%,\n  40% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n\n@keyframes size1_3 {\n  0%,\n  70% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"item1\"></div>\n  <div class=\"item2\"></div>\n  <div class=\"item3\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 358,
+ "size": 1432,
+ "html": "<div class=\"loader\">\n  <div class=\"item1\"></div>\n  <div class=\"item2\"></div>\n  <div class=\"item3\"></div>\n</div>\n",
+ "css": "/* Gentle Termite 56 by Markoslc — https://uiverse.io/Markoslc/gentle-termite-56 */\n.item1, .item2, .item3 {\n  position: absolute;\n  background-color: transparent;\n  left: calc(50% - (var(--size) / 2));\n  top: calc(50% - (var(--size) / 2));\n  height: var(--size);\n  width: var(--size);\n  border-radius: 50%;\n}\n\n.loader .item1 {\n  --size: 90px;\n  animation: size1_1 2.5s infinite alternate;\n  z-index: 1;\n}\n\n.loader .item2 {\n  --size: 60px;\n  animation: size1_2 2.5s infinite alternate;\n  z-index: 2;\n}\n\n.loader .item3 {\n  --size: 30px;\n  animation: size1_3 2.5s infinite alternate;\n  z-index: 3;\n}\n\n@keyframes size1_1 {\n  0%,\n  10% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n\n@keyframes size1_2 {\n  0%,\n  40% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n\n@keyframes size1_3 {\n  0%,\n  70% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Gentle Termite 56</title>\n<style>\n/* Gentle Termite 56 by Markoslc — https://uiverse.io/Markoslc/gentle-termite-56 */\n.item1, .item2, .item3 {\n  position: absolute;\n  background-color: transparent;\n  left: calc(50% - (var(--size) / 2));\n  top: calc(50% - (var(--size) / 2));\n  height: var(--size);\n  width: var(--size);\n  border-radius: 50%;\n}\n\n.loader .item1 {\n  --size: 90px;\n  animation: size1_1 2.5s infinite alternate;\n  z-index: 1;\n}\n\n.loader .item2 {\n  --size: 60px;\n  animation: size1_2 2.5s infinite alternate;\n  z-index: 2;\n}\n\n.loader .item3 {\n  --size: 30px;\n  animation: size1_3 2.5s infinite alternate;\n  z-index: 3;\n}\n\n@keyframes size1_1 {\n  0%,\n  10% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n\n@keyframes size1_2 {\n  0%,\n  40% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n\n@keyframes size1_3 {\n  0%,\n  70% {\n    transform: scale(0);\n  }\n\n  100% {\n    transform: scale(1);\n    box-shadow: 8px 8px 14px #c5c5c5, -8px -8px 14px #ffffff;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"item1\"></div>\n  <div class=\"item2\"></div>\n  <div class=\"item3\"></div>\n</div>\n\n</body>\n</html>\n"
 }

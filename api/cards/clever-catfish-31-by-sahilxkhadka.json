@@ -5,14 +5,25 @@
  "author": "sahilxkhadka",
  "source": "https://uiverse.io/sahilxkhadka/clever-catfish-31",
  "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient rounded violet card with rounded corners and gradient fill.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "violet",
+  "pink",
+  "gradient",
+  "rounded",
   "cards",
-  "static",
-  "css"
+  "static"
  ],
- "html": "<!-- From Uiverse.io by sahilxkhadka - Tags: card, creditcard, minimal, bankcard -->\n<div class=\"card relative h-[260px] w-[400px] flex flex-col justify-end px-6 py-10 text-white rounded-3xl gap-8 bg-gradient-to-r from-purple-500 to-pink-500\">\n  <p class=\"text-2xl  font-medium\">5430 4900 3232 9755</p>\n  <div class=\"flex justify-between gap-10\">\n    <p class=\"text-lg font-medium\">Elon Musk</p>\n    <div class=\"flex-1 flex flex-col justify-end\">\n      <p class=\"self-end\">Valid Date</p>\n      <p class=\"self-end\">2/14/2024</p>\n    </div>\n    <div class=\"self-center\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 58 36\" height=\"36\" width=\"58\">\n        <circle fill-opacity=\"0.62\" fill=\"#F9CCD1\" r=\"18\" cy=\"18\" cx=\"18\"></circle>\n        <circle fill=\"#424242\" r=\"18\" cy=\"18\" cx=\"40\" opacity=\"0.36\"></circle>\n      </svg>\n    </div>\n  </div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Clever Catfish 31</title>\n<style>\n/* From Uiverse.io by sahilxkhadka - https://uiverse.io/sahilxkhadka/clever-catfish-31 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by sahilxkhadka - Tags: card, creditcard, minimal, bankcard -->\n<div class=\"card relative h-[260px] w-[400px] flex flex-col justify-end px-6 py-10 text-white rounded-3xl gap-8 bg-gradient-to-r from-purple-500 to-pink-500\">\n  <p class=\"text-2xl  font-medium\">5430 4900 3232 9755</p>\n  <div class=\"flex justify-between gap-10\">\n    <p class=\"text-lg font-medium\">Elon Musk</p>\n    <div class=\"flex-1 flex flex-col justify-end\">\n      <p class=\"self-end\">Valid Date</p>\n      <p class=\"self-end\">2/14/2024</p>\n    </div>\n    <div class=\"self-center\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 58 36\" height=\"36\" width=\"58\">\n        <circle fill-opacity=\"0.62\" fill=\"#F9CCD1\" r=\"18\" cy=\"18\" cx=\"18\"></circle>\n        <circle fill=\"#424242\" r=\"18\" cy=\"18\" cx=\"40\" opacity=\"0.36\"></circle>\n      </svg>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#a855f7",
+  "#ec4899",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 274,
+ "size": 1100,
+ "html": "<div class=\"card relative h-[260px] w-[400px] flex flex-col justify-end px-6 py-10 text-white rounded-3xl gap-8 bg-gradient-to-r from-purple-500 to-pink-500\">\n  <p class=\"text-2xl  font-medium\">5430 4900 3232 9755</p>\n  <div class=\"flex justify-between gap-10\">\n    <p class=\"text-lg font-medium\">Elon Musk</p>\n    <div class=\"flex-1 flex flex-col justify-end\">\n      <p class=\"self-end\">Valid Date</p>\n      <p class=\"self-end\">2/14/2024</p>\n    </div>\n    <div class=\"self-center\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 58 36\" height=\"36\" width=\"58\">\n        <circle fill-opacity=\"0.62\" fill=\"#F9CCD1\" r=\"18\" cy=\"18\" cx=\"18\"></circle>\n        <circle fill=\"#424242\" r=\"18\" cy=\"18\" cx=\"40\" opacity=\"0.36\"></circle>\n      </svg>\n    </div>\n  </div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Clever Catfish 31</title>\n<style>\n/* Clever Catfish 31 by sahilxkhadka — https://uiverse.io/sahilxkhadka/clever-catfish-31 */\n\n</style>\n</head>\n<body>\n<div class=\"card relative h-[260px] w-[400px] flex flex-col justify-end px-6 py-10 text-white rounded-3xl gap-8 bg-gradient-to-r from-purple-500 to-pink-500\">\n  <p class=\"text-2xl  font-medium\">5430 4900 3232 9755</p>\n  <div class=\"flex justify-between gap-10\">\n    <p class=\"text-lg font-medium\">Elon Musk</p>\n    <div class=\"flex-1 flex flex-col justify-end\">\n      <p class=\"self-end\">Valid Date</p>\n      <p class=\"self-end\">2/14/2024</p>\n    </div>\n    <div class=\"self-center\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 58 36\" height=\"36\" width=\"58\">\n        <circle fill-opacity=\"0.62\" fill=\"#F9CCD1\" r=\"18\" cy=\"18\" cx=\"18\"></circle>\n        <circle fill=\"#424242\" r=\"18\" cy=\"18\" cx=\"40\" opacity=\"0.36\"></circle>\n      </svg>\n    </div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

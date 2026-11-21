@@ -5,14 +5,25 @@
  "author": "Gautammsharma",
  "source": "https://uiverse.io/Gautammsharma/wicked-cobra-3",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded red button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, background-color changes from #ff5252 to #fff, text color changes from #fff to #ff5252, border becomes 2px solid #ff5252.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "red",
+  "yellow",
+  "rounded",
+  "glow",
+  "color-change",
+  "button"
  ],
- "html": "<button class=\"comic-button\">Click me!</button>",
- "css": "/* From Uiverse.io by Gautammsharma - Tags: button */\n.comic-button {\n  display: inline-block;\n  padding: 10px 20px;\n  font-size: 24px;\n  font-weight: bold;\n  text-align: center;\n  text-decoration: none;\n  color: #fff;\n  background-color: #ff5252;\n  border: 2px solid #000;\n  border-radius: 10px;\n  box-shadow: 5px 5px 0px #000;\n  transition: all 0.3s ease;\n}\n\n.comic-button:hover {\n  background-color: #fff;\n  color: #ff5252;\n  border: 2px solid #ff5252;\n  box-shadow: 5px 5px 0px #ff5252;\n}\n\n.comic-button:active {\n  background-color: #fcf414;\n  box-shadow: none;\n  transform: translateY(4px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wicked Cobra 3</title>\n<style>\n/* From Uiverse.io by Gautammsharma - https://uiverse.io/Gautammsharma/wicked-cobra-3 */\n/* From Uiverse.io by Gautammsharma - Tags: button */\n.comic-button {\n  display: inline-block;\n  padding: 10px 20px;\n  font-size: 24px;\n  font-weight: bold;\n  text-align: center;\n  text-decoration: none;\n  color: #fff;\n  background-color: #ff5252;\n  border: 2px solid #000;\n  border-radius: 10px;\n  box-shadow: 5px 5px 0px #000;\n  transition: all 0.3s ease;\n}\n\n.comic-button:hover {\n  background-color: #fff;\n  color: #ff5252;\n  border: 2px solid #ff5252;\n  box-shadow: 5px 5px 0px #ff5252;\n}\n\n.comic-button:active {\n  background-color: #fcf414;\n  box-shadow: none;\n  transform: translateY(4px);\n}\n</style>\n</head>\n<body>\n<button class=\"comic-button\">Click me!</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ff5252",
+  "#fcf414",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 223,
+ "size": 895,
+ "html": "<button class=\"comic-button\">Click me!</button>\n",
+ "css": "/* Wicked Cobra 3 by Gautammsharma — https://uiverse.io/Gautammsharma/wicked-cobra-3 */\n.comic-button {\n  display: inline-block;\n  padding: 10px 20px;\n  font-size: 24px;\n  font-weight: bold;\n  text-align: center;\n  text-decoration: none;\n  color: #fff;\n  background-color: #ff5252;\n  border: 2px solid #000;\n  border-radius: 10px;\n  box-shadow: 5px 5px 0px #000;\n  transition: all 0.3s ease;\n}\n\n.comic-button:hover {\n  background-color: #fff;\n  color: #ff5252;\n  border: 2px solid #ff5252;\n  box-shadow: 5px 5px 0px #ff5252;\n}\n\n.comic-button:active {\n  background-color: #fcf414;\n  box-shadow: none;\n  transform: translateY(4px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wicked Cobra 3</title>\n<style>\n/* Wicked Cobra 3 by Gautammsharma — https://uiverse.io/Gautammsharma/wicked-cobra-3 */\n.comic-button {\n  display: inline-block;\n  padding: 10px 20px;\n  font-size: 24px;\n  font-weight: bold;\n  text-align: center;\n  text-decoration: none;\n  color: #fff;\n  background-color: #ff5252;\n  border: 2px solid #000;\n  border-radius: 10px;\n  box-shadow: 5px 5px 0px #000;\n  transition: all 0.3s ease;\n}\n\n.comic-button:hover {\n  background-color: #fff;\n  color: #ff5252;\n  border: 2px solid #ff5252;\n  box-shadow: 5px 5px 0px #ff5252;\n}\n\n.comic-button:active {\n  background-color: #fcf414;\n  box-shadow: none;\n  transform: translateY(4px);\n}\n</style>\n</head>\n<body>\n<button class=\"comic-button\">Click me!</button>\n\n</body>\n</html>\n"
 }

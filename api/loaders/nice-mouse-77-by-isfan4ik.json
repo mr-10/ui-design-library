@@ -5,17 +5,24 @@
  "author": "isfan4ik",
  "source": "https://uiverse.io/isfan4ik/nice-mouse-77",
  "trigger": "auto-loop",
- "description": "A loader with red, green and pink styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pink loader with animating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (animating).",
  "tags": [
+  "pink",
+  "flat",
   "red",
   "green",
-  "pink",
   "loader",
-  "effect-loader",
-  "loading-animation"
+  "effect-loader"
  ],
- "html": "<svg class=\"svg\">\n      <path class=\"path\"></path>\n   </svg>\n   <svg>\n      <path></path>\n   </svg>",
- "css": "/* From Uiverse.io by isfan4ik - Tags: red, green, pink, loader, effect loader, loading animation */\n.body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.svg {\n  position: absolute;\n  width: 400px;\n  fill: none;\n}\n\n.svg:nth-child(2) {\n  filter: blur(40px);\n}\n\n.svg path {\n  d: path(\"M0,25 C150,110 150, -60 300,25\");\n  stroke: #ff0092;\n  stroke-width: 50;\n  stroke-linecap: round;\n  transform: translate(50px,50%);\n  animation: animate 2s ease-in-out infinite;\n}\n\n@keyframes animate {\n  0% {\n    stroke: greenyellow;\n    stroke: #ff0092;\n    d: path(\"M0,25 C150,110 150, -60 300,25\");\n  }\n\n  50% {\n    stroke: dodgerblue;\n    stroke: #00ff00;\n    d: path(\"M0,25 C160,-50 140, 110 300,25\");\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nice Mouse 77</title>\n<style>\n/* From Uiverse.io by isfan4ik - https://uiverse.io/isfan4ik/nice-mouse-77 */\n/* From Uiverse.io by isfan4ik - Tags: red, green, pink, loader, effect loader, loading animation */\n.body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.svg {\n  position: absolute;\n  width: 400px;\n  fill: none;\n}\n\n.svg:nth-child(2) {\n  filter: blur(40px);\n}\n\n.svg path {\n  d: path(\"M0,25 C150,110 150, -60 300,25\");\n  stroke: #ff0092;\n  stroke-width: 50;\n  stroke-linecap: round;\n  transform: translate(50px,50%);\n  animation: animate 2s ease-in-out infinite;\n}\n\n@keyframes animate {\n  0% {\n    stroke: greenyellow;\n    stroke: #ff0092;\n    d: path(\"M0,25 C150,110 150, -60 300,25\");\n  }\n\n  50% {\n    stroke: dodgerblue;\n    stroke: #00ff00;\n    d: path(\"M0,25 C160,-50 140, 110 300,25\");\n  }\n}\n</style>\n</head>\n<body>\n<svg class=\"svg\">\n      <path class=\"path\"></path>\n   </svg>\n   <svg>\n      <path></path>\n   </svg>\n</body>\n</html>\n"
+ "colors": [
+  "#ff0092",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 252,
+ "size": 1011,
+ "html": "<svg class=\"svg\">\n      <path class=\"path\"></path>\n   </svg>\n   <svg>\n      <path></path>\n   </svg>\n",
+ "css": "/* Nice Mouse 77 by isfan4ik — https://uiverse.io/isfan4ik/nice-mouse-77 */\n.body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.svg {\n  position: absolute;\n  width: 400px;\n  fill: none;\n}\n\n.svg:nth-child(2) {\n  filter: blur(40px);\n}\n\n.svg path {\n  d: path(\"M0,25 C150,110 150, -60 300,25\");\n  stroke: #ff0092;\n  stroke-width: 50;\n  stroke-linecap: round;\n  transform: translate(50px,50%);\n  animation: animate 2s ease-in-out infinite;\n}\n\n@keyframes animate {\n  0% {\n    stroke: greenyellow;\n    stroke: #ff0092;\n    d: path(\"M0,25 C150,110 150, -60 300,25\");\n  }\n\n  50% {\n    stroke: dodgerblue;\n    stroke: #00ff00;\n    d: path(\"M0,25 C160,-50 140, 110 300,25\");\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nice Mouse 77</title>\n<style>\n/* Nice Mouse 77 by isfan4ik — https://uiverse.io/isfan4ik/nice-mouse-77 */\n.body {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.svg {\n  position: absolute;\n  width: 400px;\n  fill: none;\n}\n\n.svg:nth-child(2) {\n  filter: blur(40px);\n}\n\n.svg path {\n  d: path(\"M0,25 C150,110 150, -60 300,25\");\n  stroke: #ff0092;\n  stroke-width: 50;\n  stroke-linecap: round;\n  transform: translate(50px,50%);\n  animation: animate 2s ease-in-out infinite;\n}\n\n@keyframes animate {\n  0% {\n    stroke: greenyellow;\n    stroke: #ff0092;\n    d: path(\"M0,25 C150,110 150, -60 300,25\");\n  }\n\n  50% {\n    stroke: dodgerblue;\n    stroke: #00ff00;\n    d: path(\"M0,25 C160,-50 140, 110 300,25\");\n  }\n}\n</style>\n</head>\n<body>\n<svg class=\"svg\">\n      <path class=\"path\"></path>\n   </svg>\n   <svg>\n      <path></path>\n   </svg>\n\n</body>\n</html>\n"
 }

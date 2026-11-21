@@ -4,15 +4,26 @@
  "category": "buttons",
  "author": "ozgeozkaraa01",
  "source": "https://uiverse.io/ozgeozkaraa01/curvy-insect-99",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gradient pill violet button that glows and scales up on hover.",
+ "howItWorks": "On hover, text colour changes and it scales and shadow grows and it rotates.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "violet",
+  "pink",
+  "gradient",
+  "rounded",
+  "pill",
+  "color-change"
  ],
- "html": "<!-- From Uiverse.io by ozgeozkaraa01 - Tags: button -->\n<button class=\"animate-pulse bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-red-500 hover:to-purple-500 text-[#11324D] font-bold py-3 px-6 rounded-full shadow-lg hover:text-white transform transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-xl hover:rotate-12 hover:brightness-110\">\n  Awesome Button\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curvy Insect 99</title>\n<style>\n/* From Uiverse.io by ozgeozkaraa01 - https://uiverse.io/ozgeozkaraa01/curvy-insect-99 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by ozgeozkaraa01 - Tags: button -->\n<button class=\"animate-pulse bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-red-500 hover:to-purple-500 text-[#11324D] font-bold py-3 px-6 rounded-full shadow-lg hover:text-white transform transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-xl hover:rotate-12 hover:brightness-110\">\n  Awesome Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#a855f7",
+  "#ec4899",
+  "#ef4444"
+ ],
+ "fonts": [],
+ "tokens": 163,
+ "size": 655,
+ "html": "<button class=\"animate-pulse bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-red-500 hover:to-purple-500 text-[#11324D] font-bold py-3 px-6 rounded-full shadow-lg hover:text-white transform transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-xl hover:rotate-12 hover:brightness-110\">\n  Awesome Button\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curvy Insect 99</title>\n<style>\n/* Curvy Insect 99 by ozgeozkaraa01 — https://uiverse.io/ozgeozkaraa01/curvy-insect-99 */\n\n</style>\n</head>\n<body>\n<button class=\"animate-pulse bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 hover:from-red-500 hover:to-purple-500 text-[#11324D] font-bold py-3 px-6 rounded-full shadow-lg hover:text-white transform transition-all duration-500 ease-in-out hover:scale-110 hover:shadow-xl hover:rotate-12 hover:brightness-110\">\n  Awesome Button\n</button>\n\n</body>\n</html>\n"
 }

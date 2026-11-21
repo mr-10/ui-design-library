@@ -5,14 +5,23 @@
  "author": "r7chardgh",
  "source": "https://uiverse.io/r7chardgh/shaggy-octopus-89",
  "trigger": "hover",
- "description": "A button with glitch styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark gray button that starts animating on hover.",
+ "howItWorks": "On hover, starts the shake animation (animating).",
  "tags": [
+  "dark",
+  "animated",
   "button",
   "hover",
   "glitch"
  ],
- "html": "<button class=\"button\">\n  glitch\n</button>",
- "css": "/* From Uiverse.io by r7chardgh - Tags: button, hover, glitch */\n.button {\n  position: relative;\n  border: 0;\n  padding: 1em 2em;\n  font-weight: 700;\n  cursor: pointer;\n  outline: .5em solid #fff;\n  outline-offset: -.3em;\n  color: #fff;\n  background-color: #333;\n  text-transform: uppercase;\n}\n\n.button:hover {\n  animation: shake 500ms infinite,glitch 400ms infinite steps(4);\n}\n\n@keyframes shake {\n  0% {\n  }\n\n  25% {\n    transform: translate(-.1em,-.1em);\n  }\n\n  50% {\n    transform: translate(.3em,0);\n  }\n\n  75% {\n    transform: translate(0,.3em);\n  }\n\n  100% {\n  }\n}\n\n@keyframes glitch {\n  from {\n    box-shadow: .8em .8em  rgba(240, 84, 219),\n  -.8em -.8em rgba(84, 240, 232);\n  }\n\n  to {\n    text-shadow: .3em .2em  rgba(240, 84, 219),\n  -.3em -.2em rgba(84, 240, 232);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shaggy Octopus 89</title>\n<style>\n/* From Uiverse.io by r7chardgh - https://uiverse.io/r7chardgh/shaggy-octopus-89 */\n/* From Uiverse.io by r7chardgh - Tags: button, hover, glitch */\n.button {\n  position: relative;\n  border: 0;\n  padding: 1em 2em;\n  font-weight: 700;\n  cursor: pointer;\n  outline: .5em solid #fff;\n  outline-offset: -.3em;\n  color: #fff;\n  background-color: #333;\n  text-transform: uppercase;\n}\n\n.button:hover {\n  animation: shake 500ms infinite,glitch 400ms infinite steps(4);\n}\n\n@keyframes shake {\n  0% {\n  }\n\n  25% {\n    transform: translate(-.1em,-.1em);\n  }\n\n  50% {\n    transform: translate(.3em,0);\n  }\n\n  75% {\n    transform: translate(0,.3em);\n  }\n\n  100% {\n  }\n}\n\n@keyframes glitch {\n  from {\n    box-shadow: .8em .8em  rgba(240, 84, 219),\n  -.8em -.8em rgba(84, 240, 232);\n  }\n\n  to {\n    text-shadow: .3em .2em  rgba(240, 84, 219),\n  -.3em -.2em rgba(84, 240, 232);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  glitch\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#333333",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 266,
+ "size": 1065,
+ "html": "<button class=\"button\">\n  glitch\n</button>\n",
+ "css": "/* Shaggy Octopus 89 by r7chardgh — https://uiverse.io/r7chardgh/shaggy-octopus-89 */\n.button {\n  position: relative;\n  border: 0;\n  padding: 1em 2em;\n  font-weight: 700;\n  cursor: pointer;\n  outline: .5em solid #fff;\n  outline-offset: -.3em;\n  color: #fff;\n  background-color: #333;\n  text-transform: uppercase;\n}\n\n.button:hover {\n  animation: shake 500ms infinite,glitch 400ms infinite steps(4);\n}\n\n@keyframes shake {\n  0% {\n  }\n\n  25% {\n    transform: translate(-.1em,-.1em);\n  }\n\n  50% {\n    transform: translate(.3em,0);\n  }\n\n  75% {\n    transform: translate(0,.3em);\n  }\n\n  100% {\n  }\n}\n\n@keyframes glitch {\n  from {\n    box-shadow: .8em .8em  rgba(240, 84, 219),\n  -.8em -.8em rgba(84, 240, 232);\n  }\n\n  to {\n    text-shadow: .3em .2em  rgba(240, 84, 219),\n  -.3em -.2em rgba(84, 240, 232);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shaggy Octopus 89</title>\n<style>\n/* Shaggy Octopus 89 by r7chardgh — https://uiverse.io/r7chardgh/shaggy-octopus-89 */\n.button {\n  position: relative;\n  border: 0;\n  padding: 1em 2em;\n  font-weight: 700;\n  cursor: pointer;\n  outline: .5em solid #fff;\n  outline-offset: -.3em;\n  color: #fff;\n  background-color: #333;\n  text-transform: uppercase;\n}\n\n.button:hover {\n  animation: shake 500ms infinite,glitch 400ms infinite steps(4);\n}\n\n@keyframes shake {\n  0% {\n  }\n\n  25% {\n    transform: translate(-.1em,-.1em);\n  }\n\n  50% {\n    transform: translate(.3em,0);\n  }\n\n  75% {\n    transform: translate(0,.3em);\n  }\n\n  100% {\n  }\n}\n\n@keyframes glitch {\n  from {\n    box-shadow: .8em .8em  rgba(240, 84, 219),\n  -.8em -.8em rgba(84, 240, 232);\n  }\n\n  to {\n    text-shadow: .3em .2em  rgba(240, 84, 219),\n  -.3em -.2em rgba(84, 240, 232);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  glitch\n</button>\n\n</body>\n</html>\n"
 }

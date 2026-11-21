@@ -4,15 +4,28 @@
  "category": "buttons",
  "author": "pruthivithejan",
  "source": "https://uiverse.io/pruthivithejan/horrible-emu-23",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "active",
+ "description": "Gradient rounded white get started button that responds while pressed down.",
+ "howItWorks": "Its CSS has no :active rule that changes a visible property; pressing it shows no change.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "gradient",
+  "rounded",
+  "glow",
+  "scale",
+  "get-started-button",
+  "buttons"
  ],
- "html": "<!-- From Uiverse.io by pruthivithejan  - Tags: button -->\n<div class=\"w-screen h-screen bg-[#fafafa]\">\n  <div class=\"flex justify-center items-center gap-12 h-full\">\n    <div\n      class=\"bg-gradient-to-b from-stone-300/40 to-transparent p-[4px] rounded-[16px]\"\n    >\n      <button\n        class=\"group p-[4px] rounded-[12px] bg-gradient-to-b from-white to-stone-200/40 shadow-[0_1px_3px_rgba(0,0,0,0.5)] active:shadow-[0_0px_1px_rgba(0,0,0,0.5)] active:scale-[0.995]\"\n      >\n        <div\n          class=\"bg-gradient-to-b from-stone-200/40 to-white/80 rounded-[8px] px-2 py-2\"\n        >\n          <div class=\"flex gap-2 items-center font-sans\">\n            <span class=\"font-semibold\">Get Started</span>\n          </div>\n        </div>\n      </button>\n    </div>\n  </div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Horrible Emu 23</title>\n<style>\n/* From Uiverse.io by pruthivithejan - https://uiverse.io/pruthivithejan/horrible-emu-23 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by pruthivithejan  - Tags: button -->\n<div class=\"w-screen h-screen bg-[#fafafa]\">\n  <div class=\"flex justify-center items-center gap-12 h-full\">\n    <div\n      class=\"bg-gradient-to-b from-stone-300/40 to-transparent p-[4px] rounded-[16px]\"\n    >\n      <button\n        class=\"group p-[4px] rounded-[12px] bg-gradient-to-b from-white to-stone-200/40 shadow-[0_1px_3px_rgba(0,0,0,0.5)] active:shadow-[0_0px_1px_rgba(0,0,0,0.5)] active:scale-[0.995]\"\n      >\n        <div\n          class=\"bg-gradient-to-b from-stone-200/40 to-white/80 rounded-[8px] px-2 py-2\"\n        >\n          <div class=\"flex gap-2 items-center font-sans\">\n            <span class=\"font-semibold\">Get Started</span>\n          </div>\n        </div>\n      </button>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#e7e5e4",
+  "#d6d3d1",
+  "#ffffff"
+ ],
+ "fonts": [
+  "sans"
+ ],
+ "tokens": 258,
+ "size": 1032,
+ "html": "<div class=\"w-screen h-screen bg-[#fafafa]\">\n  <div class=\"flex justify-center items-center gap-12 h-full\">\n    <div\n      class=\"bg-gradient-to-b from-stone-300/40 to-transparent p-[4px] rounded-[16px]\"\n    >\n      <button\n        class=\"group p-[4px] rounded-[12px] bg-gradient-to-b from-white to-stone-200/40 shadow-[0_1px_3px_rgba(0,0,0,0.5)] active:shadow-[0_0px_1px_rgba(0,0,0,0.5)] active:scale-[0.995]\"\n      >\n        <div\n          class=\"bg-gradient-to-b from-stone-200/40 to-white/80 rounded-[8px] px-2 py-2\"\n        >\n          <div class=\"flex gap-2 items-center font-sans\">\n            <span class=\"font-semibold\">Get Started</span>\n          </div>\n        </div>\n      </button>\n    </div>\n  </div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Horrible Emu 23</title>\n<style>\n/* Horrible Emu 23 by pruthivithejan — https://uiverse.io/pruthivithejan/horrible-emu-23 */\n\n</style>\n</head>\n<body>\n<div class=\"w-screen h-screen bg-[#fafafa]\">\n  <div class=\"flex justify-center items-center gap-12 h-full\">\n    <div\n      class=\"bg-gradient-to-b from-stone-300/40 to-transparent p-[4px] rounded-[16px]\"\n    >\n      <button\n        class=\"group p-[4px] rounded-[12px] bg-gradient-to-b from-white to-stone-200/40 shadow-[0_1px_3px_rgba(0,0,0,0.5)] active:shadow-[0_0px_1px_rgba(0,0,0,0.5)] active:scale-[0.995]\"\n      >\n        <div\n          class=\"bg-gradient-to-b from-stone-200/40 to-white/80 rounded-[8px] px-2 py-2\"\n        >\n          <div class=\"flex gap-2 items-center font-sans\">\n            <span class=\"font-semibold\">Get Started</span>\n          </div>\n        </div>\n      </button>\n    </div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

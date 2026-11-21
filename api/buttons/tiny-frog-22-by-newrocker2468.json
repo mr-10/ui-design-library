@@ -5,16 +5,25 @@
  "author": "newrocker2468",
  "source": "https://uiverse.io/newrocker2468/tiny-frog-22",
  "trigger": "hover",
- "description": "A button with simple, green and simple-button styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon rounded emerald button that glows on hover.",
+ "howItWorks": "On hover, width becomes 120px, height becomes 60px, border-radius becomes 10px. On focus, border becomes 5px solid #a0fad8.",
  "tags": [
-  "simple",
-  "green",
-  "button",
-  "hover",
-  "simple-button"
+  "emerald",
+  "neon",
+  "rounded",
+  "expand",
+  "glow",
+  "simple"
  ],
- "html": "<button class=\"button1\">\n Click me!\n</button>",
- "css": "/* From Uiverse.io by newrocker2468 - Tags: simple, green, button, hover, simple button, #button */\n.button1 {\n  background-color: white;\n  font-weight: bold;\n  font-size: 1em;\n  border: none;\n  border-radius: 5px;\n  padding: 1.2em;\n  color: rgb(0, 0, 0);\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: all 500ms;\n  z-index: 99;\n}\n\n.button1::after {\n  content: \"\";\n  position: absolute;\n  width: 25px;\n  height: 25px;\n  border-radius: 20px;\n  bottom: -30px;\n  left: 45px;\n  background-color: #5affc0;\n  z-index: -99;\n  transition: all 500ms;\n}\n\n.button1:hover::after {\n  width: 120px;\n  height: 60px;\n  border-radius: 10px;\n  transition: all 500ms;\n  bottom: -1px;\n  left: -1px;\n}\n\n.button1:hover {\n  border-radius: 20px;\n  box-shadow: 0 0 100px 20px #5affc0;\n}\n\n.button1:active {\n  transform: translateY(10px);\n}\n\n.button1:focus {\n  border: 5px solid #a0fad8;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tiny Frog 22</title>\n<style>\n/* From Uiverse.io by newrocker2468 - https://uiverse.io/newrocker2468/tiny-frog-22 */\n/* From Uiverse.io by newrocker2468 - Tags: simple, green, button, hover, simple button, #button */\n.button1 {\n  background-color: white;\n  font-weight: bold;\n  font-size: 1em;\n  border: none;\n  border-radius: 5px;\n  padding: 1.2em;\n  color: rgb(0, 0, 0);\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: all 500ms;\n  z-index: 99;\n}\n\n.button1::after {\n  content: \"\";\n  position: absolute;\n  width: 25px;\n  height: 25px;\n  border-radius: 20px;\n  bottom: -30px;\n  left: 45px;\n  background-color: #5affc0;\n  z-index: -99;\n  transition: all 500ms;\n}\n\n.button1:hover::after {\n  width: 120px;\n  height: 60px;\n  border-radius: 10px;\n  transition: all 500ms;\n  bottom: -1px;\n  left: -1px;\n}\n\n.button1:hover {\n  border-radius: 20px;\n  box-shadow: 0 0 100px 20px #5affc0;\n}\n\n.button1:active {\n  transform: translateY(10px);\n}\n\n.button1:focus {\n  border: 5px solid #a0fad8;\n}\n</style>\n</head>\n<body>\n<button class=\"button1\">\n Click me!\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#5affc0",
+  "#a0fad8",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 283,
+ "size": 1134,
+ "html": "<button class=\"button1\">\n Click me!\n</button>\n",
+ "css": "/* Tiny Frog 22 by newrocker2468 — https://uiverse.io/newrocker2468/tiny-frog-22 */\n.button1 {\n  background-color: white;\n  font-weight: bold;\n  font-size: 1em;\n  border: none;\n  border-radius: 5px;\n  padding: 1.2em;\n  color: rgb(0, 0, 0);\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: all 500ms;\n  z-index: 99;\n}\n\n.button1::after {\n  content: \"\";\n  position: absolute;\n  width: 25px;\n  height: 25px;\n  border-radius: 20px;\n  bottom: -30px;\n  left: 45px;\n  background-color: #5affc0;\n  z-index: -99;\n  transition: all 500ms;\n}\n\n.button1:hover::after {\n  width: 120px;\n  height: 60px;\n  border-radius: 10px;\n  transition: all 500ms;\n  bottom: -1px;\n  left: -1px;\n}\n\n.button1:hover {\n  border-radius: 20px;\n  box-shadow: 0 0 100px 20px #5affc0;\n}\n\n.button1:active {\n  transform: translateY(10px);\n}\n\n.button1:focus {\n  border: 5px solid #a0fad8;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tiny Frog 22</title>\n<style>\n/* Tiny Frog 22 by newrocker2468 — https://uiverse.io/newrocker2468/tiny-frog-22 */\n.button1 {\n  background-color: white;\n  font-weight: bold;\n  font-size: 1em;\n  border: none;\n  border-radius: 5px;\n  padding: 1.2em;\n  color: rgb(0, 0, 0);\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: all 500ms;\n  z-index: 99;\n}\n\n.button1::after {\n  content: \"\";\n  position: absolute;\n  width: 25px;\n  height: 25px;\n  border-radius: 20px;\n  bottom: -30px;\n  left: 45px;\n  background-color: #5affc0;\n  z-index: -99;\n  transition: all 500ms;\n}\n\n.button1:hover::after {\n  width: 120px;\n  height: 60px;\n  border-radius: 10px;\n  transition: all 500ms;\n  bottom: -1px;\n  left: -1px;\n}\n\n.button1:hover {\n  border-radius: 20px;\n  box-shadow: 0 0 100px 20px #5affc0;\n}\n\n.button1:active {\n  transform: translateY(10px);\n}\n\n.button1:focus {\n  border: 5px solid #a0fad8;\n}\n</style>\n</head>\n<body>\n<button class=\"button1\">\n Click me!\n</button>\n\n</body>\n</html>\n"
 }

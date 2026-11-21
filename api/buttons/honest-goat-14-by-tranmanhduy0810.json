@@ -5,15 +5,27 @@
  "author": "tranmanhduy0810",
  "source": "https://uiverse.io/tranmanhduy0810/honest-goat-14",
  "trigger": "hover",
- "description": "A button with simple and code styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded white button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, box-shadow becomes 0 6px 8px #000000.",
  "tags": [
+  "rounded",
+  "glow",
+  "send",
   "simple",
   "button",
-  "code",
-  "hover"
+  "code"
  ],
- "html": "<button class=\"send-button\">Send Message</button>",
- "css": "/* From Uiverse.io by tranmanhduy0810  - Tags: simple, button, code */\n.send-button {\n  background-color: #ffffff;\n  border: 1px solid #dcdcdc;\n  border-radius: 8px;\n  padding: 10px 20px;\n  font-family: Arial, sans-serif;\n  font-size: 16px;\n  font-weight: 500;\n  color: #000000;\n  cursor: pointer;\n  display: inline-flex;\n  align-items: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n  transition: all 0.3s ease;\n}\n\n.send-button:hover {\n  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);\n}\n\n.send-button img {\n  margin-right: 8px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Honest Goat 14</title>\n<style>\n/* From Uiverse.io by tranmanhduy0810 - https://uiverse.io/tranmanhduy0810/honest-goat-14 */\n/* From Uiverse.io by tranmanhduy0810  - Tags: simple, button, code */\n.send-button {\n  background-color: #ffffff;\n  border: 1px solid #dcdcdc;\n  border-radius: 8px;\n  padding: 10px 20px;\n  font-family: Arial, sans-serif;\n  font-size: 16px;\n  font-weight: 500;\n  color: #000000;\n  cursor: pointer;\n  display: inline-flex;\n  align-items: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n  transition: all 0.3s ease;\n}\n\n.send-button:hover {\n  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);\n}\n\n.send-button img {\n  margin-right: 8px;\n}\n</style>\n</head>\n<body>\n<button class=\"send-button\">Send Message</button>\n</body>\n</html>\n"
+ "colors": [
+  "#dcdcdc",
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [
+  "Arial"
+ ],
+ "tokens": 204,
+ "size": 818,
+ "html": "<button class=\"send-button\">Send Message</button>\n",
+ "css": "/* Honest Goat 14 by tranmanhduy0810 — https://uiverse.io/tranmanhduy0810/honest-goat-14 */\n.send-button {\n  background-color: #ffffff;\n  border: 1px solid #dcdcdc;\n  border-radius: 8px;\n  padding: 10px 20px;\n  font-family: Arial, sans-serif;\n  font-size: 16px;\n  font-weight: 500;\n  color: #000000;\n  cursor: pointer;\n  display: inline-flex;\n  align-items: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n  transition: all 0.3s ease;\n}\n\n.send-button:hover {\n  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);\n}\n\n.send-button img {\n  margin-right: 8px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Honest Goat 14</title>\n<style>\n/* Honest Goat 14 by tranmanhduy0810 — https://uiverse.io/tranmanhduy0810/honest-goat-14 */\n.send-button {\n  background-color: #ffffff;\n  border: 1px solid #dcdcdc;\n  border-radius: 8px;\n  padding: 10px 20px;\n  font-family: Arial, sans-serif;\n  font-size: 16px;\n  font-weight: 500;\n  color: #000000;\n  cursor: pointer;\n  display: inline-flex;\n  align-items: center;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n  transition: all 0.3s ease;\n}\n\n.send-button:hover {\n  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);\n}\n\n.send-button img {\n  margin-right: 8px;\n}\n</style>\n</head>\n<body>\n<button class=\"send-button\">Send Message</button>\n\n</body>\n</html>\n"
 }

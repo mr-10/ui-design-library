@@ -5,15 +5,24 @@
  "author": "lautyYT",
  "source": "https://uiverse.io/lautyYT/spotty-shrimp-35",
  "trigger": "static",
- "description": "A pattern with simple and blue styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient sky-blue pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
   "blue",
+  "gradient",
+  "flat",
   "pattern",
+  "simple",
   "static"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by lautyYT - Tags: simple, blue, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(45deg, #0050fc,#0050fc 20px, #0684fade 20px,#0684fade 40px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spotty Shrimp 35</title>\n<style>\n/* From Uiverse.io by lautyYT - https://uiverse.io/lautyYT/spotty-shrimp-35 */\n/* From Uiverse.io by lautyYT - Tags: simple, blue, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(45deg, #0050fc,#0050fc 20px, #0684fade 20px,#0684fade 40px);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#0050fc",
+  "#0684fa"
+ ],
+ "fonts": [],
+ "tokens": 118,
+ "size": 474,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Spotty Shrimp 35 by lautyYT — https://uiverse.io/lautyYT/spotty-shrimp-35 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(45deg, #0050fc,#0050fc 20px, #0684fade 20px,#0684fade 40px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spotty Shrimp 35</title>\n<style>\n/* Spotty Shrimp 35 by lautyYT — https://uiverse.io/lautyYT/spotty-shrimp-35 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(45deg, #0050fc,#0050fc 20px, #0684fade 20px,#0684fade 40px);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

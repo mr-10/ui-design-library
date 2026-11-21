@@ -5,15 +5,24 @@
  "author": "Ratinax",
  "source": "https://uiverse.io/Ratinax/new-fish-98",
  "trigger": "static",
- "description": "A pattern with circle and multicolor styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient white pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
+  "gradient",
+  "flat",
+  "pattern",
   "circle",
   "multicolor",
-  "pattern",
   "static"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by Ratinax - Tags: circle, multicolor, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background-image: radial-gradient(black 75%, transparent 90%),\n  linear-gradient(45deg, red, green, yellow);\n  background-size: 3em 3em;\n  /* background: lightblue; */\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>New Fish 98</title>\n<style>\n/* From Uiverse.io by Ratinax - https://uiverse.io/Ratinax/new-fish-98 */\n/* From Uiverse.io by Ratinax - Tags: circle, multicolor, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background-image: radial-gradient(black 75%, transparent 90%),\n  linear-gradient(45deg, red, green, yellow);\n  background-size: 3em 3em;\n  /* background: lightblue; */\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 124,
+ "size": 499,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* New Fish 98 by Ratinax — https://uiverse.io/Ratinax/new-fish-98 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background-image: radial-gradient(black 75%, transparent 90%),\n  linear-gradient(45deg, red, green, yellow);\n  background-size: 3em 3em;\n\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>New Fish 98</title>\n<style>\n/* New Fish 98 by Ratinax — https://uiverse.io/Ratinax/new-fish-98 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background-image: radial-gradient(black 75%, transparent 90%),\n  linear-gradient(45deg, red, green, yellow);\n  background-size: 3em 3em;\n\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

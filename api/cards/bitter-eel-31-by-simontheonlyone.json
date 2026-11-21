@@ -5,15 +5,25 @@
  "author": "simontheonlyone",
  "source": "https://uiverse.io/simontheonlyone/bitter-eel-31",
  "trigger": "static",
- "description": "A card with note and inote styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Neon gradient rounded amber card with soft shadow and rounded corners and gradient fill.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "amber",
+  "neon",
+  "gradient",
+  "rounded",
   "card",
-  "note",
-  "inote",
-  "static"
+  "note"
  ],
- "html": "<div class=\"card\">\n  <div class=\"dots\">\n    <p>..................</p>\n  </div>\n</div>",
- "css": "/* From Uiverse.io by simontheonlyone - Source: Apple - https://www.apple.com/ - Tags: card, note, inote */\n.card {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  background: linear-gradient(\n    to bottom,\n    rgb(253, 197, 107) 12%, rgb(255, 187, 78) 24%,\n    rgba(0, 0, 0, .3) 25%, rgba(0, 0, 0, .1) 26% 26%,\n    #eee 28% 49%,\n    rgba(0, 0, 0, .3) 50%,\n    #eee 51% 74%,\n    rgba(0, 0, 0, .3) 75%,\n    #eee 76%\n  );\n  border: none;\n  border-radius: 35px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, .3);\n  overflow: hidden;\n}\n\n.dots {\n  position: absolute;\n  content: '';\n  inset: 0 -3px;\n  color: rgba(0, 0, 0, .3);\n  font-size: 41px;\n  user-select: none;\n  -webkit-user-select: none;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Eel 31</title>\n<style>\n/* From Uiverse.io by simontheonlyone - https://uiverse.io/simontheonlyone/bitter-eel-31 */\n/* From Uiverse.io by simontheonlyone - Source: Apple - https://www.apple.com/ - Tags: card, note, inote */\n.card {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  background: linear-gradient(\n    to bottom,\n    rgb(253, 197, 107) 12%, rgb(255, 187, 78) 24%,\n    rgba(0, 0, 0, .3) 25%, rgba(0, 0, 0, .1) 26% 26%,\n    #eee 28% 49%,\n    rgba(0, 0, 0, .3) 50%,\n    #eee 51% 74%,\n    rgba(0, 0, 0, .3) 75%,\n    #eee 76%\n  );\n  border: none;\n  border-radius: 35px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, .3);\n  overflow: hidden;\n}\n\n.dots {\n  position: absolute;\n  content: '';\n  inset: 0 -3px;\n  color: rgba(0, 0, 0, .3);\n  font-size: 41px;\n  user-select: none;\n  -webkit-user-select: none;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"dots\">\n    <p>..................</p>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#eeeeee",
+  "#fdc56b",
+  "#ffbb4e"
+ ],
+ "fonts": [],
+ "tokens": 244,
+ "size": 977,
+ "html": "<div class=\"card\">\n  <div class=\"dots\">\n    <p>..................</p>\n  </div>\n</div>\n",
+ "css": "/* Bitter Eel 31 by simontheonlyone — https://uiverse.io/simontheonlyone/bitter-eel-31 */\n.card {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  background: linear-gradient(\n    to bottom,\n    rgb(253, 197, 107) 12%, rgb(255, 187, 78) 24%,\n    rgba(0, 0, 0, .3) 25%, rgba(0, 0, 0, .1) 26% 26%,\n    #eee 28% 49%,\n    rgba(0, 0, 0, .3) 50%,\n    #eee 51% 74%,\n    rgba(0, 0, 0, .3) 75%,\n    #eee 76%\n  );\n  border: none;\n  border-radius: 35px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, .3);\n  overflow: hidden;\n}\n\n.dots {\n  position: absolute;\n  content: '';\n  inset: 0 -3px;\n  color: rgba(0, 0, 0, .3);\n  font-size: 41px;\n  user-select: none;\n  -webkit-user-select: none;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Eel 31</title>\n<style>\n/* Bitter Eel 31 by simontheonlyone — https://uiverse.io/simontheonlyone/bitter-eel-31 */\n.card {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  background: linear-gradient(\n    to bottom,\n    rgb(253, 197, 107) 12%, rgb(255, 187, 78) 24%,\n    rgba(0, 0, 0, .3) 25%, rgba(0, 0, 0, .1) 26% 26%,\n    #eee 28% 49%,\n    rgba(0, 0, 0, .3) 50%,\n    #eee 51% 74%,\n    rgba(0, 0, 0, .3) 75%,\n    #eee 76%\n  );\n  border: none;\n  border-radius: 35px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, .3);\n  overflow: hidden;\n}\n\n.dots {\n  position: absolute;\n  content: '';\n  inset: 0 -3px;\n  color: rgba(0, 0, 0, .3);\n  font-size: 41px;\n  user-select: none;\n  -webkit-user-select: none;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"dots\">\n    <p>..................</p>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

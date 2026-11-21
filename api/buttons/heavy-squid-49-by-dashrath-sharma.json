@@ -5,14 +5,25 @@
  "author": "Dashrath-Sharma",
  "source": "https://uiverse.io/Dashrath-Sharma/heavy-squid-49",
  "trigger": "hover",
- "description": "A button with slide styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark sky-blue button that changes colour on hover.",
+ "howItWorks": "On hover, text color changes from #14213d to #fca311, width becomes 100%, height becomes 100%.",
  "tags": [
-  "button",
-  "slide",
-  "hover"
+  "blue",
+  "amber",
+  "flat",
+  "color-change",
+  "expand",
+  "button"
  ],
- "html": "<button>\n  Button\n</button>",
- "css": "/* From Uiverse.io by Dashrath-Sharma - Tags: button, slide */\nbutton {\n  border: none;\n  outline: none;\n  font-size: 17px;\n  padding: 1em 2em;\n  position: relative;\n  color: #14213d;\n  background: #f1f1f1;\n  display: grid;\n  font-weight: 700;\n  place-items: center;\n  transition: color 350ms linear 650ms;\n  border-top-right-radius: 10px;\n  border-bottom-right-radius: 10px;\n  overflow: hidden;\n  z-index: 1;\n}\n\nbutton:hover {\n  color: #fca311;\n}\n\nbutton::before,\nbutton::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 0;\n  z-index: -1;\n  width: 0;\n  height: 6%;\n}\n\nbutton::before {\n  background: #fca311;\n  transition: width 350ms, height 350ms linear 650ms;\n}\n\nbutton:hover::before {\n  width: 100%;\n  height: 100%;\n}\n\nbutton:after {\n  background: #14213d;\n  transition: width 350ms linear 175ms, height 350ms linear 650ms;\n}\n\nbutton:hover::after {\n  width: 95%;\n  height: 100%;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Squid 49</title>\n<style>\n/* From Uiverse.io by Dashrath-Sharma - https://uiverse.io/Dashrath-Sharma/heavy-squid-49 */\n/* From Uiverse.io by Dashrath-Sharma - Tags: button, slide */\nbutton {\n  border: none;\n  outline: none;\n  font-size: 17px;\n  padding: 1em 2em;\n  position: relative;\n  color: #14213d;\n  background: #f1f1f1;\n  display: grid;\n  font-weight: 700;\n  place-items: center;\n  transition: color 350ms linear 650ms;\n  border-top-right-radius: 10px;\n  border-bottom-right-radius: 10px;\n  overflow: hidden;\n  z-index: 1;\n}\n\nbutton:hover {\n  color: #fca311;\n}\n\nbutton::before,\nbutton::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 0;\n  z-index: -1;\n  width: 0;\n  height: 6%;\n}\n\nbutton::before {\n  background: #fca311;\n  transition: width 350ms, height 350ms linear 650ms;\n}\n\nbutton:hover::before {\n  width: 100%;\n  height: 100%;\n}\n\nbutton:after {\n  background: #14213d;\n  transition: width 350ms linear 175ms, height 350ms linear 650ms;\n}\n\nbutton:hover::after {\n  width: 95%;\n  height: 100%;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#14213d",
+  "#fca311",
+  "#f1f1f1"
+ ],
+ "fonts": [],
+ "tokens": 292,
+ "size": 1171,
+ "html": "<button>\n  Button\n</button>\n",
+ "css": "/* Heavy Squid 49 by Dashrath-Sharma — https://uiverse.io/Dashrath-Sharma/heavy-squid-49 */\nbutton {\n  border: none;\n  outline: none;\n  font-size: 17px;\n  padding: 1em 2em;\n  position: relative;\n  color: #14213d;\n  background: #f1f1f1;\n  display: grid;\n  font-weight: 700;\n  place-items: center;\n  transition: color 350ms linear 650ms;\n  border-top-right-radius: 10px;\n  border-bottom-right-radius: 10px;\n  overflow: hidden;\n  z-index: 1;\n}\n\nbutton:hover {\n  color: #fca311;\n}\n\nbutton::before,\nbutton::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 0;\n  z-index: -1;\n  width: 0;\n  height: 6%;\n}\n\nbutton::before {\n  background: #fca311;\n  transition: width 350ms, height 350ms linear 650ms;\n}\n\nbutton:hover::before {\n  width: 100%;\n  height: 100%;\n}\n\nbutton:after {\n  background: #14213d;\n  transition: width 350ms linear 175ms, height 350ms linear 650ms;\n}\n\nbutton:hover::after {\n  width: 95%;\n  height: 100%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Squid 49</title>\n<style>\n/* Heavy Squid 49 by Dashrath-Sharma — https://uiverse.io/Dashrath-Sharma/heavy-squid-49 */\nbutton {\n  border: none;\n  outline: none;\n  font-size: 17px;\n  padding: 1em 2em;\n  position: relative;\n  color: #14213d;\n  background: #f1f1f1;\n  display: grid;\n  font-weight: 700;\n  place-items: center;\n  transition: color 350ms linear 650ms;\n  border-top-right-radius: 10px;\n  border-bottom-right-radius: 10px;\n  overflow: hidden;\n  z-index: 1;\n}\n\nbutton:hover {\n  color: #fca311;\n}\n\nbutton::before,\nbutton::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 0;\n  z-index: -1;\n  width: 0;\n  height: 6%;\n}\n\nbutton::before {\n  background: #fca311;\n  transition: width 350ms, height 350ms linear 650ms;\n}\n\nbutton:hover::before {\n  width: 100%;\n  height: 100%;\n}\n\nbutton:after {\n  background: #14213d;\n  transition: width 350ms linear 175ms, height 350ms linear 650ms;\n}\n\nbutton:hover::after {\n  width: 95%;\n  height: 100%;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n\n</body>\n</html>\n"
 }

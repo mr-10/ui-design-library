@@ -5,14 +5,27 @@
  "author": "killiandvcz",
  "source": "https://uiverse.io/killiandvcz/giant-turkey-14",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded blue button that glows on hover.",
+ "howItWorks": "On hover, box-shadow becomes inset #ffffff 4px 4px 5px.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "blue",
+  "purple",
+  "gradient",
+  "rounded",
+  "glow",
+  "button"
  ],
- "html": "<button>\n    ✨ Let's  go !\n</button>",
- "css": "/* From Uiverse.io by killiandvcz - Tags: button */\nbutton {\n  padding: 7px 25px;\n  border: none;\n  background: linear-gradient(-15deg, rgb(31, 33, 124) 0 50%, rgb(202, 76, 214) 90% 95%, rgb(221, 36, 83) 100%);\n  box-shadow: inset rgba(255, 255, 255, 0.418) 3px 3px 5px;\n  color: white;\n  font-family: 'Lora', serif;\n  font-style: italic;\n  border-radius: 50px;\n  transition: all .4s;\n}\n\nbutton:hover {\n  box-shadow: inset rgba(255, 255, 255, 0.473) 4px 4px 5px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Turkey 14</title>\n<style>\n/* From Uiverse.io by killiandvcz - https://uiverse.io/killiandvcz/giant-turkey-14 */\n/* From Uiverse.io by killiandvcz - Tags: button */\nbutton {\n  padding: 7px 25px;\n  border: none;\n  background: linear-gradient(-15deg, rgb(31, 33, 124) 0 50%, rgb(202, 76, 214) 90% 95%, rgb(221, 36, 83) 100%);\n  box-shadow: inset rgba(255, 255, 255, 0.418) 3px 3px 5px;\n  color: white;\n  font-family: 'Lora', serif;\n  font-style: italic;\n  border-radius: 50px;\n  transition: all .4s;\n}\n\nbutton:hover {\n  box-shadow: inset rgba(255, 255, 255, 0.473) 4px 4px 5px;\n}\n</style>\n</head>\n<body>\n<button>\n    ✨ Let's  go !\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#1f217c",
+  "#ca4cd6",
+  "#dd2453"
+ ],
+ "fonts": [
+  "Lora"
+ ],
+ "tokens": 188,
+ "size": 754,
+ "html": "<button>\n    ✨ Let's  go !\n</button>\n",
+ "css": "/* Giant Turkey 14 by killiandvcz — https://uiverse.io/killiandvcz/giant-turkey-14 */\nbutton {\n  padding: 7px 25px;\n  border: none;\n  background: linear-gradient(-15deg, rgb(31, 33, 124) 0 50%, rgb(202, 76, 214) 90% 95%, rgb(221, 36, 83) 100%);\n  box-shadow: inset rgba(255, 255, 255, 0.418) 3px 3px 5px;\n  color: white;\n  font-family: 'Lora', serif;\n  font-style: italic;\n  border-radius: 50px;\n  transition: all .4s;\n}\n\nbutton:hover {\n  box-shadow: inset rgba(255, 255, 255, 0.473) 4px 4px 5px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Turkey 14</title>\n<style>\n/* Giant Turkey 14 by killiandvcz — https://uiverse.io/killiandvcz/giant-turkey-14 */\nbutton {\n  padding: 7px 25px;\n  border: none;\n  background: linear-gradient(-15deg, rgb(31, 33, 124) 0 50%, rgb(202, 76, 214) 90% 95%, rgb(221, 36, 83) 100%);\n  box-shadow: inset rgba(255, 255, 255, 0.418) 3px 3px 5px;\n  color: white;\n  font-family: 'Lora', serif;\n  font-style: italic;\n  border-radius: 50px;\n  transition: all .4s;\n}\n\nbutton:hover {\n  box-shadow: inset rgba(255, 255, 255, 0.473) 4px 4px 5px;\n}\n</style>\n</head>\n<body>\n<button>\n    ✨ Let's  go !\n</button>\n\n</body>\n</html>\n"
 }

@@ -4,15 +4,25 @@
  "category": "buttons",
  "author": "VassoD",
  "source": "https://uiverse.io/VassoD/smooth-earwig-8",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gradient rounded white button that glows and scales up on hover.",
+ "howItWorks": "On hover, shadow grows and it scales.",
  "tags": [
+  "gradient",
+  "rounded",
+  "glow",
+  "scale",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by VassoD  - Tags: animation, action, pink, gradient, button, hover, tailwind, tailwindbutton -->\n<button\n  class=\"relative overflow-hidden rounded-lg h-12 group hover:animate-pulse hover:shadow-lg hover:scale-105 transition duration-500 before:absolute before:inset-0 before:rounded-lg before:bg-gradient-to-br before:from-pink-400 before:via-purple-400 before:to-indigo-400\"\n>\n  <span class=\"relative text-white font-bold px-8 py-8\"> Hover me </span>\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Earwig 8</title>\n<style>\n/* From Uiverse.io by VassoD - https://uiverse.io/VassoD/smooth-earwig-8 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by VassoD  - Tags: animation, action, pink, gradient, button, hover, tailwind, tailwindbutton -->\n<button\n  class=\"relative overflow-hidden rounded-lg h-12 group hover:animate-pulse hover:shadow-lg hover:scale-105 transition duration-500 before:absolute before:inset-0 before:rounded-lg before:bg-gradient-to-br before:from-pink-400 before:via-purple-400 before:to-indigo-400\"\n>\n  <span class=\"relative text-white font-bold px-8 py-8\"> Hover me </span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 164,
+ "size": 658,
+ "html": "<button\n  class=\"relative overflow-hidden rounded-lg h-12 group hover:animate-pulse hover:shadow-lg hover:scale-105 transition duration-500 before:absolute before:inset-0 before:rounded-lg before:bg-gradient-to-br before:from-pink-400 before:via-purple-400 before:to-indigo-400\"\n>\n  <span class=\"relative text-white font-bold px-8 py-8\"> Hover me </span>\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Earwig 8</title>\n<style>\n/* Smooth Earwig 8 by VassoD — https://uiverse.io/VassoD/smooth-earwig-8 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"relative overflow-hidden rounded-lg h-12 group hover:animate-pulse hover:shadow-lg hover:scale-105 transition duration-500 before:absolute before:inset-0 before:rounded-lg before:bg-gradient-to-br before:from-pink-400 before:via-purple-400 before:to-indigo-400\"\n>\n  <span class=\"relative text-white font-bold px-8 py-8\"> Hover me </span>\n</button>\n\n</body>\n</html>\n"
 }

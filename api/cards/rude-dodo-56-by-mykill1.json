@@ -5,14 +5,25 @@
  "author": "mykill1",
  "source": "https://uiverse.io/mykill1/rude-dodo-56",
  "trigger": "hover",
- "description": "A card UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded red card that reacts on hover.",
+ "howItWorks": "On hover, border becomes 1px solid #7a2727.",
  "tags": [
+  "red",
+  "gradient",
+  "rounded",
   "card",
   "hover",
   "css"
  ],
- "html": "<div class=\"card\">\n    <div class=\"content\"></div>\n</div>",
- "css": "/* From Uiverse.io by mykill1 - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 10px;\n  background: #ae3737;\n  overflow: hidden;\n  box-shadow: inset 27px 27px 54px #7a2727, inset -27px -27px 54px #e24848;\n}\n\n.content {\n  width: 160px;\n  height: 220px;\n  position: relative;\n  margin-top: 16px;\n  margin-left: 15px;\n  border: none;\n  border-radius: 10px;\n  background: #ae3737;\n  background: linear-gradient(45deg, #9d3232, #ba3b3b);\n  box-shadow: 27px -27px 54px #7a2727,\n             -27px 27px 54px #e24848;\n}\n\ncontent :hover {\n  border: 1px solid #7a2727;\n}\n\n.card :hover {\n  border: 1px solid #7a2727;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rude Dodo 56</title>\n<style>\n/* From Uiverse.io by mykill1 - https://uiverse.io/mykill1/rude-dodo-56 */\n/* From Uiverse.io by mykill1 - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 10px;\n  background: #ae3737;\n  overflow: hidden;\n  box-shadow: inset 27px 27px 54px #7a2727, inset -27px -27px 54px #e24848;\n}\n\n.content {\n  width: 160px;\n  height: 220px;\n  position: relative;\n  margin-top: 16px;\n  margin-left: 15px;\n  border: none;\n  border-radius: 10px;\n  background: #ae3737;\n  background: linear-gradient(45deg, #9d3232, #ba3b3b);\n  box-shadow: 27px -27px 54px #7a2727,\n             -27px 27px 54px #e24848;\n}\n\ncontent :hover {\n  border: 1px solid #7a2727;\n}\n\n.card :hover {\n  border: 1px solid #7a2727;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n    <div class=\"content\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#7a2727",
+  "#e24848",
+  "#ae3737"
+ ],
+ "fonts": [],
+ "tokens": 232,
+ "size": 929,
+ "html": "<div class=\"card\">\n    <div class=\"content\"></div>\n</div>\n",
+ "css": "/* Rude Dodo 56 by mykill1 — https://uiverse.io/mykill1/rude-dodo-56 */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 10px;\n  background: #ae3737;\n  overflow: hidden;\n  box-shadow: inset 27px 27px 54px #7a2727, inset -27px -27px 54px #e24848;\n}\n\n.content {\n  width: 160px;\n  height: 220px;\n  position: relative;\n  margin-top: 16px;\n  margin-left: 15px;\n  border: none;\n  border-radius: 10px;\n  background: #ae3737;\n  background: linear-gradient(45deg, #9d3232, #ba3b3b);\n  box-shadow: 27px -27px 54px #7a2727,\n             -27px 27px 54px #e24848;\n}\n\ncontent :hover {\n  border: 1px solid #7a2727;\n}\n\n.card :hover {\n  border: 1px solid #7a2727;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rude Dodo 56</title>\n<style>\n/* Rude Dodo 56 by mykill1 — https://uiverse.io/mykill1/rude-dodo-56 */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 10px;\n  background: #ae3737;\n  overflow: hidden;\n  box-shadow: inset 27px 27px 54px #7a2727, inset -27px -27px 54px #e24848;\n}\n\n.content {\n  width: 160px;\n  height: 220px;\n  position: relative;\n  margin-top: 16px;\n  margin-left: 15px;\n  border: none;\n  border-radius: 10px;\n  background: #ae3737;\n  background: linear-gradient(45deg, #9d3232, #ba3b3b);\n  box-shadow: 27px -27px 54px #7a2727,\n             -27px 27px 54px #e24848;\n}\n\ncontent :hover {\n  border: 1px solid #7a2727;\n}\n\n.card :hover {\n  border: 1px solid #7a2727;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n    <div class=\"content\"></div>\n</div>\n\n</body>\n</html>\n"
 }

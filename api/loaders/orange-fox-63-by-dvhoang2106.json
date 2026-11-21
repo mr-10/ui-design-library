@@ -5,14 +5,24 @@
  "author": "dvhoang2106",
  "source": "https://uiverse.io/dvhoang2106/orange-fox-63",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "3d pill white spinner loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2.4s animation (rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "3d",
+  "rounded",
+  "pill",
+  "flat",
+  "spin",
+  "spinner-loader"
  ],
- "html": "<div class=\"spinner\">\n<div></div>\n</div>",
- "css": "/* From Uiverse.io by dvhoang2106 - Tags: loader */\n.spinner {\n display: inline-block;\n transform: translateZ(1px);\n}\n\n.spinner > div {\n display: inline-block;\n width: 64px;\n height: 64px;\n margin: 8px;\n border-radius: 50%;\n background: #fff;\n animation: spinner8344 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;\n}\n\n@keyframes spinner8344 {\n 0%,\n  100% {\n  animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);\n }\n\n 0% {\n  transform: rotateY(0deg);\n }\n\n 50% {\n  transform: rotateY(1800deg);\n  animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);\n }\n\n 100% {\n  transform: rotateY(3600deg);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Orange Fox 63</title>\n<style>\n/* From Uiverse.io by dvhoang2106 - https://uiverse.io/dvhoang2106/orange-fox-63 */\n/* From Uiverse.io by dvhoang2106 - Tags: loader */\n.spinner {\n display: inline-block;\n transform: translateZ(1px);\n}\n\n.spinner > div {\n display: inline-block;\n width: 64px;\n height: 64px;\n margin: 8px;\n border-radius: 50%;\n background: #fff;\n animation: spinner8344 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;\n}\n\n@keyframes spinner8344 {\n 0%,\n  100% {\n  animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);\n }\n\n 0% {\n  transform: rotateY(0deg);\n }\n\n 50% {\n  transform: rotateY(1800deg);\n  animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);\n }\n\n 100% {\n  transform: rotateY(3600deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\">\n<div></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 220,
+ "size": 884,
+ "html": "<div class=\"spinner\">\n<div></div>\n</div>\n",
+ "css": "/* Orange Fox 63 by dvhoang2106 — https://uiverse.io/dvhoang2106/orange-fox-63 */\n.spinner {\n display: inline-block;\n transform: translateZ(1px);\n}\n\n.spinner > div {\n display: inline-block;\n width: 64px;\n height: 64px;\n margin: 8px;\n border-radius: 50%;\n background: #fff;\n animation: spinner8344 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;\n}\n\n@keyframes spinner8344 {\n 0%,\n  100% {\n  animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);\n }\n\n 0% {\n  transform: rotateY(0deg);\n }\n\n 50% {\n  transform: rotateY(1800deg);\n  animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);\n }\n\n 100% {\n  transform: rotateY(3600deg);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Orange Fox 63</title>\n<style>\n/* Orange Fox 63 by dvhoang2106 — https://uiverse.io/dvhoang2106/orange-fox-63 */\n.spinner {\n display: inline-block;\n transform: translateZ(1px);\n}\n\n.spinner > div {\n display: inline-block;\n width: 64px;\n height: 64px;\n margin: 8px;\n border-radius: 50%;\n background: #fff;\n animation: spinner8344 2.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;\n}\n\n@keyframes spinner8344 {\n 0%,\n  100% {\n  animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);\n }\n\n 0% {\n  transform: rotateY(0deg);\n }\n\n 50% {\n  transform: rotateY(1800deg);\n  animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);\n }\n\n 100% {\n  transform: rotateY(3600deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\">\n<div></div>\n</div>\n\n</body>\n</html>\n"
 }

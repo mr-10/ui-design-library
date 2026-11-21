@@ -5,14 +5,24 @@
  "author": "adamgiebl",
  "source": "https://uiverse.io/adamgiebl/new-lionfish-4",
  "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient rounded violet card with soft shadow and rounded corners and gradient fill.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "violet",
+  "gradient",
+  "rounded",
   "card",
   "static",
   "css"
  ],
- "html": "<div class=\"card\">\n<div class=\"card__content\">\n</div></div>",
- "css": "/* From Uiverse.io by adamgiebl - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 20px;\n  padding: 5px;\n  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;\n  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);\n}\n\n.card__content {\n  background: rgb(5, 6, 45);\n  border-radius: 17px;\n  width: 100%;\n  height: 100%;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>New Lionfish 4</title>\n<style>\n/* From Uiverse.io by adamgiebl - https://uiverse.io/adamgiebl/new-lionfish-4 */\n/* From Uiverse.io by adamgiebl - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 20px;\n  padding: 5px;\n  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;\n  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);\n}\n\n.card__content {\n  background: rgb(5, 6, 45);\n  border-radius: 17px;\n  width: 100%;\n  height: 100%;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n<div class=\"card__content\">\n</div></div>\n</body>\n</html>\n"
+ "colors": [
+  "#9741fc",
+  "#05062d"
+ ],
+ "fonts": [],
+ "tokens": 167,
+ "size": 670,
+ "html": "<div class=\"card\">\n<div class=\"card__content\">\n</div></div>\n",
+ "css": "/* New Lionfish 4 by adamgiebl — https://uiverse.io/adamgiebl/new-lionfish-4 */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 20px;\n  padding: 5px;\n  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;\n  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);\n}\n\n.card__content {\n  background: rgb(5, 6, 45);\n  border-radius: 17px;\n  width: 100%;\n  height: 100%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>New Lionfish 4</title>\n<style>\n/* New Lionfish 4 by adamgiebl — https://uiverse.io/adamgiebl/new-lionfish-4 */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 20px;\n  padding: 5px;\n  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;\n  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);\n}\n\n.card__content {\n  background: rgb(5, 6, 45);\n  border-radius: 17px;\n  width: 100%;\n  height: 100%;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n<div class=\"card__content\">\n</div></div>\n\n</body>\n</html>\n"
 }

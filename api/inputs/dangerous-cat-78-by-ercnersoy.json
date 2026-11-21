@@ -5,14 +5,24 @@
  "author": "ercnersoy",
  "source": "https://uiverse.io/ercnersoy/dangerous-cat-78",
  "trigger": "focus",
- "description": "A input with neumorphism styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Rounded white text input that lights up when focused.",
+ "howItWorks": "On focus, outline-color becomes #e8e8e8, background changes from #e8e8e8 to #e8e8e8, box-shadow becomes inset 20px 20px 60px #c5c5c5,\n\t\tinset -20px -20px 60px #ffffff.",
  "tags": [
+  "rounded",
+  "text-input",
   "neumorphism",
   "input",
   "focus"
  ],
- "html": "<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type here...\">",
- "css": "/* From Uiverse.io by ercnersoy - Tags: neumorphism, input */\n.input {\n border: none;\n padding: 1rem;\n border-radius: 1rem;\n background: #e8e8e8;\n box-shadow: 20px 20px 60px #c5c5c5,\n\t\t-20px -20px 60px #ffffff;\n transition: 0.3s;\n}\n\n.input:focus {\n outline-color: #e8e8e8;\n background: #e8e8e8;\n box-shadow: inset 20px 20px 60px #c5c5c5,\n\t\tinset -20px -20px 60px #ffffff;\n transition: 0.3s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dangerous Cat 78</title>\n<style>\n/* From Uiverse.io by ercnersoy - https://uiverse.io/ercnersoy/dangerous-cat-78 */\n/* From Uiverse.io by ercnersoy - Tags: neumorphism, input */\n.input {\n border: none;\n padding: 1rem;\n border-radius: 1rem;\n background: #e8e8e8;\n box-shadow: 20px 20px 60px #c5c5c5,\n\t\t-20px -20px 60px #ffffff;\n transition: 0.3s;\n}\n\n.input:focus {\n outline-color: #e8e8e8;\n background: #e8e8e8;\n box-shadow: inset 20px 20px 60px #c5c5c5,\n\t\tinset -20px -20px 60px #ffffff;\n transition: 0.3s;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type here...\">\n</body>\n</html>\n"
+ "colors": [
+  "#e8e8e8",
+  "#c5c5c5",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 176,
+ "size": 705,
+ "html": "<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type here...\">\n",
+ "css": "/* Dangerous Cat 78 by ercnersoy — https://uiverse.io/ercnersoy/dangerous-cat-78 */\n.input {\n border: none;\n padding: 1rem;\n border-radius: 1rem;\n background: #e8e8e8;\n box-shadow: 20px 20px 60px #c5c5c5,\n\t\t-20px -20px 60px #ffffff;\n transition: 0.3s;\n}\n\n.input:focus {\n outline-color: #e8e8e8;\n background: #e8e8e8;\n box-shadow: inset 20px 20px 60px #c5c5c5,\n\t\tinset -20px -20px 60px #ffffff;\n transition: 0.3s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dangerous Cat 78</title>\n<style>\n/* Dangerous Cat 78 by ercnersoy — https://uiverse.io/ercnersoy/dangerous-cat-78 */\n.input {\n border: none;\n padding: 1rem;\n border-radius: 1rem;\n background: #e8e8e8;\n box-shadow: 20px 20px 60px #c5c5c5,\n\t\t-20px -20px 60px #ffffff;\n transition: 0.3s;\n}\n\n.input:focus {\n outline-color: #e8e8e8;\n background: #e8e8e8;\n box-shadow: inset 20px 20px 60px #c5c5c5,\n\t\tinset -20px -20px 60px #ffffff;\n transition: 0.3s;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type here...\">\n\n</body>\n</html>\n"
 }

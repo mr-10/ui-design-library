@@ -5,17 +5,24 @@
  "author": "BadlyWrittenStylesheet",
  "source": "https://uiverse.io/BadlyWrittenStylesheet/fluffy-bear-71",
  "trigger": "static",
- "description": "A pattern with simple, gradient and modern styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient black pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
   "gradient",
+  "flat",
+  "pattern",
+  "simple",
   "modern",
-  "lightdark",
-  "clean",
-  "pattern"
+  "lightdark"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by BadlyWrittenStylesheet  - Tags: simple, gradient, modern, light&dark, clean, pattern */\n.container {\n  --bg: radial-gradient(#000 5%, #0000 6%);\n  --size: 3rem;\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  /* background-color: lightblue; */\n  background-image: radial-gradient(#000 5%, #0000 6%),\n    radial-gradient(#000 5%, #0000 6%);\n  background-position: 0 0, calc(var(--size) / 2) calc(var(--size) / 2);\n  background-size: var(--size) var(--size);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Bear 71</title>\n<style>\n/* From Uiverse.io by BadlyWrittenStylesheet - https://uiverse.io/BadlyWrittenStylesheet/fluffy-bear-71 */\n/* From Uiverse.io by BadlyWrittenStylesheet  - Tags: simple, gradient, modern, light&dark, clean, pattern */\n.container {\n  --bg: radial-gradient(#000 5%, #0000 6%);\n  --size: 3rem;\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  /* background-color: lightblue; */\n  background-image: radial-gradient(#000 5%, #0000 6%),\n    radial-gradient(#000 5%, #0000 6%);\n  background-position: 0 0, calc(var(--size) / 2) calc(var(--size) / 2);\n  background-size: var(--size) var(--size);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 167,
+ "size": 671,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Fluffy Bear 71 by BadlyWrittenStylesheet — https://uiverse.io/BadlyWrittenStylesheet/fluffy-bear-71 */\n.container {\n  --bg: radial-gradient(#000 5%, #0000 6%);\n  --size: 3rem;\n  width: 100%;\n  height: 100%;\n\n  background-image: radial-gradient(#000 5%, #0000 6%),\n    radial-gradient(#000 5%, #0000 6%);\n  background-position: 0 0, calc(var(--size) / 2) calc(var(--size) / 2);\n  background-size: var(--size) var(--size);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Bear 71</title>\n<style>\n/* Fluffy Bear 71 by BadlyWrittenStylesheet — https://uiverse.io/BadlyWrittenStylesheet/fluffy-bear-71 */\n.container {\n  --bg: radial-gradient(#000 5%, #0000 6%);\n  --size: 3rem;\n  width: 100%;\n  height: 100%;\n\n  background-image: radial-gradient(#000 5%, #0000 6%),\n    radial-gradient(#000 5%, #0000 6%);\n  background-position: 0 0, calc(var(--size) / 2) calc(var(--size) / 2);\n  background-size: var(--size) var(--size);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

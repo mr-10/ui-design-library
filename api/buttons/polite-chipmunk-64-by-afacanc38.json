@@ -5,17 +5,25 @@
  "author": "Afacanc38",
  "source": "https://uiverse.io/Afacanc38/polite-chipmunk-64",
  "trigger": "hover",
- "description": "A button with skeuomorphism, minimalist and black styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gray button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, background changes from #424242 to #353535, box-shadow becomes 0 1px 0 0 #ffffff inset,\n    0 0 0 1px #000000,\n    0 -1px 0 0 #000000 inset,\n    0 1px 2px 1px #000000, border becomes none. On focus, background changes from #424242 to #353535, box-shadow becomes 0 1px 0 0 #ffffff inset,\n    0 0 0 1px #000000,\n    0 -1px 0 0 #000000 inset,\n    0 1px 2px 1px #000000, border becomes none.",
  "tags": [
+  "glow",
+  "color-change",
   "skeuomorphism",
   "minimalist",
   "black",
-  "button",
-  "dark",
-  "cool-btn"
+  "button"
  ],
- "html": "<button class=\"button\">\n  Button\n</button>",
- "css": "/* From Uiverse.io by Afacanc38 - Tags: skeuomorphism, minimalist, black, button, dark, cool btn */\n.button {\n  padding: 12px 24px;\n  border: none;\n  border-radius: 2px;\n  background: #424242;\n  color: white;\n  box-shadow: 0 1px 0 0 rgba(255, 255, 255, .1) inset,\n    0 0 0 1px rgba(0, 0, 0, .7),\n    0 -1px 0 0 rgba(0, 0, 0, .7) inset,\n    0 1px 2px 1px rgba(0, 0, 0, .6);\n  cursor: pointer;\n  transition: 50ms ease-out;\n  font-weight: 600;\n}\n\n.button:hover, .button:focus, .button:focus-visible {\n  background: #353535;\n  box-shadow: 0 1px 0 0 rgba(255, 255, 255, .05) inset,\n    0 0 0 1px rgba(0, 0, 0, .7),\n    0 -1px 0 0 rgba(0, 0, 0, .7) inset,\n    0 1px 2px 1px rgba(0, 0, 0, .6);\n  border: none;\n  outline: none;\n}\n\n.button:active {\n  background: #181818;\n  box-shadow: 0 0 0 1px rgba(0, 0, 0, .7) inset,\n    0 1px 0 0 rgba(255, 255, 255, .05),\n    0 1px 2px 1px rgba(0, 0, 0, .6) inset;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Chipmunk 64</title>\n<style>\n/* From Uiverse.io by Afacanc38 - https://uiverse.io/Afacanc38/polite-chipmunk-64 */\n/* From Uiverse.io by Afacanc38 - Tags: skeuomorphism, minimalist, black, button, dark, cool btn */\n.button {\n  padding: 12px 24px;\n  border: none;\n  border-radius: 2px;\n  background: #424242;\n  color: white;\n  box-shadow: 0 1px 0 0 rgba(255, 255, 255, .1) inset,\n    0 0 0 1px rgba(0, 0, 0, .7),\n    0 -1px 0 0 rgba(0, 0, 0, .7) inset,\n    0 1px 2px 1px rgba(0, 0, 0, .6);\n  cursor: pointer;\n  transition: 50ms ease-out;\n  font-weight: 600;\n}\n\n.button:hover, .button:focus, .button:focus-visible {\n  background: #353535;\n  box-shadow: 0 1px 0 0 rgba(255, 255, 255, .05) inset,\n    0 0 0 1px rgba(0, 0, 0, .7),\n    0 -1px 0 0 rgba(0, 0, 0, .7) inset,\n    0 1px 2px 1px rgba(0, 0, 0, .6);\n  border: none;\n  outline: none;\n}\n\n.button:active {\n  background: #181818;\n  box-shadow: 0 0 0 1px rgba(0, 0, 0, .7) inset,\n    0 1px 0 0 rgba(255, 255, 255, .05),\n    0 1px 2px 1px rgba(0, 0, 0, .6) inset;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#424242",
+  "#353535",
+  "#181818"
+ ],
+ "fonts": [],
+ "tokens": 286,
+ "size": 1148,
+ "html": "<button class=\"button\">\n  Button\n</button>\n",
+ "css": "/* Polite Chipmunk 64 by Afacanc38 — https://uiverse.io/Afacanc38/polite-chipmunk-64 */\n.button {\n  padding: 12px 24px;\n  border: none;\n  border-radius: 2px;\n  background: #424242;\n  color: white;\n  box-shadow: 0 1px 0 0 rgba(255, 255, 255, .1) inset,\n    0 0 0 1px rgba(0, 0, 0, .7),\n    0 -1px 0 0 rgba(0, 0, 0, .7) inset,\n    0 1px 2px 1px rgba(0, 0, 0, .6);\n  cursor: pointer;\n  transition: 50ms ease-out;\n  font-weight: 600;\n}\n\n.button:hover, .button:focus, .button:focus-visible {\n  background: #353535;\n  box-shadow: 0 1px 0 0 rgba(255, 255, 255, .05) inset,\n    0 0 0 1px rgba(0, 0, 0, .7),\n    0 -1px 0 0 rgba(0, 0, 0, .7) inset,\n    0 1px 2px 1px rgba(0, 0, 0, .6);\n  border: none;\n  outline: none;\n}\n\n.button:active {\n  background: #181818;\n  box-shadow: 0 0 0 1px rgba(0, 0, 0, .7) inset,\n    0 1px 0 0 rgba(255, 255, 255, .05),\n    0 1px 2px 1px rgba(0, 0, 0, .6) inset;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Chipmunk 64</title>\n<style>\n/* Polite Chipmunk 64 by Afacanc38 — https://uiverse.io/Afacanc38/polite-chipmunk-64 */\n.button {\n  padding: 12px 24px;\n  border: none;\n  border-radius: 2px;\n  background: #424242;\n  color: white;\n  box-shadow: 0 1px 0 0 rgba(255, 255, 255, .1) inset,\n    0 0 0 1px rgba(0, 0, 0, .7),\n    0 -1px 0 0 rgba(0, 0, 0, .7) inset,\n    0 1px 2px 1px rgba(0, 0, 0, .6);\n  cursor: pointer;\n  transition: 50ms ease-out;\n  font-weight: 600;\n}\n\n.button:hover, .button:focus, .button:focus-visible {\n  background: #353535;\n  box-shadow: 0 1px 0 0 rgba(255, 255, 255, .05) inset,\n    0 0 0 1px rgba(0, 0, 0, .7),\n    0 -1px 0 0 rgba(0, 0, 0, .7) inset,\n    0 1px 2px 1px rgba(0, 0, 0, .6);\n  border: none;\n  outline: none;\n}\n\n.button:active {\n  background: #181818;\n  box-shadow: 0 0 0 1px rgba(0, 0, 0, .7) inset,\n    0 1px 0 0 rgba(255, 255, 255, .05),\n    0 1px 2px 1px rgba(0, 0, 0, .6) inset;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

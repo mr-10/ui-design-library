@@ -5,14 +5,24 @@
  "author": "NabeelAhmadK",
  "source": "https://uiverse.io/NabeelAhmadK/fat-fox-21",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded sky-blue button that changes colour on hover.",
+ "howItWorks": "On hover, text color changes from #334b79 to #ffffff, top becomes 0, left becomes 0.",
  "tags": [
+  "blue",
+  "rounded",
+  "flat",
+  "color-change",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button>\n    Button\n</button>",
- "css": "/* From Uiverse.io by NabeelAhmadK - Tags: button */\nbutton {\n  width: fit-content;\n  height: 45px;\n  background: #ffffff0d;\n  border-radius: 8px;\n  border: 2px solid #334b79;\n  font-size: 15px;\n  font-weight: bold;\n  color: #334b79;\n  -webkit-transition: 0.5s all ease;\n  transition: 0.5s all ease;\n  position: relative;\n  overflow: hidden;\n  padding: 10px 25px;\n  z-index: 1;\n}\n\nbutton:before {\n  width: 50%;\n  height: 100%;\n  content: \"\";\n  margin: auto;\n  position: absolute;\n  top: 0%;\n  left: -50%;\n  background: #334b79;\n  transition: all 0.5s ease;\n  z-index: -1;\n}\n\nbutton:after {\n  width: 50%;\n  height: 100%;\n  content: \"\";\n  margin: auto;\n  position: absolute;\n  top: 0%;\n  left: 100%;\n  background: #334b79;\n  transition: all 0.5s ease;\n  z-index: -1;\n}\n\nbutton:hover {\n  color: white;\n  cursor: pointer;\n}\n\nbutton:hover:before {\n  top: 0;\n  left: 0;\n}\n\nbutton:hover:after {\n  top: 0;\n  left: 50%;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Fox 21</title>\n<style>\n/* From Uiverse.io by NabeelAhmadK - https://uiverse.io/NabeelAhmadK/fat-fox-21 */\n/* From Uiverse.io by NabeelAhmadK - Tags: button */\nbutton {\n  width: fit-content;\n  height: 45px;\n  background: #ffffff0d;\n  border-radius: 8px;\n  border: 2px solid #334b79;\n  font-size: 15px;\n  font-weight: bold;\n  color: #334b79;\n  -webkit-transition: 0.5s all ease;\n  transition: 0.5s all ease;\n  position: relative;\n  overflow: hidden;\n  padding: 10px 25px;\n  z-index: 1;\n}\n\nbutton:before {\n  width: 50%;\n  height: 100%;\n  content: \"\";\n  margin: auto;\n  position: absolute;\n  top: 0%;\n  left: -50%;\n  background: #334b79;\n  transition: all 0.5s ease;\n  z-index: -1;\n}\n\nbutton:after {\n  width: 50%;\n  height: 100%;\n  content: \"\";\n  margin: auto;\n  position: absolute;\n  top: 0%;\n  left: 100%;\n  background: #334b79;\n  transition: all 0.5s ease;\n  z-index: -1;\n}\n\nbutton:hover {\n  color: white;\n  cursor: pointer;\n}\n\nbutton:hover:before {\n  top: 0;\n  left: 0;\n}\n\nbutton:hover:after {\n  top: 0;\n  left: 50%;\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#334b79",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 294,
+ "size": 1179,
+ "html": "<button>\n    Button\n</button>\n",
+ "css": "/* Fat Fox 21 by NabeelAhmadK — https://uiverse.io/NabeelAhmadK/fat-fox-21 */\nbutton {\n  width: fit-content;\n  height: 45px;\n  background: #ffffff0d;\n  border-radius: 8px;\n  border: 2px solid #334b79;\n  font-size: 15px;\n  font-weight: bold;\n  color: #334b79;\n  -webkit-transition: 0.5s all ease;\n  transition: 0.5s all ease;\n  position: relative;\n  overflow: hidden;\n  padding: 10px 25px;\n  z-index: 1;\n}\n\nbutton:before {\n  width: 50%;\n  height: 100%;\n  content: \"\";\n  margin: auto;\n  position: absolute;\n  top: 0%;\n  left: -50%;\n  background: #334b79;\n  transition: all 0.5s ease;\n  z-index: -1;\n}\n\nbutton:after {\n  width: 50%;\n  height: 100%;\n  content: \"\";\n  margin: auto;\n  position: absolute;\n  top: 0%;\n  left: 100%;\n  background: #334b79;\n  transition: all 0.5s ease;\n  z-index: -1;\n}\n\nbutton:hover {\n  color: white;\n  cursor: pointer;\n}\n\nbutton:hover:before {\n  top: 0;\n  left: 0;\n}\n\nbutton:hover:after {\n  top: 0;\n  left: 50%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Fox 21</title>\n<style>\n/* Fat Fox 21 by NabeelAhmadK — https://uiverse.io/NabeelAhmadK/fat-fox-21 */\nbutton {\n  width: fit-content;\n  height: 45px;\n  background: #ffffff0d;\n  border-radius: 8px;\n  border: 2px solid #334b79;\n  font-size: 15px;\n  font-weight: bold;\n  color: #334b79;\n  -webkit-transition: 0.5s all ease;\n  transition: 0.5s all ease;\n  position: relative;\n  overflow: hidden;\n  padding: 10px 25px;\n  z-index: 1;\n}\n\nbutton:before {\n  width: 50%;\n  height: 100%;\n  content: \"\";\n  margin: auto;\n  position: absolute;\n  top: 0%;\n  left: -50%;\n  background: #334b79;\n  transition: all 0.5s ease;\n  z-index: -1;\n}\n\nbutton:after {\n  width: 50%;\n  height: 100%;\n  content: \"\";\n  margin: auto;\n  position: absolute;\n  top: 0%;\n  left: 100%;\n  background: #334b79;\n  transition: all 0.5s ease;\n  z-index: -1;\n}\n\nbutton:hover {\n  color: white;\n  cursor: pointer;\n}\n\nbutton:hover:before {\n  top: 0;\n  left: 0;\n}\n\nbutton:hover:after {\n  top: 0;\n  left: 50%;\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,16 +5,25 @@
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/wicked-skunk-52",
  "trigger": "hover",
- "description": "A card with twitter, white-card and round-card styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded white card that changes colour on hover.",
+ "howItWorks": "On hover, background-color changes from #0f1419 to #272C30.",
  "tags": [
-  "twitter",
-  "card",
-  "white-card",
-  "round-card",
-  "hover"
+  "rounded",
+  "flat",
+  "color-change",
+  "newsletter",
+  "share",
+  "twitter"
  ],
- "html": "<div class=\"card\">\n  <span class=\"card__title\">Subscribe to Premium</span>\n  <p class=\"card__text\">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>\n  <button class=\"card__button\">Subscribe</button>\n</div>",
- "css": "/* From Uiverse.io by Javierrocadev - Source: twitter.com - Tags: twitter, card, white card, round card */\n.card {\n  width: 350px;\n  height: 160px;\n  background: #f7f9f9;\n  padding: 10px;\n  border-radius: 16px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  align-items: flex-start;\n}\n\n.card__title {\n  font-size: 1.4em;\n  font-weight: 800;\n}\n\n.card__text {\n  font-weight: 500;\n}\n\n.card__button {\n  cursor: pointer;\n  background-color: rgb(15, 20, 25);\n  color: #f7f9f9;\n  font-size: 1.15em;\n  border: none;\n  padding: 5px 15px;\n  border-radius: 15px;\n}\n\n.card__button:hover {\n  background-color: #272C30;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wicked Skunk 52</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/wicked-skunk-52 */\n/* From Uiverse.io by Javierrocadev - Source: twitter.com - Tags: twitter, card, white card, round card */\n.card {\n  width: 350px;\n  height: 160px;\n  background: #f7f9f9;\n  padding: 10px;\n  border-radius: 16px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  align-items: flex-start;\n}\n\n.card__title {\n  font-size: 1.4em;\n  font-weight: 800;\n}\n\n.card__text {\n  font-weight: 500;\n}\n\n.card__button {\n  cursor: pointer;\n  background-color: rgb(15, 20, 25);\n  color: #f7f9f9;\n  font-size: 1.15em;\n  border: none;\n  padding: 5px 15px;\n  border-radius: 15px;\n}\n\n.card__button:hover {\n  background-color: #272C30;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <span class=\"card__title\">Subscribe to Premium</span>\n  <p class=\"card__text\">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>\n  <button class=\"card__button\">Subscribe</button>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#f7f9f9",
+  "#0f1419",
+  "#272c30"
+ ],
+ "fonts": [],
+ "tokens": 270,
+ "size": 1080,
+ "html": "<div class=\"card\">\n  <span class=\"card__title\">Subscribe to Premium</span>\n  <p class=\"card__text\">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>\n  <button class=\"card__button\">Subscribe</button>\n</div>\n",
+ "css": "/* Wicked Skunk 52 by Javierrocadev — https://uiverse.io/Javierrocadev/wicked-skunk-52 */\n.card {\n  width: 350px;\n  height: 160px;\n  background: #f7f9f9;\n  padding: 10px;\n  border-radius: 16px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  align-items: flex-start;\n}\n\n.card__title {\n  font-size: 1.4em;\n  font-weight: 800;\n}\n\n.card__text {\n  font-weight: 500;\n}\n\n.card__button {\n  cursor: pointer;\n  background-color: rgb(15, 20, 25);\n  color: #f7f9f9;\n  font-size: 1.15em;\n  border: none;\n  padding: 5px 15px;\n  border-radius: 15px;\n}\n\n.card__button:hover {\n  background-color: #272C30;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wicked Skunk 52</title>\n<style>\n/* Wicked Skunk 52 by Javierrocadev — https://uiverse.io/Javierrocadev/wicked-skunk-52 */\n.card {\n  width: 350px;\n  height: 160px;\n  background: #f7f9f9;\n  padding: 10px;\n  border-radius: 16px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  align-items: flex-start;\n}\n\n.card__title {\n  font-size: 1.4em;\n  font-weight: 800;\n}\n\n.card__text {\n  font-weight: 500;\n}\n\n.card__button {\n  cursor: pointer;\n  background-color: rgb(15, 20, 25);\n  color: #f7f9f9;\n  font-size: 1.15em;\n  border: none;\n  padding: 5px 15px;\n  border-radius: 15px;\n}\n\n.card__button:hover {\n  background-color: #272C30;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <span class=\"card__title\">Subscribe to Premium</span>\n  <p class=\"card__text\">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>\n  <button class=\"card__button\">Subscribe</button>\n</div>\n\n</body>\n</html>\n"
 }

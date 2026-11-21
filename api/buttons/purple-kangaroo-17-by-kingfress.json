@@ -5,14 +5,27 @@
  "author": "KINGFRESS",
  "source": "https://uiverse.io/KINGFRESS/purple-kangaroo-17",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark pill sky-blue submit button that scales up on hover.",
+ "howItWorks": "On hover, transform becomes translate(-50%, -50%) scale(4).",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "blue",
+  "dark",
+  "rounded",
+  "pill",
+  "flat",
+  "scale"
  ],
- "html": "<button>\n    <span class=\"circle1\"></span>\n    <span class=\"circle2\"></span>\n    <span class=\"circle3\"></span>\n    <span class=\"circle4\"></span>\n    <span class=\"circle5\"></span>\n    <span class=\"text\">Submit</span>\n</button>",
- "css": "/* From Uiverse.io by KINGFRESS - Tags: button */\nbutton {\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: white;\n  background-color: #171717;\n  padding: 1em 2em;\n  border: none;\n  border-radius: .6rem;\n  position: relative;\n  cursor: pointer;\n  overflow: hidden;\n}\n\nbutton span:not(:nth-child(6)) {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  height: 30px;\n  width: 30px;\n  background-color: #0c66ed;\n  border-radius: 50%;\n  transition: .6s ease;\n}\n\nbutton span:nth-child(6) {\n  position: relative;\n}\n\nbutton span:nth-child(1) {\n  transform: translate(-3.3em, -4em);\n}\n\nbutton span:nth-child(2) {\n  transform: translate(-6em, 1.3em);\n}\n\nbutton span:nth-child(3) {\n  transform: translate(-.2em, 1.8em);\n}\n\nbutton span:nth-child(4) {\n  transform: translate(3.5em, 1.4em);\n}\n\nbutton span:nth-child(5) {\n  transform: translate(3.5em, -3.8em);\n}\n\nbutton:hover span:not(:nth-child(6)) {\n  transform: translate(-50%, -50%) scale(4);\n  transition: 1.5s ease;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Kangaroo 17</title>\n<style>\n/* From Uiverse.io by KINGFRESS - https://uiverse.io/KINGFRESS/purple-kangaroo-17 */\n/* From Uiverse.io by KINGFRESS - Tags: button */\nbutton {\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: white;\n  background-color: #171717;\n  padding: 1em 2em;\n  border: none;\n  border-radius: .6rem;\n  position: relative;\n  cursor: pointer;\n  overflow: hidden;\n}\n\nbutton span:not(:nth-child(6)) {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  height: 30px;\n  width: 30px;\n  background-color: #0c66ed;\n  border-radius: 50%;\n  transition: .6s ease;\n}\n\nbutton span:nth-child(6) {\n  position: relative;\n}\n\nbutton span:nth-child(1) {\n  transform: translate(-3.3em, -4em);\n}\n\nbutton span:nth-child(2) {\n  transform: translate(-6em, 1.3em);\n}\n\nbutton span:nth-child(3) {\n  transform: translate(-.2em, 1.8em);\n}\n\nbutton span:nth-child(4) {\n  transform: translate(3.5em, 1.4em);\n}\n\nbutton span:nth-child(5) {\n  transform: translate(3.5em, -3.8em);\n}\n\nbutton:hover span:not(:nth-child(6)) {\n  transform: translate(-50%, -50%) scale(4);\n  transition: 1.5s ease;\n}\n</style>\n</head>\n<body>\n<button>\n    <span class=\"circle1\"></span>\n    <span class=\"circle2\"></span>\n    <span class=\"circle3\"></span>\n    <span class=\"circle4\"></span>\n    <span class=\"circle5\"></span>\n    <span class=\"text\">Submit</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#171717",
+  "#0c66ed",
+  "#ffffff"
+ ],
+ "fonts": [
+  "Arial"
+ ],
+ "tokens": 376,
+ "size": 1505,
+ "html": "<button>\n    <span class=\"circle1\"></span>\n    <span class=\"circle2\"></span>\n    <span class=\"circle3\"></span>\n    <span class=\"circle4\"></span>\n    <span class=\"circle5\"></span>\n    <span class=\"text\">Submit</span>\n</button>\n",
+ "css": "/* Purple Kangaroo 17 by KINGFRESS — https://uiverse.io/KINGFRESS/purple-kangaroo-17 */\nbutton {\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: white;\n  background-color: #171717;\n  padding: 1em 2em;\n  border: none;\n  border-radius: .6rem;\n  position: relative;\n  cursor: pointer;\n  overflow: hidden;\n}\n\nbutton span:not(:nth-child(6)) {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  height: 30px;\n  width: 30px;\n  background-color: #0c66ed;\n  border-radius: 50%;\n  transition: .6s ease;\n}\n\nbutton span:nth-child(6) {\n  position: relative;\n}\n\nbutton span:nth-child(1) {\n  transform: translate(-3.3em, -4em);\n}\n\nbutton span:nth-child(2) {\n  transform: translate(-6em, 1.3em);\n}\n\nbutton span:nth-child(3) {\n  transform: translate(-.2em, 1.8em);\n}\n\nbutton span:nth-child(4) {\n  transform: translate(3.5em, 1.4em);\n}\n\nbutton span:nth-child(5) {\n  transform: translate(3.5em, -3.8em);\n}\n\nbutton:hover span:not(:nth-child(6)) {\n  transform: translate(-50%, -50%) scale(4);\n  transition: 1.5s ease;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Kangaroo 17</title>\n<style>\n/* Purple Kangaroo 17 by KINGFRESS — https://uiverse.io/KINGFRESS/purple-kangaroo-17 */\nbutton {\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: white;\n  background-color: #171717;\n  padding: 1em 2em;\n  border: none;\n  border-radius: .6rem;\n  position: relative;\n  cursor: pointer;\n  overflow: hidden;\n}\n\nbutton span:not(:nth-child(6)) {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  height: 30px;\n  width: 30px;\n  background-color: #0c66ed;\n  border-radius: 50%;\n  transition: .6s ease;\n}\n\nbutton span:nth-child(6) {\n  position: relative;\n}\n\nbutton span:nth-child(1) {\n  transform: translate(-3.3em, -4em);\n}\n\nbutton span:nth-child(2) {\n  transform: translate(-6em, 1.3em);\n}\n\nbutton span:nth-child(3) {\n  transform: translate(-.2em, 1.8em);\n}\n\nbutton span:nth-child(4) {\n  transform: translate(3.5em, 1.4em);\n}\n\nbutton span:nth-child(5) {\n  transform: translate(3.5em, -3.8em);\n}\n\nbutton:hover span:not(:nth-child(6)) {\n  transform: translate(-50%, -50%) scale(4);\n  transition: 1.5s ease;\n}\n</style>\n</head>\n<body>\n<button>\n    <span class=\"circle1\"></span>\n    <span class=\"circle2\"></span>\n    <span class=\"circle3\"></span>\n    <span class=\"circle4\"></span>\n    <span class=\"circle5\"></span>\n    <span class=\"text\">Submit</span>\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,25 @@
  "author": "praveen-prasad2",
  "source": "https://uiverse.io/praveen-prasad2/jolly-moose-71",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient dark green button that starts animating on hover.",
+ "howItWorks": "On hover, starts the animate_border animation (sliding).",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "green",
+  "amber",
+  "gradient",
+  "dark",
+  "flat",
+  "animated"
  ],
- "html": "<button class=\"button\">\n  <span>Explore </span>\n</button>",
- "css": "/* From Uiverse.io by praveen-prasad2 - Tags: button */\n.button {\n  position: relative;\n  display: inline-block;\n  text-decoration: none;\n  color: #fff;\n  padding: 3px;\n  border-radius: 6px;\n  overflow: hidden;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 200%;\n  height: 100%;\n  background: linear-gradient(115deg,\n        #4fcf70, #fad648, \n        #a767e5,#12bcfe, \n        #44ce7b);\n  background-size: 50% 100%;\n  border-radius: inherit;\n}\n\n.button:hover::before {\n  animation: animate_border .75s\n        linear infinite;\n}\n\n.button span {\n  position: relative;\n  z-index: 2;\n  display: block;\n  background-color: #000;\n  padding: 13px 20px;\n  border-radius: 3px;\n}\n\n@keyframes animate_border {\n  to {\n    transform: translateX(-50%)\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Jolly Moose 71</title>\n<style>\n/* From Uiverse.io by praveen-prasad2 - https://uiverse.io/praveen-prasad2/jolly-moose-71 */\n/* From Uiverse.io by praveen-prasad2 - Tags: button */\n.button {\n  position: relative;\n  display: inline-block;\n  text-decoration: none;\n  color: #fff;\n  padding: 3px;\n  border-radius: 6px;\n  overflow: hidden;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 200%;\n  height: 100%;\n  background: linear-gradient(115deg,\n        #4fcf70, #fad648, \n        #a767e5,#12bcfe, \n        #44ce7b);\n  background-size: 50% 100%;\n  border-radius: inherit;\n}\n\n.button:hover::before {\n  animation: animate_border .75s\n        linear infinite;\n}\n\n.button span {\n  position: relative;\n  z-index: 2;\n  display: block;\n  background-color: #000;\n  padding: 13px 20px;\n  border-radius: 3px;\n}\n\n@keyframes animate_border {\n  to {\n    transform: translateX(-50%)\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <span>Explore </span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#4fcf70",
+  "#fad648",
+  "#a767e5"
+ ],
+ "fonts": [],
+ "tokens": 273,
+ "size": 1095,
+ "html": "<button class=\"button\">\n  <span>Explore </span>\n</button>\n",
+ "css": "/* Jolly Moose 71 by praveen-prasad2 — https://uiverse.io/praveen-prasad2/jolly-moose-71 */\n.button {\n  position: relative;\n  display: inline-block;\n  text-decoration: none;\n  color: #fff;\n  padding: 3px;\n  border-radius: 6px;\n  overflow: hidden;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 200%;\n  height: 100%;\n  background: linear-gradient(115deg,\n        #4fcf70, #fad648,\n        #a767e5,#12bcfe,\n        #44ce7b);\n  background-size: 50% 100%;\n  border-radius: inherit;\n}\n\n.button:hover::before {\n  animation: animate_border .75s\n        linear infinite;\n}\n\n.button span {\n  position: relative;\n  z-index: 2;\n  display: block;\n  background-color: #000;\n  padding: 13px 20px;\n  border-radius: 3px;\n}\n\n@keyframes animate_border {\n  to {\n    transform: translateX(-50%)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Jolly Moose 71</title>\n<style>\n/* Jolly Moose 71 by praveen-prasad2 — https://uiverse.io/praveen-prasad2/jolly-moose-71 */\n.button {\n  position: relative;\n  display: inline-block;\n  text-decoration: none;\n  color: #fff;\n  padding: 3px;\n  border-radius: 6px;\n  overflow: hidden;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 200%;\n  height: 100%;\n  background: linear-gradient(115deg,\n        #4fcf70, #fad648,\n        #a767e5,#12bcfe,\n        #44ce7b);\n  background-size: 50% 100%;\n  border-radius: inherit;\n}\n\n.button:hover::before {\n  animation: animate_border .75s\n        linear infinite;\n}\n\n.button span {\n  position: relative;\n  z-index: 2;\n  display: block;\n  background-color: #000;\n  padding: 13px 20px;\n  border-radius: 3px;\n}\n\n@keyframes animate_border {\n  to {\n    transform: translateX(-50%)\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <span>Explore </span>\n</button>\n\n</body>\n</html>\n"
 }

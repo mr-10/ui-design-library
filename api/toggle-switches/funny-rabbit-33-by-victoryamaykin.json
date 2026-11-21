@@ -5,14 +5,27 @@
  "author": "victoryamaykin",
  "source": "https://uiverse.io/victoryamaykin/funny-rabbit-33",
  "trigger": "checked",
- "description": "A toggle switch with switch styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Neon pill sky-blue toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: background-color changes from #3C3C3C to #0E6EB8, transform becomes translateX(85px). On focus, box-shadow becomes 0 0 1px #2196F3.",
  "tags": [
-  "switch",
-  "toggle-switches",
-  "checked"
+  "blue",
+  "neon",
+  "rounded",
+  "pill",
+  "toggle-switch",
+  "switch"
  ],
- "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>",
- "css": "/* From Uiverse.io by victoryamaykin - Tags: switch */\n.switch {\n position: relative;\n display: inline-block;\n width: 120px;\n height: 34px;\n}\n\n.switch input {\n display: none;\n}\n\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background-color: #3C3C3C;\n -webkit-transition: .4s;\n transition: .4s;\n border-radius: 34px;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 26px;\n width: 26px;\n left: 4px;\n bottom: 4px;\n background-color: white;\n -webkit-transition: .4s;\n transition: .4s;\n border-radius: 50%;\n}\n\ninput:checked + .slider {\n background-color: #0E6EB8;\n}\n\ninput:focus + .slider {\n box-shadow: 0 0 1px #2196F3;\n}\n\ninput:checked + .slider:before {\n -webkit-transform: translateX(26px);\n -ms-transform: translateX(26px);\n transform: translateX(85px);\n}\n\n/*------ ADDED CSS ---------*/\n.slider:after {\n content: 'DISABLED';\n color: white;\n display: block;\n position: absolute;\n transform: translate(-50%,-50%);\n top: 50%;\n left: 50%;\n font-size: 10px;\n font-family: Verdana, sans-serif;\n}\n\ninput:checked + .slider:after {\n content: 'ENABLED';\n}\n\n/*--------- END --------*/\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Funny Rabbit 33</title>\n<style>\n/* From Uiverse.io by victoryamaykin - https://uiverse.io/victoryamaykin/funny-rabbit-33 */\n/* From Uiverse.io by victoryamaykin - Tags: switch */\n.switch {\n position: relative;\n display: inline-block;\n width: 120px;\n height: 34px;\n}\n\n.switch input {\n display: none;\n}\n\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background-color: #3C3C3C;\n -webkit-transition: .4s;\n transition: .4s;\n border-radius: 34px;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 26px;\n width: 26px;\n left: 4px;\n bottom: 4px;\n background-color: white;\n -webkit-transition: .4s;\n transition: .4s;\n border-radius: 50%;\n}\n\ninput:checked + .slider {\n background-color: #0E6EB8;\n}\n\ninput:focus + .slider {\n box-shadow: 0 0 1px #2196F3;\n}\n\ninput:checked + .slider:before {\n -webkit-transform: translateX(26px);\n -ms-transform: translateX(26px);\n transform: translateX(85px);\n}\n\n/*------ ADDED CSS ---------*/\n.slider:after {\n content: 'DISABLED';\n color: white;\n display: block;\n position: absolute;\n transform: translate(-50%,-50%);\n top: 50%;\n left: 50%;\n font-size: 10px;\n font-family: Verdana, sans-serif;\n}\n\ninput:checked + .slider:after {\n content: 'ENABLED';\n}\n\n/*--------- END --------*/\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#3c3c3c",
+  "#0e6eb8",
+  "#2196f3"
+ ],
+ "fonts": [
+  "Verdana"
+ ],
+ "tokens": 354,
+ "size": 1420,
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n",
+ "css": "/* Funny Rabbit 33 by victoryamaykin — https://uiverse.io/victoryamaykin/funny-rabbit-33 */\n.switch {\n position: relative;\n display: inline-block;\n width: 120px;\n height: 34px;\n}\n\n.switch input {\n display: none;\n}\n\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background-color: #3C3C3C;\n -webkit-transition: .4s;\n transition: .4s;\n border-radius: 34px;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 26px;\n width: 26px;\n left: 4px;\n bottom: 4px;\n background-color: white;\n -webkit-transition: .4s;\n transition: .4s;\n border-radius: 50%;\n}\n\ninput:checked + .slider {\n background-color: #0E6EB8;\n}\n\ninput:focus + .slider {\n box-shadow: 0 0 1px #2196F3;\n}\n\ninput:checked + .slider:before {\n -webkit-transform: translateX(26px);\n -ms-transform: translateX(26px);\n transform: translateX(85px);\n}\n\n.slider:after {\n content: 'DISABLED';\n color: white;\n display: block;\n position: absolute;\n transform: translate(-50%,-50%);\n top: 50%;\n left: 50%;\n font-size: 10px;\n font-family: Verdana, sans-serif;\n}\n\ninput:checked + .slider:after {\n content: 'ENABLED';\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Funny Rabbit 33</title>\n<style>\n/* Funny Rabbit 33 by victoryamaykin — https://uiverse.io/victoryamaykin/funny-rabbit-33 */\n.switch {\n position: relative;\n display: inline-block;\n width: 120px;\n height: 34px;\n}\n\n.switch input {\n display: none;\n}\n\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n background-color: #3C3C3C;\n -webkit-transition: .4s;\n transition: .4s;\n border-radius: 34px;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 26px;\n width: 26px;\n left: 4px;\n bottom: 4px;\n background-color: white;\n -webkit-transition: .4s;\n transition: .4s;\n border-radius: 50%;\n}\n\ninput:checked + .slider {\n background-color: #0E6EB8;\n}\n\ninput:focus + .slider {\n box-shadow: 0 0 1px #2196F3;\n}\n\ninput:checked + .slider:before {\n -webkit-transform: translateX(26px);\n -ms-transform: translateX(26px);\n transform: translateX(85px);\n}\n\n.slider:after {\n content: 'DISABLED';\n color: white;\n display: block;\n position: absolute;\n transform: translate(-50%,-50%);\n top: 50%;\n left: 50%;\n font-size: 10px;\n font-family: Verdana, sans-serif;\n}\n\ninput:checked + .slider:after {\n content: 'ENABLED';\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n\n</body>\n</html>\n"
 }

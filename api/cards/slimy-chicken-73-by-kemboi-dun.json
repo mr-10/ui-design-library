@@ -5,15 +5,25 @@
  "author": "Kemboi-Dun",
  "source": "https://uiverse.io/Kemboi-Dun/slimy-chicken-73",
  "trigger": "hover",
- "description": "A card with simple and minimalist styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded gray card that changes colour on hover.",
+ "howItWorks": "On hover, background changes from #e4e3e3da to #f1f1f1.",
  "tags": [
+  "rounded",
+  "color-change",
   "simple",
   "minimalist",
   "card",
   "hover"
  ],
- "html": "<div class=\"card\">\n  <div class=\"card-icon\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-collection\" viewBox=\"0 0 16 16\"> <path d=\"M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z\"></path> </svg>\n  </div>\n  <span class=\"card-body\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n  </span>\n</div>",
- "css": "/* From Uiverse.io by Kemboi-Dun - Tags: simple, minimalist, card, hover */\n.card {\n  width: 300px;\n  height: 300px;\n  background: #e4e3e3da;\n  border-radius: 1em;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  gap: 0.4em;\n  align-items: flex-start;\n  padding: 1em 1.5em;\n  transition: all 0.5s ease;\n  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);\n}\n\n.card:hover {\n  background: #f1f1f1;\n}\n\n.card-icon svg {\n  height: 4rem;\n  width: 4rem;\n}\n\n.card-body {\n  text-align: justify;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slimy Chicken 73</title>\n<style>\n/* From Uiverse.io by Kemboi-Dun - https://uiverse.io/Kemboi-Dun/slimy-chicken-73 */\n/* From Uiverse.io by Kemboi-Dun - Tags: simple, minimalist, card, hover */\n.card {\n  width: 300px;\n  height: 300px;\n  background: #e4e3e3da;\n  border-radius: 1em;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  gap: 0.4em;\n  align-items: flex-start;\n  padding: 1em 1.5em;\n  transition: all 0.5s ease;\n  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);\n}\n\n.card:hover {\n  background: #f1f1f1;\n}\n\n.card-icon svg {\n  height: 4rem;\n  width: 4rem;\n}\n\n.card-body {\n  text-align: justify;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card-icon\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-collection\" viewBox=\"0 0 16 16\"> <path d=\"M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z\"></path> </svg>\n  </div>\n  <span class=\"card-body\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n  </span>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#e4e3e3",
+  "#f1f1f1",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 346,
+ "size": 1384,
+ "html": "<div class=\"card\">\n  <div class=\"card-icon\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-collection\" viewBox=\"0 0 16 16\"> <path d=\"M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z\"></path> </svg>\n  </div>\n  <span class=\"card-body\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n  </span>\n</div>\n",
+ "css": "/* Slimy Chicken 73 by Kemboi-Dun — https://uiverse.io/Kemboi-Dun/slimy-chicken-73 */\n.card {\n  width: 300px;\n  height: 300px;\n  background: #e4e3e3da;\n  border-radius: 1em;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  gap: 0.4em;\n  align-items: flex-start;\n  padding: 1em 1.5em;\n  transition: all 0.5s ease;\n  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);\n}\n\n.card:hover {\n  background: #f1f1f1;\n}\n\n.card-icon svg {\n  height: 4rem;\n  width: 4rem;\n}\n\n.card-body {\n  text-align: justify;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slimy Chicken 73</title>\n<style>\n/* Slimy Chicken 73 by Kemboi-Dun — https://uiverse.io/Kemboi-Dun/slimy-chicken-73 */\n.card {\n  width: 300px;\n  height: 300px;\n  background: #e4e3e3da;\n  border-radius: 1em;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-evenly;\n  gap: 0.4em;\n  align-items: flex-start;\n  padding: 1em 1.5em;\n  transition: all 0.5s ease;\n  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);\n}\n\n.card:hover {\n  background: #f1f1f1;\n}\n\n.card-icon svg {\n  height: 4rem;\n  width: 4rem;\n}\n\n.card-body {\n  text-align: justify;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card-icon\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-collection\" viewBox=\"0 0 16 16\"> <path d=\"M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z\"></path> </svg>\n  </div>\n  <span class=\"card-body\">\n    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n  </span>\n</div>\n\n</body>\n</html>\n"
 }

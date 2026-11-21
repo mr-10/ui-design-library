@@ -5,14 +5,27 @@
  "author": "ayman-ashine",
  "source": "https://uiverse.io/ayman-ashine/plastic-parrot-88",
  "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Pill white text input that lights up when focused.",
+ "howItWorks": "On focus, a ring appears and shadow grows.",
  "tags": [
-  "inputs",
-  "focus",
-  "css"
+  "rounded",
+  "pill",
+  "ring",
+  "glow",
+  "text-input",
+  "inputs"
  ],
- "html": "<!-- From Uiverse.io by ayman-ashine  - Tags: input, tailwind, tailwindcss -->\n<input\n  class=\"bg-zinc-200 text-zinc-600 font-mono ring-1 ring-zinc-400 focus:ring-2 focus:ring-rose-400 outline-none duration-300 placeholder:text-zinc-600 placeholder:opacity-50 rounded-full px-4 py-1 shadow-md focus:shadow-lg focus:shadow-rose-400\"\n  autocomplete=\"off\"\n  placeholder=\"TailwindCSS...\"\n  name=\"text\"\n  type=\"text\"\n/>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Plastic Parrot 88</title>\n<style>\n/* From Uiverse.io by ayman-ashine - https://uiverse.io/ayman-ashine/plastic-parrot-88 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by ayman-ashine  - Tags: input, tailwind, tailwindcss -->\n<input\n  class=\"bg-zinc-200 text-zinc-600 font-mono ring-1 ring-zinc-400 focus:ring-2 focus:ring-rose-400 outline-none duration-300 placeholder:text-zinc-600 placeholder:opacity-50 rounded-full px-4 py-1 shadow-md focus:shadow-lg focus:shadow-rose-400\"\n  autocomplete=\"off\"\n  placeholder=\"TailwindCSS...\"\n  name=\"text\"\n  type=\"text\"\n/>\n</body>\n</html>\n"
+ "colors": [
+  "#e4e4e7",
+  "#52525b",
+  "#a1a1aa"
+ ],
+ "fonts": [
+  "mono"
+ ],
+ "tokens": 161,
+ "size": 647,
+ "html": "<input\n  class=\"bg-zinc-200 text-zinc-600 font-mono ring-1 ring-zinc-400 focus:ring-2 focus:ring-rose-400 outline-none duration-300 placeholder:text-zinc-600 placeholder:opacity-50 rounded-full px-4 py-1 shadow-md focus:shadow-lg focus:shadow-rose-400\"\n  autocomplete=\"off\"\n  placeholder=\"TailwindCSS...\"\n  name=\"text\"\n  type=\"text\"\n/>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Plastic Parrot 88</title>\n<style>\n/* Plastic Parrot 88 by ayman-ashine — https://uiverse.io/ayman-ashine/plastic-parrot-88 */\n\n</style>\n</head>\n<body>\n<input\n  class=\"bg-zinc-200 text-zinc-600 font-mono ring-1 ring-zinc-400 focus:ring-2 focus:ring-rose-400 outline-none duration-300 placeholder:text-zinc-600 placeholder:opacity-50 rounded-full px-4 py-1 shadow-md focus:shadow-lg focus:shadow-rose-400\"\n  autocomplete=\"off\"\n  placeholder=\"TailwindCSS...\"\n  name=\"text\"\n  type=\"text\"\n/>\n\n</body>\n</html>\n"
 }

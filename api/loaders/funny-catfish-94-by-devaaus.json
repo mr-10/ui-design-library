@@ -5,14 +5,24 @@
  "author": "devAaus",
  "source": "https://uiverse.io/devAaus/funny-catfish-94",
  "trigger": "static",
- "description": "A loader UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Pill sky-blue spinner loader with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the spinner loader is a fixed design.",
  "tags": [
-  "loaders",
-  "static",
-  "css"
+  "blue",
+  "red",
+  "rounded",
+  "pill",
+  "spinner-loader",
+  "loaders"
  ],
- "html": "<!-- From Uiverse.io by devAaus  - Tags: loading, loader, spinner, colorful, circle loader, spin, multicolor, loading animation -->\n<div class=\"flex-col gap-4 w-full flex items-center justify-center\">\n  <div\n    class=\"w-20 h-20 border-4 border-transparent text-blue-400 text-4xl animate-spin flex items-center justify-center border-t-blue-400 rounded-full\"\n  >\n    <div\n      class=\"w-16 h-16 border-4 border-transparent text-red-400 text-2xl animate-spin flex items-center justify-center border-t-red-400 rounded-full\"\n    ></div>\n  </div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Funny Catfish 94</title>\n<style>\n/* From Uiverse.io by devAaus - https://uiverse.io/devAaus/funny-catfish-94 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by devAaus  - Tags: loading, loader, spinner, colorful, circle loader, spin, multicolor, loading animation -->\n<div class=\"flex-col gap-4 w-full flex items-center justify-center\">\n  <div\n    class=\"w-20 h-20 border-4 border-transparent text-blue-400 text-4xl animate-spin flex items-center justify-center border-t-blue-400 rounded-full\"\n  >\n    <div\n      class=\"w-16 h-16 border-4 border-transparent text-red-400 text-2xl animate-spin flex items-center justify-center border-t-red-400 rounded-full\"\n    ></div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#60a5fa",
+  "#f87171"
+ ],
+ "fonts": [],
+ "tokens": 178,
+ "size": 715,
+ "html": "<div class=\"flex-col gap-4 w-full flex items-center justify-center\">\n  <div\n    class=\"w-20 h-20 border-4 border-transparent text-blue-400 text-4xl animate-spin flex items-center justify-center border-t-blue-400 rounded-full\"\n  >\n    <div\n      class=\"w-16 h-16 border-4 border-transparent text-red-400 text-2xl animate-spin flex items-center justify-center border-t-red-400 rounded-full\"\n    ></div>\n  </div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Funny Catfish 94</title>\n<style>\n/* Funny Catfish 94 by devAaus — https://uiverse.io/devAaus/funny-catfish-94 */\n\n</style>\n</head>\n<body>\n<div class=\"flex-col gap-4 w-full flex items-center justify-center\">\n  <div\n    class=\"w-20 h-20 border-4 border-transparent text-blue-400 text-4xl animate-spin flex items-center justify-center border-t-blue-400 rounded-full\"\n  >\n    <div\n      class=\"w-16 h-16 border-4 border-transparent text-red-400 text-2xl animate-spin flex items-center justify-center border-t-red-400 rounded-full\"\n    ></div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

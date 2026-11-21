@@ -5,17 +5,24 @@
  "author": "bociKond",
  "source": "https://uiverse.io/bociKond/tidy-panda-85",
  "trigger": "hover",
- "description": "A button with tooltip, click and transition styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined red button that changes colour on hover.",
+ "howItWorks": "On hover, background-color changes from #DA5552 to #DA5552, text color changes from #e3e3e3 to #e3e3e3, border-color becomes transparent.",
  "tags": [
-  "tooltip",
-  "button",
-  "hover",
-  "click",
-  "transition",
-  "hover-effect"
+  "red",
+  "outlined",
+  "flat",
+  "color-change",
+  "fade",
+  "pulse"
  ],
- "html": "<button class=\"button\">\n  <span class=\"button-text\">Button</span>\n  <span class=\"tooltip\">Tooltip</span>\n</button>",
- "css": "/* From Uiverse.io by bociKond - Tags: tooltip, button, hover, click, transition, hover effect, transparent, dashed */\n.button {\n  --clr: #DA5552;\n  --clr-white: #e3e3e3;\n  padding: .75rem 3rem;\n  border: 4px dashed var(--clr);\n  background-color: transparent;\n  color: var(--clr);\n  font-weight: bold;\n  position: relative;\n  transition: 200ms;\n  cursor: pointer;\n}\n\n.tooltip {\n  position: absolute;\n  top: calc(-100% - .75rem);\n  left: 50%;\n  transform: translateX(-50%);\n  background-color: var(--clr);\n  color: var(--clr-white);\n  padding: .5rem 2rem;\n  cursor: auto;\n  display: none;\n  animation: showTooltip 300ms ease-in-out;\n  transform-origin: bottom;\n}\n\n.tooltip::after {\n  content: '';\n  position: absolute;\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 10px 8px 0 8px;\n  border-color: var(--clr) transparent transparent transparent;\n  bottom: -9px;\n  left: 50%;\n  transform: translate(-50%);\n}\n\n.button:hover {\n  background-color: var(--clr);\n  color: var(--clr-white);\n  border-color: transparent;\n}\n\n.button:hover .tooltip {\n  display: block;\n}\n\n@keyframes showTooltip {\n  0% {\n    opacity: 0;\n    transform: scaleY(0) translateX(-50%);\n  }\n\n  100% {\n    opacity: 1;\n    transform: scaleY(1) translateX(-50%);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tidy Panda 85</title>\n<style>\n/* From Uiverse.io by bociKond - https://uiverse.io/bociKond/tidy-panda-85 */\n/* From Uiverse.io by bociKond - Tags: tooltip, button, hover, click, transition, hover effect, transparent, dashed */\n.button {\n  --clr: #DA5552;\n  --clr-white: #e3e3e3;\n  padding: .75rem 3rem;\n  border: 4px dashed var(--clr);\n  background-color: transparent;\n  color: var(--clr);\n  font-weight: bold;\n  position: relative;\n  transition: 200ms;\n  cursor: pointer;\n}\n\n.tooltip {\n  position: absolute;\n  top: calc(-100% - .75rem);\n  left: 50%;\n  transform: translateX(-50%);\n  background-color: var(--clr);\n  color: var(--clr-white);\n  padding: .5rem 2rem;\n  cursor: auto;\n  display: none;\n  animation: showTooltip 300ms ease-in-out;\n  transform-origin: bottom;\n}\n\n.tooltip::after {\n  content: '';\n  position: absolute;\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 10px 8px 0 8px;\n  border-color: var(--clr) transparent transparent transparent;\n  bottom: -9px;\n  left: 50%;\n  transform: translate(-50%);\n}\n\n.button:hover {\n  background-color: var(--clr);\n  color: var(--clr-white);\n  border-color: transparent;\n}\n\n.button:hover .tooltip {\n  display: block;\n}\n\n@keyframes showTooltip {\n  0% {\n    opacity: 0;\n    transform: scaleY(0) translateX(-50%);\n  }\n\n  100% {\n    opacity: 1;\n    transform: scaleY(1) translateX(-50%);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <span class=\"button-text\">Button</span>\n  <span class=\"tooltip\">Tooltip</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#da5552",
+  "#e3e3e3"
+ ],
+ "fonts": [],
+ "tokens": 383,
+ "size": 1534,
+ "html": "<button class=\"button\">\n  <span class=\"button-text\">Button</span>\n  <span class=\"tooltip\">Tooltip</span>\n</button>\n",
+ "css": "/* Tidy Panda 85 by bociKond — https://uiverse.io/bociKond/tidy-panda-85 */\n.button {\n  --clr: #DA5552;\n  --clr-white: #e3e3e3;\n  padding: .75rem 3rem;\n  border: 4px dashed var(--clr);\n  background-color: transparent;\n  color: var(--clr);\n  font-weight: bold;\n  position: relative;\n  transition: 200ms;\n  cursor: pointer;\n}\n\n.tooltip {\n  position: absolute;\n  top: calc(-100% - .75rem);\n  left: 50%;\n  transform: translateX(-50%);\n  background-color: var(--clr);\n  color: var(--clr-white);\n  padding: .5rem 2rem;\n  cursor: auto;\n  display: none;\n  animation: showTooltip 300ms ease-in-out;\n  transform-origin: bottom;\n}\n\n.tooltip::after {\n  content: '';\n  position: absolute;\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 10px 8px 0 8px;\n  border-color: var(--clr) transparent transparent transparent;\n  bottom: -9px;\n  left: 50%;\n  transform: translate(-50%);\n}\n\n.button:hover {\n  background-color: var(--clr);\n  color: var(--clr-white);\n  border-color: transparent;\n}\n\n.button:hover .tooltip {\n  display: block;\n}\n\n@keyframes showTooltip {\n  0% {\n    opacity: 0;\n    transform: scaleY(0) translateX(-50%);\n  }\n\n  100% {\n    opacity: 1;\n    transform: scaleY(1) translateX(-50%);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tidy Panda 85</title>\n<style>\n/* Tidy Panda 85 by bociKond — https://uiverse.io/bociKond/tidy-panda-85 */\n.button {\n  --clr: #DA5552;\n  --clr-white: #e3e3e3;\n  padding: .75rem 3rem;\n  border: 4px dashed var(--clr);\n  background-color: transparent;\n  color: var(--clr);\n  font-weight: bold;\n  position: relative;\n  transition: 200ms;\n  cursor: pointer;\n}\n\n.tooltip {\n  position: absolute;\n  top: calc(-100% - .75rem);\n  left: 50%;\n  transform: translateX(-50%);\n  background-color: var(--clr);\n  color: var(--clr-white);\n  padding: .5rem 2rem;\n  cursor: auto;\n  display: none;\n  animation: showTooltip 300ms ease-in-out;\n  transform-origin: bottom;\n}\n\n.tooltip::after {\n  content: '';\n  position: absolute;\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 10px 8px 0 8px;\n  border-color: var(--clr) transparent transparent transparent;\n  bottom: -9px;\n  left: 50%;\n  transform: translate(-50%);\n}\n\n.button:hover {\n  background-color: var(--clr);\n  color: var(--clr-white);\n  border-color: transparent;\n}\n\n.button:hover .tooltip {\n  display: block;\n}\n\n@keyframes showTooltip {\n  0% {\n    opacity: 0;\n    transform: scaleY(0) translateX(-50%);\n  }\n\n  100% {\n    opacity: 1;\n    transform: scaleY(1) translateX(-50%);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <span class=\"button-text\">Button</span>\n  <span class=\"tooltip\">Tooltip</span>\n</button>\n\n</body>\n</html>\n"
 }

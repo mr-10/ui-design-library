@@ -5,15 +5,24 @@
  "author": "ChaudaryHammad",
  "source": "https://uiverse.io/ChaudaryHammad/white-rat-90",
  "trigger": "auto-loop",
- "description": "A loader with loading and cool-loader styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient dark red loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (rotating).",
  "tags": [
-  "loading",
-  "loader",
-  "cool-loader",
-  "auto-loop"
+  "red",
+  "gradient",
+  "dark",
+  "flat",
+  "spin",
+  "loading"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by ChaudaryHammad - Tags: loading, loader, cool loader */\n.loader {\n  width: 50px;\n  aspect-ratio: 1.154;\n  position: relative;\n  background: conic-gradient(from 120deg at 50% 64%,#0000, #ff1919 1deg 120deg,#0000 121deg);\n  animation: l27-0 1.5s infinite cubic-bezier(0.3,1,0,1);\n}\n\n.loader:before,\n.loader:after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: inherit;\n  transform-origin: 50% 66%;\n  animation: l27-1 1.5s infinite;\n}\n\n.loader:after {\n  --s: -1;\n}\n\n@keyframes l27-0 {\n  0%,30% {\n    transform: rotate(0)\n  }\n\n  70% {\n    transform: rotate(120deg)\n  }\n\n  70.01%,100% {\n    transform: rotate(360deg)\n  }\n}\n\n@keyframes l27-1 {\n  0% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(0)\n  }\n\n  30%,70% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(calc(var(--s,1)*-5px),10px)\n  }\n\n  100% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(0)\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>White Rat 90</title>\n<style>\n/* From Uiverse.io by ChaudaryHammad - https://uiverse.io/ChaudaryHammad/white-rat-90 */\n/* From Uiverse.io by ChaudaryHammad - Tags: loading, loader, cool loader */\n.loader {\n  width: 50px;\n  aspect-ratio: 1.154;\n  position: relative;\n  background: conic-gradient(from 120deg at 50% 64%,#0000, #ff1919 1deg 120deg,#0000 121deg);\n  animation: l27-0 1.5s infinite cubic-bezier(0.3,1,0,1);\n}\n\n.loader:before,\n.loader:after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: inherit;\n  transform-origin: 50% 66%;\n  animation: l27-1 1.5s infinite;\n}\n\n.loader:after {\n  --s: -1;\n}\n\n@keyframes l27-0 {\n  0%,30% {\n    transform: rotate(0)\n  }\n\n  70% {\n    transform: rotate(120deg)\n  }\n\n  70.01%,100% {\n    transform: rotate(360deg)\n  }\n}\n\n@keyframes l27-1 {\n  0% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(0)\n  }\n\n  30%,70% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(calc(var(--s,1)*-5px),10px)\n  }\n\n  100% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(0)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff1919",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 293,
+ "size": 1175,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* White Rat 90 by ChaudaryHammad — https://uiverse.io/ChaudaryHammad/white-rat-90 */\n.loader {\n  width: 50px;\n  aspect-ratio: 1.154;\n  position: relative;\n  background: conic-gradient(from 120deg at 50% 64%,#0000, #ff1919 1deg 120deg,#0000 121deg);\n  animation: l27-0 1.5s infinite cubic-bezier(0.3,1,0,1);\n}\n\n.loader:before,\n.loader:after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: inherit;\n  transform-origin: 50% 66%;\n  animation: l27-1 1.5s infinite;\n}\n\n.loader:after {\n  --s: -1;\n}\n\n@keyframes l27-0 {\n  0%,30% {\n    transform: rotate(0)\n  }\n\n  70% {\n    transform: rotate(120deg)\n  }\n\n  70.01%,100% {\n    transform: rotate(360deg)\n  }\n}\n\n@keyframes l27-1 {\n  0% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(0)\n  }\n\n  30%,70% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(calc(var(--s,1)*-5px),10px)\n  }\n\n  100% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(0)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>White Rat 90</title>\n<style>\n/* White Rat 90 by ChaudaryHammad — https://uiverse.io/ChaudaryHammad/white-rat-90 */\n.loader {\n  width: 50px;\n  aspect-ratio: 1.154;\n  position: relative;\n  background: conic-gradient(from 120deg at 50% 64%,#0000, #ff1919 1deg 120deg,#0000 121deg);\n  animation: l27-0 1.5s infinite cubic-bezier(0.3,1,0,1);\n}\n\n.loader:before,\n.loader:after {\n  content: '';\n  position: absolute;\n  inset: 0;\n  background: inherit;\n  transform-origin: 50% 66%;\n  animation: l27-1 1.5s infinite;\n}\n\n.loader:after {\n  --s: -1;\n}\n\n@keyframes l27-0 {\n  0%,30% {\n    transform: rotate(0)\n  }\n\n  70% {\n    transform: rotate(120deg)\n  }\n\n  70.01%,100% {\n    transform: rotate(360deg)\n  }\n}\n\n@keyframes l27-1 {\n  0% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(0)\n  }\n\n  30%,70% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(calc(var(--s,1)*-5px),10px)\n  }\n\n  100% {\n    transform: rotate(calc(var(--s,1)*120deg)) translate(0)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

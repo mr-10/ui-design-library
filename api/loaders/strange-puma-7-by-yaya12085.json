@@ -5,14 +5,23 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/strange-puma-7",
  "trigger": "static",
- "description": "A loader UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Pill gray loader with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the loader is a fixed design.",
  "tags": [
+  "rounded",
+  "pill",
   "loaders",
   "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Yaya12085 - Tags: loading, loader, tailwind -->\n<div class=\"flex items-center space-x-2\">\n  <div class=\"animate-pulse rounded-full bg-gray-500 h-12 w-12 rounded-full\"></div>\n  <div class=\"space-y-2\">\n    <div class=\"animate-pulse rounded-md bg-gray-500 h-4 w-[200px]\"> </div>\n    <div class=\"animate-pulse rounded-md bg-gray-500 h-4 w-[170px]\"> </div>\n  </div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strange Puma 7</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/strange-puma-7 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Yaya12085 - Tags: loading, loader, tailwind -->\n<div class=\"flex items-center space-x-2\">\n  <div class=\"animate-pulse rounded-full bg-gray-500 h-12 w-12 rounded-full\"></div>\n  <div class=\"space-y-2\">\n    <div class=\"animate-pulse rounded-md bg-gray-500 h-4 w-[200px]\"> </div>\n    <div class=\"animate-pulse rounded-md bg-gray-500 h-4 w-[170px]\"> </div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#6b7280",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 154,
+ "size": 616,
+ "html": "<div class=\"flex items-center space-x-2\">\n  <div class=\"animate-pulse rounded-full bg-gray-500 h-12 w-12 rounded-full\"></div>\n  <div class=\"space-y-2\">\n    <div class=\"animate-pulse rounded-md bg-gray-500 h-4 w-[200px]\"> </div>\n    <div class=\"animate-pulse rounded-md bg-gray-500 h-4 w-[170px]\"> </div>\n  </div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strange Puma 7</title>\n<style>\n/* Strange Puma 7 by Yaya12085 — https://uiverse.io/Yaya12085/strange-puma-7 */\n\n</style>\n</head>\n<body>\n<div class=\"flex items-center space-x-2\">\n  <div class=\"animate-pulse rounded-full bg-gray-500 h-12 w-12 rounded-full\"></div>\n  <div class=\"space-y-2\">\n    <div class=\"animate-pulse rounded-md bg-gray-500 h-4 w-[200px]\"> </div>\n    <div class=\"animate-pulse rounded-md bg-gray-500 h-4 w-[170px]\"> </div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

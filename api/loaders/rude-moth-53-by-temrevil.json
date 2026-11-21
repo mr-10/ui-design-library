@@ -5,17 +5,24 @@
  "author": "TemRevil",
  "source": "https://uiverse.io/TemRevil/rude-moth-53",
  "trigger": "auto-loop",
- "description": "A loader with simple, action and loading styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Orange loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1s animation (rotating).",
  "tags": [
+  "orange",
+  "flat",
+  "spin",
   "simple",
   "action",
-  "loading",
-  "loader",
-  "smooth",
-  "code"
+  "loading"
  ],
- "html": "<div class=\"loading-box\">\n  <div class=\"WH animation color\"></div>\n  <div class=\"WH animation color\"></div>\n  <div class=\"WH animation color\"></div>\n</div>",
- "css": "/* From Uiverse.io by TemRevil  - Tags: simple, action, loading, loader, smooth, code, neon, game */\n.loading-box {\n  width: 150px;\n  height: 150px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n}\n\n.WH {\n  width: 20px;\n  height: 70px;\n}\n.color {\n  background-color: #ff5100;\n}\n.animation {\n  animation: Loading 1s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);\n}\n\n@keyframes Loading {\n  0% {\n    height: 0;\n  }\n  25% {\n    height: 70px;\n  }\n  50% {\n    height: 70px;\n    transform: rotate(10deg);\n  }\n  75% {\n    height: 70px;\n    transform: rotate(0deg);\n  }\n  100% {\n    height: 0;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rude Moth 53</title>\n<style>\n/* From Uiverse.io by TemRevil - https://uiverse.io/TemRevil/rude-moth-53 */\n/* From Uiverse.io by TemRevil  - Tags: simple, action, loading, loader, smooth, code, neon, game */\n.loading-box {\n  width: 150px;\n  height: 150px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n}\n\n.WH {\n  width: 20px;\n  height: 70px;\n}\n.color {\n  background-color: #ff5100;\n}\n.animation {\n  animation: Loading 1s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);\n}\n\n@keyframes Loading {\n  0% {\n    height: 0;\n  }\n  25% {\n    height: 70px;\n  }\n  50% {\n    height: 70px;\n    transform: rotate(10deg);\n  }\n  75% {\n    height: 70px;\n    transform: rotate(0deg);\n  }\n  100% {\n    height: 0;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loading-box\">\n  <div class=\"WH animation color\"></div>\n  <div class=\"WH animation color\"></div>\n  <div class=\"WH animation color\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff5100",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 241,
+ "size": 967,
+ "html": "<div class=\"loading-box\">\n  <div class=\"WH animation color\"></div>\n  <div class=\"WH animation color\"></div>\n  <div class=\"WH animation color\"></div>\n</div>\n",
+ "css": "/* Rude Moth 53 by TemRevil — https://uiverse.io/TemRevil/rude-moth-53 */\n.loading-box {\n  width: 150px;\n  height: 150px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n}\n\n.WH {\n  width: 20px;\n  height: 70px;\n}\n.color {\n  background-color: #ff5100;\n}\n.animation {\n  animation: Loading 1s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);\n}\n\n@keyframes Loading {\n  0% {\n    height: 0;\n  }\n  25% {\n    height: 70px;\n  }\n  50% {\n    height: 70px;\n    transform: rotate(10deg);\n  }\n  75% {\n    height: 70px;\n    transform: rotate(0deg);\n  }\n  100% {\n    height: 0;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rude Moth 53</title>\n<style>\n/* Rude Moth 53 by TemRevil — https://uiverse.io/TemRevil/rude-moth-53 */\n.loading-box {\n  width: 150px;\n  height: 150px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 10px;\n}\n\n.WH {\n  width: 20px;\n  height: 70px;\n}\n.color {\n  background-color: #ff5100;\n}\n.animation {\n  animation: Loading 1s infinite cubic-bezier(0.68, -0.55, 0.27, 1.55);\n}\n\n@keyframes Loading {\n  0% {\n    height: 0;\n  }\n  25% {\n    height: 70px;\n  }\n  50% {\n    height: 70px;\n    transform: rotate(10deg);\n  }\n  75% {\n    height: 70px;\n    transform: rotate(0deg);\n  }\n  100% {\n    height: 0;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loading-box\">\n  <div class=\"WH animation color\"></div>\n  <div class=\"WH animation color\"></div>\n  <div class=\"WH animation color\"></div>\n</div>\n\n</body>\n</html>\n"
 }

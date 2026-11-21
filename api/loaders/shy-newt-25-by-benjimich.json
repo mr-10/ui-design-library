@@ -5,14 +5,24 @@
  "author": "benjimich",
  "source": "https://uiverse.io/benjimich/shy-newt-25",
  "trigger": "auto-loop",
- "description": "A loader with color styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Dark rounded amber loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 3s animation (sliding).",
  "tags": [
-  "loader",
-  "color",
-  "auto-loop"
+  "amber",
+  "dark",
+  "rounded",
+  "flat",
+  "slide",
+  "loader"
  ],
- "html": "<div class=\"loader\">\n  <div class=\"inner_loader\"></div>\n</div>",
- "css": "/* From Uiverse.io by benjimich - Tags: loader, color */\n.loader {\n  width: 200px;\n  height: 10px;\n  background: #004643;\n  border-radius: 50px;\n  overflow: hidden;\n}\n\n.inner_loader {\n  width: 60%;\n  height: 100%;\n  background: #f9bc60;\n  border-radius: 50px;\n  animation: moveLeftRight 3s ease-in-out infinite;\n}\n\n@keyframes moveLeftRight {\n  0% {\n    transform: translateX(calc(-100% + 10px));\n  }\n\n  50% {\n    transform: translateX(calc(200px - 10px));\n  }\n\n  100% {\n    transform: translateX(calc(-100% + 10px));\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shy Newt 25</title>\n<style>\n/* From Uiverse.io by benjimich - https://uiverse.io/benjimich/shy-newt-25 */\n/* From Uiverse.io by benjimich - Tags: loader, color */\n.loader {\n  width: 200px;\n  height: 10px;\n  background: #004643;\n  border-radius: 50px;\n  overflow: hidden;\n}\n\n.inner_loader {\n  width: 60%;\n  height: 100%;\n  background: #f9bc60;\n  border-radius: 50px;\n  animation: moveLeftRight 3s ease-in-out infinite;\n}\n\n@keyframes moveLeftRight {\n  0% {\n    transform: translateX(calc(-100% + 10px));\n  }\n\n  50% {\n    transform: translateX(calc(200px - 10px));\n  }\n\n  100% {\n    transform: translateX(calc(-100% + 10px));\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"inner_loader\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#004643",
+  "#f9bc60"
+ ],
+ "fonts": [],
+ "tokens": 203,
+ "size": 815,
+ "html": "<div class=\"loader\">\n  <div class=\"inner_loader\"></div>\n</div>\n",
+ "css": "/* Shy Newt 25 by benjimich — https://uiverse.io/benjimich/shy-newt-25 */\n.loader {\n  width: 200px;\n  height: 10px;\n  background: #004643;\n  border-radius: 50px;\n  overflow: hidden;\n}\n\n.inner_loader {\n  width: 60%;\n  height: 100%;\n  background: #f9bc60;\n  border-radius: 50px;\n  animation: moveLeftRight 3s ease-in-out infinite;\n}\n\n@keyframes moveLeftRight {\n  0% {\n    transform: translateX(calc(-100% + 10px));\n  }\n\n  50% {\n    transform: translateX(calc(200px - 10px));\n  }\n\n  100% {\n    transform: translateX(calc(-100% + 10px));\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shy Newt 25</title>\n<style>\n/* Shy Newt 25 by benjimich — https://uiverse.io/benjimich/shy-newt-25 */\n.loader {\n  width: 200px;\n  height: 10px;\n  background: #004643;\n  border-radius: 50px;\n  overflow: hidden;\n}\n\n.inner_loader {\n  width: 60%;\n  height: 100%;\n  background: #f9bc60;\n  border-radius: 50px;\n  animation: moveLeftRight 3s ease-in-out infinite;\n}\n\n@keyframes moveLeftRight {\n  0% {\n    transform: translateX(calc(-100% + 10px));\n  }\n\n  50% {\n    transform: translateX(calc(200px - 10px));\n  }\n\n  100% {\n    transform: translateX(calc(-100% + 10px));\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"inner_loader\"></div>\n</div>\n\n</body>\n</html>\n"
 }

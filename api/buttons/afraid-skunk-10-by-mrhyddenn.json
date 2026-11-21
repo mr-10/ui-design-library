@@ -5,14 +5,24 @@
  "author": "mrhyddenn",
  "source": "https://uiverse.io/mrhyddenn/afraid-skunk-10",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "White button that changes colour on hover with a smooth transition.",
+ "howItWorks": "On hover, text color changes to #fff, left becomes 0, right becomes 0.",
  "tags": [
+  "flat",
+  "color-change",
+  "fade",
   "button",
   "hover",
   "css"
  ],
- "html": "<button>\n    <span>Button</span>\n</button>",
- "css": "/* From Uiverse.io by mrhyddenn - Tags: button */\nbutton {\n  background: #fff;\n  border: none;\n  padding: 10px 20px;\n  display: inline-block;\n  font-size: 15px;\n  font-weight: 600;\n  width: 120px;\n  text-transform: uppercase;\n  cursor: pointer;\n  transform: skew(-21deg);\n}\n\nspan {\n  display: inline-block;\n  transform: skew(21deg);\n}\n\nbutton::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 100%;\n  left: 0;\n  background: rgb(20, 20, 20);\n  opacity: 0;\n  z-index: -1;\n  transition: all 0.5s;\n}\n\nbutton:hover {\n  color: #fff;\n}\n\nbutton:hover::before {\n  left: 0;\n  right: 0;\n  opacity: 1;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Skunk 10</title>\n<style>\n/* From Uiverse.io by mrhyddenn - https://uiverse.io/mrhyddenn/afraid-skunk-10 */\n/* From Uiverse.io by mrhyddenn - Tags: button */\nbutton {\n  background: #fff;\n  border: none;\n  padding: 10px 20px;\n  display: inline-block;\n  font-size: 15px;\n  font-weight: 600;\n  width: 120px;\n  text-transform: uppercase;\n  cursor: pointer;\n  transform: skew(-21deg);\n}\n\nspan {\n  display: inline-block;\n  transform: skew(21deg);\n}\n\nbutton::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 100%;\n  left: 0;\n  background: rgb(20, 20, 20);\n  opacity: 0;\n  z-index: -1;\n  transition: all 0.5s;\n}\n\nbutton:hover {\n  color: #fff;\n}\n\nbutton:hover::before {\n  left: 0;\n  right: 0;\n  opacity: 1;\n}\n</style>\n</head>\n<body>\n<button>\n    <span>Button</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#141414",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 228,
+ "size": 912,
+ "html": "<button>\n    <span>Button</span>\n</button>\n",
+ "css": "/* Afraid Skunk 10 by mrhyddenn — https://uiverse.io/mrhyddenn/afraid-skunk-10 */\nbutton {\n  background: #fff;\n  border: none;\n  padding: 10px 20px;\n  display: inline-block;\n  font-size: 15px;\n  font-weight: 600;\n  width: 120px;\n  text-transform: uppercase;\n  cursor: pointer;\n  transform: skew(-21deg);\n}\n\nspan {\n  display: inline-block;\n  transform: skew(21deg);\n}\n\nbutton::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 100%;\n  left: 0;\n  background: rgb(20, 20, 20);\n  opacity: 0;\n  z-index: -1;\n  transition: all 0.5s;\n}\n\nbutton:hover {\n  color: #fff;\n}\n\nbutton:hover::before {\n  left: 0;\n  right: 0;\n  opacity: 1;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Skunk 10</title>\n<style>\n/* Afraid Skunk 10 by mrhyddenn — https://uiverse.io/mrhyddenn/afraid-skunk-10 */\nbutton {\n  background: #fff;\n  border: none;\n  padding: 10px 20px;\n  display: inline-block;\n  font-size: 15px;\n  font-weight: 600;\n  width: 120px;\n  text-transform: uppercase;\n  cursor: pointer;\n  transform: skew(-21deg);\n}\n\nspan {\n  display: inline-block;\n  transform: skew(21deg);\n}\n\nbutton::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 100%;\n  left: 0;\n  background: rgb(20, 20, 20);\n  opacity: 0;\n  z-index: -1;\n  transition: all 0.5s;\n}\n\nbutton:hover {\n  color: #fff;\n}\n\nbutton:hover::before {\n  left: 0;\n  right: 0;\n  opacity: 1;\n}\n</style>\n</head>\n<body>\n<button>\n    <span>Button</span>\n</button>\n\n</body>\n</html>\n"
 }

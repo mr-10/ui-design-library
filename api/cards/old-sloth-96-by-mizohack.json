@@ -5,14 +5,25 @@
  "author": "Mizohack",
  "source": "https://uiverse.io/Mizohack/old-sloth-96",
  "trigger": "auto-loop",
- "description": "A card UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient dark rounded teal card with animating motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (animating).",
  "tags": [
-  "card",
-  "auto-loop",
-  "css"
+  "teal",
+  "yellow",
+  "gradient",
+  "dark",
+  "rounded",
+  "flat"
  ],
- "html": "<div class=\"wrapper\">\n  <div class=\"display\">\n    <div id=\"time\"></div>\n  </div>\n  <span></span>\n  <span></span>\n</div>",
- "css": "/* From Uiverse.io by Mizohack  - Tags: card */\n.wrapper {\n  height: 100px;\n  width: 240px;\n  position: relative;\n  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);\n  border-radius: 10px;\n  cursor: default;\n  animation: animate 1.5s linear infinite;\n}\n.wrapper .display,\n.wrapper span {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrapper .display {\n  z-index: 999;\n  height: 85px;\n  width: calc(100% - 16px);\n  background: #1b1b1b;\n  border-radius: 6px;\n  text-align: center;\n}\n.display #time {\n  line-height: 85px;\n  color: #fff;\n  font-size: 50px;\n  font-weight: 600;\n  letter-spacing: 1px;\n  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  animation: animate 1.5s linear infinite;\n}\n@keyframes animate {\n  100% {\n    filter: hue-rotate(360deg);\n  }\n}\n.wrapper span {\n  height: 100%;\n  width: 100%;\n  border-radius: 10px;\n  background: inherit;\n}\n.wrapper span:first-child {\n  filter: blur(7px);\n}\n.wrapper span:last-child {\n  filter: blur(20px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Old Sloth 96</title>\n<style>\n/* From Uiverse.io by Mizohack - https://uiverse.io/Mizohack/old-sloth-96 */\n/* From Uiverse.io by Mizohack  - Tags: card */\n.wrapper {\n  height: 100px;\n  width: 240px;\n  position: relative;\n  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);\n  border-radius: 10px;\n  cursor: default;\n  animation: animate 1.5s linear infinite;\n}\n.wrapper .display,\n.wrapper span {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrapper .display {\n  z-index: 999;\n  height: 85px;\n  width: calc(100% - 16px);\n  background: #1b1b1b;\n  border-radius: 6px;\n  text-align: center;\n}\n.display #time {\n  line-height: 85px;\n  color: #fff;\n  font-size: 50px;\n  font-weight: 600;\n  letter-spacing: 1px;\n  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  animation: animate 1.5s linear infinite;\n}\n@keyframes animate {\n  100% {\n    filter: hue-rotate(360deg);\n  }\n}\n.wrapper span {\n  height: 100%;\n  width: 100%;\n  border-radius: 10px;\n  background: inherit;\n}\n.wrapper span:first-child {\n  filter: blur(7px);\n}\n.wrapper span:last-child {\n  filter: blur(20px);\n}\n</style>\n</head>\n<body>\n<div class=\"wrapper\">\n  <div class=\"display\">\n    <div id=\"time\"></div>\n  </div>\n  <span></span>\n  <span></span>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#14ffe9",
+  "#ffeb3b",
+  "#ff00e0"
+ ],
+ "fonts": [],
+ "tokens": 364,
+ "size": 1459,
+ "html": "<div class=\"wrapper\">\n  <div class=\"display\">\n    <div id=\"time\"></div>\n  </div>\n  <span></span>\n  <span></span>\n</div>\n",
+ "css": "/* Old Sloth 96 by Mizohack — https://uiverse.io/Mizohack/old-sloth-96 */\n.wrapper {\n  height: 100px;\n  width: 240px;\n  position: relative;\n  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);\n  border-radius: 10px;\n  cursor: default;\n  animation: animate 1.5s linear infinite;\n}\n.wrapper .display,\n.wrapper span {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrapper .display {\n  z-index: 999;\n  height: 85px;\n  width: calc(100% - 16px);\n  background: #1b1b1b;\n  border-radius: 6px;\n  text-align: center;\n}\n.display #time {\n  line-height: 85px;\n  color: #fff;\n  font-size: 50px;\n  font-weight: 600;\n  letter-spacing: 1px;\n  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  animation: animate 1.5s linear infinite;\n}\n@keyframes animate {\n  100% {\n    filter: hue-rotate(360deg);\n  }\n}\n.wrapper span {\n  height: 100%;\n  width: 100%;\n  border-radius: 10px;\n  background: inherit;\n}\n.wrapper span:first-child {\n  filter: blur(7px);\n}\n.wrapper span:last-child {\n  filter: blur(20px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Old Sloth 96</title>\n<style>\n/* Old Sloth 96 by Mizohack — https://uiverse.io/Mizohack/old-sloth-96 */\n.wrapper {\n  height: 100px;\n  width: 240px;\n  position: relative;\n  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);\n  border-radius: 10px;\n  cursor: default;\n  animation: animate 1.5s linear infinite;\n}\n.wrapper .display,\n.wrapper span {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrapper .display {\n  z-index: 999;\n  height: 85px;\n  width: calc(100% - 16px);\n  background: #1b1b1b;\n  border-radius: 6px;\n  text-align: center;\n}\n.display #time {\n  line-height: 85px;\n  color: #fff;\n  font-size: 50px;\n  font-weight: 600;\n  letter-spacing: 1px;\n  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  animation: animate 1.5s linear infinite;\n}\n@keyframes animate {\n  100% {\n    filter: hue-rotate(360deg);\n  }\n}\n.wrapper span {\n  height: 100%;\n  width: 100%;\n  border-radius: 10px;\n  background: inherit;\n}\n.wrapper span:first-child {\n  filter: blur(7px);\n}\n.wrapper span:last-child {\n  filter: blur(20px);\n}\n</style>\n</head>\n<body>\n<div class=\"wrapper\">\n  <div class=\"display\">\n    <div id=\"time\"></div>\n  </div>\n  <span></span>\n  <span></span>\n</div>\n\n</body>\n</html>\n"
 }

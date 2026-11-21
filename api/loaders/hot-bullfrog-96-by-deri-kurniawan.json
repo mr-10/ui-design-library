@@ -5,14 +5,23 @@
  "author": "Deri-Kurniawan",
  "source": "https://uiverse.io/Deri-Kurniawan/hot-bullfrog-96",
  "trigger": "static",
- "description": "A loader UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Pill gray loader with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the loader is a fixed design.",
  "tags": [
+  "rounded",
+  "pill",
   "loaders",
   "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Deri-Kurniawan  - Tags: animation, minimalist, loading, loader, smooth, glow, animated, loading animation -->\n<div class=\"flex flex-row gap-2\">\n  <div class=\"animate-pulse bg-gray-300 w-12 h-12 rounded-full\"></div>\n  <div class=\"flex flex-col gap-2\">\n    <div class=\"animate-pulse bg-gray-300 w-28 h-5 rounded-full\"></div>\n    <div class=\"animate-pulse bg-gray-300 w-36 h-5 rounded-full\"></div>\n  </div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hot Bullfrog 96</title>\n<style>\n/* From Uiverse.io by Deri-Kurniawan - https://uiverse.io/Deri-Kurniawan/hot-bullfrog-96 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Deri-Kurniawan  - Tags: animation, minimalist, loading, loader, smooth, glow, animated, loading animation -->\n<div class=\"flex flex-row gap-2\">\n  <div class=\"animate-pulse bg-gray-300 w-12 h-12 rounded-full\"></div>\n  <div class=\"flex flex-col gap-2\">\n    <div class=\"animate-pulse bg-gray-300 w-28 h-5 rounded-full\"></div>\n    <div class=\"animate-pulse bg-gray-300 w-36 h-5 rounded-full\"></div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#d1d5db",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 152,
+ "size": 610,
+ "html": "<div class=\"flex flex-row gap-2\">\n  <div class=\"animate-pulse bg-gray-300 w-12 h-12 rounded-full\"></div>\n  <div class=\"flex flex-col gap-2\">\n    <div class=\"animate-pulse bg-gray-300 w-28 h-5 rounded-full\"></div>\n    <div class=\"animate-pulse bg-gray-300 w-36 h-5 rounded-full\"></div>\n  </div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hot Bullfrog 96</title>\n<style>\n/* Hot Bullfrog 96 by Deri-Kurniawan — https://uiverse.io/Deri-Kurniawan/hot-bullfrog-96 */\n\n</style>\n</head>\n<body>\n<div class=\"flex flex-row gap-2\">\n  <div class=\"animate-pulse bg-gray-300 w-12 h-12 rounded-full\"></div>\n  <div class=\"flex flex-col gap-2\">\n    <div class=\"animate-pulse bg-gray-300 w-28 h-5 rounded-full\"></div>\n    <div class=\"animate-pulse bg-gray-300 w-36 h-5 rounded-full\"></div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

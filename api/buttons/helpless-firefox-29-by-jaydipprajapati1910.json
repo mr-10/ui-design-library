@@ -4,15 +4,24 @@
  "category": "buttons",
  "author": "JaydipPrajapati1910",
  "source": "https://uiverse.io/JaydipPrajapati1910/helpless-firefox-29",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Violet button that changes colour on hover with a smooth transition.",
+ "howItWorks": "On hover, background changes.",
  "tags": [
+  "violet",
+  "color-change",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by JaydipPrajapati1910 - Tags: button -->\n<button class=\"relative px-5 py-2 font-medium text-white group\">\n<span class=\"absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-purple-500 group-hover:bg-purple-700 group-hover:skew-x-12\"></span>\n<span class=\"absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-purple-700 group-hover:bg-purple-500 group-hover:-skew-x-12\"></span>\n<span class=\"absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-purple-600 -rotate-12\"></span>\n<span class=\"absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12\"></span>\n<span class=\"relative\">Button </span>\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Firefox 29</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/helpless-firefox-29 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by JaydipPrajapati1910 - Tags: button -->\n<button class=\"relative px-5 py-2 font-medium text-white group\">\n<span class=\"absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-purple-500 group-hover:bg-purple-700 group-hover:skew-x-12\"></span>\n<span class=\"absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-purple-700 group-hover:bg-purple-500 group-hover:-skew-x-12\"></span>\n<span class=\"absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-purple-600 -rotate-12\"></span>\n<span class=\"absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12\"></span>\n<span class=\"relative\">Button </span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#a855f7",
+  "#7e22ce",
+  "#9333ea"
+ ],
+ "fonts": [],
+ "tokens": 284,
+ "size": 1136,
+ "html": "<button class=\"relative px-5 py-2 font-medium text-white group\">\n<span class=\"absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-purple-500 group-hover:bg-purple-700 group-hover:skew-x-12\"></span>\n<span class=\"absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-purple-700 group-hover:bg-purple-500 group-hover:-skew-x-12\"></span>\n<span class=\"absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-purple-600 -rotate-12\"></span>\n<span class=\"absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12\"></span>\n<span class=\"relative\">Button </span>\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Firefox 29</title>\n<style>\n/* Helpless Firefox 29 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/helpless-firefox-29 */\n\n</style>\n</head>\n<body>\n<button class=\"relative px-5 py-2 font-medium text-white group\">\n<span class=\"absolute inset-0 w-full h-full transition-all duration-300 ease-out transform translate-x-0 -skew-x-12 bg-purple-500 group-hover:bg-purple-700 group-hover:skew-x-12\"></span>\n<span class=\"absolute inset-0 w-full h-full transition-all duration-300 ease-out transform skew-x-12 bg-purple-700 group-hover:bg-purple-500 group-hover:-skew-x-12\"></span>\n<span class=\"absolute bottom-0 left-0 hidden w-10 h-20 transition-all duration-100 ease-out transform -translate-x-8 translate-y-10 bg-purple-600 -rotate-12\"></span>\n<span class=\"absolute bottom-0 right-0 hidden w-10 h-20 transition-all duration-100 ease-out transform translate-x-10 translate-y-8 bg-purple-400 -rotate-12\"></span>\n<span class=\"relative\">Button </span>\n</button>\n\n</body>\n</html>\n"
 }

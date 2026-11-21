@@ -5,15 +5,25 @@
  "author": "Artahs",
  "source": "https://uiverse.io/Artahs/yellow-skunk-98",
  "trigger": "hover",
- "description": "A button with action and red styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark red button that changes colour on hover.",
+ "howItWorks": "On hover, background-color changes from #730603 to #a50000.",
  "tags": [
-  "action",
   "red",
+  "amber",
+  "color-change",
+  "action",
   "button",
   "hover"
  ],
- "html": "<button class=\"button\">Enter the game</button>",
- "css": "/* From Uiverse.io by Artahs  - Tags: action, red, button, button */\n.button {\n  cursor: pointer;\n  border: solid;\n  border-color: #5b5958;\n  border-radius: 7px;\n  width: 200px;\n  height: 50px;\n  background-color: #730603;\n  color: #ffc900;\n  font-size: 1rem;\n  font-weight: 600;\n  text-shadow: black 2px 1px;\n  -web-kit-box-shadow: inset 0px 0px 1.5px 2px #000000, 0px 0px 15px 3px #000000;\n  box-shadow: inset 0px 0px 1.5px 2px #000000, 0px 0px 15px 3px #000000;\n}\n.button:hover {\n  background-color: #a50000;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Yellow Skunk 98</title>\n<style>\n/* From Uiverse.io by Artahs - https://uiverse.io/Artahs/yellow-skunk-98 */\n/* From Uiverse.io by Artahs  - Tags: action, red, button, button */\n.button {\n  cursor: pointer;\n  border: solid;\n  border-color: #5b5958;\n  border-radius: 7px;\n  width: 200px;\n  height: 50px;\n  background-color: #730603;\n  color: #ffc900;\n  font-size: 1rem;\n  font-weight: 600;\n  text-shadow: black 2px 1px;\n  -web-kit-box-shadow: inset 0px 0px 1.5px 2px #000000, 0px 0px 15px 3px #000000;\n  box-shadow: inset 0px 0px 1.5px 2px #000000, 0px 0px 15px 3px #000000;\n}\n.button:hover {\n  background-color: #a50000;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Enter the game</button>\n</body>\n</html>\n"
+ "colors": [
+  "#5b5958",
+  "#730603",
+  "#ffc900"
+ ],
+ "fonts": [],
+ "tokens": 196,
+ "size": 784,
+ "html": "<button class=\"button\">Enter the game</button>\n",
+ "css": "/* Yellow Skunk 98 by Artahs — https://uiverse.io/Artahs/yellow-skunk-98 */\n.button {\n  cursor: pointer;\n  border: solid;\n  border-color: #5b5958;\n  border-radius: 7px;\n  width: 200px;\n  height: 50px;\n  background-color: #730603;\n  color: #ffc900;\n  font-size: 1rem;\n  font-weight: 600;\n  text-shadow: black 2px 1px;\n  -web-kit-box-shadow: inset 0px 0px 1.5px 2px #000000, 0px 0px 15px 3px #000000;\n  box-shadow: inset 0px 0px 1.5px 2px #000000, 0px 0px 15px 3px #000000;\n}\n.button:hover {\n  background-color: #a50000;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Yellow Skunk 98</title>\n<style>\n/* Yellow Skunk 98 by Artahs — https://uiverse.io/Artahs/yellow-skunk-98 */\n.button {\n  cursor: pointer;\n  border: solid;\n  border-color: #5b5958;\n  border-radius: 7px;\n  width: 200px;\n  height: 50px;\n  background-color: #730603;\n  color: #ffc900;\n  font-size: 1rem;\n  font-weight: 600;\n  text-shadow: black 2px 1px;\n  -web-kit-box-shadow: inset 0px 0px 1.5px 2px #000000, 0px 0px 15px 3px #000000;\n  box-shadow: inset 0px 0px 1.5px 2px #000000, 0px 0px 15px 3px #000000;\n}\n.button:hover {\n  background-color: #a50000;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Enter the game</button>\n\n</body>\n</html>\n"
 }

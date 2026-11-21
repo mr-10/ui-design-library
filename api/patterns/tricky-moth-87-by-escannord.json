@@ -5,16 +5,25 @@
  "author": "escannord",
  "source": "https://uiverse.io/escannord/tricky-moth-87",
  "trigger": "static",
- "description": "A pattern with simple, blue and plus styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient dark gray pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "blue",
-  "plus",
+  "gradient",
+  "dark",
+  "outlined",
+  "flat",
   "pattern",
-  "static"
+  "simple"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by escannord  - Tags: simple, blue, plus, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: rgb(57, 59, 59);\n  background: radial-gradient(\n    circle at 50%,\n    rgb(41, 39, 39),\n    #333 50%,\n    transparent 51%,\n    #eee 10%,\n    rgb(0, 0, 0) 55% 72%,\n    rgb(15, 96, 189) 50%\n  );\n  background-size: 10px 10px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tricky Moth 87</title>\n<style>\n/* From Uiverse.io by escannord - https://uiverse.io/escannord/tricky-moth-87 */\n/* From Uiverse.io by escannord  - Tags: simple, blue, plus, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: rgb(57, 59, 59);\n  background: radial-gradient(\n    circle at 50%,\n    rgb(41, 39, 39),\n    #333 50%,\n    transparent 51%,\n    #eee 10%,\n    rgb(0, 0, 0) 55% 72%,\n    rgb(15, 96, 189) 50%\n  );\n  background-size: 10px 10px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#333333",
+  "#eeeeee",
+  "#292727"
+ ],
+ "fonts": [],
+ "tokens": 152,
+ "size": 609,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Tricky Moth 87 by escannord — https://uiverse.io/escannord/tricky-moth-87 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background: rgb(57, 59, 59);\n  background: radial-gradient(\n    circle at 50%,\n    rgb(41, 39, 39),\n    #333 50%,\n    transparent 51%,\n    #eee 10%,\n    rgb(0, 0, 0) 55% 72%,\n    rgb(15, 96, 189) 50%\n  );\n  background-size: 10px 10px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tricky Moth 87</title>\n<style>\n/* Tricky Moth 87 by escannord — https://uiverse.io/escannord/tricky-moth-87 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background: rgb(57, 59, 59);\n  background: radial-gradient(\n    circle at 50%,\n    rgb(41, 39, 39),\n    #333 50%,\n    transparent 51%,\n    #eee 10%,\n    rgb(0, 0, 0) 55% 72%,\n    rgb(15, 96, 189) 50%\n  );\n  background-size: 10px 10px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

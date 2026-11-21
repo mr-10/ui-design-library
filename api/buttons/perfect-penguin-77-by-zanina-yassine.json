@@ -5,17 +5,25 @@
  "author": "zanina-yassine",
  "source": "https://uiverse.io/zanina-yassine/perfect-penguin-77",
  "trigger": "hover",
- "description": "A button with blue, minimalist and gradient styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient gray sign up button that scales up on hover.",
+ "howItWorks": "On hover, text color changes from #ffffff to #ffffff, transform becomes scale(1.1) translateY(-3px), opacity becomes 1.",
  "tags": [
-  "blue",
-  "minimalist",
   "gradient",
-  "button",
-  "hover",
-  "rounded"
+  "scale",
+  "lift",
+  "color-change",
+  "fade",
+  "sign-up-button"
  ],
- "html": "<button class=\"button\">Sign Up</button>",
- "css": "/* From Uiverse.io by zanina-yassine  - Tags: blue, minimalist, gradient, button, hover, rounded, dark, glow */\n.button {\n  min-width: 120px;\n\n  position: relative;\n  cursor: pointer;\n\n  padding: 12px 17px;\n  border: 0;\n  border-radius: 7px;\n\n  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);\n  background: radial-gradient(\n    ellipse at bottom,\n    rgba(71, 81, 92, 1) 0%,\n    rgba(11, 21, 30, 1) 45%\n  );\n\n  color: rgb(255, 255, 255, 0.66);\n\n  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);\n}\n\n.button::before {\n  content: \"\";\n  width: 70%;\n  height: 1px;\n\n  position: absolute;\n  bottom: 0;\n  left: 15%;\n\n  background: rgb(255, 255, 255);\n  background: linear-gradient(\n    90deg,\n    rgba(255, 255, 255, 0) 0%,\n    rgba(255, 255, 255, 1) 50%,\n    rgba(255, 255, 255, 0) 100%\n  );\n  opacity: 0.2;\n\n  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);\n}\n\n.button:hover {\n  color: rgb(255, 255, 255, 1);\n  transform: scale(1.1) translateY(-3px);\n}\n\n.button:hover::before {\n  opacity: 1;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Perfect Penguin 77</title>\n<style>\n/* From Uiverse.io by zanina-yassine - https://uiverse.io/zanina-yassine/perfect-penguin-77 */\n/* From Uiverse.io by zanina-yassine  - Tags: blue, minimalist, gradient, button, hover, rounded, dark, glow */\n.button {\n  min-width: 120px;\n\n  position: relative;\n  cursor: pointer;\n\n  padding: 12px 17px;\n  border: 0;\n  border-radius: 7px;\n\n  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);\n  background: radial-gradient(\n    ellipse at bottom,\n    rgba(71, 81, 92, 1) 0%,\n    rgba(11, 21, 30, 1) 45%\n  );\n\n  color: rgb(255, 255, 255, 0.66);\n\n  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);\n}\n\n.button::before {\n  content: \"\";\n  width: 70%;\n  height: 1px;\n\n  position: absolute;\n  bottom: 0;\n  left: 15%;\n\n  background: rgb(255, 255, 255);\n  background: linear-gradient(\n    90deg,\n    rgba(255, 255, 255, 0) 0%,\n    rgba(255, 255, 255, 1) 50%,\n    rgba(255, 255, 255, 0) 100%\n  );\n  opacity: 0.2;\n\n  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);\n}\n\n.button:hover {\n  color: rgb(255, 255, 255, 1);\n  transform: scale(1.1) translateY(-3px);\n}\n\n.button:hover::before {\n  opacity: 1;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Sign Up</button>\n</body>\n</html>\n"
+ "colors": [
+  "#47515c",
+  "#0b151e",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 312,
+ "size": 1252,
+ "html": "<button class=\"button\">Sign Up</button>\n",
+ "css": "/* Perfect Penguin 77 by zanina-yassine — https://uiverse.io/zanina-yassine/perfect-penguin-77 */\n.button {\n  min-width: 120px;\n\n  position: relative;\n  cursor: pointer;\n\n  padding: 12px 17px;\n  border: 0;\n  border-radius: 7px;\n\n  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);\n  background: radial-gradient(\n    ellipse at bottom,\n    rgba(71, 81, 92, 1) 0%,\n    rgba(11, 21, 30, 1) 45%\n  );\n\n  color: rgb(255, 255, 255, 0.66);\n\n  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);\n}\n\n.button::before {\n  content: \"\";\n  width: 70%;\n  height: 1px;\n\n  position: absolute;\n  bottom: 0;\n  left: 15%;\n\n  background: rgb(255, 255, 255);\n  background: linear-gradient(\n    90deg,\n    rgba(255, 255, 255, 0) 0%,\n    rgba(255, 255, 255, 1) 50%,\n    rgba(255, 255, 255, 0) 100%\n  );\n  opacity: 0.2;\n\n  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);\n}\n\n.button:hover {\n  color: rgb(255, 255, 255, 1);\n  transform: scale(1.1) translateY(-3px);\n}\n\n.button:hover::before {\n  opacity: 1;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Perfect Penguin 77</title>\n<style>\n/* Perfect Penguin 77 by zanina-yassine — https://uiverse.io/zanina-yassine/perfect-penguin-77 */\n.button {\n  min-width: 120px;\n\n  position: relative;\n  cursor: pointer;\n\n  padding: 12px 17px;\n  border: 0;\n  border-radius: 7px;\n\n  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);\n  background: radial-gradient(\n    ellipse at bottom,\n    rgba(71, 81, 92, 1) 0%,\n    rgba(11, 21, 30, 1) 45%\n  );\n\n  color: rgb(255, 255, 255, 0.66);\n\n  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);\n}\n\n.button::before {\n  content: \"\";\n  width: 70%;\n  height: 1px;\n\n  position: absolute;\n  bottom: 0;\n  left: 15%;\n\n  background: rgb(255, 255, 255);\n  background: linear-gradient(\n    90deg,\n    rgba(255, 255, 255, 0) 0%,\n    rgba(255, 255, 255, 1) 50%,\n    rgba(255, 255, 255, 0) 100%\n  );\n  opacity: 0.2;\n\n  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);\n}\n\n.button:hover {\n  color: rgb(255, 255, 255, 1);\n  transform: scale(1.1) translateY(-3px);\n}\n\n.button:hover::before {\n  opacity: 1;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Sign Up</button>\n\n</body>\n</html>\n"
 }

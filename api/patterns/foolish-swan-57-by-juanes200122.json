@@ -5,16 +5,24 @@
  "author": "Juanes200122",
  "source": "https://uiverse.io/Juanes200122/foolish-swan-57",
  "trigger": "static",
- "description": "A pattern with simple and html styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient 3d dark black pattern with gradient fill.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "html",
-  "css",
-  "pattern",
-  "static"
+  "gradient",
+  "3d",
+  "dark",
+  "outlined",
+  "flat",
+  "pattern"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by Juanes200122  - Tags: simple, html, css, pattern */\n.container {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  perspective: 1000px;\n  background: linear-gradient(45deg, #000000 25%, transparent 25%),\n    linear-gradient(\n      -135deg,\n      #000000 25%,\n      transparent 25%,\n      transparent 75%,\n      #000000 75%,\n      #000000\n    );\n  background-size: 50px 50px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Foolish Swan 57</title>\n<style>\n/* From Uiverse.io by Juanes200122 - https://uiverse.io/Juanes200122/foolish-swan-57 */\n/* From Uiverse.io by Juanes200122  - Tags: simple, html, css, pattern */\n.container {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  perspective: 1000px;\n  background: linear-gradient(45deg, #000000 25%, transparent 25%),\n    linear-gradient(\n      -135deg,\n      #000000 25%,\n      transparent 25%,\n      transparent 75%,\n      #000000 75%,\n      #000000\n    );\n  background-size: 50px 50px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 166,
+ "size": 664,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Foolish Swan 57 by Juanes200122 — https://uiverse.io/Juanes200122/foolish-swan-57 */\n.container {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  perspective: 1000px;\n  background: linear-gradient(45deg, #000000 25%, transparent 25%),\n    linear-gradient(\n      -135deg,\n      #000000 25%,\n      transparent 25%,\n      transparent 75%,\n      #000000 75%,\n      #000000\n    );\n  background-size: 50px 50px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Foolish Swan 57</title>\n<style>\n/* Foolish Swan 57 by Juanes200122 — https://uiverse.io/Juanes200122/foolish-swan-57 */\n.container {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  perspective: 1000px;\n  background: linear-gradient(45deg, #000000 25%, transparent 25%),\n    linear-gradient(\n      -135deg,\n      #000000 25%,\n      transparent 25%,\n      transparent 75%,\n      #000000 75%,\n      #000000\n    );\n  background-size: 50px 50px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

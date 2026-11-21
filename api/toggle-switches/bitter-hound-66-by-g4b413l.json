@@ -5,15 +5,25 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/bitter-hound-66",
  "trigger": "checked",
- "description": "A toggle switch with minimalist and switch styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Pill red toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: background-color changes from #ccc to #06a606, transform becomes translateX(30px), background changes from #ccc to limegreen.",
  "tags": [
-  "minimalist",
-  "switch",
-  "toggle-switches",
-  "checked"
+  "red",
+  "green",
+  "rounded",
+  "pill",
+  "flat",
+  "toggle-switch"
  ],
- "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>",
- "css": "/* From Uiverse.io by G4b413l - Tags: minimalist, switch */\n.switch {\n position: relative;\n width: 55px;\n height: 15px;\n}\n\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n border-radius: 34px;\n background-color: #ccc;\n -webkit-transition: .4s;\n transition: .4s;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 26px;\n width: 26px;\n left: 0px;\n bottom: -5px;\n background-color: red;\n -webkit-transition: .4s;\n transition: .4s;\n box-sizing: border-box;\n border: 10px solid white;\n border-radius: 50%;\n}\n\ninput:checked + .slider {\n background-color: #06a606;\n}\n\ninput:checked + .slider:before {\n -webkit-transform: translateX(26px);\n -ms-transform: translateX(26px);\n transform: translateX(30px);\n background: limegreen;\n box-sizing: border-box;\n border: 10px solid white;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Hound 66</title>\n<style>\n/* From Uiverse.io by G4b413l - https://uiverse.io/G4b413l/bitter-hound-66 */\n/* From Uiverse.io by G4b413l - Tags: minimalist, switch */\n.switch {\n position: relative;\n width: 55px;\n height: 15px;\n}\n\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n border-radius: 34px;\n background-color: #ccc;\n -webkit-transition: .4s;\n transition: .4s;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 26px;\n width: 26px;\n left: 0px;\n bottom: -5px;\n background-color: red;\n -webkit-transition: .4s;\n transition: .4s;\n box-sizing: border-box;\n border: 10px solid white;\n border-radius: 50%;\n}\n\ninput:checked + .slider {\n background-color: #06a606;\n}\n\ninput:checked + .slider:before {\n -webkit-transform: translateX(26px);\n -ms-transform: translateX(26px);\n transform: translateX(30px);\n background: limegreen;\n box-sizing: border-box;\n border: 10px solid white;\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#cccccc",
+  "#ff0000",
+  "#06a606"
+ ],
+ "fonts": [],
+ "tokens": 302,
+ "size": 1208,
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n",
+ "css": "/* Bitter Hound 66 by G4b413l — https://uiverse.io/G4b413l/bitter-hound-66 */\n.switch {\n position: relative;\n width: 55px;\n height: 15px;\n}\n\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n border-radius: 34px;\n background-color: #ccc;\n -webkit-transition: .4s;\n transition: .4s;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 26px;\n width: 26px;\n left: 0px;\n bottom: -5px;\n background-color: red;\n -webkit-transition: .4s;\n transition: .4s;\n box-sizing: border-box;\n border: 10px solid white;\n border-radius: 50%;\n}\n\ninput:checked + .slider {\n background-color: #06a606;\n}\n\ninput:checked + .slider:before {\n -webkit-transform: translateX(26px);\n -ms-transform: translateX(26px);\n transform: translateX(30px);\n background: limegreen;\n box-sizing: border-box;\n border: 10px solid white;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Hound 66</title>\n<style>\n/* Bitter Hound 66 by G4b413l — https://uiverse.io/G4b413l/bitter-hound-66 */\n.switch {\n position: relative;\n width: 55px;\n height: 15px;\n}\n\n.switch input {\n opacity: 0;\n width: 0;\n height: 0;\n}\n\n.slider {\n position: absolute;\n cursor: pointer;\n top: 0;\n left: 0;\n right: 0;\n bottom: 0;\n border-radius: 34px;\n background-color: #ccc;\n -webkit-transition: .4s;\n transition: .4s;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n height: 26px;\n width: 26px;\n left: 0px;\n bottom: -5px;\n background-color: red;\n -webkit-transition: .4s;\n transition: .4s;\n box-sizing: border-box;\n border: 10px solid white;\n border-radius: 50%;\n}\n\ninput:checked + .slider {\n background-color: #06a606;\n}\n\ninput:checked + .slider:before {\n -webkit-transform: translateX(26px);\n -ms-transform: translateX(26px);\n transform: translateX(30px);\n background: limegreen;\n box-sizing: border-box;\n border: 10px solid white;\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n\n</body>\n</html>\n"
 }

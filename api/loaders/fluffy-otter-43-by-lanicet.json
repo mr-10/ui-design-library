@@ -5,14 +5,24 @@
  "author": "Lanicet",
  "source": "https://uiverse.io/Lanicet/fluffy-otter-43",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Rounded green loader with growing and shrinking motion in a loop.",
+ "howItWorks": "It loops a 10s animation (growing and shrinking).",
  "tags": [
+  "green",
+  "rounded",
   "loader",
   "auto-loop",
   "css"
  ],
- "html": "<div id=\"myProgress\">\n  <div id=\"myBar\"></div>\n</div>",
- "css": "/* From Uiverse.io by Lanicet - Tags: loader */\n#myProgress {\n  width: 100px;\n  max-width: 200px;\n  background: #F4F4F4;\n  box-shadow: inset -1px 1px 2px rgba(200, 200, 200, 0.2), inset 1px -1px 2px rgba(200, 200, 200, 0.2), inset -1px -1px 2px rgba(255, 255, 255, 0.9), inset 1px 1px 3px rgba(200, 200, 200, 0.9);\n  border-radius: 28px;\n  overflow: hidden;\n}\n\n#myBar {\n  width: 10%;\n  height: 30px;\n  background: rgba(0, 209, 0, 0.35);\n  border-radius: 28px;\n  text-align: center;\n  line-height: 30px;\n  color: white;\n  transition: 0.5s;\n  animation: loading82341 10s ease infinite;\n}\n\n@keyframes loading82341 {\n  0% {\n    width: 0%;\n  }\n\n  10% {\n    width: 10%;\n  }\n\n  50% {\n    width: 40%;\n  }\n\n  60% {\n    width: 60%;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Otter 43</title>\n<style>\n/* From Uiverse.io by Lanicet - https://uiverse.io/Lanicet/fluffy-otter-43 */\n/* From Uiverse.io by Lanicet - Tags: loader */\n#myProgress {\n  width: 100px;\n  max-width: 200px;\n  background: #F4F4F4;\n  box-shadow: inset -1px 1px 2px rgba(200, 200, 200, 0.2), inset 1px -1px 2px rgba(200, 200, 200, 0.2), inset -1px -1px 2px rgba(255, 255, 255, 0.9), inset 1px 1px 3px rgba(200, 200, 200, 0.9);\n  border-radius: 28px;\n  overflow: hidden;\n}\n\n#myBar {\n  width: 10%;\n  height: 30px;\n  background: rgba(0, 209, 0, 0.35);\n  border-radius: 28px;\n  text-align: center;\n  line-height: 30px;\n  color: white;\n  transition: 0.5s;\n  animation: loading82341 10s ease infinite;\n}\n\n@keyframes loading82341 {\n  0% {\n    width: 0%;\n  }\n\n  10% {\n    width: 10%;\n  }\n\n  50% {\n    width: 40%;\n  }\n\n  60% {\n    width: 60%;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n</style>\n</head>\n<body>\n<div id=\"myProgress\">\n  <div id=\"myBar\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#c8c8c8",
+  "#f4f4f4",
+  "#00d100"
+ ],
+ "fonts": [],
+ "tokens": 264,
+ "size": 1059,
+ "html": "<div id=\"myProgress\">\n  <div id=\"myBar\"></div>\n</div>\n",
+ "css": "/* Fluffy Otter 43 by Lanicet — https://uiverse.io/Lanicet/fluffy-otter-43 */\n#myProgress {\n  width: 100px;\n  max-width: 200px;\n  background: #F4F4F4;\n  box-shadow: inset -1px 1px 2px rgba(200, 200, 200, 0.2), inset 1px -1px 2px rgba(200, 200, 200, 0.2), inset -1px -1px 2px rgba(255, 255, 255, 0.9), inset 1px 1px 3px rgba(200, 200, 200, 0.9);\n  border-radius: 28px;\n  overflow: hidden;\n}\n\n#myBar {\n  width: 10%;\n  height: 30px;\n  background: rgba(0, 209, 0, 0.35);\n  border-radius: 28px;\n  text-align: center;\n  line-height: 30px;\n  color: white;\n  transition: 0.5s;\n  animation: loading82341 10s ease infinite;\n}\n\n@keyframes loading82341 {\n  0% {\n    width: 0%;\n  }\n\n  10% {\n    width: 10%;\n  }\n\n  50% {\n    width: 40%;\n  }\n\n  60% {\n    width: 60%;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Otter 43</title>\n<style>\n/* Fluffy Otter 43 by Lanicet — https://uiverse.io/Lanicet/fluffy-otter-43 */\n#myProgress {\n  width: 100px;\n  max-width: 200px;\n  background: #F4F4F4;\n  box-shadow: inset -1px 1px 2px rgba(200, 200, 200, 0.2), inset 1px -1px 2px rgba(200, 200, 200, 0.2), inset -1px -1px 2px rgba(255, 255, 255, 0.9), inset 1px 1px 3px rgba(200, 200, 200, 0.9);\n  border-radius: 28px;\n  overflow: hidden;\n}\n\n#myBar {\n  width: 10%;\n  height: 30px;\n  background: rgba(0, 209, 0, 0.35);\n  border-radius: 28px;\n  text-align: center;\n  line-height: 30px;\n  color: white;\n  transition: 0.5s;\n  animation: loading82341 10s ease infinite;\n}\n\n@keyframes loading82341 {\n  0% {\n    width: 0%;\n  }\n\n  10% {\n    width: 10%;\n  }\n\n  50% {\n    width: 40%;\n  }\n\n  60% {\n    width: 60%;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n</style>\n</head>\n<body>\n<div id=\"myProgress\">\n  <div id=\"myBar\"></div>\n</div>\n\n</body>\n</html>\n"
 }

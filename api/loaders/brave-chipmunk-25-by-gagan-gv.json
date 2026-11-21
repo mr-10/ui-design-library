@@ -5,14 +5,24 @@
  "author": "gagan-gv",
  "source": "https://uiverse.io/gagan-gv/brave-chipmunk-25",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "3d sky-blue loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 7s animation (rotating, sliding).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "blue",
+  "3d",
+  "flat",
+  "spin",
+  "slide",
+  "loader"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by gagan-gv - Tags: loader */\n.loader {\n  width: 60px;\n  height: 60px;\n  background: #4285f4;\n  border-radius: 10%;\n  animation: dice3 7s ease-in-out infinite;\n  filter: drop-shadow(2px 3px 40px #444);\n}\n\n@keyframes dice3 {\n  from, to {\n    transform: translateX(-50px) rotateX(0deg);\n  }\n\n  25% {\n    background: #db4437;\n  }\n\n  50% {\n    background: #f4b400;\n    transform: translateX(50px) rotate(360deg);\n  }\n\n  75% {\n    background: #0f9d58;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Brave Chipmunk 25</title>\n<style>\n/* From Uiverse.io by gagan-gv - https://uiverse.io/gagan-gv/brave-chipmunk-25 */\n/* From Uiverse.io by gagan-gv - Tags: loader */\n.loader {\n  width: 60px;\n  height: 60px;\n  background: #4285f4;\n  border-radius: 10%;\n  animation: dice3 7s ease-in-out infinite;\n  filter: drop-shadow(2px 3px 40px #444);\n}\n\n@keyframes dice3 {\n  from, to {\n    transform: translateX(-50px) rotateX(0deg);\n  }\n\n  25% {\n    background: #db4437;\n  }\n\n  50% {\n    background: #f4b400;\n    transform: translateX(50px) rotate(360deg);\n  }\n\n  75% {\n    background: #0f9d58;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#4285f4",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 188,
+ "size": 752,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Brave Chipmunk 25 by gagan-gv — https://uiverse.io/gagan-gv/brave-chipmunk-25 */\n.loader {\n  width: 60px;\n  height: 60px;\n  background: #4285f4;\n  border-radius: 10%;\n  animation: dice3 7s ease-in-out infinite;\n  filter: drop-shadow(2px 3px 40px #444);\n}\n\n@keyframes dice3 {\n  from, to {\n    transform: translateX(-50px) rotateX(0deg);\n  }\n\n  25% {\n    background: #db4437;\n  }\n\n  50% {\n    background: #f4b400;\n    transform: translateX(50px) rotate(360deg);\n  }\n\n  75% {\n    background: #0f9d58;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Brave Chipmunk 25</title>\n<style>\n/* Brave Chipmunk 25 by gagan-gv — https://uiverse.io/gagan-gv/brave-chipmunk-25 */\n.loader {\n  width: 60px;\n  height: 60px;\n  background: #4285f4;\n  border-radius: 10%;\n  animation: dice3 7s ease-in-out infinite;\n  filter: drop-shadow(2px 3px 40px #444);\n}\n\n@keyframes dice3 {\n  from, to {\n    transform: translateX(-50px) rotateX(0deg);\n  }\n\n  25% {\n    background: #db4437;\n  }\n\n  50% {\n    background: #f4b400;\n    transform: translateX(50px) rotate(360deg);\n  }\n\n  75% {\n    background: #0f9d58;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

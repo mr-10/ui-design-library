@@ -5,15 +5,24 @@
  "author": "Praashoo7",
  "source": "https://uiverse.io/Praashoo7/angry-starfish-78",
  "trigger": "checked",
- "description": "A toggle switch with neumorphism and switch styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Gray toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: background-color changes from #ccc to #171717, box-shadow becomes inset 2px 5px 10px #000000, transform becomes translateX(2.8em) rotate(360deg).",
  "tags": [
+  "toggle-switch",
   "neumorphism",
   "switch",
   "toggle-switches",
   "checked"
  ],
- "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>",
- "css": "/* From Uiverse.io by Praashoo7 - Tags: neumorphism, switch */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);\n  transition: .4s;\n  border-radius: 5px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 0.1em;\n  border-radius: 0px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: .4s;\n}\n\ninput:checked + .slider {\n  background-color: #171717;\n  box-shadow: inset 2px 5px 10px rgb(0, 0, 0);\n}\n\ninput:checked + .slider:before {\n  transform: translateX(2.8em) rotate(360deg);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Angry Starfish 78</title>\n<style>\n/* From Uiverse.io by Praashoo7 - https://uiverse.io/Praashoo7/angry-starfish-78 */\n/* From Uiverse.io by Praashoo7 - Tags: neumorphism, switch */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);\n  transition: .4s;\n  border-radius: 5px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 0.1em;\n  border-radius: 0px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: .4s;\n}\n\ninput:checked + .slider {\n  background-color: #171717;\n  box-shadow: inset 2px 5px 10px rgb(0, 0, 0);\n}\n\ninput:checked + .slider:before {\n  transform: translateX(2.8em) rotate(360deg);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#cccccc",
+  "#171717",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 288,
+ "size": 1155,
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n",
+ "css": "/* Angry Starfish 78 by Praashoo7 — https://uiverse.io/Praashoo7/angry-starfish-78 */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);\n  transition: .4s;\n  border-radius: 5px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 0.1em;\n  border-radius: 0px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: .4s;\n}\n\ninput:checked + .slider {\n  background-color: #171717;\n  box-shadow: inset 2px 5px 10px rgb(0, 0, 0);\n}\n\ninput:checked + .slider:before {\n  transform: translateX(2.8em) rotate(360deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Angry Starfish 78</title>\n<style>\n/* Angry Starfish 78 by Praashoo7 — https://uiverse.io/Praashoo7/angry-starfish-78 */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);\n  transition: .4s;\n  border-radius: 5px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 0.1em;\n  border-radius: 0px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: .4s;\n}\n\ninput:checked + .slider {\n  background-color: #171717;\n  box-shadow: inset 2px 5px 10px rgb(0, 0, 0);\n}\n\ninput:checked + .slider:before {\n  transform: translateX(2.8em) rotate(360deg);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n\n</body>\n</html>\n"
 }

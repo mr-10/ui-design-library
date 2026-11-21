@@ -5,14 +5,25 @@
  "author": "Cksunandh",
  "source": "https://uiverse.io/Cksunandh/nice-panda-34",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Blue loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1s animation (rotating).",
  "tags": [
+  "blue",
+  "indigo",
+  "flat",
+  "spin",
   "loader",
-  "auto-loop",
-  "css"
+  "auto-loop"
  ],
- "html": "<div class=\"cssloader\">\n  <div class=\"triangle1\"></div>\n  <div class=\"triangle2\"></div>\n  <p class=\"text\">Please Wait</p>\n</div>",
- "css": "/* From Uiverse.io by Cksunandh  - Tags: loader */\n.triangle1 {\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 50px 50px 0 0;\n  border-color: #8086e0 transparent transparent transparent;\n  margin: 0 auto;\n  animation: shk1 1s ease-in-out infinite normal;\n}\n\n.triangle2 {\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 0 0 50px 50px;\n  border-color: transparent transparent #6554b388 transparent;\n  margin: -50px auto 0;\n  animation: shk2 1s ease-in-out infinite alternate;\n}\n@keyframes shk1 {\n  0% {\n    transform: rotate(-360deg);\n  }\n\n  100% {\n  }\n}\n\n@keyframes shk2 {\n  0% {\n    transform: rotate(360deg);\n  }\n  100% {\n  }\n}\n\n.text {\n  color: #949494;\n  margin: 30px auto;\n  text-align: center;\n  font-weight: 500;\n  letter-spacing: 4px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nice Panda 34</title>\n<style>\n/* From Uiverse.io by Cksunandh - https://uiverse.io/Cksunandh/nice-panda-34 */\n/* From Uiverse.io by Cksunandh  - Tags: loader */\n.triangle1 {\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 50px 50px 0 0;\n  border-color: #8086e0 transparent transparent transparent;\n  margin: 0 auto;\n  animation: shk1 1s ease-in-out infinite normal;\n}\n\n.triangle2 {\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 0 0 50px 50px;\n  border-color: transparent transparent #6554b388 transparent;\n  margin: -50px auto 0;\n  animation: shk2 1s ease-in-out infinite alternate;\n}\n@keyframes shk1 {\n  0% {\n    transform: rotate(-360deg);\n  }\n\n  100% {\n  }\n}\n\n@keyframes shk2 {\n  0% {\n    transform: rotate(360deg);\n  }\n  100% {\n  }\n}\n\n.text {\n  color: #949494;\n  margin: 30px auto;\n  text-align: center;\n  font-weight: 500;\n  letter-spacing: 4px;\n}\n</style>\n</head>\n<body>\n<div class=\"cssloader\">\n  <div class=\"triangle1\"></div>\n  <div class=\"triangle2\"></div>\n  <p class=\"text\">Please Wait</p>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#8086e0",
+  "#6554b3",
+  "#949494"
+ ],
+ "fonts": [],
+ "tokens": 286,
+ "size": 1147,
+ "html": "<div class=\"cssloader\">\n  <div class=\"triangle1\"></div>\n  <div class=\"triangle2\"></div>\n  <p class=\"text\">Please Wait</p>\n</div>\n",
+ "css": "/* Nice Panda 34 by Cksunandh — https://uiverse.io/Cksunandh/nice-panda-34 */\n.triangle1 {\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 50px 50px 0 0;\n  border-color: #8086e0 transparent transparent transparent;\n  margin: 0 auto;\n  animation: shk1 1s ease-in-out infinite normal;\n}\n\n.triangle2 {\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 0 0 50px 50px;\n  border-color: transparent transparent #6554b388 transparent;\n  margin: -50px auto 0;\n  animation: shk2 1s ease-in-out infinite alternate;\n}\n@keyframes shk1 {\n  0% {\n    transform: rotate(-360deg);\n  }\n\n  100% {\n  }\n}\n\n@keyframes shk2 {\n  0% {\n    transform: rotate(360deg);\n  }\n  100% {\n  }\n}\n\n.text {\n  color: #949494;\n  margin: 30px auto;\n  text-align: center;\n  font-weight: 500;\n  letter-spacing: 4px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nice Panda 34</title>\n<style>\n/* Nice Panda 34 by Cksunandh — https://uiverse.io/Cksunandh/nice-panda-34 */\n.triangle1 {\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 50px 50px 0 0;\n  border-color: #8086e0 transparent transparent transparent;\n  margin: 0 auto;\n  animation: shk1 1s ease-in-out infinite normal;\n}\n\n.triangle2 {\n  width: 0;\n  height: 0;\n  border-style: solid;\n  border-width: 0 0 50px 50px;\n  border-color: transparent transparent #6554b388 transparent;\n  margin: -50px auto 0;\n  animation: shk2 1s ease-in-out infinite alternate;\n}\n@keyframes shk1 {\n  0% {\n    transform: rotate(-360deg);\n  }\n\n  100% {\n  }\n}\n\n@keyframes shk2 {\n  0% {\n    transform: rotate(360deg);\n  }\n  100% {\n  }\n}\n\n.text {\n  color: #949494;\n  margin: 30px auto;\n  text-align: center;\n  font-weight: 500;\n  letter-spacing: 4px;\n}\n</style>\n</head>\n<body>\n<div class=\"cssloader\">\n  <div class=\"triangle1\"></div>\n  <div class=\"triangle2\"></div>\n  <p class=\"text\">Please Wait</p>\n</div>\n\n</body>\n</html>\n"
 }

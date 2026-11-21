@@ -5,14 +5,23 @@
  "author": "Webdevava",
  "source": "https://uiverse.io/Webdevava/purple-tiger-90",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark black button that reacts on hover with a smooth transition.",
+ "howItWorks": "On hover, border becomes 3px solid #fff, transform becomes rotate3d(0, 1, 0.5, 360deg).",
  "tags": [
+  "dark",
+  "flat",
   "button",
   "hover",
   "css"
  ],
- "html": "<button>\n  Button\n</button>",
- "css": "/* From Uiverse.io by Webdevava - Tags: button */\nbutton {\n  background: #111;\n  border: none;\n  padding: 10px 14px;\n  border-radius: 6px;\n  color: #fff;\n  font-size: 30px;\n}\n\nbutton:hover {\n  border: 3px solid #fff;\n  transform: rotate3d(0, 1, 0.5, 360deg);\n  transition: 1.5s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Tiger 90</title>\n<style>\n/* From Uiverse.io by Webdevava - https://uiverse.io/Webdevava/purple-tiger-90 */\n/* From Uiverse.io by Webdevava - Tags: button */\nbutton {\n  background: #111;\n  border: none;\n  padding: 10px 14px;\n  border-radius: 6px;\n  color: #fff;\n  font-size: 30px;\n}\n\nbutton:hover {\n  border: 3px solid #fff;\n  transform: rotate3d(0, 1, 0.5, 360deg);\n  transition: 1.5s;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#111111",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 139,
+ "size": 557,
+ "html": "<button>\n  Button\n</button>\n",
+ "css": "/* Purple Tiger 90 by Webdevava — https://uiverse.io/Webdevava/purple-tiger-90 */\nbutton {\n  background: #111;\n  border: none;\n  padding: 10px 14px;\n  border-radius: 6px;\n  color: #fff;\n  font-size: 30px;\n}\n\nbutton:hover {\n  border: 3px solid #fff;\n  transform: rotate3d(0, 1, 0.5, 360deg);\n  transition: 1.5s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Tiger 90</title>\n<style>\n/* Purple Tiger 90 by Webdevava — https://uiverse.io/Webdevava/purple-tiger-90 */\nbutton {\n  background: #111;\n  border: none;\n  padding: 10px 14px;\n  border-radius: 6px;\n  color: #fff;\n  font-size: 30px;\n}\n\nbutton:hover {\n  border: 3px solid #fff;\n  transform: rotate3d(0, 1, 0.5, 360deg);\n  transition: 1.5s;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,25 @@
  "author": "Praashoo7",
  "source": "https://uiverse.io/Praashoo7/brown-quail-45",
  "trigger": "hover",
- "description": "A button with neumorphism styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined rounded black button that lifts on hover.",
+ "howItWorks": "On hover, letter-spacing becomes 0.5em, transform becomes translateY(-0.8em), background changes to #171717.",
  "tags": [
-  "neumorphism",
-  "button",
-  "hover"
+  "outlined",
+  "rounded",
+  "lift",
+  "color-change",
+  "expand",
+  "neumorphism"
  ],
- "html": "<button>\n  BUTTON\n</button>",
- "css": "/* From Uiverse.io by Praashoo7 - Tags: neumorphism, button, hover */\nbutton {\n  padding: 1em;\n  padding-left: 2em;\n  padding-right: 2em;\n  border-radius: 15px;\n  font-weight: bold;\n  transition: .4s ease-in-out;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.2);\n  letter-spacing: 0.2em;\n  border: none;\n}\n\nbutton:hover {\n  letter-spacing: 0.5em;\n  transform: translateY(-0.8em);\n  background: #171717;\n  color: white;\n}\n\nbutton:active {\n  letter-spacing: 0.4em;\n  transition: 0.1s all;\n  transform: translateY(-0.6em);\n  background: #171717;\n  color: white;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Brown Quail 45</title>\n<style>\n/* From Uiverse.io by Praashoo7 - https://uiverse.io/Praashoo7/brown-quail-45 */\n/* From Uiverse.io by Praashoo7 - Tags: neumorphism, button, hover */\nbutton {\n  padding: 1em;\n  padding-left: 2em;\n  padding-right: 2em;\n  border-radius: 15px;\n  font-weight: bold;\n  transition: .4s ease-in-out;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.2);\n  letter-spacing: 0.2em;\n  border: none;\n}\n\nbutton:hover {\n  letter-spacing: 0.5em;\n  transform: translateY(-0.8em);\n  background: #171717;\n  color: white;\n}\n\nbutton:active {\n  letter-spacing: 0.4em;\n  transition: 0.1s all;\n  transform: translateY(-0.6em);\n  background: #171717;\n  color: white;\n}\n</style>\n</head>\n<body>\n<button>\n  BUTTON\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#171717",
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 203,
+ "size": 814,
+ "html": "<button>\n  BUTTON\n</button>\n",
+ "css": "/* Brown Quail 45 by Praashoo7 — https://uiverse.io/Praashoo7/brown-quail-45 */\nbutton {\n  padding: 1em;\n  padding-left: 2em;\n  padding-right: 2em;\n  border-radius: 15px;\n  font-weight: bold;\n  transition: .4s ease-in-out;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.2);\n  letter-spacing: 0.2em;\n  border: none;\n}\n\nbutton:hover {\n  letter-spacing: 0.5em;\n  transform: translateY(-0.8em);\n  background: #171717;\n  color: white;\n}\n\nbutton:active {\n  letter-spacing: 0.4em;\n  transition: 0.1s all;\n  transform: translateY(-0.6em);\n  background: #171717;\n  color: white;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Brown Quail 45</title>\n<style>\n/* Brown Quail 45 by Praashoo7 — https://uiverse.io/Praashoo7/brown-quail-45 */\nbutton {\n  padding: 1em;\n  padding-left: 2em;\n  padding-right: 2em;\n  border-radius: 15px;\n  font-weight: bold;\n  transition: .4s ease-in-out;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.2);\n  letter-spacing: 0.2em;\n  border: none;\n}\n\nbutton:hover {\n  letter-spacing: 0.5em;\n  transform: translateY(-0.8em);\n  background: #171717;\n  color: white;\n}\n\nbutton:active {\n  letter-spacing: 0.4em;\n  transition: 0.1s all;\n  transform: translateY(-0.6em);\n  background: #171717;\n  color: white;\n}\n</style>\n</head>\n<body>\n<button>\n  BUTTON\n</button>\n\n</body>\n</html>\n"
 }

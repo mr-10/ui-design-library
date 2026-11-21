@@ -5,15 +5,25 @@
  "author": "csemszepp",
  "source": "https://uiverse.io/csemszepp/ugly-bear-28",
  "trigger": "static",
- "description": "A pattern with simple and material-design styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient red pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "material-design",
+  "red",
+  "gradient",
+  "flat",
   "pattern",
-  "static"
+  "simple",
+  "material-design"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by csemszepp - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: #fff;\n  filter: contrast(7);\n  --mask: linear-gradient(red, rgba(0, 0, 0, 0.45));\n}\n\n.container::before {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  background: radial-gradient(#000, transparent) 0 0/1em 1em space;\n  -webkit-mask: var(--mask);\n  mask: var(--mask);\n  content: \"\";\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Bear 28</title>\n<style>\n/* From Uiverse.io by csemszepp - https://uiverse.io/csemszepp/ugly-bear-28 */\n/* From Uiverse.io by csemszepp - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: #fff;\n  filter: contrast(7);\n  --mask: linear-gradient(red, rgba(0, 0, 0, 0.45));\n}\n\n.container::before {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  background: radial-gradient(#000, transparent) 0 0/1em 1em space;\n  -webkit-mask: var(--mask);\n  mask: var(--mask);\n  content: \"\";\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff0000",
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 176,
+ "size": 708,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Ugly Bear 28 by csemszepp — https://uiverse.io/csemszepp/ugly-bear-28 */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: #fff;\n  filter: contrast(7);\n  --mask: linear-gradient(red, rgba(0, 0, 0, 0.45));\n}\n\n.container::before {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  background: radial-gradient(#000, transparent) 0 0/1em 1em space;\n  -webkit-mask: var(--mask);\n  mask: var(--mask);\n  content: \"\";\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Bear 28</title>\n<style>\n/* Ugly Bear 28 by csemszepp — https://uiverse.io/csemszepp/ugly-bear-28 */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: #fff;\n  filter: contrast(7);\n  --mask: linear-gradient(red, rgba(0, 0, 0, 0.45));\n}\n\n.container::before {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  background: radial-gradient(#000, transparent) 0 0/1em 1em space;\n  -webkit-mask: var(--mask);\n  mask: var(--mask);\n  content: \"\";\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

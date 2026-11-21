@@ -4,15 +4,25 @@
  "category": "buttons",
  "author": "AlimurtuzaCodes",
  "source": "https://uiverse.io/AlimurtuzaCodes/blue-quail-54",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Rounded white submit button that slides on hover.",
+ "howItWorks": "On hover, background changes and it shifts position and text colour changes and border changes.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "rounded",
+  "color-change",
+  "slide",
+  "submit",
+  "submit-button",
+  "buttons"
  ],
- "html": "<!-- From Uiverse.io by AlimurtuzaCodes - Tags: button, rounded button, hover button, css button, tailwind, tailwindbutton -->\n<button class=\"bg-white w-36 h-12 rounded-md border-2 border-[#333] cursor-pointer relative group hover:bg-[#333] transition duration-300 ease-in hover:-translate-x-2 hover:translate-y-2\">\n  <h1 class=\"group-hover:text-white text-[#333] font-bold\">SUBMIT</h1>\n  <div class=\"rounded-md group-hover:border-0 w-36 h-12 border-2 border-[#333] absolute top-1 -left-2 -z-10\">\n  <div class=\"rounded-md group-hover:border-0 w-36 h-12 border-2 border-[#333] absolute top-1 -left-2 -z-10\">\n</div></div></button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Blue Quail 54</title>\n<style>\n/* From Uiverse.io by AlimurtuzaCodes - https://uiverse.io/AlimurtuzaCodes/blue-quail-54 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by AlimurtuzaCodes - Tags: button, rounded button, hover button, css button, tailwind, tailwindbutton -->\n<button class=\"bg-white w-36 h-12 rounded-md border-2 border-[#333] cursor-pointer relative group hover:bg-[#333] transition duration-300 ease-in hover:-translate-x-2 hover:translate-y-2\">\n  <h1 class=\"group-hover:text-white text-[#333] font-bold\">SUBMIT</h1>\n  <div class=\"rounded-md group-hover:border-0 w-36 h-12 border-2 border-[#333] absolute top-1 -left-2 -z-10\">\n  <div class=\"rounded-md group-hover:border-0 w-36 h-12 border-2 border-[#333] absolute top-1 -left-2 -z-10\">\n</div></div></button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 201,
+ "size": 807,
+ "html": "<button class=\"bg-white w-36 h-12 rounded-md border-2 border-[#333] cursor-pointer relative group hover:bg-[#333] transition duration-300 ease-in hover:-translate-x-2 hover:translate-y-2\">\n  <h1 class=\"group-hover:text-white text-[#333] font-bold\">SUBMIT</h1>\n  <div class=\"rounded-md group-hover:border-0 w-36 h-12 border-2 border-[#333] absolute top-1 -left-2 -z-10\">\n  <div class=\"rounded-md group-hover:border-0 w-36 h-12 border-2 border-[#333] absolute top-1 -left-2 -z-10\">\n</div></div></button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Blue Quail 54</title>\n<style>\n/* Blue Quail 54 by AlimurtuzaCodes — https://uiverse.io/AlimurtuzaCodes/blue-quail-54 */\n\n</style>\n</head>\n<body>\n<button class=\"bg-white w-36 h-12 rounded-md border-2 border-[#333] cursor-pointer relative group hover:bg-[#333] transition duration-300 ease-in hover:-translate-x-2 hover:translate-y-2\">\n  <h1 class=\"group-hover:text-white text-[#333] font-bold\">SUBMIT</h1>\n  <div class=\"rounded-md group-hover:border-0 w-36 h-12 border-2 border-[#333] absolute top-1 -left-2 -z-10\">\n  <div class=\"rounded-md group-hover:border-0 w-36 h-12 border-2 border-[#333] absolute top-1 -left-2 -z-10\">\n</div></div></button>\n\n</body>\n</html>\n"
 }

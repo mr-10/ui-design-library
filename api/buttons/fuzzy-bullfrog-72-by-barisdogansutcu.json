@@ -5,14 +5,24 @@
  "author": "barisdogansutcu",
  "source": "https://uiverse.io/barisdogansutcu/fuzzy-bullfrog-72",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded white button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, letter-spacing becomes 3px, background-color changes from #ffffff to hsl(261deg 80% 48%), text color changes to hsl(0, 0%, 100%).",
  "tags": [
+  "rounded",
+  "glow",
+  "color-change",
+  "expand",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button> Button\n</button>",
- "css": "/* From Uiverse.io by barisdogansutcu - Tags: button */\nbutton {\n padding: 17px 40px;\n border-radius: 50px;\n border: 0;\n background-color: white;\n box-shadow: rgb(0 0 0 / 5%) 0 0 8px;\n letter-spacing: 1.5px;\n text-transform: uppercase;\n font-size: 15px;\n transition: all .5s ease;\n}\n\nbutton:hover {\n letter-spacing: 3px;\n background-color: hsl(261deg 80% 48%);\n color: hsl(0, 0%, 100%);\n box-shadow: rgb(93 24 220) 0px 7px 29px 0px;\n}\n\nbutton:active {\n letter-spacing: 3px;\n background-color: hsl(261deg 80% 48%);\n color: hsl(0, 0%, 100%);\n box-shadow: rgb(93 24 220) 0px 0px 0px 0px;\n transform: translateY(10px);\n transition: 100ms;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fuzzy Bullfrog 72</title>\n<style>\n/* From Uiverse.io by barisdogansutcu - https://uiverse.io/barisdogansutcu/fuzzy-bullfrog-72 */\n/* From Uiverse.io by barisdogansutcu - Tags: button */\nbutton {\n padding: 17px 40px;\n border-radius: 50px;\n border: 0;\n background-color: white;\n box-shadow: rgb(0 0 0 / 5%) 0 0 8px;\n letter-spacing: 1.5px;\n text-transform: uppercase;\n font-size: 15px;\n transition: all .5s ease;\n}\n\nbutton:hover {\n letter-spacing: 3px;\n background-color: hsl(261deg 80% 48%);\n color: hsl(0, 0%, 100%);\n box-shadow: rgb(93 24 220) 0px 7px 29px 0px;\n}\n\nbutton:active {\n letter-spacing: 3px;\n background-color: hsl(261deg 80% 48%);\n color: hsl(0, 0%, 100%);\n box-shadow: rgb(93 24 220) 0px 0px 0px 0px;\n transform: translateY(10px);\n transition: 100ms;\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 230,
+ "size": 923,
+ "html": "<button> Button\n</button>\n",
+ "css": "/* Fuzzy Bullfrog 72 by barisdogansutcu — https://uiverse.io/barisdogansutcu/fuzzy-bullfrog-72 */\nbutton {\n padding: 17px 40px;\n border-radius: 50px;\n border: 0;\n background-color: white;\n box-shadow: rgb(0 0 0 / 5%) 0 0 8px;\n letter-spacing: 1.5px;\n text-transform: uppercase;\n font-size: 15px;\n transition: all .5s ease;\n}\n\nbutton:hover {\n letter-spacing: 3px;\n background-color: hsl(261deg 80% 48%);\n color: hsl(0, 0%, 100%);\n box-shadow: rgb(93 24 220) 0px 7px 29px 0px;\n}\n\nbutton:active {\n letter-spacing: 3px;\n background-color: hsl(261deg 80% 48%);\n color: hsl(0, 0%, 100%);\n box-shadow: rgb(93 24 220) 0px 0px 0px 0px;\n transform: translateY(10px);\n transition: 100ms;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fuzzy Bullfrog 72</title>\n<style>\n/* Fuzzy Bullfrog 72 by barisdogansutcu — https://uiverse.io/barisdogansutcu/fuzzy-bullfrog-72 */\nbutton {\n padding: 17px 40px;\n border-radius: 50px;\n border: 0;\n background-color: white;\n box-shadow: rgb(0 0 0 / 5%) 0 0 8px;\n letter-spacing: 1.5px;\n text-transform: uppercase;\n font-size: 15px;\n transition: all .5s ease;\n}\n\nbutton:hover {\n letter-spacing: 3px;\n background-color: hsl(261deg 80% 48%);\n color: hsl(0, 0%, 100%);\n box-shadow: rgb(93 24 220) 0px 7px 29px 0px;\n}\n\nbutton:active {\n letter-spacing: 3px;\n background-color: hsl(261deg 80% 48%);\n color: hsl(0, 0%, 100%);\n box-shadow: rgb(93 24 220) 0px 0px 0px 0px;\n transform: translateY(10px);\n transition: 100ms;\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n\n</body>\n</html>\n"
 }

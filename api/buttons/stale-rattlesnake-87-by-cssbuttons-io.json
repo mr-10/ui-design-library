@@ -5,15 +5,25 @@
  "author": "cssbuttons-io",
  "source": "https://uiverse.io/cssbuttons-io/stale-rattlesnake-87",
  "trigger": "hover",
- "description": "A button with green and active styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded emerald button that lifts and glows on hover.",
+ "howItWorks": "On hover, background-color changes from #fff to #23c483, box-shadow becomes 0px 15px 20px #2ee59d, text color changes from #000 to #fff.",
  "tags": [
-  "green",
-  "button",
-  "hover",
-  "active"
+  "emerald",
+  "rounded",
+  "lift",
+  "glow",
+  "color-change",
+  "green"
  ],
- "html": "<button> Button\n</button>",
- "css": "/* From Uiverse.io by cssbuttons-io - Tags: green, button, hover, active */\nbutton {\n  padding: 1.3em 3em;\n  font-size: 12px;\n  text-transform: uppercase;\n  letter-spacing: 2.5px;\n  font-weight: 500;\n  color: #000;\n  background-color: #fff;\n  border: none;\n  border-radius: 45px;\n  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);\n  transition: all 0.3s ease 0s;\n  cursor: pointer;\n  outline: none;\n}\n\nbutton:hover {\n  background-color: #23c483;\n  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);\n  color: #fff;\n  transform: translateY(-7px);\n}\n\nbutton:active {\n  transform: translateY(-1px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stale Rattlesnake 87</title>\n<style>\n/* From Uiverse.io by cssbuttons-io - https://uiverse.io/cssbuttons-io/stale-rattlesnake-87 */\n/* From Uiverse.io by cssbuttons-io - Tags: green, button, hover, active */\nbutton {\n  padding: 1.3em 3em;\n  font-size: 12px;\n  text-transform: uppercase;\n  letter-spacing: 2.5px;\n  font-weight: 500;\n  color: #000;\n  background-color: #fff;\n  border: none;\n  border-radius: 45px;\n  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);\n  transition: all 0.3s ease 0s;\n  cursor: pointer;\n  outline: none;\n}\n\nbutton:hover {\n  background-color: #23c483;\n  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);\n  color: #fff;\n  transform: translateY(-7px);\n}\n\nbutton:active {\n  transform: translateY(-1px);\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#23c483",
+  "#2ee59d",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 216,
+ "size": 864,
+ "html": "<button> Button\n</button>\n",
+ "css": "/* Stale Rattlesnake 87 by cssbuttons-io — https://uiverse.io/cssbuttons-io/stale-rattlesnake-87 */\nbutton {\n  padding: 1.3em 3em;\n  font-size: 12px;\n  text-transform: uppercase;\n  letter-spacing: 2.5px;\n  font-weight: 500;\n  color: #000;\n  background-color: #fff;\n  border: none;\n  border-radius: 45px;\n  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);\n  transition: all 0.3s ease 0s;\n  cursor: pointer;\n  outline: none;\n}\n\nbutton:hover {\n  background-color: #23c483;\n  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);\n  color: #fff;\n  transform: translateY(-7px);\n}\n\nbutton:active {\n  transform: translateY(-1px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stale Rattlesnake 87</title>\n<style>\n/* Stale Rattlesnake 87 by cssbuttons-io — https://uiverse.io/cssbuttons-io/stale-rattlesnake-87 */\nbutton {\n  padding: 1.3em 3em;\n  font-size: 12px;\n  text-transform: uppercase;\n  letter-spacing: 2.5px;\n  font-weight: 500;\n  color: #000;\n  background-color: #fff;\n  border: none;\n  border-radius: 45px;\n  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);\n  transition: all 0.3s ease 0s;\n  cursor: pointer;\n  outline: none;\n}\n\nbutton:hover {\n  background-color: #23c483;\n  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);\n  color: #fff;\n  transform: translateY(-7px);\n}\n\nbutton:active {\n  transform: translateY(-1px);\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n\n</body>\n</html>\n"
 }

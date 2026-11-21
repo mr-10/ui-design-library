@@ -5,14 +5,23 @@
  "author": "ercnersoy",
  "source": "https://uiverse.io/ercnersoy/spicy-turkey-3",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Red button that starts animating on hover with a smooth transition.",
+ "howItWorks": "On hover, starts the changeBg animation (changing colour).",
  "tags": [
+  "red",
+  "animated",
   "button",
   "hover",
   "css"
  ],
- "html": "<button> hover me!\n</button>",
- "css": "/* From Uiverse.io by ercnersoy - Tags: button */\nbutton {\n padding: 1rem 2rem;\n border: 0;\n box-shadow: 0px 0px 40px 0px red;\n font-weight: bolder;\n color: white;\n border-radius: 0.3rem;\n background-color: red;\n letter-spacing: .2rem;\n}\n\nbutton:hover {\n animation: changeBg 1s infinite;\n -webkit-animation-duration: 10s;\n}\n\n@keyframes changeBg {\n 0%,\n\t100% {\n  box-shadow: 0px 0px 40px 0px red;\n }\n\n 25% {\n  box-shadow: 0px 0px 40px 0px turquoise;\n  background-color: turquoise;\n }\n\n 50% {\n  box-shadow: 0px 0px 40px 0px purple;\n  background-color: purple;\n }\n\n 75% {\n  box-shadow: 0px 0px 40px 0px rgb(191, 204, 11);\n  background-color: rgb(191, 204, 11);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spicy Turkey 3</title>\n<style>\n/* From Uiverse.io by ercnersoy - https://uiverse.io/ercnersoy/spicy-turkey-3 */\n/* From Uiverse.io by ercnersoy - Tags: button */\nbutton {\n padding: 1rem 2rem;\n border: 0;\n box-shadow: 0px 0px 40px 0px red;\n font-weight: bolder;\n color: white;\n border-radius: 0.3rem;\n background-color: red;\n letter-spacing: .2rem;\n}\n\nbutton:hover {\n animation: changeBg 1s infinite;\n -webkit-animation-duration: 10s;\n}\n\n@keyframes changeBg {\n 0%,\n\t100% {\n  box-shadow: 0px 0px 40px 0px red;\n }\n\n 25% {\n  box-shadow: 0px 0px 40px 0px turquoise;\n  background-color: turquoise;\n }\n\n 50% {\n  box-shadow: 0px 0px 40px 0px purple;\n  background-color: purple;\n }\n\n 75% {\n  box-shadow: 0px 0px 40px 0px rgb(191, 204, 11);\n  background-color: rgb(191, 204, 11);\n }\n}\n</style>\n</head>\n<body>\n<button> hover me!\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ff0000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 234,
+ "size": 937,
+ "html": "<button> hover me!\n</button>\n",
+ "css": "/* Spicy Turkey 3 by ercnersoy — https://uiverse.io/ercnersoy/spicy-turkey-3 */\nbutton {\n padding: 1rem 2rem;\n border: 0;\n box-shadow: 0px 0px 40px 0px red;\n font-weight: bolder;\n color: white;\n border-radius: 0.3rem;\n background-color: red;\n letter-spacing: .2rem;\n}\n\nbutton:hover {\n animation: changeBg 1s infinite;\n -webkit-animation-duration: 10s;\n}\n\n@keyframes changeBg {\n 0%,\n\t100% {\n  box-shadow: 0px 0px 40px 0px red;\n }\n\n 25% {\n  box-shadow: 0px 0px 40px 0px turquoise;\n  background-color: turquoise;\n }\n\n 50% {\n  box-shadow: 0px 0px 40px 0px purple;\n  background-color: purple;\n }\n\n 75% {\n  box-shadow: 0px 0px 40px 0px rgb(191, 204, 11);\n  background-color: rgb(191, 204, 11);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spicy Turkey 3</title>\n<style>\n/* Spicy Turkey 3 by ercnersoy — https://uiverse.io/ercnersoy/spicy-turkey-3 */\nbutton {\n padding: 1rem 2rem;\n border: 0;\n box-shadow: 0px 0px 40px 0px red;\n font-weight: bolder;\n color: white;\n border-radius: 0.3rem;\n background-color: red;\n letter-spacing: .2rem;\n}\n\nbutton:hover {\n animation: changeBg 1s infinite;\n -webkit-animation-duration: 10s;\n}\n\n@keyframes changeBg {\n 0%,\n\t100% {\n  box-shadow: 0px 0px 40px 0px red;\n }\n\n 25% {\n  box-shadow: 0px 0px 40px 0px turquoise;\n  background-color: turquoise;\n }\n\n 50% {\n  box-shadow: 0px 0px 40px 0px purple;\n  background-color: purple;\n }\n\n 75% {\n  box-shadow: 0px 0px 40px 0px rgb(191, 204, 11);\n  background-color: rgb(191, 204, 11);\n }\n}\n</style>\n</head>\n<body>\n<button> hover me!\n</button>\n\n</body>\n</html>\n"
 }

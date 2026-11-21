@@ -5,16 +5,24 @@
  "author": "Niranjan360",
  "source": "https://uiverse.io/Niranjan360/cowardly-robin-27",
  "trigger": "hover",
- "description": "A button with simple, dark and hover-effect styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Pill yellow button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, box-shadow becomes 0px 0px 20px #ffd700, top becomes -50%, text color changes from #ffd700 to #000000.",
  "tags": [
-  "simple",
-  "button",
-  "dark",
-  "hover-effect",
-  "hover"
+  "yellow",
+  "rounded",
+  "pill",
+  "glow",
+  "color-change",
+  "expand"
  ],
- "html": "<button class=\"button\">\n  <span>Button</span>\n</button>",
- "css": "/* From Uiverse.io by Niranjan360  - Tags: simple, button, dark, hover effect */\n.button {\n  cursor: pointer;\n  background-color: black;\n  padding: 8px 25px;\n  border: solid 2px gold;\n  border-radius: 20px;\n  position: relative;\n  overflow: hidden;\n  transition: 0.1s linear 0.1s;\n}\n.button span {\n  color: gold;\n  font-weight: 500;\n  letter-spacing: 2px;\n  position: relative;\n  z-index: 2;\n  transition: 0.2s linear 0.1s;\n}\n.button::after {\n  display: block;\n  content: \"\";\n  background-color: gold;\n  width: 300px;\n  height: 300px;\n  border-radius: 50%;\n  position: absolute;\n  top: 100%;\n  transform: translateX(-40%);\n  transition: 0.2s linear 0.1s;\n  z-index: 1;\n}\n.button:hover {\n  box-shadow: 0px 0px 20px gold;\n}\n.button:hover::after {\n  top: -50%;\n}\n.button:hover span {\n  color: black;\n  letter-spacing: 4px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Robin 27</title>\n<style>\n/* From Uiverse.io by Niranjan360 - https://uiverse.io/Niranjan360/cowardly-robin-27 */\n/* From Uiverse.io by Niranjan360  - Tags: simple, button, dark, hover effect */\n.button {\n  cursor: pointer;\n  background-color: black;\n  padding: 8px 25px;\n  border: solid 2px gold;\n  border-radius: 20px;\n  position: relative;\n  overflow: hidden;\n  transition: 0.1s linear 0.1s;\n}\n.button span {\n  color: gold;\n  font-weight: 500;\n  letter-spacing: 2px;\n  position: relative;\n  z-index: 2;\n  transition: 0.2s linear 0.1s;\n}\n.button::after {\n  display: block;\n  content: \"\";\n  background-color: gold;\n  width: 300px;\n  height: 300px;\n  border-radius: 50%;\n  position: absolute;\n  top: 100%;\n  transform: translateX(-40%);\n  transition: 0.2s linear 0.1s;\n  z-index: 1;\n}\n.button:hover {\n  box-shadow: 0px 0px 20px gold;\n}\n.button:hover::after {\n  top: -50%;\n}\n.button:hover span {\n  color: black;\n  letter-spacing: 4px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <span>Button</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffd700",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 276,
+ "size": 1105,
+ "html": "<button class=\"button\">\n  <span>Button</span>\n</button>\n",
+ "css": "/* Cowardly Robin 27 by Niranjan360 — https://uiverse.io/Niranjan360/cowardly-robin-27 */\n.button {\n  cursor: pointer;\n  background-color: black;\n  padding: 8px 25px;\n  border: solid 2px gold;\n  border-radius: 20px;\n  position: relative;\n  overflow: hidden;\n  transition: 0.1s linear 0.1s;\n}\n.button span {\n  color: gold;\n  font-weight: 500;\n  letter-spacing: 2px;\n  position: relative;\n  z-index: 2;\n  transition: 0.2s linear 0.1s;\n}\n.button::after {\n  display: block;\n  content: \"\";\n  background-color: gold;\n  width: 300px;\n  height: 300px;\n  border-radius: 50%;\n  position: absolute;\n  top: 100%;\n  transform: translateX(-40%);\n  transition: 0.2s linear 0.1s;\n  z-index: 1;\n}\n.button:hover {\n  box-shadow: 0px 0px 20px gold;\n}\n.button:hover::after {\n  top: -50%;\n}\n.button:hover span {\n  color: black;\n  letter-spacing: 4px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Robin 27</title>\n<style>\n/* Cowardly Robin 27 by Niranjan360 — https://uiverse.io/Niranjan360/cowardly-robin-27 */\n.button {\n  cursor: pointer;\n  background-color: black;\n  padding: 8px 25px;\n  border: solid 2px gold;\n  border-radius: 20px;\n  position: relative;\n  overflow: hidden;\n  transition: 0.1s linear 0.1s;\n}\n.button span {\n  color: gold;\n  font-weight: 500;\n  letter-spacing: 2px;\n  position: relative;\n  z-index: 2;\n  transition: 0.2s linear 0.1s;\n}\n.button::after {\n  display: block;\n  content: \"\";\n  background-color: gold;\n  width: 300px;\n  height: 300px;\n  border-radius: 50%;\n  position: absolute;\n  top: 100%;\n  transform: translateX(-40%);\n  transition: 0.2s linear 0.1s;\n  z-index: 1;\n}\n.button:hover {\n  box-shadow: 0px 0px 20px gold;\n}\n.button:hover::after {\n  top: -50%;\n}\n.button:hover span {\n  color: black;\n  letter-spacing: 4px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <span>Button</span>\n</button>\n\n</body>\n</html>\n"
 }

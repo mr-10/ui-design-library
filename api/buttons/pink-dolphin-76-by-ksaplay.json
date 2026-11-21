@@ -5,14 +5,27 @@
  "author": "KSAplay",
  "source": "https://uiverse.io/KSAplay/pink-dolphin-76",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark rounded light amber button that glows on hover.",
+ "howItWorks": "On hover, border becomes 3px solid #fefefe, box-shadow becomes 0 0 5px 0 #f0f0f0, inset 0 0 3px 0 #656565.",
  "tags": [
+  "amber",
+  "dark",
+  "rounded",
+  "glow",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button class=\"button\">\n  <div class=\"circle\"></div>\n  <span>Button</span>\n</button>",
- "css": "/* From Uiverse.io by KSAplay - Tags: button */\n.button {\n  position: relative;\n  display: flex;\n  align-items: center;\n  font-family: sans-serif;\n  font-weight: bold;\n  font-size: 1em;\n  padding: 0.5em 2em;\n  border-radius: 2em;\n  border: 0 solid #fefefe;\n  background-color: #ece5d8;\n  color: #3b4255;\n  box-shadow: 0 0 9px -4px #797979;\n  transition: 100ms;\n}\n\n.button::after {\n  position: absolute;\n  content: '';\n  width: 100%;\n  height: 100%;\n  border-radius: 2em;\n  background-color: #ffdf99;\n  opacity: 0;\n  z-index: 1;\n  transition: 100ms;\n}\n\n.circle {\n  position: absolute;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  left: 0.4em;\n  height: 1.5em;\n  width: 1.5em;\n  border-radius: 1em;\n  background-color: #313131;\n}\n\n.circle::before {\n  position: absolute;\n  content: '';\n  width: 32%;\n  height: 32%;\n  border-radius: 1em;\n  border: 3px solid #ffcd33;\n}\n\n.button span {\n  z-index: 2;\n  padding-left: 1.1em;\n}\n\n.button:hover {\n  border: 3px solid #fefefe;\n  box-shadow: 0 0 5px 0 #f0f0f0, inset 0 0 3px 0 #656565;\n}\n\n.button:active {\n  border: 0 solid #fefefe;\n  color: white;\n  box-shadow: inset 0 0 5px 0 #4b4b4b;\n  opacity: .7;\n}\n\n.button:active.button::after {\n  opacity: .5;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Pink Dolphin 76</title>\n<style>\n/* From Uiverse.io by KSAplay - https://uiverse.io/KSAplay/pink-dolphin-76 */\n/* From Uiverse.io by KSAplay - Tags: button */\n.button {\n  position: relative;\n  display: flex;\n  align-items: center;\n  font-family: sans-serif;\n  font-weight: bold;\n  font-size: 1em;\n  padding: 0.5em 2em;\n  border-radius: 2em;\n  border: 0 solid #fefefe;\n  background-color: #ece5d8;\n  color: #3b4255;\n  box-shadow: 0 0 9px -4px #797979;\n  transition: 100ms;\n}\n\n.button::after {\n  position: absolute;\n  content: '';\n  width: 100%;\n  height: 100%;\n  border-radius: 2em;\n  background-color: #ffdf99;\n  opacity: 0;\n  z-index: 1;\n  transition: 100ms;\n}\n\n.circle {\n  position: absolute;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  left: 0.4em;\n  height: 1.5em;\n  width: 1.5em;\n  border-radius: 1em;\n  background-color: #313131;\n}\n\n.circle::before {\n  position: absolute;\n  content: '';\n  width: 32%;\n  height: 32%;\n  border-radius: 1em;\n  border: 3px solid #ffcd33;\n}\n\n.button span {\n  z-index: 2;\n  padding-left: 1.1em;\n}\n\n.button:hover {\n  border: 3px solid #fefefe;\n  box-shadow: 0 0 5px 0 #f0f0f0, inset 0 0 3px 0 #656565;\n}\n\n.button:active {\n  border: 0 solid #fefefe;\n  color: white;\n  box-shadow: inset 0 0 5px 0 #4b4b4b;\n  opacity: .7;\n}\n\n.button:active.button::after {\n  opacity: .5;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <div class=\"circle\"></div>\n  <span>Button</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#fefefe",
+  "#ece5d8",
+  "#3b4255"
+ ],
+ "fonts": [
+  "sans-serif"
+ ],
+ "tokens": 386,
+ "size": 1548,
+ "html": "<button class=\"button\">\n  <div class=\"circle\"></div>\n  <span>Button</span>\n</button>\n",
+ "css": "/* Pink Dolphin 76 by KSAplay — https://uiverse.io/KSAplay/pink-dolphin-76 */\n.button {\n  position: relative;\n  display: flex;\n  align-items: center;\n  font-family: sans-serif;\n  font-weight: bold;\n  font-size: 1em;\n  padding: 0.5em 2em;\n  border-radius: 2em;\n  border: 0 solid #fefefe;\n  background-color: #ece5d8;\n  color: #3b4255;\n  box-shadow: 0 0 9px -4px #797979;\n  transition: 100ms;\n}\n\n.button::after {\n  position: absolute;\n  content: '';\n  width: 100%;\n  height: 100%;\n  border-radius: 2em;\n  background-color: #ffdf99;\n  opacity: 0;\n  z-index: 1;\n  transition: 100ms;\n}\n\n.circle {\n  position: absolute;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  left: 0.4em;\n  height: 1.5em;\n  width: 1.5em;\n  border-radius: 1em;\n  background-color: #313131;\n}\n\n.circle::before {\n  position: absolute;\n  content: '';\n  width: 32%;\n  height: 32%;\n  border-radius: 1em;\n  border: 3px solid #ffcd33;\n}\n\n.button span {\n  z-index: 2;\n  padding-left: 1.1em;\n}\n\n.button:hover {\n  border: 3px solid #fefefe;\n  box-shadow: 0 0 5px 0 #f0f0f0, inset 0 0 3px 0 #656565;\n}\n\n.button:active {\n  border: 0 solid #fefefe;\n  color: white;\n  box-shadow: inset 0 0 5px 0 #4b4b4b;\n  opacity: .7;\n}\n\n.button:active.button::after {\n  opacity: .5;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Pink Dolphin 76</title>\n<style>\n/* Pink Dolphin 76 by KSAplay — https://uiverse.io/KSAplay/pink-dolphin-76 */\n.button {\n  position: relative;\n  display: flex;\n  align-items: center;\n  font-family: sans-serif;\n  font-weight: bold;\n  font-size: 1em;\n  padding: 0.5em 2em;\n  border-radius: 2em;\n  border: 0 solid #fefefe;\n  background-color: #ece5d8;\n  color: #3b4255;\n  box-shadow: 0 0 9px -4px #797979;\n  transition: 100ms;\n}\n\n.button::after {\n  position: absolute;\n  content: '';\n  width: 100%;\n  height: 100%;\n  border-radius: 2em;\n  background-color: #ffdf99;\n  opacity: 0;\n  z-index: 1;\n  transition: 100ms;\n}\n\n.circle {\n  position: absolute;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  left: 0.4em;\n  height: 1.5em;\n  width: 1.5em;\n  border-radius: 1em;\n  background-color: #313131;\n}\n\n.circle::before {\n  position: absolute;\n  content: '';\n  width: 32%;\n  height: 32%;\n  border-radius: 1em;\n  border: 3px solid #ffcd33;\n}\n\n.button span {\n  z-index: 2;\n  padding-left: 1.1em;\n}\n\n.button:hover {\n  border: 3px solid #fefefe;\n  box-shadow: 0 0 5px 0 #f0f0f0, inset 0 0 3px 0 #656565;\n}\n\n.button:active {\n  border: 0 solid #fefefe;\n  color: white;\n  box-shadow: inset 0 0 5px 0 #4b4b4b;\n  opacity: .7;\n}\n\n.button:active.button::after {\n  opacity: .5;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <div class=\"circle\"></div>\n  <span>Button</span>\n</button>\n\n</body>\n</html>\n"
 }

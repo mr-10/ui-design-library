@@ -5,14 +5,27 @@
  "author": "Codecite",
  "source": "https://uiverse.io/Codecite/dry-fish-68",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined rounded red button that changes colour on hover.",
+ "howItWorks": "On hover, text color changes from #fff to #4e484a, height becomes 11%.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "red",
+  "outlined",
+  "rounded",
+  "flat",
+  "color-change",
+  "download"
  ],
- "html": "<div class=\"button\">\n  <a href=\"#\" class=\"anchor\">\n    <span>Download CV</span>\n  </a>\n</div>",
- "css": "/* From Uiverse.io by Codecite - Tags: button */\n.anchor {\n  text-decoration: none;\n  color: #fff;\n  display: inline-block;\n  font-family: sans-serif;\n  font-weight: 600;\n  border-radius: 50px;\n  border: 2px solid #ed553b;\n  padding: 14px 40px 13px;\n  overflow: hidden;\n  position: relative;\n}\n\n.anchor:hover {\n  color: #4e484a;\n}\n\n.button a::before {\n  position: absolute;\n  content: \"\";\n  z-index: 0;\n  background-color: #ed553b;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  height: 111%;\n  transition: all .3s ease;\n}\n\n.button a:hover::before {\n  height: 11%;\n}\n\n.button span {\n  position: relative;\n  z-index: 2;\n  transition: all .3s ease;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Fish 68</title>\n<style>\n/* From Uiverse.io by Codecite - https://uiverse.io/Codecite/dry-fish-68 */\n/* From Uiverse.io by Codecite - Tags: button */\n.anchor {\n  text-decoration: none;\n  color: #fff;\n  display: inline-block;\n  font-family: sans-serif;\n  font-weight: 600;\n  border-radius: 50px;\n  border: 2px solid #ed553b;\n  padding: 14px 40px 13px;\n  overflow: hidden;\n  position: relative;\n}\n\n.anchor:hover {\n  color: #4e484a;\n}\n\n.button a::before {\n  position: absolute;\n  content: \"\";\n  z-index: 0;\n  background-color: #ed553b;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  height: 111%;\n  transition: all .3s ease;\n}\n\n.button a:hover::before {\n  height: 11%;\n}\n\n.button span {\n  position: relative;\n  z-index: 2;\n  transition: all .3s ease;\n}\n</style>\n</head>\n<body>\n<div class=\"button\">\n  <a href=\"#\" class=\"anchor\">\n    <span>Download CV</span>\n  </a>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ed553b",
+  "#4e484a",
+  "#ffffff"
+ ],
+ "fonts": [
+  "sans-serif"
+ ],
+ "tokens": 244,
+ "size": 978,
+ "html": "<div class=\"button\">\n  <a href=\"#\" class=\"anchor\">\n    <span>Download CV</span>\n  </a>\n</div>\n",
+ "css": "/* Dry Fish 68 by Codecite — https://uiverse.io/Codecite/dry-fish-68 */\n.anchor {\n  text-decoration: none;\n  color: #fff;\n  display: inline-block;\n  font-family: sans-serif;\n  font-weight: 600;\n  border-radius: 50px;\n  border: 2px solid #ed553b;\n  padding: 14px 40px 13px;\n  overflow: hidden;\n  position: relative;\n}\n\n.anchor:hover {\n  color: #4e484a;\n}\n\n.button a::before {\n  position: absolute;\n  content: \"\";\n  z-index: 0;\n  background-color: #ed553b;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  height: 111%;\n  transition: all .3s ease;\n}\n\n.button a:hover::before {\n  height: 11%;\n}\n\n.button span {\n  position: relative;\n  z-index: 2;\n  transition: all .3s ease;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Fish 68</title>\n<style>\n/* Dry Fish 68 by Codecite — https://uiverse.io/Codecite/dry-fish-68 */\n.anchor {\n  text-decoration: none;\n  color: #fff;\n  display: inline-block;\n  font-family: sans-serif;\n  font-weight: 600;\n  border-radius: 50px;\n  border: 2px solid #ed553b;\n  padding: 14px 40px 13px;\n  overflow: hidden;\n  position: relative;\n}\n\n.anchor:hover {\n  color: #4e484a;\n}\n\n.button a::before {\n  position: absolute;\n  content: \"\";\n  z-index: 0;\n  background-color: #ed553b;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  height: 111%;\n  transition: all .3s ease;\n}\n\n.button a:hover::before {\n  height: 11%;\n}\n\n.button span {\n  position: relative;\n  z-index: 2;\n  transition: all .3s ease;\n}\n</style>\n</head>\n<body>\n<div class=\"button\">\n  <a href=\"#\" class=\"anchor\">\n    <span>Download CV</span>\n  </a>\n</div>\n\n</body>\n</html>\n"
 }

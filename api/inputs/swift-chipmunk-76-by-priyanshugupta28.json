@@ -5,15 +5,24 @@
  "author": "PriyanshuGupta28",
  "source": "https://uiverse.io/PriyanshuGupta28/swift-chipmunk-76",
  "trigger": "checked",
- "description": "A input with stars and rating styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Violet radio input that toggles on and off when clicked.",
+ "howItWorks": "On hover, text color changes from #ccc to #6f00ff. Clicking it toggles it: text color changes from #ccc to #6f00ff.",
  "tags": [
-  "input",
-  "stars",
+  "violet",
+  "flat",
+  "color-change",
   "rating",
-  "checked"
+  "radio-input",
+  "input"
  ],
- "html": "<div class=\"rating\">\n  <input value=\"5\" name=\"rating\" id=\"star5\" type=\"radio\">\n  <label for=\"star5\"></label>\n  <input value=\"4\" name=\"rating\" id=\"star4\" type=\"radio\">\n  <label for=\"star4\"></label>\n  <input value=\"3\" name=\"rating\" id=\"star3\" type=\"radio\">\n  <label for=\"star3\"></label>\n  <input value=\"2\" name=\"rating\" id=\"star2\" type=\"radio\">\n  <label for=\"star2\"></label>\n  <input value=\"1\" name=\"rating\" id=\"star1\" type=\"radio\">\n  <label for=\"star1\"></label>\n</div>",
- "css": "/* From Uiverse.io by PriyanshuGupta28 - Tags: input, stars, rating */\n.rating {\n  display: inline-block;\n}\n\n.rating input {\n  display: none;\n}\n\n.rating label {\n  float: right;\n  cursor: pointer;\n  color: #ccc;\n  transition: color 0.3s;\n}\n\n.rating label:before {\n  content: '\\2605';\n  font-size: 30px;\n}\n\n.rating input:checked ~ label,\n.rating label:hover,\n.rating label:hover ~ label {\n  color: #6f00ff;\n  transition: color 0.3s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Chipmunk 76</title>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - https://uiverse.io/PriyanshuGupta28/swift-chipmunk-76 */\n/* From Uiverse.io by PriyanshuGupta28 - Tags: input, stars, rating */\n.rating {\n  display: inline-block;\n}\n\n.rating input {\n  display: none;\n}\n\n.rating label {\n  float: right;\n  cursor: pointer;\n  color: #ccc;\n  transition: color 0.3s;\n}\n\n.rating label:before {\n  content: '\\2605';\n  font-size: 30px;\n}\n\n.rating input:checked ~ label,\n.rating label:hover,\n.rating label:hover ~ label {\n  color: #6f00ff;\n  transition: color 0.3s;\n}\n</style>\n</head>\n<body>\n<div class=\"rating\">\n  <input value=\"5\" name=\"rating\" id=\"star5\" type=\"radio\">\n  <label for=\"star5\"></label>\n  <input value=\"4\" name=\"rating\" id=\"star4\" type=\"radio\">\n  <label for=\"star4\"></label>\n  <input value=\"3\" name=\"rating\" id=\"star3\" type=\"radio\">\n  <label for=\"star3\"></label>\n  <input value=\"2\" name=\"rating\" id=\"star2\" type=\"radio\">\n  <label for=\"star2\"></label>\n  <input value=\"1\" name=\"rating\" id=\"star1\" type=\"radio\">\n  <label for=\"star1\"></label>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#cccccc",
+  "#6f00ff"
+ ],
+ "fonts": [],
+ "tokens": 286,
+ "size": 1148,
+ "html": "<div class=\"rating\">\n  <input value=\"5\" name=\"rating\" id=\"star5\" type=\"radio\">\n  <label for=\"star5\"></label>\n  <input value=\"4\" name=\"rating\" id=\"star4\" type=\"radio\">\n  <label for=\"star4\"></label>\n  <input value=\"3\" name=\"rating\" id=\"star3\" type=\"radio\">\n  <label for=\"star3\"></label>\n  <input value=\"2\" name=\"rating\" id=\"star2\" type=\"radio\">\n  <label for=\"star2\"></label>\n  <input value=\"1\" name=\"rating\" id=\"star1\" type=\"radio\">\n  <label for=\"star1\"></label>\n</div>\n",
+ "css": "/* Swift Chipmunk 76 by PriyanshuGupta28 — https://uiverse.io/PriyanshuGupta28/swift-chipmunk-76 */\n.rating {\n  display: inline-block;\n}\n\n.rating input {\n  display: none;\n}\n\n.rating label {\n  float: right;\n  cursor: pointer;\n  color: #ccc;\n  transition: color 0.3s;\n}\n\n.rating label:before {\n  content: '\\2605';\n  font-size: 30px;\n}\n\n.rating input:checked ~ label,\n.rating label:hover,\n.rating label:hover ~ label {\n  color: #6f00ff;\n  transition: color 0.3s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Chipmunk 76</title>\n<style>\n/* Swift Chipmunk 76 by PriyanshuGupta28 — https://uiverse.io/PriyanshuGupta28/swift-chipmunk-76 */\n.rating {\n  display: inline-block;\n}\n\n.rating input {\n  display: none;\n}\n\n.rating label {\n  float: right;\n  cursor: pointer;\n  color: #ccc;\n  transition: color 0.3s;\n}\n\n.rating label:before {\n  content: '\\2605';\n  font-size: 30px;\n}\n\n.rating input:checked ~ label,\n.rating label:hover,\n.rating label:hover ~ label {\n  color: #6f00ff;\n  transition: color 0.3s;\n}\n</style>\n</head>\n<body>\n<div class=\"rating\">\n  <input value=\"5\" name=\"rating\" id=\"star5\" type=\"radio\">\n  <label for=\"star5\"></label>\n  <input value=\"4\" name=\"rating\" id=\"star4\" type=\"radio\">\n  <label for=\"star4\"></label>\n  <input value=\"3\" name=\"rating\" id=\"star3\" type=\"radio\">\n  <label for=\"star3\"></label>\n  <input value=\"2\" name=\"rating\" id=\"star2\" type=\"radio\">\n  <label for=\"star2\"></label>\n  <input value=\"1\" name=\"rating\" id=\"star1\" type=\"radio\">\n  <label for=\"star1\"></label>\n</div>\n\n</body>\n</html>\n"
 }

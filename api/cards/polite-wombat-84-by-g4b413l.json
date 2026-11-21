@@ -5,14 +5,24 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/polite-wombat-84",
  "trigger": "hover",
- "description": "A card with animated styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded white card that changes colour on hover.",
+ "howItWorks": "On hover, background-color changes from #fff to #b8b8b8.",
  "tags": [
+  "rounded",
+  "flat",
+  "color-change",
   "card",
   "animated",
   "hover"
  ],
- "html": "<div class=\"container\">\n  <div class=\"card\">1</div>\n  <div class=\"card\">2</div>\n  <div class=\"card\">3</div>\n  <div class=\"card\">4</div>\n</div>",
- "css": "/* From Uiverse.io by G4b413l - Tags: card, animated */\n.container {\n  display: flex;\n  gap: 10px;\n}\n\n.card {\n  background-color: #fff;\n  height: 100px;\n  width: 100px;\n  flex: 1;\n  border-radius: 16px;\n  transition: all 0.3s ease;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.card:hover {\n  flex: 2;\n  background-color: #b8b8b8;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Wombat 84</title>\n<style>\n/* From Uiverse.io by G4b413l - https://uiverse.io/G4b413l/polite-wombat-84 */\n/* From Uiverse.io by G4b413l - Tags: card, animated */\n.container {\n  display: flex;\n  gap: 10px;\n}\n\n.card {\n  background-color: #fff;\n  height: 100px;\n  width: 100px;\n  flex: 1;\n  border-radius: 16px;\n  transition: all 0.3s ease;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.card:hover {\n  flex: 2;\n  background-color: #b8b8b8;\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <div class=\"card\">1</div>\n  <div class=\"card\">2</div>\n  <div class=\"card\">3</div>\n  <div class=\"card\">4</div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#b8b8b8",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 185,
+ "size": 742,
+ "html": "<div class=\"container\">\n  <div class=\"card\">1</div>\n  <div class=\"card\">2</div>\n  <div class=\"card\">3</div>\n  <div class=\"card\">4</div>\n</div>\n",
+ "css": "/* Polite Wombat 84 by G4b413l — https://uiverse.io/G4b413l/polite-wombat-84 */\n.container {\n  display: flex;\n  gap: 10px;\n}\n\n.card {\n  background-color: #fff;\n  height: 100px;\n  width: 100px;\n  flex: 1;\n  border-radius: 16px;\n  transition: all 0.3s ease;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.card:hover {\n  flex: 2;\n  background-color: #b8b8b8;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Wombat 84</title>\n<style>\n/* Polite Wombat 84 by G4b413l — https://uiverse.io/G4b413l/polite-wombat-84 */\n.container {\n  display: flex;\n  gap: 10px;\n}\n\n.card {\n  background-color: #fff;\n  height: 100px;\n  width: 100px;\n  flex: 1;\n  border-radius: 16px;\n  transition: all 0.3s ease;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.card:hover {\n  flex: 2;\n  background-color: #b8b8b8;\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <div class=\"card\">1</div>\n  <div class=\"card\">2</div>\n  <div class=\"card\">3</div>\n  <div class=\"card\">4</div>\n</div>\n\n</body>\n</html>\n"
 }

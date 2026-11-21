@@ -5,14 +5,23 @@
  "author": "deepak16375",
  "source": "https://uiverse.io/deepak16375/hungry-tiger-20",
  "trigger": "hover",
- "description": "A button with animated styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined gray button that reacts on hover with a smooth transition.",
+ "howItWorks": "On hover, border-radius becomes 4% 95% 6% 95% / 95% 4% 92% 5%, border becomes .2rem dashed #443.",
  "tags": [
+  "outlined",
+  "flat",
   "button",
   "animated",
   "hover"
  ],
- "html": "<button class=\"button\">\n  Button\n</button>",
- "css": "/* From Uiverse.io by deepak16375 - Tags: button, animated */\n.button {\n  padding: .9rem 1.5rem;\n  border: .2rem solid #443;\n  border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;\n  color: #443;\n  background: none;\n  cursor: pointer;\n  margin-top: 1rem;\n  font-size: 1.7rem;\n  transition: all .2s linear;\n}\n\n.button:hover {\n  border-radius: 4% 95% 6% 95% / 95% 4% 92% 5%;\n  border: .2rem dashed #443;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Tiger 20</title>\n<style>\n/* From Uiverse.io by deepak16375 - https://uiverse.io/deepak16375/hungry-tiger-20 */\n/* From Uiverse.io by deepak16375 - Tags: button, animated */\n.button {\n  padding: .9rem 1.5rem;\n  border: .2rem solid #443;\n  border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;\n  color: #443;\n  background: none;\n  cursor: pointer;\n  margin-top: 1rem;\n  font-size: 1.7rem;\n  transition: all .2s linear;\n}\n\n.button:hover {\n  border-radius: 4% 95% 6% 95% / 95% 4% 92% 5%;\n  border: .2rem dashed #443;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#444433",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 169,
+ "size": 679,
+ "html": "<button class=\"button\">\n  Button\n</button>\n",
+ "css": "/* Hungry Tiger 20 by deepak16375 — https://uiverse.io/deepak16375/hungry-tiger-20 */\n.button {\n  padding: .9rem 1.5rem;\n  border: .2rem solid #443;\n  border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;\n  color: #443;\n  background: none;\n  cursor: pointer;\n  margin-top: 1rem;\n  font-size: 1.7rem;\n  transition: all .2s linear;\n}\n\n.button:hover {\n  border-radius: 4% 95% 6% 95% / 95% 4% 92% 5%;\n  border: .2rem dashed #443;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Tiger 20</title>\n<style>\n/* Hungry Tiger 20 by deepak16375 — https://uiverse.io/deepak16375/hungry-tiger-20 */\n.button {\n  padding: .9rem 1.5rem;\n  border: .2rem solid #443;\n  border-radius: 95% 4% 97% 5% / 4% 94% 3% 95%;\n  color: #443;\n  background: none;\n  cursor: pointer;\n  margin-top: 1rem;\n  font-size: 1.7rem;\n  transition: all .2s linear;\n}\n\n.button:hover {\n  border-radius: 4% 95% 6% 95% / 95% 4% 92% 5%;\n  border: .2rem dashed #443;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

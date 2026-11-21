@@ -5,14 +5,25 @@
  "author": "Pradeepsaranbishnoi",
  "source": "https://uiverse.io/Pradeepsaranbishnoi/rude-vampirebat-100",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient pill amber loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 4s animation (rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "amber",
+  "red",
+  "gradient",
+  "rounded",
+  "pill",
+  "flat"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by Pradeepsaranbishnoi - Tags: loader */\n.loader {\n  --s: 5px;\n /* control the size */\n  width: calc(10*var(--s));\n  display: grid;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  -webkit-mask: radial-gradient(50% 50%,#0000 calc(99% - 2*var(--s)),#000 calc(101% - 2*var(--s)));\n  animation: r 4s linear infinite;\n}\n\n.loader:before {\n  content: \"\";\n  /* adjust the colors below */\n  background: conic-gradient(from 25deg,#f8a201 25%,#fa2402 0 50%,#fdb3b0 0 75%,#02dde1 0);\n  -webkit-mask: repeating-conic-gradient(#0000 0 25deg,#000 23% 25%),\n    radial-gradient(var(--s) at var(--s) 50%,#000 97%,#0000) \n      left/calc(100% - 2*var(--s)) 100% repeat-x,\n    radial-gradient(var(--s) at 50% var(--s),#000 97%,#0000) \n      top /100% calc(100% - 2*var(--s)) repeat-y;\n}\n\n@keyframes r {\n  to {\n    transform: rotate(1turn)\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rude Vampirebat 100</title>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - https://uiverse.io/Pradeepsaranbishnoi/rude-vampirebat-100 */\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: loader */\n.loader {\n  --s: 5px;\n /* control the size */\n  width: calc(10*var(--s));\n  display: grid;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  -webkit-mask: radial-gradient(50% 50%,#0000 calc(99% - 2*var(--s)),#000 calc(101% - 2*var(--s)));\n  animation: r 4s linear infinite;\n}\n\n.loader:before {\n  content: \"\";\n  /* adjust the colors below */\n  background: conic-gradient(from 25deg,#f8a201 25%,#fa2402 0 50%,#fdb3b0 0 75%,#02dde1 0);\n  -webkit-mask: repeating-conic-gradient(#0000 0 25deg,#000 23% 25%),\n    radial-gradient(var(--s) at var(--s) 50%,#000 97%,#0000) \n      left/calc(100% - 2*var(--s)) 100% repeat-x,\n    radial-gradient(var(--s) at 50% var(--s),#000 97%,#0000) \n      top /100% calc(100% - 2*var(--s)) repeat-y;\n}\n\n@keyframes r {\n  to {\n    transform: rotate(1turn)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#f8a201",
+  "#fa2402",
+  "#fdb3b0"
+ ],
+ "fonts": [],
+ "tokens": 270,
+ "size": 1081,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Rude Vampirebat 100 by Pradeepsaranbishnoi — https://uiverse.io/Pradeepsaranbishnoi/rude-vampirebat-100 */\n.loader {\n  --s: 5px;\n\n  width: calc(10*var(--s));\n  display: grid;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  -webkit-mask: radial-gradient(50% 50%,#0000 calc(99% - 2*var(--s)),#000 calc(101% - 2*var(--s)));\n  animation: r 4s linear infinite;\n}\n\n.loader:before {\n  content: \"\";\n\n  background: conic-gradient(from 25deg,#f8a201 25%,#fa2402 0 50%,#fdb3b0 0 75%,#02dde1 0);\n  -webkit-mask: repeating-conic-gradient(#0000 0 25deg,#000 23% 25%),\n    radial-gradient(var(--s) at var(--s) 50%,#000 97%,#0000)\n      left/calc(100% - 2*var(--s)) 100% repeat-x,\n    radial-gradient(var(--s) at 50% var(--s),#000 97%,#0000)\n      top /100% calc(100% - 2*var(--s)) repeat-y;\n}\n\n@keyframes r {\n  to {\n    transform: rotate(1turn)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rude Vampirebat 100</title>\n<style>\n/* Rude Vampirebat 100 by Pradeepsaranbishnoi — https://uiverse.io/Pradeepsaranbishnoi/rude-vampirebat-100 */\n.loader {\n  --s: 5px;\n\n  width: calc(10*var(--s));\n  display: grid;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  -webkit-mask: radial-gradient(50% 50%,#0000 calc(99% - 2*var(--s)),#000 calc(101% - 2*var(--s)));\n  animation: r 4s linear infinite;\n}\n\n.loader:before {\n  content: \"\";\n\n  background: conic-gradient(from 25deg,#f8a201 25%,#fa2402 0 50%,#fdb3b0 0 75%,#02dde1 0);\n  -webkit-mask: repeating-conic-gradient(#0000 0 25deg,#000 23% 25%),\n    radial-gradient(var(--s) at var(--s) 50%,#000 97%,#0000)\n      left/calc(100% - 2*var(--s)) 100% repeat-x,\n    radial-gradient(var(--s) at 50% var(--s),#000 97%,#0000)\n      top /100% calc(100% - 2*var(--s)) repeat-y;\n}\n\n@keyframes r {\n  to {\n    transform: rotate(1turn)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

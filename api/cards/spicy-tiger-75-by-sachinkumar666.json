@@ -5,17 +5,25 @@
  "author": "SachinKumar666",
  "source": "https://uiverse.io/SachinKumar666/spicy-tiger-75",
  "trigger": "hover",
- "description": "A card with simple, material-design and animation styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded dark blue card that glows on hover.",
+ "howItWorks": "On hover, background-color changes from #ffffff to #fdfdfd, box-shadow becomes #000000 0px 2px 1px, #000000 0px 4px 2px,\n    #000000 0px 8px 4px, #000000 0px 16px 8px,\n    #000000 0px 32px 16px.",
  "tags": [
+  "blue",
+  "rounded",
+  "glow",
+  "color-change",
   "simple",
-  "material-design",
-  "animation",
-  "card",
-  "shadow",
-  "glow"
+  "material-design"
  ],
- "html": "<div class=\"card\"></div>",
- "css": "/* From Uiverse.io by SachinKumar666  - Tags: simple, material design, animation, card, shadow, glow, code */\n.card {\n  padding: 20px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 190px;\n  height: 254px;\n  background: rgb(255, 255, 255);\n  border-radius: 1rem;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,\n    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;\n  transition: all ease-in-out 0.3s;\n}\n\n.card:hover {\n  background-color: #fdfdfd;\n  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,\n    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,\n    rgba(0, 0, 0, 0.09) 0px 32px 16px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spicy Tiger 75</title>\n<style>\n/* From Uiverse.io by SachinKumar666 - https://uiverse.io/SachinKumar666/spicy-tiger-75 */\n/* From Uiverse.io by SachinKumar666  - Tags: simple, material design, animation, card, shadow, glow, code */\n.card {\n  padding: 20px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 190px;\n  height: 254px;\n  background: rgb(255, 255, 255);\n  border-radius: 1rem;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,\n    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;\n  transition: all ease-in-out 0.3s;\n}\n\n.card:hover {\n  background-color: #fdfdfd;\n  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,\n    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,\n    rgba(0, 0, 0, 0.09) 0px 32px 16px;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#32325d",
+  "#fdfdfd",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 220,
+ "size": 883,
+ "html": "<div class=\"card\"></div>\n",
+ "css": "/* Spicy Tiger 75 by SachinKumar666 — https://uiverse.io/SachinKumar666/spicy-tiger-75 */\n.card {\n  padding: 20px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 190px;\n  height: 254px;\n  background: rgb(255, 255, 255);\n  border-radius: 1rem;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,\n    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;\n  transition: all ease-in-out 0.3s;\n}\n\n.card:hover {\n  background-color: #fdfdfd;\n  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,\n    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,\n    rgba(0, 0, 0, 0.09) 0px 32px 16px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spicy Tiger 75</title>\n<style>\n/* Spicy Tiger 75 by SachinKumar666 — https://uiverse.io/SachinKumar666/spicy-tiger-75 */\n.card {\n  padding: 20px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 190px;\n  height: 254px;\n  background: rgb(255, 255, 255);\n  border-radius: 1rem;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,\n    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;\n  transition: all ease-in-out 0.3s;\n}\n\n.card:hover {\n  background-color: #fdfdfd;\n  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,\n    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,\n    rgba(0, 0, 0, 0.09) 0px 32px 16px;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n\n</body>\n</html>\n"
 }

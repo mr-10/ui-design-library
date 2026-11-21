@@ -5,14 +5,24 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/fluffy-vampirebat-90",
  "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Outlined rounded white text input that lights up when focused.",
+ "howItWorks": "On focus, width becomes 150px, transform becomes rotate(0).",
  "tags": [
+  "outlined",
+  "rounded",
+  "flat",
+  "text-input",
   "input",
-  "focus",
-  "css"
+  "focus"
  ],
- "html": "<input type=\"text\" name=\"text\" class=\"input\">\n<input type=\"text\" name=\"text\" class=\"input\">\n<input type=\"text\" name=\"text\" class=\"input\">",
- "css": "/* From Uiverse.io by Shoh2008 - Tags: input */\n.input {\n  max-width: 190px;\n  width: 40px;\n  height: 40px;\n  outline: none;\n  margin: 5px;\n  transition: .5s;\n  border: none;\n  border-radius: 10px;\n  padding: 10px;\n  text-align: center;\n  overflow: hidden;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  transform: rotate(90deg);\n}\n\ninput:focus {\n  width: 150px;\n  transform: rotate(0);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Vampirebat 90</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/fluffy-vampirebat-90 */\n/* From Uiverse.io by Shoh2008 - Tags: input */\n.input {\n  max-width: 190px;\n  width: 40px;\n  height: 40px;\n  outline: none;\n  margin: 5px;\n  transition: .5s;\n  border: none;\n  border-radius: 10px;\n  padding: 10px;\n  text-align: center;\n  overflow: hidden;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  transform: rotate(90deg);\n}\n\ninput:focus {\n  width: 150px;\n  transform: rotate(0);\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\">\n<input type=\"text\" name=\"text\" class=\"input\">\n<input type=\"text\" name=\"text\" class=\"input\">\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 198,
+ "size": 795,
+ "html": "<input type=\"text\" name=\"text\" class=\"input\">\n<input type=\"text\" name=\"text\" class=\"input\">\n<input type=\"text\" name=\"text\" class=\"input\">\n",
+ "css": "/* Fluffy Vampirebat 90 by Shoh2008 — https://uiverse.io/Shoh2008/fluffy-vampirebat-90 */\n.input {\n  max-width: 190px;\n  width: 40px;\n  height: 40px;\n  outline: none;\n  margin: 5px;\n  transition: .5s;\n  border: none;\n  border-radius: 10px;\n  padding: 10px;\n  text-align: center;\n  overflow: hidden;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  transform: rotate(90deg);\n}\n\ninput:focus {\n  width: 150px;\n  transform: rotate(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Vampirebat 90</title>\n<style>\n/* Fluffy Vampirebat 90 by Shoh2008 — https://uiverse.io/Shoh2008/fluffy-vampirebat-90 */\n.input {\n  max-width: 190px;\n  width: 40px;\n  height: 40px;\n  outline: none;\n  margin: 5px;\n  transition: .5s;\n  border: none;\n  border-radius: 10px;\n  padding: 10px;\n  text-align: center;\n  overflow: hidden;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  transform: rotate(90deg);\n}\n\ninput:focus {\n  width: 150px;\n  transform: rotate(0);\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\">\n<input type=\"text\" name=\"text\" class=\"input\">\n<input type=\"text\" name=\"text\" class=\"input\">\n\n</body>\n</html>\n"
 }

@@ -5,15 +5,24 @@
  "author": "vikramsinghnegi",
  "source": "https://uiverse.io/vikramsinghnegi/curly-mole-58",
  "trigger": "auto-loop",
- "description": "A loader with simple and blob styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Blue loader with animating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (animating).",
  "tags": [
+  "blue",
+  "flat",
   "simple",
   "loader",
   "blob",
   "auto-loop"
  ],
- "html": "<div class=\"blob\"></div>",
- "css": "/* From Uiverse.io by vikramsinghnegi  - Tags: simple, loader, blob */\n.blob {\n  width: 112px;\n  height: 112px;\n  display: grid;\n  background: #fff;\n  filter: blur(5.6px) contrast(10);\n  padding: 11.2px;\n  mix-blend-mode: darken;\n}\n\n.blob:before,\n.blob:after {\n  content: \"\";\n  grid-area: 1/1;\n  width: 44.8px;\n  height: 44.8px;\n  background: #474bff;\n  animation: blob-rhf26m 2s infinite;\n}\n\n.blob:after {\n  animation-delay: -1s;\n}\n\n@keyframes blob-rhf26m {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(100%, 0);\n  }\n\n  50% {\n    transform: translate(100%, 100%);\n  }\n\n  75% {\n    transform: translate(0, 100%);\n  }\n\n  100% {\n    transform: translate(0, 0);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Mole 58</title>\n<style>\n/* From Uiverse.io by vikramsinghnegi - https://uiverse.io/vikramsinghnegi/curly-mole-58 */\n/* From Uiverse.io by vikramsinghnegi  - Tags: simple, loader, blob */\n.blob {\n  width: 112px;\n  height: 112px;\n  display: grid;\n  background: #fff;\n  filter: blur(5.6px) contrast(10);\n  padding: 11.2px;\n  mix-blend-mode: darken;\n}\n\n.blob:before,\n.blob:after {\n  content: \"\";\n  grid-area: 1/1;\n  width: 44.8px;\n  height: 44.8px;\n  background: #474bff;\n  animation: blob-rhf26m 2s infinite;\n}\n\n.blob:after {\n  animation-delay: -1s;\n}\n\n@keyframes blob-rhf26m {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(100%, 0);\n  }\n\n  50% {\n    transform: translate(100%, 100%);\n  }\n\n  75% {\n    transform: translate(0, 100%);\n  }\n\n  100% {\n    transform: translate(0, 0);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"blob\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#474bff",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 238,
+ "size": 955,
+ "html": "<div class=\"blob\"></div>\n",
+ "css": "/* Curly Mole 58 by vikramsinghnegi — https://uiverse.io/vikramsinghnegi/curly-mole-58 */\n.blob {\n  width: 112px;\n  height: 112px;\n  display: grid;\n  background: #fff;\n  filter: blur(5.6px) contrast(10);\n  padding: 11.2px;\n  mix-blend-mode: darken;\n}\n\n.blob:before,\n.blob:after {\n  content: \"\";\n  grid-area: 1/1;\n  width: 44.8px;\n  height: 44.8px;\n  background: #474bff;\n  animation: blob-rhf26m 2s infinite;\n}\n\n.blob:after {\n  animation-delay: -1s;\n}\n\n@keyframes blob-rhf26m {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(100%, 0);\n  }\n\n  50% {\n    transform: translate(100%, 100%);\n  }\n\n  75% {\n    transform: translate(0, 100%);\n  }\n\n  100% {\n    transform: translate(0, 0);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Mole 58</title>\n<style>\n/* Curly Mole 58 by vikramsinghnegi — https://uiverse.io/vikramsinghnegi/curly-mole-58 */\n.blob {\n  width: 112px;\n  height: 112px;\n  display: grid;\n  background: #fff;\n  filter: blur(5.6px) contrast(10);\n  padding: 11.2px;\n  mix-blend-mode: darken;\n}\n\n.blob:before,\n.blob:after {\n  content: \"\";\n  grid-area: 1/1;\n  width: 44.8px;\n  height: 44.8px;\n  background: #474bff;\n  animation: blob-rhf26m 2s infinite;\n}\n\n.blob:after {\n  animation-delay: -1s;\n}\n\n@keyframes blob-rhf26m {\n  0% {\n    transform: translate(0, 0);\n  }\n\n  25% {\n    transform: translate(100%, 0);\n  }\n\n  50% {\n    transform: translate(100%, 100%);\n  }\n\n  75% {\n    transform: translate(0, 100%);\n  }\n\n  100% {\n    transform: translate(0, 0);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"blob\"></div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,25 @@
  "author": "RodrigoRVSN",
  "source": "https://uiverse.io/RodrigoRVSN/tidy-dingo-23",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient cyan button that starts animating on hover.",
+ "howItWorks": "On hover, background changes from transparent to radial-gradient(#00b4d8, #4cc9f0), box-shadow becomes 0px 0px 0.3rem #00b4d8, text color changes from #00b4d8 to #001219. On focus, background changes from transparent to radial-gradient(#00b4d8, #4cc9f0), box-shadow becomes 0px 0px 0.3rem #00b4d8, text color changes from #00b4d8 to #001219.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "cyan",
+  "gradient",
+  "outlined",
+  "glow",
+  "color-change",
+  "animated"
  ],
- "html": "<button>\n  button\n</button>",
- "css": "/* From Uiverse.io by RodrigoRVSN - Tags: button */\nbutton {\n  background-color: transparent;\n  border: 1px solid #00b4d8;\n  border-radius: 0.2rem;\n  color: #00b4d8;\n  font-weight: bold;\n  padding: 0.8rem 1.5rem;\n  position: relative;\n  text-transform: uppercase;\n  transition: ease-in 0.3s;\n}\n\nbutton:hover, button:active, button:focus {\n  background: radial-gradient(#00b4d8, #4cc9f0);\n  ;\n  box-shadow: 0px 0px 0.3rem #00b4d8;\n  color: #001219;\n}\n\nbutton::before {\n  bottom: -0.5rem;\n  content: '';\n  left: 0;\n  position: absolute;\n}\n\nbutton::after {\n  top: -0.5rem;\n  content: '';\n  left: 0;\n  position: absolute;\n}\n\nbutton:hover::before {\n  animation: ease-in moveBar 0.6s forwards reverse;\n}\n\nbutton:hover::after {\n  animation: ease-in moveBar 0.6s forwards;\n}\n\n@keyframes moveBar {\n  0% {\n    width: 0;\n  }\n\n  1% {\n    border: 1px solid #00b4d8;\n  }\n\n  40% {\n    width: 2rem;\n  }\n\n  99% {\n    border: 1px solid #00b4d8;\n    left: 99%;\n  }\n\n  100% {\n    border: none;\n    left: 100%;\n    width: 0;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tidy Dingo 23</title>\n<style>\n/* From Uiverse.io by RodrigoRVSN - https://uiverse.io/RodrigoRVSN/tidy-dingo-23 */\n/* From Uiverse.io by RodrigoRVSN - Tags: button */\nbutton {\n  background-color: transparent;\n  border: 1px solid #00b4d8;\n  border-radius: 0.2rem;\n  color: #00b4d8;\n  font-weight: bold;\n  padding: 0.8rem 1.5rem;\n  position: relative;\n  text-transform: uppercase;\n  transition: ease-in 0.3s;\n}\n\nbutton:hover, button:active, button:focus {\n  background: radial-gradient(#00b4d8, #4cc9f0);\n  ;\n  box-shadow: 0px 0px 0.3rem #00b4d8;\n  color: #001219;\n}\n\nbutton::before {\n  bottom: -0.5rem;\n  content: '';\n  left: 0;\n  position: absolute;\n}\n\nbutton::after {\n  top: -0.5rem;\n  content: '';\n  left: 0;\n  position: absolute;\n}\n\nbutton:hover::before {\n  animation: ease-in moveBar 0.6s forwards reverse;\n}\n\nbutton:hover::after {\n  animation: ease-in moveBar 0.6s forwards;\n}\n\n@keyframes moveBar {\n  0% {\n    width: 0;\n  }\n\n  1% {\n    border: 1px solid #00b4d8;\n  }\n\n  40% {\n    width: 2rem;\n  }\n\n  99% {\n    border: 1px solid #00b4d8;\n    left: 99%;\n  }\n\n  100% {\n    border: none;\n    left: 100%;\n    width: 0;\n  }\n}\n</style>\n</head>\n<body>\n<button>\n  button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#00b4d8",
+  "#4cc9f0",
+  "#001219"
+ ],
+ "fonts": [],
+ "tokens": 320,
+ "size": 1282,
+ "html": "<button>\n  button\n</button>\n",
+ "css": "/* Tidy Dingo 23 by RodrigoRVSN — https://uiverse.io/RodrigoRVSN/tidy-dingo-23 */\nbutton {\n  background-color: transparent;\n  border: 1px solid #00b4d8;\n  border-radius: 0.2rem;\n  color: #00b4d8;\n  font-weight: bold;\n  padding: 0.8rem 1.5rem;\n  position: relative;\n  text-transform: uppercase;\n  transition: ease-in 0.3s;\n}\n\nbutton:hover, button:active, button:focus {\n  background: radial-gradient(#00b4d8, #4cc9f0);\n  ;\n  box-shadow: 0px 0px 0.3rem #00b4d8;\n  color: #001219;\n}\n\nbutton::before {\n  bottom: -0.5rem;\n  content: '';\n  left: 0;\n  position: absolute;\n}\n\nbutton::after {\n  top: -0.5rem;\n  content: '';\n  left: 0;\n  position: absolute;\n}\n\nbutton:hover::before {\n  animation: ease-in moveBar 0.6s forwards reverse;\n}\n\nbutton:hover::after {\n  animation: ease-in moveBar 0.6s forwards;\n}\n\n@keyframes moveBar {\n  0% {\n    width: 0;\n  }\n\n  1% {\n    border: 1px solid #00b4d8;\n  }\n\n  40% {\n    width: 2rem;\n  }\n\n  99% {\n    border: 1px solid #00b4d8;\n    left: 99%;\n  }\n\n  100% {\n    border: none;\n    left: 100%;\n    width: 0;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tidy Dingo 23</title>\n<style>\n/* Tidy Dingo 23 by RodrigoRVSN — https://uiverse.io/RodrigoRVSN/tidy-dingo-23 */\nbutton {\n  background-color: transparent;\n  border: 1px solid #00b4d8;\n  border-radius: 0.2rem;\n  color: #00b4d8;\n  font-weight: bold;\n  padding: 0.8rem 1.5rem;\n  position: relative;\n  text-transform: uppercase;\n  transition: ease-in 0.3s;\n}\n\nbutton:hover, button:active, button:focus {\n  background: radial-gradient(#00b4d8, #4cc9f0);\n  ;\n  box-shadow: 0px 0px 0.3rem #00b4d8;\n  color: #001219;\n}\n\nbutton::before {\n  bottom: -0.5rem;\n  content: '';\n  left: 0;\n  position: absolute;\n}\n\nbutton::after {\n  top: -0.5rem;\n  content: '';\n  left: 0;\n  position: absolute;\n}\n\nbutton:hover::before {\n  animation: ease-in moveBar 0.6s forwards reverse;\n}\n\nbutton:hover::after {\n  animation: ease-in moveBar 0.6s forwards;\n}\n\n@keyframes moveBar {\n  0% {\n    width: 0;\n  }\n\n  1% {\n    border: 1px solid #00b4d8;\n  }\n\n  40% {\n    width: 2rem;\n  }\n\n  99% {\n    border: 1px solid #00b4d8;\n    left: 99%;\n  }\n\n  100% {\n    border: none;\n    left: 100%;\n    width: 0;\n  }\n}\n</style>\n</head>\n<body>\n<button>\n  button\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,15 +5,24 @@
  "author": "Juanes200122",
  "source": "https://uiverse.io/Juanes200122/tame-wasp-3",
  "trigger": "static",
- "description": "A pattern with simple and blue styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient 3d cyan pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "blue",
-  "pattern",
-  "static"
+  "cyan",
+  "gradient",
+  "3d",
+  "outlined",
+  "flat",
+  "pattern"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by Juanes200122  - Tags: simple, blue, pattern */\n.container {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  perspective: 1000px;\n  background: linear-gradient(45deg, #3498db 25%, transparent 25%),\n    linear-gradient(\n      -45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 75%,\n      #3498db 75%,\n      #3498db\n    );\n  background-size: 50px 50px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tame Wasp 3</title>\n<style>\n/* From Uiverse.io by Juanes200122 - https://uiverse.io/Juanes200122/tame-wasp-3 */\n/* From Uiverse.io by Juanes200122  - Tags: simple, blue, pattern */\n.container {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  perspective: 1000px;\n  background: linear-gradient(45deg, #3498db 25%, transparent 25%),\n    linear-gradient(\n      -45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 75%,\n      #3498db 75%,\n      #3498db\n    );\n  background-size: 50px 50px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#3498db",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 162,
+ "size": 651,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Tame Wasp 3 by Juanes200122 — https://uiverse.io/Juanes200122/tame-wasp-3 */\n.container {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  perspective: 1000px;\n  background: linear-gradient(45deg, #3498db 25%, transparent 25%),\n    linear-gradient(\n      -45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 75%,\n      #3498db 75%,\n      #3498db\n    );\n  background-size: 50px 50px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tame Wasp 3</title>\n<style>\n/* Tame Wasp 3 by Juanes200122 — https://uiverse.io/Juanes200122/tame-wasp-3 */\n.container {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  perspective: 1000px;\n  background: linear-gradient(45deg, #3498db 25%, transparent 25%),\n    linear-gradient(\n      -45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 75%,\n      #3498db 75%,\n      #3498db\n    );\n  background-size: 50px 50px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

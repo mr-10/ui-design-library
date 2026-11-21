@@ -5,15 +5,25 @@
  "author": "SevenAJJY",
  "source": "https://uiverse.io/SevenAJJY/wet-owl-54",
  "trigger": "hover",
- "description": "A button with code and click styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon yellow button that changes colour on hover.",
+ "howItWorks": "On hover, background changes from #ffce06 to -webkit-gradient(linear, left top, left bottom, from(#fae811), to(#f5d604)).",
  "tags": [
+  "yellow",
+  "blue",
+  "neon",
+  "color-change",
   "button",
-  "hover",
-  "code",
-  "click"
+  "hover"
  ],
- "html": "<button class=\"btn\">\n  Click Me\n</button>",
- "css": "/* From Uiverse.io by SevenAJJY - Tags: button, hover, code, click */\n.btn {\n  --main-color: #ffce06;\n  --main-alt-color: #fff696;\n  height: 44px;\n  font-size: 16px!important;\n  line-height: 44px;\n  font-weight: 700;\n  color: #3f5cc3;\n  text-shadow: 0 1px 1px #fff8c4;\n  text-transform: uppercase;\n  text-align: center;\n  -webkit-box-shadow: rgb(99 121 133 / 14%) 0 0 0 4px;\n  box-shadow: rgb(99 121 133 / 14%) 0 0 0 4px;\n  border-radius: 4px;\n  border: none;\n  border-top: 1px solid var(--main-alt-color);\n  border-bottom: 1px solid var(--main-color);\n  background-color: var(--main-color);\n  outline: 0;\n  cursor: pointer;\n  margin: 0 0 5px 4px;\n  padding: 0 20px;\n  transition: transform .3s ease;\n}\n\n.btn:hover {\n  border-top-color: var(--main-alt-color);\n  border-bottom-color: var(--main-color);\n  background: -webkit-gradient(linear, left top, left bottom, from(#fae811), to(#f5d604));\n}\n\n.btn:active {\n  transform: scale(0.7);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wet Owl 54</title>\n<style>\n/* From Uiverse.io by SevenAJJY - https://uiverse.io/SevenAJJY/wet-owl-54 */\n/* From Uiverse.io by SevenAJJY - Tags: button, hover, code, click */\n.btn {\n  --main-color: #ffce06;\n  --main-alt-color: #fff696;\n  height: 44px;\n  font-size: 16px!important;\n  line-height: 44px;\n  font-weight: 700;\n  color: #3f5cc3;\n  text-shadow: 0 1px 1px #fff8c4;\n  text-transform: uppercase;\n  text-align: center;\n  -webkit-box-shadow: rgb(99 121 133 / 14%) 0 0 0 4px;\n  box-shadow: rgb(99 121 133 / 14%) 0 0 0 4px;\n  border-radius: 4px;\n  border: none;\n  border-top: 1px solid var(--main-alt-color);\n  border-bottom: 1px solid var(--main-color);\n  background-color: var(--main-color);\n  outline: 0;\n  cursor: pointer;\n  margin: 0 0 5px 4px;\n  padding: 0 20px;\n  transition: transform .3s ease;\n}\n\n.btn:hover {\n  border-top-color: var(--main-alt-color);\n  border-bottom-color: var(--main-color);\n  background: -webkit-gradient(linear, left top, left bottom, from(#fae811), to(#f5d604));\n}\n\n.btn:active {\n  transform: scale(0.7);\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n  Click Me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffce06",
+  "#fff696",
+  "#3f5cc3"
+ ],
+ "fonts": [],
+ "tokens": 298,
+ "size": 1192,
+ "html": "<button class=\"btn\">\n  Click Me\n</button>\n",
+ "css": "/* Wet Owl 54 by SevenAJJY — https://uiverse.io/SevenAJJY/wet-owl-54 */\n.btn {\n  --main-color: #ffce06;\n  --main-alt-color: #fff696;\n  height: 44px;\n  font-size: 16px!important;\n  line-height: 44px;\n  font-weight: 700;\n  color: #3f5cc3;\n  text-shadow: 0 1px 1px #fff8c4;\n  text-transform: uppercase;\n  text-align: center;\n  -webkit-box-shadow: rgb(99 121 133 / 14%) 0 0 0 4px;\n  box-shadow: rgb(99 121 133 / 14%) 0 0 0 4px;\n  border-radius: 4px;\n  border: none;\n  border-top: 1px solid var(--main-alt-color);\n  border-bottom: 1px solid var(--main-color);\n  background-color: var(--main-color);\n  outline: 0;\n  cursor: pointer;\n  margin: 0 0 5px 4px;\n  padding: 0 20px;\n  transition: transform .3s ease;\n}\n\n.btn:hover {\n  border-top-color: var(--main-alt-color);\n  border-bottom-color: var(--main-color);\n  background: -webkit-gradient(linear, left top, left bottom, from(#fae811), to(#f5d604));\n}\n\n.btn:active {\n  transform: scale(0.7);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wet Owl 54</title>\n<style>\n/* Wet Owl 54 by SevenAJJY — https://uiverse.io/SevenAJJY/wet-owl-54 */\n.btn {\n  --main-color: #ffce06;\n  --main-alt-color: #fff696;\n  height: 44px;\n  font-size: 16px!important;\n  line-height: 44px;\n  font-weight: 700;\n  color: #3f5cc3;\n  text-shadow: 0 1px 1px #fff8c4;\n  text-transform: uppercase;\n  text-align: center;\n  -webkit-box-shadow: rgb(99 121 133 / 14%) 0 0 0 4px;\n  box-shadow: rgb(99 121 133 / 14%) 0 0 0 4px;\n  border-radius: 4px;\n  border: none;\n  border-top: 1px solid var(--main-alt-color);\n  border-bottom: 1px solid var(--main-color);\n  background-color: var(--main-color);\n  outline: 0;\n  cursor: pointer;\n  margin: 0 0 5px 4px;\n  padding: 0 20px;\n  transition: transform .3s ease;\n}\n\n.btn:hover {\n  border-top-color: var(--main-alt-color);\n  border-bottom-color: var(--main-color);\n  background: -webkit-gradient(linear, left top, left bottom, from(#fae811), to(#f5d604));\n}\n\n.btn:active {\n  transform: scale(0.7);\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n  Click Me\n</button>\n\n</body>\n</html>\n"
 }

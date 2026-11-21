@@ -5,14 +5,25 @@
  "author": "amralashi",
  "source": "https://uiverse.io/amralashi/fat-mule-63",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded dark purple button that changes colour on hover.",
+ "howItWorks": "On hover, background changes from linear-gradient(135deg, #800080, #ffc0cb, #0000ff, #00ffff) to linear-gradient(100deg, #800080, #ffc0cb, #0000ff, #00ffff).",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "purple",
+  "red",
+  "gradient",
+  "rounded",
+  "flat",
+  "color-change"
  ],
- "html": "<button>\n  Button\n</button>",
- "css": "/* From Uiverse.io by amralashi - Tags: button */\nbutton {\n  width: 10rem;\n  height: 3rem;\n  background: linear-gradient(135deg, purple, pink, blue, aqua);\n  border-radius: 3rem;\n  font-size: 16px;\n  font-weight: 600;\n  color: white;\n  border: none;\n}\n\nbutton:hover {\n  background: linear-gradient(100deg, purple, pink, blue, aqua);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Mule 63</title>\n<style>\n/* From Uiverse.io by amralashi - https://uiverse.io/amralashi/fat-mule-63 */\n/* From Uiverse.io by amralashi - Tags: button */\nbutton {\n  width: 10rem;\n  height: 3rem;\n  background: linear-gradient(135deg, purple, pink, blue, aqua);\n  border-radius: 3rem;\n  font-size: 16px;\n  font-weight: 600;\n  color: white;\n  border: none;\n}\n\nbutton:hover {\n  background: linear-gradient(100deg, purple, pink, blue, aqua);\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#800080",
+  "#ffc0cb",
+  "#0000ff"
+ ],
+ "fonts": [],
+ "tokens": 149,
+ "size": 599,
+ "html": "<button>\n  Button\n</button>\n",
+ "css": "/* Fat Mule 63 by amralashi — https://uiverse.io/amralashi/fat-mule-63 */\nbutton {\n  width: 10rem;\n  height: 3rem;\n  background: linear-gradient(135deg, purple, pink, blue, aqua);\n  border-radius: 3rem;\n  font-size: 16px;\n  font-weight: 600;\n  color: white;\n  border: none;\n}\n\nbutton:hover {\n  background: linear-gradient(100deg, purple, pink, blue, aqua);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Mule 63</title>\n<style>\n/* Fat Mule 63 by amralashi — https://uiverse.io/amralashi/fat-mule-63 */\nbutton {\n  width: 10rem;\n  height: 3rem;\n  background: linear-gradient(135deg, purple, pink, blue, aqua);\n  border-radius: 3rem;\n  font-size: 16px;\n  font-weight: 600;\n  color: white;\n  border: none;\n}\n\nbutton:hover {\n  background: linear-gradient(100deg, purple, pink, blue, aqua);\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n\n</body>\n</html>\n"
 }

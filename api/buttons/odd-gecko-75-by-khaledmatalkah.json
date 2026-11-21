@@ -5,14 +5,25 @@
  "author": "KhaledMatalkah",
  "source": "https://uiverse.io/KhaledMatalkah/odd-gecko-75",
  "trigger": "hover",
- "description": "A button with animated styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon gradient rounded orange button that fades on hover.",
+ "howItWorks": "On hover, opacity becomes 1.",
  "tags": [
-  "button",
-  "hover",
-  "animated"
+  "orange",
+  "amber",
+  "neon",
+  "gradient",
+  "rounded",
+  "fade"
  ],
- "html": "<button class=\"button\">HOVER ME!</button>",
- "css": "/* From Uiverse.io by KhaledMatalkah - Tags: button, hover, animated */\n@keyframes glowing-pulse {\n  0% {\n    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);\n  }\n\n  70% {\n    box-shadow: 0 0 0 30px rgba(255, 255, 255, 0);\n  }\n\n  100% {\n    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);\n  }\n}\n\n.button {\n  position: relative;\n  display: inline-block;\n  background: linear-gradient(to right, #FFB900, #FF7730);\n  border: none;\n  border-radius: 25px;\n  color: white;\n  padding: 10px 20px;\n  font-size: 18px;\n  text-transform: uppercase;\n  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);\n  animation: glowing-pulse 2s infinite;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: -5px;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  border-radius: 30px;\n  box-shadow: 0 0 20px #FF7730;\n  opacity: 0;\n  pointer-events: none;\n  transition: opacity 0.3s ease;\n}\n\n.button:hover::before {\n  opacity: 1;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Odd Gecko 75</title>\n<style>\n/* From Uiverse.io by KhaledMatalkah - https://uiverse.io/KhaledMatalkah/odd-gecko-75 */\n/* From Uiverse.io by KhaledMatalkah - Tags: button, hover, animated */\n@keyframes glowing-pulse {\n  0% {\n    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);\n  }\n\n  70% {\n    box-shadow: 0 0 0 30px rgba(255, 255, 255, 0);\n  }\n\n  100% {\n    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);\n  }\n}\n\n.button {\n  position: relative;\n  display: inline-block;\n  background: linear-gradient(to right, #FFB900, #FF7730);\n  border: none;\n  border-radius: 25px;\n  color: white;\n  padding: 10px 20px;\n  font-size: 18px;\n  text-transform: uppercase;\n  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);\n  animation: glowing-pulse 2s infinite;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: -5px;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  border-radius: 30px;\n  box-shadow: 0 0 20px #FF7730;\n  opacity: 0;\n  pointer-events: none;\n  transition: opacity 0.3s ease;\n}\n\n.button:hover::before {\n  opacity: 1;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">HOVER ME!</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ff7730",
+  "#ffb900",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 292,
+ "size": 1172,
+ "html": "<button class=\"button\">HOVER ME!</button>\n",
+ "css": "/* Odd Gecko 75 by KhaledMatalkah — https://uiverse.io/KhaledMatalkah/odd-gecko-75 */\n@keyframes glowing-pulse {\n  0% {\n    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);\n  }\n\n  70% {\n    box-shadow: 0 0 0 30px rgba(255, 255, 255, 0);\n  }\n\n  100% {\n    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);\n  }\n}\n\n.button {\n  position: relative;\n  display: inline-block;\n  background: linear-gradient(to right, #FFB900, #FF7730);\n  border: none;\n  border-radius: 25px;\n  color: white;\n  padding: 10px 20px;\n  font-size: 18px;\n  text-transform: uppercase;\n  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);\n  animation: glowing-pulse 2s infinite;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: -5px;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  border-radius: 30px;\n  box-shadow: 0 0 20px #FF7730;\n  opacity: 0;\n  pointer-events: none;\n  transition: opacity 0.3s ease;\n}\n\n.button:hover::before {\n  opacity: 1;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Odd Gecko 75</title>\n<style>\n/* Odd Gecko 75 by KhaledMatalkah — https://uiverse.io/KhaledMatalkah/odd-gecko-75 */\n@keyframes glowing-pulse {\n  0% {\n    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);\n  }\n\n  70% {\n    box-shadow: 0 0 0 30px rgba(255, 255, 255, 0);\n  }\n\n  100% {\n    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);\n  }\n}\n\n.button {\n  position: relative;\n  display: inline-block;\n  background: linear-gradient(to right, #FFB900, #FF7730);\n  border: none;\n  border-radius: 25px;\n  color: white;\n  padding: 10px 20px;\n  font-size: 18px;\n  text-transform: uppercase;\n  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);\n  animation: glowing-pulse 2s infinite;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: -5px;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  border-radius: 30px;\n  box-shadow: 0 0 20px #FF7730;\n  opacity: 0;\n  pointer-events: none;\n  transition: opacity 0.3s ease;\n}\n\n.button:hover::before {\n  opacity: 1;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">HOVER ME!</button>\n\n</body>\n</html>\n"
 }

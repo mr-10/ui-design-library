@@ -5,14 +5,21 @@
  "author": "gagan-gv",
  "source": "https://uiverse.io/gagan-gv/tidy-elephant-18",
  "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "White card with soft shadow with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "card",
   "static",
   "css"
  ],
- "html": "<div class=\"card\"></div>",
- "css": "/* From Uiverse.io by gagan-gv - Tags: card */\n/*Retro Style Card*/\n\n.card {\n  width: 190px;\n  height: 254px;\n  background: #fff;\n  border: 3px solid #000;\n  border-radius: 0;\n  box-shadow: 15px 15px 0 -2.5px #fff, 15px 15px 0 0 #000;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tidy Elephant 18</title>\n<style>\n/* From Uiverse.io by gagan-gv - https://uiverse.io/gagan-gv/tidy-elephant-18 */\n/* From Uiverse.io by gagan-gv - Tags: card */\n/*Retro Style Card*/\n\n.card {\n  width: 190px;\n  height: 254px;\n  background: #fff;\n  border: 3px solid #000;\n  border-radius: 0;\n  box-shadow: 15px 15px 0 -2.5px #fff, 15px 15px 0 0 #000;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 122,
+ "size": 492,
+ "html": "<div class=\"card\"></div>\n",
+ "css": "/* Tidy Elephant 18 by gagan-gv — https://uiverse.io/gagan-gv/tidy-elephant-18 */\n.card {\n  width: 190px;\n  height: 254px;\n  background: #fff;\n  border: 3px solid #000;\n  border-radius: 0;\n  box-shadow: 15px 15px 0 -2.5px #fff, 15px 15px 0 0 #000;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tidy Elephant 18</title>\n<style>\n/* Tidy Elephant 18 by gagan-gv — https://uiverse.io/gagan-gv/tidy-elephant-18 */\n.card {\n  width: 190px;\n  height: 254px;\n  background: #fff;\n  border: 3px solid #000;\n  border-radius: 0;\n  box-shadow: 15px 15px 0 -2.5px #fff, 15px 15px 0 0 #000;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n\n</body>\n</html>\n"
 }

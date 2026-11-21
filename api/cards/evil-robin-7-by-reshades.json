@@ -5,15 +5,25 @@
  "author": "reshades",
  "source": "https://uiverse.io/reshades/evil-robin-7",
  "trigger": "static",
- "description": "A card with gradient and clean styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Glass gradient rounded sky-blue card with soft shadow and rounded corners and gradient fill.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "blue",
+  "glassmorphism",
   "gradient",
+  "rounded",
   "card",
-  "clean",
-  "static"
+  "clean"
  ],
- "html": "<div class=\"card\">\n  <div class=\"top\">\n    <p class=\"title\">\n      TITLE HERE\n    </p>\n  </div>\n  <p class=\"desc\">\n    This is the description of this card.<br>You can enter anything here.\n  </p>\n</div>",
- "css": "/* From Uiverse.io by reshades - Tags: gradient, card, clean */\n.card {\n  width: 290px;\n  height: 404px;\n  background: linear-gradient(10deg, rgba(38,146,255,1) 0%, rgba(0,63,255,1) 100%);\n  border-radius: 16px;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(10.5px);\n  -webkit-backdrop-filter: blur(10.5px);\n  border: 1px solid rgba(255, 255, 255, 0.3);\n}\n\n.top {\n  background: rgba(255, 255, 255, 0.2);\n  border-radius: 16px;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(10.5px);\n  -webkit-backdrop-filter: blur(10.5px);\n  border: 1px solid rgba(255, 255, 255, 0.3);\n  width: 290px;\n  height: 300px;\n}\n\n.top .title {\n  color: #fff;\n  font-weight: bolder;\n  font-size: x-large;\n  margin-left: 10px;\n  margin-top: 90%\n}\n\n.card .desc {\n  color: #fff;\n  opacity: 75%;\n  font-size: small;\n  font-weight: lighter;\n  margin-left: 10px;\n  margin-top: 2%\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Evil Robin 7</title>\n<style>\n/* From Uiverse.io by reshades - https://uiverse.io/reshades/evil-robin-7 */\n/* From Uiverse.io by reshades - Tags: gradient, card, clean */\n.card {\n  width: 290px;\n  height: 404px;\n  background: linear-gradient(10deg, rgba(38,146,255,1) 0%, rgba(0,63,255,1) 100%);\n  border-radius: 16px;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(10.5px);\n  -webkit-backdrop-filter: blur(10.5px);\n  border: 1px solid rgba(255, 255, 255, 0.3);\n}\n\n.top {\n  background: rgba(255, 255, 255, 0.2);\n  border-radius: 16px;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(10.5px);\n  -webkit-backdrop-filter: blur(10.5px);\n  border: 1px solid rgba(255, 255, 255, 0.3);\n  width: 290px;\n  height: 300px;\n}\n\n.top .title {\n  color: #fff;\n  font-weight: bolder;\n  font-size: x-large;\n  margin-left: 10px;\n  margin-top: 90%\n}\n\n.card .desc {\n  color: #fff;\n  opacity: 75%;\n  font-size: small;\n  font-weight: lighter;\n  margin-left: 10px;\n  margin-top: 2%\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"top\">\n    <p class=\"title\">\n      TITLE HERE\n    </p>\n  </div>\n  <p class=\"desc\">\n    This is the description of this card.<br>You can enter anything here.\n  </p>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#2692ff",
+  "#003fff",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 330,
+ "size": 1322,
+ "html": "<div class=\"card\">\n  <div class=\"top\">\n    <p class=\"title\">\n      TITLE HERE\n    </p>\n  </div>\n  <p class=\"desc\">\n    This is the description of this card.<br>You can enter anything here.\n  </p>\n</div>\n",
+ "css": "/* Evil Robin 7 by reshades — https://uiverse.io/reshades/evil-robin-7 */\n.card {\n  width: 290px;\n  height: 404px;\n  background: linear-gradient(10deg, rgba(38,146,255,1) 0%, rgba(0,63,255,1) 100%);\n  border-radius: 16px;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(10.5px);\n  -webkit-backdrop-filter: blur(10.5px);\n  border: 1px solid rgba(255, 255, 255, 0.3);\n}\n\n.top {\n  background: rgba(255, 255, 255, 0.2);\n  border-radius: 16px;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(10.5px);\n  -webkit-backdrop-filter: blur(10.5px);\n  border: 1px solid rgba(255, 255, 255, 0.3);\n  width: 290px;\n  height: 300px;\n}\n\n.top .title {\n  color: #fff;\n  font-weight: bolder;\n  font-size: x-large;\n  margin-left: 10px;\n  margin-top: 90%\n}\n\n.card .desc {\n  color: #fff;\n  opacity: 75%;\n  font-size: small;\n  font-weight: lighter;\n  margin-left: 10px;\n  margin-top: 2%\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Evil Robin 7</title>\n<style>\n/* Evil Robin 7 by reshades — https://uiverse.io/reshades/evil-robin-7 */\n.card {\n  width: 290px;\n  height: 404px;\n  background: linear-gradient(10deg, rgba(38,146,255,1) 0%, rgba(0,63,255,1) 100%);\n  border-radius: 16px;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(10.5px);\n  -webkit-backdrop-filter: blur(10.5px);\n  border: 1px solid rgba(255, 255, 255, 0.3);\n}\n\n.top {\n  background: rgba(255, 255, 255, 0.2);\n  border-radius: 16px;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(10.5px);\n  -webkit-backdrop-filter: blur(10.5px);\n  border: 1px solid rgba(255, 255, 255, 0.3);\n  width: 290px;\n  height: 300px;\n}\n\n.top .title {\n  color: #fff;\n  font-weight: bolder;\n  font-size: x-large;\n  margin-left: 10px;\n  margin-top: 90%\n}\n\n.card .desc {\n  color: #fff;\n  opacity: 75%;\n  font-size: small;\n  font-weight: lighter;\n  margin-left: 10px;\n  margin-top: 2%\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"top\">\n    <p class=\"title\">\n      TITLE HERE\n    </p>\n  </div>\n  <p class=\"desc\">\n    This is the description of this card.<br>You can enter anything here.\n  </p>\n</div>\n\n</body>\n</html>\n"
 }

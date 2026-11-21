@@ -5,15 +5,24 @@
  "author": "JesusRafaelNavaCruz",
  "source": "https://uiverse.io/JesusRafaelNavaCruz/chilly-vampirebat-53",
  "trigger": "auto-loop",
- "description": "A loader with circle-loader and loader-circle styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill white loader with rotating motion in a loop.",
+ "howItWorks": "It loops a .7s animation (rotating).",
  "tags": [
+  "rounded",
+  "pill",
+  "flat",
+  "spin",
   "loader",
-  "circle-loader",
-  "loader-circle",
-  "auto-loop"
+  "circle-loader"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by JesusRafaelNavaCruz - Source: Mr Frontend - https://instagram.com/mr__frontend?igshid=MzRlODBiNWFlZA== - Tags: loader, circle loader, loader circle */\n.loader {\n  width: 4rem;\n  height: 4rem;\n  border-radius: 50%;\n  box-sizing: border-box;\n  border-top: 8px solid #fff;\n  border-left: 8px solid #fff;\n  border-right: 8px solid #ff00;\n  animation: loader .7s infinite linear;\n}\n\n@keyframes loader {\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Vampirebat 53</title>\n<style>\n/* From Uiverse.io by JesusRafaelNavaCruz - https://uiverse.io/JesusRafaelNavaCruz/chilly-vampirebat-53 */\n/* From Uiverse.io by JesusRafaelNavaCruz - Source: Mr Frontend - https://instagram.com/mr__frontend?igshid=MzRlODBiNWFlZA== - Tags: loader, circle loader, loader circle */\n.loader {\n  width: 4rem;\n  height: 4rem;\n  border-radius: 50%;\n  box-sizing: border-box;\n  border-top: 8px solid #fff;\n  border-left: 8px solid #fff;\n  border-right: 8px solid #ff00;\n  animation: loader .7s infinite linear;\n}\n\n@keyframes loader {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 162,
+ "size": 651,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Chilly Vampirebat 53 by JesusRafaelNavaCruz — https://uiverse.io/JesusRafaelNavaCruz/chilly-vampirebat-53 */\n.loader {\n  width: 4rem;\n  height: 4rem;\n  border-radius: 50%;\n  box-sizing: border-box;\n  border-top: 8px solid #fff;\n  border-left: 8px solid #fff;\n  border-right: 8px solid #ff00;\n  animation: loader .7s infinite linear;\n}\n\n@keyframes loader {\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Vampirebat 53</title>\n<style>\n/* Chilly Vampirebat 53 by JesusRafaelNavaCruz — https://uiverse.io/JesusRafaelNavaCruz/chilly-vampirebat-53 */\n.loader {\n  width: 4rem;\n  height: 4rem;\n  border-radius: 50%;\n  box-sizing: border-box;\n  border-top: 8px solid #fff;\n  border-left: 8px solid #fff;\n  border-right: 8px solid #ff00;\n  animation: loader .7s infinite linear;\n}\n\n@keyframes loader {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

@@ -5,17 +5,25 @@
  "author": "deepak16375",
  "source": "https://uiverse.io/deepak16375/ugly-crab-3",
  "trigger": "hover",
- "description": "A button with gradient, animated and gradients styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded sky-blue button that starts animating on hover.",
+ "howItWorks": "On hover, text color changes from #ffffff to #000000, starts the slide animation (shimmering).",
  "tags": [
+  "blue",
   "gradient",
-  "button",
-  "animated",
-  "gradients",
-  "hover-effect",
-  "hoverme"
+  "rounded",
+  "flat",
+  "color-change",
+  "animated"
  ],
- "html": "<button class=\"button\">\n  Hover me!\n</button>",
- "css": "/* From Uiverse.io by deepak16375 - Tags: gradient, button, animated, gradients, hover effect, hoverme, hover button */\n.button {\n  font-size: 17px;\n  font-weight: bold;\n  border: 0px;\n  color: white;\n  background-color: #1877f2;\n  padding: 1rem 2rem;\n  border-radius: 15px;\n  cursor: pointer;\n}\n\n.button:hover {\n  background-image: linear-gradient(90deg,\n\t\t#B799FF 0%,\n\t\t#ACBCFF 50%,\n\t\t#AEE2FF 75%,\n\t\t#E6FFFD 100%);\n  color: black;\n  animation: slide 10s linear infinite;\n}\n\n@keyframes slide {\n  100% {\n    background-position: 50rem;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Crab 3</title>\n<style>\n/* From Uiverse.io by deepak16375 - https://uiverse.io/deepak16375/ugly-crab-3 */\n/* From Uiverse.io by deepak16375 - Tags: gradient, button, animated, gradients, hover effect, hoverme, hover button */\n.button {\n  font-size: 17px;\n  font-weight: bold;\n  border: 0px;\n  color: white;\n  background-color: #1877f2;\n  padding: 1rem 2rem;\n  border-radius: 15px;\n  cursor: pointer;\n}\n\n.button:hover {\n  background-image: linear-gradient(90deg,\n\t\t#B799FF 0%,\n\t\t#ACBCFF 50%,\n\t\t#AEE2FF 75%,\n\t\t#E6FFFD 100%);\n  color: black;\n  animation: slide 10s linear infinite;\n}\n\n@keyframes slide {\n  100% {\n    background-position: 50rem;\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Hover me!\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#1877f2",
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 189,
+ "size": 758,
+ "html": "<button class=\"button\">\n  Hover me!\n</button>\n",
+ "css": "/* Ugly Crab 3 by deepak16375 — https://uiverse.io/deepak16375/ugly-crab-3 */\n.button {\n  font-size: 17px;\n  font-weight: bold;\n  border: 0px;\n  color: white;\n  background-color: #1877f2;\n  padding: 1rem 2rem;\n  border-radius: 15px;\n  cursor: pointer;\n}\n\n.button:hover {\n  background-image: linear-gradient(90deg,\n\t\t#B799FF 0%,\n\t\t#ACBCFF 50%,\n\t\t#AEE2FF 75%,\n\t\t#E6FFFD 100%);\n  color: black;\n  animation: slide 10s linear infinite;\n}\n\n@keyframes slide {\n  100% {\n    background-position: 50rem;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Crab 3</title>\n<style>\n/* Ugly Crab 3 by deepak16375 — https://uiverse.io/deepak16375/ugly-crab-3 */\n.button {\n  font-size: 17px;\n  font-weight: bold;\n  border: 0px;\n  color: white;\n  background-color: #1877f2;\n  padding: 1rem 2rem;\n  border-radius: 15px;\n  cursor: pointer;\n}\n\n.button:hover {\n  background-image: linear-gradient(90deg,\n\t\t#B799FF 0%,\n\t\t#ACBCFF 50%,\n\t\t#AEE2FF 75%,\n\t\t#E6FFFD 100%);\n  color: black;\n  animation: slide 10s linear infinite;\n}\n\n@keyframes slide {\n  100% {\n    background-position: 50rem;\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Hover me!\n</button>\n\n</body>\n</html>\n"
 }

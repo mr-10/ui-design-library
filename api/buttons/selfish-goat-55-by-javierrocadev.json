@@ -4,15 +4,23 @@
  "category": "buttons",
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/selfish-goat-55",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Cyan button that reacts on hover with a smooth transition.",
+ "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
+  "cyan",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Javierrocadev - Tags: blue, button, hover, hover effect, hoverme -->\n<button class=\"group relative w-28 h-12 text-neutral-50 bg-neutral-800 p-2 overflow-hidden\">\n  <p class=\"absolute  font-bold z-10  duration-500\"> Button</p>\n  <div class=\"\">\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-0\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  -bottom-16 group-hover:-bottom-1 right-4\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-8\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  -bottom-16 group-hover:-bottom-1 right-12\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-16\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  -bottom-16 group-hover:-bottom-1 right-20\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-24\"></div>\n  </div>\n  \n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Goat 55</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/selfish-goat-55 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev - Tags: blue, button, hover, hover effect, hoverme -->\n<button class=\"group relative w-28 h-12 text-neutral-50 bg-neutral-800 p-2 overflow-hidden\">\n  <p class=\"absolute  font-bold z-10  duration-500\"> Button</p>\n  <div class=\"\">\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-0\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  -bottom-16 group-hover:-bottom-1 right-4\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-8\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  -bottom-16 group-hover:-bottom-1 right-12\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-16\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  -bottom-16 group-hover:-bottom-1 right-20\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-24\"></div>\n  </div>\n  \n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#0891b2",
+  "#fafafa",
+  "#262626"
+ ],
+ "fonts": [],
+ "tokens": 326,
+ "size": 1304,
+ "html": "<button class=\"group relative w-28 h-12 text-neutral-50 bg-neutral-800 p-2 overflow-hidden\">\n  <p class=\"absolute  font-bold z-10  duration-500\"> Button</p>\n  <div class=\"\">\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-0\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  -bottom-16 group-hover:-bottom-1 right-4\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-8\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  -bottom-16 group-hover:-bottom-1 right-12\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-16\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  -bottom-16 group-hover:-bottom-1 right-20\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-24\"></div>\n  </div>\n\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Goat 55</title>\n<style>\n/* Selfish Goat 55 by Javierrocadev — https://uiverse.io/Javierrocadev/selfish-goat-55 */\n\n</style>\n</head>\n<body>\n<button class=\"group relative w-28 h-12 text-neutral-50 bg-neutral-800 p-2 overflow-hidden\">\n  <p class=\"absolute  font-bold z-10  duration-500\"> Button</p>\n  <div class=\"\">\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-0\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  -bottom-16 group-hover:-bottom-1 right-4\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-8\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  -bottom-16 group-hover:-bottom-1 right-12\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-16\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  -bottom-16 group-hover:-bottom-1 right-20\"></div>\n    <div class=\"absolute duration-500 bg-cyan-600 w-4 h-16  bottom-12 group-hover:-bottom-1 delay-500 right-24\"></div>\n  </div>\n\n</button>\n\n</body>\n</html>\n"
 }

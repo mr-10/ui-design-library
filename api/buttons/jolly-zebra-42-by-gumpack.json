@@ -5,14 +5,24 @@
  "author": "Gumpack",
  "source": "https://uiverse.io/Gumpack/jolly-zebra-42",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded amber button that changes colour on hover.",
+ "howItWorks": "On hover, text color changes from #ffffff to #fff.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "amber",
+  "gradient",
+  "outlined",
+  "rounded",
+  "color-change",
+  "button"
  ],
- "html": "<button class=\"btn\"> Button\n</button>",
- "css": "/* From Uiverse.io by Gumpack - Tags: button */\n.btn {\n background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%)\n}\n\n.btn {\n margin: 10px;\n padding: 15px 30px;\n text-align: center;\n text-transform: uppercase;\n transition: 0.5s;\n background-size: 200% auto;\n color: white;\n border-radius: 10px;\n display: block;\n border: 0px;\n font-weight: 700;\n box-shadow: 0px 0px 14px -7px #f09819;\n}\n\n.btn:hover {\n background-position: right center;\n /* change the direction of the change here */\n color: #fff;\n text-decoration: none;\n}\n\n.btn:active {\n transform: scale(0.95);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Jolly Zebra 42</title>\n<style>\n/* From Uiverse.io by Gumpack - https://uiverse.io/Gumpack/jolly-zebra-42 */\n/* From Uiverse.io by Gumpack - Tags: button */\n.btn {\n background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%)\n}\n\n.btn {\n margin: 10px;\n padding: 15px 30px;\n text-align: center;\n text-transform: uppercase;\n transition: 0.5s;\n background-size: 200% auto;\n color: white;\n border-radius: 10px;\n display: block;\n border: 0px;\n font-weight: 700;\n box-shadow: 0px 0px 14px -7px #f09819;\n}\n\n.btn:hover {\n background-position: right center;\n /* change the direction of the change here */\n color: #fff;\n text-decoration: none;\n}\n\n.btn:active {\n transform: scale(0.95);\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"> Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#f09819",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 206,
+ "size": 824,
+ "html": "<button class=\"btn\"> Button\n</button>\n",
+ "css": "/* Jolly Zebra 42 by Gumpack — https://uiverse.io/Gumpack/jolly-zebra-42 */\n.btn {\n background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%)\n}\n\n.btn {\n margin: 10px;\n padding: 15px 30px;\n text-align: center;\n text-transform: uppercase;\n transition: 0.5s;\n background-size: 200% auto;\n color: white;\n border-radius: 10px;\n display: block;\n border: 0px;\n font-weight: 700;\n box-shadow: 0px 0px 14px -7px #f09819;\n}\n\n.btn:hover {\n background-position: right center;\n\n color: #fff;\n text-decoration: none;\n}\n\n.btn:active {\n transform: scale(0.95);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Jolly Zebra 42</title>\n<style>\n/* Jolly Zebra 42 by Gumpack — https://uiverse.io/Gumpack/jolly-zebra-42 */\n.btn {\n background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%)\n}\n\n.btn {\n margin: 10px;\n padding: 15px 30px;\n text-align: center;\n text-transform: uppercase;\n transition: 0.5s;\n background-size: 200% auto;\n color: white;\n border-radius: 10px;\n display: block;\n border: 0px;\n font-weight: 700;\n box-shadow: 0px 0px 14px -7px #f09819;\n}\n\n.btn:hover {\n background-position: right center;\n\n color: #fff;\n text-decoration: none;\n}\n\n.btn:active {\n transform: scale(0.95);\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"> Button\n</button>\n\n</body>\n</html>\n"
 }

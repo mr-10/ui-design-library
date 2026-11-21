@@ -5,16 +5,24 @@
  "author": "themrsami",
  "source": "https://uiverse.io/themrsami/hot-fly-3",
  "trigger": "static",
- "description": "A pattern with material-design, black and themrsami styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient white pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
+  "gradient",
+  "flat",
+  "pattern",
   "material-design",
   "black",
-  "themrsami",
-  "pattern",
-  "static"
+  "themrsami"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by themrsami - Tags: material design, black, themrsami, pattern */\n.container::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient(circle, black 10%, transparent 10%);\n  background-size: 30px 30px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hot Fly 3</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/hot-fly-3 */\n/* From Uiverse.io by themrsami - Tags: material design, black, themrsami, pattern */\n.container::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient(circle, black 10%, transparent 10%);\n  background-size: 30px 30px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 131,
+ "size": 525,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Hot Fly 3 by themrsami — https://uiverse.io/themrsami/hot-fly-3 */\n.container::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient(circle, black 10%, transparent 10%);\n  background-size: 30px 30px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hot Fly 3</title>\n<style>\n/* Hot Fly 3 by themrsami — https://uiverse.io/themrsami/hot-fly-3 */\n.container::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient(circle, black 10%, transparent 10%);\n  background-size: 30px 30px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

@@ -5,15 +5,24 @@
  "author": "PriyanshuGupta28",
  "source": "https://uiverse.io/PriyanshuGupta28/quick-wolverine-69",
  "trigger": "checked",
- "description": "A checkbox with toggle-switch and cool-toggle styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Outlined gray checkbox that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: transform becomes rotate(45deg), width becomes 14px, border-color becomes #000000.",
  "tags": [
+  "outlined",
+  "flat",
   "checkbox",
   "toggle-switch",
   "cool-toggle",
   "checked"
  ],
- "html": "<div class=\"checkbox-wrapper\">\n  <label>\n    <input type=\"checkbox\">\n    <span class=\"checkbox\"></span>\n  </label>\n</div>",
- "css": "/* From Uiverse.io by PriyanshuGupta28 - Tags: checkbox, toggle switch, cool toggle */\n.checkbox-wrapper *,\n  .checkbox-wrapper *::before,\n  .checkbox-wrapper *::after {\n  box-sizing: border-box;\n}\n\n.checkbox-wrapper label {\n  display: block;\n  width: 35px;\n  height: 35px;\n  cursor: pointer;\n}\n\n.checkbox-wrapper input {\n  visibility: hidden;\n  display: none;\n}\n\n.checkbox-wrapper input:checked ~ .checkbox {\n  transform: rotate(45deg);\n  width: 14px;\n  margin-left: 12px;\n  border-color: #000000;\n  border-top-color: transparent;\n  border-left-color: transparent;\n  border-radius: 0;\n}\n\n.checkbox-wrapper .checkbox {\n  display: block;\n  width: inherit;\n  height: inherit;\n  border: 3px solid #434343;\n  border-radius: 6px;\n  transition: all 0.375s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Quick Wolverine 69</title>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - https://uiverse.io/PriyanshuGupta28/quick-wolverine-69 */\n/* From Uiverse.io by PriyanshuGupta28 - Tags: checkbox, toggle switch, cool toggle */\n.checkbox-wrapper *,\n  .checkbox-wrapper *::before,\n  .checkbox-wrapper *::after {\n  box-sizing: border-box;\n}\n\n.checkbox-wrapper label {\n  display: block;\n  width: 35px;\n  height: 35px;\n  cursor: pointer;\n}\n\n.checkbox-wrapper input {\n  visibility: hidden;\n  display: none;\n}\n\n.checkbox-wrapper input:checked ~ .checkbox {\n  transform: rotate(45deg);\n  width: 14px;\n  margin-left: 12px;\n  border-color: #000000;\n  border-top-color: transparent;\n  border-left-color: transparent;\n  border-radius: 0;\n}\n\n.checkbox-wrapper .checkbox {\n  display: block;\n  width: inherit;\n  height: inherit;\n  border: 3px solid #434343;\n  border-radius: 6px;\n  transition: all 0.375s;\n}\n</style>\n</head>\n<body>\n<div class=\"checkbox-wrapper\">\n  <label>\n    <input type=\"checkbox\">\n    <span class=\"checkbox\"></span>\n  </label>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#434343",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 277,
+ "size": 1109,
+ "html": "<div class=\"checkbox-wrapper\">\n  <label>\n    <input type=\"checkbox\">\n    <span class=\"checkbox\"></span>\n  </label>\n</div>\n",
+ "css": "/* Quick Wolverine 69 by PriyanshuGupta28 — https://uiverse.io/PriyanshuGupta28/quick-wolverine-69 */\n.checkbox-wrapper *,\n  .checkbox-wrapper *::before,\n  .checkbox-wrapper *::after {\n  box-sizing: border-box;\n}\n\n.checkbox-wrapper label {\n  display: block;\n  width: 35px;\n  height: 35px;\n  cursor: pointer;\n}\n\n.checkbox-wrapper input {\n  visibility: hidden;\n  display: none;\n}\n\n.checkbox-wrapper input:checked ~ .checkbox {\n  transform: rotate(45deg);\n  width: 14px;\n  margin-left: 12px;\n  border-color: #000000;\n  border-top-color: transparent;\n  border-left-color: transparent;\n  border-radius: 0;\n}\n\n.checkbox-wrapper .checkbox {\n  display: block;\n  width: inherit;\n  height: inherit;\n  border: 3px solid #434343;\n  border-radius: 6px;\n  transition: all 0.375s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Quick Wolverine 69</title>\n<style>\n/* Quick Wolverine 69 by PriyanshuGupta28 — https://uiverse.io/PriyanshuGupta28/quick-wolverine-69 */\n.checkbox-wrapper *,\n  .checkbox-wrapper *::before,\n  .checkbox-wrapper *::after {\n  box-sizing: border-box;\n}\n\n.checkbox-wrapper label {\n  display: block;\n  width: 35px;\n  height: 35px;\n  cursor: pointer;\n}\n\n.checkbox-wrapper input {\n  visibility: hidden;\n  display: none;\n}\n\n.checkbox-wrapper input:checked ~ .checkbox {\n  transform: rotate(45deg);\n  width: 14px;\n  margin-left: 12px;\n  border-color: #000000;\n  border-top-color: transparent;\n  border-left-color: transparent;\n  border-radius: 0;\n}\n\n.checkbox-wrapper .checkbox {\n  display: block;\n  width: inherit;\n  height: inherit;\n  border: 3px solid #434343;\n  border-radius: 6px;\n  transition: all 0.375s;\n}\n</style>\n</head>\n<body>\n<div class=\"checkbox-wrapper\">\n  <label>\n    <input type=\"checkbox\">\n    <span class=\"checkbox\"></span>\n  </label>\n</div>\n\n</body>\n</html>\n"
 }

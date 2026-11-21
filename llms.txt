@@ -3,7 +3,7 @@
 > 3,805 free copy-paste HTML+CSS UI elements (buttons, loaders, cards, forms, toggles, inputs, checkboxes, patterns, radio buttons, tooltips, notifications) from Uiverse.io, MIT licensed. Every element is pure HTML + CSS, no JavaScript, no login, no account, no API key. Browse, copy the code, paste it into your project, keep the author credit.
 
 > Live site: https://mr-10.github.io/ui-design-library
-> Data version: b62515dc6880
+> Data version: ad0a23a75570
 
 ## Categories
 
@@ -21,7 +21,9 @@
 
 ## Machine-readable data
 
-- Full index (id, name, category, trigger, tags, description): https://mr-10.github.io/ui-design-library/data/index.min.json
+For SEARCH, prefer the small per-category files (id, name, one-line description, trigger, top 4 tags) or the MCP server below — do not download the full index just to search:
+- Per-category search file: https://mr-10.github.io/ui-design-library/data/search/<category>.min.json (e.g. buttons, loaders, cards, forms, inputs, checkboxes, toggle-switches, patterns, radio-buttons, tooltips, notifications)
+- Full index (id, name, category, trigger, tags, description) — only when you need the whole list at once: https://mr-10.github.io/ui-design-library/data/index.min.json
 - Categories (names and counts): https://mr-10.github.io/ui-design-library/data/categories.json
 - One element (metadata, html, css, combined single-file version): https://mr-10.github.io/ui-design-library/api/<category>/<id>.json
 - Element source on GitHub: https://github.com/mr-10/ui-design-library/tree/main/uiverse/<category>/<id>

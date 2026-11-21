@@ -5,15 +5,24 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/perfect-skunk-19",
  "trigger": "static",
- "description": "A pattern with black and hexagonal styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient dark black pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "black",
+  "gradient",
+  "dark",
+  "outlined",
+  "flat",
   "pattern",
-  "hexagonal",
-  "static"
+  "black"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by Yaya12085 - Tags: black, pattern, hexagonal */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: repeating-radial-gradient(circle, #000, #000 5px, transparent 6px);\n  background-size: 30px 30px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Perfect Skunk 19</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/perfect-skunk-19 */\n/* From Uiverse.io by Yaya12085 - Tags: black, pattern, hexagonal */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: repeating-radial-gradient(circle, #000, #000 5px, transparent 6px);\n  background-size: 30px 30px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 122,
+ "size": 490,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Perfect Skunk 19 by Yaya12085 — https://uiverse.io/Yaya12085/perfect-skunk-19 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background: repeating-radial-gradient(circle, #000, #000 5px, transparent 6px);\n  background-size: 30px 30px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Perfect Skunk 19</title>\n<style>\n/* Perfect Skunk 19 by Yaya12085 — https://uiverse.io/Yaya12085/perfect-skunk-19 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background: repeating-radial-gradient(circle, #000, #000 5px, transparent 6px);\n  background-size: 30px 30px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

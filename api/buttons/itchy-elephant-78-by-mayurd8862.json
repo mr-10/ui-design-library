@@ -5,14 +5,25 @@
  "author": "mayurd8862",
  "source": "https://uiverse.io/mayurd8862/itchy-elephant-78",
  "trigger": "hover",
- "description": "A button with cool-btn styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon gradient rounded pink button that glows and scales up on hover.",
+ "howItWorks": "On hover, transform becomes scale(1.1), box-shadow becomes 0 0 15px #e74784, text color changes from aliceblue to #ffffff.",
  "tags": [
-  "button",
-  "cool-btn",
-  "hover"
+  "pink",
+  "cyan",
+  "neon",
+  "gradient",
+  "rounded",
+  "scale"
  ],
- "html": "<button class=\"button\">\n  Button\n</button>",
- "css": "/* From Uiverse.io by mayurd8862 - Tags: button, cool btn */\n.button {\n  padding: 0.6em 1.3em;\n  font-weight: 900;\n  font-size: 18px;\n  background: linear-gradient(to right, rgb(231, 71, 132), \n  rgb(0, 170, 255));\n  /* Gradient background */\n  border-radius: 10px;\n  border: none;\n  color: aliceblue;\n  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);\n  /* Text shadow effect */\n  box-shadow: 0 0 10px rgba(55, 0, 255, 0.5);\n  cursor: pointer;\n  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;\n}\n\n.button:hover {\n  transform: scale(1.1);\n  box-shadow: 0 0 15px rgb(231, 71, 132);\n  color: white;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Itchy Elephant 78</title>\n<style>\n/* From Uiverse.io by mayurd8862 - https://uiverse.io/mayurd8862/itchy-elephant-78 */\n/* From Uiverse.io by mayurd8862 - Tags: button, cool btn */\n.button {\n  padding: 0.6em 1.3em;\n  font-weight: 900;\n  font-size: 18px;\n  background: linear-gradient(to right, rgb(231, 71, 132), \n  rgb(0, 170, 255));\n  /* Gradient background */\n  border-radius: 10px;\n  border: none;\n  color: aliceblue;\n  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);\n  /* Text shadow effect */\n  box-shadow: 0 0 10px rgba(55, 0, 255, 0.5);\n  cursor: pointer;\n  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;\n}\n\n.button:hover {\n  transform: scale(1.1);\n  box-shadow: 0 0 15px rgb(231, 71, 132);\n  color: white;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#e74784",
+  "#00aaff",
+  "#3700ff"
+ ],
+ "fonts": [],
+ "tokens": 213,
+ "size": 853,
+ "html": "<button class=\"button\">\n  Button\n</button>\n",
+ "css": "/* Itchy Elephant 78 by mayurd8862 — https://uiverse.io/mayurd8862/itchy-elephant-78 */\n.button {\n  padding: 0.6em 1.3em;\n  font-weight: 900;\n  font-size: 18px;\n  background: linear-gradient(to right, rgb(231, 71, 132),\n  rgb(0, 170, 255));\n\n  border-radius: 10px;\n  border: none;\n  color: aliceblue;\n  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);\n\n  box-shadow: 0 0 10px rgba(55, 0, 255, 0.5);\n  cursor: pointer;\n  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;\n}\n\n.button:hover {\n  transform: scale(1.1);\n  box-shadow: 0 0 15px rgb(231, 71, 132);\n  color: white;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Itchy Elephant 78</title>\n<style>\n/* Itchy Elephant 78 by mayurd8862 — https://uiverse.io/mayurd8862/itchy-elephant-78 */\n.button {\n  padding: 0.6em 1.3em;\n  font-weight: 900;\n  font-size: 18px;\n  background: linear-gradient(to right, rgb(231, 71, 132),\n  rgb(0, 170, 255));\n\n  border-radius: 10px;\n  border: none;\n  color: aliceblue;\n  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);\n\n  box-shadow: 0 0 10px rgba(55, 0, 255, 0.5);\n  cursor: pointer;\n  transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;\n}\n\n.button:hover {\n  transform: scale(1.1);\n  box-shadow: 0 0 15px rgb(231, 71, 132);\n  color: white;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

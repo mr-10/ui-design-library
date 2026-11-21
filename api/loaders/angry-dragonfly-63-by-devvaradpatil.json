@@ -5,16 +5,24 @@
  "author": "DevVaradPatil",
  "source": "https://uiverse.io/DevVaradPatil/angry-dragonfly-63",
  "trigger": "auto-loop",
- "description": "A loader with black, gradient and dark styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient pill yellow loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (rotating).",
  "tags": [
-  "black",
+  "yellow",
   "gradient",
-  "loader",
-  "dark",
-  "auto-loop"
+  "outlined",
+  "rounded",
+  "pill",
+  "flat"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by DevVaradPatil  - Tags: black, gradient, loader, dark */\n.loader {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);\n  animation: glow 2s linear infinite;\n}\n@keyframes glow {\n  0% {\n    transform: rotate(0deg);\n    filter: hue-rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n    filter: hue-rotate(360deg);\n  }\n}\n.loader::before {\n  content: \"\";\n  position: absolute;\n  top: 3px;\n  left: 3px;\n  right: 3px;\n  bottom: 3px;\n  background: #212121;\n  border-radius: 50%;\n  z-index: 1000;\n}\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: 0px;\n  left: 0px;\n  right: 0px;\n  bottom: 0px;\n  background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);\n  border-radius: 50%;\n  z-index: 1000;\n  z-index: 1;\n  filter: blur(30px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Angry Dragonfly 63</title>\n<style>\n/* From Uiverse.io by DevVaradPatil - https://uiverse.io/DevVaradPatil/angry-dragonfly-63 */\n/* From Uiverse.io by DevVaradPatil  - Tags: black, gradient, loader, dark */\n.loader {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);\n  animation: glow 2s linear infinite;\n}\n@keyframes glow {\n  0% {\n    transform: rotate(0deg);\n    filter: hue-rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n    filter: hue-rotate(360deg);\n  }\n}\n.loader::before {\n  content: \"\";\n  position: absolute;\n  top: 3px;\n  left: 3px;\n  right: 3px;\n  bottom: 3px;\n  background: #212121;\n  border-radius: 50%;\n  z-index: 1000;\n}\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: 0px;\n  left: 0px;\n  right: 0px;\n  bottom: 0px;\n  background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);\n  border-radius: 50%;\n  z-index: 1000;\n  z-index: 1;\n  filter: blur(30px);\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#e5f403",
+  "#212121"
+ ],
+ "fonts": [],
+ "tokens": 286,
+ "size": 1145,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Angry Dragonfly 63 by DevVaradPatil — https://uiverse.io/DevVaradPatil/angry-dragonfly-63 */\n.loader {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);\n  animation: glow 2s linear infinite;\n}\n@keyframes glow {\n  0% {\n    transform: rotate(0deg);\n    filter: hue-rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n    filter: hue-rotate(360deg);\n  }\n}\n.loader::before {\n  content: \"\";\n  position: absolute;\n  top: 3px;\n  left: 3px;\n  right: 3px;\n  bottom: 3px;\n  background: #212121;\n  border-radius: 50%;\n  z-index: 1000;\n}\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: 0px;\n  left: 0px;\n  right: 0px;\n  bottom: 0px;\n  background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);\n  border-radius: 50%;\n  z-index: 1000;\n  z-index: 1;\n  filter: blur(30px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Angry Dragonfly 63</title>\n<style>\n/* Angry Dragonfly 63 by DevVaradPatil — https://uiverse.io/DevVaradPatil/angry-dragonfly-63 */\n.loader {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);\n  animation: glow 2s linear infinite;\n}\n@keyframes glow {\n  0% {\n    transform: rotate(0deg);\n    filter: hue-rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n    filter: hue-rotate(360deg);\n  }\n}\n.loader::before {\n  content: \"\";\n  position: absolute;\n  top: 3px;\n  left: 3px;\n  right: 3px;\n  bottom: 3px;\n  background: #212121;\n  border-radius: 50%;\n  z-index: 1000;\n}\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: 0px;\n  left: 0px;\n  right: 0px;\n  bottom: 0px;\n  background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);\n  border-radius: 50%;\n  z-index: 1000;\n  z-index: 1;\n  filter: blur(30px);\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

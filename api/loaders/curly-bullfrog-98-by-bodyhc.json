@@ -5,17 +5,24 @@
  "author": "Bodyhc",
  "source": "https://uiverse.io/Bodyhc/curly-bullfrog-98",
  "trigger": "auto-loop",
- "description": "A loader with loading, cube and loading-animation styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "3d rounded cyan cube loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 4s animation (rotating).",
  "tags": [
-  "loading",
-  "loader",
-  "cube",
-  "loading-animation",
-  "3d-loader",
-  "auto-loop"
+  "cyan",
+  "3d",
+  "rounded",
+  "flat",
+  "spin",
+  "back"
  ],
- "html": "<div class=\"wrapper\">\n  <div class=\"cube\">\n    <div class=\"side front\"></div>\n    <div class=\"side back\"></div>\n    <div class=\"side top\"></div>\n    <div class=\"side bottom\"></div>\n    <div class=\"side left\"></div>\n    <div class=\"side right\"></div>\n  </div>\n</div>",
- "css": "/* From Uiverse.io by Bodyhc  - Tags: loading, loader, cube, loading animation, 3d loader */\n.wrapper {\n  perspective: 1000px;\n}\n.cube {\n  position: relative;\n  width: 200px;\n  height: 200px;\n  transform-style: preserve-3d;\n  animation: animate 4s linear infinite;\n}\n.side {\n  position: absolute;\n  width: 200px;\n  height: 200px;\n  display: grid;\n  background-color: #01b4f9;\n  border-radius: 10px;\n  place-content: center;\n  border: 3px solid #fff;\n}\n\n.front {\n  transform: translateZ(100px);\n}\n.back {\n  transform: rotateY(180deg) translateZ(100px);\n}\n.top {\n  transform: rotateX(90deg) translateZ(100px);\n}\n.bottom {\n  transform: rotateX(-90deg) translateZ(100px);\n}\n.left {\n  transform: rotateY(-90deg) translateZ(100px);\n}\n.right {\n  transform: rotateY(90deg) translateZ(100px);\n}\n\n@keyframes animate {\n  0% {\n    transform: rotateX(0deg) rotateY(0deg);\n  }\n  100% {\n    transform: rotateX(360deg) rotateY(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Bullfrog 98</title>\n<style>\n/* From Uiverse.io by Bodyhc - https://uiverse.io/Bodyhc/curly-bullfrog-98 */\n/* From Uiverse.io by Bodyhc  - Tags: loading, loader, cube, loading animation, 3d loader */\n.wrapper {\n  perspective: 1000px;\n}\n.cube {\n  position: relative;\n  width: 200px;\n  height: 200px;\n  transform-style: preserve-3d;\n  animation: animate 4s linear infinite;\n}\n.side {\n  position: absolute;\n  width: 200px;\n  height: 200px;\n  display: grid;\n  background-color: #01b4f9;\n  border-radius: 10px;\n  place-content: center;\n  border: 3px solid #fff;\n}\n\n.front {\n  transform: translateZ(100px);\n}\n.back {\n  transform: rotateY(180deg) translateZ(100px);\n}\n.top {\n  transform: rotateX(90deg) translateZ(100px);\n}\n.bottom {\n  transform: rotateX(-90deg) translateZ(100px);\n}\n.left {\n  transform: rotateY(-90deg) translateZ(100px);\n}\n.right {\n  transform: rotateY(90deg) translateZ(100px);\n}\n\n@keyframes animate {\n  0% {\n    transform: rotateX(0deg) rotateY(0deg);\n  }\n  100% {\n    transform: rotateX(360deg) rotateY(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"wrapper\">\n  <div class=\"cube\">\n    <div class=\"side front\"></div>\n    <div class=\"side back\"></div>\n    <div class=\"side top\"></div>\n    <div class=\"side bottom\"></div>\n    <div class=\"side left\"></div>\n    <div class=\"side right\"></div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#01b4f9",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 349,
+ "size": 1397,
+ "html": "<div class=\"wrapper\">\n  <div class=\"cube\">\n    <div class=\"side front\"></div>\n    <div class=\"side back\"></div>\n    <div class=\"side top\"></div>\n    <div class=\"side bottom\"></div>\n    <div class=\"side left\"></div>\n    <div class=\"side right\"></div>\n  </div>\n</div>\n",
+ "css": "/* Curly Bullfrog 98 by Bodyhc — https://uiverse.io/Bodyhc/curly-bullfrog-98 */\n.wrapper {\n  perspective: 1000px;\n}\n.cube {\n  position: relative;\n  width: 200px;\n  height: 200px;\n  transform-style: preserve-3d;\n  animation: animate 4s linear infinite;\n}\n.side {\n  position: absolute;\n  width: 200px;\n  height: 200px;\n  display: grid;\n  background-color: #01b4f9;\n  border-radius: 10px;\n  place-content: center;\n  border: 3px solid #fff;\n}\n\n.front {\n  transform: translateZ(100px);\n}\n.back {\n  transform: rotateY(180deg) translateZ(100px);\n}\n.top {\n  transform: rotateX(90deg) translateZ(100px);\n}\n.bottom {\n  transform: rotateX(-90deg) translateZ(100px);\n}\n.left {\n  transform: rotateY(-90deg) translateZ(100px);\n}\n.right {\n  transform: rotateY(90deg) translateZ(100px);\n}\n\n@keyframes animate {\n  0% {\n    transform: rotateX(0deg) rotateY(0deg);\n  }\n  100% {\n    transform: rotateX(360deg) rotateY(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Bullfrog 98</title>\n<style>\n/* Curly Bullfrog 98 by Bodyhc — https://uiverse.io/Bodyhc/curly-bullfrog-98 */\n.wrapper {\n  perspective: 1000px;\n}\n.cube {\n  position: relative;\n  width: 200px;\n  height: 200px;\n  transform-style: preserve-3d;\n  animation: animate 4s linear infinite;\n}\n.side {\n  position: absolute;\n  width: 200px;\n  height: 200px;\n  display: grid;\n  background-color: #01b4f9;\n  border-radius: 10px;\n  place-content: center;\n  border: 3px solid #fff;\n}\n\n.front {\n  transform: translateZ(100px);\n}\n.back {\n  transform: rotateY(180deg) translateZ(100px);\n}\n.top {\n  transform: rotateX(90deg) translateZ(100px);\n}\n.bottom {\n  transform: rotateX(-90deg) translateZ(100px);\n}\n.left {\n  transform: rotateY(-90deg) translateZ(100px);\n}\n.right {\n  transform: rotateY(90deg) translateZ(100px);\n}\n\n@keyframes animate {\n  0% {\n    transform: rotateX(0deg) rotateY(0deg);\n  }\n  100% {\n    transform: rotateX(360deg) rotateY(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"wrapper\">\n  <div class=\"cube\">\n    <div class=\"side front\"></div>\n    <div class=\"side back\"></div>\n    <div class=\"side top\"></div>\n    <div class=\"side bottom\"></div>\n    <div class=\"side left\"></div>\n    <div class=\"side right\"></div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

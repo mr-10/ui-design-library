@@ -5,15 +5,24 @@
  "author": "AspenBranch",
  "source": "https://uiverse.io/AspenBranch/slippery-sheep-50",
  "trigger": "static",
- "description": "A pattern with simple and light styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient green pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "light",
+  "green",
+  "emerald",
+  "gradient",
+  "flat",
   "pattern",
-  "static"
+  "simple"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by AspenBranch - Tags: simple, light, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(45deg, #92c9b1, #92c9b1 20px, #b3e0d2 20px, #b3e0d2 40px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slippery Sheep 50</title>\n<style>\n/* From Uiverse.io by AspenBranch - https://uiverse.io/AspenBranch/slippery-sheep-50 */\n/* From Uiverse.io by AspenBranch - Tags: simple, light, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(45deg, #92c9b1, #92c9b1 20px, #b3e0d2 20px, #b3e0d2 40px);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#92c9b1",
+  "#b3e0d2"
+ ],
+ "fonts": [],
+ "tokens": 120,
+ "size": 483,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Slippery Sheep 50 by AspenBranch — https://uiverse.io/AspenBranch/slippery-sheep-50 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(45deg, #92c9b1, #92c9b1 20px, #b3e0d2 20px, #b3e0d2 40px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slippery Sheep 50</title>\n<style>\n/* Slippery Sheep 50 by AspenBranch — https://uiverse.io/AspenBranch/slippery-sheep-50 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(45deg, #92c9b1, #92c9b1 20px, #b3e0d2 20px, #b3e0d2 40px);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

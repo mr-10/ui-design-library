@@ -5,14 +5,24 @@
  "author": "csemszepp",
  "source": "https://uiverse.io/csemszepp/ugly-crab-22",
  "trigger": "auto-loop",
- "description": "A loader with animated styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill teal loader with animating motion in a loop.",
+ "howItWorks": "It loops a 2.5s animation (animating).",
  "tags": [
+  "teal",
+  "rounded",
+  "pill",
+  "flat",
   "loader",
-  "animated",
-  "auto-loop"
+  "animated"
  ],
- "html": "<div class=\"centered\">\n\t<div class=\"blob-1\"></div>\n\t<div class=\"blob-2\"></div>\n</div>",
- "css": "/* From Uiverse.io by csemszepp - Source: https://codepen.io/megatroncoder/pen/Xqeyva - Tags: loader, animated */\n.centered {\n  width: 400px;\n  height: 400px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  background: rgb(33 33 33 / var(--tw-bg-opacity))!important;\n  ;\n\tfilter: blur(10px) contrast(20);\n}\n\n.blob-1,.blob-2 {\n  width: 70px;\n  height: 70px;\n  position: absolute;\n  background: #fff;\n  border-radius: 50%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n}\n\n.blob-1 {\n  left: 20%;\n  animation: osc-l 2.5s ease infinite;\n}\n\n.blob-2 {\n  left: 80%;\n  animation: osc-r 2.5s ease infinite;\n  background: #0ff;\n}\n\n@keyframes osc-l {\n  0% {\n    left: 20%;\n  }\n\n  50% {\n    left: 50%;\n  }\n\n  100% {\n    left: 20%;\n  }\n}\n\n@keyframes osc-r {\n  0% {\n    left: 80%;\n  }\n\n  50% {\n    left: 50%;\n  }\n\n  100% {\n    left: 80%;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Crab 22</title>\n<style>\n/* From Uiverse.io by csemszepp - https://uiverse.io/csemszepp/ugly-crab-22 */\n/* From Uiverse.io by csemszepp - Source: https://codepen.io/megatroncoder/pen/Xqeyva - Tags: loader, animated */\n.centered {\n  width: 400px;\n  height: 400px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  background: rgb(33 33 33 / var(--tw-bg-opacity))!important;\n  ;\n\tfilter: blur(10px) contrast(20);\n}\n\n.blob-1,.blob-2 {\n  width: 70px;\n  height: 70px;\n  position: absolute;\n  background: #fff;\n  border-radius: 50%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n}\n\n.blob-1 {\n  left: 20%;\n  animation: osc-l 2.5s ease infinite;\n}\n\n.blob-2 {\n  left: 80%;\n  animation: osc-r 2.5s ease infinite;\n  background: #0ff;\n}\n\n@keyframes osc-l {\n  0% {\n    left: 20%;\n  }\n\n  50% {\n    left: 50%;\n  }\n\n  100% {\n    left: 20%;\n  }\n}\n\n@keyframes osc-r {\n  0% {\n    left: 80%;\n  }\n\n  50% {\n    left: 50%;\n  }\n\n  100% {\n    left: 80%;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"centered\">\n\t<div class=\"blob-1\"></div>\n\t<div class=\"blob-2\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#00ffff",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 284,
+ "size": 1140,
+ "html": "<div class=\"centered\">\n\t<div class=\"blob-1\"></div>\n\t<div class=\"blob-2\"></div>\n</div>\n",
+ "css": "/* Ugly Crab 22 by csemszepp — https://uiverse.io/csemszepp/ugly-crab-22 */\n.centered {\n  width: 400px;\n  height: 400px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  background: rgb(33 33 33 / var(--tw-bg-opacity))!important;\n  ;\n\tfilter: blur(10px) contrast(20);\n}\n\n.blob-1,.blob-2 {\n  width: 70px;\n  height: 70px;\n  position: absolute;\n  background: #fff;\n  border-radius: 50%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n}\n\n.blob-1 {\n  left: 20%;\n  animation: osc-l 2.5s ease infinite;\n}\n\n.blob-2 {\n  left: 80%;\n  animation: osc-r 2.5s ease infinite;\n  background: #0ff;\n}\n\n@keyframes osc-l {\n  0% {\n    left: 20%;\n  }\n\n  50% {\n    left: 50%;\n  }\n\n  100% {\n    left: 20%;\n  }\n}\n\n@keyframes osc-r {\n  0% {\n    left: 80%;\n  }\n\n  50% {\n    left: 50%;\n  }\n\n  100% {\n    left: 80%;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Crab 22</title>\n<style>\n/* Ugly Crab 22 by csemszepp — https://uiverse.io/csemszepp/ugly-crab-22 */\n.centered {\n  width: 400px;\n  height: 400px;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  background: rgb(33 33 33 / var(--tw-bg-opacity))!important;\n  ;\n\tfilter: blur(10px) contrast(20);\n}\n\n.blob-1,.blob-2 {\n  width: 70px;\n  height: 70px;\n  position: absolute;\n  background: #fff;\n  border-radius: 50%;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n}\n\n.blob-1 {\n  left: 20%;\n  animation: osc-l 2.5s ease infinite;\n}\n\n.blob-2 {\n  left: 80%;\n  animation: osc-r 2.5s ease infinite;\n  background: #0ff;\n}\n\n@keyframes osc-l {\n  0% {\n    left: 20%;\n  }\n\n  50% {\n    left: 50%;\n  }\n\n  100% {\n    left: 20%;\n  }\n}\n\n@keyframes osc-r {\n  0% {\n    left: 80%;\n  }\n\n  50% {\n    left: 50%;\n  }\n\n  100% {\n    left: 80%;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"centered\">\n\t<div class=\"blob-1\"></div>\n\t<div class=\"blob-2\"></div>\n</div>\n\n</body>\n</html>\n"
 }

@@ -4,15 +4,24 @@
  "category": "buttons",
  "author": "ItsEnigma143",
  "source": "https://uiverse.io/ItsEnigma143/tender-ape-26",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Cyan button that scales up on hover with a smooth transition.",
+ "howItWorks": "On hover, background changes and text colour changes.",
  "tags": [
+  "cyan",
+  "color-change",
+  "scale",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by ItsEnigma143  - Tags: button, hover, hover effect, hoverme, box-shadow, #button, tailwind, tailwindcss -->\n<div\n  class=\"max-w-32 bg-transparent items-center justify-center flex border-2 border-sky-500 shadow-lg hover:bg-sky-500 text-sky-500 hover:text-white duration-300 cursor-pointer active:scale-[0.98]\"\n>\n  <button class=\"px-5 py-2\"><a class=\"\" href=\"\">Click Me</a></button>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tender Ape 26</title>\n<style>\n/* From Uiverse.io by ItsEnigma143 - https://uiverse.io/ItsEnigma143/tender-ape-26 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by ItsEnigma143  - Tags: button, hover, hover effect, hoverme, box-shadow, #button, tailwind, tailwindcss -->\n<div\n  class=\"max-w-32 bg-transparent items-center justify-center flex border-2 border-sky-500 shadow-lg hover:bg-sky-500 text-sky-500 hover:text-white duration-300 cursor-pointer active:scale-[0.98]\"\n>\n  <button class=\"px-5 py-2\"><a class=\"\" href=\"\">Click Me</a></button>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#0ea5e9",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 144,
+ "size": 579,
+ "html": "<div\n  class=\"max-w-32 bg-transparent items-center justify-center flex border-2 border-sky-500 shadow-lg hover:bg-sky-500 text-sky-500 hover:text-white duration-300 cursor-pointer active:scale-[0.98]\"\n>\n  <button class=\"px-5 py-2\"><a class=\"\" href=\"\">Click Me</a></button>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tender Ape 26</title>\n<style>\n/* Tender Ape 26 by ItsEnigma143 — https://uiverse.io/ItsEnigma143/tender-ape-26 */\n\n</style>\n</head>\n<body>\n<div\n  class=\"max-w-32 bg-transparent items-center justify-center flex border-2 border-sky-500 shadow-lg hover:bg-sky-500 text-sky-500 hover:text-white duration-300 cursor-pointer active:scale-[0.98]\"\n>\n  <button class=\"px-5 py-2\"><a class=\"\" href=\"\">Click Me</a></button>\n</div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,24 @@
  "author": "Botwe-Felix5820",
  "source": "https://uiverse.io/Botwe-Felix5820/big-baboon-67",
  "trigger": "hover",
- "description": "A button with squishy styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined sky-blue button that starts animating on hover.",
+ "howItWorks": "On hover, background changes from transparent to #016DD9, text color changes from #016DD9 to #ffffff, starts the squeeze3124 animation (pulsing).",
  "tags": [
-  "button",
-  "squishy",
-  "hover"
+  "blue",
+  "outlined",
+  "flat",
+  "color-change",
+  "animated",
+  "pulse"
  ],
- "html": "<button> Squeeze me\n</button>",
- "css": "/* From Uiverse.io by Botwe-Felix5820 - Tags: button, squishy */\nbutton {\n height: 2.8em;\n width: 9em;\n background: transparent;\n -webkit-animation: jello-horizontal 0.9s both;\n animation: jello-horizontal 0.9s both;\n border: 2px solid #016DD9;\n outline: none;\n color: #016DD9;\n font-size: 17px;\n}\n\nbutton:hover {\n background: #016DD9;\n color: #ffffff;\n animation: squeeze3124 0.9s both;\n}\n\n@keyframes squeeze3124 {\n 0% {\n  -webkit-transform: scale3d(1, 1, 1);\n  transform: scale3d(1, 1, 1);\n }\n\n 30% {\n  -webkit-transform: scale3d(1.25, 0.75, 1);\n  transform: scale3d(1.25, 0.75, 1);\n }\n\n 40% {\n  -webkit-transform: scale3d(0.75, 1.25, 1);\n  transform: scale3d(0.75, 1.25, 1);\n }\n\n 50% {\n  -webkit-transform: scale3d(1.15, 0.85, 1);\n  transform: scale3d(1.15, 0.85, 1);\n }\n\n 65% {\n  -webkit-transform: scale3d(0.95, 1.05, 1);\n  transform: scale3d(0.95, 1.05, 1);\n }\n\n 75% {\n  -webkit-transform: scale3d(1.05, 0.95, 1);\n  transform: scale3d(1.05, 0.95, 1);\n }\n\n 100% {\n  -webkit-transform: scale3d(1, 1, 1);\n  transform: scale3d(1, 1, 1);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Baboon 67</title>\n<style>\n/* From Uiverse.io by Botwe-Felix5820 - https://uiverse.io/Botwe-Felix5820/big-baboon-67 */\n/* From Uiverse.io by Botwe-Felix5820 - Tags: button, squishy */\nbutton {\n height: 2.8em;\n width: 9em;\n background: transparent;\n -webkit-animation: jello-horizontal 0.9s both;\n animation: jello-horizontal 0.9s both;\n border: 2px solid #016DD9;\n outline: none;\n color: #016DD9;\n font-size: 17px;\n}\n\nbutton:hover {\n background: #016DD9;\n color: #ffffff;\n animation: squeeze3124 0.9s both;\n}\n\n@keyframes squeeze3124 {\n 0% {\n  -webkit-transform: scale3d(1, 1, 1);\n  transform: scale3d(1, 1, 1);\n }\n\n 30% {\n  -webkit-transform: scale3d(1.25, 0.75, 1);\n  transform: scale3d(1.25, 0.75, 1);\n }\n\n 40% {\n  -webkit-transform: scale3d(0.75, 1.25, 1);\n  transform: scale3d(0.75, 1.25, 1);\n }\n\n 50% {\n  -webkit-transform: scale3d(1.15, 0.85, 1);\n  transform: scale3d(1.15, 0.85, 1);\n }\n\n 65% {\n  -webkit-transform: scale3d(0.95, 1.05, 1);\n  transform: scale3d(0.95, 1.05, 1);\n }\n\n 75% {\n  -webkit-transform: scale3d(1.05, 0.95, 1);\n  transform: scale3d(1.05, 0.95, 1);\n }\n\n 100% {\n  -webkit-transform: scale3d(1, 1, 1);\n  transform: scale3d(1, 1, 1);\n }\n}\n</style>\n</head>\n<body>\n<button> Squeeze me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#016dd9",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 328,
+ "size": 1313,
+ "html": "<button> Squeeze me\n</button>\n",
+ "css": "/* Big Baboon 67 by Botwe-Felix5820 — https://uiverse.io/Botwe-Felix5820/big-baboon-67 */\nbutton {\n height: 2.8em;\n width: 9em;\n background: transparent;\n -webkit-animation: jello-horizontal 0.9s both;\n animation: jello-horizontal 0.9s both;\n border: 2px solid #016DD9;\n outline: none;\n color: #016DD9;\n font-size: 17px;\n}\n\nbutton:hover {\n background: #016DD9;\n color: #ffffff;\n animation: squeeze3124 0.9s both;\n}\n\n@keyframes squeeze3124 {\n 0% {\n  -webkit-transform: scale3d(1, 1, 1);\n  transform: scale3d(1, 1, 1);\n }\n\n 30% {\n  -webkit-transform: scale3d(1.25, 0.75, 1);\n  transform: scale3d(1.25, 0.75, 1);\n }\n\n 40% {\n  -webkit-transform: scale3d(0.75, 1.25, 1);\n  transform: scale3d(0.75, 1.25, 1);\n }\n\n 50% {\n  -webkit-transform: scale3d(1.15, 0.85, 1);\n  transform: scale3d(1.15, 0.85, 1);\n }\n\n 65% {\n  -webkit-transform: scale3d(0.95, 1.05, 1);\n  transform: scale3d(0.95, 1.05, 1);\n }\n\n 75% {\n  -webkit-transform: scale3d(1.05, 0.95, 1);\n  transform: scale3d(1.05, 0.95, 1);\n }\n\n 100% {\n  -webkit-transform: scale3d(1, 1, 1);\n  transform: scale3d(1, 1, 1);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Baboon 67</title>\n<style>\n/* Big Baboon 67 by Botwe-Felix5820 — https://uiverse.io/Botwe-Felix5820/big-baboon-67 */\nbutton {\n height: 2.8em;\n width: 9em;\n background: transparent;\n -webkit-animation: jello-horizontal 0.9s both;\n animation: jello-horizontal 0.9s both;\n border: 2px solid #016DD9;\n outline: none;\n color: #016DD9;\n font-size: 17px;\n}\n\nbutton:hover {\n background: #016DD9;\n color: #ffffff;\n animation: squeeze3124 0.9s both;\n}\n\n@keyframes squeeze3124 {\n 0% {\n  -webkit-transform: scale3d(1, 1, 1);\n  transform: scale3d(1, 1, 1);\n }\n\n 30% {\n  -webkit-transform: scale3d(1.25, 0.75, 1);\n  transform: scale3d(1.25, 0.75, 1);\n }\n\n 40% {\n  -webkit-transform: scale3d(0.75, 1.25, 1);\n  transform: scale3d(0.75, 1.25, 1);\n }\n\n 50% {\n  -webkit-transform: scale3d(1.15, 0.85, 1);\n  transform: scale3d(1.15, 0.85, 1);\n }\n\n 65% {\n  -webkit-transform: scale3d(0.95, 1.05, 1);\n  transform: scale3d(0.95, 1.05, 1);\n }\n\n 75% {\n  -webkit-transform: scale3d(1.05, 0.95, 1);\n  transform: scale3d(1.05, 0.95, 1);\n }\n\n 100% {\n  -webkit-transform: scale3d(1, 1, 1);\n  transform: scale3d(1, 1, 1);\n }\n}\n</style>\n</head>\n<body>\n<button> Squeeze me\n</button>\n\n</body>\n</html>\n"
 }

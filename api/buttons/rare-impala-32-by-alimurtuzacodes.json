@@ -4,15 +4,23 @@
  "category": "buttons",
  "author": "AlimurtuzaCodes",
  "source": "https://uiverse.io/AlimurtuzaCodes/rare-impala-32",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Rounded white button that changes colour on hover.",
+ "howItWorks": "On hover, background changes and text colour changes.",
  "tags": [
+  "rounded",
+  "color-change",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by AlimurtuzaCodes - Tags: button, color, tailwind -->\n<button class=\"w-40 h-12 bg-white cursor-pointer rounded-3xl border-2 border-[#9748FF] shadow-[inset_0px_-2px_0px_1px_#9748FF] group hover:bg-[#9748FF] transition duration-300 ease-in-out\">\n <span class=\"font-medium text-[#333] group-hover:text-white\">Hover me</span>\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rare Impala 32</title>\n<style>\n/* From Uiverse.io by AlimurtuzaCodes - https://uiverse.io/AlimurtuzaCodes/rare-impala-32 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by AlimurtuzaCodes - Tags: button, color, tailwind -->\n<button class=\"w-40 h-12 bg-white cursor-pointer rounded-3xl border-2 border-[#9748FF] shadow-[inset_0px_-2px_0px_1px_#9748FF] group hover:bg-[#9748FF] transition duration-300 ease-in-out\">\n <span class=\"font-medium text-[#333] group-hover:text-white\">Hover me</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 146,
+ "size": 586,
+ "html": "<button class=\"w-40 h-12 bg-white cursor-pointer rounded-3xl border-2 border-[#9748FF] shadow-[inset_0px_-2px_0px_1px_#9748FF] group hover:bg-[#9748FF] transition duration-300 ease-in-out\">\n <span class=\"font-medium text-[#333] group-hover:text-white\">Hover me</span>\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rare Impala 32</title>\n<style>\n/* Rare Impala 32 by AlimurtuzaCodes — https://uiverse.io/AlimurtuzaCodes/rare-impala-32 */\n\n</style>\n</head>\n<body>\n<button class=\"w-40 h-12 bg-white cursor-pointer rounded-3xl border-2 border-[#9748FF] shadow-[inset_0px_-2px_0px_1px_#9748FF] group hover:bg-[#9748FF] transition duration-300 ease-in-out\">\n <span class=\"font-medium text-[#333] group-hover:text-white\">Hover me</span>\n</button>\n\n</body>\n</html>\n"
 }

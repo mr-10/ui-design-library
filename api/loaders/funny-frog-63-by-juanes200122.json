@@ -5,17 +5,24 @@
  "author": "Juanes200122",
  "source": "https://uiverse.io/Juanes200122/funny-frog-63",
  "trigger": "auto-loop",
- "description": "A loader with simple, animation and red styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined pill orange loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (rotating).",
  "tags": [
-  "simple",
-  "animation",
-  "red",
-  "loading",
-  "loader",
-  "auto-loop"
+  "orange",
+  "outlined",
+  "rounded",
+  "pill",
+  "flat",
+  "spin"
  ],
- "html": "<span class=\"loader\"></span>",
- "css": "/* From Uiverse.io by Juanes200122  - Website: https://cssloaders.github.io/ - Name: css-loader - Tags: simple, animation, red, loading, loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  border: 3px dotted #fff;\n  border-style: solid solid dotted dotted;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  box-sizing: border-box;\n  animation: rotation 2s linear infinite;\n}\n.loader::after {\n  content: \"\";\n  box-sizing: border-box;\n  position: absolute;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  margin: auto;\n  border: 3px dotted #ff3d00;\n  border-style: solid solid dotted;\n  width: 24px;\n  height: 24px;\n  border-radius: 50%;\n  animation: rotationBack 1s linear infinite;\n  transform-origin: center center;\n}\n\n@keyframes rotation {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n@keyframes rotationBack {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Funny Frog 63</title>\n<style>\n/* From Uiverse.io by Juanes200122 - https://uiverse.io/Juanes200122/funny-frog-63 */\n/* From Uiverse.io by Juanes200122  - Website: https://cssloaders.github.io/ - Name: css-loader - Tags: simple, animation, red, loading, loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  border: 3px dotted #fff;\n  border-style: solid solid dotted dotted;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  box-sizing: border-box;\n  animation: rotation 2s linear infinite;\n}\n.loader::after {\n  content: \"\";\n  box-sizing: border-box;\n  position: absolute;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  margin: auto;\n  border: 3px dotted #ff3d00;\n  border-style: solid solid dotted;\n  width: 24px;\n  height: 24px;\n  border-radius: 50%;\n  animation: rotationBack 1s linear infinite;\n  transform-origin: center center;\n}\n\n@keyframes rotation {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n@keyframes rotationBack {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n</style>\n</head>\n<body>\n<span class=\"loader\"></span>\n</body>\n</html>\n"
+ "colors": [
+  "#ff3d00",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 285,
+ "size": 1143,
+ "html": "<span class=\"loader\"></span>\n",
+ "css": "/* Funny Frog 63 by Juanes200122 — https://uiverse.io/Juanes200122/funny-frog-63 */\n.loader {\n  width: 48px;\n  height: 48px;\n  border: 3px dotted #fff;\n  border-style: solid solid dotted dotted;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  box-sizing: border-box;\n  animation: rotation 2s linear infinite;\n}\n.loader::after {\n  content: \"\";\n  box-sizing: border-box;\n  position: absolute;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  margin: auto;\n  border: 3px dotted #ff3d00;\n  border-style: solid solid dotted;\n  width: 24px;\n  height: 24px;\n  border-radius: 50%;\n  animation: rotationBack 1s linear infinite;\n  transform-origin: center center;\n}\n\n@keyframes rotation {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n@keyframes rotationBack {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Funny Frog 63</title>\n<style>\n/* Funny Frog 63 by Juanes200122 — https://uiverse.io/Juanes200122/funny-frog-63 */\n.loader {\n  width: 48px;\n  height: 48px;\n  border: 3px dotted #fff;\n  border-style: solid solid dotted dotted;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  box-sizing: border-box;\n  animation: rotation 2s linear infinite;\n}\n.loader::after {\n  content: \"\";\n  box-sizing: border-box;\n  position: absolute;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  margin: auto;\n  border: 3px dotted #ff3d00;\n  border-style: solid solid dotted;\n  width: 24px;\n  height: 24px;\n  border-radius: 50%;\n  animation: rotationBack 1s linear infinite;\n  transform-origin: center center;\n}\n\n@keyframes rotation {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n@keyframes rotationBack {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n</style>\n</head>\n<body>\n<span class=\"loader\"></span>\n\n</body>\n</html>\n"
 }

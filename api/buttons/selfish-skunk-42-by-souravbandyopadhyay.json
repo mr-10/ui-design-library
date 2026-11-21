@@ -4,15 +4,26 @@
  "category": "buttons",
  "author": "SouravBandyopadhyay",
  "source": "https://uiverse.io/SouravBandyopadhyay/selfish-skunk-42",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gradient pill teal button that glows on hover.",
+ "howItWorks": "On hover, text colour changes and shadow grows.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "teal",
+  "blue",
+  "gradient",
+  "rounded",
+  "pill",
+  "color-change"
  ],
- "html": "<!-- From Uiverse.io by SouravBandyopadhyay - Tags: button, bounce, ball, click, tailwind, tailwindbutton, dancing -->\n<button class=\"btn animate-bounce rounded-full bg-gradient-to-r from-teal-400 to-blue-500 px-4 py-2 font-bold text-blue-900 transition-colors duration-300 hover:from-blue-400 hover:to-teal-500 hover:text-white hover:shadow-lg\">Click Me</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Skunk 42</title>\n<style>\n/* From Uiverse.io by SouravBandyopadhyay - https://uiverse.io/SouravBandyopadhyay/selfish-skunk-42 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by SouravBandyopadhyay - Tags: button, bounce, ball, click, tailwind, tailwindbutton, dancing -->\n<button class=\"btn animate-bounce rounded-full bg-gradient-to-r from-teal-400 to-blue-500 px-4 py-2 font-bold text-blue-900 transition-colors duration-300 hover:from-blue-400 hover:to-teal-500 hover:text-white hover:shadow-lg\">Click Me</button>\n</body>\n</html>\n"
+ "colors": [
+  "#2dd4bf",
+  "#3b82f6",
+  "#1e3a8a"
+ ],
+ "fonts": [],
+ "tokens": 141,
+ "size": 567,
+ "html": "<button class=\"btn animate-bounce rounded-full bg-gradient-to-r from-teal-400 to-blue-500 px-4 py-2 font-bold text-blue-900 transition-colors duration-300 hover:from-blue-400 hover:to-teal-500 hover:text-white hover:shadow-lg\">Click Me</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Skunk 42</title>\n<style>\n/* Selfish Skunk 42 by SouravBandyopadhyay — https://uiverse.io/SouravBandyopadhyay/selfish-skunk-42 */\n\n</style>\n</head>\n<body>\n<button class=\"btn animate-bounce rounded-full bg-gradient-to-r from-teal-400 to-blue-500 px-4 py-2 font-bold text-blue-900 transition-colors duration-300 hover:from-blue-400 hover:to-teal-500 hover:text-white hover:shadow-lg\">Click Me</button>\n\n</body>\n</html>\n"
 }

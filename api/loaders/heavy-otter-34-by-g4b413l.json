@@ -5,14 +5,24 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/heavy-otter-34",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill white loader with fading motion in a loop.",
+ "howItWorks": "It loops a animation (fading, pulsing).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "rounded",
+  "pill",
+  "flat",
+  "fade",
+  "pulse",
+  "loader"
  ],
- "html": "<div class=\"pulsar\"></div>",
- "css": "/* From Uiverse.io by G4b413l - Tags: loader */\n.pulsar {\n  --uib-size: 40px;\n  --uib-speed: 0.9s;\n  --uib-color: white;\n  position: relative;\n  height: var(--uib-size);\n  width: var(--uib-size);\n}\n\n.pulsar::before,\n.pulsar::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  border-radius: 50%;\n  background-color: var(--uib-color);\n  animation: pulse9173412 var(--uib-speed) ease-in-out infinite;\n  transform: scale(0);\n}\n\n.pulsar::after {\n  animation-delay: calc(var(--uib-speed) / -2);\n}\n\n@keyframes pulse9173412 {\n  0%,\n  100% {\n    transform: scale(0);\n    opacity: 1;\n  }\n\n  50% {\n    transform: scale(1);\n    opacity: 0.25;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Otter 34</title>\n<style>\n/* From Uiverse.io by G4b413l - https://uiverse.io/G4b413l/heavy-otter-34 */\n/* From Uiverse.io by G4b413l - Tags: loader */\n.pulsar {\n  --uib-size: 40px;\n  --uib-speed: 0.9s;\n  --uib-color: white;\n  position: relative;\n  height: var(--uib-size);\n  width: var(--uib-size);\n}\n\n.pulsar::before,\n.pulsar::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  border-radius: 50%;\n  background-color: var(--uib-color);\n  animation: pulse9173412 var(--uib-speed) ease-in-out infinite;\n  transform: scale(0);\n}\n\n.pulsar::after {\n  animation-delay: calc(var(--uib-speed) / -2);\n}\n\n@keyframes pulse9173412 {\n  0%,\n  100% {\n    transform: scale(0);\n    opacity: 1;\n  }\n\n  50% {\n    transform: scale(1);\n    opacity: 0.25;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"pulsar\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 238,
+ "size": 956,
+ "html": "<div class=\"pulsar\"></div>\n",
+ "css": "/* Heavy Otter 34 by G4b413l — https://uiverse.io/G4b413l/heavy-otter-34 */\n.pulsar {\n  --uib-size: 40px;\n  --uib-speed: 0.9s;\n  --uib-color: white;\n  position: relative;\n  height: var(--uib-size);\n  width: var(--uib-size);\n}\n\n.pulsar::before,\n.pulsar::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  border-radius: 50%;\n  background-color: var(--uib-color);\n  animation: pulse9173412 var(--uib-speed) ease-in-out infinite;\n  transform: scale(0);\n}\n\n.pulsar::after {\n  animation-delay: calc(var(--uib-speed) / -2);\n}\n\n@keyframes pulse9173412 {\n  0%,\n  100% {\n    transform: scale(0);\n    opacity: 1;\n  }\n\n  50% {\n    transform: scale(1);\n    opacity: 0.25;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Otter 34</title>\n<style>\n/* Heavy Otter 34 by G4b413l — https://uiverse.io/G4b413l/heavy-otter-34 */\n.pulsar {\n  --uib-size: 40px;\n  --uib-speed: 0.9s;\n  --uib-color: white;\n  position: relative;\n  height: var(--uib-size);\n  width: var(--uib-size);\n}\n\n.pulsar::before,\n.pulsar::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  border-radius: 50%;\n  background-color: var(--uib-color);\n  animation: pulse9173412 var(--uib-speed) ease-in-out infinite;\n  transform: scale(0);\n}\n\n.pulsar::after {\n  animation-delay: calc(var(--uib-speed) / -2);\n}\n\n@keyframes pulse9173412 {\n  0%,\n  100% {\n    transform: scale(0);\n    opacity: 1;\n  }\n\n  50% {\n    transform: scale(1);\n    opacity: 0.25;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"pulsar\"></div>\n\n</body>\n</html>\n"
 }

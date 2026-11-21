@@ -5,16 +5,24 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/sweet-vampirebat-42",
  "trigger": "hover",
- "description": "A button with simple, emoji and minimalistic styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "White button that reacts on hover with a smooth transition.",
+ "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
+  "flat",
   "simple",
   "button",
   "emoji",
   "minimalistic",
   "hover"
  ],
- "html": "<span\n  data-active-content=\"🤨\"\n  data-hover-content=\"😑\"\n  data-content=\"😐\"\n  class=\"💀\"\n></span>",
- "css": "/* From Uiverse.io by elijahgummer  - Tags: simple, button, emoji, minimalistic, ¯\\_(ツ)_/¯ */\n.💀 {\n  font-size: 48px;\n}\n\n.💀:after {\n  content: attr(data-content);\n}\n\n.💀:hover:after {\n  content: attr(data-hover-content);\n}\n\n.💀:active:after {\n  content: attr(data-active-content);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sweet Vampirebat 42</title>\n<style>\n/* From Uiverse.io by elijahgummer - https://uiverse.io/elijahgummer/sweet-vampirebat-42 */\n/* From Uiverse.io by elijahgummer  - Tags: simple, button, emoji, minimalistic, ¯\\_(ツ)_/¯ */\n.💀 {\n  font-size: 48px;\n}\n\n.💀:after {\n  content: attr(data-content);\n}\n\n.💀:hover:after {\n  content: attr(data-hover-content);\n}\n\n.💀:active:after {\n  content: attr(data-active-content);\n}\n</style>\n</head>\n<body>\n<span\n  data-active-content=\"🤨\"\n  data-hover-content=\"😑\"\n  data-content=\"😐\"\n  class=\"💀\"\n></span>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 150,
+ "size": 624,
+ "html": "<span\n  data-active-content=\"🤨\"\n  data-hover-content=\"😑\"\n  data-content=\"😐\"\n  class=\"💀\"\n></span>\n",
+ "css": "/* Sweet Vampirebat 42 by elijahgummer — https://uiverse.io/elijahgummer/sweet-vampirebat-42 */\n.💀 {\n  font-size: 48px;\n}\n\n.💀:after {\n  content: attr(data-content);\n}\n\n.💀:hover:after {\n  content: attr(data-hover-content);\n}\n\n.💀:active:after {\n  content: attr(data-active-content);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sweet Vampirebat 42</title>\n<style>\n/* Sweet Vampirebat 42 by elijahgummer — https://uiverse.io/elijahgummer/sweet-vampirebat-42 */\n.💀 {\n  font-size: 48px;\n}\n\n.💀:after {\n  content: attr(data-content);\n}\n\n.💀:hover:after {\n  content: attr(data-hover-content);\n}\n\n.💀:active:after {\n  content: attr(data-active-content);\n}\n</style>\n</head>\n<body>\n<span\n  data-active-content=\"🤨\"\n  data-hover-content=\"😑\"\n  data-content=\"😐\"\n  class=\"💀\"\n></span>\n\n</body>\n</html>\n"
 }

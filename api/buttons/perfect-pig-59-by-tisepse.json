@@ -5,15 +5,24 @@
  "author": "TISEPSE",
  "source": "https://uiverse.io/TISEPSE/perfect-pig-59",
  "trigger": "hover",
- "description": "A button with material-design and black styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark gray button that reacts on hover with a smooth transition.",
+ "howItWorks": "On hover, transform becomes scaleY(0), transform becomes scaleX(0).",
  "tags": [
+  "dark",
+  "outlined",
+  "flat",
   "material-design",
   "black",
-  "button",
-  "hover"
+  "button"
  ],
- "html": "<button>\n<a href=\"#\"><span>Button</span></a> \n</button>",
- "css": "/* From Uiverse.io by TISEPSE - Source: https://www.youtube.com/watch?v=B7Z6qERVTvM - Tags: material design, black, button */\na {\n  position: relative;\n  display: inline-block;\n  padding: 15px 30px;\n  border: 2px solid #fefefe;\n  text-transform: uppercase;\n  color: #fefefe;\n  text-decoration: none;\n  font-weight: 600;\n  font-size: 20px;\n}\n\na::before {\n  content: '';\n  position: absolute;\n  top: 6px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - 12px);\n  background-color: #212121;\n  transition: 0.3s ease-in-out;\n  transform: scaleY(1);\n}\n\na:hover::before {\n  transform: scaleY(0);\n}\n\na::after {\n  content: '';\n  position: absolute;\n  left: 6px;\n  top: -2px;\n  height: calc(100% + 4px);\n  width: calc(100% - 12px);\n  background-color: #212121;\n  transition: 0.3s ease-in-out;\n  transform: scaleX(1);\n  transition-delay: 0.5s;\n}\n\na:hover::after {\n  transform: scaleX(0);\n}\n\na span {\n  position: relative;\n  z-index: 3;\n}\n\nbutton {\n  background-color: none;\n  text-decoration: none;\n  background-color: #212121;\n  border: none;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Perfect Pig 59</title>\n<style>\n/* From Uiverse.io by TISEPSE - https://uiverse.io/TISEPSE/perfect-pig-59 */\n/* From Uiverse.io by TISEPSE - Source: https://www.youtube.com/watch?v=B7Z6qERVTvM - Tags: material design, black, button */\na {\n  position: relative;\n  display: inline-block;\n  padding: 15px 30px;\n  border: 2px solid #fefefe;\n  text-transform: uppercase;\n  color: #fefefe;\n  text-decoration: none;\n  font-weight: 600;\n  font-size: 20px;\n}\n\na::before {\n  content: '';\n  position: absolute;\n  top: 6px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - 12px);\n  background-color: #212121;\n  transition: 0.3s ease-in-out;\n  transform: scaleY(1);\n}\n\na:hover::before {\n  transform: scaleY(0);\n}\n\na::after {\n  content: '';\n  position: absolute;\n  left: 6px;\n  top: -2px;\n  height: calc(100% + 4px);\n  width: calc(100% - 12px);\n  background-color: #212121;\n  transition: 0.3s ease-in-out;\n  transform: scaleX(1);\n  transition-delay: 0.5s;\n}\n\na:hover::after {\n  transform: scaleX(0);\n}\n\na span {\n  position: relative;\n  z-index: 3;\n}\n\nbutton {\n  background-color: none;\n  text-decoration: none;\n  background-color: #212121;\n  border: none;\n}\n</style>\n</head>\n<body>\n<button>\n<a href=\"#\"><span>Button</span></a> \n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#212121",
+  "#fefefe"
+ ],
+ "fonts": [],
+ "tokens": 317,
+ "size": 1269,
+ "html": "<button>\n<a href=\"#\"><span>Button</span></a>\n</button>\n",
+ "css": "/* Perfect Pig 59 by TISEPSE — https://uiverse.io/TISEPSE/perfect-pig-59 */\na {\n  position: relative;\n  display: inline-block;\n  padding: 15px 30px;\n  border: 2px solid #fefefe;\n  text-transform: uppercase;\n  color: #fefefe;\n  text-decoration: none;\n  font-weight: 600;\n  font-size: 20px;\n}\n\na::before {\n  content: '';\n  position: absolute;\n  top: 6px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - 12px);\n  background-color: #212121;\n  transition: 0.3s ease-in-out;\n  transform: scaleY(1);\n}\n\na:hover::before {\n  transform: scaleY(0);\n}\n\na::after {\n  content: '';\n  position: absolute;\n  left: 6px;\n  top: -2px;\n  height: calc(100% + 4px);\n  width: calc(100% - 12px);\n  background-color: #212121;\n  transition: 0.3s ease-in-out;\n  transform: scaleX(1);\n  transition-delay: 0.5s;\n}\n\na:hover::after {\n  transform: scaleX(0);\n}\n\na span {\n  position: relative;\n  z-index: 3;\n}\n\nbutton {\n  background-color: none;\n  text-decoration: none;\n  background-color: #212121;\n  border: none;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Perfect Pig 59</title>\n<style>\n/* Perfect Pig 59 by TISEPSE — https://uiverse.io/TISEPSE/perfect-pig-59 */\na {\n  position: relative;\n  display: inline-block;\n  padding: 15px 30px;\n  border: 2px solid #fefefe;\n  text-transform: uppercase;\n  color: #fefefe;\n  text-decoration: none;\n  font-weight: 600;\n  font-size: 20px;\n}\n\na::before {\n  content: '';\n  position: absolute;\n  top: 6px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - 12px);\n  background-color: #212121;\n  transition: 0.3s ease-in-out;\n  transform: scaleY(1);\n}\n\na:hover::before {\n  transform: scaleY(0);\n}\n\na::after {\n  content: '';\n  position: absolute;\n  left: 6px;\n  top: -2px;\n  height: calc(100% + 4px);\n  width: calc(100% - 12px);\n  background-color: #212121;\n  transition: 0.3s ease-in-out;\n  transform: scaleX(1);\n  transition-delay: 0.5s;\n}\n\na:hover::after {\n  transform: scaleX(0);\n}\n\na span {\n  position: relative;\n  z-index: 3;\n}\n\nbutton {\n  background-color: none;\n  text-decoration: none;\n  background-color: #212121;\n  border: none;\n}\n</style>\n</head>\n<body>\n<button>\n<a href=\"#\"><span>Button</span></a>\n</button>\n\n</body>\n</html>\n"
 }

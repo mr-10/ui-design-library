@@ -5,14 +5,25 @@
  "author": "felipesntr",
  "source": "https://uiverse.io/felipesntr/odd-wasp-90",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined green loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "green",
+  "yellow",
+  "outlined",
+  "flat",
+  "spin",
+  "loader"
  ],
- "html": "<div class=\"loader\">\n<div class=\"in\"></div>\n<div class=\"out-1\"></div>\n<div class=\"out-2\"></div>\n<div class=\"out-3\"></div>\n</div>",
- "css": "/* From Uiverse.io by felipesntr - Tags: loader */\n.loader {\n display: flex;\n align-items: center;\n justify-content: center;\n position: relative;\n}\n\n.out-1 {\n position: absolute;\n width: 4em;\n height: 4em;\n border-radius: 100%;\n border: 0.2em solid transparent;\n border-top-color: rgb(43, 226, 83);\n animation: rec 2s infinite;\n transition: all ease-in-out 0.3s;\n}\n\n.out-2 {\n position: absolute;\n width: 4em;\n height: 4em;\n border-radius: 100%;\n border: 0.2em solid transparent;\n border-left-color: rgb(226, 223, 43);\n animation: rec 2s infinite;\n transition: all ease-in-out 0.3s;\n}\n\n.out-3 {\n position: absolute;\n width: 4em;\n height: 4em;\n border-radius: 100%;\n border: 0.2em solid transparent;\n border-bottom-color: rgb(51, 105, 252);\n animation: rec 2s infinite;\n transition: all ease-in-out 0.3s;\n}\n\n.in {\n position: absolute;\n border-radius: 100%;\n border: 0.2em solid rgba(43, 226, 83, 0.11);\n width: 4em;\n height: 4em;\n transition: all ease-in-out 0.3s;\n}\n\n@keyframes rec {\n 0% {\n  transform: rotate(360deg);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Odd Wasp 90</title>\n<style>\n/* From Uiverse.io by felipesntr - https://uiverse.io/felipesntr/odd-wasp-90 */\n/* From Uiverse.io by felipesntr - Tags: loader */\n.loader {\n display: flex;\n align-items: center;\n justify-content: center;\n position: relative;\n}\n\n.out-1 {\n position: absolute;\n width: 4em;\n height: 4em;\n border-radius: 100%;\n border: 0.2em solid transparent;\n border-top-color: rgb(43, 226, 83);\n animation: rec 2s infinite;\n transition: all ease-in-out 0.3s;\n}\n\n.out-2 {\n position: absolute;\n width: 4em;\n height: 4em;\n border-radius: 100%;\n border: 0.2em solid transparent;\n border-left-color: rgb(226, 223, 43);\n animation: rec 2s infinite;\n transition: all ease-in-out 0.3s;\n}\n\n.out-3 {\n position: absolute;\n width: 4em;\n height: 4em;\n border-radius: 100%;\n border: 0.2em solid transparent;\n border-bottom-color: rgb(51, 105, 252);\n animation: rec 2s infinite;\n transition: all ease-in-out 0.3s;\n}\n\n.in {\n position: absolute;\n border-radius: 100%;\n border: 0.2em solid rgba(43, 226, 83, 0.11);\n width: 4em;\n height: 4em;\n transition: all ease-in-out 0.3s;\n}\n\n@keyframes rec {\n 0% {\n  transform: rotate(360deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n<div class=\"in\"></div>\n<div class=\"out-1\"></div>\n<div class=\"out-2\"></div>\n<div class=\"out-3\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#2be253",
+  "#e2df2b",
+  "#3369fc"
+ ],
+ "fonts": [],
+ "tokens": 347,
+ "size": 1389,
+ "html": "<div class=\"loader\">\n<div class=\"in\"></div>\n<div class=\"out-1\"></div>\n<div class=\"out-2\"></div>\n<div class=\"out-3\"></div>\n</div>\n",
+ "css": "/* Odd Wasp 90 by felipesntr — https://uiverse.io/felipesntr/odd-wasp-90 */\n.loader {\n display: flex;\n align-items: center;\n justify-content: center;\n position: relative;\n}\n\n.out-1 {\n position: absolute;\n width: 4em;\n height: 4em;\n border-radius: 100%;\n border: 0.2em solid transparent;\n border-top-color: rgb(43, 226, 83);\n animation: rec 2s infinite;\n transition: all ease-in-out 0.3s;\n}\n\n.out-2 {\n position: absolute;\n width: 4em;\n height: 4em;\n border-radius: 100%;\n border: 0.2em solid transparent;\n border-left-color: rgb(226, 223, 43);\n animation: rec 2s infinite;\n transition: all ease-in-out 0.3s;\n}\n\n.out-3 {\n position: absolute;\n width: 4em;\n height: 4em;\n border-radius: 100%;\n border: 0.2em solid transparent;\n border-bottom-color: rgb(51, 105, 252);\n animation: rec 2s infinite;\n transition: all ease-in-out 0.3s;\n}\n\n.in {\n position: absolute;\n border-radius: 100%;\n border: 0.2em solid rgba(43, 226, 83, 0.11);\n width: 4em;\n height: 4em;\n transition: all ease-in-out 0.3s;\n}\n\n@keyframes rec {\n 0% {\n  transform: rotate(360deg);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Odd Wasp 90</title>\n<style>\n/* Odd Wasp 90 by felipesntr — https://uiverse.io/felipesntr/odd-wasp-90 */\n.loader {\n display: flex;\n align-items: center;\n justify-content: center;\n position: relative;\n}\n\n.out-1 {\n position: absolute;\n width: 4em;\n height: 4em;\n border-radius: 100%;\n border: 0.2em solid transparent;\n border-top-color: rgb(43, 226, 83);\n animation: rec 2s infinite;\n transition: all ease-in-out 0.3s;\n}\n\n.out-2 {\n position: absolute;\n width: 4em;\n height: 4em;\n border-radius: 100%;\n border: 0.2em solid transparent;\n border-left-color: rgb(226, 223, 43);\n animation: rec 2s infinite;\n transition: all ease-in-out 0.3s;\n}\n\n.out-3 {\n position: absolute;\n width: 4em;\n height: 4em;\n border-radius: 100%;\n border: 0.2em solid transparent;\n border-bottom-color: rgb(51, 105, 252);\n animation: rec 2s infinite;\n transition: all ease-in-out 0.3s;\n}\n\n.in {\n position: absolute;\n border-radius: 100%;\n border: 0.2em solid rgba(43, 226, 83, 0.11);\n width: 4em;\n height: 4em;\n transition: all ease-in-out 0.3s;\n}\n\n@keyframes rec {\n 0% {\n  transform: rotate(360deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n<div class=\"in\"></div>\n<div class=\"out-1\"></div>\n<div class=\"out-2\"></div>\n<div class=\"out-3\"></div>\n</div>\n\n</body>\n</html>\n"
 }

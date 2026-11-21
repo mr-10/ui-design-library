@@ -5,14 +5,24 @@
  "author": "alkanoidev",
  "source": "https://uiverse.io/alkanoidev/wonderful-cheetah-68",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded white button that glows on hover.",
+ "howItWorks": "On hover, box-shadow becomes 0 0 0 2px #ffffff, 0 0 0 4px #000000.",
  "tags": [
+  "gradient",
+  "outlined",
+  "rounded",
+  "glow",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button>\n      <svg>\n      <filter id=\"pedroduarteisalegend\">\n        <feTurbulence stitchTiles=\"stitch\" numOctaves=\"4\" baseFrequency=\"0.5\" type=\"fractalNoise\"></feTurbulence>\n      </filter>\n      <rect filter=\"url(#pedroduarteisalegend)\" height=\"100%\" width=\"100%\"></rect>\n    </svg>\n      Button\n</button>",
- "css": "/* From Uiverse.io by alkanoidev - Tags: button */\nbutton {\n  position: relative;\n  padding-top: 0.75rem;\n  padding-right: 1.5rem;\n  padding-bottom: 0.75rem;\n  padding-left: 1.5rem;\n  transition: all 0.3s;\n  border-radius: 0.5rem;\n  color: #000;\n  font-weight: bold;\n  font-size: 1.2rem;\n  border: none;\n  background-image: linear-gradient(to bottom left, #68ecc0, #63aff1, #9b6fff);\n}\n\nbutton:hover {\n  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #000000;\n}\n\nbutton svg {\n  pointer-events: none;\n  opacity: 100;\n  border-radius: 0.5rem;\n  mix-blend-mode: soft-light;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0px;\n  left: 0px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wonderful Cheetah 68</title>\n<style>\n/* From Uiverse.io by alkanoidev - https://uiverse.io/alkanoidev/wonderful-cheetah-68 */\n/* From Uiverse.io by alkanoidev - Tags: button */\nbutton {\n  position: relative;\n  padding-top: 0.75rem;\n  padding-right: 1.5rem;\n  padding-bottom: 0.75rem;\n  padding-left: 1.5rem;\n  transition: all 0.3s;\n  border-radius: 0.5rem;\n  color: #000;\n  font-weight: bold;\n  font-size: 1.2rem;\n  border: none;\n  background-image: linear-gradient(to bottom left, #68ecc0, #63aff1, #9b6fff);\n}\n\nbutton:hover {\n  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #000000;\n}\n\nbutton svg {\n  pointer-events: none;\n  opacity: 100;\n  border-radius: 0.5rem;\n  mix-blend-mode: soft-light;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0px;\n  left: 0px;\n}\n</style>\n</head>\n<body>\n<button>\n      <svg>\n      <filter id=\"pedroduarteisalegend\">\n        <feTurbulence stitchTiles=\"stitch\" numOctaves=\"4\" baseFrequency=\"0.5\" type=\"fractalNoise\"></feTurbulence>\n      </filter>\n      <rect filter=\"url(#pedroduarteisalegend)\" height=\"100%\" width=\"100%\"></rect>\n    </svg>\n      Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 304,
+ "size": 1218,
+ "html": "<button>\n      <svg>\n      <filter id=\"pedroduarteisalegend\">\n        <feTurbulence stitchTiles=\"stitch\" numOctaves=\"4\" baseFrequency=\"0.5\" type=\"fractalNoise\"></feTurbulence>\n      </filter>\n      <rect filter=\"url(#pedroduarteisalegend)\" height=\"100%\" width=\"100%\"></rect>\n    </svg>\n      Button\n</button>\n",
+ "css": "/* Wonderful Cheetah 68 by alkanoidev — https://uiverse.io/alkanoidev/wonderful-cheetah-68 */\nbutton {\n  position: relative;\n  padding-top: 0.75rem;\n  padding-right: 1.5rem;\n  padding-bottom: 0.75rem;\n  padding-left: 1.5rem;\n  transition: all 0.3s;\n  border-radius: 0.5rem;\n  color: #000;\n  font-weight: bold;\n  font-size: 1.2rem;\n  border: none;\n  background-image: linear-gradient(to bottom left, #68ecc0, #63aff1, #9b6fff);\n}\n\nbutton:hover {\n  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #000000;\n}\n\nbutton svg {\n  pointer-events: none;\n  opacity: 100;\n  border-radius: 0.5rem;\n  mix-blend-mode: soft-light;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0px;\n  left: 0px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wonderful Cheetah 68</title>\n<style>\n/* Wonderful Cheetah 68 by alkanoidev — https://uiverse.io/alkanoidev/wonderful-cheetah-68 */\nbutton {\n  position: relative;\n  padding-top: 0.75rem;\n  padding-right: 1.5rem;\n  padding-bottom: 0.75rem;\n  padding-left: 1.5rem;\n  transition: all 0.3s;\n  border-radius: 0.5rem;\n  color: #000;\n  font-weight: bold;\n  font-size: 1.2rem;\n  border: none;\n  background-image: linear-gradient(to bottom left, #68ecc0, #63aff1, #9b6fff);\n}\n\nbutton:hover {\n  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #000000;\n}\n\nbutton svg {\n  pointer-events: none;\n  opacity: 100;\n  border-radius: 0.5rem;\n  mix-blend-mode: soft-light;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0px;\n  left: 0px;\n}\n</style>\n</head>\n<body>\n<button>\n      <svg>\n      <filter id=\"pedroduarteisalegend\">\n        <feTurbulence stitchTiles=\"stitch\" numOctaves=\"4\" baseFrequency=\"0.5\" type=\"fractalNoise\"></feTurbulence>\n      </filter>\n      <rect filter=\"url(#pedroduarteisalegend)\" height=\"100%\" width=\"100%\"></rect>\n    </svg>\n      Button\n</button>\n\n</body>\n</html>\n"
 }

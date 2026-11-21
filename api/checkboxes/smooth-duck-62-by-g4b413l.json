@@ -5,14 +5,24 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/smooth-duck-62",
  "trigger": "checked",
- "description": "A checkbox UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Outlined emerald checkbox that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: transform becomes rotate(45deg), width becomes 14px, border-color becomes #24c78e.",
  "tags": [
+  "emerald",
+  "outlined",
+  "flat",
   "checkbox",
   "checked",
   "css"
  ],
- "html": "<label>\n    <input checked=\"\" type=\"checkbox\">\n    <span class=\"checkbox\"></span>\n</label>",
- "css": "/* From Uiverse.io by G4b413l - Tags: checkbox */\nlabel {\n  display: block;\n  width: 20px;\n  height: 20px;\n  cursor: pointer;\n}\n\ninput[type='checkbox'] {\n  position: absolute;\n  transform: scale(0);\n}\n\ninput[type='checkbox']:checked ~ .checkbox {\n  transform: rotate(45deg);\n  width: 14px;\n  margin-left: 5px;\n  border-color: #24c78e;\n  border-width: 5px;\n  border-top-color: transparent;\n  border-left-color: transparent;\n  border-radius: 0;\n}\n\n.checkbox {\n  display: block;\n  width: inherit;\n  height: inherit;\n  border: solid 3px #2a2a2ab7;\n  border-radius: 6px;\n  transition: all 0.375s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Duck 62</title>\n<style>\n/* From Uiverse.io by G4b413l - https://uiverse.io/G4b413l/smooth-duck-62 */\n/* From Uiverse.io by G4b413l - Tags: checkbox */\nlabel {\n  display: block;\n  width: 20px;\n  height: 20px;\n  cursor: pointer;\n}\n\ninput[type='checkbox'] {\n  position: absolute;\n  transform: scale(0);\n}\n\ninput[type='checkbox']:checked ~ .checkbox {\n  transform: rotate(45deg);\n  width: 14px;\n  margin-left: 5px;\n  border-color: #24c78e;\n  border-width: 5px;\n  border-top-color: transparent;\n  border-left-color: transparent;\n  border-radius: 0;\n}\n\n.checkbox {\n  display: block;\n  width: inherit;\n  height: inherit;\n  border: solid 3px #2a2a2ab7;\n  border-radius: 6px;\n  transition: all 0.375s;\n}\n</style>\n</head>\n<body>\n<label>\n    <input checked=\"\" type=\"checkbox\">\n    <span class=\"checkbox\"></span>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#24c78e",
+  "#2a2a2a"
+ ],
+ "fonts": [],
+ "tokens": 231,
+ "size": 926,
+ "html": "<label>\n    <input checked=\"\" type=\"checkbox\">\n    <span class=\"checkbox\"></span>\n</label>\n",
+ "css": "/* Smooth Duck 62 by G4b413l — https://uiverse.io/G4b413l/smooth-duck-62 */\nlabel {\n  display: block;\n  width: 20px;\n  height: 20px;\n  cursor: pointer;\n}\n\ninput[type='checkbox'] {\n  position: absolute;\n  transform: scale(0);\n}\n\ninput[type='checkbox']:checked ~ .checkbox {\n  transform: rotate(45deg);\n  width: 14px;\n  margin-left: 5px;\n  border-color: #24c78e;\n  border-width: 5px;\n  border-top-color: transparent;\n  border-left-color: transparent;\n  border-radius: 0;\n}\n\n.checkbox {\n  display: block;\n  width: inherit;\n  height: inherit;\n  border: solid 3px #2a2a2ab7;\n  border-radius: 6px;\n  transition: all 0.375s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Duck 62</title>\n<style>\n/* Smooth Duck 62 by G4b413l — https://uiverse.io/G4b413l/smooth-duck-62 */\nlabel {\n  display: block;\n  width: 20px;\n  height: 20px;\n  cursor: pointer;\n}\n\ninput[type='checkbox'] {\n  position: absolute;\n  transform: scale(0);\n}\n\ninput[type='checkbox']:checked ~ .checkbox {\n  transform: rotate(45deg);\n  width: 14px;\n  margin-left: 5px;\n  border-color: #24c78e;\n  border-width: 5px;\n  border-top-color: transparent;\n  border-left-color: transparent;\n  border-radius: 0;\n}\n\n.checkbox {\n  display: block;\n  width: inherit;\n  height: inherit;\n  border: solid 3px #2a2a2ab7;\n  border-radius: 6px;\n  transition: all 0.375s;\n}\n</style>\n</head>\n<body>\n<label>\n    <input checked=\"\" type=\"checkbox\">\n    <span class=\"checkbox\"></span>\n</label>\n\n</body>\n</html>\n"
 }

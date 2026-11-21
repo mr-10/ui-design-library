@@ -5,17 +5,25 @@
  "author": "Alanav29",
  "source": "https://uiverse.io/Alanav29/tough-ape-65",
  "trigger": "focus",
- "description": "A input with simple, email and minimalist styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Outlined violet text input that lights up when focused.",
+ "howItWorks": "On focus, text color changes from #000000 to #a142f9, transform becomes translateX(0.5rem), the outline is removed.",
  "tags": [
-  "simple",
+  "violet",
+  "outlined",
+  "flat",
   "email",
-  "minimalist",
-  "input",
-  "light",
-  "toggle"
+  "text-input",
+  "simple"
  ],
- "html": "<div class=\"input-container\">\n  <input type=\"text\" name=\"email\" class=\"text-input\" />\n  <label for=\"email\">Email</label>\n</div>",
- "css": "/* From Uiverse.io by Alanav29  - Tags: simple, email, minimalist, input, light, toggle, text animation, input effect  */\n.input-container {\n  width: auto;\n  position: static;\n  display: flex;\n  flex-direction: column-reverse;\n}\n\n.input-container label {\n  color: black;\n  position: relative;\n  top: 2px;\n  border: solid white;\n  border-top: none;\n  border-right: none;\n  border-left: none;\n  width: fit-content;\n  transition: transform 0.2s;\n  margin: 0px 0px 0px 12px;\n  padding: 0px 4px 0px 4px;\n  font-size: 20px;\n}\n\n.input-container input:focus + label {\n  color: rgb(161, 66, 249);\n  transform: scale(1.2);\n  transform: translateX(0.5rem);\n}\n\n.input-container input {\n  border: 2px rgb(161, 66, 249) solid;\n  padding: 8px;\n}\n\n.input-container input:focus {\n  outline: none;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Ape 65</title>\n<style>\n/* From Uiverse.io by Alanav29 - https://uiverse.io/Alanav29/tough-ape-65 */\n/* From Uiverse.io by Alanav29  - Tags: simple, email, minimalist, input, light, toggle, text animation, input effect  */\n.input-container {\n  width: auto;\n  position: static;\n  display: flex;\n  flex-direction: column-reverse;\n}\n\n.input-container label {\n  color: black;\n  position: relative;\n  top: 2px;\n  border: solid white;\n  border-top: none;\n  border-right: none;\n  border-left: none;\n  width: fit-content;\n  transition: transform 0.2s;\n  margin: 0px 0px 0px 12px;\n  padding: 0px 4px 0px 4px;\n  font-size: 20px;\n}\n\n.input-container input:focus + label {\n  color: rgb(161, 66, 249);\n  transform: scale(1.2);\n  transform: translateX(0.5rem);\n}\n\n.input-container input {\n  border: 2px rgb(161, 66, 249) solid;\n  padding: 8px;\n}\n\n.input-container input:focus {\n  outline: none;\n}\n</style>\n</head>\n<body>\n<div class=\"input-container\">\n  <input type=\"text\" name=\"email\" class=\"text-input\" />\n  <label for=\"email\">Email</label>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#a142f9",
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 268,
+ "size": 1075,
+ "html": "<div class=\"input-container\">\n  <input type=\"text\" name=\"email\" class=\"text-input\" />\n  <label for=\"email\">Email</label>\n</div>\n",
+ "css": "/* Tough Ape 65 by Alanav29 — https://uiverse.io/Alanav29/tough-ape-65 */\n.input-container {\n  width: auto;\n  position: static;\n  display: flex;\n  flex-direction: column-reverse;\n}\n\n.input-container label {\n  color: black;\n  position: relative;\n  top: 2px;\n  border: solid white;\n  border-top: none;\n  border-right: none;\n  border-left: none;\n  width: fit-content;\n  transition: transform 0.2s;\n  margin: 0px 0px 0px 12px;\n  padding: 0px 4px 0px 4px;\n  font-size: 20px;\n}\n\n.input-container input:focus + label {\n  color: rgb(161, 66, 249);\n  transform: scale(1.2);\n  transform: translateX(0.5rem);\n}\n\n.input-container input {\n  border: 2px rgb(161, 66, 249) solid;\n  padding: 8px;\n}\n\n.input-container input:focus {\n  outline: none;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Ape 65</title>\n<style>\n/* Tough Ape 65 by Alanav29 — https://uiverse.io/Alanav29/tough-ape-65 */\n.input-container {\n  width: auto;\n  position: static;\n  display: flex;\n  flex-direction: column-reverse;\n}\n\n.input-container label {\n  color: black;\n  position: relative;\n  top: 2px;\n  border: solid white;\n  border-top: none;\n  border-right: none;\n  border-left: none;\n  width: fit-content;\n  transition: transform 0.2s;\n  margin: 0px 0px 0px 12px;\n  padding: 0px 4px 0px 4px;\n  font-size: 20px;\n}\n\n.input-container input:focus + label {\n  color: rgb(161, 66, 249);\n  transform: scale(1.2);\n  transform: translateX(0.5rem);\n}\n\n.input-container input {\n  border: 2px rgb(161, 66, 249) solid;\n  padding: 8px;\n}\n\n.input-container input:focus {\n  outline: none;\n}\n</style>\n</head>\n<body>\n<div class=\"input-container\">\n  <input type=\"text\" name=\"email\" class=\"text-input\" />\n  <label for=\"email\">Email</label>\n</div>\n\n</body>\n</html>\n"
 }

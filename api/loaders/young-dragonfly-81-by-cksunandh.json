@@ -5,16 +5,24 @@
  "author": "Cksunandh",
  "source": "https://uiverse.io/Cksunandh/young-dragonfly-81",
  "trigger": "auto-loop",
- "description": "A loader with simple and html styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gray loader with animating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (animating).",
  "tags": [
+  "flat",
   "simple",
   "loader",
   "html",
   "css",
   "auto-loop"
  ],
- "html": "<div class=\"loader\"><i></i></div>",
- "css": "/* From Uiverse.io by Cksunandh  - Tags: simple, loader, html, css */\n.loader i {\n  display: block;\n  width: 2px;\n  height: 85px;\n  margin-top: 18px;\n  background-color: rgba(61, 61, 61, 0.5);\n  overflow: hidden;\n  position: relative;\n}\n.loader i:before {\n  display: block;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background-color: #fafafa;\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: loader-animation 2s infinite normal;\n}\n@keyframes loader-animation {\n  0% {\n    transform: translate3d(0, -100%, 0);\n  }\n  15% {\n    transform: translate3d(0, -98%, 0);\n  }\n  85% {\n    transform: translate3d(0, 98%, 0);\n  }\n  100% {\n    transform: translate3d(0, 100%, 0);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Young Dragonfly 81</title>\n<style>\n/* From Uiverse.io by Cksunandh - https://uiverse.io/Cksunandh/young-dragonfly-81 */\n/* From Uiverse.io by Cksunandh  - Tags: simple, loader, html, css */\n.loader i {\n  display: block;\n  width: 2px;\n  height: 85px;\n  margin-top: 18px;\n  background-color: rgba(61, 61, 61, 0.5);\n  overflow: hidden;\n  position: relative;\n}\n.loader i:before {\n  display: block;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background-color: #fafafa;\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: loader-animation 2s infinite normal;\n}\n@keyframes loader-animation {\n  0% {\n    transform: translate3d(0, -100%, 0);\n  }\n  15% {\n    transform: translate3d(0, -98%, 0);\n  }\n  85% {\n    transform: translate3d(0, 98%, 0);\n  }\n  100% {\n    transform: translate3d(0, 100%, 0);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"><i></i></div>\n</body>\n</html>\n"
+ "colors": [
+  "#3d3d3d",
+  "#fafafa"
+ ],
+ "fonts": [],
+ "tokens": 238,
+ "size": 955,
+ "html": "<div class=\"loader\"><i></i></div>\n",
+ "css": "/* Young Dragonfly 81 by Cksunandh — https://uiverse.io/Cksunandh/young-dragonfly-81 */\n.loader i {\n  display: block;\n  width: 2px;\n  height: 85px;\n  margin-top: 18px;\n  background-color: rgba(61, 61, 61, 0.5);\n  overflow: hidden;\n  position: relative;\n}\n.loader i:before {\n  display: block;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background-color: #fafafa;\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: loader-animation 2s infinite normal;\n}\n@keyframes loader-animation {\n  0% {\n    transform: translate3d(0, -100%, 0);\n  }\n  15% {\n    transform: translate3d(0, -98%, 0);\n  }\n  85% {\n    transform: translate3d(0, 98%, 0);\n  }\n  100% {\n    transform: translate3d(0, 100%, 0);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Young Dragonfly 81</title>\n<style>\n/* Young Dragonfly 81 by Cksunandh — https://uiverse.io/Cksunandh/young-dragonfly-81 */\n.loader i {\n  display: block;\n  width: 2px;\n  height: 85px;\n  margin-top: 18px;\n  background-color: rgba(61, 61, 61, 0.5);\n  overflow: hidden;\n  position: relative;\n}\n.loader i:before {\n  display: block;\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  background-color: #fafafa;\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: loader-animation 2s infinite normal;\n}\n@keyframes loader-animation {\n  0% {\n    transform: translate3d(0, -100%, 0);\n  }\n  15% {\n    transform: translate3d(0, -98%, 0);\n  }\n  85% {\n    transform: translate3d(0, 98%, 0);\n  }\n  100% {\n    transform: translate3d(0, 100%, 0);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"><i></i></div>\n\n</body>\n</html>\n"
 }

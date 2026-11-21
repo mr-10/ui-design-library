@@ -5,14 +5,24 @@
  "author": "scob337",
  "source": "https://uiverse.io/scob337/tricky-panda-21",
  "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Pill blue card with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "blue",
+  "rounded",
+  "pill",
+  "flat",
   "card",
-  "static",
-  "css"
+  "static"
  ],
- "html": "<div class=\"one-div\"></div>",
- "css": "/* From Uiverse.io by scob337 - Tags: card */\n.one-div {\n  width: 300px;\n  height: 300px;\n  margin: auto;\n  background-color: hsl(180, 5%, 17%);\n  border-radius: 50%;\n  position: relative;\n}\n\n.one-div::before {\n  content: \"\";\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: hsla(236, 93%, 43%, 0.897);\n  top: 190px;\n  left: 200px;\n  border-radius: 50%;\n  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);\n}\n\n.one-div::after {\n  content: \"\";\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: hsla(236, 93%, 43%, 0.897);\n  top: 100px;\n  left: 50px;\n  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tricky Panda 21</title>\n<style>\n/* From Uiverse.io by scob337 - https://uiverse.io/scob337/tricky-panda-21 */\n/* From Uiverse.io by scob337 - Tags: card */\n.one-div {\n  width: 300px;\n  height: 300px;\n  margin: auto;\n  background-color: hsl(180, 5%, 17%);\n  border-radius: 50%;\n  position: relative;\n}\n\n.one-div::before {\n  content: \"\";\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: hsla(236, 93%, 43%, 0.897);\n  top: 190px;\n  left: 200px;\n  border-radius: 50%;\n  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);\n}\n\n.one-div::after {\n  content: \"\";\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: hsla(236, 93%, 43%, 0.897);\n  top: 100px;\n  left: 50px;\n  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#0815d4",
+  "#292e2e"
+ ],
+ "fonts": [],
+ "tokens": 260,
+ "size": 1041,
+ "html": "<div class=\"one-div\"></div>\n",
+ "css": "/* Tricky Panda 21 by scob337 — https://uiverse.io/scob337/tricky-panda-21 */\n.one-div {\n  width: 300px;\n  height: 300px;\n  margin: auto;\n  background-color: hsl(180, 5%, 17%);\n  border-radius: 50%;\n  position: relative;\n}\n\n.one-div::before {\n  content: \"\";\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: hsla(236, 93%, 43%, 0.897);\n  top: 190px;\n  left: 200px;\n  border-radius: 50%;\n  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);\n}\n\n.one-div::after {\n  content: \"\";\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: hsla(236, 93%, 43%, 0.897);\n  top: 100px;\n  left: 50px;\n  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tricky Panda 21</title>\n<style>\n/* Tricky Panda 21 by scob337 — https://uiverse.io/scob337/tricky-panda-21 */\n.one-div {\n  width: 300px;\n  height: 300px;\n  margin: auto;\n  background-color: hsl(180, 5%, 17%);\n  border-radius: 50%;\n  position: relative;\n}\n\n.one-div::before {\n  content: \"\";\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: hsla(236, 93%, 43%, 0.897);\n  top: 190px;\n  left: 200px;\n  border-radius: 50%;\n  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);\n}\n\n.one-div::after {\n  content: \"\";\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: hsla(236, 93%, 43%, 0.897);\n  top: 100px;\n  left: 50px;\n  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n\n</body>\n</html>\n"
 }

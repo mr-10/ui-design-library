@@ -5,15 +5,27 @@
  "author": "Mhyar-nsi",
  "source": "https://uiverse.io/Mhyar-nsi/tiny-wasp-99",
  "trigger": "hover",
- "description": "A button with blue and ring styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon rounded sky-blue button that glows on hover.",
+ "howItWorks": "On hover, background-color changes from #f3f7fe to #3b82f6, box-shadow becomes 0 0 0 5px #3b83f65f, text color changes from #3b82f6 to #fff.",
  "tags": [
   "blue",
-  "button",
-  "hover",
-  "ring"
+  "neon",
+  "rounded",
+  "glow",
+  "color-change",
+  "button"
  ],
- "html": "<button>\n  Button\n</button>",
- "css": "/* From Uiverse.io by Mhyar-nsi - Tags: blue, button, hover, ring */\nbutton {\n  font-family: monospace;\n  background-color: #f3f7fe;\n  color: #3b82f6;\n  border: none;\n  border-radius: 8px;\n  width: 100px;\n  height: 45px;\n  transition: .3s;\n}\n\nbutton:hover {\n  background-color: #3b82f6;\n  box-shadow: 0 0 0 5px #3b83f65f;\n  color: #fff;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tiny Wasp 99</title>\n<style>\n/* From Uiverse.io by Mhyar-nsi - https://uiverse.io/Mhyar-nsi/tiny-wasp-99 */\n/* From Uiverse.io by Mhyar-nsi - Tags: blue, button, hover, ring */\nbutton {\n  font-family: monospace;\n  background-color: #f3f7fe;\n  color: #3b82f6;\n  border: none;\n  border-radius: 8px;\n  width: 100px;\n  height: 45px;\n  transition: .3s;\n}\n\nbutton:hover {\n  background-color: #3b82f6;\n  box-shadow: 0 0 0 5px #3b83f65f;\n  color: #fff;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#3b82f6",
+  "#f3f7fe",
+  "#ffffff"
+ ],
+ "fonts": [
+  "monospace"
+ ],
+ "tokens": 146,
+ "size": 587,
+ "html": "<button>\n  Button\n</button>\n",
+ "css": "/* Tiny Wasp 99 by Mhyar-nsi — https://uiverse.io/Mhyar-nsi/tiny-wasp-99 */\nbutton {\n  font-family: monospace;\n  background-color: #f3f7fe;\n  color: #3b82f6;\n  border: none;\n  border-radius: 8px;\n  width: 100px;\n  height: 45px;\n  transition: .3s;\n}\n\nbutton:hover {\n  background-color: #3b82f6;\n  box-shadow: 0 0 0 5px #3b83f65f;\n  color: #fff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tiny Wasp 99</title>\n<style>\n/* Tiny Wasp 99 by Mhyar-nsi — https://uiverse.io/Mhyar-nsi/tiny-wasp-99 */\nbutton {\n  font-family: monospace;\n  background-color: #f3f7fe;\n  color: #3b82f6;\n  border: none;\n  border-radius: 8px;\n  width: 100px;\n  height: 45px;\n  transition: .3s;\n}\n\nbutton:hover {\n  background-color: #3b82f6;\n  box-shadow: 0 0 0 5px #3b83f65f;\n  color: #fff;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n\n</body>\n</html>\n"
 }

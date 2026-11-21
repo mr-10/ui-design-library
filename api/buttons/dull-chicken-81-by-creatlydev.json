@@ -4,15 +4,25 @@
  "category": "buttons",
  "author": "Creatlydev",
  "source": "https://uiverse.io/Creatlydev/dull-chicken-81",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Rounded light red button that glows on hover.",
+ "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
+  "red",
+  "rounded",
+  "glow",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Creatlydev - Tags: button, hover effect, click effect, tailwind, tailwindbutton -->\n<button class=\"shadow shadow-red-300 cursor-pointer overflow-hidden text-white bg-red-600 px-4 py-3 group active:shadow-green-200 focus:outline-none rounded flex items-center justify-center relative gap-4\">\n  \n  <span class=\"group-hover:-translate-x-40 transition-transform duration-200\">REMOVE</span>\n\n  <div class=\"w-0.5 h-6 bg-red-800 group-hover:-translate-x-40 transition-transform duration-200\"></div>\n\n  <div class=\"svg-wrapper group-hover:-translate-x-11 transition-transform duration-200\">\n    <svg class=\"w-6 h-6\" stroke=\"currentColor\" stroke-width=\"4\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M6 18L18 6M6 6l12 12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n</svg>\n  </div>\n\n  <div class=\"svg-wrapper group-active:bg-green-600 group-active:flex hidden absolute w-full h-full flex items-center justify-center\">\n    <svg class=\"w-6 h-6\" stroke=\"currentColor\" stroke-width=\"4\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n</svg>\n\n  </div>\n\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dull Chicken 81</title>\n<style>\n/* From Uiverse.io by Creatlydev - https://uiverse.io/Creatlydev/dull-chicken-81 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Creatlydev - Tags: button, hover effect, click effect, tailwind, tailwindbutton -->\n<button class=\"shadow shadow-red-300 cursor-pointer overflow-hidden text-white bg-red-600 px-4 py-3 group active:shadow-green-200 focus:outline-none rounded flex items-center justify-center relative gap-4\">\n  \n  <span class=\"group-hover:-translate-x-40 transition-transform duration-200\">REMOVE</span>\n\n  <div class=\"w-0.5 h-6 bg-red-800 group-hover:-translate-x-40 transition-transform duration-200\"></div>\n\n  <div class=\"svg-wrapper group-hover:-translate-x-11 transition-transform duration-200\">\n    <svg class=\"w-6 h-6\" stroke=\"currentColor\" stroke-width=\"4\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M6 18L18 6M6 6l12 12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n</svg>\n  </div>\n\n  <div class=\"svg-wrapper group-active:bg-green-600 group-active:flex hidden absolute w-full h-full flex items-center justify-center\">\n    <svg class=\"w-6 h-6\" stroke=\"currentColor\" stroke-width=\"4\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n</svg>\n\n  </div>\n\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#fca5a5",
+  "#dc2626",
+  "#991b1b"
+ ],
+ "fonts": [],
+ "tokens": 354,
+ "size": 1419,
+ "html": "<button class=\"shadow shadow-red-300 cursor-pointer overflow-hidden text-white bg-red-600 px-4 py-3 group active:shadow-green-200 focus:outline-none rounded flex items-center justify-center relative gap-4\">\n\n  <span class=\"group-hover:-translate-x-40 transition-transform duration-200\">REMOVE</span>\n\n  <div class=\"w-0.5 h-6 bg-red-800 group-hover:-translate-x-40 transition-transform duration-200\"></div>\n\n  <div class=\"svg-wrapper group-hover:-translate-x-11 transition-transform duration-200\">\n    <svg class=\"w-6 h-6\" stroke=\"currentColor\" stroke-width=\"4\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M6 18L18 6M6 6l12 12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n</svg>\n  </div>\n\n  <div class=\"svg-wrapper group-active:bg-green-600 group-active:flex hidden absolute w-full h-full flex items-center justify-center\">\n    <svg class=\"w-6 h-6\" stroke=\"currentColor\" stroke-width=\"4\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n</svg>\n\n  </div>\n\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dull Chicken 81</title>\n<style>\n/* Dull Chicken 81 by Creatlydev — https://uiverse.io/Creatlydev/dull-chicken-81 */\n\n</style>\n</head>\n<body>\n<button class=\"shadow shadow-red-300 cursor-pointer overflow-hidden text-white bg-red-600 px-4 py-3 group active:shadow-green-200 focus:outline-none rounded flex items-center justify-center relative gap-4\">\n\n  <span class=\"group-hover:-translate-x-40 transition-transform duration-200\">REMOVE</span>\n\n  <div class=\"w-0.5 h-6 bg-red-800 group-hover:-translate-x-40 transition-transform duration-200\"></div>\n\n  <div class=\"svg-wrapper group-hover:-translate-x-11 transition-transform duration-200\">\n    <svg class=\"w-6 h-6\" stroke=\"currentColor\" stroke-width=\"4\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M6 18L18 6M6 6l12 12\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n</svg>\n  </div>\n\n  <div class=\"svg-wrapper group-active:bg-green-600 group-active:flex hidden absolute w-full h-full flex items-center justify-center\">\n    <svg class=\"w-6 h-6\" stroke=\"currentColor\" stroke-width=\"4\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M4.5 12.75l6 6 9-13.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n</svg>\n\n  </div>\n\n</button>\n\n</body>\n</html>\n"
 }

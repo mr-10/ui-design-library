@@ -5,17 +5,24 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/sour-earwig-21",
  "trigger": "auto-loop",
- "description": "A loader with simple, animation and green styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Green loader with animating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (animating).",
  "tags": [
+  "green",
+  "flat",
   "simple",
   "animation",
-  "green",
   "loader",
-  "smooth",
-  "modern"
+  "smooth"
  ],
- "html": "<svg class=\"container\"><rect class=\"boxes\"></rect></svg>",
- "css": "/* From Uiverse.io by elijahgummer  - Tags: simple, animation, green, loader, smooth, modern, animated, css */\n.container {\n  width: 50px;\n  height: 50px;\n}\n\n.container .boxes {\n  width: 50px;\n  height: 50px;\n  fill: none;\n  stroke-width: 50px;\n  stroke: #43cb85;\n  stroke-dasharray: 50;\n  stroke-dashoffset: 50%;\n  animation: animate 2s linear infinite;\n}\n\n@keyframes animate {\n  to {\n    stroke-dashoffset: 250%;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sour Earwig 21</title>\n<style>\n/* From Uiverse.io by elijahgummer - https://uiverse.io/elijahgummer/sour-earwig-21 */\n/* From Uiverse.io by elijahgummer  - Tags: simple, animation, green, loader, smooth, modern, animated, css */\n.container {\n  width: 50px;\n  height: 50px;\n}\n\n.container .boxes {\n  width: 50px;\n  height: 50px;\n  fill: none;\n  stroke-width: 50px;\n  stroke: #43cb85;\n  stroke-dasharray: 50;\n  stroke-dashoffset: 50%;\n  animation: animate 2s linear infinite;\n}\n\n@keyframes animate {\n  to {\n    stroke-dashoffset: 250%;\n  }\n}\n</style>\n</head>\n<body>\n<svg class=\"container\"><rect class=\"boxes\"></rect></svg>\n</body>\n</html>\n"
+ "colors": [
+  "#43cb85",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 166,
+ "size": 668,
+ "html": "<svg class=\"container\"><rect class=\"boxes\"></rect></svg>\n",
+ "css": "/* Sour Earwig 21 by elijahgummer — https://uiverse.io/elijahgummer/sour-earwig-21 */\n.container {\n  width: 50px;\n  height: 50px;\n}\n\n.container .boxes {\n  width: 50px;\n  height: 50px;\n  fill: none;\n  stroke-width: 50px;\n  stroke: #43cb85;\n  stroke-dasharray: 50;\n  stroke-dashoffset: 50%;\n  animation: animate 2s linear infinite;\n}\n\n@keyframes animate {\n  to {\n    stroke-dashoffset: 250%;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sour Earwig 21</title>\n<style>\n/* Sour Earwig 21 by elijahgummer — https://uiverse.io/elijahgummer/sour-earwig-21 */\n.container {\n  width: 50px;\n  height: 50px;\n}\n\n.container .boxes {\n  width: 50px;\n  height: 50px;\n  fill: none;\n  stroke-width: 50px;\n  stroke: #43cb85;\n  stroke-dasharray: 50;\n  stroke-dashoffset: 50%;\n  animation: animate 2s linear infinite;\n}\n\n@keyframes animate {\n  to {\n    stroke-dashoffset: 250%;\n  }\n}\n</style>\n</head>\n<body>\n<svg class=\"container\"><rect class=\"boxes\"></rect></svg>\n\n</body>\n</html>\n"
 }

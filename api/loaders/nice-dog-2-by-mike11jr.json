@@ -5,14 +5,25 @@
  "author": "Mike11jr",
  "source": "https://uiverse.io/Mike11jr/nice-dog-2",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined pill cyan loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a 5s animation (pulsing, rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "cyan",
+  "pink",
+  "outlined",
+  "rounded",
+  "pill",
+  "flat"
  ],
- "html": "<div class=\"loader-wrapper\">\n<div class=\"loader\">\n  <div class=\"loader loader-inner\"></div>\n  </div>\n</div>",
- "css": "/* From Uiverse.io by Mike11jr - Tags: loader */\n.loader-wrapper {\n width: 60px;\n height: 60px;\n}\n\n.loader {\n box-sizing: border-box;\n width: 100%;\n height: 100%;\n border: 10px solid #162534;\n border-top-color: #4bc8eb;\n border-bottom-color: #f13a8f;\n border-radius: 50%;\n animation: rotate0925 5s linear infinite;\n}\n\n.loader-inner {\n border-top-color: #36f372;\n border-bottom-color: #fff;\n animation-duration: 2.5s;\n}\n\n@keyframes rotate0925 {\n 0% {\n  transform: scale(1) rotate(360deg);\n }\n\n 50% {\n  transform: scale(.8) rotate(-360deg);\n }\n\n 100% {\n  transform: scale(1) rotate(360deg);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nice Dog 2</title>\n<style>\n/* From Uiverse.io by Mike11jr - https://uiverse.io/Mike11jr/nice-dog-2 */\n/* From Uiverse.io by Mike11jr - Tags: loader */\n.loader-wrapper {\n width: 60px;\n height: 60px;\n}\n\n.loader {\n box-sizing: border-box;\n width: 100%;\n height: 100%;\n border: 10px solid #162534;\n border-top-color: #4bc8eb;\n border-bottom-color: #f13a8f;\n border-radius: 50%;\n animation: rotate0925 5s linear infinite;\n}\n\n.loader-inner {\n border-top-color: #36f372;\n border-bottom-color: #fff;\n animation-duration: 2.5s;\n}\n\n@keyframes rotate0925 {\n 0% {\n  transform: scale(1) rotate(360deg);\n }\n\n 50% {\n  transform: scale(.8) rotate(-360deg);\n }\n\n 100% {\n  transform: scale(1) rotate(360deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"loader-wrapper\">\n<div class=\"loader\">\n  <div class=\"loader loader-inner\"></div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#162534",
+  "#4bc8eb",
+  "#f13a8f"
+ ],
+ "fonts": [],
+ "tokens": 233,
+ "size": 934,
+ "html": "<div class=\"loader-wrapper\">\n<div class=\"loader\">\n  <div class=\"loader loader-inner\"></div>\n  </div>\n</div>\n",
+ "css": "/* Nice Dog 2 by Mike11jr — https://uiverse.io/Mike11jr/nice-dog-2 */\n.loader-wrapper {\n width: 60px;\n height: 60px;\n}\n\n.loader {\n box-sizing: border-box;\n width: 100%;\n height: 100%;\n border: 10px solid #162534;\n border-top-color: #4bc8eb;\n border-bottom-color: #f13a8f;\n border-radius: 50%;\n animation: rotate0925 5s linear infinite;\n}\n\n.loader-inner {\n border-top-color: #36f372;\n border-bottom-color: #fff;\n animation-duration: 2.5s;\n}\n\n@keyframes rotate0925 {\n 0% {\n  transform: scale(1) rotate(360deg);\n }\n\n 50% {\n  transform: scale(.8) rotate(-360deg);\n }\n\n 100% {\n  transform: scale(1) rotate(360deg);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nice Dog 2</title>\n<style>\n/* Nice Dog 2 by Mike11jr — https://uiverse.io/Mike11jr/nice-dog-2 */\n.loader-wrapper {\n width: 60px;\n height: 60px;\n}\n\n.loader {\n box-sizing: border-box;\n width: 100%;\n height: 100%;\n border: 10px solid #162534;\n border-top-color: #4bc8eb;\n border-bottom-color: #f13a8f;\n border-radius: 50%;\n animation: rotate0925 5s linear infinite;\n}\n\n.loader-inner {\n border-top-color: #36f372;\n border-bottom-color: #fff;\n animation-duration: 2.5s;\n}\n\n@keyframes rotate0925 {\n 0% {\n  transform: scale(1) rotate(360deg);\n }\n\n 50% {\n  transform: scale(.8) rotate(-360deg);\n }\n\n 100% {\n  transform: scale(1) rotate(360deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"loader-wrapper\">\n<div class=\"loader\">\n  <div class=\"loader loader-inner\"></div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

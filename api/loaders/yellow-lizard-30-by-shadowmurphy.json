@@ -5,15 +5,23 @@
  "author": "shadowmurphy",
  "source": "https://uiverse.io/shadowmurphy/yellow-lizard-30",
  "trigger": "auto-loop",
- "description": "A loader with bottle and cola styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Black loader with animating motion in a loop.",
+ "howItWorks": "It loops a 8s animation (animating).",
  "tags": [
+  "flat",
   "loader",
   "bottle",
   "cola",
   "auto-loop"
  ],
- "html": "<svg viewBox=\"0 0 205 615\" class=\"cola\">\n  <path d=\"M47 595c-8 0-26-6-26-34V261c0-17 9-29 16-38s16-28 16-28L68 59l-4-5s3-30 7-36 14-6 32-6 28 0 32 6 7 36 7 36l-4 5 15 136s9 19 16 28 16 21 16 38v300c0 28-18 34-26 34H47z\"></path>\n</svg>",
- "css": "/* From Uiverse.io by shadowmurphy - Tags: loader, bottle, cola */\n.cola {\n  --pathlength: 1384;\n  width: 45px;\n  fill: transparent;\n  stroke: black;\n  stroke-linecap: round;\n  stroke-width: 15px;\n  stroke-dashoffset: var(--pathlength);\n  stroke-dasharray: 0 var(--pathlength);\n  animation: loader 8s cubic-bezier(.5,.1,.5,1) infinite both;\n}\n\n@keyframes loader {\n  90%, 100% {\n    stroke-dashoffset: 0;\n    stroke-dasharray: var(--pathlength) 0;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Yellow Lizard 30</title>\n<style>\n/* From Uiverse.io by shadowmurphy - https://uiverse.io/shadowmurphy/yellow-lizard-30 */\n/* From Uiverse.io by shadowmurphy - Tags: loader, bottle, cola */\n.cola {\n  --pathlength: 1384;\n  width: 45px;\n  fill: transparent;\n  stroke: black;\n  stroke-linecap: round;\n  stroke-width: 15px;\n  stroke-dashoffset: var(--pathlength);\n  stroke-dasharray: 0 var(--pathlength);\n  animation: loader 8s cubic-bezier(.5,.1,.5,1) infinite both;\n}\n\n@keyframes loader {\n  90%, 100% {\n    stroke-dashoffset: 0;\n    stroke-dasharray: var(--pathlength) 0;\n  }\n}\n</style>\n</head>\n<body>\n<svg viewBox=\"0 0 205 615\" class=\"cola\">\n  <path d=\"M47 595c-8 0-26-6-26-34V261c0-17 9-29 16-38s16-28 16-28L68 59l-4-5s3-30 7-36 14-6 32-6 28 0 32 6 7 36 7 36l-4 5 15 136s9 19 16 28 16 21 16 38v300c0 28-18 34-26 34H47z\"></path>\n</svg>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 232,
+ "size": 928,
+ "html": "<svg viewBox=\"0 0 205 615\" class=\"cola\">\n  <path d=\"M47 595c-8 0-26-6-26-34V261c0-17 9-29 16-38s16-28 16-28L68 59l-4-5s3-30 7-36 14-6 32-6 28 0 32 6 7 36 7 36l-4 5 15 136s9 19 16 28 16 21 16 38v300c0 28-18 34-26 34H47z\"></path>\n</svg>\n",
+ "css": "/* Yellow Lizard 30 by shadowmurphy — https://uiverse.io/shadowmurphy/yellow-lizard-30 */\n.cola {\n  --pathlength: 1384;\n  width: 45px;\n  fill: transparent;\n  stroke: black;\n  stroke-linecap: round;\n  stroke-width: 15px;\n  stroke-dashoffset: var(--pathlength);\n  stroke-dasharray: 0 var(--pathlength);\n  animation: loader 8s cubic-bezier(.5,.1,.5,1) infinite both;\n}\n\n@keyframes loader {\n  90%, 100% {\n    stroke-dashoffset: 0;\n    stroke-dasharray: var(--pathlength) 0;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Yellow Lizard 30</title>\n<style>\n/* Yellow Lizard 30 by shadowmurphy — https://uiverse.io/shadowmurphy/yellow-lizard-30 */\n.cola {\n  --pathlength: 1384;\n  width: 45px;\n  fill: transparent;\n  stroke: black;\n  stroke-linecap: round;\n  stroke-width: 15px;\n  stroke-dashoffset: var(--pathlength);\n  stroke-dasharray: 0 var(--pathlength);\n  animation: loader 8s cubic-bezier(.5,.1,.5,1) infinite both;\n}\n\n@keyframes loader {\n  90%, 100% {\n    stroke-dashoffset: 0;\n    stroke-dasharray: var(--pathlength) 0;\n  }\n}\n</style>\n</head>\n<body>\n<svg viewBox=\"0 0 205 615\" class=\"cola\">\n  <path d=\"M47 595c-8 0-26-6-26-34V261c0-17 9-29 16-38s16-28 16-28L68 59l-4-5s3-30 7-36 14-6 32-6 28 0 32 6 7 36 7 36l-4 5 15 136s9 19 16 28 16 21 16 38v300c0 28-18 34-26 34H47z\"></path>\n</svg>\n\n</body>\n</html>\n"
 }

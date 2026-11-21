@@ -4,15 +4,26 @@
  "category": "inputs",
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/nasty-jellyfish-18",
- "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "trigger": "hover",
+ "description": "Pill light pink text input that rotates on hover.",
+ "howItWorks": "On hover, it rotates. On focus, a ring appears and border changes.",
  "tags": [
-  "inputs",
-  "focus",
-  "css"
+  "pink",
+  "rounded",
+  "pill",
+  "rotate",
+  "ring",
+  "color-change"
  ],
- "html": "<!-- From Uiverse.io by Javierrocadev  - Tags: pink, hover, input, light, select -->\n<div\n  class=\"relative group rounded-lg w-64 bg-gray-50 overflow-hidden before:absolute before:w-12 before:h-12 before:content[''] before:right-0 before:bg-violet-500 before:rounded-full before:blur-lg before:[box-shadow:-60px_20px_10px_10px_#F9B0B9]\"\n>\n  <svg\n    y=\"0\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    x=\"0\"\n    width=\"100\"\n    viewBox=\"0 0 100 100\"\n    preserveAspectRatio=\"xMidYMid meet\"\n    height=\"100\"\n    class=\"w-8 h-8 absolute right-0 -rotate-45 stroke-pink-300 top-1.5 group-hover:rotate-0 duration-300\"\n  >\n    <path\n      stroke-width=\"4\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      fill=\"none\"\n      d=\"M60.7,53.6,50,64.3m0,0L39.3,53.6M50,64.3V35.7m0,46.4A32.1,32.1,0,1,1,82.1,50,32.1,32.1,0,0,1,50,82.1Z\"\n      class=\"svg-stroke-primary\"\n    ></path>\n  </svg>\n  <select\n    class=\"appearance-none hover:placeholder-shown:bg-emerald-500 relative text-pink-400 bg-transparent ring-0 outline-none border border-neutral-500 text-neutral-900 placeholder-violet-700 text-sm font-bold rounded-lg focus:ring-violet-500 focus:border-violet-500 block w-full p-2.5\"\n  >\n    <option>HTML</option>\n    <option>React</option>\n    <option>Vue</option>\n    <option>Angular</option>\n    <option>Svelte</option>\n  </select>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Jellyfish 18</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/nasty-jellyfish-18 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev  - Tags: pink, hover, input, light, select -->\n<div\n  class=\"relative group rounded-lg w-64 bg-gray-50 overflow-hidden before:absolute before:w-12 before:h-12 before:content[''] before:right-0 before:bg-violet-500 before:rounded-full before:blur-lg before:[box-shadow:-60px_20px_10px_10px_#F9B0B9]\"\n>\n  <svg\n    y=\"0\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    x=\"0\"\n    width=\"100\"\n    viewBox=\"0 0 100 100\"\n    preserveAspectRatio=\"xMidYMid meet\"\n    height=\"100\"\n    class=\"w-8 h-8 absolute right-0 -rotate-45 stroke-pink-300 top-1.5 group-hover:rotate-0 duration-300\"\n  >\n    <path\n      stroke-width=\"4\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      fill=\"none\"\n      d=\"M60.7,53.6,50,64.3m0,0L39.3,53.6M50,64.3V35.7m0,46.4A32.1,32.1,0,1,1,82.1,50,32.1,32.1,0,0,1,50,82.1Z\"\n      class=\"svg-stroke-primary\"\n    ></path>\n  </svg>\n  <select\n    class=\"appearance-none hover:placeholder-shown:bg-emerald-500 relative text-pink-400 bg-transparent ring-0 outline-none border border-neutral-500 text-neutral-900 placeholder-violet-700 text-sm font-bold rounded-lg focus:ring-violet-500 focus:border-violet-500 block w-full p-2.5\"\n  >\n    <option>HTML</option>\n    <option>React</option>\n    <option>Vue</option>\n    <option>Angular</option>\n    <option>Svelte</option>\n  </select>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#f9fafb",
+  "#f9a8d4",
+  "#f472b6"
+ ],
+ "fonts": [],
+ "tokens": 393,
+ "size": 1575,
+ "html": "<div\n  class=\"relative group rounded-lg w-64 bg-gray-50 overflow-hidden before:absolute before:w-12 before:h-12 before:content[''] before:right-0 before:bg-violet-500 before:rounded-full before:blur-lg before:[box-shadow:-60px_20px_10px_10px_#F9B0B9]\"\n>\n  <svg\n    y=\"0\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    x=\"0\"\n    width=\"100\"\n    viewBox=\"0 0 100 100\"\n    preserveAspectRatio=\"xMidYMid meet\"\n    height=\"100\"\n    class=\"w-8 h-8 absolute right-0 -rotate-45 stroke-pink-300 top-1.5 group-hover:rotate-0 duration-300\"\n  >\n    <path\n      stroke-width=\"4\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      fill=\"none\"\n      d=\"M60.7,53.6,50,64.3m0,0L39.3,53.6M50,64.3V35.7m0,46.4A32.1,32.1,0,1,1,82.1,50,32.1,32.1,0,0,1,50,82.1Z\"\n      class=\"svg-stroke-primary\"\n    ></path>\n  </svg>\n  <select\n    class=\"appearance-none hover:placeholder-shown:bg-emerald-500 relative text-pink-400 bg-transparent ring-0 outline-none border border-neutral-500 text-neutral-900 placeholder-violet-700 text-sm font-bold rounded-lg focus:ring-violet-500 focus:border-violet-500 block w-full p-2.5\"\n  >\n    <option>HTML</option>\n    <option>React</option>\n    <option>Vue</option>\n    <option>Angular</option>\n    <option>Svelte</option>\n  </select>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Jellyfish 18</title>\n<style>\n/* Nasty Jellyfish 18 by Javierrocadev — https://uiverse.io/Javierrocadev/nasty-jellyfish-18 */\n\n</style>\n</head>\n<body>\n<div\n  class=\"relative group rounded-lg w-64 bg-gray-50 overflow-hidden before:absolute before:w-12 before:h-12 before:content[''] before:right-0 before:bg-violet-500 before:rounded-full before:blur-lg before:[box-shadow:-60px_20px_10px_10px_#F9B0B9]\"\n>\n  <svg\n    y=\"0\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    x=\"0\"\n    width=\"100\"\n    viewBox=\"0 0 100 100\"\n    preserveAspectRatio=\"xMidYMid meet\"\n    height=\"100\"\n    class=\"w-8 h-8 absolute right-0 -rotate-45 stroke-pink-300 top-1.5 group-hover:rotate-0 duration-300\"\n  >\n    <path\n      stroke-width=\"4\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      fill=\"none\"\n      d=\"M60.7,53.6,50,64.3m0,0L39.3,53.6M50,64.3V35.7m0,46.4A32.1,32.1,0,1,1,82.1,50,32.1,32.1,0,0,1,50,82.1Z\"\n      class=\"svg-stroke-primary\"\n    ></path>\n  </svg>\n  <select\n    class=\"appearance-none hover:placeholder-shown:bg-emerald-500 relative text-pink-400 bg-transparent ring-0 outline-none border border-neutral-500 text-neutral-900 placeholder-violet-700 text-sm font-bold rounded-lg focus:ring-violet-500 focus:border-violet-500 block w-full p-2.5\"\n  >\n    <option>HTML</option>\n    <option>React</option>\n    <option>Vue</option>\n    <option>Angular</option>\n    <option>Svelte</option>\n  </select>\n</div>\n\n</body>\n</html>\n"
 }

@@ -5,15 +5,24 @@
  "author": "shadowmurphy",
  "source": "https://uiverse.io/shadowmurphy/wicked-fish-61",
  "trigger": "auto-loop",
- "description": "A loader with gradient and animated styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient rounded black loader with animating motion in a loop.",
+ "howItWorks": "It loops a 1.9s animation (animating).",
  "tags": [
   "gradient",
+  "rounded",
+  "flat",
   "loader",
   "animated",
   "auto-loop"
  ],
- "html": "<div class=\"loader\">\n  <div class=\"shape\"></div>\n</div>",
- "css": "/* From Uiverse.io by shadowmurphy - Tags: gradient, loader, animated */\n.loader {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  width: 200px;\n  height: 15px;\n  background-color: rgb(2, 2, 17);\n  border-radius: 10px;\n  overflow: hidden;\n  position: relative;\n  margin-top: 15px;\n}\n\n.shape {\n  width: 50px;\n  height: 15px;\n  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);\n  border-radius: 25px;\n  position: absolute;\n  animation: slide 1.9s linear infinite;\n  background-size: 200%;\n}\n\n@keyframes slide {\n  0% {\n    left: 0;\n  }\n\n  50% {\n    left: calc(100% - 50px);\n  }\n\n  100% {\n    left: 0;\n  }\n}\n\n@keyframes gradientChange {\n  0%, 100% {\n    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);\n  }\n\n  50% {\n    background-image: linear-gradient(144deg, #00DDEB, #5B42F3 50%, #AF40FF);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wicked Fish 61</title>\n<style>\n/* From Uiverse.io by shadowmurphy - https://uiverse.io/shadowmurphy/wicked-fish-61 */\n/* From Uiverse.io by shadowmurphy - Tags: gradient, loader, animated */\n.loader {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  width: 200px;\n  height: 15px;\n  background-color: rgb(2, 2, 17);\n  border-radius: 10px;\n  overflow: hidden;\n  position: relative;\n  margin-top: 15px;\n}\n\n.shape {\n  width: 50px;\n  height: 15px;\n  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);\n  border-radius: 25px;\n  position: absolute;\n  animation: slide 1.9s linear infinite;\n  background-size: 200%;\n}\n\n@keyframes slide {\n  0% {\n    left: 0;\n  }\n\n  50% {\n    left: calc(100% - 50px);\n  }\n\n  100% {\n    left: 0;\n  }\n}\n\n@keyframes gradientChange {\n  0%, 100% {\n    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);\n  }\n\n  50% {\n    background-image: linear-gradient(144deg, #00DDEB, #5B42F3 50%, #AF40FF);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"shape\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#020211",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 288,
+ "size": 1154,
+ "html": "<div class=\"loader\">\n  <div class=\"shape\"></div>\n</div>\n",
+ "css": "/* Wicked Fish 61 by shadowmurphy — https://uiverse.io/shadowmurphy/wicked-fish-61 */\n.loader {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  width: 200px;\n  height: 15px;\n  background-color: rgb(2, 2, 17);\n  border-radius: 10px;\n  overflow: hidden;\n  position: relative;\n  margin-top: 15px;\n}\n\n.shape {\n  width: 50px;\n  height: 15px;\n  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);\n  border-radius: 25px;\n  position: absolute;\n  animation: slide 1.9s linear infinite;\n  background-size: 200%;\n}\n\n@keyframes slide {\n  0% {\n    left: 0;\n  }\n\n  50% {\n    left: calc(100% - 50px);\n  }\n\n  100% {\n    left: 0;\n  }\n}\n\n@keyframes gradientChange {\n  0%, 100% {\n    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);\n  }\n\n  50% {\n    background-image: linear-gradient(144deg, #00DDEB, #5B42F3 50%, #AF40FF);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wicked Fish 61</title>\n<style>\n/* Wicked Fish 61 by shadowmurphy — https://uiverse.io/shadowmurphy/wicked-fish-61 */\n.loader {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  width: 200px;\n  height: 15px;\n  background-color: rgb(2, 2, 17);\n  border-radius: 10px;\n  overflow: hidden;\n  position: relative;\n  margin-top: 15px;\n}\n\n.shape {\n  width: 50px;\n  height: 15px;\n  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);\n  border-radius: 25px;\n  position: absolute;\n  animation: slide 1.9s linear infinite;\n  background-size: 200%;\n}\n\n@keyframes slide {\n  0% {\n    left: 0;\n  }\n\n  50% {\n    left: calc(100% - 50px);\n  }\n\n  100% {\n    left: 0;\n  }\n}\n\n@keyframes gradientChange {\n  0%, 100% {\n    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);\n  }\n\n  50% {\n    background-image: linear-gradient(144deg, #00DDEB, #5B42F3 50%, #AF40FF);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"shape\"></div>\n</div>\n\n</body>\n</html>\n"
 }

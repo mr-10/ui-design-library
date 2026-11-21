@@ -5,14 +5,25 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/bad-lionfish-99",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill gray loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 5s animation (rotating).",
  "tags": [
+  "rounded",
+  "pill",
+  "spin",
   "loader",
   "auto-loop",
   "css"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n  position: relative;\n  box-shadow: 0 0 30px 4px rgba(0, 0, 0, 0.5) inset,\n      0 5px 12px rgba(0, 0, 0, 0.15);\n  overflow: hidden;\n}\n\n.loader:before,\n  .loader:after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 45%;\n  top: -40%;\n  background-color: #2e2e2e;\n  animation: wave 5s linear infinite;\n}\n\n.loader:before {\n  border-radius: 30%;\n  background: rgba(122, 122, 122, 0.4);\n  animation: wave 5s linear infinite;\n}\n\n@keyframes wave {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bad Lionfish 99</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/bad-lionfish-99 */\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n  position: relative;\n  box-shadow: 0 0 30px 4px rgba(0, 0, 0, 0.5) inset,\n      0 5px 12px rgba(0, 0, 0, 0.15);\n  overflow: hidden;\n}\n\n.loader:before,\n  .loader:after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 45%;\n  top: -40%;\n  background-color: #2e2e2e;\n  animation: wave 5s linear infinite;\n}\n\n.loader:before {\n  border-radius: 30%;\n  background: rgba(122, 122, 122, 0.4);\n  animation: wave 5s linear infinite;\n}\n\n@keyframes wave {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#2e2e2e",
+  "#7a7a7a",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 238,
+ "size": 953,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Bad Lionfish 99 by Shoh2008 — https://uiverse.io/Shoh2008/bad-lionfish-99 */\n.loader {\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n  position: relative;\n  box-shadow: 0 0 30px 4px rgba(0, 0, 0, 0.5) inset,\n      0 5px 12px rgba(0, 0, 0, 0.15);\n  overflow: hidden;\n}\n\n.loader:before,\n  .loader:after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 45%;\n  top: -40%;\n  background-color: #2e2e2e;\n  animation: wave 5s linear infinite;\n}\n\n.loader:before {\n  border-radius: 30%;\n  background: rgba(122, 122, 122, 0.4);\n  animation: wave 5s linear infinite;\n}\n\n@keyframes wave {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bad Lionfish 99</title>\n<style>\n/* Bad Lionfish 99 by Shoh2008 — https://uiverse.io/Shoh2008/bad-lionfish-99 */\n.loader {\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n  position: relative;\n  box-shadow: 0 0 30px 4px rgba(0, 0, 0, 0.5) inset,\n      0 5px 12px rgba(0, 0, 0, 0.15);\n  overflow: hidden;\n}\n\n.loader:before,\n  .loader:after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 45%;\n  top: -40%;\n  background-color: #2e2e2e;\n  animation: wave 5s linear infinite;\n}\n\n.loader:before {\n  border-radius: 30%;\n  background: rgba(122, 122, 122, 0.4);\n  animation: wave 5s linear infinite;\n}\n\n@keyframes wave {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

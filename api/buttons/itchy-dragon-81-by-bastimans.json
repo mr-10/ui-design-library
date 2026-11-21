@@ -5,14 +5,24 @@
  "author": "Bastimans",
  "source": "https://uiverse.io/Bastimans/itchy-dragon-81",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded amber button that scales up on hover.",
+ "howItWorks": "On hover, background-color changes from #ffc600 to #000000, text color changes from #000000 to #ffc600, transform becomes scale(1.1).",
  "tags": [
+  "amber",
+  "rounded",
+  "scale",
+  "color-change",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button>Don't Click</button>",
- "css": "/* From Uiverse.io by Bastimans - Tags: button */\nbutton {\n  background-color: #ffc600;\n /* sets the background color of the button to yellow */\n  color: #000000;\n /* sets the text color of the button to black */\n  padding: 12px 24px;\n /* adds some padding to the button */\n  border: none;\n /* remove the default border */\n  border-radius: 30px;\n /* rounds the corners of the button */\n  font-size: 18px;\n /* sets the font size of the button text */\n  font-weight: bold;\n /* sets the font weight of the button text to bold */\n  cursor: pointer;\n /* changes the cursor to a pointer when hovering over the button */\n  text-shadow: 2px 2px 3px #ffc600;\n /* adds a subtle shadow to the button text */\n  box-shadow: 2px 2px 3px #ffc600;\n /* adds a subtle shadow to the button */\n  transition: all 0.2s ease-in-out;\n /* adds transition effect when hovering over the button */\n}\n\nbutton:hover {\n  background-color: #000000;\n /* changes the background color of the button to black when hovered */\n  color: #ffc600;\n /* changes the text color of the button to yellow when hovered */\n  transform: scale(1.1);\n /* increases the size of the button slightly when hovered */\n}\n\nbutton:active {\n  transform: scale(0.97);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Itchy Dragon 81</title>\n<style>\n/* From Uiverse.io by Bastimans - https://uiverse.io/Bastimans/itchy-dragon-81 */\n/* From Uiverse.io by Bastimans - Tags: button */\nbutton {\n  background-color: #ffc600;\n /* sets the background color of the button to yellow */\n  color: #000000;\n /* sets the text color of the button to black */\n  padding: 12px 24px;\n /* adds some padding to the button */\n  border: none;\n /* remove the default border */\n  border-radius: 30px;\n /* rounds the corners of the button */\n  font-size: 18px;\n /* sets the font size of the button text */\n  font-weight: bold;\n /* sets the font weight of the button text to bold */\n  cursor: pointer;\n /* changes the cursor to a pointer when hovering over the button */\n  text-shadow: 2px 2px 3px #ffc600;\n /* adds a subtle shadow to the button text */\n  box-shadow: 2px 2px 3px #ffc600;\n /* adds a subtle shadow to the button */\n  transition: all 0.2s ease-in-out;\n /* adds transition effect when hovering over the button */\n}\n\nbutton:hover {\n  background-color: #000000;\n /* changes the background color of the button to black when hovered */\n  color: #ffc600;\n /* changes the text color of the button to yellow when hovered */\n  transform: scale(1.1);\n /* increases the size of the button slightly when hovered */\n}\n\nbutton:active {\n  transform: scale(0.97);\n}\n</style>\n</head>\n<body>\n<button>Don't Click</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffc600",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 190,
+ "size": 761,
+ "html": "<button>Don't Click</button>\n",
+ "css": "/* Itchy Dragon 81 by Bastimans — https://uiverse.io/Bastimans/itchy-dragon-81 */\nbutton {\n  background-color: #ffc600;\n\n  color: #000000;\n\n  padding: 12px 24px;\n\n  border: none;\n\n  border-radius: 30px;\n\n  font-size: 18px;\n\n  font-weight: bold;\n\n  cursor: pointer;\n\n  text-shadow: 2px 2px 3px #ffc600;\n\n  box-shadow: 2px 2px 3px #ffc600;\n\n  transition: all 0.2s ease-in-out;\n\n}\n\nbutton:hover {\n  background-color: #000000;\n\n  color: #ffc600;\n\n  transform: scale(1.1);\n\n}\n\nbutton:active {\n  transform: scale(0.97);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Itchy Dragon 81</title>\n<style>\n/* Itchy Dragon 81 by Bastimans — https://uiverse.io/Bastimans/itchy-dragon-81 */\nbutton {\n  background-color: #ffc600;\n\n  color: #000000;\n\n  padding: 12px 24px;\n\n  border: none;\n\n  border-radius: 30px;\n\n  font-size: 18px;\n\n  font-weight: bold;\n\n  cursor: pointer;\n\n  text-shadow: 2px 2px 3px #ffc600;\n\n  box-shadow: 2px 2px 3px #ffc600;\n\n  transition: all 0.2s ease-in-out;\n\n}\n\nbutton:hover {\n  background-color: #000000;\n\n  color: #ffc600;\n\n  transform: scale(1.1);\n\n}\n\nbutton:active {\n  transform: scale(0.97);\n}\n</style>\n</head>\n<body>\n<button>Don't Click</button>\n\n</body>\n</html>\n"
 }

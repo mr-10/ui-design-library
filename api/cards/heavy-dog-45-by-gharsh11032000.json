@@ -5,17 +5,24 @@
  "author": "gharsh11032000",
  "source": "https://uiverse.io/gharsh11032000/heavy-dog-45",
  "trigger": "hover",
- "description": "A card with hover-effect, hoverme and cardhover styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined rounded orange card that glows on hover.",
+ "howItWorks": "On hover, border-radius becomes 12px, background-color changes from transparent to #ff6b00, scale becomes 0.95.",
  "tags": [
-  "card",
-  "hover",
-  "hover-effect",
-  "hoverme",
-  "cardhover",
-  "card-hover"
+  "orange",
+  "outlined",
+  "rounded",
+  "glow",
+  "color-change",
+  "card"
  ],
- "html": "<div class=\"card\">\n  <p class=\"header\">UI Blog's</p>\n  <div class=\"main-content\">\n    <p class=\"heading\">How to make a simple ui card?</p>\n  </div>\n  <div class=\"footer\">by Harsh Gupta</div>\n</div>",
- "css": "/* From Uiverse.io by gharsh11032000  - Tags: card, hover, hover effect, hoverme, cardhover , card hover */\n.card {\n  width: 320px;\n  height: 350px;\n  padding: 20px;\n  color: white;\n  background: transparent;\n  border: 2px solid #ff6b00;\n  display: flex;\n  flex-direction: column;\n  cursor: pointer;\n  transform-origin: center center;\n  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.card .main-content {\n  flex: 1;\n}\n\n.header {\n  margin-bottom: 24px;\n}\n\n.card .heading {\n  font-size: 32px;\n  font-weight: 400;\n  line-height: 1.2;\n}\n\n.card .footer {\n  font-weight: 400;\n  margin-right: 4px;\n}\n\n.card:hover {\n  border-radius: 12px;\n  background-color: #ff6b00;\n  scale: 0.95;\n  rotate: 8deg;\n  box-shadow: 0px 3px 187.5px 7.5px rgba(255, 107, 0, 0.4);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Dog 45</title>\n<style>\n/* From Uiverse.io by gharsh11032000 - https://uiverse.io/gharsh11032000/heavy-dog-45 */\n/* From Uiverse.io by gharsh11032000  - Tags: card, hover, hover effect, hoverme, cardhover , card hover */\n.card {\n  width: 320px;\n  height: 350px;\n  padding: 20px;\n  color: white;\n  background: transparent;\n  border: 2px solid #ff6b00;\n  display: flex;\n  flex-direction: column;\n  cursor: pointer;\n  transform-origin: center center;\n  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.card .main-content {\n  flex: 1;\n}\n\n.header {\n  margin-bottom: 24px;\n}\n\n.card .heading {\n  font-size: 32px;\n  font-weight: 400;\n  line-height: 1.2;\n}\n\n.card .footer {\n  font-weight: 400;\n  margin-right: 4px;\n}\n\n.card:hover {\n  border-radius: 12px;\n  background-color: #ff6b00;\n  scale: 0.95;\n  rotate: 8deg;\n  box-shadow: 0px 3px 187.5px 7.5px rgba(255, 107, 0, 0.4);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <p class=\"header\">UI Blog's</p>\n  <div class=\"main-content\">\n    <p class=\"heading\">How to make a simple ui card?</p>\n  </div>\n  <div class=\"footer\">by Harsh Gupta</div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff6b00",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 290,
+ "size": 1161,
+ "html": "<div class=\"card\">\n  <p class=\"header\">UI Blog's</p>\n  <div class=\"main-content\">\n    <p class=\"heading\">How to make a simple ui card?</p>\n  </div>\n  <div class=\"footer\">by Harsh Gupta</div>\n</div>\n",
+ "css": "/* Heavy Dog 45 by gharsh11032000 — https://uiverse.io/gharsh11032000/heavy-dog-45 */\n.card {\n  width: 320px;\n  height: 350px;\n  padding: 20px;\n  color: white;\n  background: transparent;\n  border: 2px solid #ff6b00;\n  display: flex;\n  flex-direction: column;\n  cursor: pointer;\n  transform-origin: center center;\n  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.card .main-content {\n  flex: 1;\n}\n\n.header {\n  margin-bottom: 24px;\n}\n\n.card .heading {\n  font-size: 32px;\n  font-weight: 400;\n  line-height: 1.2;\n}\n\n.card .footer {\n  font-weight: 400;\n  margin-right: 4px;\n}\n\n.card:hover {\n  border-radius: 12px;\n  background-color: #ff6b00;\n  scale: 0.95;\n  rotate: 8deg;\n  box-shadow: 0px 3px 187.5px 7.5px rgba(255, 107, 0, 0.4);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Dog 45</title>\n<style>\n/* Heavy Dog 45 by gharsh11032000 — https://uiverse.io/gharsh11032000/heavy-dog-45 */\n.card {\n  width: 320px;\n  height: 350px;\n  padding: 20px;\n  color: white;\n  background: transparent;\n  border: 2px solid #ff6b00;\n  display: flex;\n  flex-direction: column;\n  cursor: pointer;\n  transform-origin: center center;\n  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.card .main-content {\n  flex: 1;\n}\n\n.header {\n  margin-bottom: 24px;\n}\n\n.card .heading {\n  font-size: 32px;\n  font-weight: 400;\n  line-height: 1.2;\n}\n\n.card .footer {\n  font-weight: 400;\n  margin-right: 4px;\n}\n\n.card:hover {\n  border-radius: 12px;\n  background-color: #ff6b00;\n  scale: 0.95;\n  rotate: 8deg;\n  box-shadow: 0px 3px 187.5px 7.5px rgba(255, 107, 0, 0.4);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <p class=\"header\">UI Blog's</p>\n  <div class=\"main-content\">\n    <p class=\"heading\">How to make a simple ui card?</p>\n  </div>\n  <div class=\"footer\">by Harsh Gupta</div>\n</div>\n\n</body>\n</html>\n"
 }

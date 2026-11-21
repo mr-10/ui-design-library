@@ -5,14 +5,24 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/little-falcon-22",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill indigo loader with fading motion in a loop.",
+ "howItWorks": "It loops a 0.85s animation (fading, pulsing).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "indigo",
+  "rounded",
+  "pill",
+  "flat",
+  "fade",
+  "pulse"
  ],
- "html": "<div class=\"item\">\n    <div class=\"loader-pulse\"></div>\n</div>",
- "css": "/* From Uiverse.io by JkHuger - Tags: loader */\n.loader-pulse {\n  width: 64px;\n  height: 64px;\n  border-radius: 50%;\n  background: #8f44fd;\n  animation: load-pulse 0.85s infinite linear;\n}\n\n@keyframes load-pulse {\n  0% {\n    transform: scale(0.15);\n    opacity: 0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(1);\n    opacity: 0;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Falcon 22</title>\n<style>\n/* From Uiverse.io by JkHuger - https://uiverse.io/JkHuger/little-falcon-22 */\n/* From Uiverse.io by JkHuger - Tags: loader */\n.loader-pulse {\n  width: 64px;\n  height: 64px;\n  border-radius: 50%;\n  background: #8f44fd;\n  animation: load-pulse 0.85s infinite linear;\n}\n\n@keyframes load-pulse {\n  0% {\n    transform: scale(0.15);\n    opacity: 0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(1);\n    opacity: 0;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"item\">\n    <div class=\"loader-pulse\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#8f44fd",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 166,
+ "size": 667,
+ "html": "<div class=\"item\">\n    <div class=\"loader-pulse\"></div>\n</div>\n",
+ "css": "/* Little Falcon 22 by JkHuger — https://uiverse.io/JkHuger/little-falcon-22 */\n.loader-pulse {\n  width: 64px;\n  height: 64px;\n  border-radius: 50%;\n  background: #8f44fd;\n  animation: load-pulse 0.85s infinite linear;\n}\n\n@keyframes load-pulse {\n  0% {\n    transform: scale(0.15);\n    opacity: 0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(1);\n    opacity: 0;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Falcon 22</title>\n<style>\n/* Little Falcon 22 by JkHuger — https://uiverse.io/JkHuger/little-falcon-22 */\n.loader-pulse {\n  width: 64px;\n  height: 64px;\n  border-radius: 50%;\n  background: #8f44fd;\n  animation: load-pulse 0.85s infinite linear;\n}\n\n@keyframes load-pulse {\n  0% {\n    transform: scale(0.15);\n    opacity: 0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(1);\n    opacity: 0;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"item\">\n    <div class=\"loader-pulse\"></div>\n</div>\n\n</body>\n</html>\n"
 }

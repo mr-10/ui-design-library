@@ -5,15 +5,27 @@
  "author": "Codecite",
  "source": "https://uiverse.io/Codecite/fluffy-bear-28",
  "trigger": "hover",
- "description": "A button with btn and hover-effect styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient dark pill blue button that changes colour on hover.",
+ "howItWorks": "On hover, background changes from #1e293b to none.",
  "tags": [
-  "button",
-  "hover",
-  "btn",
-  "hover-effect"
+  "blue",
+  "red",
+  "gradient",
+  "dark",
+  "rounded",
+  "pill"
  ],
- "html": "<button class=\"btn\"><span>Button</span></button>",
- "css": "/* From Uiverse.io by Codecite - Tags: button, hover, btn, hover effect */\n.btn {\n  border: 0 solid;\n  cursor: pointer;\n  font-family: system-ui;\n  font-size: 100%;\n  background: linear-gradient(90deg, blue, red);\n  border-radius: 999px;\n  font-weight: 900;\n  padding: 1.8rem 5rem;\n  position: relative;\n  text-transform: uppercase;\n}\n\n.btn span {\n  background: #1e293b;\n  border-radius: 999px;\n  color: #fff;\n  display: grid;\n  inset: 5px;\n  place-items: center;\n  position: absolute;\n  transition: background 0.3s;\n}\n\n.btn:hover span {\n  background: none;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Bear 28</title>\n<style>\n/* From Uiverse.io by Codecite - https://uiverse.io/Codecite/fluffy-bear-28 */\n/* From Uiverse.io by Codecite - Tags: button, hover, btn, hover effect */\n.btn {\n  border: 0 solid;\n  cursor: pointer;\n  font-family: system-ui;\n  font-size: 100%;\n  background: linear-gradient(90deg, blue, red);\n  border-radius: 999px;\n  font-weight: 900;\n  padding: 1.8rem 5rem;\n  position: relative;\n  text-transform: uppercase;\n}\n\n.btn span {\n  background: #1e293b;\n  border-radius: 999px;\n  color: #fff;\n  display: grid;\n  inset: 5px;\n  place-items: center;\n  position: absolute;\n  transition: background 0.3s;\n}\n\n.btn:hover span {\n  background: none;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"><span>Button</span></button>\n</body>\n</html>\n"
+ "colors": [
+  "#0000ff",
+  "#ff0000",
+  "#1e293b"
+ ],
+ "fonts": [
+  "system-ui"
+ ],
+ "tokens": 206,
+ "size": 827,
+ "html": "<button class=\"btn\"><span>Button</span></button>\n",
+ "css": "/* Fluffy Bear 28 by Codecite — https://uiverse.io/Codecite/fluffy-bear-28 */\n.btn {\n  border: 0 solid;\n  cursor: pointer;\n  font-family: system-ui;\n  font-size: 100%;\n  background: linear-gradient(90deg, blue, red);\n  border-radius: 999px;\n  font-weight: 900;\n  padding: 1.8rem 5rem;\n  position: relative;\n  text-transform: uppercase;\n}\n\n.btn span {\n  background: #1e293b;\n  border-radius: 999px;\n  color: #fff;\n  display: grid;\n  inset: 5px;\n  place-items: center;\n  position: absolute;\n  transition: background 0.3s;\n}\n\n.btn:hover span {\n  background: none;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Bear 28</title>\n<style>\n/* Fluffy Bear 28 by Codecite — https://uiverse.io/Codecite/fluffy-bear-28 */\n.btn {\n  border: 0 solid;\n  cursor: pointer;\n  font-family: system-ui;\n  font-size: 100%;\n  background: linear-gradient(90deg, blue, red);\n  border-radius: 999px;\n  font-weight: 900;\n  padding: 1.8rem 5rem;\n  position: relative;\n  text-transform: uppercase;\n}\n\n.btn span {\n  background: #1e293b;\n  border-radius: 999px;\n  color: #fff;\n  display: grid;\n  inset: 5px;\n  place-items: center;\n  position: absolute;\n  transition: background 0.3s;\n}\n\n.btn:hover span {\n  background: none;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"><span>Button</span></button>\n\n</body>\n</html>\n"
 }

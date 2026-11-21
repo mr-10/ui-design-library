@@ -5,16 +5,24 @@
  "author": "vnuny",
  "source": "https://uiverse.io/vnuny/tough-dog-52",
  "trigger": "static",
- "description": "A pattern with simple, pink and circle styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient white pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
+  "gradient",
+  "flat",
+  "pattern",
   "simple",
   "pink",
-  "circle",
-  "pattern",
-  "static"
+  "circle"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by vnuny - Tags: simple, pink, circle, pattern */\n.container {\n  background-color: #e5e5f7;\n  opacity: 1;\n  width: 100%;\n  height: 100%;\n  background-image: repeating-radial-gradient(\n      circle at 0 0,\n      transparent 0,\n      #e5e5f7 30px\n    ),\n    repeating-linear-gradient(#ffb5b58a, #ffb8b8);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Dog 52</title>\n<style>\n/* From Uiverse.io by vnuny - https://uiverse.io/vnuny/tough-dog-52 */\n/* From Uiverse.io by vnuny - Tags: simple, pink, circle, pattern */\n.container {\n  background-color: #e5e5f7;\n  opacity: 1;\n  width: 100%;\n  height: 100%;\n  background-image: repeating-radial-gradient(\n      circle at 0 0,\n      transparent 0,\n      #e5e5f7 30px\n    ),\n    repeating-linear-gradient(#ffb5b58a, #ffb8b8);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#e5e5f7",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 141,
+ "size": 566,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Tough Dog 52 by vnuny — https://uiverse.io/vnuny/tough-dog-52 */\n.container {\n  background-color: #e5e5f7;\n  opacity: 1;\n  width: 100%;\n  height: 100%;\n  background-image: repeating-radial-gradient(\n      circle at 0 0,\n      transparent 0,\n      #e5e5f7 30px\n    ),\n    repeating-linear-gradient(#ffb5b58a, #ffb8b8);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Dog 52</title>\n<style>\n/* Tough Dog 52 by vnuny — https://uiverse.io/vnuny/tough-dog-52 */\n.container {\n  background-color: #e5e5f7;\n  opacity: 1;\n  width: 100%;\n  height: 100%;\n  background-image: repeating-radial-gradient(\n      circle at 0 0,\n      transparent 0,\n      #e5e5f7 30px\n    ),\n    repeating-linear-gradient(#ffb5b58a, #ffb8b8);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

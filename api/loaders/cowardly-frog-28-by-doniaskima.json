@@ -5,17 +5,25 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/cowardly-frog-28",
  "trigger": "auto-loop",
- "description": "A loader with simple, material-design and neumorphism styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient red loader with pulsing; rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (pulsing; rotating).",
  "tags": [
-  "simple",
-  "material-design",
-  "neumorphism",
-  "skeuomorphism",
-  "glassmorphism",
-  "flashy"
+  "red",
+  "gradient",
+  "flat",
+  "pulse",
+  "spin",
+  "simple"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by doniaskima - Tags: simple, material design, neumorphism, skeuomorphism, glassmorphism, flashy, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 100px;\n  height: 60px;\n  display: flex;\n  animation: l12-0 2s infinite linear;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  flex: 4;\n  background: radial-gradient(at 50% 20%,#0000,#000a) bottom left/20px 20px repeat-x,\n    linear-gradient(red 0 0) bottom/100% 20px no-repeat\n    #ddd;\n  -webkit-mask: repeating-linear-gradient(90deg,#000 0 4px,#0000 0 20px) 8px 0,\n    radial-gradient(farthest-side,#000 90%,#0000) left bottom/20px 20px repeat-x;\n}\n\n.loader::after {\n  flex: 1;\n  transform-origin: top;\n  animation: l12-1 1s cubic-bezier(0,20,1,20) infinite;\n}\n\n@keyframes l12-0 {\n \n  0%,49.9% {\n    transform: scaleX(1)\n  }\n\n  50%,100% {\n    transform: scaleX(-1)\n  }\n}\n\n@keyframes l12-1 {\n \n  100% {\n    transform: rotate(-2deg)\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Frog 28</title>\n<style>\n/* From Uiverse.io by doniaskima - https://uiverse.io/doniaskima/cowardly-frog-28 */\n/* From Uiverse.io by doniaskima - Tags: simple, material design, neumorphism, skeuomorphism, glassmorphism, flashy, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 100px;\n  height: 60px;\n  display: flex;\n  animation: l12-0 2s infinite linear;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  flex: 4;\n  background: radial-gradient(at 50% 20%,#0000,#000a) bottom left/20px 20px repeat-x,\n    linear-gradient(red 0 0) bottom/100% 20px no-repeat\n    #ddd;\n  -webkit-mask: repeating-linear-gradient(90deg,#000 0 4px,#0000 0 20px) 8px 0,\n    radial-gradient(farthest-side,#000 90%,#0000) left bottom/20px 20px repeat-x;\n}\n\n.loader::after {\n  flex: 1;\n  transform-origin: top;\n  animation: l12-1 1s cubic-bezier(0,20,1,20) infinite;\n}\n\n@keyframes l12-0 {\n \n  0%,49.9% {\n    transform: scaleX(1)\n  }\n\n  50%,100% {\n    transform: scaleX(-1)\n  }\n}\n\n@keyframes l12-1 {\n \n  100% {\n    transform: rotate(-2deg)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#dddddd",
+  "#ff0000",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 273,
+ "size": 1093,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Cowardly Frog 28 by doniaskima — https://uiverse.io/doniaskima/cowardly-frog-28 */\n.loader {\n  width: 100px;\n  height: 60px;\n  display: flex;\n  animation: l12-0 2s infinite linear;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  flex: 4;\n  background: radial-gradient(at 50% 20%,#0000,#000a) bottom left/20px 20px repeat-x,\n    linear-gradient(red 0 0) bottom/100% 20px no-repeat\n    #ddd;\n  -webkit-mask: repeating-linear-gradient(90deg,#000 0 4px,#0000 0 20px) 8px 0,\n    radial-gradient(farthest-side,#000 90%,#0000) left bottom/20px 20px repeat-x;\n}\n\n.loader::after {\n  flex: 1;\n  transform-origin: top;\n  animation: l12-1 1s cubic-bezier(0,20,1,20) infinite;\n}\n\n@keyframes l12-0 {\n\n  0%,49.9% {\n    transform: scaleX(1)\n  }\n\n  50%,100% {\n    transform: scaleX(-1)\n  }\n}\n\n@keyframes l12-1 {\n\n  100% {\n    transform: rotate(-2deg)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Frog 28</title>\n<style>\n/* Cowardly Frog 28 by doniaskima — https://uiverse.io/doniaskima/cowardly-frog-28 */\n.loader {\n  width: 100px;\n  height: 60px;\n  display: flex;\n  animation: l12-0 2s infinite linear;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  flex: 4;\n  background: radial-gradient(at 50% 20%,#0000,#000a) bottom left/20px 20px repeat-x,\n    linear-gradient(red 0 0) bottom/100% 20px no-repeat\n    #ddd;\n  -webkit-mask: repeating-linear-gradient(90deg,#000 0 4px,#0000 0 20px) 8px 0,\n    radial-gradient(farthest-side,#000 90%,#0000) left bottom/20px 20px repeat-x;\n}\n\n.loader::after {\n  flex: 1;\n  transform-origin: top;\n  animation: l12-1 1s cubic-bezier(0,20,1,20) infinite;\n}\n\n@keyframes l12-0 {\n\n  0%,49.9% {\n    transform: scaleX(1)\n  }\n\n  50%,100% {\n    transform: scaleX(-1)\n  }\n}\n\n@keyframes l12-1 {\n\n  100% {\n    transform: rotate(-2deg)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

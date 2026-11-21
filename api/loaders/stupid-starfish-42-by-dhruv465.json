@@ -5,15 +5,24 @@
  "author": "dhruv465",
  "source": "https://uiverse.io/dhruv465/stupid-starfish-42",
  "trigger": "auto-loop",
- "description": "A loader with animated and circle-loader styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined pill cyan loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (rotating).",
  "tags": [
-  "loader",
-  "animated",
-  "circle-loader",
-  "auto-loop"
+  "cyan",
+  "outlined",
+  "rounded",
+  "pill",
+  "spin",
+  "loader"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by dhruv465 - Tags: loader, animated, circle loader */\n.loader {\n  border: 16px solid #f3f3f3;\n  border-top: 16px solid #3498db;\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n}\n\n/* Add some glow effect */\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: -5px;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  border-radius: 50%;\n  box-shadow: inset 0px 0px 20px #3498db;\n}\n\n/* Rotate the circle */\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stupid Starfish 42</title>\n<style>\n/* From Uiverse.io by dhruv465 - https://uiverse.io/dhruv465/stupid-starfish-42 */\n/* From Uiverse.io by dhruv465 - Tags: loader, animated, circle loader */\n.loader {\n  border: 16px solid #f3f3f3;\n  border-top: 16px solid #3498db;\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n}\n\n/* Add some glow effect */\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: -5px;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  border-radius: 50%;\n  box-shadow: inset 0px 0px 20px #3498db;\n}\n\n/* Rotate the circle */\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#f3f3f3",
+  "#3498db"
+ ],
+ "fonts": [],
+ "tokens": 196,
+ "size": 786,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Stupid Starfish 42 by dhruv465 — https://uiverse.io/dhruv465/stupid-starfish-42 */\n.loader {\n  border: 16px solid #f3f3f3;\n  border-top: 16px solid #3498db;\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n}\n\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: -5px;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  border-radius: 50%;\n  box-shadow: inset 0px 0px 20px #3498db;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stupid Starfish 42</title>\n<style>\n/* Stupid Starfish 42 by dhruv465 — https://uiverse.io/dhruv465/stupid-starfish-42 */\n.loader {\n  border: 16px solid #f3f3f3;\n  border-top: 16px solid #3498db;\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n}\n\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: -5px;\n  left: -5px;\n  right: -5px;\n  bottom: -5px;\n  border-radius: 50%;\n  box-shadow: inset 0px 0px 20px #3498db;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

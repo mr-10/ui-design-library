@@ -4,15 +4,25 @@
  "category": "buttons",
  "author": "EcheverriaJesus",
  "source": "https://uiverse.io/EcheverriaJesus/hungry-dingo-62",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gradient rounded white button that glows and scales up on hover.",
+ "howItWorks": "On hover, shadow grows and it scales.",
  "tags": [
+  "gradient",
+  "rounded",
+  "glow",
+  "scale",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by EcheverriaJesus  - Tags: green, button, hover, add, tailwind, tailwindbutton -->\n<button\n  class=\"flex justify-center items-center gap-2 w-28 h-12 cursor-pointer rounded-md shadow-2xl text-white font-semibold bg-gradient-to-r from-[#14b8a6] via-[#059669] to-[#047857] hover:shadow-xl hover:shadow-green-500 hover:scale-105 duration-300 hover:from-[#047857] hover:to-[#14b8a6]\"\n>\n  <svg class=\"w-5 fill-white\" viewBox=\"0 0 15 15\">\n    <svg\n      class=\"w-6 h-6\"\n      stroke=\"currentColor\"\n      stroke-width=\"1.5\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n  </svg>\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Dingo 62</title>\n<style>\n/* From Uiverse.io by EcheverriaJesus - https://uiverse.io/EcheverriaJesus/hungry-dingo-62 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by EcheverriaJesus  - Tags: green, button, hover, add, tailwind, tailwindbutton -->\n<button\n  class=\"flex justify-center items-center gap-2 w-28 h-12 cursor-pointer rounded-md shadow-2xl text-white font-semibold bg-gradient-to-r from-[#14b8a6] via-[#059669] to-[#047857] hover:shadow-xl hover:shadow-green-500 hover:scale-105 duration-300 hover:from-[#047857] hover:to-[#14b8a6]\"\n>\n  <svg class=\"w-5 fill-white\" viewBox=\"0 0 15 15\">\n    <svg\n      class=\"w-6 h-6\"\n      stroke=\"currentColor\"\n      stroke-width=\"1.5\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n  </svg>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 253,
+ "size": 1014,
+ "html": "<button\n  class=\"flex justify-center items-center gap-2 w-28 h-12 cursor-pointer rounded-md shadow-2xl text-white font-semibold bg-gradient-to-r from-[#14b8a6] via-[#059669] to-[#047857] hover:shadow-xl hover:shadow-green-500 hover:scale-105 duration-300 hover:from-[#047857] hover:to-[#14b8a6]\"\n>\n  <svg class=\"w-5 fill-white\" viewBox=\"0 0 15 15\">\n    <svg\n      class=\"w-6 h-6\"\n      stroke=\"currentColor\"\n      stroke-width=\"1.5\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n  </svg>\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Dingo 62</title>\n<style>\n/* Hungry Dingo 62 by EcheverriaJesus — https://uiverse.io/EcheverriaJesus/hungry-dingo-62 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"flex justify-center items-center gap-2 w-28 h-12 cursor-pointer rounded-md shadow-2xl text-white font-semibold bg-gradient-to-r from-[#14b8a6] via-[#059669] to-[#047857] hover:shadow-xl hover:shadow-green-500 hover:scale-105 duration-300 hover:from-[#047857] hover:to-[#14b8a6]\"\n>\n  <svg class=\"w-5 fill-white\" viewBox=\"0 0 15 15\">\n    <svg\n      class=\"w-6 h-6\"\n      stroke=\"currentColor\"\n      stroke-width=\"1.5\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n  </svg>\n</button>\n\n</body>\n</html>\n"
 }

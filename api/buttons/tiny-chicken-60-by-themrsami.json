@@ -4,15 +4,27 @@
  "category": "buttons",
  "author": "themrsami",
  "source": "https://uiverse.io/themrsami/tiny-chicken-60",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Pill dark sky-blue button that scales up on hover.",
+ "howItWorks": "On hover, background changes and it scales and a ring appears.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "blue",
+  "rounded",
+  "pill",
+  "color-change",
+  "scale",
+  "ring"
  ],
- "html": "<!-- From Uiverse.io by themrsami  - Tags: simple, button, hover, rounded, dark, tailwindcss -->\n<button\n  class=\"cursor-pointer flex justify-between bg-gray-800 px-3 py-2 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px]\"\n>\n  Resume\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    fill=\"none\"\n    viewBox=\"0 0 24 24\"\n    stroke-width=\"2\"\n    stroke=\"currentColor\"\n    class=\"w-5 h-5 animate-bounce\"\n  >\n    <path\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      d=\"M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3\"\n    ></path>\n  </svg>\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tiny Chicken 60</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/tiny-chicken-60 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by themrsami  - Tags: simple, button, hover, rounded, dark, tailwindcss -->\n<button\n  class=\"cursor-pointer flex justify-between bg-gray-800 px-3 py-2 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px]\"\n>\n  Resume\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    fill=\"none\"\n    viewBox=\"0 0 24 24\"\n    stroke-width=\"2\"\n    stroke=\"currentColor\"\n    class=\"w-5 h-5 animate-bounce\"\n  >\n    <path\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      d=\"M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3\"\n    ></path>\n  </svg>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#1f2937",
+  "#ffffff"
+ ],
+ "fonts": [
+  "mono"
+ ],
+ "tokens": 208,
+ "size": 835,
+ "html": "<button\n  class=\"cursor-pointer flex justify-between bg-gray-800 px-3 py-2 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px]\"\n>\n  Resume\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    fill=\"none\"\n    viewBox=\"0 0 24 24\"\n    stroke-width=\"2\"\n    stroke=\"currentColor\"\n    class=\"w-5 h-5 animate-bounce\"\n  >\n    <path\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      d=\"M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3\"\n    ></path>\n  </svg>\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tiny Chicken 60</title>\n<style>\n/* Tiny Chicken 60 by themrsami — https://uiverse.io/themrsami/tiny-chicken-60 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"cursor-pointer flex justify-between bg-gray-800 px-3 py-2 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[150px]\"\n>\n  Resume\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    fill=\"none\"\n    viewBox=\"0 0 24 24\"\n    stroke-width=\"2\"\n    stroke=\"currentColor\"\n    class=\"w-5 h-5 animate-bounce\"\n  >\n    <path\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      d=\"M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3\"\n    ></path>\n  </svg>\n</button>\n\n</body>\n</html>\n"
 }

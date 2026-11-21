@@ -4,15 +4,26 @@
  "category": "buttons",
  "author": "Nouman64-cat",
  "source": "https://uiverse.io/Nouman64-cat/hard-cow-88",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gradient pill teal button that glows on hover.",
+ "howItWorks": "On hover, border changes and shadow grows.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "teal",
+  "blue",
+  "gradient",
+  "rounded",
+  "pill",
+  "color-change"
  ],
- "html": "<!-- From Uiverse.io by Nouman64-cat - Tags: button, bounce animation, 3d button -->\n<button class=\"cursor-pointer animate-bounce px-10 pt-5 pb-5 rounded-full text-white text-xl \n bg-gradient-to-r from-cyan-500 to-blue-500 hover:border-cyan-500 hover:shadow-2xl\">\n  Button\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Cow 88</title>\n<style>\n/* From Uiverse.io by Nouman64-cat - https://uiverse.io/Nouman64-cat/hard-cow-88 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Nouman64-cat - Tags: button, bounce animation, 3d button -->\n<button class=\"cursor-pointer animate-bounce px-10 pt-5 pb-5 rounded-full text-white text-xl \n bg-gradient-to-r from-cyan-500 to-blue-500 hover:border-cyan-500 hover:shadow-2xl\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#06b6d4",
+  "#3b82f6",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 122,
+ "size": 490,
+ "html": "<button class=\"cursor-pointer animate-bounce px-10 pt-5 pb-5 rounded-full text-white text-xl\n bg-gradient-to-r from-cyan-500 to-blue-500 hover:border-cyan-500 hover:shadow-2xl\">\n  Button\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Cow 88</title>\n<style>\n/* Hard Cow 88 by Nouman64-cat — https://uiverse.io/Nouman64-cat/hard-cow-88 */\n\n</style>\n</head>\n<body>\n<button class=\"cursor-pointer animate-bounce px-10 pt-5 pb-5 rounded-full text-white text-xl\n bg-gradient-to-r from-cyan-500 to-blue-500 hover:border-cyan-500 hover:shadow-2xl\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

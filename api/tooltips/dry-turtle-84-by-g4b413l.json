@@ -5,15 +5,24 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/dry-turtle-84",
  "trigger": "hover",
- "description": "A tooltip with button and button-hover-effect styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark rounded gray tooltip that fades on hover.",
+ "howItWorks": "On hover, opacity becomes 1.",
  "tags": [
+  "dark",
+  "rounded",
+  "flat",
+  "fade",
   "tooltip",
-  "button",
-  "button-hover-effect",
-  "hover"
+  "button"
  ],
- "html": "<div class=\"tooltip\">\n  Hover me\n  <div class=\"tooltiptext\">Hi there !</div>\n</div>",
- "css": "/* From Uiverse.io by G4b413l  - Tags: tooltip, button, button hover effect  */\n.tooltip {\n  position: relative;\n  display: inline-block;\n  cursor: pointer;\n  background-color: #282828;\n  color: #f1f1f1;\n  padding: 1em 3em;\n  border-radius: 1em;\n}\n\n.tooltip .tooltiptext {\n  visibility: hidden;\n  width: 200px;\n  background-color: #28282817;\n  color: #282828;\n  text-align: center;\n  border-radius: 5px;\n  padding: 10px;\n  position: absolute;\n  z-index: 1;\n  bottom: 125%;\n  left: 50%;\n  transform: translateX(-50%);\n  opacity: 0;\n  transition: opacity 0.3s;\n}\n\n.tooltip:hover .tooltiptext {\n  visibility: visible;\n  opacity: 1;\n}\n\n.tooltip .tooltiptext::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  border-width: 8px;\n  border-style: solid;\n  border-color: #28282817 transparent transparent transparent;\n  transform: translateX(-50%);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Turtle 84</title>\n<style>\n/* From Uiverse.io by G4b413l - https://uiverse.io/G4b413l/dry-turtle-84 */\n/* From Uiverse.io by G4b413l  - Tags: tooltip, button, button hover effect  */\n.tooltip {\n  position: relative;\n  display: inline-block;\n  cursor: pointer;\n  background-color: #282828;\n  color: #f1f1f1;\n  padding: 1em 3em;\n  border-radius: 1em;\n}\n\n.tooltip .tooltiptext {\n  visibility: hidden;\n  width: 200px;\n  background-color: #28282817;\n  color: #282828;\n  text-align: center;\n  border-radius: 5px;\n  padding: 10px;\n  position: absolute;\n  z-index: 1;\n  bottom: 125%;\n  left: 50%;\n  transform: translateX(-50%);\n  opacity: 0;\n  transition: opacity 0.3s;\n}\n\n.tooltip:hover .tooltiptext {\n  visibility: visible;\n  opacity: 1;\n}\n\n.tooltip .tooltiptext::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  border-width: 8px;\n  border-style: solid;\n  border-color: #28282817 transparent transparent transparent;\n  transform: translateX(-50%);\n}\n</style>\n</head>\n<body>\n<div class=\"tooltip\">\n  Hover me\n  <div class=\"tooltiptext\">Hi there !</div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#282828",
+  "#f1f1f1"
+ ],
+ "fonts": [],
+ "tokens": 289,
+ "size": 1158,
+ "html": "<div class=\"tooltip\">\n  Hover me\n  <div class=\"tooltiptext\">Hi there !</div>\n</div>\n",
+ "css": "/* Dry Turtle 84 by G4b413l — https://uiverse.io/G4b413l/dry-turtle-84 */\n.tooltip {\n  position: relative;\n  display: inline-block;\n  cursor: pointer;\n  background-color: #282828;\n  color: #f1f1f1;\n  padding: 1em 3em;\n  border-radius: 1em;\n}\n\n.tooltip .tooltiptext {\n  visibility: hidden;\n  width: 200px;\n  background-color: #28282817;\n  color: #282828;\n  text-align: center;\n  border-radius: 5px;\n  padding: 10px;\n  position: absolute;\n  z-index: 1;\n  bottom: 125%;\n  left: 50%;\n  transform: translateX(-50%);\n  opacity: 0;\n  transition: opacity 0.3s;\n}\n\n.tooltip:hover .tooltiptext {\n  visibility: visible;\n  opacity: 1;\n}\n\n.tooltip .tooltiptext::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  border-width: 8px;\n  border-style: solid;\n  border-color: #28282817 transparent transparent transparent;\n  transform: translateX(-50%);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Turtle 84</title>\n<style>\n/* Dry Turtle 84 by G4b413l — https://uiverse.io/G4b413l/dry-turtle-84 */\n.tooltip {\n  position: relative;\n  display: inline-block;\n  cursor: pointer;\n  background-color: #282828;\n  color: #f1f1f1;\n  padding: 1em 3em;\n  border-radius: 1em;\n}\n\n.tooltip .tooltiptext {\n  visibility: hidden;\n  width: 200px;\n  background-color: #28282817;\n  color: #282828;\n  text-align: center;\n  border-radius: 5px;\n  padding: 10px;\n  position: absolute;\n  z-index: 1;\n  bottom: 125%;\n  left: 50%;\n  transform: translateX(-50%);\n  opacity: 0;\n  transition: opacity 0.3s;\n}\n\n.tooltip:hover .tooltiptext {\n  visibility: visible;\n  opacity: 1;\n}\n\n.tooltip .tooltiptext::after {\n  content: \"\";\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  border-width: 8px;\n  border-style: solid;\n  border-color: #28282817 transparent transparent transparent;\n  transform: translateX(-50%);\n}\n</style>\n</head>\n<body>\n<div class=\"tooltip\">\n  Hover me\n  <div class=\"tooltiptext\">Hi there !</div>\n</div>\n\n</body>\n</html>\n"
 }

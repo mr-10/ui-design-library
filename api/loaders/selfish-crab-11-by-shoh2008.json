@@ -5,14 +5,25 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/selfish-crab-11",
  "trigger": "auto-loop",
- "description": "A loader with image styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill orange loader with animating; rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (animating; rotating).",
  "tags": [
+  "orange",
+  "rounded",
+  "pill",
+  "spin",
   "loader",
-  "image",
-  "auto-loop"
+  "image"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by Shoh2008 - Tags: loader, image */\n.loader {\n  width: 64px;\n  height: 64px;\n  position: relative;\n  background: #FFF;\n  border-radius: 4px;\n  overflow: hidden;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 40px;\n  height: 40px;\n  transform: rotate(45deg) translate(30%, 40%);\n  background: #ff9371;\n  box-shadow: 32px -34px 0 5px #ff3d00;\n  animation: slide 2s infinite ease-in-out alternate;\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  left: 10px;\n  top: 10px;\n  width: 16px;\n  height: 16px;\n  border-radius: 50%;\n  background: #ff3d00;\n  transform: rotate(0deg);\n  transform-origin: 35px 145px;\n  animation: rotate 2s infinite ease-in-out;\n}\n\n@keyframes slide {\n  0% , 100% {\n    bottom: -35px\n  }\n\n  25% , 75% {\n    bottom: -2px\n  }\n\n  20% , 80% {\n    bottom: 2px\n  }\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(-15deg)\n  }\n\n  25% , 75% {\n    transform: rotate(0deg)\n  }\n\n  100% {\n    transform: rotate(25deg)\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Crab 11</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/selfish-crab-11 */\n/* From Uiverse.io by Shoh2008 - Tags: loader, image */\n.loader {\n  width: 64px;\n  height: 64px;\n  position: relative;\n  background: #FFF;\n  border-radius: 4px;\n  overflow: hidden;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 40px;\n  height: 40px;\n  transform: rotate(45deg) translate(30%, 40%);\n  background: #ff9371;\n  box-shadow: 32px -34px 0 5px #ff3d00;\n  animation: slide 2s infinite ease-in-out alternate;\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  left: 10px;\n  top: 10px;\n  width: 16px;\n  height: 16px;\n  border-radius: 50%;\n  background: #ff3d00;\n  transform: rotate(0deg);\n  transform-origin: 35px 145px;\n  animation: rotate 2s infinite ease-in-out;\n}\n\n@keyframes slide {\n  0% , 100% {\n    bottom: -35px\n  }\n\n  25% , 75% {\n    bottom: -2px\n  }\n\n  20% , 80% {\n    bottom: 2px\n  }\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(-15deg)\n  }\n\n  25% , 75% {\n    transform: rotate(0deg)\n  }\n\n  100% {\n    transform: rotate(25deg)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff3d00",
+  "#ff9371",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 318,
+ "size": 1273,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Selfish Crab 11 by Shoh2008 — https://uiverse.io/Shoh2008/selfish-crab-11 */\n.loader {\n  width: 64px;\n  height: 64px;\n  position: relative;\n  background: #FFF;\n  border-radius: 4px;\n  overflow: hidden;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 40px;\n  height: 40px;\n  transform: rotate(45deg) translate(30%, 40%);\n  background: #ff9371;\n  box-shadow: 32px -34px 0 5px #ff3d00;\n  animation: slide 2s infinite ease-in-out alternate;\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  left: 10px;\n  top: 10px;\n  width: 16px;\n  height: 16px;\n  border-radius: 50%;\n  background: #ff3d00;\n  transform: rotate(0deg);\n  transform-origin: 35px 145px;\n  animation: rotate 2s infinite ease-in-out;\n}\n\n@keyframes slide {\n  0% , 100% {\n    bottom: -35px\n  }\n\n  25% , 75% {\n    bottom: -2px\n  }\n\n  20% , 80% {\n    bottom: 2px\n  }\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(-15deg)\n  }\n\n  25% , 75% {\n    transform: rotate(0deg)\n  }\n\n  100% {\n    transform: rotate(25deg)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Crab 11</title>\n<style>\n/* Selfish Crab 11 by Shoh2008 — https://uiverse.io/Shoh2008/selfish-crab-11 */\n.loader {\n  width: 64px;\n  height: 64px;\n  position: relative;\n  background: #FFF;\n  border-radius: 4px;\n  overflow: hidden;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 40px;\n  height: 40px;\n  transform: rotate(45deg) translate(30%, 40%);\n  background: #ff9371;\n  box-shadow: 32px -34px 0 5px #ff3d00;\n  animation: slide 2s infinite ease-in-out alternate;\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  left: 10px;\n  top: 10px;\n  width: 16px;\n  height: 16px;\n  border-radius: 50%;\n  background: #ff3d00;\n  transform: rotate(0deg);\n  transform-origin: 35px 145px;\n  animation: rotate 2s infinite ease-in-out;\n}\n\n@keyframes slide {\n  0% , 100% {\n    bottom: -35px\n  }\n\n  25% , 75% {\n    bottom: -2px\n  }\n\n  20% , 80% {\n    bottom: 2px\n  }\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(-15deg)\n  }\n\n  25% , 75% {\n    transform: rotate(0deg)\n  }\n\n  100% {\n    transform: rotate(25deg)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

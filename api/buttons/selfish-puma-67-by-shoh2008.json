@@ -5,14 +5,25 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/selfish-puma-67",
  "trigger": "static",
- "description": "A button with valve styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Purple button with clean lines with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
+  "purple",
+  "violet",
+  "flat",
   "button",
   "valve",
   "static"
  ],
- "html": "<button class=\"button\">\n  Button\n</button>",
- "css": "/* From Uiverse.io by Shoh2008 - Tags: button, valve */\n.button {\n  color: #f7f7f7;\n  background: #ff00f2;\n  height: 59px;\n  width: 167px;\n  font-size: 26px;\n  border-radius: 3px;\n  border: 10px #3b0876;\n  border-style: dashed double;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Puma 67</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/selfish-puma-67 */\n/* From Uiverse.io by Shoh2008 - Tags: button, valve */\n.button {\n  color: #f7f7f7;\n  background: #ff00f2;\n  height: 59px;\n  width: 167px;\n  font-size: 26px;\n  border-radius: 3px;\n  border: 10px #3b0876;\n  border-style: dashed double;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#f7f7f7",
+  "#ff00f2",
+  "#3b0876"
+ ],
+ "fonts": [],
+ "tokens": 130,
+ "size": 520,
+ "html": "<button class=\"button\">\n  Button\n</button>\n",
+ "css": "/* Selfish Puma 67 by Shoh2008 — https://uiverse.io/Shoh2008/selfish-puma-67 */\n.button {\n  color: #f7f7f7;\n  background: #ff00f2;\n  height: 59px;\n  width: 167px;\n  font-size: 26px;\n  border-radius: 3px;\n  border: 10px #3b0876;\n  border-style: dashed double;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Puma 67</title>\n<style>\n/* Selfish Puma 67 by Shoh2008 — https://uiverse.io/Shoh2008/selfish-puma-67 */\n.button {\n  color: #f7f7f7;\n  background: #ff00f2;\n  height: 59px;\n  width: 167px;\n  font-size: 26px;\n  border-radius: 3px;\n  border: 10px #3b0876;\n  border-style: dashed double;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

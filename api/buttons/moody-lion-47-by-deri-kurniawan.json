@@ -5,16 +5,25 @@
  "author": "Deri-Kurniawan",
  "source": "https://uiverse.io/Deri-Kurniawan/moody-lion-47",
  "trigger": "hover",
- "description": "A button with colorful, btn and hover-effect styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon gradient rounded orange button that glows on hover.",
+ "howItWorks": "On hover, filter becomes contrast(1.2) brightness(1.2), box-shadow becomes 0 0 20px #ffffff.",
  "tags": [
-  "button",
-  "colorful",
-  "btn",
-  "hover-effect",
-  "hover"
+  "orange",
+  "fuchsia",
+  "neon",
+  "gradient",
+  "outlined",
+  "rounded"
  ],
- "html": "<button class=\"button\">\n  <div class=\"light-border\">Colorful Shiny</div>\n</button>",
- "css": "/* From Uiverse.io by Deri-Kurniawan  - Tags: button, colorful, btn, hover effect */\n.button {\n  position: relative;\n  cursor: pointer;\n  padding: 6px 6px;\n  position: relative;\n  background: linear-gradient(\n    75deg,\n    rgba(192, 97, 237, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(255, 255, 255, 0.4),\n    rgba(252, 144, 98, 0.8),\n    rgba(252, 144, 98, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(228, 89, 199, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(228, 89, 199, 0.8)\n  );\n  border: 1.5px solid transparent;\n  border-radius: 12px;\n  inset: 0;\n}\n\n.button .light-border {\n  padding: 8px 24px;\n  border: 0.1px solid rgba(255, 255, 255, 0.4);\n  border-radius: 8px;\n  pointer-events: none;\n  transition: all 0.3s ease-in-out;\n  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);\n}\n\n.button:hover {\n  filter: contrast(1.2) brightness(1.2);\n  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);\n  transition: all 0.3s ease-in-out;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Lion 47</title>\n<style>\n/* From Uiverse.io by Deri-Kurniawan - https://uiverse.io/Deri-Kurniawan/moody-lion-47 */\n/* From Uiverse.io by Deri-Kurniawan  - Tags: button, colorful, btn, hover effect */\n.button {\n  position: relative;\n  cursor: pointer;\n  padding: 6px 6px;\n  position: relative;\n  background: linear-gradient(\n    75deg,\n    rgba(192, 97, 237, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(255, 255, 255, 0.4),\n    rgba(252, 144, 98, 0.8),\n    rgba(252, 144, 98, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(228, 89, 199, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(228, 89, 199, 0.8)\n  );\n  border: 1.5px solid transparent;\n  border-radius: 12px;\n  inset: 0;\n}\n\n.button .light-border {\n  padding: 8px 24px;\n  border: 0.1px solid rgba(255, 255, 255, 0.4);\n  border-radius: 8px;\n  pointer-events: none;\n  transition: all 0.3s ease-in-out;\n  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);\n}\n\n.button:hover {\n  filter: contrast(1.2) brightness(1.2);\n  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);\n  transition: all 0.3s ease-in-out;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <div class=\"light-border\">Colorful Shiny</div>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#fc9062",
+  "#e459c7",
+  "#c061ed"
+ ],
+ "fonts": [],
+ "tokens": 308,
+ "size": 1233,
+ "html": "<button class=\"button\">\n  <div class=\"light-border\">Colorful Shiny</div>\n</button>\n",
+ "css": "/* Moody Lion 47 by Deri-Kurniawan — https://uiverse.io/Deri-Kurniawan/moody-lion-47 */\n.button {\n  position: relative;\n  cursor: pointer;\n  padding: 6px 6px;\n  position: relative;\n  background: linear-gradient(\n    75deg,\n    rgba(192, 97, 237, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(255, 255, 255, 0.4),\n    rgba(252, 144, 98, 0.8),\n    rgba(252, 144, 98, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(228, 89, 199, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(228, 89, 199, 0.8)\n  );\n  border: 1.5px solid transparent;\n  border-radius: 12px;\n  inset: 0;\n}\n\n.button .light-border {\n  padding: 8px 24px;\n  border: 0.1px solid rgba(255, 255, 255, 0.4);\n  border-radius: 8px;\n  pointer-events: none;\n  transition: all 0.3s ease-in-out;\n  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);\n}\n\n.button:hover {\n  filter: contrast(1.2) brightness(1.2);\n  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);\n  transition: all 0.3s ease-in-out;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Lion 47</title>\n<style>\n/* Moody Lion 47 by Deri-Kurniawan — https://uiverse.io/Deri-Kurniawan/moody-lion-47 */\n.button {\n  position: relative;\n  cursor: pointer;\n  padding: 6px 6px;\n  position: relative;\n  background: linear-gradient(\n    75deg,\n    rgba(192, 97, 237, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(255, 255, 255, 0.4),\n    rgba(252, 144, 98, 0.8),\n    rgba(252, 144, 98, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(228, 89, 199, 0.8),\n    rgba(255, 255, 255, 0.4),\n    rgba(228, 89, 199, 0.8)\n  );\n  border: 1.5px solid transparent;\n  border-radius: 12px;\n  inset: 0;\n}\n\n.button .light-border {\n  padding: 8px 24px;\n  border: 0.1px solid rgba(255, 255, 255, 0.4);\n  border-radius: 8px;\n  pointer-events: none;\n  transition: all 0.3s ease-in-out;\n  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);\n}\n\n.button:hover {\n  filter: contrast(1.2) brightness(1.2);\n  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);\n  transition: all 0.3s ease-in-out;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <div class=\"light-border\">Colorful Shiny</div>\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,24 @@
  "author": "Remon125",
  "source": "https://uiverse.io/Remon125/perfect-shrimp-95",
  "trigger": "hover",
- "description": "A button with smooth-button styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined indigo button that expands on hover with a smooth transition.",
+ "howItWorks": "On hover, width becomes 50%, left becomes 0, right becomes 0.",
  "tags": [
+  "indigo",
+  "outlined",
+  "flat",
+  "expand",
   "button",
-  "smooth-button",
-  "hover"
+  "smooth-button"
  ],
- "html": "<button class=\"button\">\n  Button\n</button>",
- "css": "/* From Uiverse.io by Remon125 - Tags: button, smooth button */\nbutton {\n  padding: 15px 60px;\n  background: transparent;\n  border: 2px solid #6528F7;\n  font-size: 15px;\n  font-weight: bold;\n  color: #ffffff;\n  border-radius: 6px;\n  cursor: pointer;\n  position: relative;\n  display: flex;\n  overflow: hidden;\n  transition: all 0.5s;\n  text-transform: uppercase;\n}\n\nbutton span {\n  transition: all 0.5s;\n  z-index: -1;\n}\n\nbutton::after,\nbutton::before {\n  content: \"\";\n  position: absolute;\n  width: 0;\n  height: 100%;\n  background: #6528F7;\n  top: 0;\n  transform: skewX(35deg);\n  transition: all 0.5s;\n  z-index: -1;\n}\n\nbutton::after {\n  left: -20px;\n}\n\nbutton::before {\n  right: -20px;\n}\n\nbutton:hover::after {\n  width: 50%;\n  left: 0;\n}\n\nbutton:hover::before {\n  width: 50%;\n  right: 0;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Perfect Shrimp 95</title>\n<style>\n/* From Uiverse.io by Remon125 - https://uiverse.io/Remon125/perfect-shrimp-95 */\n/* From Uiverse.io by Remon125 - Tags: button, smooth button */\nbutton {\n  padding: 15px 60px;\n  background: transparent;\n  border: 2px solid #6528F7;\n  font-size: 15px;\n  font-weight: bold;\n  color: #ffffff;\n  border-radius: 6px;\n  cursor: pointer;\n  position: relative;\n  display: flex;\n  overflow: hidden;\n  transition: all 0.5s;\n  text-transform: uppercase;\n}\n\nbutton span {\n  transition: all 0.5s;\n  z-index: -1;\n}\n\nbutton::after,\nbutton::before {\n  content: \"\";\n  position: absolute;\n  width: 0;\n  height: 100%;\n  background: #6528F7;\n  top: 0;\n  transform: skewX(35deg);\n  transition: all 0.5s;\n  z-index: -1;\n}\n\nbutton::after {\n  left: -20px;\n}\n\nbutton::before {\n  right: -20px;\n}\n\nbutton:hover::after {\n  width: 50%;\n  left: 0;\n}\n\nbutton:hover::before {\n  width: 50%;\n  right: 0;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#6528f7",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 268,
+ "size": 1072,
+ "html": "<button class=\"button\">\n  Button\n</button>\n",
+ "css": "/* Perfect Shrimp 95 by Remon125 — https://uiverse.io/Remon125/perfect-shrimp-95 */\nbutton {\n  padding: 15px 60px;\n  background: transparent;\n  border: 2px solid #6528F7;\n  font-size: 15px;\n  font-weight: bold;\n  color: #ffffff;\n  border-radius: 6px;\n  cursor: pointer;\n  position: relative;\n  display: flex;\n  overflow: hidden;\n  transition: all 0.5s;\n  text-transform: uppercase;\n}\n\nbutton span {\n  transition: all 0.5s;\n  z-index: -1;\n}\n\nbutton::after,\nbutton::before {\n  content: \"\";\n  position: absolute;\n  width: 0;\n  height: 100%;\n  background: #6528F7;\n  top: 0;\n  transform: skewX(35deg);\n  transition: all 0.5s;\n  z-index: -1;\n}\n\nbutton::after {\n  left: -20px;\n}\n\nbutton::before {\n  right: -20px;\n}\n\nbutton:hover::after {\n  width: 50%;\n  left: 0;\n}\n\nbutton:hover::before {\n  width: 50%;\n  right: 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Perfect Shrimp 95</title>\n<style>\n/* Perfect Shrimp 95 by Remon125 — https://uiverse.io/Remon125/perfect-shrimp-95 */\nbutton {\n  padding: 15px 60px;\n  background: transparent;\n  border: 2px solid #6528F7;\n  font-size: 15px;\n  font-weight: bold;\n  color: #ffffff;\n  border-radius: 6px;\n  cursor: pointer;\n  position: relative;\n  display: flex;\n  overflow: hidden;\n  transition: all 0.5s;\n  text-transform: uppercase;\n}\n\nbutton span {\n  transition: all 0.5s;\n  z-index: -1;\n}\n\nbutton::after,\nbutton::before {\n  content: \"\";\n  position: absolute;\n  width: 0;\n  height: 100%;\n  background: #6528F7;\n  top: 0;\n  transform: skewX(35deg);\n  transition: all 0.5s;\n  z-index: -1;\n}\n\nbutton::after {\n  left: -20px;\n}\n\nbutton::before {\n  right: -20px;\n}\n\nbutton:hover::after {\n  width: 50%;\n  left: 0;\n}\n\nbutton:hover::before {\n  width: 50%;\n  right: 0;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

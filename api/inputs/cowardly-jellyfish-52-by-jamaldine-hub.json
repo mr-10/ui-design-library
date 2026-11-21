@@ -5,17 +5,25 @@
  "author": "jamaldine-hub",
  "source": "https://uiverse.io/jamaldine-hub/cowardly-jellyfish-52",
  "trigger": "focus",
- "description": "A input with animation, active and dark styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Teal text input that lights up when focused.",
+ "howItWorks": "On focus, text color changes from #00a7a1 to #0aa49f, transform becomes translateX(10px) translateY(-7px), font-size becomes 0.9em.",
  "tags": [
+  "teal",
+  "flat",
+  "text-input",
   "animation",
-  "active",
   "input",
-  "dark",
-  "light",
-  "modern"
+  "dark"
  ],
- "html": "<div class=\"container\">\n  <input required=\"required\" class=\"inp\" />\n  <span class=\"content\">Content</span>\n</div>",
- "css": "/* From Uiverse.io by jamaldine-hub  - Tags: animation, active, input, dark, light, modern */\n.container {\n  position: relative;\n  width: 250px;\n}\n.container .inp {\n  width: 100%;\n  padding: 10px;\n  border: 1.5px solid rgba(0, 167, 161, 0.272);\n  outline: none;\n  margin-top: 20px;\n  border-radius: 5px;\n  color: rgba(0, 167, 181, 0.62);\n  background: rgba(41, 41, 41);\n  font-size: 1em;\n}\n.container .content {\n  position: absolute;\n  left: 0;\n  margin-top: 20px;\n  padding: 10px;\n  text-transform: uppercase;\n  font-size: 1em;\n  pointer-events: none;\n  color: rgba(0, 167, 161, 0.272);\n  transition: 0.5s;\n}\n.container input:valid ~ span,\n.container input:focus ~ span {\n  color: rgb(10, 164, 159);\n  transform: translateX(10px) translateY(-7px);\n  font-size: 0.9em;\n  padding: 0 10px;\n  background: rgb(41, 41, 41);\n  border-left: 2px solid rgba(0, 167, 161, 0.272);\n  border-right: 2px solid rgba(0, 167, 161, 0.272);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Jellyfish 52</title>\n<style>\n/* From Uiverse.io by jamaldine-hub - https://uiverse.io/jamaldine-hub/cowardly-jellyfish-52 */\n/* From Uiverse.io by jamaldine-hub  - Tags: animation, active, input, dark, light, modern */\n.container {\n  position: relative;\n  width: 250px;\n}\n.container .inp {\n  width: 100%;\n  padding: 10px;\n  border: 1.5px solid rgba(0, 167, 161, 0.272);\n  outline: none;\n  margin-top: 20px;\n  border-radius: 5px;\n  color: rgba(0, 167, 181, 0.62);\n  background: rgba(41, 41, 41);\n  font-size: 1em;\n}\n.container .content {\n  position: absolute;\n  left: 0;\n  margin-top: 20px;\n  padding: 10px;\n  text-transform: uppercase;\n  font-size: 1em;\n  pointer-events: none;\n  color: rgba(0, 167, 161, 0.272);\n  transition: 0.5s;\n}\n.container input:valid ~ span,\n.container input:focus ~ span {\n  color: rgb(10, 164, 159);\n  transform: translateX(10px) translateY(-7px);\n  font-size: 0.9em;\n  padding: 0 10px;\n  background: rgb(41, 41, 41);\n  border-left: 2px solid rgba(0, 167, 161, 0.272);\n  border-right: 2px solid rgba(0, 167, 161, 0.272);\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <input required=\"required\" class=\"inp\" />\n  <span class=\"content\">Content</span>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#00a7a1",
+  "#292929",
+  "#00a7b5"
+ ],
+ "fonts": [],
+ "tokens": 316,
+ "size": 1268,
+ "html": "<div class=\"container\">\n  <input required=\"required\" class=\"inp\" />\n  <span class=\"content\">Content</span>\n</div>\n",
+ "css": "/* Cowardly Jellyfish 52 by jamaldine-hub — https://uiverse.io/jamaldine-hub/cowardly-jellyfish-52 */\n.container {\n  position: relative;\n  width: 250px;\n}\n.container .inp {\n  width: 100%;\n  padding: 10px;\n  border: 1.5px solid rgba(0, 167, 161, 0.272);\n  outline: none;\n  margin-top: 20px;\n  border-radius: 5px;\n  color: rgba(0, 167, 181, 0.62);\n  background: rgba(41, 41, 41);\n  font-size: 1em;\n}\n.container .content {\n  position: absolute;\n  left: 0;\n  margin-top: 20px;\n  padding: 10px;\n  text-transform: uppercase;\n  font-size: 1em;\n  pointer-events: none;\n  color: rgba(0, 167, 161, 0.272);\n  transition: 0.5s;\n}\n.container input:valid ~ span,\n.container input:focus ~ span {\n  color: rgb(10, 164, 159);\n  transform: translateX(10px) translateY(-7px);\n  font-size: 0.9em;\n  padding: 0 10px;\n  background: rgb(41, 41, 41);\n  border-left: 2px solid rgba(0, 167, 161, 0.272);\n  border-right: 2px solid rgba(0, 167, 161, 0.272);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Jellyfish 52</title>\n<style>\n/* Cowardly Jellyfish 52 by jamaldine-hub — https://uiverse.io/jamaldine-hub/cowardly-jellyfish-52 */\n.container {\n  position: relative;\n  width: 250px;\n}\n.container .inp {\n  width: 100%;\n  padding: 10px;\n  border: 1.5px solid rgba(0, 167, 161, 0.272);\n  outline: none;\n  margin-top: 20px;\n  border-radius: 5px;\n  color: rgba(0, 167, 181, 0.62);\n  background: rgba(41, 41, 41);\n  font-size: 1em;\n}\n.container .content {\n  position: absolute;\n  left: 0;\n  margin-top: 20px;\n  padding: 10px;\n  text-transform: uppercase;\n  font-size: 1em;\n  pointer-events: none;\n  color: rgba(0, 167, 161, 0.272);\n  transition: 0.5s;\n}\n.container input:valid ~ span,\n.container input:focus ~ span {\n  color: rgb(10, 164, 159);\n  transform: translateX(10px) translateY(-7px);\n  font-size: 0.9em;\n  padding: 0 10px;\n  background: rgb(41, 41, 41);\n  border-left: 2px solid rgba(0, 167, 161, 0.272);\n  border-right: 2px solid rgba(0, 167, 161, 0.272);\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <input required=\"required\" class=\"inp\" />\n  <span class=\"content\">Content</span>\n</div>\n\n</body>\n</html>\n"
 }

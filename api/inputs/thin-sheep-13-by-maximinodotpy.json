@@ -5,14 +5,27 @@
  "author": "Maximinodotpy",
  "source": "https://uiverse.io/Maximinodotpy/thin-sheep-13",
  "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Outlined rounded gray text input that lights up when focused.",
+ "howItWorks": "On focus, transform becomes translateY(-50%) scale(.9), margin becomes 0em, padding becomes 0.4em.",
  "tags": [
+  "outlined",
+  "rounded",
+  "flat",
+  "text-input",
   "input",
-  "focus",
-  "css"
+  "focus"
  ],
- "html": "<div class=\"inputGroup\">\n    <input type=\"text\" required=\"\" autocomplete=\"off\">\n    <label for=\"name\">Name</label>\n</div>",
- "css": "/* From Uiverse.io by Maximinodotpy - Tags: input */\n.inputGroup {\n  font-family: 'Segoe UI', sans-serif;\n  margin: 1em 0 1em 0;\n  max-width: 190px;\n  position: relative;\n}\n\n.inputGroup input {\n  font-size: 100%;\n  padding: 0.8em;\n  outline: none;\n  border: 2px solid rgb(200, 200, 200);\n  background-color: transparent;\n  border-radius: 20px;\n  width: 100%;\n}\n\n.inputGroup label {\n  font-size: 100%;\n  position: absolute;\n  left: 0;\n  padding: 0.8em;\n  margin-left: 0.5em;\n  pointer-events: none;\n  transition: all 0.3s ease;\n  color: rgb(100, 100, 100);\n}\n\n.inputGroup :is(input:focus, input:valid)~label {\n  transform: translateY(-50%) scale(.9);\n  margin: 0em;\n  margin-left: 1.3em;\n  padding: 0.4em;\n  background-color: #e8e8e8;\n}\n\n.inputGroup :is(input:focus, input:valid) {\n  border-color: rgb(150, 150, 200);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Thin Sheep 13</title>\n<style>\n/* From Uiverse.io by Maximinodotpy - https://uiverse.io/Maximinodotpy/thin-sheep-13 */\n/* From Uiverse.io by Maximinodotpy - Tags: input */\n.inputGroup {\n  font-family: 'Segoe UI', sans-serif;\n  margin: 1em 0 1em 0;\n  max-width: 190px;\n  position: relative;\n}\n\n.inputGroup input {\n  font-size: 100%;\n  padding: 0.8em;\n  outline: none;\n  border: 2px solid rgb(200, 200, 200);\n  background-color: transparent;\n  border-radius: 20px;\n  width: 100%;\n}\n\n.inputGroup label {\n  font-size: 100%;\n  position: absolute;\n  left: 0;\n  padding: 0.8em;\n  margin-left: 0.5em;\n  pointer-events: none;\n  transition: all 0.3s ease;\n  color: rgb(100, 100, 100);\n}\n\n.inputGroup :is(input:focus, input:valid)~label {\n  transform: translateY(-50%) scale(.9);\n  margin: 0em;\n  margin-left: 1.3em;\n  padding: 0.4em;\n  background-color: #e8e8e8;\n}\n\n.inputGroup :is(input:focus, input:valid) {\n  border-color: rgb(150, 150, 200);\n}\n</style>\n</head>\n<body>\n<div class=\"inputGroup\">\n    <input type=\"text\" required=\"\" autocomplete=\"off\">\n    <label for=\"name\">Name</label>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#c8c8c8",
+  "#646464",
+  "#e8e8e8"
+ ],
+ "fonts": [
+  "Segoe UI"
+ ],
+ "tokens": 296,
+ "size": 1188,
+ "html": "<div class=\"inputGroup\">\n    <input type=\"text\" required=\"\" autocomplete=\"off\">\n    <label for=\"name\">Name</label>\n</div>\n",
+ "css": "/* Thin Sheep 13 by Maximinodotpy — https://uiverse.io/Maximinodotpy/thin-sheep-13 */\n.inputGroup {\n  font-family: 'Segoe UI', sans-serif;\n  margin: 1em 0 1em 0;\n  max-width: 190px;\n  position: relative;\n}\n\n.inputGroup input {\n  font-size: 100%;\n  padding: 0.8em;\n  outline: none;\n  border: 2px solid rgb(200, 200, 200);\n  background-color: transparent;\n  border-radius: 20px;\n  width: 100%;\n}\n\n.inputGroup label {\n  font-size: 100%;\n  position: absolute;\n  left: 0;\n  padding: 0.8em;\n  margin-left: 0.5em;\n  pointer-events: none;\n  transition: all 0.3s ease;\n  color: rgb(100, 100, 100);\n}\n\n.inputGroup :is(input:focus, input:valid)~label {\n  transform: translateY(-50%) scale(.9);\n  margin: 0em;\n  margin-left: 1.3em;\n  padding: 0.4em;\n  background-color: #e8e8e8;\n}\n\n.inputGroup :is(input:focus, input:valid) {\n  border-color: rgb(150, 150, 200);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Thin Sheep 13</title>\n<style>\n/* Thin Sheep 13 by Maximinodotpy — https://uiverse.io/Maximinodotpy/thin-sheep-13 */\n.inputGroup {\n  font-family: 'Segoe UI', sans-serif;\n  margin: 1em 0 1em 0;\n  max-width: 190px;\n  position: relative;\n}\n\n.inputGroup input {\n  font-size: 100%;\n  padding: 0.8em;\n  outline: none;\n  border: 2px solid rgb(200, 200, 200);\n  background-color: transparent;\n  border-radius: 20px;\n  width: 100%;\n}\n\n.inputGroup label {\n  font-size: 100%;\n  position: absolute;\n  left: 0;\n  padding: 0.8em;\n  margin-left: 0.5em;\n  pointer-events: none;\n  transition: all 0.3s ease;\n  color: rgb(100, 100, 100);\n}\n\n.inputGroup :is(input:focus, input:valid)~label {\n  transform: translateY(-50%) scale(.9);\n  margin: 0em;\n  margin-left: 1.3em;\n  padding: 0.4em;\n  background-color: #e8e8e8;\n}\n\n.inputGroup :is(input:focus, input:valid) {\n  border-color: rgb(150, 150, 200);\n}\n</style>\n</head>\n<body>\n<div class=\"inputGroup\">\n    <input type=\"text\" required=\"\" autocomplete=\"off\">\n    <label for=\"name\">Name</label>\n</div>\n\n</body>\n</html>\n"
 }

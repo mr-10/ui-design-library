@@ -5,16 +5,25 @@
  "author": "gharsh11032000",
  "source": "https://uiverse.io/gharsh11032000/cuddly-turkey-5",
  "trigger": "hover",
- "description": "A button with gradient, dark and hover-effect styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient dark rounded purple button that rotates on hover.",
+ "howItWorks": "On hover, filter becomes blur(30px), transform becomes rotate(-180deg).",
  "tags": [
+  "purple",
+  "cyan",
   "gradient",
-  "button",
   "dark",
-  "hover-effect",
-  "hover"
+  "rounded",
+  "flat"
  ],
- "html": "<button class=\"button\">\n  Button\n</button>",
- "css": "/* From Uiverse.io by gharsh11032000 - Tags: gradient, button, dark, hover effect */\n.button {\n  position: relative;\n  width: 120px;\n  height: 40px;\n  background-color: #000;\n  display: flex;\n  align-items: center;\n  color: white;\n  flex-direction: column;\n  justify-content: center;\n  border: none;\n  padding: 12px;\n  gap: 12px;\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n.button::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  left: -4px;\n  top: -1px;\n  margin: auto;\n  width: 128px;\n  height: 48px;\n  border-radius: 10px;\n  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );\n  z-index: -10;\n  pointer-events: none;\n  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.button::after {\n  content: \"\";\n  z-index: -1;\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );\n  transform: translate3d(0, 0, 0) scale(0.95);\n  filter: blur(20px);\n}\n\n.button:hover::after {\n  filter: blur(30px);\n}\n\n.button:hover::before {\n  transform: rotate(-180deg);\n}\n\n.button:active::before {\n  scale: 0.7;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Turkey 5</title>\n<style>\n/* From Uiverse.io by gharsh11032000 - https://uiverse.io/gharsh11032000/cuddly-turkey-5 */\n/* From Uiverse.io by gharsh11032000 - Tags: gradient, button, dark, hover effect */\n.button {\n  position: relative;\n  width: 120px;\n  height: 40px;\n  background-color: #000;\n  display: flex;\n  align-items: center;\n  color: white;\n  flex-direction: column;\n  justify-content: center;\n  border: none;\n  padding: 12px;\n  gap: 12px;\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n.button::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  left: -4px;\n  top: -1px;\n  margin: auto;\n  width: 128px;\n  height: 48px;\n  border-radius: 10px;\n  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );\n  z-index: -10;\n  pointer-events: none;\n  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.button::after {\n  content: \"\";\n  z-index: -1;\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );\n  transform: translate3d(0, 0, 0) scale(0.95);\n  filter: blur(20px);\n}\n\n.button:hover::after {\n  filter: blur(30px);\n}\n\n.button:hover::before {\n  transform: rotate(-180deg);\n}\n\n.button:active::before {\n  scale: 0.7;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#e81cff",
+  "#40c9ff",
+  "#fc00ff"
+ ],
+ "fonts": [],
+ "tokens": 335,
+ "size": 1343,
+ "html": "<button class=\"button\">\n  Button\n</button>\n",
+ "css": "/* Cuddly Turkey 5 by gharsh11032000 — https://uiverse.io/gharsh11032000/cuddly-turkey-5 */\n.button {\n  position: relative;\n  width: 120px;\n  height: 40px;\n  background-color: #000;\n  display: flex;\n  align-items: center;\n  color: white;\n  flex-direction: column;\n  justify-content: center;\n  border: none;\n  padding: 12px;\n  gap: 12px;\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n.button::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  left: -4px;\n  top: -1px;\n  margin: auto;\n  width: 128px;\n  height: 48px;\n  border-radius: 10px;\n  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );\n  z-index: -10;\n  pointer-events: none;\n  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.button::after {\n  content: \"\";\n  z-index: -1;\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );\n  transform: translate3d(0, 0, 0) scale(0.95);\n  filter: blur(20px);\n}\n\n.button:hover::after {\n  filter: blur(30px);\n}\n\n.button:hover::before {\n  transform: rotate(-180deg);\n}\n\n.button:active::before {\n  scale: 0.7;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Turkey 5</title>\n<style>\n/* Cuddly Turkey 5 by gharsh11032000 — https://uiverse.io/gharsh11032000/cuddly-turkey-5 */\n.button {\n  position: relative;\n  width: 120px;\n  height: 40px;\n  background-color: #000;\n  display: flex;\n  align-items: center;\n  color: white;\n  flex-direction: column;\n  justify-content: center;\n  border: none;\n  padding: 12px;\n  gap: 12px;\n  border-radius: 8px;\n  cursor: pointer;\n}\n\n.button::before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  left: -4px;\n  top: -1px;\n  margin: auto;\n  width: 128px;\n  height: 48px;\n  border-radius: 10px;\n  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100% );\n  z-index: -10;\n  pointer-events: none;\n  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.button::after {\n  content: \"\";\n  z-index: -1;\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );\n  transform: translate3d(0, 0, 0) scale(0.95);\n  filter: blur(20px);\n}\n\n.button:hover::after {\n  filter: blur(30px);\n}\n\n.button:hover::before {\n  transform: rotate(-180deg);\n}\n\n.button:active::before {\n  scale: 0.7;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

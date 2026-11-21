@@ -5,14 +5,24 @@
  "author": "seyed-mohsen-mousavi",
  "source": "https://uiverse.io/seyed-mohsen-mousavi/blue-impala-67",
  "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Rounded gray search input that lights up when focused.",
+ "howItWorks": "On focus, border changes.",
  "tags": [
+  "rounded",
+  "color-change",
+  "search-input",
   "inputs",
   "focus",
   "css"
  ],
- "html": "<!-- From Uiverse.io by seyed-mohsen-mousavi  - Tags: simple, input, search -->\n<div class=\"relative\">\n  <input\n    placeholder=\"Search...\"\n    class=\"input shadow-lg focus:border-2 border-gray-300 px-5 py-3 rounded-xl w-56 transition-all focus:w-64 outline-none\"\n    name=\"search\"\n    type=\"search\"\n  />\n  <svg\n    class=\"size-6 absolute top-3 right-3 text-gray-500\"\n    stroke=\"currentColor\"\n    stroke-width=\"1.5\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n    ></path>\n  </svg>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Blue Impala 67</title>\n<style>\n/* From Uiverse.io by seyed-mohsen-mousavi - https://uiverse.io/seyed-mohsen-mousavi/blue-impala-67 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by seyed-mohsen-mousavi  - Tags: simple, input, search -->\n<div class=\"relative\">\n  <input\n    placeholder=\"Search...\"\n    class=\"input shadow-lg focus:border-2 border-gray-300 px-5 py-3 rounded-xl w-56 transition-all focus:w-64 outline-none\"\n    name=\"search\"\n    type=\"search\"\n  />\n  <svg\n    class=\"size-6 absolute top-3 right-3 text-gray-500\"\n    stroke=\"currentColor\"\n    stroke-width=\"1.5\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n    ></path>\n  </svg>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#d1d5db",
+  "#6b7280"
+ ],
+ "fonts": [],
+ "tokens": 230,
+ "size": 924,
+ "html": "<div class=\"relative\">\n  <input\n    placeholder=\"Search...\"\n    class=\"input shadow-lg focus:border-2 border-gray-300 px-5 py-3 rounded-xl w-56 transition-all focus:w-64 outline-none\"\n    name=\"search\"\n    type=\"search\"\n  />\n  <svg\n    class=\"size-6 absolute top-3 right-3 text-gray-500\"\n    stroke=\"currentColor\"\n    stroke-width=\"1.5\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n    ></path>\n  </svg>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Blue Impala 67</title>\n<style>\n/* Blue Impala 67 by seyed-mohsen-mousavi — https://uiverse.io/seyed-mohsen-mousavi/blue-impala-67 */\n\n</style>\n</head>\n<body>\n<div class=\"relative\">\n  <input\n    placeholder=\"Search...\"\n    class=\"input shadow-lg focus:border-2 border-gray-300 px-5 py-3 rounded-xl w-56 transition-all focus:w-64 outline-none\"\n    name=\"search\"\n    type=\"search\"\n  />\n  <svg\n    class=\"size-6 absolute top-3 right-3 text-gray-500\"\n    stroke=\"currentColor\"\n    stroke-width=\"1.5\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n    ></path>\n  </svg>\n</div>\n\n</body>\n</html>\n"
 }

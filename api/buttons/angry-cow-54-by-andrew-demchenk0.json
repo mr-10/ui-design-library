@@ -5,17 +5,26 @@
  "author": "andrew-demchenk0",
  "source": "https://uiverse.io/andrew-demchenk0/angry-cow-54",
  "trigger": "hover",
- "description": "A button with icon, animation and red styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded red button that starts animating on hover.",
+ "howItWorks": "On hover, background changes from #ff284818 to #ff284839, starts the pulse animation (pulsing).",
  "tags": [
-  "icon",
-  "animation",
   "red",
-  "button",
-  "opacity",
-  "pause"
+  "rounded",
+  "flat",
+  "color-change",
+  "animated",
+  "pulse"
  ],
- "html": "<button class=\"button\">\n  <svg class=\"svg-icon\" fill=\"none\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"#ff2849\" stroke-linecap=\"round\" stroke-width=\"2\"><rect height=\"14\" rx=\"1.5\" width=\"3\" x=\"15\" y=\"5\"></rect><rect height=\"14\" rx=\"1.5\" width=\"3\" x=\"6\" y=\"5\"></rect></g></svg>\n  <span class=\"label\">Pause</span>\n</button>",
- "css": "/* From Uiverse.io by andrew-demchenk0 - Tags: icon, animation, red, button, opacity, pause, big */\n.button {\n  width: 122px;\n  height: 60px;\n  padding: 18px 22px 18px 20px;\n  gap: 1px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: #ff284818;\n  border-radius: 16px;\n  border: none;\n  cursor: pointer;\n}\n\n.label {\n  font-family: sans-serif;\n  height: 23px;\n  font-size: 19px;\n  line-height: 24px;\n  color: #FF2849;\n}\n\n.button:hover {\n  background: #ff284839;\n}\n\n.button:hover .svg-icon {\n  animation: pulse 0.7s linear infinite;\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.13);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Angry Cow 54</title>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - https://uiverse.io/andrew-demchenk0/angry-cow-54 */\n/* From Uiverse.io by andrew-demchenk0 - Tags: icon, animation, red, button, opacity, pause, big */\n.button {\n  width: 122px;\n  height: 60px;\n  padding: 18px 22px 18px 20px;\n  gap: 1px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: #ff284818;\n  border-radius: 16px;\n  border: none;\n  cursor: pointer;\n}\n\n.label {\n  font-family: sans-serif;\n  height: 23px;\n  font-size: 19px;\n  line-height: 24px;\n  color: #FF2849;\n}\n\n.button:hover {\n  background: #ff284839;\n}\n\n.button:hover .svg-icon {\n  animation: pulse 0.7s linear infinite;\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.13);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <svg class=\"svg-icon\" fill=\"none\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"#ff2849\" stroke-linecap=\"round\" stroke-width=\"2\"><rect height=\"14\" rx=\"1.5\" width=\"3\" x=\"15\" y=\"5\"></rect><rect height=\"14\" rx=\"1.5\" width=\"3\" x=\"6\" y=\"5\"></rect></g></svg>\n  <span class=\"label\">Pause</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ff2848",
+  "#ffffff"
+ ],
+ "fonts": [
+  "sans-serif"
+ ],
+ "tokens": 318,
+ "size": 1273,
+ "html": "<button class=\"button\">\n  <svg class=\"svg-icon\" fill=\"none\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"#ff2849\" stroke-linecap=\"round\" stroke-width=\"2\"><rect height=\"14\" rx=\"1.5\" width=\"3\" x=\"15\" y=\"5\"></rect><rect height=\"14\" rx=\"1.5\" width=\"3\" x=\"6\" y=\"5\"></rect></g></svg>\n  <span class=\"label\">Pause</span>\n</button>\n",
+ "css": "/* Angry Cow 54 by andrew-demchenk0 — https://uiverse.io/andrew-demchenk0/angry-cow-54 */\n.button {\n  width: 122px;\n  height: 60px;\n  padding: 18px 22px 18px 20px;\n  gap: 1px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: #ff284818;\n  border-radius: 16px;\n  border: none;\n  cursor: pointer;\n}\n\n.label {\n  font-family: sans-serif;\n  height: 23px;\n  font-size: 19px;\n  line-height: 24px;\n  color: #FF2849;\n}\n\n.button:hover {\n  background: #ff284839;\n}\n\n.button:hover .svg-icon {\n  animation: pulse 0.7s linear infinite;\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.13);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Angry Cow 54</title>\n<style>\n/* Angry Cow 54 by andrew-demchenk0 — https://uiverse.io/andrew-demchenk0/angry-cow-54 */\n.button {\n  width: 122px;\n  height: 60px;\n  padding: 18px 22px 18px 20px;\n  gap: 1px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: #ff284818;\n  border-radius: 16px;\n  border: none;\n  cursor: pointer;\n}\n\n.label {\n  font-family: sans-serif;\n  height: 23px;\n  font-size: 19px;\n  line-height: 24px;\n  color: #FF2849;\n}\n\n.button:hover {\n  background: #ff284839;\n}\n\n.button:hover .svg-icon {\n  animation: pulse 0.7s linear infinite;\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.13);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <svg class=\"svg-icon\" fill=\"none\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"#ff2849\" stroke-linecap=\"round\" stroke-width=\"2\"><rect height=\"14\" rx=\"1.5\" width=\"3\" x=\"15\" y=\"5\"></rect><rect height=\"14\" rx=\"1.5\" width=\"3\" x=\"6\" y=\"5\"></rect></g></svg>\n  <span class=\"label\">Pause</span>\n</button>\n\n</body>\n</html>\n"
 }

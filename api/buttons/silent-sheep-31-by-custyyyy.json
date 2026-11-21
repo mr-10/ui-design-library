@@ -5,14 +5,26 @@
  "author": "Custyyyy",
  "source": "https://uiverse.io/Custyyyy/silent-sheep-31",
  "trigger": "hover",
- "description": "A button with download styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Sky-blue download button that fades on hover with a smooth transition.",
+ "howItWorks": "On hover, opacity becomes 4, right becomes 0.",
  "tags": [
-  "button",
+  "blue",
+  "fade",
   "download",
+  "download-button",
+  "button",
   "hover"
  ],
- "html": "<button class=\"button\" style=\"vertical-align:middle\"><span>Download</span></button>",
- "css": "/* From Uiverse.io by Custyyyy - Tags: button, download */\n.button {\n display: inline-block;\n border-radius: 7px;\n border: none;\n background: #1875FF;\n color: white;\n font-family: inherit;\n text-align: center;\n font-size: 13px;\n box-shadow: 0px 14px 56px -11px #1875FF;\n width: 10em;\n padding: 1em;\n transition: all 0.4s;\n cursor: pointer;\n}\n\n.button span {\n cursor: pointer;\n display: inline-block;\n position: relative;\n transition: 0.4s;\n}\n\n.button span:after {\n content: 'for free';\n position: absolute;\n opacity: 0;\n top: 0;\n right: -20px;\n transition: 0.7s;\n}\n\n.button:hover span {\n padding-right: 3.55em;\n}\n\n.button:hover span:after {\n opacity: 4;\n right: 0;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Sheep 31</title>\n<style>\n/* From Uiverse.io by Custyyyy - https://uiverse.io/Custyyyy/silent-sheep-31 */\n/* From Uiverse.io by Custyyyy - Tags: button, download */\n.button {\n display: inline-block;\n border-radius: 7px;\n border: none;\n background: #1875FF;\n color: white;\n font-family: inherit;\n text-align: center;\n font-size: 13px;\n box-shadow: 0px 14px 56px -11px #1875FF;\n width: 10em;\n padding: 1em;\n transition: all 0.4s;\n cursor: pointer;\n}\n\n.button span {\n cursor: pointer;\n display: inline-block;\n position: relative;\n transition: 0.4s;\n}\n\n.button span:after {\n content: 'for free';\n position: absolute;\n opacity: 0;\n top: 0;\n right: -20px;\n transition: 0.7s;\n}\n\n.button:hover span {\n padding-right: 3.55em;\n}\n\n.button:hover span:after {\n opacity: 4;\n right: 0;\n}\n</style>\n</head>\n<body>\n<button class=\"button\" style=\"vertical-align:middle\"><span>Download</span></button>\n</body>\n</html>\n"
+ "colors": [
+  "#1875ff",
+  "#ffffff"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 246,
+ "size": 988,
+ "html": "<button class=\"button\" style=\"vertical-align:middle\"><span>Download</span></button>\n",
+ "css": "/* Silent Sheep 31 by Custyyyy — https://uiverse.io/Custyyyy/silent-sheep-31 */\n.button {\n display: inline-block;\n border-radius: 7px;\n border: none;\n background: #1875FF;\n color: white;\n font-family: inherit;\n text-align: center;\n font-size: 13px;\n box-shadow: 0px 14px 56px -11px #1875FF;\n width: 10em;\n padding: 1em;\n transition: all 0.4s;\n cursor: pointer;\n}\n\n.button span {\n cursor: pointer;\n display: inline-block;\n position: relative;\n transition: 0.4s;\n}\n\n.button span:after {\n content: 'for free';\n position: absolute;\n opacity: 0;\n top: 0;\n right: -20px;\n transition: 0.7s;\n}\n\n.button:hover span {\n padding-right: 3.55em;\n}\n\n.button:hover span:after {\n opacity: 4;\n right: 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Sheep 31</title>\n<style>\n/* Silent Sheep 31 by Custyyyy — https://uiverse.io/Custyyyy/silent-sheep-31 */\n.button {\n display: inline-block;\n border-radius: 7px;\n border: none;\n background: #1875FF;\n color: white;\n font-family: inherit;\n text-align: center;\n font-size: 13px;\n box-shadow: 0px 14px 56px -11px #1875FF;\n width: 10em;\n padding: 1em;\n transition: all 0.4s;\n cursor: pointer;\n}\n\n.button span {\n cursor: pointer;\n display: inline-block;\n position: relative;\n transition: 0.4s;\n}\n\n.button span:after {\n content: 'for free';\n position: absolute;\n opacity: 0;\n top: 0;\n right: -20px;\n transition: 0.7s;\n}\n\n.button:hover span {\n padding-right: 3.55em;\n}\n\n.button:hover span:after {\n opacity: 4;\n right: 0;\n}\n</style>\n</head>\n<body>\n<button class=\"button\" style=\"vertical-align:middle\"><span>Download</span></button>\n\n</body>\n</html>\n"
 }

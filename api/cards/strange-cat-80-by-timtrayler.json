@@ -5,14 +5,24 @@
  "author": "TimTrayler",
  "source": "https://uiverse.io/TimTrayler/strange-cat-80",
  "trigger": "hover",
- "description": "A card UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark gray card that scales up on hover.",
+ "howItWorks": "On hover, transform becomes scale(1.05).",
  "tags": [
+  "dark",
+  "scale",
   "card",
   "hover",
   "css"
  ],
- "html": "<div class=\"card\"></div>",
- "css": "/* From Uiverse.io by TimTrayler - Tags: card */\n.card {\n width: 200px;\n height: 260px;\n background-color: #212121;\n box-shadow: 15px 15px 30px #191919,\n              -15px -15px 30px #292929;\n transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,\n              transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;\n}\n\n.card:hover {\n border-bottom-right-radius: 50px;\n border-top-left-radius: 50px;\n transform: scale(1.05);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strange Cat 80</title>\n<style>\n/* From Uiverse.io by TimTrayler - https://uiverse.io/TimTrayler/strange-cat-80 */\n/* From Uiverse.io by TimTrayler - Tags: card */\n.card {\n width: 200px;\n height: 260px;\n background-color: #212121;\n box-shadow: 15px 15px 30px #191919,\n              -15px -15px 30px #292929;\n transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,\n              transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;\n}\n\n.card:hover {\n border-bottom-right-radius: 50px;\n border-top-left-radius: 50px;\n transform: scale(1.05);\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#212121",
+  "#191919",
+  "#292929"
+ ],
+ "fonts": [],
+ "tokens": 176,
+ "size": 707,
+ "html": "<div class=\"card\"></div>\n",
+ "css": "/* Strange Cat 80 by TimTrayler — https://uiverse.io/TimTrayler/strange-cat-80 */\n.card {\n width: 200px;\n height: 260px;\n background-color: #212121;\n box-shadow: 15px 15px 30px #191919,\n              -15px -15px 30px #292929;\n transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,\n              transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;\n}\n\n.card:hover {\n border-bottom-right-radius: 50px;\n border-top-left-radius: 50px;\n transform: scale(1.05);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strange Cat 80</title>\n<style>\n/* Strange Cat 80 by TimTrayler — https://uiverse.io/TimTrayler/strange-cat-80 */\n.card {\n width: 200px;\n height: 260px;\n background-color: #212121;\n box-shadow: 15px 15px 30px #191919,\n              -15px -15px 30px #292929;\n transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,\n              transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;\n}\n\n.card:hover {\n border-bottom-right-radius: 50px;\n border-top-left-radius: 50px;\n transform: scale(1.05);\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n\n</body>\n</html>\n"
 }

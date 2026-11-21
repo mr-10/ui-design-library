@@ -5,14 +5,24 @@
  "author": "satyamchaudharydev",
  "source": "https://uiverse.io/satyamchaudharydev/red-cow-21",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Rounded sky-blue loader with growing and shrinking motion in a loop.",
+ "howItWorks": "It loops a 1s animation (growing and shrinking).",
  "tags": [
+  "blue",
+  "rounded",
+  "flat",
   "loader",
   "auto-loop",
   "css"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.loader {\n  display: block;\n  --height-of-loader: 4px;\n  --loader-color: #0071e2;\n  width: 130px;\n  height: var(--height-of-loader);\n  border-radius: 30px;\n  background-color: rgba(0,0,0,0.2);\n  position: relative;\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  background: var(--loader-color);\n  top: 0;\n  left: 0;\n  width: 0%;\n  height: 100%;\n  border-radius: 30px;\n  animation: moving 1s ease-in-out infinite;\n  ;\n}\n\n@keyframes moving {\n  50% {\n    width: 100%;\n  }\n\n  100% {\n    width: 0;\n    right: 0;\n    left: unset;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Cow 21</title>\n<style>\n/* From Uiverse.io by satyamchaudharydev - https://uiverse.io/satyamchaudharydev/red-cow-21 */\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.loader {\n  display: block;\n  --height-of-loader: 4px;\n  --loader-color: #0071e2;\n  width: 130px;\n  height: var(--height-of-loader);\n  border-radius: 30px;\n  background-color: rgba(0,0,0,0.2);\n  position: relative;\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  background: var(--loader-color);\n  top: 0;\n  left: 0;\n  width: 0%;\n  height: 100%;\n  border-radius: 30px;\n  animation: moving 1s ease-in-out infinite;\n  ;\n}\n\n@keyframes moving {\n  50% {\n    width: 100%;\n  }\n\n  100% {\n    width: 0;\n    right: 0;\n    left: unset;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#0071e2",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 217,
+ "size": 871,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Red Cow 21 by satyamchaudharydev — https://uiverse.io/satyamchaudharydev/red-cow-21 */\n.loader {\n  display: block;\n  --height-of-loader: 4px;\n  --loader-color: #0071e2;\n  width: 130px;\n  height: var(--height-of-loader);\n  border-radius: 30px;\n  background-color: rgba(0,0,0,0.2);\n  position: relative;\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  background: var(--loader-color);\n  top: 0;\n  left: 0;\n  width: 0%;\n  height: 100%;\n  border-radius: 30px;\n  animation: moving 1s ease-in-out infinite;\n  ;\n}\n\n@keyframes moving {\n  50% {\n    width: 100%;\n  }\n\n  100% {\n    width: 0;\n    right: 0;\n    left: unset;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Cow 21</title>\n<style>\n/* Red Cow 21 by satyamchaudharydev — https://uiverse.io/satyamchaudharydev/red-cow-21 */\n.loader {\n  display: block;\n  --height-of-loader: 4px;\n  --loader-color: #0071e2;\n  width: 130px;\n  height: var(--height-of-loader);\n  border-radius: 30px;\n  background-color: rgba(0,0,0,0.2);\n  position: relative;\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  background: var(--loader-color);\n  top: 0;\n  left: 0;\n  width: 0%;\n  height: 100%;\n  border-radius: 30px;\n  animation: moving 1s ease-in-out infinite;\n  ;\n}\n\n@keyframes moving {\n  50% {\n    width: 100%;\n  }\n\n  100% {\n    width: 0;\n    right: 0;\n    left: unset;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

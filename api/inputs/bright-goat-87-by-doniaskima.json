@@ -5,15 +5,24 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/bright-goat-87",
  "trigger": "focus",
- "description": "A input with css-input and cool-input styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Outlined sky-blue text input that lights up when focused.",
+ "howItWorks": "On focus, border-color becomes #0056b3, transform becomes translateY(-100%) translateX(-5px) scale(0.8).",
  "tags": [
+  "blue",
+  "outlined",
+  "flat",
+  "text-input",
   "input",
-  "css-input",
-  "cool-input",
-  "focus"
+  "css-input"
  ],
- "html": "<div class=\"inputContainer\">\n  <input required=\"\" class=\"customInput\" type=\"text\">\n  <label class=\"inputLabel\">Your Name</label>\n  <div class=\"inputUnderline\"></div>\n</div>",
- "css": "/* From Uiverse.io by doniaskima - Tags: input, css input, cool input */\n.inputContainer {\n  position: relative;\n  margin-bottom: 20px;\n}\n\n.customInput {\n  width: 100%;\n  padding: 12px;\n  font-size: 16px;\n  background-color: transparent;\n  border: none;\n  border-bottom: 2px solid #007bff;\n  outline: none;\n  transition: border-color 0.3s ease;\n  color: #007bff;\n}\n\n.customInput:focus,\n.customInput:not(:placeholder-shown) {\n  border-color: #0056b3;\n}\n\n.inputLabel {\n  position: absolute;\n  top: 0;\n  left: 0;\n  pointer-events: none;\n  padding: 5px;\n  font-size: 16px;\n  color: #007bff;\n  transition: transform 0.3s ease, color 0.3s ease;\n}\n\n.customInput:focus + .inputLabel,\n.customInput:not(:placeholder-shown) + .inputLabel {\n  transform: translateY(-100%) translateX(-5px) scale(0.8);\n}\n\n.inputUnderline {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  background-color: #007bff;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bright Goat 87</title>\n<style>\n/* From Uiverse.io by doniaskima - https://uiverse.io/doniaskima/bright-goat-87 */\n/* From Uiverse.io by doniaskima - Tags: input, css input, cool input */\n.inputContainer {\n  position: relative;\n  margin-bottom: 20px;\n}\n\n.customInput {\n  width: 100%;\n  padding: 12px;\n  font-size: 16px;\n  background-color: transparent;\n  border: none;\n  border-bottom: 2px solid #007bff;\n  outline: none;\n  transition: border-color 0.3s ease;\n  color: #007bff;\n}\n\n.customInput:focus,\n.customInput:not(:placeholder-shown) {\n  border-color: #0056b3;\n}\n\n.inputLabel {\n  position: absolute;\n  top: 0;\n  left: 0;\n  pointer-events: none;\n  padding: 5px;\n  font-size: 16px;\n  color: #007bff;\n  transition: transform 0.3s ease, color 0.3s ease;\n}\n\n.customInput:focus + .inputLabel,\n.customInput:not(:placeholder-shown) + .inputLabel {\n  transform: translateY(-100%) translateX(-5px) scale(0.8);\n}\n\n.inputUnderline {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  background-color: #007bff;\n}\n</style>\n</head>\n<body>\n<div class=\"inputContainer\">\n  <input required=\"\" class=\"customInput\" type=\"text\">\n  <label class=\"inputLabel\">Your Name</label>\n  <div class=\"inputUnderline\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#007bff",
+  "#0056b3"
+ ],
+ "fonts": [],
+ "tokens": 328,
+ "size": 1314,
+ "html": "<div class=\"inputContainer\">\n  <input required=\"\" class=\"customInput\" type=\"text\">\n  <label class=\"inputLabel\">Your Name</label>\n  <div class=\"inputUnderline\"></div>\n</div>\n",
+ "css": "/* Bright Goat 87 by doniaskima — https://uiverse.io/doniaskima/bright-goat-87 */\n.inputContainer {\n  position: relative;\n  margin-bottom: 20px;\n}\n\n.customInput {\n  width: 100%;\n  padding: 12px;\n  font-size: 16px;\n  background-color: transparent;\n  border: none;\n  border-bottom: 2px solid #007bff;\n  outline: none;\n  transition: border-color 0.3s ease;\n  color: #007bff;\n}\n\n.customInput:focus,\n.customInput:not(:placeholder-shown) {\n  border-color: #0056b3;\n}\n\n.inputLabel {\n  position: absolute;\n  top: 0;\n  left: 0;\n  pointer-events: none;\n  padding: 5px;\n  font-size: 16px;\n  color: #007bff;\n  transition: transform 0.3s ease, color 0.3s ease;\n}\n\n.customInput:focus + .inputLabel,\n.customInput:not(:placeholder-shown) + .inputLabel {\n  transform: translateY(-100%) translateX(-5px) scale(0.8);\n}\n\n.inputUnderline {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  background-color: #007bff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bright Goat 87</title>\n<style>\n/* Bright Goat 87 by doniaskima — https://uiverse.io/doniaskima/bright-goat-87 */\n.inputContainer {\n  position: relative;\n  margin-bottom: 20px;\n}\n\n.customInput {\n  width: 100%;\n  padding: 12px;\n  font-size: 16px;\n  background-color: transparent;\n  border: none;\n  border-bottom: 2px solid #007bff;\n  outline: none;\n  transition: border-color 0.3s ease;\n  color: #007bff;\n}\n\n.customInput:focus,\n.customInput:not(:placeholder-shown) {\n  border-color: #0056b3;\n}\n\n.inputLabel {\n  position: absolute;\n  top: 0;\n  left: 0;\n  pointer-events: none;\n  padding: 5px;\n  font-size: 16px;\n  color: #007bff;\n  transition: transform 0.3s ease, color 0.3s ease;\n}\n\n.customInput:focus + .inputLabel,\n.customInput:not(:placeholder-shown) + .inputLabel {\n  transform: translateY(-100%) translateX(-5px) scale(0.8);\n}\n\n.inputUnderline {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  background-color: #007bff;\n}\n</style>\n</head>\n<body>\n<div class=\"inputContainer\">\n  <input required=\"\" class=\"customInput\" type=\"text\">\n  <label class=\"inputLabel\">Your Name</label>\n  <div class=\"inputUnderline\"></div>\n</div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,25 @@
  "author": "IverMisericordiaM",
  "source": "https://uiverse.io/IverMisericordiaM/short-gecko-15",
  "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient dark blue card with soft shadow and gradient fill.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "blue",
+  "teal",
+  "gradient",
   "card",
   "static",
   "css"
  ],
- "html": "<div class=\"card\"></div>",
- "css": "/* From Uiverse.io by IverMisericordiaM - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;\n background: linear-gradient(293deg, rgb(185, 185, 255) 0%, rgb(72, 225, 255) 100%);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Short Gecko 15</title>\n<style>\n/* From Uiverse.io by IverMisericordiaM - https://uiverse.io/IverMisericordiaM/short-gecko-15 */\n/* From Uiverse.io by IverMisericordiaM - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;\n background: linear-gradient(293deg, rgb(185, 185, 255) 0%, rgb(72, 225, 255) 100%);\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#32325d",
+  "#b9b9ff",
+  "#48e1ff"
+ ],
+ "fonts": [],
+ "tokens": 140,
+ "size": 560,
+ "html": "<div class=\"card\"></div>\n",
+ "css": "/* Short Gecko 15 by IverMisericordiaM — https://uiverse.io/IverMisericordiaM/short-gecko-15 */\n.card {\n width: 190px;\n height: 254px;\n box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;\n background: linear-gradient(293deg, rgb(185, 185, 255) 0%, rgb(72, 225, 255) 100%);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Short Gecko 15</title>\n<style>\n/* Short Gecko 15 by IverMisericordiaM — https://uiverse.io/IverMisericordiaM/short-gecko-15 */\n.card {\n width: 190px;\n height: 254px;\n box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;\n background: linear-gradient(293deg, rgb(185, 185, 255) 0%, rgb(72, 225, 255) 100%);\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,23 @@
  "author": "Sujitkavaiya",
  "source": "https://uiverse.io/Sujitkavaiya/mighty-pig-81",
  "trigger": "hover",
- "description": "A card UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Sky-blue card that reacts on hover with a smooth transition.",
+ "howItWorks": "On hover, border becomes #006fff 0.2em solid.",
  "tags": [
+  "blue",
   "card",
   "hover",
   "css"
  ],
- "html": "<div class=\"card\"></div>",
- "css": "/* From Uiverse.io by Sujitkavaiya - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background: rgb(255, 255, 255);\n border-radius: 0.4em;\n box-shadow: 0.3em 0.3em 0.7em #00000015;\n transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n border: rgb(250, 250, 250) 0.2em solid;\n}\n\n.card:hover {\n border: #006fff 0.2em solid;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mighty Pig 81</title>\n<style>\n/* From Uiverse.io by Sujitkavaiya - https://uiverse.io/Sujitkavaiya/mighty-pig-81 */\n/* From Uiverse.io by Sujitkavaiya - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background: rgb(255, 255, 255);\n border-radius: 0.4em;\n box-shadow: 0.3em 0.3em 0.7em #00000015;\n transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n border: rgb(250, 250, 250) 0.2em solid;\n}\n\n.card:hover {\n border: #006fff 0.2em solid;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#fafafa",
+  "#006fff",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 154,
+ "size": 616,
+ "html": "<div class=\"card\"></div>\n",
+ "css": "/* Mighty Pig 81 by Sujitkavaiya — https://uiverse.io/Sujitkavaiya/mighty-pig-81 */\n.card {\n width: 190px;\n height: 254px;\n background: rgb(255, 255, 255);\n border-radius: 0.4em;\n box-shadow: 0.3em 0.3em 0.7em #00000015;\n transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n border: rgb(250, 250, 250) 0.2em solid;\n}\n\n.card:hover {\n border: #006fff 0.2em solid;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mighty Pig 81</title>\n<style>\n/* Mighty Pig 81 by Sujitkavaiya — https://uiverse.io/Sujitkavaiya/mighty-pig-81 */\n.card {\n width: 190px;\n height: 254px;\n background: rgb(255, 255, 255);\n border-radius: 0.4em;\n box-shadow: 0.3em 0.3em 0.7em #00000015;\n transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n border: rgb(250, 250, 250) 0.2em solid;\n}\n\n.card:hover {\n border: #006fff 0.2em solid;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n\n</body>\n</html>\n"
 }

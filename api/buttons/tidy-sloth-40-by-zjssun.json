@@ -5,14 +5,24 @@
  "author": "zjssun",
  "source": "https://uiverse.io/zjssun/tidy-sloth-40",
  "trigger": "hover",
- "description": "A button with neon styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon rounded sky-blue button that glows on hover.",
+ "howItWorks": "On hover, text color changes from #ffffff80 to #ffffff, background changes from transparent to #008cff, border becomes 1px solid #008cff. On focus, text color changes from #ffffff80 to #ffffff, background changes from transparent to #008cff, border becomes 1px solid #008cff.",
  "tags": [
-  "button",
+  "blue",
   "neon",
-  "hover"
+  "outlined",
+  "rounded",
+  "glow",
+  "color-change"
  ],
- "html": "<button id=\"btn\">\n  Button\n</button>",
- "css": "/* From Uiverse.io by zjssun - Tags: button, neon */\nbutton {\n  padding: 10px 20px;\n  text-transform: uppercase;\n  border-radius: 8px;\n  font-size: 17px;\n  font-weight: 500;\n  color: #ffffff80;\n  text-shadow: none;\n  background: transparent;\n  box-shadow: transparent;\n  border: 1px solid #ffffff80;\n  transition: 0.5s ease;\n  user-select: none;\n}\n\n#btn:hover,:focus {\n  color: #ffffff;\n  background: #008cff;\n  border: 1px solid #008cff;\n  text-shadow: 0 0 5px #ffffff,\n              0 0 10px #ffffff,\n              0 0 20px #ffffff;\n  box-shadow: 0 0 5px #008cff,\n              0 0 20px #008cff,\n              0 0 50px #008cff,\n              0 0 100px #008cff;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tidy Sloth 40</title>\n<style>\n/* From Uiverse.io by zjssun - https://uiverse.io/zjssun/tidy-sloth-40 */\n/* From Uiverse.io by zjssun - Tags: button, neon */\nbutton {\n  padding: 10px 20px;\n  text-transform: uppercase;\n  border-radius: 8px;\n  font-size: 17px;\n  font-weight: 500;\n  color: #ffffff80;\n  text-shadow: none;\n  background: transparent;\n  box-shadow: transparent;\n  border: 1px solid #ffffff80;\n  transition: 0.5s ease;\n  user-select: none;\n}\n\n#btn:hover,:focus {\n  color: #ffffff;\n  background: #008cff;\n  border: 1px solid #008cff;\n  text-shadow: 0 0 5px #ffffff,\n              0 0 10px #ffffff,\n              0 0 20px #ffffff;\n  box-shadow: 0 0 5px #008cff,\n              0 0 20px #008cff,\n              0 0 50px #008cff,\n              0 0 100px #008cff;\n}\n</style>\n</head>\n<body>\n<button id=\"btn\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#008cff",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 233,
+ "size": 935,
+ "html": "<button id=\"btn\">\n  Button\n</button>\n",
+ "css": "/* Tidy Sloth 40 by zjssun — https://uiverse.io/zjssun/tidy-sloth-40 */\nbutton {\n  padding: 10px 20px;\n  text-transform: uppercase;\n  border-radius: 8px;\n  font-size: 17px;\n  font-weight: 500;\n  color: #ffffff80;\n  text-shadow: none;\n  background: transparent;\n  box-shadow: transparent;\n  border: 1px solid #ffffff80;\n  transition: 0.5s ease;\n  user-select: none;\n}\n\n#btn:hover,:focus {\n  color: #ffffff;\n  background: #008cff;\n  border: 1px solid #008cff;\n  text-shadow: 0 0 5px #ffffff,\n              0 0 10px #ffffff,\n              0 0 20px #ffffff;\n  box-shadow: 0 0 5px #008cff,\n              0 0 20px #008cff,\n              0 0 50px #008cff,\n              0 0 100px #008cff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tidy Sloth 40</title>\n<style>\n/* Tidy Sloth 40 by zjssun — https://uiverse.io/zjssun/tidy-sloth-40 */\nbutton {\n  padding: 10px 20px;\n  text-transform: uppercase;\n  border-radius: 8px;\n  font-size: 17px;\n  font-weight: 500;\n  color: #ffffff80;\n  text-shadow: none;\n  background: transparent;\n  box-shadow: transparent;\n  border: 1px solid #ffffff80;\n  transition: 0.5s ease;\n  user-select: none;\n}\n\n#btn:hover,:focus {\n  color: #ffffff;\n  background: #008cff;\n  border: 1px solid #008cff;\n  text-shadow: 0 0 5px #ffffff,\n              0 0 10px #ffffff,\n              0 0 20px #ffffff;\n  box-shadow: 0 0 5px #008cff,\n              0 0 20px #008cff,\n              0 0 50px #008cff,\n              0 0 100px #008cff;\n}\n</style>\n</head>\n<body>\n<button id=\"btn\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

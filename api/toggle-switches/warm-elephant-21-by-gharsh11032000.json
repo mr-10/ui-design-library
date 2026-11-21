@@ -5,17 +5,25 @@
  "author": "gharsh11032000",
  "source": "https://uiverse.io/gharsh11032000/warm-elephant-21",
  "trigger": "checked",
- "description": "A toggle switch with switch, checkbox and click-effect styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Neon sky-blue toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: background changes from #9fccfa to #0974f1, transform becomes translateX(1.5em) rotate(90deg). On focus, box-shadow becomes 0 0 1px #0974f1.",
  "tags": [
+  "blue",
+  "neon",
+  "toggle-switch",
   "switch",
   "checkbox",
-  "click-effect",
-  "toggle-switch",
-  "toggle-switches",
-  "checked"
+  "click-effect"
  ],
- "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>",
- "css": "/* From Uiverse.io by gharsh11032000 - Tags: switch, checkbox, click effect, toggle switch */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  inset: 0;\n  background: #9fccfa;\n  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.switch input:checked + .slider {\n  background: #0974f1;\n}\n\n.switch input:focus + .slider {\n  box-shadow: 0 0 1px #0974f1;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(1.5em) rotate(90deg);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Elephant 21</title>\n<style>\n/* From Uiverse.io by gharsh11032000 - https://uiverse.io/gharsh11032000/warm-elephant-21 */\n/* From Uiverse.io by gharsh11032000 - Tags: switch, checkbox, click effect, toggle switch */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  inset: 0;\n  background: #9fccfa;\n  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.switch input:checked + .slider {\n  background: #0974f1;\n}\n\n.switch input:focus + .slider {\n  box-shadow: 0 0 1px #0974f1;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(1.5em) rotate(90deg);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#0974f1",
+  "#9fccfa",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 287,
+ "size": 1149,
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n",
+ "css": "/* Warm Elephant 21 by gharsh11032000 — https://uiverse.io/gharsh11032000/warm-elephant-21 */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  inset: 0;\n  background: #9fccfa;\n  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.switch input:checked + .slider {\n  background: #0974f1;\n}\n\n.switch input:focus + .slider {\n  box-shadow: 0 0 1px #0974f1;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(1.5em) rotate(90deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Elephant 21</title>\n<style>\n/* Warm Elephant 21 by gharsh11032000 — https://uiverse.io/gharsh11032000/warm-elephant-21 */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  inset: 0;\n  background: #9fccfa;\n  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.switch input:checked + .slider {\n  background: #0974f1;\n}\n\n.switch input:focus + .slider {\n  box-shadow: 0 0 1px #0974f1;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(1.5em) rotate(90deg);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n\n</body>\n</html>\n"
 }

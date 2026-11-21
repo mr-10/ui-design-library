@@ -5,14 +5,25 @@
  "author": "satyamchaudharydev",
  "source": "https://uiverse.io/satyamchaudharydev/afraid-horse-51",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Sky-blue spinner loader with bouncing motion in a loop.",
+ "howItWorks": "It loops a 2.4s animation (bouncing, sliding).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "blue",
+  "yellow",
+  "flat",
+  "bounce",
+  "slide",
+  "spinner-loader"
  ],
- "html": "<div class=\"spinner\"></div>",
- "css": "/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.spinner {\n --size: 30px;\n --first-block-clr: #005bba;\n --second-block-clr: #fed500;\n --clr: #111;\n width: 100px;\n height: 100px;\n position: relative;\n}\n\n.spinner::after,.spinner::before {\n box-sizing: border-box;\n position: absolute;\n content: \"\";\n width: var(--size);\n height: var(--size);\n top: 50%;\n animation: up 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;\n left: 50%;\n background: var(--first-block-clr);\n}\n\n.spinner::after {\n background: var(--second-block-clr);\n top: calc(50% - var(--size));\n left: calc(50% - var(--size));\n animation: down 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;\n}\n\n@keyframes down {\n 0%, 100% {\n  transform: none;\n }\n\n 25% {\n  transform: translateX(100%);\n }\n\n 50% {\n  transform: translateX(100%) translateY(100%);\n }\n\n 75% {\n  transform: translateY(100%);\n }\n}\n\n@keyframes up {\n 0%, 100% {\n  transform: none;\n }\n\n 25% {\n  transform: translateX(-100%);\n }\n\n 50% {\n  transform: translateX(-100%) translateY(-100%);\n }\n\n 75% {\n  transform: translateY(-100%);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Horse 51</title>\n<style>\n/* From Uiverse.io by satyamchaudharydev - https://uiverse.io/satyamchaudharydev/afraid-horse-51 */\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.spinner {\n --size: 30px;\n --first-block-clr: #005bba;\n --second-block-clr: #fed500;\n --clr: #111;\n width: 100px;\n height: 100px;\n position: relative;\n}\n\n.spinner::after,.spinner::before {\n box-sizing: border-box;\n position: absolute;\n content: \"\";\n width: var(--size);\n height: var(--size);\n top: 50%;\n animation: up 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;\n left: 50%;\n background: var(--first-block-clr);\n}\n\n.spinner::after {\n background: var(--second-block-clr);\n top: calc(50% - var(--size));\n left: calc(50% - var(--size));\n animation: down 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;\n}\n\n@keyframes down {\n 0%, 100% {\n  transform: none;\n }\n\n 25% {\n  transform: translateX(100%);\n }\n\n 50% {\n  transform: translateX(100%) translateY(100%);\n }\n\n 75% {\n  transform: translateY(100%);\n }\n}\n\n@keyframes up {\n 0%, 100% {\n  transform: none;\n }\n\n 25% {\n  transform: translateX(-100%);\n }\n\n 50% {\n  transform: translateX(-100%) translateY(-100%);\n }\n\n 75% {\n  transform: translateY(-100%);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#005bba",
+  "#fed500",
+  "#111111"
+ ],
+ "fonts": [],
+ "tokens": 335,
+ "size": 1342,
+ "html": "<div class=\"spinner\"></div>\n",
+ "css": "/* Afraid Horse 51 by satyamchaudharydev — https://uiverse.io/satyamchaudharydev/afraid-horse-51 */\n.spinner {\n --size: 30px;\n --first-block-clr: #005bba;\n --second-block-clr: #fed500;\n --clr: #111;\n width: 100px;\n height: 100px;\n position: relative;\n}\n\n.spinner::after,.spinner::before {\n box-sizing: border-box;\n position: absolute;\n content: \"\";\n width: var(--size);\n height: var(--size);\n top: 50%;\n animation: up 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;\n left: 50%;\n background: var(--first-block-clr);\n}\n\n.spinner::after {\n background: var(--second-block-clr);\n top: calc(50% - var(--size));\n left: calc(50% - var(--size));\n animation: down 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;\n}\n\n@keyframes down {\n 0%, 100% {\n  transform: none;\n }\n\n 25% {\n  transform: translateX(100%);\n }\n\n 50% {\n  transform: translateX(100%) translateY(100%);\n }\n\n 75% {\n  transform: translateY(100%);\n }\n}\n\n@keyframes up {\n 0%, 100% {\n  transform: none;\n }\n\n 25% {\n  transform: translateX(-100%);\n }\n\n 50% {\n  transform: translateX(-100%) translateY(-100%);\n }\n\n 75% {\n  transform: translateY(-100%);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Horse 51</title>\n<style>\n/* Afraid Horse 51 by satyamchaudharydev — https://uiverse.io/satyamchaudharydev/afraid-horse-51 */\n.spinner {\n --size: 30px;\n --first-block-clr: #005bba;\n --second-block-clr: #fed500;\n --clr: #111;\n width: 100px;\n height: 100px;\n position: relative;\n}\n\n.spinner::after,.spinner::before {\n box-sizing: border-box;\n position: absolute;\n content: \"\";\n width: var(--size);\n height: var(--size);\n top: 50%;\n animation: up 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;\n left: 50%;\n background: var(--first-block-clr);\n}\n\n.spinner::after {\n background: var(--second-block-clr);\n top: calc(50% - var(--size));\n left: calc(50% - var(--size));\n animation: down 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;\n}\n\n@keyframes down {\n 0%, 100% {\n  transform: none;\n }\n\n 25% {\n  transform: translateX(100%);\n }\n\n 50% {\n  transform: translateX(100%) translateY(100%);\n }\n\n 75% {\n  transform: translateY(100%);\n }\n}\n\n@keyframes up {\n 0%, 100% {\n  transform: none;\n }\n\n 25% {\n  transform: translateX(-100%);\n }\n\n 50% {\n  transform: translateX(-100%) translateY(-100%);\n }\n\n 75% {\n  transform: translateY(-100%);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\"></div>\n\n</body>\n</html>\n"
 }

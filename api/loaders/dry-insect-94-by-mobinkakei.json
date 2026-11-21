@@ -5,15 +5,24 @@
  "author": "mobinkakei",
  "source": "https://uiverse.io/mobinkakei/dry-insect-94",
  "trigger": "auto-loop",
- "description": "A loader with loading and space styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "3d gray loader with animating; pulsing motion in a loop.",
+ "howItWorks": "It loops a 1s animation (animating; pulsing).",
  "tags": [
+  "3d",
+  "pulse",
   "loading",
   "loader",
   "space",
   "auto-loop"
  ],
- "html": "<span class=\"loader\"></span>",
- "css": "/* From Uiverse.io by mobinkakei  - Tags: loading, loader, space */\n.loader {\n  position: relative;\n  width: 60px;\n  height: 60px;\n  background: #a19dad;\n  transform: rotateX(65deg) rotate(45deg);\n  // remove bellows command for perspective change\n  //transform: perspective(200px) rotateX(65deg) rotate(45deg);\n  color: #fff;\n  animation: layers1 1s linear infinite alternate;\n}\n.loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: rgba(255, 255, 255, 0.7);\n  animation: layerTr 1s linear infinite alternate;\n}\n\n@keyframes layers1 {\n  0% {\n    box-shadow: 0px 0px 0 0px;\n  }\n  90%,\n  100% {\n    box-shadow: 20px 20px 0 -4px;\n  }\n}\n@keyframes layerTr {\n  0% {\n    transform: translate(0, 0) scale(1);\n  }\n  100% {\n    transform: translate(-25px, -25px) scale(1);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Insect 94</title>\n<style>\n/* From Uiverse.io by mobinkakei - https://uiverse.io/mobinkakei/dry-insect-94 */\n/* From Uiverse.io by mobinkakei  - Tags: loading, loader, space */\n.loader {\n  position: relative;\n  width: 60px;\n  height: 60px;\n  background: #a19dad;\n  transform: rotateX(65deg) rotate(45deg);\n  // remove bellows command for perspective change\n  //transform: perspective(200px) rotateX(65deg) rotate(45deg);\n  color: #fff;\n  animation: layers1 1s linear infinite alternate;\n}\n.loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: rgba(255, 255, 255, 0.7);\n  animation: layerTr 1s linear infinite alternate;\n}\n\n@keyframes layers1 {\n  0% {\n    box-shadow: 0px 0px 0 0px;\n  }\n  90%,\n  100% {\n    box-shadow: 20px 20px 0 -4px;\n  }\n}\n@keyframes layerTr {\n  0% {\n    transform: translate(0, 0) scale(1);\n  }\n  100% {\n    transform: translate(-25px, -25px) scale(1);\n  }\n}\n</style>\n</head>\n<body>\n<span class=\"loader\"></span>\n</body>\n</html>\n"
+ "colors": [
+  "#a19dad",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 262,
+ "size": 1050,
+ "html": "<span class=\"loader\"></span>\n",
+ "css": "/* Dry Insect 94 by mobinkakei — https://uiverse.io/mobinkakei/dry-insect-94 */\n.loader {\n  position: relative;\n  width: 60px;\n  height: 60px;\n  background: #a19dad;\n  transform: rotateX(65deg) rotate(45deg);\n  // remove bellows command for perspective change\n  //transform: perspective(200px) rotateX(65deg) rotate(45deg);\n  color: #fff;\n  animation: layers1 1s linear infinite alternate;\n}\n.loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: rgba(255, 255, 255, 0.7);\n  animation: layerTr 1s linear infinite alternate;\n}\n\n@keyframes layers1 {\n  0% {\n    box-shadow: 0px 0px 0 0px;\n  }\n  90%,\n  100% {\n    box-shadow: 20px 20px 0 -4px;\n  }\n}\n@keyframes layerTr {\n  0% {\n    transform: translate(0, 0) scale(1);\n  }\n  100% {\n    transform: translate(-25px, -25px) scale(1);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Insect 94</title>\n<style>\n/* Dry Insect 94 by mobinkakei — https://uiverse.io/mobinkakei/dry-insect-94 */\n.loader {\n  position: relative;\n  width: 60px;\n  height: 60px;\n  background: #a19dad;\n  transform: rotateX(65deg) rotate(45deg);\n  // remove bellows command for perspective change\n  //transform: perspective(200px) rotateX(65deg) rotate(45deg);\n  color: #fff;\n  animation: layers1 1s linear infinite alternate;\n}\n.loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: rgba(255, 255, 255, 0.7);\n  animation: layerTr 1s linear infinite alternate;\n}\n\n@keyframes layers1 {\n  0% {\n    box-shadow: 0px 0px 0 0px;\n  }\n  90%,\n  100% {\n    box-shadow: 20px 20px 0 -4px;\n  }\n}\n@keyframes layerTr {\n  0% {\n    transform: translate(0, 0) scale(1);\n  }\n  100% {\n    transform: translate(-25px, -25px) scale(1);\n  }\n}\n</style>\n</head>\n<body>\n<span class=\"loader\"></span>\n\n</body>\n</html>\n"
 }

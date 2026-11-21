@@ -5,15 +5,25 @@
  "author": "aadium",
  "source": "https://uiverse.io/aadium/mighty-rattlesnake-30",
  "trigger": "static",
- "description": "A pattern with soft and gradients styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient amber pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "soft",
-  "gradients",
+  "amber",
+  "red",
+  "gradient",
+  "flat",
   "pattern",
-  "static"
+  "soft"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by aadium - Tags: soft, gradients, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: repeating-linear-gradient(to bottom, rgb(255, 145, 0, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 0, 140, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 145, 0, 0.5) 50px),\n              repeating-linear-gradient(to left, rgb(255, 145, 0, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 0, 140, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 145, 0, 0.5) 50px),\n              rgba(193, 193, 193, 0.673);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mighty Rattlesnake 30</title>\n<style>\n/* From Uiverse.io by aadium - https://uiverse.io/aadium/mighty-rattlesnake-30 */\n/* From Uiverse.io by aadium - Tags: soft, gradients, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: repeating-linear-gradient(to bottom, rgb(255, 145, 0, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 0, 140, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 145, 0, 0.5) 50px),\n              repeating-linear-gradient(to left, rgb(255, 145, 0, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 0, 140, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 145, 0, 0.5) 50px),\n              rgba(193, 193, 193, 0.673);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff9100",
+  "#ff0000",
+  "#ff008c"
+ ],
+ "fonts": [],
+ "tokens": 196,
+ "size": 784,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Mighty Rattlesnake 30 by aadium — https://uiverse.io/aadium/mighty-rattlesnake-30 */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: repeating-linear-gradient(to bottom, rgb(255, 145, 0, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 0, 140, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 145, 0, 0.5) 50px),\n              repeating-linear-gradient(to left, rgb(255, 145, 0, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 0, 140, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 145, 0, 0.5) 50px),\n              rgba(193, 193, 193, 0.673);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mighty Rattlesnake 30</title>\n<style>\n/* Mighty Rattlesnake 30 by aadium — https://uiverse.io/aadium/mighty-rattlesnake-30 */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: repeating-linear-gradient(to bottom, rgb(255, 145, 0, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 0, 140, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 145, 0, 0.5) 50px),\n              repeating-linear-gradient(to left, rgb(255, 145, 0, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 0, 140, 0.5), rgb(255, 0, 0, 0.5), rgb(255, 145, 0, 0.5) 50px),\n              rgba(193, 193, 193, 0.673);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

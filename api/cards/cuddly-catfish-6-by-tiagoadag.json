@@ -5,14 +5,24 @@
  "author": "Tiagoadag",
  "source": "https://uiverse.io/Tiagoadag/cuddly-catfish-6",
  "trigger": "hover",
- "description": "A card UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient dark rounded green card that glows on hover.",
+ "howItWorks": "On hover, transform becomes scale(0.98), border-radius becomes 20px, box-shadow becomes 0px 0px 30px 1px #00ff75.",
  "tags": [
-  "card",
-  "hover",
-  "css"
+  "green",
+  "gradient",
+  "dark",
+  "rounded",
+  "shrink",
+  "glow"
  ],
- "html": "<div class=\"card\">\n  <div class=\"card2\">\n  </div>\n</div>",
- "css": "/* From Uiverse.io by Tiagoadag - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);\n border-radius: 20px;\n transition: all .3s;\n}\n\n.card2 {\n width: 190px;\n height: 254px;\n background-color: #1a1a1a;\n border-radius:;\n transition: all .2s;\n}\n\n.card2:hover {\n transform: scale(0.98);\n border-radius: 20px;\n}\n\n.card:hover {\n box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Catfish 6</title>\n<style>\n/* From Uiverse.io by Tiagoadag - https://uiverse.io/Tiagoadag/cuddly-catfish-6 */\n/* From Uiverse.io by Tiagoadag - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);\n border-radius: 20px;\n transition: all .3s;\n}\n\n.card2 {\n width: 190px;\n height: 254px;\n background-color: #1a1a1a;\n border-radius:;\n transition: all .2s;\n}\n\n.card2:hover {\n transform: scale(0.98);\n border-radius: 20px;\n}\n\n.card:hover {\n box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card2\">\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#1a1a1a",
+  "#00ff75"
+ ],
+ "fonts": [],
+ "tokens": 190,
+ "size": 760,
+ "html": "<div class=\"card\">\n  <div class=\"card2\">\n  </div>\n</div>\n",
+ "css": "/* Cuddly Catfish 6 by Tiagoadag — https://uiverse.io/Tiagoadag/cuddly-catfish-6 */\n.card {\n width: 190px;\n height: 254px;\n background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);\n border-radius: 20px;\n transition: all .3s;\n}\n\n.card2 {\n width: 190px;\n height: 254px;\n background-color: #1a1a1a;\n border-radius:;\n transition: all .2s;\n}\n\n.card2:hover {\n transform: scale(0.98);\n border-radius: 20px;\n}\n\n.card:hover {\n box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Catfish 6</title>\n<style>\n/* Cuddly Catfish 6 by Tiagoadag — https://uiverse.io/Tiagoadag/cuddly-catfish-6 */\n.card {\n width: 190px;\n height: 254px;\n background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);\n border-radius: 20px;\n transition: all .3s;\n}\n\n.card2 {\n width: 190px;\n height: 254px;\n background-color: #1a1a1a;\n border-radius:;\n transition: all .2s;\n}\n\n.card2:hover {\n transform: scale(0.98);\n border-radius: 20px;\n}\n\n.card:hover {\n box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card2\">\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

@@ -5,17 +5,25 @@
  "author": "Zadrus",
  "source": "https://uiverse.io/Zadrus/sweet-dragon-8",
  "trigger": "auto-loop",
- "description": "A loader with simple, red and minimalist styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient 3d amber loader with fading motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (fading).",
  "tags": [
-  "simple",
-  "red",
-  "minimalist",
+  "amber",
+  "orange",
   "gradient",
-  "loader",
-  "spinner"
+  "3d",
+  "flat",
+  "fade"
  ],
- "html": "<div class=\"loading\">\n  <div class=\"diamond\"></div>\n  <div class=\"diamond middle\"></div>\n  <div class=\"diamond\"></div>\n</div>",
- "css": "/* From Uiverse.io by Zadrus  - Tags: simple, red, minimalist, gradient, loader, spinner, animated, gradients */\n.loading {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.diamond {\n  width: 50px;\n  height: 50px;\n  background-color: orange;\n  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);\n  margin: 5px;\n  opacity: 0;\n  animation: fade-in-out 1.5s ease-in-out infinite;\n}\n\n.diamond.middle {\n  transform: rotateY(180deg);\n}\n\n@keyframes fade-in-out {\n  0%,\n  100% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n  }\n}\n\n.diamond {\n  background: linear-gradient(45deg, #ffba00, #ff6c00);\n}\n\n.diamond:nth-child(1) {\n  animation-delay: 0s;\n}\n\n.diamond.middle {\n  animation-delay: 0.5s;\n}\n\n.diamond:nth-child(3) {\n  animation-delay: 1s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sweet Dragon 8</title>\n<style>\n/* From Uiverse.io by Zadrus - https://uiverse.io/Zadrus/sweet-dragon-8 */\n/* From Uiverse.io by Zadrus  - Tags: simple, red, minimalist, gradient, loader, spinner, animated, gradients */\n.loading {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.diamond {\n  width: 50px;\n  height: 50px;\n  background-color: orange;\n  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);\n  margin: 5px;\n  opacity: 0;\n  animation: fade-in-out 1.5s ease-in-out infinite;\n}\n\n.diamond.middle {\n  transform: rotateY(180deg);\n}\n\n@keyframes fade-in-out {\n  0%,\n  100% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n  }\n}\n\n.diamond {\n  background: linear-gradient(45deg, #ffba00, #ff6c00);\n}\n\n.diamond:nth-child(1) {\n  animation-delay: 0s;\n}\n\n.diamond.middle {\n  animation-delay: 0.5s;\n}\n\n.diamond:nth-child(3) {\n  animation-delay: 1s;\n}\n</style>\n</head>\n<body>\n<div class=\"loading\">\n  <div class=\"diamond\"></div>\n  <div class=\"diamond middle\"></div>\n  <div class=\"diamond\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffa500",
+  "#ffba00",
+  "#ff6c00"
+ ],
+ "fonts": [],
+ "tokens": 266,
+ "size": 1065,
+ "html": "<div class=\"loading\">\n  <div class=\"diamond\"></div>\n  <div class=\"diamond middle\"></div>\n  <div class=\"diamond\"></div>\n</div>\n",
+ "css": "/* Sweet Dragon 8 by Zadrus — https://uiverse.io/Zadrus/sweet-dragon-8 */\n.loading {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.diamond {\n  width: 50px;\n  height: 50px;\n  background-color: orange;\n  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);\n  margin: 5px;\n  opacity: 0;\n  animation: fade-in-out 1.5s ease-in-out infinite;\n}\n\n.diamond.middle {\n  transform: rotateY(180deg);\n}\n\n@keyframes fade-in-out {\n  0%,\n  100% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n  }\n}\n\n.diamond {\n  background: linear-gradient(45deg, #ffba00, #ff6c00);\n}\n\n.diamond:nth-child(1) {\n  animation-delay: 0s;\n}\n\n.diamond.middle {\n  animation-delay: 0.5s;\n}\n\n.diamond:nth-child(3) {\n  animation-delay: 1s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sweet Dragon 8</title>\n<style>\n/* Sweet Dragon 8 by Zadrus — https://uiverse.io/Zadrus/sweet-dragon-8 */\n.loading {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.diamond {\n  width: 50px;\n  height: 50px;\n  background-color: orange;\n  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);\n  margin: 5px;\n  opacity: 0;\n  animation: fade-in-out 1.5s ease-in-out infinite;\n}\n\n.diamond.middle {\n  transform: rotateY(180deg);\n}\n\n@keyframes fade-in-out {\n  0%,\n  100% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n  }\n}\n\n.diamond {\n  background: linear-gradient(45deg, #ffba00, #ff6c00);\n}\n\n.diamond:nth-child(1) {\n  animation-delay: 0s;\n}\n\n.diamond.middle {\n  animation-delay: 0.5s;\n}\n\n.diamond:nth-child(3) {\n  animation-delay: 1s;\n}\n</style>\n</head>\n<body>\n<div class=\"loading\">\n  <div class=\"diamond\"></div>\n  <div class=\"diamond middle\"></div>\n  <div class=\"diamond\"></div>\n</div>\n\n</body>\n</html>\n"
 }

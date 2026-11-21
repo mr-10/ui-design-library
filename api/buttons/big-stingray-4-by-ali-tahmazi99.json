@@ -5,14 +5,25 @@
  "author": "Ali-Tahmazi99",
  "source": "https://uiverse.io/Ali-Tahmazi99/big-stingray-4",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined rounded dark blue button that changes colour on hover.",
+ "howItWorks": "On hover, width becomes 58%, text color changes from #03045e to #e0aaff.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "blue",
+  "violet",
+  "outlined",
+  "rounded",
+  "flat",
+  "expand"
  ],
- "html": "<button>\n  <span> Button\n  </span>\n</button>",
- "css": "/* From Uiverse.io by Ali-Tahmazi99 - Tags: button */\n/* From uiverse.io by @Ali-Tahmazi99 */\nbutton {\n display: inline-block;\n width: 150px;\n height: 50px;\n border-radius: 10px;\n border: 1px solid #03045e;\n position: relative;\n overflow: hidden;\n transition: all 0.5s ease-in;\n z-index: 1;\n}\n\nbutton::before,\nbutton::after {\n content: '';\n position: absolute;\n top: 0;\n width: 0;\n height: 100%;\n transform: skew(15deg);\n transition: all 0.5s;\n overflow: hidden;\n z-index: -1;\n}\n\nbutton::before {\n left: -10px;\n background: #240046;\n}\n\nbutton::after {\n right: -10px;\n background: #5a189a;\n}\n\nbutton:hover::before,\nbutton:hover::after {\n width: 58%;\n}\n\nbutton:hover span {\n color: #e0aaff;\n transition: 0.3s;\n}\n\nbutton span {\n color: #03045e;\n font-size: 18px;\n transition: all 0.3s ease-in;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Stingray 4</title>\n<style>\n/* From Uiverse.io by Ali-Tahmazi99 - https://uiverse.io/Ali-Tahmazi99/big-stingray-4 */\n/* From Uiverse.io by Ali-Tahmazi99 - Tags: button */\n/* From uiverse.io by @Ali-Tahmazi99 */\nbutton {\n display: inline-block;\n width: 150px;\n height: 50px;\n border-radius: 10px;\n border: 1px solid #03045e;\n position: relative;\n overflow: hidden;\n transition: all 0.5s ease-in;\n z-index: 1;\n}\n\nbutton::before,\nbutton::after {\n content: '';\n position: absolute;\n top: 0;\n width: 0;\n height: 100%;\n transform: skew(15deg);\n transition: all 0.5s;\n overflow: hidden;\n z-index: -1;\n}\n\nbutton::before {\n left: -10px;\n background: #240046;\n}\n\nbutton::after {\n right: -10px;\n background: #5a189a;\n}\n\nbutton:hover::before,\nbutton:hover::after {\n width: 58%;\n}\n\nbutton:hover span {\n color: #e0aaff;\n transition: 0.3s;\n}\n\nbutton span {\n color: #03045e;\n font-size: 18px;\n transition: all 0.3s ease-in;\n}\n</style>\n</head>\n<body>\n<button>\n  <span> Button\n  </span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#03045e",
+  "#240046",
+  "#5a189a"
+ ],
+ "fonts": [],
+ "tokens": 261,
+ "size": 1047,
+ "html": "<button>\n  <span> Button\n  </span>\n</button>\n",
+ "css": "/* Big Stingray 4 by Ali-Tahmazi99 — https://uiverse.io/Ali-Tahmazi99/big-stingray-4 */\nbutton {\n display: inline-block;\n width: 150px;\n height: 50px;\n border-radius: 10px;\n border: 1px solid #03045e;\n position: relative;\n overflow: hidden;\n transition: all 0.5s ease-in;\n z-index: 1;\n}\n\nbutton::before,\nbutton::after {\n content: '';\n position: absolute;\n top: 0;\n width: 0;\n height: 100%;\n transform: skew(15deg);\n transition: all 0.5s;\n overflow: hidden;\n z-index: -1;\n}\n\nbutton::before {\n left: -10px;\n background: #240046;\n}\n\nbutton::after {\n right: -10px;\n background: #5a189a;\n}\n\nbutton:hover::before,\nbutton:hover::after {\n width: 58%;\n}\n\nbutton:hover span {\n color: #e0aaff;\n transition: 0.3s;\n}\n\nbutton span {\n color: #03045e;\n font-size: 18px;\n transition: all 0.3s ease-in;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Stingray 4</title>\n<style>\n/* Big Stingray 4 by Ali-Tahmazi99 — https://uiverse.io/Ali-Tahmazi99/big-stingray-4 */\nbutton {\n display: inline-block;\n width: 150px;\n height: 50px;\n border-radius: 10px;\n border: 1px solid #03045e;\n position: relative;\n overflow: hidden;\n transition: all 0.5s ease-in;\n z-index: 1;\n}\n\nbutton::before,\nbutton::after {\n content: '';\n position: absolute;\n top: 0;\n width: 0;\n height: 100%;\n transform: skew(15deg);\n transition: all 0.5s;\n overflow: hidden;\n z-index: -1;\n}\n\nbutton::before {\n left: -10px;\n background: #240046;\n}\n\nbutton::after {\n right: -10px;\n background: #5a189a;\n}\n\nbutton:hover::before,\nbutton:hover::after {\n width: 58%;\n}\n\nbutton:hover span {\n color: #e0aaff;\n transition: 0.3s;\n}\n\nbutton span {\n color: #03045e;\n font-size: 18px;\n transition: all 0.3s ease-in;\n}\n</style>\n</head>\n<body>\n<button>\n  <span> Button\n  </span>\n</button>\n\n</body>\n</html>\n"
 }

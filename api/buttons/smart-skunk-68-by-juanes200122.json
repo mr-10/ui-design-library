@@ -5,17 +5,24 @@
  "author": "Juanes200122",
  "source": "https://uiverse.io/Juanes200122/smart-skunk-68",
  "trigger": "hover",
- "description": "A button with simple, animation and color styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Blue button that changes colour on hover with a smooth transition.",
+ "howItWorks": "On hover, text color changes from #4741d7 to #fff, left becomes 0, right becomes 0.",
  "tags": [
+  "blue",
+  "flat",
+  "color-change",
   "simple",
   "animation",
-  "button",
-  "hover",
-  "color",
-  "hover-effect"
+  "button"
  ],
- "html": "<a href=\"#\" class=\"ov-btn-slide-left\">Izquierda\n</a>",
- "css": "/* From Uiverse.io by Juanes200122 - Tags: simple, animation, button, hover, color, hover effect */\na {\n  text-decoration: none;\n}\n\n.ov-btn-slide-left {\n  background: #fff;\n  color: #4741d7;\n  border: 2px solid #4741d7;\n  padding: 16px 20px;\n  border-radius: 3px;\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  display: inline-block;\n}\n\n.ov-btn-slide-left:hover {\n  color: #fff;\n}\n\n.ov-btn-slide-left::after {\n  content: \"\";\n  background: #4741d7;\n  position: absolute;\n  z-index: -1;\n  padding: 16px 20px;\n  display: block;\n  top: 0;\n  bottom: 0;\n  left: -100%;\n  right: 100%;\n  -webkit-transition: all 0.35s;\n  transition: all 0.35s;\n}\n\n.ov-btn-slide-left:hover::after {\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  -webkit-transition: all 0.35s;\n  transition: all 0.35s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smart Skunk 68</title>\n<style>\n/* From Uiverse.io by Juanes200122 - https://uiverse.io/Juanes200122/smart-skunk-68 */\n/* From Uiverse.io by Juanes200122 - Tags: simple, animation, button, hover, color, hover effect */\na {\n  text-decoration: none;\n}\n\n.ov-btn-slide-left {\n  background: #fff;\n  color: #4741d7;\n  border: 2px solid #4741d7;\n  padding: 16px 20px;\n  border-radius: 3px;\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  display: inline-block;\n}\n\n.ov-btn-slide-left:hover {\n  color: #fff;\n}\n\n.ov-btn-slide-left::after {\n  content: \"\";\n  background: #4741d7;\n  position: absolute;\n  z-index: -1;\n  padding: 16px 20px;\n  display: block;\n  top: 0;\n  bottom: 0;\n  left: -100%;\n  right: 100%;\n  -webkit-transition: all 0.35s;\n  transition: all 0.35s;\n}\n\n.ov-btn-slide-left:hover::after {\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  -webkit-transition: all 0.35s;\n  transition: all 0.35s;\n}\n</style>\n</head>\n<body>\n<a href=\"#\" class=\"ov-btn-slide-left\">Izquierda\n</a>\n</body>\n</html>\n"
+ "colors": [
+  "#4741d7",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 260,
+ "size": 1044,
+ "html": "<a href=\"#\" class=\"ov-btn-slide-left\">Izquierda\n</a>\n",
+ "css": "/* Smart Skunk 68 by Juanes200122 — https://uiverse.io/Juanes200122/smart-skunk-68 */\na {\n  text-decoration: none;\n}\n\n.ov-btn-slide-left {\n  background: #fff;\n  color: #4741d7;\n  border: 2px solid #4741d7;\n  padding: 16px 20px;\n  border-radius: 3px;\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  display: inline-block;\n}\n\n.ov-btn-slide-left:hover {\n  color: #fff;\n}\n\n.ov-btn-slide-left::after {\n  content: \"\";\n  background: #4741d7;\n  position: absolute;\n  z-index: -1;\n  padding: 16px 20px;\n  display: block;\n  top: 0;\n  bottom: 0;\n  left: -100%;\n  right: 100%;\n  -webkit-transition: all 0.35s;\n  transition: all 0.35s;\n}\n\n.ov-btn-slide-left:hover::after {\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  -webkit-transition: all 0.35s;\n  transition: all 0.35s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smart Skunk 68</title>\n<style>\n/* Smart Skunk 68 by Juanes200122 — https://uiverse.io/Juanes200122/smart-skunk-68 */\na {\n  text-decoration: none;\n}\n\n.ov-btn-slide-left {\n  background: #fff;\n  color: #4741d7;\n  border: 2px solid #4741d7;\n  padding: 16px 20px;\n  border-radius: 3px;\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  display: inline-block;\n}\n\n.ov-btn-slide-left:hover {\n  color: #fff;\n}\n\n.ov-btn-slide-left::after {\n  content: \"\";\n  background: #4741d7;\n  position: absolute;\n  z-index: -1;\n  padding: 16px 20px;\n  display: block;\n  top: 0;\n  bottom: 0;\n  left: -100%;\n  right: 100%;\n  -webkit-transition: all 0.35s;\n  transition: all 0.35s;\n}\n\n.ov-btn-slide-left:hover::after {\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  -webkit-transition: all 0.35s;\n  transition: all 0.35s;\n}\n</style>\n</head>\n<body>\n<a href=\"#\" class=\"ov-btn-slide-left\">Izquierda\n</a>\n\n</body>\n</html>\n"
 }

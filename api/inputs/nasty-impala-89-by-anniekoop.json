@@ -5,17 +5,26 @@
  "author": "anniekoop",
  "source": "https://uiverse.io/anniekoop/nasty-impala-89",
  "trigger": "focus",
- "description": "A input with login, email and 3d styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Outlined rounded black email input that lights up when focused.",
+ "howItWorks": "On focus, box-shadow becomes 5.5px 7px 0 #000000.",
  "tags": [
+  "outlined",
+  "rounded",
+  "email-input",
   "login",
   "email",
-  "3d",
-  "action",
-  "form",
-  "active"
+  "3d"
  ],
- "html": "<input placeholder=\"Email address\" class=\"input\" name=\"text\" type=\"email\" />",
- "css": "/* From Uiverse.io by anniekoop  - Tags: login, email, 3d, action, form, active, input, box-shadow */\n.input {\n  font-family: \"SF Pro\";\n  max-width: 190px;\n  padding: 0.875rem;\n  font-size: 1rem;\n  border: 1.5px solid #000;\n  border-radius: 0.5rem;\n  box-shadow: 2.5px 3px 0 #000;\n  outline: none;\n  transition: ease 0.25s;\n}\n\n.input:focus {\n  box-shadow: 5.5px 7px 0 black;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Impala 89</title>\n<style>\n/* From Uiverse.io by anniekoop - https://uiverse.io/anniekoop/nasty-impala-89 */\n/* From Uiverse.io by anniekoop  - Tags: login, email, 3d, action, form, active, input, box-shadow */\n.input {\n  font-family: \"SF Pro\";\n  max-width: 190px;\n  padding: 0.875rem;\n  font-size: 1rem;\n  border: 1.5px solid #000;\n  border-radius: 0.5rem;\n  box-shadow: 2.5px 3px 0 #000;\n  outline: none;\n  transition: ease 0.25s;\n}\n\n.input:focus {\n  box-shadow: 5.5px 7px 0 black;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Email address\" class=\"input\" name=\"text\" type=\"email\" />\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [
+  "SF Pro"
+ ],
+ "tokens": 162,
+ "size": 650,
+ "html": "<input placeholder=\"Email address\" class=\"input\" name=\"text\" type=\"email\" />\n",
+ "css": "/* Nasty Impala 89 by anniekoop — https://uiverse.io/anniekoop/nasty-impala-89 */\n.input {\n  font-family: \"SF Pro\";\n  max-width: 190px;\n  padding: 0.875rem;\n  font-size: 1rem;\n  border: 1.5px solid #000;\n  border-radius: 0.5rem;\n  box-shadow: 2.5px 3px 0 #000;\n  outline: none;\n  transition: ease 0.25s;\n}\n\n.input:focus {\n  box-shadow: 5.5px 7px 0 black;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Impala 89</title>\n<style>\n/* Nasty Impala 89 by anniekoop — https://uiverse.io/anniekoop/nasty-impala-89 */\n.input {\n  font-family: \"SF Pro\";\n  max-width: 190px;\n  padding: 0.875rem;\n  font-size: 1rem;\n  border: 1.5px solid #000;\n  border-radius: 0.5rem;\n  box-shadow: 2.5px 3px 0 #000;\n  outline: none;\n  transition: ease 0.25s;\n}\n\n.input:focus {\n  box-shadow: 5.5px 7px 0 black;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Email address\" class=\"input\" name=\"text\" type=\"email\" />\n\n</body>\n</html>\n"
 }

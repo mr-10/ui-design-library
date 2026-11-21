@@ -5,14 +5,24 @@
  "author": "EmmaxPlay",
  "source": "https://uiverse.io/EmmaxPlay/polite-husky-37",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient pill gray spinner loader with rotating motion in a loop.",
+ "howItWorks": "It loops a .5s animation (rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "gradient",
+  "rounded",
+  "pill",
+  "flat",
+  "spin",
+  "spinner-loader"
  ],
- "html": "<div class=\"spinner\"></div>",
- "css": "/* From Uiverse.io by EmmaxPlay - Tags: loader */\n.spinner {\n position: relative;\n width: 60px;\n height: 60px;\n border-radius: 50%;\n}\n\n.spinner::before,\n.spinner:after {\n content: \"\";\n position: absolute;\n border-radius: inherit;\n}\n\n.spinner:before {\n width: 100%;\n height: 100%;\n background-image: linear-gradient(0deg, #ff00cc 0%, #333399 100%);\n animation: spin8932 .5s infinite linear;\n}\n\n.spinner:after {\n width: 85%;\n height: 85%;\n background-color: #212121;\n top: 50%;\n left: 50%;\n transform: translate(-50%, -50%);\n}\n\n@keyframes spin8932 {\n to {\n  transform: rotate(360deg);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Husky 37</title>\n<style>\n/* From Uiverse.io by EmmaxPlay - https://uiverse.io/EmmaxPlay/polite-husky-37 */\n/* From Uiverse.io by EmmaxPlay - Tags: loader */\n.spinner {\n position: relative;\n width: 60px;\n height: 60px;\n border-radius: 50%;\n}\n\n.spinner::before,\n.spinner:after {\n content: \"\";\n position: absolute;\n border-radius: inherit;\n}\n\n.spinner:before {\n width: 100%;\n height: 100%;\n background-image: linear-gradient(0deg, #ff00cc 0%, #333399 100%);\n animation: spin8932 .5s infinite linear;\n}\n\n.spinner:after {\n width: 85%;\n height: 85%;\n background-color: #212121;\n top: 50%;\n left: 50%;\n transform: translate(-50%, -50%);\n}\n\n@keyframes spin8932 {\n to {\n  transform: rotate(360deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#212121",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 216,
+ "size": 864,
+ "html": "<div class=\"spinner\"></div>\n",
+ "css": "/* Polite Husky 37 by EmmaxPlay — https://uiverse.io/EmmaxPlay/polite-husky-37 */\n.spinner {\n position: relative;\n width: 60px;\n height: 60px;\n border-radius: 50%;\n}\n\n.spinner::before,\n.spinner:after {\n content: \"\";\n position: absolute;\n border-radius: inherit;\n}\n\n.spinner:before {\n width: 100%;\n height: 100%;\n background-image: linear-gradient(0deg, #ff00cc 0%, #333399 100%);\n animation: spin8932 .5s infinite linear;\n}\n\n.spinner:after {\n width: 85%;\n height: 85%;\n background-color: #212121;\n top: 50%;\n left: 50%;\n transform: translate(-50%, -50%);\n}\n\n@keyframes spin8932 {\n to {\n  transform: rotate(360deg);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Husky 37</title>\n<style>\n/* Polite Husky 37 by EmmaxPlay — https://uiverse.io/EmmaxPlay/polite-husky-37 */\n.spinner {\n position: relative;\n width: 60px;\n height: 60px;\n border-radius: 50%;\n}\n\n.spinner::before,\n.spinner:after {\n content: \"\";\n position: absolute;\n border-radius: inherit;\n}\n\n.spinner:before {\n width: 100%;\n height: 100%;\n background-image: linear-gradient(0deg, #ff00cc 0%, #333399 100%);\n animation: spin8932 .5s infinite linear;\n}\n\n.spinner:after {\n width: 85%;\n height: 85%;\n background-color: #212121;\n top: 50%;\n left: 50%;\n transform: translate(-50%, -50%);\n}\n\n@keyframes spin8932 {\n to {\n  transform: rotate(360deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\"></div>\n\n</body>\n</html>\n"
 }

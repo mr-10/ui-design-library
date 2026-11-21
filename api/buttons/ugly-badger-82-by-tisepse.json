@@ -5,15 +5,24 @@
  "author": "TISEPSE",
  "source": "https://uiverse.io/TISEPSE/ugly-badger-82",
  "trigger": "hover",
- "description": "A button with material-design and css-effect styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined white button that lifts on hover with a smooth transition.",
+ "howItWorks": "On hover, transform becomes translateY(-25px), height becomes 0, transform becomes scaleX(0).",
  "tags": [
+  "outlined",
+  "flat",
+  "lift",
   "material-design",
   "button",
-  "css-effect",
-  "hover"
+  "css-effect"
  ],
- "html": "<button>\n  <a href=\"#\" class=\"btn2\"><span class=\"spn2\">HELLO !</span></a>\n</button>",
- "css": "/* From Uiverse.io by TISEPSE - Tags: material design, button, css effect */\n.btn2 {\n  position: relative;\n  display: inline-block;\n  padding: 15px 30px;\n  border: 2px solid #fefefe;\n  text-transform: uppercase;\n  color: #fefefe;\n  text-decoration: none;\n  font-weight: 600;\n  font-size: 20px;\n  transition: 0.3s;\n}\n\n.btn2::before {\n  content: '';\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - -2px);\n  background-color: #212121;\n  transition: 0.3s ease-out;\n  transform: scaleY(1);\n}\n\n.btn2::after {\n  content: '';\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - 50px);\n  background-color: #212121;\n  transition: 0.3s ease-out;\n  transform: scaleY(1);\n}\n\n.btn2:hover::before {\n  transform: translateY(-25px);\n  height: 0;\n}\n\n.btn2:hover::after {\n  transform: scaleX(0);\n  transition-delay: 0.15s;\n}\n\n.btn2:hover {\n  border: 2px solid #fefefe;\n}\n\n.btn2 span {\n  position: relative;\n  z-index: 3;\n}\n\nbutton {\n  text-decoration: none;\n  border: none;\n  background-color: transparent;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Badger 82</title>\n<style>\n/* From Uiverse.io by TISEPSE - https://uiverse.io/TISEPSE/ugly-badger-82 */\n/* From Uiverse.io by TISEPSE - Tags: material design, button, css effect */\n.btn2 {\n  position: relative;\n  display: inline-block;\n  padding: 15px 30px;\n  border: 2px solid #fefefe;\n  text-transform: uppercase;\n  color: #fefefe;\n  text-decoration: none;\n  font-weight: 600;\n  font-size: 20px;\n  transition: 0.3s;\n}\n\n.btn2::before {\n  content: '';\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - -2px);\n  background-color: #212121;\n  transition: 0.3s ease-out;\n  transform: scaleY(1);\n}\n\n.btn2::after {\n  content: '';\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - 50px);\n  background-color: #212121;\n  transition: 0.3s ease-out;\n  transform: scaleY(1);\n}\n\n.btn2:hover::before {\n  transform: translateY(-25px);\n  height: 0;\n}\n\n.btn2:hover::after {\n  transform: scaleX(0);\n  transition-delay: 0.15s;\n}\n\n.btn2:hover {\n  border: 2px solid #fefefe;\n}\n\n.btn2 span {\n  position: relative;\n  z-index: 3;\n}\n\nbutton {\n  text-decoration: none;\n  border: none;\n  background-color: transparent;\n}\n</style>\n</head>\n<body>\n<button>\n  <a href=\"#\" class=\"btn2\"><span class=\"spn2\">HELLO !</span></a>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#fefefe",
+  "#212121"
+ ],
+ "fonts": [],
+ "tokens": 346,
+ "size": 1384,
+ "html": "<button>\n  <a href=\"#\" class=\"btn2\"><span class=\"spn2\">HELLO !</span></a>\n</button>\n",
+ "css": "/* Ugly Badger 82 by TISEPSE — https://uiverse.io/TISEPSE/ugly-badger-82 */\n.btn2 {\n  position: relative;\n  display: inline-block;\n  padding: 15px 30px;\n  border: 2px solid #fefefe;\n  text-transform: uppercase;\n  color: #fefefe;\n  text-decoration: none;\n  font-weight: 600;\n  font-size: 20px;\n  transition: 0.3s;\n}\n\n.btn2::before {\n  content: '';\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - -2px);\n  background-color: #212121;\n  transition: 0.3s ease-out;\n  transform: scaleY(1);\n}\n\n.btn2::after {\n  content: '';\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - 50px);\n  background-color: #212121;\n  transition: 0.3s ease-out;\n  transform: scaleY(1);\n}\n\n.btn2:hover::before {\n  transform: translateY(-25px);\n  height: 0;\n}\n\n.btn2:hover::after {\n  transform: scaleX(0);\n  transition-delay: 0.15s;\n}\n\n.btn2:hover {\n  border: 2px solid #fefefe;\n}\n\n.btn2 span {\n  position: relative;\n  z-index: 3;\n}\n\nbutton {\n  text-decoration: none;\n  border: none;\n  background-color: transparent;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Badger 82</title>\n<style>\n/* Ugly Badger 82 by TISEPSE — https://uiverse.io/TISEPSE/ugly-badger-82 */\n.btn2 {\n  position: relative;\n  display: inline-block;\n  padding: 15px 30px;\n  border: 2px solid #fefefe;\n  text-transform: uppercase;\n  color: #fefefe;\n  text-decoration: none;\n  font-weight: 600;\n  font-size: 20px;\n  transition: 0.3s;\n}\n\n.btn2::before {\n  content: '';\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - -2px);\n  background-color: #212121;\n  transition: 0.3s ease-out;\n  transform: scaleY(1);\n}\n\n.btn2::after {\n  content: '';\n  position: absolute;\n  top: -2px;\n  left: -2px;\n  width: calc(100% + 4px);\n  height: calc(100% - 50px);\n  background-color: #212121;\n  transition: 0.3s ease-out;\n  transform: scaleY(1);\n}\n\n.btn2:hover::before {\n  transform: translateY(-25px);\n  height: 0;\n}\n\n.btn2:hover::after {\n  transform: scaleX(0);\n  transition-delay: 0.15s;\n}\n\n.btn2:hover {\n  border: 2px solid #fefefe;\n}\n\n.btn2 span {\n  position: relative;\n  z-index: 3;\n}\n\nbutton {\n  text-decoration: none;\n  border: none;\n  background-color: transparent;\n}\n</style>\n</head>\n<body>\n<button>\n  <a href=\"#\" class=\"btn2\"><span class=\"spn2\">HELLO !</span></a>\n</button>\n\n</body>\n</html>\n"
 }

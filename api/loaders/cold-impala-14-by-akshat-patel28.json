@@ -5,17 +5,24 @@
  "author": "akshat-patel28",
  "source": "https://uiverse.io/akshat-patel28/cold-impala-14",
  "trigger": "auto-loop",
- "description": "A loader with animation, text-animation and animated styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient green loader with animating; growing and shrinking motion in a loop.",
+ "howItWorks": "It loops a 2s animation (animating; growing and shrinking).",
  "tags": [
+  "green",
+  "blue",
+  "gradient",
+  "flat",
   "animation",
-  "loader",
-  "text-animation",
-  "animated",
-  "typewriter",
-  "auto-loop"
+  "loader"
  ],
- "html": "<div class=\"loader\">\n<span class=\"loader-text\">Loading...</span>\n</div>",
- "css": "/* From Uiverse.io by akshat-patel28 - Tags: animation, loader, text animation, animated, typewriter */\n.loader {\n  position: relative;\n  overflow: hidden;\n  border-right: 3px solid;\n  width: 0px;\n  animation: typewriter 2s steps(10)  infinite alternate , blink 0.5s steps(10) infinite;\n}\n\n.loader-text {\n  font-size: 40px;\n  font-weight: 700;\n  background: linear-gradient(to right,#159957, #155799);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n}\n\n@keyframes typewriter {\n  0% {\n    width: 0px;\n  }\n\n  100% {\n    width: 240px;\n  }\n}\n\n@keyframes blink {\n  0% {\n    border-right-color: rgba(255,255,255,.75);\n    ;\n  }\n\n  100% {\n    border-right-color: transparent;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cold Impala 14</title>\n<style>\n/* From Uiverse.io by akshat-patel28 - https://uiverse.io/akshat-patel28/cold-impala-14 */\n/* From Uiverse.io by akshat-patel28 - Tags: animation, loader, text animation, animated, typewriter */\n.loader {\n  position: relative;\n  overflow: hidden;\n  border-right: 3px solid;\n  width: 0px;\n  animation: typewriter 2s steps(10)  infinite alternate , blink 0.5s steps(10) infinite;\n}\n\n.loader-text {\n  font-size: 40px;\n  font-weight: 700;\n  background: linear-gradient(to right,#159957, #155799);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n}\n\n@keyframes typewriter {\n  0% {\n    width: 0px;\n  }\n\n  100% {\n    width: 240px;\n  }\n}\n\n@keyframes blink {\n  0% {\n    border-right-color: rgba(255,255,255,.75);\n    ;\n  }\n\n  100% {\n    border-right-color: transparent;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n<span class=\"loader-text\">Loading...</span>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#159957",
+  "#155799"
+ ],
+ "fonts": [],
+ "tokens": 243,
+ "size": 973,
+ "html": "<div class=\"loader\">\n<span class=\"loader-text\">Loading...</span>\n</div>\n",
+ "css": "/* Cold Impala 14 by akshat-patel28 — https://uiverse.io/akshat-patel28/cold-impala-14 */\n.loader {\n  position: relative;\n  overflow: hidden;\n  border-right: 3px solid;\n  width: 0px;\n  animation: typewriter 2s steps(10)  infinite alternate , blink 0.5s steps(10) infinite;\n}\n\n.loader-text {\n  font-size: 40px;\n  font-weight: 700;\n  background: linear-gradient(to right,#159957, #155799);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n}\n\n@keyframes typewriter {\n  0% {\n    width: 0px;\n  }\n\n  100% {\n    width: 240px;\n  }\n}\n\n@keyframes blink {\n  0% {\n    border-right-color: rgba(255,255,255,.75);\n    ;\n  }\n\n  100% {\n    border-right-color: transparent;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cold Impala 14</title>\n<style>\n/* Cold Impala 14 by akshat-patel28 — https://uiverse.io/akshat-patel28/cold-impala-14 */\n.loader {\n  position: relative;\n  overflow: hidden;\n  border-right: 3px solid;\n  width: 0px;\n  animation: typewriter 2s steps(10)  infinite alternate , blink 0.5s steps(10) infinite;\n}\n\n.loader-text {\n  font-size: 40px;\n  font-weight: 700;\n  background: linear-gradient(to right,#159957, #155799);\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n}\n\n@keyframes typewriter {\n  0% {\n    width: 0px;\n  }\n\n  100% {\n    width: 240px;\n  }\n}\n\n@keyframes blink {\n  0% {\n    border-right-color: rgba(255,255,255,.75);\n    ;\n  }\n\n  100% {\n    border-right-color: transparent;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n<span class=\"loader-text\">Loading...</span>\n</div>\n\n</body>\n</html>\n"
 }

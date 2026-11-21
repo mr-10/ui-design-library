@@ -5,15 +5,24 @@
  "author": "JaydipPrajapati1910",
  "source": "https://uiverse.io/JaydipPrajapati1910/lazy-lion-40",
  "trigger": "auto-loop",
- "description": "A loader with loading and square styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient cyan loader with shimmering motion in a loop.",
+ "howItWorks": "It loops a 1s animation (shimmering).",
  "tags": [
+  "cyan",
+  "gradient",
+  "flat",
+  "shimmer",
   "loading",
-  "loader",
-  "square",
-  "auto-loop"
+  "loader"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: loading, loader, square */\n.loader {\n  width: 100px;\n  height: 100px;\n  display: grid;\n  color: hsl(204, 86%, 69%);\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  grid-area: 1/1;\n  --c1: linear-gradient(90deg,rgb(247, 247, 247) calc(100%/3),currentColor 0 calc(2*100%/3),rgb(247, 247, 247) 0);\n  --c2: linear-gradient( 0deg,rgb(247, 247, 247) calc(100%/3),currentColor 0 calc(2*100%/3),rgb(247, 247, 247) 0);\n  background: var(--c1),\n    var(--c2),\n    var(--c1),\n    var(--c2);\n  background-size: 300% 8px,8px 300%;\n  background-repeat: no-repeat;\n  animation: l1 1s infinite linear;\n}\n\n.loader:after {\n  margin: 10px;\n  transform: scaleX(-1);\n  animation-delay: -.25s;\n}\n\n@keyframes l1 {\n  0% {\n    background-position: 50%  0,100% 100%,0    100%,0 0\n  }\n\n  25% {\n    background-position: 0    0,100% 50% ,0    100%,0 0\n  }\n\n  50% {\n    background-position: 0    0,100% 0   ,50%  100%,0 0\n  }\n\n  75% {\n    background-position: 0    0,100% 0   ,100% 100%,0 50%\n  }\n\n  75.01% {\n    background-position: 100% 0,100% 0   ,100% 100%,0 50%\n  }\n\n  100% {\n    background-position: 50%  0,100% 0   ,100% 100%,0 100%\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lazy Lion 40</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/lazy-lion-40 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: loading, loader, square */\n.loader {\n  width: 100px;\n  height: 100px;\n  display: grid;\n  color: hsl(204, 86%, 69%);\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  grid-area: 1/1;\n  --c1: linear-gradient(90deg,rgb(247, 247, 247) calc(100%/3),currentColor 0 calc(2*100%/3),rgb(247, 247, 247) 0);\n  --c2: linear-gradient( 0deg,rgb(247, 247, 247) calc(100%/3),currentColor 0 calc(2*100%/3),rgb(247, 247, 247) 0);\n  background: var(--c1),\n    var(--c2),\n    var(--c1),\n    var(--c2);\n  background-size: 300% 8px,8px 300%;\n  background-repeat: no-repeat;\n  animation: l1 1s infinite linear;\n}\n\n.loader:after {\n  margin: 10px;\n  transform: scaleX(-1);\n  animation-delay: -.25s;\n}\n\n@keyframes l1 {\n  0% {\n    background-position: 50%  0,100% 100%,0    100%,0 0\n  }\n\n  25% {\n    background-position: 0    0,100% 50% ,0    100%,0 0\n  }\n\n  50% {\n    background-position: 0    0,100% 0   ,50%  100%,0 0\n  }\n\n  75% {\n    background-position: 0    0,100% 0   ,100% 100%,0 50%\n  }\n\n  75.01% {\n    background-position: 100% 0,100% 0   ,100% 100%,0 50%\n  }\n\n  100% {\n    background-position: 50%  0,100% 0   ,100% 100%,0 100%\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#f7f7f7",
+  "#6cbef4"
+ ],
+ "fonts": [],
+ "tokens": 357,
+ "size": 1429,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Lazy Lion 40 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/lazy-lion-40 */\n.loader {\n  width: 100px;\n  height: 100px;\n  display: grid;\n  color: hsl(204, 86%, 69%);\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  grid-area: 1/1;\n  --c1: linear-gradient(90deg,rgb(247, 247, 247) calc(100%/3),currentColor 0 calc(2*100%/3),rgb(247, 247, 247) 0);\n  --c2: linear-gradient( 0deg,rgb(247, 247, 247) calc(100%/3),currentColor 0 calc(2*100%/3),rgb(247, 247, 247) 0);\n  background: var(--c1),\n    var(--c2),\n    var(--c1),\n    var(--c2);\n  background-size: 300% 8px,8px 300%;\n  background-repeat: no-repeat;\n  animation: l1 1s infinite linear;\n}\n\n.loader:after {\n  margin: 10px;\n  transform: scaleX(-1);\n  animation-delay: -.25s;\n}\n\n@keyframes l1 {\n  0% {\n    background-position: 50%  0,100% 100%,0    100%,0 0\n  }\n\n  25% {\n    background-position: 0    0,100% 50% ,0    100%,0 0\n  }\n\n  50% {\n    background-position: 0    0,100% 0   ,50%  100%,0 0\n  }\n\n  75% {\n    background-position: 0    0,100% 0   ,100% 100%,0 50%\n  }\n\n  75.01% {\n    background-position: 100% 0,100% 0   ,100% 100%,0 50%\n  }\n\n  100% {\n    background-position: 50%  0,100% 0   ,100% 100%,0 100%\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lazy Lion 40</title>\n<style>\n/* Lazy Lion 40 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/lazy-lion-40 */\n.loader {\n  width: 100px;\n  height: 100px;\n  display: grid;\n  color: hsl(204, 86%, 69%);\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  grid-area: 1/1;\n  --c1: linear-gradient(90deg,rgb(247, 247, 247) calc(100%/3),currentColor 0 calc(2*100%/3),rgb(247, 247, 247) 0);\n  --c2: linear-gradient( 0deg,rgb(247, 247, 247) calc(100%/3),currentColor 0 calc(2*100%/3),rgb(247, 247, 247) 0);\n  background: var(--c1),\n    var(--c2),\n    var(--c1),\n    var(--c2);\n  background-size: 300% 8px,8px 300%;\n  background-repeat: no-repeat;\n  animation: l1 1s infinite linear;\n}\n\n.loader:after {\n  margin: 10px;\n  transform: scaleX(-1);\n  animation-delay: -.25s;\n}\n\n@keyframes l1 {\n  0% {\n    background-position: 50%  0,100% 100%,0    100%,0 0\n  }\n\n  25% {\n    background-position: 0    0,100% 50% ,0    100%,0 0\n  }\n\n  50% {\n    background-position: 0    0,100% 0   ,50%  100%,0 0\n  }\n\n  75% {\n    background-position: 0    0,100% 0   ,100% 100%,0 50%\n  }\n\n  75.01% {\n    background-position: 100% 0,100% 0   ,100% 100%,0 50%\n  }\n\n  100% {\n    background-position: 50%  0,100% 0   ,100% 100%,0 100%\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

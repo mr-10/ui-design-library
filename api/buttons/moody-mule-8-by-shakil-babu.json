@@ -5,14 +5,25 @@
  "author": "Shakil-Babu",
  "source": "https://uiverse.io/Shakil-Babu/moody-mule-8",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded teal button that changes colour on hover.",
+ "howItWorks": "On hover, border becomes 2px dashed #00BFA6, background-color changes from #00BFA6 to #fff, text color changes from #fff to #00BFA6.",
  "tags": [
+  "teal",
+  "blue",
+  "rounded",
+  "color-change",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button class=\"btn\"> Hover me\n</button>",
- "css": "/* From Uiverse.io by Shakil-Babu - Tags: button */\n.btn {\n background-color: #00BFA6;\n padding: 14px 40px;\n color: #fff;\n text-transform: uppercase;\n letter-spacing: 2px;\n cursor: pointer;\n border-radius: 10px;\n border: 2px dashed #00BFA6;\n box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n transition: .4s;\n}\n\n.btn span:last-child {\n display: none;\n}\n\n.btn:hover {\n transition: .4s;\n border: 2px dashed #00BFA6;\n background-color: #fff;\n color: #00BFA6;\n}\n\n.btn:active {\n background-color: #87dbd0;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Mule 8</title>\n<style>\n/* From Uiverse.io by Shakil-Babu - https://uiverse.io/Shakil-Babu/moody-mule-8 */\n/* From Uiverse.io by Shakil-Babu - Tags: button */\n.btn {\n background-color: #00BFA6;\n padding: 14px 40px;\n color: #fff;\n text-transform: uppercase;\n letter-spacing: 2px;\n cursor: pointer;\n border-radius: 10px;\n border: 2px dashed #00BFA6;\n box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n transition: .4s;\n}\n\n.btn span:last-child {\n display: none;\n}\n\n.btn:hover {\n transition: .4s;\n border: 2px dashed #00BFA6;\n background-color: #fff;\n color: #00BFA6;\n}\n\n.btn:active {\n background-color: #87dbd0;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"> Hover me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#00bfa6",
+  "#32325d",
+  "#87dbd0"
+ ],
+ "fonts": [],
+ "tokens": 206,
+ "size": 825,
+ "html": "<button class=\"btn\"> Hover me\n</button>\n",
+ "css": "/* Moody Mule 8 by Shakil-Babu — https://uiverse.io/Shakil-Babu/moody-mule-8 */\n.btn {\n background-color: #00BFA6;\n padding: 14px 40px;\n color: #fff;\n text-transform: uppercase;\n letter-spacing: 2px;\n cursor: pointer;\n border-radius: 10px;\n border: 2px dashed #00BFA6;\n box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n transition: .4s;\n}\n\n.btn span:last-child {\n display: none;\n}\n\n.btn:hover {\n transition: .4s;\n border: 2px dashed #00BFA6;\n background-color: #fff;\n color: #00BFA6;\n}\n\n.btn:active {\n background-color: #87dbd0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Mule 8</title>\n<style>\n/* Moody Mule 8 by Shakil-Babu — https://uiverse.io/Shakil-Babu/moody-mule-8 */\n.btn {\n background-color: #00BFA6;\n padding: 14px 40px;\n color: #fff;\n text-transform: uppercase;\n letter-spacing: 2px;\n cursor: pointer;\n border-radius: 10px;\n border: 2px dashed #00BFA6;\n box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;\n transition: .4s;\n}\n\n.btn span:last-child {\n display: none;\n}\n\n.btn:hover {\n transition: .4s;\n border: 2px dashed #00BFA6;\n background-color: #fff;\n color: #00BFA6;\n}\n\n.btn:active {\n background-color: #87dbd0;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"> Hover me\n</button>\n\n</body>\n</html>\n"
 }

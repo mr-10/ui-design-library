@@ -5,15 +5,24 @@
  "author": "JesscMendesr",
  "source": "https://uiverse.io/JesscMendesr/lucky-eagle-6",
  "trigger": "hover",
- "description": "A button with transition and box-shadow styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded dark red button that lifts and glows on hover.",
+ "howItWorks": "On hover, box-shadow becomes 4px 6px 0px #371616, transform becomes translateY(-0.4em).",
  "tags": [
-  "transition",
-  "box-shadow",
-  "buttons",
-  "hover"
+  "red",
+  "amber",
+  "rounded",
+  "lift",
+  "glow",
+  "transition"
  ],
- "html": "<button class=\"button\">\n  Button\n</button>",
- "css": "/* From Uiverse.io by JesscMendesr - Tags: transition, box-shadow */\n.button {\n  font-size: 1rem;\n  background-color: #F2E1C1 !important;\n  transform: translateY(-0.10em);\n  box-shadow: 3px 3px 0px rgba(55, 22, 22, 0.67);\n  border: 1px solid rgba(55, 22, 22, 0.67);\n  border-radius: 50px;\n  padding: 0.75em 1.5em;\n  transition: 0.2s;\n  cursor: pointer;\n}\n\nbutton:hover {\n  box-shadow: 4px 6px 0px rgba(55, 22, 22, 0.67);\n  transform: translateY(-0.4em);\n}\n\nbutton:active {\n  box-shadow: none;\n  transform: translateY(0);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lucky Eagle 6</title>\n<style>\n/* From Uiverse.io by JesscMendesr - https://uiverse.io/JesscMendesr/lucky-eagle-6 */\n/* From Uiverse.io by JesscMendesr - Tags: transition, box-shadow */\n.button {\n  font-size: 1rem;\n  background-color: #F2E1C1 !important;\n  transform: translateY(-0.10em);\n  box-shadow: 3px 3px 0px rgba(55, 22, 22, 0.67);\n  border: 1px solid rgba(55, 22, 22, 0.67);\n  border-radius: 50px;\n  padding: 0.75em 1.5em;\n  transition: 0.2s;\n  cursor: pointer;\n}\n\nbutton:hover {\n  box-shadow: 4px 6px 0px rgba(55, 22, 22, 0.67);\n  transform: translateY(-0.4em);\n}\n\nbutton:active {\n  box-shadow: none;\n  transform: translateY(0);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#371616",
+  "#f2e1c1"
+ ],
+ "fonts": [],
+ "tokens": 198,
+ "size": 795,
+ "html": "<button class=\"button\">\n  Button\n</button>\n",
+ "css": "/* Lucky Eagle 6 by JesscMendesr — https://uiverse.io/JesscMendesr/lucky-eagle-6 */\n.button {\n  font-size: 1rem;\n  background-color: #F2E1C1 !important;\n  transform: translateY(-0.10em);\n  box-shadow: 3px 3px 0px rgba(55, 22, 22, 0.67);\n  border: 1px solid rgba(55, 22, 22, 0.67);\n  border-radius: 50px;\n  padding: 0.75em 1.5em;\n  transition: 0.2s;\n  cursor: pointer;\n}\n\nbutton:hover {\n  box-shadow: 4px 6px 0px rgba(55, 22, 22, 0.67);\n  transform: translateY(-0.4em);\n}\n\nbutton:active {\n  box-shadow: none;\n  transform: translateY(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lucky Eagle 6</title>\n<style>\n/* Lucky Eagle 6 by JesscMendesr — https://uiverse.io/JesscMendesr/lucky-eagle-6 */\n.button {\n  font-size: 1rem;\n  background-color: #F2E1C1 !important;\n  transform: translateY(-0.10em);\n  box-shadow: 3px 3px 0px rgba(55, 22, 22, 0.67);\n  border: 1px solid rgba(55, 22, 22, 0.67);\n  border-radius: 50px;\n  padding: 0.75em 1.5em;\n  transition: 0.2s;\n  cursor: pointer;\n}\n\nbutton:hover {\n  box-shadow: 4px 6px 0px rgba(55, 22, 22, 0.67);\n  transform: translateY(-0.4em);\n}\n\nbutton:active {\n  box-shadow: none;\n  transform: translateY(0);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

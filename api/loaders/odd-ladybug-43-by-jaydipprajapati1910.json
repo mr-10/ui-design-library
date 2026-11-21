@@ -5,17 +5,24 @@
  "author": "JaydipPrajapati1910",
  "source": "https://uiverse.io/JaydipPrajapati1910/odd-ladybug-43",
  "trigger": "auto-loop",
- "description": "A loader with animation, loading and animated styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "3d pill white spinner loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 3s animation (rotating).",
  "tags": [
-  "animation",
-  "loading",
-  "loader",
-  "animated",
-  "circle-loader",
-  "loader-circle"
+  "3d",
+  "rounded",
+  "pill",
+  "flat",
+  "spin",
+  "spinner-loader"
  ],
- "html": "<div class=\"spinner\">\n  <div class=\"outer\">\n    <div class=\"inner tl\"></div>\n    <div class=\"inner tr\"></div>\n    <div class=\"inner br\"></div>\n    <div class=\"inner bl\"></div>\n  </div>\n</div>",
- "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, loading, loader, animated, circle loader, loader circle */\n.spinner {\n  position: absolute;\n  width: 128px;\n  height: 128px;\n  top: calc(50% - 64px);\n  left: calc(50% - 64px);\n  transform: perspective(206px) rotateX(45deg);\n}\n\n.outer {\n  box-sizing: border-box;\n  animation: spin 3s linear infinite;\n  height: 100%;\n}\n\n.inner {\n  position: absolute;\n  border-radius: 50%;\n  width: 64px;\n  height: 64px;\n}\n\n.tl {\n  top: 0;\n  left: 0;\n  border-top: 8px solid red;\n  border-left: 10px solid red;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.tr {\n  top: 0;\n  right: 0;\n  border-top: 8px solid #0575E6;\n  border-right: 10px solid #0575E6;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.br {\n  bottom: 0;\n  right: 0;\n  border-bottom: 8px solid  #00F260;\n  border-right: 10px solid  #00F260;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.bl {\n  bottom: 0;\n  left: 0;\n  border-bottom: 8px solid  #e9e93e;\n  border-left: 10x solid #e9e93e;\n  animation: spin 1s ease-in-out infinite;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Odd Ladybug 43</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/odd-ladybug-43 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, loading, loader, animated, circle loader, loader circle */\n.spinner {\n  position: absolute;\n  width: 128px;\n  height: 128px;\n  top: calc(50% - 64px);\n  left: calc(50% - 64px);\n  transform: perspective(206px) rotateX(45deg);\n}\n\n.outer {\n  box-sizing: border-box;\n  animation: spin 3s linear infinite;\n  height: 100%;\n}\n\n.inner {\n  position: absolute;\n  border-radius: 50%;\n  width: 64px;\n  height: 64px;\n}\n\n.tl {\n  top: 0;\n  left: 0;\n  border-top: 8px solid red;\n  border-left: 10px solid red;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.tr {\n  top: 0;\n  right: 0;\n  border-top: 8px solid #0575E6;\n  border-right: 10px solid #0575E6;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.br {\n  bottom: 0;\n  right: 0;\n  border-bottom: 8px solid  #00F260;\n  border-right: 10px solid  #00F260;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.bl {\n  bottom: 0;\n  left: 0;\n  border-bottom: 8px solid  #e9e93e;\n  border-left: 10x solid #e9e93e;\n  animation: spin 1s ease-in-out infinite;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\">\n  <div class=\"outer\">\n    <div class=\"inner tl\"></div>\n    <div class=\"inner tr\"></div>\n    <div class=\"inner br\"></div>\n    <div class=\"inner bl\"></div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 383,
+ "size": 1533,
+ "html": "<div class=\"spinner\">\n  <div class=\"outer\">\n    <div class=\"inner tl\"></div>\n    <div class=\"inner tr\"></div>\n    <div class=\"inner br\"></div>\n    <div class=\"inner bl\"></div>\n  </div>\n</div>\n",
+ "css": "/* Odd Ladybug 43 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/odd-ladybug-43 */\n.spinner {\n  position: absolute;\n  width: 128px;\n  height: 128px;\n  top: calc(50% - 64px);\n  left: calc(50% - 64px);\n  transform: perspective(206px) rotateX(45deg);\n}\n\n.outer {\n  box-sizing: border-box;\n  animation: spin 3s linear infinite;\n  height: 100%;\n}\n\n.inner {\n  position: absolute;\n  border-radius: 50%;\n  width: 64px;\n  height: 64px;\n}\n\n.tl {\n  top: 0;\n  left: 0;\n  border-top: 8px solid red;\n  border-left: 10px solid red;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.tr {\n  top: 0;\n  right: 0;\n  border-top: 8px solid #0575E6;\n  border-right: 10px solid #0575E6;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.br {\n  bottom: 0;\n  right: 0;\n  border-bottom: 8px solid  #00F260;\n  border-right: 10px solid  #00F260;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.bl {\n  bottom: 0;\n  left: 0;\n  border-bottom: 8px solid  #e9e93e;\n  border-left: 10x solid #e9e93e;\n  animation: spin 1s ease-in-out infinite;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Odd Ladybug 43</title>\n<style>\n/* Odd Ladybug 43 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/odd-ladybug-43 */\n.spinner {\n  position: absolute;\n  width: 128px;\n  height: 128px;\n  top: calc(50% - 64px);\n  left: calc(50% - 64px);\n  transform: perspective(206px) rotateX(45deg);\n}\n\n.outer {\n  box-sizing: border-box;\n  animation: spin 3s linear infinite;\n  height: 100%;\n}\n\n.inner {\n  position: absolute;\n  border-radius: 50%;\n  width: 64px;\n  height: 64px;\n}\n\n.tl {\n  top: 0;\n  left: 0;\n  border-top: 8px solid red;\n  border-left: 10px solid red;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.tr {\n  top: 0;\n  right: 0;\n  border-top: 8px solid #0575E6;\n  border-right: 10px solid #0575E6;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.br {\n  bottom: 0;\n  right: 0;\n  border-bottom: 8px solid  #00F260;\n  border-right: 10px solid  #00F260;\n  animation: spin 1s ease-in-out infinite;\n}\n\n.bl {\n  bottom: 0;\n  left: 0;\n  border-bottom: 8px solid  #e9e93e;\n  border-left: 10x solid #e9e93e;\n  animation: spin 1s ease-in-out infinite;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\">\n  <div class=\"outer\">\n    <div class=\"inner tl\"></div>\n    <div class=\"inner tr\"></div>\n    <div class=\"inner br\"></div>\n    <div class=\"inner bl\"></div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

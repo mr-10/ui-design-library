@@ -5,15 +5,25 @@
  "author": "DSB2004",
  "source": "https://uiverse.io/DSB2004/ugly-yak-77",
  "trigger": "auto-loop",
- "description": "A loader with simple and gradient styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient 3d indigo loader with bouncing; growing and shrinking motion in a loop.",
+ "howItWorks": "It loops a animation (bouncing; growing and shrinking).",
  "tags": [
-  "simple",
+  "indigo",
+  "blue",
   "gradient",
-  "loader",
-  "auto-loop"
+  "3d",
+  "flat",
+  "bounce"
  ],
- "html": "<div id=\"Loading\">\n  <div id=\"loading_div\">\n    <div id=\"loading_bouncer\"></div>\n    <div id=\"shadow\"></div>\n  </div>\n</div>",
- "css": "/* From Uiverse.io by DSB2004  - Tags: simple, gradient, loader */\n#Loading {\n  height: 100%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n#loading_div {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n@keyframes bounce {\n  0% {\n    transform: translateY(0px);\n  }\n  50% {\n    transform: translateY(-50px);\n  }\n  100% {\n    transform: translateY(0px);\n  }\n}\n@keyframes shadow {\n  0% {\n    height: 50px;\n    width: 50px;\n  }\n  50% {\n    height: 10px;\n    width: 10px;\n  }\n  100% {\n    height: 50px;\n    width: 50px;\n  }\n}\n#loading_bouncer {\n  height: 50px;\n  width: 50px;\n  border-radius: 100%;\n  background: linear-gradient(\n    to bottom,\n    rgb(89, 0, 255),\n    rgb(0, 110, 255),\n    rgb(25, 0, 255)\n  );\n  animation: bounce 500ms ease-in-out infinite;\n}\n#shadow {\n  position: absolute;\n  height: 50px;\n  width: 50px;\n  border-radius: 100%;\n  background: black;\n  top: 30px;\n  transform: rotateX(80deg);\n  animation: shadow 500ms ease-in-out infinite;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Yak 77</title>\n<style>\n/* From Uiverse.io by DSB2004 - https://uiverse.io/DSB2004/ugly-yak-77 */\n/* From Uiverse.io by DSB2004  - Tags: simple, gradient, loader */\n#Loading {\n  height: 100%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n#loading_div {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n@keyframes bounce {\n  0% {\n    transform: translateY(0px);\n  }\n  50% {\n    transform: translateY(-50px);\n  }\n  100% {\n    transform: translateY(0px);\n  }\n}\n@keyframes shadow {\n  0% {\n    height: 50px;\n    width: 50px;\n  }\n  50% {\n    height: 10px;\n    width: 10px;\n  }\n  100% {\n    height: 50px;\n    width: 50px;\n  }\n}\n#loading_bouncer {\n  height: 50px;\n  width: 50px;\n  border-radius: 100%;\n  background: linear-gradient(\n    to bottom,\n    rgb(89, 0, 255),\n    rgb(0, 110, 255),\n    rgb(25, 0, 255)\n  );\n  animation: bounce 500ms ease-in-out infinite;\n}\n#shadow {\n  position: absolute;\n  height: 50px;\n  width: 50px;\n  border-radius: 100%;\n  background: black;\n  top: 30px;\n  transform: rotateX(80deg);\n  animation: shadow 500ms ease-in-out infinite;\n}\n</style>\n</head>\n<body>\n<div id=\"Loading\">\n  <div id=\"loading_div\">\n    <div id=\"loading_bouncer\"></div>\n    <div id=\"shadow\"></div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#5900ff",
+  "#006eff",
+  "#1900ff"
+ ],
+ "fonts": [],
+ "tokens": 350,
+ "size": 1401,
+ "html": "<div id=\"Loading\">\n  <div id=\"loading_div\">\n    <div id=\"loading_bouncer\"></div>\n    <div id=\"shadow\"></div>\n  </div>\n</div>\n",
+ "css": "/* Ugly Yak 77 by DSB2004 — https://uiverse.io/DSB2004/ugly-yak-77 */\n#Loading {\n  height: 100%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n#loading_div {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n@keyframes bounce {\n  0% {\n    transform: translateY(0px);\n  }\n  50% {\n    transform: translateY(-50px);\n  }\n  100% {\n    transform: translateY(0px);\n  }\n}\n@keyframes shadow {\n  0% {\n    height: 50px;\n    width: 50px;\n  }\n  50% {\n    height: 10px;\n    width: 10px;\n  }\n  100% {\n    height: 50px;\n    width: 50px;\n  }\n}\n#loading_bouncer {\n  height: 50px;\n  width: 50px;\n  border-radius: 100%;\n  background: linear-gradient(\n    to bottom,\n    rgb(89, 0, 255),\n    rgb(0, 110, 255),\n    rgb(25, 0, 255)\n  );\n  animation: bounce 500ms ease-in-out infinite;\n}\n#shadow {\n  position: absolute;\n  height: 50px;\n  width: 50px;\n  border-radius: 100%;\n  background: black;\n  top: 30px;\n  transform: rotateX(80deg);\n  animation: shadow 500ms ease-in-out infinite;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Yak 77</title>\n<style>\n/* Ugly Yak 77 by DSB2004 — https://uiverse.io/DSB2004/ugly-yak-77 */\n#Loading {\n  height: 100%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n#loading_div {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n@keyframes bounce {\n  0% {\n    transform: translateY(0px);\n  }\n  50% {\n    transform: translateY(-50px);\n  }\n  100% {\n    transform: translateY(0px);\n  }\n}\n@keyframes shadow {\n  0% {\n    height: 50px;\n    width: 50px;\n  }\n  50% {\n    height: 10px;\n    width: 10px;\n  }\n  100% {\n    height: 50px;\n    width: 50px;\n  }\n}\n#loading_bouncer {\n  height: 50px;\n  width: 50px;\n  border-radius: 100%;\n  background: linear-gradient(\n    to bottom,\n    rgb(89, 0, 255),\n    rgb(0, 110, 255),\n    rgb(25, 0, 255)\n  );\n  animation: bounce 500ms ease-in-out infinite;\n}\n#shadow {\n  position: absolute;\n  height: 50px;\n  width: 50px;\n  border-radius: 100%;\n  background: black;\n  top: 30px;\n  transform: rotateX(80deg);\n  animation: shadow 500ms ease-in-out infinite;\n}\n</style>\n</head>\n<body>\n<div id=\"Loading\">\n  <div id=\"loading_div\">\n    <div id=\"loading_bouncer\"></div>\n    <div id=\"shadow\"></div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

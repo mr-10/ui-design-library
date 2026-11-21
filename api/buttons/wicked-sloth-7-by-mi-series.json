@@ -5,17 +5,27 @@
  "author": "mi-series",
  "source": "https://uiverse.io/mi-series/wicked-sloth-7",
  "trigger": "active",
- "description": "A button with simple, material-design and 3d styling.",
- "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "description": "Green submit button that responds while pressed down.",
+ "howItWorks": "While pressed, transform becomes translateY(5px), outline becomes 0.",
  "tags": [
+  "green",
+  "submit",
+  "submit-button",
   "simple",
   "material-design",
-  "3d",
-  "green",
-  "minimalist",
-  "button"
+  "3d"
  ],
- "html": "<button class=\"button\">\n  <span>Submit</span>\n</button>",
- "css": "/* From Uiverse.io by mi-series - Tags: simple, material design, 3d, green, minimalist, button, click, btn */\n.button {\n  width: 150px;\n  padding: 0;\n  border: none;\n  transform: rotate(5deg);\n  transform-origin: center;\n  font-family: \"Gochi Hand\", cursive;\n  text-decoration: none;\n  font-size: 15px;\n  padding-bottom: 3px;\n  border-radius: 5px;\n  box-shadow: 0 2px 0 #494a4b;\n  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  background-color: #5CDB95;\n}\n\n.button span {\n  background: #f1f5f8;\n  display: block;\n  padding: 0.5rem 1rem;\n  border-radius: 5px;\n  border: 2px solid #494a4b;\n}\n\n.button:active {\n  transform: translateY(5px);\n  padding-bottom: 0px;\n  outline: 0;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wicked Sloth 7</title>\n<style>\n/* From Uiverse.io by mi-series - https://uiverse.io/mi-series/wicked-sloth-7 */\n/* From Uiverse.io by mi-series - Tags: simple, material design, 3d, green, minimalist, button, click, btn */\n.button {\n  width: 150px;\n  padding: 0;\n  border: none;\n  transform: rotate(5deg);\n  transform-origin: center;\n  font-family: \"Gochi Hand\", cursive;\n  text-decoration: none;\n  font-size: 15px;\n  padding-bottom: 3px;\n  border-radius: 5px;\n  box-shadow: 0 2px 0 #494a4b;\n  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  background-color: #5CDB95;\n}\n\n.button span {\n  background: #f1f5f8;\n  display: block;\n  padding: 0.5rem 1rem;\n  border-radius: 5px;\n  border: 2px solid #494a4b;\n}\n\n.button:active {\n  transform: translateY(5px);\n  padding-bottom: 0px;\n  outline: 0;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <span>Submit</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#494a4b",
+  "#5cdb95",
+  "#f1f5f8"
+ ],
+ "fonts": [
+  "Gochi Hand"
+ ],
+ "tokens": 234,
+ "size": 936,
+ "html": "<button class=\"button\">\n  <span>Submit</span>\n</button>\n",
+ "css": "/* Wicked Sloth 7 by mi-series — https://uiverse.io/mi-series/wicked-sloth-7 */\n.button {\n  width: 150px;\n  padding: 0;\n  border: none;\n  transform: rotate(5deg);\n  transform-origin: center;\n  font-family: \"Gochi Hand\", cursive;\n  text-decoration: none;\n  font-size: 15px;\n  padding-bottom: 3px;\n  border-radius: 5px;\n  box-shadow: 0 2px 0 #494a4b;\n  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  background-color: #5CDB95;\n}\n\n.button span {\n  background: #f1f5f8;\n  display: block;\n  padding: 0.5rem 1rem;\n  border-radius: 5px;\n  border: 2px solid #494a4b;\n}\n\n.button:active {\n  transform: translateY(5px);\n  padding-bottom: 0px;\n  outline: 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wicked Sloth 7</title>\n<style>\n/* Wicked Sloth 7 by mi-series — https://uiverse.io/mi-series/wicked-sloth-7 */\n.button {\n  width: 150px;\n  padding: 0;\n  border: none;\n  transform: rotate(5deg);\n  transform-origin: center;\n  font-family: \"Gochi Hand\", cursive;\n  text-decoration: none;\n  font-size: 15px;\n  padding-bottom: 3px;\n  border-radius: 5px;\n  box-shadow: 0 2px 0 #494a4b;\n  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  background-color: #5CDB95;\n}\n\n.button span {\n  background: #f1f5f8;\n  display: block;\n  padding: 0.5rem 1rem;\n  border-radius: 5px;\n  border: 2px solid #494a4b;\n}\n\n.button:active {\n  transform: translateY(5px);\n  padding-bottom: 0px;\n  outline: 0;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <span>Submit</span>\n</button>\n\n</body>\n</html>\n"
 }

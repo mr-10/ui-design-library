@@ -5,14 +5,24 @@
  "author": "jack0237",
  "source": "https://uiverse.io/jack0237/modern-quail-99",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill teal dots loader with bouncing motion in a loop.",
+ "howItWorks": "It loops a 0.8s animation (bouncing, pulsing).",
  "tags": [
-  "loaders",
-  "auto-loop",
-  "css"
+  "teal",
+  "rounded",
+  "pill",
+  "flat",
+  "bounce",
+  "pulse"
  ],
- "html": "<div class=\"loader\">\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n</div>",
- "css": "/* From Uiverse.io by jack0237  - Tags:  */\n.loader {\n  display: flex;\n}\n\n.loader .dot {\n  height: 20px;\n  width: 20px;\n  border-radius: 50%;\n  border: 2px solid #e8e8e8;\n  background: #16b0c1;\n  animation: jump 0.8s ease-in-out infinite alternate;\n}\n\n@keyframes jump {\n  100% {\n    background: #661e92;\n    transform: translateY(-3rem) scale(1.9);\n  }\n}\n\n.loader .dot:nth-child(1) {\n  animation-delay: 0.1s;\n}\n\n.loader .dot:nth-child(2) {\n  animation-delay: 0.2s;\n}\n\n.loader .dot:nth-child(3) {\n  animation-delay: 0.3s;\n}\n\n.loader .dot:nth-child(4) {\n  animation-delay: 0.4s;\n}\n\n.loader .dot:nth-child(5) {\n  animation-delay: 0.5s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Modern Quail 99</title>\n<style>\n/* From Uiverse.io by jack0237 - https://uiverse.io/jack0237/modern-quail-99 */\n/* From Uiverse.io by jack0237  - Tags:  */\n.loader {\n  display: flex;\n}\n\n.loader .dot {\n  height: 20px;\n  width: 20px;\n  border-radius: 50%;\n  border: 2px solid #e8e8e8;\n  background: #16b0c1;\n  animation: jump 0.8s ease-in-out infinite alternate;\n}\n\n@keyframes jump {\n  100% {\n    background: #661e92;\n    transform: translateY(-3rem) scale(1.9);\n  }\n}\n\n.loader .dot:nth-child(1) {\n  animation-delay: 0.1s;\n}\n\n.loader .dot:nth-child(2) {\n  animation-delay: 0.2s;\n}\n\n.loader .dot:nth-child(3) {\n  animation-delay: 0.3s;\n}\n\n.loader .dot:nth-child(4) {\n  animation-delay: 0.4s;\n}\n\n.loader .dot:nth-child(5) {\n  animation-delay: 0.5s;\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#e8e8e8",
+  "#16b0c1"
+ ],
+ "fonts": [],
+ "tokens": 261,
+ "size": 1045,
+ "html": "<div class=\"loader\">\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n</div>\n",
+ "css": "/* Modern Quail 99 by jack0237 — https://uiverse.io/jack0237/modern-quail-99 */\n.loader {\n  display: flex;\n}\n\n.loader .dot {\n  height: 20px;\n  width: 20px;\n  border-radius: 50%;\n  border: 2px solid #e8e8e8;\n  background: #16b0c1;\n  animation: jump 0.8s ease-in-out infinite alternate;\n}\n\n@keyframes jump {\n  100% {\n    background: #661e92;\n    transform: translateY(-3rem) scale(1.9);\n  }\n}\n\n.loader .dot:nth-child(1) {\n  animation-delay: 0.1s;\n}\n\n.loader .dot:nth-child(2) {\n  animation-delay: 0.2s;\n}\n\n.loader .dot:nth-child(3) {\n  animation-delay: 0.3s;\n}\n\n.loader .dot:nth-child(4) {\n  animation-delay: 0.4s;\n}\n\n.loader .dot:nth-child(5) {\n  animation-delay: 0.5s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Modern Quail 99</title>\n<style>\n/* Modern Quail 99 by jack0237 — https://uiverse.io/jack0237/modern-quail-99 */\n.loader {\n  display: flex;\n}\n\n.loader .dot {\n  height: 20px;\n  width: 20px;\n  border-radius: 50%;\n  border: 2px solid #e8e8e8;\n  background: #16b0c1;\n  animation: jump 0.8s ease-in-out infinite alternate;\n}\n\n@keyframes jump {\n  100% {\n    background: #661e92;\n    transform: translateY(-3rem) scale(1.9);\n  }\n}\n\n.loader .dot:nth-child(1) {\n  animation-delay: 0.1s;\n}\n\n.loader .dot:nth-child(2) {\n  animation-delay: 0.2s;\n}\n\n.loader .dot:nth-child(3) {\n  animation-delay: 0.3s;\n}\n\n.loader .dot:nth-child(4) {\n  animation-delay: 0.4s;\n}\n\n.loader .dot:nth-child(5) {\n  animation-delay: 0.5s;\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n</div>\n\n</body>\n</html>\n"
 }

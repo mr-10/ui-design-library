@@ -5,15 +5,25 @@
  "author": "csemszepp",
  "source": "https://uiverse.io/csemszepp/orange-bird-11",
  "trigger": "static",
- "description": "A pattern with simple and material-design styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient dark dark sky-blue pattern with gradient fill.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "material-design",
+  "blue",
+  "gradient",
+  "dark",
+  "flat",
   "pattern",
-  "static"
+  "simple"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by csemszepp  - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 50px; /* control the size */\n  --t: 6px; /* control the thickness */\n  --c1: #084c7f;\n  --c2: #fef5e9;\n\n  --_c: #0000 calc(98% - var(--t)), var(--c1) calc(100% - var(--t)) 98%, #0000;\n  --_s: calc(2 * var(--s)) calc(5 * var(--s) / 2);\n  --_r0: /var(--_s) radial-gradient(calc(var(--s) / 2) at 0 20%, var(--_c));\n  --_r1: /var(--_s) radial-gradient(calc(var(--s) / 2) at 100% 20%, var(--_c));\n  background: 0 0 var(--_r0),\n    calc(-1 * var(--s)) calc(5 * var(--s) / 4) var(--_r0), var(--s) 0 var(--_r1),\n    0 calc(5 * var(--s) / 4) var(--_r1),\n    conic-gradient(at var(--t) calc(20% + 2 * var(--t)), #0000 75%, var(--c1) 0)\n      calc(var(--t) / -2) calc(var(--s) - var(--t)) / var(--s)\n      calc(5 * var(--s) / 4),\n    repeating-conic-gradient(var(--c2) 0 25%, #0000 0 50%) var(--s)\n      calc(var(--s) / -8) / var(--_s),\n    conic-gradient(from 90deg at var(--t) var(--t), var(--c2) 25%, var(--c1) 0)\n      calc((var(--s) - var(--t)) / 2) calc((var(--s) - var(--t)) / 2) / var(--s)\n      calc(5 * var(--s) / 4);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Orange Bird 11</title>\n<style>\n/* From Uiverse.io by csemszepp - https://uiverse.io/csemszepp/orange-bird-11 */\n/* From Uiverse.io by csemszepp  - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 50px; /* control the size */\n  --t: 6px; /* control the thickness */\n  --c1: #084c7f;\n  --c2: #fef5e9;\n\n  --_c: #0000 calc(98% - var(--t)), var(--c1) calc(100% - var(--t)) 98%, #0000;\n  --_s: calc(2 * var(--s)) calc(5 * var(--s) / 2);\n  --_r0: /var(--_s) radial-gradient(calc(var(--s) / 2) at 0 20%, var(--_c));\n  --_r1: /var(--_s) radial-gradient(calc(var(--s) / 2) at 100% 20%, var(--_c));\n  background: 0 0 var(--_r0),\n    calc(-1 * var(--s)) calc(5 * var(--s) / 4) var(--_r0), var(--s) 0 var(--_r1),\n    0 calc(5 * var(--s) / 4) var(--_r1),\n    conic-gradient(at var(--t) calc(20% + 2 * var(--t)), #0000 75%, var(--c1) 0)\n      calc(var(--t) / -2) calc(var(--s) - var(--t)) / var(--s)\n      calc(5 * var(--s) / 4),\n    repeating-conic-gradient(var(--c2) 0 25%, #0000 0 50%) var(--s)\n      calc(var(--s) / -8) / var(--_s),\n    conic-gradient(from 90deg at var(--t) var(--t), var(--c2) 25%, var(--c1) 0)\n      calc((var(--s) - var(--t)) / 2) calc((var(--s) - var(--t)) / 2) / var(--s)\n      calc(5 * var(--s) / 4);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#084c7f",
+  "#fef5e9",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 336,
+ "size": 1344,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Orange Bird 11 by csemszepp — https://uiverse.io/csemszepp/orange-bird-11 */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 50px;\n  --t: 6px;\n  --c1: #084c7f;\n  --c2: #fef5e9;\n\n  --_c: #0000 calc(98% - var(--t)), var(--c1) calc(100% - var(--t)) 98%, #0000;\n  --_s: calc(2 * var(--s)) calc(5 * var(--s) / 2);\n  --_r0: /var(--_s) radial-gradient(calc(var(--s) / 2) at 0 20%, var(--_c));\n  --_r1: /var(--_s) radial-gradient(calc(var(--s) / 2) at 100% 20%, var(--_c));\n  background: 0 0 var(--_r0),\n    calc(-1 * var(--s)) calc(5 * var(--s) / 4) var(--_r0), var(--s) 0 var(--_r1),\n    0 calc(5 * var(--s) / 4) var(--_r1),\n    conic-gradient(at var(--t) calc(20% + 2 * var(--t)), #0000 75%, var(--c1) 0)\n      calc(var(--t) / -2) calc(var(--s) - var(--t)) / var(--s)\n      calc(5 * var(--s) / 4),\n    repeating-conic-gradient(var(--c2) 0 25%, #0000 0 50%) var(--s)\n      calc(var(--s) / -8) / var(--_s),\n    conic-gradient(from 90deg at var(--t) var(--t), var(--c2) 25%, var(--c1) 0)\n      calc((var(--s) - var(--t)) / 2) calc((var(--s) - var(--t)) / 2) / var(--s)\n      calc(5 * var(--s) / 4);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Orange Bird 11</title>\n<style>\n/* Orange Bird 11 by csemszepp — https://uiverse.io/csemszepp/orange-bird-11 */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 50px;\n  --t: 6px;\n  --c1: #084c7f;\n  --c2: #fef5e9;\n\n  --_c: #0000 calc(98% - var(--t)), var(--c1) calc(100% - var(--t)) 98%, #0000;\n  --_s: calc(2 * var(--s)) calc(5 * var(--s) / 2);\n  --_r0: /var(--_s) radial-gradient(calc(var(--s) / 2) at 0 20%, var(--_c));\n  --_r1: /var(--_s) radial-gradient(calc(var(--s) / 2) at 100% 20%, var(--_c));\n  background: 0 0 var(--_r0),\n    calc(-1 * var(--s)) calc(5 * var(--s) / 4) var(--_r0), var(--s) 0 var(--_r1),\n    0 calc(5 * var(--s) / 4) var(--_r1),\n    conic-gradient(at var(--t) calc(20% + 2 * var(--t)), #0000 75%, var(--c1) 0)\n      calc(var(--t) / -2) calc(var(--s) - var(--t)) / var(--s)\n      calc(5 * var(--s) / 4),\n    repeating-conic-gradient(var(--c2) 0 25%, #0000 0 50%) var(--s)\n      calc(var(--s) / -8) / var(--_s),\n    conic-gradient(from 90deg at var(--t) var(--t), var(--c2) 25%, var(--c1) 0)\n      calc((var(--s) - var(--t)) / 2) calc((var(--s) - var(--t)) / 2) / var(--s)\n      calc(5 * var(--s) / 4);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

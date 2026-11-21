@@ -5,17 +5,25 @@
  "author": "JaydipPrajapati1910",
  "source": "https://uiverse.io/JaydipPrajapati1910/wonderful-walrus-87",
  "trigger": "auto-loop",
- "description": "A button with gradient, gradients and effects styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient rounded red button with shimmering motion in a loop.",
+ "howItWorks": "It loops a 20s animation (shimmering).",
  "tags": [
+  "red",
+  "fuchsia",
   "gradient",
-  "button",
-  "gradients",
-  "effects",
-  "css-effect",
-  "auto-loop"
+  "rounded",
+  "flat",
+  "shimmer"
  ],
- "html": "<button class=\"button\">\n  Button\n</button>",
- "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: gradient, button, gradients, effects, css effect */\n.button {\n  width: 140px;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  padding: 0px 15px;\n  background-color: red;\n  border-radius: 10px;\n  border: none;\n  color: white;\n  position: relative;\n  cursor: pointer;\n  font-weight: 900;\n  transition-duration: .2s;\n  background: linear-gradient(0deg, #000, #272727);\n}\n\n.button:before, .button:after {\n  content: '';\n  position: absolute;\n  left: -2px;\n  top: -2px;\n  border-radius: 10px;\n  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, \n\t\t#0000ff, #00ff00,#ffff00, #ff0000);\n  background-size: 400%;\n  width: calc(100% + 4px);\n  height: calc(100% + 4px);\n  z-index: -1;\n  animation: steam 20s linear infinite;\n}\n\n@keyframes steam {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n\n.button:after {\n  filter: blur(50px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wonderful Walrus 87</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/wonderful-walrus-87 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: gradient, button, gradients, effects, css effect */\n.button {\n  width: 140px;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  padding: 0px 15px;\n  background-color: red;\n  border-radius: 10px;\n  border: none;\n  color: white;\n  position: relative;\n  cursor: pointer;\n  font-weight: 900;\n  transition-duration: .2s;\n  background: linear-gradient(0deg, #000, #272727);\n}\n\n.button:before, .button:after {\n  content: '';\n  position: absolute;\n  left: -2px;\n  top: -2px;\n  border-radius: 10px;\n  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, \n\t\t#0000ff, #00ff00,#ffff00, #ff0000);\n  background-size: 400%;\n  width: calc(100% + 4px);\n  height: calc(100% + 4px);\n  z-index: -1;\n  animation: steam 20s linear infinite;\n}\n\n@keyframes steam {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n\n.button:after {\n  filter: blur(50px);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ff0000",
+  "#fb0094",
+  "#0000ff"
+ ],
+ "fonts": [],
+ "tokens": 329,
+ "size": 1318,
+ "html": "<button class=\"button\">\n  Button\n</button>\n",
+ "css": "/* Wonderful Walrus 87 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/wonderful-walrus-87 */\n.button {\n  width: 140px;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  padding: 0px 15px;\n  background-color: red;\n  border-radius: 10px;\n  border: none;\n  color: white;\n  position: relative;\n  cursor: pointer;\n  font-weight: 900;\n  transition-duration: .2s;\n  background: linear-gradient(0deg, #000, #272727);\n}\n\n.button:before, .button:after {\n  content: '';\n  position: absolute;\n  left: -2px;\n  top: -2px;\n  border-radius: 10px;\n  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094,\n\t\t#0000ff, #00ff00,#ffff00, #ff0000);\n  background-size: 400%;\n  width: calc(100% + 4px);\n  height: calc(100% + 4px);\n  z-index: -1;\n  animation: steam 20s linear infinite;\n}\n\n@keyframes steam {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n\n.button:after {\n  filter: blur(50px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wonderful Walrus 87</title>\n<style>\n/* Wonderful Walrus 87 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/wonderful-walrus-87 */\n.button {\n  width: 140px;\n  height: 40px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  padding: 0px 15px;\n  background-color: red;\n  border-radius: 10px;\n  border: none;\n  color: white;\n  position: relative;\n  cursor: pointer;\n  font-weight: 900;\n  transition-duration: .2s;\n  background: linear-gradient(0deg, #000, #272727);\n}\n\n.button:before, .button:after {\n  content: '';\n  position: absolute;\n  left: -2px;\n  top: -2px;\n  border-radius: 10px;\n  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094,\n\t\t#0000ff, #00ff00,#ffff00, #ff0000);\n  background-size: 400%;\n  width: calc(100% + 4px);\n  height: calc(100% + 4px);\n  z-index: -1;\n  animation: steam 20s linear infinite;\n}\n\n@keyframes steam {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n\n.button:after {\n  filter: blur(50px);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

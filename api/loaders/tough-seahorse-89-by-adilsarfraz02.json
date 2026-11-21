@@ -5,17 +5,24 @@
  "author": "adilsarfraz02",
  "source": "https://uiverse.io/adilsarfraz02/tough-seahorse-89",
  "trigger": "auto-loop",
- "description": "A loader with spinner, smooth and custom styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient dark fuchsia loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (rotating).",
  "tags": [
-  "loader",
-  "spinner",
-  "smooth",
-  "custom",
-  "transition",
-  "effect-loader"
+  "fuchsia",
+  "gradient",
+  "dark",
+  "flat",
+  "spin",
+  "loader"
  ],
- "html": "<div class=\"custom-loader\"></div>",
- "css": "/* From Uiverse.io by adilsarfraz02  - Tags: loader, spinner, smooth, custom, transition, effect loader, loading animation */\n.custom-loader {\n  width: 40px;\n  height: 10px;\n  color: #f000b4;\n  background: radial-gradient(farthest-side, currentColor 90%, #0000) left /\n      10px 10px,\n    radial-gradient(farthest-side, currentColor 90%, #0000) center/10px 10px,\n    radial-gradient(farthest-side, currentColor 90%, #0000) right / 10px 10px,\n    linear-gradient(currentColor 0 0) center/100% 4px;\n  background-repeat: no-repeat;\n  position: relative;\n  animation: s6 2s infinite linear;\n}\n.custom-loader:before,\n.custom-loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: inherit;\n  animation: inherit;\n  --s: calc(50% - 5px);\n  animation-direction: reverse;\n}\n.custom-loader:after {\n  --s: calc(5px - 50%);\n}\n\n@keyframes s6 {\n  0% {\n    transform: translate(var(--s, 0)) rotate(0);\n  }\n  100% {\n    transform: translate(var(--s, 0)) rotate(1turn);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Seahorse 89</title>\n<style>\n/* From Uiverse.io by adilsarfraz02 - https://uiverse.io/adilsarfraz02/tough-seahorse-89 */\n/* From Uiverse.io by adilsarfraz02  - Tags: loader, spinner, smooth, custom, transition, effect loader, loading animation */\n.custom-loader {\n  width: 40px;\n  height: 10px;\n  color: #f000b4;\n  background: radial-gradient(farthest-side, currentColor 90%, #0000) left /\n      10px 10px,\n    radial-gradient(farthest-side, currentColor 90%, #0000) center/10px 10px,\n    radial-gradient(farthest-side, currentColor 90%, #0000) right / 10px 10px,\n    linear-gradient(currentColor 0 0) center/100% 4px;\n  background-repeat: no-repeat;\n  position: relative;\n  animation: s6 2s infinite linear;\n}\n.custom-loader:before,\n.custom-loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: inherit;\n  animation: inherit;\n  --s: calc(50% - 5px);\n  animation-direction: reverse;\n}\n.custom-loader:after {\n  --s: calc(5px - 50%);\n}\n\n@keyframes s6 {\n  0% {\n    transform: translate(var(--s, 0)) rotate(0);\n  }\n  100% {\n    transform: translate(var(--s, 0)) rotate(1turn);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"custom-loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#f000b4",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 300,
+ "size": 1202,
+ "html": "<div class=\"custom-loader\"></div>\n",
+ "css": "/* Tough Seahorse 89 by adilsarfraz02 — https://uiverse.io/adilsarfraz02/tough-seahorse-89 */\n.custom-loader {\n  width: 40px;\n  height: 10px;\n  color: #f000b4;\n  background: radial-gradient(farthest-side, currentColor 90%, #0000) left /\n      10px 10px,\n    radial-gradient(farthest-side, currentColor 90%, #0000) center/10px 10px,\n    radial-gradient(farthest-side, currentColor 90%, #0000) right / 10px 10px,\n    linear-gradient(currentColor 0 0) center/100% 4px;\n  background-repeat: no-repeat;\n  position: relative;\n  animation: s6 2s infinite linear;\n}\n.custom-loader:before,\n.custom-loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: inherit;\n  animation: inherit;\n  --s: calc(50% - 5px);\n  animation-direction: reverse;\n}\n.custom-loader:after {\n  --s: calc(5px - 50%);\n}\n\n@keyframes s6 {\n  0% {\n    transform: translate(var(--s, 0)) rotate(0);\n  }\n  100% {\n    transform: translate(var(--s, 0)) rotate(1turn);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Seahorse 89</title>\n<style>\n/* Tough Seahorse 89 by adilsarfraz02 — https://uiverse.io/adilsarfraz02/tough-seahorse-89 */\n.custom-loader {\n  width: 40px;\n  height: 10px;\n  color: #f000b4;\n  background: radial-gradient(farthest-side, currentColor 90%, #0000) left /\n      10px 10px,\n    radial-gradient(farthest-side, currentColor 90%, #0000) center/10px 10px,\n    radial-gradient(farthest-side, currentColor 90%, #0000) right / 10px 10px,\n    linear-gradient(currentColor 0 0) center/100% 4px;\n  background-repeat: no-repeat;\n  position: relative;\n  animation: s6 2s infinite linear;\n}\n.custom-loader:before,\n.custom-loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  background: inherit;\n  animation: inherit;\n  --s: calc(50% - 5px);\n  animation-direction: reverse;\n}\n.custom-loader:after {\n  --s: calc(5px - 50%);\n}\n\n@keyframes s6 {\n  0% {\n    transform: translate(var(--s, 0)) rotate(0);\n  }\n  100% {\n    transform: translate(var(--s, 0)) rotate(1turn);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"custom-loader\"></div>\n\n</body>\n</html>\n"
 }

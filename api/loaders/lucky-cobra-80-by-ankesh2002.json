@@ -5,14 +5,24 @@
  "author": "Ankesh2002",
  "source": "https://uiverse.io/Ankesh2002/lucky-cobra-80",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Green loader with animating; pulsing motion in a loop.",
+ "howItWorks": "It loops a 1s animation (animating; pulsing, rotating).",
  "tags": [
+  "green",
+  "flat",
+  "pulse",
+  "spin",
   "loader",
-  "auto-loop",
-  "css"
+  "auto-loop"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by Ankesh2002 - Tags: loader */\n.loader {\n  position: relative;\n  width: 164px;\n  height: 164px;\n}\n\n.loader::before , .loader::after {\n  content: '';\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: #00bd26;\n  left: 50%;\n  top: 50%;\n  animation: rotate 1s ease-in infinite;\n}\n\n.loader::after {\n  width: 20px;\n  height: 20px;\n  background-color: #00bd26;\n  animation: rotate 1s ease-in infinite, moveY 1s ease-in infinite;\n}\n\n@keyframes moveY {\n  0% , 100% {\n    top: 10%\n  }\n\n  45% , 55% {\n    top: 59%\n  }\n\n  60% {\n    top: 40%\n  }\n}\n\n@keyframes rotate {\n  0% {\n    transform: translate(-50%, -100%) rotate(0deg) scale(1 , 1)\n  }\n\n  25% {\n    transform: translate(-50%, 0%) rotate(180deg) scale(1 , 1)\n  }\n\n  45% , 55% {\n    transform: translate(-50%, 100%) rotate(180deg) scale(3 , 0.5)\n  }\n\n  60% {\n    transform: translate(-50%, 100%) rotate(180deg) scale(1, 1)\n  }\n\n  75% {\n    transform: translate(-50%, 0%) rotate(270deg) scale(1 , 1)\n  }\n\n  100% {\n    transform: translate(-50%, -100%) rotate(360deg) scale(1 , 1)\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lucky Cobra 80</title>\n<style>\n/* From Uiverse.io by Ankesh2002 - https://uiverse.io/Ankesh2002/lucky-cobra-80 */\n/* From Uiverse.io by Ankesh2002 - Tags: loader */\n.loader {\n  position: relative;\n  width: 164px;\n  height: 164px;\n}\n\n.loader::before , .loader::after {\n  content: '';\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: #00bd26;\n  left: 50%;\n  top: 50%;\n  animation: rotate 1s ease-in infinite;\n}\n\n.loader::after {\n  width: 20px;\n  height: 20px;\n  background-color: #00bd26;\n  animation: rotate 1s ease-in infinite, moveY 1s ease-in infinite;\n}\n\n@keyframes moveY {\n  0% , 100% {\n    top: 10%\n  }\n\n  45% , 55% {\n    top: 59%\n  }\n\n  60% {\n    top: 40%\n  }\n}\n\n@keyframes rotate {\n  0% {\n    transform: translate(-50%, -100%) rotate(0deg) scale(1 , 1)\n  }\n\n  25% {\n    transform: translate(-50%, 0%) rotate(180deg) scale(1 , 1)\n  }\n\n  45% , 55% {\n    transform: translate(-50%, 100%) rotate(180deg) scale(3 , 0.5)\n  }\n\n  60% {\n    transform: translate(-50%, 100%) rotate(180deg) scale(1, 1)\n  }\n\n  75% {\n    transform: translate(-50%, 0%) rotate(270deg) scale(1 , 1)\n  }\n\n  100% {\n    transform: translate(-50%, -100%) rotate(360deg) scale(1 , 1)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#00bd26",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 336,
+ "size": 1344,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Lucky Cobra 80 by Ankesh2002 — https://uiverse.io/Ankesh2002/lucky-cobra-80 */\n.loader {\n  position: relative;\n  width: 164px;\n  height: 164px;\n}\n\n.loader::before , .loader::after {\n  content: '';\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: #00bd26;\n  left: 50%;\n  top: 50%;\n  animation: rotate 1s ease-in infinite;\n}\n\n.loader::after {\n  width: 20px;\n  height: 20px;\n  background-color: #00bd26;\n  animation: rotate 1s ease-in infinite, moveY 1s ease-in infinite;\n}\n\n@keyframes moveY {\n  0% , 100% {\n    top: 10%\n  }\n\n  45% , 55% {\n    top: 59%\n  }\n\n  60% {\n    top: 40%\n  }\n}\n\n@keyframes rotate {\n  0% {\n    transform: translate(-50%, -100%) rotate(0deg) scale(1 , 1)\n  }\n\n  25% {\n    transform: translate(-50%, 0%) rotate(180deg) scale(1 , 1)\n  }\n\n  45% , 55% {\n    transform: translate(-50%, 100%) rotate(180deg) scale(3 , 0.5)\n  }\n\n  60% {\n    transform: translate(-50%, 100%) rotate(180deg) scale(1, 1)\n  }\n\n  75% {\n    transform: translate(-50%, 0%) rotate(270deg) scale(1 , 1)\n  }\n\n  100% {\n    transform: translate(-50%, -100%) rotate(360deg) scale(1 , 1)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lucky Cobra 80</title>\n<style>\n/* Lucky Cobra 80 by Ankesh2002 — https://uiverse.io/Ankesh2002/lucky-cobra-80 */\n.loader {\n  position: relative;\n  width: 164px;\n  height: 164px;\n}\n\n.loader::before , .loader::after {\n  content: '';\n  position: absolute;\n  width: 40px;\n  height: 40px;\n  background-color: #00bd26;\n  left: 50%;\n  top: 50%;\n  animation: rotate 1s ease-in infinite;\n}\n\n.loader::after {\n  width: 20px;\n  height: 20px;\n  background-color: #00bd26;\n  animation: rotate 1s ease-in infinite, moveY 1s ease-in infinite;\n}\n\n@keyframes moveY {\n  0% , 100% {\n    top: 10%\n  }\n\n  45% , 55% {\n    top: 59%\n  }\n\n  60% {\n    top: 40%\n  }\n}\n\n@keyframes rotate {\n  0% {\n    transform: translate(-50%, -100%) rotate(0deg) scale(1 , 1)\n  }\n\n  25% {\n    transform: translate(-50%, 0%) rotate(180deg) scale(1 , 1)\n  }\n\n  45% , 55% {\n    transform: translate(-50%, 100%) rotate(180deg) scale(3 , 0.5)\n  }\n\n  60% {\n    transform: translate(-50%, 100%) rotate(180deg) scale(1, 1)\n  }\n\n  75% {\n    transform: translate(-50%, 0%) rotate(270deg) scale(1 , 1)\n  }\n\n  100% {\n    transform: translate(-50%, -100%) rotate(360deg) scale(1 , 1)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

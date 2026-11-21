@@ -4,15 +4,24 @@
  "category": "buttons",
  "author": "AKAspidey01",
  "source": "https://uiverse.io/AKAspidey01/sour-eagle-93",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Green button that slides on hover with a smooth transition.",
+ "howItWorks": "On hover, text colour changes and it shifts position.",
  "tags": [
+  "green",
+  "color-change",
+  "slide",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by AKAspidey01 - Tags: animation, button, transition, hover effect, premium -->\n<button class=\"cursor-pointer relative group overflow-hidden border-2 px-8 py-2 border-green-500\">\n  <span class=\"font-bold text-white text-xl relative z-10 group-hover:text-green-500 duration-500\">Blink</span>\n  <span class=\"absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:-translate-x-full h-full\"></span>\n  <span class=\"absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-x-full h-full\"></span>\n  \n    <span class=\"absolute top-0 left-0 w-full bg-green-500 duration-500 delay-300 group-hover:-translate-y-full h-full\"></span>\n  <span class=\"absolute delay-300 top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-y-full h-full\"></span>\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sour Eagle 93</title>\n<style>\n/* From Uiverse.io by AKAspidey01 - https://uiverse.io/AKAspidey01/sour-eagle-93 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by AKAspidey01 - Tags: animation, button, transition, hover effect, premium -->\n<button class=\"cursor-pointer relative group overflow-hidden border-2 px-8 py-2 border-green-500\">\n  <span class=\"font-bold text-white text-xl relative z-10 group-hover:text-green-500 duration-500\">Blink</span>\n  <span class=\"absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:-translate-x-full h-full\"></span>\n  <span class=\"absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-x-full h-full\"></span>\n  \n    <span class=\"absolute top-0 left-0 w-full bg-green-500 duration-500 delay-300 group-hover:-translate-y-full h-full\"></span>\n  <span class=\"absolute delay-300 top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-y-full h-full\"></span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#22c55e",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 250,
+ "size": 1003,
+ "html": "<button class=\"cursor-pointer relative group overflow-hidden border-2 px-8 py-2 border-green-500\">\n  <span class=\"font-bold text-white text-xl relative z-10 group-hover:text-green-500 duration-500\">Blink</span>\n  <span class=\"absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:-translate-x-full h-full\"></span>\n  <span class=\"absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-x-full h-full\"></span>\n\n    <span class=\"absolute top-0 left-0 w-full bg-green-500 duration-500 delay-300 group-hover:-translate-y-full h-full\"></span>\n  <span class=\"absolute delay-300 top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-y-full h-full\"></span>\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sour Eagle 93</title>\n<style>\n/* Sour Eagle 93 by AKAspidey01 — https://uiverse.io/AKAspidey01/sour-eagle-93 */\n\n</style>\n</head>\n<body>\n<button class=\"cursor-pointer relative group overflow-hidden border-2 px-8 py-2 border-green-500\">\n  <span class=\"font-bold text-white text-xl relative z-10 group-hover:text-green-500 duration-500\">Blink</span>\n  <span class=\"absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:-translate-x-full h-full\"></span>\n  <span class=\"absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-x-full h-full\"></span>\n\n    <span class=\"absolute top-0 left-0 w-full bg-green-500 duration-500 delay-300 group-hover:-translate-y-full h-full\"></span>\n  <span class=\"absolute delay-300 top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-y-full h-full\"></span>\n</button>\n\n</body>\n</html>\n"
 }

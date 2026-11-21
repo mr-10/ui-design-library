@@ -5,16 +5,25 @@
  "author": "gharsh11032000",
  "source": "https://uiverse.io/gharsh11032000/breezy-falcon-75",
  "trigger": "checked",
- "description": "A checkbox with gradient, hover and click-effect styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Gradient dark purple checkbox that toggles on and off when clicked.",
+ "howItWorks": "On hover, transform becomes scale(1.2). Clicking it toggles it: transform becomes rotate(45deg) scale(0.8).",
  "tags": [
+  "purple",
+  "cyan",
   "gradient",
-  "hover",
-  "checkbox",
-  "click-effect",
-  "checked"
+  "dark",
+  "flat",
+  "scale"
  ],
- "html": "<div class=\"checkbox\">\n  <input id=\"checkbox1\" class=\"checkbox__input\" type=\"checkbox\">\n  <label for=\"checkbox1\" class=\"checkbox__label\">\n    <span class=\"checkbox__custom\"></span>\n    Uiverse\n  </label>\n</div>",
- "css": "/* From Uiverse.io by gharsh11032000 - Tags: gradient, hover, checkbox, click effect */\n.checkbox {\n  display: inline-block;\n  position: relative;\n  cursor: pointer;\n}\n\n.checkbox__input {\n  position: absolute;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.checkbox__label {\n  display: inline-block;\n  padding-left: 30px;\n  margin-bottom: 10px;\n  position: relative;\n  font-size: 16px;\n  color: #fff;\n  cursor: pointer;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.checkbox__custom {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 20px;\n  height: 20px;\n  background: linear-gradient(#212121, #212121) padding-box,\n              linear-gradient(145deg,#e81cff, #40c9ff) border-box;\n  border: 2px solid transparent;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.checkbox__input:checked + .checkbox__label .checkbox__custom {\n  background-image: linear-gradient(145deg,#e81cff, #40c9ff);\n  transform: rotate(45deg) scale(0.8);\n}\n\n.checkbox__label:hover .checkbox__custom {\n  transform: scale(1.2);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Breezy Falcon 75</title>\n<style>\n/* From Uiverse.io by gharsh11032000 - https://uiverse.io/gharsh11032000/breezy-falcon-75 */\n/* From Uiverse.io by gharsh11032000 - Tags: gradient, hover, checkbox, click effect */\n.checkbox {\n  display: inline-block;\n  position: relative;\n  cursor: pointer;\n}\n\n.checkbox__input {\n  position: absolute;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.checkbox__label {\n  display: inline-block;\n  padding-left: 30px;\n  margin-bottom: 10px;\n  position: relative;\n  font-size: 16px;\n  color: #fff;\n  cursor: pointer;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.checkbox__custom {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 20px;\n  height: 20px;\n  background: linear-gradient(#212121, #212121) padding-box,\n              linear-gradient(145deg,#e81cff, #40c9ff) border-box;\n  border: 2px solid transparent;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.checkbox__input:checked + .checkbox__label .checkbox__custom {\n  background-image: linear-gradient(145deg,#e81cff, #40c9ff);\n  transform: rotate(45deg) scale(0.8);\n}\n\n.checkbox__label:hover .checkbox__custom {\n  transform: scale(1.2);\n}\n</style>\n</head>\n<body>\n<div class=\"checkbox\">\n  <input id=\"checkbox1\" class=\"checkbox__input\" type=\"checkbox\">\n  <label for=\"checkbox1\" class=\"checkbox__label\">\n    <span class=\"checkbox__custom\"></span>\n    Uiverse\n  </label>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#212121",
+  "#e81cff",
+  "#40c9ff"
+ ],
+ "fonts": [],
+ "tokens": 365,
+ "size": 1461,
+ "html": "<div class=\"checkbox\">\n  <input id=\"checkbox1\" class=\"checkbox__input\" type=\"checkbox\">\n  <label for=\"checkbox1\" class=\"checkbox__label\">\n    <span class=\"checkbox__custom\"></span>\n    Uiverse\n  </label>\n</div>\n",
+ "css": "/* Breezy Falcon 75 by gharsh11032000 — https://uiverse.io/gharsh11032000/breezy-falcon-75 */\n.checkbox {\n  display: inline-block;\n  position: relative;\n  cursor: pointer;\n}\n\n.checkbox__input {\n  position: absolute;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.checkbox__label {\n  display: inline-block;\n  padding-left: 30px;\n  margin-bottom: 10px;\n  position: relative;\n  font-size: 16px;\n  color: #fff;\n  cursor: pointer;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.checkbox__custom {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 20px;\n  height: 20px;\n  background: linear-gradient(#212121, #212121) padding-box,\n              linear-gradient(145deg,#e81cff, #40c9ff) border-box;\n  border: 2px solid transparent;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.checkbox__input:checked + .checkbox__label .checkbox__custom {\n  background-image: linear-gradient(145deg,#e81cff, #40c9ff);\n  transform: rotate(45deg) scale(0.8);\n}\n\n.checkbox__label:hover .checkbox__custom {\n  transform: scale(1.2);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Breezy Falcon 75</title>\n<style>\n/* Breezy Falcon 75 by gharsh11032000 — https://uiverse.io/gharsh11032000/breezy-falcon-75 */\n.checkbox {\n  display: inline-block;\n  position: relative;\n  cursor: pointer;\n}\n\n.checkbox__input {\n  position: absolute;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.checkbox__label {\n  display: inline-block;\n  padding-left: 30px;\n  margin-bottom: 10px;\n  position: relative;\n  font-size: 16px;\n  color: #fff;\n  cursor: pointer;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.checkbox__custom {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 20px;\n  height: 20px;\n  background: linear-gradient(#212121, #212121) padding-box,\n              linear-gradient(145deg,#e81cff, #40c9ff) border-box;\n  border: 2px solid transparent;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.checkbox__input:checked + .checkbox__label .checkbox__custom {\n  background-image: linear-gradient(145deg,#e81cff, #40c9ff);\n  transform: rotate(45deg) scale(0.8);\n}\n\n.checkbox__label:hover .checkbox__custom {\n  transform: scale(1.2);\n}\n</style>\n</head>\n<body>\n<div class=\"checkbox\">\n  <input id=\"checkbox1\" class=\"checkbox__input\" type=\"checkbox\">\n  <label for=\"checkbox1\" class=\"checkbox__label\">\n    <span class=\"checkbox__custom\"></span>\n    Uiverse\n  </label>\n</div>\n\n</body>\n</html>\n"
 }

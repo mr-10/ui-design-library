@@ -5,16 +5,24 @@
  "author": "andrew-demchenk0",
  "source": "https://uiverse.io/andrew-demchenk0/happy-vampirebat-41",
  "trigger": "checked",
- "description": "A checkbox with red, like and heart styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Red checkbox that toggles on and off when clicked.",
+ "howItWorks": "On hover, transform becomes scale(1.1).",
  "tags": [
   "red",
+  "flat",
+  "scale",
   "checkbox",
   "like",
-  "heart",
-  "checked"
+  "heart"
  ],
- "html": "<label class=\"container\">\n  <input type=\"checkbox\">\n  <svg id=\"Layer_1\" version=\"1.0\" viewBox=\"0 0 24 24\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><path d=\"M16.4,4C14.6,4,13,4.9,12,6.3C11,4.9,9.4,4,7.6,4C4.5,4,2,6.5,2,9.6C2,14,12,22,12,22s10-8,10-12.4C22,6.5,19.5,4,16.4,4z\"></path></svg>\n</label>",
- "css": "/* From Uiverse.io by andrew-demchenk0 - Tags: red, checkbox, like, heart */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  user-select: none;\n}\n\n.container svg {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 50px;\n  width: 50px;\n  transition: all 0.3s;\n  fill: #666;\n}\n\n.container svg:hover {\n  transform: scale(1.1);\n}\n\n.container input:checked ~ svg {\n  fill: #E3474F;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Happy Vampirebat 41</title>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - https://uiverse.io/andrew-demchenk0/happy-vampirebat-41 */\n/* From Uiverse.io by andrew-demchenk0 - Tags: red, checkbox, like, heart */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  user-select: none;\n}\n\n.container svg {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 50px;\n  width: 50px;\n  transition: all 0.3s;\n  fill: #666;\n}\n\n.container svg:hover {\n  transform: scale(1.1);\n}\n\n.container input:checked ~ svg {\n  fill: #E3474F;\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\">\n  <svg id=\"Layer_1\" version=\"1.0\" viewBox=\"0 0 24 24\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><path d=\"M16.4,4C14.6,4,13,4.9,12,6.3C11,4.9,9.4,4,7.6,4C4.5,4,2,6.5,2,9.6C2,14,12,22,12,22s10-8,10-12.4C22,6.5,19.5,4,16.4,4z\"></path></svg>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#666666",
+  "#e3474f"
+ ],
+ "fonts": [],
+ "tokens": 278,
+ "size": 1113,
+ "html": "<label class=\"container\">\n  <input type=\"checkbox\">\n  <svg id=\"Layer_1\" version=\"1.0\" viewBox=\"0 0 24 24\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><path d=\"M16.4,4C14.6,4,13,4.9,12,6.3C11,4.9,9.4,4,7.6,4C4.5,4,2,6.5,2,9.6C2,14,12,22,12,22s10-8,10-12.4C22,6.5,19.5,4,16.4,4z\"></path></svg>\n</label>\n",
+ "css": "/* Happy Vampirebat 41 by andrew-demchenk0 — https://uiverse.io/andrew-demchenk0/happy-vampirebat-41 */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  user-select: none;\n}\n\n.container svg {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 50px;\n  width: 50px;\n  transition: all 0.3s;\n  fill: #666;\n}\n\n.container svg:hover {\n  transform: scale(1.1);\n}\n\n.container input:checked ~ svg {\n  fill: #E3474F;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Happy Vampirebat 41</title>\n<style>\n/* Happy Vampirebat 41 by andrew-demchenk0 — https://uiverse.io/andrew-demchenk0/happy-vampirebat-41 */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  user-select: none;\n}\n\n.container svg {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 50px;\n  width: 50px;\n  transition: all 0.3s;\n  fill: #666;\n}\n\n.container svg:hover {\n  transform: scale(1.1);\n}\n\n.container input:checked ~ svg {\n  fill: #E3474F;\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\">\n  <svg id=\"Layer_1\" version=\"1.0\" viewBox=\"0 0 24 24\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><path d=\"M16.4,4C14.6,4,13,4.9,12,6.3C11,4.9,9.4,4,7.6,4C4.5,4,2,6.5,2,9.6C2,14,12,22,12,22s10-8,10-12.4C22,6.5,19.5,4,16.4,4z\"></path></svg>\n</label>\n\n</body>\n</html>\n"
 }

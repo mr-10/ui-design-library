@@ -5,14 +5,24 @@
  "author": "gagan-gv",
  "source": "https://uiverse.io/gagan-gv/stupid-walrus-23",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined pill gray loader with fading motion in a loop.",
+ "howItWorks": "It loops a 2s animation (fading, pulsing).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "outlined",
+  "rounded",
+  "pill",
+  "flat",
+  "fade",
+  "pulse"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by gagan-gv - Tags: loader */\n.loader {\n border: 0 solid transparent;\n border-radius: 50%;\n width: 100px;\n height: 100px;\n}\n\n.loader::before,\n.loader::after {\n content: '';\n border: 7px solid #ccc;\n border-radius: 50%;\n width: inherit;\n height: inherit;\n position: absolute;\n animation: loader 2s linear infinite;\n opacity: 0;\n}\n\n.loader::before {\n animation-delay: 1s;\n}\n\n@keyframes loader {\n 0% {\n  transform: scale(1);\n  opacity: 0;\n }\n\n 50% {\n  opacity: 1;\n }\n\n 100% {\n  transform: scale(0);\n  opacity: 0;\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stupid Walrus 23</title>\n<style>\n/* From Uiverse.io by gagan-gv - https://uiverse.io/gagan-gv/stupid-walrus-23 */\n/* From Uiverse.io by gagan-gv - Tags: loader */\n.loader {\n border: 0 solid transparent;\n border-radius: 50%;\n width: 100px;\n height: 100px;\n}\n\n.loader::before,\n.loader::after {\n content: '';\n border: 7px solid #ccc;\n border-radius: 50%;\n width: inherit;\n height: inherit;\n position: absolute;\n animation: loader 2s linear infinite;\n opacity: 0;\n}\n\n.loader::before {\n animation-delay: 1s;\n}\n\n@keyframes loader {\n 0% {\n  transform: scale(1);\n  opacity: 0;\n }\n\n 50% {\n  opacity: 1;\n }\n\n 100% {\n  transform: scale(0);\n  opacity: 0;\n }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#cccccc",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 202,
+ "size": 811,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Stupid Walrus 23 by gagan-gv — https://uiverse.io/gagan-gv/stupid-walrus-23 */\n.loader {\n border: 0 solid transparent;\n border-radius: 50%;\n width: 100px;\n height: 100px;\n}\n\n.loader::before,\n.loader::after {\n content: '';\n border: 7px solid #ccc;\n border-radius: 50%;\n width: inherit;\n height: inherit;\n position: absolute;\n animation: loader 2s linear infinite;\n opacity: 0;\n}\n\n.loader::before {\n animation-delay: 1s;\n}\n\n@keyframes loader {\n 0% {\n  transform: scale(1);\n  opacity: 0;\n }\n\n 50% {\n  opacity: 1;\n }\n\n 100% {\n  transform: scale(0);\n  opacity: 0;\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stupid Walrus 23</title>\n<style>\n/* Stupid Walrus 23 by gagan-gv — https://uiverse.io/gagan-gv/stupid-walrus-23 */\n.loader {\n border: 0 solid transparent;\n border-radius: 50%;\n width: 100px;\n height: 100px;\n}\n\n.loader::before,\n.loader::after {\n content: '';\n border: 7px solid #ccc;\n border-radius: 50%;\n width: inherit;\n height: inherit;\n position: absolute;\n animation: loader 2s linear infinite;\n opacity: 0;\n}\n\n.loader::before {\n animation-delay: 1s;\n}\n\n@keyframes loader {\n 0% {\n  transform: scale(1);\n  opacity: 0;\n }\n\n 50% {\n  opacity: 1;\n }\n\n 100% {\n  transform: scale(0);\n  opacity: 0;\n }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

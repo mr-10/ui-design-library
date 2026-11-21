@@ -5,14 +5,26 @@
  "author": "nikk7007",
  "source": "https://uiverse.io/nikk7007/nasty-wasp-56",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined emerald button that rotates on hover with a smooth transition.",
+ "howItWorks": "On hover, transform becomes skew(45deg) rotate(180deg) translate(-50%, -50%), transform becomes skew(45deg) translate(-50%, -50%), text color changes from #00A97F to #0a191e.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "emerald",
+  "outlined",
+  "flat",
+  "rotate",
+  "color-change",
+  "button"
  ],
- "html": "<button class=\"btn\"> Button\n</button>",
- "css": "/* From Uiverse.io by nikk7007 - Tags: button */\n.btn {\n --color: #00A97F;\n --color2: rgb(10, 25, 30);\n padding: 0.8em 1.75em;\n background-color: transparent;\n border-radius: 6px;\n border: .3px solid var(--color);\n transition: .5s;\n position: relative;\n overflow: hidden;\n cursor: pointer;\n z-index: 1;\n font-weight: 300;\n font-size: 17px;\n font-family: 'Roboto', 'Segoe UI', sans-serif;\n text-transform: uppercase;\n color: var(--color);\n}\n\n.btn::after, .btn::before {\n content: '';\n display: block;\n height: 100%;\n width: 100%;\n transform: skew(90deg) translate(-50%, -50%);\n position: absolute;\n inset: 50%;\n left: 25%;\n z-index: -1;\n transition: .5s ease-out;\n background-color: var(--color);\n}\n\n.btn::before {\n top: -50%;\n left: -25%;\n transform: skew(90deg) rotate(180deg) translate(-50%, -50%);\n}\n\n.btn:hover::before {\n transform: skew(45deg) rotate(180deg) translate(-50%, -50%);\n}\n\n.btn:hover::after {\n transform: skew(45deg) translate(-50%, -50%);\n}\n\n.btn:hover {\n color: var(--color2);\n}\n\n.btn:active {\n filter: brightness(.7);\n transform: scale(.98);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Wasp 56</title>\n<style>\n/* From Uiverse.io by nikk7007 - https://uiverse.io/nikk7007/nasty-wasp-56 */\n/* From Uiverse.io by nikk7007 - Tags: button */\n.btn {\n --color: #00A97F;\n --color2: rgb(10, 25, 30);\n padding: 0.8em 1.75em;\n background-color: transparent;\n border-radius: 6px;\n border: .3px solid var(--color);\n transition: .5s;\n position: relative;\n overflow: hidden;\n cursor: pointer;\n z-index: 1;\n font-weight: 300;\n font-size: 17px;\n font-family: 'Roboto', 'Segoe UI', sans-serif;\n text-transform: uppercase;\n color: var(--color);\n}\n\n.btn::after, .btn::before {\n content: '';\n display: block;\n height: 100%;\n width: 100%;\n transform: skew(90deg) translate(-50%, -50%);\n position: absolute;\n inset: 50%;\n left: 25%;\n z-index: -1;\n transition: .5s ease-out;\n background-color: var(--color);\n}\n\n.btn::before {\n top: -50%;\n left: -25%;\n transform: skew(90deg) rotate(180deg) translate(-50%, -50%);\n}\n\n.btn:hover::before {\n transform: skew(45deg) rotate(180deg) translate(-50%, -50%);\n}\n\n.btn:hover::after {\n transform: skew(45deg) translate(-50%, -50%);\n}\n\n.btn:hover {\n color: var(--color2);\n}\n\n.btn:active {\n filter: brightness(.7);\n transform: scale(.98);\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"> Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#00a97f",
+  "#0a191e"
+ ],
+ "fonts": [
+  "Roboto"
+ ],
+ "tokens": 335,
+ "size": 1343,
+ "html": "<button class=\"btn\"> Button\n</button>\n",
+ "css": "/* Nasty Wasp 56 by nikk7007 — https://uiverse.io/nikk7007/nasty-wasp-56 */\n.btn {\n --color: #00A97F;\n --color2: rgb(10, 25, 30);\n padding: 0.8em 1.75em;\n background-color: transparent;\n border-radius: 6px;\n border: .3px solid var(--color);\n transition: .5s;\n position: relative;\n overflow: hidden;\n cursor: pointer;\n z-index: 1;\n font-weight: 300;\n font-size: 17px;\n font-family: 'Roboto', 'Segoe UI', sans-serif;\n text-transform: uppercase;\n color: var(--color);\n}\n\n.btn::after, .btn::before {\n content: '';\n display: block;\n height: 100%;\n width: 100%;\n transform: skew(90deg) translate(-50%, -50%);\n position: absolute;\n inset: 50%;\n left: 25%;\n z-index: -1;\n transition: .5s ease-out;\n background-color: var(--color);\n}\n\n.btn::before {\n top: -50%;\n left: -25%;\n transform: skew(90deg) rotate(180deg) translate(-50%, -50%);\n}\n\n.btn:hover::before {\n transform: skew(45deg) rotate(180deg) translate(-50%, -50%);\n}\n\n.btn:hover::after {\n transform: skew(45deg) translate(-50%, -50%);\n}\n\n.btn:hover {\n color: var(--color2);\n}\n\n.btn:active {\n filter: brightness(.7);\n transform: scale(.98);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Wasp 56</title>\n<style>\n/* Nasty Wasp 56 by nikk7007 — https://uiverse.io/nikk7007/nasty-wasp-56 */\n.btn {\n --color: #00A97F;\n --color2: rgb(10, 25, 30);\n padding: 0.8em 1.75em;\n background-color: transparent;\n border-radius: 6px;\n border: .3px solid var(--color);\n transition: .5s;\n position: relative;\n overflow: hidden;\n cursor: pointer;\n z-index: 1;\n font-weight: 300;\n font-size: 17px;\n font-family: 'Roboto', 'Segoe UI', sans-serif;\n text-transform: uppercase;\n color: var(--color);\n}\n\n.btn::after, .btn::before {\n content: '';\n display: block;\n height: 100%;\n width: 100%;\n transform: skew(90deg) translate(-50%, -50%);\n position: absolute;\n inset: 50%;\n left: 25%;\n z-index: -1;\n transition: .5s ease-out;\n background-color: var(--color);\n}\n\n.btn::before {\n top: -50%;\n left: -25%;\n transform: skew(90deg) rotate(180deg) translate(-50%, -50%);\n}\n\n.btn:hover::before {\n transform: skew(45deg) rotate(180deg) translate(-50%, -50%);\n}\n\n.btn:hover::after {\n transform: skew(45deg) translate(-50%, -50%);\n}\n\n.btn:hover {\n color: var(--color2);\n}\n\n.btn:active {\n filter: brightness(.7);\n transform: scale(.98);\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"> Button\n</button>\n\n</body>\n</html>\n"
 }

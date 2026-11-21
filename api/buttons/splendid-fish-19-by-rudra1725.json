@@ -5,17 +5,24 @@
  "author": "Rudra1725",
  "source": "https://uiverse.io/Rudra1725/splendid-fish-19",
  "trigger": "hover",
- "description": "A button with simple, material-design and 3d styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded white button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, box-shadow becomes inset 0 0 6px #000000, 0 0 10px wheat.",
  "tags": [
+  "rounded",
+  "glow",
+  "send",
   "simple",
   "material-design",
-  "3d",
-  "button",
-  "hover",
-  "active"
+  "3d"
  ],
- "html": "<button class=\"btn1\">&gt; Send Message</button>",
- "css": "/* From Uiverse.io by Rudra1725  - Tags: simple, material design, 3d, button, hover, active */\n.btn1 {\n  color: black;\n  background-color: white;\n  border: solid wheat 2px;\n  border-radius: 9px;\n  font-size: 19px;\n  padding: 12px;\n  box-shadow: inset 0 0 4px black;\n  font-weight: 500;\n  transition: 400ms;\n}\n.btn1:hover {\n  transition: 400ms;\n  box-shadow: inset 0 0 6px black, 0 0 10px wheat;\n}\n.btn1:active {\n  transition: 50ms;\n  box-shadow: inset 0 0 0px black, 0 0 10px wheat;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Splendid Fish 19</title>\n<style>\n/* From Uiverse.io by Rudra1725 - https://uiverse.io/Rudra1725/splendid-fish-19 */\n/* From Uiverse.io by Rudra1725  - Tags: simple, material design, 3d, button, hover, active */\n.btn1 {\n  color: black;\n  background-color: white;\n  border: solid wheat 2px;\n  border-radius: 9px;\n  font-size: 19px;\n  padding: 12px;\n  box-shadow: inset 0 0 4px black;\n  font-weight: 500;\n  transition: 400ms;\n}\n.btn1:hover {\n  transition: 400ms;\n  box-shadow: inset 0 0 6px black, 0 0 10px wheat;\n}\n.btn1:active {\n  transition: 50ms;\n  box-shadow: inset 0 0 0px black, 0 0 10px wheat;\n}\n</style>\n</head>\n<body>\n<button class=\"btn1\">&gt; Send Message</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 184,
+ "size": 739,
+ "html": "<button class=\"btn1\">&gt; Send Message</button>\n",
+ "css": "/* Splendid Fish 19 by Rudra1725 — https://uiverse.io/Rudra1725/splendid-fish-19 */\n.btn1 {\n  color: black;\n  background-color: white;\n  border: solid wheat 2px;\n  border-radius: 9px;\n  font-size: 19px;\n  padding: 12px;\n  box-shadow: inset 0 0 4px black;\n  font-weight: 500;\n  transition: 400ms;\n}\n.btn1:hover {\n  transition: 400ms;\n  box-shadow: inset 0 0 6px black, 0 0 10px wheat;\n}\n.btn1:active {\n  transition: 50ms;\n  box-shadow: inset 0 0 0px black, 0 0 10px wheat;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Splendid Fish 19</title>\n<style>\n/* Splendid Fish 19 by Rudra1725 — https://uiverse.io/Rudra1725/splendid-fish-19 */\n.btn1 {\n  color: black;\n  background-color: white;\n  border: solid wheat 2px;\n  border-radius: 9px;\n  font-size: 19px;\n  padding: 12px;\n  box-shadow: inset 0 0 4px black;\n  font-weight: 500;\n  transition: 400ms;\n}\n.btn1:hover {\n  transition: 400ms;\n  box-shadow: inset 0 0 6px black, 0 0 10px wheat;\n}\n.btn1:active {\n  transition: 50ms;\n  box-shadow: inset 0 0 0px black, 0 0 10px wheat;\n}\n</style>\n</head>\n<body>\n<button class=\"btn1\">&gt; Send Message</button>\n\n</body>\n</html>\n"
 }

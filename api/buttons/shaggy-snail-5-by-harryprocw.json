@@ -4,15 +4,24 @@
  "category": "buttons",
  "author": "HarryProCW",
  "source": "https://uiverse.io/HarryProCW/shaggy-snail-5",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Pill blue button that reacts on hover with a smooth transition.",
+ "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
+  "blue",
+  "rounded",
+  "pill",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by HarryProCW - Tags: button, animated, talwindCSS -->\n<button class=\"hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white\">Click on me</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shaggy Snail 5</title>\n<style>\n/* From Uiverse.io by HarryProCW - https://uiverse.io/HarryProCW/shaggy-snail-5 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by HarryProCW - Tags: button, animated, talwindCSS -->\n<button class=\"hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white\">Click on me</button>\n</body>\n</html>\n"
+ "colors": [
+  "#6366f1",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 116,
+ "size": 465,
+ "html": "<button class=\"hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white\">Click on me</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shaggy Snail 5</title>\n<style>\n/* Shaggy Snail 5 by HarryProCW — https://uiverse.io/HarryProCW/shaggy-snail-5 */\n\n</style>\n</head>\n<body>\n<button class=\"hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white\">Click on me</button>\n\n</body>\n</html>\n"
 }

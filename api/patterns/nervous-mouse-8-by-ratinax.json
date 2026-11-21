@@ -5,15 +5,24 @@
  "author": "Ratinax",
  "source": "https://uiverse.io/Ratinax/nervous-mouse-8",
  "trigger": "static",
- "description": "A pattern with simple and square styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient white pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
+  "gradient",
+  "flat",
+  "pattern",
   "simple",
   "square",
-  "pattern",
   "static"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by Ratinax - Tags: simple, square, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: linear-gradient(45deg,black, white);\n  background-size: 1em 1em;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nervous Mouse 8</title>\n<style>\n/* From Uiverse.io by Ratinax - https://uiverse.io/Ratinax/nervous-mouse-8 */\n/* From Uiverse.io by Ratinax - Tags: simple, square, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: linear-gradient(45deg,black, white);\n  background-size: 1em 1em;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 112,
+ "size": 450,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Nervous Mouse 8 by Ratinax — https://uiverse.io/Ratinax/nervous-mouse-8 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background: linear-gradient(45deg,black, white);\n  background-size: 1em 1em;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nervous Mouse 8</title>\n<style>\n/* Nervous Mouse 8 by Ratinax — https://uiverse.io/Ratinax/nervous-mouse-8 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background: linear-gradient(45deg,black, white);\n  background-size: 1em 1em;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

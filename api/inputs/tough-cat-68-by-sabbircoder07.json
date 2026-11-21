@@ -5,15 +5,27 @@
  "author": "sabbircoder07",
  "source": "https://uiverse.io/sabbircoder07/tough-cat-68",
  "trigger": "focus",
- "description": "A input with email and box-shadow styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Rounded red text input that lights up when focused.",
+ "howItWorks": "On focus, the outline is removed, box-shadow becomes 0 0 0 1px #ffe3e3, border becomes none.",
  "tags": [
+  "red",
+  "rounded",
+  "text-input",
   "email",
   "input",
-  "box-shadow",
-  "focus"
+  "box-shadow"
  ],
- "html": "<input type=\"text\" id=\"email-id\" name=\"text\" class=\"input__email\" placeholder=\"Email Address\">",
- "css": "/* From Uiverse.io by sabbircoder07 - Tags: email, input, box-shadow */\n.input__email {\n  width: 100%;\n  padding: 10px 18px;\n  font-size: 14px;\n  font-family: inherit;\n  box-shadow: 0 0 0 1px #ffe3e3;\n  border: none;\n  border-radius: 20px;\n  background-color: #fff5f5;\n}\n\n.input__email::placeholder {\n  color: #ce9797;\n  font-size: 12px;\n}\n\n.input__email:focus {\n  outline: none;\n  box-shadow: 0 0 0 1px #ffe3e3;\n  border: none;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Cat 68</title>\n<style>\n/* From Uiverse.io by sabbircoder07 - https://uiverse.io/sabbircoder07/tough-cat-68 */\n/* From Uiverse.io by sabbircoder07 - Tags: email, input, box-shadow */\n.input__email {\n  width: 100%;\n  padding: 10px 18px;\n  font-size: 14px;\n  font-family: inherit;\n  box-shadow: 0 0 0 1px #ffe3e3;\n  border: none;\n  border-radius: 20px;\n  background-color: #fff5f5;\n}\n\n.input__email::placeholder {\n  color: #ce9797;\n  font-size: 12px;\n}\n\n.input__email:focus {\n  outline: none;\n  box-shadow: 0 0 0 1px #ffe3e3;\n  border: none;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" id=\"email-id\" name=\"text\" class=\"input__email\" placeholder=\"Email Address\">\n</body>\n</html>\n"
+ "colors": [
+  "#ffe3e3",
+  "#fff5f5",
+  "#ce9797"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 187,
+ "size": 751,
+ "html": "<input type=\"text\" id=\"email-id\" name=\"text\" class=\"input__email\" placeholder=\"Email Address\">\n",
+ "css": "/* Tough Cat 68 by sabbircoder07 — https://uiverse.io/sabbircoder07/tough-cat-68 */\n.input__email {\n  width: 100%;\n  padding: 10px 18px;\n  font-size: 14px;\n  font-family: inherit;\n  box-shadow: 0 0 0 1px #ffe3e3;\n  border: none;\n  border-radius: 20px;\n  background-color: #fff5f5;\n}\n\n.input__email::placeholder {\n  color: #ce9797;\n  font-size: 12px;\n}\n\n.input__email:focus {\n  outline: none;\n  box-shadow: 0 0 0 1px #ffe3e3;\n  border: none;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Cat 68</title>\n<style>\n/* Tough Cat 68 by sabbircoder07 — https://uiverse.io/sabbircoder07/tough-cat-68 */\n.input__email {\n  width: 100%;\n  padding: 10px 18px;\n  font-size: 14px;\n  font-family: inherit;\n  box-shadow: 0 0 0 1px #ffe3e3;\n  border: none;\n  border-radius: 20px;\n  background-color: #fff5f5;\n}\n\n.input__email::placeholder {\n  color: #ce9797;\n  font-size: 12px;\n}\n\n.input__email:focus {\n  outline: none;\n  box-shadow: 0 0 0 1px #ffe3e3;\n  border: none;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" id=\"email-id\" name=\"text\" class=\"input__email\" placeholder=\"Email Address\">\n\n</body>\n</html>\n"
 }

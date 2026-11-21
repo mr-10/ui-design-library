@@ -5,15 +5,25 @@
  "author": "JaydipPrajapati1910",
  "source": "https://uiverse.io/JaydipPrajapati1910/great-panda-16",
  "trigger": "static",
- "description": "A card with box-shadow and photo-card styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient dark rounded red card with soft shadow and rounded corners and gradient fill.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "red",
+  "gradient",
+  "dark",
+  "rounded",
   "card",
-  "box-shadow",
-  "photo-card",
-  "static"
+  "box-shadow"
  ],
- "html": "<div class=\"card\"></div>",
- "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: card, box-shadow, photo card */\n.card {\n  width: 200px;\n  height: 250px;\n  border: none;\n  border-radius: 10px;\n  background: radial-gradient(ellipse farthest-side at 76% 77%, rgba(245, 228, 212, 0.25) 4%, rgba(255, 255, 255, 0) calc(4% + 1px)), radial-gradient(circle at 76% 40%, #fef6ec 4%, rgba(255, 255, 255, 0) 4.18%), linear-gradient(135deg, #ff0000 0%, #000036 100%), radial-gradient(ellipse at 28% 0%, #ffcfac 0%, rgba(98, 149, 144, 0.5) 100%), linear-gradient(180deg, #cd6e8a 0%, #f5eab0 69%, #d6c8a2 70%, #a2758d 100%);\n  background-blend-mode: normal, normal, screen, overlay, normal;\n  box-shadow: 0px 0px 10px 1px #000000;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Great Panda 16</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/great-panda-16 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: card, box-shadow, photo card */\n.card {\n  width: 200px;\n  height: 250px;\n  border: none;\n  border-radius: 10px;\n  background: radial-gradient(ellipse farthest-side at 76% 77%, rgba(245, 228, 212, 0.25) 4%, rgba(255, 255, 255, 0) calc(4% + 1px)), radial-gradient(circle at 76% 40%, #fef6ec 4%, rgba(255, 255, 255, 0) 4.18%), linear-gradient(135deg, #ff0000 0%, #000036 100%), radial-gradient(ellipse at 28% 0%, #ffcfac 0%, rgba(98, 149, 144, 0.5) 100%), linear-gradient(180deg, #cd6e8a 0%, #f5eab0 69%, #d6c8a2 70%, #a2758d 100%);\n  background-blend-mode: normal, normal, screen, overlay, normal;\n  box-shadow: 0px 0px 10px 1px #000000;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#fef6ec",
+  "#ff0000",
+  "#000036"
+ ],
+ "fonts": [],
+ "tokens": 236,
+ "size": 946,
+ "html": "<div class=\"card\"></div>\n",
+ "css": "/* Great Panda 16 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/great-panda-16 */\n.card {\n  width: 200px;\n  height: 250px;\n  border: none;\n  border-radius: 10px;\n  background: radial-gradient(ellipse farthest-side at 76% 77%, rgba(245, 228, 212, 0.25) 4%, rgba(255, 255, 255, 0) calc(4% + 1px)), radial-gradient(circle at 76% 40%, #fef6ec 4%, rgba(255, 255, 255, 0) 4.18%), linear-gradient(135deg, #ff0000 0%, #000036 100%), radial-gradient(ellipse at 28% 0%, #ffcfac 0%, rgba(98, 149, 144, 0.5) 100%), linear-gradient(180deg, #cd6e8a 0%, #f5eab0 69%, #d6c8a2 70%, #a2758d 100%);\n  background-blend-mode: normal, normal, screen, overlay, normal;\n  box-shadow: 0px 0px 10px 1px #000000;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Great Panda 16</title>\n<style>\n/* Great Panda 16 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/great-panda-16 */\n.card {\n  width: 200px;\n  height: 250px;\n  border: none;\n  border-radius: 10px;\n  background: radial-gradient(ellipse farthest-side at 76% 77%, rgba(245, 228, 212, 0.25) 4%, rgba(255, 255, 255, 0) calc(4% + 1px)), radial-gradient(circle at 76% 40%, #fef6ec 4%, rgba(255, 255, 255, 0) 4.18%), linear-gradient(135deg, #ff0000 0%, #000036 100%), radial-gradient(ellipse at 28% 0%, #ffcfac 0%, rgba(98, 149, 144, 0.5) 100%), linear-gradient(180deg, #cd6e8a 0%, #f5eab0 69%, #d6c8a2 70%, #a2758d 100%);\n  background-blend-mode: normal, normal, screen, overlay, normal;\n  box-shadow: 0px 0px 10px 1px #000000;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n\n</body>\n</html>\n"
 }

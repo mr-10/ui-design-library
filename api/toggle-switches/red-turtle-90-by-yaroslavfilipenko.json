@@ -5,16 +5,25 @@
  "author": "YaroslavFilipenko",
  "source": "https://uiverse.io/YaroslavFilipenko/red-turtle-90",
  "trigger": "checked",
- "description": "A toggle switch with slider, input and toggle-switch styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Pill dark cyan toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: background-color changes from #b1b9c3 to #b1b9c3, transform becomes translateX(35px), background changes from #b1b9c3 to #F2F8FD.",
  "tags": [
-  "slider",
-  "input",
+  "cyan",
+  "rounded",
+  "pill",
+  "flat",
   "toggle-switch",
-  "toggle-switches",
-  "checked"
+  "slider"
  ],
- "html": "<div class=\"theme_switcher\">\n  <label id=\"switch\" class=\"switch\">\n    <input type=\"checkbox\"><span class=\"slider round\"></span>\n  </label>\n</div>",
- "css": "/* From Uiverse.io by YaroslavFilipenko - Tags: slider, input, toggle switch */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 20px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #b1b9c3;\n  -webkit-transition: 0.4s;\n  transition: 0.4s;\n}\n\n.slider:before {\n  position: absolute;\n  content: '';\n  height: 30px;\n  width: 30px;\n  bottom: -5px;\n  background: #18333E;\n  -webkit-transition: 0.4s;\n  transition: 0.4s;\n}\n\n.slider.round {\n  border-radius: 34px;\n}\n\n.slider.round:before {\n  border-radius: 50%;\n}\n\ninput:checked+.slider {\n  background-color: #b1b9c3;\n}\n\ninput:checked+.slider:before {\n  -webkit-transform: translateX(35px);\n  -ms-transform: translateX(35px);\n  transform: translateX(35px);\n  background: #F2F8FD;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Turtle 90</title>\n<style>\n/* From Uiverse.io by YaroslavFilipenko - https://uiverse.io/YaroslavFilipenko/red-turtle-90 */\n/* From Uiverse.io by YaroslavFilipenko - Tags: slider, input, toggle switch */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 20px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #b1b9c3;\n  -webkit-transition: 0.4s;\n  transition: 0.4s;\n}\n\n.slider:before {\n  position: absolute;\n  content: '';\n  height: 30px;\n  width: 30px;\n  bottom: -5px;\n  background: #18333E;\n  -webkit-transition: 0.4s;\n  transition: 0.4s;\n}\n\n.slider.round {\n  border-radius: 34px;\n}\n\n.slider.round:before {\n  border-radius: 50%;\n}\n\ninput:checked+.slider {\n  background-color: #b1b9c3;\n}\n\ninput:checked+.slider:before {\n  -webkit-transform: translateX(35px);\n  -ms-transform: translateX(35px);\n  transform: translateX(35px);\n  background: #F2F8FD;\n}\n</style>\n</head>\n<body>\n<div class=\"theme_switcher\">\n  <label id=\"switch\" class=\"switch\">\n    <input type=\"checkbox\"><span class=\"slider round\"></span>\n  </label>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#b1b9c3",
+  "#18333e",
+  "#f2f8fd"
+ ],
+ "fonts": [],
+ "tokens": 315,
+ "size": 1262,
+ "html": "<div class=\"theme_switcher\">\n  <label id=\"switch\" class=\"switch\">\n    <input type=\"checkbox\"><span class=\"slider round\"></span>\n  </label>\n</div>\n",
+ "css": "/* Red Turtle 90 by YaroslavFilipenko — https://uiverse.io/YaroslavFilipenko/red-turtle-90 */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 20px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #b1b9c3;\n  -webkit-transition: 0.4s;\n  transition: 0.4s;\n}\n\n.slider:before {\n  position: absolute;\n  content: '';\n  height: 30px;\n  width: 30px;\n  bottom: -5px;\n  background: #18333E;\n  -webkit-transition: 0.4s;\n  transition: 0.4s;\n}\n\n.slider.round {\n  border-radius: 34px;\n}\n\n.slider.round:before {\n  border-radius: 50%;\n}\n\ninput:checked+.slider {\n  background-color: #b1b9c3;\n}\n\ninput:checked+.slider:before {\n  -webkit-transform: translateX(35px);\n  -ms-transform: translateX(35px);\n  transform: translateX(35px);\n  background: #F2F8FD;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Turtle 90</title>\n<style>\n/* Red Turtle 90 by YaroslavFilipenko — https://uiverse.io/YaroslavFilipenko/red-turtle-90 */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 20px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #b1b9c3;\n  -webkit-transition: 0.4s;\n  transition: 0.4s;\n}\n\n.slider:before {\n  position: absolute;\n  content: '';\n  height: 30px;\n  width: 30px;\n  bottom: -5px;\n  background: #18333E;\n  -webkit-transition: 0.4s;\n  transition: 0.4s;\n}\n\n.slider.round {\n  border-radius: 34px;\n}\n\n.slider.round:before {\n  border-radius: 50%;\n}\n\ninput:checked+.slider {\n  background-color: #b1b9c3;\n}\n\ninput:checked+.slider:before {\n  -webkit-transform: translateX(35px);\n  -ms-transform: translateX(35px);\n  transform: translateX(35px);\n  background: #F2F8FD;\n}\n</style>\n</head>\n<body>\n<div class=\"theme_switcher\">\n  <label id=\"switch\" class=\"switch\">\n    <input type=\"checkbox\"><span class=\"slider round\"></span>\n  </label>\n</div>\n\n</body>\n</html>\n"
 }

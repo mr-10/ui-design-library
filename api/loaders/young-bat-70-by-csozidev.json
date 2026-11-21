@@ -5,14 +5,24 @@
  "author": "csozidev",
  "source": "https://uiverse.io/csozidev/young-bat-70",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Blue cube loader with animating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (animating).",
  "tags": [
+  "blue",
+  "flat",
+  "cube-loader",
   "loader",
   "auto-loop",
   "css"
  ],
- "html": "<div class=\"loader\">\n  <div class=\"square-1 square\"></div>\n  <div class=\"square-2 square\"></div>\n</div>",
- "css": "/* From Uiverse.io by csozidev - Tags: loader */\n/* Discord loader made by: csozi | Website: www.csozi.hu*/\n\n.loader {\n  position: relative;\n  height: 60px;\n  width: 60px;\n  box-sizing: content-box;\n  padding: 10px;\n}\n\n.square {\n  background-color: #7289DA;\n  height: 20px;\n  width: 20px;\n  position: absolute;\n}\n\n.square-1 {\n  animation: load 2s infinite;\n}\n\n.square-2 {\n  animation: load 2s infinite;\n  animation-delay: 1s;\n}\n\n@keyframes load {\n  0% {\n    translate: 0px 0px;\n    scale: 1;\n    rotate: 0deg;\n  }\n\n  25% {\n    translate: 40px 0px;\n    scale: 0.5;\n    rotate: -90deg;\n  }\n\n  50% {\n    translate: 40px 40px;\n    scale: 1;\n    rotate: 180deg;\n  }\n\n  75% {\n    translate: 0px 40px;\n    scale: 0.5;\n    rotate: 90deg;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Young Bat 70</title>\n<style>\n/* From Uiverse.io by csozidev - https://uiverse.io/csozidev/young-bat-70 */\n/* From Uiverse.io by csozidev - Tags: loader */\n/* Discord loader made by: csozi | Website: www.csozi.hu*/\n\n.loader {\n  position: relative;\n  height: 60px;\n  width: 60px;\n  box-sizing: content-box;\n  padding: 10px;\n}\n\n.square {\n  background-color: #7289DA;\n  height: 20px;\n  width: 20px;\n  position: absolute;\n}\n\n.square-1 {\n  animation: load 2s infinite;\n}\n\n.square-2 {\n  animation: load 2s infinite;\n  animation-delay: 1s;\n}\n\n@keyframes load {\n  0% {\n    translate: 0px 0px;\n    scale: 1;\n    rotate: 0deg;\n  }\n\n  25% {\n    translate: 40px 0px;\n    scale: 0.5;\n    rotate: -90deg;\n  }\n\n  50% {\n    translate: 40px 40px;\n    scale: 1;\n    rotate: 180deg;\n  }\n\n  75% {\n    translate: 0px 40px;\n    scale: 0.5;\n    rotate: 90deg;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"square-1 square\"></div>\n  <div class=\"square-2 square\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#7289da",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 254,
+ "size": 1018,
+ "html": "<div class=\"loader\">\n  <div class=\"square-1 square\"></div>\n  <div class=\"square-2 square\"></div>\n</div>\n",
+ "css": "/* Young Bat 70 by csozidev — https://uiverse.io/csozidev/young-bat-70 */\n.loader {\n  position: relative;\n  height: 60px;\n  width: 60px;\n  box-sizing: content-box;\n  padding: 10px;\n}\n\n.square {\n  background-color: #7289DA;\n  height: 20px;\n  width: 20px;\n  position: absolute;\n}\n\n.square-1 {\n  animation: load 2s infinite;\n}\n\n.square-2 {\n  animation: load 2s infinite;\n  animation-delay: 1s;\n}\n\n@keyframes load {\n  0% {\n    translate: 0px 0px;\n    scale: 1;\n    rotate: 0deg;\n  }\n\n  25% {\n    translate: 40px 0px;\n    scale: 0.5;\n    rotate: -90deg;\n  }\n\n  50% {\n    translate: 40px 40px;\n    scale: 1;\n    rotate: 180deg;\n  }\n\n  75% {\n    translate: 0px 40px;\n    scale: 0.5;\n    rotate: 90deg;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Young Bat 70</title>\n<style>\n/* Young Bat 70 by csozidev — https://uiverse.io/csozidev/young-bat-70 */\n.loader {\n  position: relative;\n  height: 60px;\n  width: 60px;\n  box-sizing: content-box;\n  padding: 10px;\n}\n\n.square {\n  background-color: #7289DA;\n  height: 20px;\n  width: 20px;\n  position: absolute;\n}\n\n.square-1 {\n  animation: load 2s infinite;\n}\n\n.square-2 {\n  animation: load 2s infinite;\n  animation-delay: 1s;\n}\n\n@keyframes load {\n  0% {\n    translate: 0px 0px;\n    scale: 1;\n    rotate: 0deg;\n  }\n\n  25% {\n    translate: 40px 0px;\n    scale: 0.5;\n    rotate: -90deg;\n  }\n\n  50% {\n    translate: 40px 40px;\n    scale: 1;\n    rotate: 180deg;\n  }\n\n  75% {\n    translate: 0px 40px;\n    scale: 0.5;\n    rotate: 90deg;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"square-1 square\"></div>\n  <div class=\"square-2 square\"></div>\n</div>\n\n</body>\n</html>\n"
 }

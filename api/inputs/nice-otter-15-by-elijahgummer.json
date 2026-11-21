@@ -5,17 +5,25 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/nice-otter-15",
  "trigger": "hover",
- "description": "A input with animation, blue and glow styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon rounded cyan text input that changes colour on hover.",
+ "howItWorks": "On hover, background-color changes from #fff to #f0f8ff. On focus, border-color becomes #2980b9, box-shadow becomes 0 0 15px #3498db, transform becomes scale(1.02).",
  "tags": [
-  "animation",
-  "blue",
-  "input",
-  "glow",
-  "transition",
-  "hover-effect"
+  "cyan",
+  "neon",
+  "rounded",
+  "color-change",
+  "text-input",
+  "animation"
  ],
- "html": "<input placeholder=\"Type something...\" class=\"input\" name=\"text\" type=\"text\" />",
- "css": "/* From Uiverse.io by elijahgummer  - Tags: animation, blue, input, glow, transition, hover effect, box-shadow */\n.input {\n  width: 200px;\n  padding: 12px;\n  border: 2px solid #3498db;\n  border-radius: 8px;\n  outline: none;\n  font-size: 18px;\n  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;\n  background-color: #fff;\n  color: #333;\n  box-sizing: border-box;\n}\n\n.input:focus {\n  border-color: #2980b9;\n  box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);\n  transform: scale(1.02);\n}\n\n/* Placeholder Styling */\n.input::placeholder {\n  color: #aaa;\n  font-style: italic;\n}\n\n/* Hover Effect */\n.input:hover {\n  background-color: #f0f8ff;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nice Otter 15</title>\n<style>\n/* From Uiverse.io by elijahgummer - https://uiverse.io/elijahgummer/nice-otter-15 */\n/* From Uiverse.io by elijahgummer  - Tags: animation, blue, input, glow, transition, hover effect, box-shadow */\n.input {\n  width: 200px;\n  padding: 12px;\n  border: 2px solid #3498db;\n  border-radius: 8px;\n  outline: none;\n  font-size: 18px;\n  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;\n  background-color: #fff;\n  color: #333;\n  box-sizing: border-box;\n}\n\n.input:focus {\n  border-color: #2980b9;\n  box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);\n  transform: scale(1.02);\n}\n\n/* Placeholder Styling */\n.input::placeholder {\n  color: #aaa;\n  font-style: italic;\n}\n\n/* Hover Effect */\n.input:hover {\n  background-color: #f0f8ff;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Type something...\" class=\"input\" name=\"text\" type=\"text\" />\n</body>\n</html>\n"
+ "colors": [
+  "#3498db",
+  "#333333",
+  "#2980b9"
+ ],
+ "fonts": [],
+ "tokens": 216,
+ "size": 868,
+ "html": "<input placeholder=\"Type something...\" class=\"input\" name=\"text\" type=\"text\" />\n",
+ "css": "/* Nice Otter 15 by elijahgummer — https://uiverse.io/elijahgummer/nice-otter-15 */\n.input {\n  width: 200px;\n  padding: 12px;\n  border: 2px solid #3498db;\n  border-radius: 8px;\n  outline: none;\n  font-size: 18px;\n  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;\n  background-color: #fff;\n  color: #333;\n  box-sizing: border-box;\n}\n\n.input:focus {\n  border-color: #2980b9;\n  box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);\n  transform: scale(1.02);\n}\n\n.input::placeholder {\n  color: #aaa;\n  font-style: italic;\n}\n\n.input:hover {\n  background-color: #f0f8ff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nice Otter 15</title>\n<style>\n/* Nice Otter 15 by elijahgummer — https://uiverse.io/elijahgummer/nice-otter-15 */\n.input {\n  width: 200px;\n  padding: 12px;\n  border: 2px solid #3498db;\n  border-radius: 8px;\n  outline: none;\n  font-size: 18px;\n  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;\n  background-color: #fff;\n  color: #333;\n  box-sizing: border-box;\n}\n\n.input:focus {\n  border-color: #2980b9;\n  box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);\n  transform: scale(1.02);\n}\n\n.input::placeholder {\n  color: #aaa;\n  font-style: italic;\n}\n\n.input:hover {\n  background-color: #f0f8ff;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Type something...\" class=\"input\" name=\"text\" type=\"text\" />\n\n</body>\n</html>\n"
 }

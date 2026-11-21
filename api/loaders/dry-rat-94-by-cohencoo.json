@@ -5,14 +5,24 @@
  "author": "cohencoo",
  "source": "https://uiverse.io/cohencoo/dry-rat-94",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient rounded amber loader with animating motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (animating).",
  "tags": [
+  "amber",
+  "gradient",
+  "rounded",
+  "flat",
   "loader",
-  "auto-loop",
-  "css"
+  "auto-loop"
  ],
- "html": "<div class=\"custom-loader\"></div>",
- "css": "/* From Uiverse.io by cohencoo - Tags: loader */\n.custom-loader {\n  width: 70px;\n  height: 70px;\n  background: #ffa600;\n  border-radius: 50px;\n  -webkit-mask: radial-gradient(circle 31px at 50% calc(100% + 13px),#000 95%,#0000) top 4px left 50%,\n    radial-gradient(circle 31px,#000 95%,#0000) center,\n    radial-gradient(circle 31px at 50% -13px,#000 95%,#0000) bottom 4px left 50%,\n    linear-gradient(#000 0 0);\n  -webkit-mask-composite: xor;\n  mask-composite: exclude;\n  -webkit-mask-repeat: no-repeat;\n  animation: cu10 1.5s infinite;\n}\n\n@keyframes cu10 {\n  0% {\n    -webkit-mask-size: 0    18px,0    18px,0    18px,auto\n  }\n\n  16.67% {\n    -webkit-mask-size: 100% 18px,0    18px,0    18px,auto\n  }\n\n  33.33% {\n    -webkit-mask-size: 100% 18px,100% 18px,0    18px,auto\n  }\n\n  50% {\n    -webkit-mask-size: 100% 18px,100% 18px,100% 18px,auto\n  }\n\n  66.67% {\n    -webkit-mask-size: 0    18px,100% 18px,100% 18px,auto\n  }\n\n  83.33% {\n    -webkit-mask-size: 0    18px,0    18px,100% 18px,auto\n  }\n\n  100% {\n    -webkit-mask-size: 0    18px,0    18px,0    18px,auto\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Rat 94</title>\n<style>\n/* From Uiverse.io by cohencoo - https://uiverse.io/cohencoo/dry-rat-94 */\n/* From Uiverse.io by cohencoo - Tags: loader */\n.custom-loader {\n  width: 70px;\n  height: 70px;\n  background: #ffa600;\n  border-radius: 50px;\n  -webkit-mask: radial-gradient(circle 31px at 50% calc(100% + 13px),#000 95%,#0000) top 4px left 50%,\n    radial-gradient(circle 31px,#000 95%,#0000) center,\n    radial-gradient(circle 31px at 50% -13px,#000 95%,#0000) bottom 4px left 50%,\n    linear-gradient(#000 0 0);\n  -webkit-mask-composite: xor;\n  mask-composite: exclude;\n  -webkit-mask-repeat: no-repeat;\n  animation: cu10 1.5s infinite;\n}\n\n@keyframes cu10 {\n  0% {\n    -webkit-mask-size: 0    18px,0    18px,0    18px,auto\n  }\n\n  16.67% {\n    -webkit-mask-size: 100% 18px,0    18px,0    18px,auto\n  }\n\n  33.33% {\n    -webkit-mask-size: 100% 18px,100% 18px,0    18px,auto\n  }\n\n  50% {\n    -webkit-mask-size: 100% 18px,100% 18px,100% 18px,auto\n  }\n\n  66.67% {\n    -webkit-mask-size: 0    18px,100% 18px,100% 18px,auto\n  }\n\n  83.33% {\n    -webkit-mask-size: 0    18px,0    18px,100% 18px,auto\n  }\n\n  100% {\n    -webkit-mask-size: 0    18px,0    18px,0    18px,auto\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"custom-loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffa600",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 334,
+ "size": 1337,
+ "html": "<div class=\"custom-loader\"></div>\n",
+ "css": "/* Dry Rat 94 by cohencoo — https://uiverse.io/cohencoo/dry-rat-94 */\n.custom-loader {\n  width: 70px;\n  height: 70px;\n  background: #ffa600;\n  border-radius: 50px;\n  -webkit-mask: radial-gradient(circle 31px at 50% calc(100% + 13px),#000 95%,#0000) top 4px left 50%,\n    radial-gradient(circle 31px,#000 95%,#0000) center,\n    radial-gradient(circle 31px at 50% -13px,#000 95%,#0000) bottom 4px left 50%,\n    linear-gradient(#000 0 0);\n  -webkit-mask-composite: xor;\n  mask-composite: exclude;\n  -webkit-mask-repeat: no-repeat;\n  animation: cu10 1.5s infinite;\n}\n\n@keyframes cu10 {\n  0% {\n    -webkit-mask-size: 0    18px,0    18px,0    18px,auto\n  }\n\n  16.67% {\n    -webkit-mask-size: 100% 18px,0    18px,0    18px,auto\n  }\n\n  33.33% {\n    -webkit-mask-size: 100% 18px,100% 18px,0    18px,auto\n  }\n\n  50% {\n    -webkit-mask-size: 100% 18px,100% 18px,100% 18px,auto\n  }\n\n  66.67% {\n    -webkit-mask-size: 0    18px,100% 18px,100% 18px,auto\n  }\n\n  83.33% {\n    -webkit-mask-size: 0    18px,0    18px,100% 18px,auto\n  }\n\n  100% {\n    -webkit-mask-size: 0    18px,0    18px,0    18px,auto\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Rat 94</title>\n<style>\n/* Dry Rat 94 by cohencoo — https://uiverse.io/cohencoo/dry-rat-94 */\n.custom-loader {\n  width: 70px;\n  height: 70px;\n  background: #ffa600;\n  border-radius: 50px;\n  -webkit-mask: radial-gradient(circle 31px at 50% calc(100% + 13px),#000 95%,#0000) top 4px left 50%,\n    radial-gradient(circle 31px,#000 95%,#0000) center,\n    radial-gradient(circle 31px at 50% -13px,#000 95%,#0000) bottom 4px left 50%,\n    linear-gradient(#000 0 0);\n  -webkit-mask-composite: xor;\n  mask-composite: exclude;\n  -webkit-mask-repeat: no-repeat;\n  animation: cu10 1.5s infinite;\n}\n\n@keyframes cu10 {\n  0% {\n    -webkit-mask-size: 0    18px,0    18px,0    18px,auto\n  }\n\n  16.67% {\n    -webkit-mask-size: 100% 18px,0    18px,0    18px,auto\n  }\n\n  33.33% {\n    -webkit-mask-size: 100% 18px,100% 18px,0    18px,auto\n  }\n\n  50% {\n    -webkit-mask-size: 100% 18px,100% 18px,100% 18px,auto\n  }\n\n  66.67% {\n    -webkit-mask-size: 0    18px,100% 18px,100% 18px,auto\n  }\n\n  83.33% {\n    -webkit-mask-size: 0    18px,0    18px,100% 18px,auto\n  }\n\n  100% {\n    -webkit-mask-size: 0    18px,0    18px,0    18px,auto\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"custom-loader\"></div>\n\n</body>\n</html>\n"
 }

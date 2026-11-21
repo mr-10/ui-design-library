@@ -5,15 +5,24 @@
  "author": "vikramsinghnegi",
  "source": "https://uiverse.io/vikramsinghnegi/smooth-lionfish-6",
  "trigger": "auto-loop",
- "description": "A loader with animation and factory styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient red loader with animating; shimmering motion in a loop.",
+ "howItWorks": "It loops a 2s animation (animating; shimmering).",
  "tags": [
+  "red",
+  "gradient",
+  "shimmer",
   "animation",
   "loader",
-  "factory",
-  "auto-loop"
+  "factory"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by vikramsinghnegi  - Tags: animation, loader, factory */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 90px;\n  height: 14px;\n  box-shadow: 0 3px 0 #c74d4d;\n  position: relative;\n  clip-path: inset(-40px 0 -5px);\n}\n.loader:before {\n  content: \"\";\n  position: absolute;\n  inset: auto calc(50% - 17px) 0;\n  height: 50px;\n  --g: no-repeat linear-gradient(#d2d3e0 0 0);\n  background: var(--g), var(--g), var(--g), var(--g);\n  background-size: 16px 14px;\n  animation: l7-1 2s infinite linear, l7-2 2s infinite linear;\n}\n@keyframes l7-1 {\n  0%,\n  100% {\n    background-position: 0 -50px, 100% -50px;\n  }\n  17.5% {\n    background-position: 0 100%, 100% -50px, 0 -50px, 100% -50px;\n  }\n  35% {\n    background-position: 0 100%, 100% 100%, 0 -50px, 100% -50px;\n  }\n  52.5% {\n    background-position: 0 100%, 100% 100%, 0 calc(100% - 16px), 100% -50px;\n  }\n  70%,\n  98% {\n    background-position: 0 100%, 100% 100%, 0 calc(100% - 16px),\n      100% calc(100% - 16px);\n  }\n}\n@keyframes l7-2 {\n  0%,\n  70% {\n    transform: translate(0);\n  }\n  100% {\n    transform: translate(200%);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Lionfish 6</title>\n<style>\n/* From Uiverse.io by vikramsinghnegi - https://uiverse.io/vikramsinghnegi/smooth-lionfish-6 */\n/* From Uiverse.io by vikramsinghnegi  - Tags: animation, loader, factory */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 90px;\n  height: 14px;\n  box-shadow: 0 3px 0 #c74d4d;\n  position: relative;\n  clip-path: inset(-40px 0 -5px);\n}\n.loader:before {\n  content: \"\";\n  position: absolute;\n  inset: auto calc(50% - 17px) 0;\n  height: 50px;\n  --g: no-repeat linear-gradient(#d2d3e0 0 0);\n  background: var(--g), var(--g), var(--g), var(--g);\n  background-size: 16px 14px;\n  animation: l7-1 2s infinite linear, l7-2 2s infinite linear;\n}\n@keyframes l7-1 {\n  0%,\n  100% {\n    background-position: 0 -50px, 100% -50px;\n  }\n  17.5% {\n    background-position: 0 100%, 100% -50px, 0 -50px, 100% -50px;\n  }\n  35% {\n    background-position: 0 100%, 100% 100%, 0 -50px, 100% -50px;\n  }\n  52.5% {\n    background-position: 0 100%, 100% 100%, 0 calc(100% - 16px), 100% -50px;\n  }\n  70%,\n  98% {\n    background-position: 0 100%, 100% 100%, 0 calc(100% - 16px),\n      100% calc(100% - 16px);\n  }\n}\n@keyframes l7-2 {\n  0%,\n  70% {\n    transform: translate(0);\n  }\n  100% {\n    transform: translate(200%);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#d2d3e0",
+  "#c74d4d"
+ ],
+ "fonts": [],
+ "tokens": 332,
+ "size": 1332,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Smooth Lionfish 6 by vikramsinghnegi — https://uiverse.io/vikramsinghnegi/smooth-lionfish-6 */\n.loader {\n  width: 90px;\n  height: 14px;\n  box-shadow: 0 3px 0 #c74d4d;\n  position: relative;\n  clip-path: inset(-40px 0 -5px);\n}\n.loader:before {\n  content: \"\";\n  position: absolute;\n  inset: auto calc(50% - 17px) 0;\n  height: 50px;\n  --g: no-repeat linear-gradient(#d2d3e0 0 0);\n  background: var(--g), var(--g), var(--g), var(--g);\n  background-size: 16px 14px;\n  animation: l7-1 2s infinite linear, l7-2 2s infinite linear;\n}\n@keyframes l7-1 {\n  0%,\n  100% {\n    background-position: 0 -50px, 100% -50px;\n  }\n  17.5% {\n    background-position: 0 100%, 100% -50px, 0 -50px, 100% -50px;\n  }\n  35% {\n    background-position: 0 100%, 100% 100%, 0 -50px, 100% -50px;\n  }\n  52.5% {\n    background-position: 0 100%, 100% 100%, 0 calc(100% - 16px), 100% -50px;\n  }\n  70%,\n  98% {\n    background-position: 0 100%, 100% 100%, 0 calc(100% - 16px),\n      100% calc(100% - 16px);\n  }\n}\n@keyframes l7-2 {\n  0%,\n  70% {\n    transform: translate(0);\n  }\n  100% {\n    transform: translate(200%);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Lionfish 6</title>\n<style>\n/* Smooth Lionfish 6 by vikramsinghnegi — https://uiverse.io/vikramsinghnegi/smooth-lionfish-6 */\n.loader {\n  width: 90px;\n  height: 14px;\n  box-shadow: 0 3px 0 #c74d4d;\n  position: relative;\n  clip-path: inset(-40px 0 -5px);\n}\n.loader:before {\n  content: \"\";\n  position: absolute;\n  inset: auto calc(50% - 17px) 0;\n  height: 50px;\n  --g: no-repeat linear-gradient(#d2d3e0 0 0);\n  background: var(--g), var(--g), var(--g), var(--g);\n  background-size: 16px 14px;\n  animation: l7-1 2s infinite linear, l7-2 2s infinite linear;\n}\n@keyframes l7-1 {\n  0%,\n  100% {\n    background-position: 0 -50px, 100% -50px;\n  }\n  17.5% {\n    background-position: 0 100%, 100% -50px, 0 -50px, 100% -50px;\n  }\n  35% {\n    background-position: 0 100%, 100% 100%, 0 -50px, 100% -50px;\n  }\n  52.5% {\n    background-position: 0 100%, 100% 100%, 0 calc(100% - 16px), 100% -50px;\n  }\n  70%,\n  98% {\n    background-position: 0 100%, 100% 100%, 0 calc(100% - 16px),\n      100% calc(100% - 16px);\n  }\n}\n@keyframes l7-2 {\n  0%,\n  70% {\n    transform: translate(0);\n  }\n  100% {\n    transform: translate(200%);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

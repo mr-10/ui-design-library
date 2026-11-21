@@ -5,17 +5,24 @@
  "author": "Kemboi-Dun",
  "source": "https://uiverse.io/Kemboi-Dun/big-dolphin-10",
  "trigger": "auto-loop",
- "description": "A loader with simple, animation and blue styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Neon rounded cyan loader with animating motion in a loop.",
+ "howItWorks": "It loops a 4s animation (animating).",
  "tags": [
+  "cyan",
+  "neon",
+  "rounded",
   "simple",
   "animation",
-  "blue",
-  "minimalist",
-  "loading",
-  "loader"
+  "blue"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by Kemboi-Dun - Source: https://uiverse.io/Saiyed-Tanvir/old-mole-38 - Tags: simple, animation, blue, minimalist, loading, loader, cube, animated */\n.loader {\n  height: 5cm;\n  width: 5cm;\n  border-radius: 1rem;\n  /* border: 1px solid #0a7cbe; */\n  box-shadow: inset 0 0 0 #0a7cbe;\n  animation: load 4s ease infinite;\n}\n\n@keyframes load {\n  \n  0% {\n    box-shadow: inset -5cm -2.5cm 0 #0a7cbe;\n  }\n\n  25% {\n    box-shadow: inset 5cm -2.5cm 0 #0a7cbe;\n  }\n\n  25.01% {\n    box-shadow: inset 2.5cm -5cm 0 #0a7cbe;\n  }\n\n  50% {\n    box-shadow: inset 2.5cm 5cm 0 #0a7cbe;\n  }\n\n  50.01% {\n    box-shadow: inset 5cm 2.5cm 0 #0a7cbe;\n  }\n\n  75% {\n    box-shadow: inset -5cm 2.5cm 0 #0a7cbe;\n  }\n\n  75.01% {\n    box-shadow: inset -2.5cm 5cm 0 #0a7cbe;\n  }\n\n  100% {\n    box-shadow: inset -2.5cm -5cm 0 #0a7cbe;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Dolphin 10</title>\n<style>\n/* From Uiverse.io by Kemboi-Dun - https://uiverse.io/Kemboi-Dun/big-dolphin-10 */\n/* From Uiverse.io by Kemboi-Dun - Source: https://uiverse.io/Saiyed-Tanvir/old-mole-38 - Tags: simple, animation, blue, minimalist, loading, loader, cube, animated */\n.loader {\n  height: 5cm;\n  width: 5cm;\n  border-radius: 1rem;\n  /* border: 1px solid #0a7cbe; */\n  box-shadow: inset 0 0 0 #0a7cbe;\n  animation: load 4s ease infinite;\n}\n\n@keyframes load {\n  \n  0% {\n    box-shadow: inset -5cm -2.5cm 0 #0a7cbe;\n  }\n\n  25% {\n    box-shadow: inset 5cm -2.5cm 0 #0a7cbe;\n  }\n\n  25.01% {\n    box-shadow: inset 2.5cm -5cm 0 #0a7cbe;\n  }\n\n  50% {\n    box-shadow: inset 2.5cm 5cm 0 #0a7cbe;\n  }\n\n  50.01% {\n    box-shadow: inset 5cm 2.5cm 0 #0a7cbe;\n  }\n\n  75% {\n    box-shadow: inset -5cm 2.5cm 0 #0a7cbe;\n  }\n\n  75.01% {\n    box-shadow: inset -2.5cm 5cm 0 #0a7cbe;\n  }\n\n  100% {\n    box-shadow: inset -2.5cm -5cm 0 #0a7cbe;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#0a7cbe",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 236,
+ "size": 946,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Big Dolphin 10 by Kemboi-Dun — https://uiverse.io/Kemboi-Dun/big-dolphin-10 */\n.loader {\n  height: 5cm;\n  width: 5cm;\n  border-radius: 1rem;\n\n  box-shadow: inset 0 0 0 #0a7cbe;\n  animation: load 4s ease infinite;\n}\n\n@keyframes load {\n\n  0% {\n    box-shadow: inset -5cm -2.5cm 0 #0a7cbe;\n  }\n\n  25% {\n    box-shadow: inset 5cm -2.5cm 0 #0a7cbe;\n  }\n\n  25.01% {\n    box-shadow: inset 2.5cm -5cm 0 #0a7cbe;\n  }\n\n  50% {\n    box-shadow: inset 2.5cm 5cm 0 #0a7cbe;\n  }\n\n  50.01% {\n    box-shadow: inset 5cm 2.5cm 0 #0a7cbe;\n  }\n\n  75% {\n    box-shadow: inset -5cm 2.5cm 0 #0a7cbe;\n  }\n\n  75.01% {\n    box-shadow: inset -2.5cm 5cm 0 #0a7cbe;\n  }\n\n  100% {\n    box-shadow: inset -2.5cm -5cm 0 #0a7cbe;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Dolphin 10</title>\n<style>\n/* Big Dolphin 10 by Kemboi-Dun — https://uiverse.io/Kemboi-Dun/big-dolphin-10 */\n.loader {\n  height: 5cm;\n  width: 5cm;\n  border-radius: 1rem;\n\n  box-shadow: inset 0 0 0 #0a7cbe;\n  animation: load 4s ease infinite;\n}\n\n@keyframes load {\n\n  0% {\n    box-shadow: inset -5cm -2.5cm 0 #0a7cbe;\n  }\n\n  25% {\n    box-shadow: inset 5cm -2.5cm 0 #0a7cbe;\n  }\n\n  25.01% {\n    box-shadow: inset 2.5cm -5cm 0 #0a7cbe;\n  }\n\n  50% {\n    box-shadow: inset 2.5cm 5cm 0 #0a7cbe;\n  }\n\n  50.01% {\n    box-shadow: inset 5cm 2.5cm 0 #0a7cbe;\n  }\n\n  75% {\n    box-shadow: inset -5cm 2.5cm 0 #0a7cbe;\n  }\n\n  75.01% {\n    box-shadow: inset -2.5cm 5cm 0 #0a7cbe;\n  }\n\n  100% {\n    box-shadow: inset -2.5cm -5cm 0 #0a7cbe;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

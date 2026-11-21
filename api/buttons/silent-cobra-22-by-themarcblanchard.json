@@ -5,14 +5,25 @@
  "author": "themarcBlanchard",
  "source": "https://uiverse.io/themarcBlanchard/silent-cobra-22",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined sky-blue button that glows and scales up on hover.",
+ "howItWorks": "On hover, background-color changes to #1a5cff, text color changes to #ffffff, transform becomes scale(1.1).",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "blue",
+  "outlined",
+  "scale",
+  "glow",
+  "color-change",
+  "button"
  ],
- "html": "<button type=\"button\">\n  Hover\n</button>",
- "css": "/* From Uiverse.io by themarcBlanchard - Tags: button */\nbutton {\n  padding: .5rem 2rem;\n  border-radius: 5px;\n  font-weight: 600;\n  border: 1px solid black;\n}\n\nbutton:hover {\n  background-color: #1a5cff;\n  color: white;\n  transform: scale(1.1);\n  font-weight: 700;\n  -webkit-box-shadow: 7px 7px 23px -12px rgba(26,91,255,1);\n  -moz-box-shadow: 7px 7px 23px -12px rgba(26,91,255,1);\n  box-shadow: 7px 7px 23px -12px rgba(26,91,255,1);\n  border: none;\n}\n\nbutton:active {\n  background-color: #1752e5;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Cobra 22</title>\n<style>\n/* From Uiverse.io by themarcBlanchard - https://uiverse.io/themarcBlanchard/silent-cobra-22 */\n/* From Uiverse.io by themarcBlanchard - Tags: button */\nbutton {\n  padding: .5rem 2rem;\n  border-radius: 5px;\n  font-weight: 600;\n  border: 1px solid black;\n}\n\nbutton:hover {\n  background-color: #1a5cff;\n  color: white;\n  transform: scale(1.1);\n  font-weight: 700;\n  -webkit-box-shadow: 7px 7px 23px -12px rgba(26,91,255,1);\n  -moz-box-shadow: 7px 7px 23px -12px rgba(26,91,255,1);\n  box-shadow: 7px 7px 23px -12px rgba(26,91,255,1);\n  border: none;\n}\n\nbutton:active {\n  background-color: #1752e5;\n}\n</style>\n</head>\n<body>\n<button type=\"button\">\n  Hover\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#1a5cff",
+  "#1752e5",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 199,
+ "size": 797,
+ "html": "<button type=\"button\">\n  Hover\n</button>\n",
+ "css": "/* Silent Cobra 22 by themarcBlanchard — https://uiverse.io/themarcBlanchard/silent-cobra-22 */\nbutton {\n  padding: .5rem 2rem;\n  border-radius: 5px;\n  font-weight: 600;\n  border: 1px solid black;\n}\n\nbutton:hover {\n  background-color: #1a5cff;\n  color: white;\n  transform: scale(1.1);\n  font-weight: 700;\n  -webkit-box-shadow: 7px 7px 23px -12px rgba(26,91,255,1);\n  -moz-box-shadow: 7px 7px 23px -12px rgba(26,91,255,1);\n  box-shadow: 7px 7px 23px -12px rgba(26,91,255,1);\n  border: none;\n}\n\nbutton:active {\n  background-color: #1752e5;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Cobra 22</title>\n<style>\n/* Silent Cobra 22 by themarcBlanchard — https://uiverse.io/themarcBlanchard/silent-cobra-22 */\nbutton {\n  padding: .5rem 2rem;\n  border-radius: 5px;\n  font-weight: 600;\n  border: 1px solid black;\n}\n\nbutton:hover {\n  background-color: #1a5cff;\n  color: white;\n  transform: scale(1.1);\n  font-weight: 700;\n  -webkit-box-shadow: 7px 7px 23px -12px rgba(26,91,255,1);\n  -moz-box-shadow: 7px 7px 23px -12px rgba(26,91,255,1);\n  box-shadow: 7px 7px 23px -12px rgba(26,91,255,1);\n  border: none;\n}\n\nbutton:active {\n  background-color: #1752e5;\n}\n</style>\n</head>\n<body>\n<button type=\"button\">\n  Hover\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,27 @@
  "author": "laminelawal",
  "source": "https://uiverse.io/laminelawal/sharp-dodo-86",
  "trigger": "hover",
- "description": "A button with 3d-button styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded gray button that glows on hover.",
+ "howItWorks": "On hover, box-shadow becomes 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 0 3px 3px #000000. On focus, box-shadow becomes 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 5px 7px 0   #000000.",
  "tags": [
+  "gradient",
+  "outlined",
+  "rounded",
+  "glow",
   "button",
-  "3d-button",
-  "hover"
+  "3d-button"
  ],
- "html": "<button class=\"button\">\n  Click Me\n</button>",
- "css": "/* From Uiverse.io by laminelawal - Tags: button, 3d button */\nbutton {\n  border-radius: 30px;\n  border: none;\n  cursor: pointer;\n  outline: none;\n  width: 150px;\n  height: 54px;\n  background-image: linear-gradient(to top, #222 0%, #333 80%, #444 100%);\n  color: white;\n  font-size: 20px;\n  font-weight: 400;\n  font-family: monospace;\n  transition: all 0.3s;\n  text-shadow: 0 4px 3px black;\n}\n\nbutton:hover {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 0 3px 3px black;\n}\n\nbutton:active {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 0 3px 3px black;\n}\n\nbutton:focus {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 5px 7px 0   black;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sharp Dodo 86</title>\n<style>\n/* From Uiverse.io by laminelawal - https://uiverse.io/laminelawal/sharp-dodo-86 */\n/* From Uiverse.io by laminelawal - Tags: button, 3d button */\nbutton {\n  border-radius: 30px;\n  border: none;\n  cursor: pointer;\n  outline: none;\n  width: 150px;\n  height: 54px;\n  background-image: linear-gradient(to top, #222 0%, #333 80%, #444 100%);\n  color: white;\n  font-size: 20px;\n  font-weight: 400;\n  font-family: monospace;\n  transition: all 0.3s;\n  text-shadow: 0 4px 3px black;\n}\n\nbutton:hover {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 0 3px 3px black;\n}\n\nbutton:active {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 0 3px 3px black;\n}\n\nbutton:focus {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 5px 7px 0   black;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Click Me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#333333",
+  "#222222",
+  "#ffffff"
+ ],
+ "fonts": [
+  "monospace"
+ ],
+ "tokens": 263,
+ "size": 1055,
+ "html": "<button class=\"button\">\n  Click Me\n</button>\n",
+ "css": "/* Sharp Dodo 86 by laminelawal — https://uiverse.io/laminelawal/sharp-dodo-86 */\nbutton {\n  border-radius: 30px;\n  border: none;\n  cursor: pointer;\n  outline: none;\n  width: 150px;\n  height: 54px;\n  background-image: linear-gradient(to top, #222 0%, #333 80%, #444 100%);\n  color: white;\n  font-size: 20px;\n  font-weight: 400;\n  font-family: monospace;\n  transition: all 0.3s;\n  text-shadow: 0 4px 3px black;\n}\n\nbutton:hover {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 0 3px 3px black;\n}\n\nbutton:active {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 0 3px 3px black;\n}\n\nbutton:focus {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 5px 7px 0   black;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sharp Dodo 86</title>\n<style>\n/* Sharp Dodo 86 by laminelawal — https://uiverse.io/laminelawal/sharp-dodo-86 */\nbutton {\n  border-radius: 30px;\n  border: none;\n  cursor: pointer;\n  outline: none;\n  width: 150px;\n  height: 54px;\n  background-image: linear-gradient(to top, #222 0%, #333 80%, #444 100%);\n  color: white;\n  font-size: 20px;\n  font-weight: 400;\n  font-family: monospace;\n  transition: all 0.3s;\n  text-shadow: 0 4px 3px black;\n}\n\nbutton:hover {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 0 3px 3px black;\n}\n\nbutton:active {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 0 3px 3px black;\n}\n\nbutton:focus {\n  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 5px 7px 0   black;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Click Me\n</button>\n\n</body>\n</html>\n"
 }

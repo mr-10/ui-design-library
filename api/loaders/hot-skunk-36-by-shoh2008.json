@@ -5,14 +5,24 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/hot-skunk-36",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined pill white loader with animating motion in a loop.",
+ "howItWorks": "It loops a 1s animation (animating).",
  "tags": [
+  "outlined",
+  "rounded",
+  "pill",
+  "flat",
   "loader",
-  "auto-loop",
-  "css"
+  "auto-loop"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  border: 10px solid;\n  box-sizing: border-box;\n  animation: animloader 1s linear infinite alternate;\n}\n\n@keyframes animloader {\n  0% {\n    border-color: white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);\n  }\n\n  33% {\n    border-color: white white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);\n  }\n\n  66% {\n    border-color: white white white rgba(255, 255, 255, 0);\n  }\n\n  100% {\n    border-color: white white white white;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hot Skunk 36</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/hot-skunk-36 */\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  border: 10px solid;\n  box-sizing: border-box;\n  animation: animloader 1s linear infinite alternate;\n}\n\n@keyframes animloader {\n  0% {\n    border-color: white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);\n  }\n\n  33% {\n    border-color: white white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);\n  }\n\n  66% {\n    border-color: white white white rgba(255, 255, 255, 0);\n  }\n\n  100% {\n    border-color: white white white white;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 220,
+ "size": 880,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Hot Skunk 36 by Shoh2008 — https://uiverse.io/Shoh2008/hot-skunk-36 */\n.loader {\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  border: 10px solid;\n  box-sizing: border-box;\n  animation: animloader 1s linear infinite alternate;\n}\n\n@keyframes animloader {\n  0% {\n    border-color: white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);\n  }\n\n  33% {\n    border-color: white white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);\n  }\n\n  66% {\n    border-color: white white white rgba(255, 255, 255, 0);\n  }\n\n  100% {\n    border-color: white white white white;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hot Skunk 36</title>\n<style>\n/* Hot Skunk 36 by Shoh2008 — https://uiverse.io/Shoh2008/hot-skunk-36 */\n.loader {\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  border: 10px solid;\n  box-sizing: border-box;\n  animation: animloader 1s linear infinite alternate;\n}\n\n@keyframes animloader {\n  0% {\n    border-color: white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);\n  }\n\n  33% {\n    border-color: white white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);\n  }\n\n  66% {\n    border-color: white white white rgba(255, 255, 255, 0);\n  }\n\n  100% {\n    border-color: white white white white;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

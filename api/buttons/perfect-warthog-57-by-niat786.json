@@ -5,14 +5,26 @@
  "author": "niat786",
  "source": "https://uiverse.io/niat786/perfect-warthog-57",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded white button that starts animating on hover.",
+ "howItWorks": "On hover, starts the pulse animation, starts the pulse512 animation (animating).",
  "tags": [
+  "gradient",
+  "outlined",
+  "rounded",
+  "animated",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button> Button\n</button>",
- "css": "/* From Uiverse.io by niat786 - Tags: button */\nbutton {\n border: none;\n color: #fff;\n background-image: linear-gradient(30deg, #0400ff, #4ce3f7);\n border-radius: 20px;\n background-size: 100% auto;\n font-family: inherit;\n font-size: 17px;\n padding: 0.6em 1.5em;\n}\n\nbutton:hover {\n background-position: right center;\n background-size: 200% auto;\n -webkit-animation: pulse 2s infinite;\n animation: pulse512 1.5s infinite;\n}\n\n@keyframes pulse512 {\n 0% {\n  box-shadow: 0 0 0 0 #05bada66;\n }\n\n 70% {\n  box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);\n }\n\n 100% {\n  box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Perfect Warthog 57</title>\n<style>\n/* From Uiverse.io by niat786 - https://uiverse.io/niat786/perfect-warthog-57 */\n/* From Uiverse.io by niat786 - Tags: button */\nbutton {\n border: none;\n color: #fff;\n background-image: linear-gradient(30deg, #0400ff, #4ce3f7);\n border-radius: 20px;\n background-size: 100% auto;\n font-family: inherit;\n font-size: 17px;\n padding: 0.6em 1.5em;\n}\n\nbutton:hover {\n background-position: right center;\n background-size: 200% auto;\n -webkit-animation: pulse 2s infinite;\n animation: pulse512 1.5s infinite;\n}\n\n@keyframes pulse512 {\n 0% {\n  box-shadow: 0 0 0 0 #05bada66;\n }\n\n 70% {\n  box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);\n }\n\n 100% {\n  box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);\n }\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 220,
+ "size": 884,
+ "html": "<button> Button\n</button>\n",
+ "css": "/* Perfect Warthog 57 by niat786 — https://uiverse.io/niat786/perfect-warthog-57 */\nbutton {\n border: none;\n color: #fff;\n background-image: linear-gradient(30deg, #0400ff, #4ce3f7);\n border-radius: 20px;\n background-size: 100% auto;\n font-family: inherit;\n font-size: 17px;\n padding: 0.6em 1.5em;\n}\n\nbutton:hover {\n background-position: right center;\n background-size: 200% auto;\n -webkit-animation: pulse 2s infinite;\n animation: pulse512 1.5s infinite;\n}\n\n@keyframes pulse512 {\n 0% {\n  box-shadow: 0 0 0 0 #05bada66;\n }\n\n 70% {\n  box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);\n }\n\n 100% {\n  box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Perfect Warthog 57</title>\n<style>\n/* Perfect Warthog 57 by niat786 — https://uiverse.io/niat786/perfect-warthog-57 */\nbutton {\n border: none;\n color: #fff;\n background-image: linear-gradient(30deg, #0400ff, #4ce3f7);\n border-radius: 20px;\n background-size: 100% auto;\n font-family: inherit;\n font-size: 17px;\n padding: 0.6em 1.5em;\n}\n\nbutton:hover {\n background-position: right center;\n background-size: 200% auto;\n -webkit-animation: pulse 2s infinite;\n animation: pulse512 1.5s infinite;\n}\n\n@keyframes pulse512 {\n 0% {\n  box-shadow: 0 0 0 0 #05bada66;\n }\n\n 70% {\n  box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);\n }\n\n 100% {\n  box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);\n }\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n\n</body>\n</html>\n"
 }

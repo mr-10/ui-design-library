@@ -5,14 +5,27 @@
  "author": "AnthonyPreite",
  "source": "https://uiverse.io/AnthonyPreite/kind-fish-73",
  "trigger": "hover",
- "description": "A button with gradient styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient dark light green button that scales up on hover.",
+ "howItWorks": "On hover, transform becomes scale(1.1), text color changes from #ffffff to #0f0f0f, opacity becomes 1.",
  "tags": [
+  "green",
+  "pink",
   "gradient",
-  "button",
-  "hover"
+  "dark",
+  "flat",
+  "scale"
  ],
- "html": "<button class=\"button\">\n      I'm a Button\n    </button>",
- "css": "/* From Uiverse.io by AnthonyPreite - Tags: gradient, button */\n.button {\n  position: relative;\n  height: 50px;\n  width: 130px;\n  border: none;\n  outline: none;\n  color: white;\n  background: #0f0f0f;\n  cursor: pointer;\n  border-radius: 4px;\n  font-size: 16px;\n  font-weight: 700;\n  font-family: 'Gruppo', sans-serif;\n  transition: all .2s ease-out;\n}\n\n.button:before {\n  position: absolute;\n  content: '';\n  top: -4px;\n  left: -4px;\n  height: calc(100% + 8px);\n  width: calc(100% + 8px);\n  border-radius: 6px;\n  z-index: -1;\n  opacity: 1;\n  background: linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 25%, hsla(141, 54%, 86%, 1)50%);\n  background-size: 400%;\n  transition: opacity 1s ease-in-out;\n  animation: animate 20s linear infinite;\n}\n\n.button:hover {\n  transform: scale(1.1);\n  color: #0f0f0f;\n  opacity: 1;\n  transition: all .3s ease-in-out;\n}\n\n.button:active {\n  background: none;\n  color: #000000;\n  transform: scale(1);\n  transition: all .3s ease-in-out;\n}\n\n@keyframes animate {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Kind Fish 73</title>\n<style>\n/* From Uiverse.io by AnthonyPreite - https://uiverse.io/AnthonyPreite/kind-fish-73 */\n/* From Uiverse.io by AnthonyPreite - Tags: gradient, button */\n.button {\n  position: relative;\n  height: 50px;\n  width: 130px;\n  border: none;\n  outline: none;\n  color: white;\n  background: #0f0f0f;\n  cursor: pointer;\n  border-radius: 4px;\n  font-size: 16px;\n  font-weight: 700;\n  font-family: 'Gruppo', sans-serif;\n  transition: all .2s ease-out;\n}\n\n.button:before {\n  position: absolute;\n  content: '';\n  top: -4px;\n  left: -4px;\n  height: calc(100% + 8px);\n  width: calc(100% + 8px);\n  border-radius: 6px;\n  z-index: -1;\n  opacity: 1;\n  background: linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 25%, hsla(141, 54%, 86%, 1)50%);\n  background-size: 400%;\n  transition: opacity 1s ease-in-out;\n  animation: animate 20s linear infinite;\n}\n\n.button:hover {\n  transform: scale(1.1);\n  color: #0f0f0f;\n  opacity: 1;\n  transition: all .3s ease-in-out;\n}\n\n.button:active {\n  background: none;\n  color: #000000;\n  transform: scale(1);\n  transition: all .3s ease-in-out;\n}\n\n@keyframes animate {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n      I'm a Button\n    </button>\n</body>\n</html>\n"
+ "colors": [
+  "#0f0f0f",
+  "#c8efd6",
+  "#f5bdd6"
+ ],
+ "fonts": [
+  "Gruppo"
+ ],
+ "tokens": 359,
+ "size": 1438,
+ "html": "<button class=\"button\">\n      I'm a Button\n    </button>\n",
+ "css": "/* Kind Fish 73 by AnthonyPreite — https://uiverse.io/AnthonyPreite/kind-fish-73 */\n.button {\n  position: relative;\n  height: 50px;\n  width: 130px;\n  border: none;\n  outline: none;\n  color: white;\n  background: #0f0f0f;\n  cursor: pointer;\n  border-radius: 4px;\n  font-size: 16px;\n  font-weight: 700;\n  font-family: 'Gruppo', sans-serif;\n  transition: all .2s ease-out;\n}\n\n.button:before {\n  position: absolute;\n  content: '';\n  top: -4px;\n  left: -4px;\n  height: calc(100% + 8px);\n  width: calc(100% + 8px);\n  border-radius: 6px;\n  z-index: -1;\n  opacity: 1;\n  background: linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 25%, hsla(141, 54%, 86%, 1)50%);\n  background-size: 400%;\n  transition: opacity 1s ease-in-out;\n  animation: animate 20s linear infinite;\n}\n\n.button:hover {\n  transform: scale(1.1);\n  color: #0f0f0f;\n  opacity: 1;\n  transition: all .3s ease-in-out;\n}\n\n.button:active {\n  background: none;\n  color: #000000;\n  transform: scale(1);\n  transition: all .3s ease-in-out;\n}\n\n@keyframes animate {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Kind Fish 73</title>\n<style>\n/* Kind Fish 73 by AnthonyPreite — https://uiverse.io/AnthonyPreite/kind-fish-73 */\n.button {\n  position: relative;\n  height: 50px;\n  width: 130px;\n  border: none;\n  outline: none;\n  color: white;\n  background: #0f0f0f;\n  cursor: pointer;\n  border-radius: 4px;\n  font-size: 16px;\n  font-weight: 700;\n  font-family: 'Gruppo', sans-serif;\n  transition: all .2s ease-out;\n}\n\n.button:before {\n  position: absolute;\n  content: '';\n  top: -4px;\n  left: -4px;\n  height: calc(100% + 8px);\n  width: calc(100% + 8px);\n  border-radius: 6px;\n  z-index: -1;\n  opacity: 1;\n  background: linear-gradient(90deg, hsla(141, 54%, 86%, 1) 0%, hsla(333, 73%, 85%, 1) 25%, hsla(141, 54%, 86%, 1)50%);\n  background-size: 400%;\n  transition: opacity 1s ease-in-out;\n  animation: animate 20s linear infinite;\n}\n\n.button:hover {\n  transform: scale(1.1);\n  color: #0f0f0f;\n  opacity: 1;\n  transition: all .3s ease-in-out;\n}\n\n.button:active {\n  background: none;\n  color: #000000;\n  transform: scale(1);\n  transition: all .3s ease-in-out;\n}\n\n@keyframes animate {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n      I'm a Button\n    </button>\n\n</body>\n</html>\n"
 }

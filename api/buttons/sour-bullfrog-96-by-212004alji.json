@@ -5,14 +5,24 @@
  "author": "212004ALJI",
  "source": "https://uiverse.io/212004ALJI/sour-bullfrog-96",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient dark red button that expands on hover.",
+ "howItWorks": "On hover, height becomes 100px, width becomes 100px, border-radius becomes 5px.",
  "tags": [
+  "red",
+  "gradient",
+  "dark",
+  "expand",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button>\n  INPUT\n</button>",
- "css": "/* From Uiverse.io by 212004ALJI - Tags: button */\nbutton {\n  /* padding: 5px 10px; */\n  height: 50px;\n  width: 100px;\n  font-size: 20px;\n  position: relative;\n  border: navajowhite;\n  background-color: #222;\n  color: aliceblue;\n  z-index: 1;\n  overflow: hidden;\n  transition: all 0.3s;\n  box-shadow: 2px 2px 2px red;\n}\n\nbutton::before {\n  content: '';\n  height: 10px;\n  width: 30px;\n  position: absolute;\n  background-image: linear-gradient(45deg, salmon,red);\n  left: -10px;\n  top: 0;\n  z-index: -1;\n  transition: 0.3s ease-in-out;\n  border-radius: 5px;\n}\n\nbutton:hover::before {\n  height: 100px;\n  width: 100px;\n}\n\nbutton:hover {\n  border-radius: 5px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sour Bullfrog 96</title>\n<style>\n/* From Uiverse.io by 212004ALJI - https://uiverse.io/212004ALJI/sour-bullfrog-96 */\n/* From Uiverse.io by 212004ALJI - Tags: button */\nbutton {\n  /* padding: 5px 10px; */\n  height: 50px;\n  width: 100px;\n  font-size: 20px;\n  position: relative;\n  border: navajowhite;\n  background-color: #222;\n  color: aliceblue;\n  z-index: 1;\n  overflow: hidden;\n  transition: all 0.3s;\n  box-shadow: 2px 2px 2px red;\n}\n\nbutton::before {\n  content: '';\n  height: 10px;\n  width: 30px;\n  position: absolute;\n  background-image: linear-gradient(45deg, salmon,red);\n  left: -10px;\n  top: 0;\n  z-index: -1;\n  transition: 0.3s ease-in-out;\n  border-radius: 5px;\n}\n\nbutton:hover::before {\n  height: 100px;\n  width: 100px;\n}\n\nbutton:hover {\n  border-radius: 5px;\n}\n</style>\n</head>\n<body>\n<button>\n  INPUT\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#222222",
+  "#ff0000"
+ ],
+ "fonts": [],
+ "tokens": 227,
+ "size": 910,
+ "html": "<button>\n  INPUT\n</button>\n",
+ "css": "/* Sour Bullfrog 96 by 212004ALJI — https://uiverse.io/212004ALJI/sour-bullfrog-96 */\nbutton {\n\n  height: 50px;\n  width: 100px;\n  font-size: 20px;\n  position: relative;\n  border: navajowhite;\n  background-color: #222;\n  color: aliceblue;\n  z-index: 1;\n  overflow: hidden;\n  transition: all 0.3s;\n  box-shadow: 2px 2px 2px red;\n}\n\nbutton::before {\n  content: '';\n  height: 10px;\n  width: 30px;\n  position: absolute;\n  background-image: linear-gradient(45deg, salmon,red);\n  left: -10px;\n  top: 0;\n  z-index: -1;\n  transition: 0.3s ease-in-out;\n  border-radius: 5px;\n}\n\nbutton:hover::before {\n  height: 100px;\n  width: 100px;\n}\n\nbutton:hover {\n  border-radius: 5px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sour Bullfrog 96</title>\n<style>\n/* Sour Bullfrog 96 by 212004ALJI — https://uiverse.io/212004ALJI/sour-bullfrog-96 */\nbutton {\n\n  height: 50px;\n  width: 100px;\n  font-size: 20px;\n  position: relative;\n  border: navajowhite;\n  background-color: #222;\n  color: aliceblue;\n  z-index: 1;\n  overflow: hidden;\n  transition: all 0.3s;\n  box-shadow: 2px 2px 2px red;\n}\n\nbutton::before {\n  content: '';\n  height: 10px;\n  width: 30px;\n  position: absolute;\n  background-image: linear-gradient(45deg, salmon,red);\n  left: -10px;\n  top: 0;\n  z-index: -1;\n  transition: 0.3s ease-in-out;\n  border-radius: 5px;\n}\n\nbutton:hover::before {\n  height: 100px;\n  width: 100px;\n}\n\nbutton:hover {\n  border-radius: 5px;\n}\n</style>\n</head>\n<body>\n<button>\n  INPUT\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,24 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/bitter-moth-36",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill orange loader with pulsing; rotating motion in a loop.",
+ "howItWorks": "It loops a 1s animation (pulsing; rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "orange",
+  "rounded",
+  "pill",
+  "flat",
+  "spin",
+  "pulse"
  ],
- "html": "<span class=\"loader\"></span>",
- "css": "/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  display: block;\n  margin: 15px auto;\n  position: relative;\n  color: #FFF;\n  box-sizing: border-box;\n  animation: rotation_19 1s linear infinite;\n}\n\n.loader::after,\n.loader::before {\n  content: '';\n  box-sizing: border-box;\n  position: absolute;\n  width: 24px;\n  height: 24px;\n  top: 0;\n  background-color: #FFF;\n  border-radius: 50%;\n  animation: scale50 1s infinite ease-in-out;\n}\n\n.loader::before {\n  top: auto;\n  bottom: 0;\n  background-color: #FF3D00;\n  animation-delay: 0.5s;\n}\n\n@keyframes rotation_19 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes scale50 {\n  0%, 100% {\n    transform: scale(0);\n  }\n\n  50% {\n    transform: scale(1);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Moth 36</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/bitter-moth-36 */\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  display: block;\n  margin: 15px auto;\n  position: relative;\n  color: #FFF;\n  box-sizing: border-box;\n  animation: rotation_19 1s linear infinite;\n}\n\n.loader::after,\n.loader::before {\n  content: '';\n  box-sizing: border-box;\n  position: absolute;\n  width: 24px;\n  height: 24px;\n  top: 0;\n  background-color: #FFF;\n  border-radius: 50%;\n  animation: scale50 1s infinite ease-in-out;\n}\n\n.loader::before {\n  top: auto;\n  bottom: 0;\n  background-color: #FF3D00;\n  animation-delay: 0.5s;\n}\n\n@keyframes rotation_19 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes scale50 {\n  0%, 100% {\n    transform: scale(0);\n  }\n\n  50% {\n    transform: scale(1);\n  }\n}\n</style>\n</head>\n<body>\n<span class=\"loader\"></span>\n</body>\n</html>\n"
+ "colors": [
+  "#ff3d00",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 266,
+ "size": 1065,
+ "html": "<span class=\"loader\"></span>\n",
+ "css": "/* Bitter Moth 36 by Shoh2008 — https://uiverse.io/Shoh2008/bitter-moth-36 */\n.loader {\n  width: 48px;\n  height: 48px;\n  display: block;\n  margin: 15px auto;\n  position: relative;\n  color: #FFF;\n  box-sizing: border-box;\n  animation: rotation_19 1s linear infinite;\n}\n\n.loader::after,\n.loader::before {\n  content: '';\n  box-sizing: border-box;\n  position: absolute;\n  width: 24px;\n  height: 24px;\n  top: 0;\n  background-color: #FFF;\n  border-radius: 50%;\n  animation: scale50 1s infinite ease-in-out;\n}\n\n.loader::before {\n  top: auto;\n  bottom: 0;\n  background-color: #FF3D00;\n  animation-delay: 0.5s;\n}\n\n@keyframes rotation_19 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes scale50 {\n  0%, 100% {\n    transform: scale(0);\n  }\n\n  50% {\n    transform: scale(1);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Moth 36</title>\n<style>\n/* Bitter Moth 36 by Shoh2008 — https://uiverse.io/Shoh2008/bitter-moth-36 */\n.loader {\n  width: 48px;\n  height: 48px;\n  display: block;\n  margin: 15px auto;\n  position: relative;\n  color: #FFF;\n  box-sizing: border-box;\n  animation: rotation_19 1s linear infinite;\n}\n\n.loader::after,\n.loader::before {\n  content: '';\n  box-sizing: border-box;\n  position: absolute;\n  width: 24px;\n  height: 24px;\n  top: 0;\n  background-color: #FFF;\n  border-radius: 50%;\n  animation: scale50 1s infinite ease-in-out;\n}\n\n.loader::before {\n  top: auto;\n  bottom: 0;\n  background-color: #FF3D00;\n  animation-delay: 0.5s;\n}\n\n@keyframes rotation_19 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes scale50 {\n  0%, 100% {\n    transform: scale(0);\n  }\n\n  50% {\n    transform: scale(1);\n  }\n}\n</style>\n</head>\n<body>\n<span class=\"loader\"></span>\n\n</body>\n</html>\n"
 }

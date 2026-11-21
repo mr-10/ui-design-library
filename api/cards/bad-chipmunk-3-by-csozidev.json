@@ -5,17 +5,25 @@
  "author": "csozidev",
  "source": "https://uiverse.io/csozidev/bad-chipmunk-3",
  "trigger": "hover",
- "description": "A card with simple, dark and glow styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded fuchsia card that reacts on hover.",
+ "howItWorks": "On hover, filter becomes drop-shadow(0px 0px 30px #d126c5).",
  "tags": [
-  "simple",
-  "card",
-  "hover",
-  "dark",
-  "glow",
-  "hover-effect"
+  "fuchsia",
+  "cyan",
+  "gradient",
+  "rounded",
+  "flat",
+  "simple"
  ],
- "html": "<div class=\"card\"></div>",
- "css": "/* From Uiverse.io by csozidev - Tags: simple, card, hover, dark, glow, hover effect, advanced, hoverme */\n/* glowing hover card made by: csozi | Website: english.csozi.hu*/\n\n.card {\n  position: relative;\n  width: 190px;\n  height: 254px;\n  background: rgb(255, 0, 179);\n  background: linear-gradient(137deg, rgb(255, 0, 179) 0%, rgba(0,212,255,1) 100%);\n  transition: 0.3s ease;\n  border-radius: 30px;\n  filter: drop-shadow(0px 0px 30px rgba(209, 38, 197, 0.5));\n}\n\n.card::after {\n  content: '';\n  background-color: #181818;\n  position: absolute;\n  z-index: 1;\n  transition: 0.3s ease;\n  height: 98%;\n  width: 98%;\n  top: 1%;\n  left: 1%;\n  border-radius: 28px;\n}\n\n.card:hover {\n  filter: drop-shadow(0px 0px 30px rgba(209, 38, 197, 1));\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bad Chipmunk 3</title>\n<style>\n/* From Uiverse.io by csozidev - https://uiverse.io/csozidev/bad-chipmunk-3 */\n/* From Uiverse.io by csozidev - Tags: simple, card, hover, dark, glow, hover effect, advanced, hoverme */\n/* glowing hover card made by: csozi | Website: english.csozi.hu*/\n\n.card {\n  position: relative;\n  width: 190px;\n  height: 254px;\n  background: rgb(255, 0, 179);\n  background: linear-gradient(137deg, rgb(255, 0, 179) 0%, rgba(0,212,255,1) 100%);\n  transition: 0.3s ease;\n  border-radius: 30px;\n  filter: drop-shadow(0px 0px 30px rgba(209, 38, 197, 0.5));\n}\n\n.card::after {\n  content: '';\n  background-color: #181818;\n  position: absolute;\n  z-index: 1;\n  transition: 0.3s ease;\n  height: 98%;\n  width: 98%;\n  top: 1%;\n  left: 1%;\n  border-radius: 28px;\n}\n\n.card:hover {\n  filter: drop-shadow(0px 0px 30px rgba(209, 38, 197, 1));\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff00b3",
+  "#00d4ff",
+  "#181818"
+ ],
+ "fonts": [],
+ "tokens": 220,
+ "size": 882,
+ "html": "<div class=\"card\"></div>\n",
+ "css": "/* Bad Chipmunk 3 by csozidev — https://uiverse.io/csozidev/bad-chipmunk-3 */\n.card {\n  position: relative;\n  width: 190px;\n  height: 254px;\n  background: rgb(255, 0, 179);\n  background: linear-gradient(137deg, rgb(255, 0, 179) 0%, rgba(0,212,255,1) 100%);\n  transition: 0.3s ease;\n  border-radius: 30px;\n  filter: drop-shadow(0px 0px 30px rgba(209, 38, 197, 0.5));\n}\n\n.card::after {\n  content: '';\n  background-color: #181818;\n  position: absolute;\n  z-index: 1;\n  transition: 0.3s ease;\n  height: 98%;\n  width: 98%;\n  top: 1%;\n  left: 1%;\n  border-radius: 28px;\n}\n\n.card:hover {\n  filter: drop-shadow(0px 0px 30px rgba(209, 38, 197, 1));\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bad Chipmunk 3</title>\n<style>\n/* Bad Chipmunk 3 by csozidev — https://uiverse.io/csozidev/bad-chipmunk-3 */\n.card {\n  position: relative;\n  width: 190px;\n  height: 254px;\n  background: rgb(255, 0, 179);\n  background: linear-gradient(137deg, rgb(255, 0, 179) 0%, rgba(0,212,255,1) 100%);\n  transition: 0.3s ease;\n  border-radius: 30px;\n  filter: drop-shadow(0px 0px 30px rgba(209, 38, 197, 0.5));\n}\n\n.card::after {\n  content: '';\n  background-color: #181818;\n  position: absolute;\n  z-index: 1;\n  transition: 0.3s ease;\n  height: 98%;\n  width: 98%;\n  top: 1%;\n  left: 1%;\n  border-radius: 28px;\n}\n\n.card:hover {\n  filter: drop-shadow(0px 0px 30px rgba(209, 38, 197, 1));\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n\n</body>\n</html>\n"
 }

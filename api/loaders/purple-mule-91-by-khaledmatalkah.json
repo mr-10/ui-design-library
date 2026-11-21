@@ -5,16 +5,24 @@
  "author": "KhaledMatalkah",
  "source": "https://uiverse.io/KhaledMatalkah/purple-mule-91",
  "trigger": "auto-loop",
- "description": "A loader with animation, 3d and animated styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill blue loader with fading; rotating motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (fading; rotating).",
  "tags": [
-  "animation",
-  "3d",
-  "loader",
-  "animated",
-  "auto-loop"
+  "blue",
+  "rounded",
+  "pill",
+  "flat",
+  "spin",
+  "fade"
  ],
- "html": "<div class=\"loader\">\n  <div class=\"loader-inner\"></div>\n</div>",
- "css": "/* From Uiverse.io by KhaledMatalkah - Tags: animation, 3d, loader, animated */\n.loader {\n  height: 60px;\n  width: 60px;\n  position: relative;\n  animation: loaderAnimation 1.5s infinite linear;\n}\n\n.loader-inner {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  left: 0;\n  top: 0;\n  background-color: #3053c7;\n  border-radius: 50%;\n  animation: innerAnimation 1s infinite ease-in-out;\n}\n\n@keyframes loaderAnimation {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes innerAnimation {\n  0% {\n    width: 0;\n    opacity: 0;\n  }\n\n  50% {\n    width: 100%;\n    opacity: 1;\n  }\n\n  100% {\n    width: 0;\n    opacity: 0;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Mule 91</title>\n<style>\n/* From Uiverse.io by KhaledMatalkah - https://uiverse.io/KhaledMatalkah/purple-mule-91 */\n/* From Uiverse.io by KhaledMatalkah - Tags: animation, 3d, loader, animated */\n.loader {\n  height: 60px;\n  width: 60px;\n  position: relative;\n  animation: loaderAnimation 1.5s infinite linear;\n}\n\n.loader-inner {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  left: 0;\n  top: 0;\n  background-color: #3053c7;\n  border-radius: 50%;\n  animation: innerAnimation 1s infinite ease-in-out;\n}\n\n@keyframes loaderAnimation {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes innerAnimation {\n  0% {\n    width: 0;\n    opacity: 0;\n  }\n\n  50% {\n    width: 100%;\n    opacity: 1;\n  }\n\n  100% {\n    width: 0;\n    opacity: 0;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"loader-inner\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#3053c7",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 240,
+ "size": 960,
+ "html": "<div class=\"loader\">\n  <div class=\"loader-inner\"></div>\n</div>\n",
+ "css": "/* Purple Mule 91 by KhaledMatalkah — https://uiverse.io/KhaledMatalkah/purple-mule-91 */\n.loader {\n  height: 60px;\n  width: 60px;\n  position: relative;\n  animation: loaderAnimation 1.5s infinite linear;\n}\n\n.loader-inner {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  left: 0;\n  top: 0;\n  background-color: #3053c7;\n  border-radius: 50%;\n  animation: innerAnimation 1s infinite ease-in-out;\n}\n\n@keyframes loaderAnimation {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes innerAnimation {\n  0% {\n    width: 0;\n    opacity: 0;\n  }\n\n  50% {\n    width: 100%;\n    opacity: 1;\n  }\n\n  100% {\n    width: 0;\n    opacity: 0;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Mule 91</title>\n<style>\n/* Purple Mule 91 by KhaledMatalkah — https://uiverse.io/KhaledMatalkah/purple-mule-91 */\n.loader {\n  height: 60px;\n  width: 60px;\n  position: relative;\n  animation: loaderAnimation 1.5s infinite linear;\n}\n\n.loader-inner {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  left: 0;\n  top: 0;\n  background-color: #3053c7;\n  border-radius: 50%;\n  animation: innerAnimation 1s infinite ease-in-out;\n}\n\n@keyframes loaderAnimation {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes innerAnimation {\n  0% {\n    width: 0;\n    opacity: 0;\n  }\n\n  50% {\n    width: 100%;\n    opacity: 1;\n  }\n\n  100% {\n    width: 0;\n    opacity: 0;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"loader-inner\"></div>\n</div>\n\n</body>\n</html>\n"
 }

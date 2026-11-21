@@ -5,16 +5,24 @@
  "author": "adamgiebl",
  "source": "https://uiverse.io/adamgiebl/thin-lionfish-5",
  "trigger": "auto-loop",
- "description": "A loader with blue, dots and pulse styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Rounded light sky-blue dots loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (pulsing).",
  "tags": [
   "blue",
-  "loader",
-  "dots",
+  "rounded",
   "pulse",
-  "auto-loop"
+  "dots-loader",
+  "loader",
+  "dots"
  ],
- "html": "<section class=\"dots-container\">\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n</section>",
- "css": "/* From Uiverse.io by adamgiebl - Tags: blue, loader, dots, pulse */\n.dots-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  width: 100%;\n}\n\n.dot {\n  height: 20px;\n  width: 20px;\n  margin-right: 10px;\n  border-radius: 10px;\n  background-color: #b3d4fc;\n  animation: pulse 1.5s infinite ease-in-out;\n}\n\n.dot:last-child {\n  margin-right: 0;\n}\n\n.dot:nth-child(1) {\n  animation-delay: -0.3s;\n}\n\n.dot:nth-child(2) {\n  animation-delay: -0.1s;\n}\n\n.dot:nth-child(3) {\n  animation-delay: 0.1s;\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(0.8);\n    background-color: #b3d4fc;\n    box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);\n  }\n\n  50% {\n    transform: scale(1.2);\n    background-color: #6793fb;\n    box-shadow: 0 0 0 10px rgba(178, 212, 252, 0);\n  }\n\n  100% {\n    transform: scale(0.8);\n    background-color: #b3d4fc;\n    box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Thin Lionfish 5</title>\n<style>\n/* From Uiverse.io by adamgiebl - https://uiverse.io/adamgiebl/thin-lionfish-5 */\n/* From Uiverse.io by adamgiebl - Tags: blue, loader, dots, pulse */\n.dots-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  width: 100%;\n}\n\n.dot {\n  height: 20px;\n  width: 20px;\n  margin-right: 10px;\n  border-radius: 10px;\n  background-color: #b3d4fc;\n  animation: pulse 1.5s infinite ease-in-out;\n}\n\n.dot:last-child {\n  margin-right: 0;\n}\n\n.dot:nth-child(1) {\n  animation-delay: -0.3s;\n}\n\n.dot:nth-child(2) {\n  animation-delay: -0.1s;\n}\n\n.dot:nth-child(3) {\n  animation-delay: 0.1s;\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(0.8);\n    background-color: #b3d4fc;\n    box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);\n  }\n\n  50% {\n    transform: scale(1.2);\n    background-color: #6793fb;\n    box-shadow: 0 0 0 10px rgba(178, 212, 252, 0);\n  }\n\n  100% {\n    transform: scale(0.8);\n    background-color: #b3d4fc;\n    box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);\n  }\n}\n</style>\n</head>\n<body>\n<section class=\"dots-container\">\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n</section>\n</body>\n</html>\n"
+ "colors": [
+  "#b3d4fc",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 330,
+ "size": 1322,
+ "html": "<section class=\"dots-container\">\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n</section>\n",
+ "css": "/* Thin Lionfish 5 by adamgiebl — https://uiverse.io/adamgiebl/thin-lionfish-5 */\n.dots-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  width: 100%;\n}\n\n.dot {\n  height: 20px;\n  width: 20px;\n  margin-right: 10px;\n  border-radius: 10px;\n  background-color: #b3d4fc;\n  animation: pulse 1.5s infinite ease-in-out;\n}\n\n.dot:last-child {\n  margin-right: 0;\n}\n\n.dot:nth-child(1) {\n  animation-delay: -0.3s;\n}\n\n.dot:nth-child(2) {\n  animation-delay: -0.1s;\n}\n\n.dot:nth-child(3) {\n  animation-delay: 0.1s;\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(0.8);\n    background-color: #b3d4fc;\n    box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);\n  }\n\n  50% {\n    transform: scale(1.2);\n    background-color: #6793fb;\n    box-shadow: 0 0 0 10px rgba(178, 212, 252, 0);\n  }\n\n  100% {\n    transform: scale(0.8);\n    background-color: #b3d4fc;\n    box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Thin Lionfish 5</title>\n<style>\n/* Thin Lionfish 5 by adamgiebl — https://uiverse.io/adamgiebl/thin-lionfish-5 */\n.dots-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  width: 100%;\n}\n\n.dot {\n  height: 20px;\n  width: 20px;\n  margin-right: 10px;\n  border-radius: 10px;\n  background-color: #b3d4fc;\n  animation: pulse 1.5s infinite ease-in-out;\n}\n\n.dot:last-child {\n  margin-right: 0;\n}\n\n.dot:nth-child(1) {\n  animation-delay: -0.3s;\n}\n\n.dot:nth-child(2) {\n  animation-delay: -0.1s;\n}\n\n.dot:nth-child(3) {\n  animation-delay: 0.1s;\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(0.8);\n    background-color: #b3d4fc;\n    box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);\n  }\n\n  50% {\n    transform: scale(1.2);\n    background-color: #6793fb;\n    box-shadow: 0 0 0 10px rgba(178, 212, 252, 0);\n  }\n\n  100% {\n    transform: scale(0.8);\n    background-color: #b3d4fc;\n    box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);\n  }\n}\n</style>\n</head>\n<body>\n<section class=\"dots-container\">\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n  <div class=\"dot\"></div>\n</section>\n\n</body>\n</html>\n"
 }

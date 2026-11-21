@@ -5,14 +5,25 @@
  "author": "AnshKaushal",
  "source": "https://uiverse.io/AnshKaushal/shy-grasshopper-99",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark black button that scales up on hover.",
+ "howItWorks": "On hover, background-color changes from #101014 to #f5f0f0, text color changes from #f5f0f0 to #101014, transform becomes scale(1.2).",
  "tags": [
+  "dark",
+  "scale",
+  "color-change",
   "button",
   "hover",
   "css"
  ],
- "html": "<button>\n  Button\n</button>",
- "css": "/* From Uiverse.io by AnshKaushal - Tags: button */\nbutton {\n  border: 1.5px solid black;\n  padding: 10px;\n  width: 100px;\n  margin: 15px;\n  color: #f5f0f0;\n  background-color: #101014;\n  box-shadow: 3px 3px 6px #101014;\n  transition: transform 0.3s ease-in-out;\n}\n\nbutton:hover {\n  background-color: #f5f0f0;\n  color: #101014;\n  transform: scale(1.2);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shy Grasshopper 99</title>\n<style>\n/* From Uiverse.io by AnshKaushal - https://uiverse.io/AnshKaushal/shy-grasshopper-99 */\n/* From Uiverse.io by AnshKaushal - Tags: button */\nbutton {\n  border: 1.5px solid black;\n  padding: 10px;\n  width: 100px;\n  margin: 15px;\n  color: #f5f0f0;\n  background-color: #101014;\n  box-shadow: 3px 3px 6px #101014;\n  transition: transform 0.3s ease-in-out;\n}\n\nbutton:hover {\n  background-color: #f5f0f0;\n  color: #101014;\n  transform: scale(1.2);\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#101014",
+  "#f5f0f0",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 160,
+ "size": 642,
+ "html": "<button>\n  Button\n</button>\n",
+ "css": "/* Shy Grasshopper 99 by AnshKaushal — https://uiverse.io/AnshKaushal/shy-grasshopper-99 */\nbutton {\n  border: 1.5px solid black;\n  padding: 10px;\n  width: 100px;\n  margin: 15px;\n  color: #f5f0f0;\n  background-color: #101014;\n  box-shadow: 3px 3px 6px #101014;\n  transition: transform 0.3s ease-in-out;\n}\n\nbutton:hover {\n  background-color: #f5f0f0;\n  color: #101014;\n  transform: scale(1.2);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shy Grasshopper 99</title>\n<style>\n/* Shy Grasshopper 99 by AnshKaushal — https://uiverse.io/AnshKaushal/shy-grasshopper-99 */\nbutton {\n  border: 1.5px solid black;\n  padding: 10px;\n  width: 100px;\n  margin: 15px;\n  color: #f5f0f0;\n  background-color: #101014;\n  box-shadow: 3px 3px 6px #101014;\n  transition: transform 0.3s ease-in-out;\n}\n\nbutton:hover {\n  background-color: #f5f0f0;\n  color: #101014;\n  transform: scale(1.2);\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n\n</body>\n</html>\n"
 }

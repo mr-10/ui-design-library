@@ -5,14 +5,25 @@
  "author": "e-coders",
  "source": "https://uiverse.io/e-coders/calm-stingray-80",
  "trigger": "static",
- "description": "A card with gradient styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient rounded fuchsia card with soft shadow and rounded corners and gradient fill.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "fuchsia",
+  "green",
   "gradient",
+  "rounded",
   "card",
   "static"
  ],
- "html": "<div class=\"card\"></div>",
- "css": "/* From Uiverse.io by e-coders - Tags: gradient, card */\n.card {\n width: 190px;\n height: 254px;\n background: linear-gradient(135deg, #ff85ec 0%, #84ff98 100%);\n border-radius: 16px;\n box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n backdrop-filter: blur(20px);\n -webkit-backdrop-filter: blur(20px);\n border: 1px solid rgba(255, 255, 255, 0.3);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Calm Stingray 80</title>\n<style>\n/* From Uiverse.io by e-coders - https://uiverse.io/e-coders/calm-stingray-80 */\n/* From Uiverse.io by e-coders - Tags: gradient, card */\n.card {\n width: 190px;\n height: 254px;\n background: linear-gradient(135deg, #ff85ec 0%, #84ff98 100%);\n border-radius: 16px;\n box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n backdrop-filter: blur(20px);\n -webkit-backdrop-filter: blur(20px);\n border: 1px solid rgba(255, 255, 255, 0.3);\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff85ec",
+  "#84ff98",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 152,
+ "size": 608,
+ "html": "<div class=\"card\"></div>\n",
+ "css": "/* Calm Stingray 80 by e-coders — https://uiverse.io/e-coders/calm-stingray-80 */\n.card {\n width: 190px;\n height: 254px;\n background: linear-gradient(135deg, #ff85ec 0%, #84ff98 100%);\n border-radius: 16px;\n box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n backdrop-filter: blur(20px);\n -webkit-backdrop-filter: blur(20px);\n border: 1px solid rgba(255, 255, 255, 0.3);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Calm Stingray 80</title>\n<style>\n/* Calm Stingray 80 by e-coders — https://uiverse.io/e-coders/calm-stingray-80 */\n.card {\n width: 190px;\n height: 254px;\n background: linear-gradient(135deg, #ff85ec 0%, #84ff98 100%);\n border-radius: 16px;\n box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n backdrop-filter: blur(20px);\n -webkit-backdrop-filter: blur(20px);\n border: 1px solid rgba(255, 255, 255, 0.3);\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n\n</body>\n</html>\n"
 }

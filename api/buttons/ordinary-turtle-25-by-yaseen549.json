@@ -5,14 +5,24 @@
  "author": "Yaseen549",
  "source": "https://uiverse.io/Yaseen549/ordinary-turtle-25",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined rounded violet button that glows on hover.",
+ "howItWorks": "On hover, box-shadow becomes 2px 2px 15px #8707ff inset.",
  "tags": [
+  "violet",
+  "outlined",
+  "rounded",
+  "glow",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button class=\"button\"> Button\n</button>",
- "css": "/* From Uiverse.io by Yaseen549 - Tags: button */\n.button {\n  color: #8707ff;\n  border: 2px solid #8707ff;\n  border-radius: 10px;\n  padding: 10px 25px;\n  background: transparent;\n}\n\n.button:hover {\n  box-shadow: 2px 2px 15px #8707ff inset;\n}\n\n.button:active {\n  box-shadow: 2px 2px 20px #8707ff inset;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ordinary Turtle 25</title>\n<style>\n/* From Uiverse.io by Yaseen549 - https://uiverse.io/Yaseen549/ordinary-turtle-25 */\n/* From Uiverse.io by Yaseen549 - Tags: button */\n.button {\n  color: #8707ff;\n  border: 2px solid #8707ff;\n  border-radius: 10px;\n  padding: 10px 25px;\n  background: transparent;\n}\n\n.button:hover {\n  box-shadow: 2px 2px 15px #8707ff inset;\n}\n\n.button:active {\n  box-shadow: 2px 2px 20px #8707ff inset;\n}\n</style>\n</head>\n<body>\n<button class=\"button\"> Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#8707ff",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 150,
+ "size": 602,
+ "html": "<button class=\"button\"> Button\n</button>\n",
+ "css": "/* Ordinary Turtle 25 by Yaseen549 — https://uiverse.io/Yaseen549/ordinary-turtle-25 */\n.button {\n  color: #8707ff;\n  border: 2px solid #8707ff;\n  border-radius: 10px;\n  padding: 10px 25px;\n  background: transparent;\n}\n\n.button:hover {\n  box-shadow: 2px 2px 15px #8707ff inset;\n}\n\n.button:active {\n  box-shadow: 2px 2px 20px #8707ff inset;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ordinary Turtle 25</title>\n<style>\n/* Ordinary Turtle 25 by Yaseen549 — https://uiverse.io/Yaseen549/ordinary-turtle-25 */\n.button {\n  color: #8707ff;\n  border: 2px solid #8707ff;\n  border-radius: 10px;\n  padding: 10px 25px;\n  background: transparent;\n}\n\n.button:hover {\n  box-shadow: 2px 2px 15px #8707ff inset;\n}\n\n.button:active {\n  box-shadow: 2px 2px 20px #8707ff inset;\n}\n</style>\n</head>\n<body>\n<button class=\"button\"> Button\n</button>\n\n</body>\n</html>\n"
 }

@@ -4,15 +4,26 @@
  "category": "buttons",
  "author": "abdulGitHb",
  "source": "https://uiverse.io/abdulGitHb/tall-cougar-52",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gradient rounded indigo button that changes colour on hover.",
+ "howItWorks": "On focus, a ring appears.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "indigo",
+  "cyan",
+  "gradient",
+  "rounded",
+  "color-change",
+  "ring"
  ],
- "html": "<!-- From Uiverse.io by abdulGitHb  - Website: https://uiverse.io/kirzin/selfish-kangaroo-64 - Name: kirzin - Tags: gradient, button, neon, custom, button hover effect , tailwindcss -->\n<button\n  class=\"cursor-pointer text-white font-bold relative text-[14px] w-[9em] h-[3em] text-center bg-gradient-to-r from-violet-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-[length:400%] rounded-[30px] z-10 hover:animate-gradient-xy hover:bg-[length:100%] before:content-[''] before:absolute before:-top-[5px] before:-bottom-[5px] before:-left-[5px] before:-right-[5px] before:bg-gradient-to-r before:from-violet-500 before:from-10% before:via-sky-500 before:via-30% before:to-pink-500 before:bg-[length:400%] before:-z-10 before:rounded-[35px] before:hover:blur-xl before:transition-all before:ease-in-out before:duration-[1s] before:hover:bg-[length:10%] active:bg-violet-700 focus:ring-violet-700\"\n>\n  HOVER ME\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tall Cougar 52</title>\n<style>\n/* From Uiverse.io by abdulGitHb - https://uiverse.io/abdulGitHb/tall-cougar-52 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by abdulGitHb  - Website: https://uiverse.io/kirzin/selfish-kangaroo-64 - Name: kirzin - Tags: gradient, button, neon, custom, button hover effect , tailwindcss -->\n<button\n  class=\"cursor-pointer text-white font-bold relative text-[14px] w-[9em] h-[3em] text-center bg-gradient-to-r from-violet-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-[length:400%] rounded-[30px] z-10 hover:animate-gradient-xy hover:bg-[length:100%] before:content-[''] before:absolute before:-top-[5px] before:-bottom-[5px] before:-left-[5px] before:-right-[5px] before:bg-gradient-to-r before:from-violet-500 before:from-10% before:via-sky-500 before:via-30% before:to-pink-500 before:bg-[length:400%] before:-z-10 before:rounded-[35px] before:hover:blur-xl before:transition-all before:ease-in-out before:duration-[1s] before:hover:bg-[length:10%] active:bg-violet-700 focus:ring-violet-700\"\n>\n  HOVER ME\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#8b5cf6",
+  "#0ea5e9",
+  "#ec4899"
+ ],
+ "fonts": [],
+ "tokens": 258,
+ "size": 1035,
+ "html": "<button\n  class=\"cursor-pointer text-white font-bold relative text-[14px] w-[9em] h-[3em] text-center bg-gradient-to-r from-violet-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-[length:400%] rounded-[30px] z-10 hover:animate-gradient-xy hover:bg-[length:100%] before:content-[''] before:absolute before:-top-[5px] before:-bottom-[5px] before:-left-[5px] before:-right-[5px] before:bg-gradient-to-r before:from-violet-500 before:from-10% before:via-sky-500 before:via-30% before:to-pink-500 before:bg-[length:400%] before:-z-10 before:rounded-[35px] before:hover:blur-xl before:transition-all before:ease-in-out before:duration-[1s] before:hover:bg-[length:10%] active:bg-violet-700 focus:ring-violet-700\"\n>\n  HOVER ME\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tall Cougar 52</title>\n<style>\n/* Tall Cougar 52 by abdulGitHb — https://uiverse.io/abdulGitHb/tall-cougar-52 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"cursor-pointer text-white font-bold relative text-[14px] w-[9em] h-[3em] text-center bg-gradient-to-r from-violet-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-[length:400%] rounded-[30px] z-10 hover:animate-gradient-xy hover:bg-[length:100%] before:content-[''] before:absolute before:-top-[5px] before:-bottom-[5px] before:-left-[5px] before:-right-[5px] before:bg-gradient-to-r before:from-violet-500 before:from-10% before:via-sky-500 before:via-30% before:to-pink-500 before:bg-[length:400%] before:-z-10 before:rounded-[35px] before:hover:blur-xl before:transition-all before:ease-in-out before:duration-[1s] before:hover:bg-[length:10%] active:bg-violet-700 focus:ring-violet-700\"\n>\n  HOVER ME\n</button>\n\n</body>\n</html>\n"
 }

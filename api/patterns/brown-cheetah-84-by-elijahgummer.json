@@ -5,16 +5,24 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/brown-cheetah-84",
  "trigger": "static",
- "description": "A pattern with simple, blue and modern styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient cyan pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "blue",
-  "modern",
+  "cyan",
+  "gradient",
+  "flat",
   "pattern",
-  "static"
+  "simple",
+  "blue"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by elijahgummer  - Tags: simple, blue, modern, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: #f0f0f0;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n      45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 50%,\n      #3498db 50%,\n      #3498db 75%,\n      transparent 75%,\n      transparent\n    ),\n    linear-gradient(\n      -45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 50%,\n      #3498db 50%,\n      #3498db 75%,\n      transparent 75%,\n      transparent\n    );\n  background-size: 20px 20px;\n  opacity: 0.8;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Brown Cheetah 84</title>\n<style>\n/* From Uiverse.io by elijahgummer - https://uiverse.io/elijahgummer/brown-cheetah-84 */\n/* From Uiverse.io by elijahgummer  - Tags: simple, blue, modern, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: #f0f0f0;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n      45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 50%,\n      #3498db 50%,\n      #3498db 75%,\n      transparent 75%,\n      transparent\n    ),\n    linear-gradient(\n      -45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 50%,\n      #3498db 50%,\n      #3498db 75%,\n      transparent 75%,\n      transparent\n    );\n  background-size: 20px 20px;\n  opacity: 0.8;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#3498db",
+  "#f0f0f0"
+ ],
+ "fonts": [],
+ "tokens": 242,
+ "size": 968,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Brown Cheetah 84 by elijahgummer — https://uiverse.io/elijahgummer/brown-cheetah-84 */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: #f0f0f0;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n      45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 50%,\n      #3498db 50%,\n      #3498db 75%,\n      transparent 75%,\n      transparent\n    ),\n    linear-gradient(\n      -45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 50%,\n      #3498db 50%,\n      #3498db 75%,\n      transparent 75%,\n      transparent\n    );\n  background-size: 20px 20px;\n  opacity: 0.8;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Brown Cheetah 84</title>\n<style>\n/* Brown Cheetah 84 by elijahgummer — https://uiverse.io/elijahgummer/brown-cheetah-84 */\n.container {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  background: #f0f0f0;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n      45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 50%,\n      #3498db 50%,\n      #3498db 75%,\n      transparent 75%,\n      transparent\n    ),\n    linear-gradient(\n      -45deg,\n      #3498db 25%,\n      transparent 25%,\n      transparent 50%,\n      #3498db 50%,\n      #3498db 75%,\n      transparent 75%,\n      transparent\n    );\n  background-size: 20px 20px;\n  opacity: 0.8;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

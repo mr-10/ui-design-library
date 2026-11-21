@@ -4,15 +4,26 @@
  "category": "toggle-switches",
  "author": "omriluz",
  "source": "https://uiverse.io/omriluz/tough-crab-66",
- "trigger": "checked",
- "description": "A toggle switch UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "trigger": "hover",
+ "description": "Gradient pill indigo toggle switch that reacts on hover.",
+ "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
-  "toggle-switches",
-  "checked",
-  "css"
+  "indigo",
+  "violet",
+  "gradient",
+  "rounded",
+  "pill",
+  "toggle-switch"
  ],
- "html": "<!-- From Uiverse.io by omriluz - Tags: switch, tailwind, tailwindbutton -->\n<label class=\"relative block aspect-[2/0.75] w-20 rounded-full bg-gradient-to-br from-purple-100 via-violet-600 shadow-2xl shadow-purple-300 transition-all duration-300 hover:bg-[length:100%_500%] focus:bg-[length:100%_500%] bg-[length:100%_100%]\">\n  <input class=\"peer/input hidden\" type=\"checkbox\">\n  <div class=\"absolute left-[3%] top-1/2 aspect-square h-[90%] -translate-y-1/2 rotate-180 rounded-full bg-white bg-gradient-to-t transition-all duration-500 peer-checked/input:left-[63%] peer-checked/input:-rotate-6\"></div>\n</label>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Crab 66</title>\n<style>\n/* From Uiverse.io by omriluz - https://uiverse.io/omriluz/tough-crab-66 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by omriluz - Tags: switch, tailwind, tailwindbutton -->\n<label class=\"relative block aspect-[2/0.75] w-20 rounded-full bg-gradient-to-br from-purple-100 via-violet-600 shadow-2xl shadow-purple-300 transition-all duration-300 hover:bg-[length:100%_500%] focus:bg-[length:100%_500%] bg-[length:100%_100%]\">\n  <input class=\"peer/input hidden\" type=\"checkbox\">\n  <div class=\"absolute left-[3%] top-1/2 aspect-square h-[90%] -translate-y-1/2 rotate-180 rounded-full bg-white bg-gradient-to-t transition-all duration-500 peer-checked/input:left-[63%] peer-checked/input:-rotate-6\"></div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#f3e8ff",
+  "#7c3aed",
+  "#d8b4fe"
+ ],
+ "fonts": [],
+ "tokens": 206,
+ "size": 824,
+ "html": "<label class=\"relative block aspect-[2/0.75] w-20 rounded-full bg-gradient-to-br from-purple-100 via-violet-600 shadow-2xl shadow-purple-300 transition-all duration-300 hover:bg-[length:100%_500%] focus:bg-[length:100%_500%] bg-[length:100%_100%]\">\n  <input class=\"peer/input hidden\" type=\"checkbox\">\n  <div class=\"absolute left-[3%] top-1/2 aspect-square h-[90%] -translate-y-1/2 rotate-180 rounded-full bg-white bg-gradient-to-t transition-all duration-500 peer-checked/input:left-[63%] peer-checked/input:-rotate-6\"></div>\n</label>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Crab 66</title>\n<style>\n/* Tough Crab 66 by omriluz — https://uiverse.io/omriluz/tough-crab-66 */\n\n</style>\n</head>\n<body>\n<label class=\"relative block aspect-[2/0.75] w-20 rounded-full bg-gradient-to-br from-purple-100 via-violet-600 shadow-2xl shadow-purple-300 transition-all duration-300 hover:bg-[length:100%_500%] focus:bg-[length:100%_500%] bg-[length:100%_100%]\">\n  <input class=\"peer/input hidden\" type=\"checkbox\">\n  <div class=\"absolute left-[3%] top-1/2 aspect-square h-[90%] -translate-y-1/2 rotate-180 rounded-full bg-white bg-gradient-to-t transition-all duration-500 peer-checked/input:left-[63%] peer-checked/input:-rotate-6\"></div>\n</label>\n\n</body>\n</html>\n"
 }

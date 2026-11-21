@@ -5,17 +5,27 @@
  "author": "TanimMahbub",
  "source": "https://uiverse.io/TanimMahbub/selfish-goat-90",
  "trigger": "hover",
- "description": "A button with simple, shadow and retro styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon rounded orange button that changes colour on hover.",
+ "howItWorks": "On hover, background changes from #f6781e to #df6108. On focus, background changes from #f6781e to #df6108.",
  "tags": [
+  "orange",
+  "neon",
+  "rounded",
+  "color-change",
   "simple",
-  "button",
-  "shadow",
-  "retro",
-  "click",
-  "click-effect"
+  "button"
  ],
- "html": "<button class=\"button\">Button</button>",
- "css": "/* From Uiverse.io by TanimMahbub  - Tags: simple, button, shadow, retro, click, click effect, box-shadow */\n.button {\n  /* typography */\n  font-size: 22px;\n  font-weight: 600;\n  font-family: monospace;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n\n  /* ui */\n  border: none;\n  cursor: pointer;\n  display: inline-block;\n  padding: 12px 35px;\n  border-radius: 8px;\n  background: #f6781e;\n  color: #fff;\n  box-shadow: 0 0 0 3px #2f2e41, 0 6px 0 #2f2e41;\n  transition: all 0.1s ease, background 0.3s ease;\n}\n\n/* ux */\n.button:hover,\n.button:focus {\n  background: #df6108;\n}\n\n.button:active {\n  box-shadow: 0 0 0 3px #2f2e41, 0 4px 0 #2f2e41;\n  transform: translateY(2px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Goat 90</title>\n<style>\n/* From Uiverse.io by TanimMahbub - https://uiverse.io/TanimMahbub/selfish-goat-90 */\n/* From Uiverse.io by TanimMahbub  - Tags: simple, button, shadow, retro, click, click effect, box-shadow */\n.button {\n  /* typography */\n  font-size: 22px;\n  font-weight: 600;\n  font-family: monospace;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n\n  /* ui */\n  border: none;\n  cursor: pointer;\n  display: inline-block;\n  padding: 12px 35px;\n  border-radius: 8px;\n  background: #f6781e;\n  color: #fff;\n  box-shadow: 0 0 0 3px #2f2e41, 0 6px 0 #2f2e41;\n  transition: all 0.1s ease, background 0.3s ease;\n}\n\n/* ux */\n.button:hover,\n.button:focus {\n  background: #df6108;\n}\n\n.button:active {\n  box-shadow: 0 0 0 3px #2f2e41, 0 4px 0 #2f2e41;\n  transform: translateY(2px);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Button</button>\n</body>\n</html>\n"
+ "colors": [
+  "#2f2e41",
+  "#f6781e",
+  "#df6108"
+ ],
+ "fonts": [
+  "monospace"
+ ],
+ "tokens": 218,
+ "size": 872,
+ "html": "<button class=\"button\">Button</button>\n",
+ "css": "/* Selfish Goat 90 by TanimMahbub — https://uiverse.io/TanimMahbub/selfish-goat-90 */\n.button {\n\n  font-size: 22px;\n  font-weight: 600;\n  font-family: monospace;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n\n  border: none;\n  cursor: pointer;\n  display: inline-block;\n  padding: 12px 35px;\n  border-radius: 8px;\n  background: #f6781e;\n  color: #fff;\n  box-shadow: 0 0 0 3px #2f2e41, 0 6px 0 #2f2e41;\n  transition: all 0.1s ease, background 0.3s ease;\n}\n\n.button:hover,\n.button:focus {\n  background: #df6108;\n}\n\n.button:active {\n  box-shadow: 0 0 0 3px #2f2e41, 0 4px 0 #2f2e41;\n  transform: translateY(2px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Goat 90</title>\n<style>\n/* Selfish Goat 90 by TanimMahbub — https://uiverse.io/TanimMahbub/selfish-goat-90 */\n.button {\n\n  font-size: 22px;\n  font-weight: 600;\n  font-family: monospace;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n\n  border: none;\n  cursor: pointer;\n  display: inline-block;\n  padding: 12px 35px;\n  border-radius: 8px;\n  background: #f6781e;\n  color: #fff;\n  box-shadow: 0 0 0 3px #2f2e41, 0 6px 0 #2f2e41;\n  transition: all 0.1s ease, background 0.3s ease;\n}\n\n.button:hover,\n.button:focus {\n  background: #df6108;\n}\n\n.button:active {\n  box-shadow: 0 0 0 3px #2f2e41, 0 4px 0 #2f2e41;\n  transform: translateY(2px);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Button</button>\n\n</body>\n</html>\n"
 }

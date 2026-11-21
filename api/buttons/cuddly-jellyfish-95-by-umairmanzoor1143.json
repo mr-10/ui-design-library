@@ -5,17 +5,25 @@
  "author": "umairmanzoor1143",
  "source": "https://uiverse.io/umairmanzoor1143/cuddly-jellyfish-95",
  "trigger": "hover",
- "description": "A button with loading, on and off styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Pill white button that fades on hover with a smooth transition.",
+ "howItWorks": "On hover, font-size becomes 20px, transform becomes skew(-5deg), opacity becomes 1.",
  "tags": [
-  "loading",
-  "button",
-  "on",
-  "off",
-  "glow",
-  "circle"
+  "rounded",
+  "pill",
+  "flat",
+  "fade",
+  "spin",
+  "loading"
  ],
- "html": "<button class=\"button\">\n  <span class=\"span\">Button</span>\n</button>",
- "css": "/* From Uiverse.io by umairmanzoor1143  - Tags: loading, button, on, off, glow, circle, rotate, click */\n.button {\n  background: #fff;\n  position: relative;\n  border: none;\n  padding: 10px 20px;\n  display: inline-block;\n  font-size: 15px;\n  font-weight: 600;\n  text-transform: uppercase;\n  cursor: pointer;\n  transition: 0.5s;\n}\n.span {\n  display: inline-block;\n}\n.button:hover {\n  font-size: 20px;\n  transform: skew(-5deg);\n  padding-right: 30px;\n}\n.button::before {\n  content: \"\";\n  box-sizing: border-box;\n  position: absolute;\n  top: 50%;\n  left: 70%;\n  width: 15px;\n  height: 15px;\n  margin-top: -8px;\n  margin-left: -5px;\n  border-radius: 50%;\n  border: 2px solid #ccc;\n  border-top-color: #000;\n  opacity: 0;\n  animation: spinner 0.6s linear infinite;\n  transition: 0.5s;\n}\n.button:hover::before {\n  opacity: 1;\n  left: 85%;\n}\n@keyframes spinner {\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Jellyfish 95</title>\n<style>\n/* From Uiverse.io by umairmanzoor1143 - https://uiverse.io/umairmanzoor1143/cuddly-jellyfish-95 */\n/* From Uiverse.io by umairmanzoor1143  - Tags: loading, button, on, off, glow, circle, rotate, click */\n.button {\n  background: #fff;\n  position: relative;\n  border: none;\n  padding: 10px 20px;\n  display: inline-block;\n  font-size: 15px;\n  font-weight: 600;\n  text-transform: uppercase;\n  cursor: pointer;\n  transition: 0.5s;\n}\n.span {\n  display: inline-block;\n}\n.button:hover {\n  font-size: 20px;\n  transform: skew(-5deg);\n  padding-right: 30px;\n}\n.button::before {\n  content: \"\";\n  box-sizing: border-box;\n  position: absolute;\n  top: 50%;\n  left: 70%;\n  width: 15px;\n  height: 15px;\n  margin-top: -8px;\n  margin-left: -5px;\n  border-radius: 50%;\n  border: 2px solid #ccc;\n  border-top-color: #000;\n  opacity: 0;\n  animation: spinner 0.6s linear infinite;\n  transition: 0.5s;\n}\n.button:hover::before {\n  opacity: 1;\n  left: 85%;\n}\n@keyframes spinner {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <span class=\"span\">Button</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#cccccc",
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 296,
+ "size": 1187,
+ "html": "<button class=\"button\">\n  <span class=\"span\">Button</span>\n</button>\n",
+ "css": "/* Cuddly Jellyfish 95 by umairmanzoor1143 — https://uiverse.io/umairmanzoor1143/cuddly-jellyfish-95 */\n.button {\n  background: #fff;\n  position: relative;\n  border: none;\n  padding: 10px 20px;\n  display: inline-block;\n  font-size: 15px;\n  font-weight: 600;\n  text-transform: uppercase;\n  cursor: pointer;\n  transition: 0.5s;\n}\n.span {\n  display: inline-block;\n}\n.button:hover {\n  font-size: 20px;\n  transform: skew(-5deg);\n  padding-right: 30px;\n}\n.button::before {\n  content: \"\";\n  box-sizing: border-box;\n  position: absolute;\n  top: 50%;\n  left: 70%;\n  width: 15px;\n  height: 15px;\n  margin-top: -8px;\n  margin-left: -5px;\n  border-radius: 50%;\n  border: 2px solid #ccc;\n  border-top-color: #000;\n  opacity: 0;\n  animation: spinner 0.6s linear infinite;\n  transition: 0.5s;\n}\n.button:hover::before {\n  opacity: 1;\n  left: 85%;\n}\n@keyframes spinner {\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Jellyfish 95</title>\n<style>\n/* Cuddly Jellyfish 95 by umairmanzoor1143 — https://uiverse.io/umairmanzoor1143/cuddly-jellyfish-95 */\n.button {\n  background: #fff;\n  position: relative;\n  border: none;\n  padding: 10px 20px;\n  display: inline-block;\n  font-size: 15px;\n  font-weight: 600;\n  text-transform: uppercase;\n  cursor: pointer;\n  transition: 0.5s;\n}\n.span {\n  display: inline-block;\n}\n.button:hover {\n  font-size: 20px;\n  transform: skew(-5deg);\n  padding-right: 30px;\n}\n.button::before {\n  content: \"\";\n  box-sizing: border-box;\n  position: absolute;\n  top: 50%;\n  left: 70%;\n  width: 15px;\n  height: 15px;\n  margin-top: -8px;\n  margin-left: -5px;\n  border-radius: 50%;\n  border: 2px solid #ccc;\n  border-top-color: #000;\n  opacity: 0;\n  animation: spinner 0.6s linear infinite;\n  transition: 0.5s;\n}\n.button:hover::before {\n  opacity: 1;\n  left: 85%;\n}\n@keyframes spinner {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <span class=\"span\">Button</span>\n</button>\n\n</body>\n</html>\n"
 }

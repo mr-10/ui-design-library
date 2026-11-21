@@ -5,14 +5,24 @@
  "author": "gharsh11032000",
  "source": "https://uiverse.io/gharsh11032000/bright-warthog-8",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon rounded indigo button that glows on hover.",
+ "howItWorks": "On hover, text color changes to #e8e8e8, background-color changes from #e8e8e8 to #8364e8, box-shadow becomes 0 0 24px 8px #8364e8.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "indigo",
+  "neon",
+  "rounded",
+  "glow",
+  "color-change",
+  "button"
  ],
- "html": "<button class=\"button\">\n  Hover me\n</button>",
- "css": "/* From Uiverse.io by gharsh11032000 - Tags: button */\n.button {\n  position: relative;\n  text-decoration: none;\n  font-size: 17px;\n  font-weight: 600;\n  text-transform: uppercase;\n  background-color: #e8e8e8;\n  padding: 15px 30px;\n  cursor: pointer;\n  border: none;\n  border-radius: 10px;\n  overflow: hidden;\n  transition: all 0.4s ease;\n}\n\n.button:before {\n  content: \"\";\n  position: absolute;\n  pointer-events: none;\n  width: 100%;\n  height: 20%;\n  background-color: #e8e8e8;\n  translate: -100% 0;\n  rotate: 45deg;\n  transition: all 0.4s ease;\n}\n\n.button:hover {\n  color: #e8e8e8;\n  background-color: #8364e8;\n  box-shadow: 0 0 24px 8px rgba(131, 100, 232, 0.4);\n}\n\n.button:hover:before {\n  translate: 100%;\n}\n\n.button:active {\n  scale: 0.95;\n  box-shadow: 0 0 16px 4px rgba(131, 100, 232, 0.4);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bright Warthog 8</title>\n<style>\n/* From Uiverse.io by gharsh11032000 - https://uiverse.io/gharsh11032000/bright-warthog-8 */\n/* From Uiverse.io by gharsh11032000 - Tags: button */\n.button {\n  position: relative;\n  text-decoration: none;\n  font-size: 17px;\n  font-weight: 600;\n  text-transform: uppercase;\n  background-color: #e8e8e8;\n  padding: 15px 30px;\n  cursor: pointer;\n  border: none;\n  border-radius: 10px;\n  overflow: hidden;\n  transition: all 0.4s ease;\n}\n\n.button:before {\n  content: \"\";\n  position: absolute;\n  pointer-events: none;\n  width: 100%;\n  height: 20%;\n  background-color: #e8e8e8;\n  translate: -100% 0;\n  rotate: 45deg;\n  transition: all 0.4s ease;\n}\n\n.button:hover {\n  color: #e8e8e8;\n  background-color: #8364e8;\n  box-shadow: 0 0 24px 8px rgba(131, 100, 232, 0.4);\n}\n\n.button:hover:before {\n  translate: 100%;\n}\n\n.button:active {\n  scale: 0.95;\n  box-shadow: 0 0 16px 4px rgba(131, 100, 232, 0.4);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Hover me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#e8e8e8",
+  "#8364e8"
+ ],
+ "fonts": [],
+ "tokens": 275,
+ "size": 1101,
+ "html": "<button class=\"button\">\n  Hover me\n</button>\n",
+ "css": "/* Bright Warthog 8 by gharsh11032000 — https://uiverse.io/gharsh11032000/bright-warthog-8 */\n.button {\n  position: relative;\n  text-decoration: none;\n  font-size: 17px;\n  font-weight: 600;\n  text-transform: uppercase;\n  background-color: #e8e8e8;\n  padding: 15px 30px;\n  cursor: pointer;\n  border: none;\n  border-radius: 10px;\n  overflow: hidden;\n  transition: all 0.4s ease;\n}\n\n.button:before {\n  content: \"\";\n  position: absolute;\n  pointer-events: none;\n  width: 100%;\n  height: 20%;\n  background-color: #e8e8e8;\n  translate: -100% 0;\n  rotate: 45deg;\n  transition: all 0.4s ease;\n}\n\n.button:hover {\n  color: #e8e8e8;\n  background-color: #8364e8;\n  box-shadow: 0 0 24px 8px rgba(131, 100, 232, 0.4);\n}\n\n.button:hover:before {\n  translate: 100%;\n}\n\n.button:active {\n  scale: 0.95;\n  box-shadow: 0 0 16px 4px rgba(131, 100, 232, 0.4);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bright Warthog 8</title>\n<style>\n/* Bright Warthog 8 by gharsh11032000 — https://uiverse.io/gharsh11032000/bright-warthog-8 */\n.button {\n  position: relative;\n  text-decoration: none;\n  font-size: 17px;\n  font-weight: 600;\n  text-transform: uppercase;\n  background-color: #e8e8e8;\n  padding: 15px 30px;\n  cursor: pointer;\n  border: none;\n  border-radius: 10px;\n  overflow: hidden;\n  transition: all 0.4s ease;\n}\n\n.button:before {\n  content: \"\";\n  position: absolute;\n  pointer-events: none;\n  width: 100%;\n  height: 20%;\n  background-color: #e8e8e8;\n  translate: -100% 0;\n  rotate: 45deg;\n  transition: all 0.4s ease;\n}\n\n.button:hover {\n  color: #e8e8e8;\n  background-color: #8364e8;\n  box-shadow: 0 0 24px 8px rgba(131, 100, 232, 0.4);\n}\n\n.button:hover:before {\n  translate: 100%;\n}\n\n.button:active {\n  scale: 0.95;\n  box-shadow: 0 0 16px 4px rgba(131, 100, 232, 0.4);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Hover me\n</button>\n\n</body>\n</html>\n"
 }

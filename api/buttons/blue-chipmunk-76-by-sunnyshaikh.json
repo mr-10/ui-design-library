@@ -5,14 +5,23 @@
  "author": "sunnyshaikh",
  "source": "https://uiverse.io/sunnyshaikh/blue-chipmunk-76",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Amber button that reacts on hover with a smooth transition.",
+ "howItWorks": "On hover, transform becomes translate(-5px, -5px), transform becomes translate(5px, 5px).",
  "tags": [
+  "amber",
+  "flat",
   "button",
   "hover",
   "css"
  ],
- "html": "<button>\n  Hover Me!\n</button>",
- "css": "/* From Uiverse.io by sunnyshaikh - Tags: button */\nbutton {\n  position: relative;\n  background: #FBD148;\n  box-sizing: border-box;\n  border: 0;\n  outline: 0;\n  padding: 1rem 3rem;\n  font-size: 1em;\n  cursor: pointer;\n  transition: .25s ease;\n}\n\nbutton::before {\n  position: absolute;\n  content: '';\n  box-sizing: border-box;\n  top: 0;\n  left: 0;\n  transform: translate(-5px, -5px);\n  width: 100%;\n  height: 100%;\n  border: 1px solid rgb(84, 84, 84);\n  transition: .25s ease;\n}\n\nbutton:hover {\n  transform: translate(-5px, -5px);\n}\n\nbutton:hover::before {\n  transform: translate(5px, 5px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Blue Chipmunk 76</title>\n<style>\n/* From Uiverse.io by sunnyshaikh - https://uiverse.io/sunnyshaikh/blue-chipmunk-76 */\n/* From Uiverse.io by sunnyshaikh - Tags: button */\nbutton {\n  position: relative;\n  background: #FBD148;\n  box-sizing: border-box;\n  border: 0;\n  outline: 0;\n  padding: 1rem 3rem;\n  font-size: 1em;\n  cursor: pointer;\n  transition: .25s ease;\n}\n\nbutton::before {\n  position: absolute;\n  content: '';\n  box-sizing: border-box;\n  top: 0;\n  left: 0;\n  transform: translate(-5px, -5px);\n  width: 100%;\n  height: 100%;\n  border: 1px solid rgb(84, 84, 84);\n  transition: .25s ease;\n}\n\nbutton:hover {\n  transform: translate(-5px, -5px);\n}\n\nbutton:hover::before {\n  transform: translate(5px, 5px);\n}\n</style>\n</head>\n<body>\n<button>\n  Hover Me!\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#fbd148",
+  "#545454"
+ ],
+ "fonts": [],
+ "tokens": 218,
+ "size": 876,
+ "html": "<button>\n  Hover Me!\n</button>\n",
+ "css": "/* Blue Chipmunk 76 by sunnyshaikh — https://uiverse.io/sunnyshaikh/blue-chipmunk-76 */\nbutton {\n  position: relative;\n  background: #FBD148;\n  box-sizing: border-box;\n  border: 0;\n  outline: 0;\n  padding: 1rem 3rem;\n  font-size: 1em;\n  cursor: pointer;\n  transition: .25s ease;\n}\n\nbutton::before {\n  position: absolute;\n  content: '';\n  box-sizing: border-box;\n  top: 0;\n  left: 0;\n  transform: translate(-5px, -5px);\n  width: 100%;\n  height: 100%;\n  border: 1px solid rgb(84, 84, 84);\n  transition: .25s ease;\n}\n\nbutton:hover {\n  transform: translate(-5px, -5px);\n}\n\nbutton:hover::before {\n  transform: translate(5px, 5px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Blue Chipmunk 76</title>\n<style>\n/* Blue Chipmunk 76 by sunnyshaikh — https://uiverse.io/sunnyshaikh/blue-chipmunk-76 */\nbutton {\n  position: relative;\n  background: #FBD148;\n  box-sizing: border-box;\n  border: 0;\n  outline: 0;\n  padding: 1rem 3rem;\n  font-size: 1em;\n  cursor: pointer;\n  transition: .25s ease;\n}\n\nbutton::before {\n  position: absolute;\n  content: '';\n  box-sizing: border-box;\n  top: 0;\n  left: 0;\n  transform: translate(-5px, -5px);\n  width: 100%;\n  height: 100%;\n  border: 1px solid rgb(84, 84, 84);\n  transition: .25s ease;\n}\n\nbutton:hover {\n  transform: translate(-5px, -5px);\n}\n\nbutton:hover::before {\n  transform: translate(5px, 5px);\n}\n</style>\n</head>\n<body>\n<button>\n  Hover Me!\n</button>\n\n</body>\n</html>\n"
 }

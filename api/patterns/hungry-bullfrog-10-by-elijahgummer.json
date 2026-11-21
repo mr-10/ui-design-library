@@ -5,17 +5,25 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/hungry-bullfrog-10",
  "trigger": "static",
- "description": "A pattern with simple, material-design and green styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient rounded cyan pattern with soft shadow and rounded corners and gradient fill.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "material-design",
+  "cyan",
   "green",
-  "blue",
-  "minimalist",
-  "gradient"
+  "gradient",
+  "rounded",
+  "pattern",
+  "simple"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by elijahgummer  - Tags: simple, material design, green, blue, minimalist, gradient, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    45deg,\n    #3498db,\n    #2ecc71\n  ); /* Gradient background */\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */\n  border-radius: 10px; /* Rounded corners */\n  position: relative;\n  overflow: hidden;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-image: linear-gradient(\n      90deg,\n      rgba(255, 255, 255, 0.1) 1px,\n      transparent 1px\n    ),\n    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);\n  background-size: 20px 20px;\n  pointer-events: none; /* Allow clicking through the pattern layer */\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Bullfrog 10</title>\n<style>\n/* From Uiverse.io by elijahgummer - https://uiverse.io/elijahgummer/hungry-bullfrog-10 */\n/* From Uiverse.io by elijahgummer  - Tags: simple, material design, green, blue, minimalist, gradient, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    45deg,\n    #3498db,\n    #2ecc71\n  ); /* Gradient background */\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */\n  border-radius: 10px; /* Rounded corners */\n  position: relative;\n  overflow: hidden;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-image: linear-gradient(\n      90deg,\n      rgba(255, 255, 255, 0.1) 1px,\n      transparent 1px\n    ),\n    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);\n  background-size: 20px 20px;\n  pointer-events: none; /* Allow clicking through the pattern layer */\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#3498db",
+  "#2ecc71",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 224,
+ "size": 899,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Hungry Bullfrog 10 by elijahgummer — https://uiverse.io/elijahgummer/hungry-bullfrog-10 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    45deg,\n    #3498db,\n    #2ecc71\n  );\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n  border-radius: 10px;\n  position: relative;\n  overflow: hidden;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-image: linear-gradient(\n      90deg,\n      rgba(255, 255, 255, 0.1) 1px,\n      transparent 1px\n    ),\n    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);\n  background-size: 20px 20px;\n  pointer-events: none;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Bullfrog 10</title>\n<style>\n/* Hungry Bullfrog 10 by elijahgummer — https://uiverse.io/elijahgummer/hungry-bullfrog-10 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    45deg,\n    #3498db,\n    #2ecc71\n  );\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n  border-radius: 10px;\n  position: relative;\n  overflow: hidden;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-image: linear-gradient(\n      90deg,\n      rgba(255, 255, 255, 0.1) 1px,\n      transparent 1px\n    ),\n    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);\n  background-size: 20px 20px;\n  pointer-events: none;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

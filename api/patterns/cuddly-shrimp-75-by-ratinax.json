@@ -5,15 +5,25 @@
  "author": "Ratinax",
  "source": "https://uiverse.io/Ratinax/cuddly-shrimp-75",
  "trigger": "static",
- "description": "A pattern with simple and circle styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient gray pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
+  "gradient",
+  "flat",
+  "pattern",
   "simple",
   "circle",
-  "pattern",
   "static"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by Ratinax - Tags: simple, circle, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-radial-gradient(circle at 50%, black, grey 1em, white 1em, white 2em);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Shrimp 75</title>\n<style>\n/* From Uiverse.io by Ratinax - https://uiverse.io/Ratinax/cuddly-shrimp-75 */\n/* From Uiverse.io by Ratinax - Tags: simple, circle, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-radial-gradient(circle at 50%, black, grey 1em, white 1em, white 2em);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#808080",
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 116,
+ "size": 468,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Cuddly Shrimp 75 by Ratinax — https://uiverse.io/Ratinax/cuddly-shrimp-75 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-radial-gradient(circle at 50%, black, grey 1em, white 1em, white 2em);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Shrimp 75</title>\n<style>\n/* Cuddly Shrimp 75 by Ratinax — https://uiverse.io/Ratinax/cuddly-shrimp-75 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-radial-gradient(circle at 50%, black, grey 1em, white 1em, white 2em);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

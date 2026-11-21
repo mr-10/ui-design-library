@@ -5,15 +5,24 @@
  "author": "sabbircoder07",
  "source": "https://uiverse.io/sabbircoder07/fresh-tiger-75",
  "trigger": "auto-loop",
- "description": "A loader with animated and css3 styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient rounded white loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a 2s animation (pulsing, sliding).",
  "tags": [
-  "loader",
-  "animated",
-  "css3",
-  "auto-loop"
+  "gradient",
+  "rounded",
+  "flat",
+  "pulse",
+  "slide",
+  "loader"
  ],
- "html": "<div class=\"progress\">\n      <div class=\"inner\"></div>\n</div>",
- "css": "/* From Uiverse.io by sabbircoder07 - Tags: loader, animated, css3 */\n.progress {\n  background-color: #ffffff;\n  width: 220px;\n  height: 20px;\n  border-radius: 100px;\n  overflow: hidden;\n  backface-visibility: hidden;\n}\n\n.inner {\n  background-image: linear-gradient(to left, #00cdac, #00c2c9, #00b4e3, #00a2f1, #008cef, #0088eb, #0085e6, #0081e2, #0090de, #009bd2, #00a3c1, #02aab0);\n  height: 100%;\n  transform-origin: left;\n  animation: progress 2s infinite;\n}\n\n@keyframes progress {\n  0% {\n    transform: scaleX(10%) translateX(-10%);\n  }\n\n  100% {\n    transform: scaleX(80%) translateX(150%);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fresh Tiger 75</title>\n<style>\n/* From Uiverse.io by sabbircoder07 - https://uiverse.io/sabbircoder07/fresh-tiger-75 */\n/* From Uiverse.io by sabbircoder07 - Tags: loader, animated, css3 */\n.progress {\n  background-color: #ffffff;\n  width: 220px;\n  height: 20px;\n  border-radius: 100px;\n  overflow: hidden;\n  backface-visibility: hidden;\n}\n\n.inner {\n  background-image: linear-gradient(to left, #00cdac, #00c2c9, #00b4e3, #00a2f1, #008cef, #0088eb, #0085e6, #0081e2, #0090de, #009bd2, #00a3c1, #02aab0);\n  height: 100%;\n  transform-origin: left;\n  animation: progress 2s infinite;\n}\n\n@keyframes progress {\n  0% {\n    transform: scaleX(10%) translateX(-10%);\n  }\n\n  100% {\n    transform: scaleX(80%) translateX(150%);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"progress\">\n      <div class=\"inner\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 224,
+ "size": 898,
+ "html": "<div class=\"progress\">\n      <div class=\"inner\"></div>\n</div>\n",
+ "css": "/* Fresh Tiger 75 by sabbircoder07 — https://uiverse.io/sabbircoder07/fresh-tiger-75 */\n.progress {\n  background-color: #ffffff;\n  width: 220px;\n  height: 20px;\n  border-radius: 100px;\n  overflow: hidden;\n  backface-visibility: hidden;\n}\n\n.inner {\n  background-image: linear-gradient(to left, #00cdac, #00c2c9, #00b4e3, #00a2f1, #008cef, #0088eb, #0085e6, #0081e2, #0090de, #009bd2, #00a3c1, #02aab0);\n  height: 100%;\n  transform-origin: left;\n  animation: progress 2s infinite;\n}\n\n@keyframes progress {\n  0% {\n    transform: scaleX(10%) translateX(-10%);\n  }\n\n  100% {\n    transform: scaleX(80%) translateX(150%);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fresh Tiger 75</title>\n<style>\n/* Fresh Tiger 75 by sabbircoder07 — https://uiverse.io/sabbircoder07/fresh-tiger-75 */\n.progress {\n  background-color: #ffffff;\n  width: 220px;\n  height: 20px;\n  border-radius: 100px;\n  overflow: hidden;\n  backface-visibility: hidden;\n}\n\n.inner {\n  background-image: linear-gradient(to left, #00cdac, #00c2c9, #00b4e3, #00a2f1, #008cef, #0088eb, #0085e6, #0081e2, #0090de, #009bd2, #00a3c1, #02aab0);\n  height: 100%;\n  transform-origin: left;\n  animation: progress 2s infinite;\n}\n\n@keyframes progress {\n  0% {\n    transform: scaleX(10%) translateX(-10%);\n  }\n\n  100% {\n    transform: scaleX(80%) translateX(150%);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"progress\">\n      <div class=\"inner\"></div>\n</div>\n\n</body>\n</html>\n"
 }

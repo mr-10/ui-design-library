@@ -5,14 +5,26 @@
  "author": "biswacpcode",
  "source": "https://uiverse.io/biswacpcode/curvy-crab-71",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined red button that expands on hover with a smooth transition.",
+ "howItWorks": "On hover, width becomes 100%.",
  "tags": [
+  "red",
+  "outlined",
+  "flat",
+  "expand",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button>\n  HOVER ME\n</button>",
- "css": "/* From Uiverse.io by biswacpcode - Tags: button */\nbutton {\n  color: white;\n  text-decoration: none;\n  font-size: 25px;\n  border: none;\n  background: none;\n  font-weight: 600;\n  font-family: 'Poppins', sans-serif;\n}\n\nbutton::before {\n  margin-left: auto;\n}\n\nbutton::after, button::before {\n  content: '';\n  width: 0%;\n  height: 2px;\n  background: #f44336;\n  display: block;\n  transition: 0.5s;\n}\n\nbutton:hover::after, button:hover::before {\n  width: 100%;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curvy Crab 71</title>\n<style>\n/* From Uiverse.io by biswacpcode - https://uiverse.io/biswacpcode/curvy-crab-71 */\n/* From Uiverse.io by biswacpcode - Tags: button */\nbutton {\n  color: white;\n  text-decoration: none;\n  font-size: 25px;\n  border: none;\n  background: none;\n  font-weight: 600;\n  font-family: 'Poppins', sans-serif;\n}\n\nbutton::before {\n  margin-left: auto;\n}\n\nbutton::after, button::before {\n  content: '';\n  width: 0%;\n  height: 2px;\n  background: #f44336;\n  display: block;\n  transition: 0.5s;\n}\n\nbutton:hover::after, button:hover::before {\n  width: 100%;\n}\n</style>\n</head>\n<body>\n<button>\n  HOVER ME\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#f44336",
+  "#ffffff"
+ ],
+ "fonts": [
+  "Poppins"
+ ],
+ "tokens": 183,
+ "size": 733,
+ "html": "<button>\n  HOVER ME\n</button>\n",
+ "css": "/* Curvy Crab 71 by biswacpcode — https://uiverse.io/biswacpcode/curvy-crab-71 */\nbutton {\n  color: white;\n  text-decoration: none;\n  font-size: 25px;\n  border: none;\n  background: none;\n  font-weight: 600;\n  font-family: 'Poppins', sans-serif;\n}\n\nbutton::before {\n  margin-left: auto;\n}\n\nbutton::after, button::before {\n  content: '';\n  width: 0%;\n  height: 2px;\n  background: #f44336;\n  display: block;\n  transition: 0.5s;\n}\n\nbutton:hover::after, button:hover::before {\n  width: 100%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curvy Crab 71</title>\n<style>\n/* Curvy Crab 71 by biswacpcode — https://uiverse.io/biswacpcode/curvy-crab-71 */\nbutton {\n  color: white;\n  text-decoration: none;\n  font-size: 25px;\n  border: none;\n  background: none;\n  font-weight: 600;\n  font-family: 'Poppins', sans-serif;\n}\n\nbutton::before {\n  margin-left: auto;\n}\n\nbutton::after, button::before {\n  content: '';\n  width: 0%;\n  height: 2px;\n  background: #f44336;\n  display: block;\n  transition: 0.5s;\n}\n\nbutton:hover::after, button:hover::before {\n  width: 100%;\n}\n</style>\n</head>\n<body>\n<button>\n  HOVER ME\n</button>\n\n</body>\n</html>\n"
 }

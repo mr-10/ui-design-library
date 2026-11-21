@@ -5,17 +5,26 @@
  "author": "andrew-demchenk0",
  "source": "https://uiverse.io/andrew-demchenk0/pretty-squid-78",
  "trigger": "hover",
- "description": "A button with animation, purple and opacity styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded violet button that starts animating on hover.",
+ "howItWorks": "On hover, background changes from #a549da3d to #a549da62, starts the lr animation (sliding).",
  "tags": [
-  "animation",
-  "purple",
-  "button",
-  "opacity",
-  "small",
-  "edit"
+  "violet",
+  "rounded",
+  "flat",
+  "color-change",
+  "animated",
+  "slide"
  ],
- "html": "<button class=\"button\">\n  <svg class=\"svg-icon\" fill=\"none\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"#a649da\" stroke-linecap=\"round\" stroke-width=\"2\"><path d=\"m20 20h-16\"></path><path clip-rule=\"evenodd\" d=\"m14.5858 4.41422c.781-.78105 2.0474-.78105 2.8284 0 .7811.78105.7811 2.04738 0 2.82843l-8.28322 8.28325-3.03046.202.20203-3.0304z\" fill-rule=\"evenodd\"></path></g></svg>\n  <span class=\"lable\">Edit</span>\n</button>",
- "css": "/* From Uiverse.io by andrew-demchenk0 - Tags: animation, purple, button, opacity, small, edit */\n.button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 8px 12px;\n  gap: 2px;\n  height: 40px;\n  width: 85px;\n  border: none;\n  background: #a549da3d;\n  border-radius: 20px;\n  cursor: pointer;\n}\n\n.lable {\n  line-height: 22px;\n  font-size: 19px;\n  color: #A649DA;\n  font-family: sans-serif;\n  letter-spacing: 1px;\n}\n\n.button:hover {\n  background: #a549da62;\n}\n\n.button:hover .svg-icon {\n  animation: lr 1s linear infinite;\n}\n\n@keyframes lr {\n  0% {\n    transform: translateX(0);\n  }\n\n  25% {\n    transform: translateX(-1px);\n  }\n\n  75% {\n    transform: translateX(1px);\n  }\n\n  100% {\n    transform: translateX(0);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Pretty Squid 78</title>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - https://uiverse.io/andrew-demchenk0/pretty-squid-78 */\n/* From Uiverse.io by andrew-demchenk0 - Tags: animation, purple, button, opacity, small, edit */\n.button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 8px 12px;\n  gap: 2px;\n  height: 40px;\n  width: 85px;\n  border: none;\n  background: #a549da3d;\n  border-radius: 20px;\n  cursor: pointer;\n}\n\n.lable {\n  line-height: 22px;\n  font-size: 19px;\n  color: #A649DA;\n  font-family: sans-serif;\n  letter-spacing: 1px;\n}\n\n.button:hover {\n  background: #a549da62;\n}\n\n.button:hover .svg-icon {\n  animation: lr 1s linear infinite;\n}\n\n@keyframes lr {\n  0% {\n    transform: translateX(0);\n  }\n\n  25% {\n    transform: translateX(-1px);\n  }\n\n  75% {\n    transform: translateX(1px);\n  }\n\n  100% {\n    transform: translateX(0);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <svg class=\"svg-icon\" fill=\"none\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"#a649da\" stroke-linecap=\"round\" stroke-width=\"2\"><path d=\"m20 20h-16\"></path><path clip-rule=\"evenodd\" d=\"m14.5858 4.41422c.781-.78105 2.0474-.78105 2.8284 0 .7811.78105.7811 2.04738 0 2.82843l-8.28322 8.28325-3.03046.202.20203-3.0304z\" fill-rule=\"evenodd\"></path></g></svg>\n  <span class=\"lable\">Edit</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#a549da",
+  "#ffffff"
+ ],
+ "fonts": [
+  "sans-serif"
+ ],
+ "tokens": 357,
+ "size": 1430,
+ "html": "<button class=\"button\">\n  <svg class=\"svg-icon\" fill=\"none\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"#a649da\" stroke-linecap=\"round\" stroke-width=\"2\"><path d=\"m20 20h-16\"></path><path clip-rule=\"evenodd\" d=\"m14.5858 4.41422c.781-.78105 2.0474-.78105 2.8284 0 .7811.78105.7811 2.04738 0 2.82843l-8.28322 8.28325-3.03046.202.20203-3.0304z\" fill-rule=\"evenodd\"></path></g></svg>\n  <span class=\"lable\">Edit</span>\n</button>\n",
+ "css": "/* Pretty Squid 78 by andrew-demchenk0 — https://uiverse.io/andrew-demchenk0/pretty-squid-78 */\n.button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 8px 12px;\n  gap: 2px;\n  height: 40px;\n  width: 85px;\n  border: none;\n  background: #a549da3d;\n  border-radius: 20px;\n  cursor: pointer;\n}\n\n.lable {\n  line-height: 22px;\n  font-size: 19px;\n  color: #A649DA;\n  font-family: sans-serif;\n  letter-spacing: 1px;\n}\n\n.button:hover {\n  background: #a549da62;\n}\n\n.button:hover .svg-icon {\n  animation: lr 1s linear infinite;\n}\n\n@keyframes lr {\n  0% {\n    transform: translateX(0);\n  }\n\n  25% {\n    transform: translateX(-1px);\n  }\n\n  75% {\n    transform: translateX(1px);\n  }\n\n  100% {\n    transform: translateX(0);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Pretty Squid 78</title>\n<style>\n/* Pretty Squid 78 by andrew-demchenk0 — https://uiverse.io/andrew-demchenk0/pretty-squid-78 */\n.button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 8px 12px;\n  gap: 2px;\n  height: 40px;\n  width: 85px;\n  border: none;\n  background: #a549da3d;\n  border-radius: 20px;\n  cursor: pointer;\n}\n\n.lable {\n  line-height: 22px;\n  font-size: 19px;\n  color: #A649DA;\n  font-family: sans-serif;\n  letter-spacing: 1px;\n}\n\n.button:hover {\n  background: #a549da62;\n}\n\n.button:hover .svg-icon {\n  animation: lr 1s linear infinite;\n}\n\n@keyframes lr {\n  0% {\n    transform: translateX(0);\n  }\n\n  25% {\n    transform: translateX(-1px);\n  }\n\n  75% {\n    transform: translateX(1px);\n  }\n\n  100% {\n    transform: translateX(0);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <svg class=\"svg-icon\" fill=\"none\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"#a649da\" stroke-linecap=\"round\" stroke-width=\"2\"><path d=\"m20 20h-16\"></path><path clip-rule=\"evenodd\" d=\"m14.5858 4.41422c.781-.78105 2.0474-.78105 2.8284 0 .7811.78105.7811 2.04738 0 2.82843l-8.28322 8.28325-3.03046.202.20203-3.0304z\" fill-rule=\"evenodd\"></path></g></svg>\n  <span class=\"lable\">Edit</span>\n</button>\n\n</body>\n</html>\n"
 }

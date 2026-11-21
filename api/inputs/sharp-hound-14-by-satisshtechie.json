@@ -5,16 +5,25 @@
  "author": "satisshTechie",
  "source": "https://uiverse.io/satisshTechie/sharp-hound-14",
  "trigger": "hover",
- "description": "A input with slider, progress-bar and range styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined pill gray range input that glows on hover.",
+ "howItWorks": "On hover, box-shadow becomes 0px 0px 0px 8px #000000.",
  "tags": [
-  "slider",
-  "progress-bar",
-  "input",
-  "range",
-  "hover"
+  "outlined",
+  "rounded",
+  "pill",
+  "glow",
+  "range-input",
+  "slider"
  ],
- "html": "<div class=\"PB-range-slider-div\">\n<input type=\"range\" min=\"0\" max=\"100\" value=\"50\" class=\"PB-range-slider\" id=\"myRange\">\n<p class=\"PB-range-slidervalue\">50px</p>\n</div>",
- "css": "/* From Uiverse.io by satisshTechie - Tags: slider, progress bar, input, range */\n.PB-range-slider {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 4px;\n  border-radius: 5px;\n  background: #D5DBE1;\n  outline: none;\n  opacity: 0.7;\n  -webkit-transition: .2s;\n  transition: opacity .2s;\n}\n\n.PB-range-slider::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background-color: #000000;\n  cursor: pointer;\n  transition: 0.3s ease-in-out;\n}\n\n.PB-range-slider::-webkit-slider-thumb:hover {\n  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.16);\n  transition: 0.3s ease-in-out;\n}\n\n.PB-range-slider::-moz-range-thumb {\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background-color: #000000;\n  cursor: pointer;\n}\n\n.PB-range-slider-div {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 1rem;\n  padding: 1rem;\n  border-radius: 6px;\n  border: 1px solid #C6CACE;\n  box-shadow: 0px 1px 2px 0px #1F1E241F;\n}\n\n.PB-range-slidervalue {\n  font-weight: 600;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sharp Hound 14</title>\n<style>\n/* From Uiverse.io by satisshTechie - https://uiverse.io/satisshTechie/sharp-hound-14 */\n/* From Uiverse.io by satisshTechie - Tags: slider, progress bar, input, range */\n.PB-range-slider {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 4px;\n  border-radius: 5px;\n  background: #D5DBE1;\n  outline: none;\n  opacity: 0.7;\n  -webkit-transition: .2s;\n  transition: opacity .2s;\n}\n\n.PB-range-slider::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background-color: #000000;\n  cursor: pointer;\n  transition: 0.3s ease-in-out;\n}\n\n.PB-range-slider::-webkit-slider-thumb:hover {\n  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.16);\n  transition: 0.3s ease-in-out;\n}\n\n.PB-range-slider::-moz-range-thumb {\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background-color: #000000;\n  cursor: pointer;\n}\n\n.PB-range-slider-div {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 1rem;\n  padding: 1rem;\n  border-radius: 6px;\n  border: 1px solid #C6CACE;\n  box-shadow: 0px 1px 2px 0px #1F1E241F;\n}\n\n.PB-range-slidervalue {\n  font-weight: 600;\n}\n</style>\n</head>\n<body>\n<div class=\"PB-range-slider-div\">\n<input type=\"range\" min=\"0\" max=\"100\" value=\"50\" class=\"PB-range-slider\" id=\"myRange\">\n<p class=\"PB-range-slidervalue\">50px</p>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#d5dbe1",
+  "#c6cace",
+  "#1f1e24"
+ ],
+ "fonts": [],
+ "tokens": 360,
+ "size": 1444,
+ "html": "<div class=\"PB-range-slider-div\">\n<input type=\"range\" min=\"0\" max=\"100\" value=\"50\" class=\"PB-range-slider\" id=\"myRange\">\n<p class=\"PB-range-slidervalue\">50px</p>\n</div>\n",
+ "css": "/* Sharp Hound 14 by satisshTechie — https://uiverse.io/satisshTechie/sharp-hound-14 */\n.PB-range-slider {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 4px;\n  border-radius: 5px;\n  background: #D5DBE1;\n  outline: none;\n  opacity: 0.7;\n  -webkit-transition: .2s;\n  transition: opacity .2s;\n}\n\n.PB-range-slider::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background-color: #000000;\n  cursor: pointer;\n  transition: 0.3s ease-in-out;\n}\n\n.PB-range-slider::-webkit-slider-thumb:hover {\n  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.16);\n  transition: 0.3s ease-in-out;\n}\n\n.PB-range-slider::-moz-range-thumb {\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background-color: #000000;\n  cursor: pointer;\n}\n\n.PB-range-slider-div {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 1rem;\n  padding: 1rem;\n  border-radius: 6px;\n  border: 1px solid #C6CACE;\n  box-shadow: 0px 1px 2px 0px #1F1E241F;\n}\n\n.PB-range-slidervalue {\n  font-weight: 600;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sharp Hound 14</title>\n<style>\n/* Sharp Hound 14 by satisshTechie — https://uiverse.io/satisshTechie/sharp-hound-14 */\n.PB-range-slider {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 4px;\n  border-radius: 5px;\n  background: #D5DBE1;\n  outline: none;\n  opacity: 0.7;\n  -webkit-transition: .2s;\n  transition: opacity .2s;\n}\n\n.PB-range-slider::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background-color: #000000;\n  cursor: pointer;\n  transition: 0.3s ease-in-out;\n}\n\n.PB-range-slider::-webkit-slider-thumb:hover {\n  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.16);\n  transition: 0.3s ease-in-out;\n}\n\n.PB-range-slider::-moz-range-thumb {\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background-color: #000000;\n  cursor: pointer;\n}\n\n.PB-range-slider-div {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 1rem;\n  padding: 1rem;\n  border-radius: 6px;\n  border: 1px solid #C6CACE;\n  box-shadow: 0px 1px 2px 0px #1F1E241F;\n}\n\n.PB-range-slidervalue {\n  font-weight: 600;\n}\n</style>\n</head>\n<body>\n<div class=\"PB-range-slider-div\">\n<input type=\"range\" min=\"0\" max=\"100\" value=\"50\" class=\"PB-range-slider\" id=\"myRange\">\n<p class=\"PB-range-slidervalue\">50px</p>\n</div>\n\n</body>\n</html>\n"
 }

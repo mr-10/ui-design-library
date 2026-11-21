@@ -5,16 +5,24 @@
  "author": "adamgiebl",
  "source": "https://uiverse.io/adamgiebl/curvy-earwig-79",
  "trigger": "static",
- "description": "A pattern with grid, checkered and chess styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient dark black pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "grid",
+  "gradient",
+  "dark",
+  "flat",
   "pattern",
-  "checkered",
-  "chess",
-  "static"
+  "grid",
+  "checkered"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by adamgiebl - Tags: grid, pattern, checkered, chess */\n.container {\n  width: 100%;\n  height: 100%;\n  --color: rgba(114, 114, 114, 0.3);\n  background-color: #191a1a;\n  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),\n      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);\n  background-size: 50px 50px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curvy Earwig 79</title>\n<style>\n/* From Uiverse.io by adamgiebl - https://uiverse.io/adamgiebl/curvy-earwig-79 */\n/* From Uiverse.io by adamgiebl - Tags: grid, pattern, checkered, chess */\n.container {\n  width: 100%;\n  height: 100%;\n  --color: rgba(114, 114, 114, 0.3);\n  background-color: #191a1a;\n  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),\n      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);\n  background-size: 50px 50px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#727272",
+  "#191a1a"
+ ],
+ "fonts": [],
+ "tokens": 211,
+ "size": 845,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Curvy Earwig 79 by adamgiebl — https://uiverse.io/adamgiebl/curvy-earwig-79 */\n.container {\n  width: 100%;\n  height: 100%;\n  --color: rgba(114, 114, 114, 0.3);\n  background-color: #191a1a;\n  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),\n      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);\n  background-size: 50px 50px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curvy Earwig 79</title>\n<style>\n/* Curvy Earwig 79 by adamgiebl — https://uiverse.io/adamgiebl/curvy-earwig-79 */\n.container {\n  width: 100%;\n  height: 100%;\n  --color: rgba(114, 114, 114, 0.3);\n  background-color: #191a1a;\n  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),\n      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);\n  background-size: 50px 50px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,24 @@
  "author": "ActiveIceDigital",
  "source": "https://uiverse.io/ActiveIceDigital/fuzzy-fly-47",
  "trigger": "auto-loop",
- "description": "A notification UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Rounded red notification with bouncing motion in a loop.",
+ "howItWorks": "It loops a 1s animation (bouncing, fading).",
  "tags": [
+  "red",
+  "rounded",
+  "bounce",
+  "fade",
   "notification",
-  "auto-loop",
-  "css"
+  "auto-loop"
  ],
- "html": "<div class=\"notification\">\n  <span>Congratulatioins Champion!</span>\n  <div id=\"level\">\n    <div class=\"one\">↑</div>\n    <div id=\"lvl\">Level 10</div>\n    <div class=\"one\">↑</div>\n  </div>\n</div>",
- "css": "/* From Uiverse.io by ActiveIceDigital - Tags: notification */\n@keyframes ud {\n  0% {\n    transform: translateY(-1px);\n    opacity: 0;\n  }\n\n  50% {\n    transform: translateY(-5px);\n    opacity: 1;\n  }\n\n  100% {\n    transform: translateY(-1px);\n    opacity: 0;\n  }\n}\n\n.notification {\n  width: 250px;\n  height: 60px;\n  background: rgba(0, 0, 0, 0.5);\n  border-radius: 14px;\n  padding: 5px 15px;\n  text-align: center;\n  box-shadow: 2px 2px 0px 1px rgba(255, 0, 0, 0.5) inset, \n  -2px -2px 0px 1px rgba(255, 0, 0, 0.8) inset,\n  0px 2px 5px 0px rgba(0, 0, 0, .25);\n}\n\n#lvl {\n  font-weight: 700;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  font-size: 20px;\n}\n\n.notification > span {\n  font-size: 11px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n}\n\n#level {\n  display: flex;\n  justify-content: center;\n  margin-top: 5px;\n  gap: 5px;\n}\n\n.one {\n  display: inline-block;\n  font-size: 25px;\n  line-height: 25px;\n  animation: ud 1s ease-in-out infinite;\n  color: rgba(255, 0, 0, 0.95);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fuzzy Fly 47</title>\n<style>\n/* From Uiverse.io by ActiveIceDigital - https://uiverse.io/ActiveIceDigital/fuzzy-fly-47 */\n/* From Uiverse.io by ActiveIceDigital - Tags: notification */\n@keyframes ud {\n  0% {\n    transform: translateY(-1px);\n    opacity: 0;\n  }\n\n  50% {\n    transform: translateY(-5px);\n    opacity: 1;\n  }\n\n  100% {\n    transform: translateY(-1px);\n    opacity: 0;\n  }\n}\n\n.notification {\n  width: 250px;\n  height: 60px;\n  background: rgba(0, 0, 0, 0.5);\n  border-radius: 14px;\n  padding: 5px 15px;\n  text-align: center;\n  box-shadow: 2px 2px 0px 1px rgba(255, 0, 0, 0.5) inset, \n  -2px -2px 0px 1px rgba(255, 0, 0, 0.8) inset,\n  0px 2px 5px 0px rgba(0, 0, 0, .25);\n}\n\n#lvl {\n  font-weight: 700;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  font-size: 20px;\n}\n\n.notification > span {\n  font-size: 11px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n}\n\n#level {\n  display: flex;\n  justify-content: center;\n  margin-top: 5px;\n  gap: 5px;\n}\n\n.one {\n  display: inline-block;\n  font-size: 25px;\n  line-height: 25px;\n  animation: ud 1s ease-in-out infinite;\n  color: rgba(255, 0, 0, 0.95);\n}\n</style>\n</head>\n<body>\n<div class=\"notification\">\n  <span>Congratulatioins Champion!</span>\n  <div id=\"level\">\n    <div class=\"one\">↑</div>\n    <div id=\"lvl\">Level 10</div>\n    <div class=\"one\">↑</div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff0000",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 357,
+ "size": 1433,
+ "html": "<div class=\"notification\">\n  <span>Congratulatioins Champion!</span>\n  <div id=\"level\">\n    <div class=\"one\">↑</div>\n    <div id=\"lvl\">Level 10</div>\n    <div class=\"one\">↑</div>\n  </div>\n</div>\n",
+ "css": "/* Fuzzy Fly 47 by ActiveIceDigital — https://uiverse.io/ActiveIceDigital/fuzzy-fly-47 */\n@keyframes ud {\n  0% {\n    transform: translateY(-1px);\n    opacity: 0;\n  }\n\n  50% {\n    transform: translateY(-5px);\n    opacity: 1;\n  }\n\n  100% {\n    transform: translateY(-1px);\n    opacity: 0;\n  }\n}\n\n.notification {\n  width: 250px;\n  height: 60px;\n  background: rgba(0, 0, 0, 0.5);\n  border-radius: 14px;\n  padding: 5px 15px;\n  text-align: center;\n  box-shadow: 2px 2px 0px 1px rgba(255, 0, 0, 0.5) inset,\n  -2px -2px 0px 1px rgba(255, 0, 0, 0.8) inset,\n  0px 2px 5px 0px rgba(0, 0, 0, .25);\n}\n\n#lvl {\n  font-weight: 700;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  font-size: 20px;\n}\n\n.notification > span {\n  font-size: 11px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n}\n\n#level {\n  display: flex;\n  justify-content: center;\n  margin-top: 5px;\n  gap: 5px;\n}\n\n.one {\n  display: inline-block;\n  font-size: 25px;\n  line-height: 25px;\n  animation: ud 1s ease-in-out infinite;\n  color: rgba(255, 0, 0, 0.95);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fuzzy Fly 47</title>\n<style>\n/* Fuzzy Fly 47 by ActiveIceDigital — https://uiverse.io/ActiveIceDigital/fuzzy-fly-47 */\n@keyframes ud {\n  0% {\n    transform: translateY(-1px);\n    opacity: 0;\n  }\n\n  50% {\n    transform: translateY(-5px);\n    opacity: 1;\n  }\n\n  100% {\n    transform: translateY(-1px);\n    opacity: 0;\n  }\n}\n\n.notification {\n  width: 250px;\n  height: 60px;\n  background: rgba(0, 0, 0, 0.5);\n  border-radius: 14px;\n  padding: 5px 15px;\n  text-align: center;\n  box-shadow: 2px 2px 0px 1px rgba(255, 0, 0, 0.5) inset,\n  -2px -2px 0px 1px rgba(255, 0, 0, 0.8) inset,\n  0px 2px 5px 0px rgba(0, 0, 0, .25);\n}\n\n#lvl {\n  font-weight: 700;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  font-size: 20px;\n}\n\n.notification > span {\n  font-size: 11px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n}\n\n#level {\n  display: flex;\n  justify-content: center;\n  margin-top: 5px;\n  gap: 5px;\n}\n\n.one {\n  display: inline-block;\n  font-size: 25px;\n  line-height: 25px;\n  animation: ud 1s ease-in-out infinite;\n  color: rgba(255, 0, 0, 0.95);\n}\n</style>\n</head>\n<body>\n<div class=\"notification\">\n  <span>Congratulatioins Champion!</span>\n  <div id=\"level\">\n    <div class=\"one\">↑</div>\n    <div id=\"lvl\">Level 10</div>\n    <div class=\"one\">↑</div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

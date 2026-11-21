@@ -4,15 +4,24 @@
  "category": "buttons",
  "author": "AKAspidey01",
  "source": "https://uiverse.io/AKAspidey01/little-penguin-74",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Green button that rotates on hover with a smooth transition.",
+ "howItWorks": "On hover, text colour changes and it rotates.",
  "tags": [
+  "green",
+  "color-change",
+  "rotate",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by AKAspidey01 - Tags: simple, button, hover button -->\n<button class=\"cursor-pointer font-semibold overflow-hidden relative z-100 border border-green-500 group px-8 py-2\">\n  <span class=\"relative z-10 text-green-500 group-hover:text-white text-xl duration-500\">Magic !</span>\n  <span class=\"absolute w-full h-full bg-green-500 -left-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500\"></span>\n  <span class=\"absolute w-full h-full bg-green-500 -right-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:right-0 duration-500\"></span>\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Penguin 74</title>\n<style>\n/* From Uiverse.io by AKAspidey01 - https://uiverse.io/AKAspidey01/little-penguin-74 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by AKAspidey01 - Tags: simple, button, hover button -->\n<button class=\"cursor-pointer font-semibold overflow-hidden relative z-100 border border-green-500 group px-8 py-2\">\n  <span class=\"relative z-10 text-green-500 group-hover:text-white text-xl duration-500\">Magic !</span>\n  <span class=\"absolute w-full h-full bg-green-500 -left-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500\"></span>\n  <span class=\"absolute w-full h-full bg-green-500 -right-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:right-0 duration-500\"></span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#22c55e",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 204,
+ "size": 820,
+ "html": "<button class=\"cursor-pointer font-semibold overflow-hidden relative z-100 border border-green-500 group px-8 py-2\">\n  <span class=\"relative z-10 text-green-500 group-hover:text-white text-xl duration-500\">Magic !</span>\n  <span class=\"absolute w-full h-full bg-green-500 -left-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500\"></span>\n  <span class=\"absolute w-full h-full bg-green-500 -right-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:right-0 duration-500\"></span>\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Penguin 74</title>\n<style>\n/* Little Penguin 74 by AKAspidey01 — https://uiverse.io/AKAspidey01/little-penguin-74 */\n\n</style>\n</head>\n<body>\n<button class=\"cursor-pointer font-semibold overflow-hidden relative z-100 border border-green-500 group px-8 py-2\">\n  <span class=\"relative z-10 text-green-500 group-hover:text-white text-xl duration-500\">Magic !</span>\n  <span class=\"absolute w-full h-full bg-green-500 -left-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500\"></span>\n  <span class=\"absolute w-full h-full bg-green-500 -right-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:right-0 duration-500\"></span>\n</button>\n\n</body>\n</html>\n"
 }

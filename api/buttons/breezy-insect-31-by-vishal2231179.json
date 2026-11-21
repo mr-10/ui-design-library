@@ -5,17 +5,27 @@
  "author": "vishal2231179",
  "source": "https://uiverse.io/vishal2231179/breezy-insect-31",
  "trigger": "hover",
- "description": "A button with black, game and click-animation styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded gray button that changes colour on hover.",
+ "howItWorks": "On hover, border-color becomes #d0cfcf, text color changes from #a4a4a2 to #dbd8d8, font-size becomes 16px.",
  "tags": [
-  "black",
-  "button",
-  "game",
-  "click-animation",
-  "hover-button",
-  "3d-button"
+  "gradient",
+  "rounded",
+  "flat",
+  "color-change",
+  "play",
+  "black"
  ],
- "html": "<button class=\"button\">Play it</button>",
- "css": "/* From Uiverse.io by vishal2231179  - Tags: black, button, game, click animation, hover button, #button, 3d button, button hover effect  */\n.button {\n  cursor: pointer;\n  padding: 15px 40px 15px 40px;\n  border-radius: 10px;\n  border-style: double;\n  font-weight: 600;\n  background-image: linear-gradient(\n    rgb(54, 53, 53),\n    rgb(0, 0, 0),\n    rgb(54, 54, 54)\n  );\n  color: rgb(164, 164, 162);\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n  border-color: rgb(0, 0, 0);\n  transition: 400ms;\n}\n\n.button:hover {\n  transition: 400ms;\n  border-style: double;\n  border-color: rgb(208, 207, 207);\n  color: rgb(219, 216, 216);\n  font-size: 16px;\n  text-shadow: 1px 10px 5px rgb(61, 61, 61);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Breezy Insect 31</title>\n<style>\n/* From Uiverse.io by vishal2231179 - https://uiverse.io/vishal2231179/breezy-insect-31 */\n/* From Uiverse.io by vishal2231179  - Tags: black, button, game, click animation, hover button, #button, 3d button, button hover effect  */\n.button {\n  cursor: pointer;\n  padding: 15px 40px 15px 40px;\n  border-radius: 10px;\n  border-style: double;\n  font-weight: 600;\n  background-image: linear-gradient(\n    rgb(54, 53, 53),\n    rgb(0, 0, 0),\n    rgb(54, 54, 54)\n  );\n  color: rgb(164, 164, 162);\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n  border-color: rgb(0, 0, 0);\n  transition: 400ms;\n}\n\n.button:hover {\n  transition: 400ms;\n  border-style: double;\n  border-color: rgb(208, 207, 207);\n  color: rgb(219, 216, 216);\n  font-size: 16px;\n  text-shadow: 1px 10px 5px rgb(61, 61, 61);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Play it</button>\n</body>\n</html>\n"
+ "colors": [
+  "#a4a4a2",
+  "#d0cfcf",
+  "#dbd8d8"
+ ],
+ "fonts": [
+  "Verdana"
+ ],
+ "tokens": 226,
+ "size": 905,
+ "html": "<button class=\"button\">Play it</button>\n",
+ "css": "/* Breezy Insect 31 by vishal2231179 — https://uiverse.io/vishal2231179/breezy-insect-31 */\n.button {\n  cursor: pointer;\n  padding: 15px 40px 15px 40px;\n  border-radius: 10px;\n  border-style: double;\n  font-weight: 600;\n  background-image: linear-gradient(\n    rgb(54, 53, 53),\n    rgb(0, 0, 0),\n    rgb(54, 54, 54)\n  );\n  color: rgb(164, 164, 162);\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n  border-color: rgb(0, 0, 0);\n  transition: 400ms;\n}\n\n.button:hover {\n  transition: 400ms;\n  border-style: double;\n  border-color: rgb(208, 207, 207);\n  color: rgb(219, 216, 216);\n  font-size: 16px;\n  text-shadow: 1px 10px 5px rgb(61, 61, 61);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Breezy Insect 31</title>\n<style>\n/* Breezy Insect 31 by vishal2231179 — https://uiverse.io/vishal2231179/breezy-insect-31 */\n.button {\n  cursor: pointer;\n  padding: 15px 40px 15px 40px;\n  border-radius: 10px;\n  border-style: double;\n  font-weight: 600;\n  background-image: linear-gradient(\n    rgb(54, 53, 53),\n    rgb(0, 0, 0),\n    rgb(54, 54, 54)\n  );\n  color: rgb(164, 164, 162);\n  font-family: Verdana, Geneva, Tahoma, sans-serif;\n  border-color: rgb(0, 0, 0);\n  transition: 400ms;\n}\n\n.button:hover {\n  transition: 400ms;\n  border-style: double;\n  border-color: rgb(208, 207, 207);\n  color: rgb(219, 216, 216);\n  font-size: 16px;\n  text-shadow: 1px 10px 5px rgb(61, 61, 61);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Play it</button>\n\n</body>\n</html>\n"
 }

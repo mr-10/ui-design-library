@@ -5,14 +5,25 @@
  "author": "suda-code",
  "source": "https://uiverse.io/suda-code/loud-badger-55",
  "trigger": "hover",
- "description": "A button with blue styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon rounded cyan button that glows and scales up on hover.",
+ "howItWorks": "On hover, background-color changes from #2ba8fb to #6fc5ff, box-shadow becomes 0 0 20px #6fc5ff50, transform becomes scale(1.1).",
  "tags": [
-  "blue",
-  "button",
-  "hover"
+  "cyan",
+  "neon",
+  "rounded",
+  "scale",
+  "glow",
+  "color-change"
  ],
- "html": "<button>\n    Button\n</button>",
- "css": "/* From Uiverse.io by suda-code - Tags: blue, button, hover */\nbutton {\n  padding: 12.5px 30px;\n  border: 0;\n  border-radius: 100px;\n  background-color: #2ba8fb;\n  color: #ffffff;\n  font-weight: Bold;\n  transition: all 0.5s;\n  -webkit-transition: all 0.5s;\n}\n\nbutton:hover {\n  background-color: #6fc5ff;\n  box-shadow: 0 0 20px #6fc5ff50;\n  transform: scale(1.1);\n}\n\nbutton:active {\n  background-color: #3d94cf;\n  transition: all 0.25s;\n  -webkit-transition: all 0.25s;\n  box-shadow: none;\n  transform: scale(0.98);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Badger 55</title>\n<style>\n/* From Uiverse.io by suda-code - https://uiverse.io/suda-code/loud-badger-55 */\n/* From Uiverse.io by suda-code - Tags: blue, button, hover */\nbutton {\n  padding: 12.5px 30px;\n  border: 0;\n  border-radius: 100px;\n  background-color: #2ba8fb;\n  color: #ffffff;\n  font-weight: Bold;\n  transition: all 0.5s;\n  -webkit-transition: all 0.5s;\n}\n\nbutton:hover {\n  background-color: #6fc5ff;\n  box-shadow: 0 0 20px #6fc5ff50;\n  transform: scale(1.1);\n}\n\nbutton:active {\n  background-color: #3d94cf;\n  transition: all 0.25s;\n  -webkit-transition: all 0.25s;\n  box-shadow: none;\n  transform: scale(0.98);\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#6fc5ff",
+  "#2ba8fb",
+  "#3d94cf"
+ ],
+ "fonts": [],
+ "tokens": 194,
+ "size": 779,
+ "html": "<button>\n    Button\n</button>\n",
+ "css": "/* Loud Badger 55 by suda-code — https://uiverse.io/suda-code/loud-badger-55 */\nbutton {\n  padding: 12.5px 30px;\n  border: 0;\n  border-radius: 100px;\n  background-color: #2ba8fb;\n  color: #ffffff;\n  font-weight: Bold;\n  transition: all 0.5s;\n  -webkit-transition: all 0.5s;\n}\n\nbutton:hover {\n  background-color: #6fc5ff;\n  box-shadow: 0 0 20px #6fc5ff50;\n  transform: scale(1.1);\n}\n\nbutton:active {\n  background-color: #3d94cf;\n  transition: all 0.25s;\n  -webkit-transition: all 0.25s;\n  box-shadow: none;\n  transform: scale(0.98);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Badger 55</title>\n<style>\n/* Loud Badger 55 by suda-code — https://uiverse.io/suda-code/loud-badger-55 */\nbutton {\n  padding: 12.5px 30px;\n  border: 0;\n  border-radius: 100px;\n  background-color: #2ba8fb;\n  color: #ffffff;\n  font-weight: Bold;\n  transition: all 0.5s;\n  -webkit-transition: all 0.5s;\n}\n\nbutton:hover {\n  background-color: #6fc5ff;\n  box-shadow: 0 0 20px #6fc5ff50;\n  transform: scale(1.1);\n}\n\nbutton:active {\n  background-color: #3d94cf;\n  transition: all 0.25s;\n  -webkit-transition: all 0.25s;\n  box-shadow: none;\n  transform: scale(0.98);\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,15 +5,24 @@
  "author": "Lmickk2",
  "source": "https://uiverse.io/Lmickk2/giant-lion-94",
  "trigger": "auto-loop",
- "description": "A loader with light and animated styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined rounded black loader with changing colour motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (changing colour).",
  "tags": [
+  "outlined",
+  "rounded",
   "loader",
   "light",
   "animated",
   "auto-loop"
  ],
- "html": "<div class=\"loader\">\n  <div class=\"box-load1\"></div>\n  <div class=\"box-load2\"></div>\n  <div class=\"box-load3\"></div>\n</div>",
- "css": "/* From Uiverse.io by Lmickk2 - Tags: loader, light, animated */\n.loader {\n  display: flex;\n  transition: all 0.4s;\n}\n\n.loader div {\n  margin-left: 0.8rem;\n  background-color: transparent;\n  box-shadow: 0px 2px 2px black;\n  border-radius: 3em;\n  height: 1rem;\n  width: 2rem;\n}\n\n.box-load1 {\n  animation: brighten 1.5s infinite;\n}\n\n.box-load2 {\n  animation: brighten 1.5s infinite;\n  animation-delay: .3s;\n}\n\n.box-load3 {\n  animation: brighten 1.5s infinite;\n  animation-delay: .6s;\n}\n\n@keyframes brighten {\n  100% {\n    background-color: black;\n    box-shadow: none;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Lion 94</title>\n<style>\n/* From Uiverse.io by Lmickk2 - https://uiverse.io/Lmickk2/giant-lion-94 */\n/* From Uiverse.io by Lmickk2 - Tags: loader, light, animated */\n.loader {\n  display: flex;\n  transition: all 0.4s;\n}\n\n.loader div {\n  margin-left: 0.8rem;\n  background-color: transparent;\n  box-shadow: 0px 2px 2px black;\n  border-radius: 3em;\n  height: 1rem;\n  width: 2rem;\n}\n\n.box-load1 {\n  animation: brighten 1.5s infinite;\n}\n\n.box-load2 {\n  animation: brighten 1.5s infinite;\n  animation-delay: .3s;\n}\n\n.box-load3 {\n  animation: brighten 1.5s infinite;\n  animation-delay: .6s;\n}\n\n@keyframes brighten {\n  100% {\n    background-color: black;\n    box-shadow: none;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"box-load1\"></div>\n  <div class=\"box-load2\"></div>\n  <div class=\"box-load3\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 230,
+ "size": 920,
+ "html": "<div class=\"loader\">\n  <div class=\"box-load1\"></div>\n  <div class=\"box-load2\"></div>\n  <div class=\"box-load3\"></div>\n</div>\n",
+ "css": "/* Giant Lion 94 by Lmickk2 — https://uiverse.io/Lmickk2/giant-lion-94 */\n.loader {\n  display: flex;\n  transition: all 0.4s;\n}\n\n.loader div {\n  margin-left: 0.8rem;\n  background-color: transparent;\n  box-shadow: 0px 2px 2px black;\n  border-radius: 3em;\n  height: 1rem;\n  width: 2rem;\n}\n\n.box-load1 {\n  animation: brighten 1.5s infinite;\n}\n\n.box-load2 {\n  animation: brighten 1.5s infinite;\n  animation-delay: .3s;\n}\n\n.box-load3 {\n  animation: brighten 1.5s infinite;\n  animation-delay: .6s;\n}\n\n@keyframes brighten {\n  100% {\n    background-color: black;\n    box-shadow: none;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Lion 94</title>\n<style>\n/* Giant Lion 94 by Lmickk2 — https://uiverse.io/Lmickk2/giant-lion-94 */\n.loader {\n  display: flex;\n  transition: all 0.4s;\n}\n\n.loader div {\n  margin-left: 0.8rem;\n  background-color: transparent;\n  box-shadow: 0px 2px 2px black;\n  border-radius: 3em;\n  height: 1rem;\n  width: 2rem;\n}\n\n.box-load1 {\n  animation: brighten 1.5s infinite;\n}\n\n.box-load2 {\n  animation: brighten 1.5s infinite;\n  animation-delay: .3s;\n}\n\n.box-load3 {\n  animation: brighten 1.5s infinite;\n  animation-delay: .6s;\n}\n\n@keyframes brighten {\n  100% {\n    background-color: black;\n    box-shadow: none;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"box-load1\"></div>\n  <div class=\"box-load2\"></div>\n  <div class=\"box-load3\"></div>\n</div>\n\n</body>\n</html>\n"
 }

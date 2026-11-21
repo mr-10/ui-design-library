@@ -5,14 +5,24 @@
  "author": "bhaveshxrawat",
  "source": "https://uiverse.io/bhaveshxrawat/silly-panda-37",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill red loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a 0.5s animation (pulsing).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "red",
+  "rounded",
+  "pill",
+  "flat",
+  "pulse",
+  "loader"
  ],
- "html": "<section class=\"area\">\n  <div class=\"ball\"></div>\n</section>",
- "css": "/* From Uiverse.io by bhaveshxrawat - Tags: loader */\n.ball {\n position: relative;\n height: 15px;\n width: 15px;\n background-color: rgb(255, 44, 44);\n border-radius: 50%;\n animation: bounce 0.5s ease-in-out infinite both;\n}\n\n@keyframes bounce {\n 0%, 100% {\n  transform: translate(0px, 0px);\n }\n\n 50% {\n  transform: translate(0px, 50px) scale(1, 0.77);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silly Panda 37</title>\n<style>\n/* From Uiverse.io by bhaveshxrawat - https://uiverse.io/bhaveshxrawat/silly-panda-37 */\n/* From Uiverse.io by bhaveshxrawat - Tags: loader */\n.ball {\n position: relative;\n height: 15px;\n width: 15px;\n background-color: rgb(255, 44, 44);\n border-radius: 50%;\n animation: bounce 0.5s ease-in-out infinite both;\n}\n\n@keyframes bounce {\n 0%, 100% {\n  transform: translate(0px, 0px);\n }\n\n 50% {\n  transform: translate(0px, 50px) scale(1, 0.77);\n }\n}\n</style>\n</head>\n<body>\n<section class=\"area\">\n  <div class=\"ball\"></div>\n</section>\n</body>\n</html>\n"
+ "colors": [
+  "#ff2c2c",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 166,
+ "size": 666,
+ "html": "<section class=\"area\">\n  <div class=\"ball\"></div>\n</section>\n",
+ "css": "/* Silly Panda 37 by bhaveshxrawat — https://uiverse.io/bhaveshxrawat/silly-panda-37 */\n.ball {\n position: relative;\n height: 15px;\n width: 15px;\n background-color: rgb(255, 44, 44);\n border-radius: 50%;\n animation: bounce 0.5s ease-in-out infinite both;\n}\n\n@keyframes bounce {\n 0%, 100% {\n  transform: translate(0px, 0px);\n }\n\n 50% {\n  transform: translate(0px, 50px) scale(1, 0.77);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silly Panda 37</title>\n<style>\n/* Silly Panda 37 by bhaveshxrawat — https://uiverse.io/bhaveshxrawat/silly-panda-37 */\n.ball {\n position: relative;\n height: 15px;\n width: 15px;\n background-color: rgb(255, 44, 44);\n border-radius: 50%;\n animation: bounce 0.5s ease-in-out infinite both;\n}\n\n@keyframes bounce {\n 0%, 100% {\n  transform: translate(0px, 0px);\n }\n\n 50% {\n  transform: translate(0px, 50px) scale(1, 0.77);\n }\n}\n</style>\n</head>\n<body>\n<section class=\"area\">\n  <div class=\"ball\"></div>\n</section>\n\n</body>\n</html>\n"
 }

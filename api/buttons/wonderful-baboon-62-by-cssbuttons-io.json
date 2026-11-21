@@ -5,14 +5,27 @@
  "author": "cssbuttons-io",
  "source": "https://uiverse.io/cssbuttons-io/wonderful-baboon-62",
  "trigger": "hover",
- "description": "A button with gradient styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded violet button that changes colour on hover.",
+ "howItWorks": "On hover, outline becomes 0, background changes from #05062d to none.",
  "tags": [
+  "violet",
   "gradient",
-  "button",
-  "hover"
+  "outlined",
+  "rounded",
+  "color-change",
+  "button"
  ],
- "html": "<button>\n  <span class=\"text\">Button</span>\n</button>",
- "css": "/* From Uiverse.io by cssbuttons-io - Tags: gradient, button */\nbutton {\n align-items: center;\n background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);\n border: 0;\n border-radius: 8px;\n box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;\n box-sizing: border-box;\n color: #FFFFFF;\n display: flex;\n font-family: Phantomsans, sans-serif;\n font-size: 18px;\n justify-content: center;\n line-height: 1em;\n max-width: 100%;\n min-width: 140px;\n padding: 3px;\n text-decoration: none;\n user-select: none;\n -webkit-user-select: none;\n touch-action: manipulation;\n white-space: nowrap;\n cursor: pointer;\n transition: all .3s;\n}\n\nbutton:active,\nbutton:hover {\n outline: 0;\n}\n\nbutton span {\n background-color: rgb(5, 6, 45);\n padding: 16px 24px;\n border-radius: 6px;\n width: 100%;\n height: 100%;\n transition: 300ms;\n}\n\nbutton:hover span {\n background: none;\n}\n\nbutton:active {\n transform: scale(0.9);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wonderful Baboon 62</title>\n<style>\n/* From Uiverse.io by cssbuttons-io - https://uiverse.io/cssbuttons-io/wonderful-baboon-62 */\n/* From Uiverse.io by cssbuttons-io - Tags: gradient, button */\nbutton {\n align-items: center;\n background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);\n border: 0;\n border-radius: 8px;\n box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;\n box-sizing: border-box;\n color: #FFFFFF;\n display: flex;\n font-family: Phantomsans, sans-serif;\n font-size: 18px;\n justify-content: center;\n line-height: 1em;\n max-width: 100%;\n min-width: 140px;\n padding: 3px;\n text-decoration: none;\n user-select: none;\n -webkit-user-select: none;\n touch-action: manipulation;\n white-space: nowrap;\n cursor: pointer;\n transition: all .3s;\n}\n\nbutton:active,\nbutton:hover {\n outline: 0;\n}\n\nbutton span {\n background-color: rgb(5, 6, 45);\n padding: 16px 24px;\n border-radius: 6px;\n width: 100%;\n height: 100%;\n transition: 300ms;\n}\n\nbutton:hover span {\n background: none;\n}\n\nbutton:active {\n transform: scale(0.9);\n}\n</style>\n</head>\n<body>\n<button>\n  <span class=\"text\">Button</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#9741fc",
+  "#05062d",
+  "#ffffff"
+ ],
+ "fonts": [
+  "Phantomsans"
+ ],
+ "tokens": 303,
+ "size": 1214,
+ "html": "<button>\n  <span class=\"text\">Button</span>\n</button>\n",
+ "css": "/* Wonderful Baboon 62 by cssbuttons-io — https://uiverse.io/cssbuttons-io/wonderful-baboon-62 */\nbutton {\n align-items: center;\n background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);\n border: 0;\n border-radius: 8px;\n box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;\n box-sizing: border-box;\n color: #FFFFFF;\n display: flex;\n font-family: Phantomsans, sans-serif;\n font-size: 18px;\n justify-content: center;\n line-height: 1em;\n max-width: 100%;\n min-width: 140px;\n padding: 3px;\n text-decoration: none;\n user-select: none;\n -webkit-user-select: none;\n touch-action: manipulation;\n white-space: nowrap;\n cursor: pointer;\n transition: all .3s;\n}\n\nbutton:active,\nbutton:hover {\n outline: 0;\n}\n\nbutton span {\n background-color: rgb(5, 6, 45);\n padding: 16px 24px;\n border-radius: 6px;\n width: 100%;\n height: 100%;\n transition: 300ms;\n}\n\nbutton:hover span {\n background: none;\n}\n\nbutton:active {\n transform: scale(0.9);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wonderful Baboon 62</title>\n<style>\n/* Wonderful Baboon 62 by cssbuttons-io — https://uiverse.io/cssbuttons-io/wonderful-baboon-62 */\nbutton {\n align-items: center;\n background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);\n border: 0;\n border-radius: 8px;\n box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;\n box-sizing: border-box;\n color: #FFFFFF;\n display: flex;\n font-family: Phantomsans, sans-serif;\n font-size: 18px;\n justify-content: center;\n line-height: 1em;\n max-width: 100%;\n min-width: 140px;\n padding: 3px;\n text-decoration: none;\n user-select: none;\n -webkit-user-select: none;\n touch-action: manipulation;\n white-space: nowrap;\n cursor: pointer;\n transition: all .3s;\n}\n\nbutton:active,\nbutton:hover {\n outline: 0;\n}\n\nbutton span {\n background-color: rgb(5, 6, 45);\n padding: 16px 24px;\n border-radius: 6px;\n width: 100%;\n height: 100%;\n transition: 300ms;\n}\n\nbutton:hover span {\n background: none;\n}\n\nbutton:active {\n transform: scale(0.9);\n}\n</style>\n</head>\n<body>\n<button>\n  <span class=\"text\">Button</span>\n</button>\n\n</body>\n</html>\n"
 }

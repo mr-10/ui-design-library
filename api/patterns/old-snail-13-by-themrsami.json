@@ -5,17 +5,24 @@
  "author": "themrsami",
  "source": "https://uiverse.io/themrsami/old-snail-13",
  "trigger": "static",
- "description": "A pattern with simple, purple and creative styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient dark purple pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
   "purple",
-  "creative",
-  "themrsami",
+  "gradient",
+  "flat",
   "pattern",
-  "static"
+  "simple",
+  "creative"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by themrsami - Tags: simple, purple, creative, themrsami, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background-color: purple;\n  background-image: linear-gradient(45deg, transparent 33.3%, orange 33.3%, orange 66.6%, transparent 66.6%),\n    linear-gradient(-45deg, transparent 33.3%, orange 33.3%, orange 66.6%, transparent 66.6%);\n  background-size: 60px 60px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Old Snail 13</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/old-snail-13 */\n/* From Uiverse.io by themrsami - Tags: simple, purple, creative, themrsami, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background-color: purple;\n  background-image: linear-gradient(45deg, transparent 33.3%, orange 33.3%, orange 66.6%, transparent 66.6%),\n    linear-gradient(-45deg, transparent 33.3%, orange 33.3%, orange 66.6%, transparent 66.6%);\n  background-size: 60px 60px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#800080",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 156,
+ "size": 628,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Old Snail 13 by themrsami — https://uiverse.io/themrsami/old-snail-13 */\n.container {\n  width: 100%;\n  height: 100%;\n  background-color: purple;\n  background-image: linear-gradient(45deg, transparent 33.3%, orange 33.3%, orange 66.6%, transparent 66.6%),\n    linear-gradient(-45deg, transparent 33.3%, orange 33.3%, orange 66.6%, transparent 66.6%);\n  background-size: 60px 60px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Old Snail 13</title>\n<style>\n/* Old Snail 13 by themrsami — https://uiverse.io/themrsami/old-snail-13 */\n.container {\n  width: 100%;\n  height: 100%;\n  background-color: purple;\n  background-image: linear-gradient(45deg, transparent 33.3%, orange 33.3%, orange 66.6%, transparent 66.6%),\n    linear-gradient(-45deg, transparent 33.3%, orange 33.3%, orange 66.6%, transparent 66.6%);\n  background-size: 60px 60px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,23 @@
  "author": "Shubh0408",
  "source": "https://uiverse.io/Shubh0408/angry-owl-36",
  "trigger": "checked",
- "description": "A checkbox UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Rounded black checkbox that toggles on and off when clicked.",
+ "howItWorks": "Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "rounded",
+  "checkbox",
   "checkboxes",
   "checked",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Shubh0408  - Tags: checkbox, menu, tailwindcss -->\n<label class=\"flex flex-col gap-2 w-8\">\n  <input class=\"peer hidden\" type=\"checkbox\" />\n  <div\n    class=\"rounded-2xl h-[3px] w-1/2 bg-black duration-500 peer-checked:rotate-[225deg] origin-right peer-checked:-translate-x-[12px] peer-checked:-translate-y-[1px]\"\n  ></div>\n  <div\n    class=\"rounded-2xl h-[3px] w-full bg-black duration-500 peer-checked:-rotate-45\"\n  ></div>\n  <div\n    class=\"rounded-2xl h-[3px] w-1/2 bg-black duration-500 place-self-end peer-checked:rotate-[225deg] origin-left peer-checked:translate-x-[12px] peer-checked:translate-y-[1px]\"\n  ></div>\n</label>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Angry Owl 36</title>\n<style>\n/* From Uiverse.io by Shubh0408 - https://uiverse.io/Shubh0408/angry-owl-36 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Shubh0408  - Tags: checkbox, menu, tailwindcss -->\n<label class=\"flex flex-col gap-2 w-8\">\n  <input class=\"peer hidden\" type=\"checkbox\" />\n  <div\n    class=\"rounded-2xl h-[3px] w-1/2 bg-black duration-500 peer-checked:rotate-[225deg] origin-right peer-checked:-translate-x-[12px] peer-checked:-translate-y-[1px]\"\n  ></div>\n  <div\n    class=\"rounded-2xl h-[3px] w-full bg-black duration-500 peer-checked:-rotate-45\"\n  ></div>\n  <div\n    class=\"rounded-2xl h-[3px] w-1/2 bg-black duration-500 place-self-end peer-checked:rotate-[225deg] origin-left peer-checked:translate-x-[12px] peer-checked:translate-y-[1px]\"\n  ></div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 217,
+ "size": 869,
+ "html": "<label class=\"flex flex-col gap-2 w-8\">\n  <input class=\"peer hidden\" type=\"checkbox\" />\n  <div\n    class=\"rounded-2xl h-[3px] w-1/2 bg-black duration-500 peer-checked:rotate-[225deg] origin-right peer-checked:-translate-x-[12px] peer-checked:-translate-y-[1px]\"\n  ></div>\n  <div\n    class=\"rounded-2xl h-[3px] w-full bg-black duration-500 peer-checked:-rotate-45\"\n  ></div>\n  <div\n    class=\"rounded-2xl h-[3px] w-1/2 bg-black duration-500 place-self-end peer-checked:rotate-[225deg] origin-left peer-checked:translate-x-[12px] peer-checked:translate-y-[1px]\"\n  ></div>\n</label>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Angry Owl 36</title>\n<style>\n/* Angry Owl 36 by Shubh0408 — https://uiverse.io/Shubh0408/angry-owl-36 */\n\n</style>\n</head>\n<body>\n<label class=\"flex flex-col gap-2 w-8\">\n  <input class=\"peer hidden\" type=\"checkbox\" />\n  <div\n    class=\"rounded-2xl h-[3px] w-1/2 bg-black duration-500 peer-checked:rotate-[225deg] origin-right peer-checked:-translate-x-[12px] peer-checked:-translate-y-[1px]\"\n  ></div>\n  <div\n    class=\"rounded-2xl h-[3px] w-full bg-black duration-500 peer-checked:-rotate-45\"\n  ></div>\n  <div\n    class=\"rounded-2xl h-[3px] w-1/2 bg-black duration-500 place-self-end peer-checked:rotate-[225deg] origin-left peer-checked:translate-x-[12px] peer-checked:translate-y-[1px]\"\n  ></div>\n</label>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,27 @@
  "author": "bhaveshxrawat",
  "source": "https://uiverse.io/bhaveshxrawat/spotty-snail-58",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient dark rounded black button that glows on hover.",
+ "howItWorks": "On hover, background changes from linear-gradient(225deg, #181818, #2e2e2e) to #212121, box-shadow becomes -5px 5px 10px #191919,\n             5px -5px 10px #292929, opacity becomes 0.7.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "gradient",
+  "dark",
+  "rounded",
+  "glow",
+  "color-change",
+  "fade"
  ],
- "html": "<button><span> Grab it!</span>\n</button>",
- "css": "/* From Uiverse.io by bhaveshxrawat - Tags: button */\nbutton {\n border: none;\n padding: 0.7em 2em;\n font-size: 18px;\n font-family: inherit;\n background-blend-mode: multiply;\n color: rgb(235, 234, 234);\n border-radius: 9px;\n background: linear-gradient(225deg, #181818, #2e2e2e);\n box-shadow: -5px 5px 10px #191919,\n             5px -5px 10px #292929;\n}\n\nbutton:hover {\n background: #212121;\n transition: background 1s ease;\n box-shadow: -5px 5px 10px #191919,\n             5px -5px 10px #292929;\n}\n\nbutton:active {\n transition: box-shadow .1s ease;\n border-radius: 9px;\n background: #212121;\n box-shadow: inset -5px 5px 10px #191919,\n              inset 5px -5px 10px #292929;\n}\n\nspan {\n opacity: 0.5;\n transition: opacity 0.2s ease;\n}\n\nbutton:hover span {\n opacity: 0.7;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spotty Snail 58</title>\n<style>\n/* From Uiverse.io by bhaveshxrawat - https://uiverse.io/bhaveshxrawat/spotty-snail-58 */\n/* From Uiverse.io by bhaveshxrawat - Tags: button */\nbutton {\n border: none;\n padding: 0.7em 2em;\n font-size: 18px;\n font-family: inherit;\n background-blend-mode: multiply;\n color: rgb(235, 234, 234);\n border-radius: 9px;\n background: linear-gradient(225deg, #181818, #2e2e2e);\n box-shadow: -5px 5px 10px #191919,\n             5px -5px 10px #292929;\n}\n\nbutton:hover {\n background: #212121;\n transition: background 1s ease;\n box-shadow: -5px 5px 10px #191919,\n             5px -5px 10px #292929;\n}\n\nbutton:active {\n transition: box-shadow .1s ease;\n border-radius: 9px;\n background: #212121;\n box-shadow: inset -5px 5px 10px #191919,\n              inset 5px -5px 10px #292929;\n}\n\nspan {\n opacity: 0.5;\n transition: opacity 0.2s ease;\n}\n\nbutton:hover span {\n opacity: 0.7;\n}\n</style>\n</head>\n<body>\n<button><span> Grab it!</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#191919",
+  "#292929",
+  "#212121"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 266,
+ "size": 1067,
+ "html": "<button><span> Grab it!</span>\n</button>\n",
+ "css": "/* Spotty Snail 58 by bhaveshxrawat — https://uiverse.io/bhaveshxrawat/spotty-snail-58 */\nbutton {\n border: none;\n padding: 0.7em 2em;\n font-size: 18px;\n font-family: inherit;\n background-blend-mode: multiply;\n color: rgb(235, 234, 234);\n border-radius: 9px;\n background: linear-gradient(225deg, #181818, #2e2e2e);\n box-shadow: -5px 5px 10px #191919,\n             5px -5px 10px #292929;\n}\n\nbutton:hover {\n background: #212121;\n transition: background 1s ease;\n box-shadow: -5px 5px 10px #191919,\n             5px -5px 10px #292929;\n}\n\nbutton:active {\n transition: box-shadow .1s ease;\n border-radius: 9px;\n background: #212121;\n box-shadow: inset -5px 5px 10px #191919,\n              inset 5px -5px 10px #292929;\n}\n\nspan {\n opacity: 0.5;\n transition: opacity 0.2s ease;\n}\n\nbutton:hover span {\n opacity: 0.7;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spotty Snail 58</title>\n<style>\n/* Spotty Snail 58 by bhaveshxrawat — https://uiverse.io/bhaveshxrawat/spotty-snail-58 */\nbutton {\n border: none;\n padding: 0.7em 2em;\n font-size: 18px;\n font-family: inherit;\n background-blend-mode: multiply;\n color: rgb(235, 234, 234);\n border-radius: 9px;\n background: linear-gradient(225deg, #181818, #2e2e2e);\n box-shadow: -5px 5px 10px #191919,\n             5px -5px 10px #292929;\n}\n\nbutton:hover {\n background: #212121;\n transition: background 1s ease;\n box-shadow: -5px 5px 10px #191919,\n             5px -5px 10px #292929;\n}\n\nbutton:active {\n transition: box-shadow .1s ease;\n border-radius: 9px;\n background: #212121;\n box-shadow: inset -5px 5px 10px #191919,\n              inset 5px -5px 10px #292929;\n}\n\nspan {\n opacity: 0.5;\n transition: opacity 0.2s ease;\n}\n\nbutton:hover span {\n opacity: 0.7;\n}\n</style>\n</head>\n<body>\n<button><span> Grab it!</span>\n</button>\n\n</body>\n</html>\n"
 }

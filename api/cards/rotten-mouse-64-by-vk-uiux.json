@@ -5,17 +5,25 @@
  "author": "vk-uiux",
  "source": "https://uiverse.io/vk-uiux/rotten-mouse-64",
  "trigger": "static",
- "description": "A card with unique, challenge and design styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Neon pill dark orange card with soft shadow and rounded corners.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
-  "card",
-  "unique",
-  "challenge",
-  "css",
-  "design",
-  "one-div"
+  "orange",
+  "amber",
+  "neon",
+  "dark",
+  "rounded",
+  "pill"
  ],
- "html": "<div class=\"one-div\"></div>",
- "css": "/* From Uiverse.io by vk-uiux - Tags: card, unique, challenge, css, design, one-div, coffee mug */\n.one-div {\n  top: -30px;\n  left: 0;\n  position: relative;\n  width: 100px;\n  height: 100px;\n  background-color: #3f2616;\n  border-radius: 50%;\n  box-shadow: 0px 0px 0px 10px #442918, 0 0 0 25px #3c2415, 0 0 0 44px #fe9407, 0 0 0 65px #ffae43, 0 115px 0 -20px #442918, 95px 70px 0 -25px #442918, 60px 115px 0 -10px #442918, 10px 170px 0 -35px #442918, 30px 200px 0 -42px #442918;\n}\n\n.one-div::before {\n  content: \"\";\n  position: absolute;\n  width: 45px;\n  height: 60px;\n  background-color: #f79c25;\n  top: -80px;\n  right: -70px;\n  transform: rotate(45deg);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rotten Mouse 64</title>\n<style>\n/* From Uiverse.io by vk-uiux - https://uiverse.io/vk-uiux/rotten-mouse-64 */\n/* From Uiverse.io by vk-uiux - Tags: card, unique, challenge, css, design, one-div, coffee mug */\n.one-div {\n  top: -30px;\n  left: 0;\n  position: relative;\n  width: 100px;\n  height: 100px;\n  background-color: #3f2616;\n  border-radius: 50%;\n  box-shadow: 0px 0px 0px 10px #442918, 0 0 0 25px #3c2415, 0 0 0 44px #fe9407, 0 0 0 65px #ffae43, 0 115px 0 -20px #442918, 95px 70px 0 -25px #442918, 60px 115px 0 -10px #442918, 10px 170px 0 -35px #442918, 30px 200px 0 -42px #442918;\n}\n\n.one-div::before {\n  content: \"\";\n  position: absolute;\n  width: 45px;\n  height: 60px;\n  background-color: #f79c25;\n  top: -80px;\n  right: -70px;\n  transform: rotate(45deg);\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#442918",
+  "#3c2415",
+  "#fe9407"
+ ],
+ "fonts": [],
+ "tokens": 219,
+ "size": 879,
+ "html": "<div class=\"one-div\"></div>\n",
+ "css": "/* Rotten Mouse 64 by vk-uiux — https://uiverse.io/vk-uiux/rotten-mouse-64 */\n.one-div {\n  top: -30px;\n  left: 0;\n  position: relative;\n  width: 100px;\n  height: 100px;\n  background-color: #3f2616;\n  border-radius: 50%;\n  box-shadow: 0px 0px 0px 10px #442918, 0 0 0 25px #3c2415, 0 0 0 44px #fe9407, 0 0 0 65px #ffae43, 0 115px 0 -20px #442918, 95px 70px 0 -25px #442918, 60px 115px 0 -10px #442918, 10px 170px 0 -35px #442918, 30px 200px 0 -42px #442918;\n}\n\n.one-div::before {\n  content: \"\";\n  position: absolute;\n  width: 45px;\n  height: 60px;\n  background-color: #f79c25;\n  top: -80px;\n  right: -70px;\n  transform: rotate(45deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rotten Mouse 64</title>\n<style>\n/* Rotten Mouse 64 by vk-uiux — https://uiverse.io/vk-uiux/rotten-mouse-64 */\n.one-div {\n  top: -30px;\n  left: 0;\n  position: relative;\n  width: 100px;\n  height: 100px;\n  background-color: #3f2616;\n  border-radius: 50%;\n  box-shadow: 0px 0px 0px 10px #442918, 0 0 0 25px #3c2415, 0 0 0 44px #fe9407, 0 0 0 65px #ffae43, 0 115px 0 -20px #442918, 95px 70px 0 -25px #442918, 60px 115px 0 -10px #442918, 10px 170px 0 -35px #442918, 30px 200px 0 -42px #442918;\n}\n\n.one-div::before {\n  content: \"\";\n  position: absolute;\n  width: 45px;\n  height: 60px;\n  background-color: #f79c25;\n  top: -80px;\n  right: -70px;\n  transform: rotate(45deg);\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n\n</body>\n</html>\n"
 }

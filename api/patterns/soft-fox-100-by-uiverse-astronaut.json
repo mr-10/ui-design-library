@@ -5,15 +5,24 @@
  "author": "uiverse-astronaut",
  "source": "https://uiverse.io/uiverse-astronaut/soft-fox-100",
  "trigger": "static",
- "description": "A pattern with dots and polka-dots styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient white pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "dots",
+  "gradient",
+  "flat",
   "pattern",
+  "dots",
   "polka-dots",
   "static"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by uiverse-astronaut - Tags: dots, pattern, polka dots */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background-color: #e5e5f7;\n  background-image: radial-gradient(#444cf7 10%, transparent 10%),\n                      radial-gradient(#444cf7 10%, transparent 10%);\n  background-size: 100px 100px;\n  background-position: 0 0, 50px 50px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Fox 100</title>\n<style>\n/* From Uiverse.io by uiverse-astronaut - https://uiverse.io/uiverse-astronaut/soft-fox-100 */\n/* From Uiverse.io by uiverse-astronaut - Tags: dots, pattern, polka dots */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background-color: #e5e5f7;\n  background-image: radial-gradient(#444cf7 10%, transparent 10%),\n                      radial-gradient(#444cf7 10%, transparent 10%);\n  background-size: 100px 100px;\n  background-position: 0 0, 50px 50px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#e5e5f7",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 154,
+ "size": 618,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Soft Fox 100 by uiverse-astronaut — https://uiverse.io/uiverse-astronaut/soft-fox-100 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background-color: #e5e5f7;\n  background-image: radial-gradient(#444cf7 10%, transparent 10%),\n                      radial-gradient(#444cf7 10%, transparent 10%);\n  background-size: 100px 100px;\n  background-position: 0 0, 50px 50px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Fox 100</title>\n<style>\n/* Soft Fox 100 by uiverse-astronaut — https://uiverse.io/uiverse-astronaut/soft-fox-100 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background-color: #e5e5f7;\n  background-image: radial-gradient(#444cf7 10%, transparent 10%),\n                      radial-gradient(#444cf7 10%, transparent 10%);\n  background-size: 100px 100px;\n  background-position: 0 0, 50px 50px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

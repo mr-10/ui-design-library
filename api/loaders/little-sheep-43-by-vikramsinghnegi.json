@@ -5,14 +5,25 @@
  "author": "vikramsinghnegi",
  "source": "https://uiverse.io/vikramsinghnegi/little-sheep-43",
  "trigger": "auto-loop",
- "description": "A loader with time styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined black loader with animating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (animating).",
  "tags": [
+  "outlined",
+  "flat",
   "loader",
   "time",
   "auto-loop"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by vikramsinghnegi  - Tags: loader, LOADER, TIME */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  display: inline-flex;\n  border: 10px solid #000;\n  border-radius: 5px;\n}\n.loader::before,\n.loader::after {\n  content: \"0 1 2 3 4 5 6 7 8 9 0\";\n  font-size: 30px;\n  font-family: monospace;\n  font-weight: bold;\n  line-height: 1em;\n  height: 1em;\n  width: 1.2ch;\n  text-align: center;\n  outline: 1px solid #000;\n  color: #0000;\n  text-shadow: 0 0 0 #000;\n  overflow: hidden;\n  animation: l4 2s infinite linear;\n}\n.loader::before {\n  animation-duration: 4s;\n}\n@keyframes l4 {\n  100% {\n    text-shadow: 0 var(--t, -10em) 0 #000;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Sheep 43</title>\n<style>\n/* From Uiverse.io by vikramsinghnegi - https://uiverse.io/vikramsinghnegi/little-sheep-43 */\n/* From Uiverse.io by vikramsinghnegi  - Tags: loader, LOADER, TIME */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  display: inline-flex;\n  border: 10px solid #000;\n  border-radius: 5px;\n}\n.loader::before,\n.loader::after {\n  content: \"0 1 2 3 4 5 6 7 8 9 0\";\n  font-size: 30px;\n  font-family: monospace;\n  font-weight: bold;\n  line-height: 1em;\n  height: 1em;\n  width: 1.2ch;\n  text-align: center;\n  outline: 1px solid #000;\n  color: #0000;\n  text-shadow: 0 0 0 #000;\n  overflow: hidden;\n  animation: l4 2s infinite linear;\n}\n.loader::before {\n  animation-duration: 4s;\n}\n@keyframes l4 {\n  100% {\n    text-shadow: 0 var(--t, -10em) 0 #000;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [
+  "monospace"
+ ],
+ "tokens": 219,
+ "size": 879,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Little Sheep 43 by vikramsinghnegi — https://uiverse.io/vikramsinghnegi/little-sheep-43 */\n.loader {\n  display: inline-flex;\n  border: 10px solid #000;\n  border-radius: 5px;\n}\n.loader::before,\n.loader::after {\n  content: \"0 1 2 3 4 5 6 7 8 9 0\";\n  font-size: 30px;\n  font-family: monospace;\n  font-weight: bold;\n  line-height: 1em;\n  height: 1em;\n  width: 1.2ch;\n  text-align: center;\n  outline: 1px solid #000;\n  color: #0000;\n  text-shadow: 0 0 0 #000;\n  overflow: hidden;\n  animation: l4 2s infinite linear;\n}\n.loader::before {\n  animation-duration: 4s;\n}\n@keyframes l4 {\n  100% {\n    text-shadow: 0 var(--t, -10em) 0 #000;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Sheep 43</title>\n<style>\n/* Little Sheep 43 by vikramsinghnegi — https://uiverse.io/vikramsinghnegi/little-sheep-43 */\n.loader {\n  display: inline-flex;\n  border: 10px solid #000;\n  border-radius: 5px;\n}\n.loader::before,\n.loader::after {\n  content: \"0 1 2 3 4 5 6 7 8 9 0\";\n  font-size: 30px;\n  font-family: monospace;\n  font-weight: bold;\n  line-height: 1em;\n  height: 1em;\n  width: 1.2ch;\n  text-align: center;\n  outline: 1px solid #000;\n  color: #0000;\n  text-shadow: 0 0 0 #000;\n  overflow: hidden;\n  animation: l4 2s infinite linear;\n}\n.loader::before {\n  animation-duration: 4s;\n}\n@keyframes l4 {\n  100% {\n    text-shadow: 0 var(--t, -10em) 0 #000;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

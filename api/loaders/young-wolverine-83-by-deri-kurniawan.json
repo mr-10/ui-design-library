@@ -5,14 +5,22 @@
  "author": "Deri-Kurniawan",
  "source": "https://uiverse.io/Deri-Kurniawan/young-wolverine-83",
  "trigger": "static",
- "description": "A loader UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Rounded gray loader with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the loader is a fixed design.",
  "tags": [
+  "rounded",
   "loaders",
   "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Deri-Kurniawan  - Tags: loading, card, loader, glow, card animation, skeleton -->\n<div\n  class=\"flex flex-col bg-neutral-300 w-56 h-64 animate-pulse rounded-xl p-4 gap-4\"\n>\n  <div class=\"bg-neutral-400/50 w-full h-32 animate-pulse rounded-md\"></div>\n  <div class=\"flex flex-col gap-2\">\n    <div class=\"bg-neutral-400/50 w-full h-4 animate-pulse rounded-md\"></div>\n    <div class=\"bg-neutral-400/50 w-4/5 h-4 animate-pulse rounded-md\"></div>\n    <div class=\"bg-neutral-400/50 w-full h-4 animate-pulse rounded-md\"></div>\n    <div class=\"bg-neutral-400/50 w-2/4 h-4 animate-pulse rounded-md\"></div>\n  </div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Young Wolverine 83</title>\n<style>\n/* From Uiverse.io by Deri-Kurniawan - https://uiverse.io/Deri-Kurniawan/young-wolverine-83 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Deri-Kurniawan  - Tags: loading, card, loader, glow, card animation, skeleton -->\n<div\n  class=\"flex flex-col bg-neutral-300 w-56 h-64 animate-pulse rounded-xl p-4 gap-4\"\n>\n  <div class=\"bg-neutral-400/50 w-full h-32 animate-pulse rounded-md\"></div>\n  <div class=\"flex flex-col gap-2\">\n    <div class=\"bg-neutral-400/50 w-full h-4 animate-pulse rounded-md\"></div>\n    <div class=\"bg-neutral-400/50 w-4/5 h-4 animate-pulse rounded-md\"></div>\n    <div class=\"bg-neutral-400/50 w-full h-4 animate-pulse rounded-md\"></div>\n    <div class=\"bg-neutral-400/50 w-2/4 h-4 animate-pulse rounded-md\"></div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#a3a3a3",
+  "#d4d4d4"
+ ],
+ "fonts": [],
+ "tokens": 212,
+ "size": 848,
+ "html": "<div\n  class=\"flex flex-col bg-neutral-300 w-56 h-64 animate-pulse rounded-xl p-4 gap-4\"\n>\n  <div class=\"bg-neutral-400/50 w-full h-32 animate-pulse rounded-md\"></div>\n  <div class=\"flex flex-col gap-2\">\n    <div class=\"bg-neutral-400/50 w-full h-4 animate-pulse rounded-md\"></div>\n    <div class=\"bg-neutral-400/50 w-4/5 h-4 animate-pulse rounded-md\"></div>\n    <div class=\"bg-neutral-400/50 w-full h-4 animate-pulse rounded-md\"></div>\n    <div class=\"bg-neutral-400/50 w-2/4 h-4 animate-pulse rounded-md\"></div>\n  </div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Young Wolverine 83</title>\n<style>\n/* Young Wolverine 83 by Deri-Kurniawan — https://uiverse.io/Deri-Kurniawan/young-wolverine-83 */\n\n</style>\n</head>\n<body>\n<div\n  class=\"flex flex-col bg-neutral-300 w-56 h-64 animate-pulse rounded-xl p-4 gap-4\"\n>\n  <div class=\"bg-neutral-400/50 w-full h-32 animate-pulse rounded-md\"></div>\n  <div class=\"flex flex-col gap-2\">\n    <div class=\"bg-neutral-400/50 w-full h-4 animate-pulse rounded-md\"></div>\n    <div class=\"bg-neutral-400/50 w-4/5 h-4 animate-pulse rounded-md\"></div>\n    <div class=\"bg-neutral-400/50 w-full h-4 animate-pulse rounded-md\"></div>\n    <div class=\"bg-neutral-400/50 w-2/4 h-4 animate-pulse rounded-md\"></div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

@@ -4,15 +4,26 @@
  "category": "cards",
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/lovely-panther-15",
- "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Rounded dark sky-blue card that glows on hover.",
+ "howItWorks": "On hover, shadow grows and background changes.",
  "tags": [
+  "blue",
+  "rounded",
+  "glow",
+  "color-change",
   "cards",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Javierrocadev  - Tags: minimalist, card, hover, light, hover effect, hover button, card hover, tailwind -->\n<div\n  class=\"group flex flex-col justify-start items-start gap-2 w-96 h-56 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300\"\n>\n  <div\n    class=\"absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-10 -right-10 w-1/2 h-1/2 rounded-lg bg-gray-200\"\n    alt=\"image here\"\n  ></div>\n\n  <div class=\"\">\n    <h2 class=\"text-2xl font-bold mb-2 text-gray-800\">Card</h2>\n    <p class=\"text-gray-700 line-clamp-3\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis\n      magna quis lectus fermentum, quis scelerisque orci pellentesque. Duis id\n      porta justo. Sed ac enim id justo tincidunt hendrerit id ac lectus.\n      Pellentesque maximus posuere tortor vitae consequat.\n    </p>\n  </div>\n  <button\n    class=\"hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6\"\n  >\n    Explore\n  </button>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lovely Panther 15</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/lovely-panther-15 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev  - Tags: minimalist, card, hover, light, hover effect, hover button, card hover, tailwind -->\n<div\n  class=\"group flex flex-col justify-start items-start gap-2 w-96 h-56 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300\"\n>\n  <div\n    class=\"absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-10 -right-10 w-1/2 h-1/2 rounded-lg bg-gray-200\"\n    alt=\"image here\"\n  ></div>\n\n  <div class=\"\">\n    <h2 class=\"text-2xl font-bold mb-2 text-gray-800\">Card</h2>\n    <p class=\"text-gray-700 line-clamp-3\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis\n      magna quis lectus fermentum, quis scelerisque orci pellentesque. Duis id\n      porta justo. Sed ac enim id justo tincidunt hendrerit id ac lectus.\n      Pellentesque maximus posuere tortor vitae consequat.\n    </p>\n  </div>\n  <button\n    class=\"hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6\"\n  >\n    Explore\n  </button>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#e5e7eb",
+  "#1f2937",
+  "#f3f4f6"
+ ],
+ "fonts": [],
+ "tokens": 310,
+ "size": 1244,
+ "html": "<div\n  class=\"group flex flex-col justify-start items-start gap-2 w-96 h-56 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300\"\n>\n  <div\n    class=\"absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-10 -right-10 w-1/2 h-1/2 rounded-lg bg-gray-200\"\n    alt=\"image here\"\n  ></div>\n\n  <div class=\"\">\n    <h2 class=\"text-2xl font-bold mb-2 text-gray-800\">Card</h2>\n    <p class=\"text-gray-700 line-clamp-3\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis\n      magna quis lectus fermentum, quis scelerisque orci pellentesque. Duis id\n      porta justo. Sed ac enim id justo tincidunt hendrerit id ac lectus.\n      Pellentesque maximus posuere tortor vitae consequat.\n    </p>\n  </div>\n  <button\n    class=\"hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6\"\n  >\n    Explore\n  </button>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lovely Panther 15</title>\n<style>\n/* Lovely Panther 15 by Javierrocadev — https://uiverse.io/Javierrocadev/lovely-panther-15 */\n\n</style>\n</head>\n<body>\n<div\n  class=\"group flex flex-col justify-start items-start gap-2 w-96 h-56 duration-500 relative rounded-lg p-4 bg-gray-100 hover:-translate-y-2 hover:shadow-xl shadow-gray-300\"\n>\n  <div\n    class=\"absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-10 -right-10 w-1/2 h-1/2 rounded-lg bg-gray-200\"\n    alt=\"image here\"\n  ></div>\n\n  <div class=\"\">\n    <h2 class=\"text-2xl font-bold mb-2 text-gray-800\">Card</h2>\n    <p class=\"text-gray-700 line-clamp-3\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis\n      magna quis lectus fermentum, quis scelerisque orci pellentesque. Duis id\n      porta justo. Sed ac enim id justo tincidunt hendrerit id ac lectus.\n      Pellentesque maximus posuere tortor vitae consequat.\n    </p>\n  </div>\n  <button\n    class=\"hover:bg-gray-300 bg-gray-200 text-gray-800 mt-6 rounded p-2 px-6\"\n  >\n    Explore\n  </button>\n</div>\n\n</body>\n</html>\n"
 }

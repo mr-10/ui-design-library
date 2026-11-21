@@ -5,14 +5,25 @@
  "author": "xXJollyHAKERXx",
  "source": "https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient rounded violet spinner loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1.7s animation (rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "violet",
+  "teal",
+  "gradient",
+  "rounded",
+  "spin",
+  "spinner-loader"
  ],
- "html": "<div class=\"spinner\">\n    <div class=\"spinner1\"></div>\n</div>",
- "css": "/* From Uiverse.io by xXJollyHAKERXx - Tags: loader */\n.spinner {\n  background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));\n  width: 100px;\n  height: 100px;\n  animation: spinning82341 1.7s linear infinite;\n  text-align: center;\n  border-radius: 50px;\n  filter: blur(1px);\n  box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);\n}\n\n.spinner1 {\n  background-color: rgb(36, 36, 36);\n  width: 100px;\n  height: 100px;\n  border-radius: 50px;\n  filter: blur(10px);\n}\n\n@keyframes spinning82341 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lucky Falcon 75</title>\n<style>\n/* From Uiverse.io by xXJollyHAKERXx - https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75 */\n/* From Uiverse.io by xXJollyHAKERXx - Tags: loader */\n.spinner {\n  background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));\n  width: 100px;\n  height: 100px;\n  animation: spinning82341 1.7s linear infinite;\n  text-align: center;\n  border-radius: 50px;\n  filter: blur(1px);\n  box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);\n}\n\n.spinner1 {\n  background-color: rgb(36, 36, 36);\n  width: 100px;\n  height: 100px;\n  border-radius: 50px;\n  filter: blur(10px);\n}\n\n@keyframes spinning82341 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\">\n    <div class=\"spinner1\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ba42ff",
+  "#00e1ff",
+  "#242424"
+ ],
+ "fonts": [],
+ "tokens": 224,
+ "size": 896,
+ "html": "<div class=\"spinner\">\n    <div class=\"spinner1\"></div>\n</div>\n",
+ "css": "/* Lucky Falcon 75 by xXJollyHAKERXx — https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75 */\n.spinner {\n  background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));\n  width: 100px;\n  height: 100px;\n  animation: spinning82341 1.7s linear infinite;\n  text-align: center;\n  border-radius: 50px;\n  filter: blur(1px);\n  box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);\n}\n\n.spinner1 {\n  background-color: rgb(36, 36, 36);\n  width: 100px;\n  height: 100px;\n  border-radius: 50px;\n  filter: blur(10px);\n}\n\n@keyframes spinning82341 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lucky Falcon 75</title>\n<style>\n/* Lucky Falcon 75 by xXJollyHAKERXx — https://uiverse.io/xXJollyHAKERXx/lucky-falcon-75 */\n.spinner {\n  background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));\n  width: 100px;\n  height: 100px;\n  animation: spinning82341 1.7s linear infinite;\n  text-align: center;\n  border-radius: 50px;\n  filter: blur(1px);\n  box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);\n}\n\n.spinner1 {\n  background-color: rgb(36, 36, 36);\n  width: 100px;\n  height: 100px;\n  border-radius: 50px;\n  filter: blur(10px);\n}\n\n@keyframes spinning82341 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\">\n    <div class=\"spinner1\"></div>\n</div>\n\n</body>\n</html>\n"
 }

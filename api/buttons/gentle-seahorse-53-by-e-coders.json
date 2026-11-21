@@ -5,14 +5,24 @@
  "author": "e-coders",
  "source": "https://uiverse.io/e-coders/gentle-seahorse-53",
  "trigger": "static",
- "description": "A button with simple styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Sky-blue button with soft shadow with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
+  "blue",
   "simple",
   "button",
   "static"
  ],
- "html": "<button> manage\n</button>",
- "css": "/* From Uiverse.io by e-coders - Tags: simple, button */\nbutton {\n font-family: Roboto, Arial, Sans-Serif;\n font-size: 14px;\n text-align: center;\n letter-spacing: 0.5px;\n color: #ffffff;\n background-color: #065fd4;\n border: 0;\n box-shadow: none;\n border-radius: 2px;\n padding-top: 10px;\n padding-bottom: 10px;\n padding-left: 16px;\n padding-right: 16px;\n text-transform: uppercase;\n font-weight: 500;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Gentle Seahorse 53</title>\n<style>\n/* From Uiverse.io by e-coders - https://uiverse.io/e-coders/gentle-seahorse-53 */\n/* From Uiverse.io by e-coders - Tags: simple, button */\nbutton {\n font-family: Roboto, Arial, Sans-Serif;\n font-size: 14px;\n text-align: center;\n letter-spacing: 0.5px;\n color: #ffffff;\n background-color: #065fd4;\n border: 0;\n box-shadow: none;\n border-radius: 2px;\n padding-top: 10px;\n padding-bottom: 10px;\n padding-left: 16px;\n padding-right: 16px;\n text-transform: uppercase;\n font-weight: 500;\n}\n</style>\n</head>\n<body>\n<button> manage\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#065fd4",
+  "#ffffff"
+ ],
+ "fonts": [
+  "Roboto"
+ ],
+ "tokens": 168,
+ "size": 676,
+ "html": "<button> manage\n</button>\n",
+ "css": "/* Gentle Seahorse 53 by e-coders — https://uiverse.io/e-coders/gentle-seahorse-53 */\nbutton {\n font-family: Roboto, Arial, Sans-Serif;\n font-size: 14px;\n text-align: center;\n letter-spacing: 0.5px;\n color: #ffffff;\n background-color: #065fd4;\n border: 0;\n box-shadow: none;\n border-radius: 2px;\n padding-top: 10px;\n padding-bottom: 10px;\n padding-left: 16px;\n padding-right: 16px;\n text-transform: uppercase;\n font-weight: 500;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Gentle Seahorse 53</title>\n<style>\n/* Gentle Seahorse 53 by e-coders — https://uiverse.io/e-coders/gentle-seahorse-53 */\nbutton {\n font-family: Roboto, Arial, Sans-Serif;\n font-size: 14px;\n text-align: center;\n letter-spacing: 0.5px;\n color: #ffffff;\n background-color: #065fd4;\n border: 0;\n box-shadow: none;\n border-radius: 2px;\n padding-top: 10px;\n padding-bottom: 10px;\n padding-left: 16px;\n padding-right: 16px;\n text-transform: uppercase;\n font-weight: 500;\n}\n</style>\n</head>\n<body>\n<button> manage\n</button>\n\n</body>\n</html>\n"
 }

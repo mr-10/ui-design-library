@@ -4,15 +4,25 @@
  "category": "buttons",
  "author": "dalioscode",
  "source": "https://uiverse.io/dalioscode/swift-wombat-47",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gradient pill black button that fades on hover.",
+ "howItWorks": "On hover, opacity changes.",
  "tags": [
+  "gradient",
+  "rounded",
+  "pill",
+  "fade",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by dalioscode  - Tags: flashy, button, dark, modern, gradients -->\n<button\n  class=\"relative inline-flex items-center gap-2 px-6 py-3 font-semibold text-slate-50 bg-gradient-to-tr from-slate-900/30 via-slate-900/70 to-slate-900/30 ring-4 ring-slate-900/20 rounded-full overflow-hidden hover:opacity-90 transition-opacity before:absolute before:top-4 before:left-1/2 before:-translate-x-1/2 before:w-[100px] before:h-[100px] before:rounded-full before:bg-gradient-to-b before:from-slate-50/10 before:blur-xl\"\n>\n  Explore discoveries\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Wombat 47</title>\n<style>\n/* From Uiverse.io by dalioscode - https://uiverse.io/dalioscode/swift-wombat-47 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by dalioscode  - Tags: flashy, button, dark, modern, gradients -->\n<button\n  class=\"relative inline-flex items-center gap-2 px-6 py-3 font-semibold text-slate-50 bg-gradient-to-tr from-slate-900/30 via-slate-900/70 to-slate-900/30 ring-4 ring-slate-900/20 rounded-full overflow-hidden hover:opacity-90 transition-opacity before:absolute before:top-4 before:left-1/2 before:-translate-x-1/2 before:w-[100px] before:h-[100px] before:rounded-full before:bg-gradient-to-b before:from-slate-50/10 before:blur-xl\"\n>\n  Explore discoveries\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#0f172a",
+  "#f8fafc"
+ ],
+ "fonts": [],
+ "tokens": 194,
+ "size": 776,
+ "html": "<button\n  class=\"relative inline-flex items-center gap-2 px-6 py-3 font-semibold text-slate-50 bg-gradient-to-tr from-slate-900/30 via-slate-900/70 to-slate-900/30 ring-4 ring-slate-900/20 rounded-full overflow-hidden hover:opacity-90 transition-opacity before:absolute before:top-4 before:left-1/2 before:-translate-x-1/2 before:w-[100px] before:h-[100px] before:rounded-full before:bg-gradient-to-b before:from-slate-50/10 before:blur-xl\"\n>\n  Explore discoveries\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Wombat 47</title>\n<style>\n/* Swift Wombat 47 by dalioscode — https://uiverse.io/dalioscode/swift-wombat-47 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"relative inline-flex items-center gap-2 px-6 py-3 font-semibold text-slate-50 bg-gradient-to-tr from-slate-900/30 via-slate-900/70 to-slate-900/30 ring-4 ring-slate-900/20 rounded-full overflow-hidden hover:opacity-90 transition-opacity before:absolute before:top-4 before:left-1/2 before:-translate-x-1/2 before:w-[100px] before:h-[100px] before:rounded-full before:bg-gradient-to-b before:from-slate-50/10 before:blur-xl\"\n>\n  Explore discoveries\n</button>\n\n</body>\n</html>\n"
 }

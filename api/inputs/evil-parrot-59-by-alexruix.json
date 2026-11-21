@@ -5,14 +5,25 @@
  "author": "alexruix",
  "source": "https://uiverse.io/alexruix/evil-parrot-59",
  "trigger": "hover",
- "description": "A input with subscription styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined blue email input that changes colour on hover.",
+ "howItWorks": "On hover, background-color changes from #5e4dcd to #5e5dcd. On focus, border-color becomes #3898EC, the outline is removed.",
  "tags": [
-  "subscription",
-  "input",
-  "hover"
+  "blue",
+  "outlined",
+  "flat",
+  "color-change",
+  "submit",
+  "email-input"
  ],
- "html": "<div class=\"input-group\">\n    <input type=\"email\" class=\"input\" id=\"Email\" name=\"Email\" placeholder=\"uiverse@verse.io\" autocomplete=\"off\">\n    <input class=\"button--submit\" value=\"Subscribe\" type=\"submit\">\n</div>",
- "css": "/* From Uiverse.io by alexruix - Tags: subscription, input */\n.input-group {\n  display: flex;\n  align-items: center;\n}\n\n.input {\n  min-height: 50px;\n  max-width: 150px;\n  padding: 0 1rem;\n  color: #fff;\n  font-size: 15px;\n  border: 1px solid #5e4dcd;\n  border-radius: 6px 0 0 6px;\n  background-color: transparent;\n}\n\n.button--submit {\n  min-height: 50px;\n  padding: .5em 1em;\n  border: none;\n  border-radius: 0 6px 6px 0;\n  background-color: #5e4dcd;\n  color: #fff;\n  font-size: 15px;\n  cursor: pointer;\n  transition: background-color .3s ease-in-out;\n}\n\n.button--submit:hover {\n  background-color: #5e5dcd;\n}\n\n.input:focus, .input:focus-visible {\n  border-color: #3898EC;\n  outline: none;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Evil Parrot 59</title>\n<style>\n/* From Uiverse.io by alexruix - https://uiverse.io/alexruix/evil-parrot-59 */\n/* From Uiverse.io by alexruix - Tags: subscription, input */\n.input-group {\n  display: flex;\n  align-items: center;\n}\n\n.input {\n  min-height: 50px;\n  max-width: 150px;\n  padding: 0 1rem;\n  color: #fff;\n  font-size: 15px;\n  border: 1px solid #5e4dcd;\n  border-radius: 6px 0 0 6px;\n  background-color: transparent;\n}\n\n.button--submit {\n  min-height: 50px;\n  padding: .5em 1em;\n  border: none;\n  border-radius: 0 6px 6px 0;\n  background-color: #5e4dcd;\n  color: #fff;\n  font-size: 15px;\n  cursor: pointer;\n  transition: background-color .3s ease-in-out;\n}\n\n.button--submit:hover {\n  background-color: #5e5dcd;\n}\n\n.input:focus, .input:focus-visible {\n  border-color: #3898EC;\n  outline: none;\n}\n</style>\n</head>\n<body>\n<div class=\"input-group\">\n    <input type=\"email\" class=\"input\" id=\"Email\" name=\"Email\" placeholder=\"uiverse@verse.io\" autocomplete=\"off\">\n    <input class=\"button--submit\" value=\"Subscribe\" type=\"submit\">\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#5e4dcd",
+  "#5e5dcd",
+  "#3898ec"
+ ],
+ "fonts": [],
+ "tokens": 284,
+ "size": 1136,
+ "html": "<div class=\"input-group\">\n    <input type=\"email\" class=\"input\" id=\"Email\" name=\"Email\" placeholder=\"uiverse@verse.io\" autocomplete=\"off\">\n    <input class=\"button--submit\" value=\"Subscribe\" type=\"submit\">\n</div>\n",
+ "css": "/* Evil Parrot 59 by alexruix — https://uiverse.io/alexruix/evil-parrot-59 */\n.input-group {\n  display: flex;\n  align-items: center;\n}\n\n.input {\n  min-height: 50px;\n  max-width: 150px;\n  padding: 0 1rem;\n  color: #fff;\n  font-size: 15px;\n  border: 1px solid #5e4dcd;\n  border-radius: 6px 0 0 6px;\n  background-color: transparent;\n}\n\n.button--submit {\n  min-height: 50px;\n  padding: .5em 1em;\n  border: none;\n  border-radius: 0 6px 6px 0;\n  background-color: #5e4dcd;\n  color: #fff;\n  font-size: 15px;\n  cursor: pointer;\n  transition: background-color .3s ease-in-out;\n}\n\n.button--submit:hover {\n  background-color: #5e5dcd;\n}\n\n.input:focus, .input:focus-visible {\n  border-color: #3898EC;\n  outline: none;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Evil Parrot 59</title>\n<style>\n/* Evil Parrot 59 by alexruix — https://uiverse.io/alexruix/evil-parrot-59 */\n.input-group {\n  display: flex;\n  align-items: center;\n}\n\n.input {\n  min-height: 50px;\n  max-width: 150px;\n  padding: 0 1rem;\n  color: #fff;\n  font-size: 15px;\n  border: 1px solid #5e4dcd;\n  border-radius: 6px 0 0 6px;\n  background-color: transparent;\n}\n\n.button--submit {\n  min-height: 50px;\n  padding: .5em 1em;\n  border: none;\n  border-radius: 0 6px 6px 0;\n  background-color: #5e4dcd;\n  color: #fff;\n  font-size: 15px;\n  cursor: pointer;\n  transition: background-color .3s ease-in-out;\n}\n\n.button--submit:hover {\n  background-color: #5e5dcd;\n}\n\n.input:focus, .input:focus-visible {\n  border-color: #3898EC;\n  outline: none;\n}\n</style>\n</head>\n<body>\n<div class=\"input-group\">\n    <input type=\"email\" class=\"input\" id=\"Email\" name=\"Email\" placeholder=\"uiverse@verse.io\" autocomplete=\"off\">\n    <input class=\"button--submit\" value=\"Subscribe\" type=\"submit\">\n</div>\n\n</body>\n</html>\n"
 }

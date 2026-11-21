@@ -5,14 +5,25 @@
  "author": "kyle1dev",
  "source": "https://uiverse.io/kyle1dev/chilly-goose-0",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded cyan button that lifts and glows on hover.",
+ "howItWorks": "On hover, background changes from linear-gradient(45deg, #00bfff, #1e90ff) to linear-gradient(45deg, #1e90ff, #00bfff), box-shadow becomes 0 6px 12px #000000, transform becomes translateY(-4px).",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "cyan",
+  "blue",
+  "gradient",
+  "rounded",
+  "lift",
+  "glow"
  ],
- "html": "<button class=\"elegant-button\">Click Me</button>",
- "css": "/* From Uiverse.io by kyle1dev  - Tags: button */\n.elegant-button {\n  background: linear-gradient(45deg, #00bfff, #1e90ff);\n  border: none;\n  border-radius: 8px;\n  color: white;\n  font-size: 16px;\n  font-weight: bold;\n  padding: 12px 24px;\n  cursor: pointer;\n  outline: none;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n  transition: all 0.3s ease;\n}\n.elegant-button:hover {\n  background: linear-gradient(45deg, #1e90ff, #00bfff);\n  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);\n  transform: translateY(-4px);\n}\n.elegant-button:active {\n  background: linear-gradient(45deg, #00bfff, #1e90ff);\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n  transform: translateY(0);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Goose 0</title>\n<style>\n/* From Uiverse.io by kyle1dev - https://uiverse.io/kyle1dev/chilly-goose-0 */\n/* From Uiverse.io by kyle1dev  - Tags: button */\n.elegant-button {\n  background: linear-gradient(45deg, #00bfff, #1e90ff);\n  border: none;\n  border-radius: 8px;\n  color: white;\n  font-size: 16px;\n  font-weight: bold;\n  padding: 12px 24px;\n  cursor: pointer;\n  outline: none;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n  transition: all 0.3s ease;\n}\n.elegant-button:hover {\n  background: linear-gradient(45deg, #1e90ff, #00bfff);\n  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);\n  transform: translateY(-4px);\n}\n.elegant-button:active {\n  background: linear-gradient(45deg, #00bfff, #1e90ff);\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n  transform: translateY(0);\n}\n</style>\n</head>\n<body>\n<button class=\"elegant-button\">Click Me</button>\n</body>\n</html>\n"
+ "colors": [
+  "#00bfff",
+  "#1e90ff",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 238,
+ "size": 956,
+ "html": "<button class=\"elegant-button\">Click Me</button>\n",
+ "css": "/* Chilly Goose 0 by kyle1dev — https://uiverse.io/kyle1dev/chilly-goose-0 */\n.elegant-button {\n  background: linear-gradient(45deg, #00bfff, #1e90ff);\n  border: none;\n  border-radius: 8px;\n  color: white;\n  font-size: 16px;\n  font-weight: bold;\n  padding: 12px 24px;\n  cursor: pointer;\n  outline: none;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n  transition: all 0.3s ease;\n}\n.elegant-button:hover {\n  background: linear-gradient(45deg, #1e90ff, #00bfff);\n  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);\n  transform: translateY(-4px);\n}\n.elegant-button:active {\n  background: linear-gradient(45deg, #00bfff, #1e90ff);\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n  transform: translateY(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Goose 0</title>\n<style>\n/* Chilly Goose 0 by kyle1dev — https://uiverse.io/kyle1dev/chilly-goose-0 */\n.elegant-button {\n  background: linear-gradient(45deg, #00bfff, #1e90ff);\n  border: none;\n  border-radius: 8px;\n  color: white;\n  font-size: 16px;\n  font-weight: bold;\n  padding: 12px 24px;\n  cursor: pointer;\n  outline: none;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n  transition: all 0.3s ease;\n}\n.elegant-button:hover {\n  background: linear-gradient(45deg, #1e90ff, #00bfff);\n  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);\n  transform: translateY(-4px);\n}\n.elegant-button:active {\n  background: linear-gradient(45deg, #00bfff, #1e90ff);\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);\n  transform: translateY(0);\n}\n</style>\n</head>\n<body>\n<button class=\"elegant-button\">Click Me</button>\n\n</body>\n</html>\n"
 }

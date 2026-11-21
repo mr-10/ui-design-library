@@ -4,15 +4,25 @@
  "category": "buttons",
  "author": "themrsami",
  "source": "https://uiverse.io/themrsami/helpless-bulldog-100",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Pill pink button that changes colour on hover.",
+ "howItWorks": "On hover, background changes.",
  "tags": [
+  "pink",
+  "rounded",
+  "pill",
+  "color-change",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by themrsami - Tags: button, animated, appearance -->\n<button class=\"bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full animate-pulse\">\n  Pulse Animation\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Bulldog 100</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/helpless-bulldog-100 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by themrsami - Tags: button, animated, appearance -->\n<button class=\"bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full animate-pulse\">\n  Pulse Animation\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ec4899",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 111,
+ "size": 447,
+ "html": "<button class=\"bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full animate-pulse\">\n  Pulse Animation\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Bulldog 100</title>\n<style>\n/* Helpless Bulldog 100 by themrsami — https://uiverse.io/themrsami/helpless-bulldog-100 */\n\n</style>\n</head>\n<body>\n<button class=\"bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full animate-pulse\">\n  Pulse Animation\n</button>\n\n</body>\n</html>\n"
 }

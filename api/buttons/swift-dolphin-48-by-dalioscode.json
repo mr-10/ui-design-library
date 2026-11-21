@@ -4,15 +4,26 @@
  "category": "buttons",
  "author": "dalioscode",
  "source": "https://uiverse.io/dalioscode/swift-dolphin-48",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gradient rounded light sky-blue button that fades on hover.",
+ "howItWorks": "On hover, opacity changes.",
  "tags": [
+  "blue",
+  "gradient",
+  "rounded",
+  "fade",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by dalioscode  - Tags: simple, minimalist, gradient, button, light -->\n<button\n  style=\"box-shadow: inset 0 2px 4px 0 rgb(2 6 23 / 0.3), inset 0 -2px 4px 0 rgb(203 213 225);\"\n  class=\"inline-flex cursor-pointer items-center gap-1 rounded border border-slate-300 bg-gradient-to-b from-slate-50 to-slate-200 px-4 py-2 font-semibold hover:opacity-90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-300 focus-visible:ring-offset-2 active:opacity-100\"\n>\n  Proceed\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Dolphin 48</title>\n<style>\n/* From Uiverse.io by dalioscode - https://uiverse.io/dalioscode/swift-dolphin-48 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by dalioscode  - Tags: simple, minimalist, gradient, button, light -->\n<button\n  style=\"box-shadow: inset 0 2px 4px 0 rgb(2 6 23 / 0.3), inset 0 -2px 4px 0 rgb(203 213 225);\"\n  class=\"inline-flex cursor-pointer items-center gap-1 rounded border border-slate-300 bg-gradient-to-b from-slate-50 to-slate-200 px-4 py-2 font-semibold hover:opacity-90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-300 focus-visible:ring-offset-2 active:opacity-100\"\n>\n  Proceed\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#cbd5e1",
+  "#f8fafc",
+  "#e2e8f0"
+ ],
+ "fonts": [],
+ "tokens": 181,
+ "size": 727,
+ "html": "<button\n  style=\"box-shadow: inset 0 2px 4px 0 rgb(2 6 23 / 0.3), inset 0 -2px 4px 0 rgb(203 213 225);\"\n  class=\"inline-flex cursor-pointer items-center gap-1 rounded border border-slate-300 bg-gradient-to-b from-slate-50 to-slate-200 px-4 py-2 font-semibold hover:opacity-90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-300 focus-visible:ring-offset-2 active:opacity-100\"\n>\n  Proceed\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Dolphin 48</title>\n<style>\n/* Swift Dolphin 48 by dalioscode — https://uiverse.io/dalioscode/swift-dolphin-48 */\n\n</style>\n</head>\n<body>\n<button\n  style=\"box-shadow: inset 0 2px 4px 0 rgb(2 6 23 / 0.3), inset 0 -2px 4px 0 rgb(203 213 225);\"\n  class=\"inline-flex cursor-pointer items-center gap-1 rounded border border-slate-300 bg-gradient-to-b from-slate-50 to-slate-200 px-4 py-2 font-semibold hover:opacity-90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-slate-300 focus-visible:ring-offset-2 active:opacity-100\"\n>\n  Proceed\n</button>\n\n</body>\n</html>\n"
 }

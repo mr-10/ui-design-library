@@ -5,14 +5,24 @@
  "author": "themrsami",
  "source": "https://uiverse.io/themrsami/weak-kangaroo-79",
  "trigger": "static",
- "description": "A loader UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Pill sky-blue spinner loader with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the spinner loader is a fixed design.",
  "tags": [
+  "blue",
+  "rounded",
+  "pill",
+  "spinner-loader",
   "loaders",
-  "static",
-  "css"
+  "static"
  ],
- "html": "<!-- From Uiverse.io by themrsami - Tags: material design, blue, loading, loader, spinner, smooth, dark, glitch -->\n<div class=\"flex justify-center items-center\">\n  <div class=\"animate-spin rounded-full h-12 w-32 border-t-2 border-b-2 border-blue-900\"></div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Weak Kangaroo 79</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/weak-kangaroo-79 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by themrsami - Tags: material design, blue, loading, loader, spinner, smooth, dark, glitch -->\n<div class=\"flex justify-center items-center\">\n  <div class=\"animate-spin rounded-full h-12 w-32 border-t-2 border-b-2 border-blue-900\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#1e3a8a",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 112,
+ "size": 452,
+ "html": "<div class=\"flex justify-center items-center\">\n  <div class=\"animate-spin rounded-full h-12 w-32 border-t-2 border-b-2 border-blue-900\"></div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Weak Kangaroo 79</title>\n<style>\n/* Weak Kangaroo 79 by themrsami — https://uiverse.io/themrsami/weak-kangaroo-79 */\n\n</style>\n</head>\n<body>\n<div class=\"flex justify-center items-center\">\n  <div class=\"animate-spin rounded-full h-12 w-32 border-t-2 border-b-2 border-blue-900\"></div>\n</div>\n\n</body>\n</html>\n"
 }

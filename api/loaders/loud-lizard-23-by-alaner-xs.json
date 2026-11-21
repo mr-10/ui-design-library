@@ -5,14 +5,24 @@
  "author": "Alaner-xs",
  "source": "https://uiverse.io/Alaner-xs/loud-lizard-23",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined pill white loader with animating; rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (animating; rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "outlined",
+  "rounded",
+  "pill",
+  "flat",
+  "spin",
+  "loader"
  ],
- "html": "<div class=\"shake\">\n<div class=\"loader\"></div>\n</div>",
- "css": "/* From Uiverse.io by Alaner-xs - Tags: loader */\n.loader {\n --border-width: 10px;\n --size: 60px;\n border: var(--border-width) solid #f3f3f3;\n border-radius: 50%;\n border-top: var(--border-width) solid #1bbeff;\n border-bottom: var(--border-width) solid #1bbeff;\n border-left: var(--border-width) solid #147ec5;\n border-right: var(--border-width) solid #147ec5;\n width: var(--size);\n height: var(--size);\n animation: spin35112 2s linear infinite;\n}\n\n@keyframes spin35112 {\n 0% {\n  transform: rotate(0deg);\n }\n\n 100% {\n  transform: rotate(360deg);\n }\n}\n\n.shake {\n animation: shake61790 1s linear infinite;\n}\n\n@keyframes shake61790 {\n 0% {\n  transform: skewX(0deg);\n }\n\n 50% {\n  transform: skewX(20deg);\n }\n\n 100% {\n  transform: skewX(0deg);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Lizard 23</title>\n<style>\n/* From Uiverse.io by Alaner-xs - https://uiverse.io/Alaner-xs/loud-lizard-23 */\n/* From Uiverse.io by Alaner-xs - Tags: loader */\n.loader {\n --border-width: 10px;\n --size: 60px;\n border: var(--border-width) solid #f3f3f3;\n border-radius: 50%;\n border-top: var(--border-width) solid #1bbeff;\n border-bottom: var(--border-width) solid #1bbeff;\n border-left: var(--border-width) solid #147ec5;\n border-right: var(--border-width) solid #147ec5;\n width: var(--size);\n height: var(--size);\n animation: spin35112 2s linear infinite;\n}\n\n@keyframes spin35112 {\n 0% {\n  transform: rotate(0deg);\n }\n\n 100% {\n  transform: rotate(360deg);\n }\n}\n\n.shake {\n animation: shake61790 1s linear infinite;\n}\n\n@keyframes shake61790 {\n 0% {\n  transform: skewX(0deg);\n }\n\n 50% {\n  transform: skewX(20deg);\n }\n\n 100% {\n  transform: skewX(0deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"shake\">\n<div class=\"loader\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#f3f3f3",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 260,
+ "size": 1043,
+ "html": "<div class=\"shake\">\n<div class=\"loader\"></div>\n</div>\n",
+ "css": "/* Loud Lizard 23 by Alaner-xs — https://uiverse.io/Alaner-xs/loud-lizard-23 */\n.loader {\n --border-width: 10px;\n --size: 60px;\n border: var(--border-width) solid #f3f3f3;\n border-radius: 50%;\n border-top: var(--border-width) solid #1bbeff;\n border-bottom: var(--border-width) solid #1bbeff;\n border-left: var(--border-width) solid #147ec5;\n border-right: var(--border-width) solid #147ec5;\n width: var(--size);\n height: var(--size);\n animation: spin35112 2s linear infinite;\n}\n\n@keyframes spin35112 {\n 0% {\n  transform: rotate(0deg);\n }\n\n 100% {\n  transform: rotate(360deg);\n }\n}\n\n.shake {\n animation: shake61790 1s linear infinite;\n}\n\n@keyframes shake61790 {\n 0% {\n  transform: skewX(0deg);\n }\n\n 50% {\n  transform: skewX(20deg);\n }\n\n 100% {\n  transform: skewX(0deg);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Lizard 23</title>\n<style>\n/* Loud Lizard 23 by Alaner-xs — https://uiverse.io/Alaner-xs/loud-lizard-23 */\n.loader {\n --border-width: 10px;\n --size: 60px;\n border: var(--border-width) solid #f3f3f3;\n border-radius: 50%;\n border-top: var(--border-width) solid #1bbeff;\n border-bottom: var(--border-width) solid #1bbeff;\n border-left: var(--border-width) solid #147ec5;\n border-right: var(--border-width) solid #147ec5;\n width: var(--size);\n height: var(--size);\n animation: spin35112 2s linear infinite;\n}\n\n@keyframes spin35112 {\n 0% {\n  transform: rotate(0deg);\n }\n\n 100% {\n  transform: rotate(360deg);\n }\n}\n\n.shake {\n animation: shake61790 1s linear infinite;\n}\n\n@keyframes shake61790 {\n 0% {\n  transform: skewX(0deg);\n }\n\n 50% {\n  transform: skewX(20deg);\n }\n\n 100% {\n  transform: skewX(0deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"shake\">\n<div class=\"loader\"></div>\n</div>\n\n</body>\n</html>\n"
 }

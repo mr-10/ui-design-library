@@ -5,15 +5,24 @@
  "author": "escannord",
  "source": "https://uiverse.io/escannord/hard-rabbit-4",
  "trigger": "static",
- "description": "A pattern with simple and black styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient black pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "black",
+  "gradient",
+  "outlined",
+  "flat",
   "pattern",
-  "static"
+  "simple",
+  "black"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by escannord  - Tags: simple, black, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: rgba(29, 31, 32, 0.904)\n    radial-gradient(rgba(255, 255, 255, 0.712) 10%, transparent 1%);\n\n  background-size: 11px 11px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Rabbit 4</title>\n<style>\n/* From Uiverse.io by escannord - https://uiverse.io/escannord/hard-rabbit-4 */\n/* From Uiverse.io by escannord  - Tags: simple, black, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: rgba(29, 31, 32, 0.904)\n    radial-gradient(rgba(255, 255, 255, 0.712) 10%, transparent 1%);\n\n  background-size: 11px 11px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#1d1f20",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 126,
+ "size": 507,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Hard Rabbit 4 by escannord — https://uiverse.io/escannord/hard-rabbit-4 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background: rgba(29, 31, 32, 0.904)\n    radial-gradient(rgba(255, 255, 255, 0.712) 10%, transparent 1%);\n\n  background-size: 11px 11px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Rabbit 4</title>\n<style>\n/* Hard Rabbit 4 by escannord — https://uiverse.io/escannord/hard-rabbit-4 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background: rgba(29, 31, 32, 0.904)\n    radial-gradient(rgba(255, 255, 255, 0.712) 10%, transparent 1%);\n\n  background-size: 11px 11px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

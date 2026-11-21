@@ -5,14 +5,25 @@
  "author": "Jules-gitclerc",
  "source": "https://uiverse.io/Jules-gitclerc/red-bear-19",
  "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Rounded dark sky-blue text input that lights up when focused.",
+ "howItWorks": "It has no :focus rule in its CSS; focusing the text input shows only the browser default.",
  "tags": [
+  "blue",
+  "orange",
+  "rounded",
+  "text-input",
   "inputs",
-  "focus",
-  "css"
+  "focus"
  ],
- "html": "<!-- From Uiverse.io by Jules-gitclerc  - Tags: material design, input, creditcard, payment, mastercard -->\n<div\n  class=\"flex items-center justify-center bg-gray-800 overflow-hidden p-1 border border-white border-opacity-30 rounded-lg shadow-md h-9\"\n>\n  <input\n    class=\"w-42 h-full border-none outline-none text-sm bg-gray-800 text-white font-semibold caret-orange-500 pl-2\"\n    type=\"text\"\n    name=\"text\"\n    id=\"input\"\n    placeholder=\"0000 0000 0000 0000\"\n  />\n  <div\n    class=\"flex items-center justify-center relative w-10 h-6 bg-gray-800 border border-white border-opacity-20 rounded-md\"\n  >\n    <svg\n      class=\"text-white fill-current\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      width=\"23\"\n      height=\"23\"\n      viewBox=\"0 0 48 48\"\n    >\n      <path\n        fill=\"#ff9800\"\n        d=\"M32 10A14 14 0 1 0 32 38A14 14 0 1 0 32 10Z\"\n      ></path>\n      <path\n        fill=\"#d50000\"\n        d=\"M16 10A14 14 0 1 0 16 38A14 14 0 1 0 16 10Z\"\n      ></path>\n      <path\n        fill=\"#ff3d00\"\n        d=\"M18,24c0,4.755,2.376,8.95,6,11.48c3.624-2.53,6-6.725,6-11.48s-2.376-8.95-6-11.48 C20.376,15.05,18,19.245,18,24z\"\n      ></path>\n    </svg>\n  </div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Bear 19</title>\n<style>\n/* From Uiverse.io by Jules-gitclerc - https://uiverse.io/Jules-gitclerc/red-bear-19 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Jules-gitclerc  - Tags: material design, input, creditcard, payment, mastercard -->\n<div\n  class=\"flex items-center justify-center bg-gray-800 overflow-hidden p-1 border border-white border-opacity-30 rounded-lg shadow-md h-9\"\n>\n  <input\n    class=\"w-42 h-full border-none outline-none text-sm bg-gray-800 text-white font-semibold caret-orange-500 pl-2\"\n    type=\"text\"\n    name=\"text\"\n    id=\"input\"\n    placeholder=\"0000 0000 0000 0000\"\n  />\n  <div\n    class=\"flex items-center justify-center relative w-10 h-6 bg-gray-800 border border-white border-opacity-20 rounded-md\"\n  >\n    <svg\n      class=\"text-white fill-current\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      width=\"23\"\n      height=\"23\"\n      viewBox=\"0 0 48 48\"\n    >\n      <path\n        fill=\"#ff9800\"\n        d=\"M32 10A14 14 0 1 0 32 38A14 14 0 1 0 32 10Z\"\n      ></path>\n      <path\n        fill=\"#d50000\"\n        d=\"M16 10A14 14 0 1 0 16 38A14 14 0 1 0 16 10Z\"\n      ></path>\n      <path\n        fill=\"#ff3d00\"\n        d=\"M18,24c0,4.755,2.376,8.95,6,11.48c3.624-2.53,6-6.725,6-11.48s-2.376-8.95-6-11.48 C20.376,15.05,18,19.245,18,24z\"\n      ></path>\n    </svg>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#1f2937",
+  "#f97316",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 340,
+ "size": 1360,
+ "html": "<div\n  class=\"flex items-center justify-center bg-gray-800 overflow-hidden p-1 border border-white border-opacity-30 rounded-lg shadow-md h-9\"\n>\n  <input\n    class=\"w-42 h-full border-none outline-none text-sm bg-gray-800 text-white font-semibold caret-orange-500 pl-2\"\n    type=\"text\"\n    name=\"text\"\n    id=\"input\"\n    placeholder=\"0000 0000 0000 0000\"\n  />\n  <div\n    class=\"flex items-center justify-center relative w-10 h-6 bg-gray-800 border border-white border-opacity-20 rounded-md\"\n  >\n    <svg\n      class=\"text-white fill-current\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      width=\"23\"\n      height=\"23\"\n      viewBox=\"0 0 48 48\"\n    >\n      <path\n        fill=\"#ff9800\"\n        d=\"M32 10A14 14 0 1 0 32 38A14 14 0 1 0 32 10Z\"\n      ></path>\n      <path\n        fill=\"#d50000\"\n        d=\"M16 10A14 14 0 1 0 16 38A14 14 0 1 0 16 10Z\"\n      ></path>\n      <path\n        fill=\"#ff3d00\"\n        d=\"M18,24c0,4.755,2.376,8.95,6,11.48c3.624-2.53,6-6.725,6-11.48s-2.376-8.95-6-11.48 C20.376,15.05,18,19.245,18,24z\"\n      ></path>\n    </svg>\n  </div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Bear 19</title>\n<style>\n/* Red Bear 19 by Jules-gitclerc — https://uiverse.io/Jules-gitclerc/red-bear-19 */\n\n</style>\n</head>\n<body>\n<div\n  class=\"flex items-center justify-center bg-gray-800 overflow-hidden p-1 border border-white border-opacity-30 rounded-lg shadow-md h-9\"\n>\n  <input\n    class=\"w-42 h-full border-none outline-none text-sm bg-gray-800 text-white font-semibold caret-orange-500 pl-2\"\n    type=\"text\"\n    name=\"text\"\n    id=\"input\"\n    placeholder=\"0000 0000 0000 0000\"\n  />\n  <div\n    class=\"flex items-center justify-center relative w-10 h-6 bg-gray-800 border border-white border-opacity-20 rounded-md\"\n  >\n    <svg\n      class=\"text-white fill-current\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      width=\"23\"\n      height=\"23\"\n      viewBox=\"0 0 48 48\"\n    >\n      <path\n        fill=\"#ff9800\"\n        d=\"M32 10A14 14 0 1 0 32 38A14 14 0 1 0 32 10Z\"\n      ></path>\n      <path\n        fill=\"#d50000\"\n        d=\"M16 10A14 14 0 1 0 16 38A14 14 0 1 0 16 10Z\"\n      ></path>\n      <path\n        fill=\"#ff3d00\"\n        d=\"M18,24c0,4.755,2.376,8.95,6,11.48c3.624-2.53,6-6.725,6-11.48s-2.376-8.95-6-11.48 C20.376,15.05,18,19.245,18,24z\"\n      ></path>\n    </svg>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

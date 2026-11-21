@@ -5,17 +5,26 @@
  "author": "catraco",
  "source": "https://uiverse.io/catraco/friendly-snake-37",
  "trigger": "hover",
- "description": "A button with ring, next and hover-effect styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon rounded green button that glows on hover.",
+ "howItWorks": "On hover, box-shadow becomes 0 0 0 5px #b4ff64, transform becomes scale(1), font-size becomes 20px.",
  "tags": [
-  "button",
-  "ring",
-  "next",
-  "hover-effect",
-  "startbutton",
-  "variables"
+  "green",
+  "neon",
+  "rounded",
+  "glow",
+  "shrink",
+  "slide"
  ],
- "html": "<button class=\"btn-class-name\">\n  <span>Next</span>\n  <svg viewBox=\"0 0 320 512\" height=\"1em\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z\">\n  </path>\n  </svg>\n</button>",
- "css": "/* From Uiverse.io by catraco - Tags: button, ring, next, hover effect, startbutton , variables */\n.btn-class-name {\n  --color: 180,255, 100;\n  border-radius: .5em;\n  transition: .3s;\n  background-color: rgba(var(--color), .2);\n  color: rgb(var(--color));\n  fill: rgb(var(--color));\n  font-family: monospace;\n  font-weight: bolder;\n  font-size: x-large;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n  cursor: pointer;\n  border: 2px solid rgb(var(--color));\n  box-shadow: 0 0 10px rgba(var(--color), .4);\n  outline: none;\n  display: flex;\n  align-items: center;\n  padding: .5em 1em;\n}\n\n.btn-class-name:hover {\n  box-shadow: 0 0 0 5px rgba(var(--color), .5);\n}\n\n.btn-class-name span {\n  transform: scale(.8);\n  transition: .3s;\n}\n\n.btn-class-name:hover span {\n  transform: scale(1);\n}\n\n.btn-class-name svg {\n  font-size: 0;\n  transform: scale(0.5) translateX(0%) rotate(-180deg);\n  transition: .3s;\n}\n\n.btn-class-name:hover svg {\n  font-size: 20px;\n  transform: scale(1) translateX(20%) rotate(0deg);\n}\n\n.btn-class-name:active {\n  transition: 0s;\n  box-shadow: 0 0 0 5px rgb(var(--color));\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Friendly Snake 37</title>\n<style>\n/* From Uiverse.io by catraco - https://uiverse.io/catraco/friendly-snake-37 */\n/* From Uiverse.io by catraco - Tags: button, ring, next, hover effect, startbutton , variables */\n.btn-class-name {\n  --color: 180,255, 100;\n  border-radius: .5em;\n  transition: .3s;\n  background-color: rgba(var(--color), .2);\n  color: rgb(var(--color));\n  fill: rgb(var(--color));\n  font-family: monospace;\n  font-weight: bolder;\n  font-size: x-large;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n  cursor: pointer;\n  border: 2px solid rgb(var(--color));\n  box-shadow: 0 0 10px rgba(var(--color), .4);\n  outline: none;\n  display: flex;\n  align-items: center;\n  padding: .5em 1em;\n}\n\n.btn-class-name:hover {\n  box-shadow: 0 0 0 5px rgba(var(--color), .5);\n}\n\n.btn-class-name span {\n  transform: scale(.8);\n  transition: .3s;\n}\n\n.btn-class-name:hover span {\n  transform: scale(1);\n}\n\n.btn-class-name svg {\n  font-size: 0;\n  transform: scale(0.5) translateX(0%) rotate(-180deg);\n  transition: .3s;\n}\n\n.btn-class-name:hover svg {\n  font-size: 20px;\n  transform: scale(1) translateX(20%) rotate(0deg);\n}\n\n.btn-class-name:active {\n  transition: 0s;\n  box-shadow: 0 0 0 5px rgb(var(--color));\n}\n</style>\n</head>\n<body>\n<button class=\"btn-class-name\">\n  <span>Next</span>\n  <svg viewBox=\"0 0 320 512\" height=\"1em\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z\">\n  </path>\n  </svg>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#b4ff64",
+  "#ffffff"
+ ],
+ "fonts": [
+  "monospace"
+ ],
+ "tokens": 410,
+ "size": 1643,
+ "html": "<button class=\"btn-class-name\">\n  <span>Next</span>\n  <svg viewBox=\"0 0 320 512\" height=\"1em\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z\">\n  </path>\n  </svg>\n</button>\n",
+ "css": "/* Friendly Snake 37 by catraco — https://uiverse.io/catraco/friendly-snake-37 */\n.btn-class-name {\n  --color: 180,255, 100;\n  border-radius: .5em;\n  transition: .3s;\n  background-color: rgba(var(--color), .2);\n  color: rgb(var(--color));\n  fill: rgb(var(--color));\n  font-family: monospace;\n  font-weight: bolder;\n  font-size: x-large;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n  cursor: pointer;\n  border: 2px solid rgb(var(--color));\n  box-shadow: 0 0 10px rgba(var(--color), .4);\n  outline: none;\n  display: flex;\n  align-items: center;\n  padding: .5em 1em;\n}\n\n.btn-class-name:hover {\n  box-shadow: 0 0 0 5px rgba(var(--color), .5);\n}\n\n.btn-class-name span {\n  transform: scale(.8);\n  transition: .3s;\n}\n\n.btn-class-name:hover span {\n  transform: scale(1);\n}\n\n.btn-class-name svg {\n  font-size: 0;\n  transform: scale(0.5) translateX(0%) rotate(-180deg);\n  transition: .3s;\n}\n\n.btn-class-name:hover svg {\n  font-size: 20px;\n  transform: scale(1) translateX(20%) rotate(0deg);\n}\n\n.btn-class-name:active {\n  transition: 0s;\n  box-shadow: 0 0 0 5px rgb(var(--color));\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Friendly Snake 37</title>\n<style>\n/* Friendly Snake 37 by catraco — https://uiverse.io/catraco/friendly-snake-37 */\n.btn-class-name {\n  --color: 180,255, 100;\n  border-radius: .5em;\n  transition: .3s;\n  background-color: rgba(var(--color), .2);\n  color: rgb(var(--color));\n  fill: rgb(var(--color));\n  font-family: monospace;\n  font-weight: bolder;\n  font-size: x-large;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n  cursor: pointer;\n  border: 2px solid rgb(var(--color));\n  box-shadow: 0 0 10px rgba(var(--color), .4);\n  outline: none;\n  display: flex;\n  align-items: center;\n  padding: .5em 1em;\n}\n\n.btn-class-name:hover {\n  box-shadow: 0 0 0 5px rgba(var(--color), .5);\n}\n\n.btn-class-name span {\n  transform: scale(.8);\n  transition: .3s;\n}\n\n.btn-class-name:hover span {\n  transform: scale(1);\n}\n\n.btn-class-name svg {\n  font-size: 0;\n  transform: scale(0.5) translateX(0%) rotate(-180deg);\n  transition: .3s;\n}\n\n.btn-class-name:hover svg {\n  font-size: 20px;\n  transform: scale(1) translateX(20%) rotate(0deg);\n}\n\n.btn-class-name:active {\n  transition: 0s;\n  box-shadow: 0 0 0 5px rgb(var(--color));\n}\n</style>\n</head>\n<body>\n<button class=\"btn-class-name\">\n  <span>Next</span>\n  <svg viewBox=\"0 0 320 512\" height=\"1em\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z\">\n  </path>\n  </svg>\n</button>\n\n</body>\n</html>\n"
 }

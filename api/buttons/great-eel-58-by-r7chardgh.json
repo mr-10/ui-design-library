@@ -5,15 +5,24 @@
  "author": "r7chardgh",
  "source": "https://uiverse.io/r7chardgh/great-eel-58",
  "trigger": "active",
- "description": "A button with reload and f5 styling.",
- "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "description": "3d gray button that responds while pressed down.",
+ "howItWorks": "While pressed, transform becomes rotateX(30deg) translateY(.3em), box-shadow becomes 0 0 0 0 #3f3f3f.",
  "tags": [
+  "3d",
+  "outlined",
   "button",
   "reload",
   "f5",
   "active"
  ],
- "html": "<button class=\"button\">\n</button>",
- "css": "/* From Uiverse.io by r7chardgh - Tags: button, reload, f5 */\n.button {\n  position: relative;\n  width: 3em;\n  height: 3em;\n  transform: rotateX(30deg);\n  border-radius: .2em;\n  border: 1px solid #3f3f3f;\n  box-shadow: 0 .3em 0 .1em #3f3f3f;\n  ;\n  transition: all 150ms;\n}\n\n.button::after {\n  position: absolute;\n  content: \"f5\";\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  padding: .2em;\n  text-align: end;\n  color: #3f3f3f;\n}\n\n.button:active {\n  transform: rotateX(30deg) translateY(.3em);\n  box-shadow: 0 0 0 0 #3f3f3f;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Great Eel 58</title>\n<style>\n/* From Uiverse.io by r7chardgh - https://uiverse.io/r7chardgh/great-eel-58 */\n/* From Uiverse.io by r7chardgh - Tags: button, reload, f5 */\n.button {\n  position: relative;\n  width: 3em;\n  height: 3em;\n  transform: rotateX(30deg);\n  border-radius: .2em;\n  border: 1px solid #3f3f3f;\n  box-shadow: 0 .3em 0 .1em #3f3f3f;\n  ;\n  transition: all 150ms;\n}\n\n.button::after {\n  position: absolute;\n  content: \"f5\";\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  padding: .2em;\n  text-align: end;\n  color: #3f3f3f;\n}\n\n.button:active {\n  transform: rotateX(30deg) translateY(.3em);\n  box-shadow: 0 0 0 0 #3f3f3f;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#3f3f3f",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 197,
+ "size": 789,
+ "html": "<button class=\"button\">\n</button>\n",
+ "css": "/* Great Eel 58 by r7chardgh — https://uiverse.io/r7chardgh/great-eel-58 */\n.button {\n  position: relative;\n  width: 3em;\n  height: 3em;\n  transform: rotateX(30deg);\n  border-radius: .2em;\n  border: 1px solid #3f3f3f;\n  box-shadow: 0 .3em 0 .1em #3f3f3f;\n  ;\n  transition: all 150ms;\n}\n\n.button::after {\n  position: absolute;\n  content: \"f5\";\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  padding: .2em;\n  text-align: end;\n  color: #3f3f3f;\n}\n\n.button:active {\n  transform: rotateX(30deg) translateY(.3em);\n  box-shadow: 0 0 0 0 #3f3f3f;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Great Eel 58</title>\n<style>\n/* Great Eel 58 by r7chardgh — https://uiverse.io/r7chardgh/great-eel-58 */\n.button {\n  position: relative;\n  width: 3em;\n  height: 3em;\n  transform: rotateX(30deg);\n  border-radius: .2em;\n  border: 1px solid #3f3f3f;\n  box-shadow: 0 .3em 0 .1em #3f3f3f;\n  ;\n  transition: all 150ms;\n}\n\n.button::after {\n  position: absolute;\n  content: \"f5\";\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  padding: .2em;\n  text-align: end;\n  color: #3f3f3f;\n}\n\n.button:active {\n  transform: rotateX(30deg) translateY(.3em);\n  box-shadow: 0 0 0 0 #3f3f3f;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n</button>\n\n</body>\n</html>\n"
 }

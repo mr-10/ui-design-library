@@ -5,14 +5,23 @@
  "author": "Shubh0408",
  "source": "https://uiverse.io/Shubh0408/pink-cobra-51",
  "trigger": "checked",
- "description": "A checkbox UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Rounded black checkbox that toggles on and off when clicked.",
+ "howItWorks": "Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "rounded",
+  "checkbox",
   "checkboxes",
   "checked",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Shubh0408  - Tags: checkbox, hamburger, toggle, menu, close -->\n<label>\n  <div\n    class=\"w-9 h-10 cursor-pointer flex flex-col items-center justify-center\"\n  >\n    <input class=\"hidden peer\" type=\"checkbox\" />\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]\"\n    ></div>\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-center peer-checked:hidden\"\n    ></div>\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]\"\n    ></div>\n  </div>\n</label>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Pink Cobra 51</title>\n<style>\n/* From Uiverse.io by Shubh0408 - https://uiverse.io/Shubh0408/pink-cobra-51 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Shubh0408  - Tags: checkbox, hamburger, toggle, menu, close -->\n<label>\n  <div\n    class=\"w-9 h-10 cursor-pointer flex flex-col items-center justify-center\"\n  >\n    <input class=\"hidden peer\" type=\"checkbox\" />\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]\"\n    ></div>\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-center peer-checked:hidden\"\n    ></div>\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]\"\n    ></div>\n  </div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 228,
+ "size": 915,
+ "html": "<label>\n  <div\n    class=\"w-9 h-10 cursor-pointer flex flex-col items-center justify-center\"\n  >\n    <input class=\"hidden peer\" type=\"checkbox\" />\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]\"\n    ></div>\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-center peer-checked:hidden\"\n    ></div>\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]\"\n    ></div>\n  </div>\n</label>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Pink Cobra 51</title>\n<style>\n/* Pink Cobra 51 by Shubh0408 — https://uiverse.io/Shubh0408/pink-cobra-51 */\n\n</style>\n</head>\n<body>\n<label>\n  <div\n    class=\"w-9 h-10 cursor-pointer flex flex-col items-center justify-center\"\n  >\n    <input class=\"hidden peer\" type=\"checkbox\" />\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-sm transition-all duration-300 origin-left translate-y-[0.45rem] peer-checked:rotate-[-45deg]\"\n    ></div>\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-center peer-checked:hidden\"\n    ></div>\n    <div\n      class=\"w-[50%] h-[2px] bg-black rounded-md transition-all duration-300 origin-left -translate-y-[0.45rem] peer-checked:rotate-[45deg]\"\n    ></div>\n  </div>\n</label>\n\n</body>\n</html>\n"
 }

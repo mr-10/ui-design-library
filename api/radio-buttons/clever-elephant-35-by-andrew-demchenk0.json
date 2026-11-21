@@ -5,16 +5,25 @@
  "author": "andrew-demchenk0",
  "source": "https://uiverse.io/andrew-demchenk0/clever-elephant-35",
  "trigger": "checked",
- "description": "A radio button with radio, stars and rating styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Amber radio button that toggles on and off when clicked.",
+ "howItWorks": "On hover, text color changes to #e58e09, text color changes to #ff9e0b. Clicking it toggles it: font-size becomes 30px, text color changes to #666, text color changes to #e58e09.",
  "tags": [
-  "radio",
-  "stars",
+  "amber",
+  "flat",
+  "color-change",
   "rating",
-  "radio-buttons",
-  "checked"
+  "radio-button",
+  "radio"
  ],
- "html": "<div class=\"rating\">\n  <input value=\"5\" name=\"rate\" id=\"star5\" type=\"radio\">\n  <label title=\"text\" for=\"star5\"></label>\n  <input value=\"4\" name=\"rate\" id=\"star4\" type=\"radio\">\n  <label title=\"text\" for=\"star4\"></label>\n  <input value=\"3\" name=\"rate\" id=\"star3\" type=\"radio\" checked=\"\">\n  <label title=\"text\" for=\"star3\"></label>\n  <input value=\"2\" name=\"rate\" id=\"star2\" type=\"radio\">\n  <label title=\"text\" for=\"star2\"></label>\n  <input value=\"1\" name=\"rate\" id=\"star1\" type=\"radio\">\n  <label title=\"text\" for=\"star1\"></label>\n</div>",
- "css": "/* From Uiverse.io by andrew-demchenk0 - Tags: radio, stars, rating */\n.rating:not(:checked) > input {\n  position: absolute;\n  appearance: none;\n}\n\n.rating:not(:checked) > label {\n  float: right;\n  cursor: pointer;\n  font-size: 30px;\n  color: #666;\n}\n\n.rating:not(:checked) > label:before {\n  content: '★';\n}\n\n.rating > input:checked + label:hover,\n.rating > input:checked + label:hover ~ label,\n.rating > input:checked ~ label:hover,\n.rating > input:checked ~ label:hover ~ label,\n.rating > label:hover ~ input:checked ~ label {\n  color: #e58e09;\n}\n\n.rating:not(:checked) > label:hover,\n.rating:not(:checked) > label:hover ~ label {\n  color: #ff9e0b;\n}\n\n.rating > input:checked ~ label {\n  color: #ffa723;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Clever Elephant 35</title>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - https://uiverse.io/andrew-demchenk0/clever-elephant-35 */\n/* From Uiverse.io by andrew-demchenk0 - Tags: radio, stars, rating */\n.rating:not(:checked) > input {\n  position: absolute;\n  appearance: none;\n}\n\n.rating:not(:checked) > label {\n  float: right;\n  cursor: pointer;\n  font-size: 30px;\n  color: #666;\n}\n\n.rating:not(:checked) > label:before {\n  content: '★';\n}\n\n.rating > input:checked + label:hover,\n.rating > input:checked + label:hover ~ label,\n.rating > input:checked ~ label:hover,\n.rating > input:checked ~ label:hover ~ label,\n.rating > label:hover ~ input:checked ~ label {\n  color: #e58e09;\n}\n\n.rating:not(:checked) > label:hover,\n.rating:not(:checked) > label:hover ~ label {\n  color: #ff9e0b;\n}\n\n.rating > input:checked ~ label {\n  color: #ffa723;\n}\n</style>\n</head>\n<body>\n<div class=\"rating\">\n  <input value=\"5\" name=\"rate\" id=\"star5\" type=\"radio\">\n  <label title=\"text\" for=\"star5\"></label>\n  <input value=\"4\" name=\"rate\" id=\"star4\" type=\"radio\">\n  <label title=\"text\" for=\"star4\"></label>\n  <input value=\"3\" name=\"rate\" id=\"star3\" type=\"radio\" checked=\"\">\n  <label title=\"text\" for=\"star3\"></label>\n  <input value=\"2\" name=\"rate\" id=\"star2\" type=\"radio\">\n  <label title=\"text\" for=\"star2\"></label>\n  <input value=\"1\" name=\"rate\" id=\"star1\" type=\"radio\">\n  <label title=\"text\" for=\"star1\"></label>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#666666",
+  "#e58e09",
+  "#ff9e0b"
+ ],
+ "fonts": [],
+ "tokens": 373,
+ "size": 1495,
+ "html": "<div class=\"rating\">\n  <input value=\"5\" name=\"rate\" id=\"star5\" type=\"radio\">\n  <label title=\"text\" for=\"star5\"></label>\n  <input value=\"4\" name=\"rate\" id=\"star4\" type=\"radio\">\n  <label title=\"text\" for=\"star4\"></label>\n  <input value=\"3\" name=\"rate\" id=\"star3\" type=\"radio\" checked=\"\">\n  <label title=\"text\" for=\"star3\"></label>\n  <input value=\"2\" name=\"rate\" id=\"star2\" type=\"radio\">\n  <label title=\"text\" for=\"star2\"></label>\n  <input value=\"1\" name=\"rate\" id=\"star1\" type=\"radio\">\n  <label title=\"text\" for=\"star1\"></label>\n</div>\n",
+ "css": "/* Clever Elephant 35 by andrew-demchenk0 — https://uiverse.io/andrew-demchenk0/clever-elephant-35 */\n.rating:not(:checked) > input {\n  position: absolute;\n  appearance: none;\n}\n\n.rating:not(:checked) > label {\n  float: right;\n  cursor: pointer;\n  font-size: 30px;\n  color: #666;\n}\n\n.rating:not(:checked) > label:before {\n  content: '★';\n}\n\n.rating > input:checked + label:hover,\n.rating > input:checked + label:hover ~ label,\n.rating > input:checked ~ label:hover,\n.rating > input:checked ~ label:hover ~ label,\n.rating > label:hover ~ input:checked ~ label {\n  color: #e58e09;\n}\n\n.rating:not(:checked) > label:hover,\n.rating:not(:checked) > label:hover ~ label {\n  color: #ff9e0b;\n}\n\n.rating > input:checked ~ label {\n  color: #ffa723;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Clever Elephant 35</title>\n<style>\n/* Clever Elephant 35 by andrew-demchenk0 — https://uiverse.io/andrew-demchenk0/clever-elephant-35 */\n.rating:not(:checked) > input {\n  position: absolute;\n  appearance: none;\n}\n\n.rating:not(:checked) > label {\n  float: right;\n  cursor: pointer;\n  font-size: 30px;\n  color: #666;\n}\n\n.rating:not(:checked) > label:before {\n  content: '★';\n}\n\n.rating > input:checked + label:hover,\n.rating > input:checked + label:hover ~ label,\n.rating > input:checked ~ label:hover,\n.rating > input:checked ~ label:hover ~ label,\n.rating > label:hover ~ input:checked ~ label {\n  color: #e58e09;\n}\n\n.rating:not(:checked) > label:hover,\n.rating:not(:checked) > label:hover ~ label {\n  color: #ff9e0b;\n}\n\n.rating > input:checked ~ label {\n  color: #ffa723;\n}\n</style>\n</head>\n<body>\n<div class=\"rating\">\n  <input value=\"5\" name=\"rate\" id=\"star5\" type=\"radio\">\n  <label title=\"text\" for=\"star5\"></label>\n  <input value=\"4\" name=\"rate\" id=\"star4\" type=\"radio\">\n  <label title=\"text\" for=\"star4\"></label>\n  <input value=\"3\" name=\"rate\" id=\"star3\" type=\"radio\" checked=\"\">\n  <label title=\"text\" for=\"star3\"></label>\n  <input value=\"2\" name=\"rate\" id=\"star2\" type=\"radio\">\n  <label title=\"text\" for=\"star2\"></label>\n  <input value=\"1\" name=\"rate\" id=\"star1\" type=\"radio\">\n  <label title=\"text\" for=\"star1\"></label>\n</div>\n\n</body>\n</html>\n"
 }

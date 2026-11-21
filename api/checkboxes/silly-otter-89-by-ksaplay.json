@@ -5,14 +5,24 @@
  "author": "KSAplay",
  "source": "https://uiverse.io/KSAplay/silly-otter-89",
  "trigger": "checked",
- "description": "A checkbox UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Outlined pill white checkbox that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: transform becomes scale(1).",
  "tags": [
+  "outlined",
+  "rounded",
+  "pill",
+  "flat",
   "checkbox",
-  "checked",
-  "css"
+  "checked"
  ],
- "html": "<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>",
- "css": "/* From Uiverse.io by KSAplay - Tags: checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  position: relative;\n  cursor: pointer;\n  font-size: 17px;\n  width: 2em;\n  height: 2em;\n  border-radius: 50%;\n  user-select: none;\n  border: 5px solid white;\n  display: block;\n}\n\n.checkmark {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.checkmark:after {\n  content: '';\n  position: absolute;\n  top: 25%;\n  left: 25%;\n  background-color: white;\n  width: 50%;\n  height: 50%;\n  border-radius: 50%;\n  transform: scale(0);\n  transition: 100ms ease;\n}\n\n.container input:checked ~ .checkmark:after {\n  transform: scale(1);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silly Otter 89</title>\n<style>\n/* From Uiverse.io by KSAplay - https://uiverse.io/KSAplay/silly-otter-89 */\n/* From Uiverse.io by KSAplay - Tags: checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  position: relative;\n  cursor: pointer;\n  font-size: 17px;\n  width: 2em;\n  height: 2em;\n  border-radius: 50%;\n  user-select: none;\n  border: 5px solid white;\n  display: block;\n}\n\n.checkmark {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.checkmark:after {\n  content: '';\n  position: absolute;\n  top: 25%;\n  left: 25%;\n  background-color: white;\n  width: 50%;\n  height: 50%;\n  border-radius: 50%;\n  transform: scale(0);\n  transition: 100ms ease;\n}\n\n.container input:checked ~ .checkmark:after {\n  transform: scale(1);\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 267,
+ "size": 1069,
+ "html": "<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>\n",
+ "css": "/* Silly Otter 89 by KSAplay — https://uiverse.io/KSAplay/silly-otter-89 */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  position: relative;\n  cursor: pointer;\n  font-size: 17px;\n  width: 2em;\n  height: 2em;\n  border-radius: 50%;\n  user-select: none;\n  border: 5px solid white;\n  display: block;\n}\n\n.checkmark {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.checkmark:after {\n  content: '';\n  position: absolute;\n  top: 25%;\n  left: 25%;\n  background-color: white;\n  width: 50%;\n  height: 50%;\n  border-radius: 50%;\n  transform: scale(0);\n  transition: 100ms ease;\n}\n\n.container input:checked ~ .checkmark:after {\n  transform: scale(1);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silly Otter 89</title>\n<style>\n/* Silly Otter 89 by KSAplay — https://uiverse.io/KSAplay/silly-otter-89 */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  position: relative;\n  cursor: pointer;\n  font-size: 17px;\n  width: 2em;\n  height: 2em;\n  border-radius: 50%;\n  user-select: none;\n  border: 5px solid white;\n  display: block;\n}\n\n.checkmark {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n}\n\n.checkmark:after {\n  content: '';\n  position: absolute;\n  top: 25%;\n  left: 25%;\n  background-color: white;\n  width: 50%;\n  height: 50%;\n  border-radius: 50%;\n  transform: scale(0);\n  transition: 100ms ease;\n}\n\n.container input:checked ~ .checkmark:after {\n  transform: scale(1);\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>\n\n</body>\n</html>\n"
 }

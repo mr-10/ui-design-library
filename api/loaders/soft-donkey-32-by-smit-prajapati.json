@@ -5,16 +5,25 @@
  "author": "Smit-Prajapati",
  "source": "https://uiverse.io/Smit-Prajapati/soft-donkey-32",
  "trigger": "auto-loop",
- "description": "A loader with blue, light and neon styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient cyan loader with animating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (animating).",
  "tags": [
+  "cyan",
+  "gradient",
+  "flat",
   "blue",
   "loader",
-  "light",
-  "neon",
-  "auto-loop"
+  "light"
  ],
- "html": "<div class=\"loader\">\n  <div class=\"light\"></div>\n  <div class=\"black_overlay\"></div>\n</div>",
- "css": "/* From Uiverse.io by Smit-Prajapati  - Tags: blue, loader, light, neon */\n.loader {\n  height: 2px;\n  width: 300px;\n  background: rgb(44, 44, 44);\n  position: relative;\n  overflow: hidden;\n}\n.loader .black_overlay {\n  background: linear-gradient(\n    87deg,\n    rgb(0, 0, 0) 0%,\n    rgba(0, 0, 0, 0.14) 30%,\n    rgba(0, 0, 0, 0.14) 70%,\n    rgb(0, 0, 0) 100%\n  );\n  position: absolute;\n  inset: 0px;\n}\n.loader .light {\n  width: 70px;\n  height: 100%;\n  position: absolute;\n  left: -20%;\n  top: 0px;\n  background: linear-gradient(\n    87deg,\n    rgba(0, 0, 0, 0) 0%,\n    rgb(0, 204, 255) 40%,\n    rgb(0, 204, 255) 60%,\n    rgba(0, 0, 0, 0) 100%\n  );\n  animation: light 2s infinite ease-in-out;\n}\n\n@keyframes light {\n  from {\n    left: -30%;\n  }\n  to {\n    left: 100%;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Donkey 32</title>\n<style>\n/* From Uiverse.io by Smit-Prajapati - https://uiverse.io/Smit-Prajapati/soft-donkey-32 */\n/* From Uiverse.io by Smit-Prajapati  - Tags: blue, loader, light, neon */\n.loader {\n  height: 2px;\n  width: 300px;\n  background: rgb(44, 44, 44);\n  position: relative;\n  overflow: hidden;\n}\n.loader .black_overlay {\n  background: linear-gradient(\n    87deg,\n    rgb(0, 0, 0) 0%,\n    rgba(0, 0, 0, 0.14) 30%,\n    rgba(0, 0, 0, 0.14) 70%,\n    rgb(0, 0, 0) 100%\n  );\n  position: absolute;\n  inset: 0px;\n}\n.loader .light {\n  width: 70px;\n  height: 100%;\n  position: absolute;\n  left: -20%;\n  top: 0px;\n  background: linear-gradient(\n    87deg,\n    rgba(0, 0, 0, 0) 0%,\n    rgb(0, 204, 255) 40%,\n    rgb(0, 204, 255) 60%,\n    rgba(0, 0, 0, 0) 100%\n  );\n  animation: light 2s infinite ease-in-out;\n}\n\n@keyframes light {\n  from {\n    left: -30%;\n  }\n  to {\n    left: 100%;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"light\"></div>\n  <div class=\"black_overlay\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#00ccff",
+  "#2c2c2c",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 273,
+ "size": 1094,
+ "html": "<div class=\"loader\">\n  <div class=\"light\"></div>\n  <div class=\"black_overlay\"></div>\n</div>\n",
+ "css": "/* Soft Donkey 32 by Smit-Prajapati — https://uiverse.io/Smit-Prajapati/soft-donkey-32 */\n.loader {\n  height: 2px;\n  width: 300px;\n  background: rgb(44, 44, 44);\n  position: relative;\n  overflow: hidden;\n}\n.loader .black_overlay {\n  background: linear-gradient(\n    87deg,\n    rgb(0, 0, 0) 0%,\n    rgba(0, 0, 0, 0.14) 30%,\n    rgba(0, 0, 0, 0.14) 70%,\n    rgb(0, 0, 0) 100%\n  );\n  position: absolute;\n  inset: 0px;\n}\n.loader .light {\n  width: 70px;\n  height: 100%;\n  position: absolute;\n  left: -20%;\n  top: 0px;\n  background: linear-gradient(\n    87deg,\n    rgba(0, 0, 0, 0) 0%,\n    rgb(0, 204, 255) 40%,\n    rgb(0, 204, 255) 60%,\n    rgba(0, 0, 0, 0) 100%\n  );\n  animation: light 2s infinite ease-in-out;\n}\n\n@keyframes light {\n  from {\n    left: -30%;\n  }\n  to {\n    left: 100%;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Donkey 32</title>\n<style>\n/* Soft Donkey 32 by Smit-Prajapati — https://uiverse.io/Smit-Prajapati/soft-donkey-32 */\n.loader {\n  height: 2px;\n  width: 300px;\n  background: rgb(44, 44, 44);\n  position: relative;\n  overflow: hidden;\n}\n.loader .black_overlay {\n  background: linear-gradient(\n    87deg,\n    rgb(0, 0, 0) 0%,\n    rgba(0, 0, 0, 0.14) 30%,\n    rgba(0, 0, 0, 0.14) 70%,\n    rgb(0, 0, 0) 100%\n  );\n  position: absolute;\n  inset: 0px;\n}\n.loader .light {\n  width: 70px;\n  height: 100%;\n  position: absolute;\n  left: -20%;\n  top: 0px;\n  background: linear-gradient(\n    87deg,\n    rgba(0, 0, 0, 0) 0%,\n    rgb(0, 204, 255) 40%,\n    rgb(0, 204, 255) 60%,\n    rgba(0, 0, 0, 0) 100%\n  );\n  animation: light 2s infinite ease-in-out;\n}\n\n@keyframes light {\n  from {\n    left: -30%;\n  }\n  to {\n    left: 100%;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"light\"></div>\n  <div class=\"black_overlay\"></div>\n</div>\n\n</body>\n</html>\n"
 }

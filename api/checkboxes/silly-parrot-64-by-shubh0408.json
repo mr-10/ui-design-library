@@ -5,14 +5,23 @@
  "author": "Shubh0408",
  "source": "https://uiverse.io/Shubh0408/silly-parrot-64",
  "trigger": "checked",
- "description": "A checkbox UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Rounded white checkbox that toggles on and off when clicked.",
+ "howItWorks": "Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "rounded",
+  "checkbox",
   "checkboxes",
   "checked",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Shubh0408  - Tags: checkbox, tailwind, tailwindcss -->\n<div class=\"flex justify-center items-center\">\n  <label class=\"container\">\n    <input\n      value=\"wedding-gift\"\n      class=\"peer cursor-pointer hidden after:opacity-100\"\n      checked=\"checked\"\n      type=\"checkbox\"\n    />\n    <span\n      class=\"inline-block w-5 h-5 border-2 relative cursor-pointer after:content-[''] after:absolute after:top-2/4 after:left-2/4 after:-translate-x-1/2 after:-translate-y-1/2 after:w-[10px] after:h-[10px] after:bg-[#333] after:rounded-[2px] after:opacity-0 peer-checked:after:opacity-100\"\n    ></span>\n  </label>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silly Parrot 64</title>\n<style>\n/* From Uiverse.io by Shubh0408 - https://uiverse.io/Shubh0408/silly-parrot-64 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Shubh0408  - Tags: checkbox, tailwind, tailwindcss -->\n<div class=\"flex justify-center items-center\">\n  <label class=\"container\">\n    <input\n      value=\"wedding-gift\"\n      class=\"peer cursor-pointer hidden after:opacity-100\"\n      checked=\"checked\"\n      type=\"checkbox\"\n    />\n    <span\n      class=\"inline-block w-5 h-5 border-2 relative cursor-pointer after:content-[''] after:absolute after:top-2/4 after:left-2/4 after:-translate-x-1/2 after:-translate-y-1/2 after:w-[10px] after:h-[10px] after:bg-[#333] after:rounded-[2px] after:opacity-0 peer-checked:after:opacity-100\"\n    ></span>\n  </label>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 213,
+ "size": 855,
+ "html": "<div class=\"flex justify-center items-center\">\n  <label class=\"container\">\n    <input\n      value=\"wedding-gift\"\n      class=\"peer cursor-pointer hidden after:opacity-100\"\n      checked=\"checked\"\n      type=\"checkbox\"\n    />\n    <span\n      class=\"inline-block w-5 h-5 border-2 relative cursor-pointer after:content-[''] after:absolute after:top-2/4 after:left-2/4 after:-translate-x-1/2 after:-translate-y-1/2 after:w-[10px] after:h-[10px] after:bg-[#333] after:rounded-[2px] after:opacity-0 peer-checked:after:opacity-100\"\n    ></span>\n  </label>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silly Parrot 64</title>\n<style>\n/* Silly Parrot 64 by Shubh0408 — https://uiverse.io/Shubh0408/silly-parrot-64 */\n\n</style>\n</head>\n<body>\n<div class=\"flex justify-center items-center\">\n  <label class=\"container\">\n    <input\n      value=\"wedding-gift\"\n      class=\"peer cursor-pointer hidden after:opacity-100\"\n      checked=\"checked\"\n      type=\"checkbox\"\n    />\n    <span\n      class=\"inline-block w-5 h-5 border-2 relative cursor-pointer after:content-[''] after:absolute after:top-2/4 after:left-2/4 after:-translate-x-1/2 after:-translate-y-1/2 after:w-[10px] after:h-[10px] after:bg-[#333] after:rounded-[2px] after:opacity-0 peer-checked:after:opacity-100\"\n    ></span>\n  </label>\n</div>\n\n</body>\n</html>\n"
 }

@@ -4,15 +4,26 @@
  "category": "buttons",
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/shaggy-ape-9",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gradient rounded violet button that glows and scales up on hover.",
+ "howItWorks": "On hover, it scales and it rotates and background changes and text colour changes and shadow grows.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "violet",
+  "pink",
+  "gradient",
+  "rounded",
+  "scale",
+  "rotate"
  ],
- "html": "<!-- From Uiverse.io by doniaskima - Tags: button, 2d button, cute button -->\n<button type=\"button\" class=\"inline-block px-6 py-3 mr-3 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85\">Button</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shaggy Ape 9</title>\n<style>\n/* From Uiverse.io by doniaskima - https://uiverse.io/doniaskima/shaggy-ape-9 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by doniaskima - Tags: button, 2d button, cute button -->\n<button type=\"button\" class=\"inline-block px-6 py-3 mr-3 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85\">Button</button>\n</body>\n</html>\n"
+ "colors": [
+  "#7e22ce",
+  "#ec4899",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 173,
+ "size": 695,
+ "html": "<button type=\"button\" class=\"inline-block px-6 py-3 mr-3 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85\">Button</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shaggy Ape 9</title>\n<style>\n/* Shaggy Ape 9 by doniaskima — https://uiverse.io/doniaskima/shaggy-ape-9 */\n\n</style>\n</head>\n<body>\n<button type=\"button\" class=\"inline-block px-6 py-3 mr-3 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85\">Button</button>\n\n</body>\n</html>\n"
 }

@@ -4,15 +4,23 @@
  "category": "cards",
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/dull-frog-65",
- "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Rounded white card that changes colour on hover.",
+ "howItWorks": "On hover, background changes.",
  "tags": [
+  "rounded",
+  "color-change",
   "cards",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Javierrocadev  - Tags: 3d, minimalist, card, hover, shadow, light&dark, box-shadow, card hover -->\n<div\n  class=\"relative rounded-lg -skew-x-6 -translate-y-2 -translate-y-6 hover:-translate-y-1 hover:-translate-x-0 hover:skew-x-0 duration-500 w-72 h-44 p-2 bg-neutral-50 card-compact hover:bg-base-200 transition-all duration-200 [box-shadow:12px_12px] hover:[box-shadow:4px_4px]\"\n>\n  <figure class=\"w-full h-full\">\n    <div\n      alt=\"change to a img tag\"\n      class=\"bg-neutral-800 text-neutral-50 min-h-full rounded-lg border border-opacity-5\"\n    ></div>\n  </figure>\n  <div class=\"absolute text-neutral-50 bottom-4 left-0 px-4\">\n    <span class=\"font-bold\">Tittle</span>\n    <p class=\"text-sm opacity-60 line-clamp-2\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget\n      feugiat orci. Curabitur efficitur elit arcu, a luctus sapien luctus ut.\n    </p>\n  </div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dull Frog 65</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/dull-frog-65 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev  - Tags: 3d, minimalist, card, hover, shadow, light&dark, box-shadow, card hover -->\n<div\n  class=\"relative rounded-lg -skew-x-6 -translate-y-2 -translate-y-6 hover:-translate-y-1 hover:-translate-x-0 hover:skew-x-0 duration-500 w-72 h-44 p-2 bg-neutral-50 card-compact hover:bg-base-200 transition-all duration-200 [box-shadow:12px_12px] hover:[box-shadow:4px_4px]\"\n>\n  <figure class=\"w-full h-full\">\n    <div\n      alt=\"change to a img tag\"\n      class=\"bg-neutral-800 text-neutral-50 min-h-full rounded-lg border border-opacity-5\"\n    ></div>\n  </figure>\n  <div class=\"absolute text-neutral-50 bottom-4 left-0 px-4\">\n    <span class=\"font-bold\">Tittle</span>\n    <p class=\"text-sm opacity-60 line-clamp-2\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget\n      feugiat orci. Curabitur efficitur elit arcu, a luctus sapien luctus ut.\n    </p>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#fafafa",
+  "#262626"
+ ],
+ "fonts": [],
+ "tokens": 274,
+ "size": 1100,
+ "html": "<div\n  class=\"relative rounded-lg -skew-x-6 -translate-y-2 -translate-y-6 hover:-translate-y-1 hover:-translate-x-0 hover:skew-x-0 duration-500 w-72 h-44 p-2 bg-neutral-50 card-compact hover:bg-base-200 transition-all duration-200 [box-shadow:12px_12px] hover:[box-shadow:4px_4px]\"\n>\n  <figure class=\"w-full h-full\">\n    <div\n      alt=\"change to a img tag\"\n      class=\"bg-neutral-800 text-neutral-50 min-h-full rounded-lg border border-opacity-5\"\n    ></div>\n  </figure>\n  <div class=\"absolute text-neutral-50 bottom-4 left-0 px-4\">\n    <span class=\"font-bold\">Tittle</span>\n    <p class=\"text-sm opacity-60 line-clamp-2\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget\n      feugiat orci. Curabitur efficitur elit arcu, a luctus sapien luctus ut.\n    </p>\n  </div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dull Frog 65</title>\n<style>\n/* Dull Frog 65 by Javierrocadev — https://uiverse.io/Javierrocadev/dull-frog-65 */\n\n</style>\n</head>\n<body>\n<div\n  class=\"relative rounded-lg -skew-x-6 -translate-y-2 -translate-y-6 hover:-translate-y-1 hover:-translate-x-0 hover:skew-x-0 duration-500 w-72 h-44 p-2 bg-neutral-50 card-compact hover:bg-base-200 transition-all duration-200 [box-shadow:12px_12px] hover:[box-shadow:4px_4px]\"\n>\n  <figure class=\"w-full h-full\">\n    <div\n      alt=\"change to a img tag\"\n      class=\"bg-neutral-800 text-neutral-50 min-h-full rounded-lg border border-opacity-5\"\n    ></div>\n  </figure>\n  <div class=\"absolute text-neutral-50 bottom-4 left-0 px-4\">\n    <span class=\"font-bold\">Tittle</span>\n    <p class=\"text-sm opacity-60 line-clamp-2\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget\n      feugiat orci. Curabitur efficitur elit arcu, a luctus sapien luctus ut.\n    </p>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

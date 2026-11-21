@@ -5,16 +5,27 @@
  "author": "SteveBloX",
  "source": "https://uiverse.io/SteveBloX/proud-vampirebat-22",
  "trigger": "hover",
- "description": "A button with blue, black and active styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark rounded blue button that glows on hover.",
+ "howItWorks": "On hover, width becomes 7.18em, height becomes 2.81em, box-shadow becomes 0px 0.81em 0.62em #000000.",
  "tags": [
   "blue",
-  "black",
-  "button",
-  "hover",
-  "active"
+  "dark",
+  "rounded",
+  "glow",
+  "color-change",
+  "expand"
  ],
- "html": "<button>\n    Button\n</button>",
- "css": "/* From Uiverse.io by SteveBloX - Tags: blue, black, button, hover, active */\nbutton {\n  font-family: inherit;\n  width: 7.18em;\n  height: 2.81em;\n  cursor: pointer;\n  background: #000000;\n  border: 0.14em solid #0000FF;\n  box-shadow: 0px 0.25em 0.25em rgba(0, 0, 0, 0.25);\n  border-radius: 0.93em;\n  transition: all 0.3s;\n  color: white;\n  font-size: 1.06em;\n  text-transform: uppercase;\n}\n\nbutton:hover {\n  width: 7.18em;\n  height: 2.81em;\n  box-shadow: 0px 0.81em 0.62em rgba(0, 0, 0, 0.25);\n  background: blue;\n  /*background: #000000;*/\n  border-radius: 0.93em;\n  transform: translate(0.38em, -0.37em);\n}\n\nbutton:active {\n  transform: scale(0.90)\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Proud Vampirebat 22</title>\n<style>\n/* From Uiverse.io by SteveBloX - https://uiverse.io/SteveBloX/proud-vampirebat-22 */\n/* From Uiverse.io by SteveBloX - Tags: blue, black, button, hover, active */\nbutton {\n  font-family: inherit;\n  width: 7.18em;\n  height: 2.81em;\n  cursor: pointer;\n  background: #000000;\n  border: 0.14em solid #0000FF;\n  box-shadow: 0px 0.25em 0.25em rgba(0, 0, 0, 0.25);\n  border-radius: 0.93em;\n  transition: all 0.3s;\n  color: white;\n  font-size: 1.06em;\n  text-transform: uppercase;\n}\n\nbutton:hover {\n  width: 7.18em;\n  height: 2.81em;\n  box-shadow: 0px 0.81em 0.62em rgba(0, 0, 0, 0.25);\n  background: blue;\n  /*background: #000000;*/\n  border-radius: 0.93em;\n  transform: translate(0.38em, -0.37em);\n}\n\nbutton:active {\n  transform: scale(0.90)\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#0000ff",
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 222,
+ "size": 889,
+ "html": "<button>\n    Button\n</button>\n",
+ "css": "/* Proud Vampirebat 22 by SteveBloX — https://uiverse.io/SteveBloX/proud-vampirebat-22 */\nbutton {\n  font-family: inherit;\n  width: 7.18em;\n  height: 2.81em;\n  cursor: pointer;\n  background: #000000;\n  border: 0.14em solid #0000FF;\n  box-shadow: 0px 0.25em 0.25em rgba(0, 0, 0, 0.25);\n  border-radius: 0.93em;\n  transition: all 0.3s;\n  color: white;\n  font-size: 1.06em;\n  text-transform: uppercase;\n}\n\nbutton:hover {\n  width: 7.18em;\n  height: 2.81em;\n  box-shadow: 0px 0.81em 0.62em rgba(0, 0, 0, 0.25);\n  background: blue;\n\n  border-radius: 0.93em;\n  transform: translate(0.38em, -0.37em);\n}\n\nbutton:active {\n  transform: scale(0.90)\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Proud Vampirebat 22</title>\n<style>\n/* Proud Vampirebat 22 by SteveBloX — https://uiverse.io/SteveBloX/proud-vampirebat-22 */\nbutton {\n  font-family: inherit;\n  width: 7.18em;\n  height: 2.81em;\n  cursor: pointer;\n  background: #000000;\n  border: 0.14em solid #0000FF;\n  box-shadow: 0px 0.25em 0.25em rgba(0, 0, 0, 0.25);\n  border-radius: 0.93em;\n  transition: all 0.3s;\n  color: white;\n  font-size: 1.06em;\n  text-transform: uppercase;\n}\n\nbutton:hover {\n  width: 7.18em;\n  height: 2.81em;\n  box-shadow: 0px 0.81em 0.62em rgba(0, 0, 0, 0.25);\n  background: blue;\n\n  border-radius: 0.93em;\n  transform: translate(0.38em, -0.37em);\n}\n\nbutton:active {\n  transform: scale(0.90)\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n\n</body>\n</html>\n"
 }

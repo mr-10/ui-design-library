@@ -5,15 +5,24 @@
  "author": "ArturCodeCraft",
  "source": "https://uiverse.io/ArturCodeCraft/horrible-mule-54",
  "trigger": "hover",
- "description": "A button with links and btn styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "White button that expands on hover with a smooth transition.",
+ "howItWorks": "On hover, width becomes 100%, left becomes 0.",
  "tags": [
+  "flat",
+  "expand",
   "button",
   "links",
   "btn",
   "hover"
  ],
- "html": "<a href=\"#\" class=\"menu__link\">Hover me!</a>",
- "css": "/* From Uiverse.io by ArturCodeCraft - Tags: button, links, btn */\n/* <reset-style> ============================ */\na {\n  text-decoration: none;\n}\n/* <main-style> ============================ */\n.menu__link {\n  color: #fff;\n  line-height: 2;\n  position: relative;\n}\n\n.menu__link::before {\n  content: '';\n  width: 0;\n  height: 2px;\n  border-radius: 2px;\n  background-color: #fff;\n  position: absolute;\n  bottom: -.25rem;\n  left: 50%;\n  transition: width .4s, left .4s;\n}\n\n.menu__link:hover::before {\n  width: 100%;\n  left: 0;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Horrible Mule 54</title>\n<style>\n/* From Uiverse.io by ArturCodeCraft - https://uiverse.io/ArturCodeCraft/horrible-mule-54 */\n/* From Uiverse.io by ArturCodeCraft - Tags: button, links, btn */\n/* <reset-style> ============================ */\na {\n  text-decoration: none;\n}\n/* <main-style> ============================ */\n.menu__link {\n  color: #fff;\n  line-height: 2;\n  position: relative;\n}\n\n.menu__link::before {\n  content: '';\n  width: 0;\n  height: 2px;\n  border-radius: 2px;\n  background-color: #fff;\n  position: absolute;\n  bottom: -.25rem;\n  left: 50%;\n  transition: width .4s, left .4s;\n}\n\n.menu__link:hover::before {\n  width: 100%;\n  left: 0;\n}\n</style>\n</head>\n<body>\n<a href=\"#\" class=\"menu__link\">Hover me!</a>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 180,
+ "size": 720,
+ "html": "<a href=\"#\" class=\"menu__link\">Hover me!</a>\n",
+ "css": "/* Horrible Mule 54 by ArturCodeCraft — https://uiverse.io/ArturCodeCraft/horrible-mule-54 */\na {\n  text-decoration: none;\n}\n\n.menu__link {\n  color: #fff;\n  line-height: 2;\n  position: relative;\n}\n\n.menu__link::before {\n  content: '';\n  width: 0;\n  height: 2px;\n  border-radius: 2px;\n  background-color: #fff;\n  position: absolute;\n  bottom: -.25rem;\n  left: 50%;\n  transition: width .4s, left .4s;\n}\n\n.menu__link:hover::before {\n  width: 100%;\n  left: 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Horrible Mule 54</title>\n<style>\n/* Horrible Mule 54 by ArturCodeCraft — https://uiverse.io/ArturCodeCraft/horrible-mule-54 */\na {\n  text-decoration: none;\n}\n\n.menu__link {\n  color: #fff;\n  line-height: 2;\n  position: relative;\n}\n\n.menu__link::before {\n  content: '';\n  width: 0;\n  height: 2px;\n  border-radius: 2px;\n  background-color: #fff;\n  position: absolute;\n  bottom: -.25rem;\n  left: 50%;\n  transition: width .4s, left .4s;\n}\n\n.menu__link:hover::before {\n  width: 100%;\n  left: 0;\n}\n</style>\n</head>\n<body>\n<a href=\"#\" class=\"menu__link\">Hover me!</a>\n\n</body>\n</html>\n"
 }

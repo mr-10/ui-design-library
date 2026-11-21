@@ -4,15 +4,28 @@
  "category": "buttons",
  "author": "bociKond",
  "source": "https://uiverse.io/bociKond/happy-bear-29",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gradient rounded dark green button that scales up on hover.",
+ "howItWorks": "On hover, border changes and opacity changes. On focus, opacity changes and it scales.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "green",
+  "gradient",
+  "rounded",
+  "color-change",
+  "fade",
+  "scale"
  ],
- "html": "<!-- From Uiverse.io by bociKond - Tags: button, focus, transition, color -->\n<button class=\"border-green-100 hover:border-green-200 text-green-900 rounded-lg border-4 cursor-pointer px-8 py-3 font-bold -skew-x-12 bg-gradient-to-bl from-green-400 to-green-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans\">\n      Button\n    </button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Happy Bear 29</title>\n<style>\n/* From Uiverse.io by bociKond - https://uiverse.io/bociKond/happy-bear-29 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by bociKond - Tags: button, focus, transition, color -->\n<button class=\"border-green-100 hover:border-green-200 text-green-900 rounded-lg border-4 cursor-pointer px-8 py-3 font-bold -skew-x-12 bg-gradient-to-bl from-green-400 to-green-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans\">\n      Button\n    </button>\n</body>\n</html>\n"
+ "colors": [
+  "#dcfce7",
+  "#14532d",
+  "#4ade80"
+ ],
+ "fonts": [
+  "sans"
+ ],
+ "tokens": 150,
+ "size": 603,
+ "html": "<button class=\"border-green-100 hover:border-green-200 text-green-900 rounded-lg border-4 cursor-pointer px-8 py-3 font-bold -skew-x-12 bg-gradient-to-bl from-green-400 to-green-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans\">\n      Button\n    </button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Happy Bear 29</title>\n<style>\n/* Happy Bear 29 by bociKond — https://uiverse.io/bociKond/happy-bear-29 */\n\n</style>\n</head>\n<body>\n<button class=\"border-green-100 hover:border-green-200 text-green-900 rounded-lg border-4 cursor-pointer px-8 py-3 font-bold -skew-x-12 bg-gradient-to-bl from-green-400 to-green-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans\">\n      Button\n    </button>\n\n</body>\n</html>\n"
 }

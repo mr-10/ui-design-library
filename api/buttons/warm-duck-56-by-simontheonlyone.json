@@ -5,17 +5,25 @@
  "author": "simontheonlyone",
  "source": "https://uiverse.io/simontheonlyone/warm-duck-56",
  "trigger": "hover",
- "description": "A button with animated, click-animation and close styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined red button that starts animating on hover.",
+ "howItWorks": "On hover, background-color changes from #feffe1 to #d20000, starts the close animation (fading).",
  "tags": [
-  "button",
+  "red",
+  "outlined",
+  "flat",
+  "color-change",
   "animated",
-  "click-animation",
-  "close",
-  "minimal",
-  "hover"
+  "fade"
  ],
- "html": "<button class=\"button\">\n  <span class=\"X\"></span>\n  <span class=\"Y\"></span>\n  <div class=\"close\">Close</div>\n</button>",
- "css": "/* From Uiverse.io by simontheonlyone - Source: no source link just the close button of Microsoft Windows - Tags: button, animated, click animation, close, minimal */\n.button {\n  position: relative;\n  width: 6em;\n  height: 4em;\n  border: none;\n  background: none;\n}\n\n.X {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 33%;\n  width: 2em;\n  height: 1.5px;\n  background-color: #fff;\n  transform: rotate(45deg);\n}\n\n.Y {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 33%;\n  width: 2em;\n  height: 1.5px;\n  background-color: #fff;\n  transform: rotate(-45deg);\n}\n\n.close {\n  position: absolute;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  bottom: -40%;\n  left: 70%;\n  width: 3em;\n  height: 1.7em;\n  font-size: 16px;\n  background-color: rgb(254, 255, 225);\n  color: #000;\n  border: 1px solid #000;\n  pointer-events: none;\n  opacity: 0;\n}\n\n.button:hover {\n  background-color: rgb(210, 0, 0);\n}\n\n.button:active {\n  background-color: rgb(130, 0, 0);\n}\n\n.button:hover > .close {\n  animation: close 0.2s forwards 1.25s;\n}\n\n@keyframes close {\n  100% {\n    opacity: 1;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Duck 56</title>\n<style>\n/* From Uiverse.io by simontheonlyone - https://uiverse.io/simontheonlyone/warm-duck-56 */\n/* From Uiverse.io by simontheonlyone - Source: no source link just the close button of Microsoft Windows - Tags: button, animated, click animation, close, minimal */\n.button {\n  position: relative;\n  width: 6em;\n  height: 4em;\n  border: none;\n  background: none;\n}\n\n.X {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 33%;\n  width: 2em;\n  height: 1.5px;\n  background-color: #fff;\n  transform: rotate(45deg);\n}\n\n.Y {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 33%;\n  width: 2em;\n  height: 1.5px;\n  background-color: #fff;\n  transform: rotate(-45deg);\n}\n\n.close {\n  position: absolute;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  bottom: -40%;\n  left: 70%;\n  width: 3em;\n  height: 1.7em;\n  font-size: 16px;\n  background-color: rgb(254, 255, 225);\n  color: #000;\n  border: 1px solid #000;\n  pointer-events: none;\n  opacity: 0;\n}\n\n.button:hover {\n  background-color: rgb(210, 0, 0);\n}\n\n.button:active {\n  background-color: rgb(130, 0, 0);\n}\n\n.button:hover > .close {\n  animation: close 0.2s forwards 1.25s;\n}\n\n@keyframes close {\n  100% {\n    opacity: 1;\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <span class=\"X\"></span>\n  <span class=\"Y\"></span>\n  <div class=\"close\">Close</div>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#feffe1",
+  "#d20000",
+  "#820000"
+ ],
+ "fonts": [],
+ "tokens": 339,
+ "size": 1359,
+ "html": "<button class=\"button\">\n  <span class=\"X\"></span>\n  <span class=\"Y\"></span>\n  <div class=\"close\">Close</div>\n</button>\n",
+ "css": "/* Warm Duck 56 by simontheonlyone — https://uiverse.io/simontheonlyone/warm-duck-56 */\n.button {\n  position: relative;\n  width: 6em;\n  height: 4em;\n  border: none;\n  background: none;\n}\n\n.X {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 33%;\n  width: 2em;\n  height: 1.5px;\n  background-color: #fff;\n  transform: rotate(45deg);\n}\n\n.Y {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 33%;\n  width: 2em;\n  height: 1.5px;\n  background-color: #fff;\n  transform: rotate(-45deg);\n}\n\n.close {\n  position: absolute;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  bottom: -40%;\n  left: 70%;\n  width: 3em;\n  height: 1.7em;\n  font-size: 16px;\n  background-color: rgb(254, 255, 225);\n  color: #000;\n  border: 1px solid #000;\n  pointer-events: none;\n  opacity: 0;\n}\n\n.button:hover {\n  background-color: rgb(210, 0, 0);\n}\n\n.button:active {\n  background-color: rgb(130, 0, 0);\n}\n\n.button:hover > .close {\n  animation: close 0.2s forwards 1.25s;\n}\n\n@keyframes close {\n  100% {\n    opacity: 1;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Duck 56</title>\n<style>\n/* Warm Duck 56 by simontheonlyone — https://uiverse.io/simontheonlyone/warm-duck-56 */\n.button {\n  position: relative;\n  width: 6em;\n  height: 4em;\n  border: none;\n  background: none;\n}\n\n.X {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 33%;\n  width: 2em;\n  height: 1.5px;\n  background-color: #fff;\n  transform: rotate(45deg);\n}\n\n.Y {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 33%;\n  width: 2em;\n  height: 1.5px;\n  background-color: #fff;\n  transform: rotate(-45deg);\n}\n\n.close {\n  position: absolute;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  bottom: -40%;\n  left: 70%;\n  width: 3em;\n  height: 1.7em;\n  font-size: 16px;\n  background-color: rgb(254, 255, 225);\n  color: #000;\n  border: 1px solid #000;\n  pointer-events: none;\n  opacity: 0;\n}\n\n.button:hover {\n  background-color: rgb(210, 0, 0);\n}\n\n.button:active {\n  background-color: rgb(130, 0, 0);\n}\n\n.button:hover > .close {\n  animation: close 0.2s forwards 1.25s;\n}\n\n@keyframes close {\n  100% {\n    opacity: 1;\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <span class=\"X\"></span>\n  <span class=\"Y\"></span>\n  <div class=\"close\">Close</div>\n</button>\n\n</body>\n</html>\n"
 }

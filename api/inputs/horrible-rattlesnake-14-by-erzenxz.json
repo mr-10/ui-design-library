@@ -5,14 +5,24 @@
  "author": "ErzenXz",
  "source": "https://uiverse.io/ErzenXz/horrible-rattlesnake-14",
  "trigger": "hover",
- "description": "A input with search styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined rounded gray text input that glows on hover.",
+ "howItWorks": "On hover, border becomes 2px solid #d3d3d3, box-shadow becomes 0px 0px 20px -17px. On focus, border becomes 2px solid #808080.",
  "tags": [
+  "outlined",
+  "rounded",
+  "glow",
+  "text-input",
   "input",
-  "search",
-  "hover"
+  "search"
  ],
- "html": "<input placeholder=\"Searth the internet...\" type=\"text\" name=\"text\" class=\"input\">",
- "css": "/* From Uiverse.io by ErzenXz - Tags: input, search */\n.input {\n  width: 100%;\n  max-width: 220px;\n  height: 45px;\n  padding: 12px;\n  border-radius: 12px;\n  border: 1.5px solid lightgrey;\n  outline: none;\n  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);\n  box-shadow: 0px 0px 20px -18px;\n}\n\n.input:hover {\n  border: 2px solid lightgrey;\n  box-shadow: 0px 0px 20px -17px;\n}\n\n.input:active {\n  transform: scale(0.95);\n}\n\n.input:focus {\n  border: 2px solid grey;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Horrible Rattlesnake 14</title>\n<style>\n/* From Uiverse.io by ErzenXz - https://uiverse.io/ErzenXz/horrible-rattlesnake-14 */\n/* From Uiverse.io by ErzenXz - Tags: input, search */\n.input {\n  width: 100%;\n  max-width: 220px;\n  height: 45px;\n  padding: 12px;\n  border-radius: 12px;\n  border: 1.5px solid lightgrey;\n  outline: none;\n  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);\n  box-shadow: 0px 0px 20px -18px;\n}\n\n.input:hover {\n  border: 2px solid lightgrey;\n  box-shadow: 0px 0px 20px -17px;\n}\n\n.input:active {\n  transform: scale(0.95);\n}\n\n.input:focus {\n  border: 2px solid grey;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Searth the internet...\" type=\"text\" name=\"text\" class=\"input\">\n</body>\n</html>\n"
+ "colors": [
+  "#d3d3d3",
+  "#808080"
+ ],
+ "fonts": [],
+ "tokens": 203,
+ "size": 814,
+ "html": "<input placeholder=\"Searth the internet...\" type=\"text\" name=\"text\" class=\"input\">\n",
+ "css": "/* Horrible Rattlesnake 14 by ErzenXz — https://uiverse.io/ErzenXz/horrible-rattlesnake-14 */\n.input {\n  width: 100%;\n  max-width: 220px;\n  height: 45px;\n  padding: 12px;\n  border-radius: 12px;\n  border: 1.5px solid lightgrey;\n  outline: none;\n  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);\n  box-shadow: 0px 0px 20px -18px;\n}\n\n.input:hover {\n  border: 2px solid lightgrey;\n  box-shadow: 0px 0px 20px -17px;\n}\n\n.input:active {\n  transform: scale(0.95);\n}\n\n.input:focus {\n  border: 2px solid grey;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Horrible Rattlesnake 14</title>\n<style>\n/* Horrible Rattlesnake 14 by ErzenXz — https://uiverse.io/ErzenXz/horrible-rattlesnake-14 */\n.input {\n  width: 100%;\n  max-width: 220px;\n  height: 45px;\n  padding: 12px;\n  border-radius: 12px;\n  border: 1.5px solid lightgrey;\n  outline: none;\n  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);\n  box-shadow: 0px 0px 20px -18px;\n}\n\n.input:hover {\n  border: 2px solid lightgrey;\n  box-shadow: 0px 0px 20px -17px;\n}\n\n.input:active {\n  transform: scale(0.95);\n}\n\n.input:focus {\n  border: 2px solid grey;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Searth the internet...\" type=\"text\" name=\"text\" class=\"input\">\n\n</body>\n</html>\n"
 }

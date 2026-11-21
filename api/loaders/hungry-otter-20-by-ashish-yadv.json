@@ -5,15 +5,24 @@
  "author": "ashish-yadv",
  "source": "https://uiverse.io/ashish-yadv/hungry-otter-20",
  "trigger": "auto-loop",
- "description": "A loader with simple-loader and dot-loader styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill white dots loader with bouncing motion in a loop.",
+ "howItWorks": "It loops a 0.6s animation (bouncing, fading).",
  "tags": [
-  "loader",
-  "simple-loader",
-  "dot-loader",
-  "auto-loop"
+  "rounded",
+  "pill",
+  "flat",
+  "bounce",
+  "fade",
+  "dots-loader"
  ],
- "html": "<div class=\"loader\">\n        <li class=\"dots\" id=\"dot-1\"></li>\n        <li class=\"dots\" id=\"dot-2\"></li>\n        <li class=\"dots\" id=\"dot-3\"></li>\n    </div>",
- "css": "/* From Uiverse.io by ashish-yadv - Tags: loader, simple loader, dot loader */\n.loader {\n  display: flex;\n  gap: 0.6em;\n  list-style: none;\n}\n\n.dots {\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background: #ffffff;\n}\n\n#dot-1 {\n  animation: loader-1 0.6s infinite ease-in-out;\n}\n\n@keyframes loader-1 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n\n#dot-2 {\n  animation: loader-2 0.6s 0.3s infinite ease-in-out;\n}\n\n@keyframes loader-2 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n\n#dot-3 {\n  animation: loader-3 0.6s 0.6s infinite ease-in-out;\n}\n\n@keyframes loader-3 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Otter 20</title>\n<style>\n/* From Uiverse.io by ashish-yadv - https://uiverse.io/ashish-yadv/hungry-otter-20 */\n/* From Uiverse.io by ashish-yadv - Tags: loader, simple loader, dot loader */\n.loader {\n  display: flex;\n  gap: 0.6em;\n  list-style: none;\n}\n\n.dots {\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background: #ffffff;\n}\n\n#dot-1 {\n  animation: loader-1 0.6s infinite ease-in-out;\n}\n\n@keyframes loader-1 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n\n#dot-2 {\n  animation: loader-2 0.6s 0.3s infinite ease-in-out;\n}\n\n@keyframes loader-2 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n\n#dot-3 {\n  animation: loader-3 0.6s 0.6s infinite ease-in-out;\n}\n\n@keyframes loader-3 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n        <li class=\"dots\" id=\"dot-1\"></li>\n        <li class=\"dots\" id=\"dot-2\"></li>\n        <li class=\"dots\" id=\"dot-3\"></li>\n    </div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 266,
+ "size": 1067,
+ "html": "<div class=\"loader\">\n        <li class=\"dots\" id=\"dot-1\"></li>\n        <li class=\"dots\" id=\"dot-2\"></li>\n        <li class=\"dots\" id=\"dot-3\"></li>\n    </div>\n",
+ "css": "/* Hungry Otter 20 by ashish-yadv — https://uiverse.io/ashish-yadv/hungry-otter-20 */\n.loader {\n  display: flex;\n  gap: 0.6em;\n  list-style: none;\n}\n\n.dots {\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background: #ffffff;\n}\n\n#dot-1 {\n  animation: loader-1 0.6s infinite ease-in-out;\n}\n\n@keyframes loader-1 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n\n#dot-2 {\n  animation: loader-2 0.6s 0.3s infinite ease-in-out;\n}\n\n@keyframes loader-2 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n\n#dot-3 {\n  animation: loader-3 0.6s 0.6s infinite ease-in-out;\n}\n\n@keyframes loader-3 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Otter 20</title>\n<style>\n/* Hungry Otter 20 by ashish-yadv — https://uiverse.io/ashish-yadv/hungry-otter-20 */\n.loader {\n  display: flex;\n  gap: 0.6em;\n  list-style: none;\n}\n\n.dots {\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background: #ffffff;\n}\n\n#dot-1 {\n  animation: loader-1 0.6s infinite ease-in-out;\n}\n\n@keyframes loader-1 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n\n#dot-2 {\n  animation: loader-2 0.6s 0.3s infinite ease-in-out;\n}\n\n@keyframes loader-2 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n\n#dot-3 {\n  animation: loader-3 0.6s 0.6s infinite ease-in-out;\n}\n\n@keyframes loader-3 {\n  50% {\n    opacity: 0;\n    transform: translateY(-0.3em);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n        <li class=\"dots\" id=\"dot-1\"></li>\n        <li class=\"dots\" id=\"dot-2\"></li>\n        <li class=\"dots\" id=\"dot-3\"></li>\n    </div>\n\n</body>\n</html>\n"
 }

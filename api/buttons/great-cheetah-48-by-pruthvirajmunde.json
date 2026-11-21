@@ -5,15 +5,25 @@
  "author": "Pruthvirajmunde",
  "source": "https://uiverse.io/Pruthvirajmunde/great-cheetah-48",
  "trigger": "hover",
- "description": "A button with simple and smooth styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient pill gray button that starts animating on hover.",
+ "howItWorks": "On hover, transform becomes scale(1.05), border-color becomes #fff9, transform becomes translate(4px).",
  "tags": [
-  "simple",
-  "button",
-  "smooth",
-  "hover"
+  "gradient",
+  "rounded",
+  "pill",
+  "scale",
+  "animated",
+  "simple"
  ],
- "html": "<button class=\"button\">Hire Me</button>",
- "css": "/* From Uiverse.io by Pruthvirajmunde  - Tags: simple, button, smooth */\n.button {\n  position: relative;\n  transition: all 0.3s ease-in-out;\n  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);\n  padding-block: 0.5rem;\n  padding-inline: 1.25rem;\n  background-color: rgb(153, 174, 187);\n  border-radius: 9999px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #ffff;\n  gap: 10px;\n  font-weight: bold;\n  border: 3px solid #ffffff4d;\n  outline: none;\n  overflow: hidden;\n  font-size: 15px;\n}\n\n.icon {\n  width: 24px;\n  height: 24px;\n  transition: all 0.3s ease-in-out;\n}\n\n.button:hover {\n  transform: scale(1.05);\n  border-color: #fff9;\n}\n\n.button:hover .icon {\n  transform: translate(4px);\n}\n\n.button:hover::before {\n  animation: shine 1.5s ease-out infinite;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  width: 100px;\n  height: 100%;\n  background-image: linear-gradient(\n    120deg,\n    rgba(255, 255, 255, 0) 30%,\n    rgba(255, 255, 255, 0.8),\n    rgba(255, 255, 255, 0) 70%\n  );\n  top: 0;\n  left: -100px;\n  opacity: 0.6;\n}\n\n@keyframes shine {\n  0% {\n    left: -100px;\n  }\n\n  60% {\n    left: 100%;\n  }\n\n  to {\n    left: 100%;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Great Cheetah 48</title>\n<style>\n/* From Uiverse.io by Pruthvirajmunde - https://uiverse.io/Pruthvirajmunde/great-cheetah-48 */\n/* From Uiverse.io by Pruthvirajmunde  - Tags: simple, button, smooth */\n.button {\n  position: relative;\n  transition: all 0.3s ease-in-out;\n  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);\n  padding-block: 0.5rem;\n  padding-inline: 1.25rem;\n  background-color: rgb(153, 174, 187);\n  border-radius: 9999px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #ffff;\n  gap: 10px;\n  font-weight: bold;\n  border: 3px solid #ffffff4d;\n  outline: none;\n  overflow: hidden;\n  font-size: 15px;\n}\n\n.icon {\n  width: 24px;\n  height: 24px;\n  transition: all 0.3s ease-in-out;\n}\n\n.button:hover {\n  transform: scale(1.05);\n  border-color: #fff9;\n}\n\n.button:hover .icon {\n  transform: translate(4px);\n}\n\n.button:hover::before {\n  animation: shine 1.5s ease-out infinite;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  width: 100px;\n  height: 100%;\n  background-image: linear-gradient(\n    120deg,\n    rgba(255, 255, 255, 0) 30%,\n    rgba(255, 255, 255, 0.8),\n    rgba(255, 255, 255, 0) 70%\n  );\n  top: 0;\n  left: -100px;\n  opacity: 0.6;\n}\n\n@keyframes shine {\n  0% {\n    left: -100px;\n  }\n\n  60% {\n    left: 100%;\n  }\n\n  to {\n    left: 100%;\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Hire Me</button>\n</body>\n</html>\n"
+ "colors": [
+  "#99aebb",
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 362,
+ "size": 1449,
+ "html": "<button class=\"button\">Hire Me</button>\n",
+ "css": "/* Great Cheetah 48 by Pruthvirajmunde — https://uiverse.io/Pruthvirajmunde/great-cheetah-48 */\n.button {\n  position: relative;\n  transition: all 0.3s ease-in-out;\n  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);\n  padding-block: 0.5rem;\n  padding-inline: 1.25rem;\n  background-color: rgb(153, 174, 187);\n  border-radius: 9999px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #ffff;\n  gap: 10px;\n  font-weight: bold;\n  border: 3px solid #ffffff4d;\n  outline: none;\n  overflow: hidden;\n  font-size: 15px;\n}\n\n.icon {\n  width: 24px;\n  height: 24px;\n  transition: all 0.3s ease-in-out;\n}\n\n.button:hover {\n  transform: scale(1.05);\n  border-color: #fff9;\n}\n\n.button:hover .icon {\n  transform: translate(4px);\n}\n\n.button:hover::before {\n  animation: shine 1.5s ease-out infinite;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  width: 100px;\n  height: 100%;\n  background-image: linear-gradient(\n    120deg,\n    rgba(255, 255, 255, 0) 30%,\n    rgba(255, 255, 255, 0.8),\n    rgba(255, 255, 255, 0) 70%\n  );\n  top: 0;\n  left: -100px;\n  opacity: 0.6;\n}\n\n@keyframes shine {\n  0% {\n    left: -100px;\n  }\n\n  60% {\n    left: 100%;\n  }\n\n  to {\n    left: 100%;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Great Cheetah 48</title>\n<style>\n/* Great Cheetah 48 by Pruthvirajmunde — https://uiverse.io/Pruthvirajmunde/great-cheetah-48 */\n.button {\n  position: relative;\n  transition: all 0.3s ease-in-out;\n  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);\n  padding-block: 0.5rem;\n  padding-inline: 1.25rem;\n  background-color: rgb(153, 174, 187);\n  border-radius: 9999px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #ffff;\n  gap: 10px;\n  font-weight: bold;\n  border: 3px solid #ffffff4d;\n  outline: none;\n  overflow: hidden;\n  font-size: 15px;\n}\n\n.icon {\n  width: 24px;\n  height: 24px;\n  transition: all 0.3s ease-in-out;\n}\n\n.button:hover {\n  transform: scale(1.05);\n  border-color: #fff9;\n}\n\n.button:hover .icon {\n  transform: translate(4px);\n}\n\n.button:hover::before {\n  animation: shine 1.5s ease-out infinite;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  width: 100px;\n  height: 100%;\n  background-image: linear-gradient(\n    120deg,\n    rgba(255, 255, 255, 0) 30%,\n    rgba(255, 255, 255, 0.8),\n    rgba(255, 255, 255, 0) 70%\n  );\n  top: 0;\n  left: -100px;\n  opacity: 0.6;\n}\n\n@keyframes shine {\n  0% {\n    left: -100px;\n  }\n\n  60% {\n    left: 100%;\n  }\n\n  to {\n    left: 100%;\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Hire Me</button>\n\n</body>\n</html>\n"
 }

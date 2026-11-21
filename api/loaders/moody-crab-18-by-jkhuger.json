@@ -4,15 +4,25 @@
  "category": "loaders",
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/moody-crab-18",
- "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "trigger": "static",
+ "description": "Outlined rounded gray loader with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the loader is a fixed design.",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "outlined",
+  "rounded",
+  "flat",
+  "fade",
+  "pulse",
+  "loader"
  ],
- "html": "<div id=\"col\">\n  <div id=\"img-wrap\">\n    <span class=\"loader\"></span>\n</div></div>",
- "css": "/* From Uiverse.io by JkHuger - Tags: loader */\n#col {\n  width: 50%;\n  margin: 0 auto;\n}\n\n.loader {\n  content: ' ';\n  border: 5px solid #333;\n  border-radius: 30px;\n  height: 30px;\n  left: 50%;\n  margin: -15px 0 0 -15px;\n  opacity: 0;\n  position: absolute;\n  top: 50%;\n  width: 30px;\n  animation: pulsate 1s ease-out;\n  animation-iteration-count: infinite;\n}\n\n@keyframes pulsate {\n  0% {\n    transform: scale(.1);\n    opacity: 0.0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(1.2);\n    opacity: 0;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Crab 18</title>\n<style>\n/* From Uiverse.io by JkHuger - https://uiverse.io/JkHuger/moody-crab-18 */\n/* From Uiverse.io by JkHuger - Tags: loader */\n#col {\n  width: 50%;\n  margin: 0 auto;\n}\n\n.loader {\n  content: ' ';\n  border: 5px solid #333;\n  border-radius: 30px;\n  height: 30px;\n  left: 50%;\n  margin: -15px 0 0 -15px;\n  opacity: 0;\n  position: absolute;\n  top: 50%;\n  width: 30px;\n  animation: pulsate 1s ease-out;\n  animation-iteration-count: infinite;\n}\n\n@keyframes pulsate {\n  0% {\n    transform: scale(.1);\n    opacity: 0.0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(1.2);\n    opacity: 0;\n  }\n}\n</style>\n</head>\n<body>\n<div id=\"col\">\n  <div id=\"img-wrap\">\n    <span class=\"loader\"></span>\n</div></div>\n</body>\n</html>\n"
+ "colors": [
+  "#333333",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 211,
+ "size": 847,
+ "html": "<div id=\"col\">\n  <div id=\"img-wrap\">\n    <span class=\"loader\"></span>\n</div></div>\n",
+ "css": "/* Moody Crab 18 by JkHuger — https://uiverse.io/JkHuger/moody-crab-18 */\n#col {\n  width: 50%;\n  margin: 0 auto;\n}\n\n.loader {\n  content: ' ';\n  border: 5px solid #333;\n  border-radius: 30px;\n  height: 30px;\n  left: 50%;\n  margin: -15px 0 0 -15px;\n  opacity: 0;\n  position: absolute;\n  top: 50%;\n  width: 30px;\n  animation: pulsate 1s ease-out;\n  animation-iteration-count: infinite;\n}\n\n@keyframes pulsate {\n  0% {\n    transform: scale(.1);\n    opacity: 0.0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(1.2);\n    opacity: 0;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Crab 18</title>\n<style>\n/* Moody Crab 18 by JkHuger — https://uiverse.io/JkHuger/moody-crab-18 */\n#col {\n  width: 50%;\n  margin: 0 auto;\n}\n\n.loader {\n  content: ' ';\n  border: 5px solid #333;\n  border-radius: 30px;\n  height: 30px;\n  left: 50%;\n  margin: -15px 0 0 -15px;\n  opacity: 0;\n  position: absolute;\n  top: 50%;\n  width: 30px;\n  animation: pulsate 1s ease-out;\n  animation-iteration-count: infinite;\n}\n\n@keyframes pulsate {\n  0% {\n    transform: scale(.1);\n    opacity: 0.0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(1.2);\n    opacity: 0;\n  }\n}\n</style>\n</head>\n<body>\n<div id=\"col\">\n  <div id=\"img-wrap\">\n    <span class=\"loader\"></span>\n</div></div>\n\n</body>\n</html>\n"
 }

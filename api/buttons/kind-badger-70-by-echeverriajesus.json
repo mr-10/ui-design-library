@@ -4,15 +4,24 @@
  "category": "buttons",
  "author": "EcheverriaJesus",
  "source": "https://uiverse.io/EcheverriaJesus/kind-badger-70",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Rounded gray button that scales up on hover.",
+ "howItWorks": "On hover, it scales.",
  "tags": [
+  "rounded",
+  "scale",
+  "github",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by EcheverriaJesus - Tags: icon, button, active, github, tailwind -->\n<div class=\"group relative\">\n  <button>\n  <svg stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"w-8 hover:scale-125 duration-200 hover:stroke-blue-500\"><path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path></svg>\n  </button>\n  <span class=\"absolute -top-14 left-[50%] -translate-x-[50%] \n  z-20 origin-left scale-0 px-3 rounded-lg border \n  border-gray-300 bg-white py-2 text-sm font-bold\n  shadow-md transition-all duration-300 ease-in-out \n  group-hover:scale-100\">GitHub<span>\n</span></span></div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Kind Badger 70</title>\n<style>\n/* From Uiverse.io by EcheverriaJesus - https://uiverse.io/EcheverriaJesus/kind-badger-70 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by EcheverriaJesus - Tags: icon, button, active, github, tailwind -->\n<div class=\"group relative\">\n  <button>\n  <svg stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"w-8 hover:scale-125 duration-200 hover:stroke-blue-500\"><path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path></svg>\n  </button>\n  <span class=\"absolute -top-14 left-[50%] -translate-x-[50%] \n  z-20 origin-left scale-0 px-3 rounded-lg border \n  border-gray-300 bg-white py-2 text-sm font-bold\n  shadow-md transition-all duration-300 ease-in-out \n  group-hover:scale-100\">GitHub<span>\n</span></span></div>\n</body>\n</html>\n"
+ "colors": [
+  "#d1d5db",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 284,
+ "size": 1137,
+ "html": "<div class=\"group relative\">\n  <button>\n  <svg stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"w-8 hover:scale-125 duration-200 hover:stroke-blue-500\"><path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path></svg>\n  </button>\n  <span class=\"absolute -top-14 left-[50%] -translate-x-[50%]\n  z-20 origin-left scale-0 px-3 rounded-lg border\n  border-gray-300 bg-white py-2 text-sm font-bold\n  shadow-md transition-all duration-300 ease-in-out\n  group-hover:scale-100\">GitHub<span>\n</span></span></div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Kind Badger 70</title>\n<style>\n/* Kind Badger 70 by EcheverriaJesus — https://uiverse.io/EcheverriaJesus/kind-badger-70 */\n\n</style>\n</head>\n<body>\n<div class=\"group relative\">\n  <button>\n  <svg stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"2\" stroke=\"currentColor\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"w-8 hover:scale-125 duration-200 hover:stroke-blue-500\"><path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path></svg>\n  </button>\n  <span class=\"absolute -top-14 left-[50%] -translate-x-[50%]\n  z-20 origin-left scale-0 px-3 rounded-lg border\n  border-gray-300 bg-white py-2 text-sm font-bold\n  shadow-md transition-all duration-300 ease-in-out\n  group-hover:scale-100\">GitHub<span>\n</span></span></div>\n\n</body>\n</html>\n"
 }

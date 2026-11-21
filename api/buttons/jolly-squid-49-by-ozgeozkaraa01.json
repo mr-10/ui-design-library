@@ -5,14 +5,24 @@
  "author": "ozgeozkaraa01",
  "source": "https://uiverse.io/ozgeozkaraa01/jolly-squid-49",
  "trigger": "hover",
- "description": "A button with desined-button styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined rounded light pink button that lifts and glows on hover.",
+ "howItWorks": "On hover, font-size becomes 1.2em, transform becomes translateX(6px), box-shadow becomes 10px 10px 40px #d1d1d1.",
  "tags": [
-  "button",
-  "desined-button",
-  "hover"
+  "pink",
+  "outlined",
+  "rounded",
+  "slide",
+  "lift",
+  "glow"
  ],
- "html": "<button>\n  <span>Next</span>\n  <svg width=\"15\" height=\"15\" stroke=\"currentColor\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n</svg>\n</button>",
- "css": "/* From Uiverse.io by ozgeozkaraa01 - Tags: button, buttons, desined Button */\nbutton {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  transition: all 0.3s linear;\n  border-radius: 10px;\n  border: 1px solid #F2BED1;\n  padding: 10px 20px;\n}\n\nbutton > svg {\n  margin-left: 5px;\n  transition: all 0.4s ease-in;\n}\n\nbutton:hover > svg {\n  font-size: 1.2em;\n  transform: translateX(6px);\n}\n\nbutton:hover {\n  box-shadow: 10px 10px 40px #d1d1d1;\n  transform: translateY(-5px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Jolly Squid 49</title>\n<style>\n/* From Uiverse.io by ozgeozkaraa01 - https://uiverse.io/ozgeozkaraa01/jolly-squid-49 */\n/* From Uiverse.io by ozgeozkaraa01 - Tags: button, buttons, desined Button */\nbutton {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  transition: all 0.3s linear;\n  border-radius: 10px;\n  border: 1px solid #F2BED1;\n  padding: 10px 20px;\n}\n\nbutton > svg {\n  margin-left: 5px;\n  transition: all 0.4s ease-in;\n}\n\nbutton:hover > svg {\n  font-size: 1.2em;\n  transform: translateX(6px);\n}\n\nbutton:hover {\n  box-shadow: 10px 10px 40px #d1d1d1;\n  transform: translateY(-5px);\n}\n</style>\n</head>\n<body>\n<button>\n  <span>Next</span>\n  <svg width=\"15\" height=\"15\" stroke=\"currentColor\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n</svg>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#f2bed1",
+  "#d1d1d1"
+ ],
+ "fonts": [],
+ "tokens": 256,
+ "size": 1025,
+ "html": "<button>\n  <span>Next</span>\n  <svg width=\"15\" height=\"15\" stroke=\"currentColor\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n</svg>\n</button>\n",
+ "css": "/* Jolly Squid 49 by ozgeozkaraa01 — https://uiverse.io/ozgeozkaraa01/jolly-squid-49 */\nbutton {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  transition: all 0.3s linear;\n  border-radius: 10px;\n  border: 1px solid #F2BED1;\n  padding: 10px 20px;\n}\n\nbutton > svg {\n  margin-left: 5px;\n  transition: all 0.4s ease-in;\n}\n\nbutton:hover > svg {\n  font-size: 1.2em;\n  transform: translateX(6px);\n}\n\nbutton:hover {\n  box-shadow: 10px 10px 40px #d1d1d1;\n  transform: translateY(-5px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Jolly Squid 49</title>\n<style>\n/* Jolly Squid 49 by ozgeozkaraa01 — https://uiverse.io/ozgeozkaraa01/jolly-squid-49 */\nbutton {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  cursor: pointer;\n  transition: all 0.3s linear;\n  border-radius: 10px;\n  border: 1px solid #F2BED1;\n  padding: 10px 20px;\n}\n\nbutton > svg {\n  margin-left: 5px;\n  transition: all 0.4s ease-in;\n}\n\nbutton:hover > svg {\n  font-size: 1.2em;\n  transform: translateX(6px);\n}\n\nbutton:hover {\n  box-shadow: 10px 10px 40px #d1d1d1;\n  transform: translateY(-5px);\n}\n</style>\n</head>\n<body>\n<button>\n  <span>Next</span>\n  <svg width=\"15\" height=\"15\" stroke=\"currentColor\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n</svg>\n</button>\n\n</body>\n</html>\n"
 }

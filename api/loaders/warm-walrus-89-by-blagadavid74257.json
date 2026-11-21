@@ -5,17 +5,24 @@
  "author": "BlagaDavid74257",
  "source": "https://uiverse.io/BlagaDavid74257/warm-walrus-89",
  "trigger": "auto-loop",
- "description": "A loader with tooltip, icon and animation styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined pill white spinner loader with fading motion in a loop.",
+ "howItWorks": "It loops a 1s animation (fading, pulsing; rotating).",
  "tags": [
-  "tooltip",
-  "icon",
-  "animation",
-  "loader",
-  "dark",
-  "theme"
+  "outlined",
+  "rounded",
+  "pill",
+  "flat",
+  "spin",
+  "fade"
  ],
- "html": "<div class=\"loading-container\">\n  <div class=\"loader\">\n    <div class=\"spinner\"></div>\n  </div>\n</div>",
- "css": "/* From Uiverse.io by BlagaDavid74257  - Tags: tooltip, icon, animation, loader, dark, theme */\n.loading-container {\n  position: relative;\n  width: 100px;\n  height: 100px;\n}\n\n.loader {\n  width: 100px;\n  height: 100px;\n  border: 10px solid transparent;\n  border-top-color: #fff;\n  border-radius: 50%;\n  animation: spin 1s linear infinite;\n}\n\n.spinner {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 50px;\n  height: 50px;\n  background-color: #fff;\n  border-radius: 50%;\n  animation: pulse 1.5s infinite alternate;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes pulse {\n  from {\n    transform: scale(1);\n    opacity: 1;\n  }\n  to {\n    transform: scale(1.2);\n    opacity: 0.5;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Walrus 89</title>\n<style>\n/* From Uiverse.io by BlagaDavid74257 - https://uiverse.io/BlagaDavid74257/warm-walrus-89 */\n/* From Uiverse.io by BlagaDavid74257  - Tags: tooltip, icon, animation, loader, dark, theme */\n.loading-container {\n  position: relative;\n  width: 100px;\n  height: 100px;\n}\n\n.loader {\n  width: 100px;\n  height: 100px;\n  border: 10px solid transparent;\n  border-top-color: #fff;\n  border-radius: 50%;\n  animation: spin 1s linear infinite;\n}\n\n.spinner {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 50px;\n  height: 50px;\n  background-color: #fff;\n  border-radius: 50%;\n  animation: pulse 1.5s infinite alternate;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes pulse {\n  from {\n    transform: scale(1);\n    opacity: 1;\n  }\n  to {\n    transform: scale(1.2);\n    opacity: 0.5;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loading-container\">\n  <div class=\"loader\">\n    <div class=\"spinner\"></div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 267,
+ "size": 1069,
+ "html": "<div class=\"loading-container\">\n  <div class=\"loader\">\n    <div class=\"spinner\"></div>\n  </div>\n</div>\n",
+ "css": "/* Warm Walrus 89 by BlagaDavid74257 — https://uiverse.io/BlagaDavid74257/warm-walrus-89 */\n.loading-container {\n  position: relative;\n  width: 100px;\n  height: 100px;\n}\n\n.loader {\n  width: 100px;\n  height: 100px;\n  border: 10px solid transparent;\n  border-top-color: #fff;\n  border-radius: 50%;\n  animation: spin 1s linear infinite;\n}\n\n.spinner {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 50px;\n  height: 50px;\n  background-color: #fff;\n  border-radius: 50%;\n  animation: pulse 1.5s infinite alternate;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes pulse {\n  from {\n    transform: scale(1);\n    opacity: 1;\n  }\n  to {\n    transform: scale(1.2);\n    opacity: 0.5;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Walrus 89</title>\n<style>\n/* Warm Walrus 89 by BlagaDavid74257 — https://uiverse.io/BlagaDavid74257/warm-walrus-89 */\n.loading-container {\n  position: relative;\n  width: 100px;\n  height: 100px;\n}\n\n.loader {\n  width: 100px;\n  height: 100px;\n  border: 10px solid transparent;\n  border-top-color: #fff;\n  border-radius: 50%;\n  animation: spin 1s linear infinite;\n}\n\n.spinner {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 50px;\n  height: 50px;\n  background-color: #fff;\n  border-radius: 50%;\n  animation: pulse 1.5s infinite alternate;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes pulse {\n  from {\n    transform: scale(1);\n    opacity: 1;\n  }\n  to {\n    transform: scale(1.2);\n    opacity: 0.5;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loading-container\">\n  <div class=\"loader\">\n    <div class=\"spinner\"></div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

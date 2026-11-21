@@ -5,14 +5,24 @@
  "author": "adamgiebl",
  "source": "https://uiverse.io/adamgiebl/serious-penguin-95",
  "trigger": "static",
- "description": "A card with neumorphism styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Rounded dark blue card with soft shadow and rounded corners.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "blue",
+  "rounded",
   "neumorphism",
   "card",
   "static"
  ],
- "html": "<div class=\"card\"></div>",
- "css": "/* From Uiverse.io by adamgiebl - Tags: neumorphism, card */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 30px;\n  background: lightgrey;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Serious Penguin 95</title>\n<style>\n/* From Uiverse.io by adamgiebl - https://uiverse.io/adamgiebl/serious-penguin-95 */\n/* From Uiverse.io by adamgiebl - Tags: neumorphism, card */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 30px;\n  background: lightgrey;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#d3d3d3",
+  "#32325d",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 133,
+ "size": 533,
+ "html": "<div class=\"card\"></div>\n",
+ "css": "/* Serious Penguin 95 by adamgiebl — https://uiverse.io/adamgiebl/serious-penguin-95 */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 30px;\n  background: lightgrey;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Serious Penguin 95</title>\n<style>\n/* Serious Penguin 95 by adamgiebl — https://uiverse.io/adamgiebl/serious-penguin-95 */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 30px;\n  background: lightgrey;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n\n</body>\n</html>\n"
 }

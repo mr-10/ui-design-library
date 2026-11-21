@@ -5,14 +5,24 @@
  "author": "PriyanshuGupta28",
  "source": "https://uiverse.io/PriyanshuGupta28/chilly-lion-59",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient pill black loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1s animation (rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "gradient",
+  "rounded",
+  "pill",
+  "flat",
+  "spin",
+  "loader"
  ],
- "html": "<div class=\"custom-loader\"></div>",
- "css": "/* From Uiverse.io by PriyanshuGupta28 - Tags: loader */\n.custom-loader {\n  width: 50px;\n  height: 50px;\n  --c: radial-gradient(farthest-side,#000000 92%,#0000);\n  background: var(--c) 50%  0, \n    var(--c) 50%  100%, \n    var(--c) 100% 50%, \n    var(--c) 0    50%;\n  background-size: 10px 10px;\n  background-repeat: no-repeat;\n  animation: s8 1s infinite;\n  position: relative;\n}\n\n.custom-loader::before {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  margin: 3px;\n  background: repeating-conic-gradient(#0000 0 35deg,#000000 0 90deg);\n  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 3px),#000 0);\n  border-radius: 50%;\n}\n\n@keyframes s8 {\n \n  100% {\n    transform: rotate(.5turn)\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Lion 59</title>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - https://uiverse.io/PriyanshuGupta28/chilly-lion-59 */\n/* From Uiverse.io by PriyanshuGupta28 - Tags: loader */\n.custom-loader {\n  width: 50px;\n  height: 50px;\n  --c: radial-gradient(farthest-side,#000000 92%,#0000);\n  background: var(--c) 50%  0, \n    var(--c) 50%  100%, \n    var(--c) 100% 50%, \n    var(--c) 0    50%;\n  background-size: 10px 10px;\n  background-repeat: no-repeat;\n  animation: s8 1s infinite;\n  position: relative;\n}\n\n.custom-loader::before {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  margin: 3px;\n  background: repeating-conic-gradient(#0000 0 35deg,#000000 0 90deg);\n  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 3px),#000 0);\n  border-radius: 50%;\n}\n\n@keyframes s8 {\n \n  100% {\n    transform: rotate(.5turn)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"custom-loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 247,
+ "size": 990,
+ "html": "<div class=\"custom-loader\"></div>\n",
+ "css": "/* Chilly Lion 59 by PriyanshuGupta28 — https://uiverse.io/PriyanshuGupta28/chilly-lion-59 */\n.custom-loader {\n  width: 50px;\n  height: 50px;\n  --c: radial-gradient(farthest-side,#000000 92%,#0000);\n  background: var(--c) 50%  0,\n    var(--c) 50%  100%,\n    var(--c) 100% 50%,\n    var(--c) 0    50%;\n  background-size: 10px 10px;\n  background-repeat: no-repeat;\n  animation: s8 1s infinite;\n  position: relative;\n}\n\n.custom-loader::before {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  margin: 3px;\n  background: repeating-conic-gradient(#0000 0 35deg,#000000 0 90deg);\n  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 3px),#000 0);\n  border-radius: 50%;\n}\n\n@keyframes s8 {\n\n  100% {\n    transform: rotate(.5turn)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Lion 59</title>\n<style>\n/* Chilly Lion 59 by PriyanshuGupta28 — https://uiverse.io/PriyanshuGupta28/chilly-lion-59 */\n.custom-loader {\n  width: 50px;\n  height: 50px;\n  --c: radial-gradient(farthest-side,#000000 92%,#0000);\n  background: var(--c) 50%  0,\n    var(--c) 50%  100%,\n    var(--c) 100% 50%,\n    var(--c) 0    50%;\n  background-size: 10px 10px;\n  background-repeat: no-repeat;\n  animation: s8 1s infinite;\n  position: relative;\n}\n\n.custom-loader::before {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  margin: 3px;\n  background: repeating-conic-gradient(#0000 0 35deg,#000000 0 90deg);\n  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 3px),#000 0);\n  border-radius: 50%;\n}\n\n@keyframes s8 {\n\n  100% {\n    transform: rotate(.5turn)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"custom-loader\"></div>\n\n</body>\n</html>\n"
 }

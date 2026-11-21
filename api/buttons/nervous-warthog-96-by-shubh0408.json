@@ -5,14 +5,23 @@
  "author": "Shubh0408",
  "source": "https://uiverse.io/Shubh0408/nervous-warthog-96",
  "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Pill white button with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
+  "rounded",
+  "pill",
   "buttons",
   "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Shubh0408  - Tags: button, toggle, click effect, toggle switch, tailwindbutton -->\n<label\n  class=\"w-16 h-8 bg-black shadow-inner rounded-full flex justify-around items-center overflow-hidden outline outline-2 outline-offset-2\"\n>\n  <input class=\"peer hidden\" type=\"checkbox\" />\n  <div\n    class=\"w-6 h-6 flex justify-center items-center text-white bg-black border-[2px] duration-500 rounded-full peer-checked:translate-y-8\"\n  ></div>\n  <div\n    class=\"w-6 h-6 flex justify-center items-center text-white duration-500 rounded-full -translate-y-8 peer-checked:translate-y-0 rotate-90\"\n  >\n    𝝞\n  </div>\n</label>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nervous Warthog 96</title>\n<style>\n/* From Uiverse.io by Shubh0408 - https://uiverse.io/Shubh0408/nervous-warthog-96 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Shubh0408  - Tags: button, toggle, click effect, toggle switch, tailwindbutton -->\n<label\n  class=\"w-16 h-8 bg-black shadow-inner rounded-full flex justify-around items-center overflow-hidden outline outline-2 outline-offset-2\"\n>\n  <input class=\"peer hidden\" type=\"checkbox\" />\n  <div\n    class=\"w-6 h-6 flex justify-center items-center text-white bg-black border-[2px] duration-500 rounded-full peer-checked:translate-y-8\"\n  ></div>\n  <div\n    class=\"w-6 h-6 flex justify-center items-center text-white duration-500 rounded-full -translate-y-8 peer-checked:translate-y-0 rotate-90\"\n  >\n    𝝞\n  </div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 208,
+ "size": 839,
+ "html": "<label\n  class=\"w-16 h-8 bg-black shadow-inner rounded-full flex justify-around items-center overflow-hidden outline outline-2 outline-offset-2\"\n>\n  <input class=\"peer hidden\" type=\"checkbox\" />\n  <div\n    class=\"w-6 h-6 flex justify-center items-center text-white bg-black border-[2px] duration-500 rounded-full peer-checked:translate-y-8\"\n  ></div>\n  <div\n    class=\"w-6 h-6 flex justify-center items-center text-white duration-500 rounded-full -translate-y-8 peer-checked:translate-y-0 rotate-90\"\n  >\n    𝝞\n  </div>\n</label>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nervous Warthog 96</title>\n<style>\n/* Nervous Warthog 96 by Shubh0408 — https://uiverse.io/Shubh0408/nervous-warthog-96 */\n\n</style>\n</head>\n<body>\n<label\n  class=\"w-16 h-8 bg-black shadow-inner rounded-full flex justify-around items-center overflow-hidden outline outline-2 outline-offset-2\"\n>\n  <input class=\"peer hidden\" type=\"checkbox\" />\n  <div\n    class=\"w-6 h-6 flex justify-center items-center text-white bg-black border-[2px] duration-500 rounded-full peer-checked:translate-y-8\"\n  ></div>\n  <div\n    class=\"w-6 h-6 flex justify-center items-center text-white duration-500 rounded-full -translate-y-8 peer-checked:translate-y-0 rotate-90\"\n  >\n    𝝞\n  </div>\n</label>\n\n</body>\n</html>\n"
 }

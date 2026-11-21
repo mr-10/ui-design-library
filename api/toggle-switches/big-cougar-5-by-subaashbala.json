@@ -5,17 +5,25 @@
  "author": "Subaashbala",
  "source": "https://uiverse.io/Subaashbala/big-cougar-5",
  "trigger": "checked",
- "description": "A toggle switch with skeuomorphism, switch and on styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Rounded white toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: background-color changes from #e7eff9 to #d2d6d8, text color changes to #ffffff, transform becomes translateX(3.1em).",
  "tags": [
+  "rounded",
+  "toggle-switch",
   "skeuomorphism",
   "switch",
   "on",
-  "off",
-  "click-animation",
-  "toggle-switches"
+  "off"
  ],
- "html": "<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>",
- "css": "/* From Uiverse.io by Subaashbala  - Tags: skeuomorphism, switch, on, off, click animation */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 5em;\n  height: 2.25em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #e7eff9;\n  outline: 1px solid #f3f8fe;\n  box-shadow: 0 4px 5px #f3f8fe inset, 0 4px 5px #c8d5e6;\n  transition: 0.4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"off\";\n  font-size: 0.85em;\n  color: #d2d6d8;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 2em;\n  min-width: 2em;\n  border-radius: 20px;\n  left: 0.35em;\n  bottom: 0.3em;\n  background-color: transparent;\n  outline: 2px solid #d2d6d8;\n  transition: 0.4s;\n}\n\n.switch input:checked + .slider:before {\n  content: \"on\";\n  background-color: #d2d6d8;\n  color: white;\n  transform: translateX(3.1em);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Cougar 5</title>\n<style>\n/* From Uiverse.io by Subaashbala - https://uiverse.io/Subaashbala/big-cougar-5 */\n/* From Uiverse.io by Subaashbala  - Tags: skeuomorphism, switch, on, off, click animation */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 5em;\n  height: 2.25em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #e7eff9;\n  outline: 1px solid #f3f8fe;\n  box-shadow: 0 4px 5px #f3f8fe inset, 0 4px 5px #c8d5e6;\n  transition: 0.4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"off\";\n  font-size: 0.85em;\n  color: #d2d6d8;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 2em;\n  min-width: 2em;\n  border-radius: 20px;\n  left: 0.35em;\n  bottom: 0.3em;\n  background-color: transparent;\n  outline: 2px solid #d2d6d8;\n  transition: 0.4s;\n}\n\n.switch input:checked + .slider:before {\n  content: \"on\";\n  background-color: #d2d6d8;\n  color: white;\n  transform: translateX(3.1em);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#d2d6d8",
+  "#f3f8fe",
+  "#e7eff9"
+ ],
+ "fonts": [],
+ "tokens": 322,
+ "size": 1292,
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>\n",
+ "css": "/* Big Cougar 5 by Subaashbala — https://uiverse.io/Subaashbala/big-cougar-5 */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 5em;\n  height: 2.25em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #e7eff9;\n  outline: 1px solid #f3f8fe;\n  box-shadow: 0 4px 5px #f3f8fe inset, 0 4px 5px #c8d5e6;\n  transition: 0.4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"off\";\n  font-size: 0.85em;\n  color: #d2d6d8;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 2em;\n  min-width: 2em;\n  border-radius: 20px;\n  left: 0.35em;\n  bottom: 0.3em;\n  background-color: transparent;\n  outline: 2px solid #d2d6d8;\n  transition: 0.4s;\n}\n\n.switch input:checked + .slider:before {\n  content: \"on\";\n  background-color: #d2d6d8;\n  color: white;\n  transform: translateX(3.1em);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Cougar 5</title>\n<style>\n/* Big Cougar 5 by Subaashbala — https://uiverse.io/Subaashbala/big-cougar-5 */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 5em;\n  height: 2.25em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #e7eff9;\n  outline: 1px solid #f3f8fe;\n  box-shadow: 0 4px 5px #f3f8fe inset, 0 4px 5px #c8d5e6;\n  transition: 0.4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"off\";\n  font-size: 0.85em;\n  color: #d2d6d8;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  min-height: 2em;\n  min-width: 2em;\n  border-radius: 20px;\n  left: 0.35em;\n  bottom: 0.3em;\n  background-color: transparent;\n  outline: 2px solid #d2d6d8;\n  transition: 0.4s;\n}\n\n.switch input:checked + .slider:before {\n  content: \"on\";\n  background-color: #d2d6d8;\n  color: white;\n  transform: translateX(3.1em);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>\n\n</body>\n</html>\n"
 }

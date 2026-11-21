@@ -5,14 +5,22 @@
  "author": "SelfMadeSystem",
  "source": "https://uiverse.io/SelfMadeSystem/green-bobcat-29",
  "trigger": "checked",
- "description": "A checkbox UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "White checkbox that toggles on and off when clicked.",
+ "howItWorks": "Clicking it switches it on or off; its CSS has no :checked rule that changes a visible property.",
  "tags": [
+  "flat",
   "checkbox",
   "checked",
   "css"
  ],
- "html": "<label class=\"container\">\n  <input type=\"checkbox\">\n  <svg viewBox=\"0 0 64 64\" height=\"2em\" width=\"2em\">\n    <path d=\"M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16\" pathLength=\"575.0541381835938\" class=\"path\"></path>\n  </svg>\n</label>",
- "css": "/* From Uiverse.io by SelfMadeSystem - Tags: checkbox */\n.container {\n  cursor: pointer;\n}\n\n.container input {\n  display: none;\n}\n\n.container svg {\n  overflow: visible;\n}\n\n.path {\n  fill: none;\n  stroke: white;\n  stroke-width: 6;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  transition: stroke-dasharray 0.5s ease, stroke-dashoffset 0.5s ease;\n  stroke-dasharray: 241 9999999;\n  stroke-dashoffset: 0;\n}\n\n.container input:checked ~ svg .path {\n  stroke-dasharray: 70.5096664428711 9999999;\n  stroke-dashoffset: -262.2723388671875;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Green Bobcat 29</title>\n<style>\n/* From Uiverse.io by SelfMadeSystem - https://uiverse.io/SelfMadeSystem/green-bobcat-29 */\n/* From Uiverse.io by SelfMadeSystem - Tags: checkbox */\n.container {\n  cursor: pointer;\n}\n\n.container input {\n  display: none;\n}\n\n.container svg {\n  overflow: visible;\n}\n\n.path {\n  fill: none;\n  stroke: white;\n  stroke-width: 6;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  transition: stroke-dasharray 0.5s ease, stroke-dashoffset 0.5s ease;\n  stroke-dasharray: 241 9999999;\n  stroke-dashoffset: 0;\n}\n\n.container input:checked ~ svg .path {\n  stroke-dasharray: 70.5096664428711 9999999;\n  stroke-dashoffset: -262.2723388671875;\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\">\n  <svg viewBox=\"0 0 64 64\" height=\"2em\" width=\"2em\">\n    <path d=\"M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16\" pathLength=\"575.0541381835938\" class=\"path\"></path>\n  </svg>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 298,
+ "size": 1193,
+ "html": "<label class=\"container\">\n  <input type=\"checkbox\">\n  <svg viewBox=\"0 0 64 64\" height=\"2em\" width=\"2em\">\n    <path d=\"M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16\" pathLength=\"575.0541381835938\" class=\"path\"></path>\n  </svg>\n</label>\n",
+ "css": "/* Green Bobcat 29 by SelfMadeSystem — https://uiverse.io/SelfMadeSystem/green-bobcat-29 */\n.container {\n  cursor: pointer;\n}\n\n.container input {\n  display: none;\n}\n\n.container svg {\n  overflow: visible;\n}\n\n.path {\n  fill: none;\n  stroke: white;\n  stroke-width: 6;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  transition: stroke-dasharray 0.5s ease, stroke-dashoffset 0.5s ease;\n  stroke-dasharray: 241 9999999;\n  stroke-dashoffset: 0;\n}\n\n.container input:checked ~ svg .path {\n  stroke-dasharray: 70.5096664428711 9999999;\n  stroke-dashoffset: -262.2723388671875;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Green Bobcat 29</title>\n<style>\n/* Green Bobcat 29 by SelfMadeSystem — https://uiverse.io/SelfMadeSystem/green-bobcat-29 */\n.container {\n  cursor: pointer;\n}\n\n.container input {\n  display: none;\n}\n\n.container svg {\n  overflow: visible;\n}\n\n.path {\n  fill: none;\n  stroke: white;\n  stroke-width: 6;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  transition: stroke-dasharray 0.5s ease, stroke-dashoffset 0.5s ease;\n  stroke-dasharray: 241 9999999;\n  stroke-dashoffset: 0;\n}\n\n.container input:checked ~ svg .path {\n  stroke-dasharray: 70.5096664428711 9999999;\n  stroke-dashoffset: -262.2723388671875;\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\">\n  <svg viewBox=\"0 0 64 64\" height=\"2em\" width=\"2em\">\n    <path d=\"M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16\" pathLength=\"575.0541381835938\" class=\"path\"></path>\n  </svg>\n</label>\n\n</body>\n</html>\n"
 }

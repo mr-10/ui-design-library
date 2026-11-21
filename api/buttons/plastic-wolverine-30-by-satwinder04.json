@@ -5,14 +5,25 @@
  "author": "Satwinder04",
  "source": "https://uiverse.io/Satwinder04/plastic-wolverine-30",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded red button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, background-color changes from #c43f3f to #a13333, box-shadow becomes 0px 2px 0px #751c1c, transform becomes translateY(2px).",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "red",
+  "rounded",
+  "drop",
+  "glow",
+  "color-change",
+  "play"
  ],
- "html": "<button class=\"game-button\">Play Now!</button>",
- "css": "/* From Uiverse.io by Satwinder04 - Tags: button */\n.game-button {\n  background-color: #c43f3f;\n  color: #fff;\n  font-size: 20px;\n  font-weight: bold;\n  border: none;\n  border-radius: 8px;\n  padding: 12px 24px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  box-shadow: 0px 4px 0px #a13333;\n  transition: all 0.2s ease-in-out;\n}\n\n.game-button:hover {\n  background-color: #a13333;\n  box-shadow: 0px 2px 0px #751c1c;\n  transform: translateY(2px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Plastic Wolverine 30</title>\n<style>\n/* From Uiverse.io by Satwinder04 - https://uiverse.io/Satwinder04/plastic-wolverine-30 */\n/* From Uiverse.io by Satwinder04 - Tags: button */\n.game-button {\n  background-color: #c43f3f;\n  color: #fff;\n  font-size: 20px;\n  font-weight: bold;\n  border: none;\n  border-radius: 8px;\n  padding: 12px 24px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  box-shadow: 0px 4px 0px #a13333;\n  transition: all 0.2s ease-in-out;\n}\n\n.game-button:hover {\n  background-color: #a13333;\n  box-shadow: 0px 2px 0px #751c1c;\n  transform: translateY(2px);\n}\n</style>\n</head>\n<body>\n<button class=\"game-button\">Play Now!</button>\n</body>\n</html>\n"
+ "colors": [
+  "#a13333",
+  "#c43f3f",
+  "#751c1c"
+ ],
+ "fonts": [],
+ "tokens": 191,
+ "size": 766,
+ "html": "<button class=\"game-button\">Play Now!</button>\n",
+ "css": "/* Plastic Wolverine 30 by Satwinder04 — https://uiverse.io/Satwinder04/plastic-wolverine-30 */\n.game-button {\n  background-color: #c43f3f;\n  color: #fff;\n  font-size: 20px;\n  font-weight: bold;\n  border: none;\n  border-radius: 8px;\n  padding: 12px 24px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  box-shadow: 0px 4px 0px #a13333;\n  transition: all 0.2s ease-in-out;\n}\n\n.game-button:hover {\n  background-color: #a13333;\n  box-shadow: 0px 2px 0px #751c1c;\n  transform: translateY(2px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Plastic Wolverine 30</title>\n<style>\n/* Plastic Wolverine 30 by Satwinder04 — https://uiverse.io/Satwinder04/plastic-wolverine-30 */\n.game-button {\n  background-color: #c43f3f;\n  color: #fff;\n  font-size: 20px;\n  font-weight: bold;\n  border: none;\n  border-radius: 8px;\n  padding: 12px 24px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  box-shadow: 0px 4px 0px #a13333;\n  transition: all 0.2s ease-in-out;\n}\n\n.game-button:hover {\n  background-color: #a13333;\n  box-shadow: 0px 2px 0px #751c1c;\n  transform: translateY(2px);\n}\n</style>\n</head>\n<body>\n<button class=\"game-button\">Play Now!</button>\n\n</body>\n</html>\n"
 }

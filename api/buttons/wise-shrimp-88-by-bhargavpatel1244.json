@@ -5,14 +5,25 @@
  "author": "BHARGAVPATEL1244",
  "source": "https://uiverse.io/BHARGAVPATEL1244/wise-shrimp-88",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark rounded red button that slides on hover.",
+ "howItWorks": "On hover, background-color changes from #111 to #f8f8f8, text color changes from #fff to #111, transform becomes translateX(4px).",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "red",
+  "dark",
+  "rounded",
+  "flat",
+  "color-change",
+  "slide"
  ],
- "html": "<button class=\"space-button\">\n  <span>Explore space</span>\n  <svg viewBox=\"0 0 24 24\">\n    <path d=\"M5.5 16.5l5-5-5-5\"></path>\n    <path d=\"M11 11h8v2h-8z\"></path>\n    <path d=\"M16.5 7.5l5-5-5-5\"></path>\n    <path d=\"M19 4v8h-2v-8z\"></path>\n  </svg>\n</button>",
- "css": "/* From Uiverse.io by BHARGAVPATEL1244 - Tags: button */\n.space-button {\n  display: inline-block;\n  background-color: #111;\n  color: #fff;\n  border: none;\n  border-radius: 30px;\n  padding: 12px 32px;\n  font-size: 1.2em;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  position: relative;\n  overflow: hidden;\n  cursor: pointer;\n  transition: background-color 0.3s ease;\n}\n\n.space-button span {\n  position: relative;\n  z-index: 1;\n}\n\n.space-button svg {\n  position: absolute;\n  top: 50%;\n  right: 12px;\n  transform: translateY(-50%);\n  width: 16px;\n  height: 16px;\n  fill: #fff;\n  transition: transform 0.3s ease;\n}\n\n.space-button:hover {\n  background-color: #f8f8f8;\n  color: #111;\n}\n\n.space-button:hover svg {\n  transform: translateX(4px);\n}\n\n.space-button:active {\n  background-color: #f94b4c;\n  color: #fff;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wise Shrimp 88</title>\n<style>\n/* From Uiverse.io by BHARGAVPATEL1244 - https://uiverse.io/BHARGAVPATEL1244/wise-shrimp-88 */\n/* From Uiverse.io by BHARGAVPATEL1244 - Tags: button */\n.space-button {\n  display: inline-block;\n  background-color: #111;\n  color: #fff;\n  border: none;\n  border-radius: 30px;\n  padding: 12px 32px;\n  font-size: 1.2em;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  position: relative;\n  overflow: hidden;\n  cursor: pointer;\n  transition: background-color 0.3s ease;\n}\n\n.space-button span {\n  position: relative;\n  z-index: 1;\n}\n\n.space-button svg {\n  position: absolute;\n  top: 50%;\n  right: 12px;\n  transform: translateY(-50%);\n  width: 16px;\n  height: 16px;\n  fill: #fff;\n  transition: transform 0.3s ease;\n}\n\n.space-button:hover {\n  background-color: #f8f8f8;\n  color: #111;\n}\n\n.space-button:hover svg {\n  transform: translateX(4px);\n}\n\n.space-button:active {\n  background-color: #f94b4c;\n  color: #fff;\n}\n</style>\n</head>\n<body>\n<button class=\"space-button\">\n  <span>Explore space</span>\n  <svg viewBox=\"0 0 24 24\">\n    <path d=\"M5.5 16.5l5-5-5-5\"></path>\n    <path d=\"M11 11h8v2h-8z\"></path>\n    <path d=\"M16.5 7.5l5-5-5-5\"></path>\n    <path d=\"M19 4v8h-2v-8z\"></path>\n  </svg>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#111111",
+  "#f8f8f8",
+  "#f94b4c"
+ ],
+ "fonts": [],
+ "tokens": 337,
+ "size": 1351,
+ "html": "<button class=\"space-button\">\n  <span>Explore space</span>\n  <svg viewBox=\"0 0 24 24\">\n    <path d=\"M5.5 16.5l5-5-5-5\"></path>\n    <path d=\"M11 11h8v2h-8z\"></path>\n    <path d=\"M16.5 7.5l5-5-5-5\"></path>\n    <path d=\"M19 4v8h-2v-8z\"></path>\n  </svg>\n</button>\n",
+ "css": "/* Wise Shrimp 88 by BHARGAVPATEL1244 — https://uiverse.io/BHARGAVPATEL1244/wise-shrimp-88 */\n.space-button {\n  display: inline-block;\n  background-color: #111;\n  color: #fff;\n  border: none;\n  border-radius: 30px;\n  padding: 12px 32px;\n  font-size: 1.2em;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  position: relative;\n  overflow: hidden;\n  cursor: pointer;\n  transition: background-color 0.3s ease;\n}\n\n.space-button span {\n  position: relative;\n  z-index: 1;\n}\n\n.space-button svg {\n  position: absolute;\n  top: 50%;\n  right: 12px;\n  transform: translateY(-50%);\n  width: 16px;\n  height: 16px;\n  fill: #fff;\n  transition: transform 0.3s ease;\n}\n\n.space-button:hover {\n  background-color: #f8f8f8;\n  color: #111;\n}\n\n.space-button:hover svg {\n  transform: translateX(4px);\n}\n\n.space-button:active {\n  background-color: #f94b4c;\n  color: #fff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wise Shrimp 88</title>\n<style>\n/* Wise Shrimp 88 by BHARGAVPATEL1244 — https://uiverse.io/BHARGAVPATEL1244/wise-shrimp-88 */\n.space-button {\n  display: inline-block;\n  background-color: #111;\n  color: #fff;\n  border: none;\n  border-radius: 30px;\n  padding: 12px 32px;\n  font-size: 1.2em;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  position: relative;\n  overflow: hidden;\n  cursor: pointer;\n  transition: background-color 0.3s ease;\n}\n\n.space-button span {\n  position: relative;\n  z-index: 1;\n}\n\n.space-button svg {\n  position: absolute;\n  top: 50%;\n  right: 12px;\n  transform: translateY(-50%);\n  width: 16px;\n  height: 16px;\n  fill: #fff;\n  transition: transform 0.3s ease;\n}\n\n.space-button:hover {\n  background-color: #f8f8f8;\n  color: #111;\n}\n\n.space-button:hover svg {\n  transform: translateX(4px);\n}\n\n.space-button:active {\n  background-color: #f94b4c;\n  color: #fff;\n}\n</style>\n</head>\n<body>\n<button class=\"space-button\">\n  <span>Explore space</span>\n  <svg viewBox=\"0 0 24 24\">\n    <path d=\"M5.5 16.5l5-5-5-5\"></path>\n    <path d=\"M11 11h8v2h-8z\"></path>\n    <path d=\"M16.5 7.5l5-5-5-5\"></path>\n    <path d=\"M19 4v8h-2v-8z\"></path>\n  </svg>\n</button>\n\n</body>\n</html>\n"
 }

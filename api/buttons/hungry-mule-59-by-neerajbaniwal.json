@@ -5,17 +5,27 @@
  "author": "neerajbaniwal",
  "source": "https://uiverse.io/neerajbaniwal/hungry-mule-59",
  "trigger": "auto-loop",
- "description": "A button with transition, text and btn styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient gray button with shimmering motion in a loop.",
+ "howItWorks": "It loops a 3s animation (shimmering).",
  "tags": [
+  "gradient",
+  "flat",
+  "shimmer",
   "button",
   "transition",
-  "text",
-  "btn",
-  "hover-effect",
-  "html"
+  "text"
  ],
- "html": "<a class=\"btn-shine\" href=\"https://check.so\">Get early access</a>",
- "css": "/* From Uiverse.io by neerajbaniwal  - Tags: button, transition, text, btn, hover effect, html, css, #button */\n.btn-shine {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  padding: 12px 48px;\n  color: #fff;\n  background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);\n  background-position: 0;\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  animation: shine 3s infinite linear;\n  animation-fill-mode: forwards;\n  -webkit-text-size-adjust: none;\n  font-weight: 600;\n  font-size: 16px;\n  text-decoration: none;\n  white-space: nowrap;\n  font-family: \"Poppins\", sans-serif;\n}\n@-moz-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@-webkit-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@-o-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Mule 59</title>\n<style>\n/* From Uiverse.io by neerajbaniwal - https://uiverse.io/neerajbaniwal/hungry-mule-59 */\n/* From Uiverse.io by neerajbaniwal  - Tags: button, transition, text, btn, hover effect, html, css, #button */\n.btn-shine {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  padding: 12px 48px;\n  color: #fff;\n  background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);\n  background-position: 0;\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  animation: shine 3s infinite linear;\n  animation-fill-mode: forwards;\n  -webkit-text-size-adjust: none;\n  font-weight: 600;\n  font-size: 16px;\n  text-decoration: none;\n  white-space: nowrap;\n  font-family: \"Poppins\", sans-serif;\n}\n@-moz-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@-webkit-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@-o-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n</style>\n</head>\n<body>\n<a class=\"btn-shine\" href=\"https://check.so\">Get early access</a>\n</body>\n</html>\n"
+ "colors": [
+  "#9f9f9f",
+  "#868686",
+  "#ffffff"
+ ],
+ "fonts": [
+  "Poppins"
+ ],
+ "tokens": 380,
+ "size": 1521,
+ "html": "<a class=\"btn-shine\" href=\"https://check.so\">Get early access</a>\n",
+ "css": "/* Hungry Mule 59 by neerajbaniwal — https://uiverse.io/neerajbaniwal/hungry-mule-59 */\n.btn-shine {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  padding: 12px 48px;\n  color: #fff;\n  background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);\n  background-position: 0;\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  animation: shine 3s infinite linear;\n  animation-fill-mode: forwards;\n  -webkit-text-size-adjust: none;\n  font-weight: 600;\n  font-size: 16px;\n  text-decoration: none;\n  white-space: nowrap;\n  font-family: \"Poppins\", sans-serif;\n}\n@-moz-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@-webkit-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@-o-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Mule 59</title>\n<style>\n/* Hungry Mule 59 by neerajbaniwal — https://uiverse.io/neerajbaniwal/hungry-mule-59 */\n.btn-shine {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  padding: 12px 48px;\n  color: #fff;\n  background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);\n  background-position: 0;\n  -webkit-background-clip: text;\n  -webkit-text-fill-color: transparent;\n  animation: shine 3s infinite linear;\n  animation-fill-mode: forwards;\n  -webkit-text-size-adjust: none;\n  font-weight: 600;\n  font-size: 16px;\n  text-decoration: none;\n  white-space: nowrap;\n  font-family: \"Poppins\", sans-serif;\n}\n@-moz-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@-webkit-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@-o-keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n@keyframes shine {\n  0% {\n    background-position: 0;\n  }\n  60% {\n    background-position: 180px;\n  }\n  100% {\n    background-position: 180px;\n  }\n}\n</style>\n</head>\n<body>\n<a class=\"btn-shine\" href=\"https://check.so\">Get early access</a>\n\n</body>\n</html>\n"
 }

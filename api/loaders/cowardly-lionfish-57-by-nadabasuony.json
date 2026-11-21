@@ -5,14 +5,25 @@
  "author": "Nadabasuony",
  "source": "https://uiverse.io/Nadabasuony/cowardly-lionfish-57",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Rounded red loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a 2s animation (pulsing).",
  "tags": [
+  "red",
+  "orange",
+  "rounded",
+  "pulse",
   "loader",
-  "auto-loop",
-  "css"
+  "auto-loop"
  ],
- "html": "<div class=\"loader\">\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n</div>",
- "css": "/* From Uiverse.io by Nadabasuony - Tags: loader */\n.loader {\n  display: flex;\n}\n\n.l,.l:nth-child(9) {\n  margin: 0.15em;\n  border-radius: 5em;\n  width: 0.4em;\n  background-color: #f12711;\n  height: 3em;\n  box-shadow: 1px 1px 4px black;\n  animation: load_5186 cubic-bezier(.41,.44,.72,.69) 2s infinite;\n}\n\n.l:nth-child(2), \n.l:nth-child(8) {\n  background-color: #f24e13;\n  animation-delay: .25s;\n}\n\n.l:nth-child(3), \n.l:nth-child(7) {\n  background-color: #f36915;\n  animation-delay: .5s;\n}\n\n.l:nth-child(4), \n.l:nth-child(6) {\n  background-color: #f48c17;\n  animation-delay: .75s;\n}\n\n.l:nth-child(5) {\n  background-color: #f5af19;\n  animation-delay: 1s;\n}\n\n@keyframes load_5186 {\n  0% {\n    transform: scaleY(1);\n  }\n\n  100% {\n    transform: scaleY(-1);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Lionfish 57</title>\n<style>\n/* From Uiverse.io by Nadabasuony - https://uiverse.io/Nadabasuony/cowardly-lionfish-57 */\n/* From Uiverse.io by Nadabasuony - Tags: loader */\n.loader {\n  display: flex;\n}\n\n.l,.l:nth-child(9) {\n  margin: 0.15em;\n  border-radius: 5em;\n  width: 0.4em;\n  background-color: #f12711;\n  height: 3em;\n  box-shadow: 1px 1px 4px black;\n  animation: load_5186 cubic-bezier(.41,.44,.72,.69) 2s infinite;\n}\n\n.l:nth-child(2), \n.l:nth-child(8) {\n  background-color: #f24e13;\n  animation-delay: .25s;\n}\n\n.l:nth-child(3), \n.l:nth-child(7) {\n  background-color: #f36915;\n  animation-delay: .5s;\n}\n\n.l:nth-child(4), \n.l:nth-child(6) {\n  background-color: #f48c17;\n  animation-delay: .75s;\n}\n\n.l:nth-child(5) {\n  background-color: #f5af19;\n  animation-delay: 1s;\n}\n\n@keyframes load_5186 {\n  0% {\n    transform: scaleY(1);\n  }\n\n  100% {\n    transform: scaleY(-1);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#f12711",
+  "#f24e13",
+  "#f36915"
+ ],
+ "fonts": [],
+ "tokens": 316,
+ "size": 1265,
+ "html": "<div class=\"loader\">\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n</div>\n",
+ "css": "/* Cowardly Lionfish 57 by Nadabasuony — https://uiverse.io/Nadabasuony/cowardly-lionfish-57 */\n.loader {\n  display: flex;\n}\n\n.l,.l:nth-child(9) {\n  margin: 0.15em;\n  border-radius: 5em;\n  width: 0.4em;\n  background-color: #f12711;\n  height: 3em;\n  box-shadow: 1px 1px 4px black;\n  animation: load_5186 cubic-bezier(.41,.44,.72,.69) 2s infinite;\n}\n\n.l:nth-child(2),\n.l:nth-child(8) {\n  background-color: #f24e13;\n  animation-delay: .25s;\n}\n\n.l:nth-child(3),\n.l:nth-child(7) {\n  background-color: #f36915;\n  animation-delay: .5s;\n}\n\n.l:nth-child(4),\n.l:nth-child(6) {\n  background-color: #f48c17;\n  animation-delay: .75s;\n}\n\n.l:nth-child(5) {\n  background-color: #f5af19;\n  animation-delay: 1s;\n}\n\n@keyframes load_5186 {\n  0% {\n    transform: scaleY(1);\n  }\n\n  100% {\n    transform: scaleY(-1);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Lionfish 57</title>\n<style>\n/* Cowardly Lionfish 57 by Nadabasuony — https://uiverse.io/Nadabasuony/cowardly-lionfish-57 */\n.loader {\n  display: flex;\n}\n\n.l,.l:nth-child(9) {\n  margin: 0.15em;\n  border-radius: 5em;\n  width: 0.4em;\n  background-color: #f12711;\n  height: 3em;\n  box-shadow: 1px 1px 4px black;\n  animation: load_5186 cubic-bezier(.41,.44,.72,.69) 2s infinite;\n}\n\n.l:nth-child(2),\n.l:nth-child(8) {\n  background-color: #f24e13;\n  animation-delay: .25s;\n}\n\n.l:nth-child(3),\n.l:nth-child(7) {\n  background-color: #f36915;\n  animation-delay: .5s;\n}\n\n.l:nth-child(4),\n.l:nth-child(6) {\n  background-color: #f48c17;\n  animation-delay: .75s;\n}\n\n.l:nth-child(5) {\n  background-color: #f5af19;\n  animation-delay: 1s;\n}\n\n@keyframes load_5186 {\n  0% {\n    transform: scaleY(1);\n  }\n\n  100% {\n    transform: scaleY(-1);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n  <div class=\"l\"></div>\n</div>\n\n</body>\n</html>\n"
 }

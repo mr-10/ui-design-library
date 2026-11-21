@@ -5,14 +5,25 @@
  "author": "mrhyddenn",
  "source": "https://uiverse.io/mrhyddenn/spicy-dolphin-98",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient pill red loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1.2s animation (rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "red",
+  "cyan",
+  "gradient",
+  "rounded",
+  "pill",
+  "flat"
  ],
- "html": "<div class=\"loader\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n</div>",
- "css": "/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: linear-gradient(#ee280e, #15a0f7, #6ed15a);\n  animation: animate7712 1.2s linear infinite;\n}\n\n@keyframes animate7712 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.loader span {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background: linear-gradient(#ee280e, #15a0f7, #5ad15a);\n}\n\n.loader:after {\n  content: '';\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  right: 10px;\n  bottom: 10px;\n  background: #333;\n  border: solid #333 10px;\n  border-radius: 50%;\n}\n\n.loader span:nth-child(1) {\n  filter: blur(5px);\n}\n\n.loader span:nth-child(2) {\n  filter: blur(10px);\n}\n\n.loader span:nth-child(3) {\n  filter: blur(25px);\n}\n\n.loader span:nth-child(4) {\n  filter: blur(50px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spicy Dolphin 98</title>\n<style>\n/* From Uiverse.io by mrhyddenn - https://uiverse.io/mrhyddenn/spicy-dolphin-98 */\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: linear-gradient(#ee280e, #15a0f7, #6ed15a);\n  animation: animate7712 1.2s linear infinite;\n}\n\n@keyframes animate7712 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.loader span {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background: linear-gradient(#ee280e, #15a0f7, #5ad15a);\n}\n\n.loader:after {\n  content: '';\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  right: 10px;\n  bottom: 10px;\n  background: #333;\n  border: solid #333 10px;\n  border-radius: 50%;\n}\n\n.loader span:nth-child(1) {\n  filter: blur(5px);\n}\n\n.loader span:nth-child(2) {\n  filter: blur(10px);\n}\n\n.loader span:nth-child(3) {\n  filter: blur(25px);\n}\n\n.loader span:nth-child(4) {\n  filter: blur(50px);\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ee280e",
+  "#15a0f7",
+  "#333333"
+ ],
+ "fonts": [],
+ "tokens": 312,
+ "size": 1251,
+ "html": "<div class=\"loader\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n</div>\n",
+ "css": "/* Spicy Dolphin 98 by mrhyddenn — https://uiverse.io/mrhyddenn/spicy-dolphin-98 */\n.loader {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: linear-gradient(#ee280e, #15a0f7, #6ed15a);\n  animation: animate7712 1.2s linear infinite;\n}\n\n@keyframes animate7712 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.loader span {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background: linear-gradient(#ee280e, #15a0f7, #5ad15a);\n}\n\n.loader:after {\n  content: '';\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  right: 10px;\n  bottom: 10px;\n  background: #333;\n  border: solid #333 10px;\n  border-radius: 50%;\n}\n\n.loader span:nth-child(1) {\n  filter: blur(5px);\n}\n\n.loader span:nth-child(2) {\n  filter: blur(10px);\n}\n\n.loader span:nth-child(3) {\n  filter: blur(25px);\n}\n\n.loader span:nth-child(4) {\n  filter: blur(50px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spicy Dolphin 98</title>\n<style>\n/* Spicy Dolphin 98 by mrhyddenn — https://uiverse.io/mrhyddenn/spicy-dolphin-98 */\n.loader {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: linear-gradient(#ee280e, #15a0f7, #6ed15a);\n  animation: animate7712 1.2s linear infinite;\n}\n\n@keyframes animate7712 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.loader span {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  background: linear-gradient(#ee280e, #15a0f7, #5ad15a);\n}\n\n.loader:after {\n  content: '';\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  right: 10px;\n  bottom: 10px;\n  background: #333;\n  border: solid #333 10px;\n  border-radius: 50%;\n}\n\n.loader span:nth-child(1) {\n  filter: blur(5px);\n}\n\n.loader span:nth-child(2) {\n  filter: blur(10px);\n}\n\n.loader span:nth-child(3) {\n  filter: blur(25px);\n}\n\n.loader span:nth-child(4) {\n  filter: blur(50px);\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n</div>\n\n</body>\n</html>\n"
 }

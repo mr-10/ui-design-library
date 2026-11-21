@@ -5,17 +5,25 @@
  "author": "ahmedyasserdev",
  "source": "https://uiverse.io/ahmedyasserdev/cuddly-gecko-77",
  "trigger": "hover",
- "description": "A card with hover-effect, cardhover and card-hover styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "3d rounded cyan card that reacts on hover.",
+ "howItWorks": "On hover, transform becomes rotateY(180deg).",
  "tags": [
-  "card",
-  "hover-effect",
-  "cardhover",
-  "card-hover",
-  "3d-card",
-  "hover"
+  "cyan",
+  "3d",
+  "rounded",
+  "flat",
+  "back",
+  "card"
  ],
- "html": "<div class=\"three-d-card\">\n  <div class=\"card-wrapper\">\n    <div class=\"card-face front\">\n      <div class=\"card-content\">\n        <div class=\"card-title\">3D Card</div>\n        <div class=\"card-description\">Hover over me for a 3D effect!</div>\n      </div>\n    </div>\n    <div class=\"card-face back\">\n      <div class=\"card-content\">\n        <div class=\"card-title\">Back Side</div>\n        <div class=\"card-description\">This is the back of the 3D card.</div>\n      </div>\n    </div>\n  </div>\n</div>",
- "css": "/* From Uiverse.io by ahmedyasserdev  - Tags: card, hover effect, cardhover , card hover, 3d card */\n.three-d-card {\n  position: relative;\n  width: 300px;\n  height: 200px;\n  perspective: 1000px;\n}\n\n.card-wrapper {\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  transition: transform 0.5s;\n}\n\n.three-d-card:hover .card-wrapper {\n  transform: rotateY(180deg);\n}\n\n.card-face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  backface-visibility: hidden;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 2px solid #3498db;\n  border-radius: 15px;\n  background-color: #fff;\n}\n\n.card-face.front {\n  transform: rotateY(0deg);\n}\n\n.card-face.back {\n  transform: rotateY(180deg);\n}\n\n.card-content {\n  text-align: center;\n  color: #333;\n}\n\n.card-title {\n  font-size: 24px;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n\n.card-description {\n  font-size: 16px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Gecko 77</title>\n<style>\n/* From Uiverse.io by ahmedyasserdev - https://uiverse.io/ahmedyasserdev/cuddly-gecko-77 */\n/* From Uiverse.io by ahmedyasserdev  - Tags: card, hover effect, cardhover , card hover, 3d card */\n.three-d-card {\n  position: relative;\n  width: 300px;\n  height: 200px;\n  perspective: 1000px;\n}\n\n.card-wrapper {\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  transition: transform 0.5s;\n}\n\n.three-d-card:hover .card-wrapper {\n  transform: rotateY(180deg);\n}\n\n.card-face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  backface-visibility: hidden;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 2px solid #3498db;\n  border-radius: 15px;\n  background-color: #fff;\n}\n\n.card-face.front {\n  transform: rotateY(0deg);\n}\n\n.card-face.back {\n  transform: rotateY(180deg);\n}\n\n.card-content {\n  text-align: center;\n  color: #333;\n}\n\n.card-title {\n  font-size: 24px;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n\n.card-description {\n  font-size: 16px;\n}\n</style>\n</head>\n<body>\n<div class=\"three-d-card\">\n  <div class=\"card-wrapper\">\n    <div class=\"card-face front\">\n      <div class=\"card-content\">\n        <div class=\"card-title\">3D Card</div>\n        <div class=\"card-description\">Hover over me for a 3D effect!</div>\n      </div>\n    </div>\n    <div class=\"card-face back\">\n      <div class=\"card-content\">\n        <div class=\"card-title\">Back Side</div>\n        <div class=\"card-description\">This is the back of the 3D card.</div>\n      </div>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#3498db",
+  "#333333",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 402,
+ "size": 1608,
+ "html": "<div class=\"three-d-card\">\n  <div class=\"card-wrapper\">\n    <div class=\"card-face front\">\n      <div class=\"card-content\">\n        <div class=\"card-title\">3D Card</div>\n        <div class=\"card-description\">Hover over me for a 3D effect!</div>\n      </div>\n    </div>\n    <div class=\"card-face back\">\n      <div class=\"card-content\">\n        <div class=\"card-title\">Back Side</div>\n        <div class=\"card-description\">This is the back of the 3D card.</div>\n      </div>\n    </div>\n  </div>\n</div>\n",
+ "css": "/* Cuddly Gecko 77 by ahmedyasserdev — https://uiverse.io/ahmedyasserdev/cuddly-gecko-77 */\n.three-d-card {\n  position: relative;\n  width: 300px;\n  height: 200px;\n  perspective: 1000px;\n}\n\n.card-wrapper {\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  transition: transform 0.5s;\n}\n\n.three-d-card:hover .card-wrapper {\n  transform: rotateY(180deg);\n}\n\n.card-face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  backface-visibility: hidden;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 2px solid #3498db;\n  border-radius: 15px;\n  background-color: #fff;\n}\n\n.card-face.front {\n  transform: rotateY(0deg);\n}\n\n.card-face.back {\n  transform: rotateY(180deg);\n}\n\n.card-content {\n  text-align: center;\n  color: #333;\n}\n\n.card-title {\n  font-size: 24px;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n\n.card-description {\n  font-size: 16px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Gecko 77</title>\n<style>\n/* Cuddly Gecko 77 by ahmedyasserdev — https://uiverse.io/ahmedyasserdev/cuddly-gecko-77 */\n.three-d-card {\n  position: relative;\n  width: 300px;\n  height: 200px;\n  perspective: 1000px;\n}\n\n.card-wrapper {\n  width: 100%;\n  height: 100%;\n  transform-style: preserve-3d;\n  transition: transform 0.5s;\n}\n\n.three-d-card:hover .card-wrapper {\n  transform: rotateY(180deg);\n}\n\n.card-face {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  backface-visibility: hidden;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 2px solid #3498db;\n  border-radius: 15px;\n  background-color: #fff;\n}\n\n.card-face.front {\n  transform: rotateY(0deg);\n}\n\n.card-face.back {\n  transform: rotateY(180deg);\n}\n\n.card-content {\n  text-align: center;\n  color: #333;\n}\n\n.card-title {\n  font-size: 24px;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n\n.card-description {\n  font-size: 16px;\n}\n</style>\n</head>\n<body>\n<div class=\"three-d-card\">\n  <div class=\"card-wrapper\">\n    <div class=\"card-face front\">\n      <div class=\"card-content\">\n        <div class=\"card-title\">3D Card</div>\n        <div class=\"card-description\">Hover over me for a 3D effect!</div>\n      </div>\n    </div>\n    <div class=\"card-face back\">\n      <div class=\"card-content\">\n        <div class=\"card-title\">Back Side</div>\n        <div class=\"card-description\">This is the back of the 3D card.</div>\n      </div>\n    </div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

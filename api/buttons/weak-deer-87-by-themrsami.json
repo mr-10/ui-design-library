@@ -4,15 +4,25 @@
  "category": "buttons",
  "author": "themrsami",
  "source": "https://uiverse.io/themrsami/weak-deer-87",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Pill red button that changes colour on hover.",
+ "howItWorks": "On hover, border changes and background changes and text colour changes. On focus, border changes and text colour changes and a ring appears.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "red",
+  "rounded",
+  "pill",
+  "color-change",
+  "ring",
+  "buttons"
  ],
- "html": "<!-- From Uiverse.io by themrsami  - Tags: button, animated, tailwind, tailwindbutton, tailwindcss -->\n<button\n  class=\"inline-block rounded-full border-2 border-rose-500 text-rose-500 hover:border-rose-600 hover:bg-rose-400 hover:bg-opacity-10 hover:text-rose-600 focus:border-rose-700 focus:text-rose-700 active:border-rose-800 active:text-rose-800 dark:border-rose-300 dark:text-rose-300 dark:hover:hover:bg-rose-300 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal transition duration-150 ease-in-out focus:outline-none focus:ring-0\"\n  type=\"button\"\n>\n  <div\n    role=\"status\"\n    class=\"inline-block h-3 w-3 mr-2 animate-spin rounded-full border-2 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]\"\n  >\n    <span\n      class=\"!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]\"\n    >\n      Loading...\n    </span>\n  </div>\n  Loading\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Weak Deer 87</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/weak-deer-87 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by themrsami  - Tags: button, animated, tailwind, tailwindbutton, tailwindcss -->\n<button\n  class=\"inline-block rounded-full border-2 border-rose-500 text-rose-500 hover:border-rose-600 hover:bg-rose-400 hover:bg-opacity-10 hover:text-rose-600 focus:border-rose-700 focus:text-rose-700 active:border-rose-800 active:text-rose-800 dark:border-rose-300 dark:text-rose-300 dark:hover:hover:bg-rose-300 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal transition duration-150 ease-in-out focus:outline-none focus:ring-0\"\n  type=\"button\"\n>\n  <div\n    role=\"status\"\n    class=\"inline-block h-3 w-3 mr-2 animate-spin rounded-full border-2 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]\"\n  >\n    <span\n      class=\"!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]\"\n    >\n      Loading...\n    </span>\n  </div>\n  Loading\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#f43f5e",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 290,
+ "size": 1164,
+ "html": "<button\n  class=\"inline-block rounded-full border-2 border-rose-500 text-rose-500 hover:border-rose-600 hover:bg-rose-400 hover:bg-opacity-10 hover:text-rose-600 focus:border-rose-700 focus:text-rose-700 active:border-rose-800 active:text-rose-800 dark:border-rose-300 dark:text-rose-300 dark:hover:hover:bg-rose-300 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal transition duration-150 ease-in-out focus:outline-none focus:ring-0\"\n  type=\"button\"\n>\n  <div\n    role=\"status\"\n    class=\"inline-block h-3 w-3 mr-2 animate-spin rounded-full border-2 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]\"\n  >\n    <span\n      class=\"!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]\"\n    >\n      Loading...\n    </span>\n  </div>\n  Loading\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Weak Deer 87</title>\n<style>\n/* Weak Deer 87 by themrsami — https://uiverse.io/themrsami/weak-deer-87 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"inline-block rounded-full border-2 border-rose-500 text-rose-500 hover:border-rose-600 hover:bg-rose-400 hover:bg-opacity-10 hover:text-rose-600 focus:border-rose-700 focus:text-rose-700 active:border-rose-800 active:text-rose-800 dark:border-rose-300 dark:text-rose-300 dark:hover:hover:bg-rose-300 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal transition duration-150 ease-in-out focus:outline-none focus:ring-0\"\n  type=\"button\"\n>\n  <div\n    role=\"status\"\n    class=\"inline-block h-3 w-3 mr-2 animate-spin rounded-full border-2 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]\"\n  >\n    <span\n      class=\"!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]\"\n    >\n      Loading...\n    </span>\n  </div>\n  Loading\n</button>\n\n</body>\n</html>\n"
 }

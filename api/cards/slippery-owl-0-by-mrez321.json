@@ -5,17 +5,25 @@
  "author": "MRez321",
  "source": "https://uiverse.io/MRez321/slippery-owl-0",
  "trigger": "hover",
- "description": "A card with animated, floating and div styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient dark pill cyan card that starts animating on hover.",
+ "howItWorks": "On hover, starts the float animation (animating), starts the blink animation (bouncing, pulsing).",
  "tags": [
-  "hover",
-  "animated",
-  "floating",
-  "div",
-  "eye",
-  "cards"
+  "cyan",
+  "gradient",
+  "dark",
+  "rounded",
+  "pill",
+  "flat"
  ],
- "html": "<div class=\"one-div\"></div>",
- "css": "/* From Uiverse.io by MRez321 - Tags: hover, animated, floating, div, eye */\n.one-div {\n  background-color: #322e2e;\n  width: 20rem;\n  height: 15rem;\n  position: relative;\n  border: solid 1.2rem #dacfcf;\n  border-radius: 50% 50% 44% 44% / 55% 55% 40% 40%;\n}\n\n.one-div::before,\n.one-div::after {\n  content: '';\n  width: 6rem;\n  height: 6rem;\n  position: absolute;\n  top: 35%;\n  background-image: repeating-linear-gradient(0deg, #474bff, #474bff 3.5px, transparent 3.5px, transparent);\n  background-size: .4rem .4rem;\n  background-color: #31abd1;\n  border: solid 2px #00adcc;\n  filter: drop-shadow(0 1px 6px #04d9ff);\n}\n\n.one-div::before {\n  left: 1.4rem;\n  border-radius: 25% 75% 25% 75% / 25% 75% 25% 75%;\n}\n\n.one-div::after {\n  right: 1.4rem;\n  border-radius: 75% 25% 75% 25% / 75% 25% 75% 25%;\n}\n\n.one-div:hover {\n  animation: float 2s infinite;\n}\n\n.one-div:hover::before,\n.one-div:hover::after {\n  animation: blink 2.5s infinite;\n}\n\n@keyframes float {\n  0% {\n    bottom: 0;\n  }\n\n  50% {\n    bottom: -.4rem;\n  }\n\n  100% {\n    bottom: 0;\n  }\n}\n\n@keyframes blink {\n  90% {\n    transform: none;\n    animation-timing-function: ease-in;\n  }\n\n  93% {\n    transform: translateY(15px) scaleY(0)\n  }\n\n  100% {\n    animation-timing-function: ease-out;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slippery Owl 0</title>\n<style>\n/* From Uiverse.io by MRez321 - https://uiverse.io/MRez321/slippery-owl-0 */\n/* From Uiverse.io by MRez321 - Tags: hover, animated, floating, div, eye */\n.one-div {\n  background-color: #322e2e;\n  width: 20rem;\n  height: 15rem;\n  position: relative;\n  border: solid 1.2rem #dacfcf;\n  border-radius: 50% 50% 44% 44% / 55% 55% 40% 40%;\n}\n\n.one-div::before,\n.one-div::after {\n  content: '';\n  width: 6rem;\n  height: 6rem;\n  position: absolute;\n  top: 35%;\n  background-image: repeating-linear-gradient(0deg, #474bff, #474bff 3.5px, transparent 3.5px, transparent);\n  background-size: .4rem .4rem;\n  background-color: #31abd1;\n  border: solid 2px #00adcc;\n  filter: drop-shadow(0 1px 6px #04d9ff);\n}\n\n.one-div::before {\n  left: 1.4rem;\n  border-radius: 25% 75% 25% 75% / 25% 75% 25% 75%;\n}\n\n.one-div::after {\n  right: 1.4rem;\n  border-radius: 75% 25% 75% 25% / 75% 25% 75% 25%;\n}\n\n.one-div:hover {\n  animation: float 2s infinite;\n}\n\n.one-div:hover::before,\n.one-div:hover::after {\n  animation: blink 2.5s infinite;\n}\n\n@keyframes float {\n  0% {\n    bottom: 0;\n  }\n\n  50% {\n    bottom: -.4rem;\n  }\n\n  100% {\n    bottom: 0;\n  }\n}\n\n@keyframes blink {\n  90% {\n    transform: none;\n    animation-timing-function: ease-in;\n  }\n\n  93% {\n    transform: translateY(15px) scaleY(0)\n  }\n\n  100% {\n    animation-timing-function: ease-out;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#322e2e",
+  "#dacfcf",
+  "#31abd1"
+ ],
+ "fonts": [],
+ "tokens": 372,
+ "size": 1492,
+ "html": "<div class=\"one-div\"></div>\n",
+ "css": "/* Slippery Owl 0 by MRez321 — https://uiverse.io/MRez321/slippery-owl-0 */\n.one-div {\n  background-color: #322e2e;\n  width: 20rem;\n  height: 15rem;\n  position: relative;\n  border: solid 1.2rem #dacfcf;\n  border-radius: 50% 50% 44% 44% / 55% 55% 40% 40%;\n}\n\n.one-div::before,\n.one-div::after {\n  content: '';\n  width: 6rem;\n  height: 6rem;\n  position: absolute;\n  top: 35%;\n  background-image: repeating-linear-gradient(0deg, #474bff, #474bff 3.5px, transparent 3.5px, transparent);\n  background-size: .4rem .4rem;\n  background-color: #31abd1;\n  border: solid 2px #00adcc;\n  filter: drop-shadow(0 1px 6px #04d9ff);\n}\n\n.one-div::before {\n  left: 1.4rem;\n  border-radius: 25% 75% 25% 75% / 25% 75% 25% 75%;\n}\n\n.one-div::after {\n  right: 1.4rem;\n  border-radius: 75% 25% 75% 25% / 75% 25% 75% 25%;\n}\n\n.one-div:hover {\n  animation: float 2s infinite;\n}\n\n.one-div:hover::before,\n.one-div:hover::after {\n  animation: blink 2.5s infinite;\n}\n\n@keyframes float {\n  0% {\n    bottom: 0;\n  }\n\n  50% {\n    bottom: -.4rem;\n  }\n\n  100% {\n    bottom: 0;\n  }\n}\n\n@keyframes blink {\n  90% {\n    transform: none;\n    animation-timing-function: ease-in;\n  }\n\n  93% {\n    transform: translateY(15px) scaleY(0)\n  }\n\n  100% {\n    animation-timing-function: ease-out;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slippery Owl 0</title>\n<style>\n/* Slippery Owl 0 by MRez321 — https://uiverse.io/MRez321/slippery-owl-0 */\n.one-div {\n  background-color: #322e2e;\n  width: 20rem;\n  height: 15rem;\n  position: relative;\n  border: solid 1.2rem #dacfcf;\n  border-radius: 50% 50% 44% 44% / 55% 55% 40% 40%;\n}\n\n.one-div::before,\n.one-div::after {\n  content: '';\n  width: 6rem;\n  height: 6rem;\n  position: absolute;\n  top: 35%;\n  background-image: repeating-linear-gradient(0deg, #474bff, #474bff 3.5px, transparent 3.5px, transparent);\n  background-size: .4rem .4rem;\n  background-color: #31abd1;\n  border: solid 2px #00adcc;\n  filter: drop-shadow(0 1px 6px #04d9ff);\n}\n\n.one-div::before {\n  left: 1.4rem;\n  border-radius: 25% 75% 25% 75% / 25% 75% 25% 75%;\n}\n\n.one-div::after {\n  right: 1.4rem;\n  border-radius: 75% 25% 75% 25% / 75% 25% 75% 25%;\n}\n\n.one-div:hover {\n  animation: float 2s infinite;\n}\n\n.one-div:hover::before,\n.one-div:hover::after {\n  animation: blink 2.5s infinite;\n}\n\n@keyframes float {\n  0% {\n    bottom: 0;\n  }\n\n  50% {\n    bottom: -.4rem;\n  }\n\n  100% {\n    bottom: 0;\n  }\n}\n\n@keyframes blink {\n  90% {\n    transform: none;\n    animation-timing-function: ease-in;\n  }\n\n  93% {\n    transform: translateY(15px) scaleY(0)\n  }\n\n  100% {\n    animation-timing-function: ease-out;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n\n</body>\n</html>\n"
 }

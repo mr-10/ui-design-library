@@ -5,17 +5,27 @@
  "author": "BurgiSimon",
  "source": "https://uiverse.io/BurgiSimon/cuddly-monkey-7",
  "trigger": "hover",
- "description": "A button with simple, 3d and white styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded white button that reacts on hover with a smooth transition.",
+ "howItWorks": "On hover, border becomes 2px #000000 inset.",
  "tags": [
+  "rounded",
   "simple",
   "3d",
   "white",
   "button",
-  "rounded",
   "light"
  ],
- "html": "<button class=\"button-3d\">\n  <span class=\"button-text\">CLICK ME</span>\n</button>",
- "css": "/* From Uiverse.io by BurgiSimon  - Website: https://codepen.io/bepctak/pen/ojXjzR - Name: Artur - Tags: simple, 3d, white, button, rounded, light, css, 3d button */\n.button-3d {\n  position: relative;\n  top: -6px;\n  border: 1.5px rgb(0, 0, 0) inset;\n  border-radius: 10px;\n  transition: all 40ms ease-out;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  margin-left: 2px;\n  margin-right: 2px;\n  padding-top: 10px;\n  padding-bottom: 10px;\n  padding-left: 10px;\n  padding-right: 10px;\n  color: #666666;\n\n  box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.1) inset,\n    0 8px 0 0 #f5f5f5, 0 8px 8px 1px rgba(0, 0, 0, 0.2);\n  background-color: #fff;\n}\n\n.button-text {\n  font-family: sans-serif;\n  font-weight: 0;\n  font-size: 16px;\n  letter-spacing: 3px;\n  color: #000000;\n  border-bottom: 0px solid;\n}\n\n.button-3d:hover {\n  border: 2px rgb(0, 0, 0) inset;\n}\n\n.button-3d:active {\n  top: 1px;\n  color: #666666;\n  box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset,\n    0 1px 3px 1px rgba(136, 136, 136, 0.479);\n  background-color: #fff;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Monkey 7</title>\n<style>\n/* From Uiverse.io by BurgiSimon - https://uiverse.io/BurgiSimon/cuddly-monkey-7 */\n/* From Uiverse.io by BurgiSimon  - Website: https://codepen.io/bepctak/pen/ojXjzR - Name: Artur - Tags: simple, 3d, white, button, rounded, light, css, 3d button */\n.button-3d {\n  position: relative;\n  top: -6px;\n  border: 1.5px rgb(0, 0, 0) inset;\n  border-radius: 10px;\n  transition: all 40ms ease-out;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  margin-left: 2px;\n  margin-right: 2px;\n  padding-top: 10px;\n  padding-bottom: 10px;\n  padding-left: 10px;\n  padding-right: 10px;\n  color: #666666;\n\n  box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.1) inset,\n    0 8px 0 0 #f5f5f5, 0 8px 8px 1px rgba(0, 0, 0, 0.2);\n  background-color: #fff;\n}\n\n.button-text {\n  font-family: sans-serif;\n  font-weight: 0;\n  font-size: 16px;\n  letter-spacing: 3px;\n  color: #000000;\n  border-bottom: 0px solid;\n}\n\n.button-3d:hover {\n  border: 2px rgb(0, 0, 0) inset;\n}\n\n.button-3d:active {\n  top: 1px;\n  color: #666666;\n  box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset,\n    0 1px 3px 1px rgba(136, 136, 136, 0.479);\n  background-color: #fff;\n}\n</style>\n</head>\n<body>\n<button class=\"button-3d\">\n  <span class=\"button-text\">CLICK ME</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#666666",
+  "#ebebeb",
+  "#f5f5f5"
+ ],
+ "fonts": [
+  "sans-serif"
+ ],
+ "tokens": 322,
+ "size": 1292,
+ "html": "<button class=\"button-3d\">\n  <span class=\"button-text\">CLICK ME</span>\n</button>\n",
+ "css": "/* Cuddly Monkey 7 by BurgiSimon — https://uiverse.io/BurgiSimon/cuddly-monkey-7 */\n.button-3d {\n  position: relative;\n  top: -6px;\n  border: 1.5px rgb(0, 0, 0) inset;\n  border-radius: 10px;\n  transition: all 40ms ease-out;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  margin-left: 2px;\n  margin-right: 2px;\n  padding-top: 10px;\n  padding-bottom: 10px;\n  padding-left: 10px;\n  padding-right: 10px;\n  color: #666666;\n\n  box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.1) inset,\n    0 8px 0 0 #f5f5f5, 0 8px 8px 1px rgba(0, 0, 0, 0.2);\n  background-color: #fff;\n}\n\n.button-text {\n  font-family: sans-serif;\n  font-weight: 0;\n  font-size: 16px;\n  letter-spacing: 3px;\n  color: #000000;\n  border-bottom: 0px solid;\n}\n\n.button-3d:hover {\n  border: 2px rgb(0, 0, 0) inset;\n}\n\n.button-3d:active {\n  top: 1px;\n  color: #666666;\n  box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset,\n    0 1px 3px 1px rgba(136, 136, 136, 0.479);\n  background-color: #fff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Monkey 7</title>\n<style>\n/* Cuddly Monkey 7 by BurgiSimon — https://uiverse.io/BurgiSimon/cuddly-monkey-7 */\n.button-3d {\n  position: relative;\n  top: -6px;\n  border: 1.5px rgb(0, 0, 0) inset;\n  border-radius: 10px;\n  transition: all 40ms ease-out;\n  margin-top: 1px;\n  margin-bottom: 1px;\n  margin-left: 2px;\n  margin-right: 2px;\n  padding-top: 10px;\n  padding-bottom: 10px;\n  padding-left: 10px;\n  padding-right: 10px;\n  color: #666666;\n\n  box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.1) inset,\n    0 8px 0 0 #f5f5f5, 0 8px 8px 1px rgba(0, 0, 0, 0.2);\n  background-color: #fff;\n}\n\n.button-text {\n  font-family: sans-serif;\n  font-weight: 0;\n  font-size: 16px;\n  letter-spacing: 3px;\n  color: #000000;\n  border-bottom: 0px solid;\n}\n\n.button-3d:hover {\n  border: 2px rgb(0, 0, 0) inset;\n}\n\n.button-3d:active {\n  top: 1px;\n  color: #666666;\n  box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset,\n    0 1px 3px 1px rgba(136, 136, 136, 0.479);\n  background-color: #fff;\n}\n</style>\n</head>\n<body>\n<button class=\"button-3d\">\n  <span class=\"button-text\">CLICK ME</span>\n</button>\n\n</body>\n</html>\n"
 }

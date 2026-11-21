@@ -5,14 +5,26 @@
  "author": "Alaner-xs",
  "source": "https://uiverse.io/Alaner-xs/red-tiger-4",
  "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Gradient rounded gray text input that lights up when focused.",
+ "howItWorks": "On focus, outline-color becomes #7faaaa.",
  "tags": [
-  "input",
-  "focus",
-  "css"
+  "gradient",
+  "outlined",
+  "rounded",
+  "flat",
+  "text-input",
+  "input"
  ],
- "html": "<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type here...\">",
- "css": "/* From Uiverse.io by Alaner-xs - Tags: input */\n.input {\n border: 3px solid rgb(127, 170, 170);\n border-radius: 20px;\n background-image: linear-gradient(120deg,#3c3c3c,#585858);\n color: rgb(127, 170, 170);\n cursor: pointer;\n padding: 7px 12px;\n font-family: Arial, Helvetica, sans-serif;\n font-size: 17px;\n transition: all 1s;\n max-width: 170px;\n}\n\n.input:focus {\n outline-color: rgb(127, 170, 170);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Tiger 4</title>\n<style>\n/* From Uiverse.io by Alaner-xs - https://uiverse.io/Alaner-xs/red-tiger-4 */\n/* From Uiverse.io by Alaner-xs - Tags: input */\n.input {\n border: 3px solid rgb(127, 170, 170);\n border-radius: 20px;\n background-image: linear-gradient(120deg,#3c3c3c,#585858);\n color: rgb(127, 170, 170);\n cursor: pointer;\n padding: 7px 12px;\n font-family: Arial, Helvetica, sans-serif;\n font-size: 17px;\n transition: all 1s;\n max-width: 170px;\n}\n\n.input:focus {\n outline-color: rgb(127, 170, 170);\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type here...\">\n</body>\n</html>\n"
+ "colors": [
+  "#7faaaa",
+  "#ffffff"
+ ],
+ "fonts": [
+  "Arial"
+ ],
+ "tokens": 178,
+ "size": 713,
+ "html": "<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type here...\">\n",
+ "css": "/* Red Tiger 4 by Alaner-xs — https://uiverse.io/Alaner-xs/red-tiger-4 */\n.input {\n border: 3px solid rgb(127, 170, 170);\n border-radius: 20px;\n background-image: linear-gradient(120deg,#3c3c3c,#585858);\n color: rgb(127, 170, 170);\n cursor: pointer;\n padding: 7px 12px;\n font-family: Arial, Helvetica, sans-serif;\n font-size: 17px;\n transition: all 1s;\n max-width: 170px;\n}\n\n.input:focus {\n outline-color: rgb(127, 170, 170);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Tiger 4</title>\n<style>\n/* Red Tiger 4 by Alaner-xs — https://uiverse.io/Alaner-xs/red-tiger-4 */\n.input {\n border: 3px solid rgb(127, 170, 170);\n border-radius: 20px;\n background-image: linear-gradient(120deg,#3c3c3c,#585858);\n color: rgb(127, 170, 170);\n cursor: pointer;\n padding: 7px 12px;\n font-family: Arial, Helvetica, sans-serif;\n font-size: 17px;\n transition: all 1s;\n max-width: 170px;\n}\n\n.input:focus {\n outline-color: rgb(127, 170, 170);\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type here...\">\n\n</body>\n</html>\n"
 }

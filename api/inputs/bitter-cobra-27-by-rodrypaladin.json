@@ -5,17 +5,25 @@
  "author": "Rodrypaladin",
  "source": "https://uiverse.io/Rodrypaladin/bitter-cobra-27",
  "trigger": "focus",
- "description": "A input with animation, form and animated styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Gradient dark purple text input that lights up when focused.",
+ "howItWorks": "On focus, transform becomes translateY(-50px).",
  "tags": [
-  "animation",
-  "form",
-  "input",
-  "animated",
-  "colorful",
-  "focus"
+  "purple",
+  "fuchsia",
+  "gradient",
+  "dark",
+  "text-input",
+  "animation"
  ],
- "html": "<div class=\"box-input\">\n  <div class=\"border\">\n    <input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Name\">\n  </div>\n</div>",
- "css": "/* From Uiverse.io by Rodrypaladin - Tags: animation, form, input, animated, colorful */\n.box-input {\n  position: relative;\n}\n\n.border {\n  background-image: linear-gradient(to right bottom, #e300ff, #ff00aa, #ff5956, #ffb900, #fffe00);\n  box-shadow: -25px -10px 30px -5px rgba(225, 0, 255, 0.5),\n    25px -10px 30px -5px rgba(255, 0, 212, 0.5),\n    25px 10px 30px -5px rgba(255, 174, 0, 0.5),\n    -25px 10px 30px -5px rgba(255, 230, 0, 0.5);\n  padding: 4px;\n}\n\n.input {\n  background-color: #212121;\n  max-width: 250px;\n  height: 40px;\n  padding: 0 19px 0 10px;\n  font-size: 1.1em;\n  position: relative;\n  border: none;\n  color: white;\n  outline: 0;\n  overflow: hidden;\n}\n\n.box-input::after,\n.box-input::before {\n  content: \"\";\n  width: 130px;\n  height: 30px;\n  position: absolute;\n  z-index: -1;\n}\n\n.box-input::after {\n  bottom: 0;\n  right: 0;\n}\n\n.box-input::before {\n  top: 0;\n  left: 0;\n}\n\n.input::placeholder {\n  transition: all 0.5s ease-in, transform 0.2s ease-in 0.6s;\n}\n\n.input:focus::placeholder {\n  padding-left: 165px;\n  transform: translateY(-50px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Cobra 27</title>\n<style>\n/* From Uiverse.io by Rodrypaladin - https://uiverse.io/Rodrypaladin/bitter-cobra-27 */\n/* From Uiverse.io by Rodrypaladin - Tags: animation, form, input, animated, colorful */\n.box-input {\n  position: relative;\n}\n\n.border {\n  background-image: linear-gradient(to right bottom, #e300ff, #ff00aa, #ff5956, #ffb900, #fffe00);\n  box-shadow: -25px -10px 30px -5px rgba(225, 0, 255, 0.5),\n    25px -10px 30px -5px rgba(255, 0, 212, 0.5),\n    25px 10px 30px -5px rgba(255, 174, 0, 0.5),\n    -25px 10px 30px -5px rgba(255, 230, 0, 0.5);\n  padding: 4px;\n}\n\n.input {\n  background-color: #212121;\n  max-width: 250px;\n  height: 40px;\n  padding: 0 19px 0 10px;\n  font-size: 1.1em;\n  position: relative;\n  border: none;\n  color: white;\n  outline: 0;\n  overflow: hidden;\n}\n\n.box-input::after,\n.box-input::before {\n  content: \"\";\n  width: 130px;\n  height: 30px;\n  position: absolute;\n  z-index: -1;\n}\n\n.box-input::after {\n  bottom: 0;\n  right: 0;\n}\n\n.box-input::before {\n  top: 0;\n  left: 0;\n}\n\n.input::placeholder {\n  transition: all 0.5s ease-in, transform 0.2s ease-in 0.6s;\n}\n\n.input:focus::placeholder {\n  padding-left: 165px;\n  transform: translateY(-50px);\n}\n</style>\n</head>\n<body>\n<div class=\"box-input\">\n  <div class=\"border\">\n    <input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Name\">\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#e100ff",
+  "#ff00d4",
+  "#ffae00"
+ ],
+ "fonts": [],
+ "tokens": 352,
+ "size": 1410,
+ "html": "<div class=\"box-input\">\n  <div class=\"border\">\n    <input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Name\">\n  </div>\n</div>\n",
+ "css": "/* Bitter Cobra 27 by Rodrypaladin — https://uiverse.io/Rodrypaladin/bitter-cobra-27 */\n.box-input {\n  position: relative;\n}\n\n.border {\n  background-image: linear-gradient(to right bottom, #e300ff, #ff00aa, #ff5956, #ffb900, #fffe00);\n  box-shadow: -25px -10px 30px -5px rgba(225, 0, 255, 0.5),\n    25px -10px 30px -5px rgba(255, 0, 212, 0.5),\n    25px 10px 30px -5px rgba(255, 174, 0, 0.5),\n    -25px 10px 30px -5px rgba(255, 230, 0, 0.5);\n  padding: 4px;\n}\n\n.input {\n  background-color: #212121;\n  max-width: 250px;\n  height: 40px;\n  padding: 0 19px 0 10px;\n  font-size: 1.1em;\n  position: relative;\n  border: none;\n  color: white;\n  outline: 0;\n  overflow: hidden;\n}\n\n.box-input::after,\n.box-input::before {\n  content: \"\";\n  width: 130px;\n  height: 30px;\n  position: absolute;\n  z-index: -1;\n}\n\n.box-input::after {\n  bottom: 0;\n  right: 0;\n}\n\n.box-input::before {\n  top: 0;\n  left: 0;\n}\n\n.input::placeholder {\n  transition: all 0.5s ease-in, transform 0.2s ease-in 0.6s;\n}\n\n.input:focus::placeholder {\n  padding-left: 165px;\n  transform: translateY(-50px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Cobra 27</title>\n<style>\n/* Bitter Cobra 27 by Rodrypaladin — https://uiverse.io/Rodrypaladin/bitter-cobra-27 */\n.box-input {\n  position: relative;\n}\n\n.border {\n  background-image: linear-gradient(to right bottom, #e300ff, #ff00aa, #ff5956, #ffb900, #fffe00);\n  box-shadow: -25px -10px 30px -5px rgba(225, 0, 255, 0.5),\n    25px -10px 30px -5px rgba(255, 0, 212, 0.5),\n    25px 10px 30px -5px rgba(255, 174, 0, 0.5),\n    -25px 10px 30px -5px rgba(255, 230, 0, 0.5);\n  padding: 4px;\n}\n\n.input {\n  background-color: #212121;\n  max-width: 250px;\n  height: 40px;\n  padding: 0 19px 0 10px;\n  font-size: 1.1em;\n  position: relative;\n  border: none;\n  color: white;\n  outline: 0;\n  overflow: hidden;\n}\n\n.box-input::after,\n.box-input::before {\n  content: \"\";\n  width: 130px;\n  height: 30px;\n  position: absolute;\n  z-index: -1;\n}\n\n.box-input::after {\n  bottom: 0;\n  right: 0;\n}\n\n.box-input::before {\n  top: 0;\n  left: 0;\n}\n\n.input::placeholder {\n  transition: all 0.5s ease-in, transform 0.2s ease-in 0.6s;\n}\n\n.input:focus::placeholder {\n  padding-left: 165px;\n  transform: translateY(-50px);\n}\n</style>\n</head>\n<body>\n<div class=\"box-input\">\n  <div class=\"border\">\n    <input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Name\">\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

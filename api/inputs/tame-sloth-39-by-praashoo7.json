@@ -5,15 +5,25 @@
  "author": "Praashoo7",
  "source": "https://uiverse.io/Praashoo7/tame-sloth-39",
  "trigger": "focus",
- "description": "A input with neumorphism and smooth styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Rounded gray text input that lights up when focused.",
+ "howItWorks": "On focus, background-color changes from #ccc to #ffffff, transform becomes scale(1.05), box-shadow becomes 13px 13px 100px #969696,\n             -13px -13px 100px #ffffff.",
  "tags": [
+  "rounded",
+  "text-input",
   "neumorphism",
   "input",
   "smooth",
   "focus"
  ],
- "html": "<input type=\"text\" autocomplete=\"off\" name=\"text\" class=\"input\" placeholder=\"Username\">",
- "css": "/* From Uiverse.io by Praashoo7 - Tags: neumorphism, input, smooth */\n.input {\n  border: none;\n  outline: none;\n  border-radius: 15px;\n  padding: 1em;\n  background-color: #ccc;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);\n  transition: 300ms ease-in-out;\n}\n\n.input:focus {\n  background-color: white;\n  transform: scale(1.05);\n  box-shadow: 13px 13px 100px #969696,\n             -13px -13px 100px #ffffff;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tame Sloth 39</title>\n<style>\n/* From Uiverse.io by Praashoo7 - https://uiverse.io/Praashoo7/tame-sloth-39 */\n/* From Uiverse.io by Praashoo7 - Tags: neumorphism, input, smooth */\n.input {\n  border: none;\n  outline: none;\n  border-radius: 15px;\n  padding: 1em;\n  background-color: #ccc;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);\n  transition: 300ms ease-in-out;\n}\n\n.input:focus {\n  background-color: white;\n  transform: scale(1.05);\n  box-shadow: 13px 13px 100px #969696,\n             -13px -13px 100px #ffffff;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" autocomplete=\"off\" name=\"text\" class=\"input\" placeholder=\"Username\">\n</body>\n</html>\n"
+ "colors": [
+  "#cccccc",
+  "#969696",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 180,
+ "size": 722,
+ "html": "<input type=\"text\" autocomplete=\"off\" name=\"text\" class=\"input\" placeholder=\"Username\">\n",
+ "css": "/* Tame Sloth 39 by Praashoo7 — https://uiverse.io/Praashoo7/tame-sloth-39 */\n.input {\n  border: none;\n  outline: none;\n  border-radius: 15px;\n  padding: 1em;\n  background-color: #ccc;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);\n  transition: 300ms ease-in-out;\n}\n\n.input:focus {\n  background-color: white;\n  transform: scale(1.05);\n  box-shadow: 13px 13px 100px #969696,\n             -13px -13px 100px #ffffff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tame Sloth 39</title>\n<style>\n/* Tame Sloth 39 by Praashoo7 — https://uiverse.io/Praashoo7/tame-sloth-39 */\n.input {\n  border: none;\n  outline: none;\n  border-radius: 15px;\n  padding: 1em;\n  background-color: #ccc;\n  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);\n  transition: 300ms ease-in-out;\n}\n\n.input:focus {\n  background-color: white;\n  transform: scale(1.05);\n  box-shadow: 13px 13px 100px #969696,\n             -13px -13px 100px #ffffff;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" autocomplete=\"off\" name=\"text\" class=\"input\" placeholder=\"Username\">\n\n</body>\n</html>\n"
 }

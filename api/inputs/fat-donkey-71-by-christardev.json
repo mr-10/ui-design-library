@@ -5,17 +5,25 @@
  "author": "Christardev",
  "source": "https://uiverse.io/Christardev/fat-donkey-71",
  "trigger": "hover",
- "description": "A input with button, form and animated styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded cyan password input that changes colour on hover.",
+ "howItWorks": "On hover, background-color changes from #d4cbcb to #6ad5f0, the outline is removed, border becomes 4px solid #000000.",
  "tags": [
-  "button",
-  "form",
-  "input",
-  "animated",
-  "border",
-  "card-template"
+  "cyan",
+  "rounded",
+  "flat",
+  "color-change",
+  "password",
+  "password-input"
  ],
- "html": "<input placeholder=\"Enter  password...\" name=\"text\" type=\"password\" class=\"password\">",
- "css": "/* From Uiverse.io by Christardev - Tags: button, form, input, animated, border, card template */\n.password {\n  outline: none;\n  max-width: 190px;\n  padding: 8px;\n  background-color: #d4cbcb;\n  border-radius: 12px;\n  border: 4px solid #000000;\n  width: auto;\n  font-weight: bold;\n  font-style: italic;\n}\n\n.password:hover {\n  background-color: #6ad5f0;\n  outline: none;\n  border: 4px solid #000000;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Donkey 71</title>\n<style>\n/* From Uiverse.io by Christardev - https://uiverse.io/Christardev/fat-donkey-71 */\n/* From Uiverse.io by Christardev - Tags: button, form, input, animated, border, card template */\n.password {\n  outline: none;\n  max-width: 190px;\n  padding: 8px;\n  background-color: #d4cbcb;\n  border-radius: 12px;\n  border: 4px solid #000000;\n  width: auto;\n  font-weight: bold;\n  font-style: italic;\n}\n\n.password:hover {\n  background-color: #6ad5f0;\n  outline: none;\n  border: 4px solid #000000;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Enter  password...\" name=\"text\" type=\"password\" class=\"password\">\n</body>\n</html>\n"
+ "colors": [
+  "#d4cbcb",
+  "#6ad5f0",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 170,
+ "size": 684,
+ "html": "<input placeholder=\"Enter  password...\" name=\"text\" type=\"password\" class=\"password\">\n",
+ "css": "/* Fat Donkey 71 by Christardev — https://uiverse.io/Christardev/fat-donkey-71 */\n.password {\n  outline: none;\n  max-width: 190px;\n  padding: 8px;\n  background-color: #d4cbcb;\n  border-radius: 12px;\n  border: 4px solid #000000;\n  width: auto;\n  font-weight: bold;\n  font-style: italic;\n}\n\n.password:hover {\n  background-color: #6ad5f0;\n  outline: none;\n  border: 4px solid #000000;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Donkey 71</title>\n<style>\n/* Fat Donkey 71 by Christardev — https://uiverse.io/Christardev/fat-donkey-71 */\n.password {\n  outline: none;\n  max-width: 190px;\n  padding: 8px;\n  background-color: #d4cbcb;\n  border-radius: 12px;\n  border: 4px solid #000000;\n  width: auto;\n  font-weight: bold;\n  font-style: italic;\n}\n\n.password:hover {\n  background-color: #6ad5f0;\n  outline: none;\n  border: 4px solid #000000;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Enter  password...\" name=\"text\" type=\"password\" class=\"password\">\n\n</body>\n</html>\n"
 }

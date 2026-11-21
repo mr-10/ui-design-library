@@ -5,14 +5,23 @@
  "author": "gamerlord295",
  "source": "https://uiverse.io/gamerlord295/shaggy-mule-36",
  "trigger": "checked",
- "description": "A checkbox UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Rounded white checkbox that toggles on and off when clicked.",
+ "howItWorks": "Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "rounded",
+  "checkbox",
   "checkboxes",
   "checked",
   "css"
  ],
- "html": "<!-- From Uiverse.io by gamerlord295  - Tags: checkbox -->\n<label\n  for=\"hr\"\n  class=\"flex flex-row items-center gap-2.5 dark:text-white light:text-black\"\n>\n  <input id=\"hr\" type=\"checkbox\" class=\"peer hidden\" />\n  <div\n    for=\"hr\"\n    class=\"h-5 w-5 flex rounded-md border border-[#a2a1a833] light:bg-[#e8e8e8] dark:bg-[#212121] peer-checked:bg-[#7152f3] transition\"\n  >\n    <svg\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      class=\"w-5 h-5 light:stroke-[#e8e8e8] dark:stroke-[#212121]\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M4 12.6111L8.92308 17.5L20 6.5\"\n        stroke-width=\"2\"\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n      ></path>\n    </svg>\n  </div>\n  Front-end\n</label>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shaggy Mule 36</title>\n<style>\n/* From Uiverse.io by gamerlord295 - https://uiverse.io/gamerlord295/shaggy-mule-36 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by gamerlord295  - Tags: checkbox -->\n<label\n  for=\"hr\"\n  class=\"flex flex-row items-center gap-2.5 dark:text-white light:text-black\"\n>\n  <input id=\"hr\" type=\"checkbox\" class=\"peer hidden\" />\n  <div\n    for=\"hr\"\n    class=\"h-5 w-5 flex rounded-md border border-[#a2a1a833] light:bg-[#e8e8e8] dark:bg-[#212121] peer-checked:bg-[#7152f3] transition\"\n  >\n    <svg\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      class=\"w-5 h-5 light:stroke-[#e8e8e8] dark:stroke-[#212121]\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M4 12.6111L8.92308 17.5L20 6.5\"\n        stroke-width=\"2\"\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n      ></path>\n    </svg>\n  </div>\n  Front-end\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 245,
+ "size": 982,
+ "html": "<label\n  for=\"hr\"\n  class=\"flex flex-row items-center gap-2.5 dark:text-white light:text-black\"\n>\n  <input id=\"hr\" type=\"checkbox\" class=\"peer hidden\" />\n  <div\n    for=\"hr\"\n    class=\"h-5 w-5 flex rounded-md border border-[#a2a1a833] light:bg-[#e8e8e8] dark:bg-[#212121] peer-checked:bg-[#7152f3] transition\"\n  >\n    <svg\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      class=\"w-5 h-5 light:stroke-[#e8e8e8] dark:stroke-[#212121]\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M4 12.6111L8.92308 17.5L20 6.5\"\n        stroke-width=\"2\"\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n      ></path>\n    </svg>\n  </div>\n  Front-end\n</label>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shaggy Mule 36</title>\n<style>\n/* Shaggy Mule 36 by gamerlord295 — https://uiverse.io/gamerlord295/shaggy-mule-36 */\n\n</style>\n</head>\n<body>\n<label\n  for=\"hr\"\n  class=\"flex flex-row items-center gap-2.5 dark:text-white light:text-black\"\n>\n  <input id=\"hr\" type=\"checkbox\" class=\"peer hidden\" />\n  <div\n    for=\"hr\"\n    class=\"h-5 w-5 flex rounded-md border border-[#a2a1a833] light:bg-[#e8e8e8] dark:bg-[#212121] peer-checked:bg-[#7152f3] transition\"\n  >\n    <svg\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      class=\"w-5 h-5 light:stroke-[#e8e8e8] dark:stroke-[#212121]\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M4 12.6111L8.92308 17.5L20 6.5\"\n        stroke-width=\"2\"\n        stroke-linecap=\"round\"\n        stroke-linejoin=\"round\"\n      ></path>\n    </svg>\n  </div>\n  Front-end\n</label>\n\n</body>\n</html>\n"
 }

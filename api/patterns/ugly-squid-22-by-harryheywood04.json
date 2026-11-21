@@ -5,16 +5,24 @@
  "author": "HarryHeywood04",
  "source": "https://uiverse.io/HarryHeywood04/ugly-squid-22",
  "trigger": "static",
- "description": "A pattern with simple, dark and tile styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient dark black pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
+  "gradient",
   "dark",
+  "flat",
   "pattern",
-  "tile",
-  "static"
+  "simple",
+  "tile"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by HarryHeywood04  - Tags: simple, dark, pattern, tile */\n.container {\n  width: 100%;\n  height: 100%;\n  background-color: #111111;\n  background-image: linear-gradient(\n    32deg,\n    rgba(8, 8, 8, 0.74) 30px,\n    transparent\n  );\n  background-size: 60px 60px;\n  background-position: -5px -5px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Squid 22</title>\n<style>\n/* From Uiverse.io by HarryHeywood04 - https://uiverse.io/HarryHeywood04/ugly-squid-22 */\n/* From Uiverse.io by HarryHeywood04  - Tags: simple, dark, pattern, tile */\n.container {\n  width: 100%;\n  height: 100%;\n  background-color: #111111;\n  background-image: linear-gradient(\n    32deg,\n    rgba(8, 8, 8, 0.74) 30px,\n    transparent\n  );\n  background-size: 60px 60px;\n  background-position: -5px -5px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#111111",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 142,
+ "size": 570,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Ugly Squid 22 by HarryHeywood04 — https://uiverse.io/HarryHeywood04/ugly-squid-22 */\n.container {\n  width: 100%;\n  height: 100%;\n  background-color: #111111;\n  background-image: linear-gradient(\n    32deg,\n    rgba(8, 8, 8, 0.74) 30px,\n    transparent\n  );\n  background-size: 60px 60px;\n  background-position: -5px -5px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Squid 22</title>\n<style>\n/* Ugly Squid 22 by HarryHeywood04 — https://uiverse.io/HarryHeywood04/ugly-squid-22 */\n.container {\n  width: 100%;\n  height: 100%;\n  background-color: #111111;\n  background-image: linear-gradient(\n    32deg,\n    rgba(8, 8, 8, 0.74) 30px,\n    transparent\n  );\n  background-size: 60px 60px;\n  background-position: -5px -5px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

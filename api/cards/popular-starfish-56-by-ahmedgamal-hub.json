@@ -5,17 +5,25 @@
  "author": "ahmedgamal-hub",
  "source": "https://uiverse.io/ahmedgamal-hub/popular-starfish-56",
  "trigger": "auto-loop",
- "description": "A card with about-me, blur-filter and animated styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Neon pill teal card with rotating motion in a loop.",
+ "howItWorks": "It loops a 7s animation (rotating).",
  "tags": [
-  "card",
-  "about-me",
-  "blur-filter",
-  "animated",
-  "circle-loader",
-  "border"
+  "teal",
+  "cyan",
+  "neon",
+  "rounded",
+  "pill",
+  "spin"
  ],
- "html": "<div class=\"one-div\"></div>",
- "css": "/* From Uiverse.io by ahmedgamal-hub - Tags: card, about me, blur filter, animated, circle loader, border, advanced, box-shadow */\n@-webkit-keyframes spinner-border {\n  to {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes spinner-border {\n  to {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n\n.one-div {\n  position: relative;\n  font-size: 20px;\n  color: #fff;\n  text-align: center;\n  display: inline-block;\n  width: 15rem;\n  height: 15rem;\n  vertical-align: text-center;\n}\n\n.one-div::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: -10px;\n  width: 100%;\n  height: 100%;\n  border: 0.25em solid currentColor;\n  border-right-color: #2AE4FF;\n  border-top-color: #2AE4FF;\n  border-bottom-color: #2AE4FF;\n  border-radius: 50%;\n  box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ba9ca,\n  0 0 110px #ED306F, 0 0 80px #0ba9ca;\n  -webkit-animation: spinner-border 7s linear infinite;\n  animation: spinner-border 7s linear infinite;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Popular Starfish 56</title>\n<style>\n/* From Uiverse.io by ahmedgamal-hub - https://uiverse.io/ahmedgamal-hub/popular-starfish-56 */\n/* From Uiverse.io by ahmedgamal-hub - Tags: card, about me, blur filter, animated, circle loader, border, advanced, box-shadow */\n@-webkit-keyframes spinner-border {\n  to {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes spinner-border {\n  to {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n\n.one-div {\n  position: relative;\n  font-size: 20px;\n  color: #fff;\n  text-align: center;\n  display: inline-block;\n  width: 15rem;\n  height: 15rem;\n  vertical-align: text-center;\n}\n\n.one-div::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: -10px;\n  width: 100%;\n  height: 100%;\n  border: 0.25em solid currentColor;\n  border-right-color: #2AE4FF;\n  border-top-color: #2AE4FF;\n  border-bottom-color: #2AE4FF;\n  border-radius: 50%;\n  box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ba9ca,\n  0 0 110px #ED306F, 0 0 80px #0ba9ca;\n  -webkit-animation: spinner-border 7s linear infinite;\n  animation: spinner-border 7s linear infinite;\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#2ae4ff",
+  "#0ba9ca",
+  "#ed306f"
+ ],
+ "fonts": [],
+ "tokens": 310,
+ "size": 1244,
+ "html": "<div class=\"one-div\"></div>\n",
+ "css": "/* Popular Starfish 56 by ahmedgamal-hub — https://uiverse.io/ahmedgamal-hub/popular-starfish-56 */\n@-webkit-keyframes spinner-border {\n  to {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes spinner-border {\n  to {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n\n.one-div {\n  position: relative;\n  font-size: 20px;\n  color: #fff;\n  text-align: center;\n  display: inline-block;\n  width: 15rem;\n  height: 15rem;\n  vertical-align: text-center;\n}\n\n.one-div::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: -10px;\n  width: 100%;\n  height: 100%;\n  border: 0.25em solid currentColor;\n  border-right-color: #2AE4FF;\n  border-top-color: #2AE4FF;\n  border-bottom-color: #2AE4FF;\n  border-radius: 50%;\n  box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ba9ca,\n  0 0 110px #ED306F, 0 0 80px #0ba9ca;\n  -webkit-animation: spinner-border 7s linear infinite;\n  animation: spinner-border 7s linear infinite;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Popular Starfish 56</title>\n<style>\n/* Popular Starfish 56 by ahmedgamal-hub — https://uiverse.io/ahmedgamal-hub/popular-starfish-56 */\n@-webkit-keyframes spinner-border {\n  to {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes spinner-border {\n  to {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n\n.one-div {\n  position: relative;\n  font-size: 20px;\n  color: #fff;\n  text-align: center;\n  display: inline-block;\n  width: 15rem;\n  height: 15rem;\n  vertical-align: text-center;\n}\n\n.one-div::after {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: -10px;\n  width: 100%;\n  height: 100%;\n  border: 0.25em solid currentColor;\n  border-right-color: #2AE4FF;\n  border-top-color: #2AE4FF;\n  border-bottom-color: #2AE4FF;\n  border-radius: 50%;\n  box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0ba9ca,\n  0 0 110px #ED306F, 0 0 80px #0ba9ca;\n  -webkit-animation: spinner-border 7s linear infinite;\n  animation: spinner-border 7s linear infinite;\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n\n</body>\n</html>\n"
 }

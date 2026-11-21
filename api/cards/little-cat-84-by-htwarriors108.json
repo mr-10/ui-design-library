@@ -5,17 +5,25 @@
  "author": "htwarriors108",
  "source": "https://uiverse.io/htwarriors108/little-cat-84",
  "trigger": "hover",
- "description": "A card with gradient, glow and neon styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded amber card that lifts on hover.",
+ "howItWorks": "On hover, transform becomes translateY(-20px).",
  "tags": [
+  "amber",
+  "pink",
   "gradient",
-  "card",
-  "hover",
-  "glow",
-  "neon",
-  "colorful"
+  "rounded",
+  "flat",
+  "lift"
  ],
- "html": "<div class=\"card\">\n   <span></span>\n            <div class=\"content\">Hover Me : )</div>\n        </div>",
- "css": "/* From Uiverse.io by htwarriors108 - Tags: gradient, card, hover, glow, neon, colorful, hover effect, hoverme */\n.card {\n  position: relative;\n  width: 190px;\n  height: 254px;\n  color: #fff;\n  transition: 0.5s;\n  cursor: pointer;\n}\n\n.card:hover {\n  transform: translateY(-20px);\n}\n\n.card::before {\n  content: '';\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: linear-gradient(45deg, #ffbc00, #ff0058);\n  border-radius: 1.2em;\n}\n\n.card::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(45deg, #ffbc00, #ff0058);\n  filter: blur(30px);\n}\n\n.card span {\n  position: absolute;\n  top: 6px;\n  left: 6px;\n  right: 6px;\n  bottom: 6px;\n  background-color: rgba(0, 0, 0, 0.6);\n  z-index: 2;\n  border-radius: 1em;\n}\n\n.card span::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.1);\n}\n\n.card .content {\n  position: relative;\n  padding: 10px;\n  z-index: 10;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-weight: 800;\n  font-size: 1.5em;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Cat 84</title>\n<style>\n/* From Uiverse.io by htwarriors108 - https://uiverse.io/htwarriors108/little-cat-84 */\n/* From Uiverse.io by htwarriors108 - Tags: gradient, card, hover, glow, neon, colorful, hover effect, hoverme */\n.card {\n  position: relative;\n  width: 190px;\n  height: 254px;\n  color: #fff;\n  transition: 0.5s;\n  cursor: pointer;\n}\n\n.card:hover {\n  transform: translateY(-20px);\n}\n\n.card::before {\n  content: '';\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: linear-gradient(45deg, #ffbc00, #ff0058);\n  border-radius: 1.2em;\n}\n\n.card::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(45deg, #ffbc00, #ff0058);\n  filter: blur(30px);\n}\n\n.card span {\n  position: absolute;\n  top: 6px;\n  left: 6px;\n  right: 6px;\n  bottom: 6px;\n  background-color: rgba(0, 0, 0, 0.6);\n  z-index: 2;\n  border-radius: 1em;\n}\n\n.card span::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.1);\n}\n\n.card .content {\n  position: relative;\n  padding: 10px;\n  z-index: 10;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-weight: 800;\n  font-size: 1.5em;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n   <span></span>\n            <div class=\"content\">Hover Me : )</div>\n        </div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffbc00",
+  "#ff0058",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 370,
+ "size": 1482,
+ "html": "<div class=\"card\">\n   <span></span>\n            <div class=\"content\">Hover Me : )</div>\n        </div>\n",
+ "css": "/* Little Cat 84 by htwarriors108 — https://uiverse.io/htwarriors108/little-cat-84 */\n.card {\n  position: relative;\n  width: 190px;\n  height: 254px;\n  color: #fff;\n  transition: 0.5s;\n  cursor: pointer;\n}\n\n.card:hover {\n  transform: translateY(-20px);\n}\n\n.card::before {\n  content: '';\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: linear-gradient(45deg, #ffbc00, #ff0058);\n  border-radius: 1.2em;\n}\n\n.card::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(45deg, #ffbc00, #ff0058);\n  filter: blur(30px);\n}\n\n.card span {\n  position: absolute;\n  top: 6px;\n  left: 6px;\n  right: 6px;\n  bottom: 6px;\n  background-color: rgba(0, 0, 0, 0.6);\n  z-index: 2;\n  border-radius: 1em;\n}\n\n.card span::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.1);\n}\n\n.card .content {\n  position: relative;\n  padding: 10px;\n  z-index: 10;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-weight: 800;\n  font-size: 1.5em;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Cat 84</title>\n<style>\n/* Little Cat 84 by htwarriors108 — https://uiverse.io/htwarriors108/little-cat-84 */\n.card {\n  position: relative;\n  width: 190px;\n  height: 254px;\n  color: #fff;\n  transition: 0.5s;\n  cursor: pointer;\n}\n\n.card:hover {\n  transform: translateY(-20px);\n}\n\n.card::before {\n  content: '';\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: linear-gradient(45deg, #ffbc00, #ff0058);\n  border-radius: 1.2em;\n}\n\n.card::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(45deg, #ffbc00, #ff0058);\n  filter: blur(30px);\n}\n\n.card span {\n  position: absolute;\n  top: 6px;\n  left: 6px;\n  right: 6px;\n  bottom: 6px;\n  background-color: rgba(0, 0, 0, 0.6);\n  z-index: 2;\n  border-radius: 1em;\n}\n\n.card span::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.1);\n}\n\n.card .content {\n  position: relative;\n  padding: 10px;\n  z-index: 10;\n  width: 100%;\n  height: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-weight: 800;\n  font-size: 1.5em;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n   <span></span>\n            <div class=\"content\">Hover Me : )</div>\n        </div>\n\n</body>\n</html>\n"
 }

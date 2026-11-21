@@ -5,14 +5,26 @@
  "author": "xueyuantan",
  "source": "https://uiverse.io/xueyuantan/rotten-pig-19",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded gray button that expands on hover.",
+ "howItWorks": "On hover, width becomes 9em.",
  "tags": [
+  "gradient",
+  "outlined",
+  "rounded",
+  "expand",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button> Pick up!\n</button>",
- "css": "/* From Uiverse.io by xueyuantan - Tags: button */\nbutton {\n width: 9em;\n height: 3em;\n border-radius: 30em;\n font-size: 15px;\n font-family: inherit;\n border: none;\n position: relative;\n overflow: hidden;\n z-index: 1;\n box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\nbutton::before {\n content: '';\n width: 0;\n height: 3em;\n border-radius: 30em;\n position: absolute;\n top: 0;\n left: 0;\n background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);\n transition: .5s ease;\n display: block;\n z-index: -1;\n}\n\nbutton:hover::before {\n width: 9em;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rotten Pig 19</title>\n<style>\n/* From Uiverse.io by xueyuantan - https://uiverse.io/xueyuantan/rotten-pig-19 */\n/* From Uiverse.io by xueyuantan - Tags: button */\nbutton {\n width: 9em;\n height: 3em;\n border-radius: 30em;\n font-size: 15px;\n font-family: inherit;\n border: none;\n position: relative;\n overflow: hidden;\n z-index: 1;\n box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\nbutton::before {\n content: '';\n width: 0;\n height: 3em;\n border-radius: 30em;\n position: absolute;\n top: 0;\n left: 0;\n background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);\n transition: .5s ease;\n display: block;\n z-index: -1;\n}\n\nbutton:hover::before {\n width: 9em;\n}\n</style>\n</head>\n<body>\n<button> Pick up!\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#c5c5c5",
+  "#ffffff"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 212,
+ "size": 849,
+ "html": "<button> Pick up!\n</button>\n",
+ "css": "/* Rotten Pig 19 by xueyuantan — https://uiverse.io/xueyuantan/rotten-pig-19 */\nbutton {\n width: 9em;\n height: 3em;\n border-radius: 30em;\n font-size: 15px;\n font-family: inherit;\n border: none;\n position: relative;\n overflow: hidden;\n z-index: 1;\n box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\nbutton::before {\n content: '';\n width: 0;\n height: 3em;\n border-radius: 30em;\n position: absolute;\n top: 0;\n left: 0;\n background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);\n transition: .5s ease;\n display: block;\n z-index: -1;\n}\n\nbutton:hover::before {\n width: 9em;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rotten Pig 19</title>\n<style>\n/* Rotten Pig 19 by xueyuantan — https://uiverse.io/xueyuantan/rotten-pig-19 */\nbutton {\n width: 9em;\n height: 3em;\n border-radius: 30em;\n font-size: 15px;\n font-family: inherit;\n border: none;\n position: relative;\n overflow: hidden;\n z-index: 1;\n box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\nbutton::before {\n content: '';\n width: 0;\n height: 3em;\n border-radius: 30em;\n position: absolute;\n top: 0;\n left: 0;\n background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);\n transition: .5s ease;\n display: block;\n z-index: -1;\n}\n\nbutton:hover::before {\n width: 9em;\n}\n</style>\n</head>\n<body>\n<button> Pick up!\n</button>\n\n</body>\n</html>\n"
 }

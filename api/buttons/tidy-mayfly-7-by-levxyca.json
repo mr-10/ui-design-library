@@ -5,14 +5,25 @@
  "author": "levxyca",
  "source": "https://uiverse.io/levxyca/tidy-mayfly-7",
  "trigger": "active",
- "description": "A button UI element.",
- "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "description": "Dark rounded gray button that responds while pressed down.",
+ "howItWorks": "While pressed, box-shadow becomes none, transform becomes translate(3px, 3px).",
  "tags": [
+  "dark",
+  "rounded",
   "button",
   "active",
   "css"
  ],
- "html": "<button>\n    Button\n</button>",
- "css": "/* From Uiverse.io by levxyca - Tags: button */\nbutton {\n  font-family: monospace;\n  font-size: 1.5rem;\n  color: #FAFAFA;\n  text-transform: uppercase;\n  padding: 10px 20px;\n  border-radius: 10px;\n  border: 2px solid #FAFAFA;\n  background: #252525;\n  box-shadow: 3px 3px #fafafa;\n  cursor: pointer;\n  margin: 35px 0;\n}\n\nbutton:active {\n  box-shadow: none;\n  transform: translate(3px, 3px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tidy Mayfly 7</title>\n<style>\n/* From Uiverse.io by levxyca - https://uiverse.io/levxyca/tidy-mayfly-7 */\n/* From Uiverse.io by levxyca - Tags: button */\nbutton {\n  font-family: monospace;\n  font-size: 1.5rem;\n  color: #FAFAFA;\n  text-transform: uppercase;\n  padding: 10px 20px;\n  border-radius: 10px;\n  border: 2px solid #FAFAFA;\n  background: #252525;\n  box-shadow: 3px 3px #fafafa;\n  cursor: pointer;\n  margin: 35px 0;\n}\n\nbutton:active {\n  box-shadow: none;\n  transform: translate(3px, 3px);\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#fafafa",
+  "#252525"
+ ],
+ "fonts": [
+  "monospace"
+ ],
+ "tokens": 165,
+ "size": 661,
+ "html": "<button>\n    Button\n</button>\n",
+ "css": "/* Tidy Mayfly 7 by levxyca — https://uiverse.io/levxyca/tidy-mayfly-7 */\nbutton {\n  font-family: monospace;\n  font-size: 1.5rem;\n  color: #FAFAFA;\n  text-transform: uppercase;\n  padding: 10px 20px;\n  border-radius: 10px;\n  border: 2px solid #FAFAFA;\n  background: #252525;\n  box-shadow: 3px 3px #fafafa;\n  cursor: pointer;\n  margin: 35px 0;\n}\n\nbutton:active {\n  box-shadow: none;\n  transform: translate(3px, 3px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tidy Mayfly 7</title>\n<style>\n/* Tidy Mayfly 7 by levxyca — https://uiverse.io/levxyca/tidy-mayfly-7 */\nbutton {\n  font-family: monospace;\n  font-size: 1.5rem;\n  color: #FAFAFA;\n  text-transform: uppercase;\n  padding: 10px 20px;\n  border-radius: 10px;\n  border: 2px solid #FAFAFA;\n  background: #252525;\n  box-shadow: 3px 3px #fafafa;\n  cursor: pointer;\n  margin: 35px 0;\n}\n\nbutton:active {\n  box-shadow: none;\n  transform: translate(3px, 3px);\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n\n</body>\n</html>\n"
 }

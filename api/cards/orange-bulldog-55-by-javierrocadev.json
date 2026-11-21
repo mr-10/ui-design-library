@@ -5,16 +5,25 @@
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/orange-bulldog-55",
  "trigger": "hover",
- "description": "A card with phone, card-hover and 3d-card styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Pill dark blue card that fades on hover.",
+ "howItWorks": "On hover, transform becomes rotate3d(5, 5, 10, -45deg), opacity becomes 1.",
  "tags": [
-  "phone",
-  "card-hover",
-  "3d-card",
-  "cards",
-  "hover"
+  "blue",
+  "rounded",
+  "pill",
+  "flat",
+  "fade",
+  "phone"
  ],
- "html": "<div class=\"card\">\n\n  <div class=\"card__date\">\n    <span class=\"time\">14:34</span>\n    <span class=\"date\">Mon.,21 August</span>\n  </div>\n    <div class=\"popup\">\n        <p class=\"title\">Software update</p>\n        <p>Postponed update</p>\n    </div>\n\n</div>",
- "css": "/* From Uiverse.io by Javierrocadev - Source: Javierrocadev - Tags: phone, card hover, 3d card */\n.card {\n  width: 164px;\n  height: 276px;\n  background: rgb(0, 0, 0);\n  border: 3px solid rgb(17, 4, 94);\n  border-radius: 15px;\n  position: relative;\n  padding: 5px;\n  display: flex;\n  flex-direction: column;\n  gap: 22px;\n  transition: all 1s ease;\n  color: antiquewhite;\n}\n\n.card::before {\n  content: \"\";\n  width: 10px;\n  height: 10px;\n  position: absolute;\n  bottom: 10px;\n  right: 77px;\n  border-radius: 50%;\n  background-color: rgb(17, 4, 94);\n}\n\n.card__date {\n  display: flex;\n  flex-direction: column;\n  margin-top: 30px;\n}\n\n.time {\n  font-size: 2em;\n}\n\n.popup {\n  background-color: #444746;\n  border-radius: 5px;\n  display: flex;\n  flex-direction: column;\n  font-size: .8em;\n  padding: 3px;\n}\n\n.popup .title {\n  font-size: 9px;\n  color: #9cbde2;\n}\n\n.card__date , .popup {\n  opacity: 0;\n  transition: all .5s ease;\n}\n\n.card:hover {\n  transform: rotate3d(5, 5, 10, -45deg);\n}\n\n.card:hover .card__date , .card:hover .popup {\n  opacity: 1;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Orange Bulldog 55</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/orange-bulldog-55 */\n/* From Uiverse.io by Javierrocadev - Source: Javierrocadev - Tags: phone, card hover, 3d card */\n.card {\n  width: 164px;\n  height: 276px;\n  background: rgb(0, 0, 0);\n  border: 3px solid rgb(17, 4, 94);\n  border-radius: 15px;\n  position: relative;\n  padding: 5px;\n  display: flex;\n  flex-direction: column;\n  gap: 22px;\n  transition: all 1s ease;\n  color: antiquewhite;\n}\n\n.card::before {\n  content: \"\";\n  width: 10px;\n  height: 10px;\n  position: absolute;\n  bottom: 10px;\n  right: 77px;\n  border-radius: 50%;\n  background-color: rgb(17, 4, 94);\n}\n\n.card__date {\n  display: flex;\n  flex-direction: column;\n  margin-top: 30px;\n}\n\n.time {\n  font-size: 2em;\n}\n\n.popup {\n  background-color: #444746;\n  border-radius: 5px;\n  display: flex;\n  flex-direction: column;\n  font-size: .8em;\n  padding: 3px;\n}\n\n.popup .title {\n  font-size: 9px;\n  color: #9cbde2;\n}\n\n.card__date , .popup {\n  opacity: 0;\n  transition: all .5s ease;\n}\n\n.card:hover {\n  transform: rotate3d(5, 5, 10, -45deg);\n}\n\n.card:hover .card__date , .card:hover .popup {\n  opacity: 1;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n\n  <div class=\"card__date\">\n    <span class=\"time\">14:34</span>\n    <span class=\"date\">Mon.,21 August</span>\n  </div>\n    <div class=\"popup\">\n        <p class=\"title\">Software update</p>\n        <p>Postponed update</p>\n    </div>\n\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#11045e",
+  "#444746",
+  "#9cbde2"
+ ],
+ "fonts": [],
+ "tokens": 378,
+ "size": 1514,
+ "html": "<div class=\"card\">\n\n  <div class=\"card__date\">\n    <span class=\"time\">14:34</span>\n    <span class=\"date\">Mon.,21 August</span>\n  </div>\n    <div class=\"popup\">\n        <p class=\"title\">Software update</p>\n        <p>Postponed update</p>\n    </div>\n\n</div>\n",
+ "css": "/* Orange Bulldog 55 by Javierrocadev — https://uiverse.io/Javierrocadev/orange-bulldog-55 */\n.card {\n  width: 164px;\n  height: 276px;\n  background: rgb(0, 0, 0);\n  border: 3px solid rgb(17, 4, 94);\n  border-radius: 15px;\n  position: relative;\n  padding: 5px;\n  display: flex;\n  flex-direction: column;\n  gap: 22px;\n  transition: all 1s ease;\n  color: antiquewhite;\n}\n\n.card::before {\n  content: \"\";\n  width: 10px;\n  height: 10px;\n  position: absolute;\n  bottom: 10px;\n  right: 77px;\n  border-radius: 50%;\n  background-color: rgb(17, 4, 94);\n}\n\n.card__date {\n  display: flex;\n  flex-direction: column;\n  margin-top: 30px;\n}\n\n.time {\n  font-size: 2em;\n}\n\n.popup {\n  background-color: #444746;\n  border-radius: 5px;\n  display: flex;\n  flex-direction: column;\n  font-size: .8em;\n  padding: 3px;\n}\n\n.popup .title {\n  font-size: 9px;\n  color: #9cbde2;\n}\n\n.card__date , .popup {\n  opacity: 0;\n  transition: all .5s ease;\n}\n\n.card:hover {\n  transform: rotate3d(5, 5, 10, -45deg);\n}\n\n.card:hover .card__date , .card:hover .popup {\n  opacity: 1;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Orange Bulldog 55</title>\n<style>\n/* Orange Bulldog 55 by Javierrocadev — https://uiverse.io/Javierrocadev/orange-bulldog-55 */\n.card {\n  width: 164px;\n  height: 276px;\n  background: rgb(0, 0, 0);\n  border: 3px solid rgb(17, 4, 94);\n  border-radius: 15px;\n  position: relative;\n  padding: 5px;\n  display: flex;\n  flex-direction: column;\n  gap: 22px;\n  transition: all 1s ease;\n  color: antiquewhite;\n}\n\n.card::before {\n  content: \"\";\n  width: 10px;\n  height: 10px;\n  position: absolute;\n  bottom: 10px;\n  right: 77px;\n  border-radius: 50%;\n  background-color: rgb(17, 4, 94);\n}\n\n.card__date {\n  display: flex;\n  flex-direction: column;\n  margin-top: 30px;\n}\n\n.time {\n  font-size: 2em;\n}\n\n.popup {\n  background-color: #444746;\n  border-radius: 5px;\n  display: flex;\n  flex-direction: column;\n  font-size: .8em;\n  padding: 3px;\n}\n\n.popup .title {\n  font-size: 9px;\n  color: #9cbde2;\n}\n\n.card__date , .popup {\n  opacity: 0;\n  transition: all .5s ease;\n}\n\n.card:hover {\n  transform: rotate3d(5, 5, 10, -45deg);\n}\n\n.card:hover .card__date , .card:hover .popup {\n  opacity: 1;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n\n  <div class=\"card__date\">\n    <span class=\"time\">14:34</span>\n    <span class=\"date\">Mon.,21 August</span>\n  </div>\n    <div class=\"popup\">\n        <p class=\"title\">Software update</p>\n        <p>Postponed update</p>\n    </div>\n\n</div>\n\n</body>\n</html>\n"
 }

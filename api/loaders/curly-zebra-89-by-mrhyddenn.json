@@ -5,14 +5,25 @@
  "author": "mrhyddenn",
  "source": "https://uiverse.io/mrhyddenn/curly-zebra-89",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient pill sky-blue loader with rotating motion in a loop.",
+ "howItWorks": "It loops a animation (rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "blue",
+  "gradient",
+  "rounded",
+  "pill",
+  "spin",
+  "loader"
  ],
- "html": "<div class=\"loader loader_bubble\"></div>",
- "css": "/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  position: relative;\n  display: block;\n  width: 44px;\n  height: 44px;\n  font-size: 15px;\n  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;\n}\n\n.loader::before,\n.loader::after {\n  content: '';\n  position: absolute;\n  display: block;\n}\n\n.loader_bubble::before {\n  top: 10px;\n  left: 10px;\n  width: 10px;\n  height: 10px;\n  background: #fff;\n  border-radius: 50%;\n}\n\n.loader_bubble {\n  background: linear-gradient(180deg, rgb(0, 91, 228) 10%, rgb(75, 127, 240) 100%);\n  border-radius: 50%;\n  transform-origin: 50% 50%;\n  animation: bubble7234 1200ms cubic-bezier(0.645, 0.045, 0.355, 1) infinite;\n}\n\n@keyframes bubble7234 {\n  0% {\n    transform: translate3d(0,0,0) rotate(0);\n  }\n\n  100% {\n    transform: translate3d(0,0,0) rotate(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Zebra 89</title>\n<style>\n/* From Uiverse.io by mrhyddenn - https://uiverse.io/mrhyddenn/curly-zebra-89 */\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  position: relative;\n  display: block;\n  width: 44px;\n  height: 44px;\n  font-size: 15px;\n  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;\n}\n\n.loader::before,\n.loader::after {\n  content: '';\n  position: absolute;\n  display: block;\n}\n\n.loader_bubble::before {\n  top: 10px;\n  left: 10px;\n  width: 10px;\n  height: 10px;\n  background: #fff;\n  border-radius: 50%;\n}\n\n.loader_bubble {\n  background: linear-gradient(180deg, rgb(0, 91, 228) 10%, rgb(75, 127, 240) 100%);\n  border-radius: 50%;\n  transform-origin: 50% 50%;\n  animation: bubble7234 1200ms cubic-bezier(0.645, 0.045, 0.355, 1) infinite;\n}\n\n@keyframes bubble7234 {\n  0% {\n    transform: translate3d(0,0,0) rotate(0);\n  }\n\n  100% {\n    transform: translate3d(0,0,0) rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader loader_bubble\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#d1d1d1",
+  "#005be4",
+  "#4b7ff0"
+ ],
+ "fonts": [],
+ "tokens": 274,
+ "size": 1098,
+ "html": "<div class=\"loader loader_bubble\"></div>\n",
+ "css": "/* Curly Zebra 89 by mrhyddenn — https://uiverse.io/mrhyddenn/curly-zebra-89 */\n.loader {\n  position: relative;\n  display: block;\n  width: 44px;\n  height: 44px;\n  font-size: 15px;\n  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;\n}\n\n.loader::before,\n.loader::after {\n  content: '';\n  position: absolute;\n  display: block;\n}\n\n.loader_bubble::before {\n  top: 10px;\n  left: 10px;\n  width: 10px;\n  height: 10px;\n  background: #fff;\n  border-radius: 50%;\n}\n\n.loader_bubble {\n  background: linear-gradient(180deg, rgb(0, 91, 228) 10%, rgb(75, 127, 240) 100%);\n  border-radius: 50%;\n  transform-origin: 50% 50%;\n  animation: bubble7234 1200ms cubic-bezier(0.645, 0.045, 0.355, 1) infinite;\n}\n\n@keyframes bubble7234 {\n  0% {\n    transform: translate3d(0,0,0) rotate(0);\n  }\n\n  100% {\n    transform: translate3d(0,0,0) rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Zebra 89</title>\n<style>\n/* Curly Zebra 89 by mrhyddenn — https://uiverse.io/mrhyddenn/curly-zebra-89 */\n.loader {\n  position: relative;\n  display: block;\n  width: 44px;\n  height: 44px;\n  font-size: 15px;\n  box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;\n}\n\n.loader::before,\n.loader::after {\n  content: '';\n  position: absolute;\n  display: block;\n}\n\n.loader_bubble::before {\n  top: 10px;\n  left: 10px;\n  width: 10px;\n  height: 10px;\n  background: #fff;\n  border-radius: 50%;\n}\n\n.loader_bubble {\n  background: linear-gradient(180deg, rgb(0, 91, 228) 10%, rgb(75, 127, 240) 100%);\n  border-radius: 50%;\n  transform-origin: 50% 50%;\n  animation: bubble7234 1200ms cubic-bezier(0.645, 0.045, 0.355, 1) infinite;\n}\n\n@keyframes bubble7234 {\n  0% {\n    transform: translate3d(0,0,0) rotate(0);\n  }\n\n  100% {\n    transform: translate3d(0,0,0) rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader loader_bubble\"></div>\n\n</body>\n</html>\n"
 }

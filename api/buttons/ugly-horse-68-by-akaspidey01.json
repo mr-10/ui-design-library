@@ -5,14 +5,24 @@
  "author": "AKAspidey01",
  "source": "https://uiverse.io/AKAspidey01/ugly-horse-68",
  "trigger": "hover",
- "description": "A button with arrow styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded purple button that slides on hover with a smooth transition.",
+ "howItWorks": "On hover, transform becomes translateX(0px), transform becomes translateY(0px).",
  "tags": [
-  "button",
-  "arrow",
-  "hover"
+  "purple",
+  "rounded",
+  "flat",
+  "slide",
+  "drop",
+  "button"
  ],
- "html": "<button class=\"button\">\n  <p class=\"button-text\">Read More</p> <p class=\"iconer\"><svg height=\"24\" width=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z\" fill=\"currentColor\"></path></svg></p>  \n</button>",
- "css": "/* From Uiverse.io by AKAspidey01 - Tags: button, arrow */\n.button {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 12px 15px;\n  border-radius: 10px;\n  border: none;\n  overflow: hidden;\n  background: rgb(164, 46, 194);\n  color: #fff;\n}\n\n.button-text {\n  transform: translateX(15px);\n  font-size: 1.5em;\n  font-weight: 700;\n  transition-duration: 0.3s;\n}\n\n.iconer {\n  transform: translateY(35px);\n  transition-duration: 0.3s;\n}\n\n.button:hover .button-text {\n  transform: translateX(0px);\n}\n\n.button:hover .iconer {\n  transform: translateY(0px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Horse 68</title>\n<style>\n/* From Uiverse.io by AKAspidey01 - https://uiverse.io/AKAspidey01/ugly-horse-68 */\n/* From Uiverse.io by AKAspidey01 - Tags: button, arrow */\n.button {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 12px 15px;\n  border-radius: 10px;\n  border: none;\n  overflow: hidden;\n  background: rgb(164, 46, 194);\n  color: #fff;\n}\n\n.button-text {\n  transform: translateX(15px);\n  font-size: 1.5em;\n  font-weight: 700;\n  transition-duration: 0.3s;\n}\n\n.iconer {\n  transform: translateY(35px);\n  transition-duration: 0.3s;\n}\n\n.button:hover .button-text {\n  transform: translateX(0px);\n}\n\n.button:hover .iconer {\n  transform: translateY(0px);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <p class=\"button-text\">Read More</p> <p class=\"iconer\"><svg height=\"24\" width=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z\" fill=\"currentColor\"></path></svg></p>  \n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#a42ec2",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 286,
+ "size": 1148,
+ "html": "<button class=\"button\">\n  <p class=\"button-text\">Read More</p> <p class=\"iconer\"><svg height=\"24\" width=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z\" fill=\"currentColor\"></path></svg></p>\n</button>\n",
+ "css": "/* Ugly Horse 68 by AKAspidey01 — https://uiverse.io/AKAspidey01/ugly-horse-68 */\n.button {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 12px 15px;\n  border-radius: 10px;\n  border: none;\n  overflow: hidden;\n  background: rgb(164, 46, 194);\n  color: #fff;\n}\n\n.button-text {\n  transform: translateX(15px);\n  font-size: 1.5em;\n  font-weight: 700;\n  transition-duration: 0.3s;\n}\n\n.iconer {\n  transform: translateY(35px);\n  transition-duration: 0.3s;\n}\n\n.button:hover .button-text {\n  transform: translateX(0px);\n}\n\n.button:hover .iconer {\n  transform: translateY(0px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Horse 68</title>\n<style>\n/* Ugly Horse 68 by AKAspidey01 — https://uiverse.io/AKAspidey01/ugly-horse-68 */\n.button {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  padding: 12px 15px;\n  border-radius: 10px;\n  border: none;\n  overflow: hidden;\n  background: rgb(164, 46, 194);\n  color: #fff;\n}\n\n.button-text {\n  transform: translateX(15px);\n  font-size: 1.5em;\n  font-weight: 700;\n  transition-duration: 0.3s;\n}\n\n.iconer {\n  transform: translateY(35px);\n  transition-duration: 0.3s;\n}\n\n.button:hover .button-text {\n  transform: translateX(0px);\n}\n\n.button:hover .iconer {\n  transform: translateY(0px);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <p class=\"button-text\">Read More</p> <p class=\"iconer\"><svg height=\"24\" width=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 0h24v24H0z\" fill=\"none\"></path><path d=\"M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z\" fill=\"currentColor\"></path></svg></p>\n</button>\n\n</body>\n</html>\n"
 }

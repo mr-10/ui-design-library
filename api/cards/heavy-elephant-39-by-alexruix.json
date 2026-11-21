@@ -5,14 +5,25 @@
  "author": "alexruix",
  "source": "https://uiverse.io/alexruix/heavy-elephant-39",
  "trigger": "hover",
- "description": "A card with gradient styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded amber card that changes colour on hover.",
+ "howItWorks": "On hover, opacity becomes 0, text color changes from #181818 to #f7ba2b.",
  "tags": [
+  "amber",
+  "red",
   "gradient",
-  "card",
-  "hover"
+  "rounded",
+  "flat",
+  "fade"
  ],
- "html": "<div class=\"card\">\n  <div class=\"card-info\">\n    <p class=\"title\">Magic Card</p>\n  </div>\n</div>",
- "css": "/* From Uiverse.io by alexruix - Tags: gradient, card */\n.card {\n --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);\n width: 190px;\n height: 254px;\n padding: 5px;\n border-radius: 1rem;\n overflow: visible;\n background: #f7ba2b;\n background: var(--background);\n position: relative;\n z-index: 1;\n}\n\n.card::after {\n position: absolute;\n content: \"\";\n top: 30px;\n left: 0;\n right: 0;\n z-index: -1;\n height: 100%;\n width: 100%;\n transform: scale(0.8);\n filter: blur(25px);\n background: #f7ba2b;\n background: var(--background);\n transition: opacity .5s;\n}\n\n.card-info {\n --color: #181818;\n background: var(--color);\n color: var(--color);\n display: flex;\n justify-content: center;\n align-items: center;\n width: 100%;\n height: 100%;\n overflow: visible;\n border-radius: .7rem;\n}\n\n.card .title {\n font-weight: bold;\n letter-spacing: .1em;\n}\n\n/*Hover*/\n.card:hover::after {\n opacity: 0;\n}\n\n.card:hover .card-info {\n color: #f7ba2b;\n transition: color 1s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Elephant 39</title>\n<style>\n/* From Uiverse.io by alexruix - https://uiverse.io/alexruix/heavy-elephant-39 */\n/* From Uiverse.io by alexruix - Tags: gradient, card */\n.card {\n --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);\n width: 190px;\n height: 254px;\n padding: 5px;\n border-radius: 1rem;\n overflow: visible;\n background: #f7ba2b;\n background: var(--background);\n position: relative;\n z-index: 1;\n}\n\n.card::after {\n position: absolute;\n content: \"\";\n top: 30px;\n left: 0;\n right: 0;\n z-index: -1;\n height: 100%;\n width: 100%;\n transform: scale(0.8);\n filter: blur(25px);\n background: #f7ba2b;\n background: var(--background);\n transition: opacity .5s;\n}\n\n.card-info {\n --color: #181818;\n background: var(--color);\n color: var(--color);\n display: flex;\n justify-content: center;\n align-items: center;\n width: 100%;\n height: 100%;\n overflow: visible;\n border-radius: .7rem;\n}\n\n.card .title {\n font-weight: bold;\n letter-spacing: .1em;\n}\n\n/*Hover*/\n.card:hover::after {\n opacity: 0;\n}\n\n.card:hover .card-info {\n color: #f7ba2b;\n transition: color 1s;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card-info\">\n    <p class=\"title\">Magic Card</p>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#f7ba2b",
+  "#ea5358",
+  "#181818"
+ ],
+ "fonts": [],
+ "tokens": 322,
+ "size": 1292,
+ "html": "<div class=\"card\">\n  <div class=\"card-info\">\n    <p class=\"title\">Magic Card</p>\n  </div>\n</div>\n",
+ "css": "/* Heavy Elephant 39 by alexruix — https://uiverse.io/alexruix/heavy-elephant-39 */\n.card {\n --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);\n width: 190px;\n height: 254px;\n padding: 5px;\n border-radius: 1rem;\n overflow: visible;\n background: #f7ba2b;\n background: var(--background);\n position: relative;\n z-index: 1;\n}\n\n.card::after {\n position: absolute;\n content: \"\";\n top: 30px;\n left: 0;\n right: 0;\n z-index: -1;\n height: 100%;\n width: 100%;\n transform: scale(0.8);\n filter: blur(25px);\n background: #f7ba2b;\n background: var(--background);\n transition: opacity .5s;\n}\n\n.card-info {\n --color: #181818;\n background: var(--color);\n color: var(--color);\n display: flex;\n justify-content: center;\n align-items: center;\n width: 100%;\n height: 100%;\n overflow: visible;\n border-radius: .7rem;\n}\n\n.card .title {\n font-weight: bold;\n letter-spacing: .1em;\n}\n\n.card:hover::after {\n opacity: 0;\n}\n\n.card:hover .card-info {\n color: #f7ba2b;\n transition: color 1s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Elephant 39</title>\n<style>\n/* Heavy Elephant 39 by alexruix — https://uiverse.io/alexruix/heavy-elephant-39 */\n.card {\n --background: linear-gradient(to left, #f7ba2b 0%, #ea5358 100%);\n width: 190px;\n height: 254px;\n padding: 5px;\n border-radius: 1rem;\n overflow: visible;\n background: #f7ba2b;\n background: var(--background);\n position: relative;\n z-index: 1;\n}\n\n.card::after {\n position: absolute;\n content: \"\";\n top: 30px;\n left: 0;\n right: 0;\n z-index: -1;\n height: 100%;\n width: 100%;\n transform: scale(0.8);\n filter: blur(25px);\n background: #f7ba2b;\n background: var(--background);\n transition: opacity .5s;\n}\n\n.card-info {\n --color: #181818;\n background: var(--color);\n color: var(--color);\n display: flex;\n justify-content: center;\n align-items: center;\n width: 100%;\n height: 100%;\n overflow: visible;\n border-radius: .7rem;\n}\n\n.card .title {\n font-weight: bold;\n letter-spacing: .1em;\n}\n\n.card:hover::after {\n opacity: 0;\n}\n\n.card:hover .card-info {\n color: #f7ba2b;\n transition: color 1s;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card-info\">\n    <p class=\"title\">Magic Card</p>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

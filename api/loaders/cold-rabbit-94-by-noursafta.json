@@ -5,15 +5,24 @@
  "author": "NourSafta",
  "source": "https://uiverse.io/NourSafta/cold-rabbit-94",
  "trigger": "auto-loop",
- "description": "A loader with circle-loader and cool-loader styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill green loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 0.75s animation (rotating).",
  "tags": [
-  "circle-loader",
-  "cool-loader",
-  "loaders",
-  "auto-loop"
+  "green",
+  "rounded",
+  "pill",
+  "flat",
+  "spin",
+  "circle-loader"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by NourSafta - Tags: circle loader, cool loader */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  top: 0;\n  left: 0;\n  width: 100px;\n  height: 100px;\n}\n\n.loader::after {\n  content: \"\";\n  width: 75px;\n  height: 75px;\n  border: 15px solid #dddddd;\n  border-top-color: #46C380;\n  border-radius: 50%;\n  animation: loading 0.75s ease-out infinite;\n}\n\n@keyframes loading {\n  from {\n    transform: rotate(0turn);\n  }\n\n  to {\n    transform: rotate(1turn);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cold Rabbit 94</title>\n<style>\n/* From Uiverse.io by NourSafta - https://uiverse.io/NourSafta/cold-rabbit-94 */\n/* From Uiverse.io by NourSafta - Tags: circle loader, cool loader */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  top: 0;\n  left: 0;\n  width: 100px;\n  height: 100px;\n}\n\n.loader::after {\n  content: \"\";\n  width: 75px;\n  height: 75px;\n  border: 15px solid #dddddd;\n  border-top-color: #46C380;\n  border-radius: 50%;\n  animation: loading 0.75s ease-out infinite;\n}\n\n@keyframes loading {\n  from {\n    transform: rotate(0turn);\n  }\n\n  to {\n    transform: rotate(1turn);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#dddddd",
+  "#46c380"
+ ],
+ "fonts": [],
+ "tokens": 189,
+ "size": 757,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Cold Rabbit 94 by NourSafta — https://uiverse.io/NourSafta/cold-rabbit-94 */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  top: 0;\n  left: 0;\n  width: 100px;\n  height: 100px;\n}\n\n.loader::after {\n  content: \"\";\n  width: 75px;\n  height: 75px;\n  border: 15px solid #dddddd;\n  border-top-color: #46C380;\n  border-radius: 50%;\n  animation: loading 0.75s ease-out infinite;\n}\n\n@keyframes loading {\n  from {\n    transform: rotate(0turn);\n  }\n\n  to {\n    transform: rotate(1turn);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cold Rabbit 94</title>\n<style>\n/* Cold Rabbit 94 by NourSafta — https://uiverse.io/NourSafta/cold-rabbit-94 */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  top: 0;\n  left: 0;\n  width: 100px;\n  height: 100px;\n}\n\n.loader::after {\n  content: \"\";\n  width: 75px;\n  height: 75px;\n  border: 15px solid #dddddd;\n  border-top-color: #46C380;\n  border-radius: 50%;\n  animation: loading 0.75s ease-out infinite;\n}\n\n@keyframes loading {\n  from {\n    transform: rotate(0turn);\n  }\n\n  to {\n    transform: rotate(1turn);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

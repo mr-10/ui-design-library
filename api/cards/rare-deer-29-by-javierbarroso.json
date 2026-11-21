@@ -5,17 +5,24 @@
  "author": "javierBarroso",
  "source": "https://uiverse.io/javierBarroso/rare-deer-29",
  "trigger": "hover",
- "description": "A card with simple, animation and shadow styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "3d rounded white card that glows on hover.",
+ "howItWorks": "On hover, box-shadow becomes #ffffff 5px 10px ,\n  #ffffff 10px 20px ,\n  #ffffff 15px 30px.",
  "tags": [
+  "3d",
+  "rounded",
+  "glow",
   "simple",
   "animation",
-  "card",
-  "shadow",
-  "hover-effect",
-  "css"
+  "card"
  ],
- "html": "<div class=\"container\">\n  <div class=\"card\">Good morning</div>\n</div>",
- "css": "/* From Uiverse.io by javierBarroso - Source: pedertanberg - Tags: simple, animation, card, shadow, hover effect, css */\n.card {\n  width: 150px;\n  height: 200px;\n  background: #ffffff;\n  transition: box-shadow .3s ease-in;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  font-size: 20px;\n  padding: 10px;\n  transform: rotateX(30deg) rotateY(-10deg) rotateZ(30deg);\n  border-radius: 10px;\n}\n\n.card:hover {\n  box-shadow: rgba(255,255,255,0.5) 5px 10px ,\n  rgba(255,255,255,0.4) 10px 20px ,\n  rgba(255,255,255,0.3) 15px 30px;\n}\n\n.container {\n  transform-style: preserve-3d;\n  perspective: 250px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rare Deer 29</title>\n<style>\n/* From Uiverse.io by javierBarroso - https://uiverse.io/javierBarroso/rare-deer-29 */\n/* From Uiverse.io by javierBarroso - Source: pedertanberg - Tags: simple, animation, card, shadow, hover effect, css */\n.card {\n  width: 150px;\n  height: 200px;\n  background: #ffffff;\n  transition: box-shadow .3s ease-in;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  font-size: 20px;\n  padding: 10px;\n  transform: rotateX(30deg) rotateY(-10deg) rotateZ(30deg);\n  border-radius: 10px;\n}\n\n.card:hover {\n  box-shadow: rgba(255,255,255,0.5) 5px 10px ,\n  rgba(255,255,255,0.4) 10px 20px ,\n  rgba(255,255,255,0.3) 15px 30px;\n}\n\n.container {\n  transform-style: preserve-3d;\n  perspective: 250px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <div class=\"card\">Good morning</div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 220,
+ "size": 884,
+ "html": "<div class=\"container\">\n  <div class=\"card\">Good morning</div>\n</div>\n",
+ "css": "/* Rare Deer 29 by javierBarroso — https://uiverse.io/javierBarroso/rare-deer-29 */\n.card {\n  width: 150px;\n  height: 200px;\n  background: #ffffff;\n  transition: box-shadow .3s ease-in;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  font-size: 20px;\n  padding: 10px;\n  transform: rotateX(30deg) rotateY(-10deg) rotateZ(30deg);\n  border-radius: 10px;\n}\n\n.card:hover {\n  box-shadow: rgba(255,255,255,0.5) 5px 10px ,\n  rgba(255,255,255,0.4) 10px 20px ,\n  rgba(255,255,255,0.3) 15px 30px;\n}\n\n.container {\n  transform-style: preserve-3d;\n  perspective: 250px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rare Deer 29</title>\n<style>\n/* Rare Deer 29 by javierBarroso — https://uiverse.io/javierBarroso/rare-deer-29 */\n.card {\n  width: 150px;\n  height: 200px;\n  background: #ffffff;\n  transition: box-shadow .3s ease-in;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  font-size: 20px;\n  padding: 10px;\n  transform: rotateX(30deg) rotateY(-10deg) rotateZ(30deg);\n  border-radius: 10px;\n}\n\n.card:hover {\n  box-shadow: rgba(255,255,255,0.5) 5px 10px ,\n  rgba(255,255,255,0.4) 10px 20px ,\n  rgba(255,255,255,0.3) 15px 30px;\n}\n\n.container {\n  transform-style: preserve-3d;\n  perspective: 250px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <div class=\"card\">Good morning</div>\n</div>\n\n</body>\n</html>\n"
 }

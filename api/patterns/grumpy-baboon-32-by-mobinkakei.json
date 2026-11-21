@@ -5,15 +5,25 @@
  "author": "mobinkakei",
  "source": "https://uiverse.io/mobinkakei/grumpy-baboon-32",
  "trigger": "static",
- "description": "A pattern with simple and blue styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient cyan pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "blue",
+  "cyan",
+  "gradient",
+  "flat",
   "pattern",
-  "static"
+  "simple",
+  "blue"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by mobinkakei  - Tags: simple, blue, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  --s: 25px; /* control the size */\n  --c1: #1eaaee;\n  --c2: #171717;\n\n  --c: #0000 71%, var(--c1) 0 79%, #0000 0;\n  --_s: calc(var(--s) / 2) / calc(2 * var(--s)) calc(2 * var(--s));\n  background: linear-gradient(45deg, var(--c)) calc(var(--s) / -2) var(--_s),\n    linear-gradient(135deg, var(--c)) calc(var(--s) / 2) var(--_s),\n    radial-gradient(var(--c1) 35%, var(--c2) 37%) 0 0 / var(--s) var(--s);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Grumpy Baboon 32</title>\n<style>\n/* From Uiverse.io by mobinkakei - https://uiverse.io/mobinkakei/grumpy-baboon-32 */\n/* From Uiverse.io by mobinkakei  - Tags: simple, blue, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  --s: 25px; /* control the size */\n  --c1: #1eaaee;\n  --c2: #171717;\n\n  --c: #0000 71%, var(--c1) 0 79%, #0000 0;\n  --_s: calc(var(--s) / 2) / calc(2 * var(--s)) calc(2 * var(--s));\n  background: linear-gradient(45deg, var(--c)) calc(var(--s) / -2) var(--_s),\n    linear-gradient(135deg, var(--c)) calc(var(--s) / 2) var(--_s),\n    radial-gradient(var(--c1) 35%, var(--c2) 37%) 0 0 / var(--s) var(--s);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#1eaaee",
+  "#171717",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 190,
+ "size": 761,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Grumpy Baboon 32 by mobinkakei — https://uiverse.io/mobinkakei/grumpy-baboon-32 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  --s: 25px;\n  --c1: #1eaaee;\n  --c2: #171717;\n\n  --c: #0000 71%, var(--c1) 0 79%, #0000 0;\n  --_s: calc(var(--s) / 2) / calc(2 * var(--s)) calc(2 * var(--s));\n  background: linear-gradient(45deg, var(--c)) calc(var(--s) / -2) var(--_s),\n    linear-gradient(135deg, var(--c)) calc(var(--s) / 2) var(--_s),\n    radial-gradient(var(--c1) 35%, var(--c2) 37%) 0 0 / var(--s) var(--s);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Grumpy Baboon 32</title>\n<style>\n/* Grumpy Baboon 32 by mobinkakei — https://uiverse.io/mobinkakei/grumpy-baboon-32 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  --s: 25px;\n  --c1: #1eaaee;\n  --c2: #171717;\n\n  --c: #0000 71%, var(--c1) 0 79%, #0000 0;\n  --_s: calc(var(--s) / 2) / calc(2 * var(--s)) calc(2 * var(--s));\n  background: linear-gradient(45deg, var(--c)) calc(var(--s) / -2) var(--_s),\n    linear-gradient(135deg, var(--c)) calc(var(--s) / 2) var(--_s),\n    radial-gradient(var(--c1) 35%, var(--c2) 37%) 0 0 / var(--s) var(--s);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

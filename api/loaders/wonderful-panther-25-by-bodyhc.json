@@ -5,15 +5,24 @@
  "author": "Bodyhc",
  "source": "https://uiverse.io/Bodyhc/wonderful-panther-25",
  "trigger": "auto-loop",
- "description": "A loader with loading and circle-loader styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient pill blue loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1s animation (rotating).",
  "tags": [
-  "loading",
-  "loader",
-  "circle-loader",
-  "auto-loop"
+  "blue",
+  "gradient",
+  "rounded",
+  "pill",
+  "flat",
+  "spin"
  ],
- "html": "<div class=\"custom-loader\"></div>",
- "css": "/* From Uiverse.io by Bodyhc - Tags: loading, loader, circle loader */\n.custom-loader {\n  width: 50px;\n  height: 50px;\n  display: grid;\n  border-radius: 50%;\n  -webkit-mask: radial-gradient(farthest-side,#0000 40%,#000 41%);\n  background: linear-gradient(0deg ,#766DF480 50%,#766DF4FF 0) center/4px 100%,\n    linear-gradient(90deg,#766DF440 50%,#766DF4BF 0) center/100% 4px;\n  background-repeat: no-repeat;\n  animation: s3 1s infinite steps(12);\n}\n\n.custom-loader::before,\n.custom-loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  border-radius: 50%;\n  background: inherit;\n  opacity: 0.915;\n  transform: rotate(30deg);\n}\n\n.custom-loader::after {\n  opacity: 0.83;\n  transform: rotate(60deg);\n}\n\n@keyframes s3 {\n  100% {\n    transform: rotate(1turn)\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wonderful Panther 25</title>\n<style>\n/* From Uiverse.io by Bodyhc - https://uiverse.io/Bodyhc/wonderful-panther-25 */\n/* From Uiverse.io by Bodyhc - Tags: loading, loader, circle loader */\n.custom-loader {\n  width: 50px;\n  height: 50px;\n  display: grid;\n  border-radius: 50%;\n  -webkit-mask: radial-gradient(farthest-side,#0000 40%,#000 41%);\n  background: linear-gradient(0deg ,#766DF480 50%,#766DF4FF 0) center/4px 100%,\n    linear-gradient(90deg,#766DF440 50%,#766DF4BF 0) center/100% 4px;\n  background-repeat: no-repeat;\n  animation: s3 1s infinite steps(12);\n}\n\n.custom-loader::before,\n.custom-loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  border-radius: 50%;\n  background: inherit;\n  opacity: 0.915;\n  transform: rotate(30deg);\n}\n\n.custom-loader::after {\n  opacity: 0.83;\n  transform: rotate(60deg);\n}\n\n@keyframes s3 {\n  100% {\n    transform: rotate(1turn)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"custom-loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#766df4",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 256,
+ "size": 1026,
+ "html": "<div class=\"custom-loader\"></div>\n",
+ "css": "/* Wonderful Panther 25 by Bodyhc — https://uiverse.io/Bodyhc/wonderful-panther-25 */\n.custom-loader {\n  width: 50px;\n  height: 50px;\n  display: grid;\n  border-radius: 50%;\n  -webkit-mask: radial-gradient(farthest-side,#0000 40%,#000 41%);\n  background: linear-gradient(0deg ,#766DF480 50%,#766DF4FF 0) center/4px 100%,\n    linear-gradient(90deg,#766DF440 50%,#766DF4BF 0) center/100% 4px;\n  background-repeat: no-repeat;\n  animation: s3 1s infinite steps(12);\n}\n\n.custom-loader::before,\n.custom-loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  border-radius: 50%;\n  background: inherit;\n  opacity: 0.915;\n  transform: rotate(30deg);\n}\n\n.custom-loader::after {\n  opacity: 0.83;\n  transform: rotate(60deg);\n}\n\n@keyframes s3 {\n  100% {\n    transform: rotate(1turn)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wonderful Panther 25</title>\n<style>\n/* Wonderful Panther 25 by Bodyhc — https://uiverse.io/Bodyhc/wonderful-panther-25 */\n.custom-loader {\n  width: 50px;\n  height: 50px;\n  display: grid;\n  border-radius: 50%;\n  -webkit-mask: radial-gradient(farthest-side,#0000 40%,#000 41%);\n  background: linear-gradient(0deg ,#766DF480 50%,#766DF4FF 0) center/4px 100%,\n    linear-gradient(90deg,#766DF440 50%,#766DF4BF 0) center/100% 4px;\n  background-repeat: no-repeat;\n  animation: s3 1s infinite steps(12);\n}\n\n.custom-loader::before,\n.custom-loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  border-radius: 50%;\n  background: inherit;\n  opacity: 0.915;\n  transform: rotate(30deg);\n}\n\n.custom-loader::after {\n  opacity: 0.83;\n  transform: rotate(60deg);\n}\n\n@keyframes s3 {\n  100% {\n    transform: rotate(1turn)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"custom-loader\"></div>\n\n</body>\n</html>\n"
 }

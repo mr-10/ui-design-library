@@ -5,14 +5,24 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/slimy-otter-89",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill blue loader with fading motion in a loop.",
+ "howItWorks": "It loops a animation (fading, pulsing).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "blue",
+  "rounded",
+  "pill",
+  "flat",
+  "fade",
+  "pulse"
  ],
- "html": "<div class=\"ping\"></div>",
- "css": "/* From Uiverse.io by G4b413l - Tags: loader */\n.ping {\n --uib-size: 50px;\n --uib-speed: 1s;\n --uib-color: #3950cf;\n position: relative;\n height: var(--uib-size);\n width: var(--uib-size);\n}\n\n.ping::before,\n.ping::after {\n content: '';\n position: absolute;\n top: 0;\n left: 0;\n height: 100%;\n width: 100%;\n border-radius: 50%;\n background-color: var(--uib-color);\n animation: pulse7132 var(--uib-speed) linear infinite;\n transform: scale(0);\n opacity: 0;\n}\n\n.ping::after {\n animation-delay: calc(var(--uib-speed) / -2);\n}\n\n@keyframes pulse7132 {\n 0% {\n  transform: scale(0);\n  opacity: 1;\n }\n\n 100% {\n  transform: scale(1);\n  opacity: 0;\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slimy Otter 89</title>\n<style>\n/* From Uiverse.io by G4b413l - https://uiverse.io/G4b413l/slimy-otter-89 */\n/* From Uiverse.io by G4b413l - Tags: loader */\n.ping {\n --uib-size: 50px;\n --uib-speed: 1s;\n --uib-color: #3950cf;\n position: relative;\n height: var(--uib-size);\n width: var(--uib-size);\n}\n\n.ping::before,\n.ping::after {\n content: '';\n position: absolute;\n top: 0;\n left: 0;\n height: 100%;\n width: 100%;\n border-radius: 50%;\n background-color: var(--uib-color);\n animation: pulse7132 var(--uib-speed) linear infinite;\n transform: scale(0);\n opacity: 0;\n}\n\n.ping::after {\n animation-delay: calc(var(--uib-speed) / -2);\n}\n\n@keyframes pulse7132 {\n 0% {\n  transform: scale(0);\n  opacity: 1;\n }\n\n 100% {\n  transform: scale(1);\n  opacity: 0;\n }\n}\n</style>\n</head>\n<body>\n<div class=\"ping\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#3950cf",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 227,
+ "size": 909,
+ "html": "<div class=\"ping\"></div>\n",
+ "css": "/* Slimy Otter 89 by G4b413l — https://uiverse.io/G4b413l/slimy-otter-89 */\n.ping {\n --uib-size: 50px;\n --uib-speed: 1s;\n --uib-color: #3950cf;\n position: relative;\n height: var(--uib-size);\n width: var(--uib-size);\n}\n\n.ping::before,\n.ping::after {\n content: '';\n position: absolute;\n top: 0;\n left: 0;\n height: 100%;\n width: 100%;\n border-radius: 50%;\n background-color: var(--uib-color);\n animation: pulse7132 var(--uib-speed) linear infinite;\n transform: scale(0);\n opacity: 0;\n}\n\n.ping::after {\n animation-delay: calc(var(--uib-speed) / -2);\n}\n\n@keyframes pulse7132 {\n 0% {\n  transform: scale(0);\n  opacity: 1;\n }\n\n 100% {\n  transform: scale(1);\n  opacity: 0;\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slimy Otter 89</title>\n<style>\n/* Slimy Otter 89 by G4b413l — https://uiverse.io/G4b413l/slimy-otter-89 */\n.ping {\n --uib-size: 50px;\n --uib-speed: 1s;\n --uib-color: #3950cf;\n position: relative;\n height: var(--uib-size);\n width: var(--uib-size);\n}\n\n.ping::before,\n.ping::after {\n content: '';\n position: absolute;\n top: 0;\n left: 0;\n height: 100%;\n width: 100%;\n border-radius: 50%;\n background-color: var(--uib-color);\n animation: pulse7132 var(--uib-speed) linear infinite;\n transform: scale(0);\n opacity: 0;\n}\n\n.ping::after {\n animation-delay: calc(var(--uib-speed) / -2);\n}\n\n@keyframes pulse7132 {\n 0% {\n  transform: scale(0);\n  opacity: 1;\n }\n\n 100% {\n  transform: scale(1);\n  opacity: 0;\n }\n}\n</style>\n</head>\n<body>\n<div class=\"ping\"></div>\n\n</body>\n</html>\n"
 }

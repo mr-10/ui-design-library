@@ -5,17 +5,27 @@
  "author": "andrew-demchenk0",
  "source": "https://uiverse.io/andrew-demchenk0/giant-termite-81",
  "trigger": "hover",
- "description": "A button with animation, calendar and creditcard styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded red button that starts animating on hover.",
+ "howItWorks": "On hover, background changes from #FF342B to #e52e26, starts the slope animation (rotating).",
  "tags": [
-  "animation",
-  "calendar",
-  "button",
-  "creditcard",
-  "add",
-  "add-to-callendar"
+  "red",
+  "rounded",
+  "flat",
+  "color-change",
+  "animated",
+  "spin"
  ],
- "html": "<button class=\"button\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" viewBox=\"0 0 24 24\" height=\"24\" fill=\"none\" class=\"svg-icon\"><g stroke-width=\"2\" stroke-linecap=\"round\" stroke=\"#fff\"><rect y=\"5\" x=\"4\" width=\"16\" rx=\"2\" height=\"16\"></rect><path d=\"m8 3v4\"></path><path d=\"m16 3v4\"></path><path d=\"m4 11h16\"></path></g></svg>\n  <span class=\"lable\">Add to Calendar</span>\n</button>",
- "css": "/* From Uiverse.io by andrew-demchenk0 - Tags: animation, calendar, button, creditcard, add, add to callendar */\n.button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 9px 12px;\n  gap: 8px;\n  height: 40px;\n  width: 201px;\n  border: none;\n  background: #FF342B;\n  border-radius: 20px;\n  cursor: pointer;\n}\n\n.lable {\n  line-height: 22px;\n  font-size: 17px;\n  color: #fff;\n  font-family: sans-serif;\n  letter-spacing: 1px;\n}\n\n.button:hover {\n  background: #e52e26;\n}\n\n.button:hover .svg-icon {\n  animation: slope 1s linear infinite;\n}\n\n@keyframes slope {\n  0% {\n  }\n\n  50% {\n    transform: rotate(10deg);\n  }\n\n  100% {\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Termite 81</title>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - https://uiverse.io/andrew-demchenk0/giant-termite-81 */\n/* From Uiverse.io by andrew-demchenk0 - Tags: animation, calendar, button, creditcard, add, add to callendar */\n.button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 9px 12px;\n  gap: 8px;\n  height: 40px;\n  width: 201px;\n  border: none;\n  background: #FF342B;\n  border-radius: 20px;\n  cursor: pointer;\n}\n\n.lable {\n  line-height: 22px;\n  font-size: 17px;\n  color: #fff;\n  font-family: sans-serif;\n  letter-spacing: 1px;\n}\n\n.button:hover {\n  background: #e52e26;\n}\n\n.button:hover .svg-icon {\n  animation: slope 1s linear infinite;\n}\n\n@keyframes slope {\n  0% {\n  }\n\n  50% {\n    transform: rotate(10deg);\n  }\n\n  100% {\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" viewBox=\"0 0 24 24\" height=\"24\" fill=\"none\" class=\"svg-icon\"><g stroke-width=\"2\" stroke-linecap=\"round\" stroke=\"#fff\"><rect y=\"5\" x=\"4\" width=\"16\" rx=\"2\" height=\"16\"></rect><path d=\"m8 3v4\"></path><path d=\"m16 3v4\"></path><path d=\"m4 11h16\"></path></g></svg>\n  <span class=\"lable\">Add to Calendar</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ff342b",
+  "#e52e26",
+  "#ffffff"
+ ],
+ "fonts": [
+  "sans-serif"
+ ],
+ "tokens": 312,
+ "size": 1248,
+ "html": "<button class=\"button\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" viewBox=\"0 0 24 24\" height=\"24\" fill=\"none\" class=\"svg-icon\"><g stroke-width=\"2\" stroke-linecap=\"round\" stroke=\"#fff\"><rect y=\"5\" x=\"4\" width=\"16\" rx=\"2\" height=\"16\"></rect><path d=\"m8 3v4\"></path><path d=\"m16 3v4\"></path><path d=\"m4 11h16\"></path></g></svg>\n  <span class=\"lable\">Add to Calendar</span>\n</button>\n",
+ "css": "/* Giant Termite 81 by andrew-demchenk0 — https://uiverse.io/andrew-demchenk0/giant-termite-81 */\n.button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 9px 12px;\n  gap: 8px;\n  height: 40px;\n  width: 201px;\n  border: none;\n  background: #FF342B;\n  border-radius: 20px;\n  cursor: pointer;\n}\n\n.lable {\n  line-height: 22px;\n  font-size: 17px;\n  color: #fff;\n  font-family: sans-serif;\n  letter-spacing: 1px;\n}\n\n.button:hover {\n  background: #e52e26;\n}\n\n.button:hover .svg-icon {\n  animation: slope 1s linear infinite;\n}\n\n@keyframes slope {\n  0% {\n  }\n\n  50% {\n    transform: rotate(10deg);\n  }\n\n  100% {\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Termite 81</title>\n<style>\n/* Giant Termite 81 by andrew-demchenk0 — https://uiverse.io/andrew-demchenk0/giant-termite-81 */\n.button {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 9px 12px;\n  gap: 8px;\n  height: 40px;\n  width: 201px;\n  border: none;\n  background: #FF342B;\n  border-radius: 20px;\n  cursor: pointer;\n}\n\n.lable {\n  line-height: 22px;\n  font-size: 17px;\n  color: #fff;\n  font-family: sans-serif;\n  letter-spacing: 1px;\n}\n\n.button:hover {\n  background: #e52e26;\n}\n\n.button:hover .svg-icon {\n  animation: slope 1s linear infinite;\n}\n\n@keyframes slope {\n  0% {\n  }\n\n  50% {\n    transform: rotate(10deg);\n  }\n\n  100% {\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" viewBox=\"0 0 24 24\" height=\"24\" fill=\"none\" class=\"svg-icon\"><g stroke-width=\"2\" stroke-linecap=\"round\" stroke=\"#fff\"><rect y=\"5\" x=\"4\" width=\"16\" rx=\"2\" height=\"16\"></rect><path d=\"m8 3v4\"></path><path d=\"m16 3v4\"></path><path d=\"m4 11h16\"></path></g></svg>\n  <span class=\"lable\">Add to Calendar</span>\n</button>\n\n</body>\n</html>\n"
 }

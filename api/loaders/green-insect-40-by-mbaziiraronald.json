@@ -5,14 +5,24 @@
  "author": "MbaziiraRonald",
  "source": "https://uiverse.io/MbaziiraRonald/green-insect-40",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined pill red loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 0.8s animation (rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "red",
+  "outlined",
+  "rounded",
+  "pill",
+  "flat",
+  "spin"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by MbaziiraRonald - Tags: loader */\n.loader {\n  height: 50px;\n  width: 50px;\n  background: transparent;\n  border: red 3px solid;\n  border-top: transparent;\n  border-radius: 50%;\n  animation: animate81323 0.8s linear infinite;\n}\n\n@keyframes animate81323 {\n  0% {\n    border: 3px solid rgb(255, 75, 75);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(0deg);\n  }\n\n  50% {\n    border: 3px dashed rgb(240, 41, 240);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(270deg);\n  }\n\n  100% {\n    border: 3px dotted rgb(28, 228, 28);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Green Insect 40</title>\n<style>\n/* From Uiverse.io by MbaziiraRonald - https://uiverse.io/MbaziiraRonald/green-insect-40 */\n/* From Uiverse.io by MbaziiraRonald - Tags: loader */\n.loader {\n  height: 50px;\n  width: 50px;\n  background: transparent;\n  border: red 3px solid;\n  border-top: transparent;\n  border-radius: 50%;\n  animation: animate81323 0.8s linear infinite;\n}\n\n@keyframes animate81323 {\n  0% {\n    border: 3px solid rgb(255, 75, 75);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(0deg);\n  }\n\n  50% {\n    border: 3px dashed rgb(240, 41, 240);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(270deg);\n  }\n\n  100% {\n    border: 3px dotted rgb(28, 228, 28);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff0000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 246,
+ "size": 985,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Green Insect 40 by MbaziiraRonald — https://uiverse.io/MbaziiraRonald/green-insect-40 */\n.loader {\n  height: 50px;\n  width: 50px;\n  background: transparent;\n  border: red 3px solid;\n  border-top: transparent;\n  border-radius: 50%;\n  animation: animate81323 0.8s linear infinite;\n}\n\n@keyframes animate81323 {\n  0% {\n    border: 3px solid rgb(255, 75, 75);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(0deg);\n  }\n\n  50% {\n    border: 3px dashed rgb(240, 41, 240);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(270deg);\n  }\n\n  100% {\n    border: 3px dotted rgb(28, 228, 28);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Green Insect 40</title>\n<style>\n/* Green Insect 40 by MbaziiraRonald — https://uiverse.io/MbaziiraRonald/green-insect-40 */\n.loader {\n  height: 50px;\n  width: 50px;\n  background: transparent;\n  border: red 3px solid;\n  border-top: transparent;\n  border-radius: 50%;\n  animation: animate81323 0.8s linear infinite;\n}\n\n@keyframes animate81323 {\n  0% {\n    border: 3px solid rgb(255, 75, 75);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(0deg);\n  }\n\n  50% {\n    border: 3px dashed rgb(240, 41, 240);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(270deg);\n  }\n\n  100% {\n    border: 3px dotted rgb(28, 228, 28);\n    border-top: transparent;\n    border-left: transparent;\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

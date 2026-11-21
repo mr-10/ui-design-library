@@ -5,15 +5,25 @@
  "author": "mrtqzbek11",
  "source": "https://uiverse.io/mrtqzbek11/moody-bulldog-15",
  "trigger": "active",
- "description": "A button with gradient and neon styling.",
- "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "description": "Gradient dark rounded purple button that responds while pressed down.",
+ "howItWorks": "While pressed, transform becomes scale(0.9) rotate(3deg), background changes from #100720 to radial-gradient( circle farthest-corner at 10% 20%,  #ff5ef7 17.8%, #02f5ff 100.2% ).",
  "tags": [
+  "purple",
+  "teal",
   "gradient",
-  "button",
-  "active",
-  "neon"
+  "dark",
+  "rounded",
+  "flat"
  ],
- "html": "<button>\n  Hold that\n</button>",
- "css": "/* From Uiverse.io by mrtqzbek11 - Tags: gradient, button, active, neon */\nbutton {\n  width: 165px;\n  height: 62px;\n  cursor: pointer;\n  color: #fff;\n  font-size: 17px;\n  border-radius: 1rem;\n  border: none;\n  position: relative;\n  background: #100720;\n  transition: 0.1s;\n}\n\nbutton::after {\n  content: '';\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );\n  filter: blur(15px);\n  z-index: -1;\n  position: absolute;\n  left: 0;\n  top: 0;\n}\n\nbutton:active {\n  transform: scale(0.9) rotate(3deg);\n  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );\n  transition: 0.5s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Bulldog 15</title>\n<style>\n/* From Uiverse.io by mrtqzbek11 - https://uiverse.io/mrtqzbek11/moody-bulldog-15 */\n/* From Uiverse.io by mrtqzbek11 - Tags: gradient, button, active, neon */\nbutton {\n  width: 165px;\n  height: 62px;\n  cursor: pointer;\n  color: #fff;\n  font-size: 17px;\n  border-radius: 1rem;\n  border: none;\n  position: relative;\n  background: #100720;\n  transition: 0.1s;\n}\n\nbutton::after {\n  content: '';\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );\n  filter: blur(15px);\n  z-index: -1;\n  position: absolute;\n  left: 0;\n  top: 0;\n}\n\nbutton:active {\n  transform: scale(0.9) rotate(3deg);\n  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );\n  transition: 0.5s;\n}\n</style>\n</head>\n<body>\n<button>\n  Hold that\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#100720",
+  "#ff5ef7",
+  "#02f5ff"
+ ],
+ "fonts": [],
+ "tokens": 250,
+ "size": 1004,
+ "html": "<button>\n  Hold that\n</button>\n",
+ "css": "/* Moody Bulldog 15 by mrtqzbek11 — https://uiverse.io/mrtqzbek11/moody-bulldog-15 */\nbutton {\n  width: 165px;\n  height: 62px;\n  cursor: pointer;\n  color: #fff;\n  font-size: 17px;\n  border-radius: 1rem;\n  border: none;\n  position: relative;\n  background: #100720;\n  transition: 0.1s;\n}\n\nbutton::after {\n  content: '';\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );\n  filter: blur(15px);\n  z-index: -1;\n  position: absolute;\n  left: 0;\n  top: 0;\n}\n\nbutton:active {\n  transform: scale(0.9) rotate(3deg);\n  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );\n  transition: 0.5s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Bulldog 15</title>\n<style>\n/* Moody Bulldog 15 by mrtqzbek11 — https://uiverse.io/mrtqzbek11/moody-bulldog-15 */\nbutton {\n  width: 165px;\n  height: 62px;\n  cursor: pointer;\n  color: #fff;\n  font-size: 17px;\n  border-radius: 1rem;\n  border: none;\n  position: relative;\n  background: #100720;\n  transition: 0.1s;\n}\n\nbutton::after {\n  content: '';\n  width: 100%;\n  height: 100%;\n  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );\n  filter: blur(15px);\n  z-index: -1;\n  position: absolute;\n  left: 0;\n  top: 0;\n}\n\nbutton:active {\n  transform: scale(0.9) rotate(3deg);\n  background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,94,247,1) 17.8%, rgba(2,245,255,1) 100.2% );\n  transition: 0.5s;\n}\n</style>\n</head>\n<body>\n<button>\n  Hold that\n</button>\n\n</body>\n</html>\n"
 }

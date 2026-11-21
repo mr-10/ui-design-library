@@ -5,15 +5,24 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/kind-snake-27",
  "trigger": "static",
- "description": "A pattern with line and papper styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient white pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "line",
+  "gradient",
+  "flat",
   "pattern",
+  "line",
   "papper",
   "static"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by Yaya12085 - Tags: line, pattern, papper */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background-image: linear-gradient(#ffffff 1.1rem, #ccc 1.2rem);\n  background-size: 100% 1.2rem;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Kind Snake 27</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/kind-snake-27 */\n/* From Uiverse.io by Yaya12085 - Tags: line, pattern, papper */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background-image: linear-gradient(#ffffff 1.1rem, #ccc 1.2rem);\n  background-size: 100% 1.2rem;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 116,
+ "size": 467,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Kind Snake 27 by Yaya12085 — https://uiverse.io/Yaya12085/kind-snake-27 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background-image: linear-gradient(#ffffff 1.1rem, #ccc 1.2rem);\n  background-size: 100% 1.2rem;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Kind Snake 27</title>\n<style>\n/* Kind Snake 27 by Yaya12085 — https://uiverse.io/Yaya12085/kind-snake-27 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background-image: linear-gradient(#ffffff 1.1rem, #ccc 1.2rem);\n  background-size: 100% 1.2rem;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

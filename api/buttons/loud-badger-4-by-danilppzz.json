@@ -4,15 +4,25 @@
  "category": "buttons",
  "author": "danilppzz",
  "source": "https://uiverse.io/danilppzz/loud-badger-4",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Rounded white submit button that changes colour on hover.",
+ "howItWorks": "On hover, border changes.",
  "tags": [
+  "rounded",
+  "color-change",
+  "submit",
+  "submit-button",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by danilppzz  - Tags: button, dark, modern, tailwind -->\n<button\n  class=\"bg-[#292929] border-2 border-[#3e3e3e] rounded-lg text-white px-6 py-3 text-base hover:border-[#fff] cursor-pointer transition\"\n>\n  Submit\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Badger 4</title>\n<style>\n/* From Uiverse.io by danilppzz - https://uiverse.io/danilppzz/loud-badger-4 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by danilppzz  - Tags: button, dark, modern, tailwind -->\n<button\n  class=\"bg-[#292929] border-2 border-[#3e3e3e] rounded-lg text-white px-6 py-3 text-base hover:border-[#fff] cursor-pointer transition\"\n>\n  Submit\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 114,
+ "size": 459,
+ "html": "<button\n  class=\"bg-[#292929] border-2 border-[#3e3e3e] rounded-lg text-white px-6 py-3 text-base hover:border-[#fff] cursor-pointer transition\"\n>\n  Submit\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Badger 4</title>\n<style>\n/* Loud Badger 4 by danilppzz — https://uiverse.io/danilppzz/loud-badger-4 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"bg-[#292929] border-2 border-[#3e3e3e] rounded-lg text-white px-6 py-3 text-base hover:border-[#fff] cursor-pointer transition\"\n>\n  Submit\n</button>\n\n</body>\n</html>\n"
 }

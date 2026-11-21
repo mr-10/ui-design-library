@@ -4,15 +4,26 @@
  "category": "buttons",
  "author": "Melo034",
  "source": "https://uiverse.io/Melo034/stupid-bear-67",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Pill red button that scales up on hover.",
+ "howItWorks": "On hover, text colour changes and it scales and background changes.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "red",
+  "rounded",
+  "pill",
+  "color-change",
+  "scale",
+  "buttons"
  ],
- "html": "<!-- From Uiverse.io by Melo034  - Tags: simple, material design, button -->\n<button\n  class=\"relative px-8 py-2 rounded-md bg-white isolation-auto z-10 border-2 border-red-700 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full hover:text-white before:-right-full before:hover:right-0 before:rounded-full before:bg-[#A12347] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 inline-flex items-center justify-center px-4 py-3 text-sm font-semibold text-black bg-white border border-gray-200 rounded-lg shadow-sm gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none\"\n>\n  Button\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stupid Bear 67</title>\n<style>\n/* From Uiverse.io by Melo034 - https://uiverse.io/Melo034/stupid-bear-67 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Melo034  - Tags: simple, material design, button -->\n<button\n  class=\"relative px-8 py-2 rounded-md bg-white isolation-auto z-10 border-2 border-red-700 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full hover:text-white before:-right-full before:hover:right-0 before:rounded-full before:bg-[#A12347] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 inline-flex items-center justify-center px-4 py-3 text-sm font-semibold text-black bg-white border border-gray-200 rounded-lg shadow-sm gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none\"\n>\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#b91c1c",
+  "#e5e7eb",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 228,
+ "size": 912,
+ "html": "<button\n  class=\"relative px-8 py-2 rounded-md bg-white isolation-auto z-10 border-2 border-red-700 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full hover:text-white before:-right-full before:hover:right-0 before:rounded-full before:bg-[#A12347] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 inline-flex items-center justify-center px-4 py-3 text-sm font-semibold text-black bg-white border border-gray-200 rounded-lg shadow-sm gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none\"\n>\n  Button\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stupid Bear 67</title>\n<style>\n/* Stupid Bear 67 by Melo034 — https://uiverse.io/Melo034/stupid-bear-67 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"relative px-8 py-2 rounded-md bg-white isolation-auto z-10 border-2 border-red-700 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full hover:text-white before:-right-full before:hover:right-0 before:rounded-full before:bg-[#A12347] before:-z-10 before:aspect-square before:hover:scale-150 overflow-hidden before:hover:duration-700 inline-flex items-center justify-center px-4 py-3 text-sm font-semibold text-black bg-white border border-gray-200 rounded-lg shadow-sm gap-x-2 hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none\"\n>\n  Button\n</button>\n\n</body>\n</html>\n"
 }

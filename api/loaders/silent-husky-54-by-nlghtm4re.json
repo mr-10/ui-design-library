@@ -5,8 +5,8 @@
  "author": "NlghtM4re",
  "source": "https://uiverse.io/NlghtM4re/silent-husky-54",
  "trigger": "auto-loop",
- "description": "A loader with green, progress and progress-bar styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Green loader with growing and shrinking motion in a loop.",
+ "howItWorks": "It loops a 3.5s animation (growing and shrinking).",
  "tags": [
   "green",
   "progress",
@@ -15,7 +15,14 @@
   "shadow",
   "download"
  ],
- "html": "<div class=\"container\">\n  <div class=\"loader\"></div>\n</div>",
- "css": "/* From Uiverse.io by NlghtM4re - Tags: green, progress, progress bar, loader, shadow, download, neon, bars */\n.loader {\n  width: 60%;\n  height: 10px;\n  border-radius: 2px;\n  background-color: rgba(0, 0, 0, 0.2);\n  position: absolute;\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  background-color: rgb(9, 188, 9);\n  width: 0%;\n  height: 100%;\n  border-radius: 2px;\n  animation: load 3.5s ease-in-out infinite;\n  box-shadow: rgb(9, 188, 9) 0px 2px 29px 0px;\n}\n\n.container {\n  display: flex;\n  justify-content: center;\n}\n\n@keyframes load {\n  50% {\n    width: 100%;\n  }\n\n  100% {\n    right: 0;\n    left: unset;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Husky 54</title>\n<style>\n/* From Uiverse.io by NlghtM4re - https://uiverse.io/NlghtM4re/silent-husky-54 */\n/* From Uiverse.io by NlghtM4re - Tags: green, progress, progress bar, loader, shadow, download, neon, bars */\n.loader {\n  width: 60%;\n  height: 10px;\n  border-radius: 2px;\n  background-color: rgba(0, 0, 0, 0.2);\n  position: absolute;\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  background-color: rgb(9, 188, 9);\n  width: 0%;\n  height: 100%;\n  border-radius: 2px;\n  animation: load 3.5s ease-in-out infinite;\n  box-shadow: rgb(9, 188, 9) 0px 2px 29px 0px;\n}\n\n.container {\n  display: flex;\n  justify-content: center;\n}\n\n@keyframes load {\n  50% {\n    width: 100%;\n  }\n\n  100% {\n    right: 0;\n    left: unset;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <div class=\"loader\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#09bc09",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 218,
+ "size": 876,
+ "html": "<div class=\"container\">\n  <div class=\"loader\"></div>\n</div>\n",
+ "css": "/* Silent Husky 54 by NlghtM4re — https://uiverse.io/NlghtM4re/silent-husky-54 */\n.loader {\n  width: 60%;\n  height: 10px;\n  border-radius: 2px;\n  background-color: rgba(0, 0, 0, 0.2);\n  position: absolute;\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  background-color: rgb(9, 188, 9);\n  width: 0%;\n  height: 100%;\n  border-radius: 2px;\n  animation: load 3.5s ease-in-out infinite;\n  box-shadow: rgb(9, 188, 9) 0px 2px 29px 0px;\n}\n\n.container {\n  display: flex;\n  justify-content: center;\n}\n\n@keyframes load {\n  50% {\n    width: 100%;\n  }\n\n  100% {\n    right: 0;\n    left: unset;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Husky 54</title>\n<style>\n/* Silent Husky 54 by NlghtM4re — https://uiverse.io/NlghtM4re/silent-husky-54 */\n.loader {\n  width: 60%;\n  height: 10px;\n  border-radius: 2px;\n  background-color: rgba(0, 0, 0, 0.2);\n  position: absolute;\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  background-color: rgb(9, 188, 9);\n  width: 0%;\n  height: 100%;\n  border-radius: 2px;\n  animation: load 3.5s ease-in-out infinite;\n  box-shadow: rgb(9, 188, 9) 0px 2px 29px 0px;\n}\n\n.container {\n  display: flex;\n  justify-content: center;\n}\n\n@keyframes load {\n  50% {\n    width: 100%;\n  }\n\n  100% {\n    right: 0;\n    left: unset;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <div class=\"loader\"></div>\n</div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,25 @@
  "author": "KhaledMatalkah",
  "source": "https://uiverse.io/KhaledMatalkah/tough-rat-6",
  "trigger": "hover",
- "description": "A button with gradients styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded sky-blue button that lifts and glows on hover.",
+ "howItWorks": "On hover, left becomes 0, right becomes 0, transform becomes translateY(-2px).",
  "tags": [
-  "button",
-  "gradients",
-  "hover"
+  "blue",
+  "fuchsia",
+  "gradient",
+  "rounded",
+  "lift",
+  "glow"
  ],
- "html": "<button class=\"button\">\n  Button\n</button>",
- "css": "/* From Uiverse.io by KhaledMatalkah - Tags: button, gradients */\n.button {\n  display: inline-block;\n  padding: 15px 32px;\n  font-size: 17px;\n  font-weight: bold;\n  color: rgb(0, 0, 0);\n  background-color: rgb(255, 255, 255);\n  border: none;\n  border-radius: 50px;\n  text-align: center;\n  text-decoration: none;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.button:before,\n.button:after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: 50px;\n  opacity: 0.3;\n  pointer-events: none;\n  transition: all 0.3s ease-in-out;\n}\n\n.button:before {\n  left: -100%;\n  background: linear-gradient(90deg, rgba(0, 136, 255, 0.8), rgba(255, 0, 170, 0.8), rgba(0, 136, 255, 0.8));\n  z-index: -1;\n}\n\n.button:hover:before {\n  left: 0;\n}\n\n.button:after {\n  right: -100%;\n  background: linear-gradient(270deg, rgba(0, 136, 255, 0.8), rgba(255, 0, 170, 0.8), rgba(0, 136, 255, 0.8));\n  z-index: -1;\n}\n\n.button:hover:after {\n  right: 0;\n}\n\n.button:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n}\n\n.button:active {\n  transform: translateY(1px);\n  box-shadow: none;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Rat 6</title>\n<style>\n/* From Uiverse.io by KhaledMatalkah - https://uiverse.io/KhaledMatalkah/tough-rat-6 */\n/* From Uiverse.io by KhaledMatalkah - Tags: button, gradients */\n.button {\n  display: inline-block;\n  padding: 15px 32px;\n  font-size: 17px;\n  font-weight: bold;\n  color: rgb(0, 0, 0);\n  background-color: rgb(255, 255, 255);\n  border: none;\n  border-radius: 50px;\n  text-align: center;\n  text-decoration: none;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.button:before,\n.button:after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: 50px;\n  opacity: 0.3;\n  pointer-events: none;\n  transition: all 0.3s ease-in-out;\n}\n\n.button:before {\n  left: -100%;\n  background: linear-gradient(90deg, rgba(0, 136, 255, 0.8), rgba(255, 0, 170, 0.8), rgba(0, 136, 255, 0.8));\n  z-index: -1;\n}\n\n.button:hover:before {\n  left: 0;\n}\n\n.button:after {\n  right: -100%;\n  background: linear-gradient(270deg, rgba(0, 136, 255, 0.8), rgba(255, 0, 170, 0.8), rgba(0, 136, 255, 0.8));\n  z-index: -1;\n}\n\n.button:hover:after {\n  right: 0;\n}\n\n.button:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n}\n\n.button:active {\n  transform: translateY(1px);\n  box-shadow: none;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#0088ff",
+  "#ff00aa",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 358,
+ "size": 1433,
+ "html": "<button class=\"button\">\n  Button\n</button>\n",
+ "css": "/* Tough Rat 6 by KhaledMatalkah — https://uiverse.io/KhaledMatalkah/tough-rat-6 */\n.button {\n  display: inline-block;\n  padding: 15px 32px;\n  font-size: 17px;\n  font-weight: bold;\n  color: rgb(0, 0, 0);\n  background-color: rgb(255, 255, 255);\n  border: none;\n  border-radius: 50px;\n  text-align: center;\n  text-decoration: none;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.button:before,\n.button:after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: 50px;\n  opacity: 0.3;\n  pointer-events: none;\n  transition: all 0.3s ease-in-out;\n}\n\n.button:before {\n  left: -100%;\n  background: linear-gradient(90deg, rgba(0, 136, 255, 0.8), rgba(255, 0, 170, 0.8), rgba(0, 136, 255, 0.8));\n  z-index: -1;\n}\n\n.button:hover:before {\n  left: 0;\n}\n\n.button:after {\n  right: -100%;\n  background: linear-gradient(270deg, rgba(0, 136, 255, 0.8), rgba(255, 0, 170, 0.8), rgba(0, 136, 255, 0.8));\n  z-index: -1;\n}\n\n.button:hover:after {\n  right: 0;\n}\n\n.button:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n}\n\n.button:active {\n  transform: translateY(1px);\n  box-shadow: none;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Rat 6</title>\n<style>\n/* Tough Rat 6 by KhaledMatalkah — https://uiverse.io/KhaledMatalkah/tough-rat-6 */\n.button {\n  display: inline-block;\n  padding: 15px 32px;\n  font-size: 17px;\n  font-weight: bold;\n  color: rgb(0, 0, 0);\n  background-color: rgb(255, 255, 255);\n  border: none;\n  border-radius: 50px;\n  text-align: center;\n  text-decoration: none;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.button:before,\n.button:after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: 50px;\n  opacity: 0.3;\n  pointer-events: none;\n  transition: all 0.3s ease-in-out;\n}\n\n.button:before {\n  left: -100%;\n  background: linear-gradient(90deg, rgba(0, 136, 255, 0.8), rgba(255, 0, 170, 0.8), rgba(0, 136, 255, 0.8));\n  z-index: -1;\n}\n\n.button:hover:before {\n  left: 0;\n}\n\n.button:after {\n  right: -100%;\n  background: linear-gradient(270deg, rgba(0, 136, 255, 0.8), rgba(255, 0, 170, 0.8), rgba(0, 136, 255, 0.8));\n  z-index: -1;\n}\n\n.button:hover:after {\n  right: 0;\n}\n\n.button:hover {\n  transform: translateY(-2px);\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n}\n\n.button:active {\n  transform: translateY(1px);\n  box-shadow: none;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

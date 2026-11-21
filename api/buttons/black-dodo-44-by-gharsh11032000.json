@@ -5,15 +5,27 @@
  "author": "gharsh11032000",
  "source": "https://uiverse.io/gharsh11032000/black-dodo-44",
  "trigger": "hover",
- "description": "A button with border and hover-effect styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark rounded blue button that reacts on hover.",
+ "howItWorks": "On hover, border-color becomes #646cff. On focus, outline becomes 4px auto -webkit-focus-ring-color.",
  "tags": [
+  "blue",
+  "dark",
+  "rounded",
+  "flat",
   "button",
-  "border",
-  "hover-effect",
-  "hover"
+  "border"
  ],
- "html": "<button class=\"button\">\n  Vite Button\n</button>",
- "css": "/* From Uiverse.io by gharsh11032000 - Tags: button, border, hover effect */\n.button {\n  border-radius: 8px;\n  border: 1px solid transparent;\n  padding: 0.6em 1.2em;\n  font-size: 1em;\n  font-weight: 500;\n  font-family: inherit;\n  background-color: #1a1a1a;\n  cursor: pointer;\n  color: white;\n  transition: border-color 0.25s;\n}\n\n.button:hover {\n  border-color: #646cff;\n}\n\n.button:focus,\n.button:focus-visible {\n  outline: 4px auto -webkit-focus-ring-color;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Black Dodo 44</title>\n<style>\n/* From Uiverse.io by gharsh11032000 - https://uiverse.io/gharsh11032000/black-dodo-44 */\n/* From Uiverse.io by gharsh11032000 - Tags: button, border, hover effect */\n.button {\n  border-radius: 8px;\n  border: 1px solid transparent;\n  padding: 0.6em 1.2em;\n  font-size: 1em;\n  font-weight: 500;\n  font-family: inherit;\n  background-color: #1a1a1a;\n  cursor: pointer;\n  color: white;\n  transition: border-color 0.25s;\n}\n\n.button:hover {\n  border-color: #646cff;\n}\n\n.button:focus,\n.button:focus-visible {\n  outline: 4px auto -webkit-focus-ring-color;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Vite Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#1a1a1a",
+  "#646cff",
+  "#ffffff"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 183,
+ "size": 733,
+ "html": "<button class=\"button\">\n  Vite Button\n</button>\n",
+ "css": "/* Black Dodo 44 by gharsh11032000 — https://uiverse.io/gharsh11032000/black-dodo-44 */\n.button {\n  border-radius: 8px;\n  border: 1px solid transparent;\n  padding: 0.6em 1.2em;\n  font-size: 1em;\n  font-weight: 500;\n  font-family: inherit;\n  background-color: #1a1a1a;\n  cursor: pointer;\n  color: white;\n  transition: border-color 0.25s;\n}\n\n.button:hover {\n  border-color: #646cff;\n}\n\n.button:focus,\n.button:focus-visible {\n  outline: 4px auto -webkit-focus-ring-color;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Black Dodo 44</title>\n<style>\n/* Black Dodo 44 by gharsh11032000 — https://uiverse.io/gharsh11032000/black-dodo-44 */\n.button {\n  border-radius: 8px;\n  border: 1px solid transparent;\n  padding: 0.6em 1.2em;\n  font-size: 1em;\n  font-weight: 500;\n  font-family: inherit;\n  background-color: #1a1a1a;\n  cursor: pointer;\n  color: white;\n  transition: border-color 0.25s;\n}\n\n.button:hover {\n  border-color: #646cff;\n}\n\n.button:focus,\n.button:focus-visible {\n  outline: 4px auto -webkit-focus-ring-color;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Vite Button\n</button>\n\n</body>\n</html>\n"
 }

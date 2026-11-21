@@ -5,15 +5,25 @@
  "author": "vikramsinghnegi",
  "source": "https://uiverse.io/vikramsinghnegi/fast-parrot-71",
  "trigger": "auto-loop",
- "description": "A loader with svg and ice-cream styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Neon gradient rounded orange loader with shimmering motion in a loop.",
+ "howItWorks": "It loops a 2s animation (shimmering).",
  "tags": [
-  "loader",
-  "svg",
-  "ice-cream",
-  "auto-loop"
+  "orange",
+  "neon",
+  "gradient",
+  "rounded",
+  "shimmer",
+  "loader"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by vikramsinghnegi  - Tags: loader, svg, ice cream */\n.loader {\n  height: 150px;\n  width: 100px;\n  border-radius: 55px 55px 10px 10px;\n  position: relative;\n  background: #f0744f;\n\n  background-image: linear-gradient(\n    0deg,\n    #f63a99 25%,\n    #30dcf6 20%,\n    #30dcf6 20%,\n    #668c92 50%,\n    #85782a 40%,\n    #f2d200 50%,\n    #f2d200 75%,\n    #70ca5c 75%\n  );\n  background-position: 0px 0px;\n  background-size: auto 175px;\n  background-repeat: repeat-y;\n  animation: colorShift 2s linear infinite;\n}\n.loader:before {\n  content: \"\";\n  position: absolute;\n  left: 10px;\n  bottom: 15px;\n  width: 15px;\n  height: 100px;\n  border-radius: 50px;\n  background: rgba(255, 255, 255, 0.5);\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  top: 100%;\n  transform: translate(-50%, 0);\n  box-shadow: 0 15px 2px rgba(0, 0, 0, 0.25) inset;\n  width: 32px;\n  height: 45px;\n  background: #534b44;\n  border-radius: 0 0 12px 12px;\n}\n\n@keyframes colorShift {\n  to {\n    background-position: 0 175px;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fast Parrot 71</title>\n<style>\n/* From Uiverse.io by vikramsinghnegi - https://uiverse.io/vikramsinghnegi/fast-parrot-71 */\n/* From Uiverse.io by vikramsinghnegi  - Tags: loader, svg, ice cream */\n.loader {\n  height: 150px;\n  width: 100px;\n  border-radius: 55px 55px 10px 10px;\n  position: relative;\n  background: #f0744f;\n\n  background-image: linear-gradient(\n    0deg,\n    #f63a99 25%,\n    #30dcf6 20%,\n    #30dcf6 20%,\n    #668c92 50%,\n    #85782a 40%,\n    #f2d200 50%,\n    #f2d200 75%,\n    #70ca5c 75%\n  );\n  background-position: 0px 0px;\n  background-size: auto 175px;\n  background-repeat: repeat-y;\n  animation: colorShift 2s linear infinite;\n}\n.loader:before {\n  content: \"\";\n  position: absolute;\n  left: 10px;\n  bottom: 15px;\n  width: 15px;\n  height: 100px;\n  border-radius: 50px;\n  background: rgba(255, 255, 255, 0.5);\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  top: 100%;\n  transform: translate(-50%, 0);\n  box-shadow: 0 15px 2px rgba(0, 0, 0, 0.25) inset;\n  width: 32px;\n  height: 45px;\n  background: #534b44;\n  border-radius: 0 0 12px 12px;\n}\n\n@keyframes colorShift {\n  to {\n    background-position: 0 175px;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#f0744f",
+  "#534b44",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 323,
+ "size": 1294,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Fast Parrot 71 by vikramsinghnegi — https://uiverse.io/vikramsinghnegi/fast-parrot-71 */\n.loader {\n  height: 150px;\n  width: 100px;\n  border-radius: 55px 55px 10px 10px;\n  position: relative;\n  background: #f0744f;\n\n  background-image: linear-gradient(\n    0deg,\n    #f63a99 25%,\n    #30dcf6 20%,\n    #30dcf6 20%,\n    #668c92 50%,\n    #85782a 40%,\n    #f2d200 50%,\n    #f2d200 75%,\n    #70ca5c 75%\n  );\n  background-position: 0px 0px;\n  background-size: auto 175px;\n  background-repeat: repeat-y;\n  animation: colorShift 2s linear infinite;\n}\n.loader:before {\n  content: \"\";\n  position: absolute;\n  left: 10px;\n  bottom: 15px;\n  width: 15px;\n  height: 100px;\n  border-radius: 50px;\n  background: rgba(255, 255, 255, 0.5);\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  top: 100%;\n  transform: translate(-50%, 0);\n  box-shadow: 0 15px 2px rgba(0, 0, 0, 0.25) inset;\n  width: 32px;\n  height: 45px;\n  background: #534b44;\n  border-radius: 0 0 12px 12px;\n}\n\n@keyframes colorShift {\n  to {\n    background-position: 0 175px;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fast Parrot 71</title>\n<style>\n/* Fast Parrot 71 by vikramsinghnegi — https://uiverse.io/vikramsinghnegi/fast-parrot-71 */\n.loader {\n  height: 150px;\n  width: 100px;\n  border-radius: 55px 55px 10px 10px;\n  position: relative;\n  background: #f0744f;\n\n  background-image: linear-gradient(\n    0deg,\n    #f63a99 25%,\n    #30dcf6 20%,\n    #30dcf6 20%,\n    #668c92 50%,\n    #85782a 40%,\n    #f2d200 50%,\n    #f2d200 75%,\n    #70ca5c 75%\n  );\n  background-position: 0px 0px;\n  background-size: auto 175px;\n  background-repeat: repeat-y;\n  animation: colorShift 2s linear infinite;\n}\n.loader:before {\n  content: \"\";\n  position: absolute;\n  left: 10px;\n  bottom: 15px;\n  width: 15px;\n  height: 100px;\n  border-radius: 50px;\n  background: rgba(255, 255, 255, 0.5);\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  left: 50%;\n  top: 100%;\n  transform: translate(-50%, 0);\n  box-shadow: 0 15px 2px rgba(0, 0, 0, 0.25) inset;\n  width: 32px;\n  height: 45px;\n  background: #534b44;\n  border-radius: 0 0 12px 12px;\n}\n\n@keyframes colorShift {\n  to {\n    background-position: 0 175px;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

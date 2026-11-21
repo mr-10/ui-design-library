@@ -5,14 +5,24 @@
  "author": "mrhyddenn",
  "source": "https://uiverse.io/mrhyddenn/massive-newt-28",
  "trigger": "auto-loop",
- "description": "A loader with spinner styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined pill white loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1.2s animation (rotating).",
  "tags": [
-  "loader",
-  "spinner",
-  "auto-loop"
+  "outlined",
+  "rounded",
+  "pill",
+  "flat",
+  "spin",
+  "loader"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by mrhyddenn - Tags: loader, spinner */\n.loader {\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  border: 3px solid rgb(255,255,255,.2);\n  border-top-color: transparent;\n  animation: rot1 1.2s linear infinite;\n}\n\n@keyframes rot1 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Massive Newt 28</title>\n<style>\n/* From Uiverse.io by mrhyddenn - https://uiverse.io/mrhyddenn/massive-newt-28 */\n/* From Uiverse.io by mrhyddenn - Tags: loader, spinner */\n.loader {\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  border: 3px solid rgb(255,255,255,.2);\n  border-top-color: transparent;\n  animation: rot1 1.2s linear infinite;\n}\n\n@keyframes rot1 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 141,
+ "size": 567,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Massive Newt 28 by mrhyddenn — https://uiverse.io/mrhyddenn/massive-newt-28 */\n.loader {\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  border: 3px solid rgb(255,255,255,.2);\n  border-top-color: transparent;\n  animation: rot1 1.2s linear infinite;\n}\n\n@keyframes rot1 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Massive Newt 28</title>\n<style>\n/* Massive Newt 28 by mrhyddenn — https://uiverse.io/mrhyddenn/massive-newt-28 */\n.loader {\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  border: 3px solid rgb(255,255,255,.2);\n  border-top-color: transparent;\n  animation: rot1 1.2s linear infinite;\n}\n\n@keyframes rot1 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

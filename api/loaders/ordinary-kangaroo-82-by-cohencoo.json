@@ -5,16 +5,24 @@
  "author": "cohencoo",
  "source": "https://uiverse.io/cohencoo/ordinary-kangaroo-82",
  "trigger": "auto-loop",
- "description": "A loader with loading, download and downloading styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined rounded amber loader with animating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (animating).",
  "tags": [
+  "amber",
+  "outlined",
+  "rounded",
+  "flat",
   "loading",
-  "loader",
-  "download",
-  "downloading",
-  "auto-loop"
+  "loader"
  ],
- "html": "<div class=\"custom-loader\"></div>",
- "css": "/* From Uiverse.io by cohencoo - Tags: loading, loader, download, downloading */\n.custom-loader {\n  width: 120px;\n  height: 22px;\n  border-radius: 20px;\n  color: #F4BF00;\n  border: 2px solid;\n  position: relative;\n}\n\n.custom-loader::before {\n  content: \"\";\n  position: absolute;\n  margin: 2px;\n  inset: 0 100% 0 0;\n  border-radius: inherit;\n  background: #F4BF00;\n  animation: p6 2s infinite;\n}\n\n@keyframes p6 {\n  100% {\n    inset: 0\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ordinary Kangaroo 82</title>\n<style>\n/* From Uiverse.io by cohencoo - https://uiverse.io/cohencoo/ordinary-kangaroo-82 */\n/* From Uiverse.io by cohencoo - Tags: loading, loader, download, downloading */\n.custom-loader {\n  width: 120px;\n  height: 22px;\n  border-radius: 20px;\n  color: #F4BF00;\n  border: 2px solid;\n  position: relative;\n}\n\n.custom-loader::before {\n  content: \"\";\n  position: absolute;\n  margin: 2px;\n  inset: 0 100% 0 0;\n  border-radius: inherit;\n  background: #F4BF00;\n  animation: p6 2s infinite;\n}\n\n@keyframes p6 {\n  100% {\n    inset: 0\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"custom-loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#f4bf00",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 176,
+ "size": 704,
+ "html": "<div class=\"custom-loader\"></div>\n",
+ "css": "/* Ordinary Kangaroo 82 by cohencoo — https://uiverse.io/cohencoo/ordinary-kangaroo-82 */\n.custom-loader {\n  width: 120px;\n  height: 22px;\n  border-radius: 20px;\n  color: #F4BF00;\n  border: 2px solid;\n  position: relative;\n}\n\n.custom-loader::before {\n  content: \"\";\n  position: absolute;\n  margin: 2px;\n  inset: 0 100% 0 0;\n  border-radius: inherit;\n  background: #F4BF00;\n  animation: p6 2s infinite;\n}\n\n@keyframes p6 {\n  100% {\n    inset: 0\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ordinary Kangaroo 82</title>\n<style>\n/* Ordinary Kangaroo 82 by cohencoo — https://uiverse.io/cohencoo/ordinary-kangaroo-82 */\n.custom-loader {\n  width: 120px;\n  height: 22px;\n  border-radius: 20px;\n  color: #F4BF00;\n  border: 2px solid;\n  position: relative;\n}\n\n.custom-loader::before {\n  content: \"\";\n  position: absolute;\n  margin: 2px;\n  inset: 0 100% 0 0;\n  border-radius: inherit;\n  background: #F4BF00;\n  animation: p6 2s infinite;\n}\n\n@keyframes p6 {\n  100% {\n    inset: 0\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"custom-loader\"></div>\n\n</body>\n</html>\n"
 }

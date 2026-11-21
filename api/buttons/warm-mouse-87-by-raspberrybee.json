@@ -5,15 +5,25 @@
  "author": "RaspberryBee",
  "source": "https://uiverse.io/RaspberryBee/warm-mouse-87",
  "trigger": "hover",
- "description": "A button with send and rounded styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded sky-blue send button that scales up on hover.",
+ "howItWorks": "On hover, transform becomes scale(1.05) rotate(3deg).",
  "tags": [
-  "send",
-  "button",
+  "blue",
   "rounded",
-  "hover"
+  "flat",
+  "scale",
+  "rotate",
+  "pulse"
  ],
- "html": "<button class=\"button\">\n  Send\n</button>",
- "css": "/* From Uiverse.io by RaspberryBee - Tags: send, button, rounded */\n.button {\n  height: 2em;\n  width: 5em;\n  border-radius: 1em;\n  border: 0.1rem solid transparent;\n  background-color: rgb(64, 146, 239);\n  transition: 0.3s;\n  font-size: 1em;\n}\n\n.button:hover {\n  cursor: pointer;\n  transform: scale(1.05) rotate(3deg);\n}\n\n.button:active {\n  animation: borderMove 0.5s forwards;\n  transform: scale(0.9) rotate(-3deg);\n  background-color: rgb(0, 0, 0);\n  color: rgb(64, 146, 239);\n  border: 0.1rem solid rgb(38, 103, 224);\n}\n\n@keyframes borderMove {\n  0% {\n    border-width: 0.1rem;\n    transform: scale(1) rotate(0deg);\n  }\n\n  50% {\n    border-width: 0.4rem;\n    transform: scale(0.9) rotate(-3deg);\n  }\n\n  100% {\n    border-width: 0.15rem;\n    transform: scale(1) rotate(0deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Mouse 87</title>\n<style>\n/* From Uiverse.io by RaspberryBee - https://uiverse.io/RaspberryBee/warm-mouse-87 */\n/* From Uiverse.io by RaspberryBee - Tags: send, button, rounded */\n.button {\n  height: 2em;\n  width: 5em;\n  border-radius: 1em;\n  border: 0.1rem solid transparent;\n  background-color: rgb(64, 146, 239);\n  transition: 0.3s;\n  font-size: 1em;\n}\n\n.button:hover {\n  cursor: pointer;\n  transform: scale(1.05) rotate(3deg);\n}\n\n.button:active {\n  animation: borderMove 0.5s forwards;\n  transform: scale(0.9) rotate(-3deg);\n  background-color: rgb(0, 0, 0);\n  color: rgb(64, 146, 239);\n  border: 0.1rem solid rgb(38, 103, 224);\n}\n\n@keyframes borderMove {\n  0% {\n    border-width: 0.1rem;\n    transform: scale(1) rotate(0deg);\n  }\n\n  50% {\n    border-width: 0.4rem;\n    transform: scale(0.9) rotate(-3deg);\n  }\n\n  100% {\n    border-width: 0.15rem;\n    transform: scale(1) rotate(0deg);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Send\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#4092ef",
+  "#2667e0",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 263,
+ "size": 1055,
+ "html": "<button class=\"button\">\n  Send\n</button>\n",
+ "css": "/* Warm Mouse 87 by RaspberryBee — https://uiverse.io/RaspberryBee/warm-mouse-87 */\n.button {\n  height: 2em;\n  width: 5em;\n  border-radius: 1em;\n  border: 0.1rem solid transparent;\n  background-color: rgb(64, 146, 239);\n  transition: 0.3s;\n  font-size: 1em;\n}\n\n.button:hover {\n  cursor: pointer;\n  transform: scale(1.05) rotate(3deg);\n}\n\n.button:active {\n  animation: borderMove 0.5s forwards;\n  transform: scale(0.9) rotate(-3deg);\n  background-color: rgb(0, 0, 0);\n  color: rgb(64, 146, 239);\n  border: 0.1rem solid rgb(38, 103, 224);\n}\n\n@keyframes borderMove {\n  0% {\n    border-width: 0.1rem;\n    transform: scale(1) rotate(0deg);\n  }\n\n  50% {\n    border-width: 0.4rem;\n    transform: scale(0.9) rotate(-3deg);\n  }\n\n  100% {\n    border-width: 0.15rem;\n    transform: scale(1) rotate(0deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Mouse 87</title>\n<style>\n/* Warm Mouse 87 by RaspberryBee — https://uiverse.io/RaspberryBee/warm-mouse-87 */\n.button {\n  height: 2em;\n  width: 5em;\n  border-radius: 1em;\n  border: 0.1rem solid transparent;\n  background-color: rgb(64, 146, 239);\n  transition: 0.3s;\n  font-size: 1em;\n}\n\n.button:hover {\n  cursor: pointer;\n  transform: scale(1.05) rotate(3deg);\n}\n\n.button:active {\n  animation: borderMove 0.5s forwards;\n  transform: scale(0.9) rotate(-3deg);\n  background-color: rgb(0, 0, 0);\n  color: rgb(64, 146, 239);\n  border: 0.1rem solid rgb(38, 103, 224);\n}\n\n@keyframes borderMove {\n  0% {\n    border-width: 0.1rem;\n    transform: scale(1) rotate(0deg);\n  }\n\n  50% {\n    border-width: 0.4rem;\n    transform: scale(0.9) rotate(-3deg);\n  }\n\n  100% {\n    border-width: 0.15rem;\n    transform: scale(1) rotate(0deg);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Send\n</button>\n\n</body>\n</html>\n"
 }

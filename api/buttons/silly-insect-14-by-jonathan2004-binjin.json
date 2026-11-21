@@ -5,14 +5,26 @@
  "author": "Jonathan2004-binjin",
  "source": "https://uiverse.io/Jonathan2004-binjin/silly-insect-14",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded white button that changes colour on hover.",
+ "howItWorks": "On hover, background-color changes from #ffffff to #f9fafb. On focus, outline becomes 2px solid #000000, box-shadow becomes none.",
  "tags": [
+  "rounded",
+  "color-change",
   "button",
   "hover",
   "css"
  ],
- "html": "<button class=\"button\">Get in touch</button>",
- "css": "/* From Uiverse.io by Jonathan2004-binjin  - Tags: button */\nbutton {\n  background-color: #ffffff;\n  border: 1px solid rgb(209, 213, 219);\n  border-radius: 0.5rem;\n  color: #111827;\n  font-family: ui-sans-serif, system-ui, -apple-system, system-ui, \"Segoe UI\",\n    Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif,\n    \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-size: 0.875rem;\n  font-weight: 600;\n  line-height: 1.25rem;\n  padding: 0.75rem 1rem;\n  text-align: center;\n  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n  cursor: pointer;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-user-select: none;\n  -ms-touch-action: manipulation;\n  touch-action: manipulation;\n}\n\nbutton:hover {\n  background-color: #f9fafb;\n}\n\nbutton:focus {\n  outline: 2px solid rgba(0, 0, 0, 0.1);\n  outline-offset: 2px;\n}\n\nbutton:focus-visible {\n  -webkit-box-shadow: none;\n  box-shadow: none;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silly Insect 14</title>\n<style>\n/* From Uiverse.io by Jonathan2004-binjin - https://uiverse.io/Jonathan2004-binjin/silly-insect-14 */\n/* From Uiverse.io by Jonathan2004-binjin  - Tags: button */\nbutton {\n  background-color: #ffffff;\n  border: 1px solid rgb(209, 213, 219);\n  border-radius: 0.5rem;\n  color: #111827;\n  font-family: ui-sans-serif, system-ui, -apple-system, system-ui, \"Segoe UI\",\n    Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif,\n    \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-size: 0.875rem;\n  font-weight: 600;\n  line-height: 1.25rem;\n  padding: 0.75rem 1rem;\n  text-align: center;\n  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n  cursor: pointer;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-user-select: none;\n  -ms-touch-action: manipulation;\n  touch-action: manipulation;\n}\n\nbutton:hover {\n  background-color: #f9fafb;\n}\n\nbutton:focus {\n  outline: 2px solid rgba(0, 0, 0, 0.1);\n  outline-offset: 2px;\n}\n\nbutton:focus-visible {\n  -webkit-box-shadow: none;\n  box-shadow: none;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Get in touch</button>\n</body>\n</html>\n"
+ "colors": [
+  "#d1d5db",
+  "#111827",
+  "#f9fafb"
+ ],
+ "fonts": [
+  "ui-sans-serif"
+ ],
+ "tokens": 328,
+ "size": 1312,
+ "html": "<button class=\"button\">Get in touch</button>\n",
+ "css": "/* Silly Insect 14 by Jonathan2004-binjin — https://uiverse.io/Jonathan2004-binjin/silly-insect-14 */\nbutton {\n  background-color: #ffffff;\n  border: 1px solid rgb(209, 213, 219);\n  border-radius: 0.5rem;\n  color: #111827;\n  font-family: ui-sans-serif, system-ui, -apple-system, system-ui, \"Segoe UI\",\n    Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif,\n    \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-size: 0.875rem;\n  font-weight: 600;\n  line-height: 1.25rem;\n  padding: 0.75rem 1rem;\n  text-align: center;\n  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n  cursor: pointer;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-user-select: none;\n  -ms-touch-action: manipulation;\n  touch-action: manipulation;\n}\n\nbutton:hover {\n  background-color: #f9fafb;\n}\n\nbutton:focus {\n  outline: 2px solid rgba(0, 0, 0, 0.1);\n  outline-offset: 2px;\n}\n\nbutton:focus-visible {\n  -webkit-box-shadow: none;\n  box-shadow: none;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silly Insect 14</title>\n<style>\n/* Silly Insect 14 by Jonathan2004-binjin — https://uiverse.io/Jonathan2004-binjin/silly-insect-14 */\nbutton {\n  background-color: #ffffff;\n  border: 1px solid rgb(209, 213, 219);\n  border-radius: 0.5rem;\n  color: #111827;\n  font-family: ui-sans-serif, system-ui, -apple-system, system-ui, \"Segoe UI\",\n    Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif,\n    \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-size: 0.875rem;\n  font-weight: 600;\n  line-height: 1.25rem;\n  padding: 0.75rem 1rem;\n  text-align: center;\n  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);\n  cursor: pointer;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-user-select: none;\n  -ms-touch-action: manipulation;\n  touch-action: manipulation;\n}\n\nbutton:hover {\n  background-color: #f9fafb;\n}\n\nbutton:focus {\n  outline: 2px solid rgba(0, 0, 0, 0.1);\n  outline-offset: 2px;\n}\n\nbutton:focus-visible {\n  -webkit-box-shadow: none;\n  box-shadow: none;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Get in touch</button>\n\n</body>\n</html>\n"
 }

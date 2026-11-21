@@ -4,15 +4,23 @@
  "category": "buttons",
  "author": "ItsEnigma143",
  "source": "https://uiverse.io/ItsEnigma143/silent-donkey-68",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Cyan button that scales up on hover with a smooth transition.",
+ "howItWorks": "On hover, it scales.",
  "tags": [
+  "cyan",
+  "scale",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by ItsEnigma143  - Tags: simple, button, hover, active, click, buttons, tailwind, 2d button -->\n<div class=\"w-[150px] h-[50px]\">\n  <button\n    class=\"w-[140px] h-[40px] shadow-2xl bg-sky-600 outline outline-offset-2 outline-1 outline-sky-600 hover:scale-[1.03] hover:outline-none duration-300 active:scale-[0.99]\"\n  >\n    <a class=\"font-bold\" href=\"#\">Button</a>\n  </button>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Donkey 68</title>\n<style>\n/* From Uiverse.io by ItsEnigma143 - https://uiverse.io/ItsEnigma143/silent-donkey-68 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by ItsEnigma143  - Tags: simple, button, hover, active, click, buttons, tailwind, 2d button -->\n<div class=\"w-[150px] h-[50px]\">\n  <button\n    class=\"w-[140px] h-[40px] shadow-2xl bg-sky-600 outline outline-offset-2 outline-1 outline-sky-600 hover:scale-[1.03] hover:outline-none duration-300 active:scale-[0.99]\"\n  >\n    <a class=\"font-bold\" href=\"#\">Button</a>\n  </button>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#0284c7",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 148,
+ "size": 594,
+ "html": "<div class=\"w-[150px] h-[50px]\">\n  <button\n    class=\"w-[140px] h-[40px] shadow-2xl bg-sky-600 outline outline-offset-2 outline-1 outline-sky-600 hover:scale-[1.03] hover:outline-none duration-300 active:scale-[0.99]\"\n  >\n    <a class=\"font-bold\" href=\"#\">Button</a>\n  </button>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Donkey 68</title>\n<style>\n/* Silent Donkey 68 by ItsEnigma143 — https://uiverse.io/ItsEnigma143/silent-donkey-68 */\n\n</style>\n</head>\n<body>\n<div class=\"w-[150px] h-[50px]\">\n  <button\n    class=\"w-[140px] h-[40px] shadow-2xl bg-sky-600 outline outline-offset-2 outline-1 outline-sky-600 hover:scale-[1.03] hover:outline-none duration-300 active:scale-[0.99]\"\n  >\n    <a class=\"font-bold\" href=\"#\">Button</a>\n  </button>\n</div>\n\n</body>\n</html>\n"
 }

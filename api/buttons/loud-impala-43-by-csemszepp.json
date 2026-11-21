@@ -5,15 +5,27 @@
  "author": "csemszepp",
  "source": "https://uiverse.io/csemszepp/loud-impala-43",
  "trigger": "hover",
- "description": "A button with neon and lights styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Neon rounded amber button that reacts on hover.",
+ "howItWorks": "On hover, filter becomes brightness(120%) drop-shadow(0 0 10px #fda802).",
  "tags": [
-  "button",
+  "amber",
   "neon",
-  "lights",
-  "hover"
+  "outlined",
+  "rounded",
+  "button",
+  "lights"
  ],
- "html": "<div class=\"gas ne\">\n  <span class=\"number\">10</span>\n  <div class=\"symbol\">Ne</div>\n  <p class=\"name\">Neon</p>\n</div>",
- "css": "/* From Uiverse.io by csemszepp  - Website: https://codepen.io/CITguy/pen/yLaZZbO - Name: Ryan Johnson - Tags: button, neon, lights */\n#gasses {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n}\n\n.gas {\n  --blur: 1.75rem;\n  --box-blur: calc(0.5 * var(--blur));\n  --glow: var(--color);\n  --size: 12rem;\n\n  align-items: center;\n  border-radius: 12px;\n  border: 4px solid currentColor;\n  box-shadow: \n    /* --- \"glass\" tube --- */\n    /* inside */ inset 0 0 0 2px\n      rgba(0, 0, 0, 0.15),\n    /* outside */ 0 0 0 2px rgba(0, 0, 0, 0.15),\n    /* --- glow --- */ /* inside */ inset 0 0 var(--box-blur) var(--glow),\n    /* outside */ 0 0 var(--box-blur) var(--glow);\n  color: var(--color, white);\n  display: inline-flex;\n  flex-direction: column;\n  font-family: system-ui, sans-serif;\n  height: var(--size);\n  justify-content: space-around;\n  padding: 1rem;\n  width: var(--size);\n}\n.gas.number {\n  font-weight: 700;\n}\n\n.symbol {\n  font-size: 4rem;\n  font-family: \"Neon Glow\";\n  text-shadow: 0 0 var(--blur) var(--glow);\n}\n\n.gas.ne {\n  --color: #fda802;\n  filter: brightness(110%);\n  cursor: pointer;\n}\n.gas.ne:hover {\n  filter: brightness(120%) drop-shadow(0 0 10px var(--glow));\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Impala 43</title>\n<style>\n/* From Uiverse.io by csemszepp - https://uiverse.io/csemszepp/loud-impala-43 */\n/* From Uiverse.io by csemszepp  - Website: https://codepen.io/CITguy/pen/yLaZZbO - Name: Ryan Johnson - Tags: button, neon, lights */\n#gasses {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n}\n\n.gas {\n  --blur: 1.75rem;\n  --box-blur: calc(0.5 * var(--blur));\n  --glow: var(--color);\n  --size: 12rem;\n\n  align-items: center;\n  border-radius: 12px;\n  border: 4px solid currentColor;\n  box-shadow: \n    /* --- \"glass\" tube --- */\n    /* inside */ inset 0 0 0 2px\n      rgba(0, 0, 0, 0.15),\n    /* outside */ 0 0 0 2px rgba(0, 0, 0, 0.15),\n    /* --- glow --- */ /* inside */ inset 0 0 var(--box-blur) var(--glow),\n    /* outside */ 0 0 var(--box-blur) var(--glow);\n  color: var(--color, white);\n  display: inline-flex;\n  flex-direction: column;\n  font-family: system-ui, sans-serif;\n  height: var(--size);\n  justify-content: space-around;\n  padding: 1rem;\n  width: var(--size);\n}\n.gas.number {\n  font-weight: 700;\n}\n\n.symbol {\n  font-size: 4rem;\n  font-family: \"Neon Glow\";\n  text-shadow: 0 0 var(--blur) var(--glow);\n}\n\n.gas.ne {\n  --color: #fda802;\n  filter: brightness(110%);\n  cursor: pointer;\n}\n.gas.ne:hover {\n  filter: brightness(120%) drop-shadow(0 0 10px var(--glow));\n}\n</style>\n</head>\n<body>\n<div class=\"gas ne\">\n  <span class=\"number\">10</span>\n  <div class=\"symbol\">Ne</div>\n  <p class=\"name\">Neon</p>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#fda802",
+  "#000000"
+ ],
+ "fonts": [
+  "system-ui",
+  "Neon Glow"
+ ],
+ "tokens": 343,
+ "size": 1374,
+ "html": "<div class=\"gas ne\">\n  <span class=\"number\">10</span>\n  <div class=\"symbol\">Ne</div>\n  <p class=\"name\">Neon</p>\n</div>\n",
+ "css": "/* Loud Impala 43 by csemszepp — https://uiverse.io/csemszepp/loud-impala-43 */\n#gasses {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n}\n\n.gas {\n  --blur: 1.75rem;\n  --box-blur: calc(0.5 * var(--blur));\n  --glow: var(--color);\n  --size: 12rem;\n\n  align-items: center;\n  border-radius: 12px;\n  border: 4px solid currentColor;\n  box-shadow:\n\n     inset 0 0 0 2px\n      rgba(0, 0, 0, 0.15),\n     0 0 0 2px rgba(0, 0, 0, 0.15),\n      inset 0 0 var(--box-blur) var(--glow),\n     0 0 var(--box-blur) var(--glow);\n  color: var(--color, white);\n  display: inline-flex;\n  flex-direction: column;\n  font-family: system-ui, sans-serif;\n  height: var(--size);\n  justify-content: space-around;\n  padding: 1rem;\n  width: var(--size);\n}\n.gas.number {\n  font-weight: 700;\n}\n\n.symbol {\n  font-size: 4rem;\n  font-family: \"Neon Glow\";\n  text-shadow: 0 0 var(--blur) var(--glow);\n}\n\n.gas.ne {\n  --color: #fda802;\n  filter: brightness(110%);\n  cursor: pointer;\n}\n.gas.ne:hover {\n  filter: brightness(120%) drop-shadow(0 0 10px var(--glow));\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Impala 43</title>\n<style>\n/* Loud Impala 43 by csemszepp — https://uiverse.io/csemszepp/loud-impala-43 */\n#gasses {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n}\n\n.gas {\n  --blur: 1.75rem;\n  --box-blur: calc(0.5 * var(--blur));\n  --glow: var(--color);\n  --size: 12rem;\n\n  align-items: center;\n  border-radius: 12px;\n  border: 4px solid currentColor;\n  box-shadow:\n\n     inset 0 0 0 2px\n      rgba(0, 0, 0, 0.15),\n     0 0 0 2px rgba(0, 0, 0, 0.15),\n      inset 0 0 var(--box-blur) var(--glow),\n     0 0 var(--box-blur) var(--glow);\n  color: var(--color, white);\n  display: inline-flex;\n  flex-direction: column;\n  font-family: system-ui, sans-serif;\n  height: var(--size);\n  justify-content: space-around;\n  padding: 1rem;\n  width: var(--size);\n}\n.gas.number {\n  font-weight: 700;\n}\n\n.symbol {\n  font-size: 4rem;\n  font-family: \"Neon Glow\";\n  text-shadow: 0 0 var(--blur) var(--glow);\n}\n\n.gas.ne {\n  --color: #fda802;\n  filter: brightness(110%);\n  cursor: pointer;\n}\n.gas.ne:hover {\n  filter: brightness(120%) drop-shadow(0 0 10px var(--glow));\n}\n</style>\n</head>\n<body>\n<div class=\"gas ne\">\n  <span class=\"number\">10</span>\n  <div class=\"symbol\">Ne</div>\n  <p class=\"name\">Neon</p>\n</div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,25 @@
  "author": "ShrinilDhorda",
  "source": "https://uiverse.io/ShrinilDhorda/wicked-lionfish-83",
  "trigger": "hover",
- "description": "A button with reflection styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient dark cyan button that changes colour on hover.",
+ "howItWorks": "On hover, background changes from #0e0e1a to linear-gradient(270deg, #021d4e 0%, #1fd7e8 60%), text color changes from #eaeaea to #040426.",
  "tags": [
+  "cyan",
+  "gradient",
+  "color-change",
   "button",
   "reflection",
   "hover"
  ],
- "html": "<button class=\"btn\">\n  Watch\n</button>",
- "css": "/* From Uiverse.io by ShrinilDhorda - Tags: button, reflection */\n.btn {\n  font-size: 1.2rem;\n  padding: 1rem 2.5rem;\n  border: none;\n  outline: none;\n  border-radius: 0.4rem;\n  cursor: pointer;\n  text-transform: uppercase;\n  background-color: rgb(14, 14, 26);\n  color: rgb(234, 234, 234);\n  font-weight: 700;\n  transition: 0.6s;\n  box-shadow: 0px 0px 60px #1f4c65;\n  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));\n}\n\n.btn:active {\n  scale: 0.92;\n}\n\n.btn:hover {\n  background: rgb(2,29,78);\n  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);\n  color: rgb(4, 4, 38);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wicked Lionfish 83</title>\n<style>\n/* From Uiverse.io by ShrinilDhorda - https://uiverse.io/ShrinilDhorda/wicked-lionfish-83 */\n/* From Uiverse.io by ShrinilDhorda - Tags: button, reflection */\n.btn {\n  font-size: 1.2rem;\n  padding: 1rem 2.5rem;\n  border: none;\n  outline: none;\n  border-radius: 0.4rem;\n  cursor: pointer;\n  text-transform: uppercase;\n  background-color: rgb(14, 14, 26);\n  color: rgb(234, 234, 234);\n  font-weight: 700;\n  transition: 0.6s;\n  box-shadow: 0px 0px 60px #1f4c65;\n  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));\n}\n\n.btn:active {\n  scale: 0.92;\n}\n\n.btn:hover {\n  background: rgb(2,29,78);\n  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);\n  color: rgb(4, 4, 38);\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n  Watch\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#0e0e1a",
+  "#eaeaea",
+  "#1f4c65"
+ ],
+ "fonts": [],
+ "tokens": 237,
+ "size": 949,
+ "html": "<button class=\"btn\">\n  Watch\n</button>\n",
+ "css": "/* Wicked Lionfish 83 by ShrinilDhorda — https://uiverse.io/ShrinilDhorda/wicked-lionfish-83 */\n.btn {\n  font-size: 1.2rem;\n  padding: 1rem 2.5rem;\n  border: none;\n  outline: none;\n  border-radius: 0.4rem;\n  cursor: pointer;\n  text-transform: uppercase;\n  background-color: rgb(14, 14, 26);\n  color: rgb(234, 234, 234);\n  font-weight: 700;\n  transition: 0.6s;\n  box-shadow: 0px 0px 60px #1f4c65;\n  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));\n}\n\n.btn:active {\n  scale: 0.92;\n}\n\n.btn:hover {\n  background: rgb(2,29,78);\n  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);\n  color: rgb(4, 4, 38);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wicked Lionfish 83</title>\n<style>\n/* Wicked Lionfish 83 by ShrinilDhorda — https://uiverse.io/ShrinilDhorda/wicked-lionfish-83 */\n.btn {\n  font-size: 1.2rem;\n  padding: 1rem 2.5rem;\n  border: none;\n  outline: none;\n  border-radius: 0.4rem;\n  cursor: pointer;\n  text-transform: uppercase;\n  background-color: rgb(14, 14, 26);\n  color: rgb(234, 234, 234);\n  font-weight: 700;\n  transition: 0.6s;\n  box-shadow: 0px 0px 60px #1f4c65;\n  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));\n}\n\n.btn:active {\n  scale: 0.92;\n}\n\n.btn:hover {\n  background: rgb(2,29,78);\n  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);\n  color: rgb(4, 4, 38);\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n  Watch\n</button>\n\n</body>\n</html>\n"
 }

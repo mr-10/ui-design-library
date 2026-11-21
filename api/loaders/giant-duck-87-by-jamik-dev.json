@@ -5,17 +5,24 @@
  "author": "jamik-dev",
  "source": "https://uiverse.io/jamik-dev/giant-duck-87",
  "trigger": "auto-loop",
- "description": "A loader with smooth, cube and modern styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Rounded teal cube loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a 1s animation (pulsing).",
  "tags": [
-  "loader",
-  "smooth",
-  "cube",
-  "modern",
-  "animated",
-  "auto-loop"
+  "teal",
+  "rounded",
+  "flat",
+  "pulse",
+  "cube-loader",
+  "loader"
  ],
- "html": "<div class=\"cube\">\n  <div class=\"cube_item cube_x\"></div>\n  <div class=\"cube_item cube_y\"></div>\n  <div class=\"cube_item cube_y\"></div>\n  <div class=\"cube_item cube_x\"></div>\n</div>",
- "css": "/* From Uiverse.io by jamik-dev  - Tags: loader, smooth, cube, modern, animated */\n.cube {\n  height: 80px;\n  width: 80px;\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 6px;\n}\n\n.cube_item {\n  height: 40px;\n  width: 40px;\n  border-radius: 10px;\n  transition: all 0.2s ease-in;\n}\n\n.cube_x {\n  background-color: blueviolet;\n  animation: animateLoaders 1s infinite;\n}\n\n.cube_y {\n  background-color: aqua;\n  animation: animateLoaders 1s 0.5s infinite;\n}\n\n@keyframes animateLoaders {\n  0% {\n    transform: scale(0.8);\n  }\n\n  50% {\n    transform: scale(1.2);\n  }\n\n  100% {\n    transform: scale(0.8);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Duck 87</title>\n<style>\n/* From Uiverse.io by jamik-dev - https://uiverse.io/jamik-dev/giant-duck-87 */\n/* From Uiverse.io by jamik-dev  - Tags: loader, smooth, cube, modern, animated */\n.cube {\n  height: 80px;\n  width: 80px;\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 6px;\n}\n\n.cube_item {\n  height: 40px;\n  width: 40px;\n  border-radius: 10px;\n  transition: all 0.2s ease-in;\n}\n\n.cube_x {\n  background-color: blueviolet;\n  animation: animateLoaders 1s infinite;\n}\n\n.cube_y {\n  background-color: aqua;\n  animation: animateLoaders 1s 0.5s infinite;\n}\n\n@keyframes animateLoaders {\n  0% {\n    transform: scale(0.8);\n  }\n\n  50% {\n    transform: scale(1.2);\n  }\n\n  100% {\n    transform: scale(0.8);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"cube\">\n  <div class=\"cube_item cube_x\"></div>\n  <div class=\"cube_item cube_y\"></div>\n  <div class=\"cube_item cube_y\"></div>\n  <div class=\"cube_item cube_x\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#00ffff",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 250,
+ "size": 1001,
+ "html": "<div class=\"cube\">\n  <div class=\"cube_item cube_x\"></div>\n  <div class=\"cube_item cube_y\"></div>\n  <div class=\"cube_item cube_y\"></div>\n  <div class=\"cube_item cube_x\"></div>\n</div>\n",
+ "css": "/* Giant Duck 87 by jamik-dev — https://uiverse.io/jamik-dev/giant-duck-87 */\n.cube {\n  height: 80px;\n  width: 80px;\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 6px;\n}\n\n.cube_item {\n  height: 40px;\n  width: 40px;\n  border-radius: 10px;\n  transition: all 0.2s ease-in;\n}\n\n.cube_x {\n  background-color: blueviolet;\n  animation: animateLoaders 1s infinite;\n}\n\n.cube_y {\n  background-color: aqua;\n  animation: animateLoaders 1s 0.5s infinite;\n}\n\n@keyframes animateLoaders {\n  0% {\n    transform: scale(0.8);\n  }\n\n  50% {\n    transform: scale(1.2);\n  }\n\n  100% {\n    transform: scale(0.8);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Duck 87</title>\n<style>\n/* Giant Duck 87 by jamik-dev — https://uiverse.io/jamik-dev/giant-duck-87 */\n.cube {\n  height: 80px;\n  width: 80px;\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 6px;\n}\n\n.cube_item {\n  height: 40px;\n  width: 40px;\n  border-radius: 10px;\n  transition: all 0.2s ease-in;\n}\n\n.cube_x {\n  background-color: blueviolet;\n  animation: animateLoaders 1s infinite;\n}\n\n.cube_y {\n  background-color: aqua;\n  animation: animateLoaders 1s 0.5s infinite;\n}\n\n@keyframes animateLoaders {\n  0% {\n    transform: scale(0.8);\n  }\n\n  50% {\n    transform: scale(1.2);\n  }\n\n  100% {\n    transform: scale(0.8);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"cube\">\n  <div class=\"cube_item cube_x\"></div>\n  <div class=\"cube_item cube_y\"></div>\n  <div class=\"cube_item cube_y\"></div>\n  <div class=\"cube_item cube_x\"></div>\n</div>\n\n</body>\n</html>\n"
 }

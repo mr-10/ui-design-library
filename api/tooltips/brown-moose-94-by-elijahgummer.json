@@ -5,17 +5,25 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/brown-moose-94",
  "trigger": "hover",
- "description": "A tooltip with simple, green and minimalist styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Green tooltip that fades on hover with a smooth transition.",
+ "howItWorks": "On hover, opacity becomes 1.",
  "tags": [
+  "green",
+  "flat",
+  "fade",
   "simple",
   "tooltip",
-  "green",
-  "minimalist",
-  "github",
-  "clean"
+  "minimalist"
  ],
- "html": "<div class=\"tooltip-container\">\n  <span class=\"tooltip\">8 contributions on March 8th.</span>\n  <span class=\"text\"></span>\n</div>",
- "css": "/* From Uiverse.io by elijahgummer  - Tags: simple, tooltip, green, minimalist, github, clean, transition, hover effect */\n.tooltip-container {\n  --background-tooltip-container: #2ea44f; /* GitHub green color */\n  position: relative;\n  background: var(--background-tooltip-container);\n  cursor: pointer;\n  transition: all 0.2s;\n  width: 16px;\n  height: 16px;\n  border-radius: 6px;\n  font-size: 17px;\n}\n\n.tooltip {\n  --background-tooltip: #6e7681; /* Default background color for tooltip */\n  position: absolute;\n  top: -39px; /* Adjusted top position */\n  left: 50%;\n  transform: translateX(-50%);\n  padding: 0.5em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s;\n  background: var(--background-tooltip);\n  color: white; /* Text color */\n  border-radius: 5px;\n  width: 210px;\n  height: 30px;\n  font-size: 13px;\n  text-align: center;\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 0.6em;\n  width: 0.6em;\n  bottom: -0.2em;\n  left: 50%;\n  transform: translate(-50%) rotate(45deg);\n  background: var(\n    --background-tooltip\n  ); /* Use the same background color as the tooltip */\n}\n\n.tooltip-container:hover .tooltip {\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Brown Moose 94</title>\n<style>\n/* From Uiverse.io by elijahgummer - https://uiverse.io/elijahgummer/brown-moose-94 */\n/* From Uiverse.io by elijahgummer  - Tags: simple, tooltip, green, minimalist, github, clean, transition, hover effect */\n.tooltip-container {\n  --background-tooltip-container: #2ea44f; /* GitHub green color */\n  position: relative;\n  background: var(--background-tooltip-container);\n  cursor: pointer;\n  transition: all 0.2s;\n  width: 16px;\n  height: 16px;\n  border-radius: 6px;\n  font-size: 17px;\n}\n\n.tooltip {\n  --background-tooltip: #6e7681; /* Default background color for tooltip */\n  position: absolute;\n  top: -39px; /* Adjusted top position */\n  left: 50%;\n  transform: translateX(-50%);\n  padding: 0.5em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s;\n  background: var(--background-tooltip);\n  color: white; /* Text color */\n  border-radius: 5px;\n  width: 210px;\n  height: 30px;\n  font-size: 13px;\n  text-align: center;\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 0.6em;\n  width: 0.6em;\n  bottom: -0.2em;\n  left: 50%;\n  transform: translate(-50%) rotate(45deg);\n  background: var(\n    --background-tooltip\n  ); /* Use the same background color as the tooltip */\n}\n\n.tooltip-container:hover .tooltip {\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n}\n</style>\n</head>\n<body>\n<div class=\"tooltip-container\">\n  <span class=\"tooltip\">8 contributions on March 8th.</span>\n  <span class=\"text\"></span>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#6e7681",
+  "#2ea44f",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 339,
+ "size": 1359,
+ "html": "<div class=\"tooltip-container\">\n  <span class=\"tooltip\">8 contributions on March 8th.</span>\n  <span class=\"text\"></span>\n</div>\n",
+ "css": "/* Brown Moose 94 by elijahgummer — https://uiverse.io/elijahgummer/brown-moose-94 */\n.tooltip-container {\n  --background-tooltip-container: #2ea44f;\n  position: relative;\n  background: var(--background-tooltip-container);\n  cursor: pointer;\n  transition: all 0.2s;\n  width: 16px;\n  height: 16px;\n  border-radius: 6px;\n  font-size: 17px;\n}\n\n.tooltip {\n  --background-tooltip: #6e7681;\n  position: absolute;\n  top: -39px;\n  left: 50%;\n  transform: translateX(-50%);\n  padding: 0.5em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s;\n  background: var(--background-tooltip);\n  color: white;\n  border-radius: 5px;\n  width: 210px;\n  height: 30px;\n  font-size: 13px;\n  text-align: center;\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 0.6em;\n  width: 0.6em;\n  bottom: -0.2em;\n  left: 50%;\n  transform: translate(-50%) rotate(45deg);\n  background: var(\n    --background-tooltip\n  );\n}\n\n.tooltip-container:hover .tooltip {\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Brown Moose 94</title>\n<style>\n/* Brown Moose 94 by elijahgummer — https://uiverse.io/elijahgummer/brown-moose-94 */\n.tooltip-container {\n  --background-tooltip-container: #2ea44f;\n  position: relative;\n  background: var(--background-tooltip-container);\n  cursor: pointer;\n  transition: all 0.2s;\n  width: 16px;\n  height: 16px;\n  border-radius: 6px;\n  font-size: 17px;\n}\n\n.tooltip {\n  --background-tooltip: #6e7681;\n  position: absolute;\n  top: -39px;\n  left: 50%;\n  transform: translateX(-50%);\n  padding: 0.5em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s;\n  background: var(--background-tooltip);\n  color: white;\n  border-radius: 5px;\n  width: 210px;\n  height: 30px;\n  font-size: 13px;\n  text-align: center;\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 0.6em;\n  width: 0.6em;\n  bottom: -0.2em;\n  left: 50%;\n  transform: translate(-50%) rotate(45deg);\n  background: var(\n    --background-tooltip\n  );\n}\n\n.tooltip-container:hover .tooltip {\n  opacity: 1;\n  visibility: visible;\n  pointer-events: auto;\n}\n</style>\n</head>\n<body>\n<div class=\"tooltip-container\">\n  <span class=\"tooltip\">8 contributions on March 8th.</span>\n  <span class=\"text\"></span>\n</div>\n\n</body>\n</html>\n"
 }

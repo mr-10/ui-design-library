@@ -5,14 +5,25 @@
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/serious-jellyfish-64",
  "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Pill red card with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "red",
+  "rounded",
+  "pill",
   "cards",
   "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Javierrocadev - Tags: blue, card, watch, tailwind -->\n<div class=\"after:-z-10  after:absolute after:w-20 after:h-80 after:bg-sky-700 after:rounded-2xl after:shadow-inner after:shadow-slate-900 before:absolute before:w-8 before:h-8 before:bg-sky-400 before:rounded-full before:blur-xl before:top-20 before:right-6 before:w-12 before:h-12  relative  rounded-2xl shadow-inner shadow-gray-50 flex flex-col justify-evenly items-center w-24 h-44 bg-neutral-900 text-gray-50\">\n  <div class=\"flex flex-col font-extrabold text-6xl z-10\">\n    <span>03</span>\n    <span>40</span>\n  </div>\n  <div class=\"flex flex-row justify-center items-center gap-1 font-thin\">\n    <span>90</span>\n    <svg y=\"0\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0\" width=\"100\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"xMidYMid meet\" height=\"100\" class=\"w-5 h-5 fill-red-500\">\n      <path fill-rule=\"evenodd\" d=\"M23,27.6a15.8,15.8,0,0,1,22.4,0L50,32.2l4.6-4.6A15.8,15.8,0,0,1,77,50L50,77,23,50A15.8,15.8,0,0,1,23,27.6Z\" class=\"\">\n      </path>\n    </svg>\n  </div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Serious Jellyfish 64</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/serious-jellyfish-64 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev - Tags: blue, card, watch, tailwind -->\n<div class=\"after:-z-10  after:absolute after:w-20 after:h-80 after:bg-sky-700 after:rounded-2xl after:shadow-inner after:shadow-slate-900 before:absolute before:w-8 before:h-8 before:bg-sky-400 before:rounded-full before:blur-xl before:top-20 before:right-6 before:w-12 before:h-12  relative  rounded-2xl shadow-inner shadow-gray-50 flex flex-col justify-evenly items-center w-24 h-44 bg-neutral-900 text-gray-50\">\n  <div class=\"flex flex-col font-extrabold text-6xl z-10\">\n    <span>03</span>\n    <span>40</span>\n  </div>\n  <div class=\"flex flex-row justify-center items-center gap-1 font-thin\">\n    <span>90</span>\n    <svg y=\"0\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0\" width=\"100\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"xMidYMid meet\" height=\"100\" class=\"w-5 h-5 fill-red-500\">\n      <path fill-rule=\"evenodd\" d=\"M23,27.6a15.8,15.8,0,0,1,22.4,0L50,32.2l4.6-4.6A15.8,15.8,0,0,1,77,50L50,77,23,50A15.8,15.8,0,0,1,23,27.6Z\" class=\"\">\n      </path>\n    </svg>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#f9fafb",
+  "#171717",
+  "#ef4444"
+ ],
+ "fonts": [],
+ "tokens": 325,
+ "size": 1303,
+ "html": "<div class=\"after:-z-10  after:absolute after:w-20 after:h-80 after:bg-sky-700 after:rounded-2xl after:shadow-inner after:shadow-slate-900 before:absolute before:w-8 before:h-8 before:bg-sky-400 before:rounded-full before:blur-xl before:top-20 before:right-6 before:w-12 before:h-12  relative  rounded-2xl shadow-inner shadow-gray-50 flex flex-col justify-evenly items-center w-24 h-44 bg-neutral-900 text-gray-50\">\n  <div class=\"flex flex-col font-extrabold text-6xl z-10\">\n    <span>03</span>\n    <span>40</span>\n  </div>\n  <div class=\"flex flex-row justify-center items-center gap-1 font-thin\">\n    <span>90</span>\n    <svg y=\"0\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0\" width=\"100\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"xMidYMid meet\" height=\"100\" class=\"w-5 h-5 fill-red-500\">\n      <path fill-rule=\"evenodd\" d=\"M23,27.6a15.8,15.8,0,0,1,22.4,0L50,32.2l4.6-4.6A15.8,15.8,0,0,1,77,50L50,77,23,50A15.8,15.8,0,0,1,23,27.6Z\" class=\"\">\n      </path>\n    </svg>\n  </div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Serious Jellyfish 64</title>\n<style>\n/* Serious Jellyfish 64 by Javierrocadev — https://uiverse.io/Javierrocadev/serious-jellyfish-64 */\n\n</style>\n</head>\n<body>\n<div class=\"after:-z-10  after:absolute after:w-20 after:h-80 after:bg-sky-700 after:rounded-2xl after:shadow-inner after:shadow-slate-900 before:absolute before:w-8 before:h-8 before:bg-sky-400 before:rounded-full before:blur-xl before:top-20 before:right-6 before:w-12 before:h-12  relative  rounded-2xl shadow-inner shadow-gray-50 flex flex-col justify-evenly items-center w-24 h-44 bg-neutral-900 text-gray-50\">\n  <div class=\"flex flex-col font-extrabold text-6xl z-10\">\n    <span>03</span>\n    <span>40</span>\n  </div>\n  <div class=\"flex flex-row justify-center items-center gap-1 font-thin\">\n    <span>90</span>\n    <svg y=\"0\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0\" width=\"100\" viewBox=\"0 0 100 100\" preserveAspectRatio=\"xMidYMid meet\" height=\"100\" class=\"w-5 h-5 fill-red-500\">\n      <path fill-rule=\"evenodd\" d=\"M23,27.6a15.8,15.8,0,0,1,22.4,0L50,32.2l4.6-4.6A15.8,15.8,0,0,1,77,50L50,77,23,50A15.8,15.8,0,0,1,23,27.6Z\" class=\"\">\n      </path>\n    </svg>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

@@ -4,15 +4,26 @@
  "category": "inputs",
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/brown-wolverine-18",
- "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "trigger": "hover",
+ "description": "Rounded black email input that changes colour on hover.",
+ "howItWorks": "On hover, background changes. On focus, border changes and a ring appears.",
  "tags": [
+  "rounded",
+  "color-change",
+  "ring",
+  "email-input",
   "inputs",
-  "focus",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Yaya12085  - Tags: icon, form, input -->\n<div class=\"relative mt-6\">\n  <input\n    type=\"email\"\n    placeholder=\"Email address\"\n    autocomplete=\"email\"\n    aria-label=\"Email address\"\n    class=\"block w-full rounded-2xl border border-neutral-300 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5\"\n  />\n  <div class=\"absolute inset-y-1 right-1 flex justify-end\">\n    <button\n      type=\"submit\"\n      aria-label=\"Submit\"\n      class=\"flex aspect-square h-full items-center justify-center rounded-xl bg-neutral-950 text-white transition hover:bg-neutral-800\"\n    >\n      <svg viewBox=\"0 0 16 6\" aria-hidden=\"true\" class=\"w-4\">\n        <path\n          fill=\"currentColor\"\n          fill-rule=\"evenodd\"\n          clip-rule=\"evenodd\"\n          d=\"M16 3 10 .5v2H0v1h10v2L16 3Z\"\n        ></path>\n      </svg>\n    </button>\n  </div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Brown Wolverine 18</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/brown-wolverine-18 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Yaya12085  - Tags: icon, form, input -->\n<div class=\"relative mt-6\">\n  <input\n    type=\"email\"\n    placeholder=\"Email address\"\n    autocomplete=\"email\"\n    aria-label=\"Email address\"\n    class=\"block w-full rounded-2xl border border-neutral-300 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5\"\n  />\n  <div class=\"absolute inset-y-1 right-1 flex justify-end\">\n    <button\n      type=\"submit\"\n      aria-label=\"Submit\"\n      class=\"flex aspect-square h-full items-center justify-center rounded-xl bg-neutral-950 text-white transition hover:bg-neutral-800\"\n    >\n      <svg viewBox=\"0 0 16 6\" aria-hidden=\"true\" class=\"w-4\">\n        <path\n          fill=\"currentColor\"\n          fill-rule=\"evenodd\"\n          clip-rule=\"evenodd\"\n          d=\"M16 3 10 .5v2H0v1h10v2L16 3Z\"\n        ></path>\n      </svg>\n    </button>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#0a0a0a",
+  "#d4d4d4",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 310,
+ "size": 1241,
+ "html": "<div class=\"relative mt-6\">\n  <input\n    type=\"email\"\n    placeholder=\"Email address\"\n    autocomplete=\"email\"\n    aria-label=\"Email address\"\n    class=\"block w-full rounded-2xl border border-neutral-300 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5\"\n  />\n  <div class=\"absolute inset-y-1 right-1 flex justify-end\">\n    <button\n      type=\"submit\"\n      aria-label=\"Submit\"\n      class=\"flex aspect-square h-full items-center justify-center rounded-xl bg-neutral-950 text-white transition hover:bg-neutral-800\"\n    >\n      <svg viewBox=\"0 0 16 6\" aria-hidden=\"true\" class=\"w-4\">\n        <path\n          fill=\"currentColor\"\n          fill-rule=\"evenodd\"\n          clip-rule=\"evenodd\"\n          d=\"M16 3 10 .5v2H0v1h10v2L16 3Z\"\n        ></path>\n      </svg>\n    </button>\n  </div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Brown Wolverine 18</title>\n<style>\n/* Brown Wolverine 18 by Yaya12085 — https://uiverse.io/Yaya12085/brown-wolverine-18 */\n\n</style>\n</head>\n<body>\n<div class=\"relative mt-6\">\n  <input\n    type=\"email\"\n    placeholder=\"Email address\"\n    autocomplete=\"email\"\n    aria-label=\"Email address\"\n    class=\"block w-full rounded-2xl border border-neutral-300 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5\"\n  />\n  <div class=\"absolute inset-y-1 right-1 flex justify-end\">\n    <button\n      type=\"submit\"\n      aria-label=\"Submit\"\n      class=\"flex aspect-square h-full items-center justify-center rounded-xl bg-neutral-950 text-white transition hover:bg-neutral-800\"\n    >\n      <svg viewBox=\"0 0 16 6\" aria-hidden=\"true\" class=\"w-4\">\n        <path\n          fill=\"currentColor\"\n          fill-rule=\"evenodd\"\n          clip-rule=\"evenodd\"\n          d=\"M16 3 10 .5v2H0v1h10v2L16 3Z\"\n        ></path>\n      </svg>\n    </button>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

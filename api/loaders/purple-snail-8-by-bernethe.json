@@ -5,14 +5,24 @@
  "author": "bernethe",
  "source": "https://uiverse.io/bernethe/purple-snail-8",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient dark black loader with shimmering motion in a loop.",
+ "howItWorks": "It loops a 0.8s animation (shimmering).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "gradient",
+  "dark",
+  "outlined",
+  "flat",
+  "shimmer",
+  "loader"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by bernethe - Tags: loader */\n.loader {\n  clear: both;\n  margin: 1rem auto;\n  width: 3.125rem;\n  height: 1.125rem;\n  border: 1px #000 solid;\n  border-radius: 4px;\n  background: linear-gradient(-60deg, transparent 0%, transparent 50%, #000 50%, #000 75%, transparent 75%, transparent);\n  background-size: 20px 30px;\n  background-position: 0px 0px;\n  animation: spLoadBar 0.8s infinite linear;\n}\n\n@keyframes spLoadBar {\n  from {\n    background-position: 0px 0px;\n  }\n\n  to {\n    background-position: -20px 0px;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Snail 8</title>\n<style>\n/* From Uiverse.io by bernethe - https://uiverse.io/bernethe/purple-snail-8 */\n/* From Uiverse.io by bernethe - Tags: loader */\n.loader {\n  clear: both;\n  margin: 1rem auto;\n  width: 3.125rem;\n  height: 1.125rem;\n  border: 1px #000 solid;\n  border-radius: 4px;\n  background: linear-gradient(-60deg, transparent 0%, transparent 50%, #000 50%, #000 75%, transparent 75%, transparent);\n  background-size: 20px 30px;\n  background-position: 0px 0px;\n  animation: spLoadBar 0.8s infinite linear;\n}\n\n@keyframes spLoadBar {\n  from {\n    background-position: 0px 0px;\n  }\n\n  to {\n    background-position: -20px 0px;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 201,
+ "size": 805,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Purple Snail 8 by bernethe — https://uiverse.io/bernethe/purple-snail-8 */\n.loader {\n  clear: both;\n  margin: 1rem auto;\n  width: 3.125rem;\n  height: 1.125rem;\n  border: 1px #000 solid;\n  border-radius: 4px;\n  background: linear-gradient(-60deg, transparent 0%, transparent 50%, #000 50%, #000 75%, transparent 75%, transparent);\n  background-size: 20px 30px;\n  background-position: 0px 0px;\n  animation: spLoadBar 0.8s infinite linear;\n}\n\n@keyframes spLoadBar {\n  from {\n    background-position: 0px 0px;\n  }\n\n  to {\n    background-position: -20px 0px;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Snail 8</title>\n<style>\n/* Purple Snail 8 by bernethe — https://uiverse.io/bernethe/purple-snail-8 */\n.loader {\n  clear: both;\n  margin: 1rem auto;\n  width: 3.125rem;\n  height: 1.125rem;\n  border: 1px #000 solid;\n  border-radius: 4px;\n  background: linear-gradient(-60deg, transparent 0%, transparent 50%, #000 50%, #000 75%, transparent 75%, transparent);\n  background-size: 20px 30px;\n  background-position: 0px 0px;\n  animation: spLoadBar 0.8s infinite linear;\n}\n\n@keyframes spLoadBar {\n  from {\n    background-position: 0px 0px;\n  }\n\n  to {\n    background-position: -20px 0px;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

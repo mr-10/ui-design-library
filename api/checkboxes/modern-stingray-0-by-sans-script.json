@@ -5,14 +5,23 @@
  "author": "sans-script",
  "source": "https://uiverse.io/sans-script/modern-stingray-0",
  "trigger": "checked",
- "description": "A checkbox with square styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Green checkbox that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: border-left becomes none, border-top becomes none, width becomes 20px.",
  "tags": [
+  "green",
+  "flat",
   "checkbox",
   "square",
   "checked"
  ],
- "html": "<div class=\"center\">\n\t\t<input name=\"\" type=\"checkbox\">\n</div>",
- "css": "/* From Uiverse.io by sans-script - Tags: checkbox, square */\n.center {\n  width: 100%;\n  text-align: center;\n}\n\ninput[type=\"checkbox\"] {\n  position: relative;\n  top: 8px;\n  width: 40px;\n  height: 40px;\n  -webkit-appearance: none;\n  outline: none;\n  transition: 0.5s;\n}\n\ninput[type=\"checkbox\"]:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 4px solid #262626;\n  box-sizing: border-box;\n  transition: 0.5s;\n}\n\ninput:checked[type=\"checkbox\"]:before {\n  border-left: none;\n  border-top: none;\n  width: 20px;\n  border-color: rgb(24, 196, 24);\n  transform: rotate(45deg) translate(5px, -10px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Modern Stingray 0</title>\n<style>\n/* From Uiverse.io by sans-script - https://uiverse.io/sans-script/modern-stingray-0 */\n/* From Uiverse.io by sans-script - Tags: checkbox, square */\n.center {\n  width: 100%;\n  text-align: center;\n}\n\ninput[type=\"checkbox\"] {\n  position: relative;\n  top: 8px;\n  width: 40px;\n  height: 40px;\n  -webkit-appearance: none;\n  outline: none;\n  transition: 0.5s;\n}\n\ninput[type=\"checkbox\"]:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 4px solid #262626;\n  box-sizing: border-box;\n  transition: 0.5s;\n}\n\ninput:checked[type=\"checkbox\"]:before {\n  border-left: none;\n  border-top: none;\n  width: 20px;\n  border-color: rgb(24, 196, 24);\n  transform: rotate(45deg) translate(5px, -10px);\n}\n</style>\n</head>\n<body>\n<div class=\"center\">\n\t\t<input name=\"\" type=\"checkbox\">\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#262626",
+  "#18c418"
+ ],
+ "fonts": [],
+ "tokens": 239,
+ "size": 959,
+ "html": "<div class=\"center\">\n\t\t<input name=\"\" type=\"checkbox\">\n</div>\n",
+ "css": "/* Modern Stingray 0 by sans-script — https://uiverse.io/sans-script/modern-stingray-0 */\n.center {\n  width: 100%;\n  text-align: center;\n}\n\ninput[type=\"checkbox\"] {\n  position: relative;\n  top: 8px;\n  width: 40px;\n  height: 40px;\n  -webkit-appearance: none;\n  outline: none;\n  transition: 0.5s;\n}\n\ninput[type=\"checkbox\"]:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 4px solid #262626;\n  box-sizing: border-box;\n  transition: 0.5s;\n}\n\ninput:checked[type=\"checkbox\"]:before {\n  border-left: none;\n  border-top: none;\n  width: 20px;\n  border-color: rgb(24, 196, 24);\n  transform: rotate(45deg) translate(5px, -10px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Modern Stingray 0</title>\n<style>\n/* Modern Stingray 0 by sans-script — https://uiverse.io/sans-script/modern-stingray-0 */\n.center {\n  width: 100%;\n  text-align: center;\n}\n\ninput[type=\"checkbox\"] {\n  position: relative;\n  top: 8px;\n  width: 40px;\n  height: 40px;\n  -webkit-appearance: none;\n  outline: none;\n  transition: 0.5s;\n}\n\ninput[type=\"checkbox\"]:before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border: 4px solid #262626;\n  box-sizing: border-box;\n  transition: 0.5s;\n}\n\ninput:checked[type=\"checkbox\"]:before {\n  border-left: none;\n  border-top: none;\n  width: 20px;\n  border-color: rgb(24, 196, 24);\n  transform: rotate(45deg) translate(5px, -10px);\n}\n</style>\n</head>\n<body>\n<div class=\"center\">\n\t\t<input name=\"\" type=\"checkbox\">\n</div>\n\n</body>\n</html>\n"
 }

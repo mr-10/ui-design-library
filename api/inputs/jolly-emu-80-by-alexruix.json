@@ -5,14 +5,24 @@
  "author": "alexruix",
  "source": "https://uiverse.io/alexruix/jolly-emu-80",
  "trigger": "hover",
- "description": "A input with email styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark rounded black email input that changes colour on hover.",
+ "howItWorks": "On hover, the outline is removed, border-color becomes #05060f, text color changes from #05060f99 to #05060fc2. On focus, the outline is removed, border-color becomes #05060f, text color changes from #05060f99 to #05060fc2.",
  "tags": [
+  "dark",
+  "rounded",
+  "flat",
+  "color-change",
   "email",
-  "input",
-  "hover"
+  "email-input"
  ],
- "html": "<div class=\"input-group\">\n    <label class=\"label\">Email address</label>\n    <input autocomplete=\"off\" name=\"Email\" id=\"Email\" class=\"input\" type=\"email\">\n    <div></div></div>",
- "css": "/* From Uiverse.io by alexruix - Tags: email, input */\n.input {\n  max-width: 190px;\n  height: 44px;\n  background-color: #05060f0a;\n  border-radius: .5rem;\n  padding: 0 1rem;\n  border: 2px solid transparent;\n  font-size: 1rem;\n  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;\n}\n\n.label {\n  display: block;\n  margin-bottom: .3rem;\n  font-size: .9rem;\n  font-weight: bold;\n  color: #05060f99;\n  transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;\n}\n\n.input:hover, .input:focus, .input-group:hover .input {\n  outline: none;\n  border-color: #05060f;\n}\n\n.input-group:hover .label, .input:focus {\n  color: #05060fc2;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Jolly Emu 80</title>\n<style>\n/* From Uiverse.io by alexruix - https://uiverse.io/alexruix/jolly-emu-80 */\n/* From Uiverse.io by alexruix - Tags: email, input */\n.input {\n  max-width: 190px;\n  height: 44px;\n  background-color: #05060f0a;\n  border-radius: .5rem;\n  padding: 0 1rem;\n  border: 2px solid transparent;\n  font-size: 1rem;\n  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;\n}\n\n.label {\n  display: block;\n  margin-bottom: .3rem;\n  font-size: .9rem;\n  font-weight: bold;\n  color: #05060f99;\n  transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;\n}\n\n.input:hover, .input:focus, .input-group:hover .input {\n  outline: none;\n  border-color: #05060f;\n}\n\n.input-group:hover .label, .input:focus {\n  color: #05060fc2;\n}\n</style>\n</head>\n<body>\n<div class=\"input-group\">\n    <label class=\"label\">Email address</label>\n    <input autocomplete=\"off\" name=\"Email\" id=\"Email\" class=\"input\" type=\"email\">\n    <div></div></div>\n</body>\n</html>\n"
+ "colors": [
+  "#05060f",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 281,
+ "size": 1125,
+ "html": "<div class=\"input-group\">\n    <label class=\"label\">Email address</label>\n    <input autocomplete=\"off\" name=\"Email\" id=\"Email\" class=\"input\" type=\"email\">\n    <div></div></div>\n",
+ "css": "/* Jolly Emu 80 by alexruix — https://uiverse.io/alexruix/jolly-emu-80 */\n.input {\n  max-width: 190px;\n  height: 44px;\n  background-color: #05060f0a;\n  border-radius: .5rem;\n  padding: 0 1rem;\n  border: 2px solid transparent;\n  font-size: 1rem;\n  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;\n}\n\n.label {\n  display: block;\n  margin-bottom: .3rem;\n  font-size: .9rem;\n  font-weight: bold;\n  color: #05060f99;\n  transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;\n}\n\n.input:hover, .input:focus, .input-group:hover .input {\n  outline: none;\n  border-color: #05060f;\n}\n\n.input-group:hover .label, .input:focus {\n  color: #05060fc2;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Jolly Emu 80</title>\n<style>\n/* Jolly Emu 80 by alexruix — https://uiverse.io/alexruix/jolly-emu-80 */\n.input {\n  max-width: 190px;\n  height: 44px;\n  background-color: #05060f0a;\n  border-radius: .5rem;\n  padding: 0 1rem;\n  border: 2px solid transparent;\n  font-size: 1rem;\n  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;\n}\n\n.label {\n  display: block;\n  margin-bottom: .3rem;\n  font-size: .9rem;\n  font-weight: bold;\n  color: #05060f99;\n  transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;\n}\n\n.input:hover, .input:focus, .input-group:hover .input {\n  outline: none;\n  border-color: #05060f;\n}\n\n.input-group:hover .label, .input:focus {\n  color: #05060fc2;\n}\n</style>\n</head>\n<body>\n<div class=\"input-group\">\n    <label class=\"label\">Email address</label>\n    <input autocomplete=\"off\" name=\"Email\" id=\"Email\" class=\"input\" type=\"email\">\n    <div></div></div>\n\n</body>\n</html>\n"
 }

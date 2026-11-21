@@ -5,14 +5,25 @@
  "author": "neitt0",
  "source": "https://uiverse.io/neitt0/odd-hound-66",
  "trigger": "checked",
- "description": "A toggle switch UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Neon sky-blue toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: background-color changes from #ccc to #2196f3, transform becomes translateX(0em) rotate(90deg). On focus, box-shadow becomes 0 0 1px #2196f3.",
  "tags": [
+  "blue",
+  "neon",
+  "toggle-switch",
   "toggle-switches",
   "checked",
   "css"
  ],
- "html": "<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>",
- "css": "/* From Uiverse.io by neitt0  - Tags:  */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 8em;\n  height: 4em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: 0.4s;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 4em;\n  width: 4em;\n  background-color: white;\n  transition: 0.2s;\n  transition-timing-function: cubic-bezier(0.75, 0.02, 0.86, 1.31);\n  transform-origin: bottom right;\n}\n\n.switch input:checked + .slider {\n  background-color: #2196f3;\n}\n\n.switch input:focus + .slider {\n  box-shadow: 0 0 1px #2196f3;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(0em) rotate(90deg);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Odd Hound 66</title>\n<style>\n/* From Uiverse.io by neitt0 - https://uiverse.io/neitt0/odd-hound-66 */\n/* From Uiverse.io by neitt0  - Tags:  */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 8em;\n  height: 4em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: 0.4s;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 4em;\n  width: 4em;\n  background-color: white;\n  transition: 0.2s;\n  transition-timing-function: cubic-bezier(0.75, 0.02, 0.86, 1.31);\n  transform-origin: bottom right;\n}\n\n.switch input:checked + .slider {\n  background-color: #2196f3;\n}\n\n.switch input:focus + .slider {\n  box-shadow: 0 0 1px #2196f3;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(0em) rotate(90deg);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#2196f3",
+  "#cccccc",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 284,
+ "size": 1140,
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>\n",
+ "css": "/* Odd Hound 66 by neitt0 — https://uiverse.io/neitt0/odd-hound-66 */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 8em;\n  height: 4em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: 0.4s;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 4em;\n  width: 4em;\n  background-color: white;\n  transition: 0.2s;\n  transition-timing-function: cubic-bezier(0.75, 0.02, 0.86, 1.31);\n  transform-origin: bottom right;\n}\n\n.switch input:checked + .slider {\n  background-color: #2196f3;\n}\n\n.switch input:focus + .slider {\n  box-shadow: 0 0 1px #2196f3;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(0em) rotate(90deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Odd Hound 66</title>\n<style>\n/* Odd Hound 66 by neitt0 — https://uiverse.io/neitt0/odd-hound-66 */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 8em;\n  height: 4em;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: 0.4s;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 4em;\n  width: 4em;\n  background-color: white;\n  transition: 0.2s;\n  transition-timing-function: cubic-bezier(0.75, 0.02, 0.86, 1.31);\n  transform-origin: bottom right;\n}\n\n.switch input:checked + .slider {\n  background-color: #2196f3;\n}\n\n.switch input:focus + .slider {\n  box-shadow: 0 0 1px #2196f3;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(0em) rotate(90deg);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>\n\n</body>\n</html>\n"
 }

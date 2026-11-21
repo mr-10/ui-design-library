@@ -5,14 +5,24 @@
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/chilly-zebra-32",
  "trigger": "checked",
- "description": "A toggle switch UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Gradient pill red toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it switches it on or off and it holds that state.",
  "tags": [
-  "toggle-switches",
-  "checked",
-  "css"
+  "red",
+  "gradient",
+  "rounded",
+  "pill",
+  "toggle-switch",
+  "toggle-switches"
  ],
- "html": "<!-- From Uiverse.io by Javierrocadev - Tags: red, gradient, switch, box-shadow, tailwind -->\n<label class=\"relative inline-flex items-center cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\">\n  <div class=\"group peer ring-0 [box-shadow:1px_3px_0px_0px_#000]  bg-gradient-to-r from-rose-400 to-red-900  rounded-full outline-none duration-1000 after:duration-300 w-24 h-12  shadow-md  peer-focus:outline-none  after:content-[''] after:rounded-full after:absolute after:[background:#0D2B39]   peer-checked:after:rotate-180 after:[background:conic-gradient(from_135deg,_#b2a9a9,_#b2a8a8,_#ffffff,_#d7dbd9_,_#ffffff,_#b2a8a8)]  after:outline-none  after:h-10 after:w-10 after:top-1 after:left-1 peer-checked:after:translate-x-12 peer-hover:after:scale-95 peer-checked:bg-gradient-to-r peer-checked:from-emerald-500 peer-checked:to-emerald-900\">\n  </div>\n</label>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Zebra 32</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/chilly-zebra-32 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev - Tags: red, gradient, switch, box-shadow, tailwind -->\n<label class=\"relative inline-flex items-center cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\">\n  <div class=\"group peer ring-0 [box-shadow:1px_3px_0px_0px_#000]  bg-gradient-to-r from-rose-400 to-red-900  rounded-full outline-none duration-1000 after:duration-300 w-24 h-12  shadow-md  peer-focus:outline-none  after:content-[''] after:rounded-full after:absolute after:[background:#0D2B39]   peer-checked:after:rotate-180 after:[background:conic-gradient(from_135deg,_#b2a9a9,_#b2a8a8,_#ffffff,_#d7dbd9_,_#ffffff,_#b2a8a8)]  after:outline-none  after:h-10 after:w-10 after:top-1 after:left-1 peer-checked:after:translate-x-12 peer-hover:after:scale-95 peer-checked:bg-gradient-to-r peer-checked:from-emerald-500 peer-checked:to-emerald-900\">\n  </div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#fb7185",
+  "#7f1d1d"
+ ],
+ "fonts": [],
+ "tokens": 273,
+ "size": 1094,
+ "html": "<label class=\"relative inline-flex items-center cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\">\n  <div class=\"group peer ring-0 [box-shadow:1px_3px_0px_0px_#000]  bg-gradient-to-r from-rose-400 to-red-900  rounded-full outline-none duration-1000 after:duration-300 w-24 h-12  shadow-md  peer-focus:outline-none  after:content-[''] after:rounded-full after:absolute after:[background:#0D2B39]   peer-checked:after:rotate-180 after:[background:conic-gradient(from_135deg,_#b2a9a9,_#b2a8a8,_#ffffff,_#d7dbd9_,_#ffffff,_#b2a8a8)]  after:outline-none  after:h-10 after:w-10 after:top-1 after:left-1 peer-checked:after:translate-x-12 peer-hover:after:scale-95 peer-checked:bg-gradient-to-r peer-checked:from-emerald-500 peer-checked:to-emerald-900\">\n  </div>\n</label>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Zebra 32</title>\n<style>\n/* Chilly Zebra 32 by Javierrocadev — https://uiverse.io/Javierrocadev/chilly-zebra-32 */\n\n</style>\n</head>\n<body>\n<label class=\"relative inline-flex items-center cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\">\n  <div class=\"group peer ring-0 [box-shadow:1px_3px_0px_0px_#000]  bg-gradient-to-r from-rose-400 to-red-900  rounded-full outline-none duration-1000 after:duration-300 w-24 h-12  shadow-md  peer-focus:outline-none  after:content-[''] after:rounded-full after:absolute after:[background:#0D2B39]   peer-checked:after:rotate-180 after:[background:conic-gradient(from_135deg,_#b2a9a9,_#b2a8a8,_#ffffff,_#d7dbd9_,_#ffffff,_#b2a8a8)]  after:outline-none  after:h-10 after:w-10 after:top-1 after:left-1 peer-checked:after:translate-x-12 peer-hover:after:scale-95 peer-checked:bg-gradient-to-r peer-checked:from-emerald-500 peer-checked:to-emerald-900\">\n  </div>\n</label>\n\n</body>\n</html>\n"
 }

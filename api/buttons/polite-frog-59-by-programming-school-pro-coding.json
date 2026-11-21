@@ -5,14 +5,25 @@
  "author": "Programming-School-Pro-Coding",
  "source": "https://uiverse.io/Programming-School-Pro-Coding/polite-frog-59",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded amber button that reacts on hover.",
+ "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "amber",
+  "orange",
+  "gradient",
+  "rounded",
+  "flat",
+  "button"
  ],
- "html": "<button> Button\n</button>",
- "css": "/* From Uiverse.io by Programming-School-Pro-Coding - Tags: button */\nbutton {\n  --c1: #f6d365;\n  --c2: #fda085;\n  padding: 15px 30px;\n  text-align: center;\n  text-transform: uppercase;\n  transition: 0.5s;\n  background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;\n  color: white;\n  border-radius: 20px;\n  outline: none;\n}\n\nbutton:hover {\n  --x: 100%;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Frog 59</title>\n<style>\n/* From Uiverse.io by Programming-School-Pro-Coding - https://uiverse.io/Programming-School-Pro-Coding/polite-frog-59 */\n/* From Uiverse.io by Programming-School-Pro-Coding - Tags: button */\nbutton {\n  --c1: #f6d365;\n  --c2: #fda085;\n  padding: 15px 30px;\n  text-align: center;\n  text-transform: uppercase;\n  transition: 0.5s;\n  background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;\n  color: white;\n  border-radius: 20px;\n  outline: none;\n}\n\nbutton:hover {\n  --x: 100%;\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#f6d365",
+  "#fda085",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 176,
+ "size": 706,
+ "html": "<button> Button\n</button>\n",
+ "css": "/* Polite Frog 59 by Programming-School-Pro-Coding — https://uiverse.io/Programming-School-Pro-Coding/polite-frog-59 */\nbutton {\n  --c1: #f6d365;\n  --c2: #fda085;\n  padding: 15px 30px;\n  text-align: center;\n  text-transform: uppercase;\n  transition: 0.5s;\n  background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;\n  color: white;\n  border-radius: 20px;\n  outline: none;\n}\n\nbutton:hover {\n  --x: 100%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Frog 59</title>\n<style>\n/* Polite Frog 59 by Programming-School-Pro-Coding — https://uiverse.io/Programming-School-Pro-Coding/polite-frog-59 */\nbutton {\n  --c1: #f6d365;\n  --c2: #fda085;\n  padding: 15px 30px;\n  text-align: center;\n  text-transform: uppercase;\n  transition: 0.5s;\n  background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;\n  color: white;\n  border-radius: 20px;\n  outline: none;\n}\n\nbutton:hover {\n  --x: 100%;\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n\n</body>\n</html>\n"
 }

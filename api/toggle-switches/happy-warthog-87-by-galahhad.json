@@ -5,15 +5,25 @@
  "author": "Galahhad",
  "source": "https://uiverse.io/Galahhad/happy-warthog-87",
  "trigger": "checked",
- "description": "A toggle switch with active and switch styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Neon rounded sky-blue toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: transform becomes translateX(30px), box-shadow becomes 0 0 10px 3px #000000, background-color changes from #d3d3d3 to #2196F3.",
  "tags": [
-  "active",
+  "blue",
+  "neon",
+  "rounded",
+  "toggle-switch",
   "switch",
-  "toggle-switches",
-  "checked"
+  "toggle-switches"
  ],
- "html": "<label class=\"switch\">\n    <input type=\"checkbox\" class=\"checkbox\">\n    <div class=\"slider\"></div>\n</label>",
- "css": "/* From Uiverse.io by Galahhad - Tags: active, switch */\n.checkbox {\n  display: none;\n}\n\n.slider {\n  width: 60px;\n  height: 30px;\n  background-color: lightgray;\n  border-radius: 20px;\n  overflow: hidden;\n  display: flex;\n  align-items: center;\n  border: 4px solid transparent;\n  transition: .3s;\n  box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.25) inset;\n  cursor: pointer;\n}\n\n.slider::before {\n  content: '';\n  display: block;\n  width: 100%;\n  height: 100%;\n  background-color: #fff;\n  transform: translateX(-30px);\n  border-radius: 20px;\n  transition: .3s;\n  box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);\n}\n\n.checkbox:checked ~ .slider::before {\n  transform: translateX(30px);\n  box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);\n}\n\n.checkbox:checked ~ .slider {\n  background-color: #2196F3;\n}\n\n.checkbox:active ~ .slider::before {\n  transform: translate(0);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Happy Warthog 87</title>\n<style>\n/* From Uiverse.io by Galahhad - https://uiverse.io/Galahhad/happy-warthog-87 */\n/* From Uiverse.io by Galahhad - Tags: active, switch */\n.checkbox {\n  display: none;\n}\n\n.slider {\n  width: 60px;\n  height: 30px;\n  background-color: lightgray;\n  border-radius: 20px;\n  overflow: hidden;\n  display: flex;\n  align-items: center;\n  border: 4px solid transparent;\n  transition: .3s;\n  box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.25) inset;\n  cursor: pointer;\n}\n\n.slider::before {\n  content: '';\n  display: block;\n  width: 100%;\n  height: 100%;\n  background-color: #fff;\n  transform: translateX(-30px);\n  border-radius: 20px;\n  transition: .3s;\n  box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);\n}\n\n.checkbox:checked ~ .slider::before {\n  transform: translateX(30px);\n  box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);\n}\n\n.checkbox:checked ~ .slider {\n  background-color: #2196F3;\n}\n\n.checkbox:active ~ .slider::before {\n  transform: translate(0);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n    <input type=\"checkbox\" class=\"checkbox\">\n    <div class=\"slider\"></div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#d3d3d3",
+  "#2196f3",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 299,
+ "size": 1198,
+ "html": "<label class=\"switch\">\n    <input type=\"checkbox\" class=\"checkbox\">\n    <div class=\"slider\"></div>\n</label>\n",
+ "css": "/* Happy Warthog 87 by Galahhad — https://uiverse.io/Galahhad/happy-warthog-87 */\n.checkbox {\n  display: none;\n}\n\n.slider {\n  width: 60px;\n  height: 30px;\n  background-color: lightgray;\n  border-radius: 20px;\n  overflow: hidden;\n  display: flex;\n  align-items: center;\n  border: 4px solid transparent;\n  transition: .3s;\n  box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.25) inset;\n  cursor: pointer;\n}\n\n.slider::before {\n  content: '';\n  display: block;\n  width: 100%;\n  height: 100%;\n  background-color: #fff;\n  transform: translateX(-30px);\n  border-radius: 20px;\n  transition: .3s;\n  box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);\n}\n\n.checkbox:checked ~ .slider::before {\n  transform: translateX(30px);\n  box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);\n}\n\n.checkbox:checked ~ .slider {\n  background-color: #2196F3;\n}\n\n.checkbox:active ~ .slider::before {\n  transform: translate(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Happy Warthog 87</title>\n<style>\n/* Happy Warthog 87 by Galahhad — https://uiverse.io/Galahhad/happy-warthog-87 */\n.checkbox {\n  display: none;\n}\n\n.slider {\n  width: 60px;\n  height: 30px;\n  background-color: lightgray;\n  border-radius: 20px;\n  overflow: hidden;\n  display: flex;\n  align-items: center;\n  border: 4px solid transparent;\n  transition: .3s;\n  box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.25) inset;\n  cursor: pointer;\n}\n\n.slider::before {\n  content: '';\n  display: block;\n  width: 100%;\n  height: 100%;\n  background-color: #fff;\n  transform: translateX(-30px);\n  border-radius: 20px;\n  transition: .3s;\n  box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);\n}\n\n.checkbox:checked ~ .slider::before {\n  transform: translateX(30px);\n  box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);\n}\n\n.checkbox:checked ~ .slider {\n  background-color: #2196F3;\n}\n\n.checkbox:active ~ .slider::before {\n  transform: translate(0);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n    <input type=\"checkbox\" class=\"checkbox\">\n    <div class=\"slider\"></div>\n</label>\n\n</body>\n</html>\n"
 }

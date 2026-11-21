@@ -5,14 +5,23 @@
  "author": "Dear31",
  "source": "https://uiverse.io/Dear31/hard-moose-96",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded white button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, transform becomes translate(-2px, -1px), box-shadow becomes 7px 7px 1px  #000000.",
  "tags": [
+  "rounded",
+  "glow",
   "button",
   "hover",
   "css"
  ],
- "html": "<button>\n  Hover me\n</button>",
- "css": "/* From Uiverse.io by Dear31 - Tags: button */\nbutton {\n  background-color: rgb(255, 255, 255);\n  border: 3px solid black;\n  padding: 12px 32px;\n  border-radius: 22px;\n  box-shadow: 2px 2px 1px  black;\n  transition: all .2s ease;\n  font-size: 1em;\n  font-weight: 800;\n}\n\nbutton:hover {\n  transform: translate(-2px, -1px);\n  box-shadow: 7px 7px 1px  rgb(0, 0, 0);\n  transition: all .2s ease-in;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Moose 96</title>\n<style>\n/* From Uiverse.io by Dear31 - https://uiverse.io/Dear31/hard-moose-96 */\n/* From Uiverse.io by Dear31 - Tags: button */\nbutton {\n  background-color: rgb(255, 255, 255);\n  border: 3px solid black;\n  padding: 12px 32px;\n  border-radius: 22px;\n  box-shadow: 2px 2px 1px  black;\n  transition: all .2s ease;\n  font-size: 1em;\n  font-weight: 800;\n}\n\nbutton:hover {\n  transform: translate(-2px, -1px);\n  box-shadow: 7px 7px 1px  rgb(0, 0, 0);\n  transition: all .2s ease-in;\n}\n</style>\n</head>\n<body>\n<button>\n  Hover me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 166,
+ "size": 665,
+ "html": "<button>\n  Hover me\n</button>\n",
+ "css": "/* Hard Moose 96 by Dear31 — https://uiverse.io/Dear31/hard-moose-96 */\nbutton {\n  background-color: rgb(255, 255, 255);\n  border: 3px solid black;\n  padding: 12px 32px;\n  border-radius: 22px;\n  box-shadow: 2px 2px 1px  black;\n  transition: all .2s ease;\n  font-size: 1em;\n  font-weight: 800;\n}\n\nbutton:hover {\n  transform: translate(-2px, -1px);\n  box-shadow: 7px 7px 1px  rgb(0, 0, 0);\n  transition: all .2s ease-in;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Moose 96</title>\n<style>\n/* Hard Moose 96 by Dear31 — https://uiverse.io/Dear31/hard-moose-96 */\nbutton {\n  background-color: rgb(255, 255, 255);\n  border: 3px solid black;\n  padding: 12px 32px;\n  border-radius: 22px;\n  box-shadow: 2px 2px 1px  black;\n  transition: all .2s ease;\n  font-size: 1em;\n  font-weight: 800;\n}\n\nbutton:hover {\n  transform: translate(-2px, -1px);\n  box-shadow: 7px 7px 1px  rgb(0, 0, 0);\n  transition: all .2s ease-in;\n}\n</style>\n</head>\n<body>\n<button>\n  Hover me\n</button>\n\n</body>\n</html>\n"
 }

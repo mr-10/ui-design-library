@@ -5,15 +5,25 @@
  "author": "Cybercom682",
  "source": "https://uiverse.io/Cybercom682/witty-mouse-32",
  "trigger": "hover",
- "description": "A input with number and quantity styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined gray number input that changes colour on hover.",
+ "howItWorks": "On hover, background-color changes to #666666.",
  "tags": [
+  "outlined",
+  "flat",
+  "color-change",
+  "number-input",
   "input",
-  "number",
-  "quantity",
-  "hover"
+  "number"
  ],
- "html": "<div class=\"number-control\">\n  <div class=\"number-left\"></div>\n  <input type=\"number\" name=\"number\" class=\"number-quantity\">\n  <div class=\"number-right\"></div>\n</div>",
- "css": "/* From Uiverse.io by Cybercom682 - Tags: input, number, quantity */\n.number-control {\n  display: flex;\n  align-items: center;\n}\n\n.number-left::before,\n.number-right::after {\n  content: attr(data-content);\n  background-color: #333333;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid black;\n  width: 20px;\n  color: white;\n  transition: background-color 0.3s;\n  cursor: pointer;\n}\n\n.number-left::before {\n  content: \"-\";\n}\n\n.number-right::after {\n  content: \"+\";\n}\n\n.number-quantity {\n  padding: 0.25rem;\n  border: 0;\n  width: 50px;\n  -moz-appearance: textfield;\n  border-top: 1px solid black;\n  border-bottom: 1px solid black;\n}\n\n.number-left:hover::before,\n.number-right:hover::after {\n  background-color: #666666;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Witty Mouse 32</title>\n<style>\n/* From Uiverse.io by Cybercom682 - https://uiverse.io/Cybercom682/witty-mouse-32 */\n/* From Uiverse.io by Cybercom682 - Tags: input, number, quantity */\n.number-control {\n  display: flex;\n  align-items: center;\n}\n\n.number-left::before,\n.number-right::after {\n  content: attr(data-content);\n  background-color: #333333;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid black;\n  width: 20px;\n  color: white;\n  transition: background-color 0.3s;\n  cursor: pointer;\n}\n\n.number-left::before {\n  content: \"-\";\n}\n\n.number-right::after {\n  content: \"+\";\n}\n\n.number-quantity {\n  padding: 0.25rem;\n  border: 0;\n  width: 50px;\n  -moz-appearance: textfield;\n  border-top: 1px solid black;\n  border-bottom: 1px solid black;\n}\n\n.number-left:hover::before,\n.number-right:hover::after {\n  background-color: #666666;\n}\n</style>\n</head>\n<body>\n<div class=\"number-control\">\n  <div class=\"number-left\"></div>\n  <input type=\"number\" name=\"number\" class=\"number-quantity\">\n  <div class=\"number-right\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#333333",
+  "#666666",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 288,
+ "size": 1153,
+ "html": "<div class=\"number-control\">\n  <div class=\"number-left\"></div>\n  <input type=\"number\" name=\"number\" class=\"number-quantity\">\n  <div class=\"number-right\"></div>\n</div>\n",
+ "css": "/* Witty Mouse 32 by Cybercom682 — https://uiverse.io/Cybercom682/witty-mouse-32 */\n.number-control {\n  display: flex;\n  align-items: center;\n}\n\n.number-left::before,\n.number-right::after {\n  content: attr(data-content);\n  background-color: #333333;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid black;\n  width: 20px;\n  color: white;\n  transition: background-color 0.3s;\n  cursor: pointer;\n}\n\n.number-left::before {\n  content: \"-\";\n}\n\n.number-right::after {\n  content: \"+\";\n}\n\n.number-quantity {\n  padding: 0.25rem;\n  border: 0;\n  width: 50px;\n  -moz-appearance: textfield;\n  border-top: 1px solid black;\n  border-bottom: 1px solid black;\n}\n\n.number-left:hover::before,\n.number-right:hover::after {\n  background-color: #666666;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Witty Mouse 32</title>\n<style>\n/* Witty Mouse 32 by Cybercom682 — https://uiverse.io/Cybercom682/witty-mouse-32 */\n.number-control {\n  display: flex;\n  align-items: center;\n}\n\n.number-left::before,\n.number-right::after {\n  content: attr(data-content);\n  background-color: #333333;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: 1px solid black;\n  width: 20px;\n  color: white;\n  transition: background-color 0.3s;\n  cursor: pointer;\n}\n\n.number-left::before {\n  content: \"-\";\n}\n\n.number-right::after {\n  content: \"+\";\n}\n\n.number-quantity {\n  padding: 0.25rem;\n  border: 0;\n  width: 50px;\n  -moz-appearance: textfield;\n  border-top: 1px solid black;\n  border-bottom: 1px solid black;\n}\n\n.number-left:hover::before,\n.number-right:hover::after {\n  background-color: #666666;\n}\n</style>\n</head>\n<body>\n<div class=\"number-control\">\n  <div class=\"number-left\"></div>\n  <input type=\"number\" name=\"number\" class=\"number-quantity\">\n  <div class=\"number-right\"></div>\n</div>\n\n</body>\n</html>\n"
 }

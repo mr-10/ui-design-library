@@ -5,14 +5,25 @@
  "author": "themrsami",
  "source": "https://uiverse.io/themrsami/heavy-puma-9",
  "trigger": "static",
- "description": "A loader UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Pill violet spinner loader with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the spinner loader is a fixed design.",
  "tags": [
-  "loaders",
-  "static",
-  "css"
+  "violet",
+  "red",
+  "rounded",
+  "pill",
+  "spinner-loader",
+  "loaders"
  ],
- "html": "<!-- From Uiverse.io by themrsami - Tags: loader, tailwind, tailwindcss, themrsami -->\n<div class=\"flex justify-center items-center h-screen\">\n  <div class=\"animate-spin ease-linear rounded-full w-10 h-10 border-t-2 border-b-2 border-purple-500\"></div>\n  <div class=\"animate-spin ease-linear rounded-full w-10 h-10 border-t-2 border-b-2 border-red-500 ml-3\"></div>\n  <div class=\"animate-spin ease-linear rounded-full w-10 h-10 border-t-2 border-b-2 border-blue-500 ml-3\"></div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Puma 9</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/heavy-puma-9 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by themrsami - Tags: loader, tailwind, tailwindcss, themrsami -->\n<div class=\"flex justify-center items-center h-screen\">\n  <div class=\"animate-spin ease-linear rounded-full w-10 h-10 border-t-2 border-b-2 border-purple-500\"></div>\n  <div class=\"animate-spin ease-linear rounded-full w-10 h-10 border-t-2 border-b-2 border-red-500 ml-3\"></div>\n  <div class=\"animate-spin ease-linear rounded-full w-10 h-10 border-t-2 border-b-2 border-blue-500 ml-3\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#a855f7",
+  "#ef4444",
+  "#3b82f6"
+ ],
+ "fonts": [],
+ "tokens": 172,
+ "size": 688,
+ "html": "<div class=\"flex justify-center items-center h-screen\">\n  <div class=\"animate-spin ease-linear rounded-full w-10 h-10 border-t-2 border-b-2 border-purple-500\"></div>\n  <div class=\"animate-spin ease-linear rounded-full w-10 h-10 border-t-2 border-b-2 border-red-500 ml-3\"></div>\n  <div class=\"animate-spin ease-linear rounded-full w-10 h-10 border-t-2 border-b-2 border-blue-500 ml-3\"></div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Puma 9</title>\n<style>\n/* Heavy Puma 9 by themrsami — https://uiverse.io/themrsami/heavy-puma-9 */\n\n</style>\n</head>\n<body>\n<div class=\"flex justify-center items-center h-screen\">\n  <div class=\"animate-spin ease-linear rounded-full w-10 h-10 border-t-2 border-b-2 border-purple-500\"></div>\n  <div class=\"animate-spin ease-linear rounded-full w-10 h-10 border-t-2 border-b-2 border-red-500 ml-3\"></div>\n  <div class=\"animate-spin ease-linear rounded-full w-10 h-10 border-t-2 border-b-2 border-blue-500 ml-3\"></div>\n</div>\n\n</body>\n</html>\n"
 }

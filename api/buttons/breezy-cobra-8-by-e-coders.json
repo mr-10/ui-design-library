@@ -5,14 +5,25 @@
  "author": "e-coders",
  "source": "https://uiverse.io/e-coders/breezy-cobra-8",
  "trigger": "active",
- "description": "A button UI element.",
- "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "description": "Red button that responds while pressed down with a smooth transition.",
+ "howItWorks": "While pressed, border-bottom becomes 0.",
  "tags": [
+  "red",
+  "flat",
   "button",
   "active",
   "css"
  ],
- "html": "<button class=\"button-3d button-3d-red\"> Button\n</button>",
- "css": "/* From Uiverse.io by e-coders - Tags: button */\nbutton.button-3d {\n margin: 10px;\n border-right: 0;\n border-left: 0;\n border-top: 0;\n font-family: inherit;\n font-size: 24px;\n padding: 8px;\n color: rgba(255, 255, 255, 0.788);\n}\n\nbutton.button-3d:active {\n border-bottom: 0;\n}\n\nbutton.button-3d {\n cursor: pointer;\n}\n\n/* RED */\n.button-3d-red {\n border-bottom: 3px solid rgb(117, 28, 28);\n background-color: rgb(248, 91, 91);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Breezy Cobra 8</title>\n<style>\n/* From Uiverse.io by e-coders - https://uiverse.io/e-coders/breezy-cobra-8 */\n/* From Uiverse.io by e-coders - Tags: button */\nbutton.button-3d {\n margin: 10px;\n border-right: 0;\n border-left: 0;\n border-top: 0;\n font-family: inherit;\n font-size: 24px;\n padding: 8px;\n color: rgba(255, 255, 255, 0.788);\n}\n\nbutton.button-3d:active {\n border-bottom: 0;\n}\n\nbutton.button-3d {\n cursor: pointer;\n}\n\n/* RED */\n.button-3d-red {\n border-bottom: 3px solid rgb(117, 28, 28);\n background-color: rgb(248, 91, 91);\n}\n</style>\n</head>\n<body>\n<button class=\"button-3d button-3d-red\"> Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#f85b5b",
+  "#ffffff"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 179,
+ "size": 719,
+ "html": "<button class=\"button-3d button-3d-red\"> Button\n</button>\n",
+ "css": "/* Breezy Cobra 8 by e-coders — https://uiverse.io/e-coders/breezy-cobra-8 */\nbutton.button-3d {\n margin: 10px;\n border-right: 0;\n border-left: 0;\n border-top: 0;\n font-family: inherit;\n font-size: 24px;\n padding: 8px;\n color: rgba(255, 255, 255, 0.788);\n}\n\nbutton.button-3d:active {\n border-bottom: 0;\n}\n\nbutton.button-3d {\n cursor: pointer;\n}\n\n.button-3d-red {\n border-bottom: 3px solid rgb(117, 28, 28);\n background-color: rgb(248, 91, 91);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Breezy Cobra 8</title>\n<style>\n/* Breezy Cobra 8 by e-coders — https://uiverse.io/e-coders/breezy-cobra-8 */\nbutton.button-3d {\n margin: 10px;\n border-right: 0;\n border-left: 0;\n border-top: 0;\n font-family: inherit;\n font-size: 24px;\n padding: 8px;\n color: rgba(255, 255, 255, 0.788);\n}\n\nbutton.button-3d:active {\n border-bottom: 0;\n}\n\nbutton.button-3d {\n cursor: pointer;\n}\n\n.button-3d-red {\n border-bottom: 3px solid rgb(117, 28, 28);\n background-color: rgb(248, 91, 91);\n}\n</style>\n</head>\n<body>\n<button class=\"button-3d button-3d-red\"> Button\n</button>\n\n</body>\n</html>\n"
 }

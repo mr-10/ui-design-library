@@ -5,14 +5,25 @@
  "author": "adamgiebl",
  "source": "https://uiverse.io/adamgiebl/giant-donkey-36",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Amber button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, transform becomes translate(-0.05em, -0.05em), box-shadow becomes 0.15em 0.15em.",
  "tags": [
+  "amber",
+  "glow",
   "button",
   "hover",
   "css"
  ],
- "html": "<button> Button\n</button>",
- "css": "/* From Uiverse.io by adamgiebl - Tags: button */\nbutton {\n  background: #FBCA1F;\n  font-family: inherit;\n  padding: 0.6em 1.3em;\n  font-weight: 900;\n  font-size: 18px;\n  border: 3px solid black;\n  border-radius: 0.4em;\n  box-shadow: 0.1em 0.1em;\n}\n\nbutton:hover {\n  transform: translate(-0.05em, -0.05em);\n  box-shadow: 0.15em 0.15em;\n}\n\nbutton:active {\n  transform: translate(0.05em, 0.05em);\n  box-shadow: 0.05em 0.05em;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Donkey 36</title>\n<style>\n/* From Uiverse.io by adamgiebl - https://uiverse.io/adamgiebl/giant-donkey-36 */\n/* From Uiverse.io by adamgiebl - Tags: button */\nbutton {\n  background: #FBCA1F;\n  font-family: inherit;\n  padding: 0.6em 1.3em;\n  font-weight: 900;\n  font-size: 18px;\n  border: 3px solid black;\n  border-radius: 0.4em;\n  box-shadow: 0.1em 0.1em;\n}\n\nbutton:hover {\n  transform: translate(-0.05em, -0.05em);\n  box-shadow: 0.15em 0.15em;\n}\n\nbutton:active {\n  transform: translate(0.05em, 0.05em);\n  box-shadow: 0.05em 0.05em;\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#fbca1f",
+  "#000000"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 174,
+ "size": 700,
+ "html": "<button> Button\n</button>\n",
+ "css": "/* Giant Donkey 36 by adamgiebl — https://uiverse.io/adamgiebl/giant-donkey-36 */\nbutton {\n  background: #FBCA1F;\n  font-family: inherit;\n  padding: 0.6em 1.3em;\n  font-weight: 900;\n  font-size: 18px;\n  border: 3px solid black;\n  border-radius: 0.4em;\n  box-shadow: 0.1em 0.1em;\n}\n\nbutton:hover {\n  transform: translate(-0.05em, -0.05em);\n  box-shadow: 0.15em 0.15em;\n}\n\nbutton:active {\n  transform: translate(0.05em, 0.05em);\n  box-shadow: 0.05em 0.05em;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Donkey 36</title>\n<style>\n/* Giant Donkey 36 by adamgiebl — https://uiverse.io/adamgiebl/giant-donkey-36 */\nbutton {\n  background: #FBCA1F;\n  font-family: inherit;\n  padding: 0.6em 1.3em;\n  font-weight: 900;\n  font-size: 18px;\n  border: 3px solid black;\n  border-radius: 0.4em;\n  box-shadow: 0.1em 0.1em;\n}\n\nbutton:hover {\n  transform: translate(-0.05em, -0.05em);\n  box-shadow: 0.15em 0.15em;\n}\n\nbutton:active {\n  transform: translate(0.05em, 0.05em);\n  box-shadow: 0.05em 0.05em;\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n\n</body>\n</html>\n"
 }

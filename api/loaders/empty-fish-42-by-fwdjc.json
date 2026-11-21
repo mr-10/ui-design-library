@@ -5,17 +5,24 @@
  "author": "FWDJc",
  "source": "https://uiverse.io/FWDJc/empty-fish-42",
  "trigger": "auto-loop",
- "description": "A loader with simple, animation and heart styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Rounded white loader with changing colour; pulsing motion in a loop.",
+ "howItWorks": "It loops a 1s animation (changing colour; pulsing).",
  "tags": [
+  "rounded",
+  "flat",
+  "pulse",
   "simple",
   "animation",
-  "loader",
-  "heart",
-  "bounce-animation",
-  "css-animation"
+  "loader"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by FWDJc - Tags: simple, animation, loader, heart, bounce animation, css animation */\n.loader {\n  width: 7em;\n  height: 5em;\n  position: relative;\n  animation: beat 1s infinite;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  width: 50px;\n  height: 80px;\n  border-radius: 5em 5em 0 0;\n  animation: coldblue 1s infinite;\n}\n\n.loader::before {\n  left: 50px;\n  transform: rotate(-45deg);\n  transform-origin: 0 100%;\n}\n\n.loader::after {\n  left: 0;\n  transform: rotate(45deg);\n  transform-origin: 100% 100%;\n}\n\n@keyframes beat {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.2);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n@keyframes coldblue {\n  0%, 100% {\n    background-color: rgb(255, 255, 255);\n  }\n\n  50% {\n    background-color: rgb(91, 91, 241);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Empty Fish 42</title>\n<style>\n/* From Uiverse.io by FWDJc - https://uiverse.io/FWDJc/empty-fish-42 */\n/* From Uiverse.io by FWDJc - Tags: simple, animation, loader, heart, bounce animation, css animation */\n.loader {\n  width: 7em;\n  height: 5em;\n  position: relative;\n  animation: beat 1s infinite;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  width: 50px;\n  height: 80px;\n  border-radius: 5em 5em 0 0;\n  animation: coldblue 1s infinite;\n}\n\n.loader::before {\n  left: 50px;\n  transform: rotate(-45deg);\n  transform-origin: 0 100%;\n}\n\n.loader::after {\n  left: 0;\n  transform: rotate(45deg);\n  transform-origin: 100% 100%;\n}\n\n@keyframes beat {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.2);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n@keyframes coldblue {\n  0%, 100% {\n    background-color: rgb(255, 255, 255);\n  }\n\n  50% {\n    background-color: rgb(91, 91, 241);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 260,
+ "size": 1040,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Empty Fish 42 by FWDJc — https://uiverse.io/FWDJc/empty-fish-42 */\n.loader {\n  width: 7em;\n  height: 5em;\n  position: relative;\n  animation: beat 1s infinite;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  width: 50px;\n  height: 80px;\n  border-radius: 5em 5em 0 0;\n  animation: coldblue 1s infinite;\n}\n\n.loader::before {\n  left: 50px;\n  transform: rotate(-45deg);\n  transform-origin: 0 100%;\n}\n\n.loader::after {\n  left: 0;\n  transform: rotate(45deg);\n  transform-origin: 100% 100%;\n}\n\n@keyframes beat {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.2);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n@keyframes coldblue {\n  0%, 100% {\n    background-color: rgb(255, 255, 255);\n  }\n\n  50% {\n    background-color: rgb(91, 91, 241);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Empty Fish 42</title>\n<style>\n/* Empty Fish 42 by FWDJc — https://uiverse.io/FWDJc/empty-fish-42 */\n.loader {\n  width: 7em;\n  height: 5em;\n  position: relative;\n  animation: beat 1s infinite;\n}\n\n.loader::before,\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  width: 50px;\n  height: 80px;\n  border-radius: 5em 5em 0 0;\n  animation: coldblue 1s infinite;\n}\n\n.loader::before {\n  left: 50px;\n  transform: rotate(-45deg);\n  transform-origin: 0 100%;\n}\n\n.loader::after {\n  left: 0;\n  transform: rotate(45deg);\n  transform-origin: 100% 100%;\n}\n\n@keyframes beat {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    transform: scale(1.2);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n@keyframes coldblue {\n  0%, 100% {\n    background-color: rgb(255, 255, 255);\n  }\n\n  50% {\n    background-color: rgb(91, 91, 241);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

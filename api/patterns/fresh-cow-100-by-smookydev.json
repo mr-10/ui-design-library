@@ -5,17 +5,24 @@
  "author": "SmookyDev",
  "source": "https://uiverse.io/SmookyDev/fresh-cow-100",
  "trigger": "auto-loop",
- "description": "A pattern with glassmorphism, animation and transition styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient orange pattern with a smooth transition with soft edges.",
+ "howItWorks": "It animates on its own in a loop; no interaction needed.",
  "tags": [
-  "glassmorphism",
-  "animation",
-  "transition",
-  "css",
-  "css-effect",
-  "pattern"
+  "orange",
+  "gradient",
+  "outlined",
+  "flat",
+  "pattern",
+  "glassmorphism"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by SmookyDev  - Tags: glassmorphism, animation, transition, css, css effect, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n      45deg,\n      white 12%,\n      transparent 0,\n      transparent 88%,\n      wheat 0\n    ),\n    linear-gradient(135deg, transparent 37%, #753 0, #753 63%, transparent 0),\n    linear-gradient(45deg, transparent 37%, white 0, white 63%, transparent 0)\n      wheat;\n  background-size: 80px 80px;\n  animation: ani 10s linear infinite;\n  position: relative;\n  z-index: 10;\n  overflow: hidden;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fresh Cow 100</title>\n<style>\n/* From Uiverse.io by SmookyDev - https://uiverse.io/SmookyDev/fresh-cow-100 */\n/* From Uiverse.io by SmookyDev  - Tags: glassmorphism, animation, transition, css, css effect, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n      45deg,\n      white 12%,\n      transparent 0,\n      transparent 88%,\n      wheat 0\n    ),\n    linear-gradient(135deg, transparent 37%, #753 0, #753 63%, transparent 0),\n    linear-gradient(45deg, transparent 37%, white 0, white 63%, transparent 0)\n      wheat;\n  background-size: 80px 80px;\n  animation: ani 10s linear infinite;\n  position: relative;\n  z-index: 10;\n  overflow: hidden;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#775533",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 197,
+ "size": 790,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Fresh Cow 100 by SmookyDev — https://uiverse.io/SmookyDev/fresh-cow-100 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n      45deg,\n      white 12%,\n      transparent 0,\n      transparent 88%,\n      wheat 0\n    ),\n    linear-gradient(135deg, transparent 37%, #753 0, #753 63%, transparent 0),\n    linear-gradient(45deg, transparent 37%, white 0, white 63%, transparent 0)\n      wheat;\n  background-size: 80px 80px;\n  animation: ani 10s linear infinite;\n  position: relative;\n  z-index: 10;\n  overflow: hidden;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fresh Cow 100</title>\n<style>\n/* Fresh Cow 100 by SmookyDev — https://uiverse.io/SmookyDev/fresh-cow-100 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n      45deg,\n      white 12%,\n      transparent 0,\n      transparent 88%,\n      wheat 0\n    ),\n    linear-gradient(135deg, transparent 37%, #753 0, #753 63%, transparent 0),\n    linear-gradient(45deg, transparent 37%, white 0, white 63%, transparent 0)\n      wheat;\n  background-size: 80px 80px;\n  animation: ani 10s linear infinite;\n  position: relative;\n  z-index: 10;\n  overflow: hidden;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

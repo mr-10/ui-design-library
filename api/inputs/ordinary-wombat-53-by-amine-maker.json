@@ -5,15 +5,25 @@
  "author": "Amine-maker",
  "source": "https://uiverse.io/Amine-maker/ordinary-wombat-53",
  "trigger": "focus",
- "description": "A input with active and account styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Outlined rounded dark blue text input that lights up when focused.",
+ "howItWorks": "On focus, top becomes -20% !important, left becomes 2px !important, transform becomes scale(0.8).",
  "tags": [
-  "active",
+  "blue",
+  "outlined",
+  "rounded",
+  "text-input",
   "input",
-  "account",
-  "focus"
+  "account"
  ],
- "html": "<div class=\"relative\">\n  <input class=\"input-cal input-base\" id=\"input\" placeholder=\"\" type=\"text\">\n  <label id=\"label-input\">Name</label>\n</div>",
- "css": "/* From Uiverse.io by Amine-maker - Tags: active, input, account */\n#label-input {\n  transition: all 0.1s ease-in-out;\n  color: #2c2c54;\n  position: absolute;\n  top: 30%;\n  left: 18px;\n  transform: scale(0.95);\n  opacity: 1;\n  pointer-events: none;\n}\n\n.input-base {\n  border-radius: 10px;\n}\n\n#input:focus ~ label#label-input,\n#input:not(:placeholder-shown) ~ #label-input {\n  top: -20% !important;\n  left: 2px !important;\n  transform: scale(0.8);\n  background: white;\n  color: black;\n  padding: 0 6px;\n  opacity: 1;\n}\n\n#input {\n  transition: outline 0.2s ease;\n  font-size: 1rem;\n  outline-color: var(--button-text);\n  outline: unset;\n  border: 1px solid #bbbbbb;\n  padding: 17px 10px 10px 17px;\n  width: 100%;\n}\n\n#input:focus {\n  box-shadow: 0 0 0 1px #e8e8e8, 0 0 0 3px rgb(92, 127, 202);\n}\n\n.relative {\n  position: relative;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ordinary Wombat 53</title>\n<style>\n/* From Uiverse.io by Amine-maker - https://uiverse.io/Amine-maker/ordinary-wombat-53 */\n/* From Uiverse.io by Amine-maker - Tags: active, input, account */\n#label-input {\n  transition: all 0.1s ease-in-out;\n  color: #2c2c54;\n  position: absolute;\n  top: 30%;\n  left: 18px;\n  transform: scale(0.95);\n  opacity: 1;\n  pointer-events: none;\n}\n\n.input-base {\n  border-radius: 10px;\n}\n\n#input:focus ~ label#label-input,\n#input:not(:placeholder-shown) ~ #label-input {\n  top: -20% !important;\n  left: 2px !important;\n  transform: scale(0.8);\n  background: white;\n  color: black;\n  padding: 0 6px;\n  opacity: 1;\n}\n\n#input {\n  transition: outline 0.2s ease;\n  font-size: 1rem;\n  outline-color: var(--button-text);\n  outline: unset;\n  border: 1px solid #bbbbbb;\n  padding: 17px 10px 10px 17px;\n  width: 100%;\n}\n\n#input:focus {\n  box-shadow: 0 0 0 1px #e8e8e8, 0 0 0 3px rgb(92, 127, 202);\n}\n\n.relative {\n  position: relative;\n}\n</style>\n</head>\n<body>\n<div class=\"relative\">\n  <input class=\"input-cal input-base\" id=\"input\" placeholder=\"\" type=\"text\">\n  <label id=\"label-input\">Name</label>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#2c2c54",
+  "#bbbbbb",
+  "#e8e8e8"
+ ],
+ "fonts": [],
+ "tokens": 304,
+ "size": 1219,
+ "html": "<div class=\"relative\">\n  <input class=\"input-cal input-base\" id=\"input\" placeholder=\"\" type=\"text\">\n  <label id=\"label-input\">Name</label>\n</div>\n",
+ "css": "/* Ordinary Wombat 53 by Amine-maker — https://uiverse.io/Amine-maker/ordinary-wombat-53 */\n#label-input {\n  transition: all 0.1s ease-in-out;\n  color: #2c2c54;\n  position: absolute;\n  top: 30%;\n  left: 18px;\n  transform: scale(0.95);\n  opacity: 1;\n  pointer-events: none;\n}\n\n.input-base {\n  border-radius: 10px;\n}\n\n#input:focus ~ label#label-input,\n#input:not(:placeholder-shown) ~ #label-input {\n  top: -20% !important;\n  left: 2px !important;\n  transform: scale(0.8);\n  background: white;\n  color: black;\n  padding: 0 6px;\n  opacity: 1;\n}\n\n#input {\n  transition: outline 0.2s ease;\n  font-size: 1rem;\n  outline-color: var(--button-text);\n  outline: unset;\n  border: 1px solid #bbbbbb;\n  padding: 17px 10px 10px 17px;\n  width: 100%;\n}\n\n#input:focus {\n  box-shadow: 0 0 0 1px #e8e8e8, 0 0 0 3px rgb(92, 127, 202);\n}\n\n.relative {\n  position: relative;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ordinary Wombat 53</title>\n<style>\n/* Ordinary Wombat 53 by Amine-maker — https://uiverse.io/Amine-maker/ordinary-wombat-53 */\n#label-input {\n  transition: all 0.1s ease-in-out;\n  color: #2c2c54;\n  position: absolute;\n  top: 30%;\n  left: 18px;\n  transform: scale(0.95);\n  opacity: 1;\n  pointer-events: none;\n}\n\n.input-base {\n  border-radius: 10px;\n}\n\n#input:focus ~ label#label-input,\n#input:not(:placeholder-shown) ~ #label-input {\n  top: -20% !important;\n  left: 2px !important;\n  transform: scale(0.8);\n  background: white;\n  color: black;\n  padding: 0 6px;\n  opacity: 1;\n}\n\n#input {\n  transition: outline 0.2s ease;\n  font-size: 1rem;\n  outline-color: var(--button-text);\n  outline: unset;\n  border: 1px solid #bbbbbb;\n  padding: 17px 10px 10px 17px;\n  width: 100%;\n}\n\n#input:focus {\n  box-shadow: 0 0 0 1px #e8e8e8, 0 0 0 3px rgb(92, 127, 202);\n}\n\n.relative {\n  position: relative;\n}\n</style>\n</head>\n<body>\n<div class=\"relative\">\n  <input class=\"input-cal input-base\" id=\"input\" placeholder=\"\" type=\"text\">\n  <label id=\"label-input\">Name</label>\n</div>\n\n</body>\n</html>\n"
 }

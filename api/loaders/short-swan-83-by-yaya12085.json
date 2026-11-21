@@ -5,16 +5,24 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/short-swan-83",
  "trigger": "auto-loop",
- "description": "A loader with loading, progress-bar and colorful styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined white loader with changing colour motion in a loop.",
+ "howItWorks": "It loops a 2s animation (changing colour, growing and shrinking).",
  "tags": [
+  "outlined",
+  "flat",
   "loading",
   "progress-bar",
   "loader",
-  "colorful",
-  "auto-loop"
+  "colorful"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by Yaya12085 - Tags: loading, progress bar, loader, colorful */\n.loader {\n  box-sizing: border-box;\n  position: relative;\n  display: block;\n  width: 60px;\n  height: 22px;\n  border: 2px solid;\n  border-radius: 3px;\n  margin-left: -3px\n}\n\n.loader::after,\n.loader::before {\n  content: \"\";\n  display: block;\n  box-sizing: border-box;\n  position: absolute;\n  height: 12px;\n  background: currentColor;\n  top: 3px\n}\n\n.loader::before {\n  right: -4px;\n  border-radius: 3px;\n  width: 4px\n}\n\n.loader::after {\n  width: 1px;\n  left: 3px;\n  animation: full 2s ease-in-out infinite;\n}\n\n@keyframes full {\n  20% {\n    background-color: red\n  }\n\n  45% {\n    background-color: yellow;\n  }\n\n  to {\n    width: 50px;\n    background-color: greenyellow;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Short Swan 83</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/short-swan-83 */\n/* From Uiverse.io by Yaya12085 - Tags: loading, progress bar, loader, colorful */\n.loader {\n  box-sizing: border-box;\n  position: relative;\n  display: block;\n  width: 60px;\n  height: 22px;\n  border: 2px solid;\n  border-radius: 3px;\n  margin-left: -3px\n}\n\n.loader::after,\n.loader::before {\n  content: \"\";\n  display: block;\n  box-sizing: border-box;\n  position: absolute;\n  height: 12px;\n  background: currentColor;\n  top: 3px\n}\n\n.loader::before {\n  right: -4px;\n  border-radius: 3px;\n  width: 4px\n}\n\n.loader::after {\n  width: 1px;\n  left: 3px;\n  animation: full 2s ease-in-out infinite;\n}\n\n@keyframes full {\n  20% {\n    background-color: red\n  }\n\n  45% {\n    background-color: yellow;\n  }\n\n  to {\n    width: 50px;\n    background-color: greenyellow;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 247,
+ "size": 991,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Short Swan 83 by Yaya12085 — https://uiverse.io/Yaya12085/short-swan-83 */\n.loader {\n  box-sizing: border-box;\n  position: relative;\n  display: block;\n  width: 60px;\n  height: 22px;\n  border: 2px solid;\n  border-radius: 3px;\n  margin-left: -3px\n}\n\n.loader::after,\n.loader::before {\n  content: \"\";\n  display: block;\n  box-sizing: border-box;\n  position: absolute;\n  height: 12px;\n  background: currentColor;\n  top: 3px\n}\n\n.loader::before {\n  right: -4px;\n  border-radius: 3px;\n  width: 4px\n}\n\n.loader::after {\n  width: 1px;\n  left: 3px;\n  animation: full 2s ease-in-out infinite;\n}\n\n@keyframes full {\n  20% {\n    background-color: red\n  }\n\n  45% {\n    background-color: yellow;\n  }\n\n  to {\n    width: 50px;\n    background-color: greenyellow;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Short Swan 83</title>\n<style>\n/* Short Swan 83 by Yaya12085 — https://uiverse.io/Yaya12085/short-swan-83 */\n.loader {\n  box-sizing: border-box;\n  position: relative;\n  display: block;\n  width: 60px;\n  height: 22px;\n  border: 2px solid;\n  border-radius: 3px;\n  margin-left: -3px\n}\n\n.loader::after,\n.loader::before {\n  content: \"\";\n  display: block;\n  box-sizing: border-box;\n  position: absolute;\n  height: 12px;\n  background: currentColor;\n  top: 3px\n}\n\n.loader::before {\n  right: -4px;\n  border-radius: 3px;\n  width: 4px\n}\n\n.loader::after {\n  width: 1px;\n  left: 3px;\n  animation: full 2s ease-in-out infinite;\n}\n\n@keyframes full {\n  20% {\n    background-color: red\n  }\n\n  45% {\n    background-color: yellow;\n  }\n\n  to {\n    width: 50px;\n    background-color: greenyellow;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

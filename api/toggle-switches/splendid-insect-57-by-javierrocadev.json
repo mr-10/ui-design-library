@@ -5,14 +5,23 @@
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/splendid-insect-57",
  "trigger": "checked",
- "description": "A toggle switch UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Light sky-blue toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "blue",
+  "toggle-switch",
   "toggle-switches",
   "checked",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Javierrocadev - Source: Javierrocadev - Tags: simple, blue, switch, yes, no, tailwind -->\n<label class=\"relative inline-flex items-center cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\">\n    <div class=\"peer outline-none duration-100 after:duration-500 w-28 h-14 bg-blue-300 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-500  after:content-['No'] after:absolute after:outline-none after:h-12 after:w-12 after:bg-white after:top-1 after:left-1 after:flex after:justify-center after:items-center  after:text-sky-800 after:font-bold peer-checked:after:translate-x-14 peer-checked:after:content-['Yes'] peer-checked:after:border-white\">\n  </div>\n</label>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Splendid Insect 57</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/splendid-insect-57 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev - Source: Javierrocadev - Tags: simple, blue, switch, yes, no, tailwind -->\n<label class=\"relative inline-flex items-center cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\">\n    <div class=\"peer outline-none duration-100 after:duration-500 w-28 h-14 bg-blue-300 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-500  after:content-['No'] after:absolute after:outline-none after:h-12 after:w-12 after:bg-white after:top-1 after:left-1 after:flex after:justify-center after:items-center  after:text-sky-800 after:font-bold peer-checked:after:translate-x-14 peer-checked:after:content-['Yes'] peer-checked:after:border-white\">\n  </div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#93c5fd",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 229,
+ "size": 918,
+ "html": "<label class=\"relative inline-flex items-center cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\">\n    <div class=\"peer outline-none duration-100 after:duration-500 w-28 h-14 bg-blue-300 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-500  after:content-['No'] after:absolute after:outline-none after:h-12 after:w-12 after:bg-white after:top-1 after:left-1 after:flex after:justify-center after:items-center  after:text-sky-800 after:font-bold peer-checked:after:translate-x-14 peer-checked:after:content-['Yes'] peer-checked:after:border-white\">\n  </div>\n</label>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Splendid Insect 57</title>\n<style>\n/* Splendid Insect 57 by Javierrocadev — https://uiverse.io/Javierrocadev/splendid-insect-57 */\n\n</style>\n</head>\n<body>\n<label class=\"relative inline-flex items-center cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\">\n    <div class=\"peer outline-none duration-100 after:duration-500 w-28 h-14 bg-blue-300 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-500  after:content-['No'] after:absolute after:outline-none after:h-12 after:w-12 after:bg-white after:top-1 after:left-1 after:flex after:justify-center after:items-center  after:text-sky-800 after:font-bold peer-checked:after:translate-x-14 peer-checked:after:content-['Yes'] peer-checked:after:border-white\">\n  </div>\n</label>\n\n</body>\n</html>\n"
 }

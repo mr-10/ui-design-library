@@ -5,15 +5,24 @@
  "author": "tsd29142",
  "source": "https://uiverse.io/tsd29142/grumpy-chicken-19",
  "trigger": "hover",
- "description": "A card with box-shadow and aesthetic styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient 3d rounded black card that reacts on hover.",
+ "howItWorks": "On hover, transform becomes rotateY(19deg).",
  "tags": [
+  "gradient",
+  "3d",
+  "rounded",
   "card",
   "hover",
-  "box-shadow",
-  "aesthetic"
+  "box-shadow"
  ],
- "html": "<div class=\"container\">\n  <div class=\"card\">\n  \n  </div>\n    </div>",
- "css": "/* From Uiverse.io by tsd29142 - Tags: card, hover, box-shadow, aesthetic */\n.card {\n  height: 250px;\n  width: 190px;\n  background-image: linear-gradient(to top,   #210c93, #0d117a, #011160, #010e47, #07052e);\n  box-shadow: rgba(0, 0, 0, 0.24) -20px 30px 10px;\n  transform-style: preserve-3d;\n  transform: perspective(400px)\n  rotateX(60deg)\n  rotateZ(-30deg);\n  border-radius: 10px;\n  transition: transform 2s;\n}\n\n.card:hover {\n  transform: rotateY(19deg);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Grumpy Chicken 19</title>\n<style>\n/* From Uiverse.io by tsd29142 - https://uiverse.io/tsd29142/grumpy-chicken-19 */\n/* From Uiverse.io by tsd29142 - Tags: card, hover, box-shadow, aesthetic */\n.card {\n  height: 250px;\n  width: 190px;\n  background-image: linear-gradient(to top,   #210c93, #0d117a, #011160, #010e47, #07052e);\n  box-shadow: rgba(0, 0, 0, 0.24) -20px 30px 10px;\n  transform-style: preserve-3d;\n  transform: perspective(400px)\n  rotateX(60deg)\n  rotateZ(-30deg);\n  border-radius: 10px;\n  transition: transform 2s;\n}\n\n.card:hover {\n  transform: rotateY(19deg);\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <div class=\"card\">\n  \n  </div>\n    </div>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 187,
+ "size": 751,
+ "html": "<div class=\"container\">\n  <div class=\"card\">\n\n  </div>\n    </div>\n",
+ "css": "/* Grumpy Chicken 19 by tsd29142 — https://uiverse.io/tsd29142/grumpy-chicken-19 */\n.card {\n  height: 250px;\n  width: 190px;\n  background-image: linear-gradient(to top,   #210c93, #0d117a, #011160, #010e47, #07052e);\n  box-shadow: rgba(0, 0, 0, 0.24) -20px 30px 10px;\n  transform-style: preserve-3d;\n  transform: perspective(400px)\n  rotateX(60deg)\n  rotateZ(-30deg);\n  border-radius: 10px;\n  transition: transform 2s;\n}\n\n.card:hover {\n  transform: rotateY(19deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Grumpy Chicken 19</title>\n<style>\n/* Grumpy Chicken 19 by tsd29142 — https://uiverse.io/tsd29142/grumpy-chicken-19 */\n.card {\n  height: 250px;\n  width: 190px;\n  background-image: linear-gradient(to top,   #210c93, #0d117a, #011160, #010e47, #07052e);\n  box-shadow: rgba(0, 0, 0, 0.24) -20px 30px 10px;\n  transform-style: preserve-3d;\n  transform: perspective(400px)\n  rotateX(60deg)\n  rotateZ(-30deg);\n  border-radius: 10px;\n  transition: transform 2s;\n}\n\n.card:hover {\n  transform: rotateY(19deg);\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <div class=\"card\">\n\n  </div>\n    </div>\n\n</body>\n</html>\n"
 }

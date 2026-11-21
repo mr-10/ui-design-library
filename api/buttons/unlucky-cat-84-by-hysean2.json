@@ -5,16 +5,25 @@
  "author": "Hysean2",
  "source": "https://uiverse.io/Hysean2/unlucky-cat-84",
  "trigger": "hover",
- "description": "A button with simple, minimalist and modern styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient dark rounded indigo button that scales up on hover.",
+ "howItWorks": "On hover, transform becomes scale(1.15), border becomes none, background changes from #222222 to linear-gradient(\n    -80deg,\n    #965de9 10%,\n    #6358ee 95%\n  ).",
  "tags": [
-  "simple",
-  "minimalist",
-  "button",
-  "modern",
-  "hover"
+  "indigo",
+  "gradient",
+  "dark",
+  "rounded",
+  "flat",
+  "scale"
  ],
- "html": "<button class=\"button\">Click me</button>",
- "css": "/* From Uiverse.io by Hysean2  - Tags: simple, minimalist, button, modern */\n.button {\n  cursor: pointer;\n  padding: 1em 1.8em;\n  border-radius: 2em;\n  border: 3px solid #414141;\n  font-weight: bold;\n  font-size: 1em;\n  color: white;\n  background-color: #222222;\n  transition: transform 0.3s ease;\n}\n\n.button:hover {\n  transform: scale(1.15);\n  border: none;\n  background: linear-gradient(\n    -80deg,\n    rgba(150, 93, 233, 1) 10%,\n    rgba(99, 88, 238, 1) 95%\n  );\n}\n\n.button:active {\n  transform: scale(0.95);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Unlucky Cat 84</title>\n<style>\n/* From Uiverse.io by Hysean2 - https://uiverse.io/Hysean2/unlucky-cat-84 */\n/* From Uiverse.io by Hysean2  - Tags: simple, minimalist, button, modern */\n.button {\n  cursor: pointer;\n  padding: 1em 1.8em;\n  border-radius: 2em;\n  border: 3px solid #414141;\n  font-weight: bold;\n  font-size: 1em;\n  color: white;\n  background-color: #222222;\n  transition: transform 0.3s ease;\n}\n\n.button:hover {\n  transform: scale(1.15);\n  border: none;\n  background: linear-gradient(\n    -80deg,\n    rgba(150, 93, 233, 1) 10%,\n    rgba(99, 88, 238, 1) 95%\n  );\n}\n\n.button:active {\n  transform: scale(0.95);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Click me</button>\n</body>\n</html>\n"
+ "colors": [
+  "#414141",
+  "#222222",
+  "#965de9"
+ ],
+ "fonts": [],
+ "tokens": 192,
+ "size": 770,
+ "html": "<button class=\"button\">Click me</button>\n",
+ "css": "/* Unlucky Cat 84 by Hysean2 — https://uiverse.io/Hysean2/unlucky-cat-84 */\n.button {\n  cursor: pointer;\n  padding: 1em 1.8em;\n  border-radius: 2em;\n  border: 3px solid #414141;\n  font-weight: bold;\n  font-size: 1em;\n  color: white;\n  background-color: #222222;\n  transition: transform 0.3s ease;\n}\n\n.button:hover {\n  transform: scale(1.15);\n  border: none;\n  background: linear-gradient(\n    -80deg,\n    rgba(150, 93, 233, 1) 10%,\n    rgba(99, 88, 238, 1) 95%\n  );\n}\n\n.button:active {\n  transform: scale(0.95);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Unlucky Cat 84</title>\n<style>\n/* Unlucky Cat 84 by Hysean2 — https://uiverse.io/Hysean2/unlucky-cat-84 */\n.button {\n  cursor: pointer;\n  padding: 1em 1.8em;\n  border-radius: 2em;\n  border: 3px solid #414141;\n  font-weight: bold;\n  font-size: 1em;\n  color: white;\n  background-color: #222222;\n  transition: transform 0.3s ease;\n}\n\n.button:hover {\n  transform: scale(1.15);\n  border: none;\n  background: linear-gradient(\n    -80deg,\n    rgba(150, 93, 233, 1) 10%,\n    rgba(99, 88, 238, 1) 95%\n  );\n}\n\n.button:active {\n  transform: scale(0.95);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Click me</button>\n\n</body>\n</html>\n"
 }

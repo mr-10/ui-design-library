@@ -5,15 +5,24 @@
  "author": "rrr63",
  "source": "https://uiverse.io/rrr63/empty-cow-96",
  "trigger": "hover",
- "description": "A button with outlined and bootsrap-button styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Blue button that reacts on hover with a smooth transition.",
+ "howItWorks": "On hover, outline becomes 3px solid #2835ba.",
  "tags": [
+  "blue",
+  "flat",
   "button",
   "hover",
   "outlined",
   "bootsrap-button"
  ],
- "html": "<button class=\"button\">\n  Hover me !\n</button>",
- "css": "/* From Uiverse.io by rrr63 - Tags: button, hover, outlined, bootsrap button */\n.button {\n  font-size: 17px;\n  padding: 15px 35px;\n  border-radius: 5px;\n  outline: 2px solid #2835ba;\n  outline-offset: 0px;\n  background: #2835ba;\n  border: 0;\n  font-weight: bolder;\n  color: white;\n  transition: all .1s ease-in-out;\n  cursor: pointer;\n}\n\n.button:hover {\n  outline-offset: 3px;\n  outline: 3px solid #2835ba;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Empty Cow 96</title>\n<style>\n/* From Uiverse.io by rrr63 - https://uiverse.io/rrr63/empty-cow-96 */\n/* From Uiverse.io by rrr63 - Tags: button, hover, outlined, bootsrap button */\n.button {\n  font-size: 17px;\n  padding: 15px 35px;\n  border-radius: 5px;\n  outline: 2px solid #2835ba;\n  outline-offset: 0px;\n  background: #2835ba;\n  border: 0;\n  font-weight: bolder;\n  color: white;\n  transition: all .1s ease-in-out;\n  cursor: pointer;\n}\n\n.button:hover {\n  outline-offset: 3px;\n  outline: 3px solid #2835ba;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Hover me !\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#2835ba",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 164,
+ "size": 657,
+ "html": "<button class=\"button\">\n  Hover me !\n</button>\n",
+ "css": "/* Empty Cow 96 by rrr63 — https://uiverse.io/rrr63/empty-cow-96 */\n.button {\n  font-size: 17px;\n  padding: 15px 35px;\n  border-radius: 5px;\n  outline: 2px solid #2835ba;\n  outline-offset: 0px;\n  background: #2835ba;\n  border: 0;\n  font-weight: bolder;\n  color: white;\n  transition: all .1s ease-in-out;\n  cursor: pointer;\n}\n\n.button:hover {\n  outline-offset: 3px;\n  outline: 3px solid #2835ba;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Empty Cow 96</title>\n<style>\n/* Empty Cow 96 by rrr63 — https://uiverse.io/rrr63/empty-cow-96 */\n.button {\n  font-size: 17px;\n  padding: 15px 35px;\n  border-radius: 5px;\n  outline: 2px solid #2835ba;\n  outline-offset: 0px;\n  background: #2835ba;\n  border: 0;\n  font-weight: bolder;\n  color: white;\n  transition: all .1s ease-in-out;\n  cursor: pointer;\n}\n\n.button:hover {\n  outline-offset: 3px;\n  outline: 3px solid #2835ba;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Hover me !\n</button>\n\n</body>\n</html>\n"
 }

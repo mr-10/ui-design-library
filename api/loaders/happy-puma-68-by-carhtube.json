@@ -5,17 +5,25 @@
  "author": "carhtube",
  "source": "https://uiverse.io/carhtube/happy-puma-68",
  "trigger": "auto-loop",
- "description": "A loader with animation, loading and circle-loader styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient pill indigo spinner loader with rotating; shimmering motion in a loop.",
+ "howItWorks": "It loops a 10s animation (rotating; shimmering).",
  "tags": [
-  "animation",
-  "loading",
-  "loader",
-  "circle-loader",
-  "click-animation",
-  "effect-loader"
+  "indigo",
+  "cyan",
+  "gradient",
+  "rounded",
+  "pill",
+  "flat"
  ],
- "html": "<div class=\"loader\">\n  <div class=\"worm\"></div>\n  <div class=\"circleMiddle\"></div>\n</div>",
- "css": "/* From Uiverse.io by carhtube  - Tags: animation, loading, loader, circle loader, click animation, effect loader, bounce animation, 3d loader */\n.loader {\n  background: linear-gradient(\n    90deg,\n    #6f22ff,\n    #00aaff,\n    #2cc92c,\n    #00aaff,\n    #6f22ff\n  );\n  background-size: 600% 600%;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  animation: neonRotate 10s linear infinite;\n  position: relative;\n}\n.circleMiddle {\n  background-color: rgb(255, 255, 255);\n  width: 80px;\n  height: 80px;\n  border-radius: 50%;\n  z-index: 99;\n}\n.worm {\n  position: absolute;\n  width: 20px;\n  height: 105px;\n  background-color: hsl(0, 0%, 100%);\n  border-radius: 5px;\n  animation: rotateWorm 4s linear infinite;\n  z-index: 80;\n}\n@keyframes neonRotate {\n  0%,\n  100% {\n    background-position: 0% 0%;\n  }\n  25%,\n  75% {\n    background-position: 100% 0%;\n  }\n  50% {\n    background-position: 0% 100%;\n  }\n}\n@keyframes rotateWorm {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Happy Puma 68</title>\n<style>\n/* From Uiverse.io by carhtube - https://uiverse.io/carhtube/happy-puma-68 */\n/* From Uiverse.io by carhtube  - Tags: animation, loading, loader, circle loader, click animation, effect loader, bounce animation, 3d loader */\n.loader {\n  background: linear-gradient(\n    90deg,\n    #6f22ff,\n    #00aaff,\n    #2cc92c,\n    #00aaff,\n    #6f22ff\n  );\n  background-size: 600% 600%;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  animation: neonRotate 10s linear infinite;\n  position: relative;\n}\n.circleMiddle {\n  background-color: rgb(255, 255, 255);\n  width: 80px;\n  height: 80px;\n  border-radius: 50%;\n  z-index: 99;\n}\n.worm {\n  position: absolute;\n  width: 20px;\n  height: 105px;\n  background-color: hsl(0, 0%, 100%);\n  border-radius: 5px;\n  animation: rotateWorm 4s linear infinite;\n  z-index: 80;\n}\n@keyframes neonRotate {\n  0%,\n  100% {\n    background-position: 0% 0%;\n  }\n  25%,\n  75% {\n    background-position: 100% 0%;\n  }\n  50% {\n    background-position: 0% 100%;\n  }\n}\n@keyframes rotateWorm {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"worm\"></div>\n  <div class=\"circleMiddle\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#6f22ff",
+  "#00aaff",
+  "#2cc92c"
+ ],
+ "fonts": [],
+ "tokens": 329,
+ "size": 1317,
+ "html": "<div class=\"loader\">\n  <div class=\"worm\"></div>\n  <div class=\"circleMiddle\"></div>\n</div>\n",
+ "css": "/* Happy Puma 68 by carhtube — https://uiverse.io/carhtube/happy-puma-68 */\n.loader {\n  background: linear-gradient(\n    90deg,\n    #6f22ff,\n    #00aaff,\n    #2cc92c,\n    #00aaff,\n    #6f22ff\n  );\n  background-size: 600% 600%;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  animation: neonRotate 10s linear infinite;\n  position: relative;\n}\n.circleMiddle {\n  background-color: rgb(255, 255, 255);\n  width: 80px;\n  height: 80px;\n  border-radius: 50%;\n  z-index: 99;\n}\n.worm {\n  position: absolute;\n  width: 20px;\n  height: 105px;\n  background-color: hsl(0, 0%, 100%);\n  border-radius: 5px;\n  animation: rotateWorm 4s linear infinite;\n  z-index: 80;\n}\n@keyframes neonRotate {\n  0%,\n  100% {\n    background-position: 0% 0%;\n  }\n  25%,\n  75% {\n    background-position: 100% 0%;\n  }\n  50% {\n    background-position: 0% 100%;\n  }\n}\n@keyframes rotateWorm {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Happy Puma 68</title>\n<style>\n/* Happy Puma 68 by carhtube — https://uiverse.io/carhtube/happy-puma-68 */\n.loader {\n  background: linear-gradient(\n    90deg,\n    #6f22ff,\n    #00aaff,\n    #2cc92c,\n    #00aaff,\n    #6f22ff\n  );\n  background-size: 600% 600%;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  animation: neonRotate 10s linear infinite;\n  position: relative;\n}\n.circleMiddle {\n  background-color: rgb(255, 255, 255);\n  width: 80px;\n  height: 80px;\n  border-radius: 50%;\n  z-index: 99;\n}\n.worm {\n  position: absolute;\n  width: 20px;\n  height: 105px;\n  background-color: hsl(0, 0%, 100%);\n  border-radius: 5px;\n  animation: rotateWorm 4s linear infinite;\n  z-index: 80;\n}\n@keyframes neonRotate {\n  0%,\n  100% {\n    background-position: 0% 0%;\n  }\n  25%,\n  75% {\n    background-position: 100% 0%;\n  }\n  50% {\n    background-position: 0% 100%;\n  }\n}\n@keyframes rotateWorm {\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"worm\"></div>\n  <div class=\"circleMiddle\"></div>\n</div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,25 @@
  "author": "Yaseen549",
  "source": "https://uiverse.io/Yaseen549/popular-snake-7",
  "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Dark rounded gray password input that lights up when focused.",
+ "howItWorks": "On focus, outline-color becomes #ffffff, background-color changes from #212121 to #212121, text color changes to #e8e8e8.",
  "tags": [
+  "dark",
+  "rounded",
+  "password-input",
   "input",
   "focus",
   "css"
  ],
- "html": "<input type=\"password\" name=\"text\" class=\"input\" placeholder=\"Enter your password!\">",
- "css": "/* From Uiverse.io by Yaseen549 - Tags: input */\n.input {\n border: 2px solid #e8e8e8;\n padding: 15px;\n border-radius: 10px;\n background-color: #212121;\n font-size: small;\n font-weight: bold;\n text-align: center;\n}\n\n.input:focus {\n outline-color: white;\n background-color: #212121;\n color: #e8e8e8;\n box-shadow: 5px 5px #888888;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Popular Snake 7</title>\n<style>\n/* From Uiverse.io by Yaseen549 - https://uiverse.io/Yaseen549/popular-snake-7 */\n/* From Uiverse.io by Yaseen549 - Tags: input */\n.input {\n border: 2px solid #e8e8e8;\n padding: 15px;\n border-radius: 10px;\n background-color: #212121;\n font-size: small;\n font-weight: bold;\n text-align: center;\n}\n\n.input:focus {\n outline-color: white;\n background-color: #212121;\n color: #e8e8e8;\n box-shadow: 5px 5px #888888;\n}\n</style>\n</head>\n<body>\n<input type=\"password\" name=\"text\" class=\"input\" placeholder=\"Enter your password!\">\n</body>\n</html>\n"
+ "colors": [
+  "#e8e8e8",
+  "#212121",
+  "#888888"
+ ],
+ "fonts": [],
+ "tokens": 166,
+ "size": 664,
+ "html": "<input type=\"password\" name=\"text\" class=\"input\" placeholder=\"Enter your password!\">\n",
+ "css": "/* Popular Snake 7 by Yaseen549 — https://uiverse.io/Yaseen549/popular-snake-7 */\n.input {\n border: 2px solid #e8e8e8;\n padding: 15px;\n border-radius: 10px;\n background-color: #212121;\n font-size: small;\n font-weight: bold;\n text-align: center;\n}\n\n.input:focus {\n outline-color: white;\n background-color: #212121;\n color: #e8e8e8;\n box-shadow: 5px 5px #888888;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Popular Snake 7</title>\n<style>\n/* Popular Snake 7 by Yaseen549 — https://uiverse.io/Yaseen549/popular-snake-7 */\n.input {\n border: 2px solid #e8e8e8;\n padding: 15px;\n border-radius: 10px;\n background-color: #212121;\n font-size: small;\n font-weight: bold;\n text-align: center;\n}\n\n.input:focus {\n outline-color: white;\n background-color: #212121;\n color: #e8e8e8;\n box-shadow: 5px 5px #888888;\n}\n</style>\n</head>\n<body>\n<input type=\"password\" name=\"text\" class=\"input\" placeholder=\"Enter your password!\">\n\n</body>\n</html>\n"
 }

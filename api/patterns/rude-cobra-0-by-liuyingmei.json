@@ -5,16 +5,25 @@
  "author": "liuyingmei",
  "source": "https://uiverse.io/liuyingmei/rude-cobra-0",
  "trigger": "static",
- "description": "A pattern with simple, green and blue styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient yellow pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "green",
-  "blue",
+  "yellow",
+  "red",
+  "gradient",
+  "flat",
   "pattern",
-  "static"
+  "simple"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by liuyingmei  - Tags: simple, green, blue, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(\n    -135deg,\n    yellow,\n    pink 10px,\n    green 10px,\n    skyblue 20px\n  );\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rude Cobra 0</title>\n<style>\n/* From Uiverse.io by liuyingmei - https://uiverse.io/liuyingmei/rude-cobra-0 */\n/* From Uiverse.io by liuyingmei  - Tags: simple, green, blue, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(\n    -135deg,\n    yellow,\n    pink 10px,\n    green 10px,\n    skyblue 20px\n  );\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffff00",
+  "#ffc0cb",
+  "#008000"
+ ],
+ "fonts": [],
+ "tokens": 121,
+ "size": 486,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Rude Cobra 0 by liuyingmei — https://uiverse.io/liuyingmei/rude-cobra-0 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(\n    -135deg,\n    yellow,\n    pink 10px,\n    green 10px,\n    skyblue 20px\n  );\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rude Cobra 0</title>\n<style>\n/* Rude Cobra 0 by liuyingmei — https://uiverse.io/liuyingmei/rude-cobra-0 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(\n    -135deg,\n    yellow,\n    pink 10px,\n    green 10px,\n    skyblue 20px\n  );\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

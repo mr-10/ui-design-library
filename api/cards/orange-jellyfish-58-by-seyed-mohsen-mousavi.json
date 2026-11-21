@@ -4,15 +4,28 @@
  "category": "cards",
  "author": "seyed-mohsen-mousavi",
  "source": "https://uiverse.io/seyed-mohsen-mousavi/orange-jellyfish-58",
- "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Rounded light sky-blue card that changes colour on hover.",
+ "howItWorks": "On hover, background changes.",
  "tags": [
-  "cards",
-  "static",
-  "css"
+  "blue",
+  "green",
+  "rounded",
+  "color-change",
+  "download",
+  "cards"
  ],
- "html": "<!-- From Uiverse.io by seyed-mohsen-mousavi  - Tags: card, box, box-shadow, subscribe -->\n<div\n  class=\"w-72 bg-white rounded-b-lg border-t-8 border-green-400 px-4 py-5 flex flex-col justify-around shadow-md\"\n>\n  <p class=\"text-lg font-bold font-sans\">Premium</p>\n  <div class=\"py-3\">\n    <p class=\"text-gray-400 text-sm\">\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni natus rerum\n      deleniti eaque ...\n    </p>\n  </div>\n  <div class=\"flex justify-between\">\n    <svg\n      class=\"w-6 h-6\"\n      stroke=\"currentColor\"\n      stroke-width=\"1.5\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n    <div class=\"text-sm flex gap-2\">\n      <button\n        class=\"bg-slate-200 px-2 rounded-xl hover:bg-slate-400 transition-colors ease-in-out\"\n      >\n        glee\n      </button>\n      <button\n        class=\"bg-slate-200 px-2 rounded-xl hover:bg-slate-400 transition-colors ease-in-out\"\n      >\n        download\n      </button>\n    </div>\n  </div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Orange Jellyfish 58</title>\n<style>\n/* From Uiverse.io by seyed-mohsen-mousavi - https://uiverse.io/seyed-mohsen-mousavi/orange-jellyfish-58 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by seyed-mohsen-mousavi  - Tags: card, box, box-shadow, subscribe -->\n<div\n  class=\"w-72 bg-white rounded-b-lg border-t-8 border-green-400 px-4 py-5 flex flex-col justify-around shadow-md\"\n>\n  <p class=\"text-lg font-bold font-sans\">Premium</p>\n  <div class=\"py-3\">\n    <p class=\"text-gray-400 text-sm\">\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni natus rerum\n      deleniti eaque ...\n    </p>\n  </div>\n  <div class=\"flex justify-between\">\n    <svg\n      class=\"w-6 h-6\"\n      stroke=\"currentColor\"\n      stroke-width=\"1.5\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n    <div class=\"text-sm flex gap-2\">\n      <button\n        class=\"bg-slate-200 px-2 rounded-xl hover:bg-slate-400 transition-colors ease-in-out\"\n      >\n        glee\n      </button>\n      <button\n        class=\"bg-slate-200 px-2 rounded-xl hover:bg-slate-400 transition-colors ease-in-out\"\n      >\n        download\n      </button>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#e2e8f0",
+  "#4ade80",
+  "#9ca3af"
+ ],
+ "fonts": [
+  "sans"
+ ],
+ "tokens": 358,
+ "size": 1433,
+ "html": "<div\n  class=\"w-72 bg-white rounded-b-lg border-t-8 border-green-400 px-4 py-5 flex flex-col justify-around shadow-md\"\n>\n  <p class=\"text-lg font-bold font-sans\">Premium</p>\n  <div class=\"py-3\">\n    <p class=\"text-gray-400 text-sm\">\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni natus rerum\n      deleniti eaque ...\n    </p>\n  </div>\n  <div class=\"flex justify-between\">\n    <svg\n      class=\"w-6 h-6\"\n      stroke=\"currentColor\"\n      stroke-width=\"1.5\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n    <div class=\"text-sm flex gap-2\">\n      <button\n        class=\"bg-slate-200 px-2 rounded-xl hover:bg-slate-400 transition-colors ease-in-out\"\n      >\n        glee\n      </button>\n      <button\n        class=\"bg-slate-200 px-2 rounded-xl hover:bg-slate-400 transition-colors ease-in-out\"\n      >\n        download\n      </button>\n    </div>\n  </div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Orange Jellyfish 58</title>\n<style>\n/* Orange Jellyfish 58 by seyed-mohsen-mousavi — https://uiverse.io/seyed-mohsen-mousavi/orange-jellyfish-58 */\n\n</style>\n</head>\n<body>\n<div\n  class=\"w-72 bg-white rounded-b-lg border-t-8 border-green-400 px-4 py-5 flex flex-col justify-around shadow-md\"\n>\n  <p class=\"text-lg font-bold font-sans\">Premium</p>\n  <div class=\"py-3\">\n    <p class=\"text-gray-400 text-sm\">\n      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni natus rerum\n      deleniti eaque ...\n    </p>\n  </div>\n  <div class=\"flex justify-between\">\n    <svg\n      class=\"w-6 h-6\"\n      stroke=\"currentColor\"\n      stroke-width=\"1.5\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n    <div class=\"text-sm flex gap-2\">\n      <button\n        class=\"bg-slate-200 px-2 rounded-xl hover:bg-slate-400 transition-colors ease-in-out\"\n      >\n        glee\n      </button>\n      <button\n        class=\"bg-slate-200 px-2 rounded-xl hover:bg-slate-400 transition-colors ease-in-out\"\n      >\n        download\n      </button>\n    </div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

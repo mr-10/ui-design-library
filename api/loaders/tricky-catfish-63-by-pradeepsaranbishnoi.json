@@ -5,14 +5,26 @@
  "author": "Pradeepsaranbishnoi",
  "source": "https://uiverse.io/Pradeepsaranbishnoi/tricky-catfish-63",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "White loader with fading motion in a loop.",
+ "howItWorks": "It loops a 0.4s animation (fading, pulsing).",
  "tags": [
+  "flat",
+  "fade",
+  "pulse",
   "loader",
   "auto-loop",
   "css"
  ],
- "html": "<div class=\"code-loader\">\n  <span>{</span><span>}</span>\n</div>",
- "css": "/* From Uiverse.io by Pradeepsaranbishnoi - Tags: loader */\n.code-loader {\n  color: #fff;\n  font-family: Consolas, Menlo, Monaco, monospace;\n  font-weight: bold;\n  font-size: 100px;\n  opacity: 0.8;\n}\n\n.code-loader span {\n  display: inline-block;\n  animation: pulse_414 0.4s alternate infinite ease-in-out;\n}\n\n.code-loader span:nth-child(odd) {\n  animation-delay: 0.4s;\n}\n\n@keyframes pulse_414 {\n  to {\n    transform: scale(0.8);\n    opacity: 0.5;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tricky Catfish 63</title>\n<style>\n/* From Uiverse.io by Pradeepsaranbishnoi - https://uiverse.io/Pradeepsaranbishnoi/tricky-catfish-63 */\n/* From Uiverse.io by Pradeepsaranbishnoi - Tags: loader */\n.code-loader {\n  color: #fff;\n  font-family: Consolas, Menlo, Monaco, monospace;\n  font-weight: bold;\n  font-size: 100px;\n  opacity: 0.8;\n}\n\n.code-loader span {\n  display: inline-block;\n  animation: pulse_414 0.4s alternate infinite ease-in-out;\n}\n\n.code-loader span:nth-child(odd) {\n  animation-delay: 0.4s;\n}\n\n@keyframes pulse_414 {\n  to {\n    transform: scale(0.8);\n    opacity: 0.5;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"code-loader\">\n  <span>{</span><span>}</span>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [
+  "Consolas"
+ ],
+ "tokens": 195,
+ "size": 781,
+ "html": "<div class=\"code-loader\">\n  <span>{</span><span>}</span>\n</div>\n",
+ "css": "/* Tricky Catfish 63 by Pradeepsaranbishnoi — https://uiverse.io/Pradeepsaranbishnoi/tricky-catfish-63 */\n.code-loader {\n  color: #fff;\n  font-family: Consolas, Menlo, Monaco, monospace;\n  font-weight: bold;\n  font-size: 100px;\n  opacity: 0.8;\n}\n\n.code-loader span {\n  display: inline-block;\n  animation: pulse_414 0.4s alternate infinite ease-in-out;\n}\n\n.code-loader span:nth-child(odd) {\n  animation-delay: 0.4s;\n}\n\n@keyframes pulse_414 {\n  to {\n    transform: scale(0.8);\n    opacity: 0.5;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tricky Catfish 63</title>\n<style>\n/* Tricky Catfish 63 by Pradeepsaranbishnoi — https://uiverse.io/Pradeepsaranbishnoi/tricky-catfish-63 */\n.code-loader {\n  color: #fff;\n  font-family: Consolas, Menlo, Monaco, monospace;\n  font-weight: bold;\n  font-size: 100px;\n  opacity: 0.8;\n}\n\n.code-loader span {\n  display: inline-block;\n  animation: pulse_414 0.4s alternate infinite ease-in-out;\n}\n\n.code-loader span:nth-child(odd) {\n  animation-delay: 0.4s;\n}\n\n@keyframes pulse_414 {\n  to {\n    transform: scale(0.8);\n    opacity: 0.5;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"code-loader\">\n  <span>{</span><span>}</span>\n</div>\n\n</body>\n</html>\n"
 }

@@ -7,8 +7,13 @@ in uiverse/<category>/<id>/, and writes:
   data/index.min.json   compact index: id, name, category, trigger,
                         tags (max 6), description (<100 chars) per element
   data/categories.json  category names + counts
+  data/search/<category>.min.json  small per-category search files: id,
+                        name, one-line description, trigger, top 4 tags
   api/<category>/<id>.json  one file per element: metadata + html + css
-                        (+ js only if present) + combined single-file version
+                        (+ js only if present) + combined single-file version.
+                        Code is comment-stripped with a single attribution
+                        header line; also carries colors, fonts, estimated
+                        tokens and size in bytes.
   llms.txt              root file describing the library for LLMs
 
 The `version` is a short hash of the element ids/triggers/tags and the
@@ -50,7 +55,34 @@ FEATURED = [
 ]
 
 BODY_RE = re.compile(r"<body[^>]*>(.*?)</body>", re.S | re.I)
+CSS_COMMENT_RE = re.compile(r"/\*.*?\*/", re.S)
+HTML_COMMENT_RE = re.compile(r"<!--.*?-->", re.S)
 SITE = "https://mr-10.github.io/ui-design-library"
+
+
+def clean_code(text: str, kind: str) -> str:
+    """Strip boilerplate comments and extra blank lines from an element's
+    code. kind is 'css' or 'html'. The result is the element's code with
+    no comments at all — the single attribution header is added by the
+    caller, so nothing is duplicated."""
+    if kind == "css":
+        text = CSS_COMMENT_RE.sub("", text)
+    else:
+        text = HTML_COMMENT_RE.sub("", text)
+    lines = [line.rstrip() for line in text.split("\n")]
+    out = "\n".join(lines)
+    out = re.sub(r"\n{3,}", "\n\n", out)
+    return out.strip() + "\n" if out.strip() else ""
+
+
+def credit_line(name: str, author: str, link: str) -> str:
+    """One short header line with author and source link."""
+    return f"{name} by {author} — {link}"
+
+
+def estimate_tokens(text: str) -> int:
+    """Rough token estimate for code text (~4 chars per token)."""
+    return max(1, round(len(text) / 4))
 
 
 def extract_body(index_html: str) -> str:
@@ -63,7 +95,9 @@ def combined_doc(name: str, author: str, link: str, css: str, body: str) -> str:
     """Build a single-file HTML document from the element's CSS + markup.
 
     Faithful to the element's own code: no injected centering rule, so the
-    file is exactly what the author published (plus attribution).
+    file is exactly what the author published (plus one attribution line).
+    The css/body passed in are already comment-stripped, so the header
+    below is the only comment in the file — nothing is duplicated.
     """
     return (
         "<!DOCTYPE html>\n"
@@ -73,7 +107,7 @@ def combined_doc(name: str, author: str, link: str, css: str, body: str) -> str:
         "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
         f"<title>{name}</title>\n"
         "<style>\n"
-        f"/* From Uiverse.io by {author} - {link} */\n"
+        f"/* {credit_line(name, author, link)} */\n"
         f"{css.rstrip()}\n"
         "</style>\n"
         "</head>\n"
@@ -86,6 +120,7 @@ def combined_doc(name: str, author: str, link: str, css: str, body: str) -> str:
 
 def main() -> int:
     index_entries = []
+    search_entries = {}
     categories_out = []
     hash_parts = []
     missing = []
@@ -101,6 +136,7 @@ def main() -> int:
         count = 0
         api_dir = API / cat
         api_dir.mkdir(parents=True, exist_ok=True)
+        search_entries[cat] = []
 
         for el in elements:
             eid = el["id"]
@@ -110,18 +146,22 @@ def main() -> int:
             if not index_html.exists() or not styles_css.exists():
                 missing.append(eid)
                 continue
-            html = extract_body(index_html.read_text())
-            css = styles_css.read_text().rstrip() + "\n"
+            html = clean_code(extract_body(index_html.read_text()), "html")
+            css = clean_code(styles_css.read_text(), "css")
             # js only if the element actually ships a script (none do today)
             js = ""
             script = folder / "script.js"
             if script.exists():
-                js = script.read_text().rstrip() + "\n"
+                js = clean_code(script.read_text(), "html")
 
             desc = " ".join(el.get("description", "").split())
             if len(desc) >= 100:
                 desc = desc[:97].rstrip() + "…"
             tags = list(el.get("tags", []))[:6]
+            combined = combined_doc(el["name"], el["author"], el["link"], css, html)
+            # css field: one short header line + the cleaned stylesheet
+            css_field = (f"/* {credit_line(el['name'], el['author'], el['link'])} */\n"
+                         + css) if css else ""
 
             rec = {
                 "id": eid,
@@ -133,10 +173,13 @@ def main() -> int:
                 "description": desc,
                 "howItWorks": el.get("howItWorks", ""),
                 "tags": tags,
+                "colors": list(el.get("colors", [])),
+                "fonts": list(el.get("fonts", [])),
+                "tokens": estimate_tokens(combined),
+                "size": len(combined.encode("utf-8")),
                 "html": html,
-                "css": css,
-                "combined": combined_doc(
-                    el["name"], el["author"], el["link"], css, html),
+                "css": css_field,
+                "combined": combined,
             }
             if js:
                 rec["js"] = js
@@ -150,6 +193,13 @@ def main() -> int:
                 "trigger": el["trigger"],
                 "tags": tags,
                 "description": desc,
+            })
+            search_entries[cat].append({
+                "id": eid,
+                "name": el["name"],
+                "description": desc,
+                "trigger": el["trigger"],
+                "tags": list(el.get("tags", []))[:4],
             })
             hash_parts.append(f"{eid}|{el['trigger']}|{','.join(tags)}")
             count += 1
@@ -171,6 +221,18 @@ def main() -> int:
     (DATA / "categories.json").write_text(json.dumps(
         {"version": version, "total": total, "categories": categories_out},
         ensure_ascii=False, indent=1) + "\n")
+
+    # Small per-category search files: only id, name, one-line description,
+    # trigger and the top 4 tags, so an agent can search one category
+    # without downloading the whole index.
+    search_dir = DATA / "search"
+    search_dir.mkdir(parents=True, exist_ok=True)
+    for cat, entries in search_entries.items():
+        (search_dir / f"{cat}.min.json").write_text(json.dumps(
+            {"version": version, "category": cat, "total": len(entries),
+             "elements": entries},
+            ensure_ascii=False, separators=(",", ":")))
+        print(f"search/{cat}: {len(entries)} entries")
 
     # Featured strip (home page): just these 9 records, so the home page
     # fetches ~5 KB instead of five whole category files (~1.3 MB).
@@ -208,7 +270,14 @@ def main() -> int:
         "\n"
         "## Machine-readable data\n"
         "\n"
-        f"- Full index (id, name, category, trigger, tags, description): {SITE}/data/index.min.json\n"
+        "For SEARCH, prefer the small per-category files (id, name, "
+        "one-line description, trigger, top 4 tags) or the MCP server "
+        "below — do not download the full index just to search:\n"
+        f"- Per-category search file: {SITE}/data/search/<category>.min.json "
+        "(e.g. buttons, loaders, cards, forms, inputs, checkboxes, "
+        "toggle-switches, patterns, radio-buttons, tooltips, notifications)\n"
+        f"- Full index (id, name, category, trigger, tags, description) — "
+        f"only when you need the whole list at once: {SITE}/data/index.min.json\n"
         f"- Categories (names and counts): {SITE}/data/categories.json\n"
         "- One element (metadata, html, css, combined single-file version): "
         f"{SITE}/api/<category>/<id>.json\n"

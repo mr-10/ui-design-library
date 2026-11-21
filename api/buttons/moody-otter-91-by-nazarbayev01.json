@@ -5,14 +5,24 @@
  "author": "nazarbayev01",
  "source": "https://uiverse.io/nazarbayev01/moody-otter-91",
  "trigger": "hover",
- "description": "A button with active styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark teal button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, text color changes from #088178 to #DCFFFC, transform becomes scale(1), outline becomes 2px solid #088178.",
  "tags": [
-  "button",
-  "active",
-  "hover"
+  "teal",
+  "shrink",
+  "glow",
+  "color-change",
+  "expand",
+  "button"
  ],
- "html": "<button class=\"button\">button</button>",
- "css": "/* From Uiverse.io by nazarbayev01 - Tags: button, active */\nbutton {\n  padding: 1em 2em;\n  border: none;\n  border-radius: 5px;\n  font-weight: bold;\n  letter-spacing: 3px;\n  background: #DCFFFC;\n  text-transform: uppercase;\n  color: #088178;\n  transition: all 1000ms;\n  font-size: 15px;\n  position: relative;\n  overflow: hidden;\n  outline: 2px solid #088178;\n}\n\nbutton:hover {\n  color: #DCFFFC;\n  transform: scale(1);\n  outline: 2px solid #088178;\n  box-shadow: 4px 5px 17px -4px #088178;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  left: -50px;\n  top: 0;\n  width: 0;\n  height: 100%;\n  background-color: #088178;\n  transform: skewX(30deg);\n  z-index: -1;\n  transition: width 1000ms;\n}\n\nbutton:hover::before {\n  width: 250%;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Otter 91</title>\n<style>\n/* From Uiverse.io by nazarbayev01 - https://uiverse.io/nazarbayev01/moody-otter-91 */\n/* From Uiverse.io by nazarbayev01 - Tags: button, active */\nbutton {\n  padding: 1em 2em;\n  border: none;\n  border-radius: 5px;\n  font-weight: bold;\n  letter-spacing: 3px;\n  background: #DCFFFC;\n  text-transform: uppercase;\n  color: #088178;\n  transition: all 1000ms;\n  font-size: 15px;\n  position: relative;\n  overflow: hidden;\n  outline: 2px solid #088178;\n}\n\nbutton:hover {\n  color: #DCFFFC;\n  transform: scale(1);\n  outline: 2px solid #088178;\n  box-shadow: 4px 5px 17px -4px #088178;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  left: -50px;\n  top: 0;\n  width: 0;\n  height: 100%;\n  background-color: #088178;\n  transform: skewX(30deg);\n  z-index: -1;\n  transition: width 1000ms;\n}\n\nbutton:hover::before {\n  width: 250%;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">button</button>\n</body>\n</html>\n"
+ "colors": [
+  "#088178",
+  "#dcfffc"
+ ],
+ "fonts": [],
+ "tokens": 254,
+ "size": 1020,
+ "html": "<button class=\"button\">button</button>\n",
+ "css": "/* Moody Otter 91 by nazarbayev01 — https://uiverse.io/nazarbayev01/moody-otter-91 */\nbutton {\n  padding: 1em 2em;\n  border: none;\n  border-radius: 5px;\n  font-weight: bold;\n  letter-spacing: 3px;\n  background: #DCFFFC;\n  text-transform: uppercase;\n  color: #088178;\n  transition: all 1000ms;\n  font-size: 15px;\n  position: relative;\n  overflow: hidden;\n  outline: 2px solid #088178;\n}\n\nbutton:hover {\n  color: #DCFFFC;\n  transform: scale(1);\n  outline: 2px solid #088178;\n  box-shadow: 4px 5px 17px -4px #088178;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  left: -50px;\n  top: 0;\n  width: 0;\n  height: 100%;\n  background-color: #088178;\n  transform: skewX(30deg);\n  z-index: -1;\n  transition: width 1000ms;\n}\n\nbutton:hover::before {\n  width: 250%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Otter 91</title>\n<style>\n/* Moody Otter 91 by nazarbayev01 — https://uiverse.io/nazarbayev01/moody-otter-91 */\nbutton {\n  padding: 1em 2em;\n  border: none;\n  border-radius: 5px;\n  font-weight: bold;\n  letter-spacing: 3px;\n  background: #DCFFFC;\n  text-transform: uppercase;\n  color: #088178;\n  transition: all 1000ms;\n  font-size: 15px;\n  position: relative;\n  overflow: hidden;\n  outline: 2px solid #088178;\n}\n\nbutton:hover {\n  color: #DCFFFC;\n  transform: scale(1);\n  outline: 2px solid #088178;\n  box-shadow: 4px 5px 17px -4px #088178;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  left: -50px;\n  top: 0;\n  width: 0;\n  height: 100%;\n  background-color: #088178;\n  transform: skewX(30deg);\n  z-index: -1;\n  transition: width 1000ms;\n}\n\nbutton:hover::before {\n  width: 250%;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">button</button>\n\n</body>\n</html>\n"
 }

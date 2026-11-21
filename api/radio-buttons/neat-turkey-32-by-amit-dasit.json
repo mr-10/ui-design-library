@@ -5,17 +5,24 @@
  "author": "AmIt-DasIT",
  "source": "https://uiverse.io/AmIt-DasIT/neat-turkey-32",
  "trigger": "checked",
- "description": "A radio button with dark, shadow and radio styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Outlined pill white radio button that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: box-shadow becomes 3px 3px 6px #000000,\n   -1px -1px 4px #ffffff,\n   inset 3px 3px 6px #000000,\n   inset -1px -1px 4px #ffffff, transform becomes scale(1.1).",
  "tags": [
+  "outlined",
+  "rounded",
+  "pill",
+  "radio-button",
   "dark",
-  "shadow",
-  "radio",
-  "neumorphism",
-  "radio-buttons",
-  "checked"
+  "shadow"
  ],
- "html": "<div class=\"radio-input\">\n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\" checked=\"\">\n    <span class=\"check\"></span>\n  </label>\n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\">\n    <span class=\"check\"></span>\n  </label>\n      \n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\">\n    <span class=\"check\"></span>\n  </label>\n</div>",
- "css": "/* From Uiverse.io by AmIt-DasIT - Tags: dark, shadow, radio, neumorphism */\n.radio-input .label input {\n  display: none;\n}\n\n.radio-input {\n  display: flex;\n  gap: 20px;\n}\n\n.radio-input .label {\n  display: flex;\n}\n\n.radio-input .label .check {\n  width: 30px;\n  height: 30px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 50%;\n  cursor: pointer;\n  transition: 0.3s;\n  border: 3px solid transparent;\n  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5),\n   -1px -1px 4px rgba(255, 255, 255, 0.5);\n}\n\n.radio-input .label input:checked + .check {\n  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5),\n   -1px -1px 4px rgba(255, 255, 255, 0.5),\n   inset 3px 3px 6px rgba(0, 0, 0, 0.5),\n   inset -1px -1px 4px rgba(255, 255, 255, 0.5);\n  transform: scale(1.1);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Neat Turkey 32</title>\n<style>\n/* From Uiverse.io by AmIt-DasIT - https://uiverse.io/AmIt-DasIT/neat-turkey-32 */\n/* From Uiverse.io by AmIt-DasIT - Tags: dark, shadow, radio, neumorphism */\n.radio-input .label input {\n  display: none;\n}\n\n.radio-input {\n  display: flex;\n  gap: 20px;\n}\n\n.radio-input .label {\n  display: flex;\n}\n\n.radio-input .label .check {\n  width: 30px;\n  height: 30px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 50%;\n  cursor: pointer;\n  transition: 0.3s;\n  border: 3px solid transparent;\n  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5),\n   -1px -1px 4px rgba(255, 255, 255, 0.5);\n}\n\n.radio-input .label input:checked + .check {\n  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5),\n   -1px -1px 4px rgba(255, 255, 255, 0.5),\n   inset 3px 3px 6px rgba(0, 0, 0, 0.5),\n   inset -1px -1px 4px rgba(255, 255, 255, 0.5);\n  transform: scale(1.1);\n}\n</style>\n</head>\n<body>\n<div class=\"radio-input\">\n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\" checked=\"\">\n    <span class=\"check\"></span>\n  </label>\n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\">\n    <span class=\"check\"></span>\n  </label>\n      \n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\">\n    <span class=\"check\"></span>\n  </label>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 339,
+ "size": 1359,
+ "html": "<div class=\"radio-input\">\n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\" checked=\"\">\n    <span class=\"check\"></span>\n  </label>\n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\">\n    <span class=\"check\"></span>\n  </label>\n\n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\">\n    <span class=\"check\"></span>\n  </label>\n</div>\n",
+ "css": "/* Neat Turkey 32 by AmIt-DasIT — https://uiverse.io/AmIt-DasIT/neat-turkey-32 */\n.radio-input .label input {\n  display: none;\n}\n\n.radio-input {\n  display: flex;\n  gap: 20px;\n}\n\n.radio-input .label {\n  display: flex;\n}\n\n.radio-input .label .check {\n  width: 30px;\n  height: 30px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 50%;\n  cursor: pointer;\n  transition: 0.3s;\n  border: 3px solid transparent;\n  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5),\n   -1px -1px 4px rgba(255, 255, 255, 0.5);\n}\n\n.radio-input .label input:checked + .check {\n  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5),\n   -1px -1px 4px rgba(255, 255, 255, 0.5),\n   inset 3px 3px 6px rgba(0, 0, 0, 0.5),\n   inset -1px -1px 4px rgba(255, 255, 255, 0.5);\n  transform: scale(1.1);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Neat Turkey 32</title>\n<style>\n/* Neat Turkey 32 by AmIt-DasIT — https://uiverse.io/AmIt-DasIT/neat-turkey-32 */\n.radio-input .label input {\n  display: none;\n}\n\n.radio-input {\n  display: flex;\n  gap: 20px;\n}\n\n.radio-input .label {\n  display: flex;\n}\n\n.radio-input .label .check {\n  width: 30px;\n  height: 30px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 50%;\n  cursor: pointer;\n  transition: 0.3s;\n  border: 3px solid transparent;\n  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5),\n   -1px -1px 4px rgba(255, 255, 255, 0.5);\n}\n\n.radio-input .label input:checked + .check {\n  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5),\n   -1px -1px 4px rgba(255, 255, 255, 0.5),\n   inset 3px 3px 6px rgba(0, 0, 0, 0.5),\n   inset -1px -1px 4px rgba(255, 255, 255, 0.5);\n  transform: scale(1.1);\n}\n</style>\n</head>\n<body>\n<div class=\"radio-input\">\n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\" checked=\"\">\n    <span class=\"check\"></span>\n  </label>\n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\">\n    <span class=\"check\"></span>\n  </label>\n\n  <label class=\"label\">\n    <input type=\"radio\" name=\"radio\">\n    <span class=\"check\"></span>\n  </label>\n</div>\n\n</body>\n</html>\n"
 }

@@ -4,15 +4,28 @@
  "category": "inputs",
  "author": "RashadGhzi",
  "source": "https://uiverse.io/RashadGhzi/smooth-skunk-12",
- "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "trigger": "hover",
+ "description": "Rounded gray text input that glows on hover.",
+ "howItWorks": "On hover, shadow grows and border changes.",
  "tags": [
+  "rounded",
+  "glow",
+  "color-change",
+  "text-input",
   "inputs",
-  "focus",
   "css"
  ],
- "html": "<!-- From Uiverse.io by RashadGhzi  - Tags: simple, form, input, hover effect, input effect , tailwind -->\n<div class=\"w-full max-w-xs p-5 bg-white rounded-lg font-mono\">\n  <label class=\"block text-gray-700 text-sm font-bold mb-2\" for=\"unique-input\"\n    >Your Label</label\n  >\n  <input\n    class=\"text-sm custom-input w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm transition duration-300 ease-in-out transform focus:-translate-y-1 focus:outline-blue-300 hover:shadow-lg hover:border-blue-300 bg-gray-100\"\n    placeholder=\"Enter text here\"\n    type=\"text\"\n    id=\"unique-input\"\n  />\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Skunk 12</title>\n<style>\n/* From Uiverse.io by RashadGhzi - https://uiverse.io/RashadGhzi/smooth-skunk-12 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by RashadGhzi  - Tags: simple, form, input, hover effect, input effect , tailwind -->\n<div class=\"w-full max-w-xs p-5 bg-white rounded-lg font-mono\">\n  <label class=\"block text-gray-700 text-sm font-bold mb-2\" for=\"unique-input\"\n    >Your Label</label\n  >\n  <input\n    class=\"text-sm custom-input w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm transition duration-300 ease-in-out transform focus:-translate-y-1 focus:outline-blue-300 hover:shadow-lg hover:border-blue-300 bg-gray-100\"\n    placeholder=\"Enter text here\"\n    type=\"text\"\n    id=\"unique-input\"\n  />\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#374151",
+  "#d1d5db",
+  "#f3f4f6"
+ ],
+ "fonts": [
+  "mono"
+ ],
+ "tokens": 199,
+ "size": 798,
+ "html": "<div class=\"w-full max-w-xs p-5 bg-white rounded-lg font-mono\">\n  <label class=\"block text-gray-700 text-sm font-bold mb-2\" for=\"unique-input\"\n    >Your Label</label\n  >\n  <input\n    class=\"text-sm custom-input w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm transition duration-300 ease-in-out transform focus:-translate-y-1 focus:outline-blue-300 hover:shadow-lg hover:border-blue-300 bg-gray-100\"\n    placeholder=\"Enter text here\"\n    type=\"text\"\n    id=\"unique-input\"\n  />\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Skunk 12</title>\n<style>\n/* Smooth Skunk 12 by RashadGhzi — https://uiverse.io/RashadGhzi/smooth-skunk-12 */\n\n</style>\n</head>\n<body>\n<div class=\"w-full max-w-xs p-5 bg-white rounded-lg font-mono\">\n  <label class=\"block text-gray-700 text-sm font-bold mb-2\" for=\"unique-input\"\n    >Your Label</label\n  >\n  <input\n    class=\"text-sm custom-input w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm transition duration-300 ease-in-out transform focus:-translate-y-1 focus:outline-blue-300 hover:shadow-lg hover:border-blue-300 bg-gray-100\"\n    placeholder=\"Enter text here\"\n    type=\"text\"\n    id=\"unique-input\"\n  />\n</div>\n\n</body>\n</html>\n"
 }

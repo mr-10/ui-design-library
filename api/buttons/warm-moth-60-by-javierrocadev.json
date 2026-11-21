@@ -4,15 +4,26 @@
  "category": "buttons",
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/warm-moth-60",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Rounded violet button that scales up on hover.",
+ "howItWorks": "On hover, it scales and opacity changes.",
  "tags": [
+  "violet",
+  "rounded",
+  "scale",
+  "fade",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Javierrocadev  - Tags: purple, button, hover, hover effect, hoverme, hover button, tailwind -->\n<button\n  class=\"overflow-hidden relative w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group\"\n>\n  Hover me!\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left\"\n  ></span>\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-purple-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left\"\n  ></span>\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-purple-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left\"\n  ></span>\n  <span\n    class=\"group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10\"\n    >Explore!</span\n  >\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Moth 60</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/warm-moth-60 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev  - Tags: purple, button, hover, hover effect, hoverme, hover button, tailwind -->\n<button\n  class=\"overflow-hidden relative w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group\"\n>\n  Hover me!\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left\"\n  ></span>\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-purple-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left\"\n  ></span>\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-purple-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left\"\n  ></span>\n  <span\n    class=\"group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10\"\n    >Explore!</span\n  >\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#c084fc",
+  "#9333ea",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 307,
+ "size": 1230,
+ "html": "<button\n  class=\"overflow-hidden relative w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group\"\n>\n  Hover me!\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left\"\n  ></span>\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-purple-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left\"\n  ></span>\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-purple-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left\"\n  ></span>\n  <span\n    class=\"group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10\"\n    >Explore!</span\n  >\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Moth 60</title>\n<style>\n/* Warm Moth 60 by Javierrocadev — https://uiverse.io/Javierrocadev/warm-moth-60 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"overflow-hidden relative w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group\"\n>\n  Hover me!\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left\"\n  ></span>\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-purple-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left\"\n  ></span>\n  <span\n    class=\"absolute w-36 h-32 -top-8 -left-2 bg-purple-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-left\"\n  ></span>\n  <span\n    class=\"group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10\"\n    >Explore!</span\n  >\n</button>\n\n</body>\n</html>\n"
 }

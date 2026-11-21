@@ -5,14 +5,24 @@
  "author": "Gianluks90",
  "source": "https://uiverse.io/Gianluks90/strange-snake-10",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gray button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, background changes from #e0e0e0 to #e0e0e0, box-shadow becomes inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff.",
  "tags": [
+  "glow",
+  "color-change",
   "button",
   "hover",
   "css"
  ],
- "html": "<button>\n  Button\n</button>",
- "css": "/* From Uiverse.io by Gianluks90 - Tags: button */\nbutton {\n  padding: 1em 2em;\n  font-size: 1em;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n  color: #504f4f;\n  border: none;\n  background: #e0e0e0;\n  -webkit-box-shadow: 10px 10px 30px #bebebe, -20px -20px 60px #ffffff;\n  box-shadow: 10px 10px 30px #bebebe, -20px -20px 60px #ffffff;\n}\n\nbutton:hover {\n  background: #e0e0e0;\n  -webkit-box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;\n  box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strange Snake 10</title>\n<style>\n/* From Uiverse.io by Gianluks90 - https://uiverse.io/Gianluks90/strange-snake-10 */\n/* From Uiverse.io by Gianluks90 - Tags: button */\nbutton {\n  padding: 1em 2em;\n  font-size: 1em;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n  color: #504f4f;\n  border: none;\n  background: #e0e0e0;\n  -webkit-box-shadow: 10px 10px 30px #bebebe, -20px -20px 60px #ffffff;\n  box-shadow: 10px 10px 30px #bebebe, -20px -20px 60px #ffffff;\n}\n\nbutton:hover {\n  background: #e0e0e0;\n  -webkit-box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;\n  box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#e0e0e0",
+  "#bebebe",
+  "#504f4f"
+ ],
+ "fonts": [],
+ "tokens": 206,
+ "size": 828,
+ "html": "<button>\n  Button\n</button>\n",
+ "css": "/* Strange Snake 10 by Gianluks90 — https://uiverse.io/Gianluks90/strange-snake-10 */\nbutton {\n  padding: 1em 2em;\n  font-size: 1em;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n  color: #504f4f;\n  border: none;\n  background: #e0e0e0;\n  -webkit-box-shadow: 10px 10px 30px #bebebe, -20px -20px 60px #ffffff;\n  box-shadow: 10px 10px 30px #bebebe, -20px -20px 60px #ffffff;\n}\n\nbutton:hover {\n  background: #e0e0e0;\n  -webkit-box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;\n  box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strange Snake 10</title>\n<style>\n/* Strange Snake 10 by Gianluks90 — https://uiverse.io/Gianluks90/strange-snake-10 */\nbutton {\n  padding: 1em 2em;\n  font-size: 1em;\n  text-transform: uppercase;\n  letter-spacing: 0.1em;\n  color: #504f4f;\n  border: none;\n  background: #e0e0e0;\n  -webkit-box-shadow: 10px 10px 30px #bebebe, -20px -20px 60px #ffffff;\n  box-shadow: 10px 10px 30px #bebebe, -20px -20px 60px #ffffff;\n}\n\nbutton:hover {\n  background: #e0e0e0;\n  -webkit-box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;\n  box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n\n</body>\n</html>\n"
 }

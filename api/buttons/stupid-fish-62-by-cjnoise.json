@@ -5,16 +5,24 @@
  "author": "cjnoise",
  "source": "https://uiverse.io/cjnoise/stupid-fish-62",
  "trigger": "hover",
- "description": "A button with blue, animated and 3d-button styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "3d cyan button that reacts on hover with a smooth transition.",
+ "howItWorks": "On hover, transform becomes perspective(5px) rotateX(0) rotateY(0).",
  "tags": [
+  "cyan",
+  "3d",
+  "flat",
   "blue",
   "button",
-  "animated",
-  "3d-button",
-  "hover"
+  "animated"
  ],
- "html": "<button class=\"button\">Button</button>",
- "css": "/* From Uiverse.io by cjnoise  - Tags: blue, button, animated, 3d button */\n.button {\n  display: inline-block;\n  padding: 10px 20px;\n  font-size: 16px;\n  text-align: center;\n  text-decoration: none;\n  cursor: pointer;\n  border: 1px solid #3498db;\n  color: #fff;\n  background-color: #3498db;\n  border-radius: 5px;\n  position: relative;\n  overflow: hidden;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.1);\n  transform: perspective(5px) rotateX(2deg) rotateY(2deg);\n  transition: transform 0.3s;\n  pointer-events: none;\n}\n\n.button:hover::before {\n  transform: perspective(5px) rotateX(0) rotateY(0);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stupid Fish 62</title>\n<style>\n/* From Uiverse.io by cjnoise - https://uiverse.io/cjnoise/stupid-fish-62 */\n/* From Uiverse.io by cjnoise  - Tags: blue, button, animated, 3d button */\n.button {\n  display: inline-block;\n  padding: 10px 20px;\n  font-size: 16px;\n  text-align: center;\n  text-decoration: none;\n  cursor: pointer;\n  border: 1px solid #3498db;\n  color: #fff;\n  background-color: #3498db;\n  border-radius: 5px;\n  position: relative;\n  overflow: hidden;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.1);\n  transform: perspective(5px) rotateX(2deg) rotateY(2deg);\n  transition: transform 0.3s;\n  pointer-events: none;\n}\n\n.button:hover::before {\n  transform: perspective(5px) rotateX(0) rotateY(0);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Button</button>\n</body>\n</html>\n"
+ "colors": [
+  "#3498db",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 240,
+ "size": 960,
+ "html": "<button class=\"button\">Button</button>\n",
+ "css": "/* Stupid Fish 62 by cjnoise — https://uiverse.io/cjnoise/stupid-fish-62 */\n.button {\n  display: inline-block;\n  padding: 10px 20px;\n  font-size: 16px;\n  text-align: center;\n  text-decoration: none;\n  cursor: pointer;\n  border: 1px solid #3498db;\n  color: #fff;\n  background-color: #3498db;\n  border-radius: 5px;\n  position: relative;\n  overflow: hidden;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.1);\n  transform: perspective(5px) rotateX(2deg) rotateY(2deg);\n  transition: transform 0.3s;\n  pointer-events: none;\n}\n\n.button:hover::before {\n  transform: perspective(5px) rotateX(0) rotateY(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stupid Fish 62</title>\n<style>\n/* Stupid Fish 62 by cjnoise — https://uiverse.io/cjnoise/stupid-fish-62 */\n.button {\n  display: inline-block;\n  padding: 10px 20px;\n  font-size: 16px;\n  text-align: center;\n  text-decoration: none;\n  cursor: pointer;\n  border: 1px solid #3498db;\n  color: #fff;\n  background-color: #3498db;\n  border-radius: 5px;\n  position: relative;\n  overflow: hidden;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(255, 255, 255, 0.1);\n  transform: perspective(5px) rotateX(2deg) rotateY(2deg);\n  transition: transform 0.3s;\n  pointer-events: none;\n}\n\n.button:hover::before {\n  transform: perspective(5px) rotateX(0) rotateY(0);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Button</button>\n\n</body>\n</html>\n"
 }

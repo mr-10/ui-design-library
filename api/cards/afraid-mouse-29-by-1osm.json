@@ -5,14 +5,24 @@
  "author": "1osm",
  "source": "https://uiverse.io/1osm/afraid-mouse-29",
  "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Outlined rounded gray card with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "outlined",
+  "rounded",
+  "flat",
   "card",
   "static",
   "css"
  ],
- "html": "<div class=\"YoutubeVideo\">\n  <div class=\"Image\"></div>\n  <div class=\"Icon\"></div>\n  <div class=\"Title\"></div>\n  <div class=\"Name\"></div>\n</div>",
- "css": "/* From Uiverse.io by 1osm - Tags: card */\n.YoutubeVideo {\n  width: 250px;\n  height: 220px;\n  background: transparent;\n}\n\n.Image {\n  width: 250px;\n  height: 154px;\n  border-radius: 10px;\n  background: #3a3a3a;\n}\n\n.Icon {\n  width: 40px;\n  height: 40px;\n  border-radius: 100px;\n  float: right;\n  background-color: #3a3a3a;\n  transform: translate(0px,10px);\n}\n\n.Title {\n  width: 180px;\n  height: 15px;\n  border-radius: 2px;\n  float: right;\n  background-color: #3a3a3a;\n  transform: translate(-15px,10px);\n}\n\n.Name {\n  width: 100px;\n  height: 15px;\n  border-radius: 2px;\n  float: right;\n  background-color: #3a3a3a;\n  transform: translate(-15px,20px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Mouse 29</title>\n<style>\n/* From Uiverse.io by 1osm - https://uiverse.io/1osm/afraid-mouse-29 */\n/* From Uiverse.io by 1osm - Tags: card */\n.YoutubeVideo {\n  width: 250px;\n  height: 220px;\n  background: transparent;\n}\n\n.Image {\n  width: 250px;\n  height: 154px;\n  border-radius: 10px;\n  background: #3a3a3a;\n}\n\n.Icon {\n  width: 40px;\n  height: 40px;\n  border-radius: 100px;\n  float: right;\n  background-color: #3a3a3a;\n  transform: translate(0px,10px);\n}\n\n.Title {\n  width: 180px;\n  height: 15px;\n  border-radius: 2px;\n  float: right;\n  background-color: #3a3a3a;\n  transform: translate(-15px,10px);\n}\n\n.Name {\n  width: 100px;\n  height: 15px;\n  border-radius: 2px;\n  float: right;\n  background-color: #3a3a3a;\n  transform: translate(-15px,20px);\n}\n</style>\n</head>\n<body>\n<div class=\"YoutubeVideo\">\n  <div class=\"Image\"></div>\n  <div class=\"Icon\"></div>\n  <div class=\"Title\"></div>\n  <div class=\"Name\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#3a3a3a",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 259,
+ "size": 1039,
+ "html": "<div class=\"YoutubeVideo\">\n  <div class=\"Image\"></div>\n  <div class=\"Icon\"></div>\n  <div class=\"Title\"></div>\n  <div class=\"Name\"></div>\n</div>\n",
+ "css": "/* Afraid Mouse 29 by 1osm — https://uiverse.io/1osm/afraid-mouse-29 */\n.YoutubeVideo {\n  width: 250px;\n  height: 220px;\n  background: transparent;\n}\n\n.Image {\n  width: 250px;\n  height: 154px;\n  border-radius: 10px;\n  background: #3a3a3a;\n}\n\n.Icon {\n  width: 40px;\n  height: 40px;\n  border-radius: 100px;\n  float: right;\n  background-color: #3a3a3a;\n  transform: translate(0px,10px);\n}\n\n.Title {\n  width: 180px;\n  height: 15px;\n  border-radius: 2px;\n  float: right;\n  background-color: #3a3a3a;\n  transform: translate(-15px,10px);\n}\n\n.Name {\n  width: 100px;\n  height: 15px;\n  border-radius: 2px;\n  float: right;\n  background-color: #3a3a3a;\n  transform: translate(-15px,20px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Mouse 29</title>\n<style>\n/* Afraid Mouse 29 by 1osm — https://uiverse.io/1osm/afraid-mouse-29 */\n.YoutubeVideo {\n  width: 250px;\n  height: 220px;\n  background: transparent;\n}\n\n.Image {\n  width: 250px;\n  height: 154px;\n  border-radius: 10px;\n  background: #3a3a3a;\n}\n\n.Icon {\n  width: 40px;\n  height: 40px;\n  border-radius: 100px;\n  float: right;\n  background-color: #3a3a3a;\n  transform: translate(0px,10px);\n}\n\n.Title {\n  width: 180px;\n  height: 15px;\n  border-radius: 2px;\n  float: right;\n  background-color: #3a3a3a;\n  transform: translate(-15px,10px);\n}\n\n.Name {\n  width: 100px;\n  height: 15px;\n  border-radius: 2px;\n  float: right;\n  background-color: #3a3a3a;\n  transform: translate(-15px,20px);\n}\n</style>\n</head>\n<body>\n<div class=\"YoutubeVideo\">\n  <div class=\"Image\"></div>\n  <div class=\"Icon\"></div>\n  <div class=\"Title\"></div>\n  <div class=\"Name\"></div>\n</div>\n\n</body>\n</html>\n"
 }

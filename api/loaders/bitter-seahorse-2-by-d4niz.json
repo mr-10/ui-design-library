@@ -5,14 +5,25 @@
  "author": "d4niz",
  "source": "https://uiverse.io/d4niz/bitter-seahorse-2",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined pill sky-blue loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "blue",
+  "cyan",
+  "outlined",
+  "rounded",
+  "pill",
+  "flat"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by d4niz - Tags: loader */\n.loader {\n  width: 56px;\n  height: 56px;\n  display: grid;\n  border: 4.6px solid #0000;\n  border-radius: 100%;\n  border-color: #008cff #0000;\n  animation: spinner-e04l1k 1.5s infinite linear;\n}\n\n.loader::before, .loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  margin: 8px;\n  border: inherit;\n  border-radius: 50%;\n}\n\n.loader::before {\n  border-color: #048be6 #0000;\n  animation: inherit;\n  animation-duration: 0.1s;\n}\n\n.loader::after {\n  margin: 2.9px;\n}\n\n@keyframes spinner-e04l1k {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Seahorse 2</title>\n<style>\n/* From Uiverse.io by d4niz - https://uiverse.io/d4niz/bitter-seahorse-2 */\n/* From Uiverse.io by d4niz - Tags: loader */\n.loader {\n  width: 56px;\n  height: 56px;\n  display: grid;\n  border: 4.6px solid #0000;\n  border-radius: 100%;\n  border-color: #008cff #0000;\n  animation: spinner-e04l1k 1.5s infinite linear;\n}\n\n.loader::before, .loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  margin: 8px;\n  border: inherit;\n  border-radius: 50%;\n}\n\n.loader::before {\n  border-color: #048be6 #0000;\n  animation: inherit;\n  animation-duration: 0.1s;\n}\n\n.loader::after {\n  margin: 2.9px;\n}\n\n@keyframes spinner-e04l1k {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#008cff",
+  "#048be6",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 213,
+ "size": 855,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Bitter Seahorse 2 by d4niz — https://uiverse.io/d4niz/bitter-seahorse-2 */\n.loader {\n  width: 56px;\n  height: 56px;\n  display: grid;\n  border: 4.6px solid #0000;\n  border-radius: 100%;\n  border-color: #008cff #0000;\n  animation: spinner-e04l1k 1.5s infinite linear;\n}\n\n.loader::before, .loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  margin: 8px;\n  border: inherit;\n  border-radius: 50%;\n}\n\n.loader::before {\n  border-color: #048be6 #0000;\n  animation: inherit;\n  animation-duration: 0.1s;\n}\n\n.loader::after {\n  margin: 2.9px;\n}\n\n@keyframes spinner-e04l1k {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Seahorse 2</title>\n<style>\n/* Bitter Seahorse 2 by d4niz — https://uiverse.io/d4niz/bitter-seahorse-2 */\n.loader {\n  width: 56px;\n  height: 56px;\n  display: grid;\n  border: 4.6px solid #0000;\n  border-radius: 100%;\n  border-color: #008cff #0000;\n  animation: spinner-e04l1k 1.5s infinite linear;\n}\n\n.loader::before, .loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  margin: 8px;\n  border: inherit;\n  border-radius: 50%;\n}\n\n.loader::before {\n  border-color: #048be6 #0000;\n  animation: inherit;\n  animation-duration: 0.1s;\n}\n\n.loader::after {\n  margin: 2.9px;\n}\n\n@keyframes spinner-e04l1k {\n  100% {\n    transform: rotate(1turn);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

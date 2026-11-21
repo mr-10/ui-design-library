@@ -5,17 +5,25 @@
  "author": "McHaXYT",
  "source": "https://uiverse.io/McHaXYT/fresh-turkey-35",
  "trigger": "hover",
- "description": "A button with simple, minimalist and white styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark black button that lifts on hover with a smooth transition.",
+ "howItWorks": "On hover, transform becomes translateY(-3px).",
  "tags": [
+  "dark",
+  "flat",
+  "lift",
   "simple",
   "minimalist",
-  "white",
-  "black",
-  "button",
-  "dark"
+  "white"
  ],
- "html": "<button class=\"button\">\n  Get started\n  <span class=\"button-span\"> ─ it's free</span>\n</button>",
- "css": "/* From Uiverse.io by McHaXYT  - Tags: simple, minimalist, white, black, button, dark, light, modern */\n.button {\n  padding: 15px 20px;\n  border: none;\n  outline: none;\n  background-color: #151515;\n  color: #eee;\n  border-radius: 7px;\n  font-weight: 600;\n  cursor: pointer;\n  transition: all 0.25s ease-out;\n}\n\n.button:hover {\n  transform: translateY(-3px);\n}\n\n.button-span {\n  color: #aaa;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fresh Turkey 35</title>\n<style>\n/* From Uiverse.io by McHaXYT - https://uiverse.io/McHaXYT/fresh-turkey-35 */\n/* From Uiverse.io by McHaXYT  - Tags: simple, minimalist, white, black, button, dark, light, modern */\n.button {\n  padding: 15px 20px;\n  border: none;\n  outline: none;\n  background-color: #151515;\n  color: #eee;\n  border-radius: 7px;\n  font-weight: 600;\n  cursor: pointer;\n  transition: all 0.25s ease-out;\n}\n\n.button:hover {\n  transform: translateY(-3px);\n}\n\n.button-span {\n  color: #aaa;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Get started\n  <span class=\"button-span\"> ─ it's free</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#151515",
+  "#eeeeee",
+  "#aaaaaa"
+ ],
+ "fonts": [],
+ "tokens": 169,
+ "size": 681,
+ "html": "<button class=\"button\">\n  Get started\n  <span class=\"button-span\"> ─ it's free</span>\n</button>\n",
+ "css": "/* Fresh Turkey 35 by McHaXYT — https://uiverse.io/McHaXYT/fresh-turkey-35 */\n.button {\n  padding: 15px 20px;\n  border: none;\n  outline: none;\n  background-color: #151515;\n  color: #eee;\n  border-radius: 7px;\n  font-weight: 600;\n  cursor: pointer;\n  transition: all 0.25s ease-out;\n}\n\n.button:hover {\n  transform: translateY(-3px);\n}\n\n.button-span {\n  color: #aaa;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fresh Turkey 35</title>\n<style>\n/* Fresh Turkey 35 by McHaXYT — https://uiverse.io/McHaXYT/fresh-turkey-35 */\n.button {\n  padding: 15px 20px;\n  border: none;\n  outline: none;\n  background-color: #151515;\n  color: #eee;\n  border-radius: 7px;\n  font-weight: 600;\n  cursor: pointer;\n  transition: all 0.25s ease-out;\n}\n\n.button:hover {\n  transform: translateY(-3px);\n}\n\n.button-span {\n  color: #aaa;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Get started\n  <span class=\"button-span\"> ─ it's free</span>\n</button>\n\n</body>\n</html>\n"
 }

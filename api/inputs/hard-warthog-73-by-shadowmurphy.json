@@ -5,15 +5,25 @@
  "author": "shadowmurphy",
  "source": "https://uiverse.io/shadowmurphy/hard-warthog-73",
  "trigger": "hover",
- "description": "A input with blue and search styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded sky-blue text input that glows on hover.",
+ "howItWorks": "On hover, border becomes 2px solid #4A9DEC, box-shadow becomes 0px 0px 0px 7px rgb(74, 157, 236, 20%), background-color changes from #F3F3F3 to #ffffff. On focus, border becomes 2px solid #4A9DEC, box-shadow becomes 0px 0px 0px 7px rgb(74, 157, 236, 20%), background-color changes from #F3F3F3 to #ffffff.",
  "tags": [
   "blue",
-  "input",
-  "search",
-  "hover"
+  "rounded",
+  "glow",
+  "color-change",
+  "text-input",
+  "input"
  ],
- "html": "<input class=\"input\" placeholder=\"text\">",
- "css": "/* From Uiverse.io by shadowmurphy - Tags: blue, input, search */\n.input {\n  border: 2px solid transparent;\n  width: 15em;\n  height: 2.5em;\n  padding-left: 0.8em;\n  outline: none;\n  overflow: hidden;\n  background-color: #F3F3F3;\n  border-radius: 10px;\n  transition: all 0.5s;\n}\n\n.input:hover,\n.input:focus {\n  border: 2px solid #4A9DEC;\n  box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);\n  background-color: white;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Warthog 73</title>\n<style>\n/* From Uiverse.io by shadowmurphy - https://uiverse.io/shadowmurphy/hard-warthog-73 */\n/* From Uiverse.io by shadowmurphy - Tags: blue, input, search */\n.input {\n  border: 2px solid transparent;\n  width: 15em;\n  height: 2.5em;\n  padding-left: 0.8em;\n  outline: none;\n  overflow: hidden;\n  background-color: #F3F3F3;\n  border-radius: 10px;\n  transition: all 0.5s;\n}\n\n.input:hover,\n.input:focus {\n  border: 2px solid #4A9DEC;\n  box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);\n  background-color: white;\n}\n</style>\n</head>\n<body>\n<input class=\"input\" placeholder=\"text\">\n</body>\n</html>\n"
+ "colors": [
+  "#f3f3f3",
+  "#4a9dec",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 174,
+ "size": 699,
+ "html": "<input class=\"input\" placeholder=\"text\">\n",
+ "css": "/* Hard Warthog 73 by shadowmurphy — https://uiverse.io/shadowmurphy/hard-warthog-73 */\n.input {\n  border: 2px solid transparent;\n  width: 15em;\n  height: 2.5em;\n  padding-left: 0.8em;\n  outline: none;\n  overflow: hidden;\n  background-color: #F3F3F3;\n  border-radius: 10px;\n  transition: all 0.5s;\n}\n\n.input:hover,\n.input:focus {\n  border: 2px solid #4A9DEC;\n  box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);\n  background-color: white;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Warthog 73</title>\n<style>\n/* Hard Warthog 73 by shadowmurphy — https://uiverse.io/shadowmurphy/hard-warthog-73 */\n.input {\n  border: 2px solid transparent;\n  width: 15em;\n  height: 2.5em;\n  padding-left: 0.8em;\n  outline: none;\n  overflow: hidden;\n  background-color: #F3F3F3;\n  border-radius: 10px;\n  transition: all 0.5s;\n}\n\n.input:hover,\n.input:focus {\n  border: 2px solid #4A9DEC;\n  box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);\n  background-color: white;\n}\n</style>\n</head>\n<body>\n<input class=\"input\" placeholder=\"text\">\n\n</body>\n</html>\n"
 }

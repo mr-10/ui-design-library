@@ -5,14 +5,25 @@
  "author": "mrhyddenn",
  "source": "https://uiverse.io/mrhyddenn/mighty-duck-73",
  "trigger": "active",
- "description": "A button UI element.",
- "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "description": "Rounded dark cyan get started button that responds while pressed down.",
+ "howItWorks": "While pressed, transform becomes translateY(4px) translateX(4px), box-shadow becomes #094c66 0px 0px 0px.",
  "tags": [
+  "cyan",
+  "rounded",
+  "get-started-button",
   "button",
   "active",
   "css"
  ],
- "html": "<button>\n    GET STARTED\n</button>",
- "css": "/* From Uiverse.io by mrhyddenn - Tags: button */\nbutton {\n  background-color: #1197cc;\n  box-shadow: #094c66 4px 4px 0px;\n  border-radius: 8px;\n  padding: 15px 10px;\n  color: #fff;\n  border: none;\n  font-weight: bold;\n  font-size: 15px;\n  text-transform: uppercase;\n  min-width: 120px;\n  transition: transform 200ms, box-shadow 200ms;\n}\n\nbutton:active {\n  transform: translateY(4px) translateX(4px);\n  box-shadow: #094c66 0px 0px 0px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mighty Duck 73</title>\n<style>\n/* From Uiverse.io by mrhyddenn - https://uiverse.io/mrhyddenn/mighty-duck-73 */\n/* From Uiverse.io by mrhyddenn - Tags: button */\nbutton {\n  background-color: #1197cc;\n  box-shadow: #094c66 4px 4px 0px;\n  border-radius: 8px;\n  padding: 15px 10px;\n  color: #fff;\n  border: none;\n  font-weight: bold;\n  font-size: 15px;\n  text-transform: uppercase;\n  min-width: 120px;\n  transition: transform 200ms, box-shadow 200ms;\n}\n\nbutton:active {\n  transform: translateY(4px) translateX(4px);\n  box-shadow: #094c66 0px 0px 0px;\n}\n</style>\n</head>\n<body>\n<button>\n    GET STARTED\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#094c66",
+  "#1197cc",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 179,
+ "size": 718,
+ "html": "<button>\n    GET STARTED\n</button>\n",
+ "css": "/* Mighty Duck 73 by mrhyddenn — https://uiverse.io/mrhyddenn/mighty-duck-73 */\nbutton {\n  background-color: #1197cc;\n  box-shadow: #094c66 4px 4px 0px;\n  border-radius: 8px;\n  padding: 15px 10px;\n  color: #fff;\n  border: none;\n  font-weight: bold;\n  font-size: 15px;\n  text-transform: uppercase;\n  min-width: 120px;\n  transition: transform 200ms, box-shadow 200ms;\n}\n\nbutton:active {\n  transform: translateY(4px) translateX(4px);\n  box-shadow: #094c66 0px 0px 0px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mighty Duck 73</title>\n<style>\n/* Mighty Duck 73 by mrhyddenn — https://uiverse.io/mrhyddenn/mighty-duck-73 */\nbutton {\n  background-color: #1197cc;\n  box-shadow: #094c66 4px 4px 0px;\n  border-radius: 8px;\n  padding: 15px 10px;\n  color: #fff;\n  border: none;\n  font-weight: bold;\n  font-size: 15px;\n  text-transform: uppercase;\n  min-width: 120px;\n  transition: transform 200ms, box-shadow 200ms;\n}\n\nbutton:active {\n  transform: translateY(4px) translateX(4px);\n  box-shadow: #094c66 0px 0px 0px;\n}\n</style>\n</head>\n<body>\n<button>\n    GET STARTED\n</button>\n\n</body>\n</html>\n"
 }

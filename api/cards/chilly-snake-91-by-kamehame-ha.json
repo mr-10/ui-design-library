@@ -5,17 +5,25 @@
  "author": "kamehame-ha",
  "source": "https://uiverse.io/kamehame-ha/chilly-snake-91",
  "trigger": "hover",
- "description": "A card with simple, animated and clean styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded red card that scales up on hover.",
+ "howItWorks": "On hover, transform becomes scale(1.1, 1.1), filter becomes blur(10px), transform becomes scale(0.9, 0.9).",
  "tags": [
-  "simple",
-  "animated",
-  "clean",
-  "sample",
-  "cards",
-  "hover"
+  "red",
+  "blue",
+  "rounded",
+  "flat",
+  "scale",
+  "shrink"
  ],
- "html": "<div class=\"cards\">\n    <div class=\"card red\">\n        <p class=\"tip\">Hover Me</p>\n        <p class=\"second-text\">Lorem Ipsum</p>\n    </div>\n    <div class=\"card blue\">\n        <p class=\"tip\">Hover Me</p>\n        <p class=\"second-text\">Lorem Ipsum</p>\n    </div>\n    <div class=\"card green\">\n        <p class=\"tip\">Hover Me</p>\n        <p class=\"second-text\">Lorem Ipsum</p>\n    </div>\n</div>",
- "css": "/* From Uiverse.io by kamehame-ha - Tags: simple, animated, clean, sample */\n.cards {\n  display: flex;\n  flex-direction: column;\n  gap: 15px;\n}\n\n.cards .red {\n  background-color: #f43f5e;\n}\n\n.cards .blue {\n  background-color: #3b82f6;\n}\n\n.cards .green {\n  background-color: #22c55e;\n}\n\n.cards .card {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  text-align: center;\n  height: 100px;\n  width: 250px;\n  border-radius: 10px;\n  color: white;\n  cursor: pointer;\n  transition: 400ms;\n}\n\n.cards .card p.tip {\n  font-size: 1em;\n  font-weight: 700;\n}\n\n.cards .card p.second-text {\n  font-size: .7em;\n}\n\n.cards .card:hover {\n  transform: scale(1.1, 1.1);\n}\n\n.cards:hover > .card:not(:hover) {\n  filter: blur(10px);\n  transform: scale(0.9, 0.9);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Snake 91</title>\n<style>\n/* From Uiverse.io by kamehame-ha - https://uiverse.io/kamehame-ha/chilly-snake-91 */\n/* From Uiverse.io by kamehame-ha - Tags: simple, animated, clean, sample */\n.cards {\n  display: flex;\n  flex-direction: column;\n  gap: 15px;\n}\n\n.cards .red {\n  background-color: #f43f5e;\n}\n\n.cards .blue {\n  background-color: #3b82f6;\n}\n\n.cards .green {\n  background-color: #22c55e;\n}\n\n.cards .card {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  text-align: center;\n  height: 100px;\n  width: 250px;\n  border-radius: 10px;\n  color: white;\n  cursor: pointer;\n  transition: 400ms;\n}\n\n.cards .card p.tip {\n  font-size: 1em;\n  font-weight: 700;\n}\n\n.cards .card p.second-text {\n  font-size: .7em;\n}\n\n.cards .card:hover {\n  transform: scale(1.1, 1.1);\n}\n\n.cards:hover > .card:not(:hover) {\n  filter: blur(10px);\n  transform: scale(0.9, 0.9);\n}\n</style>\n</head>\n<body>\n<div class=\"cards\">\n    <div class=\"card red\">\n        <p class=\"tip\">Hover Me</p>\n        <p class=\"second-text\">Lorem Ipsum</p>\n    </div>\n    <div class=\"card blue\">\n        <p class=\"tip\">Hover Me</p>\n        <p class=\"second-text\">Lorem Ipsum</p>\n    </div>\n    <div class=\"card green\">\n        <p class=\"tip\">Hover Me</p>\n        <p class=\"second-text\">Lorem Ipsum</p>\n    </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#f43f5e",
+  "#3b82f6",
+  "#22c55e"
+ ],
+ "fonts": [],
+ "tokens": 351,
+ "size": 1405,
+ "html": "<div class=\"cards\">\n    <div class=\"card red\">\n        <p class=\"tip\">Hover Me</p>\n        <p class=\"second-text\">Lorem Ipsum</p>\n    </div>\n    <div class=\"card blue\">\n        <p class=\"tip\">Hover Me</p>\n        <p class=\"second-text\">Lorem Ipsum</p>\n    </div>\n    <div class=\"card green\">\n        <p class=\"tip\">Hover Me</p>\n        <p class=\"second-text\">Lorem Ipsum</p>\n    </div>\n</div>\n",
+ "css": "/* Chilly Snake 91 by kamehame-ha — https://uiverse.io/kamehame-ha/chilly-snake-91 */\n.cards {\n  display: flex;\n  flex-direction: column;\n  gap: 15px;\n}\n\n.cards .red {\n  background-color: #f43f5e;\n}\n\n.cards .blue {\n  background-color: #3b82f6;\n}\n\n.cards .green {\n  background-color: #22c55e;\n}\n\n.cards .card {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  text-align: center;\n  height: 100px;\n  width: 250px;\n  border-radius: 10px;\n  color: white;\n  cursor: pointer;\n  transition: 400ms;\n}\n\n.cards .card p.tip {\n  font-size: 1em;\n  font-weight: 700;\n}\n\n.cards .card p.second-text {\n  font-size: .7em;\n}\n\n.cards .card:hover {\n  transform: scale(1.1, 1.1);\n}\n\n.cards:hover > .card:not(:hover) {\n  filter: blur(10px);\n  transform: scale(0.9, 0.9);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Snake 91</title>\n<style>\n/* Chilly Snake 91 by kamehame-ha — https://uiverse.io/kamehame-ha/chilly-snake-91 */\n.cards {\n  display: flex;\n  flex-direction: column;\n  gap: 15px;\n}\n\n.cards .red {\n  background-color: #f43f5e;\n}\n\n.cards .blue {\n  background-color: #3b82f6;\n}\n\n.cards .green {\n  background-color: #22c55e;\n}\n\n.cards .card {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  text-align: center;\n  height: 100px;\n  width: 250px;\n  border-radius: 10px;\n  color: white;\n  cursor: pointer;\n  transition: 400ms;\n}\n\n.cards .card p.tip {\n  font-size: 1em;\n  font-weight: 700;\n}\n\n.cards .card p.second-text {\n  font-size: .7em;\n}\n\n.cards .card:hover {\n  transform: scale(1.1, 1.1);\n}\n\n.cards:hover > .card:not(:hover) {\n  filter: blur(10px);\n  transform: scale(0.9, 0.9);\n}\n</style>\n</head>\n<body>\n<div class=\"cards\">\n    <div class=\"card red\">\n        <p class=\"tip\">Hover Me</p>\n        <p class=\"second-text\">Lorem Ipsum</p>\n    </div>\n    <div class=\"card blue\">\n        <p class=\"tip\">Hover Me</p>\n        <p class=\"second-text\">Lorem Ipsum</p>\n    </div>\n    <div class=\"card green\">\n        <p class=\"tip\">Hover Me</p>\n        <p class=\"second-text\">Lorem Ipsum</p>\n    </div>\n</div>\n\n</body>\n</html>\n"
 }

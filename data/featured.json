@@ -1,5 +1,5 @@
 {
- "version": "b62515dc6880",
+ "version": "ad0a23a75570",
  "elements": [
   {
    "id": "young-newt-20-by-dexter-st",
@@ -8,19 +8,26 @@
    "author": "dexter-st",
    "link": "https://uiverse.io/dexter-st/young-newt-20",
    "path": "uiverse/buttons/young-newt-20-by-dexter-st/",
-   "description": "A button UI element.",
-   "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+   "description": "Neon gradient rounded cyan button that starts animating on hover.",
+   "howItWorks": "On hover, transform becomes translateY(0), opacity becomes 1, transform becomes translateY(100%).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
-    "buttons",
-    "hover",
-    "css"
+    "cyan",
+    "neon",
+    "gradient",
+    "outlined",
+    "rounded",
+    "drop",
+    "fade",
+    "color-change",
+    "glow",
+    "animated"
    ],
    "colors": [
-    "#65e5ff",
-    "#65cbff",
-    "#b2f2ff"
+    "#66ccff",
+    "#9edbfa",
+    "#66e5ff"
    ],
    "files": [
     "README.md",
@@ -36,11 +43,17 @@
    "author": "abrahamcalsin",
    "link": "https://uiverse.io/abrahamcalsin/serious-turkey-52",
    "path": "uiverse/loaders/serious-turkey-52-by-abrahamcalsin/",
-   "description": "A loader with spinner and dots styling.",
-   "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+   "description": "Pill dark sky-blue spinner loader with fading motion in a loop.",
+   "howItWorks": "It loops a animation (fading, pulsing).",
    "trigger": "auto-loop",
    "needsJs": false,
    "tags": [
+    "blue",
+    "rounded",
+    "pill",
+    "fade",
+    "pulse",
+    "spinner-loader",
     "loader",
     "spinner",
     "dots",
@@ -64,14 +77,21 @@
    "author": "micaelgomestavares",
    "link": "https://uiverse.io/micaelgomestavares/dull-walrus-66",
    "path": "uiverse/forms/dull-walrus-66-by-micaelgomestavares/",
-   "description": "A form UI element.",
-   "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+   "description": "Dark rounded sky-blue login form that changes colour on hover.",
+   "howItWorks": "On hover, background-color changes from #ffffff to #252727, border becomes 1px solid #2d79f3. On focus, the outline is removed, border becomes 1.5px solid #2d79f3.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
-    "forms",
-    "hover",
-    "css"
+    "blue",
+    "dark",
+    "outlined",
+    "rounded",
+    "flat",
+    "color-change",
+    "submit",
+    "password",
+    "google",
+    "email"
    ],
    "colors": [
     "#2d79f3",
@@ -83,7 +103,10 @@
     "index.html",
     "styles.css"
    ],
-   "issues": []
+   "issues": [],
+   "fonts": [
+    "-apple-system"
+   ]
   },
   {
    "id": "tiny-moose-42-by-ahmed_8975",
@@ -92,14 +115,21 @@
    "author": "ahmed_8975",
    "link": "https://uiverse.io/ahmed_8975/tiny-moose-42",
    "path": "uiverse/checkboxes/tiny-moose-42-by-ahmed_8975/",
-   "description": "A checkbox UI element.",
-   "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+   "description": "Glass neon gradient lime checkbox that toggles on and off when clicked.",
+   "howItWorks": "On hover, border-color becomes #c8f060, transform becomes scale(1.06), text color changes from #ffffff to #ffffff. Clicking it toggles it: background changes from #ffffff to linear-gradient(135deg, #c8f060, #60f0b8), border-color becomes transparent, box-shadow becomes 0 0 0 3px #c8f060,\n    0 4px 14px #c8f060.",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "lime",
+    "emerald",
+    "neon",
+    "glassmorphism",
+    "gradient",
+    "scale",
+    "color-change",
+    "checkbox",
     "checkboxes",
-    "checked",
-    "css"
+    "checked"
    ],
    "colors": [
     "#c8f060",
@@ -111,7 +141,10 @@
     "index.html",
     "styles.css"
    ],
-   "issues": []
+   "issues": [],
+   "fonts": [
+    "-apple-system"
+   ]
   },
   {
    "id": "wet-mayfly-23-by-nawsome",
@@ -120,22 +153,26 @@
    "author": "Nawsome",
    "link": "https://uiverse.io/Nawsome/wet-mayfly-23",
    "path": "uiverse/loaders/wet-mayfly-23-by-nawsome/",
-   "description": "A loader with hamster, wheel and svg styling.",
-   "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+   "description": "Gradient 3d pill light amber loader with pulsing; rotating motion in a loop.",
+   "howItWorks": "It loops a animation (pulsing; rotating).",
    "trigger": "auto-loop",
    "needsJs": false,
    "tags": [
+    "amber",
+    "gradient",
+    "3d",
+    "rounded",
+    "pill",
+    "spin",
+    "pulse",
     "loader",
     "hamster",
-    "wheel",
-    "svg",
-    "animal",
-    "auto-loop"
+    "wheel"
    ],
    "colors": [
-    "#f9cc9e",
-    "#fce5ce",
-    "#fbb6b6"
+    "#999999",
+    "#facc9e",
+    "#fce6cf"
    ],
    "files": [
     "README.md",
@@ -151,22 +188,26 @@
    "author": "Praashoo7",
    "link": "https://uiverse.io/Praashoo7/lucky-hound-44",
    "path": "uiverse/loaders/lucky-hound-44-by-praashoo7/",
-   "description": "A loader with neumorphism, animation and smooth styling.",
-   "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+   "description": "Gradient pill gray loader with bouncing motion in a loop.",
+   "howItWorks": "It loops a 3.63s animation (bouncing).",
    "trigger": "auto-loop",
    "needsJs": false,
    "tags": [
+    "gradient",
+    "outlined",
+    "rounded",
+    "pill",
+    "bounce",
     "neumorphism",
     "animation",
     "loader",
     "smooth",
-    "shadow",
-    "realistic"
+    "shadow"
    ],
    "colors": [
     "#e0e0e0",
-    "#e2e2e2",
-    "#d3d2d2"
+    "#d3d2d2",
+    "#e9e9e9"
    ],
    "files": [
     "README.md",
@@ -182,11 +223,15 @@
    "author": "vinodjangid07",
    "link": "https://uiverse.io/vinodjangid07/brown-turtle-51",
    "path": "uiverse/buttons/brown-turtle-51-by-vinodjangid07/",
-   "description": "A button with purple, click-effect and shop-now styling.",
-   "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+   "description": "Gradient rounded indigo button that responds while pressed down.",
+   "howItWorks": "While pressed, transform becomes translate(2px ,0px), box-shadow becomes 0px 1px 0px #8b71ff.",
    "trigger": "active",
    "needsJs": false,
    "tags": [
+    "indigo",
+    "gradient",
+    "outlined",
+    "rounded",
     "purple",
     "button",
     "click-effect",
@@ -195,8 +240,7 @@
    ],
    "colors": [
     "#8b71ff",
-    "#d6cafe",
-    "#9e81fe"
+    "#ffffff"
    ],
    "files": [
     "README.md",
@@ -212,14 +256,21 @@
    "author": "Mohammad-Rahme-576",
    "link": "https://uiverse.io/Mohammad-Rahme-576/hard-starfish-64",
    "path": "uiverse/tooltips/hard-starfish-64-by-mohammad-rahme-576/",
-   "description": "A tooltip UI element.",
-   "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+   "description": "Glass neon gradient pill blue tooltip that glows and scales up on hover.",
+   "howItWorks": "On hover, opacity becomes 1, transform becomes scale(1), background changes from #2a2a2a to linear-gradient(135deg, #a777e3, #6e8efb). On focus, the outline is removed, box-shadow becomes 0 0 0 3px #6e8efb,\n    0 8px 15px #000000, box-shadow becomes 0 8px 15px #000000.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
-    "tooltip",
-    "hover",
-    "css"
+    "blue",
+    "violet",
+    "neon",
+    "glassmorphism",
+    "gradient",
+    "dark",
+    "rounded",
+    "pill",
+    "fade",
+    "shrink"
    ],
    "colors": [
     "#6e8efb",
@@ -231,7 +282,10 @@
     "index.html",
     "styles.css"
    ],
-   "issues": []
+   "issues": [],
+   "fonts": [
+    "Arial"
+   ]
   },
   {
    "id": "short-panther-37-by-d3oxy",
@@ -240,29 +294,35 @@
    "author": "D3OXY",
    "link": "https://uiverse.io/D3OXY/short-panther-37",
    "path": "uiverse/forms/short-panther-37-by-d3oxy/",
-   "description": "A form with github, google and login-form styling.",
-   "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+   "description": "Gray form that changes colour on hover with a smooth transition.",
+   "howItWorks": "On hover, text color changes from #323232 to #e8e8e8, width becomes 100%.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
-    "form",
-    "github",
+    "color-change",
+    "expand",
     "google",
+    "github",
+    "form",
     "login-form",
     "sign-up-form",
     "card-animation"
    ],
    "colors": [
     "#323232",
-    "#d3d3d3",
-    "#2d8cf0"
+    "#666666",
+    "#d3d3d3"
    ],
    "files": [
     "README.md",
     "index.html",
     "styles.css"
    ],
-   "issues": []
+   "issues": [],
+   "fonts": [
+    "var(--font-DelaGothicOne)",
+    "var(--font-SpaceMono)"
+   ]
   }
  ]
 }

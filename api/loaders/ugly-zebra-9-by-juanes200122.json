@@ -5,17 +5,24 @@
  "author": "Juanes200122",
  "source": "https://uiverse.io/Juanes200122/ugly-zebra-9",
  "trigger": "auto-loop",
- "description": "A loader with simple, animation and circle styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Dark pill black loader with animating motion in a loop.",
+ "howItWorks": "It loops a 1s animation (animating).",
  "tags": [
+  "dark",
+  "rounded",
+  "pill",
   "simple",
   "animation",
-  "loader",
-  "circle",
-  "html",
-  "css"
+  "loader"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by Juanes200122 - Tags: simple, animation, loader, circle, html, css */\n.loader {\n  width: 15px;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  background: #000;\n  box-shadow: -20px 0px,20px 0px;\n  animation: l18 1s infinite;\n}\n\n@keyframes l18 {\n \n  25% {\n    box-shadow: -20px -20px, 20px 20px\n  }\n\n  50% {\n    box-shadow: 0px -20px,  0px 20px\n  }\n\n  75% {\n    box-shadow: 20px -20px,-20px 20px\n  }\n\n  100% {\n    box-shadow: 20px   0px,-20px  0px\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Zebra 9</title>\n<style>\n/* From Uiverse.io by Juanes200122 - https://uiverse.io/Juanes200122/ugly-zebra-9 */\n/* From Uiverse.io by Juanes200122 - Tags: simple, animation, loader, circle, html, css */\n.loader {\n  width: 15px;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  background: #000;\n  box-shadow: -20px 0px,20px 0px;\n  animation: l18 1s infinite;\n}\n\n@keyframes l18 {\n \n  25% {\n    box-shadow: -20px -20px, 20px 20px\n  }\n\n  50% {\n    box-shadow: 0px -20px,  0px 20px\n  }\n\n  75% {\n    box-shadow: 20px -20px,-20px 20px\n  }\n\n  100% {\n    box-shadow: 20px   0px,-20px  0px\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 174,
+ "size": 699,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Ugly Zebra 9 by Juanes200122 — https://uiverse.io/Juanes200122/ugly-zebra-9 */\n.loader {\n  width: 15px;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  background: #000;\n  box-shadow: -20px 0px,20px 0px;\n  animation: l18 1s infinite;\n}\n\n@keyframes l18 {\n\n  25% {\n    box-shadow: -20px -20px, 20px 20px\n  }\n\n  50% {\n    box-shadow: 0px -20px,  0px 20px\n  }\n\n  75% {\n    box-shadow: 20px -20px,-20px 20px\n  }\n\n  100% {\n    box-shadow: 20px   0px,-20px  0px\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ugly Zebra 9</title>\n<style>\n/* Ugly Zebra 9 by Juanes200122 — https://uiverse.io/Juanes200122/ugly-zebra-9 */\n.loader {\n  width: 15px;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  background: #000;\n  box-shadow: -20px 0px,20px 0px;\n  animation: l18 1s infinite;\n}\n\n@keyframes l18 {\n\n  25% {\n    box-shadow: -20px -20px, 20px 20px\n  }\n\n  50% {\n    box-shadow: 0px -20px,  0px 20px\n  }\n\n  75% {\n    box-shadow: 20px -20px,-20px 20px\n  }\n\n  100% {\n    box-shadow: 20px   0px,-20px  0px\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

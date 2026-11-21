@@ -5,14 +5,25 @@
  "author": "alexmaracinaru",
  "source": "https://uiverse.io/alexmaracinaru/shy-treefrog-42",
  "trigger": "checked",
- "description": "A checkbox with neumorphism styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Gradient rounded fuchsia checkbox that toggles on and off when clicked.",
+ "howItWorks": "Clicking it switches it on or off; its CSS has no :checked rule that changes a visible property.",
  "tags": [
-  "neumorphism",
+  "fuchsia",
+  "gradient",
+  "rounded",
   "checkbox",
+  "neumorphism",
   "checked"
  ],
- "html": "<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>",
- "css": "/* From Uiverse.io by alexmaracinaru - Tags: neumorphism, checkbox */\n/* Hide the default checkbox */\n.container input {\n position: absolute;\n opacity: 0;\n cursor: pointer;\n height: 0;\n width: 0;\n}\n\n.container {\n border-radius: 9px;\n display: block;\n position: relative;\n cursor: pointer;\n font-size: 20px;\n user-select: none;\n box-shadow: rgba(139, 18, 113, 0.2) 0px 8px 24px;\n background-image: linear-gradient(45deg, #f3d5f7, #fbf6e7, #e6fcf5);\n}\n\n/* Create a custom checkbox */\n.checkmark {\n border-radius: 9px;\n position: relative;\n top: 0;\n left: 0;\n height: 1.3em;\n width: 1.3em;\n background-color: linear-gradient(45deg, #f8e7fa, #fbf6e7, #e6fcf5);\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n content: \"\";\n position: absolute;\n display: none;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n display: block;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n left: 0.45em;\n top: 0.25em;\n width: 0.25em;\n height: 0.5em;\n border: solid rgb(233, 182, 182);\n border-width: 0 0.15em 0.15em 0;\n transform: rotate(45deg);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shy Treefrog 42</title>\n<style>\n/* From Uiverse.io by alexmaracinaru - https://uiverse.io/alexmaracinaru/shy-treefrog-42 */\n/* From Uiverse.io by alexmaracinaru - Tags: neumorphism, checkbox */\n/* Hide the default checkbox */\n.container input {\n position: absolute;\n opacity: 0;\n cursor: pointer;\n height: 0;\n width: 0;\n}\n\n.container {\n border-radius: 9px;\n display: block;\n position: relative;\n cursor: pointer;\n font-size: 20px;\n user-select: none;\n box-shadow: rgba(139, 18, 113, 0.2) 0px 8px 24px;\n background-image: linear-gradient(45deg, #f3d5f7, #fbf6e7, #e6fcf5);\n}\n\n/* Create a custom checkbox */\n.checkmark {\n border-radius: 9px;\n position: relative;\n top: 0;\n left: 0;\n height: 1.3em;\n width: 1.3em;\n background-color: linear-gradient(45deg, #f8e7fa, #fbf6e7, #e6fcf5);\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n content: \"\";\n position: absolute;\n display: none;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n display: block;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n left: 0.45em;\n top: 0.25em;\n width: 0.25em;\n height: 0.5em;\n border: solid rgb(233, 182, 182);\n border-width: 0 0.15em 0.15em 0;\n transform: rotate(45deg);\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#8b1271",
+  "#f8e7fa",
+  "#fbf6e7"
+ ],
+ "fonts": [],
+ "tokens": 318,
+ "size": 1274,
+ "html": "<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>\n",
+ "css": "/* Shy Treefrog 42 by alexmaracinaru — https://uiverse.io/alexmaracinaru/shy-treefrog-42 */\n.container input {\n position: absolute;\n opacity: 0;\n cursor: pointer;\n height: 0;\n width: 0;\n}\n\n.container {\n border-radius: 9px;\n display: block;\n position: relative;\n cursor: pointer;\n font-size: 20px;\n user-select: none;\n box-shadow: rgba(139, 18, 113, 0.2) 0px 8px 24px;\n background-image: linear-gradient(45deg, #f3d5f7, #fbf6e7, #e6fcf5);\n}\n\n.checkmark {\n border-radius: 9px;\n position: relative;\n top: 0;\n left: 0;\n height: 1.3em;\n width: 1.3em;\n background-color: linear-gradient(45deg, #f8e7fa, #fbf6e7, #e6fcf5);\n}\n\n.checkmark:after {\n content: \"\";\n position: absolute;\n display: none;\n}\n\n.container input:checked ~ .checkmark:after {\n display: block;\n}\n\n.container .checkmark:after {\n left: 0.45em;\n top: 0.25em;\n width: 0.25em;\n height: 0.5em;\n border: solid rgb(233, 182, 182);\n border-width: 0 0.15em 0.15em 0;\n transform: rotate(45deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shy Treefrog 42</title>\n<style>\n/* Shy Treefrog 42 by alexmaracinaru — https://uiverse.io/alexmaracinaru/shy-treefrog-42 */\n.container input {\n position: absolute;\n opacity: 0;\n cursor: pointer;\n height: 0;\n width: 0;\n}\n\n.container {\n border-radius: 9px;\n display: block;\n position: relative;\n cursor: pointer;\n font-size: 20px;\n user-select: none;\n box-shadow: rgba(139, 18, 113, 0.2) 0px 8px 24px;\n background-image: linear-gradient(45deg, #f3d5f7, #fbf6e7, #e6fcf5);\n}\n\n.checkmark {\n border-radius: 9px;\n position: relative;\n top: 0;\n left: 0;\n height: 1.3em;\n width: 1.3em;\n background-color: linear-gradient(45deg, #f8e7fa, #fbf6e7, #e6fcf5);\n}\n\n.checkmark:after {\n content: \"\";\n position: absolute;\n display: none;\n}\n\n.container input:checked ~ .checkmark:after {\n display: block;\n}\n\n.container .checkmark:after {\n left: 0.45em;\n top: 0.25em;\n width: 0.25em;\n height: 0.5em;\n border: solid rgb(233, 182, 182);\n border-width: 0 0.15em 0.15em 0;\n transform: rotate(45deg);\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,24 @@
  "author": "Shubh0408",
  "source": "https://uiverse.io/Shubh0408/giant-swan-43",
  "trigger": "checked",
- "description": "A toggle switch UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Rounded sky-blue toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "blue",
+  "rounded",
+  "toggle-switch",
   "toggle-switches",
   "checked",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Shubh0408  - Tags: switch -->\n<label class=\"switch\">\n  <input class=\"peer hidden\" type=\"checkbox\" />\n  <span\n    class=\"slider absolute h-5 w-5 translate-x-0.5 translate-y-0.5 rounded-md border-2 border-black bg-blue-500 shadow-[inset_2px_3px_2px] duration-700 peer-checked:translate-x-[1.6rem] peer-checked:border-gray-200 peer-checked:bg-white peer-checked:shadow-[inset_-2px_-2px_3px]\"\n  ></span>\n  <div\n    class=\"h-6 w-12 rounded-lg border-2 border-black shadow-[2px_3px_2px] duration-700 peer-checked:bg-blue-500\"\n  ></div>\n</label>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Swan 43</title>\n<style>\n/* From Uiverse.io by Shubh0408 - https://uiverse.io/Shubh0408/giant-swan-43 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Shubh0408  - Tags: switch -->\n<label class=\"switch\">\n  <input class=\"peer hidden\" type=\"checkbox\" />\n  <span\n    class=\"slider absolute h-5 w-5 translate-x-0.5 translate-y-0.5 rounded-md border-2 border-black bg-blue-500 shadow-[inset_2px_3px_2px] duration-700 peer-checked:translate-x-[1.6rem] peer-checked:border-gray-200 peer-checked:bg-white peer-checked:shadow-[inset_-2px_-2px_3px]\"\n  ></span>\n  <div\n    class=\"h-6 w-12 rounded-lg border-2 border-black shadow-[2px_3px_2px] duration-700 peer-checked:bg-blue-500\"\n  ></div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#3b82f6",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 200,
+ "size": 802,
+ "html": "<label class=\"switch\">\n  <input class=\"peer hidden\" type=\"checkbox\" />\n  <span\n    class=\"slider absolute h-5 w-5 translate-x-0.5 translate-y-0.5 rounded-md border-2 border-black bg-blue-500 shadow-[inset_2px_3px_2px] duration-700 peer-checked:translate-x-[1.6rem] peer-checked:border-gray-200 peer-checked:bg-white peer-checked:shadow-[inset_-2px_-2px_3px]\"\n  ></span>\n  <div\n    class=\"h-6 w-12 rounded-lg border-2 border-black shadow-[2px_3px_2px] duration-700 peer-checked:bg-blue-500\"\n  ></div>\n</label>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Swan 43</title>\n<style>\n/* Giant Swan 43 by Shubh0408 — https://uiverse.io/Shubh0408/giant-swan-43 */\n\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input class=\"peer hidden\" type=\"checkbox\" />\n  <span\n    class=\"slider absolute h-5 w-5 translate-x-0.5 translate-y-0.5 rounded-md border-2 border-black bg-blue-500 shadow-[inset_2px_3px_2px] duration-700 peer-checked:translate-x-[1.6rem] peer-checked:border-gray-200 peer-checked:bg-white peer-checked:shadow-[inset_-2px_-2px_3px]\"\n  ></span>\n  <div\n    class=\"h-6 w-12 rounded-lg border-2 border-black shadow-[2px_3px_2px] duration-700 peer-checked:bg-blue-500\"\n  ></div>\n</label>\n\n</body>\n</html>\n"
 }

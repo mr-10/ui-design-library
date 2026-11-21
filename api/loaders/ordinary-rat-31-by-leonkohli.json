@@ -5,16 +5,24 @@
  "author": "LeonKohli",
  "source": "https://uiverse.io/LeonKohli/ordinary-rat-31",
  "trigger": "auto-loop",
- "description": "A loader with gradient, rounded and gradients styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient pill white loader with fading motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (fading, pulsing).",
  "tags": [
   "gradient",
-  "loader",
   "rounded",
-  "gradients",
-  "auto-loop"
+  "pill",
+  "flat",
+  "fade",
+  "pulse"
  ],
- "html": "<div class=\"loader\">\n  <div class=\"bubble\"></div>\n  <div class=\"bubble\"></div>\n  <div class=\"bubble\"></div>\n</div>",
- "css": "/* From Uiverse.io by LeonKohli  - Tags: gradient, loader, rounded, gradients */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.bubble {\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-image: linear-gradient(to right, #ff6b81, #ff9a44);\n  margin: 0 5px;\n  animation: bubbleAnimation 1.5s ease-in-out infinite;\n}\n\n@keyframes bubbleAnimation {\n  0%,\n  100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n  50% {\n    transform: scale(2);\n    opacity: 0.5;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ordinary Rat 31</title>\n<style>\n/* From Uiverse.io by LeonKohli - https://uiverse.io/LeonKohli/ordinary-rat-31 */\n/* From Uiverse.io by LeonKohli  - Tags: gradient, loader, rounded, gradients */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.bubble {\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-image: linear-gradient(to right, #ff6b81, #ff9a44);\n  margin: 0 5px;\n  animation: bubbleAnimation 1.5s ease-in-out infinite;\n}\n\n@keyframes bubbleAnimation {\n  0%,\n  100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n  50% {\n    transform: scale(2);\n    opacity: 0.5;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"bubble\"></div>\n  <div class=\"bubble\"></div>\n  <div class=\"bubble\"></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 214,
+ "size": 859,
+ "html": "<div class=\"loader\">\n  <div class=\"bubble\"></div>\n  <div class=\"bubble\"></div>\n  <div class=\"bubble\"></div>\n</div>\n",
+ "css": "/* Ordinary Rat 31 by LeonKohli — https://uiverse.io/LeonKohli/ordinary-rat-31 */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.bubble {\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-image: linear-gradient(to right, #ff6b81, #ff9a44);\n  margin: 0 5px;\n  animation: bubbleAnimation 1.5s ease-in-out infinite;\n}\n\n@keyframes bubbleAnimation {\n  0%,\n  100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n  50% {\n    transform: scale(2);\n    opacity: 0.5;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ordinary Rat 31</title>\n<style>\n/* Ordinary Rat 31 by LeonKohli — https://uiverse.io/LeonKohli/ordinary-rat-31 */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.bubble {\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-image: linear-gradient(to right, #ff6b81, #ff9a44);\n  margin: 0 5px;\n  animation: bubbleAnimation 1.5s ease-in-out infinite;\n}\n\n@keyframes bubbleAnimation {\n  0%,\n  100% {\n    transform: scale(1);\n    opacity: 1;\n  }\n  50% {\n    transform: scale(2);\n    opacity: 0.5;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"bubble\"></div>\n  <div class=\"bubble\"></div>\n  <div class=\"bubble\"></div>\n</div>\n\n</body>\n</html>\n"
 }

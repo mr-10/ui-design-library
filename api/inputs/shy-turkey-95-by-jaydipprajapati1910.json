@@ -5,14 +5,25 @@
  "author": "JaydipPrajapati1910",
  "source": "https://uiverse.io/JaydipPrajapati1910/shy-turkey-95",
  "trigger": "focus",
- "description": "A input with animation styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Outlined rounded gray text input that lights up when focused.",
+ "howItWorks": "On focus, border becomes 2px solid #c3c6ce, text color changes from #222 to #999.",
  "tags": [
+  "outlined",
+  "rounded",
+  "text-input",
   "animation",
   "input",
   "focus"
  ],
- "html": "<input class=\"input\" name=\"text\" type=\"text\" placeholder=\"Name\">",
- "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, input */\n.input {\n  max-width: 190px;\n  border: none;\n  outline: none;\n  background: none;\n  font-size: 18px;\n  color: #222;\n  padding: 15px 5px 10px 20px;\n  box-shadow: Inset 0 1px 25px rgba(0, 0, 0, 0.55);\n  border-radius: 25px;\n}\n\n.input:focus {\n  border: 2px solid #c3c6ce;\n}\n\n.input::placeholder {\n  color: #555;\n  transition: all 0.3s ease;\n}\n\n.input:focus::placeholder {\n  color: #999;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shy Turkey 95</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/shy-turkey-95 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, input */\n.input {\n  max-width: 190px;\n  border: none;\n  outline: none;\n  background: none;\n  font-size: 18px;\n  color: #222;\n  padding: 15px 5px 10px 20px;\n  box-shadow: Inset 0 1px 25px rgba(0, 0, 0, 0.55);\n  border-radius: 25px;\n}\n\n.input:focus {\n  border: 2px solid #c3c6ce;\n}\n\n.input::placeholder {\n  color: #555;\n  transition: all 0.3s ease;\n}\n\n.input:focus::placeholder {\n  color: #999;\n}\n</style>\n</head>\n<body>\n<input class=\"input\" name=\"text\" type=\"text\" placeholder=\"Name\">\n</body>\n</html>\n"
+ "colors": [
+  "#222222",
+  "#c3c6ce",
+  "#555555"
+ ],
+ "fonts": [],
+ "tokens": 190,
+ "size": 763,
+ "html": "<input class=\"input\" name=\"text\" type=\"text\" placeholder=\"Name\">\n",
+ "css": "/* Shy Turkey 95 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/shy-turkey-95 */\n.input {\n  max-width: 190px;\n  border: none;\n  outline: none;\n  background: none;\n  font-size: 18px;\n  color: #222;\n  padding: 15px 5px 10px 20px;\n  box-shadow: Inset 0 1px 25px rgba(0, 0, 0, 0.55);\n  border-radius: 25px;\n}\n\n.input:focus {\n  border: 2px solid #c3c6ce;\n}\n\n.input::placeholder {\n  color: #555;\n  transition: all 0.3s ease;\n}\n\n.input:focus::placeholder {\n  color: #999;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shy Turkey 95</title>\n<style>\n/* Shy Turkey 95 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/shy-turkey-95 */\n.input {\n  max-width: 190px;\n  border: none;\n  outline: none;\n  background: none;\n  font-size: 18px;\n  color: #222;\n  padding: 15px 5px 10px 20px;\n  box-shadow: Inset 0 1px 25px rgba(0, 0, 0, 0.55);\n  border-radius: 25px;\n}\n\n.input:focus {\n  border: 2px solid #c3c6ce;\n}\n\n.input::placeholder {\n  color: #555;\n  transition: all 0.3s ease;\n}\n\n.input:focus::placeholder {\n  color: #999;\n}\n</style>\n</head>\n<body>\n<input class=\"input\" name=\"text\" type=\"text\" placeholder=\"Name\">\n\n</body>\n</html>\n"
 }

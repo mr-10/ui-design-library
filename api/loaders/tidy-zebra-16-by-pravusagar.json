@@ -5,17 +5,25 @@
  "author": "pravusagar",
  "source": "https://uiverse.io/pravusagar/tidy-zebra-16",
  "trigger": "auto-loop",
- "description": "A loader with smooth, dark and light styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient pill cyan loader with rotating; shimmering motion in a loop.",
+ "howItWorks": "It loops a 10s animation (rotating; shimmering).",
  "tags": [
-  "loader",
-  "smooth",
-  "dark",
-  "light",
-  "neon",
-  "game"
+  "cyan",
+  "green",
+  "gradient",
+  "outlined",
+  "rounded",
+  "pill"
  ],
- "html": "<div class=\"container\">\n  <div class=\"loader-container\">\n    <div class=\"loader\"></div>\n    <div class=\"loading-text\">Loading...</div>\n  </div>\n</div>",
- "css": "/* From Uiverse.io by pravusagar  - Tags: loader, smooth, dark, light, neon, game, circle, text animation */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: auto;\n  padding: 0.6em;\n  border-radius: 10px;\n  background: linear-gradient(\n    90deg,\n    #3498db,\n    #2ecc71,\n    #e74c3c,\n    #f39c12,\n    #3498db\n  );\n  background-size: 900% 900%;\n  animation: changeGradient 10s ease infinite; /* 10s duration, ease timing function, infinite loop */\n  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;\n}\n\n@keyframes changeGradient {\n  0% {\n    background-position: 0% 50%;\n  }\n  50% {\n    background-position: 100% 50%;\n  }\n  100% {\n    background-position: 0% 50%;\n  }\n}\n.loader-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  text-align: center;\n  background-color: #ffffff87;\n  padding: 20px;\n  border-radius: 10px;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n}\n\n.loader {\n  border: 8px solid #ffffff;\n  border-top: 8px solid #0000005f;\n  border-radius: 50%;\n  width: 50px;\n  height: 50px;\n  animation: spin 1s linear infinite;\n  margin-bottom: 20px;\n}\n\n.loading-text {\n  font-size: 20px;\n  color: #121212;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tidy Zebra 16</title>\n<style>\n/* From Uiverse.io by pravusagar - https://uiverse.io/pravusagar/tidy-zebra-16 */\n/* From Uiverse.io by pravusagar  - Tags: loader, smooth, dark, light, neon, game, circle, text animation */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: auto;\n  padding: 0.6em;\n  border-radius: 10px;\n  background: linear-gradient(\n    90deg,\n    #3498db,\n    #2ecc71,\n    #e74c3c,\n    #f39c12,\n    #3498db\n  );\n  background-size: 900% 900%;\n  animation: changeGradient 10s ease infinite; /* 10s duration, ease timing function, infinite loop */\n  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;\n}\n\n@keyframes changeGradient {\n  0% {\n    background-position: 0% 50%;\n  }\n  50% {\n    background-position: 100% 50%;\n  }\n  100% {\n    background-position: 0% 50%;\n  }\n}\n.loader-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  text-align: center;\n  background-color: #ffffff87;\n  padding: 20px;\n  border-radius: 10px;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n}\n\n.loader {\n  border: 8px solid #ffffff;\n  border-top: 8px solid #0000005f;\n  border-radius: 50%;\n  width: 50px;\n  height: 50px;\n  animation: spin 1s linear infinite;\n  margin-bottom: 20px;\n}\n\n.loading-text {\n  font-size: 20px;\n  color: #121212;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <div class=\"loader-container\">\n    <div class=\"loader\"></div>\n    <div class=\"loading-text\">Loading...</div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#3498db",
+  "#2ecc71",
+  "#e74c3c"
+ ],
+ "fonts": [],
+ "tokens": 397,
+ "size": 1591,
+ "html": "<div class=\"container\">\n  <div class=\"loader-container\">\n    <div class=\"loader\"></div>\n    <div class=\"loading-text\">Loading...</div>\n  </div>\n</div>\n",
+ "css": "/* Tidy Zebra 16 by pravusagar — https://uiverse.io/pravusagar/tidy-zebra-16 */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: auto;\n  padding: 0.6em;\n  border-radius: 10px;\n  background: linear-gradient(\n    90deg,\n    #3498db,\n    #2ecc71,\n    #e74c3c,\n    #f39c12,\n    #3498db\n  );\n  background-size: 900% 900%;\n  animation: changeGradient 10s ease infinite;\n  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;\n}\n\n@keyframes changeGradient {\n  0% {\n    background-position: 0% 50%;\n  }\n  50% {\n    background-position: 100% 50%;\n  }\n  100% {\n    background-position: 0% 50%;\n  }\n}\n.loader-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  text-align: center;\n  background-color: #ffffff87;\n  padding: 20px;\n  border-radius: 10px;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n}\n\n.loader {\n  border: 8px solid #ffffff;\n  border-top: 8px solid #0000005f;\n  border-radius: 50%;\n  width: 50px;\n  height: 50px;\n  animation: spin 1s linear infinite;\n  margin-bottom: 20px;\n}\n\n.loading-text {\n  font-size: 20px;\n  color: #121212;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tidy Zebra 16</title>\n<style>\n/* Tidy Zebra 16 by pravusagar — https://uiverse.io/pravusagar/tidy-zebra-16 */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: auto;\n  padding: 0.6em;\n  border-radius: 10px;\n  background: linear-gradient(\n    90deg,\n    #3498db,\n    #2ecc71,\n    #e74c3c,\n    #f39c12,\n    #3498db\n  );\n  background-size: 900% 900%;\n  animation: changeGradient 10s ease infinite;\n  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;\n}\n\n@keyframes changeGradient {\n  0% {\n    background-position: 0% 50%;\n  }\n  50% {\n    background-position: 100% 50%;\n  }\n  100% {\n    background-position: 0% 50%;\n  }\n}\n.loader-container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  text-align: center;\n  background-color: #ffffff87;\n  padding: 20px;\n  border-radius: 10px;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n}\n\n.loader {\n  border: 8px solid #ffffff;\n  border-top: 8px solid #0000005f;\n  border-radius: 50%;\n  width: 50px;\n  height: 50px;\n  animation: spin 1s linear infinite;\n  margin-bottom: 20px;\n}\n\n.loading-text {\n  font-size: 20px;\n  color: #121212;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <div class=\"loader-container\">\n    <div class=\"loader\"></div>\n    <div class=\"loading-text\">Loading...</div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

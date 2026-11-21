@@ -5,14 +5,24 @@
  "author": "garerim",
  "source": "https://uiverse.io/garerim/splendid-snail-23",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark cyan button that expands on hover with a smooth transition.",
+ "howItWorks": "On hover, height becomes inherit, width becomes 120%, top becomes 50%.",
  "tags": [
+  "cyan",
+  "flat",
+  "expand",
   "button",
   "hover",
   "css"
  ],
- "html": "<button class=\"btn\">Hover me !\n    <div class=\"background\"></div>\n</button>",
- "css": "/* From Uiverse.io by garerim - Tags: button */\n.btn {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  font-size: 25px;\n  font-weight: 600;\n  height: 40px;\n  line-height: 40px;\n  cursor: pointer;\n  background-color: inherit;\n  border: none;\n  outline: none;\n  color: #f1f1f1;\n}\n\n.btn:hover .background {\n  height: inherit;\n  width: 120%;\n  top: 50%;\n}\n\n.btn .background {\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  height: 3px;\n  width: 100%;\n  background-color: #006b92;\n  z-index: -1;\n  border-radius: 5px;\n  transition: all 0.3s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Splendid Snail 23</title>\n<style>\n/* From Uiverse.io by garerim - https://uiverse.io/garerim/splendid-snail-23 */\n/* From Uiverse.io by garerim - Tags: button */\n.btn {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  font-size: 25px;\n  font-weight: 600;\n  height: 40px;\n  line-height: 40px;\n  cursor: pointer;\n  background-color: inherit;\n  border: none;\n  outline: none;\n  color: #f1f1f1;\n}\n\n.btn:hover .background {\n  height: inherit;\n  width: 120%;\n  top: 50%;\n}\n\n.btn .background {\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  height: 3px;\n  width: 100%;\n  background-color: #006b92;\n  z-index: -1;\n  border-radius: 5px;\n  transition: all 0.3s;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">Hover me !\n    <div class=\"background\"></div>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#f1f1f1",
+  "#006b92"
+ ],
+ "fonts": [],
+ "tokens": 235,
+ "size": 943,
+ "html": "<button class=\"btn\">Hover me !\n    <div class=\"background\"></div>\n</button>\n",
+ "css": "/* Splendid Snail 23 by garerim — https://uiverse.io/garerim/splendid-snail-23 */\n.btn {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  font-size: 25px;\n  font-weight: 600;\n  height: 40px;\n  line-height: 40px;\n  cursor: pointer;\n  background-color: inherit;\n  border: none;\n  outline: none;\n  color: #f1f1f1;\n}\n\n.btn:hover .background {\n  height: inherit;\n  width: 120%;\n  top: 50%;\n}\n\n.btn .background {\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  height: 3px;\n  width: 100%;\n  background-color: #006b92;\n  z-index: -1;\n  border-radius: 5px;\n  transition: all 0.3s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Splendid Snail 23</title>\n<style>\n/* Splendid Snail 23 by garerim — https://uiverse.io/garerim/splendid-snail-23 */\n.btn {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  font-size: 25px;\n  font-weight: 600;\n  height: 40px;\n  line-height: 40px;\n  cursor: pointer;\n  background-color: inherit;\n  border: none;\n  outline: none;\n  color: #f1f1f1;\n}\n\n.btn:hover .background {\n  height: inherit;\n  width: 120%;\n  top: 50%;\n}\n\n.btn .background {\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  height: 3px;\n  width: 100%;\n  background-color: #006b92;\n  z-index: -1;\n  border-radius: 5px;\n  transition: all 0.3s;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">Hover me !\n    <div class=\"background\"></div>\n</button>\n\n</body>\n</html>\n"
 }

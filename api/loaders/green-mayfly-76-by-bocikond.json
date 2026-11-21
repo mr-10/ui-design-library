@@ -5,15 +5,24 @@
  "author": "bociKond",
  "source": "https://uiverse.io/bociKond/green-mayfly-76",
  "trigger": "auto-loop",
- "description": "A loader with simple and flashy styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient dark pill blue loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (rotating).",
  "tags": [
-  "simple",
-  "flashy",
-  "loader",
-  "auto-loop"
+  "blue",
+  "gradient",
+  "dark",
+  "rounded",
+  "pill",
+  "flat"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by bociKond - Source: https://10015.io/ - Tags: simple, flashy, loader */\n.loader {\n  width: 44.8px;\n  height: 44.8px;\n  color: #554cb5;\n  position: relative;\n  background: radial-gradient(11.2px,currentColor 94%,#0000);\n}\n\n.loader:before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  border-radius: 50%;\n  background: radial-gradient(10.08px at bottom right,#0000 94%,currentColor) top    left,\n          radial-gradient(10.08px at bottom left ,#0000 94%,currentColor) top    right,\n          radial-gradient(10.08px at top    right,#0000 94%,currentColor) bottom left,\n          radial-gradient(10.08px at top    left ,#0000 94%,currentColor) bottom right;\n  background-size: 22.4px 22.4px;\n  background-repeat: no-repeat;\n  animation: loader 1.5s infinite cubic-bezier(0.3,1,0,1);\n}\n\n@keyframes loader {\n  33% {\n    inset: -11.2px;\n    transform: rotate(0deg);\n  }\n\n  66% {\n    inset: -11.2px;\n    transform: rotate(90deg);\n  }\n\n  100% {\n    inset: 0;\n    transform: rotate(90deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Green Mayfly 76</title>\n<style>\n/* From Uiverse.io by bociKond - https://uiverse.io/bociKond/green-mayfly-76 */\n/* From Uiverse.io by bociKond - Source: https://10015.io/ - Tags: simple, flashy, loader */\n.loader {\n  width: 44.8px;\n  height: 44.8px;\n  color: #554cb5;\n  position: relative;\n  background: radial-gradient(11.2px,currentColor 94%,#0000);\n}\n\n.loader:before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  border-radius: 50%;\n  background: radial-gradient(10.08px at bottom right,#0000 94%,currentColor) top    left,\n          radial-gradient(10.08px at bottom left ,#0000 94%,currentColor) top    right,\n          radial-gradient(10.08px at top    right,#0000 94%,currentColor) bottom left,\n          radial-gradient(10.08px at top    left ,#0000 94%,currentColor) bottom right;\n  background-size: 22.4px 22.4px;\n  background-repeat: no-repeat;\n  animation: loader 1.5s infinite cubic-bezier(0.3,1,0,1);\n}\n\n@keyframes loader {\n  33% {\n    inset: -11.2px;\n    transform: rotate(0deg);\n  }\n\n  66% {\n    inset: -11.2px;\n    transform: rotate(90deg);\n  }\n\n  100% {\n    inset: 0;\n    transform: rotate(90deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#554cb5",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 311,
+ "size": 1247,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Green Mayfly 76 by bociKond — https://uiverse.io/bociKond/green-mayfly-76 */\n.loader {\n  width: 44.8px;\n  height: 44.8px;\n  color: #554cb5;\n  position: relative;\n  background: radial-gradient(11.2px,currentColor 94%,#0000);\n}\n\n.loader:before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  border-radius: 50%;\n  background: radial-gradient(10.08px at bottom right,#0000 94%,currentColor) top    left,\n          radial-gradient(10.08px at bottom left ,#0000 94%,currentColor) top    right,\n          radial-gradient(10.08px at top    right,#0000 94%,currentColor) bottom left,\n          radial-gradient(10.08px at top    left ,#0000 94%,currentColor) bottom right;\n  background-size: 22.4px 22.4px;\n  background-repeat: no-repeat;\n  animation: loader 1.5s infinite cubic-bezier(0.3,1,0,1);\n}\n\n@keyframes loader {\n  33% {\n    inset: -11.2px;\n    transform: rotate(0deg);\n  }\n\n  66% {\n    inset: -11.2px;\n    transform: rotate(90deg);\n  }\n\n  100% {\n    inset: 0;\n    transform: rotate(90deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Green Mayfly 76</title>\n<style>\n/* Green Mayfly 76 by bociKond — https://uiverse.io/bociKond/green-mayfly-76 */\n.loader {\n  width: 44.8px;\n  height: 44.8px;\n  color: #554cb5;\n  position: relative;\n  background: radial-gradient(11.2px,currentColor 94%,#0000);\n}\n\n.loader:before {\n  content: '';\n  position: absolute;\n  inset: 0;\n  border-radius: 50%;\n  background: radial-gradient(10.08px at bottom right,#0000 94%,currentColor) top    left,\n          radial-gradient(10.08px at bottom left ,#0000 94%,currentColor) top    right,\n          radial-gradient(10.08px at top    right,#0000 94%,currentColor) bottom left,\n          radial-gradient(10.08px at top    left ,#0000 94%,currentColor) bottom right;\n  background-size: 22.4px 22.4px;\n  background-repeat: no-repeat;\n  animation: loader 1.5s infinite cubic-bezier(0.3,1,0,1);\n}\n\n@keyframes loader {\n  33% {\n    inset: -11.2px;\n    transform: rotate(0deg);\n  }\n\n  66% {\n    inset: -11.2px;\n    transform: rotate(90deg);\n  }\n\n  100% {\n    inset: 0;\n    transform: rotate(90deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

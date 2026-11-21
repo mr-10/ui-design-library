@@ -4,15 +4,25 @@
  "category": "buttons",
  "author": "Uncannypotato69",
  "source": "https://uiverse.io/Uncannypotato69/gentle-mule-75",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Pill white button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, it shifts position.",
  "tags": [
+  "rounded",
+  "pill",
+  "slide",
+  "glow",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Uncannypotato69  - Tags: skeuomorphism, pink, button, click, hover effect, click effect, tailwindbutton, tailwindcss -->\n<button\n  class=\"group flex h-fit w-fit flex-col items-center justify-center rounded-full bg-[#F1ddcf] px-[2em] py-[0.5em] shadow-[inset_0px_2px_4px_0px_#f9f1eb,inset_0px_-2px_4px_0px_#e8c8b0,0px_-2px_16px_0px_#e8c8b0,0px_2px_16px_0px_#f9f1eb] duration-200 hover:translate-y-[5%] active:translate-y-[7%] active:shadow-[inset_0px_-2px_4px_0px_#f9f1eb,inset_0px_2px_4px_0px_#e8c8b0,0px_2px_16px_0px_#e8c8b0,0px_2px_16px_0px_#f9f1eb]\"\n>\n  <p\n    class=\"font-nunito text-[1.5em] font-semibold text-[#d19466] duration-200 group-active:translate-y-[5%]\"\n  >\n    Button\n  </p>\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Gentle Mule 75</title>\n<style>\n/* From Uiverse.io by Uncannypotato69 - https://uiverse.io/Uncannypotato69/gentle-mule-75 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Uncannypotato69  - Tags: skeuomorphism, pink, button, click, hover effect, click effect, tailwindbutton, tailwindcss -->\n<button\n  class=\"group flex h-fit w-fit flex-col items-center justify-center rounded-full bg-[#F1ddcf] px-[2em] py-[0.5em] shadow-[inset_0px_2px_4px_0px_#f9f1eb,inset_0px_-2px_4px_0px_#e8c8b0,0px_-2px_16px_0px_#e8c8b0,0px_2px_16px_0px_#f9f1eb] duration-200 hover:translate-y-[5%] active:translate-y-[7%] active:shadow-[inset_0px_-2px_4px_0px_#f9f1eb,inset_0px_2px_4px_0px_#e8c8b0,0px_2px_16px_0px_#e8c8b0,0px_2px_16px_0px_#f9f1eb]\"\n>\n  <p\n    class=\"font-nunito text-[1.5em] font-semibold text-[#d19466] duration-200 group-active:translate-y-[5%]\"\n  >\n    Button\n  </p>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 222,
+ "size": 888,
+ "html": "<button\n  class=\"group flex h-fit w-fit flex-col items-center justify-center rounded-full bg-[#F1ddcf] px-[2em] py-[0.5em] shadow-[inset_0px_2px_4px_0px_#f9f1eb,inset_0px_-2px_4px_0px_#e8c8b0,0px_-2px_16px_0px_#e8c8b0,0px_2px_16px_0px_#f9f1eb] duration-200 hover:translate-y-[5%] active:translate-y-[7%] active:shadow-[inset_0px_-2px_4px_0px_#f9f1eb,inset_0px_2px_4px_0px_#e8c8b0,0px_2px_16px_0px_#e8c8b0,0px_2px_16px_0px_#f9f1eb]\"\n>\n  <p\n    class=\"font-nunito text-[1.5em] font-semibold text-[#d19466] duration-200 group-active:translate-y-[5%]\"\n  >\n    Button\n  </p>\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Gentle Mule 75</title>\n<style>\n/* Gentle Mule 75 by Uncannypotato69 — https://uiverse.io/Uncannypotato69/gentle-mule-75 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"group flex h-fit w-fit flex-col items-center justify-center rounded-full bg-[#F1ddcf] px-[2em] py-[0.5em] shadow-[inset_0px_2px_4px_0px_#f9f1eb,inset_0px_-2px_4px_0px_#e8c8b0,0px_-2px_16px_0px_#e8c8b0,0px_2px_16px_0px_#f9f1eb] duration-200 hover:translate-y-[5%] active:translate-y-[7%] active:shadow-[inset_0px_-2px_4px_0px_#f9f1eb,inset_0px_2px_4px_0px_#e8c8b0,0px_2px_16px_0px_#e8c8b0,0px_2px_16px_0px_#f9f1eb]\"\n>\n  <p\n    class=\"font-nunito text-[1.5em] font-semibold text-[#d19466] duration-200 group-active:translate-y-[5%]\"\n  >\n    Button\n  </p>\n</button>\n\n</body>\n</html>\n"
 }

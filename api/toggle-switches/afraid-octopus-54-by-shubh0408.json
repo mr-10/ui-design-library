@@ -5,14 +5,22 @@
  "author": "Shubh0408",
  "source": "https://uiverse.io/Shubh0408/afraid-octopus-54",
  "trigger": "checked",
- "description": "A toggle switch UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Black toggle switch that toggles on and off when clicked.",
+ "howItWorks": "Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "toggle-switch",
   "toggle-switches",
   "checked",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Shubh0408  - Tags: switch -->\n<label\n  class=\"switch cursor-pointer relative flex w-[6.7rem] scale-75 overflow-hidden p-2\"\n>\n  <input type=\"checkbox\" name=\"\" class=\"peer hidden\" />\n  <div\n    class=\"absolute -right-[6.5rem] z-[1] flex h-12 w-24 skew-x-12 items-center justify-center text-lg duration-500 peer-checked:right-1\"\n  >\n    <span class=\"-skew-x-12\">ON</span>\n  </div>\n  <div\n    class=\"z-0 h-12 w-24 -skew-x-12 border border-black duration-500 peer-checked:skew-x-12 peer-checked:bg-green-500\"\n  ></div>\n  <div\n    class=\"absolute left-[0.3rem] flex h-12 w-24 -skew-x-12 items-center justify-center text-lg duration-500 peer-checked:-left-[6.5rem]\"\n  >\n    <span class=\"skew-x-12\">OFF</span>\n  </div>\n</label>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Octopus 54</title>\n<style>\n/* From Uiverse.io by Shubh0408 - https://uiverse.io/Shubh0408/afraid-octopus-54 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Shubh0408  - Tags: switch -->\n<label\n  class=\"switch cursor-pointer relative flex w-[6.7rem] scale-75 overflow-hidden p-2\"\n>\n  <input type=\"checkbox\" name=\"\" class=\"peer hidden\" />\n  <div\n    class=\"absolute -right-[6.5rem] z-[1] flex h-12 w-24 skew-x-12 items-center justify-center text-lg duration-500 peer-checked:right-1\"\n  >\n    <span class=\"-skew-x-12\">ON</span>\n  </div>\n  <div\n    class=\"z-0 h-12 w-24 -skew-x-12 border border-black duration-500 peer-checked:skew-x-12 peer-checked:bg-green-500\"\n  ></div>\n  <div\n    class=\"absolute left-[0.3rem] flex h-12 w-24 -skew-x-12 items-center justify-center text-lg duration-500 peer-checked:-left-[6.5rem]\"\n  >\n    <span class=\"skew-x-12\">OFF</span>\n  </div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 248,
+ "size": 995,
+ "html": "<label\n  class=\"switch cursor-pointer relative flex w-[6.7rem] scale-75 overflow-hidden p-2\"\n>\n  <input type=\"checkbox\" name=\"\" class=\"peer hidden\" />\n  <div\n    class=\"absolute -right-[6.5rem] z-[1] flex h-12 w-24 skew-x-12 items-center justify-center text-lg duration-500 peer-checked:right-1\"\n  >\n    <span class=\"-skew-x-12\">ON</span>\n  </div>\n  <div\n    class=\"z-0 h-12 w-24 -skew-x-12 border border-black duration-500 peer-checked:skew-x-12 peer-checked:bg-green-500\"\n  ></div>\n  <div\n    class=\"absolute left-[0.3rem] flex h-12 w-24 -skew-x-12 items-center justify-center text-lg duration-500 peer-checked:-left-[6.5rem]\"\n  >\n    <span class=\"skew-x-12\">OFF</span>\n  </div>\n</label>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Octopus 54</title>\n<style>\n/* Afraid Octopus 54 by Shubh0408 — https://uiverse.io/Shubh0408/afraid-octopus-54 */\n\n</style>\n</head>\n<body>\n<label\n  class=\"switch cursor-pointer relative flex w-[6.7rem] scale-75 overflow-hidden p-2\"\n>\n  <input type=\"checkbox\" name=\"\" class=\"peer hidden\" />\n  <div\n    class=\"absolute -right-[6.5rem] z-[1] flex h-12 w-24 skew-x-12 items-center justify-center text-lg duration-500 peer-checked:right-1\"\n  >\n    <span class=\"-skew-x-12\">ON</span>\n  </div>\n  <div\n    class=\"z-0 h-12 w-24 -skew-x-12 border border-black duration-500 peer-checked:skew-x-12 peer-checked:bg-green-500\"\n  ></div>\n  <div\n    class=\"absolute left-[0.3rem] flex h-12 w-24 -skew-x-12 items-center justify-center text-lg duration-500 peer-checked:-left-[6.5rem]\"\n  >\n    <span class=\"skew-x-12\">OFF</span>\n  </div>\n</label>\n\n</body>\n</html>\n"
 }

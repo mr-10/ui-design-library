@@ -5,15 +5,24 @@
  "author": "JaydipPrajapati1910",
  "source": "https://uiverse.io/JaydipPrajapati1910/spicy-eel-83",
  "trigger": "auto-loop",
- "description": "A loader with animation and ninja-loader styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient dark blue loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (rotating).",
  "tags": [
-  "animation",
-  "loader",
-  "ninja-loader",
-  "auto-loop"
+  "blue",
+  "gradient",
+  "dark",
+  "flat",
+  "spin",
+  "animation"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, loader, ninja loader */\n.loader {\n  width: 160px;\n  height: 160px;\n  color: #0000F4;\n  background: conic-gradient(from  165deg at top   ,#0000, currentColor 1deg 30deg,#0000 31deg) top,\n    conic-gradient(from   75deg at left  ,#0000, currentColor 1deg 30deg,#0000 31deg) left,\n    conic-gradient(from  -15deg at bottom,#0000, currentColor 1deg 30deg,#0000 31deg) bottom, \n    conic-gradient(from -105deg at right ,#0000, currentColor 1deg 30deg,#0000 31deg) right;\n  background-size: 100% 50%,50% 100%;\n  -webkit-mask: radial-gradient(circle 10px,#0000 90%,#000);\n  background-repeat: no-repeat;\n  animation: sh1 1.5s infinite linear;\n}\n\n@keyframes sh1 {\n \n  100% {\n    transform: rotate(1turn)\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spicy Eel 83</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/spicy-eel-83 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, loader, ninja loader */\n.loader {\n  width: 160px;\n  height: 160px;\n  color: #0000F4;\n  background: conic-gradient(from  165deg at top   ,#0000, currentColor 1deg 30deg,#0000 31deg) top,\n    conic-gradient(from   75deg at left  ,#0000, currentColor 1deg 30deg,#0000 31deg) left,\n    conic-gradient(from  -15deg at bottom,#0000, currentColor 1deg 30deg,#0000 31deg) bottom, \n    conic-gradient(from -105deg at right ,#0000, currentColor 1deg 30deg,#0000 31deg) right;\n  background-size: 100% 50%,50% 100%;\n  -webkit-mask: radial-gradient(circle 10px,#0000 90%,#000);\n  background-repeat: no-repeat;\n  animation: sh1 1.5s infinite linear;\n}\n\n@keyframes sh1 {\n \n  100% {\n    transform: rotate(1turn)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#0000f4",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 252,
+ "size": 1012,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Spicy Eel 83 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/spicy-eel-83 */\n.loader {\n  width: 160px;\n  height: 160px;\n  color: #0000F4;\n  background: conic-gradient(from  165deg at top   ,#0000, currentColor 1deg 30deg,#0000 31deg) top,\n    conic-gradient(from   75deg at left  ,#0000, currentColor 1deg 30deg,#0000 31deg) left,\n    conic-gradient(from  -15deg at bottom,#0000, currentColor 1deg 30deg,#0000 31deg) bottom,\n    conic-gradient(from -105deg at right ,#0000, currentColor 1deg 30deg,#0000 31deg) right;\n  background-size: 100% 50%,50% 100%;\n  -webkit-mask: radial-gradient(circle 10px,#0000 90%,#000);\n  background-repeat: no-repeat;\n  animation: sh1 1.5s infinite linear;\n}\n\n@keyframes sh1 {\n\n  100% {\n    transform: rotate(1turn)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spicy Eel 83</title>\n<style>\n/* Spicy Eel 83 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/spicy-eel-83 */\n.loader {\n  width: 160px;\n  height: 160px;\n  color: #0000F4;\n  background: conic-gradient(from  165deg at top   ,#0000, currentColor 1deg 30deg,#0000 31deg) top,\n    conic-gradient(from   75deg at left  ,#0000, currentColor 1deg 30deg,#0000 31deg) left,\n    conic-gradient(from  -15deg at bottom,#0000, currentColor 1deg 30deg,#0000 31deg) bottom,\n    conic-gradient(from -105deg at right ,#0000, currentColor 1deg 30deg,#0000 31deg) right;\n  background-size: 100% 50%,50% 100%;\n  -webkit-mask: radial-gradient(circle 10px,#0000 90%,#000);\n  background-repeat: no-repeat;\n  animation: sh1 1.5s infinite linear;\n}\n\n@keyframes sh1 {\n\n  100% {\n    transform: rotate(1turn)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

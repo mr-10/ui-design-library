@@ -5,14 +5,25 @@
  "author": "mateusneves",
  "source": "https://uiverse.io/mateusneves/stupid-husky-53",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient pink button that fades on hover with a smooth transition.",
+ "howItWorks": "On hover, height becomes 100%, top becomes 0, opacity becomes 1.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "pink",
+  "gradient",
+  "flat",
+  "fade",
+  "next",
+  "button"
  ],
- "html": "<button>\n  <span class=\"label\">Next</span>\n  <span class=\"icon\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"></path><path fill=\"currentColor\" d=\"M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z\"></path></svg>\n  </span>\n</button>",
- "css": "/* From Uiverse.io by mateusneves - Tags: button */\nbutton {\n position: relative;\n font-size: 14px;\n letter-spacing: 3px;\n height: 3em;\n padding: 0 3em;\n border: none;\n background-color: #c41b54;\n color: #fff;\n text-transform: uppercase;\n overflow: hidden;\n border-radius: 5px\n}\n\nbutton::before {\n content: '';\n display: block;\n position: absolute;\n z-index: 0;\n bottom: 0;\n left: 0;\n height: 0px;\n width: 100%;\n background: rgb(196,27,84);\n background: linear-gradient(90deg, rgba(196,27,84,1) 20%, rgba(124,7,46,1) 100%);\n transition: 0.2s;\n}\n\nbutton .label {\n position: relative;\n}\n\nbutton .icon {\n display: flex;\n align-items: center;\n justify-content: center;\n height: 3em;\n width: 3em;\n position: absolute;\n top: 3em;\n right: 0;\n opacity: 0;\n transition: 0.4s;\n}\n\nbutton:hover::before {\n height: 100%;\n}\n\nbutton:hover .icon {\n top: 0;\n opacity: 1;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stupid Husky 53</title>\n<style>\n/* From Uiverse.io by mateusneves - https://uiverse.io/mateusneves/stupid-husky-53 */\n/* From Uiverse.io by mateusneves - Tags: button */\nbutton {\n position: relative;\n font-size: 14px;\n letter-spacing: 3px;\n height: 3em;\n padding: 0 3em;\n border: none;\n background-color: #c41b54;\n color: #fff;\n text-transform: uppercase;\n overflow: hidden;\n border-radius: 5px\n}\n\nbutton::before {\n content: '';\n display: block;\n position: absolute;\n z-index: 0;\n bottom: 0;\n left: 0;\n height: 0px;\n width: 100%;\n background: rgb(196,27,84);\n background: linear-gradient(90deg, rgba(196,27,84,1) 20%, rgba(124,7,46,1) 100%);\n transition: 0.2s;\n}\n\nbutton .label {\n position: relative;\n}\n\nbutton .icon {\n display: flex;\n align-items: center;\n justify-content: center;\n height: 3em;\n width: 3em;\n position: absolute;\n top: 3em;\n right: 0;\n opacity: 0;\n transition: 0.4s;\n}\n\nbutton:hover::before {\n height: 100%;\n}\n\nbutton:hover .icon {\n top: 0;\n opacity: 1;\n}\n</style>\n</head>\n<body>\n<button>\n  <span class=\"label\">Next</span>\n  <span class=\"icon\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"></path><path fill=\"currentColor\" d=\"M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z\"></path></svg>\n  </span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#c41b54",
+  "#7c072e",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 362,
+ "size": 1448,
+ "html": "<button>\n  <span class=\"label\">Next</span>\n  <span class=\"icon\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"></path><path fill=\"currentColor\" d=\"M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z\"></path></svg>\n  </span>\n</button>\n",
+ "css": "/* Stupid Husky 53 by mateusneves — https://uiverse.io/mateusneves/stupid-husky-53 */\nbutton {\n position: relative;\n font-size: 14px;\n letter-spacing: 3px;\n height: 3em;\n padding: 0 3em;\n border: none;\n background-color: #c41b54;\n color: #fff;\n text-transform: uppercase;\n overflow: hidden;\n border-radius: 5px\n}\n\nbutton::before {\n content: '';\n display: block;\n position: absolute;\n z-index: 0;\n bottom: 0;\n left: 0;\n height: 0px;\n width: 100%;\n background: rgb(196,27,84);\n background: linear-gradient(90deg, rgba(196,27,84,1) 20%, rgba(124,7,46,1) 100%);\n transition: 0.2s;\n}\n\nbutton .label {\n position: relative;\n}\n\nbutton .icon {\n display: flex;\n align-items: center;\n justify-content: center;\n height: 3em;\n width: 3em;\n position: absolute;\n top: 3em;\n right: 0;\n opacity: 0;\n transition: 0.4s;\n}\n\nbutton:hover::before {\n height: 100%;\n}\n\nbutton:hover .icon {\n top: 0;\n opacity: 1;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stupid Husky 53</title>\n<style>\n/* Stupid Husky 53 by mateusneves — https://uiverse.io/mateusneves/stupid-husky-53 */\nbutton {\n position: relative;\n font-size: 14px;\n letter-spacing: 3px;\n height: 3em;\n padding: 0 3em;\n border: none;\n background-color: #c41b54;\n color: #fff;\n text-transform: uppercase;\n overflow: hidden;\n border-radius: 5px\n}\n\nbutton::before {\n content: '';\n display: block;\n position: absolute;\n z-index: 0;\n bottom: 0;\n left: 0;\n height: 0px;\n width: 100%;\n background: rgb(196,27,84);\n background: linear-gradient(90deg, rgba(196,27,84,1) 20%, rgba(124,7,46,1) 100%);\n transition: 0.2s;\n}\n\nbutton .label {\n position: relative;\n}\n\nbutton .icon {\n display: flex;\n align-items: center;\n justify-content: center;\n height: 3em;\n width: 3em;\n position: absolute;\n top: 3em;\n right: 0;\n opacity: 0;\n transition: 0.4s;\n}\n\nbutton:hover::before {\n height: 100%;\n}\n\nbutton:hover .icon {\n top: 0;\n opacity: 1;\n}\n</style>\n</head>\n<body>\n<button>\n  <span class=\"label\">Next</span>\n  <span class=\"icon\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" width=\"24\" height=\"24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"></path><path fill=\"currentColor\" d=\"M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z\"></path></svg>\n  </span>\n</button>\n\n</body>\n</html>\n"
 }

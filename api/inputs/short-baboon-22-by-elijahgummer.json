@@ -5,17 +5,24 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/short-baboon-22",
  "trigger": "focus",
- "description": "A input with animation, white and black styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Outlined white text input that lights up when focused.",
+ "howItWorks": "On focus, font-size becomes 0.8rem, top becomes 10px, transform becomes translateY(-120%).",
  "tags": [
+  "outlined",
+  "flat",
+  "email",
+  "text-input",
   "animation",
-  "white",
-  "black",
-  "input",
-  "dark",
-  "text-animation"
+  "white"
  ],
- "html": "<div class=\"input-field\">\n  <input required=\"\" name=\"text\" type=\"text\" />\n  <label>Enter your email</label>\n</div>",
- "css": "/* From Uiverse.io by elijahgummer  - Tags: animation, white, black, input, dark, text animation, transition, click effect */\n.input-field {\n  position: relative;\n  border-bottom: 2px solid #f0f424;\n  margin: 15px 0;\n}\n\n.input-field label {\n  position: absolute;\n  top: 50%;\n  left: 0;\n  transform: translateY(-50%);\n  color: #fff;\n  font-size: 16px;\n  pointer-events: none;\n  transition: 0.15s ease;\n}\n\n.input-field input {\n  width: 100%;\n  height: 40px;\n  background: transparent;\n  border: none;\n  outline: none;\n  font-size: 16px;\n  color: #fff;\n}\n\n.input-field input:focus ~ label,\n.input-field input:valid ~ label {\n  font-size: 0.8rem;\n  top: 10px;\n  transform: translateY(-120%);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Short Baboon 22</title>\n<style>\n/* From Uiverse.io by elijahgummer - https://uiverse.io/elijahgummer/short-baboon-22 */\n/* From Uiverse.io by elijahgummer  - Tags: animation, white, black, input, dark, text animation, transition, click effect */\n.input-field {\n  position: relative;\n  border-bottom: 2px solid #f0f424;\n  margin: 15px 0;\n}\n\n.input-field label {\n  position: absolute;\n  top: 50%;\n  left: 0;\n  transform: translateY(-50%);\n  color: #fff;\n  font-size: 16px;\n  pointer-events: none;\n  transition: 0.15s ease;\n}\n\n.input-field input {\n  width: 100%;\n  height: 40px;\n  background: transparent;\n  border: none;\n  outline: none;\n  font-size: 16px;\n  color: #fff;\n}\n\n.input-field input:focus ~ label,\n.input-field input:valid ~ label {\n  font-size: 0.8rem;\n  top: 10px;\n  transform: translateY(-120%);\n}\n</style>\n</head>\n<body>\n<div class=\"input-field\">\n  <input required=\"\" name=\"text\" type=\"text\" />\n  <label>Enter your email</label>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 245,
+ "size": 983,
+ "html": "<div class=\"input-field\">\n  <input required=\"\" name=\"text\" type=\"text\" />\n  <label>Enter your email</label>\n</div>\n",
+ "css": "/* Short Baboon 22 by elijahgummer — https://uiverse.io/elijahgummer/short-baboon-22 */\n.input-field {\n  position: relative;\n  border-bottom: 2px solid #f0f424;\n  margin: 15px 0;\n}\n\n.input-field label {\n  position: absolute;\n  top: 50%;\n  left: 0;\n  transform: translateY(-50%);\n  color: #fff;\n  font-size: 16px;\n  pointer-events: none;\n  transition: 0.15s ease;\n}\n\n.input-field input {\n  width: 100%;\n  height: 40px;\n  background: transparent;\n  border: none;\n  outline: none;\n  font-size: 16px;\n  color: #fff;\n}\n\n.input-field input:focus ~ label,\n.input-field input:valid ~ label {\n  font-size: 0.8rem;\n  top: 10px;\n  transform: translateY(-120%);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Short Baboon 22</title>\n<style>\n/* Short Baboon 22 by elijahgummer — https://uiverse.io/elijahgummer/short-baboon-22 */\n.input-field {\n  position: relative;\n  border-bottom: 2px solid #f0f424;\n  margin: 15px 0;\n}\n\n.input-field label {\n  position: absolute;\n  top: 50%;\n  left: 0;\n  transform: translateY(-50%);\n  color: #fff;\n  font-size: 16px;\n  pointer-events: none;\n  transition: 0.15s ease;\n}\n\n.input-field input {\n  width: 100%;\n  height: 40px;\n  background: transparent;\n  border: none;\n  outline: none;\n  font-size: 16px;\n  color: #fff;\n}\n\n.input-field input:focus ~ label,\n.input-field input:valid ~ label {\n  font-size: 0.8rem;\n  top: 10px;\n  transform: translateY(-120%);\n}\n</style>\n</head>\n<body>\n<div class=\"input-field\">\n  <input required=\"\" name=\"text\" type=\"text\" />\n  <label>Enter your email</label>\n</div>\n\n</body>\n</html>\n"
 }

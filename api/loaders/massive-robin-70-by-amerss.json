@@ -5,14 +5,22 @@
  "author": "Amerss",
  "source": "https://uiverse.io/Amerss/massive-robin-70",
  "trigger": "static",
- "description": "A loader UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Rounded black loader with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the loader is a fixed design.",
  "tags": [
+  "rounded",
   "loaders",
   "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Amerss  - Tags: loader, smooth, code, colorful -->\n<div\n  class=\"mx-auto w-[500px] bg-gray-950 rounded-xl overflow-hidden drop-shadow-xl\"\n>\n  <div class=\"bg-[#333] flex items-center p-[5px] text-whitec relative\">\n    <div class=\"flex absolute left-3\">\n      <span class=\"h-3.5 w-3.5 bg-[#ff605c] rounded-xl mr-2\"></span>\n      <span class=\"h-3.5 w-3.5 bg-[#ffbd44] rounded-xl mr-2\"></span>\n      <span class=\"h-3.5 w-3.5 bg-[#00ca4e] rounded-xl\"></span>\n    </div>\n    <div class=\"flex-1 text-center text-white\">status</div>\n  </div>\n  <div class=\"p-2.5 text-[#0f0]\">\n    <div>\n      <span class=\"mr-2\">Loading</span>\n      <span class=\"animate-[ping_1.5s_0.5s_ease-in-out_infinite]\">.</span>\n      <span class=\"animate-[ping_1.5s_0.7s_ease-in-out_infinite]\">.</span>\n      <span class=\"animate-[ping_1.5s_0.9s_ease-in-out_infinite]\">.</span>\n    </div>\n  </div>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Massive Robin 70</title>\n<style>\n/* From Uiverse.io by Amerss - https://uiverse.io/Amerss/massive-robin-70 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Amerss  - Tags: loader, smooth, code, colorful -->\n<div\n  class=\"mx-auto w-[500px] bg-gray-950 rounded-xl overflow-hidden drop-shadow-xl\"\n>\n  <div class=\"bg-[#333] flex items-center p-[5px] text-whitec relative\">\n    <div class=\"flex absolute left-3\">\n      <span class=\"h-3.5 w-3.5 bg-[#ff605c] rounded-xl mr-2\"></span>\n      <span class=\"h-3.5 w-3.5 bg-[#ffbd44] rounded-xl mr-2\"></span>\n      <span class=\"h-3.5 w-3.5 bg-[#00ca4e] rounded-xl\"></span>\n    </div>\n    <div class=\"flex-1 text-center text-white\">status</div>\n  </div>\n  <div class=\"p-2.5 text-[#0f0]\">\n    <div>\n      <span class=\"mr-2\">Loading</span>\n      <span class=\"animate-[ping_1.5s_0.5s_ease-in-out_infinite]\">.</span>\n      <span class=\"animate-[ping_1.5s_0.7s_ease-in-out_infinite]\">.</span>\n      <span class=\"animate-[ping_1.5s_0.9s_ease-in-out_infinite]\">.</span>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#030712",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 278,
+ "size": 1115,
+ "html": "<div\n  class=\"mx-auto w-[500px] bg-gray-950 rounded-xl overflow-hidden drop-shadow-xl\"\n>\n  <div class=\"bg-[#333] flex items-center p-[5px] text-whitec relative\">\n    <div class=\"flex absolute left-3\">\n      <span class=\"h-3.5 w-3.5 bg-[#ff605c] rounded-xl mr-2\"></span>\n      <span class=\"h-3.5 w-3.5 bg-[#ffbd44] rounded-xl mr-2\"></span>\n      <span class=\"h-3.5 w-3.5 bg-[#00ca4e] rounded-xl\"></span>\n    </div>\n    <div class=\"flex-1 text-center text-white\">status</div>\n  </div>\n  <div class=\"p-2.5 text-[#0f0]\">\n    <div>\n      <span class=\"mr-2\">Loading</span>\n      <span class=\"animate-[ping_1.5s_0.5s_ease-in-out_infinite]\">.</span>\n      <span class=\"animate-[ping_1.5s_0.7s_ease-in-out_infinite]\">.</span>\n      <span class=\"animate-[ping_1.5s_0.9s_ease-in-out_infinite]\">.</span>\n    </div>\n  </div>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Massive Robin 70</title>\n<style>\n/* Massive Robin 70 by Amerss — https://uiverse.io/Amerss/massive-robin-70 */\n\n</style>\n</head>\n<body>\n<div\n  class=\"mx-auto w-[500px] bg-gray-950 rounded-xl overflow-hidden drop-shadow-xl\"\n>\n  <div class=\"bg-[#333] flex items-center p-[5px] text-whitec relative\">\n    <div class=\"flex absolute left-3\">\n      <span class=\"h-3.5 w-3.5 bg-[#ff605c] rounded-xl mr-2\"></span>\n      <span class=\"h-3.5 w-3.5 bg-[#ffbd44] rounded-xl mr-2\"></span>\n      <span class=\"h-3.5 w-3.5 bg-[#00ca4e] rounded-xl\"></span>\n    </div>\n    <div class=\"flex-1 text-center text-white\">status</div>\n  </div>\n  <div class=\"p-2.5 text-[#0f0]\">\n    <div>\n      <span class=\"mr-2\">Loading</span>\n      <span class=\"animate-[ping_1.5s_0.5s_ease-in-out_infinite]\">.</span>\n      <span class=\"animate-[ping_1.5s_0.7s_ease-in-out_infinite]\">.</span>\n      <span class=\"animate-[ping_1.5s_0.9s_ease-in-out_infinite]\">.</span>\n    </div>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

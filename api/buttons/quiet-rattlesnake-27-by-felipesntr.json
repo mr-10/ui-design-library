@@ -5,14 +5,24 @@
  "author": "felipesntr",
  "source": "https://uiverse.io/felipesntr/quiet-rattlesnake-27",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined red button that scales up on hover.",
+ "howItWorks": "On hover, transform becomes scale(1.2) rotate(10deg), background-color changes from transparent to #fa725a, text color changes from #fa725a to #ffffff.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "red",
+  "outlined",
+  "flat",
+  "scale",
+  "rotate",
+  "color-change"
  ],
- "html": "<button> # NICE BUTTON\n</button>",
- "css": "/* From Uiverse.io by felipesntr - Tags: button */\nbutton {\n padding: 0.6em 1em;\n border: 4px solid #fa725a;\n transition: ease-in-out 0.3s;\n background-color: transparent;\n color: #fa725a;\n font-weight: bolder;\n font-size: 16px;\n}\n\nbutton:hover {\n transform: scale(1.2) rotate(10deg);\n background-color: #fa725a;\n color: white;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Quiet Rattlesnake 27</title>\n<style>\n/* From Uiverse.io by felipesntr - https://uiverse.io/felipesntr/quiet-rattlesnake-27 */\n/* From Uiverse.io by felipesntr - Tags: button */\nbutton {\n padding: 0.6em 1em;\n border: 4px solid #fa725a;\n transition: ease-in-out 0.3s;\n background-color: transparent;\n color: #fa725a;\n font-weight: bolder;\n font-size: 16px;\n}\n\nbutton:hover {\n transform: scale(1.2) rotate(10deg);\n background-color: #fa725a;\n color: white;\n}\n</style>\n</head>\n<body>\n<button> # NICE BUTTON\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#fa725a",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 156,
+ "size": 627,
+ "html": "<button> # NICE BUTTON\n</button>\n",
+ "css": "/* Quiet Rattlesnake 27 by felipesntr — https://uiverse.io/felipesntr/quiet-rattlesnake-27 */\nbutton {\n padding: 0.6em 1em;\n border: 4px solid #fa725a;\n transition: ease-in-out 0.3s;\n background-color: transparent;\n color: #fa725a;\n font-weight: bolder;\n font-size: 16px;\n}\n\nbutton:hover {\n transform: scale(1.2) rotate(10deg);\n background-color: #fa725a;\n color: white;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Quiet Rattlesnake 27</title>\n<style>\n/* Quiet Rattlesnake 27 by felipesntr — https://uiverse.io/felipesntr/quiet-rattlesnake-27 */\nbutton {\n padding: 0.6em 1em;\n border: 4px solid #fa725a;\n transition: ease-in-out 0.3s;\n background-color: transparent;\n color: #fa725a;\n font-weight: bolder;\n font-size: 16px;\n}\n\nbutton:hover {\n transform: scale(1.2) rotate(10deg);\n background-color: #fa725a;\n color: white;\n}\n</style>\n</head>\n<body>\n<button> # NICE BUTTON\n</button>\n\n</body>\n</html>\n"
 }

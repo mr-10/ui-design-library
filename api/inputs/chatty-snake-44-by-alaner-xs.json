@@ -5,14 +5,26 @@
  "author": "Alaner-xs",
  "source": "https://uiverse.io/Alaner-xs/chatty-snake-44",
  "trigger": "hover",
- "description": "A input UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark gray text input that changes colour on hover.",
+ "howItWorks": "On hover, background-color changes from #383838 to #f1e8e8. On focus, background-color changes from #383838 to #f1e8e8.",
  "tags": [
+  "dark",
+  "flat",
+  "color-change",
+  "text-input",
   "input",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type your text\">",
- "css": "/* From Uiverse.io by Alaner-xs - Tags: input */\n.input {\n background-color: #383838;\n border: 1ex solid none;\n border-top-width: 1.7em;\n margin: 0;\n padding: 0;\n color: #383838;\n word-wrap: break-word;\n outline: 7px solid #383838;\n height: 30px;\n font-size: 17px;\n text-align: center;\n transition: all 1s;\n max-width: 190px;\n font-weight: bold;\n font-family: 'Courier New', Courier, monospace;\n}\n\n.input:hover {\n border-top-width: 0.2em;\n background-color: #f1e8e8;\n}\n\n.input:focus {\n border-top-width: 0.2em;\n background-color: #f1e8e8;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chatty Snake 44</title>\n<style>\n/* From Uiverse.io by Alaner-xs - https://uiverse.io/Alaner-xs/chatty-snake-44 */\n/* From Uiverse.io by Alaner-xs - Tags: input */\n.input {\n background-color: #383838;\n border: 1ex solid none;\n border-top-width: 1.7em;\n margin: 0;\n padding: 0;\n color: #383838;\n word-wrap: break-word;\n outline: 7px solid #383838;\n height: 30px;\n font-size: 17px;\n text-align: center;\n transition: all 1s;\n max-width: 190px;\n font-weight: bold;\n font-family: 'Courier New', Courier, monospace;\n}\n\n.input:hover {\n border-top-width: 0.2em;\n background-color: #f1e8e8;\n}\n\n.input:focus {\n border-top-width: 0.2em;\n background-color: #f1e8e8;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type your text\">\n</body>\n</html>\n"
+ "colors": [
+  "#383838",
+  "#f1e8e8"
+ ],
+ "fonts": [
+  "Courier New"
+ ],
+ "tokens": 216,
+ "size": 865,
+ "html": "<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type your text\">\n",
+ "css": "/* Chatty Snake 44 by Alaner-xs — https://uiverse.io/Alaner-xs/chatty-snake-44 */\n.input {\n background-color: #383838;\n border: 1ex solid none;\n border-top-width: 1.7em;\n margin: 0;\n padding: 0;\n color: #383838;\n word-wrap: break-word;\n outline: 7px solid #383838;\n height: 30px;\n font-size: 17px;\n text-align: center;\n transition: all 1s;\n max-width: 190px;\n font-weight: bold;\n font-family: 'Courier New', Courier, monospace;\n}\n\n.input:hover {\n border-top-width: 0.2em;\n background-color: #f1e8e8;\n}\n\n.input:focus {\n border-top-width: 0.2em;\n background-color: #f1e8e8;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chatty Snake 44</title>\n<style>\n/* Chatty Snake 44 by Alaner-xs — https://uiverse.io/Alaner-xs/chatty-snake-44 */\n.input {\n background-color: #383838;\n border: 1ex solid none;\n border-top-width: 1.7em;\n margin: 0;\n padding: 0;\n color: #383838;\n word-wrap: break-word;\n outline: 7px solid #383838;\n height: 30px;\n font-size: 17px;\n text-align: center;\n transition: all 1s;\n max-width: 190px;\n font-weight: bold;\n font-family: 'Courier New', Courier, monospace;\n}\n\n.input:hover {\n border-top-width: 0.2em;\n background-color: #f1e8e8;\n}\n\n.input:focus {\n border-top-width: 0.2em;\n background-color: #f1e8e8;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type your text\">\n\n</body>\n</html>\n"
 }

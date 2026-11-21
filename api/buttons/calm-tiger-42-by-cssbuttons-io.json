@@ -5,14 +5,25 @@
  "author": "cssbuttons-io",
  "source": "https://uiverse.io/cssbuttons-io/calm-tiger-42",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined pill emerald button that slides on hover.",
+ "howItWorks": "On hover, text color changes from #000000 to #ffffff, border becomes 1px solid #39bda7, top becomes -35%.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "emerald",
+  "outlined",
+  "rounded",
+  "pill",
+  "flat",
+  "color-change"
  ],
- "html": "<button class=\"button\"> Get in touch\n</button>",
- "css": "/* From Uiverse.io by cssbuttons-io - Tags: button */\n.button {\n display: inline-block;\n padding: 12px 24px;\n border: 1px solid #4f4f4f;\n border-radius: 4px;\n transition: all 0.2s ease-in;\n position: relative;\n overflow: hidden;\n font-size: 19px;\n color: black;\n z-index: 1;\n}\n\n.button:before {\n content: \"\";\n position: absolute;\n left: 50%;\n transform: translateX(-50%) scaleY(1) scaleX(1.25);\n top: 100%;\n width: 140%;\n height: 180%;\n background-color: rgba(0, 0, 0, 0.05);\n border-radius: 50%;\n display: block;\n transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);\n z-index: -1;\n}\n\n.button:after {\n content: \"\";\n position: absolute;\n left: 55%;\n transform: translateX(-50%) scaleY(1) scaleX(1.45);\n top: 180%;\n width: 160%;\n height: 190%;\n background-color: #39bda7;\n border-radius: 50%;\n display: block;\n transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);\n z-index: -1;\n}\n\n.button:hover {\n color: #ffffff;\n border: 1px solid #39bda7;\n}\n\n.button:hover:before {\n top: -35%;\n background-color: #39bda7;\n transform: translateX(-50%) scaleY(1.3) scaleX(0.8);\n}\n\n.button:hover:after {\n top: -45%;\n background-color: #39bda7;\n transform: translateX(-50%) scaleY(1.3) scaleX(0.8);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Calm Tiger 42</title>\n<style>\n/* From Uiverse.io by cssbuttons-io - https://uiverse.io/cssbuttons-io/calm-tiger-42 */\n/* From Uiverse.io by cssbuttons-io - Tags: button */\n.button {\n display: inline-block;\n padding: 12px 24px;\n border: 1px solid #4f4f4f;\n border-radius: 4px;\n transition: all 0.2s ease-in;\n position: relative;\n overflow: hidden;\n font-size: 19px;\n color: black;\n z-index: 1;\n}\n\n.button:before {\n content: \"\";\n position: absolute;\n left: 50%;\n transform: translateX(-50%) scaleY(1) scaleX(1.25);\n top: 100%;\n width: 140%;\n height: 180%;\n background-color: rgba(0, 0, 0, 0.05);\n border-radius: 50%;\n display: block;\n transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);\n z-index: -1;\n}\n\n.button:after {\n content: \"\";\n position: absolute;\n left: 55%;\n transform: translateX(-50%) scaleY(1) scaleX(1.45);\n top: 180%;\n width: 160%;\n height: 190%;\n background-color: #39bda7;\n border-radius: 50%;\n display: block;\n transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);\n z-index: -1;\n}\n\n.button:hover {\n color: #ffffff;\n border: 1px solid #39bda7;\n}\n\n.button:hover:before {\n top: -35%;\n background-color: #39bda7;\n transform: translateX(-50%) scaleY(1.3) scaleX(0.8);\n}\n\n.button:hover:after {\n top: -45%;\n background-color: #39bda7;\n transform: translateX(-50%) scaleY(1.3) scaleX(0.8);\n}\n</style>\n</head>\n<body>\n<button class=\"button\"> Get in touch\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#39bda7",
+  "#4f4f4f",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 370,
+ "size": 1482,
+ "html": "<button class=\"button\"> Get in touch\n</button>\n",
+ "css": "/* Calm Tiger 42 by cssbuttons-io — https://uiverse.io/cssbuttons-io/calm-tiger-42 */\n.button {\n display: inline-block;\n padding: 12px 24px;\n border: 1px solid #4f4f4f;\n border-radius: 4px;\n transition: all 0.2s ease-in;\n position: relative;\n overflow: hidden;\n font-size: 19px;\n color: black;\n z-index: 1;\n}\n\n.button:before {\n content: \"\";\n position: absolute;\n left: 50%;\n transform: translateX(-50%) scaleY(1) scaleX(1.25);\n top: 100%;\n width: 140%;\n height: 180%;\n background-color: rgba(0, 0, 0, 0.05);\n border-radius: 50%;\n display: block;\n transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);\n z-index: -1;\n}\n\n.button:after {\n content: \"\";\n position: absolute;\n left: 55%;\n transform: translateX(-50%) scaleY(1) scaleX(1.45);\n top: 180%;\n width: 160%;\n height: 190%;\n background-color: #39bda7;\n border-radius: 50%;\n display: block;\n transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);\n z-index: -1;\n}\n\n.button:hover {\n color: #ffffff;\n border: 1px solid #39bda7;\n}\n\n.button:hover:before {\n top: -35%;\n background-color: #39bda7;\n transform: translateX(-50%) scaleY(1.3) scaleX(0.8);\n}\n\n.button:hover:after {\n top: -45%;\n background-color: #39bda7;\n transform: translateX(-50%) scaleY(1.3) scaleX(0.8);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Calm Tiger 42</title>\n<style>\n/* Calm Tiger 42 by cssbuttons-io — https://uiverse.io/cssbuttons-io/calm-tiger-42 */\n.button {\n display: inline-block;\n padding: 12px 24px;\n border: 1px solid #4f4f4f;\n border-radius: 4px;\n transition: all 0.2s ease-in;\n position: relative;\n overflow: hidden;\n font-size: 19px;\n color: black;\n z-index: 1;\n}\n\n.button:before {\n content: \"\";\n position: absolute;\n left: 50%;\n transform: translateX(-50%) scaleY(1) scaleX(1.25);\n top: 100%;\n width: 140%;\n height: 180%;\n background-color: rgba(0, 0, 0, 0.05);\n border-radius: 50%;\n display: block;\n transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);\n z-index: -1;\n}\n\n.button:after {\n content: \"\";\n position: absolute;\n left: 55%;\n transform: translateX(-50%) scaleY(1) scaleX(1.45);\n top: 180%;\n width: 160%;\n height: 190%;\n background-color: #39bda7;\n border-radius: 50%;\n display: block;\n transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);\n z-index: -1;\n}\n\n.button:hover {\n color: #ffffff;\n border: 1px solid #39bda7;\n}\n\n.button:hover:before {\n top: -35%;\n background-color: #39bda7;\n transform: translateX(-50%) scaleY(1.3) scaleX(0.8);\n}\n\n.button:hover:after {\n top: -45%;\n background-color: #39bda7;\n transform: translateX(-50%) scaleY(1.3) scaleX(0.8);\n}\n</style>\n</head>\n<body>\n<button class=\"button\"> Get in touch\n</button>\n\n</body>\n</html>\n"
 }

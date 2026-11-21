@@ -5,14 +5,24 @@
  "author": "devkatyall",
  "source": "https://uiverse.io/devkatyall/gentle-fly-78",
  "trigger": "hover",
- "description": "A card UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined rounded gray card that scales up on hover.",
+ "howItWorks": "On hover, transform becomes scale(1.1).",
  "tags": [
+  "outlined",
+  "rounded",
+  "scale",
+  "slide",
   "card",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<div class=\"card\">\n  <div class=\"emojis\">\n    <button>😄</button>\n    <button>😁</button>\n    <button>😆</button>\n    <button>😂</button>\n  </div>\n  <div class=\"emojis\">\n    <button>😄</button>\n    <button>😁</button>\n    <button>😆</button>\n    <button>😂</button>\n  </div>\n</div>",
- "css": "/* From Uiverse.io by devkatyall  - Tags: card */\n.card {\n  width: 354px;\n  background: rgba(41, 41, 41, 0.07);\n  white-space: nowrap;\n  overflow: hidden;\n  border-radius: 50px;\n  -webkit-box-shadow: -10px 0px 13px -7px #0000003a,\n    10px 0px 13px -7px #0000003a, 5px 5px 15px 5px rgba(0, 0, 0, 0);\n  box-shadow: -10px 0px 33px -7px #0000003a, 10px 0px 33px -7px #0000003a,\n    5px 5px 35px 5px rgba(0, 0, 0, 0);\n}\n\nbutton {\n  font-size: 70px;\n  margin: 0 5px;\n  border: none;\n  background-color: transparent;\n  cursor: grab;\n}\nbutton:hover {\n  transform: scale(1.1);\n  transition: 0.5s ease;\n}\n.emojis {\n  display: inline-block;\n  animation: 5s sliding infinite linear;\n}\n\n/* to pause on hover  */\n/* .card:hover .emojis{\n  animation-play-state: paused;\n} */\n\n@keyframes sliding {\n  from {\n    transform: translateX(0);\n  }\n  to {\n    transform: translateX(-101%);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Gentle Fly 78</title>\n<style>\n/* From Uiverse.io by devkatyall - https://uiverse.io/devkatyall/gentle-fly-78 */\n/* From Uiverse.io by devkatyall  - Tags: card */\n.card {\n  width: 354px;\n  background: rgba(41, 41, 41, 0.07);\n  white-space: nowrap;\n  overflow: hidden;\n  border-radius: 50px;\n  -webkit-box-shadow: -10px 0px 13px -7px #0000003a,\n    10px 0px 13px -7px #0000003a, 5px 5px 15px 5px rgba(0, 0, 0, 0);\n  box-shadow: -10px 0px 33px -7px #0000003a, 10px 0px 33px -7px #0000003a,\n    5px 5px 35px 5px rgba(0, 0, 0, 0);\n}\n\nbutton {\n  font-size: 70px;\n  margin: 0 5px;\n  border: none;\n  background-color: transparent;\n  cursor: grab;\n}\nbutton:hover {\n  transform: scale(1.1);\n  transition: 0.5s ease;\n}\n.emojis {\n  display: inline-block;\n  animation: 5s sliding infinite linear;\n}\n\n/* to pause on hover  */\n/* .card:hover .emojis{\n  animation-play-state: paused;\n} */\n\n@keyframes sliding {\n  from {\n    transform: translateX(0);\n  }\n  to {\n    transform: translateX(-101%);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"emojis\">\n    <button>😄</button>\n    <button>😁</button>\n    <button>😆</button>\n    <button>😂</button>\n  </div>\n  <div class=\"emojis\">\n    <button>😄</button>\n    <button>😁</button>\n    <button>😆</button>\n    <button>😂</button>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#292929",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 326,
+ "size": 1328,
+ "html": "<div class=\"card\">\n  <div class=\"emojis\">\n    <button>😄</button>\n    <button>😁</button>\n    <button>😆</button>\n    <button>😂</button>\n  </div>\n  <div class=\"emojis\">\n    <button>😄</button>\n    <button>😁</button>\n    <button>😆</button>\n    <button>😂</button>\n  </div>\n</div>\n",
+ "css": "/* Gentle Fly 78 by devkatyall — https://uiverse.io/devkatyall/gentle-fly-78 */\n.card {\n  width: 354px;\n  background: rgba(41, 41, 41, 0.07);\n  white-space: nowrap;\n  overflow: hidden;\n  border-radius: 50px;\n  -webkit-box-shadow: -10px 0px 13px -7px #0000003a,\n    10px 0px 13px -7px #0000003a, 5px 5px 15px 5px rgba(0, 0, 0, 0);\n  box-shadow: -10px 0px 33px -7px #0000003a, 10px 0px 33px -7px #0000003a,\n    5px 5px 35px 5px rgba(0, 0, 0, 0);\n}\n\nbutton {\n  font-size: 70px;\n  margin: 0 5px;\n  border: none;\n  background-color: transparent;\n  cursor: grab;\n}\nbutton:hover {\n  transform: scale(1.1);\n  transition: 0.5s ease;\n}\n.emojis {\n  display: inline-block;\n  animation: 5s sliding infinite linear;\n}\n\n@keyframes sliding {\n  from {\n    transform: translateX(0);\n  }\n  to {\n    transform: translateX(-101%);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Gentle Fly 78</title>\n<style>\n/* Gentle Fly 78 by devkatyall — https://uiverse.io/devkatyall/gentle-fly-78 */\n.card {\n  width: 354px;\n  background: rgba(41, 41, 41, 0.07);\n  white-space: nowrap;\n  overflow: hidden;\n  border-radius: 50px;\n  -webkit-box-shadow: -10px 0px 13px -7px #0000003a,\n    10px 0px 13px -7px #0000003a, 5px 5px 15px 5px rgba(0, 0, 0, 0);\n  box-shadow: -10px 0px 33px -7px #0000003a, 10px 0px 33px -7px #0000003a,\n    5px 5px 35px 5px rgba(0, 0, 0, 0);\n}\n\nbutton {\n  font-size: 70px;\n  margin: 0 5px;\n  border: none;\n  background-color: transparent;\n  cursor: grab;\n}\nbutton:hover {\n  transform: scale(1.1);\n  transition: 0.5s ease;\n}\n.emojis {\n  display: inline-block;\n  animation: 5s sliding infinite linear;\n}\n\n@keyframes sliding {\n  from {\n    transform: translateX(0);\n  }\n  to {\n    transform: translateX(-101%);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"emojis\">\n    <button>😄</button>\n    <button>😁</button>\n    <button>😆</button>\n    <button>😂</button>\n  </div>\n  <div class=\"emojis\">\n    <button>😄</button>\n    <button>😁</button>\n    <button>😆</button>\n    <button>😂</button>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,26 @@
  "author": "WhiteNervosa",
  "source": "https://uiverse.io/WhiteNervosa/popular-ladybug-27",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined gray button that changes colour on hover.",
+ "howItWorks": "On hover, text color changes from #e1e1e1 to #fff, width becomes 100%, left becomes 0%. On focus, text color changes from #e1e1e1 to #fff, width becomes 100%, left becomes 0%.",
  "tags": [
+  "outlined",
+  "flat",
+  "color-change",
+  "expand",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button>\n    Hover Over\n</button>",
- "css": "/* From Uiverse.io by WhiteNervosa - Tags: button */\nbutton {\n  font-size: 18px;\n  color: #e1e1e1;\n  font-family: inherit;\n  font-weight: 800;\n  cursor: pointer;\n  position: relative;\n  border: none;\n  background: none;\n  text-transform: uppercase;\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-duration: 400ms;\n  transition-property: color;\n}\n\nbutton:focus,\nbutton:hover {\n  color: #fff;\n}\n\nbutton:focus:after,\nbutton:hover:after {\n  width: 100%;\n  left: 0%;\n}\n\nbutton:after {\n  content: \"\";\n  pointer-events: none;\n  bottom: -2px;\n  left: 50%;\n  position: absolute;\n  width: 0%;\n  height: 2px;\n  background-color: #fff;\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-duration: 400ms;\n  transition-property: width, left;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Popular Ladybug 27</title>\n<style>\n/* From Uiverse.io by WhiteNervosa - https://uiverse.io/WhiteNervosa/popular-ladybug-27 */\n/* From Uiverse.io by WhiteNervosa - Tags: button */\nbutton {\n  font-size: 18px;\n  color: #e1e1e1;\n  font-family: inherit;\n  font-weight: 800;\n  cursor: pointer;\n  position: relative;\n  border: none;\n  background: none;\n  text-transform: uppercase;\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-duration: 400ms;\n  transition-property: color;\n}\n\nbutton:focus,\nbutton:hover {\n  color: #fff;\n}\n\nbutton:focus:after,\nbutton:hover:after {\n  width: 100%;\n  left: 0%;\n}\n\nbutton:after {\n  content: \"\";\n  pointer-events: none;\n  bottom: -2px;\n  left: 50%;\n  position: absolute;\n  width: 0%;\n  height: 2px;\n  background-color: #fff;\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-duration: 400ms;\n  transition-property: width, left;\n}\n</style>\n</head>\n<body>\n<button>\n    Hover Over\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#e1e1e1",
+  "#ffffff"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 269,
+ "size": 1079,
+ "html": "<button>\n    Hover Over\n</button>\n",
+ "css": "/* Popular Ladybug 27 by WhiteNervosa — https://uiverse.io/WhiteNervosa/popular-ladybug-27 */\nbutton {\n  font-size: 18px;\n  color: #e1e1e1;\n  font-family: inherit;\n  font-weight: 800;\n  cursor: pointer;\n  position: relative;\n  border: none;\n  background: none;\n  text-transform: uppercase;\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-duration: 400ms;\n  transition-property: color;\n}\n\nbutton:focus,\nbutton:hover {\n  color: #fff;\n}\n\nbutton:focus:after,\nbutton:hover:after {\n  width: 100%;\n  left: 0%;\n}\n\nbutton:after {\n  content: \"\";\n  pointer-events: none;\n  bottom: -2px;\n  left: 50%;\n  position: absolute;\n  width: 0%;\n  height: 2px;\n  background-color: #fff;\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-duration: 400ms;\n  transition-property: width, left;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Popular Ladybug 27</title>\n<style>\n/* Popular Ladybug 27 by WhiteNervosa — https://uiverse.io/WhiteNervosa/popular-ladybug-27 */\nbutton {\n  font-size: 18px;\n  color: #e1e1e1;\n  font-family: inherit;\n  font-weight: 800;\n  cursor: pointer;\n  position: relative;\n  border: none;\n  background: none;\n  text-transform: uppercase;\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-duration: 400ms;\n  transition-property: color;\n}\n\nbutton:focus,\nbutton:hover {\n  color: #fff;\n}\n\nbutton:focus:after,\nbutton:hover:after {\n  width: 100%;\n  left: 0%;\n}\n\nbutton:after {\n  content: \"\";\n  pointer-events: none;\n  bottom: -2px;\n  left: 50%;\n  position: absolute;\n  width: 0%;\n  height: 2px;\n  background-color: #fff;\n  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);\n  transition-duration: 400ms;\n  transition-property: width, left;\n}\n</style>\n</head>\n<body>\n<button>\n    Hover Over\n</button>\n\n</body>\n</html>\n"
 }

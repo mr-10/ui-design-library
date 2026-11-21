@@ -5,16 +5,24 @@
  "author": "Bodyhc",
  "source": "https://uiverse.io/Bodyhc/witty-robin-88",
  "trigger": "auto-loop",
- "description": "A loader with car-loader, 3d-loader and 3d-cude-loader styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient dark blue loader with shimmering motion in a loop.",
+ "howItWorks": "It loops a 2s animation (shimmering).",
  "tags": [
-  "loader",
-  "car-loader",
-  "3d-loader",
-  "3d-cude-loader",
-  "auto-loop"
+  "blue",
+  "gradient",
+  "dark",
+  "flat",
+  "shimmer",
+  "loader"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by Bodyhc - Tags: loader, car loader, 3d loader, 3d cude loader */\n.loader {\n  width: calc(90px / 0.707);\n  height: 20px;\n  background: repeating-linear-gradient(135deg, #766DF4 0 15px,#0000 0 20px) left top,\n    repeating-linear-gradient( 45deg, #766DF4 0 15px,#0000 0 20px) left bottom;\n  background-size: 300% 50%;\n  background-repeat: no-repeat;\n  animation: i4 2s infinite linear;\n}\n\n@keyframes i4 {\n  100% {\n    background-position: top right,bottom right\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Witty Robin 88</title>\n<style>\n/* From Uiverse.io by Bodyhc - https://uiverse.io/Bodyhc/witty-robin-88 */\n/* From Uiverse.io by Bodyhc - Tags: loader, car loader, 3d loader, 3d cude loader */\n.loader {\n  width: calc(90px / 0.707);\n  height: 20px;\n  background: repeating-linear-gradient(135deg, #766DF4 0 15px,#0000 0 20px) left top,\n    repeating-linear-gradient( 45deg, #766DF4 0 15px,#0000 0 20px) left bottom;\n  background-size: 300% 50%;\n  background-repeat: no-repeat;\n  animation: i4 2s infinite linear;\n}\n\n@keyframes i4 {\n  100% {\n    background-position: top right,bottom right\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#766df4",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 179,
+ "size": 717,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Witty Robin 88 by Bodyhc — https://uiverse.io/Bodyhc/witty-robin-88 */\n.loader {\n  width: calc(90px / 0.707);\n  height: 20px;\n  background: repeating-linear-gradient(135deg, #766DF4 0 15px,#0000 0 20px) left top,\n    repeating-linear-gradient( 45deg, #766DF4 0 15px,#0000 0 20px) left bottom;\n  background-size: 300% 50%;\n  background-repeat: no-repeat;\n  animation: i4 2s infinite linear;\n}\n\n@keyframes i4 {\n  100% {\n    background-position: top right,bottom right\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Witty Robin 88</title>\n<style>\n/* Witty Robin 88 by Bodyhc — https://uiverse.io/Bodyhc/witty-robin-88 */\n.loader {\n  width: calc(90px / 0.707);\n  height: 20px;\n  background: repeating-linear-gradient(135deg, #766DF4 0 15px,#0000 0 20px) left top,\n    repeating-linear-gradient( 45deg, #766DF4 0 15px,#0000 0 20px) left bottom;\n  background-size: 300% 50%;\n  background-repeat: no-repeat;\n  animation: i4 2s infinite linear;\n}\n\n@keyframes i4 {\n  100% {\n    background-position: top right,bottom right\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

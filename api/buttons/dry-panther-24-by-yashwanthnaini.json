@@ -5,14 +5,27 @@
  "author": "Yashwanthnaini",
  "source": "https://uiverse.io/Yashwanthnaini/dry-panther-24",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded cyan button that changes colour on hover.",
+ "howItWorks": "On hover, text color changes to #ffffff.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "cyan",
+  "pink",
+  "gradient",
+  "rounded",
+  "flat",
+  "color-change"
  ],
- "html": "<button>\n  <span> HOVER\n  </span>\n</button>",
- "css": "/* From Uiverse.io by Yashwanthnaini - Tags: button */\nbutton {\n border: none;\n border-radius: 20px;\n background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);\n transition: all 1.5s ease;\n font-family: 'Ropa Sans', sans-serif;\n font-weight: bold;\n letter-spacing: 0.05rem;\n padding: 0;\n}\n\nbutton span {\n display: inline-block;\n padding: 15px 35px;\n font-size: 17px;\n border-radius: 20px;\n background: #ffffff10;\n backdrop-filter: blur(20px);\n transition: 0.4s ease-in-out;\n transition-property: color;\n height: 100%;\n width: 100%;\n}\n\nbutton span:hover {\n backdrop-filter: blur(0px);\n color: #ffffff;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Panther 24</title>\n<style>\n/* From Uiverse.io by Yashwanthnaini - https://uiverse.io/Yashwanthnaini/dry-panther-24 */\n/* From Uiverse.io by Yashwanthnaini - Tags: button */\nbutton {\n border: none;\n border-radius: 20px;\n background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);\n transition: all 1.5s ease;\n font-family: 'Ropa Sans', sans-serif;\n font-weight: bold;\n letter-spacing: 0.05rem;\n padding: 0;\n}\n\nbutton span {\n display: inline-block;\n padding: 15px 35px;\n font-size: 17px;\n border-radius: 20px;\n background: #ffffff10;\n backdrop-filter: blur(20px);\n transition: 0.4s ease-in-out;\n transition-property: color;\n height: 100%;\n width: 100%;\n}\n\nbutton span:hover {\n backdrop-filter: blur(0px);\n color: #ffffff;\n}\n</style>\n</head>\n<body>\n<button>\n  <span> HOVER\n  </span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#03a9f4",
+  "#f441a5",
+  "#ffeb3b"
+ ],
+ "fonts": [
+  "Ropa Sans"
+ ],
+ "tokens": 226,
+ "size": 906,
+ "html": "<button>\n  <span> HOVER\n  </span>\n</button>\n",
+ "css": "/* Dry Panther 24 by Yashwanthnaini — https://uiverse.io/Yashwanthnaini/dry-panther-24 */\nbutton {\n border: none;\n border-radius: 20px;\n background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);\n transition: all 1.5s ease;\n font-family: 'Ropa Sans', sans-serif;\n font-weight: bold;\n letter-spacing: 0.05rem;\n padding: 0;\n}\n\nbutton span {\n display: inline-block;\n padding: 15px 35px;\n font-size: 17px;\n border-radius: 20px;\n background: #ffffff10;\n backdrop-filter: blur(20px);\n transition: 0.4s ease-in-out;\n transition-property: color;\n height: 100%;\n width: 100%;\n}\n\nbutton span:hover {\n backdrop-filter: blur(0px);\n color: #ffffff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Panther 24</title>\n<style>\n/* Dry Panther 24 by Yashwanthnaini — https://uiverse.io/Yashwanthnaini/dry-panther-24 */\nbutton {\n border: none;\n border-radius: 20px;\n background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);\n transition: all 1.5s ease;\n font-family: 'Ropa Sans', sans-serif;\n font-weight: bold;\n letter-spacing: 0.05rem;\n padding: 0;\n}\n\nbutton span {\n display: inline-block;\n padding: 15px 35px;\n font-size: 17px;\n border-radius: 20px;\n background: #ffffff10;\n backdrop-filter: blur(20px);\n transition: 0.4s ease-in-out;\n transition-property: color;\n height: 100%;\n width: 100%;\n}\n\nbutton span:hover {\n backdrop-filter: blur(0px);\n color: #ffffff;\n}\n</style>\n</head>\n<body>\n<button>\n  <span> HOVER\n  </span>\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,17 +5,24 @@
  "author": "BadlyWrittenStylesheet",
  "source": "https://uiverse.io/BadlyWrittenStylesheet/bad-baboon-47",
  "trigger": "static",
- "description": "A pattern with gradient, dark and colorful styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient white pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
   "gradient",
+  "flat",
+  "pattern",
   "dark",
   "colorful",
-  "rainbow",
-  "multicolor",
-  "pattern"
+  "rainbow"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by BadlyWrittenStylesheet  - Tags: gradient, dark, colorful, rainbow, multicolor, pattern, background */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  /* background-color: lightblue; */\n  background-image: radial-gradient(black 55%, #0000),\n    /* radial-gradient(black 55%, #0000), */\n      linear-gradient(\n        135deg,\n        red,\n        orange,\n        yellow,\n        lime,\n        cyan,\n        blue,\n        indigo,\n        deeppink\n      );\n  background-size: 100% 0.5%, contain;\n  /* background-blend-mode: hard-light; */\n  /* background-position: 0 0, 1em 1em, 0 0; */\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bad Baboon 47</title>\n<style>\n/* From Uiverse.io by BadlyWrittenStylesheet - https://uiverse.io/BadlyWrittenStylesheet/bad-baboon-47 */\n/* From Uiverse.io by BadlyWrittenStylesheet  - Tags: gradient, dark, colorful, rainbow, multicolor, pattern, background */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  /* background-color: lightblue; */\n  background-image: radial-gradient(black 55%, #0000),\n    /* radial-gradient(black 55%, #0000), */\n      linear-gradient(\n        135deg,\n        red,\n        orange,\n        yellow,\n        lime,\n        cyan,\n        blue,\n        indigo,\n        deeppink\n      );\n  background-size: 100% 0.5%, contain;\n  /* background-blend-mode: hard-light; */\n  /* background-position: 0 0, 1em 1em, 0 0; */\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 164,
+ "size": 659,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Bad Baboon 47 by BadlyWrittenStylesheet — https://uiverse.io/BadlyWrittenStylesheet/bad-baboon-47 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background-image: radial-gradient(black 55%, #0000),\n\n      linear-gradient(\n        135deg,\n        red,\n        orange,\n        yellow,\n        lime,\n        cyan,\n        blue,\n        indigo,\n        deeppink\n      );\n  background-size: 100% 0.5%, contain;\n\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bad Baboon 47</title>\n<style>\n/* Bad Baboon 47 by BadlyWrittenStylesheet — https://uiverse.io/BadlyWrittenStylesheet/bad-baboon-47 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background-image: radial-gradient(black 55%, #0000),\n\n      linear-gradient(\n        135deg,\n        red,\n        orange,\n        yellow,\n        lime,\n        cyan,\n        blue,\n        indigo,\n        deeppink\n      );\n  background-size: 100% 0.5%, contain;\n\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

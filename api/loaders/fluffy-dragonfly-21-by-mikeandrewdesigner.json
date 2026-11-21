@@ -5,17 +5,24 @@
  "author": "MikeAndrewDesigner",
  "source": "https://uiverse.io/MikeAndrewDesigner/fluffy-dragonfly-21",
  "trigger": "auto-loop",
- "description": "A loader with animation, circle-loader and spin styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined violet loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 0.7s animation (rotating).",
  "tags": [
-  "animation",
-  "loader",
-  "circle-loader",
+  "violet",
+  "outlined",
+  "flat",
   "spin",
-  "loading-animation",
-  "auto-loop"
+  "animation",
+  "loader"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by MikeAndrewDesigner - Tags: animation, loader, circle loader, spin, loading animation */\n.loader {\n  width: 5.4em;\n  height: 5.4em;\n  border: 0.4em solid rgb(84, 84, 84);\n  border-left-color: #a23ffc;\n  border-radius: 45%;\n  animation: spin 0.7s linear infinite;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Dragonfly 21</title>\n<style>\n/* From Uiverse.io by MikeAndrewDesigner - https://uiverse.io/MikeAndrewDesigner/fluffy-dragonfly-21 */\n/* From Uiverse.io by MikeAndrewDesigner - Tags: animation, loader, circle loader, spin, loading animation */\n.loader {\n  width: 5.4em;\n  height: 5.4em;\n  border: 0.4em solid rgb(84, 84, 84);\n  border-left-color: #a23ffc;\n  border-radius: 45%;\n  animation: spin 0.7s linear infinite;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#545454",
+  "#a23ffc"
+ ],
+ "fonts": [],
+ "tokens": 148,
+ "size": 594,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Fluffy Dragonfly 21 by MikeAndrewDesigner — https://uiverse.io/MikeAndrewDesigner/fluffy-dragonfly-21 */\n.loader {\n  width: 5.4em;\n  height: 5.4em;\n  border: 0.4em solid rgb(84, 84, 84);\n  border-left-color: #a23ffc;\n  border-radius: 45%;\n  animation: spin 0.7s linear infinite;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Dragonfly 21</title>\n<style>\n/* Fluffy Dragonfly 21 by MikeAndrewDesigner — https://uiverse.io/MikeAndrewDesigner/fluffy-dragonfly-21 */\n.loader {\n  width: 5.4em;\n  height: 5.4em;\n  border: 0.4em solid rgb(84, 84, 84);\n  border-left-color: #a23ffc;\n  border-radius: 45%;\n  animation: spin 0.7s linear infinite;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

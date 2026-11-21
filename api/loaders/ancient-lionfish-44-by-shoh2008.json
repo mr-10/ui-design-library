@@ -5,14 +5,24 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/ancient-lionfish-44",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gray loader with growing and shrinking motion in a loop.",
+ "howItWorks": "It loops a 6s animation (growing and shrinking).",
  "tags": [
+  "flat",
   "loader",
   "auto-loop",
   "css"
  ],
- "html": "<span class=\"loader\">Loading</span>",
- "css": "/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  font-size: 48px;\n  display: inline-block;\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: #FFF;\n  letter-spacing: 2px;\n  position: relative;\n  box-sizing: border-box;\n}\n\n.loader::after {\n  content: 'Loading';\n  position: absolute;\n  left: 0;\n  top: 0;\n  color: #263238;\n  text-shadow: 0 0 2px #FFF, 0 0 1px #FFF, 0 0 1px #FFF;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  box-sizing: border-box;\n  animation: animloader 6s linear infinite;\n}\n\n@keyframes animloader {\n  0% {\n    height: 100%;\n  }\n\n  100% {\n    height: 0%;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Lionfish 44</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/ancient-lionfish-44 */\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  font-size: 48px;\n  display: inline-block;\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: #FFF;\n  letter-spacing: 2px;\n  position: relative;\n  box-sizing: border-box;\n}\n\n.loader::after {\n  content: 'Loading';\n  position: absolute;\n  left: 0;\n  top: 0;\n  color: #263238;\n  text-shadow: 0 0 2px #FFF, 0 0 1px #FFF, 0 0 1px #FFF;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  box-sizing: border-box;\n  animation: animloader 6s linear infinite;\n}\n\n@keyframes animloader {\n  0% {\n    height: 100%;\n  }\n\n  100% {\n    height: 0%;\n  }\n}\n</style>\n</head>\n<body>\n<span class=\"loader\">Loading</span>\n</body>\n</html>\n"
+ "colors": [
+  "#263238",
+  "#ffffff"
+ ],
+ "fonts": [
+  "Arial"
+ ],
+ "tokens": 229,
+ "size": 919,
+ "html": "<span class=\"loader\">Loading</span>\n",
+ "css": "/* Ancient Lionfish 44 by Shoh2008 — https://uiverse.io/Shoh2008/ancient-lionfish-44 */\n.loader {\n  font-size: 48px;\n  display: inline-block;\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: #FFF;\n  letter-spacing: 2px;\n  position: relative;\n  box-sizing: border-box;\n}\n\n.loader::after {\n  content: 'Loading';\n  position: absolute;\n  left: 0;\n  top: 0;\n  color: #263238;\n  text-shadow: 0 0 2px #FFF, 0 0 1px #FFF, 0 0 1px #FFF;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  box-sizing: border-box;\n  animation: animloader 6s linear infinite;\n}\n\n@keyframes animloader {\n  0% {\n    height: 100%;\n  }\n\n  100% {\n    height: 0%;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Lionfish 44</title>\n<style>\n/* Ancient Lionfish 44 by Shoh2008 — https://uiverse.io/Shoh2008/ancient-lionfish-44 */\n.loader {\n  font-size: 48px;\n  display: inline-block;\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: bold;\n  color: #FFF;\n  letter-spacing: 2px;\n  position: relative;\n  box-sizing: border-box;\n}\n\n.loader::after {\n  content: 'Loading';\n  position: absolute;\n  left: 0;\n  top: 0;\n  color: #263238;\n  text-shadow: 0 0 2px #FFF, 0 0 1px #FFF, 0 0 1px #FFF;\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n  box-sizing: border-box;\n  animation: animloader 6s linear infinite;\n}\n\n@keyframes animloader {\n  0% {\n    height: 100%;\n  }\n\n  100% {\n    height: 0%;\n  }\n}\n</style>\n</head>\n<body>\n<span class=\"loader\">Loading</span>\n\n</body>\n</html>\n"
 }

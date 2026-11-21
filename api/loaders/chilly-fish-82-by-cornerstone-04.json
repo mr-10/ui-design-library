@@ -5,14 +5,24 @@
  "author": "Cornerstone-04",
  "source": "https://uiverse.io/Cornerstone-04/chilly-fish-82",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill cyan loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a 2s animation (pulsing).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "cyan",
+  "red",
+  "rounded",
+  "pill",
+  "flat",
+  "pulse"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by Cornerstone-04 - Tags: loader */\n.loader {\n  width: 50px;\n  height: 50px;\n  position: relative;\n  z-index: 1;\n  transform: translateX(-50%);\n}\n\n.loader::before, \n.loader::after {\n  content: '';\n  position: absolute;\n  width: inherit;\n  height: inherit;\n  border-radius: 50%;\n  mix-blend-mode: multiply;\n  animation: rotate92523 2s infinite cubic-bezier(0.77, 0, 0.175, 1);\n}\n\n.loader::before {\n  background-color: #75e2ff;\n}\n\n.loader::after {\n  background-color: #ff8496;\n  animation-delay: 1s;\n}\n\n@keyframes rotate92523 {\n  0%, 100% {\n    left: 35px;\n  }\n\n  25% {\n    transform: scale(.3);\n  }\n\n  50% {\n    left: 0%;\n  }\n\n  75% {\n    transform: scale(1);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Fish 82</title>\n<style>\n/* From Uiverse.io by Cornerstone-04 - https://uiverse.io/Cornerstone-04/chilly-fish-82 */\n/* From Uiverse.io by Cornerstone-04 - Tags: loader */\n.loader {\n  width: 50px;\n  height: 50px;\n  position: relative;\n  z-index: 1;\n  transform: translateX(-50%);\n}\n\n.loader::before, \n.loader::after {\n  content: '';\n  position: absolute;\n  width: inherit;\n  height: inherit;\n  border-radius: 50%;\n  mix-blend-mode: multiply;\n  animation: rotate92523 2s infinite cubic-bezier(0.77, 0, 0.175, 1);\n}\n\n.loader::before {\n  background-color: #75e2ff;\n}\n\n.loader::after {\n  background-color: #ff8496;\n  animation-delay: 1s;\n}\n\n@keyframes rotate92523 {\n  0%, 100% {\n    left: 35px;\n  }\n\n  25% {\n    transform: scale(.3);\n  }\n\n  50% {\n    left: 0%;\n  }\n\n  75% {\n    transform: scale(1);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#75e2ff",
+  "#ff8496"
+ ],
+ "fonts": [],
+ "tokens": 240,
+ "size": 960,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Chilly Fish 82 by Cornerstone-04 — https://uiverse.io/Cornerstone-04/chilly-fish-82 */\n.loader {\n  width: 50px;\n  height: 50px;\n  position: relative;\n  z-index: 1;\n  transform: translateX(-50%);\n}\n\n.loader::before,\n.loader::after {\n  content: '';\n  position: absolute;\n  width: inherit;\n  height: inherit;\n  border-radius: 50%;\n  mix-blend-mode: multiply;\n  animation: rotate92523 2s infinite cubic-bezier(0.77, 0, 0.175, 1);\n}\n\n.loader::before {\n  background-color: #75e2ff;\n}\n\n.loader::after {\n  background-color: #ff8496;\n  animation-delay: 1s;\n}\n\n@keyframes rotate92523 {\n  0%, 100% {\n    left: 35px;\n  }\n\n  25% {\n    transform: scale(.3);\n  }\n\n  50% {\n    left: 0%;\n  }\n\n  75% {\n    transform: scale(1);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Fish 82</title>\n<style>\n/* Chilly Fish 82 by Cornerstone-04 — https://uiverse.io/Cornerstone-04/chilly-fish-82 */\n.loader {\n  width: 50px;\n  height: 50px;\n  position: relative;\n  z-index: 1;\n  transform: translateX(-50%);\n}\n\n.loader::before,\n.loader::after {\n  content: '';\n  position: absolute;\n  width: inherit;\n  height: inherit;\n  border-radius: 50%;\n  mix-blend-mode: multiply;\n  animation: rotate92523 2s infinite cubic-bezier(0.77, 0, 0.175, 1);\n}\n\n.loader::before {\n  background-color: #75e2ff;\n}\n\n.loader::after {\n  background-color: #ff8496;\n  animation-delay: 1s;\n}\n\n@keyframes rotate92523 {\n  0%, 100% {\n    left: 35px;\n  }\n\n  25% {\n    transform: scale(.3);\n  }\n\n  50% {\n    left: 0%;\n  }\n\n  75% {\n    transform: scale(1);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

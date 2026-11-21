@@ -5,14 +5,24 @@
  "author": "eslam-hany",
  "source": "https://uiverse.io/eslam-hany/nasty-zebra-54",
  "trigger": "hover",
- "description": "A card UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded light cyan card that expands on hover.",
+ "howItWorks": "On hover, width becomes 100%, height becomes 100%, border-radius becomes 15px.",
  "tags": [
+  "cyan",
+  "rounded",
+  "flat",
+  "expand",
   "card",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<div class=\"card\">HOVER</div>",
- "css": "/* From Uiverse.io by eslam-hany - Tags: card */\n.card {\n  position: relative;\n  width: 220px;\n  height: 320px;\n  background: mediumturquoise;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 25px;\n  font-weight: bold;\n  border-radius: 15px;\n  cursor: pointer;\n}\n\n.card::before,\n.card::after {\n  position: absolute;\n  content: \"\";\n  width: 20%;\n  height: 20%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 25px;\n  font-weight: bold;\n  background-color: lightblue;\n  transition: all 0.5s;\n}\n\n.card::before {\n  top: 0;\n  right: 0;\n  border-radius: 0 15px 0 100%;\n}\n\n.card::after {\n  bottom: 0;\n  left: 0;\n  border-radius: 0 100%  0 15px;\n}\n\n.card:hover::before,\n.card:hover:after {\n  width: 100%;\n  height: 100%;\n  border-radius: 15px;\n  transition: all 0.5s;\n}\n\n.card:hover:after {\n  content: \"HELLO\";\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Zebra 54</title>\n<style>\n/* From Uiverse.io by eslam-hany - https://uiverse.io/eslam-hany/nasty-zebra-54 */\n/* From Uiverse.io by eslam-hany - Tags: card */\n.card {\n  position: relative;\n  width: 220px;\n  height: 320px;\n  background: mediumturquoise;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 25px;\n  font-weight: bold;\n  border-radius: 15px;\n  cursor: pointer;\n}\n\n.card::before,\n.card::after {\n  position: absolute;\n  content: \"\";\n  width: 20%;\n  height: 20%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 25px;\n  font-weight: bold;\n  background-color: lightblue;\n  transition: all 0.5s;\n}\n\n.card::before {\n  top: 0;\n  right: 0;\n  border-radius: 0 15px 0 100%;\n}\n\n.card::after {\n  bottom: 0;\n  left: 0;\n  border-radius: 0 100%  0 15px;\n}\n\n.card:hover::before,\n.card:hover:after {\n  width: 100%;\n  height: 100%;\n  border-radius: 15px;\n  transition: all 0.5s;\n}\n\n.card:hover:after {\n  content: \"HELLO\";\n}\n</style>\n</head>\n<body>\n<div class=\"card\">HOVER</div>\n</body>\n</html>\n"
+ "colors": [
+  "#add8e6",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 286,
+ "size": 1146,
+ "html": "<div class=\"card\">HOVER</div>\n",
+ "css": "/* Nasty Zebra 54 by eslam-hany — https://uiverse.io/eslam-hany/nasty-zebra-54 */\n.card {\n  position: relative;\n  width: 220px;\n  height: 320px;\n  background: mediumturquoise;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 25px;\n  font-weight: bold;\n  border-radius: 15px;\n  cursor: pointer;\n}\n\n.card::before,\n.card::after {\n  position: absolute;\n  content: \"\";\n  width: 20%;\n  height: 20%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 25px;\n  font-weight: bold;\n  background-color: lightblue;\n  transition: all 0.5s;\n}\n\n.card::before {\n  top: 0;\n  right: 0;\n  border-radius: 0 15px 0 100%;\n}\n\n.card::after {\n  bottom: 0;\n  left: 0;\n  border-radius: 0 100%  0 15px;\n}\n\n.card:hover::before,\n.card:hover:after {\n  width: 100%;\n  height: 100%;\n  border-radius: 15px;\n  transition: all 0.5s;\n}\n\n.card:hover:after {\n  content: \"HELLO\";\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Zebra 54</title>\n<style>\n/* Nasty Zebra 54 by eslam-hany — https://uiverse.io/eslam-hany/nasty-zebra-54 */\n.card {\n  position: relative;\n  width: 220px;\n  height: 320px;\n  background: mediumturquoise;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 25px;\n  font-weight: bold;\n  border-radius: 15px;\n  cursor: pointer;\n}\n\n.card::before,\n.card::after {\n  position: absolute;\n  content: \"\";\n  width: 20%;\n  height: 20%;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 25px;\n  font-weight: bold;\n  background-color: lightblue;\n  transition: all 0.5s;\n}\n\n.card::before {\n  top: 0;\n  right: 0;\n  border-radius: 0 15px 0 100%;\n}\n\n.card::after {\n  bottom: 0;\n  left: 0;\n  border-radius: 0 100%  0 15px;\n}\n\n.card:hover::before,\n.card:hover:after {\n  width: 100%;\n  height: 100%;\n  border-radius: 15px;\n  transition: all 0.5s;\n}\n\n.card:hover:after {\n  content: \"HELLO\";\n}\n</style>\n</head>\n<body>\n<div class=\"card\">HOVER</div>\n\n</body>\n</html>\n"
 }

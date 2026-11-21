@@ -5,17 +5,25 @@
  "author": "kamehame-ha",
  "source": "https://uiverse.io/kamehame-ha/silent-dodo-36",
  "trigger": "focus",
- "description": "A input with clean, bash and cmd styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Dark rounded purple text input that lights up when focused.",
+ "howItWorks": "It has no :focus rule in its CSS; focusing the text input shows only the browser default.",
  "tags": [
-  "input",
-  "clean",
-  "bash",
-  "cmd",
-  "linux",
-  "focus"
+  "purple",
+  "teal",
+  "dark",
+  "outlined",
+  "rounded",
+  "flat"
  ],
- "html": "<div class=\"input-container\">\n  <p class=\"bash-text\">\n    <span class=\"user\">user</span><span class=\"vm\">@ui-verse</span>:<span class=\"char\">~</span>$\n  </p>\n  <input class=\"input\" placeholder=\"sudo rm -rf css/\" type=\"text\">\n</div>",
- "css": "/* From Uiverse.io by kamehame-ha - Tags: input, clean, bash, cmd, linux */\n.input-container {\n  display: flex;\n  align-items: center;\n  background-color: #0F172A;\n  padding: 10px 15px;\n  gap: 5px;\n  border-radius: 20px;\n}\n\n.input-container .bash-text {\n  font-size: .8rem;\n  color: white;\n}\n\n.input-container .bash-text .user {\n  color: #E879F9;\n}\n\n.input-container .bash-text .vm {\n  color: #2DD4BF;\n}\n\n.input-container .bash-text .char {\n  color: #A78BFA;\n}\n\n.input-container input[type=text].input {\n  background-color: transparent;\n  border: none;\n  outline: none;\n  color: white;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Dodo 36</title>\n<style>\n/* From Uiverse.io by kamehame-ha - https://uiverse.io/kamehame-ha/silent-dodo-36 */\n/* From Uiverse.io by kamehame-ha - Tags: input, clean, bash, cmd, linux */\n.input-container {\n  display: flex;\n  align-items: center;\n  background-color: #0F172A;\n  padding: 10px 15px;\n  gap: 5px;\n  border-radius: 20px;\n}\n\n.input-container .bash-text {\n  font-size: .8rem;\n  color: white;\n}\n\n.input-container .bash-text .user {\n  color: #E879F9;\n}\n\n.input-container .bash-text .vm {\n  color: #2DD4BF;\n}\n\n.input-container .bash-text .char {\n  color: #A78BFA;\n}\n\n.input-container input[type=text].input {\n  background-color: transparent;\n  border: none;\n  outline: none;\n  color: white;\n}\n</style>\n</head>\n<body>\n<div class=\"input-container\">\n  <p class=\"bash-text\">\n    <span class=\"user\">user</span><span class=\"vm\">@ui-verse</span>:<span class=\"char\">~</span>$\n  </p>\n  <input class=\"input\" placeholder=\"sudo rm -rf css/\" type=\"text\">\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#0f172a",
+  "#e879f9",
+  "#2dd4bf"
+ ],
+ "fonts": [],
+ "tokens": 260,
+ "size": 1043,
+ "html": "<div class=\"input-container\">\n  <p class=\"bash-text\">\n    <span class=\"user\">user</span><span class=\"vm\">@ui-verse</span>:<span class=\"char\">~</span>$\n  </p>\n  <input class=\"input\" placeholder=\"sudo rm -rf css/\" type=\"text\">\n</div>\n",
+ "css": "/* Silent Dodo 36 by kamehame-ha — https://uiverse.io/kamehame-ha/silent-dodo-36 */\n.input-container {\n  display: flex;\n  align-items: center;\n  background-color: #0F172A;\n  padding: 10px 15px;\n  gap: 5px;\n  border-radius: 20px;\n}\n\n.input-container .bash-text {\n  font-size: .8rem;\n  color: white;\n}\n\n.input-container .bash-text .user {\n  color: #E879F9;\n}\n\n.input-container .bash-text .vm {\n  color: #2DD4BF;\n}\n\n.input-container .bash-text .char {\n  color: #A78BFA;\n}\n\n.input-container input[type=text].input {\n  background-color: transparent;\n  border: none;\n  outline: none;\n  color: white;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Dodo 36</title>\n<style>\n/* Silent Dodo 36 by kamehame-ha — https://uiverse.io/kamehame-ha/silent-dodo-36 */\n.input-container {\n  display: flex;\n  align-items: center;\n  background-color: #0F172A;\n  padding: 10px 15px;\n  gap: 5px;\n  border-radius: 20px;\n}\n\n.input-container .bash-text {\n  font-size: .8rem;\n  color: white;\n}\n\n.input-container .bash-text .user {\n  color: #E879F9;\n}\n\n.input-container .bash-text .vm {\n  color: #2DD4BF;\n}\n\n.input-container .bash-text .char {\n  color: #A78BFA;\n}\n\n.input-container input[type=text].input {\n  background-color: transparent;\n  border: none;\n  outline: none;\n  color: white;\n}\n</style>\n</head>\n<body>\n<div class=\"input-container\">\n  <p class=\"bash-text\">\n    <span class=\"user\">user</span><span class=\"vm\">@ui-verse</span>:<span class=\"char\">~</span>$\n  </p>\n  <input class=\"input\" placeholder=\"sudo rm -rf css/\" type=\"text\">\n</div>\n\n</body>\n</html>\n"
 }

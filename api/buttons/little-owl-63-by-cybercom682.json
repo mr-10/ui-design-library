@@ -5,16 +5,23 @@
  "author": "Cybercom682",
  "source": "https://uiverse.io/Cybercom682/little-owl-63",
  "trigger": "static",
- "description": "A button with send, mastery and replica styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "White button with soft shadow with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
-  "button",
   "send",
+  "button",
   "mastery",
   "replica",
   "static"
  ],
- "html": "<button class=\"button\">\n  <svg height=\"15\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\">\n    <path\n      fill=\"transparent\"\n      stroke-width=\"30\"\n      stroke=\"black\"\n      d=\"M429.6 92.1c4.9-11.9 2.1-25.6-7-34.7s-22.8-11.9-34.7-7l-352 144c-14.2 5.8-22.2 20.8-19.3 35.8s16.1 25.8 31.4 25.8H224V432c0 15.3 10.8 28.4 25.8 31.4s30-5.1 35.8-19.3l144-352z\"\n    ></path>\n  </svg>\n  &nbsp;Send Message\n</button>",
- "css": "/* From Uiverse.io by Cybercom682  - Tags: button, send, mastery, replica */\n.button {\n  cursor: pointer;\n  position: relative;\n  display: flex;\n  padding: 0.8em 0.7em 0.8em 0.7em;\n  border-color: rgba(0, 0, 0, 0.336);\n  box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.158);\n  border-radius: 6px;\n}\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: inherit;\n  box-shadow: inset 0 0 20px rgb(255, 255, 255);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Owl 63</title>\n<style>\n/* From Uiverse.io by Cybercom682 - https://uiverse.io/Cybercom682/little-owl-63 */\n/* From Uiverse.io by Cybercom682  - Tags: button, send, mastery, replica */\n.button {\n  cursor: pointer;\n  position: relative;\n  display: flex;\n  padding: 0.8em 0.7em 0.8em 0.7em;\n  border-color: rgba(0, 0, 0, 0.336);\n  box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.158);\n  border-radius: 6px;\n}\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: inherit;\n  box-shadow: inset 0 0 20px rgb(255, 255, 255);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <svg height=\"15\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\">\n    <path\n      fill=\"transparent\"\n      stroke-width=\"30\"\n      stroke=\"black\"\n      d=\"M429.6 92.1c4.9-11.9 2.1-25.6-7-34.7s-22.8-11.9-34.7-7l-352 144c-14.2 5.8-22.2 20.8-19.3 35.8s16.1 25.8 31.4 25.8H224V432c0 15.3 10.8 28.4 25.8 31.4s30-5.1 35.8-19.3l144-352z\"\n    ></path>\n  </svg>\n  &nbsp;Send Message\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 279,
+ "size": 1118,
+ "html": "<button class=\"button\">\n  <svg height=\"15\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\">\n    <path\n      fill=\"transparent\"\n      stroke-width=\"30\"\n      stroke=\"black\"\n      d=\"M429.6 92.1c4.9-11.9 2.1-25.6-7-34.7s-22.8-11.9-34.7-7l-352 144c-14.2 5.8-22.2 20.8-19.3 35.8s16.1 25.8 31.4 25.8H224V432c0 15.3 10.8 28.4 25.8 31.4s30-5.1 35.8-19.3l144-352z\"\n    ></path>\n  </svg>\n  &nbsp;Send Message\n</button>\n",
+ "css": "/* Little Owl 63 by Cybercom682 — https://uiverse.io/Cybercom682/little-owl-63 */\n.button {\n  cursor: pointer;\n  position: relative;\n  display: flex;\n  padding: 0.8em 0.7em 0.8em 0.7em;\n  border-color: rgba(0, 0, 0, 0.336);\n  box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.158);\n  border-radius: 6px;\n}\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: inherit;\n  box-shadow: inset 0 0 20px rgb(255, 255, 255);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Owl 63</title>\n<style>\n/* Little Owl 63 by Cybercom682 — https://uiverse.io/Cybercom682/little-owl-63 */\n.button {\n  cursor: pointer;\n  position: relative;\n  display: flex;\n  padding: 0.8em 0.7em 0.8em 0.7em;\n  border-color: rgba(0, 0, 0, 0.336);\n  box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.158);\n  border-radius: 6px;\n}\n.button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: inherit;\n  box-shadow: inset 0 0 20px rgb(255, 255, 255);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <svg height=\"15\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\">\n    <path\n      fill=\"transparent\"\n      stroke-width=\"30\"\n      stroke=\"black\"\n      d=\"M429.6 92.1c4.9-11.9 2.1-25.6-7-34.7s-22.8-11.9-34.7-7l-352 144c-14.2 5.8-22.2 20.8-19.3 35.8s16.1 25.8 31.4 25.8H224V432c0 15.3 10.8 28.4 25.8 31.4s30-5.1 35.8-19.3l144-352z\"\n    ></path>\n  </svg>\n  &nbsp;Send Message\n</button>\n\n</body>\n</html>\n"
 }

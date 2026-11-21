@@ -5,16 +5,25 @@
  "author": "kamehame-ha",
  "source": "https://uiverse.io/kamehame-ha/ancient-insect-32",
  "trigger": "scroll",
- "description": "A card with simple, scroll-snap and clean styling.",
- "howItWorks": "It reacts as you scroll the page.",
+ "description": "Rounded red card with a smooth transition with soft edges.",
+ "howItWorks": "",
  "tags": [
+  "red",
+  "blue",
+  "rounded",
+  "flat",
   "simple",
-  "card",
-  "scroll-snap",
-  "clean",
-  "scroll"
+  "card"
  ],
- "html": "<div class=\"scroll-snap-card\">\n    <div class=\"slide red\">\n        <p class=\"tip\">Scroll On Me</p>\n    </div>\n    <div class=\"slide blue\">\n        <p class=\"tip\">Scroll On Me</p>\n    </div>\n    <div class=\"slide green\">\n        <p class=\"tip\">Scroll On Me</p>\n    </div>\n</div>",
- "css": "/* From Uiverse.io by kamehame-ha - Tags: simple, card, scroll snap, clean */\n.red {\n  background-color: #f43f5e;\n}\n\n.blue {\n  background-color: #3b82f6;\n}\n\n.green {\n  background-color: #22c55e;\n}\n\n.scroll-snap-card {\n  height: 150px;\n  width: 250px;\n  scroll-snap-type: y mandatory;\n  overflow: auto;\n  border-radius: 10px;\n}\n\n.scroll-snap-card .slide {\n  width: 100%;\n  height: 100%;\n  scroll-snap-align: start;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.scroll-snap-card .slide p {\n  font-size: 1em;\n  color: white;\n  font-weight: 700;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Insect 32</title>\n<style>\n/* From Uiverse.io by kamehame-ha - https://uiverse.io/kamehame-ha/ancient-insect-32 */\n/* From Uiverse.io by kamehame-ha - Tags: simple, card, scroll snap, clean */\n.red {\n  background-color: #f43f5e;\n}\n\n.blue {\n  background-color: #3b82f6;\n}\n\n.green {\n  background-color: #22c55e;\n}\n\n.scroll-snap-card {\n  height: 150px;\n  width: 250px;\n  scroll-snap-type: y mandatory;\n  overflow: auto;\n  border-radius: 10px;\n}\n\n.scroll-snap-card .slide {\n  width: 100%;\n  height: 100%;\n  scroll-snap-align: start;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.scroll-snap-card .slide p {\n  font-size: 1em;\n  color: white;\n  font-weight: 700;\n}\n</style>\n</head>\n<body>\n<div class=\"scroll-snap-card\">\n    <div class=\"slide red\">\n        <p class=\"tip\">Scroll On Me</p>\n    </div>\n    <div class=\"slide blue\">\n        <p class=\"tip\">Scroll On Me</p>\n    </div>\n    <div class=\"slide green\">\n        <p class=\"tip\">Scroll On Me</p>\n    </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#f43f5e",
+  "#3b82f6",
+  "#22c55e"
+ ],
+ "fonts": [],
+ "tokens": 269,
+ "size": 1077,
+ "html": "<div class=\"scroll-snap-card\">\n    <div class=\"slide red\">\n        <p class=\"tip\">Scroll On Me</p>\n    </div>\n    <div class=\"slide blue\">\n        <p class=\"tip\">Scroll On Me</p>\n    </div>\n    <div class=\"slide green\">\n        <p class=\"tip\">Scroll On Me</p>\n    </div>\n</div>\n",
+ "css": "/* Ancient Insect 32 by kamehame-ha — https://uiverse.io/kamehame-ha/ancient-insect-32 */\n.red {\n  background-color: #f43f5e;\n}\n\n.blue {\n  background-color: #3b82f6;\n}\n\n.green {\n  background-color: #22c55e;\n}\n\n.scroll-snap-card {\n  height: 150px;\n  width: 250px;\n  scroll-snap-type: y mandatory;\n  overflow: auto;\n  border-radius: 10px;\n}\n\n.scroll-snap-card .slide {\n  width: 100%;\n  height: 100%;\n  scroll-snap-align: start;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.scroll-snap-card .slide p {\n  font-size: 1em;\n  color: white;\n  font-weight: 700;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Insect 32</title>\n<style>\n/* Ancient Insect 32 by kamehame-ha — https://uiverse.io/kamehame-ha/ancient-insect-32 */\n.red {\n  background-color: #f43f5e;\n}\n\n.blue {\n  background-color: #3b82f6;\n}\n\n.green {\n  background-color: #22c55e;\n}\n\n.scroll-snap-card {\n  height: 150px;\n  width: 250px;\n  scroll-snap-type: y mandatory;\n  overflow: auto;\n  border-radius: 10px;\n}\n\n.scroll-snap-card .slide {\n  width: 100%;\n  height: 100%;\n  scroll-snap-align: start;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.scroll-snap-card .slide p {\n  font-size: 1em;\n  color: white;\n  font-weight: 700;\n}\n</style>\n</head>\n<body>\n<div class=\"scroll-snap-card\">\n    <div class=\"slide red\">\n        <p class=\"tip\">Scroll On Me</p>\n    </div>\n    <div class=\"slide blue\">\n        <p class=\"tip\">Scroll On Me</p>\n    </div>\n    <div class=\"slide green\">\n        <p class=\"tip\">Scroll On Me</p>\n    </div>\n</div>\n\n</body>\n</html>\n"
 }

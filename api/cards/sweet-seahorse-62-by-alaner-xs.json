@@ -5,14 +5,27 @@
  "author": "Alaner-xs",
  "source": "https://uiverse.io/Alaner-xs/sweet-seahorse-62",
  "trigger": "hover",
- "description": "A card with gradient styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient rounded white card that changes colour on hover.",
+ "howItWorks": "On hover, background changes from #e8e8e8 to #212121, text color changes from #111111 to #ffffff.",
  "tags": [
   "gradient",
-  "card",
-  "hover"
+  "outlined",
+  "rounded",
+  "flat",
+  "color-change",
+  "card"
  ],
- "html": "<div class=\"card\">\n  <div class=\"card-border-top\">\n  </div>\n  <div class=\"img\">\n  </div>\n  <span> Person</span>\n  <p class=\"job\"> Job Title</p>\n  <button> Click\n  </button>\n</div>",
- "css": "/* From Uiverse.io by Alaner-xs - Tags: gradient, card */\n.card {\n  width: 190px;\n  height: 254px;\n  background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda);\n  border: none;\n  border-radius: 10px;\n  padding-top: 10px;\n  position: relative;\n  margin: auto;\n  font-family: inherit;\n}\n\n.card span {\n  font-weight: 600;\n  color: white;\n  text-align: center;\n  display: block;\n  padding-top: 10px;\n  font-size: 1.3em;\n}\n\n.card .job {\n  font-weight: 400;\n  color: white;\n  display: block;\n  text-align: center;\n  padding-top: 5px;\n  font-size: 1em;\n}\n\n.card .img {\n  width: 70px;\n  height: 70px;\n  background: #e8e8e8;\n  border-radius: 100%;\n  margin: auto;\n  margin-top: 20px;\n}\n\n.card button {\n  padding: 8px 25px;\n  display: block;\n  margin: auto;\n  border-radius: 8px;\n  border: none;\n  margin-top: 30px;\n  background: #e8e8e8;\n  color: #111111;\n  font-weight: 600;\n}\n\n.card button:hover {\n  background: #212121;\n  color: #ffffff;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sweet Seahorse 62</title>\n<style>\n/* From Uiverse.io by Alaner-xs - https://uiverse.io/Alaner-xs/sweet-seahorse-62 */\n/* From Uiverse.io by Alaner-xs - Tags: gradient, card */\n.card {\n  width: 190px;\n  height: 254px;\n  background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda);\n  border: none;\n  border-radius: 10px;\n  padding-top: 10px;\n  position: relative;\n  margin: auto;\n  font-family: inherit;\n}\n\n.card span {\n  font-weight: 600;\n  color: white;\n  text-align: center;\n  display: block;\n  padding-top: 10px;\n  font-size: 1.3em;\n}\n\n.card .job {\n  font-weight: 400;\n  color: white;\n  display: block;\n  text-align: center;\n  padding-top: 5px;\n  font-size: 1em;\n}\n\n.card .img {\n  width: 70px;\n  height: 70px;\n  background: #e8e8e8;\n  border-radius: 100%;\n  margin: auto;\n  margin-top: 20px;\n}\n\n.card button {\n  padding: 8px 25px;\n  display: block;\n  margin: auto;\n  border-radius: 8px;\n  border: none;\n  margin-top: 30px;\n  background: #e8e8e8;\n  color: #111111;\n  font-weight: 600;\n}\n\n.card button:hover {\n  background: #212121;\n  color: #ffffff;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card-border-top\">\n  </div>\n  <div class=\"img\">\n  </div>\n  <span> Person</span>\n  <p class=\"job\"> Job Title</p>\n  <button> Click\n  </button>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#e8e8e8",
+  "#111111",
+  "#212121"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 342,
+ "size": 1372,
+ "html": "<div class=\"card\">\n  <div class=\"card-border-top\">\n  </div>\n  <div class=\"img\">\n  </div>\n  <span> Person</span>\n  <p class=\"job\"> Job Title</p>\n  <button> Click\n  </button>\n</div>\n",
+ "css": "/* Sweet Seahorse 62 by Alaner-xs — https://uiverse.io/Alaner-xs/sweet-seahorse-62 */\n.card {\n  width: 190px;\n  height: 254px;\n  background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda);\n  border: none;\n  border-radius: 10px;\n  padding-top: 10px;\n  position: relative;\n  margin: auto;\n  font-family: inherit;\n}\n\n.card span {\n  font-weight: 600;\n  color: white;\n  text-align: center;\n  display: block;\n  padding-top: 10px;\n  font-size: 1.3em;\n}\n\n.card .job {\n  font-weight: 400;\n  color: white;\n  display: block;\n  text-align: center;\n  padding-top: 5px;\n  font-size: 1em;\n}\n\n.card .img {\n  width: 70px;\n  height: 70px;\n  background: #e8e8e8;\n  border-radius: 100%;\n  margin: auto;\n  margin-top: 20px;\n}\n\n.card button {\n  padding: 8px 25px;\n  display: block;\n  margin: auto;\n  border-radius: 8px;\n  border: none;\n  margin-top: 30px;\n  background: #e8e8e8;\n  color: #111111;\n  font-weight: 600;\n}\n\n.card button:hover {\n  background: #212121;\n  color: #ffffff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sweet Seahorse 62</title>\n<style>\n/* Sweet Seahorse 62 by Alaner-xs — https://uiverse.io/Alaner-xs/sweet-seahorse-62 */\n.card {\n  width: 190px;\n  height: 254px;\n  background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda);\n  border: none;\n  border-radius: 10px;\n  padding-top: 10px;\n  position: relative;\n  margin: auto;\n  font-family: inherit;\n}\n\n.card span {\n  font-weight: 600;\n  color: white;\n  text-align: center;\n  display: block;\n  padding-top: 10px;\n  font-size: 1.3em;\n}\n\n.card .job {\n  font-weight: 400;\n  color: white;\n  display: block;\n  text-align: center;\n  padding-top: 5px;\n  font-size: 1em;\n}\n\n.card .img {\n  width: 70px;\n  height: 70px;\n  background: #e8e8e8;\n  border-radius: 100%;\n  margin: auto;\n  margin-top: 20px;\n}\n\n.card button {\n  padding: 8px 25px;\n  display: block;\n  margin: auto;\n  border-radius: 8px;\n  border: none;\n  margin-top: 30px;\n  background: #e8e8e8;\n  color: #111111;\n  font-weight: 600;\n}\n\n.card button:hover {\n  background: #212121;\n  color: #ffffff;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card-border-top\">\n  </div>\n  <div class=\"img\">\n  </div>\n  <span> Person</span>\n  <p class=\"job\"> Job Title</p>\n  <button> Click\n  </button>\n</div>\n\n</body>\n</html>\n"
 }

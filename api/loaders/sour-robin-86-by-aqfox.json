@@ -5,14 +5,24 @@
  "author": "AqFox",
  "source": "https://uiverse.io/AqFox/sour-robin-86",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill sky-blue spinner loader with bouncing motion in a loop.",
+ "howItWorks": "It loops a 1.25s animation (bouncing, rotating).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "blue",
+  "rounded",
+  "pill",
+  "flat",
+  "bounce",
+  "spin"
  ],
- "html": "<div class=\"spinner\">\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n</div>",
- "css": "/* From Uiverse.io by AqFox - Tags: loader */\n.spinner {\n position: relative;\n width: 16px;\n height: 16px;\n}\n\n.spinner div {\n width: 100%;\n height: 100%;\n background-color: #004dff;\n border-radius: 50%;\n animation: spinner-4t3wzl 1.25s infinite backwards;\n}\n\n.spinner div:nth-child(1) {\n animation-delay: 0.15s;\n background-color: rgba(0,77,255,0.9);\n}\n\n.spinner div:nth-child(2) {\n animation-delay: 0.3s;\n background-color: rgba(0,77,255,0.8);\n}\n\n.spinner div:nth-child(3) {\n animation-delay: 0.45s;\n background-color: rgba(0,77,255,0.7);\n}\n\n.spinner div:nth-child(4) {\n animation-delay: 0.6s;\n background-color: rgba(0,77,255,0.6);\n}\n\n.spinner div:nth-child(5) {\n animation-delay: 0.75s;\n background-color: rgba(0,77,255,0.5);\n}\n\n@keyframes spinner-4t3wzl {\n 0% {\n  transform: rotate(0deg) translateY(-200%);\n }\n\n 60%, 100% {\n  transform: rotate(360deg) translateY(-200%);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sour Robin 86</title>\n<style>\n/* From Uiverse.io by AqFox - https://uiverse.io/AqFox/sour-robin-86 */\n/* From Uiverse.io by AqFox - Tags: loader */\n.spinner {\n position: relative;\n width: 16px;\n height: 16px;\n}\n\n.spinner div {\n width: 100%;\n height: 100%;\n background-color: #004dff;\n border-radius: 50%;\n animation: spinner-4t3wzl 1.25s infinite backwards;\n}\n\n.spinner div:nth-child(1) {\n animation-delay: 0.15s;\n background-color: rgba(0,77,255,0.9);\n}\n\n.spinner div:nth-child(2) {\n animation-delay: 0.3s;\n background-color: rgba(0,77,255,0.8);\n}\n\n.spinner div:nth-child(3) {\n animation-delay: 0.45s;\n background-color: rgba(0,77,255,0.7);\n}\n\n.spinner div:nth-child(4) {\n animation-delay: 0.6s;\n background-color: rgba(0,77,255,0.6);\n}\n\n.spinner div:nth-child(5) {\n animation-delay: 0.75s;\n background-color: rgba(0,77,255,0.5);\n}\n\n@keyframes spinner-4t3wzl {\n 0% {\n  transform: rotate(0deg) translateY(-200%);\n }\n\n 60%, 100% {\n  transform: rotate(360deg) translateY(-200%);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\">\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#004dff",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 301,
+ "size": 1207,
+ "html": "<div class=\"spinner\">\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n</div>\n",
+ "css": "/* Sour Robin 86 by AqFox — https://uiverse.io/AqFox/sour-robin-86 */\n.spinner {\n position: relative;\n width: 16px;\n height: 16px;\n}\n\n.spinner div {\n width: 100%;\n height: 100%;\n background-color: #004dff;\n border-radius: 50%;\n animation: spinner-4t3wzl 1.25s infinite backwards;\n}\n\n.spinner div:nth-child(1) {\n animation-delay: 0.15s;\n background-color: rgba(0,77,255,0.9);\n}\n\n.spinner div:nth-child(2) {\n animation-delay: 0.3s;\n background-color: rgba(0,77,255,0.8);\n}\n\n.spinner div:nth-child(3) {\n animation-delay: 0.45s;\n background-color: rgba(0,77,255,0.7);\n}\n\n.spinner div:nth-child(4) {\n animation-delay: 0.6s;\n background-color: rgba(0,77,255,0.6);\n}\n\n.spinner div:nth-child(5) {\n animation-delay: 0.75s;\n background-color: rgba(0,77,255,0.5);\n}\n\n@keyframes spinner-4t3wzl {\n 0% {\n  transform: rotate(0deg) translateY(-200%);\n }\n\n 60%, 100% {\n  transform: rotate(360deg) translateY(-200%);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sour Robin 86</title>\n<style>\n/* Sour Robin 86 by AqFox — https://uiverse.io/AqFox/sour-robin-86 */\n.spinner {\n position: relative;\n width: 16px;\n height: 16px;\n}\n\n.spinner div {\n width: 100%;\n height: 100%;\n background-color: #004dff;\n border-radius: 50%;\n animation: spinner-4t3wzl 1.25s infinite backwards;\n}\n\n.spinner div:nth-child(1) {\n animation-delay: 0.15s;\n background-color: rgba(0,77,255,0.9);\n}\n\n.spinner div:nth-child(2) {\n animation-delay: 0.3s;\n background-color: rgba(0,77,255,0.8);\n}\n\n.spinner div:nth-child(3) {\n animation-delay: 0.45s;\n background-color: rgba(0,77,255,0.7);\n}\n\n.spinner div:nth-child(4) {\n animation-delay: 0.6s;\n background-color: rgba(0,77,255,0.6);\n}\n\n.spinner div:nth-child(5) {\n animation-delay: 0.75s;\n background-color: rgba(0,77,255,0.5);\n}\n\n@keyframes spinner-4t3wzl {\n 0% {\n  transform: rotate(0deg) translateY(-200%);\n }\n\n 60%, 100% {\n  transform: rotate(360deg) translateY(-200%);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\">\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n<div></div>\n</div>\n\n</body>\n</html>\n"
 }

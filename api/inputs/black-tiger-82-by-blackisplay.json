@@ -5,17 +5,27 @@
  "author": "BlackisPlay",
  "source": "https://uiverse.io/BlackisPlay/black-tiger-82",
  "trigger": "focus",
- "description": "A input with simple, animation and 3d styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Rounded gray text input that lights up when focused.",
+ "howItWorks": "On focus, outline-color becomes #000000, height becomes 3em, width becomes 13em.",
  "tags": [
+  "rounded",
+  "flat",
+  "text-input",
   "simple",
   "animation",
-  "3d",
-  "minimalist",
-  "white",
-  "active"
+  "3d"
  ],
- "html": "<div id=\"dateDiv\">\n  <input\n    type=\"text\"\n    id=\"dateInput\"\n    class=\"dateInput\"\n    placeholder=\"Date:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY\"\n  />\n</div>",
- "css": "/* From Uiverse.io by BlackisPlay  - Tags: simple, animation, 3d, minimalist, white, active, input, shadow */\n.dateInput {\n  margin-left: auto;\n  margin-right: auto;\n  height: 2.5em;\n  width: 12.5em;\n  border-radius: 2.5em;\n  border: none;\n  background-color: rgb(255, 255, 255);\n  -webkit-filter: drop-shadow(1px 1px 10px #000);\n  filter: drop-shadow(7px 7px 10px #00000059);\n  font-family: Arial, Helvetica, sans-serif;\n  color: rgb(77, 77, 77);\n  text-align: center;\n  font-size: 14px;\n  outline: 2px solid rgba(0, 0, 0, 0);\n  transition: outline-offset 0.5s ease, outline-color 0.5s ease,\n    height 0.5s ease, width 0.5s ease, filter 0.5s ease;\n}\n\n.dateInput:focus {\n  outline-offset: 0.5em;\n  outline-color: rgba(0, 0, 0, 0.228);\n  transition: 0.2s;\n  height: 3em;\n  width: 13em;\n  -webkit-filter: drop-shadow(1px 1px 10px #000);\n  filter: drop-shadow(-7px 7px 10px #00000059);\n}\n\n.dateInput::placeholder {\n  padding-left: 0.8em;\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: 500;\n  letter-spacing: 1px;\n  transform: translateX(-6px);\n  transition: transform 0.5s ease;\n}\n\n.dateInput:focus::placeholder {\n  transform: translateX(-85px);\n  transition: 0.5s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Black Tiger 82</title>\n<style>\n/* From Uiverse.io by BlackisPlay - https://uiverse.io/BlackisPlay/black-tiger-82 */\n/* From Uiverse.io by BlackisPlay  - Tags: simple, animation, 3d, minimalist, white, active, input, shadow */\n.dateInput {\n  margin-left: auto;\n  margin-right: auto;\n  height: 2.5em;\n  width: 12.5em;\n  border-radius: 2.5em;\n  border: none;\n  background-color: rgb(255, 255, 255);\n  -webkit-filter: drop-shadow(1px 1px 10px #000);\n  filter: drop-shadow(7px 7px 10px #00000059);\n  font-family: Arial, Helvetica, sans-serif;\n  color: rgb(77, 77, 77);\n  text-align: center;\n  font-size: 14px;\n  outline: 2px solid rgba(0, 0, 0, 0);\n  transition: outline-offset 0.5s ease, outline-color 0.5s ease,\n    height 0.5s ease, width 0.5s ease, filter 0.5s ease;\n}\n\n.dateInput:focus {\n  outline-offset: 0.5em;\n  outline-color: rgba(0, 0, 0, 0.228);\n  transition: 0.2s;\n  height: 3em;\n  width: 13em;\n  -webkit-filter: drop-shadow(1px 1px 10px #000);\n  filter: drop-shadow(-7px 7px 10px #00000059);\n}\n\n.dateInput::placeholder {\n  padding-left: 0.8em;\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: 500;\n  letter-spacing: 1px;\n  transform: translateX(-6px);\n  transition: transform 0.5s ease;\n}\n\n.dateInput:focus::placeholder {\n  transform: translateX(-85px);\n  transition: 0.5s;\n}\n</style>\n</head>\n<body>\n<div id=\"dateDiv\">\n  <input\n    type=\"text\"\n    id=\"dateInput\"\n    class=\"dateInput\"\n    placeholder=\"Date:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY\"\n  />\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#4d4d4d",
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [
+  "Arial"
+ ],
+ "tokens": 381,
+ "size": 1527,
+ "html": "<div id=\"dateDiv\">\n  <input\n    type=\"text\"\n    id=\"dateInput\"\n    class=\"dateInput\"\n    placeholder=\"Date:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY\"\n  />\n</div>\n",
+ "css": "/* Black Tiger 82 by BlackisPlay — https://uiverse.io/BlackisPlay/black-tiger-82 */\n.dateInput {\n  margin-left: auto;\n  margin-right: auto;\n  height: 2.5em;\n  width: 12.5em;\n  border-radius: 2.5em;\n  border: none;\n  background-color: rgb(255, 255, 255);\n  -webkit-filter: drop-shadow(1px 1px 10px #000);\n  filter: drop-shadow(7px 7px 10px #00000059);\n  font-family: Arial, Helvetica, sans-serif;\n  color: rgb(77, 77, 77);\n  text-align: center;\n  font-size: 14px;\n  outline: 2px solid rgba(0, 0, 0, 0);\n  transition: outline-offset 0.5s ease, outline-color 0.5s ease,\n    height 0.5s ease, width 0.5s ease, filter 0.5s ease;\n}\n\n.dateInput:focus {\n  outline-offset: 0.5em;\n  outline-color: rgba(0, 0, 0, 0.228);\n  transition: 0.2s;\n  height: 3em;\n  width: 13em;\n  -webkit-filter: drop-shadow(1px 1px 10px #000);\n  filter: drop-shadow(-7px 7px 10px #00000059);\n}\n\n.dateInput::placeholder {\n  padding-left: 0.8em;\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: 500;\n  letter-spacing: 1px;\n  transform: translateX(-6px);\n  transition: transform 0.5s ease;\n}\n\n.dateInput:focus::placeholder {\n  transform: translateX(-85px);\n  transition: 0.5s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Black Tiger 82</title>\n<style>\n/* Black Tiger 82 by BlackisPlay — https://uiverse.io/BlackisPlay/black-tiger-82 */\n.dateInput {\n  margin-left: auto;\n  margin-right: auto;\n  height: 2.5em;\n  width: 12.5em;\n  border-radius: 2.5em;\n  border: none;\n  background-color: rgb(255, 255, 255);\n  -webkit-filter: drop-shadow(1px 1px 10px #000);\n  filter: drop-shadow(7px 7px 10px #00000059);\n  font-family: Arial, Helvetica, sans-serif;\n  color: rgb(77, 77, 77);\n  text-align: center;\n  font-size: 14px;\n  outline: 2px solid rgba(0, 0, 0, 0);\n  transition: outline-offset 0.5s ease, outline-color 0.5s ease,\n    height 0.5s ease, width 0.5s ease, filter 0.5s ease;\n}\n\n.dateInput:focus {\n  outline-offset: 0.5em;\n  outline-color: rgba(0, 0, 0, 0.228);\n  transition: 0.2s;\n  height: 3em;\n  width: 13em;\n  -webkit-filter: drop-shadow(1px 1px 10px #000);\n  filter: drop-shadow(-7px 7px 10px #00000059);\n}\n\n.dateInput::placeholder {\n  padding-left: 0.8em;\n  font-family: Arial, Helvetica, sans-serif;\n  font-weight: 500;\n  letter-spacing: 1px;\n  transform: translateX(-6px);\n  transition: transform 0.5s ease;\n}\n\n.dateInput:focus::placeholder {\n  transform: translateX(-85px);\n  transition: 0.5s;\n}\n</style>\n</head>\n<body>\n<div id=\"dateDiv\">\n  <input\n    type=\"text\"\n    id=\"dateInput\"\n    class=\"dateInput\"\n    placeholder=\"Date:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MMYYYY\"\n  />\n</div>\n\n</body>\n</html>\n"
 }

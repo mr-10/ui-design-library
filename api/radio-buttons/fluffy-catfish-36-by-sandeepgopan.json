@@ -5,17 +5,28 @@
  "author": "sandeepgopan",
  "source": "https://uiverse.io/sandeepgopan/fluffy-catfish-36",
  "trigger": "checked",
- "description": "A radio button with hover, input and theme-switch styling.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Rounded red radio button that toggles on and off when clicked.",
+ "howItWorks": "On hover, box-shadow becomes inset 4px 4px 12px #afaeae,inset -4px -4px 12px #ffffffc9, border-radius becomes 100px. Clicking it toggles it: text color changes from hsl(0, 0%, 50%) to #E41C23.",
  "tags": [
-  "hover",
+  "red",
+  "rounded",
+  "glow",
+  "radio-button",
   "input",
-  "theme-switch",
-  "radio",
-  "futuristic-radio-buttons",
-  "radio-buttons"
+  "theme-switch"
  ],
- "html": "<div class=\"radio-input\">\n  <label class=\"radio-compont\">\n      <input type=\"radio\" id=\"value-1\" class=\"radiostyle\" name=\"value-radio\" value=\"value-1\">\n          <div class=\"radio-text\">Option 1</div>\n  </label>\n  <label class=\"radio-compont\">\n      <input type=\"radio\" id=\"value-2\" class=\"radiostyle\" name=\"value-radio\" value=\"value-2\">\n        <div class=\"radio-text\">Option 2</div>\n  </label>\n  <label class=\"radio-compont\">\n      <input type=\"radio\" id=\"value-3\" class=\"radiostyle\" name=\"value-radio\" value=\"value-3\">\n        <div class=\"radio-text\">Option 3</div>\n  </label>\n</div>",
- "css": "/* From Uiverse.io by sandeepgopan - Tags: hover, input, theme-switch, radio, futuristic-radio-buttons */\n.radio-compont {\n  display: flex;\n  font-family: 'Courier New', Courier, monospace;\n  padding: 10px;\n  cursor: pointer;\n  transition: 0.3s;\n}\n\n.radio-text {\n  padding: 0px 10px;\n  color: hsl(0, 0%, 50%);\n  font-size: 20px;\n  text-transform: uppercase;\n  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\n}\n\n.radio-compont:hover {\n  box-shadow: inset 4px 4px 12px #afaeae,inset -4px -4px 12px #ffffffc9;\n  border-radius: 100px;\n}\n\n.radiostyle:checked~.radio-text {\n  color: #E41C23;\n}\n\n.radiostyle {\n  width: 20px;\n  height: 20px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Catfish 36</title>\n<style>\n/* From Uiverse.io by sandeepgopan - https://uiverse.io/sandeepgopan/fluffy-catfish-36 */\n/* From Uiverse.io by sandeepgopan - Tags: hover, input, theme-switch, radio, futuristic-radio-buttons */\n.radio-compont {\n  display: flex;\n  font-family: 'Courier New', Courier, monospace;\n  padding: 10px;\n  cursor: pointer;\n  transition: 0.3s;\n}\n\n.radio-text {\n  padding: 0px 10px;\n  color: hsl(0, 0%, 50%);\n  font-size: 20px;\n  text-transform: uppercase;\n  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\n}\n\n.radio-compont:hover {\n  box-shadow: inset 4px 4px 12px #afaeae,inset -4px -4px 12px #ffffffc9;\n  border-radius: 100px;\n}\n\n.radiostyle:checked~.radio-text {\n  color: #E41C23;\n}\n\n.radiostyle {\n  width: 20px;\n  height: 20px;\n}\n</style>\n</head>\n<body>\n<div class=\"radio-input\">\n  <label class=\"radio-compont\">\n      <input type=\"radio\" id=\"value-1\" class=\"radiostyle\" name=\"value-radio\" value=\"value-1\">\n          <div class=\"radio-text\">Option 1</div>\n  </label>\n  <label class=\"radio-compont\">\n      <input type=\"radio\" id=\"value-2\" class=\"radiostyle\" name=\"value-radio\" value=\"value-2\">\n        <div class=\"radio-text\">Option 2</div>\n  </label>\n  <label class=\"radio-compont\">\n      <input type=\"radio\" id=\"value-3\" class=\"radiostyle\" name=\"value-radio\" value=\"value-3\">\n        <div class=\"radio-text\">Option 3</div>\n  </label>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#808080",
+  "#afaeae",
+  "#e41c23"
+ ],
+ "fonts": [
+  "Courier New",
+  "Franklin Gothic Medium"
+ ],
+ "tokens": 363,
+ "size": 1453,
+ "html": "<div class=\"radio-input\">\n  <label class=\"radio-compont\">\n      <input type=\"radio\" id=\"value-1\" class=\"radiostyle\" name=\"value-radio\" value=\"value-1\">\n          <div class=\"radio-text\">Option 1</div>\n  </label>\n  <label class=\"radio-compont\">\n      <input type=\"radio\" id=\"value-2\" class=\"radiostyle\" name=\"value-radio\" value=\"value-2\">\n        <div class=\"radio-text\">Option 2</div>\n  </label>\n  <label class=\"radio-compont\">\n      <input type=\"radio\" id=\"value-3\" class=\"radiostyle\" name=\"value-radio\" value=\"value-3\">\n        <div class=\"radio-text\">Option 3</div>\n  </label>\n</div>\n",
+ "css": "/* Fluffy Catfish 36 by sandeepgopan — https://uiverse.io/sandeepgopan/fluffy-catfish-36 */\n.radio-compont {\n  display: flex;\n  font-family: 'Courier New', Courier, monospace;\n  padding: 10px;\n  cursor: pointer;\n  transition: 0.3s;\n}\n\n.radio-text {\n  padding: 0px 10px;\n  color: hsl(0, 0%, 50%);\n  font-size: 20px;\n  text-transform: uppercase;\n  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\n}\n\n.radio-compont:hover {\n  box-shadow: inset 4px 4px 12px #afaeae,inset -4px -4px 12px #ffffffc9;\n  border-radius: 100px;\n}\n\n.radiostyle:checked~.radio-text {\n  color: #E41C23;\n}\n\n.radiostyle {\n  width: 20px;\n  height: 20px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Catfish 36</title>\n<style>\n/* Fluffy Catfish 36 by sandeepgopan — https://uiverse.io/sandeepgopan/fluffy-catfish-36 */\n.radio-compont {\n  display: flex;\n  font-family: 'Courier New', Courier, monospace;\n  padding: 10px;\n  cursor: pointer;\n  transition: 0.3s;\n}\n\n.radio-text {\n  padding: 0px 10px;\n  color: hsl(0, 0%, 50%);\n  font-size: 20px;\n  text-transform: uppercase;\n  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;\n}\n\n.radio-compont:hover {\n  box-shadow: inset 4px 4px 12px #afaeae,inset -4px -4px 12px #ffffffc9;\n  border-radius: 100px;\n}\n\n.radiostyle:checked~.radio-text {\n  color: #E41C23;\n}\n\n.radiostyle {\n  width: 20px;\n  height: 20px;\n}\n</style>\n</head>\n<body>\n<div class=\"radio-input\">\n  <label class=\"radio-compont\">\n      <input type=\"radio\" id=\"value-1\" class=\"radiostyle\" name=\"value-radio\" value=\"value-1\">\n          <div class=\"radio-text\">Option 1</div>\n  </label>\n  <label class=\"radio-compont\">\n      <input type=\"radio\" id=\"value-2\" class=\"radiostyle\" name=\"value-radio\" value=\"value-2\">\n        <div class=\"radio-text\">Option 2</div>\n  </label>\n  <label class=\"radio-compont\">\n      <input type=\"radio\" id=\"value-3\" class=\"radiostyle\" name=\"value-radio\" value=\"value-3\">\n        <div class=\"radio-text\">Option 3</div>\n  </label>\n</div>\n\n</body>\n</html>\n"
 }

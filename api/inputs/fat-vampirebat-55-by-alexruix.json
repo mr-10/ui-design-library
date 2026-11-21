@@ -5,14 +5,25 @@
  "author": "alexruix",
  "source": "https://uiverse.io/alexruix/fat-vampirebat-55",
  "trigger": "hover",
- "description": "A input UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined rounded sky-blue text input that reacts on hover.",
+ "howItWorks": "On hover, the outline is removed, padding becomes .2rem 1rem, border-radius becomes 1rem. On focus, the outline is removed, padding becomes .2rem 1rem, border-radius becomes 1rem.",
  "tags": [
-  "input",
-  "hover",
-  "css"
+  "blue",
+  "outlined",
+  "rounded",
+  "flat",
+  "text-input",
+  "input"
  ],
- "html": "<input placeholder=\"Username\" type=\"text\" class=\"input\" required=\"\">",
- "css": "/* From Uiverse.io by alexruix - Tags: input */\n/* From uiverse.io by @alexruix */\n.input {\n line-height: 28px;\n border: 2px solid transparent;\n border-bottom-color: #777;\n padding: .2rem 0;\n outline: none;\n background-color: transparent;\n color: #0d0c22;\n transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);\n}\n\n.input:focus, input:hover {\n outline: none;\n padding: .2rem 1rem;\n border-radius: 1rem;\n border-color: #7a9cc6;\n}\n\n.input::placeholder {\n color: #777;\n}\n\n.input:focus::placeholder {\n opacity: 0;\n transition: opacity .3s;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Vampirebat 55</title>\n<style>\n/* From Uiverse.io by alexruix - https://uiverse.io/alexruix/fat-vampirebat-55 */\n/* From Uiverse.io by alexruix - Tags: input */\n/* From uiverse.io by @alexruix */\n.input {\n line-height: 28px;\n border: 2px solid transparent;\n border-bottom-color: #777;\n padding: .2rem 0;\n outline: none;\n background-color: transparent;\n color: #0d0c22;\n transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);\n}\n\n.input:focus, input:hover {\n outline: none;\n padding: .2rem 1rem;\n border-radius: 1rem;\n border-color: #7a9cc6;\n}\n\n.input::placeholder {\n color: #777;\n}\n\n.input:focus::placeholder {\n opacity: 0;\n transition: opacity .3s;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Username\" type=\"text\" class=\"input\" required=\"\">\n</body>\n</html>\n"
+ "colors": [
+  "#777777",
+  "#0d0c22",
+  "#7a9cc6"
+ ],
+ "fonts": [],
+ "tokens": 206,
+ "size": 825,
+ "html": "<input placeholder=\"Username\" type=\"text\" class=\"input\" required=\"\">\n",
+ "css": "/* Fat Vampirebat 55 by alexruix — https://uiverse.io/alexruix/fat-vampirebat-55 */\n.input {\n line-height: 28px;\n border: 2px solid transparent;\n border-bottom-color: #777;\n padding: .2rem 0;\n outline: none;\n background-color: transparent;\n color: #0d0c22;\n transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);\n}\n\n.input:focus, input:hover {\n outline: none;\n padding: .2rem 1rem;\n border-radius: 1rem;\n border-color: #7a9cc6;\n}\n\n.input::placeholder {\n color: #777;\n}\n\n.input:focus::placeholder {\n opacity: 0;\n transition: opacity .3s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Vampirebat 55</title>\n<style>\n/* Fat Vampirebat 55 by alexruix — https://uiverse.io/alexruix/fat-vampirebat-55 */\n.input {\n line-height: 28px;\n border: 2px solid transparent;\n border-bottom-color: #777;\n padding: .2rem 0;\n outline: none;\n background-color: transparent;\n color: #0d0c22;\n transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);\n}\n\n.input:focus, input:hover {\n outline: none;\n padding: .2rem 1rem;\n border-radius: 1rem;\n border-color: #7a9cc6;\n}\n\n.input::placeholder {\n color: #777;\n}\n\n.input:focus::placeholder {\n opacity: 0;\n transition: opacity .3s;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Username\" type=\"text\" class=\"input\" required=\"\">\n\n</body>\n</html>\n"
 }

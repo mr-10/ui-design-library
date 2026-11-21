@@ -5,15 +5,24 @@
  "author": "hakemdamer222",
  "source": "https://uiverse.io/hakemdamer222/funny-ape-73",
  "trigger": "focus",
- "description": "A button with simple and purple styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Gradient rounded indigo button that lights up when focused.",
+ "howItWorks": "On focus, font-size becomes 17px, padding becomes 10px 25px, border-radius becomes 0.7rem.",
  "tags": [
+  "indigo",
+  "gradient",
+  "rounded",
   "simple",
   "purple",
-  "button",
-  "focus"
+  "button"
  ],
- "html": "<button>\n  Click Me\n</button>",
- "css": "/* From Uiverse.io by hakemdamer222 - Tags: simple, purple, button */\nbutton, button:focus {\n  font-size: 17px;\n  padding: 10px 25px;\n  border-radius: 0.7rem;\n  background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));\n  border: 2px solid rgb(50, 50, 50);\n  border-bottom: 5px solid rgb(50, 50, 50);\n  box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);\n  transform: translate(0, -3px);\n  transition: 0.2s;\n  transition-timing-function: linear;\n}\n\nbutton:active {\n  transform: translate(0, 0);\n  border-bottom: 2px solid rgb(50, 50, 50);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Funny Ape 73</title>\n<style>\n/* From Uiverse.io by hakemdamer222 - https://uiverse.io/hakemdamer222/funny-ape-73 */\n/* From Uiverse.io by hakemdamer222 - Tags: simple, purple, button */\nbutton, button:focus {\n  font-size: 17px;\n  padding: 10px 25px;\n  border-radius: 0.7rem;\n  background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));\n  border: 2px solid rgb(50, 50, 50);\n  border-bottom: 5px solid rgb(50, 50, 50);\n  box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);\n  transform: translate(0, -3px);\n  transition: 0.2s;\n  transition-timing-function: linear;\n}\n\nbutton:active {\n  transform: translate(0, 0);\n  border-bottom: 2px solid rgb(50, 50, 50);\n}\n</style>\n</head>\n<body>\n<button>\n  Click Me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#323232",
+  "#9e81fe"
+ ],
+ "fonts": [],
+ "tokens": 202,
+ "size": 810,
+ "html": "<button>\n  Click Me\n</button>\n",
+ "css": "/* Funny Ape 73 by hakemdamer222 — https://uiverse.io/hakemdamer222/funny-ape-73 */\nbutton, button:focus {\n  font-size: 17px;\n  padding: 10px 25px;\n  border-radius: 0.7rem;\n  background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));\n  border: 2px solid rgb(50, 50, 50);\n  border-bottom: 5px solid rgb(50, 50, 50);\n  box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);\n  transform: translate(0, -3px);\n  transition: 0.2s;\n  transition-timing-function: linear;\n}\n\nbutton:active {\n  transform: translate(0, 0);\n  border-bottom: 2px solid rgb(50, 50, 50);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Funny Ape 73</title>\n<style>\n/* Funny Ape 73 by hakemdamer222 — https://uiverse.io/hakemdamer222/funny-ape-73 */\nbutton, button:focus {\n  font-size: 17px;\n  padding: 10px 25px;\n  border-radius: 0.7rem;\n  background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));\n  border: 2px solid rgb(50, 50, 50);\n  border-bottom: 5px solid rgb(50, 50, 50);\n  box-shadow: 0px 1px 6px 0px rgb(158, 129, 254);\n  transform: translate(0, -3px);\n  transition: 0.2s;\n  transition-timing-function: linear;\n}\n\nbutton:active {\n  transform: translate(0, 0);\n  border-bottom: 2px solid rgb(50, 50, 50);\n}\n</style>\n</head>\n<body>\n<button>\n  Click Me\n</button>\n\n</body>\n</html>\n"
 }

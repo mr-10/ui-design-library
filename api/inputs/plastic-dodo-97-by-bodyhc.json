@@ -5,15 +5,25 @@
  "author": "Bodyhc",
  "source": "https://uiverse.io/Bodyhc/plastic-dodo-97",
  "trigger": "hover",
- "description": "A input with hover-effect and input-effect styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Blue text input that reacts on hover with a smooth transition.",
+ "howItWorks": "On hover, outline becomes 2px solid #0d14e9. On focus, border-bottom becomes 3px solid #0d14e9, border-radius becomes 5px 5px 2px 2px, transform becomes scale(1.1).",
  "tags": [
+  "blue",
+  "text-input",
   "hover",
   "hover-effect",
   "input-effect",
   "inputs"
  ],
- "html": "<input type=\"text\" name=\"search\" placeholder=\"Search For AnyThink..\" class=\"input\">",
- "css": "/* From Uiverse.io by Bodyhc - Tags: hover, hover effect, input effect  */\n.input[type=text] {\n  max-width: 180px;\n  height: 20px;\n  background-color: #fff;\n  color: #242424;\n  padding: .15rem .5rem;\n  min-height: 40px;\n  border-radius: 4px;\n  outline: none;\n  border: none;\n  box-shadow: 0px 10px 20px -18px blue;\n  border-bottom: 3px solid #0d14e9;\n  transition: .10s ease;\n}\n\n.input[type=text]:hover {\n  outline: 2px solid #0d14e9;\n  max-width: 200px;\n}\n\n.input[type=text]:focus {\n  border-bottom: 3px solid #0d14e9;\n  border-radius: 5px 5px 2px 2px;\n  transform: scale(1.1);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Plastic Dodo 97</title>\n<style>\n/* From Uiverse.io by Bodyhc - https://uiverse.io/Bodyhc/plastic-dodo-97 */\n/* From Uiverse.io by Bodyhc - Tags: hover, hover effect, input effect  */\n.input[type=text] {\n  max-width: 180px;\n  height: 20px;\n  background-color: #fff;\n  color: #242424;\n  padding: .15rem .5rem;\n  min-height: 40px;\n  border-radius: 4px;\n  outline: none;\n  border: none;\n  box-shadow: 0px 10px 20px -18px blue;\n  border-bottom: 3px solid #0d14e9;\n  transition: .10s ease;\n}\n\n.input[type=text]:hover {\n  outline: 2px solid #0d14e9;\n  max-width: 200px;\n}\n\n.input[type=text]:focus {\n  border-bottom: 3px solid #0d14e9;\n  border-radius: 5px 5px 2px 2px;\n  transform: scale(1.1);\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"search\" placeholder=\"Search For AnyThink..\" class=\"input\">\n</body>\n</html>\n"
+ "colors": [
+  "#242424",
+  "#0000ff",
+  "#0d14e9"
+ ],
+ "fonts": [],
+ "tokens": 220,
+ "size": 882,
+ "html": "<input type=\"text\" name=\"search\" placeholder=\"Search For AnyThink..\" class=\"input\">\n",
+ "css": "/* Plastic Dodo 97 by Bodyhc — https://uiverse.io/Bodyhc/plastic-dodo-97 */\n.input[type=text] {\n  max-width: 180px;\n  height: 20px;\n  background-color: #fff;\n  color: #242424;\n  padding: .15rem .5rem;\n  min-height: 40px;\n  border-radius: 4px;\n  outline: none;\n  border: none;\n  box-shadow: 0px 10px 20px -18px blue;\n  border-bottom: 3px solid #0d14e9;\n  transition: .10s ease;\n}\n\n.input[type=text]:hover {\n  outline: 2px solid #0d14e9;\n  max-width: 200px;\n}\n\n.input[type=text]:focus {\n  border-bottom: 3px solid #0d14e9;\n  border-radius: 5px 5px 2px 2px;\n  transform: scale(1.1);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Plastic Dodo 97</title>\n<style>\n/* Plastic Dodo 97 by Bodyhc — https://uiverse.io/Bodyhc/plastic-dodo-97 */\n.input[type=text] {\n  max-width: 180px;\n  height: 20px;\n  background-color: #fff;\n  color: #242424;\n  padding: .15rem .5rem;\n  min-height: 40px;\n  border-radius: 4px;\n  outline: none;\n  border: none;\n  box-shadow: 0px 10px 20px -18px blue;\n  border-bottom: 3px solid #0d14e9;\n  transition: .10s ease;\n}\n\n.input[type=text]:hover {\n  outline: 2px solid #0d14e9;\n  max-width: 200px;\n}\n\n.input[type=text]:focus {\n  border-bottom: 3px solid #0d14e9;\n  border-radius: 5px 5px 2px 2px;\n  transform: scale(1.1);\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"search\" placeholder=\"Search For AnyThink..\" class=\"input\">\n\n</body>\n</html>\n"
 }

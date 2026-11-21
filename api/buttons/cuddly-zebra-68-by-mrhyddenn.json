@@ -5,14 +5,27 @@
  "author": "mrhyddenn",
  "source": "https://uiverse.io/mrhyddenn/cuddly-zebra-68",
  "trigger": "focus",
- "description": "A button with macos styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Gradient sky-blue button that lights up when focused.",
+ "howItWorks": "On focus, background changes from linear-gradient(#4faefc,#006bff) to linear-gradient(#44aefc,#026bff), outline becomes 3px solid #4faefc.",
  "tags": [
+  "blue",
+  "gradient",
+  "flat",
   "button",
   "macos",
   "focus"
  ],
- "html": "<button> MacOS Button\n</button>",
- "css": "/* From Uiverse.io by mrhyddenn - Tags: button, macOS */\nbutton {\n width: 150px;\n padding: 4px 12px;\n border: none;\n border-radius: 7px;\n background: linear-gradient(#4faefc,#006bff);\n color: #fff;\n font-size: 17px;\n font-family: sans-serif;\n}\n\nbutton:focus {\n background: linear-gradient(#44aefc,#026bff);\n outline: 3px solid #4faefc;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Zebra 68</title>\n<style>\n/* From Uiverse.io by mrhyddenn - https://uiverse.io/mrhyddenn/cuddly-zebra-68 */\n/* From Uiverse.io by mrhyddenn - Tags: button, macOS */\nbutton {\n width: 150px;\n padding: 4px 12px;\n border: none;\n border-radius: 7px;\n background: linear-gradient(#4faefc,#006bff);\n color: #fff;\n font-size: 17px;\n font-family: sans-serif;\n}\n\nbutton:focus {\n background: linear-gradient(#44aefc,#026bff);\n outline: 3px solid #4faefc;\n}\n</style>\n</head>\n<body>\n<button> MacOS Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#4faefc",
+  "#006bff",
+  "#ffffff"
+ ],
+ "fonts": [
+  "sans-serif"
+ ],
+ "tokens": 152,
+ "size": 611,
+ "html": "<button> MacOS Button\n</button>\n",
+ "css": "/* Cuddly Zebra 68 by mrhyddenn — https://uiverse.io/mrhyddenn/cuddly-zebra-68 */\nbutton {\n width: 150px;\n padding: 4px 12px;\n border: none;\n border-radius: 7px;\n background: linear-gradient(#4faefc,#006bff);\n color: #fff;\n font-size: 17px;\n font-family: sans-serif;\n}\n\nbutton:focus {\n background: linear-gradient(#44aefc,#026bff);\n outline: 3px solid #4faefc;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Zebra 68</title>\n<style>\n/* Cuddly Zebra 68 by mrhyddenn — https://uiverse.io/mrhyddenn/cuddly-zebra-68 */\nbutton {\n width: 150px;\n padding: 4px 12px;\n border: none;\n border-radius: 7px;\n background: linear-gradient(#4faefc,#006bff);\n color: #fff;\n font-size: 17px;\n font-family: sans-serif;\n}\n\nbutton:focus {\n background: linear-gradient(#44aefc,#026bff);\n outline: 3px solid #4faefc;\n}\n</style>\n</head>\n<body>\n<button> MacOS Button\n</button>\n\n</body>\n</html>\n"
 }

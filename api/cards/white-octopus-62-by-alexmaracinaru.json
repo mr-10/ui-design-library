@@ -5,14 +5,25 @@
  "author": "alexmaracinaru",
  "source": "https://uiverse.io/alexmaracinaru/white-octopus-62",
  "trigger": "hover",
- "description": "A card UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded blue card that changes colour on hover.",
+ "howItWorks": "On hover, background changes from #6b64f3 to #534bf3.",
  "tags": [
+  "blue",
+  "indigo",
+  "rounded",
+  "color-change",
   "card",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<div class=\"card\">\n  <div class=\"card-border-top\">\n  </div>\n  <div class=\"img\">\n  </div>\n  <span> Person</span>\n  <p class=\"job\"> Job Title</p>\n  <button> Click\n  </button>\n</div>",
- "css": "/* From Uiverse.io by alexmaracinaru - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background: #3405a3;\n border-radius: 15px;\n box-shadow: 1px 5px 60px 0px #100a886b;\n}\n\n.card .card-border-top {\n width: 60%;\n height: 3%;\n background: #6b64f3;\n margin: auto;\n border-radius: 0px 0px 15px 15px;\n}\n\n.card span {\n font-weight: 600;\n color: white;\n text-align: center;\n display: block;\n padding-top: 10px;\n font-size: 16px;\n}\n\n.card .job {\n font-weight: 400;\n color: white;\n display: block;\n text-align: center;\n padding-top: 3px;\n font-size: 12px;\n}\n\n.card .img {\n width: 70px;\n height: 80px;\n background: #6b64f3;\n border-radius: 15px;\n margin: auto;\n margin-top: 25px;\n}\n\n.card button {\n padding: 8px 25px;\n display: block;\n margin: auto;\n border-radius: 8px;\n border: none;\n margin-top: 30px;\n background: #6b64f3;\n color: white;\n font-weight: 600;\n}\n\n.card button:hover {\n background: #534bf3;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>White Octopus 62</title>\n<style>\n/* From Uiverse.io by alexmaracinaru - https://uiverse.io/alexmaracinaru/white-octopus-62 */\n/* From Uiverse.io by alexmaracinaru - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background: #3405a3;\n border-radius: 15px;\n box-shadow: 1px 5px 60px 0px #100a886b;\n}\n\n.card .card-border-top {\n width: 60%;\n height: 3%;\n background: #6b64f3;\n margin: auto;\n border-radius: 0px 0px 15px 15px;\n}\n\n.card span {\n font-weight: 600;\n color: white;\n text-align: center;\n display: block;\n padding-top: 10px;\n font-size: 16px;\n}\n\n.card .job {\n font-weight: 400;\n color: white;\n display: block;\n text-align: center;\n padding-top: 3px;\n font-size: 12px;\n}\n\n.card .img {\n width: 70px;\n height: 80px;\n background: #6b64f3;\n border-radius: 15px;\n margin: auto;\n margin-top: 25px;\n}\n\n.card button {\n padding: 8px 25px;\n display: block;\n margin: auto;\n border-radius: 8px;\n border: none;\n margin-top: 30px;\n background: #6b64f3;\n color: white;\n font-weight: 600;\n}\n\n.card button:hover {\n background: #534bf3;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card-border-top\">\n  </div>\n  <div class=\"img\">\n  </div>\n  <span> Person</span>\n  <p class=\"job\"> Job Title</p>\n  <button> Click\n  </button>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#6b64f3",
+  "#3405a3",
+  "#100a88"
+ ],
+ "fonts": [],
+ "tokens": 336,
+ "size": 1344,
+ "html": "<div class=\"card\">\n  <div class=\"card-border-top\">\n  </div>\n  <div class=\"img\">\n  </div>\n  <span> Person</span>\n  <p class=\"job\"> Job Title</p>\n  <button> Click\n  </button>\n</div>\n",
+ "css": "/* White Octopus 62 by alexmaracinaru — https://uiverse.io/alexmaracinaru/white-octopus-62 */\n.card {\n width: 190px;\n height: 254px;\n background: #3405a3;\n border-radius: 15px;\n box-shadow: 1px 5px 60px 0px #100a886b;\n}\n\n.card .card-border-top {\n width: 60%;\n height: 3%;\n background: #6b64f3;\n margin: auto;\n border-radius: 0px 0px 15px 15px;\n}\n\n.card span {\n font-weight: 600;\n color: white;\n text-align: center;\n display: block;\n padding-top: 10px;\n font-size: 16px;\n}\n\n.card .job {\n font-weight: 400;\n color: white;\n display: block;\n text-align: center;\n padding-top: 3px;\n font-size: 12px;\n}\n\n.card .img {\n width: 70px;\n height: 80px;\n background: #6b64f3;\n border-radius: 15px;\n margin: auto;\n margin-top: 25px;\n}\n\n.card button {\n padding: 8px 25px;\n display: block;\n margin: auto;\n border-radius: 8px;\n border: none;\n margin-top: 30px;\n background: #6b64f3;\n color: white;\n font-weight: 600;\n}\n\n.card button:hover {\n background: #534bf3;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>White Octopus 62</title>\n<style>\n/* White Octopus 62 by alexmaracinaru — https://uiverse.io/alexmaracinaru/white-octopus-62 */\n.card {\n width: 190px;\n height: 254px;\n background: #3405a3;\n border-radius: 15px;\n box-shadow: 1px 5px 60px 0px #100a886b;\n}\n\n.card .card-border-top {\n width: 60%;\n height: 3%;\n background: #6b64f3;\n margin: auto;\n border-radius: 0px 0px 15px 15px;\n}\n\n.card span {\n font-weight: 600;\n color: white;\n text-align: center;\n display: block;\n padding-top: 10px;\n font-size: 16px;\n}\n\n.card .job {\n font-weight: 400;\n color: white;\n display: block;\n text-align: center;\n padding-top: 3px;\n font-size: 12px;\n}\n\n.card .img {\n width: 70px;\n height: 80px;\n background: #6b64f3;\n border-radius: 15px;\n margin: auto;\n margin-top: 25px;\n}\n\n.card button {\n padding: 8px 25px;\n display: block;\n margin: auto;\n border-radius: 8px;\n border: none;\n margin-top: 30px;\n background: #6b64f3;\n color: white;\n font-weight: 600;\n}\n\n.card button:hover {\n background: #534bf3;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card-border-top\">\n  </div>\n  <div class=\"img\">\n  </div>\n  <span> Person</span>\n  <p class=\"job\"> Job Title</p>\n  <button> Click\n  </button>\n</div>\n\n</body>\n</html>\n"
 }

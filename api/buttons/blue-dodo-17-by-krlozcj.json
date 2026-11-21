@@ -5,14 +5,23 @@
  "author": "krlozCJ",
  "source": "https://uiverse.io/krlozCJ/blue-dodo-17",
  "trigger": "active",
- "description": "A button UI element.",
- "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "description": "Light blue button that responds while pressed down.",
+ "howItWorks": "While pressed, transform becomes translateY(5px), box-shadow becomes 0px 0px 0px 0px #a29bfe.",
  "tags": [
+  "blue",
   "button",
   "active",
   "css"
  ],
- "html": "<button>\n    Click me\n</button>",
- "css": "/* From Uiverse.io by krlozCJ - Tags: button */\nbutton {\n  border: none;\n  outline: none;\n  background-color: #6c5ce7;\n  padding: 10px 20px;\n  font-size: 12px;\n  font-weight: 700;\n  color: #fff;\n  border-radius: 5px;\n  transition: all ease 0.1s;\n  box-shadow: 0px 5px 0px 0px #a29bfe;\n}\n\nbutton:active {\n  transform: translateY(5px);\n  box-shadow: 0px 0px 0px 0px #a29bfe;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Blue Dodo 17</title>\n<style>\n/* From Uiverse.io by krlozCJ - https://uiverse.io/krlozCJ/blue-dodo-17 */\n/* From Uiverse.io by krlozCJ - Tags: button */\nbutton {\n  border: none;\n  outline: none;\n  background-color: #6c5ce7;\n  padding: 10px 20px;\n  font-size: 12px;\n  font-weight: 700;\n  color: #fff;\n  border-radius: 5px;\n  transition: all ease 0.1s;\n  box-shadow: 0px 5px 0px 0px #a29bfe;\n}\n\nbutton:active {\n  transform: translateY(5px);\n  box-shadow: 0px 0px 0px 0px #a29bfe;\n}\n</style>\n</head>\n<body>\n<button>\n    Click me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#a29bfe",
+  "#6c5ce7",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 160,
+ "size": 644,
+ "html": "<button>\n    Click me\n</button>\n",
+ "css": "/* Blue Dodo 17 by krlozCJ — https://uiverse.io/krlozCJ/blue-dodo-17 */\nbutton {\n  border: none;\n  outline: none;\n  background-color: #6c5ce7;\n  padding: 10px 20px;\n  font-size: 12px;\n  font-weight: 700;\n  color: #fff;\n  border-radius: 5px;\n  transition: all ease 0.1s;\n  box-shadow: 0px 5px 0px 0px #a29bfe;\n}\n\nbutton:active {\n  transform: translateY(5px);\n  box-shadow: 0px 0px 0px 0px #a29bfe;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Blue Dodo 17</title>\n<style>\n/* Blue Dodo 17 by krlozCJ — https://uiverse.io/krlozCJ/blue-dodo-17 */\nbutton {\n  border: none;\n  outline: none;\n  background-color: #6c5ce7;\n  padding: 10px 20px;\n  font-size: 12px;\n  font-weight: 700;\n  color: #fff;\n  border-radius: 5px;\n  transition: all ease 0.1s;\n  box-shadow: 0px 5px 0px 0px #a29bfe;\n}\n\nbutton:active {\n  transform: translateY(5px);\n  box-shadow: 0px 0px 0px 0px #a29bfe;\n}\n</style>\n</head>\n<body>\n<button>\n    Click me\n</button>\n\n</body>\n</html>\n"
 }

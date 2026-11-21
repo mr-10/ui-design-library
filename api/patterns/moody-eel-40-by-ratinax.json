@@ -5,15 +5,24 @@
  "author": "Ratinax",
  "source": "https://uiverse.io/Ratinax/moody-eel-40",
  "trigger": "static",
- "description": "A pattern with red and circle styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient red pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
   "red",
-  "circle",
+  "gradient",
+  "flat",
   "pattern",
+  "circle",
   "static"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by Ratinax - Tags: red, circle, pattern */\n.container {\n  width: 200%;\n  height: 200%;\n  /* Add your background pattern here */\n  background: #ff7e86;\n  background-image: linear-gradient(45deg, #fc5762, transparent 90%),\n    radial-gradient(#ff1122 68%, transparent 5%);\n  background-size: 4em 4em;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Eel 40</title>\n<style>\n/* From Uiverse.io by Ratinax - https://uiverse.io/Ratinax/moody-eel-40 */\n/* From Uiverse.io by Ratinax - Tags: red, circle, pattern */\n.container {\n  width: 200%;\n  height: 200%;\n  /* Add your background pattern here */\n  background: #ff7e86;\n  background-image: linear-gradient(45deg, #fc5762, transparent 90%),\n    radial-gradient(#ff1122 68%, transparent 5%);\n  background-size: 4em 4em;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff7e86",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 133,
+ "size": 533,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Moody Eel 40 by Ratinax — https://uiverse.io/Ratinax/moody-eel-40 */\n.container {\n  width: 200%;\n  height: 200%;\n\n  background: #ff7e86;\n  background-image: linear-gradient(45deg, #fc5762, transparent 90%),\n    radial-gradient(#ff1122 68%, transparent 5%);\n  background-size: 4em 4em;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Eel 40</title>\n<style>\n/* Moody Eel 40 by Ratinax — https://uiverse.io/Ratinax/moody-eel-40 */\n.container {\n  width: 200%;\n  height: 200%;\n\n  background: #ff7e86;\n  background-image: linear-gradient(45deg, #fc5762, transparent 90%),\n    radial-gradient(#ff1122 68%, transparent 5%);\n  background-size: 4em 4em;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

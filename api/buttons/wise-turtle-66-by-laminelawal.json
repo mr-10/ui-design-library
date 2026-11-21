@@ -5,15 +5,27 @@
  "author": "laminelawal",
  "source": "https://uiverse.io/laminelawal/wise-turtle-66",
  "trigger": "hover",
- "description": "A button with alert and 2d-button styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark blue button that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, box-shadow becomes -15px -15px #d3d3d3, transform becomes translate(15px, 15px), background changes from #d3d3d3 to #00008b.",
  "tags": [
+  "blue",
+  "glow",
+  "color-change",
   "alert",
   "button",
-  "2d-button",
-  "hover"
+  "2d-button"
  ],
- "html": "<div class=\"frame\">\n  <div class=\"center\">\n\t\t<button>Hover me</button>\n  </div>\n</div>",
- "css": "/* From Uiverse.io by laminelawal - Tags: alert, button, 2d button */\n.frame {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 400px;\n  height: 400px;\n  margin-top: -200px;\n  margin-left: -200px;\n  border-radius: 2px;\n  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);\n  overflow: hidden;\n  background: #fff;\n  color: #333;\n  font-family: 'Open Sans', Helvetica, sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n.center {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n}\n\nbutton {\n  padding: 15px 15px;\n  border: none;\n  width: 170px;\n  height: 55px;\n  box-shadow: 15px 15px darkblue;\n  cursor: pointer;\n  transition: 0.5s ease;\n  background: lightgray;\n  font-size: 18px;\n  font-weight: bolder;\n  text-transform: uppercase;\n}\n\nbutton:hover {\n  box-shadow: -15px -15px lightgray;\n  transform: translate(15px, 15px);\n  background: darkblue;\n  color: white;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wise Turtle 66</title>\n<style>\n/* From Uiverse.io by laminelawal - https://uiverse.io/laminelawal/wise-turtle-66 */\n/* From Uiverse.io by laminelawal - Tags: alert, button, 2d button */\n.frame {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 400px;\n  height: 400px;\n  margin-top: -200px;\n  margin-left: -200px;\n  border-radius: 2px;\n  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);\n  overflow: hidden;\n  background: #fff;\n  color: #333;\n  font-family: 'Open Sans', Helvetica, sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n.center {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n}\n\nbutton {\n  padding: 15px 15px;\n  border: none;\n  width: 170px;\n  height: 55px;\n  box-shadow: 15px 15px darkblue;\n  cursor: pointer;\n  transition: 0.5s ease;\n  background: lightgray;\n  font-size: 18px;\n  font-weight: bolder;\n  text-transform: uppercase;\n}\n\nbutton:hover {\n  box-shadow: -15px -15px lightgray;\n  transform: translate(15px, 15px);\n  background: darkblue;\n  color: white;\n}\n</style>\n</head>\n<body>\n<div class=\"frame\">\n  <div class=\"center\">\n\t\t<button>Hover me</button>\n  </div>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#00008b",
+  "#d3d3d3",
+  "#333333"
+ ],
+ "fonts": [
+  "Open Sans"
+ ],
+ "tokens": 313,
+ "size": 1255,
+ "html": "<div class=\"frame\">\n  <div class=\"center\">\n\t\t<button>Hover me</button>\n  </div>\n</div>\n",
+ "css": "/* Wise Turtle 66 by laminelawal — https://uiverse.io/laminelawal/wise-turtle-66 */\n.frame {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 400px;\n  height: 400px;\n  margin-top: -200px;\n  margin-left: -200px;\n  border-radius: 2px;\n  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);\n  overflow: hidden;\n  background: #fff;\n  color: #333;\n  font-family: 'Open Sans', Helvetica, sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n.center {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n}\n\nbutton {\n  padding: 15px 15px;\n  border: none;\n  width: 170px;\n  height: 55px;\n  box-shadow: 15px 15px darkblue;\n  cursor: pointer;\n  transition: 0.5s ease;\n  background: lightgray;\n  font-size: 18px;\n  font-weight: bolder;\n  text-transform: uppercase;\n}\n\nbutton:hover {\n  box-shadow: -15px -15px lightgray;\n  transform: translate(15px, 15px);\n  background: darkblue;\n  color: white;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wise Turtle 66</title>\n<style>\n/* Wise Turtle 66 by laminelawal — https://uiverse.io/laminelawal/wise-turtle-66 */\n.frame {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 400px;\n  height: 400px;\n  margin-top: -200px;\n  margin-left: -200px;\n  border-radius: 2px;\n  box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);\n  overflow: hidden;\n  background: #fff;\n  color: #333;\n  font-family: 'Open Sans', Helvetica, sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n.center {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n}\n\nbutton {\n  padding: 15px 15px;\n  border: none;\n  width: 170px;\n  height: 55px;\n  box-shadow: 15px 15px darkblue;\n  cursor: pointer;\n  transition: 0.5s ease;\n  background: lightgray;\n  font-size: 18px;\n  font-weight: bolder;\n  text-transform: uppercase;\n}\n\nbutton:hover {\n  box-shadow: -15px -15px lightgray;\n  transform: translate(15px, 15px);\n  background: darkblue;\n  color: white;\n}\n</style>\n</head>\n<body>\n<div class=\"frame\">\n  <div class=\"center\">\n\t\t<button>Hover me</button>\n  </div>\n</div>\n\n</body>\n</html>\n"
 }

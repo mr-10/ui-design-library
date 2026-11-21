@@ -4,15 +4,25 @@
  "category": "buttons",
  "author": "catraco",
  "source": "https://uiverse.io/catraco/funny-impala-9",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Rounded red button that changes colour on hover.",
+ "howItWorks": "On hover, border changes.",
  "tags": [
+  "red",
+  "rounded",
+  "color-change",
+  "fade",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by catraco - Tags: red, button, dark, hover effect, tailwind, tailwindbutton -->\n<button class=\"bg-red-950 text-red-400 border border-red-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group\">\n  <span class=\"bg-red-400 shadow-red-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]\"></span>\n  Hover Me\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Funny Impala 9</title>\n<style>\n/* From Uiverse.io by catraco - https://uiverse.io/catraco/funny-impala-9 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by catraco - Tags: red, button, dark, hover effect, tailwind, tailwindbutton -->\n<button class=\"bg-red-950 text-red-400 border border-red-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group\">\n  <span class=\"bg-red-400 shadow-red-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]\"></span>\n  Hover Me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#f87171",
+  "#450a0a"
+ ],
+ "fonts": [],
+ "tokens": 186,
+ "size": 748,
+ "html": "<button class=\"bg-red-950 text-red-400 border border-red-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group\">\n  <span class=\"bg-red-400 shadow-red-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]\"></span>\n  Hover Me\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Funny Impala 9</title>\n<style>\n/* Funny Impala 9 by catraco — https://uiverse.io/catraco/funny-impala-9 */\n\n</style>\n</head>\n<body>\n<button class=\"bg-red-950 text-red-400 border border-red-400 border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group\">\n  <span class=\"bg-red-400 shadow-red-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]\"></span>\n  Hover Me\n</button>\n\n</body>\n</html>\n"
 }

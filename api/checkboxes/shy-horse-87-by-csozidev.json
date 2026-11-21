@@ -5,14 +5,25 @@
  "author": "csozidev",
  "source": "https://uiverse.io/csozidev/shy-horse-87",
  "trigger": "checked",
- "description": "A checkbox UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "description": "Neon rounded green checkbox that toggles on and off when clicked.",
+ "howItWorks": "Clicking it toggles it: background-color changes from #004000 to #00de00, box-shadow becomes 0 0 10px #00ff00.",
  "tags": [
+  "green",
+  "neon",
+  "dark",
+  "rounded",
   "checkbox",
-  "checked",
-  "css"
+  "checked"
  ],
- "html": "<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>",
- "css": "/* From Uiverse.io by csozidev - Tags: checkbox */\n/* Green glow checkbox made by: csozi | Website: www.csozi.hu*/\n\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n  background-color: #676767;\n  padding: 4px;\n  border-radius: 25px;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  border-radius: 1rem;\n  background-color: #004000;\n  transition: 0.1s;\n}\n\n.container input:checked ~ .checkmark {\n  background-color: #00de00;\n  box-shadow: 0 0 10px #00ff00;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shy Horse 87</title>\n<style>\n/* From Uiverse.io by csozidev - https://uiverse.io/csozidev/shy-horse-87 */\n/* From Uiverse.io by csozidev - Tags: checkbox */\n/* Green glow checkbox made by: csozi | Website: www.csozi.hu*/\n\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n  background-color: #676767;\n  padding: 4px;\n  border-radius: 25px;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  border-radius: 1rem;\n  background-color: #004000;\n  transition: 0.1s;\n}\n\n.container input:checked ~ .checkmark {\n  background-color: #00de00;\n  box-shadow: 0 0 10px #00ff00;\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#676767",
+  "#004000",
+  "#00de00"
+ ],
+ "fonts": [],
+ "tokens": 237,
+ "size": 950,
+ "html": "<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>\n",
+ "css": "/* Shy Horse 87 by csozidev — https://uiverse.io/csozidev/shy-horse-87 */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n  background-color: #676767;\n  padding: 4px;\n  border-radius: 25px;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  border-radius: 1rem;\n  background-color: #004000;\n  transition: 0.1s;\n}\n\n.container input:checked ~ .checkmark {\n  background-color: #00de00;\n  box-shadow: 0 0 10px #00ff00;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shy Horse 87</title>\n<style>\n/* Shy Horse 87 by csozidev — https://uiverse.io/csozidev/shy-horse-87 */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n  background-color: #676767;\n  padding: 4px;\n  border-radius: 25px;\n}\n\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  border-radius: 1rem;\n  background-color: #004000;\n  transition: 0.1s;\n}\n\n.container input:checked ~ .checkmark {\n  background-color: #00de00;\n  box-shadow: 0 0 10px #00ff00;\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>\n\n</body>\n</html>\n"
 }

@@ -5,17 +5,24 @@
  "author": "sonex-ICB",
  "source": "https://uiverse.io/sonex-ICB/hungry-cougar-91",
  "trigger": "auto-loop",
- "description": "A loader with simple, animation and rotate styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Outlined red loader with fading motion in a loop.",
+ "howItWorks": "It loops a 1s animation (fading, pulsing).",
  "tags": [
-  "simple",
-  "animation",
-  "loader",
-  "rotate",
-  "animated",
-  "creative"
+  "red",
+  "outlined",
+  "flat",
+  "fade",
+  "pulse",
+  "simple"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by sonex-ICB  - Tags: simple, animation, loader, rotate, animated, creative, spin, loading animation */\n.loader {\n  border: 10px inset tomato;\n  padding: 12px;\n  transform: rotate(45deg);\n  animation: loader1 1s ease-in-out infinite;\n}\n@keyframes loader1 {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n    transform: scale(1.5);\n  }\n  100% {\n    opacity: 0;\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Cougar 91</title>\n<style>\n/* From Uiverse.io by sonex-ICB - https://uiverse.io/sonex-ICB/hungry-cougar-91 */\n/* From Uiverse.io by sonex-ICB  - Tags: simple, animation, loader, rotate, animated, creative, spin, loading animation */\n.loader {\n  border: 10px inset tomato;\n  padding: 12px;\n  transform: rotate(45deg);\n  animation: loader1 1s ease-in-out infinite;\n}\n@keyframes loader1 {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n    transform: scale(1.5);\n  }\n  100% {\n    opacity: 0;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ff6347",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 148,
+ "size": 594,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Hungry Cougar 91 by sonex-ICB — https://uiverse.io/sonex-ICB/hungry-cougar-91 */\n.loader {\n  border: 10px inset tomato;\n  padding: 12px;\n  transform: rotate(45deg);\n  animation: loader1 1s ease-in-out infinite;\n}\n@keyframes loader1 {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n    transform: scale(1.5);\n  }\n  100% {\n    opacity: 0;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Cougar 91</title>\n<style>\n/* Hungry Cougar 91 by sonex-ICB — https://uiverse.io/sonex-ICB/hungry-cougar-91 */\n.loader {\n  border: 10px inset tomato;\n  padding: 12px;\n  transform: rotate(45deg);\n  animation: loader1 1s ease-in-out infinite;\n}\n@keyframes loader1 {\n  0% {\n    opacity: 0;\n  }\n  50% {\n    opacity: 1;\n    transform: scale(1.5);\n  }\n  100% {\n    opacity: 0;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

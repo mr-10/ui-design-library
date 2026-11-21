@@ -5,14 +5,24 @@
  "author": "satyamchaudharydev",
  "source": "https://uiverse.io/satyamchaudharydev/tough-baboon-84",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Dark pill black loader with sliding motion in a loop.",
+ "howItWorks": "It loops a animation (sliding).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "dark",
+  "rounded",
+  "pill",
+  "flat",
+  "slide",
+  "loader"
  ],
- "html": "<div class=\"ball\"></div>",
- "css": "/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.ball {\n --size: 20px;\n --timing: 0.7s;\n --displace: 70px;\n border-radius: 50%;\n width: var(--size);\n height: var(--size);\n background: #000;\n margin-right: var(--displace);\n animation: animation321 var(--timing) infinite alternate\n    cubic-bezier(0.68, -0.55, 0.265, 1.55);\n}\n\n@keyframes animation321 {\n 0% {\n  background: #4284f3;\n  transform: translateX(var(--displace));\n }\n\n 100% {\n  background: #ea4335;\n  transform: translateX(00px);\n }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Baboon 84</title>\n<style>\n/* From Uiverse.io by satyamchaudharydev - https://uiverse.io/satyamchaudharydev/tough-baboon-84 */\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.ball {\n --size: 20px;\n --timing: 0.7s;\n --displace: 70px;\n border-radius: 50%;\n width: var(--size);\n height: var(--size);\n background: #000;\n margin-right: var(--displace);\n animation: animation321 var(--timing) infinite alternate\n    cubic-bezier(0.68, -0.55, 0.265, 1.55);\n}\n\n@keyframes animation321 {\n 0% {\n  background: #4284f3;\n  transform: translateX(var(--displace));\n }\n\n 100% {\n  background: #ea4335;\n  transform: translateX(00px);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"ball\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#000000",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 196,
+ "size": 788,
+ "html": "<div class=\"ball\"></div>\n",
+ "css": "/* Tough Baboon 84 by satyamchaudharydev — https://uiverse.io/satyamchaudharydev/tough-baboon-84 */\n.ball {\n --size: 20px;\n --timing: 0.7s;\n --displace: 70px;\n border-radius: 50%;\n width: var(--size);\n height: var(--size);\n background: #000;\n margin-right: var(--displace);\n animation: animation321 var(--timing) infinite alternate\n    cubic-bezier(0.68, -0.55, 0.265, 1.55);\n}\n\n@keyframes animation321 {\n 0% {\n  background: #4284f3;\n  transform: translateX(var(--displace));\n }\n\n 100% {\n  background: #ea4335;\n  transform: translateX(00px);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Baboon 84</title>\n<style>\n/* Tough Baboon 84 by satyamchaudharydev — https://uiverse.io/satyamchaudharydev/tough-baboon-84 */\n.ball {\n --size: 20px;\n --timing: 0.7s;\n --displace: 70px;\n border-radius: 50%;\n width: var(--size);\n height: var(--size);\n background: #000;\n margin-right: var(--displace);\n animation: animation321 var(--timing) infinite alternate\n    cubic-bezier(0.68, -0.55, 0.265, 1.55);\n}\n\n@keyframes animation321 {\n 0% {\n  background: #4284f3;\n  transform: translateX(var(--displace));\n }\n\n 100% {\n  background: #ea4335;\n  transform: translateX(00px);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"ball\"></div>\n\n</body>\n</html>\n"
 }

@@ -4,15 +4,26 @@
  "category": "cards",
  "author": "Dhananjoy43",
  "source": "https://uiverse.io/Dhananjoy43/pretty-earwig-32",
- "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Rounded dark sky-blue login card that changes colour on hover.",
+ "howItWorks": "On hover, background changes.",
  "tags": [
-  "cards",
-  "static",
-  "css"
+  "blue",
+  "rounded",
+  "color-change",
+  "login",
+  "login-card",
+  "cards"
  ],
- "html": "<!-- From Uiverse.io by Dhananjoy43 - Tags: simple, login, blue, card, login form -->\n<div class=\"card px-8 py-6 rounded-lg bg-gray-800 w-72\">\n  <h1 class=\"text-center font-bold text-3xl text-white\">Login</h1>\n  <form class=\"my-6\">\n    <input class=\"p-2 my-2 rounded w-[100%] focus:outline-blue-600\" placeholder=\"Name\" type=\"text\">\n    <input class=\"p-2 my-2 rounded w-[100%] focus:outline-blue-600\" placeholder=\"Email\" type=\"email\">\n    <input class=\"p-2 my-2 rounded w-[100%] focus:outline-blue-600\" placeholder=\"Password\" type=\"password\">\n    <button class=\"bg-blue-600 hover:bg-blue-500 text-white font-semibold p-2 mt-3 rounded w-[100%]\">Login</button>\n  </form>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Pretty Earwig 32</title>\n<style>\n/* From Uiverse.io by Dhananjoy43 - https://uiverse.io/Dhananjoy43/pretty-earwig-32 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Dhananjoy43 - Tags: simple, login, blue, card, login form -->\n<div class=\"card px-8 py-6 rounded-lg bg-gray-800 w-72\">\n  <h1 class=\"text-center font-bold text-3xl text-white\">Login</h1>\n  <form class=\"my-6\">\n    <input class=\"p-2 my-2 rounded w-[100%] focus:outline-blue-600\" placeholder=\"Name\" type=\"text\">\n    <input class=\"p-2 my-2 rounded w-[100%] focus:outline-blue-600\" placeholder=\"Email\" type=\"email\">\n    <input class=\"p-2 my-2 rounded w-[100%] focus:outline-blue-600\" placeholder=\"Password\" type=\"password\">\n    <button class=\"bg-blue-600 hover:bg-blue-500 text-white font-semibold p-2 mt-3 rounded w-[100%]\">Login</button>\n  </form>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#1f2937",
+  "#2563eb",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 223,
+ "size": 895,
+ "html": "<div class=\"card px-8 py-6 rounded-lg bg-gray-800 w-72\">\n  <h1 class=\"text-center font-bold text-3xl text-white\">Login</h1>\n  <form class=\"my-6\">\n    <input class=\"p-2 my-2 rounded w-[100%] focus:outline-blue-600\" placeholder=\"Name\" type=\"text\">\n    <input class=\"p-2 my-2 rounded w-[100%] focus:outline-blue-600\" placeholder=\"Email\" type=\"email\">\n    <input class=\"p-2 my-2 rounded w-[100%] focus:outline-blue-600\" placeholder=\"Password\" type=\"password\">\n    <button class=\"bg-blue-600 hover:bg-blue-500 text-white font-semibold p-2 mt-3 rounded w-[100%]\">Login</button>\n  </form>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Pretty Earwig 32</title>\n<style>\n/* Pretty Earwig 32 by Dhananjoy43 — https://uiverse.io/Dhananjoy43/pretty-earwig-32 */\n\n</style>\n</head>\n<body>\n<div class=\"card px-8 py-6 rounded-lg bg-gray-800 w-72\">\n  <h1 class=\"text-center font-bold text-3xl text-white\">Login</h1>\n  <form class=\"my-6\">\n    <input class=\"p-2 my-2 rounded w-[100%] focus:outline-blue-600\" placeholder=\"Name\" type=\"text\">\n    <input class=\"p-2 my-2 rounded w-[100%] focus:outline-blue-600\" placeholder=\"Email\" type=\"email\">\n    <input class=\"p-2 my-2 rounded w-[100%] focus:outline-blue-600\" placeholder=\"Password\" type=\"password\">\n    <button class=\"bg-blue-600 hover:bg-blue-500 text-white font-semibold p-2 mt-3 rounded w-[100%]\">Login</button>\n  </form>\n</div>\n\n</body>\n</html>\n"
 }

@@ -4,15 +4,22 @@
  "category": "buttons",
  "author": "catraco",
  "source": "https://uiverse.io/catraco/fluffy-quail-74",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Gray button that rotates on hover with a smooth transition.",
+ "howItWorks": "On hover, it rotates.",
  "tags": [
+  "rotate",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by catraco  - Tags: icon, button, svg, add, create, plus, tailwind css, new -->\n<button\n  title=\"Add New\"\n  class=\"group cursor-pointer outline-none hover:rotate-90 duration-300\"\n>\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    width=\"50px\"\n    height=\"50px\"\n    viewBox=\"0 0 24 24\"\n    class=\"stroke-zinc-400 fill-none group-hover:fill-zinc-800 group-active:stroke-zinc-200 group-active:fill-zinc-600 group-active:duration-0 duration-300\"\n  >\n    <path\n      d=\"M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z\"\n      stroke-width=\"1.5\"\n    ></path>\n    <path d=\"M8 12H16\" stroke-width=\"1.5\"></path>\n    <path d=\"M12 16V8\" stroke-width=\"1.5\"></path>\n  </svg>\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Quail 74</title>\n<style>\n/* From Uiverse.io by catraco - https://uiverse.io/catraco/fluffy-quail-74 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by catraco  - Tags: icon, button, svg, add, create, plus, tailwind css, new -->\n<button\n  title=\"Add New\"\n  class=\"group cursor-pointer outline-none hover:rotate-90 duration-300\"\n>\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    width=\"50px\"\n    height=\"50px\"\n    viewBox=\"0 0 24 24\"\n    class=\"stroke-zinc-400 fill-none group-hover:fill-zinc-800 group-active:stroke-zinc-200 group-active:fill-zinc-600 group-active:duration-0 duration-300\"\n  >\n    <path\n      d=\"M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z\"\n      stroke-width=\"1.5\"\n    ></path>\n    <path d=\"M8 12H16\" stroke-width=\"1.5\"></path>\n    <path d=\"M12 16V8\" stroke-width=\"1.5\"></path>\n  </svg>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#a1a1aa",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 231,
+ "size": 925,
+ "html": "<button\n  title=\"Add New\"\n  class=\"group cursor-pointer outline-none hover:rotate-90 duration-300\"\n>\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    width=\"50px\"\n    height=\"50px\"\n    viewBox=\"0 0 24 24\"\n    class=\"stroke-zinc-400 fill-none group-hover:fill-zinc-800 group-active:stroke-zinc-200 group-active:fill-zinc-600 group-active:duration-0 duration-300\"\n  >\n    <path\n      d=\"M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z\"\n      stroke-width=\"1.5\"\n    ></path>\n    <path d=\"M8 12H16\" stroke-width=\"1.5\"></path>\n    <path d=\"M12 16V8\" stroke-width=\"1.5\"></path>\n  </svg>\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Quail 74</title>\n<style>\n/* Fluffy Quail 74 by catraco — https://uiverse.io/catraco/fluffy-quail-74 */\n\n</style>\n</head>\n<body>\n<button\n  title=\"Add New\"\n  class=\"group cursor-pointer outline-none hover:rotate-90 duration-300\"\n>\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    width=\"50px\"\n    height=\"50px\"\n    viewBox=\"0 0 24 24\"\n    class=\"stroke-zinc-400 fill-none group-hover:fill-zinc-800 group-active:stroke-zinc-200 group-active:fill-zinc-600 group-active:duration-0 duration-300\"\n  >\n    <path\n      d=\"M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z\"\n      stroke-width=\"1.5\"\n    ></path>\n    <path d=\"M8 12H16\" stroke-width=\"1.5\"></path>\n    <path d=\"M12 16V8\" stroke-width=\"1.5\"></path>\n  </svg>\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,16 +5,25 @@
  "author": "16alves02",
  "source": "https://uiverse.io/16alves02/tender-cougar-31",
  "trigger": "static",
- "description": "A pattern with red and green styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient green pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "red",
   "green",
-  "css",
+  "yellow",
+  "gradient",
+  "flat",
   "pattern",
-  "static"
+  "red"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by 16alves02  - Tags: red, green, css, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    to right,\n    #289a6a 0%,\n    #289a6a 30%,\n    #ffcd00 30%,\n    #ffcd00 70%,\n    #ef3340 70%,\n    #ef3340 100%\n  );\n  background-size: 120px 100%;\n  background-repeat: repeat;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tender Cougar 31</title>\n<style>\n/* From Uiverse.io by 16alves02 - https://uiverse.io/16alves02/tender-cougar-31 */\n/* From Uiverse.io by 16alves02  - Tags: red, green, css, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    to right,\n    #289a6a 0%,\n    #289a6a 30%,\n    #ffcd00 30%,\n    #ffcd00 70%,\n    #ef3340 70%,\n    #ef3340 100%\n  );\n  background-size: 120px 100%;\n  background-repeat: repeat;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#289a6a",
+  "#ffcd00",
+  "#ef3340"
+ ],
+ "fonts": [],
+ "tokens": 146,
+ "size": 588,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Tender Cougar 31 by 16alves02 — https://uiverse.io/16alves02/tender-cougar-31 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    to right,\n    #289a6a 0%,\n    #289a6a 30%,\n    #ffcd00 30%,\n    #ffcd00 70%,\n    #ef3340 70%,\n    #ef3340 100%\n  );\n  background-size: 120px 100%;\n  background-repeat: repeat;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tender Cougar 31</title>\n<style>\n/* Tender Cougar 31 by 16alves02 — https://uiverse.io/16alves02/tender-cougar-31 */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n    to right,\n    #289a6a 0%,\n    #289a6a 30%,\n    #ffcd00 30%,\n    #ffcd00 70%,\n    #ef3340 70%,\n    #ef3340 100%\n  );\n  background-size: 120px 100%;\n  background-repeat: repeat;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

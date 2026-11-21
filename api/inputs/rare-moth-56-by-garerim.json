@@ -5,14 +5,24 @@
  "author": "garerim",
  "source": "https://uiverse.io/garerim/rare-moth-56",
  "trigger": "focus",
- "description": "A input with search styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Outlined pill gray text input that lights up when focused.",
+ "howItWorks": "On focus, opacity becomes 1, width becomes 250px.",
  "tags": [
-  "input",
-  "search",
-  "focus"
+  "outlined",
+  "rounded",
+  "pill",
+  "flat",
+  "text-input",
+  "input"
  ],
- "html": "<div class=\"container-input\">\n  <input type=\"text\" placeholder=\"Search\" name=\"text\" class=\"input\">\n  <svg fill=\"#000000\" width=\"20px\" height=\"20px\" viewBox=\"0 0 1920 1920\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M790.588 1468.235c-373.722 0-677.647-303.924-677.647-677.647 0-373.722 303.925-677.647 677.647-677.647 373.723 0 677.647 303.925 677.647 677.647 0 373.723-303.924 677.647-677.647 677.647Zm596.781-160.715c120.396-138.692 193.807-319.285 193.807-516.932C1581.176 354.748 1226.428 0 790.588 0S0 354.748 0 790.588s354.748 790.588 790.588 790.588c197.647 0 378.24-73.411 516.932-193.807l516.028 516.142 79.963-79.963-516.142-516.028Z\" fill-rule=\"evenodd\"></path>\n</svg>\n</div>",
- "css": "/* From Uiverse.io by garerim - Tags: input, search */\n.container-input {\n  position: relative;\n}\n\n.input {\n  width: 150px;\n  padding: 10px 0px 10px 40px;\n  border-radius: 9999px;\n  border: solid 1px #333;\n  transition: all .2s ease-in-out;\n  outline: none;\n  opacity: 0.8;\n}\n\n.container-input svg {\n  position: absolute;\n  top: 50%;\n  left: 10px;\n  transform: translate(0, -50%);\n}\n\n.input:focus {\n  opacity: 1;\n  width: 250px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rare Moth 56</title>\n<style>\n/* From Uiverse.io by garerim - https://uiverse.io/garerim/rare-moth-56 */\n/* From Uiverse.io by garerim - Tags: input, search */\n.container-input {\n  position: relative;\n}\n\n.input {\n  width: 150px;\n  padding: 10px 0px 10px 40px;\n  border-radius: 9999px;\n  border: solid 1px #333;\n  transition: all .2s ease-in-out;\n  outline: none;\n  opacity: 0.8;\n}\n\n.container-input svg {\n  position: absolute;\n  top: 50%;\n  left: 10px;\n  transform: translate(0, -50%);\n}\n\n.input:focus {\n  opacity: 1;\n  width: 250px;\n}\n</style>\n</head>\n<body>\n<div class=\"container-input\">\n  <input type=\"text\" placeholder=\"Search\" name=\"text\" class=\"input\">\n  <svg fill=\"#000000\" width=\"20px\" height=\"20px\" viewBox=\"0 0 1920 1920\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M790.588 1468.235c-373.722 0-677.647-303.924-677.647-677.647 0-373.722 303.925-677.647 677.647-677.647 373.723 0 677.647 303.925 677.647 677.647 0 373.723-303.924 677.647-677.647 677.647Zm596.781-160.715c120.396-138.692 193.807-319.285 193.807-516.932C1581.176 354.748 1226.428 0 790.588 0S0 354.748 0 790.588s354.748 790.588 790.588 790.588c197.647 0 378.24-73.411 516.932-193.807l516.028 516.142 79.963-79.963-516.142-516.028Z\" fill-rule=\"evenodd\"></path>\n</svg>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#333333",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 338,
+ "size": 1354,
+ "html": "<div class=\"container-input\">\n  <input type=\"text\" placeholder=\"Search\" name=\"text\" class=\"input\">\n  <svg fill=\"#000000\" width=\"20px\" height=\"20px\" viewBox=\"0 0 1920 1920\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M790.588 1468.235c-373.722 0-677.647-303.924-677.647-677.647 0-373.722 303.925-677.647 677.647-677.647 373.723 0 677.647 303.925 677.647 677.647 0 373.723-303.924 677.647-677.647 677.647Zm596.781-160.715c120.396-138.692 193.807-319.285 193.807-516.932C1581.176 354.748 1226.428 0 790.588 0S0 354.748 0 790.588s354.748 790.588 790.588 790.588c197.647 0 378.24-73.411 516.932-193.807l516.028 516.142 79.963-79.963-516.142-516.028Z\" fill-rule=\"evenodd\"></path>\n</svg>\n</div>\n",
+ "css": "/* Rare Moth 56 by garerim — https://uiverse.io/garerim/rare-moth-56 */\n.container-input {\n  position: relative;\n}\n\n.input {\n  width: 150px;\n  padding: 10px 0px 10px 40px;\n  border-radius: 9999px;\n  border: solid 1px #333;\n  transition: all .2s ease-in-out;\n  outline: none;\n  opacity: 0.8;\n}\n\n.container-input svg {\n  position: absolute;\n  top: 50%;\n  left: 10px;\n  transform: translate(0, -50%);\n}\n\n.input:focus {\n  opacity: 1;\n  width: 250px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rare Moth 56</title>\n<style>\n/* Rare Moth 56 by garerim — https://uiverse.io/garerim/rare-moth-56 */\n.container-input {\n  position: relative;\n}\n\n.input {\n  width: 150px;\n  padding: 10px 0px 10px 40px;\n  border-radius: 9999px;\n  border: solid 1px #333;\n  transition: all .2s ease-in-out;\n  outline: none;\n  opacity: 0.8;\n}\n\n.container-input svg {\n  position: absolute;\n  top: 50%;\n  left: 10px;\n  transform: translate(0, -50%);\n}\n\n.input:focus {\n  opacity: 1;\n  width: 250px;\n}\n</style>\n</head>\n<body>\n<div class=\"container-input\">\n  <input type=\"text\" placeholder=\"Search\" name=\"text\" class=\"input\">\n  <svg fill=\"#000000\" width=\"20px\" height=\"20px\" viewBox=\"0 0 1920 1920\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M790.588 1468.235c-373.722 0-677.647-303.924-677.647-677.647 0-373.722 303.925-677.647 677.647-677.647 373.723 0 677.647 303.925 677.647 677.647 0 373.723-303.924 677.647-677.647 677.647Zm596.781-160.715c120.396-138.692 193.807-319.285 193.807-516.932C1581.176 354.748 1226.428 0 790.588 0S0 354.748 0 790.588s354.748 790.588 790.588 790.588c197.647 0 378.24-73.411 516.932-193.807l516.028 516.142 79.963-79.963-516.142-516.028Z\" fill-rule=\"evenodd\"></path>\n</svg>\n</div>\n\n</body>\n</html>\n"
 }

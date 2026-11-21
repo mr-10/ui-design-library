@@ -4,15 +4,25 @@
  "category": "buttons",
  "author": "themrsami",
  "source": "https://uiverse.io/themrsami/tough-fox-32",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Pill violet button that changes colour on hover.",
+ "howItWorks": "On hover, background changes.",
  "tags": [
+  "violet",
+  "rounded",
+  "pill",
+  "color-change",
   "buttons",
-  "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by themrsami - Tags: simple, button, calculator, tailwind, tailwindbutton, tailwindcss, themrsami -->\n<button\n  class=\"bg-purple-500 text-white px-4 py-2 rounded-full transition duration-200 ease-in-out hover:bg-purple-700 active:bg-purple-900 focus:outline-none\"\n>\n  Click me\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Fox 32</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/tough-fox-32 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by themrsami - Tags: simple, button, calculator, tailwind, tailwindbutton, tailwindcss, themrsami -->\n<button\n  class=\"bg-purple-500 text-white px-4 py-2 rounded-full transition duration-200 ease-in-out hover:bg-purple-700 active:bg-purple-900 focus:outline-none\"\n>\n  Click me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#a855f7",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 118,
+ "size": 475,
+ "html": "<button\n  class=\"bg-purple-500 text-white px-4 py-2 rounded-full transition duration-200 ease-in-out hover:bg-purple-700 active:bg-purple-900 focus:outline-none\"\n>\n  Click me\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Fox 32</title>\n<style>\n/* Tough Fox 32 by themrsami — https://uiverse.io/themrsami/tough-fox-32 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"bg-purple-500 text-white px-4 py-2 rounded-full transition duration-200 ease-in-out hover:bg-purple-700 active:bg-purple-900 focus:outline-none\"\n>\n  Click me\n</button>\n\n</body>\n</html>\n"
 }

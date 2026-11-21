@@ -5,14 +5,27 @@
  "author": "glisovic01",
  "source": "https://uiverse.io/glisovic01/purple-shrimp-29",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined rounded gray submit button that slides on hover.",
+ "howItWorks": "On hover, text color changes from #fff to #272727, transform becomes translateX(0).",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "outlined",
+  "rounded",
+  "color-change",
+  "slide",
+  "submit",
+  "submit-button"
  ],
- "html": "<button class=\"btn\">\n  submit\n</button>",
- "css": "/* From Uiverse.io by glisovic01 - Tags: button */\n.btn {\n  display: inline-block;\n  font-family: sans-serif;\n  font-weight: 600;\n  font-size: 16px;\n  color: #fff;\n  margin: 1rem auto;\n  padding: 0.7rem 2rem;\n  border-radius: 30em;\n  border-style: none;\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  text-decoration: none;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  background-color: transparent;\n  box-shadow: 1px 1px 12px #000000;\n}\n\n.btn::before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: #fff;\n  transform: translateX(-101%);\n  transition: all .3s ease;\n  z-index: -1;\n}\n\n.btn:hover {\n  color: #272727;\n  transition: all .3s ease;\n}\n\n.btn:hover::before {\n  transform: translateX(0);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Shrimp 29</title>\n<style>\n/* From Uiverse.io by glisovic01 - https://uiverse.io/glisovic01/purple-shrimp-29 */\n/* From Uiverse.io by glisovic01 - Tags: button */\n.btn {\n  display: inline-block;\n  font-family: sans-serif;\n  font-weight: 600;\n  font-size: 16px;\n  color: #fff;\n  margin: 1rem auto;\n  padding: 0.7rem 2rem;\n  border-radius: 30em;\n  border-style: none;\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  text-decoration: none;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  background-color: transparent;\n  box-shadow: 1px 1px 12px #000000;\n}\n\n.btn::before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: #fff;\n  transform: translateX(-101%);\n  transition: all .3s ease;\n  z-index: -1;\n}\n\n.btn:hover {\n  color: #272727;\n  transition: all .3s ease;\n}\n\n.btn:hover::before {\n  transform: translateX(0);\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n  submit\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#272727",
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [
+  "sans-serif"
+ ],
+ "tokens": 268,
+ "size": 1072,
+ "html": "<button class=\"btn\">\n  submit\n</button>\n",
+ "css": "/* Purple Shrimp 29 by glisovic01 — https://uiverse.io/glisovic01/purple-shrimp-29 */\n.btn {\n  display: inline-block;\n  font-family: sans-serif;\n  font-weight: 600;\n  font-size: 16px;\n  color: #fff;\n  margin: 1rem auto;\n  padding: 0.7rem 2rem;\n  border-radius: 30em;\n  border-style: none;\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  text-decoration: none;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  background-color: transparent;\n  box-shadow: 1px 1px 12px #000000;\n}\n\n.btn::before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: #fff;\n  transform: translateX(-101%);\n  transition: all .3s ease;\n  z-index: -1;\n}\n\n.btn:hover {\n  color: #272727;\n  transition: all .3s ease;\n}\n\n.btn:hover::before {\n  transform: translateX(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Shrimp 29</title>\n<style>\n/* Purple Shrimp 29 by glisovic01 — https://uiverse.io/glisovic01/purple-shrimp-29 */\n.btn {\n  display: inline-block;\n  font-family: sans-serif;\n  font-weight: 600;\n  font-size: 16px;\n  color: #fff;\n  margin: 1rem auto;\n  padding: 0.7rem 2rem;\n  border-radius: 30em;\n  border-style: none;\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  text-decoration: none;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  background-color: transparent;\n  box-shadow: 1px 1px 12px #000000;\n}\n\n.btn::before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background-color: #fff;\n  transform: translateX(-101%);\n  transition: all .3s ease;\n  z-index: -1;\n}\n\n.btn:hover {\n  color: #272727;\n  transition: all .3s ease;\n}\n\n.btn:hover::before {\n  transform: translateX(0);\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n  submit\n</button>\n\n</body>\n</html>\n"
 }

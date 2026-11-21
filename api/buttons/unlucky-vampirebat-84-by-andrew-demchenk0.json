@@ -5,14 +5,25 @@
  "author": "andrew-demchenk0",
  "source": "https://uiverse.io/andrew-demchenk0/unlucky-vampirebat-84",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gradient gray button that glows and scales up on hover.",
+ "howItWorks": "On hover, transform becomes scale(1.1), box-shadow becomes -2px 2px 10px #616562,\n             2px -2px 10px #717774.",
  "tags": [
+  "gradient",
+  "outlined",
+  "scale",
+  "glow",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button>\n  Button\n</button>",
- "css": "/* From Uiverse.io by andrew-demchenk0 - Tags: button */\nbutton {\n  font-weight: 700;\n  font-size: 17px;\n  width: 200px;\n  height: 60px;\n  border: none;\n  color: white;\n  background-image: linear-gradient(\n    to top left,\n    hsl(49.04, 100%, 57.06%) 0%,\n    hsl(49.04, 100%, 57.06%) 20%,\n    hsl(58.89, 45.92%, 53.77%) 20%,\n    hsl(58.89, 45.92%, 53.77%) 40%,\n    hsl(124.17, 16.44%, 57.06%) 40%,\n    hsl(124.17, 16.44%, 57.06%) 60%,\n    hsl(200.79, 47.04%, 47.21%) 60%,\n    hsl(200.79, 47.04%, 47.21%) 80%,\n    hsl(210, 100%, 43.92%) 80%,\n    hsl(210, 100%, 43.92%) 100%\n  );\n  transition: 1s all;\n  box-shadow: 0 1px 15px 0 #797f7b;\n}\n\nbutton:hover {\n  transform: scale(1.1);\n  box-shadow: -2px 2px 10px #616562,\n             2px -2px 10px #717774;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Unlucky Vampirebat 84</title>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - https://uiverse.io/andrew-demchenk0/unlucky-vampirebat-84 */\n/* From Uiverse.io by andrew-demchenk0 - Tags: button */\nbutton {\n  font-weight: 700;\n  font-size: 17px;\n  width: 200px;\n  height: 60px;\n  border: none;\n  color: white;\n  background-image: linear-gradient(\n    to top left,\n    hsl(49.04, 100%, 57.06%) 0%,\n    hsl(49.04, 100%, 57.06%) 20%,\n    hsl(58.89, 45.92%, 53.77%) 20%,\n    hsl(58.89, 45.92%, 53.77%) 40%,\n    hsl(124.17, 16.44%, 57.06%) 40%,\n    hsl(124.17, 16.44%, 57.06%) 60%,\n    hsl(200.79, 47.04%, 47.21%) 60%,\n    hsl(200.79, 47.04%, 47.21%) 80%,\n    hsl(210, 100%, 43.92%) 80%,\n    hsl(210, 100%, 43.92%) 100%\n  );\n  transition: 1s all;\n  box-shadow: 0 1px 15px 0 #797f7b;\n}\n\nbutton:hover {\n  transform: scale(1.1);\n  box-shadow: -2px 2px 10px #616562,\n             2px -2px 10px #717774;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#797f7b",
+  "#616562",
+  "#717774"
+ ],
+ "fonts": [],
+ "tokens": 264,
+ "size": 1056,
+ "html": "<button>\n  Button\n</button>\n",
+ "css": "/* Unlucky Vampirebat 84 by andrew-demchenk0 — https://uiverse.io/andrew-demchenk0/unlucky-vampirebat-84 */\nbutton {\n  font-weight: 700;\n  font-size: 17px;\n  width: 200px;\n  height: 60px;\n  border: none;\n  color: white;\n  background-image: linear-gradient(\n    to top left,\n    hsl(49.04, 100%, 57.06%) 0%,\n    hsl(49.04, 100%, 57.06%) 20%,\n    hsl(58.89, 45.92%, 53.77%) 20%,\n    hsl(58.89, 45.92%, 53.77%) 40%,\n    hsl(124.17, 16.44%, 57.06%) 40%,\n    hsl(124.17, 16.44%, 57.06%) 60%,\n    hsl(200.79, 47.04%, 47.21%) 60%,\n    hsl(200.79, 47.04%, 47.21%) 80%,\n    hsl(210, 100%, 43.92%) 80%,\n    hsl(210, 100%, 43.92%) 100%\n  );\n  transition: 1s all;\n  box-shadow: 0 1px 15px 0 #797f7b;\n}\n\nbutton:hover {\n  transform: scale(1.1);\n  box-shadow: -2px 2px 10px #616562,\n             2px -2px 10px #717774;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Unlucky Vampirebat 84</title>\n<style>\n/* Unlucky Vampirebat 84 by andrew-demchenk0 — https://uiverse.io/andrew-demchenk0/unlucky-vampirebat-84 */\nbutton {\n  font-weight: 700;\n  font-size: 17px;\n  width: 200px;\n  height: 60px;\n  border: none;\n  color: white;\n  background-image: linear-gradient(\n    to top left,\n    hsl(49.04, 100%, 57.06%) 0%,\n    hsl(49.04, 100%, 57.06%) 20%,\n    hsl(58.89, 45.92%, 53.77%) 20%,\n    hsl(58.89, 45.92%, 53.77%) 40%,\n    hsl(124.17, 16.44%, 57.06%) 40%,\n    hsl(124.17, 16.44%, 57.06%) 60%,\n    hsl(200.79, 47.04%, 47.21%) 60%,\n    hsl(200.79, 47.04%, 47.21%) 80%,\n    hsl(210, 100%, 43.92%) 80%,\n    hsl(210, 100%, 43.92%) 100%\n  );\n  transition: 1s all;\n  box-shadow: 0 1px 15px 0 #797f7b;\n}\n\nbutton:hover {\n  transform: scale(1.1);\n  box-shadow: -2px 2px 10px #616562,\n             2px -2px 10px #717774;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n\n</body>\n</html>\n"
 }

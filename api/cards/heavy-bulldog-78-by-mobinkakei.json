@@ -5,14 +5,23 @@
  "author": "mobinkakei",
  "source": "https://uiverse.io/mobinkakei/heavy-bulldog-78",
  "trigger": "static",
- "description": "A card UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Rounded gray card with rounded corners with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "rounded",
   "cards",
   "static",
   "css"
  ],
- "html": "<!-- From Uiverse.io by mobinkakei  - Tags: card, creative, card template -->\n<div\n  class=\"relative flex justify-center h-[300px] w-[160px] border border-4 border-black rounded-2xl bg-gray-50\"\n  style=\"box-shadow: 5px 5px 2.5px 6px rgb(209, 218, 218)\"\n>\n  <span\n    class=\"border border-black bg-black w-20 h-2 rounded-br-xl rounded-bl-xl\"\n  ></span>\n\n  <span\n    class=\"absolute -right-2 top-14 border border-4 border-black h-7 rounded-md\"\n  ></span>\n  <span\n    class=\"absolute -right-2 bottom-36 border border-4 border-black h-10 rounded-md\"\n  ></span>\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Bulldog 78</title>\n<style>\n/* From Uiverse.io by mobinkakei - https://uiverse.io/mobinkakei/heavy-bulldog-78 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by mobinkakei  - Tags: card, creative, card template -->\n<div\n  class=\"relative flex justify-center h-[300px] w-[160px] border border-4 border-black rounded-2xl bg-gray-50\"\n  style=\"box-shadow: 5px 5px 2.5px 6px rgb(209, 218, 218)\"\n>\n  <span\n    class=\"border border-black bg-black w-20 h-2 rounded-br-xl rounded-bl-xl\"\n  ></span>\n\n  <span\n    class=\"absolute -right-2 top-14 border border-4 border-black h-7 rounded-md\"\n  ></span>\n  <span\n    class=\"absolute -right-2 bottom-36 border border-4 border-black h-10 rounded-md\"\n  ></span>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#d1dada",
+  "#f9fafb",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 197,
+ "size": 790,
+ "html": "<div\n  class=\"relative flex justify-center h-[300px] w-[160px] border border-4 border-black rounded-2xl bg-gray-50\"\n  style=\"box-shadow: 5px 5px 2.5px 6px rgb(209, 218, 218)\"\n>\n  <span\n    class=\"border border-black bg-black w-20 h-2 rounded-br-xl rounded-bl-xl\"\n  ></span>\n\n  <span\n    class=\"absolute -right-2 top-14 border border-4 border-black h-7 rounded-md\"\n  ></span>\n  <span\n    class=\"absolute -right-2 bottom-36 border border-4 border-black h-10 rounded-md\"\n  ></span>\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Bulldog 78</title>\n<style>\n/* Heavy Bulldog 78 by mobinkakei — https://uiverse.io/mobinkakei/heavy-bulldog-78 */\n\n</style>\n</head>\n<body>\n<div\n  class=\"relative flex justify-center h-[300px] w-[160px] border border-4 border-black rounded-2xl bg-gray-50\"\n  style=\"box-shadow: 5px 5px 2.5px 6px rgb(209, 218, 218)\"\n>\n  <span\n    class=\"border border-black bg-black w-20 h-2 rounded-br-xl rounded-bl-xl\"\n  ></span>\n\n  <span\n    class=\"absolute -right-2 top-14 border border-4 border-black h-7 rounded-md\"\n  ></span>\n  <span\n    class=\"absolute -right-2 bottom-36 border border-4 border-black h-10 rounded-md\"\n  ></span>\n</div>\n\n</body>\n</html>\n"
 }

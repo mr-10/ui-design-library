@@ -5,17 +5,25 @@
  "author": "Cksunandh",
  "source": "https://uiverse.io/Cksunandh/purple-moose-3",
  "trigger": "focus",
- "description": "A input with rounded, dark and message styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Outlined rounded gray text input that lights up when focused.",
+ "howItWorks": "It has no :focus rule in its CSS; focusing the text input shows only the browser default.",
  "tags": [
-  "input",
+  "outlined",
   "rounded",
+  "text-input",
+  "input",
   "dark",
-  "message",
-  "border",
-  "html"
+  "message"
  ],
- "html": "<input placeholder=\"Username\" class=\"input\" name=\"text\" type=\"text\" />",
- "css": "/* From Uiverse.io by Cksunandh  - Tags: input, rounded, dark, message, border, html, css */\n.input {\n  margin: 30px;\n  background: none;\n  border: 1px solid #353535;\n  outline: none;\n  max-width: 200px;\n  padding: 11px 23px;\n  font-size: 16px;\n  border-radius: 50px;\n  color: #979797;\n  box-shadow: rgb(136 136 136 / 17%) 0px -23px 25px 0px inset,\n    rgb(81 81 81 / 23%) 0px -36px 30px 0px inset,\n    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,\n    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,\n    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Moose 3</title>\n<style>\n/* From Uiverse.io by Cksunandh - https://uiverse.io/Cksunandh/purple-moose-3 */\n/* From Uiverse.io by Cksunandh  - Tags: input, rounded, dark, message, border, html, css */\n.input {\n  margin: 30px;\n  background: none;\n  border: 1px solid #353535;\n  outline: none;\n  max-width: 200px;\n  padding: 11px 23px;\n  font-size: 16px;\n  border-radius: 50px;\n  color: #979797;\n  box-shadow: rgb(136 136 136 / 17%) 0px -23px 25px 0px inset,\n    rgb(81 81 81 / 23%) 0px -36px 30px 0px inset,\n    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,\n    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,\n    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Username\" class=\"input\" name=\"text\" type=\"text\" />\n</body>\n</html>\n"
+ "colors": [
+  "#353535",
+  "#979797",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 224,
+ "size": 899,
+ "html": "<input placeholder=\"Username\" class=\"input\" name=\"text\" type=\"text\" />\n",
+ "css": "/* Purple Moose 3 by Cksunandh — https://uiverse.io/Cksunandh/purple-moose-3 */\n.input {\n  margin: 30px;\n  background: none;\n  border: 1px solid #353535;\n  outline: none;\n  max-width: 200px;\n  padding: 11px 23px;\n  font-size: 16px;\n  border-radius: 50px;\n  color: #979797;\n  box-shadow: rgb(136 136 136 / 17%) 0px -23px 25px 0px inset,\n    rgb(81 81 81 / 23%) 0px -36px 30px 0px inset,\n    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,\n    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,\n    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Moose 3</title>\n<style>\n/* Purple Moose 3 by Cksunandh — https://uiverse.io/Cksunandh/purple-moose-3 */\n.input {\n  margin: 30px;\n  background: none;\n  border: 1px solid #353535;\n  outline: none;\n  max-width: 200px;\n  padding: 11px 23px;\n  font-size: 16px;\n  border-radius: 50px;\n  color: #979797;\n  box-shadow: rgb(136 136 136 / 17%) 0px -23px 25px 0px inset,\n    rgb(81 81 81 / 23%) 0px -36px 30px 0px inset,\n    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,\n    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,\n    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Username\" class=\"input\" name=\"text\" type=\"text\" />\n\n</body>\n</html>\n"
 }

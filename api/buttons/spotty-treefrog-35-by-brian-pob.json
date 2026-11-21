@@ -5,15 +5,26 @@
  "author": "Brian-Pob",
  "source": "https://uiverse.io/Brian-Pob/spotty-treefrog-35",
  "trigger": "hover",
- "description": "A button with css-animation and button-hover-effect styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark purple button that rotates on hover with a smooth transition.",
+ "howItWorks": "On hover, text color changes from #ffffff to #800080, left becomes unset, right becomes 0.",
  "tags": [
-  "button",
-  "css-animation",
-  "button-hover-effect",
-  "hover"
+  "purple",
+  "flat",
+  "color-change",
+  "rotate",
+  "expand",
+  "button"
  ],
- "html": "<button class=\"button\">\n  Button\n</button>",
- "css": "/* From Uiverse.io by Brian-Pob - Tags: button, css animation, button hover effect  */\nbutton {\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  border: none;\n  border-radius: 5px;\n  padding: 1rem 2rem;\n  font-size: 20px;\n  font-family: sans-serif;\n  background-color: purple;\n  color: white;\n  transition: all .7s ease-in-out;\n}\n\nbutton:hover {\n  color: purple;\n}\n\nbutton::before {\n  position: absolute;\n  display: inline-block;\n  top: 0;\n  left: 0;\n  z-index: -1;\n  border-radius: 5px;\n  width: 0;\n  height: 100%;\n  content: \"\";\n  background-color: white;\n  transition: all 700ms ease-in-out;\n}\n\nbutton:hover::before {\n  left: unset;\n  right: 0;\n  width: 100%;\n  transform: rotate(180deg);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spotty Treefrog 35</title>\n<style>\n/* From Uiverse.io by Brian-Pob - https://uiverse.io/Brian-Pob/spotty-treefrog-35 */\n/* From Uiverse.io by Brian-Pob - Tags: button, css animation, button hover effect  */\nbutton {\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  border: none;\n  border-radius: 5px;\n  padding: 1rem 2rem;\n  font-size: 20px;\n  font-family: sans-serif;\n  background-color: purple;\n  color: white;\n  transition: all .7s ease-in-out;\n}\n\nbutton:hover {\n  color: purple;\n}\n\nbutton::before {\n  position: absolute;\n  display: inline-block;\n  top: 0;\n  left: 0;\n  z-index: -1;\n  border-radius: 5px;\n  width: 0;\n  height: 100%;\n  content: \"\";\n  background-color: white;\n  transition: all 700ms ease-in-out;\n}\n\nbutton:hover::before {\n  left: unset;\n  right: 0;\n  width: 100%;\n  transform: rotate(180deg);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#800080",
+  "#ffffff"
+ ],
+ "fonts": [
+  "sans-serif"
+ ],
+ "tokens": 241,
+ "size": 966,
+ "html": "<button class=\"button\">\n  Button\n</button>\n",
+ "css": "/* Spotty Treefrog 35 by Brian-Pob — https://uiverse.io/Brian-Pob/spotty-treefrog-35 */\nbutton {\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  border: none;\n  border-radius: 5px;\n  padding: 1rem 2rem;\n  font-size: 20px;\n  font-family: sans-serif;\n  background-color: purple;\n  color: white;\n  transition: all .7s ease-in-out;\n}\n\nbutton:hover {\n  color: purple;\n}\n\nbutton::before {\n  position: absolute;\n  display: inline-block;\n  top: 0;\n  left: 0;\n  z-index: -1;\n  border-radius: 5px;\n  width: 0;\n  height: 100%;\n  content: \"\";\n  background-color: white;\n  transition: all 700ms ease-in-out;\n}\n\nbutton:hover::before {\n  left: unset;\n  right: 0;\n  width: 100%;\n  transform: rotate(180deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spotty Treefrog 35</title>\n<style>\n/* Spotty Treefrog 35 by Brian-Pob — https://uiverse.io/Brian-Pob/spotty-treefrog-35 */\nbutton {\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  border: none;\n  border-radius: 5px;\n  padding: 1rem 2rem;\n  font-size: 20px;\n  font-family: sans-serif;\n  background-color: purple;\n  color: white;\n  transition: all .7s ease-in-out;\n}\n\nbutton:hover {\n  color: purple;\n}\n\nbutton::before {\n  position: absolute;\n  display: inline-block;\n  top: 0;\n  left: 0;\n  z-index: -1;\n  border-radius: 5px;\n  width: 0;\n  height: 100%;\n  content: \"\";\n  background-color: white;\n  transition: all 700ms ease-in-out;\n}\n\nbutton:hover::before {\n  left: unset;\n  right: 0;\n  width: 100%;\n  transform: rotate(180deg);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n\n</body>\n</html>\n"
 }

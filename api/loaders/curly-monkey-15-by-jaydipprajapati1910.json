@@ -5,15 +5,24 @@
  "author": "JaydipPrajapati1910",
  "source": "https://uiverse.io/JaydipPrajapati1910/curly-monkey-15",
  "trigger": "auto-loop",
- "description": "A loader with animation and infinite styling.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Gradient dark rounded blue loader with shimmering motion in a loop.",
+ "howItWorks": "It loops a 2s animation (shimmering).",
  "tags": [
-  "animation",
-  "loader",
-  "infinite",
-  "auto-loop"
+  "blue",
+  "gradient",
+  "dark",
+  "rounded",
+  "flat",
+  "shimmer"
  ],
- "html": "<div class=\"loader\"></div>",
- "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, loader, infinite */\n.loader {\n  width: calc(160px / 0.707);\n  height: 28px;\n  background: repeating-linear-gradient(-45deg, #766DF4 0 30px,#0000 0 40px) left/200% 100%;\n  animation: i3 2s infinite linear;\n  border-radius: 10px;\n  border: 1px solid #766DF4;\n}\n\n@keyframes i3 {\n  100% {\n    background-position: right\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Monkey 15</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/curly-monkey-15 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, loader, infinite */\n.loader {\n  width: calc(160px / 0.707);\n  height: 28px;\n  background: repeating-linear-gradient(-45deg, #766DF4 0 30px,#0000 0 40px) left/200% 100%;\n  animation: i3 2s infinite linear;\n  border-radius: 10px;\n  border: 1px solid #766DF4;\n}\n\n@keyframes i3 {\n  100% {\n    background-position: right\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#766df4",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 161,
+ "size": 647,
+ "html": "<div class=\"loader\"></div>\n",
+ "css": "/* Curly Monkey 15 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/curly-monkey-15 */\n.loader {\n  width: calc(160px / 0.707);\n  height: 28px;\n  background: repeating-linear-gradient(-45deg, #766DF4 0 30px,#0000 0 40px) left/200% 100%;\n  animation: i3 2s infinite linear;\n  border-radius: 10px;\n  border: 1px solid #766DF4;\n}\n\n@keyframes i3 {\n  100% {\n    background-position: right\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Monkey 15</title>\n<style>\n/* Curly Monkey 15 by JaydipPrajapati1910 — https://uiverse.io/JaydipPrajapati1910/curly-monkey-15 */\n.loader {\n  width: calc(160px / 0.707);\n  height: 28px;\n  background: repeating-linear-gradient(-45deg, #766DF4 0 30px,#0000 0 40px) left/200% 100%;\n  animation: i3 2s infinite linear;\n  border-radius: 10px;\n  border: 1px solid #766DF4;\n}\n\n@keyframes i3 {\n  100% {\n    background-position: right\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n\n</body>\n</html>\n"
 }

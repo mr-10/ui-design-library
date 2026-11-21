@@ -5,15 +5,25 @@
  "author": "OnCloud125252",
  "source": "https://uiverse.io/OnCloud125252/chatty-cat-54",
  "trigger": "focus",
- "description": "A input with dark and search styling.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Outlined rounded gray text input that lights up when focused.",
+ "howItWorks": "It has no :focus rule in its CSS; focusing the text input shows only the browser default.",
  "tags": [
+  "outlined",
+  "rounded",
+  "flat",
+  "text-input",
   "input",
-  "dark",
-  "search",
-  "focus"
+  "dark"
  ],
- "html": "<div class=\"inputBox_container\">\n  <svg class=\"search_icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" alt=\"search icon\">\n    <path d=\"M46.599 46.599a4.498 4.498 0 0 1-6.363 0l-7.941-7.941C29.028 40.749 25.167 42 21 42 9.402 42 0 32.598 0 21S9.402 0 21 0s21 9.402 21 21c0 4.167-1.251 8.028-3.342 11.295l7.941 7.941a4.498 4.498 0 0 1 0 6.363zM21 6C12.717 6 6 12.714 6 21s6.717 15 15 15c8.286 0 15-6.714 15-15S29.286 6 21 6z\">\n    </path>\n  </svg>\n  <input class=\"inputBox\" id=\"inputBox\" type=\"text\" placeholder=\"Search For Products\">\n</div>",
- "css": "/* From Uiverse.io by OnCloud125252 - Tags: input, dark, search */\n.inputBox_container {\n  display: flex;\n  align-items: center;\n  flex-direction: row;\n  max-width: 14em;\n  width: fit-content;\n  height: fit-content;\n  background-color: #5c6370;\n  border-radius: 0.8em;\n  overflow: hidden;\n}\n\n.search_icon {\n  height: 1em;\n  padding: 0 0.5em 0 0.8em;\n  fill: #abb2bf;\n}\n\n.inputBox {\n  background-color: transparent;\n  color: #ffffff;\n  outline: none;\n  width: 100%;\n  border: 0;\n  padding: 0.5em 1.5em 0.5em 0;\n  font-size: 1em;\n}\n\n::placeholder {\n  color: #abb2bf;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chatty Cat 54</title>\n<style>\n/* From Uiverse.io by OnCloud125252 - https://uiverse.io/OnCloud125252/chatty-cat-54 */\n/* From Uiverse.io by OnCloud125252 - Tags: input, dark, search */\n.inputBox_container {\n  display: flex;\n  align-items: center;\n  flex-direction: row;\n  max-width: 14em;\n  width: fit-content;\n  height: fit-content;\n  background-color: #5c6370;\n  border-radius: 0.8em;\n  overflow: hidden;\n}\n\n.search_icon {\n  height: 1em;\n  padding: 0 0.5em 0 0.8em;\n  fill: #abb2bf;\n}\n\n.inputBox {\n  background-color: transparent;\n  color: #ffffff;\n  outline: none;\n  width: 100%;\n  border: 0;\n  padding: 0.5em 1.5em 0.5em 0;\n  font-size: 1em;\n}\n\n::placeholder {\n  color: #abb2bf;\n}\n</style>\n</head>\n<body>\n<div class=\"inputBox_container\">\n  <svg class=\"search_icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" alt=\"search icon\">\n    <path d=\"M46.599 46.599a4.498 4.498 0 0 1-6.363 0l-7.941-7.941C29.028 40.749 25.167 42 21 42 9.402 42 0 32.598 0 21S9.402 0 21 0s21 9.402 21 21c0 4.167-1.251 8.028-3.342 11.295l7.941 7.941a4.498 4.498 0 0 1 0 6.363zM21 6C12.717 6 6 12.714 6 21s6.717 15 15 15c8.286 0 15-6.714 15-15S29.286 6 21 6z\">\n    </path>\n  </svg>\n  <input class=\"inputBox\" id=\"inputBox\" type=\"text\" placeholder=\"Search For Products\">\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#abb2bf",
+  "#5c6370",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 338,
+ "size": 1352,
+ "html": "<div class=\"inputBox_container\">\n  <svg class=\"search_icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" alt=\"search icon\">\n    <path d=\"M46.599 46.599a4.498 4.498 0 0 1-6.363 0l-7.941-7.941C29.028 40.749 25.167 42 21 42 9.402 42 0 32.598 0 21S9.402 0 21 0s21 9.402 21 21c0 4.167-1.251 8.028-3.342 11.295l7.941 7.941a4.498 4.498 0 0 1 0 6.363zM21 6C12.717 6 6 12.714 6 21s6.717 15 15 15c8.286 0 15-6.714 15-15S29.286 6 21 6z\">\n    </path>\n  </svg>\n  <input class=\"inputBox\" id=\"inputBox\" type=\"text\" placeholder=\"Search For Products\">\n</div>\n",
+ "css": "/* Chatty Cat 54 by OnCloud125252 — https://uiverse.io/OnCloud125252/chatty-cat-54 */\n.inputBox_container {\n  display: flex;\n  align-items: center;\n  flex-direction: row;\n  max-width: 14em;\n  width: fit-content;\n  height: fit-content;\n  background-color: #5c6370;\n  border-radius: 0.8em;\n  overflow: hidden;\n}\n\n.search_icon {\n  height: 1em;\n  padding: 0 0.5em 0 0.8em;\n  fill: #abb2bf;\n}\n\n.inputBox {\n  background-color: transparent;\n  color: #ffffff;\n  outline: none;\n  width: 100%;\n  border: 0;\n  padding: 0.5em 1.5em 0.5em 0;\n  font-size: 1em;\n}\n\n::placeholder {\n  color: #abb2bf;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chatty Cat 54</title>\n<style>\n/* Chatty Cat 54 by OnCloud125252 — https://uiverse.io/OnCloud125252/chatty-cat-54 */\n.inputBox_container {\n  display: flex;\n  align-items: center;\n  flex-direction: row;\n  max-width: 14em;\n  width: fit-content;\n  height: fit-content;\n  background-color: #5c6370;\n  border-radius: 0.8em;\n  overflow: hidden;\n}\n\n.search_icon {\n  height: 1em;\n  padding: 0 0.5em 0 0.8em;\n  fill: #abb2bf;\n}\n\n.inputBox {\n  background-color: transparent;\n  color: #ffffff;\n  outline: none;\n  width: 100%;\n  border: 0;\n  padding: 0.5em 1.5em 0.5em 0;\n  font-size: 1em;\n}\n\n::placeholder {\n  color: #abb2bf;\n}\n</style>\n</head>\n<body>\n<div class=\"inputBox_container\">\n  <svg class=\"search_icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 48 48\" alt=\"search icon\">\n    <path d=\"M46.599 46.599a4.498 4.498 0 0 1-6.363 0l-7.941-7.941C29.028 40.749 25.167 42 21 42 9.402 42 0 32.598 0 21S9.402 0 21 0s21 9.402 21 21c0 4.167-1.251 8.028-3.342 11.295l7.941 7.941a4.498 4.498 0 0 1 0 6.363zM21 6C12.717 6 6 12.714 6 21s6.717 15 15 15c8.286 0 15-6.714 15-15S29.286 6 21 6z\">\n    </path>\n  </svg>\n  <input class=\"inputBox\" id=\"inputBox\" type=\"text\" placeholder=\"Search For Products\">\n</div>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,25 @@
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/fluffy-stingray-76",
  "trigger": "hover",
- "description": "A card with box-shadow styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Orange card that glows on hover with a smooth transition.",
+ "howItWorks": "On hover, box-shadow becomes 75px 75px 5px -20px #bf5e37, -75px 75px 5px -20px #d08432, -75px -75px 5px -20px #bf5e37 , 75px -75px 5px -20px #d08432, transform becomes rotate(-45deg), transform becomes rotate(45deg).",
  "tags": [
+  "orange",
+  "amber",
+  "rotate",
+  "glow",
   "card",
-  "box-shadow",
-  "hover"
+  "box-shadow"
  ],
- "html": "<div class=\"card\">\n  <span class=\"text\">Go!</span>\n</div>",
- "css": "/* From Uiverse.io by Javierrocadev - Tags: card, box-shadow */\n.card {\n  width: 150px;\n  height: 150px;\n  background: #a53c3c;\n  border-radius: 5px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  font-size: 3em;\n  font-weight: 900;\n  color: aliceblue;\n  transition: all .5s ease-in-out;\n}\n\n.text {\n  transition: all 0.3s ease-in-out;\n}\n\n.card:hover {\n  box-shadow: 75px 75px 5px -20px #bf5e37, -75px 75px 5px -20px #d08432, -75px -75px 5px -20px #bf5e37 , 75px -75px 5px -20px #d08432;\n  transform: rotate(-45deg);\n}\n\n.card:hover .text {\n  transform: rotate(45deg);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Stingray 76</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/fluffy-stingray-76 */\n/* From Uiverse.io by Javierrocadev - Tags: card, box-shadow */\n.card {\n  width: 150px;\n  height: 150px;\n  background: #a53c3c;\n  border-radius: 5px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  font-size: 3em;\n  font-weight: 900;\n  color: aliceblue;\n  transition: all .5s ease-in-out;\n}\n\n.text {\n  transition: all 0.3s ease-in-out;\n}\n\n.card:hover {\n  box-shadow: 75px 75px 5px -20px #bf5e37, -75px 75px 5px -20px #d08432, -75px -75px 5px -20px #bf5e37 , 75px -75px 5px -20px #d08432;\n  transform: rotate(-45deg);\n}\n\n.card:hover .text {\n  transform: rotate(45deg);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <span class=\"text\">Go!</span>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#bf5e37",
+  "#d08432",
+  "#a53c3c"
+ ],
+ "fonts": [],
+ "tokens": 230,
+ "size": 922,
+ "html": "<div class=\"card\">\n  <span class=\"text\">Go!</span>\n</div>\n",
+ "css": "/* Fluffy Stingray 76 by Javierrocadev — https://uiverse.io/Javierrocadev/fluffy-stingray-76 */\n.card {\n  width: 150px;\n  height: 150px;\n  background: #a53c3c;\n  border-radius: 5px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  font-size: 3em;\n  font-weight: 900;\n  color: aliceblue;\n  transition: all .5s ease-in-out;\n}\n\n.text {\n  transition: all 0.3s ease-in-out;\n}\n\n.card:hover {\n  box-shadow: 75px 75px 5px -20px #bf5e37, -75px 75px 5px -20px #d08432, -75px -75px 5px -20px #bf5e37 , 75px -75px 5px -20px #d08432;\n  transform: rotate(-45deg);\n}\n\n.card:hover .text {\n  transform: rotate(45deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Stingray 76</title>\n<style>\n/* Fluffy Stingray 76 by Javierrocadev — https://uiverse.io/Javierrocadev/fluffy-stingray-76 */\n.card {\n  width: 150px;\n  height: 150px;\n  background: #a53c3c;\n  border-radius: 5px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  text-align: center;\n  font-size: 3em;\n  font-weight: 900;\n  color: aliceblue;\n  transition: all .5s ease-in-out;\n}\n\n.text {\n  transition: all 0.3s ease-in-out;\n}\n\n.card:hover {\n  box-shadow: 75px 75px 5px -20px #bf5e37, -75px 75px 5px -20px #d08432, -75px -75px 5px -20px #bf5e37 , 75px -75px 5px -20px #d08432;\n  transform: rotate(-45deg);\n}\n\n.card:hover .text {\n  transform: rotate(45deg);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <span class=\"text\">Go!</span>\n</div>\n\n</body>\n</html>\n"
 }

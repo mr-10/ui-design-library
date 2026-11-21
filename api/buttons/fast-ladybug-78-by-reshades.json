@@ -5,14 +5,25 @@
  "author": "reshades",
  "source": "https://uiverse.io/reshades/fast-ladybug-78",
  "trigger": "hover",
- "description": "A button with svg styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark rounded violet button that changes colour on hover.",
+ "howItWorks": "On hover, background-color changes from #00000000 to #a23fff, text color changes from #a23fff to #fff.",
  "tags": [
-  "button",
-  "hover",
-  "svg"
+  "violet",
+  "dark",
+  "rounded",
+  "flat",
+  "color-change",
+  "button"
  ],
- "html": "<button class=\"button\">\n  <svg class=\"w-6 h-6\" stroke=\"currentColor\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n  </svg>\n  <span class=\"text\">\n    Button\n  </span>\n</button>",
- "css": "/* From Uiverse.io by reshades - Tags: button, hover, svg */\n.button {\n  width: 10em;\n  height: 3em;\n  border-radius: 8px;\n  border: 0.15em solid rgb(162, 63, 255);\n  color: rgb(162, 63, 255);\n  background-color: #00000000;\n  transition: all 0.5s ease;\n}\n\n.button .text {\n  display: none\n}\n\n.button:hover>.text {\n  display: block;\n}\n\n.button:hover>svg {\n  display: none;\n}\n\n.button:hover {\n  background-color: rgb(162, 63, 255);\n  color: #fff\n}\n\n.button svg {\n  width: 1.5em;\n  margin-top: 3px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fast Ladybug 78</title>\n<style>\n/* From Uiverse.io by reshades - https://uiverse.io/reshades/fast-ladybug-78 */\n/* From Uiverse.io by reshades - Tags: button, hover, svg */\n.button {\n  width: 10em;\n  height: 3em;\n  border-radius: 8px;\n  border: 0.15em solid rgb(162, 63, 255);\n  color: rgb(162, 63, 255);\n  background-color: #00000000;\n  transition: all 0.5s ease;\n}\n\n.button .text {\n  display: none\n}\n\n.button:hover>.text {\n  display: block;\n}\n\n.button:hover>svg {\n  display: none;\n}\n\n.button:hover {\n  background-color: rgb(162, 63, 255);\n  color: #fff\n}\n\n.button svg {\n  width: 1.5em;\n  margin-top: 3px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <svg class=\"w-6 h-6\" stroke=\"currentColor\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n  </svg>\n  <span class=\"text\">\n    Button\n  </span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#a23fff",
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 280,
+ "size": 1122,
+ "html": "<button class=\"button\">\n  <svg class=\"w-6 h-6\" stroke=\"currentColor\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n  </svg>\n  <span class=\"text\">\n    Button\n  </span>\n</button>\n",
+ "css": "/* Fast Ladybug 78 by reshades — https://uiverse.io/reshades/fast-ladybug-78 */\n.button {\n  width: 10em;\n  height: 3em;\n  border-radius: 8px;\n  border: 0.15em solid rgb(162, 63, 255);\n  color: rgb(162, 63, 255);\n  background-color: #00000000;\n  transition: all 0.5s ease;\n}\n\n.button .text {\n  display: none\n}\n\n.button:hover>.text {\n  display: block;\n}\n\n.button:hover>svg {\n  display: none;\n}\n\n.button:hover {\n  background-color: rgb(162, 63, 255);\n  color: #fff\n}\n\n.button svg {\n  width: 1.5em;\n  margin-top: 3px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fast Ladybug 78</title>\n<style>\n/* Fast Ladybug 78 by reshades — https://uiverse.io/reshades/fast-ladybug-78 */\n.button {\n  width: 10em;\n  height: 3em;\n  border-radius: 8px;\n  border: 0.15em solid rgb(162, 63, 255);\n  color: rgb(162, 63, 255);\n  background-color: #00000000;\n  transition: all 0.5s ease;\n}\n\n.button .text {\n  display: none\n}\n\n.button:hover>.text {\n  display: block;\n}\n\n.button:hover>svg {\n  display: none;\n}\n\n.button:hover {\n  background-color: rgb(162, 63, 255);\n  color: #fff\n}\n\n.button svg {\n  width: 1.5em;\n  margin-top: 3px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <svg class=\"w-6 h-6\" stroke=\"currentColor\" stroke-width=\"1.5\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n    <path d=\"M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"></path>\n  </svg>\n  <span class=\"text\">\n    Button\n  </span>\n</button>\n\n</body>\n</html>\n"
 }

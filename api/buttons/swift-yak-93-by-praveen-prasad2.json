@@ -5,14 +5,27 @@
  "author": "praveen-prasad2",
  "source": "https://uiverse.io/praveen-prasad2/swift-yak-93",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined rounded teal button that glows and scales up on hover.",
+ "howItWorks": "On hover, text color changes to #ffffff, transform becomes scale(1.1), outline becomes 2px solid #70bdca.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "teal",
+  "outlined",
+  "rounded",
+  "scale",
+  "glow",
+  "color-change"
  ],
- "html": "<button type=\"submit\" class=\"button\">\n  <span>Hello</span>\n</button>",
- "css": "/* From Uiverse.io by praveen-prasad2 - Tags: button */\nbutton {\n  width: 100px;\n  height: 50px;\n  border-radius: 30em;\n  font-size: 15px;\n  font-family: inherit;\n  border: none;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n  box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\nbutton:hover {\n  color: #ffffff;\n  transform: scale(1.1);\n  outline: 2px solid #70bdca;\n  box-shadow: 4px 5px 17px -4px #268391;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  left: -50px;\n  top: 0;\n  width: 0;\n  height: 100%;\n  background-color: #2c9caf;\n  transform: skewX(45deg);\n  z-index: -1;\n  transition: width 1000ms;\n}\n\nbutton:hover::before {\n  width: 250%;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Yak 93</title>\n<style>\n/* From Uiverse.io by praveen-prasad2 - https://uiverse.io/praveen-prasad2/swift-yak-93 */\n/* From Uiverse.io by praveen-prasad2 - Tags: button */\nbutton {\n  width: 100px;\n  height: 50px;\n  border-radius: 30em;\n  font-size: 15px;\n  font-family: inherit;\n  border: none;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n  box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\nbutton:hover {\n  color: #ffffff;\n  transform: scale(1.1);\n  outline: 2px solid #70bdca;\n  box-shadow: 4px 5px 17px -4px #268391;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  left: -50px;\n  top: 0;\n  width: 0;\n  height: 100%;\n  background-color: #2c9caf;\n  transform: skewX(45deg);\n  z-index: -1;\n  transition: width 1000ms;\n}\n\nbutton:hover::before {\n  width: 250%;\n}\n</style>\n</head>\n<body>\n<button type=\"submit\" class=\"button\">\n  <span>Hello</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#c5c5c5",
+  "#70bdca",
+  "#268391"
+ ],
+ "fonts": [
+  "inherit"
+ ],
+ "tokens": 251,
+ "size": 1006,
+ "html": "<button type=\"submit\" class=\"button\">\n  <span>Hello</span>\n</button>\n",
+ "css": "/* Swift Yak 93 by praveen-prasad2 — https://uiverse.io/praveen-prasad2/swift-yak-93 */\nbutton {\n  width: 100px;\n  height: 50px;\n  border-radius: 30em;\n  font-size: 15px;\n  font-family: inherit;\n  border: none;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n  box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\nbutton:hover {\n  color: #ffffff;\n  transform: scale(1.1);\n  outline: 2px solid #70bdca;\n  box-shadow: 4px 5px 17px -4px #268391;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  left: -50px;\n  top: 0;\n  width: 0;\n  height: 100%;\n  background-color: #2c9caf;\n  transform: skewX(45deg);\n  z-index: -1;\n  transition: width 1000ms;\n}\n\nbutton:hover::before {\n  width: 250%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Yak 93</title>\n<style>\n/* Swift Yak 93 by praveen-prasad2 — https://uiverse.io/praveen-prasad2/swift-yak-93 */\nbutton {\n  width: 100px;\n  height: 50px;\n  border-radius: 30em;\n  font-size: 15px;\n  font-family: inherit;\n  border: none;\n  position: relative;\n  overflow: hidden;\n  z-index: 1;\n  box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\nbutton:hover {\n  color: #ffffff;\n  transform: scale(1.1);\n  outline: 2px solid #70bdca;\n  box-shadow: 4px 5px 17px -4px #268391;\n}\n\nbutton::before {\n  content: \"\";\n  position: absolute;\n  left: -50px;\n  top: 0;\n  width: 0;\n  height: 100%;\n  background-color: #2c9caf;\n  transform: skewX(45deg);\n  z-index: -1;\n  transition: width 1000ms;\n}\n\nbutton:hover::before {\n  width: 250%;\n}\n</style>\n</head>\n<body>\n<button type=\"submit\" class=\"button\">\n  <span>Hello</span>\n</button>\n\n</body>\n</html>\n"
 }

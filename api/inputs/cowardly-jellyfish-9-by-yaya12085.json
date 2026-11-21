@@ -5,14 +5,23 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/cowardly-jellyfish-9",
  "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Rounded gray file input that lights up when focused.",
+ "howItWorks": "It has no :focus rule in its CSS; focusing the file input shows only the browser default.",
  "tags": [
+  "rounded",
+  "file-input",
   "inputs",
   "focus",
   "css"
  ],
- "html": "<!-- From Uiverse.io by Yaya12085 - Tags: form, input, file upload, tailwind, file, tailwind file -->\n<div class=\"grid w-full max-w-xs items-center gap-1.5\">\n      <label class=\"text-sm text-gray-400 font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70\">Picture</label>\n      <input id=\"picture\" type=\"file\" class=\"flex h-10 w-full rounded-md border border-input bg-white px-3 py-2 text-sm text-gray-400 file:border-0 file:bg-transparent file:text-gray-600 file:text-sm file:font-medium\">\n</div>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Jellyfish 9</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/cowardly-jellyfish-9 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Yaya12085 - Tags: form, input, file upload, tailwind, file, tailwind file -->\n<div class=\"grid w-full max-w-xs items-center gap-1.5\">\n      <label class=\"text-sm text-gray-400 font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70\">Picture</label>\n      <input id=\"picture\" type=\"file\" class=\"flex h-10 w-full rounded-md border border-input bg-white px-3 py-2 text-sm text-gray-400 file:border-0 file:bg-transparent file:text-gray-600 file:text-sm file:font-medium\">\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#9ca3af",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 184,
+ "size": 738,
+ "html": "<div class=\"grid w-full max-w-xs items-center gap-1.5\">\n      <label class=\"text-sm text-gray-400 font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70\">Picture</label>\n      <input id=\"picture\" type=\"file\" class=\"flex h-10 w-full rounded-md border border-input bg-white px-3 py-2 text-sm text-gray-400 file:border-0 file:bg-transparent file:text-gray-600 file:text-sm file:font-medium\">\n</div>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Jellyfish 9</title>\n<style>\n/* Cowardly Jellyfish 9 by Yaya12085 — https://uiverse.io/Yaya12085/cowardly-jellyfish-9 */\n\n</style>\n</head>\n<body>\n<div class=\"grid w-full max-w-xs items-center gap-1.5\">\n      <label class=\"text-sm text-gray-400 font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70\">Picture</label>\n      <input id=\"picture\" type=\"file\" class=\"flex h-10 w-full rounded-md border border-input bg-white px-3 py-2 text-sm text-gray-400 file:border-0 file:bg-transparent file:text-gray-600 file:text-sm file:font-medium\">\n</div>\n\n</body>\n</html>\n"
 }

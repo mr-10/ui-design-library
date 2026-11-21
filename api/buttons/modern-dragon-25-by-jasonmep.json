@@ -5,14 +5,23 @@
  "author": "JasonMep",
  "source": "https://uiverse.io/JasonMep/modern-dragon-25",
  "trigger": "active",
- "description": "A button UI element.",
- "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "description": "Orange button that responds while pressed down with a smooth transition.",
+ "howItWorks": "While pressed, box-shadow becomes 0px 2px 0px #d35400, top becomes 2px.",
  "tags": [
+  "orange",
   "button",
   "active",
   "css"
  ],
- "html": "<button class=\"button\">Click Here</button>",
- "css": "/* From Uiverse.io by JasonMep - Tags: button */\n.button {\n color: #ecf0f1;\n font-size: 17px;\n background-color: #e67e22;\n border: 1px solid #f39c12;\n border-radius: 5px;\n padding: 10px;\n box-shadow: 0px 6px 0px #d35400;\n transition: all .1s;\n}\n\n.button:active {\n box-shadow: 0px 2px 0px #d35400;\n position: relative;\n top: 2px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Modern Dragon 25</title>\n<style>\n/* From Uiverse.io by JasonMep - https://uiverse.io/JasonMep/modern-dragon-25 */\n/* From Uiverse.io by JasonMep - Tags: button */\n.button {\n color: #ecf0f1;\n font-size: 17px;\n background-color: #e67e22;\n border: 1px solid #f39c12;\n border-radius: 5px;\n padding: 10px;\n box-shadow: 0px 6px 0px #d35400;\n transition: all .1s;\n}\n\n.button:active {\n box-shadow: 0px 2px 0px #d35400;\n position: relative;\n top: 2px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Click Here</button>\n</body>\n</html>\n"
+ "colors": [
+  "#d35400",
+  "#ecf0f1",
+  "#e67e22"
+ ],
+ "fonts": [],
+ "tokens": 156,
+ "size": 624,
+ "html": "<button class=\"button\">Click Here</button>\n",
+ "css": "/* Modern Dragon 25 by JasonMep — https://uiverse.io/JasonMep/modern-dragon-25 */\n.button {\n color: #ecf0f1;\n font-size: 17px;\n background-color: #e67e22;\n border: 1px solid #f39c12;\n border-radius: 5px;\n padding: 10px;\n box-shadow: 0px 6px 0px #d35400;\n transition: all .1s;\n}\n\n.button:active {\n box-shadow: 0px 2px 0px #d35400;\n position: relative;\n top: 2px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Modern Dragon 25</title>\n<style>\n/* Modern Dragon 25 by JasonMep — https://uiverse.io/JasonMep/modern-dragon-25 */\n.button {\n color: #ecf0f1;\n font-size: 17px;\n background-color: #e67e22;\n border: 1px solid #f39c12;\n border-radius: 5px;\n padding: 10px;\n box-shadow: 0px 6px 0px #d35400;\n transition: all .1s;\n}\n\n.button:active {\n box-shadow: 0px 2px 0px #d35400;\n position: relative;\n top: 2px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Click Here</button>\n\n</body>\n</html>\n"
 }

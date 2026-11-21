@@ -5,14 +5,25 @@
  "author": "fbernack",
  "source": "https://uiverse.io/fbernack/honest-bat-69",
  "trigger": "hover",
- "description": "A input UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark sky-blue text input that reacts on hover.",
+ "howItWorks": "On hover, border-color becomes #121212. On focus, border-color becomes #2196f3, text color changes from #0009 to #2196f3, top becomes 0.75em.",
  "tags": [
+  "blue",
+  "dark",
+  "flat",
+  "text-input",
   "input",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<div class=\"mat-input\">\n  <label for=\"food\">Favorite food</label>\n  <input id=\"food\" type=\"text\" placeholder=\"Ex. Pizza\" />\n</div>",
- "css": "/* From Uiverse.io by fbernack  - Tags: input */\n.mat-input {\n  position: relative;\n  font-size: inherit;\n}\n\n.mat-input input {\n  border-width: 0 0 1px;\n  outline: none;\n  background-color: #0000000a;\n  border-radius: 4px 4px 0 0;\n  padding: 1.8em 0.75em 0.75em;\n  border-color: #8c8c8c;\n  border-style: solid;\n  font-size: inherit;\n  transition: 0.1s;\n}\n\n.mat-input input:hover,\n.mat-input input:focus {\n  border-bottom-width: 2px;\n  padding-bottom: calc(0.75em - 1px);\n}\n\n.mat-input input:hover {\n  border-color: #121212;\n}\n\n.mat-input input:focus {\n  border-color: #2196f3;\n}\n\n.mat-input label {\n  position: absolute;\n  top: 1.4em;\n  left: 1em;\n  pointer-events: none;\n  transition: 0.2s;\n  color: #0009;\n}\n\n.mat-input:has(input:focus) label {\n  color: #2196f3;\n}\n\n.mat-input:has(input:focus) label,\n.mat-input:not(:has(input:placeholder-shown)) label {\n  top: 0.75em;\n  font-size: 0.8em;\n}\n\n.mat-input input::placeholder {\n  opacity: 0;\n  transition: 0.2s;\n  color: #aaa;\n}\n\n.mat-input input:focus::placeholder {\n  opacity: 1;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Honest Bat 69</title>\n<style>\n/* From Uiverse.io by fbernack - https://uiverse.io/fbernack/honest-bat-69 */\n/* From Uiverse.io by fbernack  - Tags: input */\n.mat-input {\n  position: relative;\n  font-size: inherit;\n}\n\n.mat-input input {\n  border-width: 0 0 1px;\n  outline: none;\n  background-color: #0000000a;\n  border-radius: 4px 4px 0 0;\n  padding: 1.8em 0.75em 0.75em;\n  border-color: #8c8c8c;\n  border-style: solid;\n  font-size: inherit;\n  transition: 0.1s;\n}\n\n.mat-input input:hover,\n.mat-input input:focus {\n  border-bottom-width: 2px;\n  padding-bottom: calc(0.75em - 1px);\n}\n\n.mat-input input:hover {\n  border-color: #121212;\n}\n\n.mat-input input:focus {\n  border-color: #2196f3;\n}\n\n.mat-input label {\n  position: absolute;\n  top: 1.4em;\n  left: 1em;\n  pointer-events: none;\n  transition: 0.2s;\n  color: #0009;\n}\n\n.mat-input:has(input:focus) label {\n  color: #2196f3;\n}\n\n.mat-input:has(input:focus) label,\n.mat-input:not(:has(input:placeholder-shown)) label {\n  top: 0.75em;\n  font-size: 0.8em;\n}\n\n.mat-input input::placeholder {\n  opacity: 0;\n  transition: 0.2s;\n  color: #aaa;\n}\n\n.mat-input input:focus::placeholder {\n  opacity: 1;\n}\n</style>\n</head>\n<body>\n<div class=\"mat-input\">\n  <label for=\"food\">Favorite food</label>\n  <input id=\"food\" type=\"text\" placeholder=\"Ex. Pizza\" />\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#2196f3",
+  "#8c8c8c",
+  "#121212"
+ ],
+ "fonts": [],
+ "tokens": 351,
+ "size": 1405,
+ "html": "<div class=\"mat-input\">\n  <label for=\"food\">Favorite food</label>\n  <input id=\"food\" type=\"text\" placeholder=\"Ex. Pizza\" />\n</div>\n",
+ "css": "/* Honest Bat 69 by fbernack — https://uiverse.io/fbernack/honest-bat-69 */\n.mat-input {\n  position: relative;\n  font-size: inherit;\n}\n\n.mat-input input {\n  border-width: 0 0 1px;\n  outline: none;\n  background-color: #0000000a;\n  border-radius: 4px 4px 0 0;\n  padding: 1.8em 0.75em 0.75em;\n  border-color: #8c8c8c;\n  border-style: solid;\n  font-size: inherit;\n  transition: 0.1s;\n}\n\n.mat-input input:hover,\n.mat-input input:focus {\n  border-bottom-width: 2px;\n  padding-bottom: calc(0.75em - 1px);\n}\n\n.mat-input input:hover {\n  border-color: #121212;\n}\n\n.mat-input input:focus {\n  border-color: #2196f3;\n}\n\n.mat-input label {\n  position: absolute;\n  top: 1.4em;\n  left: 1em;\n  pointer-events: none;\n  transition: 0.2s;\n  color: #0009;\n}\n\n.mat-input:has(input:focus) label {\n  color: #2196f3;\n}\n\n.mat-input:has(input:focus) label,\n.mat-input:not(:has(input:placeholder-shown)) label {\n  top: 0.75em;\n  font-size: 0.8em;\n}\n\n.mat-input input::placeholder {\n  opacity: 0;\n  transition: 0.2s;\n  color: #aaa;\n}\n\n.mat-input input:focus::placeholder {\n  opacity: 1;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Honest Bat 69</title>\n<style>\n/* Honest Bat 69 by fbernack — https://uiverse.io/fbernack/honest-bat-69 */\n.mat-input {\n  position: relative;\n  font-size: inherit;\n}\n\n.mat-input input {\n  border-width: 0 0 1px;\n  outline: none;\n  background-color: #0000000a;\n  border-radius: 4px 4px 0 0;\n  padding: 1.8em 0.75em 0.75em;\n  border-color: #8c8c8c;\n  border-style: solid;\n  font-size: inherit;\n  transition: 0.1s;\n}\n\n.mat-input input:hover,\n.mat-input input:focus {\n  border-bottom-width: 2px;\n  padding-bottom: calc(0.75em - 1px);\n}\n\n.mat-input input:hover {\n  border-color: #121212;\n}\n\n.mat-input input:focus {\n  border-color: #2196f3;\n}\n\n.mat-input label {\n  position: absolute;\n  top: 1.4em;\n  left: 1em;\n  pointer-events: none;\n  transition: 0.2s;\n  color: #0009;\n}\n\n.mat-input:has(input:focus) label {\n  color: #2196f3;\n}\n\n.mat-input:has(input:focus) label,\n.mat-input:not(:has(input:placeholder-shown)) label {\n  top: 0.75em;\n  font-size: 0.8em;\n}\n\n.mat-input input::placeholder {\n  opacity: 0;\n  transition: 0.2s;\n  color: #aaa;\n}\n\n.mat-input input:focus::placeholder {\n  opacity: 1;\n}\n</style>\n</head>\n<body>\n<div class=\"mat-input\">\n  <label for=\"food\">Favorite food</label>\n  <input id=\"food\" type=\"text\" placeholder=\"Ex. Pizza\" />\n</div>\n\n</body>\n</html>\n"
 }

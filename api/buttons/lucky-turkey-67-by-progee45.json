@@ -5,17 +5,25 @@
  "author": "Progee45",
  "source": "https://uiverse.io/Progee45/lucky-turkey-67",
  "trigger": "hover",
- "description": "A button with orange, animated and hover-effect styling.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Rounded amber button that scales up on hover.",
+ "howItWorks": "On hover, opacity becomes 1, transform becomes rotate(-45deg) translate(-50%, -50%) scale(1.2), background-color changes from #ff8c00 to #ff5722.",
  "tags": [
+  "amber",
   "orange",
-  "button",
-  "animated",
-  "hover-effect",
-  "fancy",
-  "hover"
+  "rounded",
+  "flat",
+  "scale",
+  "rotate"
  ],
- "html": "<button class=\"custom-button\">Click me</button>",
- "css": "/* From Uiverse.io by Progee45 - Tags: orange, button, animated, hover effect, fancy */\n.custom-button {\n  position: relative;\n  display: inline-block;\n  padding: 12px 24px;\n  font-size: 18px;\n  color: #fff;\n  background-color: #ff8c00;\n  border: none;\n  border-radius: 50px;\n  cursor: pointer;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.custom-button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 120%;\n  height: 120%;\n  background-color: rgba(255, 255, 255, 0.3);\n  opacity: 0;\n  transition: all 0.5s ease-in-out;\n  transform: rotate(-45deg) translate(-50%, -50%);\n  z-index: -1;\n}\n\n.custom-button:hover::before {\n  opacity: 1;\n  transform: rotate(-45deg) translate(-50%, -50%) scale(1.2);\n}\n\n.custom-button span {\n  position: relative;\n  z-index: 2;\n}\n\n.custom-button:hover {\n  background-color: #ff5722;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lucky Turkey 67</title>\n<style>\n/* From Uiverse.io by Progee45 - https://uiverse.io/Progee45/lucky-turkey-67 */\n/* From Uiverse.io by Progee45 - Tags: orange, button, animated, hover effect, fancy */\n.custom-button {\n  position: relative;\n  display: inline-block;\n  padding: 12px 24px;\n  font-size: 18px;\n  color: #fff;\n  background-color: #ff8c00;\n  border: none;\n  border-radius: 50px;\n  cursor: pointer;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.custom-button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 120%;\n  height: 120%;\n  background-color: rgba(255, 255, 255, 0.3);\n  opacity: 0;\n  transition: all 0.5s ease-in-out;\n  transform: rotate(-45deg) translate(-50%, -50%);\n  z-index: -1;\n}\n\n.custom-button:hover::before {\n  opacity: 1;\n  transform: rotate(-45deg) translate(-50%, -50%) scale(1.2);\n}\n\n.custom-button span {\n  position: relative;\n  z-index: 2;\n}\n\n.custom-button:hover {\n  background-color: #ff5722;\n}\n</style>\n</head>\n<body>\n<button class=\"custom-button\">Click me</button>\n</body>\n</html>\n"
+ "colors": [
+  "#ff8c00",
+  "#ff5722",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 272,
+ "size": 1092,
+ "html": "<button class=\"custom-button\">Click me</button>\n",
+ "css": "/* Lucky Turkey 67 by Progee45 — https://uiverse.io/Progee45/lucky-turkey-67 */\n.custom-button {\n  position: relative;\n  display: inline-block;\n  padding: 12px 24px;\n  font-size: 18px;\n  color: #fff;\n  background-color: #ff8c00;\n  border: none;\n  border-radius: 50px;\n  cursor: pointer;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.custom-button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 120%;\n  height: 120%;\n  background-color: rgba(255, 255, 255, 0.3);\n  opacity: 0;\n  transition: all 0.5s ease-in-out;\n  transform: rotate(-45deg) translate(-50%, -50%);\n  z-index: -1;\n}\n\n.custom-button:hover::before {\n  opacity: 1;\n  transform: rotate(-45deg) translate(-50%, -50%) scale(1.2);\n}\n\n.custom-button span {\n  position: relative;\n  z-index: 2;\n}\n\n.custom-button:hover {\n  background-color: #ff5722;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lucky Turkey 67</title>\n<style>\n/* Lucky Turkey 67 by Progee45 — https://uiverse.io/Progee45/lucky-turkey-67 */\n.custom-button {\n  position: relative;\n  display: inline-block;\n  padding: 12px 24px;\n  font-size: 18px;\n  color: #fff;\n  background-color: #ff8c00;\n  border: none;\n  border-radius: 50px;\n  cursor: pointer;\n  overflow: hidden;\n  z-index: 1;\n}\n\n.custom-button::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 120%;\n  height: 120%;\n  background-color: rgba(255, 255, 255, 0.3);\n  opacity: 0;\n  transition: all 0.5s ease-in-out;\n  transform: rotate(-45deg) translate(-50%, -50%);\n  z-index: -1;\n}\n\n.custom-button:hover::before {\n  opacity: 1;\n  transform: rotate(-45deg) translate(-50%, -50%) scale(1.2);\n}\n\n.custom-button span {\n  position: relative;\n  z-index: 2;\n}\n\n.custom-button:hover {\n  background-color: #ff5722;\n}\n</style>\n</head>\n<body>\n<button class=\"custom-button\">Click me</button>\n\n</body>\n</html>\n"
 }

@@ -5,17 +5,25 @@
  "author": "iSweat-exe",
  "source": "https://uiverse.io/iSweat-exe/ancient-bulldog-55",
  "trigger": "static",
- "description": "A pattern with material-design, glassmorphism and success styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient dark cyan pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "material-design",
-  "glassmorphism",
-  "success",
-  "pattern",
-  "background",
-  "3d"
+  "cyan",
+  "blue",
+  "gradient",
+  "dark",
+  "flat",
+  "pattern"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by iSweat-exe  - Tags: material design, glassmorphism, success, pattern, background, 3D */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0),\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) 60px 60px,\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(2 * 60px)\n      calc(2 * 60px),\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(3 * 60px)\n      calc(3 * 60px),\n    repeating-linear-gradient(135deg, #adafff 0 12.5%, #474bff 0 25%);\n  background-size: calc(4 * 60px) calc(4 * 60px);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Bulldog 55</title>\n<style>\n/* From Uiverse.io by iSweat-exe - https://uiverse.io/iSweat-exe/ancient-bulldog-55 */\n/* From Uiverse.io by iSweat-exe  - Tags: material design, glassmorphism, success, pattern, background, 3D */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0),\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) 60px 60px,\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(2 * 60px)\n      calc(2 * 60px),\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(3 * 60px)\n      calc(3 * 60px),\n    repeating-linear-gradient(135deg, #adafff 0 12.5%, #474bff 0 25%);\n  background-size: calc(4 * 60px) calc(4 * 60px);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#47d3ff",
+  "#adafff",
+  "#474bff"
+ ],
+ "fonts": [],
+ "tokens": 203,
+ "size": 815,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Ancient Bulldog 55 by iSweat-exe — https://uiverse.io/iSweat-exe/ancient-bulldog-55 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background: conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0),\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) 60px 60px,\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(2 * 60px)\n      calc(2 * 60px),\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(3 * 60px)\n      calc(3 * 60px),\n    repeating-linear-gradient(135deg, #adafff 0 12.5%, #474bff 0 25%);\n  background-size: calc(4 * 60px) calc(4 * 60px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Bulldog 55</title>\n<style>\n/* Ancient Bulldog 55 by iSweat-exe — https://uiverse.io/iSweat-exe/ancient-bulldog-55 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background: conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0),\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) 60px 60px,\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(2 * 60px)\n      calc(2 * 60px),\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(3 * 60px)\n      calc(3 * 60px),\n    repeating-linear-gradient(135deg, #adafff 0 12.5%, #474bff 0 25%);\n  background-size: calc(4 * 60px) calc(4 * 60px);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

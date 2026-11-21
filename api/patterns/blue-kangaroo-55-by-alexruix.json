@@ -5,16 +5,25 @@
  "author": "alexruix",
  "source": "https://uiverse.io/alexruix/blue-kangaroo-55",
  "trigger": "static",
- "description": "A pattern with simple, green and arrow styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient dark lime pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "green",
-  "arrow",
+  "lime",
+  "gradient",
+  "dark",
+  "flat",
   "pattern",
-  "static"
+  "simple"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by alexruix  - Tags: simple, green, arrow, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  --size: 80px; /* control the size */\n  --color: #fefae0;\n\n  --l: var(--color) 20%, #0000 0;\n  --bg: 35%, #606c38 0 45%, var(--color) 0;\n  background: linear-gradient(45deg, var(--l) 45%, var(--color) 0 70%, #0000 0),\n    linear-gradient(-45deg, var(--l) var(--bg) 70%, #0000 0),\n    linear-gradient(45deg, var(--color) var(--bg));\n  background-size: var(--size) var(--size);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Blue Kangaroo 55</title>\n<style>\n/* From Uiverse.io by alexruix - https://uiverse.io/alexruix/blue-kangaroo-55 */\n/* From Uiverse.io by alexruix  - Tags: simple, green, arrow, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  --size: 80px; /* control the size */\n  --color: #fefae0;\n\n  --l: var(--color) 20%, #0000 0;\n  --bg: 35%, #606c38 0 45%, var(--color) 0;\n  background: linear-gradient(45deg, var(--l) 45%, var(--color) 0 70%, #0000 0),\n    linear-gradient(-45deg, var(--l) var(--bg) 70%, #0000 0),\n    linear-gradient(45deg, var(--color) var(--bg));\n  background-size: var(--size) var(--size);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#fefae0",
+  "#606c38",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 182,
+ "size": 730,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Blue Kangaroo 55 by alexruix — https://uiverse.io/alexruix/blue-kangaroo-55 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  --size: 80px;\n  --color: #fefae0;\n\n  --l: var(--color) 20%, #0000 0;\n  --bg: 35%, #606c38 0 45%, var(--color) 0;\n  background: linear-gradient(45deg, var(--l) 45%, var(--color) 0 70%, #0000 0),\n    linear-gradient(-45deg, var(--l) var(--bg) 70%, #0000 0),\n    linear-gradient(45deg, var(--color) var(--bg));\n  background-size: var(--size) var(--size);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Blue Kangaroo 55</title>\n<style>\n/* Blue Kangaroo 55 by alexruix — https://uiverse.io/alexruix/blue-kangaroo-55 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  --size: 80px;\n  --color: #fefae0;\n\n  --l: var(--color) 20%, #0000 0;\n  --bg: 35%, #606c38 0 45%, var(--color) 0;\n  background: linear-gradient(45deg, var(--l) 45%, var(--color) 0 70%, #0000 0),\n    linear-gradient(-45deg, var(--l) var(--bg) 70%, #0000 0),\n    linear-gradient(45deg, var(--color) var(--bg));\n  background-size: var(--size) var(--size);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

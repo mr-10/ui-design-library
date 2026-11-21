@@ -5,14 +5,24 @@
  "author": "Cornerstone-04",
  "source": "https://uiverse.io/Cornerstone-04/chatty-eel-89",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Outlined black button that changes colour on hover.",
+ "howItWorks": "On hover, text color changes to #fff, transform becomes scale(1). On focus, text color changes to #fff, transform becomes scale(1).",
  "tags": [
+  "outlined",
+  "flat",
+  "color-change",
+  "shrink",
   "button",
-  "hover",
-  "css"
+  "hover"
  ],
- "html": "<button>\n    Button\n</button>",
- "css": "/* From Uiverse.io by Cornerstone-04 - Tags: button */\nbutton {\n  position: relative;\n  background: none;\n  border: solid 1px #121212;\n  transition: linear 250ms;\n  width: 100px;\n  height: 40px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 1rem;\n}\n\nbutton:is(:hover,:focus) {\n  color: #fff;\n}\n\nbutton::after {\n  position: absolute;\n  content: '';\n  inset: 0;\n  z-index: -1;\n  background-color: #121212;\n  transform-origin: left;\n  transform: scaleX(0);\n  transition: linear 250ms;\n}\n\nbutton:is(:hover, :focus)::after {\n  transform: scale(1);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chatty Eel 89</title>\n<style>\n/* From Uiverse.io by Cornerstone-04 - https://uiverse.io/Cornerstone-04/chatty-eel-89 */\n/* From Uiverse.io by Cornerstone-04 - Tags: button */\nbutton {\n  position: relative;\n  background: none;\n  border: solid 1px #121212;\n  transition: linear 250ms;\n  width: 100px;\n  height: 40px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 1rem;\n}\n\nbutton:is(:hover,:focus) {\n  color: #fff;\n}\n\nbutton::after {\n  position: absolute;\n  content: '';\n  inset: 0;\n  z-index: -1;\n  background-color: #121212;\n  transform-origin: left;\n  transform: scaleX(0);\n  transition: linear 250ms;\n}\n\nbutton:is(:hover, :focus)::after {\n  transform: scale(1);\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#121212",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 214,
+ "size": 856,
+ "html": "<button>\n    Button\n</button>\n",
+ "css": "/* Chatty Eel 89 by Cornerstone-04 — https://uiverse.io/Cornerstone-04/chatty-eel-89 */\nbutton {\n  position: relative;\n  background: none;\n  border: solid 1px #121212;\n  transition: linear 250ms;\n  width: 100px;\n  height: 40px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 1rem;\n}\n\nbutton:is(:hover,:focus) {\n  color: #fff;\n}\n\nbutton::after {\n  position: absolute;\n  content: '';\n  inset: 0;\n  z-index: -1;\n  background-color: #121212;\n  transform-origin: left;\n  transform: scaleX(0);\n  transition: linear 250ms;\n}\n\nbutton:is(:hover, :focus)::after {\n  transform: scale(1);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chatty Eel 89</title>\n<style>\n/* Chatty Eel 89 by Cornerstone-04 — https://uiverse.io/Cornerstone-04/chatty-eel-89 */\nbutton {\n  position: relative;\n  background: none;\n  border: solid 1px #121212;\n  transition: linear 250ms;\n  width: 100px;\n  height: 40px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-size: 1rem;\n}\n\nbutton:is(:hover,:focus) {\n  color: #fff;\n}\n\nbutton::after {\n  position: absolute;\n  content: '';\n  inset: 0;\n  z-index: -1;\n  background-color: #121212;\n  transform-origin: left;\n  transform: scaleX(0);\n  transition: linear 250ms;\n}\n\nbutton:is(:hover, :focus)::after {\n  transform: scale(1);\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n\n</body>\n</html>\n"
 }

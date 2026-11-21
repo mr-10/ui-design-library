@@ -5,15 +5,25 @@
  "author": "escannord",
  "source": "https://uiverse.io/escannord/heavy-fish-82",
  "trigger": "static",
- "description": "A pattern with simple and gradients styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Gradient dark emerald pattern with gradient fill with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
-  "simple",
-  "gradients",
+  "emerald",
+  "gradient",
+  "flat",
   "pattern",
-  "static"
+  "simple",
+  "gradients"
  ],
- "html": "<div class=\"container\"></div>",
- "css": "/* From Uiverse.io by escannord  - Tags: simple, gradients, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: repeating-conic-gradient(\n      rgba(195, 195, 197, 0.1) 0%,\n      rgb(7, 7, 7) 10%,\n      rgba(195, 195, 197, 0.3) 20%\n    ),\n    radial-gradient(rgba(7, 112, 94, 0.3), rgba(61, 26, 189, 0.3)),\n    linear-gradient(rgba(155, 0, 0, 0.3), rgba(13, 13, 117, 0.2)),\n    radial-gradient(\n      circle,\n      rgb(255, 252, 252),\n      rgb(10, 10, 10) 30%,\n      rgba(84, 84, 88, 0.562) 0%\n    );\n  background-size: 10px 10px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Fish 82</title>\n<style>\n/* From Uiverse.io by escannord - https://uiverse.io/escannord/heavy-fish-82 */\n/* From Uiverse.io by escannord  - Tags: simple, gradients, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: repeating-conic-gradient(\n      rgba(195, 195, 197, 0.1) 0%,\n      rgb(7, 7, 7) 10%,\n      rgba(195, 195, 197, 0.3) 20%\n    ),\n    radial-gradient(rgba(7, 112, 94, 0.3), rgba(61, 26, 189, 0.3)),\n    linear-gradient(rgba(155, 0, 0, 0.3), rgba(13, 13, 117, 0.2)),\n    radial-gradient(\n      circle,\n      rgb(255, 252, 252),\n      rgb(10, 10, 10) 30%,\n      rgba(84, 84, 88, 0.562) 0%\n    );\n  background-size: 10px 10px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#c3c3c5",
+  "#070707",
+  "#07705e"
+ ],
+ "fonts": [],
+ "tokens": 200,
+ "size": 803,
+ "html": "<div class=\"container\"></div>\n",
+ "css": "/* Heavy Fish 82 by escannord — https://uiverse.io/escannord/heavy-fish-82 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background: repeating-conic-gradient(\n      rgba(195, 195, 197, 0.1) 0%,\n      rgb(7, 7, 7) 10%,\n      rgba(195, 195, 197, 0.3) 20%\n    ),\n    radial-gradient(rgba(7, 112, 94, 0.3), rgba(61, 26, 189, 0.3)),\n    linear-gradient(rgba(155, 0, 0, 0.3), rgba(13, 13, 117, 0.2)),\n    radial-gradient(\n      circle,\n      rgb(255, 252, 252),\n      rgb(10, 10, 10) 30%,\n      rgba(84, 84, 88, 0.562) 0%\n    );\n  background-size: 10px 10px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Fish 82</title>\n<style>\n/* Heavy Fish 82 by escannord — https://uiverse.io/escannord/heavy-fish-82 */\n.container {\n  width: 100%;\n  height: 100%;\n\n  background: repeating-conic-gradient(\n      rgba(195, 195, 197, 0.1) 0%,\n      rgb(7, 7, 7) 10%,\n      rgba(195, 195, 197, 0.3) 20%\n    ),\n    radial-gradient(rgba(7, 112, 94, 0.3), rgba(61, 26, 189, 0.3)),\n    linear-gradient(rgba(155, 0, 0, 0.3), rgba(13, 13, 117, 0.2)),\n    radial-gradient(\n      circle,\n      rgb(255, 252, 252),\n      rgb(10, 10, 10) 30%,\n      rgba(84, 84, 88, 0.562) 0%\n    );\n  background-size: 10px 10px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n\n</body>\n</html>\n"
 }

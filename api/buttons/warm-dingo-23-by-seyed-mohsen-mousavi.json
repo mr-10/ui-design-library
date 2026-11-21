@@ -4,15 +4,25 @@
  "category": "buttons",
  "author": "seyed-mohsen-mousavi",
  "source": "https://uiverse.io/seyed-mohsen-mousavi/warm-dingo-23",
- "trigger": "static",
- "description": "A button UI element.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "trigger": "hover",
+ "description": "Rounded red button that scales up on hover.",
+ "howItWorks": "On hover, background changes and it scales.",
  "tags": [
-  "buttons",
-  "static",
-  "css"
+  "red",
+  "rounded",
+  "color-change",
+  "scale",
+  "delete",
+  "buttons"
  ],
- "html": "<!-- From Uiverse.io by seyed-mohsen-mousavi  - Tags: button, hover, delete, tailwind -->\n<button\n  class=\"inline-flex items-center px-4 py-2 bg-red-600 transition ease-in-out delay-75 hover:bg-red-700 text-white text-sm font-medium rounded-md hover:-translate-y-1 hover:scale-110\"\n>\n  <svg\n    stroke=\"currentColor\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    class=\"h-5 w-5 mr-2\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16\"\n      stroke-width=\"2\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n    ></path>\n  </svg>\n\n  Delete\n</button>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Dingo 23</title>\n<style>\n/* From Uiverse.io by seyed-mohsen-mousavi - https://uiverse.io/seyed-mohsen-mousavi/warm-dingo-23 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by seyed-mohsen-mousavi  - Tags: button, hover, delete, tailwind -->\n<button\n  class=\"inline-flex items-center px-4 py-2 bg-red-600 transition ease-in-out delay-75 hover:bg-red-700 text-white text-sm font-medium rounded-md hover:-translate-y-1 hover:scale-110\"\n>\n  <svg\n    stroke=\"currentColor\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    class=\"h-5 w-5 mr-2\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16\"\n      stroke-width=\"2\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n    ></path>\n  </svg>\n\n  Delete\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#dc2626",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 229,
+ "size": 919,
+ "html": "<button\n  class=\"inline-flex items-center px-4 py-2 bg-red-600 transition ease-in-out delay-75 hover:bg-red-700 text-white text-sm font-medium rounded-md hover:-translate-y-1 hover:scale-110\"\n>\n  <svg\n    stroke=\"currentColor\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    class=\"h-5 w-5 mr-2\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16\"\n      stroke-width=\"2\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n    ></path>\n  </svg>\n\n  Delete\n</button>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Dingo 23</title>\n<style>\n/* Warm Dingo 23 by seyed-mohsen-mousavi — https://uiverse.io/seyed-mohsen-mousavi/warm-dingo-23 */\n\n</style>\n</head>\n<body>\n<button\n  class=\"inline-flex items-center px-4 py-2 bg-red-600 transition ease-in-out delay-75 hover:bg-red-700 text-white text-sm font-medium rounded-md hover:-translate-y-1 hover:scale-110\"\n>\n  <svg\n    stroke=\"currentColor\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    class=\"h-5 w-5 mr-2\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16\"\n      stroke-width=\"2\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n    ></path>\n  </svg>\n\n  Delete\n</button>\n\n</body>\n</html>\n"
 }

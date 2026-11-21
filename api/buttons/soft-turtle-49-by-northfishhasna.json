@@ -5,14 +5,23 @@
  "author": "NorthFishHasNa",
  "source": "https://uiverse.io/NorthFishHasNa/soft-turtle-49",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Gray button that fades on hover with a smooth transition.",
+ "howItWorks": "On hover, opacity becomes 1, right becomes 0.",
  "tags": [
+  "flat",
+  "fade",
   "button",
   "hover",
   "css"
  ],
- "html": "<button>\n  <span>Button</span>\n</button>",
- "css": "/* From Uiverse.io by NorthFishHasNa - Tags: button */\nbutton {\n display: inline-block;\n border-radius: 4px;\n background-color: #3d405b;\n border: none;\n color: #FFFFFF;\n text-align: center;\n font-size: 17px;\n padding: 16px;\n width: 130px;\n transition: all 0.5s;\n cursor: pointer;\n margin: 5px;\n}\n\nbutton span {\n cursor: pointer;\n display: inline-block;\n position: relative;\n transition: 0.5s;\n}\n\nbutton span:after {\n content: '»';\n position: absolute;\n opacity: 0;\n top: 0;\n right: -15px;\n transition: 0.5s;\n}\n\nbutton:hover span {\n padding-right: 15px;\n}\n\nbutton:hover span:after {\n opacity: 1;\n right: 0;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Turtle 49</title>\n<style>\n/* From Uiverse.io by NorthFishHasNa - https://uiverse.io/NorthFishHasNa/soft-turtle-49 */\n/* From Uiverse.io by NorthFishHasNa - Tags: button */\nbutton {\n display: inline-block;\n border-radius: 4px;\n background-color: #3d405b;\n border: none;\n color: #FFFFFF;\n text-align: center;\n font-size: 17px;\n padding: 16px;\n width: 130px;\n transition: all 0.5s;\n cursor: pointer;\n margin: 5px;\n}\n\nbutton span {\n cursor: pointer;\n display: inline-block;\n position: relative;\n transition: 0.5s;\n}\n\nbutton span:after {\n content: '»';\n position: absolute;\n opacity: 0;\n top: 0;\n right: -15px;\n transition: 0.5s;\n}\n\nbutton:hover span {\n padding-right: 15px;\n}\n\nbutton:hover span:after {\n opacity: 1;\n right: 0;\n}\n</style>\n</head>\n<body>\n<button>\n  <span>Button</span>\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#3d405b",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 224,
+ "size": 900,
+ "html": "<button>\n  <span>Button</span>\n</button>\n",
+ "css": "/* Soft Turtle 49 by NorthFishHasNa — https://uiverse.io/NorthFishHasNa/soft-turtle-49 */\nbutton {\n display: inline-block;\n border-radius: 4px;\n background-color: #3d405b;\n border: none;\n color: #FFFFFF;\n text-align: center;\n font-size: 17px;\n padding: 16px;\n width: 130px;\n transition: all 0.5s;\n cursor: pointer;\n margin: 5px;\n}\n\nbutton span {\n cursor: pointer;\n display: inline-block;\n position: relative;\n transition: 0.5s;\n}\n\nbutton span:after {\n content: '»';\n position: absolute;\n opacity: 0;\n top: 0;\n right: -15px;\n transition: 0.5s;\n}\n\nbutton:hover span {\n padding-right: 15px;\n}\n\nbutton:hover span:after {\n opacity: 1;\n right: 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Turtle 49</title>\n<style>\n/* Soft Turtle 49 by NorthFishHasNa — https://uiverse.io/NorthFishHasNa/soft-turtle-49 */\nbutton {\n display: inline-block;\n border-radius: 4px;\n background-color: #3d405b;\n border: none;\n color: #FFFFFF;\n text-align: center;\n font-size: 17px;\n padding: 16px;\n width: 130px;\n transition: all 0.5s;\n cursor: pointer;\n margin: 5px;\n}\n\nbutton span {\n cursor: pointer;\n display: inline-block;\n position: relative;\n transition: 0.5s;\n}\n\nbutton span:after {\n content: '»';\n position: absolute;\n opacity: 0;\n top: 0;\n right: -15px;\n transition: 0.5s;\n}\n\nbutton:hover span {\n padding-right: 15px;\n}\n\nbutton:hover span:after {\n opacity: 1;\n right: 0;\n}\n</style>\n</head>\n<body>\n<button>\n  <span>Button</span>\n</button>\n\n</body>\n</html>\n"
 }

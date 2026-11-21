@@ -5,14 +5,25 @@
  "author": "terenceodonoghue",
  "source": "https://uiverse.io/terenceodonoghue/friendly-pug-5",
  "trigger": "auto-loop",
- "description": "A loader UI element.",
- "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "description": "Pill cyan loader with fading motion in a loop.",
+ "howItWorks": "It loops a 1.8s animation (fading, pulsing).",
  "tags": [
-  "loader",
-  "auto-loop",
-  "css"
+  "cyan",
+  "teal",
+  "rounded",
+  "pill",
+  "flat",
+  "fade"
  ],
- "html": "<div class=\"container\">\n  <span></span>\n  <span></span>\n  <span></span>\n</div>",
- "css": "/* From Uiverse.io by terenceodonoghue - Tags: loader */\n.container {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  display: flex;\n  gap: 0.625em;\n  transform: translate(-50%, -50%);\n}\n\n.container span {\n  border-radius: 50%;\n  height: 1.5em;\n  width: 1.5em;\n}\n\n.container span::before {\n  content: \"\";\n  display: block;\n  border-radius: inherit;\n  height: inherit;\n  width: inherit;\n  background-color: inherit;\n  animation: ripple 1.8s ease-out infinite;\n  animation-delay: inherit;\n  z-index: -1;\n}\n\n.container span:nth-of-type(1) {\n  background-color: #84cdfa;\n}\n\n.container span:nth-of-type(2) {\n  background-color: #5ad1cd;\n  animation-delay: 0.2s;\n}\n\n.container span:nth-of-type(3) {\n  background-color: #9b59b6;\n  animation-delay: 0.4s;\n}\n\n@keyframes ripple {\n  from {\n    opacity: 1;\n    transform: scale(0);\n  }\n\n  to {\n    opacity: 0;\n    transform: scale(3);\n  }\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Friendly Pug 5</title>\n<style>\n/* From Uiverse.io by terenceodonoghue - https://uiverse.io/terenceodonoghue/friendly-pug-5 */\n/* From Uiverse.io by terenceodonoghue - Tags: loader */\n.container {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  display: flex;\n  gap: 0.625em;\n  transform: translate(-50%, -50%);\n}\n\n.container span {\n  border-radius: 50%;\n  height: 1.5em;\n  width: 1.5em;\n}\n\n.container span::before {\n  content: \"\";\n  display: block;\n  border-radius: inherit;\n  height: inherit;\n  width: inherit;\n  background-color: inherit;\n  animation: ripple 1.8s ease-out infinite;\n  animation-delay: inherit;\n  z-index: -1;\n}\n\n.container span:nth-of-type(1) {\n  background-color: #84cdfa;\n}\n\n.container span:nth-of-type(2) {\n  background-color: #5ad1cd;\n  animation-delay: 0.2s;\n}\n\n.container span:nth-of-type(3) {\n  background-color: #9b59b6;\n  animation-delay: 0.4s;\n}\n\n@keyframes ripple {\n  from {\n    opacity: 1;\n    transform: scale(0);\n  }\n\n  to {\n    opacity: 0;\n    transform: scale(3);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <span></span>\n  <span></span>\n  <span></span>\n</div>\n</body>\n</html>\n"
+ "colors": [
+  "#84cdfa",
+  "#5ad1cd",
+  "#9b59b6"
+ ],
+ "fonts": [],
+ "tokens": 302,
+ "size": 1211,
+ "html": "<div class=\"container\">\n  <span></span>\n  <span></span>\n  <span></span>\n</div>\n",
+ "css": "/* Friendly Pug 5 by terenceodonoghue — https://uiverse.io/terenceodonoghue/friendly-pug-5 */\n.container {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  display: flex;\n  gap: 0.625em;\n  transform: translate(-50%, -50%);\n}\n\n.container span {\n  border-radius: 50%;\n  height: 1.5em;\n  width: 1.5em;\n}\n\n.container span::before {\n  content: \"\";\n  display: block;\n  border-radius: inherit;\n  height: inherit;\n  width: inherit;\n  background-color: inherit;\n  animation: ripple 1.8s ease-out infinite;\n  animation-delay: inherit;\n  z-index: -1;\n}\n\n.container span:nth-of-type(1) {\n  background-color: #84cdfa;\n}\n\n.container span:nth-of-type(2) {\n  background-color: #5ad1cd;\n  animation-delay: 0.2s;\n}\n\n.container span:nth-of-type(3) {\n  background-color: #9b59b6;\n  animation-delay: 0.4s;\n}\n\n@keyframes ripple {\n  from {\n    opacity: 1;\n    transform: scale(0);\n  }\n\n  to {\n    opacity: 0;\n    transform: scale(3);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Friendly Pug 5</title>\n<style>\n/* Friendly Pug 5 by terenceodonoghue — https://uiverse.io/terenceodonoghue/friendly-pug-5 */\n.container {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  display: flex;\n  gap: 0.625em;\n  transform: translate(-50%, -50%);\n}\n\n.container span {\n  border-radius: 50%;\n  height: 1.5em;\n  width: 1.5em;\n}\n\n.container span::before {\n  content: \"\";\n  display: block;\n  border-radius: inherit;\n  height: inherit;\n  width: inherit;\n  background-color: inherit;\n  animation: ripple 1.8s ease-out infinite;\n  animation-delay: inherit;\n  z-index: -1;\n}\n\n.container span:nth-of-type(1) {\n  background-color: #84cdfa;\n}\n\n.container span:nth-of-type(2) {\n  background-color: #5ad1cd;\n  animation-delay: 0.2s;\n}\n\n.container span:nth-of-type(3) {\n  background-color: #9b59b6;\n  animation-delay: 0.4s;\n}\n\n@keyframes ripple {\n  from {\n    opacity: 1;\n    transform: scale(0);\n  }\n\n  to {\n    opacity: 0;\n    transform: scale(3);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <span></span>\n  <span></span>\n  <span></span>\n</div>\n\n</body>\n</html>\n"
 }

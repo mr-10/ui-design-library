@@ -4,15 +4,26 @@
  "category": "checkboxes",
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/foolish-wasp-20",
- "trigger": "checked",
- "description": "A checkbox UI element.",
- "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "trigger": "hover",
+ "description": "Pill dark sky-blue checkbox that slides on hover.",
+ "howItWorks": "On hover, it shifts position.",
  "tags": [
-  "checkboxes",
-  "checked",
-  "css"
+  "blue",
+  "rounded",
+  "pill",
+  "slide",
+  "checkbox",
+  "checkboxes"
  ],
- "html": "<!-- From Uiverse.io by Javierrocadev  - Tags: simple, green, hover, checkbox, hover effect, tailwind -->\n<input\n  type=\"checkbox\"\n  id=\"react-option\"\n  value=\"\"\n  class=\"hidden peer\"\n  required=\"\"\n/>\n<label\n  for=\"react-option\"\n  class=\"flex items-center justify-center w-10 h-10 [box-shadow:1px_1px_0px_2px_#1e1e1e] duration-300 hover:[box-shadow:1px_1px_0px_1px_#000] hover:translate-y-0.5 hover:translate-x-0.5 bg-neutral-700 border-2 border-gray-800 rounded-full cursor-pointer text-neutral-50 peer-checked:[box-shadow:1px_1px_0px_2px_#28AB6B] peer-checked:border-none peer-checked:hover:[box-shadow:1px_1px_0px_1px_#28AB6B] peer-checked:bg-neutral-50 peer-checked:text-gray-800\"\n>\n  <span class=\"text-lg font-semibold\">5</span>\n</label>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Foolish Wasp 20</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/foolish-wasp-20 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev  - Tags: simple, green, hover, checkbox, hover effect, tailwind -->\n<input\n  type=\"checkbox\"\n  id=\"react-option\"\n  value=\"\"\n  class=\"hidden peer\"\n  required=\"\"\n/>\n<label\n  for=\"react-option\"\n  class=\"flex items-center justify-center w-10 h-10 [box-shadow:1px_1px_0px_2px_#1e1e1e] duration-300 hover:[box-shadow:1px_1px_0px_1px_#000] hover:translate-y-0.5 hover:translate-x-0.5 bg-neutral-700 border-2 border-gray-800 rounded-full cursor-pointer text-neutral-50 peer-checked:[box-shadow:1px_1px_0px_2px_#28AB6B] peer-checked:border-none peer-checked:hover:[box-shadow:1px_1px_0px_1px_#28AB6B] peer-checked:bg-neutral-50 peer-checked:text-gray-800\"\n>\n  <span class=\"text-lg font-semibold\">5</span>\n</label>\n</body>\n</html>\n"
+ "colors": [
+  "#404040",
+  "#1f2937",
+  "#fafafa"
+ ],
+ "fonts": [],
+ "tokens": 236,
+ "size": 944,
+ "html": "<input\n  type=\"checkbox\"\n  id=\"react-option\"\n  value=\"\"\n  class=\"hidden peer\"\n  required=\"\"\n/>\n<label\n  for=\"react-option\"\n  class=\"flex items-center justify-center w-10 h-10 [box-shadow:1px_1px_0px_2px_#1e1e1e] duration-300 hover:[box-shadow:1px_1px_0px_1px_#000] hover:translate-y-0.5 hover:translate-x-0.5 bg-neutral-700 border-2 border-gray-800 rounded-full cursor-pointer text-neutral-50 peer-checked:[box-shadow:1px_1px_0px_2px_#28AB6B] peer-checked:border-none peer-checked:hover:[box-shadow:1px_1px_0px_1px_#28AB6B] peer-checked:bg-neutral-50 peer-checked:text-gray-800\"\n>\n  <span class=\"text-lg font-semibold\">5</span>\n</label>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Foolish Wasp 20</title>\n<style>\n/* Foolish Wasp 20 by Javierrocadev — https://uiverse.io/Javierrocadev/foolish-wasp-20 */\n\n</style>\n</head>\n<body>\n<input\n  type=\"checkbox\"\n  id=\"react-option\"\n  value=\"\"\n  class=\"hidden peer\"\n  required=\"\"\n/>\n<label\n  for=\"react-option\"\n  class=\"flex items-center justify-center w-10 h-10 [box-shadow:1px_1px_0px_2px_#1e1e1e] duration-300 hover:[box-shadow:1px_1px_0px_1px_#000] hover:translate-y-0.5 hover:translate-x-0.5 bg-neutral-700 border-2 border-gray-800 rounded-full cursor-pointer text-neutral-50 peer-checked:[box-shadow:1px_1px_0px_2px_#28AB6B] peer-checked:border-none peer-checked:hover:[box-shadow:1px_1px_0px_1px_#28AB6B] peer-checked:bg-neutral-50 peer-checked:text-gray-800\"\n>\n  <span class=\"text-lg font-semibold\">5</span>\n</label>\n\n</body>\n</html>\n"
 }

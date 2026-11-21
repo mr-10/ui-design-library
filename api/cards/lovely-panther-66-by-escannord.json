@@ -5,16 +5,24 @@
  "author": "escannord",
  "source": "https://uiverse.io/escannord/lovely-panther-66",
  "trigger": "static",
- "description": "A card with simple, shadow and water styling.",
- "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "description": "Outlined white card with soft shadow with a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "outlined",
   "simple",
   "card",
   "shadow",
   "water",
   "static"
  ],
- "html": "<div class=\"card\"></div>",
- "css": "/* From Uiverse.io by escannord  - Tags: simple, card, shadow, water */\n.card {\n  width: 200px;\n  height: 200px;\n  background-color: transparent;\n  box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.158),\n    10px 10px 20px rgba(0, 0, 0, 0.466),\n    inset -10px -10px 10px 10px rgba(255, 255, 255, 0.897);\n  border-radius: 51% 49% 62% 38% / 25% 57% 43% 75%;\n  position: relative;\n}\n\n.card::after {\n  content: \"\";\n  display: inline-block;\n  width: 10px;\n  height: 10px;\n  position: absolute;\n  background-color: rgba(255, 255, 255, 0.842);\n  border-radius: 80% 20% 91% 9% / 48% 67% 33% 52%;\n  top: 40px;\n  left: 40px;\n}\n\n.card::before {\n  content: \"\";\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  position: absolute;\n  background-color: rgba(255, 255, 255, 0.842);\n  border-radius: 48% 52% 45% 55% / 48% 67% 33% 52%;\n  top: 35px;\n  left: 60px;\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lovely Panther 66</title>\n<style>\n/* From Uiverse.io by escannord - https://uiverse.io/escannord/lovely-panther-66 */\n/* From Uiverse.io by escannord  - Tags: simple, card, shadow, water */\n.card {\n  width: 200px;\n  height: 200px;\n  background-color: transparent;\n  box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.158),\n    10px 10px 20px rgba(0, 0, 0, 0.466),\n    inset -10px -10px 10px 10px rgba(255, 255, 255, 0.897);\n  border-radius: 51% 49% 62% 38% / 25% 57% 43% 75%;\n  position: relative;\n}\n\n.card::after {\n  content: \"\";\n  display: inline-block;\n  width: 10px;\n  height: 10px;\n  position: absolute;\n  background-color: rgba(255, 255, 255, 0.842);\n  border-radius: 80% 20% 91% 9% / 48% 67% 33% 52%;\n  top: 40px;\n  left: 40px;\n}\n\n.card::before {\n  content: \"\";\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  position: absolute;\n  background-color: rgba(255, 255, 255, 0.842);\n  border-radius: 48% 52% 45% 55% / 48% 67% 33% 52%;\n  top: 35px;\n  left: 60px;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 279,
+ "size": 1118,
+ "html": "<div class=\"card\"></div>\n",
+ "css": "/* Lovely Panther 66 by escannord — https://uiverse.io/escannord/lovely-panther-66 */\n.card {\n  width: 200px;\n  height: 200px;\n  background-color: transparent;\n  box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.158),\n    10px 10px 20px rgba(0, 0, 0, 0.466),\n    inset -10px -10px 10px 10px rgba(255, 255, 255, 0.897);\n  border-radius: 51% 49% 62% 38% / 25% 57% 43% 75%;\n  position: relative;\n}\n\n.card::after {\n  content: \"\";\n  display: inline-block;\n  width: 10px;\n  height: 10px;\n  position: absolute;\n  background-color: rgba(255, 255, 255, 0.842);\n  border-radius: 80% 20% 91% 9% / 48% 67% 33% 52%;\n  top: 40px;\n  left: 40px;\n}\n\n.card::before {\n  content: \"\";\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  position: absolute;\n  background-color: rgba(255, 255, 255, 0.842);\n  border-radius: 48% 52% 45% 55% / 48% 67% 33% 52%;\n  top: 35px;\n  left: 60px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lovely Panther 66</title>\n<style>\n/* Lovely Panther 66 by escannord — https://uiverse.io/escannord/lovely-panther-66 */\n.card {\n  width: 200px;\n  height: 200px;\n  background-color: transparent;\n  box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.158),\n    10px 10px 20px rgba(0, 0, 0, 0.466),\n    inset -10px -10px 10px 10px rgba(255, 255, 255, 0.897);\n  border-radius: 51% 49% 62% 38% / 25% 57% 43% 75%;\n  position: relative;\n}\n\n.card::after {\n  content: \"\";\n  display: inline-block;\n  width: 10px;\n  height: 10px;\n  position: absolute;\n  background-color: rgba(255, 255, 255, 0.842);\n  border-radius: 80% 20% 91% 9% / 48% 67% 33% 52%;\n  top: 40px;\n  left: 40px;\n}\n\n.card::before {\n  content: \"\";\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  position: absolute;\n  background-color: rgba(255, 255, 255, 0.842);\n  border-radius: 48% 52% 45% 55% / 48% 67% 33% 52%;\n  top: 35px;\n  left: 60px;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n\n</body>\n</html>\n"
 }

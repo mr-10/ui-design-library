@@ -5,14 +5,25 @@
  "author": "SuliLevente",
  "source": "https://uiverse.io/SuliLevente/soft-horse-30",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark rounded amber button that slides on hover.",
+ "howItWorks": "On hover, transform becomes translateY(0) translateX(0), transform becomes translateY(100%) translateX(100%).",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "amber",
+  "dark",
+  "rounded",
+  "flat",
+  "drop",
+  "slide"
  ],
- "html": "<button>UIVERSE</button>",
- "css": "/* From Uiverse.io by SuliLevente - Tags: button */\nbutton {\n  display: inline-block;\n  border: 3px solid #DFB112;\n  padding: 10px;\n  background-color: #212121;\n  color: white;\n  font-weight: bold;\n  font-size: 17px;\n  z-index: 1;\n  overflow: hidden;\n  position: relative;\n  border-radius: 8px;\n}\n\nbutton::before {\n  content: \"\";\n  z-index: -1;\n  -webkit-transform: translateY(-100%) translateX(-100%);\n  -ms-transform: translateY(-100%) translateX(-100%);\n  transform: translateY(-100%) translateX(-100%);\n  -webkit-transition: all 0.3s;\n  transition: all 0.3s;\n  background-color: #DFB112;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  position: absolute;\n}\n\nbutton:hover::before {\n  -webkit-transform: translateY(0) translateX(0);\n  -ms-transform: translateY(0) translateX(0);\n  transform: translateY(0) translateX(0);\n}\n\nbutton:hover::after {\n  -webkit-transform: translateY(100%) translateX(100%);\n  -ms-transform: translateY(100%) translateX(100%);\n  transform: translateY(100%) translateX(100%);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Horse 30</title>\n<style>\n/* From Uiverse.io by SuliLevente - https://uiverse.io/SuliLevente/soft-horse-30 */\n/* From Uiverse.io by SuliLevente - Tags: button */\nbutton {\n  display: inline-block;\n  border: 3px solid #DFB112;\n  padding: 10px;\n  background-color: #212121;\n  color: white;\n  font-weight: bold;\n  font-size: 17px;\n  z-index: 1;\n  overflow: hidden;\n  position: relative;\n  border-radius: 8px;\n}\n\nbutton::before {\n  content: \"\";\n  z-index: -1;\n  -webkit-transform: translateY(-100%) translateX(-100%);\n  -ms-transform: translateY(-100%) translateX(-100%);\n  transform: translateY(-100%) translateX(-100%);\n  -webkit-transition: all 0.3s;\n  transition: all 0.3s;\n  background-color: #DFB112;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  position: absolute;\n}\n\nbutton:hover::before {\n  -webkit-transform: translateY(0) translateX(0);\n  -ms-transform: translateY(0) translateX(0);\n  transform: translateY(0) translateX(0);\n}\n\nbutton:hover::after {\n  -webkit-transform: translateY(100%) translateX(100%);\n  -ms-transform: translateY(100%) translateX(100%);\n  transform: translateY(100%) translateX(100%);\n}\n</style>\n</head>\n<body>\n<button>UIVERSE</button>\n</body>\n</html>\n"
+ "colors": [
+  "#dfb112",
+  "#212121",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 320,
+ "size": 1282,
+ "html": "<button>UIVERSE</button>\n",
+ "css": "/* Soft Horse 30 by SuliLevente — https://uiverse.io/SuliLevente/soft-horse-30 */\nbutton {\n  display: inline-block;\n  border: 3px solid #DFB112;\n  padding: 10px;\n  background-color: #212121;\n  color: white;\n  font-weight: bold;\n  font-size: 17px;\n  z-index: 1;\n  overflow: hidden;\n  position: relative;\n  border-radius: 8px;\n}\n\nbutton::before {\n  content: \"\";\n  z-index: -1;\n  -webkit-transform: translateY(-100%) translateX(-100%);\n  -ms-transform: translateY(-100%) translateX(-100%);\n  transform: translateY(-100%) translateX(-100%);\n  -webkit-transition: all 0.3s;\n  transition: all 0.3s;\n  background-color: #DFB112;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  position: absolute;\n}\n\nbutton:hover::before {\n  -webkit-transform: translateY(0) translateX(0);\n  -ms-transform: translateY(0) translateX(0);\n  transform: translateY(0) translateX(0);\n}\n\nbutton:hover::after {\n  -webkit-transform: translateY(100%) translateX(100%);\n  -ms-transform: translateY(100%) translateX(100%);\n  transform: translateY(100%) translateX(100%);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Horse 30</title>\n<style>\n/* Soft Horse 30 by SuliLevente — https://uiverse.io/SuliLevente/soft-horse-30 */\nbutton {\n  display: inline-block;\n  border: 3px solid #DFB112;\n  padding: 10px;\n  background-color: #212121;\n  color: white;\n  font-weight: bold;\n  font-size: 17px;\n  z-index: 1;\n  overflow: hidden;\n  position: relative;\n  border-radius: 8px;\n}\n\nbutton::before {\n  content: \"\";\n  z-index: -1;\n  -webkit-transform: translateY(-100%) translateX(-100%);\n  -ms-transform: translateY(-100%) translateX(-100%);\n  transform: translateY(-100%) translateX(-100%);\n  -webkit-transition: all 0.3s;\n  transition: all 0.3s;\n  background-color: #DFB112;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  position: absolute;\n}\n\nbutton:hover::before {\n  -webkit-transform: translateY(0) translateX(0);\n  -ms-transform: translateY(0) translateX(0);\n  transform: translateY(0) translateX(0);\n}\n\nbutton:hover::after {\n  -webkit-transform: translateY(100%) translateX(100%);\n  -ms-transform: translateY(100%) translateX(100%);\n  transform: translateY(100%) translateX(100%);\n}\n</style>\n</head>\n<body>\n<button>UIVERSE</button>\n\n</body>\n</html>\n"
 }

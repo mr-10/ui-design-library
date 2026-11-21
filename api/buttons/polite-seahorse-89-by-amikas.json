@@ -5,14 +5,25 @@
  "author": "Amikas",
  "source": "https://uiverse.io/Amikas/polite-seahorse-89",
  "trigger": "hover",
- "description": "A button UI element.",
- "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "description": "Dark indigo button that lifts and glows on hover.",
+ "howItWorks": "On hover, transform becomes translateY(-3px), box-shadow becomes 0 8px 20px #000000, background-color changes from #333 to #805ff7.",
  "tags": [
-  "button",
-  "hover",
-  "css"
+  "indigo",
+  "dark",
+  "lift",
+  "glow",
+  "color-change",
+  "button"
  ],
- "html": "<button class=\"button\">\n  Click me\n</button>",
- "css": "/* From Uiverse.io by Amikas - Tags: button */\n.button {\n  background-color: #333;\n  color: #fff;\n  padding: 12px 24px;\n  border: none;\n  border-radius: 5px;\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);\n  cursor: pointer;\n  transition: all 0.3s ease-in-out;\n  font-size: 17px;\n}\n\n.button:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);\n  background-color: rgb(128, 95, 247);\n}\n\n.button:active {\n  transform: translateY(0.5em);\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);\n}\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Seahorse 89</title>\n<style>\n/* From Uiverse.io by Amikas - https://uiverse.io/Amikas/polite-seahorse-89 */\n/* From Uiverse.io by Amikas - Tags: button */\n.button {\n  background-color: #333;\n  color: #fff;\n  padding: 12px 24px;\n  border: none;\n  border-radius: 5px;\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);\n  cursor: pointer;\n  transition: all 0.3s ease-in-out;\n  font-size: 17px;\n}\n\n.button:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);\n  background-color: rgb(128, 95, 247);\n}\n\n.button:active {\n  transform: translateY(0.5em);\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Click me\n</button>\n</body>\n</html>\n"
+ "colors": [
+  "#333333",
+  "#805ff7",
+  "#ffffff"
+ ],
+ "fonts": [],
+ "tokens": 202,
+ "size": 808,
+ "html": "<button class=\"button\">\n  Click me\n</button>\n",
+ "css": "/* Polite Seahorse 89 by Amikas — https://uiverse.io/Amikas/polite-seahorse-89 */\n.button {\n  background-color: #333;\n  color: #fff;\n  padding: 12px 24px;\n  border: none;\n  border-radius: 5px;\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);\n  cursor: pointer;\n  transition: all 0.3s ease-in-out;\n  font-size: 17px;\n}\n\n.button:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);\n  background-color: rgb(128, 95, 247);\n}\n\n.button:active {\n  transform: translateY(0.5em);\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Seahorse 89</title>\n<style>\n/* Polite Seahorse 89 by Amikas — https://uiverse.io/Amikas/polite-seahorse-89 */\n.button {\n  background-color: #333;\n  color: #fff;\n  padding: 12px 24px;\n  border: none;\n  border-radius: 5px;\n  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);\n  cursor: pointer;\n  transition: all 0.3s ease-in-out;\n  font-size: 17px;\n}\n\n.button:hover {\n  transform: translateY(-3px);\n  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);\n  background-color: rgb(128, 95, 247);\n}\n\n.button:active {\n  transform: translateY(0.5em);\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Click me\n</button>\n\n</body>\n</html>\n"
 }

@@ -5,14 +5,24 @@
  "author": "jubayer-10",
  "source": "https://uiverse.io/jubayer-10/sharp-otter-56",
  "trigger": "focus",
- "description": "A input UI element.",
- "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "description": "Rounded white text input that lights up when focused.",
+ "howItWorks": "On focus, shadow grows.",
  "tags": [
+  "rounded",
+  "glow",
+  "email",
+  "text-input",
   "inputs",
-  "focus",
-  "css"
+  "focus"
  ],
- "html": "<!-- From Uiverse.io by jubayer-10  - Tags: simple, tooltip, hover, input, light, search, creative, tailwindcss -->\n<form action=\"#\">\n  <div class=\"w-60 h-12 relative flex rounded-xl\">\n    <input\n      required=\"\"\n      class=\"peer w-full bg-transparent outline-none px-4 text-base rounded-xl bg-white border border-[#4070f4] focus:shadow-md\"\n      id=\"address\"\n      type=\"text\"\n    />\n    <label\n      class=\"absolute top-1/2 translate-y-[-50%] bg-white left-4 px-2 peer-focus:top-0 peer-focus:left-3 font-light text-base peer-focus:text-sm peer-focus:text-[#4070f4] peer-valid:-top-0 peer-valid:left-3 peer-valid:text-sm peer-valid:text-[#4070f4] duration-150\"\n      for=\"address\"\n    >\n      Email Address</label\n    >\n  </div>\n</form>",
- "css": "\n",
- "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sharp Otter 56</title>\n<style>\n/* From Uiverse.io by jubayer-10 - https://uiverse.io/jubayer-10/sharp-otter-56 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by jubayer-10  - Tags: simple, tooltip, hover, input, light, search, creative, tailwindcss -->\n<form action=\"#\">\n  <div class=\"w-60 h-12 relative flex rounded-xl\">\n    <input\n      required=\"\"\n      class=\"peer w-full bg-transparent outline-none px-4 text-base rounded-xl bg-white border border-[#4070f4] focus:shadow-md\"\n      id=\"address\"\n      type=\"text\"\n    />\n    <label\n      class=\"absolute top-1/2 translate-y-[-50%] bg-white left-4 px-2 peer-focus:top-0 peer-focus:left-3 font-light text-base peer-focus:text-sm peer-focus:text-[#4070f4] peer-valid:-top-0 peer-valid:left-3 peer-valid:text-sm peer-valid:text-[#4070f4] duration-150\"\n      for=\"address\"\n    >\n      Email Address</label\n    >\n  </div>\n</form>\n</body>\n</html>\n"
+ "colors": [
+  "#ffffff",
+  "#000000"
+ ],
+ "fonts": [],
+ "tokens": 230,
+ "size": 922,
+ "html": "<form action=\"#\">\n  <div class=\"w-60 h-12 relative flex rounded-xl\">\n    <input\n      required=\"\"\n      class=\"peer w-full bg-transparent outline-none px-4 text-base rounded-xl bg-white border border-[#4070f4] focus:shadow-md\"\n      id=\"address\"\n      type=\"text\"\n    />\n    <label\n      class=\"absolute top-1/2 translate-y-[-50%] bg-white left-4 px-2 peer-focus:top-0 peer-focus:left-3 font-light text-base peer-focus:text-sm peer-focus:text-[#4070f4] peer-valid:-top-0 peer-valid:left-3 peer-valid:text-sm peer-valid:text-[#4070f4] duration-150\"\n      for=\"address\"\n    >\n      Email Address</label\n    >\n  </div>\n</form>\n",
+ "css": "",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sharp Otter 56</title>\n<style>\n/* Sharp Otter 56 by jubayer-10 — https://uiverse.io/jubayer-10/sharp-otter-56 */\n\n</style>\n</head>\n<body>\n<form action=\"#\">\n  <div class=\"w-60 h-12 relative flex rounded-xl\">\n    <input\n      required=\"\"\n      class=\"peer w-full bg-transparent outline-none px-4 text-base rounded-xl bg-white border border-[#4070f4] focus:shadow-md\"\n      id=\"address\"\n      type=\"text\"\n    />\n    <label\n      class=\"absolute top-1/2 translate-y-[-50%] bg-white left-4 px-2 peer-focus:top-0 peer-focus:left-3 font-light text-base peer-focus:text-sm peer-focus:text-[#4070f4] peer-valid:-top-0 peer-valid:left-3 peer-valid:text-sm peer-valid:text-[#4070f4] duration-150\"\n      for=\"address\"\n    >\n      Email Address</label\n    >\n  </div>\n</form>\n\n</body>\n</html>\n"
 }
