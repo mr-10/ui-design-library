@@ -91,3 +91,60 @@ to 35% of the card width would crop them top and bottom. They are shown
   the card. The driver now re-measures when the stage's first child
   changes size (ResizeObserver), when `document.fonts.ready` resolves,
   and once more 2.5 s after load as a safety net.
+
+## 21 Nov 2026 — real interaction redesign (no autoplay, scroll shield)
+
+Checked with `readme-assets/qa/test_real_interaction.py` (72 checks) and
+`readme-assets/qa/test_30_elements.py` (57 checks, seed 7), plus the
+updated `readme-assets/qa/audit.py` (28/29 — the one failure is the
+pre-existing flaky "wrong id shows friendly not-found" check, unchanged
+from the 27/28 baseline). All three suites pass after the fixes below.
+
+### Fixed (driver, no per-element override needed)
+
+- **Tall/narrow forms sat too low, not vertically centred** —
+  `forms/blue-mule-76-by-mi-series` (fit 200×256) and
+  `forms/fuzzy-insect-61-by-doniaskima` (fit 100×256) rendered with
+  their stage top at ~141px in a 320px box (centre y≈269 instead of
+  160). Root cause: the driver's reset `body{display:grid;
+  place-items:center}` sizes its single grid row to the content, so a
+  stage taller than the viewport is centred inside a content-sized
+  row, not inside the viewport. Fix: the reset now also sets
+  `place-content:center`, so the grid track itself is centred in the
+  body. Both forms now render centred (top 32px, bottom 288px) with no
+  scrollbar. No `data/overrides.json` entry was needed.
+
+### Not a site bug (test / environment notes)
+
+- **Checkbox/radio `.value` is `'on'` while `.defaultValue` is `''`** —
+  the "at rest" check flagged `value:on` on several elements
+  (calm-pug-88, wonderful-dog-56, little-grasshopper-46,
+  calm-lionfish-10, thin-hound-49, silly-otter-89, dull-lizard-58,
+  great-badger-21). That is the browser's default for a checkbox with
+  no `value` attribute, not a state change. The checks now only compare
+  `value` for text-like inputs and compare `checked` for
+  checkbox/radio.
+- **Hidden inputs can't be clicked directly** — toggle/checkbox/radio
+  inputs are visually hidden (0×0); a real user clicks the visible
+  label/slider/checkmark. The tests now click the label's visible
+  control (`.checkmark`/`.slider`/`.checkbox-tile`) or the label, with
+  a DOM-click fallback. One element, `checkboxes/
+  calm-lionfish-10-by-boryanakrasteva`, has a 0-height outer label
+  (its visible control is the 46×46 `.checkmark` span) — clicking the
+  checkmark toggles it correctly.
+- **Virtual-viewport (vp) elements have no fit dataset by design** —
+  `patterns/brown-bulldog-93-by-csemszepp` and
+  `patterns/slippery-sheep-50-by-aspenbranch` (and all 103 patterns)
+  fill a fixed 800×500 iframe the parent scales; there is no `#stage`
+  and no `uilibScale` dataset. The 30-element test now treats vp
+  elements separately (800×500 frame, no scrollbar) instead of
+  expecting the fit dataset.
+- **Touch tap → click inside a srcdoc iframe does not fire in this
+  headless Chromium mobile emulation** — verified with a minimal
+  repro (a tap on a button in a plain srcdoc iframe fires no click,
+  while the same tap on a parent-page button does). Mouse clicks do
+  fire inside the iframe, and touchstart/pointerdown do reach it, so
+  the real event path is verified via mouse; on a real phone the tap
+  applies sticky `:hover` and fires click normally. Mobile tooltip
+  popups are therefore verified with a real hover at 390px (same
+  `:hover` CSS path) rather than a tap.

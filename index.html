@@ -18,7 +18,7 @@
 <meta name="twitter:description" content="Browse, preview and copy 3,805 free MIT-licensed UI elements: buttons, loaders, cards, forms and more. Pure HTML + CSS.">
 <meta name="twitter:image" content="https://mr-10.github.io/ui-design-library/assets/banner.png">
 <link rel="icon" href="assets/site/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/site/style.css?v=4">
+<link rel="stylesheet" href="assets/site/style.css?v=5">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -50,6 +50,7 @@
     </select>
   </label>
   <button class="icon-btn theme-btn" id="themeBtn" aria-label="Toggle dark mode" aria-pressed="false">◐</button>
+  <button class="btn pause-btn" id="pauseBtn" aria-label="Pause all animations" aria-pressed="false" title="Pause all animations">⏸ Animations</button>
 </header>
 
 <div class="shell">
@@ -65,10 +66,10 @@
 </div>
 
 <div class="mobilebar" id="mobilebar" hidden>
-  <button class="btn primary" id="mobilePlay">▶ Play</button>
+  <button class="btn primary" id="mobileReset">↻ Reset</button>
   <button class="btn" id="mobileCopy">⧉ Copy code</button>
 </div>
 
-<script src="assets/site/app.js?v=4"></script>
+<script src="assets/site/app.js?v=5"></script>
 </body>
 </html>

@@ -54,57 +54,42 @@
     });
   }
 
-  /* ---------- autoplay + auto-fit driver (injected into preview iframes) ----------
-     MODE 'fit': measure #stage (incl. the hover/active state) and scale it to
-     fit the box, clamped 0.25–1.6. MODE 'vp': no measuring — the parent scales
-     the whole 800x500 iframe instead. */
+  /* ---------- auto-fit driver (injected into preview iframes) ----------
+     No autoplay, no simulated interaction. The driver only (a) measures
+     #stage (incl. the hover/active/checked state, forced transiently for
+     measurement and removed before the preview is shown) and scales it to
+     fit the box, clamped 0.25–1.6, (b) pauses CSS animations when the
+     parent asks or the system prefers reduced motion, and (c) blocks
+     form submits / link navigation inside the iframe. MODE 'fit':
+     measure and scale. MODE 'vp': no measuring — the parent scales the
+     whole 800x500 iframe instead. */
   var DRIVER = "(function(){try{"
-    + "var TRIGGER='__TRIGGER__',AUTOPLAY=__AUTOPLAY__,MODE='__MODE__',OVR=__OVERRIDE__;"
+    + "var TRIGGER='__TRIGGER__',MODE='__MODE__',OVR=__OVERRIDE__,PAUSED=__PAUSED__;"
     + "var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;"
-    + "var speed=1,playing=AUTOPLAY&&!reduced,loop=true,timer=null,phase=false,cycles=0,userSim=false;"
     + "var stage=document.getElementById('stage');"
     + "function target(){return document.querySelector('input[type=\"checkbox\"],input[type=\"radio\"]')"
     + "||document.querySelector('button,input,select,textarea,a[href],label,[tabindex]')"
     + "||document.body.firstElementChild;}"
     + "function simClass(on,cls){var el=target();if(!el)return;var n=el;while(n&&n!==document.body){n.classList.toggle(cls,on);n=n.parentElement;}document.body.classList.toggle(cls,on);}"
-    + "function prime(){var el=target();if(!el)return;try{"
-    + "if(TRIGGER==='hover'){simClass(true,'uilib-sim-hover');}"
-    + "else if(TRIGGER==='checked'||TRIGGER==='click'){el.click();}"
-    + "else if(TRIGGER==='active'){simClass(true,'uilib-sim-active');}"
-    + "else if(TRIGGER==='focus'){el.focus();if((el.tagName==='INPUT'||el.tagName==='TEXTAREA')&&!el.value){el.value='Hello';el.dispatchEvent(new Event('input',{bubbles:true}));}}"
-    + "else if(TRIGGER==='static'){document.body.classList.add('uilib-in');}"
-    + "}catch(e){}}"
-    + "function step(){if(!playing)return;var el=target();if(!el){schedule();return;}"
-    + "try{"
-    + "if(TRIGGER==='hover'){simClass(!phase,'uilib-sim-hover');phase=!phase;}"
-    + "else if(TRIGGER==='checked'||TRIGGER==='click'){el.click();}"
-    + "else if(TRIGGER==='active'){simClass(true,'uilib-sim-active');setTimeout(function(){simClass(false,'uilib-sim-active');},600/speed);}"
-    + "else if(TRIGGER==='focus'){el.focus();if((el.tagName==='INPUT'||el.tagName==='TEXTAREA')&&!el.value){el.value='Hello';el.dispatchEvent(new Event('input',{bubbles:true}));}}"
-    + "else if(TRIGGER==='static'){document.body.classList.add('uilib-in');}"
-    + "}catch(e){}"
-    + "if(TRIGGER==='hover'&&phase===false){cycles++;}"
-    + "if(!loop&&cycles>=1){playing=false;try{parent.postMessage({uilib:'ended'},'*');}catch(e){}return;}"
-    + "schedule();}"
-    + "function schedule(){clearTimeout(timer);if(playing){timer=setTimeout(step,1500/speed);}}"
     + "function union(){var r=null;function add(x){if(!x)return;if(x.width===0&&x.height===0)return;if(!r)r={l:x.left,t:x.top,r:x.right,b:x.bottom};else{r.l=Math.min(r.l,x.left);r.t=Math.min(r.t,x.top);r.r=Math.max(r.r,x.right);r.b=Math.max(r.b,x.bottom);}}"
     + "if(stage)add(stage.getBoundingClientRect());"
     + "var all=document.querySelectorAll('body *');for(var i=0;i<all.length;i++)add(all[i].getBoundingClientRect());return r;}"
     + "function fit(){if(MODE!=='fit'||!stage)return;"
     + "if(window.__uilibMode==='actual'){stage.style.transform='scale(1)';return;}"
     + "var kill=document.createElement('style');kill.textContent='*{transition:none!important}';document.head.appendChild(kill);"
+    + "var el=target(),savedChecked=null,simForced='';"
     + "try{"
-    + "var wasHover=document.body.classList.contains('uilib-sim-hover');"
     + "var u=null,factor=0.8;"
     + "if(TRIGGER==='hover'){"
     + "simClass(false,'uilib-sim-hover');document.body.offsetHeight;var uOff=union();"
-    + "simClass(true,'uilib-sim-hover');document.body.offsetHeight;var uOn=union();"
+    + "simClass(true,'uilib-sim-hover');simForced='uilib-sim-hover';document.body.offsetHeight;var uOn=union();"
     + "u=uOn;if(uOff&&uOn&&(uOn.r-uOn.l>(uOff.r-uOff.l)*1.1||uOn.b-uOn.t>(uOff.b-uOff.t)*1.1))factor=0.7;"
-    + "}else{"
-    + "u=union();"
-    + "if(TRIGGER==='checked'||TRIGGER==='click'){var el=target();if(el){try{el.click();}catch(e){}document.body.offsetHeight;var u2=union();try{el.click();}catch(e){}if(u2&&u){u={l:Math.min(u.l,u2.l),t:Math.min(u.t,u2.t),r:Math.max(u.r,u2.r),b:Math.max(u.b,u2.b)};}}}"
-    + "}"
-    + "if(TRIGGER==='hover'&&!playing&&!userSim)simClass(false,'uilib-sim-hover');"
-    + "if(TRIGGER==='active'&&!playing&&!userSim)simClass(false,'uilib-sim-active');"
+    + "}else if(TRIGGER==='active'||TRIGGER==='click'){"
+    + "simClass(true,'uilib-sim-active');simForced='uilib-sim-active';document.body.offsetHeight;u=union();"
+    + "}else if(TRIGGER==='checked'){"
+    + "if(el&&(el.type==='checkbox'||el.type==='radio')){savedChecked=el.checked;el.checked=true;document.body.offsetHeight;u=union();}"
+    + "else{u=union();}"
+    + "}else{u=union();}"
     + "if(!u)return;var cw=u.r-u.l,ch=u.b-u.t;if(cw<=0||ch<=0)return;"
     + "var boxW=document.documentElement.clientWidth,boxH=document.documentElement.clientHeight;"
     + "if(OVR&&OVR.padding!=null)factor=1-OVR.padding*2;"
@@ -114,7 +99,7 @@
     + "de.dataset.uilibScale=s.toFixed(3);de.dataset.uilibContentW=Math.round(cw);de.dataset.uilibContentH=Math.round(ch);"
     + "de.dataset.uilibFitW=Math.round(cw*s);de.dataset.uilibFitH=Math.round(ch*s);de.dataset.uilibBoxW=boxW;de.dataset.uilibBoxH=boxH;"
     + "try{parent.postMessage({uilib:'measured',scale:s,contentW:cw,contentH:ch,fitW:cw*s,fitH:ch*s,boxW:boxW,boxH:boxH},'*');}catch(e){}"
-    + "}finally{kill.remove();}}"
+    + "}finally{kill.remove();if(simForced)simClass(false,simForced);if(savedChecked!==null&&el)el.checked=savedChecked;}}"
     + "var fitT=null;function refit(){clearTimeout(fitT);fitT=setTimeout(fit,120);}"
     + "function scheduleFit(){var done=false;function go(){if(done)return;done=true;if(window.requestAnimationFrame)requestAnimationFrame(fit);else fit();}"
     + "var to=setTimeout(go,1500);var p=[];"
@@ -123,11 +108,7 @@
     + "if(pend.length)p.push(new Promise(function(res){var n=pend.length;pend.forEach(function(x){x.onload=x.onerror=function(){if(--n<=0)res();};});}));"
     + "Promise.all(p).then(function(){clearTimeout(to);go();});}"
     + "window.addEventListener('message',function(e){var d=e.data||{};if(!d||d.uilib!==1)return;"
-    + "if(d.cmd==='play'){playing=true;cycles=0;schedule();}"
-    + "if(d.cmd==='pause'){playing=false;clearTimeout(timer);}"
-    + "if(d.cmd==='sim'){var on=!!d.on;userSim=on;if(TRIGGER==='hover'){simClass(on,'uilib-sim-hover');}else if(TRIGGER==='active'){simClass(on,'uilib-sim-active');}}"
-    + "if(d.cmd==='speed'){speed=d.speed||1;}"
-    + "if(d.cmd==='loop'){loop=!!d.loop;if(loop&&playing)schedule();}"
+    + "if(d.cmd==='setPaused'){document.documentElement.classList.toggle('uilib-paused',!!d.paused);}"
     + "if(d.cmd==='mode'){window.__uilibMode=d.mode;if(d.mode==='actual'){if(stage)stage.style.transform='scale(1)';}else{fit();}}"
     + "if(d.cmd==='remeasure'){refit();}"
     + "});"
@@ -135,17 +116,13 @@
     + "if(window.ResizeObserver&&stage){try{var ro=new ResizeObserver(refit);ro.observe(stage);if(stage.firstElementChild)ro.observe(stage.firstElementChild);}catch(e){}}"
     + "if(document.fonts&&document.fonts.ready){document.fonts.ready.then(function(){refit();});}"
     + "setTimeout(refit,2500);"
-    + "/* Grid hover/tap: the parent cannot reliably see the pointer over"
-    + "   this iframe, so the preview itself reports entry and taps. It"
-    + "   only ever turns the sim ON; the parent turns it OFF on leave. */"
-    + "function gridEnter(){if(TRIGGER!=='hover'&&TRIGGER!=='active')return;userSim=true;simClass(true,TRIGGER==='hover'?'uilib-sim-hover':'uilib-sim-active');try{parent.postMessage({uilib:'tapped'},'*');}catch(e){}}"
-    + "function gridLeave(){if(TRIGGER!=='hover'&&TRIGGER!=='active')return;userSim=false;simClass(false,TRIGGER==='hover'?'uilib-sim-hover':'uilib-sim-active');try{parent.postMessage({uilib:'left'},'*');}catch(e){}}"
-    + "var hasFinePointer=false;try{hasFinePointer=window.matchMedia('(pointer:fine)').matches;}catch(e){}"
-    + "if(!AUTOPLAY){document.documentElement.addEventListener('mouseenter',gridEnter);document.addEventListener('pointerdown',gridEnter);if(hasFinePointer){document.documentElement.addEventListener('mouseleave',gridLeave);document.addEventListener('mouseout',function(e){if(!e.relatedTarget)gridLeave();});}}"
-    + "if(TRIGGER==='static'){var st=document.createElement('style');st.textContent='.uilib-in{animation:uilibIn .6s ease both}@keyframes uilibIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}';document.head.appendChild(st);}"
+    + "/* Pause-all + reduced motion: gate CSS animations on a class. */"
+    + "var ps=document.createElement('style');ps.textContent='html.uilib-paused *,html.uilib-paused *::before,html.uilib-paused *::after{animation-play-state:paused!important}';document.head.appendChild(ps);"
+    + "if(PAUSED||reduced){document.documentElement.classList.add('uilib-paused');}"
+    + "/* Block navigation inside the preview: forms never submit away and links never leave. */"
+    + "document.addEventListener('submit',function(e){e.preventDefault();},true);"
+    + "document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;if(a)e.preventDefault();},true);"
     + "if(OVR&&OVR.background){document.body.style.background=OVR.background;}"
-    + "prime();"
-    + "if(playing){schedule();}"
     + "scheduleFit();"
     + "}catch(err){}})();";
 
@@ -158,21 +135,26 @@
     return !!(rec.vp || (ovr && ovr.width && ovr.height));
   }
 
-  function buildSrcdoc(html, trigger, autoplay, rec) {
+  function buildSrcdoc(html, trigger, rec) {
     var ovr = (window.__uilibOverrides && window.__uilibOverrides[rec.id]) || null;
     var vp = isVp(rec);
     var styles = [], m, re = /<style[^>]*>([\s\S]*?)<\/style>/gi;
     while ((m = re.exec(html))) styles.push(m[1]);
     var css = styles.join('\n').replace(INJECTED_BODY, '');
     var hasBodyBg = /body\s*\{[^}]*background/i.test(css);
+    /* Duplicate (never replace) the :hover/:active rules so the sim class
+       also matches them for the one-time fit measurement. The element's
+       real :hover/:active/:focus/:checked CSS stays intact, so real
+       interaction works. The sim class is forced only inside fit() and
+       removed before the preview is shown. */
     var sim = '';
-    if (!/@media[^{]*hover\s*:/i.test(css)) {
-      sim = css.replace(/:hover/g, '.uilib-sim-hover').replace(/:active/g, '.uilib-sim-active');
-    }
+    var dup = css.replace(/:hover/g, '.uilib-sim-hover').replace(/:active/g, '.uilib-sim-active');
+    if (dup !== css) sim = dup;
+    var paused = (window.__uilibPaused || (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches)) ? '1' : '0';
     var driver = DRIVER.replace(/__TRIGGER__/g, trigger)
-      .replace(/__AUTOPLAY__/g, autoplay ? '1' : '0')
       .replace(/__MODE__/g, vp ? 'vp' : 'fit')
-      .replace(/__OVERRIDE__/g, ovr ? JSON.stringify(ovr) : 'null');
+      .replace(/__OVERRIDE__/g, ovr ? JSON.stringify(ovr) : 'null')
+      .replace(/__PAUSED__/g, paused);
     var tag = '<script>' + driver + '<\/script>';
     if (vp) {
       /* Virtual viewport: the element fills the iframe as before; the parent
@@ -191,9 +173,9 @@
     var bodyM = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
     var bodyContent = bodyM ? bodyM[1] : html;
     var reset = '<style>html,body{margin:0;padding:0;height:100%;overflow:hidden}'
-      + 'body{display:grid;place-items:center}'
+      + 'body{display:grid;place-items:center;place-content:center}'
       + (hasBodyBg ? '' : 'body{background:transparent}')
-      + '#stage{width:max-content;max-width:100%;height:max-content;max-height:100%;transform-origin:center center}'
+      + '#stage{width:max-content;max-width:100%;height:max-content;max-height:100%;transform-origin:center center;touch-action:manipulation}'
       + '</style>';
     var simStyle = sim ? '<style id="uilib-sim">' + sim + '</style>' : '';
     return '<!doctype html><html><head><meta charset="utf-8">'
@@ -201,10 +183,10 @@
       + '<body><div id="stage">' + bodyContent + '</div>'
       + tag + '</body></html>';
   }
-  function elementSrcdoc(rec, autoplay) {
+  function elementSrcdoc(rec) {
     function attempt() {
       return fetchText(rec.path + 'index.html').then(function (html) {
-        return buildSrcdoc(html, rec.trigger, autoplay, rec);
+        return buildSrcdoc(html, rec.trigger, rec);
       });
     }
     // One retry: a single failed fetch (blip, slow connection) should not
@@ -215,7 +197,7 @@
       });
     });
   }
-  function previewIframe(rec, autoplay) {
+  function previewIframe(rec) {
     var f = document.createElement('iframe');
     f.setAttribute('sandbox', 'allow-scripts');
     f.setAttribute('title', rec.name + ' preview');
@@ -228,7 +210,7 @@
       f.style.width = f._vpW + 'px';
       f.style.height = f._vpH + 'px';
     }
-    elementSrcdoc(rec, autoplay).then(function (doc) { f.srcdoc = doc; }).catch(function () {
+    elementSrcdoc(rec).then(function (doc) { f.srcdoc = doc; }).catch(function () {
       f.srcdoc = '<p style="font:14px sans-serif;color:#888;padding:20px">Preview could not be loaded.</p>';
     });
     return f;
@@ -253,8 +235,8 @@
     return vpRO;
   }
   /* Append an iframe to a preview holder; scales virtual-viewport frames. */
-  function attachPreview(holder, rec, autoplay) {
-    var f = previewIframe(rec, autoplay);
+  function attachPreview(holder, rec) {
+    var f = previewIframe(rec);
     holder.appendChild(f);
     if (f.classList.contains('vp-frame')) {
       fitVpFrame(holder);
@@ -412,7 +394,7 @@
             '<div class="by">by ' + esc(rec.author) + ' · ' + esc(rec.category) + '</div></div>' +
           '</a>');
         strip.appendChild(card);
-        attachPreview(card.querySelector('.preview'), rec, true);
+        attachPreview(card.querySelector('.preview'), rec);
       });
     });
     setActiveTree(null, null, null);
@@ -435,17 +417,15 @@
         if (en.isIntersecting) {
           if (!holder._frame) {
             holder.querySelector('.ph') && holder.querySelector('.ph').remove();
-            // No autoplay in the grid: previews stay still until the user
-            // points at or taps that card (setCardSim), like Uiverse.
-            holder._frame = attachPreview(holder, rec, false);
-            // If the user is already pointing at this card when its
-            // preview finishes loading, play it (the earlier message
-            // may have arrived before the driver was listening).
-            holder._frame.addEventListener('load', function () {
-              if (activeSimHolder === holder) setCardSim(holder, true);
-            });
+            // Creating the iframe is not "playing": the driver never
+            // clicks, focuses, types, or simulates anything inside it.
+            holder._frame = attachPreview(holder, rec);
           }
         } else if (holder._frame) {
+          // Off screen: the iframe is removed (CSS animations stop with
+          // it). If this card was the active one, it is deactivated too.
+          var cardEl = en.target;
+          if (activeCard === cardEl) deactivateCard(cardEl);
           holder._frame.remove(); holder._frame = null;
           if (!holder.querySelector('.ph')) holder.appendChild(el('<div class="ph">Paused</div>'));
         }
@@ -454,54 +434,50 @@
     return ioCards;
   }
 
-  /* Play one grid card's preview while the user points at or taps it.
-     Only hover/active triggers get a steady sim state from the parent;
-     the rest are native (CSS animation, or the element when clicked
-     inside its iframe). Only one card plays at a time: turning one on
-     turns the previous one off. */
-  var activeSimHolder = null;
-  function setCardSim(holder, on) {
-    var rec = holder._rec;
-    if (!rec || (rec.trigger !== 'hover' && rec.trigger !== 'active')) return;
-    if (on) {
-      if (activeSimHolder && activeSimHolder !== holder) setCardSim(activeSimHolder, false);
-      activeSimHolder = holder;
-    } else if (activeSimHolder === holder) {
-      activeSimHolder = null;
-    }
-    var f = holder._frame;
-    if (!f || !f.contentWindow) return;
-    try { f.contentWindow.postMessage({ uilib: 1, cmd: 'sim', on: on }, '*'); } catch (e) {}
-  }
-
-  /* A preview reports its own entry/tap (the parent cannot see the
-     pointer over an iframe). Turn that card on, and only that card.
-     It also reports leaving the iframe (desktop mouse only): the
-     driver already turned its own sim off, so just clear it here. */
-  if (!setCardSim._tappedBound) {
-    setCardSim._tappedBound = true;
-    window.addEventListener('message', function (e) {
-      if (!e.data || !e.source) return;
-      var cards = document.querySelectorAll('.card .preview');
-      for (var i = 0; i < cards.length; i++) {
-        var h = cards[i];
-        if (h._frame && h._frame.contentWindow === e.source) {
-          if (e.data.uilib === 'tapped') { setCardSim(h, true); return; }
-          if (e.data.uilib === 'left') { setCardSim(h, false); return; }
-        }
+  /* ---------- scroll-safe grid: shield + one active card ----------
+     Every preview iframe starts with pointer-events: none under a
+     transparent shield, so scrolling/swiping over a card never touches
+     the element. Tapping the preview activates that one card only:
+     the shield is hidden, the iframe takes real events, and an
+     "Interactive" badge appears. Deactivate by tapping outside the
+     card, pressing Esc, or scrolling more than 40px. The "Tap to
+     interact" hint fades after the first activation (localStorage). */
+  var activeCard = null;
+  var activeScrollY = 0;
+  function activateCard(card) {
+    if (activeCard && activeCard !== card) deactivateCard(activeCard);
+    if (activeCard === card) return;
+    activeCard = card;
+    activeScrollY = window.scrollY;
+    card.classList.add('active');
+    try {
+      if (!localStorage.getItem('uilib-hint-seen')) {
+        localStorage.setItem('uilib-hint-seen', '1');
+        document.body.classList.add('hint-seen');
       }
+    } catch (e) {}
+  }
+  function deactivateCard(card) {
+    if (!card) return;
+    card.classList.remove('active');
+    if (activeCard === card) activeCard = null;
+  }
+  if (!activateCard._bound) {
+    activateCard._bound = true;
+    try {
+      if (localStorage.getItem('uilib-hint-seen')) document.body.classList.add('hint-seen');
+    } catch (e) {}
+    document.addEventListener('click', function (e) {
+      if (!activeCard) return;
+      if (!activeCard.contains(e.target)) deactivateCard(activeCard);
     });
-    /* The parent gets no mouse events while the pointer is over an
-       iframe, but it does get mousemove everywhere else. So when the
-       pointer moves over the parent document and is no longer over
-       the playing card, turn that card off. (This catches leaving a
-       card for empty space, which the iframe's own mouseleave can
-       miss.) */
-    document.addEventListener('mousemove', function (e) {
-      if (!activeSimHolder) return;
-      var card = activeSimHolder.closest('.card');
-      if (card && !card.contains(e.target)) setCardSim(activeSimHolder, false);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && activeCard) deactivateCard(activeCard);
     });
+    window.addEventListener('scroll', function () {
+      if (!activeCard) return;
+      if (Math.abs(window.scrollY - activeScrollY) > 40) deactivateCard(activeCard);
+    }, { passive: true });
   }
 
   function renderBrowse(params) {
@@ -598,22 +574,28 @@
     next.forEach(function (rec) {
       var card = el(
         '<article class="card" tabindex="0" role="link" aria-label="' + esc(rec.name) + ' — ' + esc(rec.category) + ' element, open preview">' +
-          '<div class="preview"><div class="ph">Paused</div><a class="get-code" href="#/' + rec.category + '/' + rec.id + '" tabindex="-1">&lt;/&gt; Get code</a></div>' +
+          '<div class="preview"><div class="ph">Paused</div>' +
+            '<div class="shield"><span class="hint">Tap to interact</span></div>' +
+            '<span class="active-badge">Interactive</span>' +
+            '<a class="get-code" href="#/' + rec.category + '/' + rec.id + '" tabindex="-1">&lt;/&gt; Get code</a></div>' +
           '<div class="meta"><div class="name">' + esc(rec.name) + '</div>' +
           '<div class="by">by ' + esc(rec.author) + ' · ' + esc(rec.category) + '</div>' +
-          '<span class="badge ' + esc(rec.trigger) + '">' + esc(triggerLabel(rec.trigger)) + '</span></div>' +
+          '<div class="meta-row"><span class="badge ' + esc(rec.trigger) + '">' + esc(triggerLabel(rec.trigger)) + '</span>' +
+          '<button class="btn small open-btn" type="button">Open ↗</button></div></div>' +
         '</article>');
-      card.style.cursor = 'pointer';
-      card.addEventListener('click', function () { go('#/' + rec.category + '/' + rec.id); });
+      /* Preview area: tap to activate (interact), never navigates.
+         Footer / Open button: navigate to the preview page. */
+      card.querySelector('.shield').addEventListener('click', function (e) {
+        e.stopPropagation();
+        activateCard(card);
+      });
+      card.querySelector('.meta').addEventListener('click', function () { go('#/' + rec.category + '/' + rec.id); });
       card.addEventListener('keydown', function (e) {
+        if (e.target !== card) return; // a button inside the card handles its own keys
         if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go('#/' + rec.category + '/' + rec.id); }
       });
       var holder = card.querySelector('.preview');
       holder._rec = rec;
-      // The preview itself reports entry/leave/tap (the parent cannot
-      // see the pointer over an iframe), so the driver is the source
-      // of truth for its sim; the parent only keeps one card playing
-      // at a time (see the 'tapped'/'left' handler by setCardSim).
       cardObserver().observe(card);
       frag.appendChild(card);
     });
@@ -680,6 +662,23 @@
       var cur = document.documentElement.getAttribute('data-theme');
       applyTheme(cur === 'dark' ? 'light' : 'dark');
     });
+    /* Pause all animations: pauses CSS animations inside every loaded
+       preview iframe (driver toggles an html.uilib-paused class).
+       Starts paused when the system prefers reduced motion. */
+    var pauseBtn = $('#pauseBtn');
+    window.__uilibPaused = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    function applyPaused(p) {
+      window.__uilibPaused = p;
+      if (!pauseBtn) return;
+      pauseBtn.setAttribute('aria-pressed', p ? 'true' : 'false');
+      pauseBtn.textContent = p ? '▶ Animations' : '⏸ Animations';
+      pauseBtn.title = p ? 'Resume all animations' : 'Pause all animations';
+      postToAllFrames('setPaused', { paused: p });
+    }
+    if (pauseBtn) {
+      applyPaused(window.__uilibPaused);
+      pauseBtn.addEventListener('click', function () { applyPaused(!window.__uilibPaused); });
+    }
     $('#menuBtn').addEventListener('click', openDrawer);
     $('#closeSidebar').addEventListener('click', closeDrawer);
     $('#scrim').addEventListener('click', closeDrawer);
@@ -917,7 +916,7 @@
   }
 
   /* ---------- preview page ---------- */
-  var previewState = null; // {rec, catData, idx, playing, speed, loop, bg, tab, iframe, files}
+  var previewState = null; // {rec, catData, idx, bg, fitMode, tab, iframe, files}
 
   function renderPreview(cat, id, params) {
     var tab = params.get('tab') || 'html';
@@ -945,9 +944,8 @@
     if (tabs.map(function (t) { return t[0]; }).indexOf(tab) === -1) tab = 'html';
     var prev = idx > 0 ? catData.elements[idx - 1] : null;
     var next = idx >= 0 && idx < catData.elements.length - 1 ? catData.elements[idx + 1] : null;
-    var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    previewState = { rec: rec, catData: catData, idx: idx, playing: !reduced, speed: 1, loop: true, bg: 'dark', fitMode: 'fit', tab: tab, iframe: null, files: {} };
+    previewState = { rec: rec, catData: catData, idx: idx, bg: 'dark', fitMode: 'fit', tab: tab, iframe: null, files: {} };
 
     view.innerHTML =
       '<div class="crumb"><a href="#/">Home</a> / <a href="#/browse?cat=' + rec.category + '">' + esc(rec.category) + '</a> / ' + esc(rec.name) + '</div>' +
@@ -961,12 +959,7 @@
       '<div class="preview-layout">' +
       '<div class="stage-wrap">' +
         '<div class="stage-toolbar">' +
-          '<button class="btn primary" id="playBtn">' + (previewState.playing ? '❚❚ Pause' : '▶ Play') + '</button>' +
-          '<button class="btn" id="restartBtn">↻ Restart</button>' +
-          '<span class="seg" id="speedSeg" role="group" aria-label="Playback speed">' +
-            '<button data-speed="0.5">0.5×</button><button data-speed="1" class="active">1×</button><button data-speed="2">2×</button>' +
-          '</span>' +
-          '<button class="btn" id="loopBtn" aria-pressed="true">↻ Loop: on</button>' +
+          '<button class="btn primary" id="resetBtn">↻ Reset</button>' +
           '<span class="spacer"></span>' +
           '<span class="seg" id="bgSeg" role="group" aria-label="Stage background">' +
             '<button data-bg="light">Light</button><button data-bg="dark" class="active">Dark</button><button data-bg="checkered">Checkered</button>' +
@@ -979,11 +972,10 @@
         '<div class="stage bg-dark" id="stage">' +
           '<div id="stageFrame" style="width:100%;height:100%"></div>' +
           '<div class="stage-hex" id="stageHex">#212121</div>' +
-          '<div class="stage-hint">Click Play or the stage to run the demo</div>' +
         '</div>' +
         '<div class="stage-meta">' +
+          '<p class="live-note">This is a live component. Hover it, click it, type in it.</p>' +
           '<p><span class="label">How it works:</span> ' + esc(rec.description) + ' ' + esc(rec.howItWorks) + '</p>' +
-          '<p><span class="label">Runs when:</span> ' + esc(triggerLabel(rec.trigger)) + (rec.needsJs ? ' · needs JavaScript' : ' · pure HTML + CSS') + '</p>' +
         '</div>' +
       '</div>' +
       '<div class="code-block">' +
@@ -1031,22 +1023,7 @@
     if (!holder) return;
     holder.innerHTML = '';
     holder._fitMode = st.fitMode;
-    var f = attachPreview(holder, st.rec, st.playing);
-    st.iframe = f;
-    var stage = $('#stage');
-    var overlay = null;
-    function showOverlay() {
-      if (overlay) return;
-      overlay = el('<button class="stage-play" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:transparent;border:0;cursor:pointer" aria-label="Play demo"><span style="background:var(--accent);color:var(--accent-text);border-radius:999px;padding:12px 22px;font-size:15px;font-weight:600;box-shadow:var(--shadow)">▶ Play demo</span></button>');
-      overlay.addEventListener('click', function () { setPlaying(true); });
-      stage.appendChild(overlay);
-    }
-    function hideOverlay() { if (overlay) { overlay.remove(); overlay = null; } }
-    st._showOverlay = showOverlay; st._hideOverlay = hideOverlay;
-    if (!st.playing) showOverlay();
-    stage.addEventListener('click', function (e) {
-      if (e.target === stage || e.target.classList.contains('stage-hint')) setPlaying(!st.playing);
-    });
+    st.iframe = attachPreview(holder, st.rec);
   }
 
   function postToFrame(cmd, extra) {
@@ -1056,16 +1033,14 @@
     if (extra) for (var k in extra) msg[k] = extra[k];
     try { st.iframe.contentWindow.postMessage(msg, '*'); } catch (e) {}
   }
-  function setPlaying(on) {
-    var st = previewState; if (!st) return;
-    st.playing = on;
-    postToFrame(on ? 'play' : 'pause');
-    var b = $('#playBtn');
-    if (b) b.textContent = on ? '❚❚ Pause' : '▶ Play';
-    var mb = $('#mobilePlay');
-    if (mb) mb.textContent = on ? '❚❚ Pause' : '▶ Play';
-    if (on) { if (st._hideOverlay) st._hideOverlay(); }
-    else if (st._showOverlay) st._showOverlay();
+  /* Post a driver command to every loaded preview iframe on the page
+     (grid, strip and preview stage). Used by the Pause-all toggle. */
+  function postToAllFrames(cmd, extra) {
+    var msg = { uilib: 1, cmd: cmd };
+    if (extra) for (var k in extra) msg[k] = extra[k];
+    document.querySelectorAll('iframe').forEach(function (f) {
+      try { if (f.contentWindow) f.contentWindow.postMessage(msg, '*'); } catch (e) {}
+    });
   }
   function applyFitMode() {
     var st = previewState;
@@ -1082,24 +1057,11 @@
   }
   function wirePreviewControls() {
     var st = previewState;
-    $('#playBtn').addEventListener('click', function () { setPlaying(!st.playing); });
-    $('#restartBtn').addEventListener('click', function () { mountStageFrame(); });
+    $('#resetBtn').addEventListener('click', function () { mountStageFrame(); });
     $('#fitSeg').addEventListener('click', function (e) {
       var b = e.target.closest('button[data-fit]'); if (!b) return;
       st.fitMode = b.dataset.fit;
       applyFitMode();
-    });
-    $('#speedSeg').addEventListener('click', function (e) {
-      var b = e.target.closest('button[data-speed]'); if (!b) return;
-      st.speed = parseFloat(b.dataset.speed);
-      document.querySelectorAll('#speedSeg button').forEach(function (x) { x.classList.toggle('active', x === b); });
-      postToFrame('speed', { speed: st.speed });
-    });
-    $('#loopBtn').addEventListener('click', function () {
-      st.loop = !st.loop;
-      this.textContent = '↻ Loop: ' + (st.loop ? 'on' : 'off');
-      this.setAttribute('aria-pressed', st.loop ? 'true' : 'false');
-      postToFrame('loop', { loop: st.loop });
     });
     $('#bgSeg').addEventListener('click', function (e) {
       var b = e.target.closest('button[data-bg]'); if (!b) return;
@@ -1117,19 +1079,11 @@
       if (document.fullscreenElement) document.exitFullscreen();
       else if (stage.requestFullscreen) stage.requestFullscreen();
     });
-    if (!wirePreviewControls._endedBound) {
-      wirePreviewControls._endedBound = true;
-      window.addEventListener('message', function (e) {
-        if (e.data && e.data.uilib === 'ended') setPlaying(false);
-      });
-    }
   }
   function wireMobileBar() {
     var mb = $('#mobilebar');
     mb.classList.add('show');
-    var mp = $('#mobilePlay');
-    mp.textContent = previewState.playing ? '❚❚ Pause' : '▶ Play';
-    mp.onclick = function () { setPlaying(!previewState.playing); };
+    $('#mobileReset').onclick = function () { mountStageFrame(); };
     $('#mobileCopy').onclick = function () { copyAllCode(this); };
   }
 
@@ -1238,10 +1192,6 @@
     var st = previewState;
     if (e.key === 'ArrowLeft' && st.idx > 0) { go('#/' + st.rec.category + '/' + st.catData.elements[st.idx - 1].id); }
     if (e.key === 'ArrowRight' && st.idx >= 0 && st.idx < st.catData.elements.length - 1) { go('#/' + st.rec.category + '/' + st.catData.elements[st.idx + 1].id); }
-    if (e.key === ' ') {
-      var onPreview = parseHash().path.split('/').length >= 3;
-      if (onPreview) { e.preventDefault(); setPlaying(!st.playing); }
-    }
   });
 
   initTopbar();
