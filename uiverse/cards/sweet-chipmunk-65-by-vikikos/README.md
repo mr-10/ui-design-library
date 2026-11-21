@@ -1,0 +1,70 @@
+# Sweet Chipmunk 65
+
+A card UI element from Uiverse.io by Vikikos.
+
+Source: https://uiverse.io/Vikikos/sweet-chipmunk-65
+
+Author: Vikikos
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: card
+
+Colors: #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 20px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="card">
+<div></div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Vikikos - Tags: card */
+.card {
+ width: 190px;
+ height: 254px;
+ box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+ background: #fff;
+ display: flex;
+ border-radius: 20px;
+ justify-content: center;
+ position: relative;
+ transition: all .4s;
+}
+
+.card::before {
+ content: '---content---';
+ letter-spacing: 0.2em;
+ position: absolute;
+ bottom: 8px;
+ left: 20px;
+ color: rgb(51, 51, 51);
+ font-size: 0.8em;
+ font-weight: 700;
+}
+
+.card div {
+ width: 100%;
+ height: 100%;
+ border-radius: 20px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+ cursor: pointer;
+ z-index: 10;
+ transition: all .4s;
+ background-color: #fff;
+}
+
+.card:hover div {
+ transform: translateY(-30px);
+}
+```
