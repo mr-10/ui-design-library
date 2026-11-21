@@ -1,0 +1,50 @@
+# Strange Snake 10
+
+A button UI element from Uiverse.io by Gianluks90.
+
+Source: https://uiverse.io/Gianluks90/strange-snake-10
+
+Author: Gianluks90
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: #504f4f, #bebebe, #e0e0e0, #ffffff
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<button>
+  Button
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Gianluks90 - Tags: button */
+button {
+  padding: 1em 2em;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #504f4f;
+  border: none;
+  background: #e0e0e0;
+  -webkit-box-shadow: 10px 10px 30px #bebebe, -20px -20px 60px #ffffff;
+  box-shadow: 10px 10px 30px #bebebe, -20px -20px 60px #ffffff;
+}
+
+button:hover {
+  background: #e0e0e0;
+  -webkit-box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;
+  box-shadow: inset 10px 10px 30px #bebebe, inset -10px -10px 30px #ffffff;
+}
+```
