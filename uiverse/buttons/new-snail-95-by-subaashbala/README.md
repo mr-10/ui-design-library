@@ -1,0 +1,63 @@
+# New Snail 95
+
+A button UI element from Uiverse.io by Subaashbala.
+
+Source: https://uiverse.io/Subaashbala/new-snail-95
+
+Author: Subaashbala
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: animation, button, animated, stripe
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 5px
+
+## Source Code
+
+### index.html
+
+```html
+<button class="button">
+  <div>Hover</div>
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Subaashbala  - Tags: animation, button, animated, stripe */
+.button {
+  cursor: pointer;
+  font-size: 1.25em;
+  padding: 1em 2em;
+  border-radius: 5px;
+  border: none;
+  position: relative;
+  font-weight: 900;
+  background: repeating-linear-gradient(
+    45deg,
+    rgb(255, 209, 124),
+    rgb(255, 209, 124) 10px,
+    rgb(255, 139, 97) 10px,
+    rgb(255, 139, 97) 20px
+  );
+  animation: move 500ms infinite linear forwards;
+  animation-play-state: paused;
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.199);
+}
+.button:hover {
+  animation-play-state: running;
+}
+@keyframes move {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: 30px;
+  }
+}
+```
