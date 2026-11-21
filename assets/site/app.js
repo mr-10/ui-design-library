@@ -410,22 +410,27 @@
   var ioCards = null;
   function cardObserver() {
     if (ioCards) return ioCards;
+    // Observe the whole card, not just its preview box: a card whose preview
+    // has scrolled just off the top (name still visible) must keep its
+    // preview loaded, or it looks broken. The frame is removed only once
+    // the whole card is well out of view.
     ioCards = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
-        var holder = en.target;
+        var holder = en.target.querySelector('.preview');
+        if (!holder) return;
         var rec = holder._rec;
         if (!rec) return;
         if (en.isIntersecting) {
           if (!holder._frame) {
             holder.querySelector('.ph') && holder.querySelector('.ph').remove();
-            holder._frame = attachPreview(holder, rec, false);
+            holder._frame = attachPreview(holder, rec, !!holder._gridAutoplay);
           }
         } else if (holder._frame) {
           holder._frame.remove(); holder._frame = null;
           if (!holder.querySelector('.ph')) holder.appendChild(el('<div class="ph">Paused</div>'));
         }
       });
-    }, { rootMargin: '200px' }); // was 600px: preload fewer off-screen previews, faster first paint
+    }, { rootMargin: '200px' });
     return ioCards;
   }
 
@@ -535,7 +540,15 @@
       });
       var holder = card.querySelector('.preview');
       holder._rec = rec;
-      cardObserver().observe(holder);
+      // Autoplay in the grid only for triggers that animate without
+      // focusing or clicking (hover/active pulse a class; loop/static run
+      // on their own). checked/click/focus would steal the parent's focus
+      // on every step, so they show their active state once (prime) and
+      // stay there.
+      var gridAutoplay = rec.trigger === 'hover' || rec.trigger === 'active' ||
+        rec.trigger === 'auto-loop' || rec.trigger === 'static';
+      holder._gridAutoplay = gridAutoplay;
+      cardObserver().observe(card);
       frag.appendChild(card);
     });
     grid.appendChild(frag);
