@@ -1,0 +1,114 @@
+# Friendly Parrot 96
+
+A loader UI element from Uiverse.io by Nawsome.
+
+Source: https://uiverse.io/Nawsome/friendly-parrot-96
+
+Author: Nawsome
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loader
+
+Colors: #ffffff
+
+Fonts: See styles.css
+
+Spacing and radius: 50px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="container">
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+  <div class="ball"></div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Nawsome - Tags: loader */
+.container {
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.ball {
+  width: 10px;
+  height: 10px;
+  margin: 10px auto;
+  border-radius: 50px;
+}
+
+.ball:nth-child(1) {
+  background: #ffffff;
+  animation: right2 1s infinite ease-in-out;
+}
+
+.ball:nth-child(2) {
+  background: #ffffff;
+  animation: left2 1.1s infinite ease-in-out;
+}
+
+.ball:nth-child(3) {
+  background: #ffffff;
+  animation: right2 1.05s infinite ease-in-out;
+}
+
+.ball:nth-child(4) {
+  background: #ffffff;
+  animation: left2 1.15s infinite ease-in-out;
+}
+
+.ball:nth-child(5) {
+  background: #ffffff;
+  animation: right2 1.1s infinite ease-in-out;
+}
+
+.ball:nth-child(6) {
+  background: #ffffff;
+  animation: left2 1.05s infinite ease-in-out;
+}
+
+.ball:nth-child(7) {
+  background: #ffffff;
+  animation: right2 1s infinite ease-in-out;
+}
+
+@keyframes right2 {
+  0% {
+    transform: translate(-15px);
+  }
+
+  50% {
+    transform: translate(15px);
+  }
+
+  100% {
+    transform: translate(-15px);
+  }
+}
+
+@keyframes left2 {
+  0% {
+    transform: translate(15px);
+  }
+
+  50% {
+    transform: translate(-15px);
+  }
+
+  100% {
+    transform: translate(15px);
+  }
+}
+```
