@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nasty Yak 65</title>
+<style>
+body { display: flex; min-height: 100vh; align-items: center; justify-content: center; margin: 0; }
+</style>
+<style>
+/* From Uiverse.io by G4b413l - Tags: loader */
+.spinner {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.spinner::before,
+.spinner::after {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+}
+
+.spinner::before {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, #ff00cc 0%, #212121 50%);
+  animation: spin .5s infinite linear;
+}
+
+.spinner::after {
+  width: 85%;
+  height: 85%;
+  background-color: #212121;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+</style>
+</head>
+<body>
+<div class="spinner"></div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+# Modern Rattlesnake 33
+
+A loader UI element from Uiverse.io by KhaledMatalkah.
+
+Source: https://uiverse.io/KhaledMatalkah/modern-rattlesnake-33
+
+Author: KhaledMatalkah
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: animation, loader, circle loader, line loader
+
+Colors: #ffcc00
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by KhaledMatalkah - Tags: animation, loader, circle loader, line loader */
+.loader {
+  width: 100px;
+  height: 100px;
+  border: 8px solid #ffcc00;
+  border-radius: 50%;
+  border-top-color: transparent;
+  position: relative;
+  animation: loaderAnimation 1.5s linear infinite;
+}
+
+.loader::before,
+.loader::after {
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 50%;
+  top: 50%;
+  background-color: #ffcc00;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader::before {
+  animation: loaderAnimationBefore 1s linear infinite;
+}
+
+.loader::after {
+  animation: loaderAnimationAfter 1s linear infinite;
+}
+
+@keyframes loaderAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loaderAnimationBefore {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  50% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes loaderAnimationAfter {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
+```
