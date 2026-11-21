@@ -35,6 +35,20 @@ CATEGORIES = [
     "checkboxes", "patterns", "radio-buttons", "tooltips", "notifications",
 ]
 
+# The 9 elements shown on the home-page strip. This is the single source of
+# truth for the strip; assets/site/app.js fetches data/featured.json.
+FEATURED = [
+    ("buttons", "young-newt-20-by-dexter-st"),
+    ("loaders", "serious-turkey-52-by-abrahamcalsin"),
+    ("forms", "dull-walrus-66-by-micaelgomestavares"),
+    ("checkboxes", "tiny-moose-42-by-ahmed_8975"),
+    ("loaders", "wet-mayfly-23-by-nawsome"),
+    ("loaders", "lucky-hound-44-by-praashoo7"),
+    ("buttons", "brown-turtle-51-by-vinodjangid07"),
+    ("tooltips", "hard-starfish-64-by-mohammad-rahme-576"),
+    ("forms", "short-panther-37-by-d3oxy"),
+]
+
 BODY_RE = re.compile(r"<body[^>]*>(.*?)</body>", re.S | re.I)
 SITE = "https://mr-10.github.io/ui-design-library"
 
@@ -157,6 +171,21 @@ def main() -> int:
     (DATA / "categories.json").write_text(json.dumps(
         {"version": version, "total": total, "categories": categories_out},
         ensure_ascii=False, indent=1) + "\n")
+
+    # Featured strip (home page): just these 9 records, so the home page
+    # fetches ~5 KB instead of five whole category files (~1.3 MB).
+    by_id = {}
+    for cat, eid in FEATURED:
+        data = json.loads((DATA / f"{cat}.json").read_text())
+        for el in data["elements"]:
+            if el["id"] == eid:
+                by_id[eid] = el
+                break
+    featured = [by_id[eid] for _, eid in FEATURED if eid in by_id]
+    (DATA / "featured.json").write_text(json.dumps(
+        {"version": version, "elements": featured},
+        ensure_ascii=False, indent=1) + "\n")
+    print(f"featured: {len(featured)} elements")
 
     cat_lines = "\n".join(
         f"- {c['name']}: {c['count']} elements" for c in categories_out)

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- UI Design Library sitemap. The site is a hash-routed single-page app,
+     so crawlers can only reach the real URLs: the root and the data files.
+     Element pages live under #/<category>/<id> and are not separate URLs. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://mr-10.github.io/ui-design-library/</loc><priority>1.0</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/llms.txt</loc><priority>0.8</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/data/index.min.json</loc><priority>0.8</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/data/categories.json</loc><priority>0.8</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/data/buttons.json</loc><priority>0.6</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/data/loaders.json</loc><priority>0.6</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/data/cards.json</loc><priority>0.6</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/data/toggle-switches.json</loc><priority>0.6</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/data/inputs.json</loc><priority>0.6</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/data/forms.json</loc><priority>0.6</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/data/checkboxes.json</loc><priority>0.6</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/data/patterns.json</loc><priority>0.6</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/data/radio-buttons.json</loc><priority>0.6</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/data/tooltips.json</loc><priority>0.6</priority></url>
+  <url><loc>https://mr-10.github.io/ui-design-library/data/notifications.json</loc><priority>0.6</priority></url>
+</urlset>

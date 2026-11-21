@@ -5,18 +5,6 @@
   var REPO = 'https://github.com/mr-10/ui-design-library';
   var CATEGORIES = ['buttons', 'loaders', 'cards', 'toggle-switches', 'inputs',
     'forms', 'checkboxes', 'patterns', 'radio-buttons', 'tooltips', 'notifications'];
-  var FEATURED = [
-    ['buttons', 'young-newt-20-by-dexter-st'],
-    ['loaders', 'serious-turkey-52-by-abrahamcalsin'],
-    ['forms', 'dull-walrus-66-by-micaelgomestavares'],
-    ['checkboxes', 'tiny-moose-42-by-ahmed_8975'],
-    ['loaders', 'wet-mayfly-23-by-nawsome'],
-    ['loaders', 'lucky-hound-44-by-praashoo7'],
-    ['buttons', 'brown-turtle-51-by-vinodjangid07'],
-    ['tooltips', 'hard-starfish-64-by-mohammad-rahme-576'],
-    ['forms', 'short-panther-37-by-d3oxy']
-  ];
-
   /* ---------- helpers ---------- */
   function $(s, r) { return (r || document).querySelector(s); }
   function esc(s) {
@@ -306,6 +294,7 @@
   }
 
   /* ---------- router ---------- */
+  var navGen = 0; // increments on every navigation; async renders bail if it changed
   function parseHash() {
     var h = location.hash || '#/';
     var raw = h.slice(2);
@@ -317,6 +306,7 @@
   function go(hash) { location.hash = hash; }
 
   function route() {
+    navGen++;
     closeDrawer();
     var r = parseHash();
     var parts = r.path.split('/').filter(Boolean);
@@ -358,7 +348,9 @@
       var t = $('#homeTotal'); if (t) t.textContent = m.total.toLocaleString('en-US');
     });
     var strip = $('#strip');
-    Promise.all(FEATURED.map(function (f) { return findElement(f[0], f[1]); })).then(function (recs) {
+    // The strip uses data/featured.json (9 records, ~5 KB) instead of the
+    // five whole category files (~1.3 MB) — keeps the home page fast.
+    fetchJSON('data/featured.json').then(function (d) { return d.elements; }).then(function (recs) {
       if (!strip.isConnected) return;
       strip.innerHTML = '';
       recs.forEach(function (rec) {
@@ -395,7 +387,7 @@
           if (!holder.querySelector('.ph')) holder.appendChild(el('<div class="ph">Paused</div>'));
         }
       });
-    }, { rootMargin: '600px' });
+    }, { rootMargin: '200px' }); // was 600px: preload fewer off-screen previews, faster first paint
     return ioCards;
   }
 
@@ -482,11 +474,17 @@
     if (!grid || browse.loading) return;
     var next = browse.results.slice(browse.shown, browse.shown + BATCH);
     var lm = $('#loadMore');
+    if (!browse.results.length) {
+      grid.innerHTML = '<div class="empty-state" style="grid-column:1/-1"><h2>No elements match</h2><p>Try a different search, category, trigger, or tag.</p></div>';
+      updateCount();
+      if (lm) lm.disabled = true;
+      return;
+    }
     if (!next.length) { if (lm) lm.disabled = browse.shown >= browse.results.length; return; }
     var frag = document.createDocumentFragment();
     next.forEach(function (rec) {
       var card = el(
-        '<article class="card">' +
+        '<article class="card" tabindex="0" role="link" aria-label="' + esc(rec.name) + ' — ' + esc(rec.category) + ' element, open preview">' +
           '<div class="preview"><div class="ph">Paused</div></div>' +
           '<div class="meta"><div class="name">' + esc(rec.name) + '</div>' +
           '<div class="by">by ' + esc(rec.author) + ' · ' + esc(rec.category) + '</div>' +
@@ -494,6 +492,9 @@
         '</article>');
       card.style.cursor = 'pointer';
       card.addEventListener('click', function () { go('#/' + rec.category + '/' + rec.id); });
+      card.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go('#/' + rec.category + '/' + rec.id); }
+      });
       var holder = card.querySelector('.preview');
       holder._rec = rec;
       cardObserver().observe(holder);
@@ -503,9 +504,6 @@
     browse.shown += next.length;
     updateCount();
     if (lm) lm.disabled = browse.shown >= browse.results.length;
-    if (!browse.results.length) {
-      grid.innerHTML = '<div class="empty-state" style="grid-column:1/-1"><h2>No elements match</h2><p>Try a different search, category, trigger, or tag.</p></div>';
-    }
   }
 
   /* ---------- top bar / theme ---------- */
@@ -806,12 +804,15 @@
 
   function renderPreview(cat, id, params) {
     var tab = params.get('tab') || 'html';
+    var gen = navGen;
     document.title = 'Loading… — UI Design Library';
     $('#mobilebar').hidden = false;
     findElement(cat, id).then(function (rec) {
+      if (gen !== navGen) return; // user navigated away while loading
       if (!rec) { renderNotFound(); return; }
       document.title = rec.name + ' — UI Design Library';
       loadCategory(cat).then(function (d) {
+        if (gen !== navGen) return;
         var idx = -1;
         d.elements.forEach(function (e, i) { if (e.id === id) idx = i; });
         openPreview(rec, d, idx, tab);
@@ -994,9 +995,12 @@
       if (document.fullscreenElement) document.exitFullscreen();
       else if (stage.requestFullscreen) stage.requestFullscreen();
     });
-    window.addEventListener('message', function (e) {
-      if (e.data && e.data.uilib === 'ended') setPlaying(false);
-    });
+    if (!wirePreviewControls._endedBound) {
+      wirePreviewControls._endedBound = true;
+      window.addEventListener('message', function (e) {
+        if (e.data && e.data.uilib === 'ended') setPlaying(false);
+      });
+    }
   }
   function wireMobileBar() {
     var mb = $('#mobilebar');

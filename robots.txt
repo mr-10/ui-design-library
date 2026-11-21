@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mr-10.github.io/ui-design-library/sitemap.xml

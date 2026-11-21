@@ -1,0 +1,268 @@
+{
+ "version": "b62515dc6880",
+ "elements": [
+  {
+   "id": "young-newt-20-by-dexter-st",
+   "name": "Young Newt 20",
+   "category": "buttons",
+   "author": "dexter-st",
+   "link": "https://uiverse.io/dexter-st/young-newt-20",
+   "path": "uiverse/buttons/young-newt-20-by-dexter-st/",
+   "description": "A button UI element.",
+   "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "buttons",
+    "hover",
+    "css"
+   ],
+   "colors": [
+    "#65e5ff",
+    "#65cbff",
+    "#b2f2ff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "serious-turkey-52-by-abrahamcalsin",
+   "name": "Serious Turkey 52",
+   "category": "loaders",
+   "author": "abrahamcalsin",
+   "link": "https://uiverse.io/abrahamcalsin/serious-turkey-52",
+   "path": "uiverse/loaders/serious-turkey-52-by-abrahamcalsin/",
+   "description": "A loader with spinner and dots styling.",
+   "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+   "trigger": "auto-loop",
+   "needsJs": false,
+   "tags": [
+    "loader",
+    "spinner",
+    "dots",
+    "auto-loop"
+   ],
+   "colors": [
+    "#183153",
+    "#121f35"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "dull-walrus-66-by-micaelgomestavares",
+   "name": "Dull Walrus 66",
+   "category": "forms",
+   "author": "micaelgomestavares",
+   "link": "https://uiverse.io/micaelgomestavares/dull-walrus-66",
+   "path": "uiverse/forms/dull-walrus-66-by-micaelgomestavares/",
+   "description": "A form UI element.",
+   "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "forms",
+    "hover",
+    "css"
+   ],
+   "colors": [
+    "#2d79f3",
+    "#151717",
+    "#ecedec"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "tiny-moose-42-by-ahmed_8975",
+   "name": "Tiny Moose 42",
+   "category": "checkboxes",
+   "author": "ahmed_8975",
+   "link": "https://uiverse.io/ahmed_8975/tiny-moose-42",
+   "path": "uiverse/checkboxes/tiny-moose-42-by-ahmed_8975/",
+   "description": "A checkbox UI element.",
+   "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "checkboxes",
+    "checked",
+    "css"
+   ],
+   "colors": [
+    "#c8f060",
+    "#60f0b8",
+    "#080a0f"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "wet-mayfly-23-by-nawsome",
+   "name": "Wet Mayfly 23",
+   "category": "loaders",
+   "author": "Nawsome",
+   "link": "https://uiverse.io/Nawsome/wet-mayfly-23",
+   "path": "uiverse/loaders/wet-mayfly-23-by-nawsome/",
+   "description": "A loader with hamster, wheel and svg styling.",
+   "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+   "trigger": "auto-loop",
+   "needsJs": false,
+   "tags": [
+    "loader",
+    "hamster",
+    "wheel",
+    "svg",
+    "animal",
+    "auto-loop"
+   ],
+   "colors": [
+    "#f9cc9e",
+    "#fce5ce",
+    "#fbb6b6"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "lucky-hound-44-by-praashoo7",
+   "name": "Lucky Hound 44",
+   "category": "loaders",
+   "author": "Praashoo7",
+   "link": "https://uiverse.io/Praashoo7/lucky-hound-44",
+   "path": "uiverse/loaders/lucky-hound-44-by-praashoo7/",
+   "description": "A loader with neumorphism, animation and smooth styling.",
+   "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+   "trigger": "auto-loop",
+   "needsJs": false,
+   "tags": [
+    "neumorphism",
+    "animation",
+    "loader",
+    "smooth",
+    "shadow",
+    "realistic"
+   ],
+   "colors": [
+    "#e0e0e0",
+    "#e2e2e2",
+    "#d3d2d2"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "brown-turtle-51-by-vinodjangid07",
+   "name": "Brown Turtle 51",
+   "category": "buttons",
+   "author": "vinodjangid07",
+   "link": "https://uiverse.io/vinodjangid07/brown-turtle-51",
+   "path": "uiverse/buttons/brown-turtle-51-by-vinodjangid07/",
+   "description": "A button with purple, click-effect and shop-now styling.",
+   "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+   "trigger": "active",
+   "needsJs": false,
+   "tags": [
+    "purple",
+    "button",
+    "click-effect",
+    "shop-now",
+    "active"
+   ],
+   "colors": [
+    "#8b71ff",
+    "#d6cafe",
+    "#9e81fe"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "hard-starfish-64-by-mohammad-rahme-576",
+   "name": "Hard Starfish 64",
+   "category": "tooltips",
+   "author": "Mohammad-Rahme-576",
+   "link": "https://uiverse.io/Mohammad-Rahme-576/hard-starfish-64",
+   "path": "uiverse/tooltips/hard-starfish-64-by-mohammad-rahme-576/",
+   "description": "A tooltip UI element.",
+   "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "tooltip",
+    "hover",
+    "css"
+   ],
+   "colors": [
+    "#6e8efb",
+    "#a777e3",
+    "#1e1e1e"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "short-panther-37-by-d3oxy",
+   "name": "Short Panther 37",
+   "category": "forms",
+   "author": "D3OXY",
+   "link": "https://uiverse.io/D3OXY/short-panther-37",
+   "path": "uiverse/forms/short-panther-37-by-d3oxy/",
+   "description": "A form with github, google and login-form styling.",
+   "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "form",
+    "github",
+    "google",
+    "login-form",
+    "sign-up-form",
+    "card-animation"
+   ],
+   "colors": [
+    "#323232",
+    "#d3d3d3",
+    "#2d8cf0"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  }
+ ]
+}
