@@ -1,0 +1,101 @@
+# Silly Firefox 72
+
+A button UI element from Uiverse.io by ArturCodeCraft.
+
+Source: https://uiverse.io/ArturCodeCraft/silly-firefox-72
+
+Author: ArturCodeCraft
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: icon, apple, button, menuicon, menu button , hamburger menu
+
+Colors: #fff
+
+Fonts: inherit
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<button class="menu__icon">
+  <span></span>
+  <span></span>
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by ArturCodeCraft - Tags: icon, apple, button, menuicon, menu button , hamburger menu */
+/* <reset-style> ============================ */
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+/* <main-style> ============================ */
+.menu__icon {
+  width: 2rem;
+  height: 2rem;
+  padding: .25rem;
+  background-color: rgb(29, 29, 31, .7);
+  backdrop-filter: saturate(180%) blur(20px);
+  border: solid 1px rgba(66,66,69,0.7);
+  position: relative;
+}
+
+.menu__icon span {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: calc(.25rem - 1px);
+  left: calc(.25rem - 1px);
+  transition: transform .1806s cubic-bezier(.04,.04,.12,.96);
+}
+
+.menu__icon span:before {
+  content: '';
+  width: 1.5rem;
+  height: .125rem;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  transition: transform .1596s cubic-bezier(.52,.16,.52,.84) .1008s;
+}
+
+.menu__icon span:nth-child(1)::before {
+  top: .625rem;
+  transform: translateY(-3px);
+}
+
+.menu__icon span:nth-child(2)::before {
+  bottom: .625rem;
+  transform: translateY(3px);
+}
+
+.menu__icon:hover :nth-child(1),
+.menu__icon:hover :nth-child(2) {
+  transition: transform .3192s cubic-bezier(.04,.04,.12,.96) .1008s;
+}
+
+.menu__icon:hover :nth-child(1)::before,
+.menu__icon:hover :nth-child(2)::before {
+  transform: none;
+  transition: transform .1806s cubic-bezier(.04,.04,.12,.96);
+}
+
+.menu__icon:hover :nth-child(1) {
+  transform: rotate(45deg) translateY(1px);
+}
+
+.menu__icon:hover :nth-child(2) {
+  transform: rotate(-45deg) translateY(-1px);
+}
+```
