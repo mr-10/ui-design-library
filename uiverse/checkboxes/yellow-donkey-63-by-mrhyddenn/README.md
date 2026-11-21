@@ -1,0 +1,89 @@
+# Yellow Donkey 63
+
+A checkbox UI element from Uiverse.io by mrhyddenn.
+
+Source: https://uiverse.io/mrhyddenn/yellow-donkey-63
+
+Author: mrhyddenn
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: checkbox, circle
+
+Colors: #e5e5e5
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<label class="container">
+    <input checked="checked" type="checkbox">
+    <div class="checkmark"></div>
+</label>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by mrhyddenn - Tags: checkbox, circle */
+/* Hide the default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1.3em;
+  width: 1.3em;
+  background-color: #e5e5e5;
+  border-radius: 50%;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: seagreen;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 0.45em;
+  top: 0.25em;
+  width: 0.25em;
+  height: 0.5em;
+  border: solid white;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+}
+```
