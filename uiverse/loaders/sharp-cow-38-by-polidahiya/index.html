@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sharp Cow 38</title>
+<style>
+body { display: flex; min-height: 100vh; align-items: center; justify-content: center; margin: 0; }
+</style>
+<style>
+/* From Uiverse.io by polidahiya  - Tags: simple, loading, loader, download, downloading */
+.loadingtext p {
+  color: white;
+  position: relative;
+}
+
+.loadingtext p::after {
+  position: absolute;
+  animation: b 3s infinite linear;
+  color: white;
+  content: "";
+  left: 105%;
+}
+
+@keyframes b {
+  0% {
+    content: "";
+  }
+
+  10% {
+    content: ".";
+  }
+
+  40% {
+    content: "..";
+  }
+
+  70% {
+    content: "...";
+  }
+
+  100% {
+    content: "";
+  }
+}
+</style>
+</head>
+<body>
+<div class="loadingtext">
+  <p>Loading</p>
+</div>
+</body>
+</html>

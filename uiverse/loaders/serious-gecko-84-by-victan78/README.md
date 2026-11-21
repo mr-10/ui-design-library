@@ -1,0 +1,56 @@
+# Serious Gecko 84
+
+A loader UI element from Uiverse.io by Victan78.
+
+Source: https://uiverse.io/Victan78/serious-gecko-84
+
+Author: Victan78
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loader
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader"></div>
+<div class="loader2"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Victan78 - Tags: loader */
+.loader {
+  width: 100px;
+  height: 100px;
+  border: solid 4px rgba(231, 231, 231, 0);
+  border-top: solid 5px rgb(241, 68, 68);
+  border-radius: 50%;
+  transition: all 0.5s;
+  animation: rotation_51512 1.2s infinite cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+@keyframes rotation_51512 {
+  70% {
+    box-shadow: 0px 0px 10px 50px rgba(241, 57, 57, 0.526);
+  }
+
+  90% {
+    box-shadow: 0px 0px 10px 50px rgba(241, 57, 57, 0.04);
+  }
+
+  100% {
+    opacity: 0.5;
+    transform: rotate(360deg);
+  }
+}
+```

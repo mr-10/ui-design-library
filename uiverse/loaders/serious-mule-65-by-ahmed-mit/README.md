@@ -1,0 +1,52 @@
+# Serious Mule 65
+
+A loader UI element from Uiverse.io by AHMED-MIT.
+
+Source: https://uiverse.io/AHMED-MIT/serious-mule-65
+
+Author: AHMED-MIT
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loader, about me, accept call
+
+Colors: #474bff
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="spinner"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by AHMED-MIT - Tags: loader, about me, accept call */
+.spinner {
+  --d: 24.6px;
+  width: 4.5px;
+  height: 4.5px;
+  border-radius: 50%;
+  color: #474bff;
+  box-shadow: calc(1*var(--d))      calc(0*var(--d))     0 0,
+          calc(0.707*var(--d))  calc(0.707*var(--d)) 0 1.1px,
+          calc(0*var(--d))      calc(1*var(--d))     0 2.2px,
+          calc(-0.707*var(--d)) calc(0.707*var(--d)) 0 3.4px,
+          calc(-1*var(--d))     calc(0*var(--d))     0 4.5px,
+          calc(-0.707*var(--d)) calc(-0.707*var(--d))0 5.6px,
+          calc(0*var(--d))      calc(-1*var(--d))    0 6.7px;
+  animation: spinner-a90wxe 1s infinite steps(8);
+}
+
+@keyframes spinner-a90wxe {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+```
