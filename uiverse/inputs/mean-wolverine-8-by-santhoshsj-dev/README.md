@@ -1,0 +1,70 @@
+# Mean Wolverine 8
+
+A input UI element from Uiverse.io by SanthoshSJ-Dev.
+
+Source: https://uiverse.io/SanthoshSJ-Dev/mean-wolverine-8
+
+Author: SanthoshSJ-Dev
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: simple, material design, input, animated, line, text
+
+Colors: #08aeea, #ccc
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<div class="input-wrapper">
+  <input class="input-box" type="text" placeholder="Enter your text">
+  <span class="underline"></span>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by SanthoshSJ-Dev - Tags: simple, material design, input, animated, line, text */
+.input-wrapper {
+  position: relative;
+  width: 200px;
+  margin: 50px auto;
+}
+
+.input-box {
+  font-size: 16px;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  color: #08AEEA;
+  width: 100%;
+  background-color: transparent;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #08AEEA;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.input-box:focus {
+  border-color: #08AEEA;
+  outline: none;
+}
+
+.input-box:focus + .underline {
+  transform: scaleX(1);
+}
+```

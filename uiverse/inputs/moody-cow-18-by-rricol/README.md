@@ -1,0 +1,96 @@
+# Moody Cow 18
+
+A input UI element from Uiverse.io by rricol.
+
+Source: https://uiverse.io/rricol/moody-cow-18
+
+Author: rricol
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: email, input
+
+Colors: #161616, #72e985, #858585
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<div class="input-box">
+  <label class="input-label">Email</label>
+  <input placeholder="user@mail.com" class="input" name="email" type="email">
+  <span class="input-helper">enter a valid email</span>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by rricol - Tags: email, input */
+.input {
+  position: relative;
+  max-width: 190px;
+  border: none;
+  box-shadow: 0px 1.5px 0px 0px #858585;
+  padding: .5rem;
+  transition: all 200ms ease-in-out;
+  opacity: .8;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  font-size: .625rem;
+  font-weight: bold;
+  color: #858585;
+  margin-bottom: 4px;
+  margin-left: 1px;
+}
+
+.input-helper {
+  color: #858585;
+  font-size: .5rem;
+  margin-top: 6px;
+  margin-left: 1px;
+  visibility: hidden;
+  transform: translateY(-.5rem);
+  transition: all 100ms linear;
+  z-index: -1;
+}
+
+.input::placeholder {
+  color: rgb(145, 145, 145);
+  font-size: .75rem;
+}
+
+.input::after {
+  content: attr(placeholder);
+  position: absolute;
+  color: #161616;
+  top: 0;
+  left: 0;
+}
+
+.input:focus {
+  border: none;
+  box-shadow: 0px 1.5px 0px 0px #72E985;
+  outline: none;
+}
+
+.input:focus + .input-helper {
+  visibility: visible;
+  transform: translateY(0rem);
+}
+
+.input:focus::placeholder {
+  visibility: hidden;
+}
+```
