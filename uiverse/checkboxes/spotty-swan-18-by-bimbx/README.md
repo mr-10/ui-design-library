@@ -1,0 +1,90 @@
+# Spotty Swan 18
+
+A checkbox UI element from Uiverse.io by bimbx.
+
+Source: https://uiverse.io/bimbx/spotty-swan-18
+
+Author: bimbx
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: checkbox
+
+Colors: #606062, #a8e4a0, #b9e9b3
+
+Fonts: See styles.css
+
+Spacing and radius: 5px
+
+## Source Code
+
+### index.html
+
+```html
+<label class="container">
+  <input checked="checked" type="checkbox">
+  <div class="checkmark"></div>
+</label>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by bimbx - Tags: checkbox */
+/* Hide the default checkbox */
+.container input {
+ position: absolute;
+ opacity: 0;
+ cursor: pointer;
+ height: 0;
+ width: 0;
+}
+
+.container {
+ display: block;
+ position: relative;
+ cursor: pointer;
+ font-size: 20px;
+ user-select: none;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+ position: relative;
+ top: 0;
+ left: 0;
+ height: 1.3em;
+ width: 1.3em;
+ background: #606062;
+ border-radius: 5px;
+ box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.30), 0px 1px 1px rgba(0,5);
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+ background-image: linear-gradient(#b9e9b3,#a8e4a0)
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+ content: "";
+ position: absolute;
+ display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+ display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+ left: 0.45em;
+ top: 0.25em;
+ width: 0.25em;
+ height: 0.5em;
+ border: solid white;
+ border-width: 0 0.15em 0.15em 0;
+ transform: rotate(45deg);
+}
+```
