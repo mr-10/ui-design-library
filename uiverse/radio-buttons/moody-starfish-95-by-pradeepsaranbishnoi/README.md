@@ -1,0 +1,91 @@
+# Moody Starfish 95
+
+A radio button UI element from Uiverse.io by Pradeepsaranbishnoi.
+
+Source: https://uiverse.io/Pradeepsaranbishnoi/moody-starfish-95
+
+Author: Pradeepsaranbishnoi
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: simple, button, radio
+
+Colors: #0000002e, #454857, #74bbad, #79485f7a, #95d891, #bdbdbdbd, #fff
+
+Fonts: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+
+Spacing and radius: 2px, 3px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="radio">
+  <input
+    checked=""
+    value="male"
+    name="gender"
+    id="male"
+    type="radio"
+    label="Yes"
+  />
+  <input value="female" name="gender" id="female" type="radio" label="No" />
+  <input
+    value="other"
+    name="gender"
+    id="other"
+    type="radio"
+    label="Keep Smile 😊"
+  />
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Pradeepsaranbishnoi  - Website: https://codepen.io/scottyzen/pen/ZEWYdZm - Name: Scott - Tags: simple, button, radio */
+.radio {
+  background: #454857;
+  padding: 4px;
+  border-radius: 3px;
+  box-shadow: inset 0 0 0 3px rgba(35, 33, 45, 0.3),
+    0 0 0 3px rgba(185, 185, 185, 0.3);
+  position: relative;
+}
+
+.radio input {
+  width: auto;
+  height: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 4px 8px;
+  background: #454857;
+  color: #bdbdbdbd;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  transition: all 100ms linear;
+}
+
+.radio input:checked {
+  background-image: linear-gradient(180deg, #95d891, #74bbad);
+  color: #fff;
+  box-shadow: 0 1px 1px #0000002e;
+  text-shadow: 0 1px 0px #79485f7a;
+}
+
+.radio input:before {
+  content: attr(label);
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+```

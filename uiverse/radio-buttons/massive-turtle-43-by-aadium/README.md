@@ -1,0 +1,163 @@
+# Massive Turtle 43
+
+A radio button UI element from Uiverse.io by aadium.
+
+Source: https://uiverse.io/aadium/massive-turtle-43
+
+Author: aadium
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: cyberpunk, radio, futuristic
+
+Colors: #78cce2, #defe47, #f887ff
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<label class="container" id="left">
+  <input type="radio" name="my-radio-button">
+  <div class="selected" id="leftradio"></div>
+</label>
+<label class="container" id="middle">
+  <input type="radio" name="my-radio-button">
+  <div class="selected" id="middleradio"></div>
+</label>
+<label class="container" id="right">
+  <input type="radio" name="my-radio-button">
+  <div class="selected" id="rightradio"></div>
+</label>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by aadium - Tags: cyberpunk, radio, futuristic */
+.container input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 17px;
+  width: 5em;
+  height: 2.5em;
+  user-select: none;
+  border: none;
+}
+
+.selected {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#leftradio {
+  border-bottom-left-radius: 2.5em;
+  border-top-left-radius: 2.5em;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border: 3px solid #78cce2;
+  background-color: transparent;
+  transition: 0.2s ease-in;
+}
+
+#rightradio {
+  border-bottom-right-radius: 2.5em;
+  border-top-right-radius: 2.5em;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: 3px solid #defe47;
+  background-color: transparent;
+  transition: 0.2s linear;
+}
+
+#middleradio {
+  border: 3px solid #f887ff;
+  background-color: transparent;
+  transition: 0.2s linear;
+}
+
+.selected:after {
+  content: '';
+  position: absolute;
+  background-color: 78cce2;
+  width: 100%;
+  height: 90%;
+  transform: scale(0);
+  transition: 0.2s ease-out;
+}
+
+#leftradio:hover {
+  border-bottom-left-radius: 2.5em;
+  border-top-left-radius: 2.5em;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border: 3px solid #78cce2;
+  background-color: #78cce2;
+}
+
+#leftradio::after {
+  top: 0%;
+  height: 100%;
+  border-bottom-left-radius: 2.5em;
+  border-top-left-radius: 2.5em;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border: none;
+  background-color: #78cce2;
+  box-shadow: 0em 0em 4em 0.1em #78cce2;
+}
+
+#rightradio:hover {
+  border-bottom-right-radius: 2.5em;
+  border-top-right-radius: 2.5em;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: 3px solid #defe47;
+  background-color: #defe47;
+}
+
+#rightradio::after {
+  left: -3%;
+  top: -1%;
+  border-bottom-right-radius: 2.5em;
+  border-top-right-radius: 2.5em;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border: 3px solid #defe47;
+  background-color: #defe47;
+  box-shadow: 0em 0em 4em 0.1em #defe47;
+}
+
+#middleradio:hover {
+  border: 3px solid #f887ff;
+  background-color: #f887ff;
+}
+
+#middleradio::after {
+  left: -3%;
+  top: -3%;
+  border: 3px solid #f887ff;
+  background-color: #f887ff;
+  box-shadow: 0em 0em 4em 0.1em #f887ff;
+}
+
+.container input[type="radio"]:checked ~ .selected:after {
+  transform: scale(1);
+}
+```

@@ -1,0 +1,79 @@
+# Neat Turkey 32
+
+A radio button UI element from Uiverse.io by AmIt-DasIT.
+
+Source: https://uiverse.io/AmIt-DasIT/neat-turkey-32
+
+Author: AmIt-DasIT
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: dark, shadow, radio, neumorphism
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="radio-input">
+  <label class="label">
+    <input type="radio" name="radio" checked="">
+    <span class="check"></span>
+  </label>
+  <label class="label">
+    <input type="radio" name="radio">
+    <span class="check"></span>
+  </label>
+      
+  <label class="label">
+    <input type="radio" name="radio">
+    <span class="check"></span>
+  </label>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by AmIt-DasIT - Tags: dark, shadow, radio, neumorphism */
+.radio-input .label input {
+  display: none;
+}
+
+.radio-input {
+  display: flex;
+  gap: 20px;
+}
+
+.radio-input .label {
+  display: flex;
+}
+
+.radio-input .label .check {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 3px solid transparent;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5),
+   -1px -1px 4px rgba(255, 255, 255, 0.5);
+}
+
+.radio-input .label input:checked + .check {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5),
+   -1px -1px 4px rgba(255, 255, 255, 0.5),
+   inset 3px 3px 6px rgba(0, 0, 0, 0.5),
+   inset -1px -1px 4px rgba(255, 255, 255, 0.5);
+  transform: scale(1.1);
+}
+```

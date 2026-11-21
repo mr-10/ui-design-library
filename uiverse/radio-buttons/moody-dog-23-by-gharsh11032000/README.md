@@ -1,0 +1,112 @@
+# Moody Dog 23
+
+A radio button UI element from Uiverse.io by gharsh11032000.
+
+Source: https://uiverse.io/gharsh11032000/moody-dog-23
+
+Author: gharsh11032000
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: radio, radio-buttons, click effect
+
+Colors: #4c8bf5, #4c8bf580, #555, #f2f2f2
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="radio-button-container">
+  <div class="radio-button">
+  <input type="radio" class="radio-button__input" id="radio1" name="radio-group">
+  <label class="radio-button__label" for="radio1">
+    <span class="radio-button__custom"></span>
+    React
+  </label>
+</div>
+<div class="radio-button">
+  <input type="radio" class="radio-button__input" id="radio2" name="radio-group">
+  <label class="radio-button__label" for="radio2">
+    <span class="radio-button__custom"></span>
+    Angular
+  </label>
+</div>
+<div class="radio-button">
+  <input type="radio" class="radio-button__input" id="radio3" name="radio-group">
+  <label class="radio-button__label" for="radio3">
+    <span class="radio-button__custom"></span>
+    Vue
+  </label>
+</div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by gharsh11032000 - Tags: radio, radio-buttons, click effect */
+.radio-button-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.radio-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.radio-button__input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.radio-button__label {
+  display: inline-block;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  position: relative;
+  font-size: 15px;
+  color: #f2f2f2;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.radio-button__custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #555;
+  transition: all 0.3s ease;
+}
+
+.radio-button__input:checked + .radio-button__label .radio-button__custom {
+  background-color: #4c8bf5;
+  border-color: transparent;
+  transform: scale(0.8);
+  box-shadow: 0 0 20px #4c8bf580;
+}
+
+.radio-button__input:checked + .radio-button__label {
+  color: #4c8bf5;
+}
+
+.radio-button__label:hover .radio-button__custom {
+  transform: scale(1.2);
+  border-color: #4c8bf5;
+  box-shadow: 0 0 20px #4c8bf580;
+}
+```
