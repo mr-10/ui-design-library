@@ -1,0 +1,91 @@
+# Purple Zebra 61
+
+A card UI element from Uiverse.io by alexmaracinaru.
+
+Source: https://uiverse.io/alexmaracinaru/purple-zebra-61
+
+Author: alexmaracinaru
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: card
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 6px, 6px 6px 0 0
+
+## Source Code
+
+### index.html
+
+```html
+<div class="card">
+    <div class="card-image"></div>
+    <div class="category"> Illustration </div>
+    <div class="heading"> A heading that must span over two lines
+        <div class="author"> By <span class="name">Abi</span> 4 days ago</div>
+    </div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by alexmaracinaru - Tags: card */
+.card {
+  width: 190px;
+  background: white;
+  padding: .4em;
+  border-radius: 6px;
+}
+
+.card-image {
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  height: 130px;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-image:hover {
+  transform: scale(0.98);
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding: 10px 7px 0;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+}
+
+.heading:hover {
+  cursor: pointer;
+}
+
+.author {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+```
