@@ -1,0 +1,76 @@
+# Weak Fish 12
+
+A input UI element from Uiverse.io by vinodjangid07.
+
+Source: https://uiverse.io/vinodjangid07/weak-fish-12
+
+Author: vinodjangid07
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: input, creditcard, card number
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 10px, 7px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="InputContainer">
+  <input placeholder="0000 0000 0000 0000" id="input" class="input" name="text" type="text">
+<div class="visaCard">
+  <svg viewBox="0 0 48 48" height="23" width="23" y="0px" x="0px" xmlns="http://www.w3.org/2000/svg" class="logo">
+            <path d="M32 10A14 14 0 1 0 32 38A14 14 0 1 0 32 10Z" fill="#ff9800"></path><path d="M16 10A14 14 0 1 0 16 38A14 14 0 1 0 16 10Z" fill="#d50000"></path><path d="M18,24c0,4.755,2.376,8.95,6,11.48c3.624-2.53,6-6.725,6-11.48s-2.376-8.95-6-11.48 C20.376,15.05,18,19.245,18,24z" fill="#ff3d00"></path>
+            </svg>
+</div>
+
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by vinodjangid07 - Tags: input, creditcard, card number */
+.InputContainer {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(8, 8, 8);
+  overflow: hidden;
+  padding: 0px 5px 0px 15px;
+  border: 1px solid rgba(255, 255, 255, 0.322);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.input {
+  width: 170px;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 0.9em;
+  caret-color: rgb(255, 81, 0);
+  background-color: rgb(8, 8, 8);
+  font-weight: 600;
+  color: white;
+}
+
+.visaCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 40px;
+  height: 25px;
+  background-color: rgb(8, 8, 8);
+  pointer-events: none;
+  border: 1px solid rgba(255, 255, 255, 0.068);
+  border-radius: 7px;
+}
+```

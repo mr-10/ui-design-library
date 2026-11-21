@@ -1,0 +1,73 @@
+# Thin Sheep 13
+
+A input UI element from Uiverse.io by Maximinodotpy.
+
+Source: https://uiverse.io/Maximinodotpy/thin-sheep-13
+
+Author: Maximinodotpy
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: input
+
+Colors: #e8e8e8
+
+Fonts: 'Segoe UI', sans-serif
+
+Spacing and radius: 20px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="inputGroup">
+    <input type="text" required="" autocomplete="off">
+    <label for="name">Name</label>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Maximinodotpy - Tags: input */
+.inputGroup {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 1em 0 1em 0;
+  max-width: 190px;
+  position: relative;
+}
+
+.inputGroup input {
+  font-size: 100%;
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid rgb(200, 200, 200);
+  background-color: transparent;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.inputGroup label {
+  font-size: 100%;
+  position: absolute;
+  left: 0;
+  padding: 0.8em;
+  margin-left: 0.5em;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  color: rgb(100, 100, 100);
+}
+
+.inputGroup :is(input:focus, input:valid)~label {
+  transform: translateY(-50%) scale(.9);
+  margin: 0em;
+  margin-left: 1.3em;
+  padding: 0.4em;
+  background-color: #e8e8e8;
+}
+
+.inputGroup :is(input:focus, input:valid) {
+  border-color: rgb(150, 150, 200);
+}
+```

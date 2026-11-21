@@ -1,0 +1,50 @@
+# Weak Wombat 42
+
+A input UI element from Uiverse.io by escannord.
+
+Source: https://uiverse.io/escannord/weak-wombat-42
+
+Author: escannord
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: simple, 3d, input
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 10px
+
+## Source Code
+
+### index.html
+
+```html
+<input class="input" placeholder="typed here..." name="text" type="text" />
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by escannord  - Tags: simple, 3d, input */
+.input {
+  max-width: 190px;
+  height: 2rem;
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: white;
+  padding: 1rem;
+  box-shadow: 2px 2px 5px black, inset 2px 2px 5px rgb(53, 51, 51),
+    -1px -1px 20px rgba(59, 56, 56, 0.781);
+  outline: none;
+  border-radius: 10px;
+  font-size: medium;
+}
+
+.input:focus {
+  box-shadow: 2px 2px 5px black, inset 2px 2px 5px black,
+    -1px -1px 5px rgba(68, 67, 67, 0.781),
+    inset -1px -1px 5px rgba(66, 65, 65, 0.822);
+}
+```
