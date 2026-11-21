@@ -1,0 +1,98 @@
+# Plastic Mule 29
+
+A button UI element from Uiverse.io by cssbuttons-io.
+
+Source: https://uiverse.io/cssbuttons-io/plastic-mule-29
+
+Author: cssbuttons-io
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: #008542, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<button> Button
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by cssbuttons-io - Tags: button */
+button {
+ padding: 10px 40px;
+ font-size: 18px;
+ background-color: #008542;
+ color: #fff;
+ text-shadow: 0 2px 0 rgb(0 0 0 / 25%);
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ border: 0;
+ z-index: 1;
+ user-select: none;
+ cursor: pointer;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ white-space: unset;
+ padding: .8rem 1.5rem;
+ text-decoration: none;
+ font-weight: 900;
+ transition: all 0.7s cubic-bezier(0,.8,.26,.99);
+}
+
+button:before {
+ position: absolute;
+ pointer-events: none;
+ top: 0;
+ left: 0;
+ display: block;
+ width: 100%;
+ height: 100%;
+ content: '';
+ transition: .7s cubic-bezier(0,.8,.26,.99);
+ z-index: -1;
+ background-color: #008542!important;
+ box-shadow: 0 -4px rgb(21 108 0 / 50%) inset, 0 4px rgb(100 253 31 / 99%) inset, -4px 0 rgb(100 253 31 / 50%) inset, 4px 0 rgb(21 108 0 / 50%) inset;
+}
+
+button:after {
+ position: absolute;
+ pointer-events: none;
+ top: 0;
+ left: 0;
+ display: block;
+ width: 100%;
+ height: 100%;
+ content: '';
+ box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
+ transition: .7s cubic-bezier(0,.8,.26,.99);
+}
+
+button:hover:before {
+ box-shadow: 0 -4px rgb(0 0 0 / 50%) inset, 0 4px rgb(255 255 255 / 20%) inset, -4px 0 rgb(255 255 255 / 20%) inset, 4px 0 rgb(0 0 0 / 50%) inset;
+}
+
+button:hover:after {
+ box-shadow: 0 4px 0 0 rgb(0 0 0 / 15%);
+}
+
+button:active {
+ transform: translateY(4px);
+}
+
+button:active:after {
+ box-shadow: 0 0px 0 0 rgb(0 0 0 / 15%);
+}
+```
