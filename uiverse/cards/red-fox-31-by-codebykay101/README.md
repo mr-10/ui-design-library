@@ -1,0 +1,84 @@
+# Red Fox 31
+
+A card UI element from Uiverse.io by codebykay101.
+
+Source: https://uiverse.io/codebykay101/red-fox-31
+
+Author: codebykay101
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: simple, card, neon, cool card, cardhover , card animation, card hover
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<div class="container">
+  <div class="loader" style="--clr:#01e100;--i:1;"></div>
+  <div class="loader" style="--clr:#f50076;--i:2;"></div>
+  <div class="loader" style="--clr:#00e6fd;--i:3;"></div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by codebykay101  - Tags: simple, card, neon, cool card, cardhover , card animation, card hover */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.loader {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: rgba(45, 45, 45, 1);
+  overflow: hidden;
+  transform: rotate(calc(90deg * var(--i)));
+}
+
+.loader::before {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(var(--clr), transparent);
+  animation: animate 1.5s linear infinite;
+}
+
+.loader::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: rgba(45, 45, 45, 0.9);
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-150px, -150px);
+  }
+  25% {
+    transform: translate(0px, -150px);
+  }
+  50% {
+    transform: translate(0px, 0px);
+  }
+  75% {
+    transform: translate(-150px, 0px);
+  }
+  100% {
+    transform: translate(-150px, -150px);
+  }
+}
+```
