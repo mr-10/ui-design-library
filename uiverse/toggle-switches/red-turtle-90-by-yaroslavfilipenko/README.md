@@ -1,0 +1,89 @@
+# Red Turtle 90
+
+A toggle switch UI element from Uiverse.io by YaroslavFilipenko.
+
+Source: https://uiverse.io/YaroslavFilipenko/red-turtle-90
+
+Author: YaroslavFilipenko
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: slider, input, toggle switch
+
+Colors: #18333e, #b1b9c3, #f2f8fd
+
+Fonts: See styles.css
+
+Spacing and radius: 34px, 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="theme_switcher">
+  <label id="switch" class="switch">
+    <input type="checkbox"><span class="slider round"></span>
+  </label>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by YaroslavFilipenko - Tags: slider, input, toggle switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #b1b9c3;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 30px;
+  width: 30px;
+  bottom: -5px;
+  background: #18333E;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+input:checked+.slider {
+  background-color: #b1b9c3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(35px);
+  -ms-transform: translateX(35px);
+  transform: translateX(35px);
+  background: #F2F8FD;
+}
+```
