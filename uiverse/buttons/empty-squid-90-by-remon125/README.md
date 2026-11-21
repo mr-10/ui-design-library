@@ -1,0 +1,112 @@
+# Empty Squid 90
+
+A button UI element from Uiverse.io by Remon125.
+
+Source: https://uiverse.io/Remon125/empty-squid-90
+
+Author: Remon125
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: #ColorfulButton, Button design
+
+Colors: #0c071e, #edff00, #ffffff
+
+Fonts: See styles.css
+
+Spacing and radius: 6px
+
+## Source Code
+
+### index.html
+
+```html
+<button class="btn-1">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Button
+    </button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Remon125 - Tags: #ColorfulButton, Button design */
+/* Start Button 1 */
+button {
+  padding: 15px 60px;
+  background: transparent;
+  border: 2px solid #edff00;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  transition: all 0.5s;
+  text-transform: uppercase;
+}
+
+button:hover {
+  color: #0c071e;
+}
+
+button span {
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+button span:nth-child(1), 
+button span:nth-child(2), 
+button span:nth-child(3), 
+button span:nth-child(4) {
+  position: absolute;
+  width: 100%;
+  height: 15px;
+  background-color: #edff00
+}
+
+button span:nth-child(1) {
+  top: -100%;
+  left: 0%;
+  right: 0;
+}
+
+button:hover span:nth-child(1) {
+  top: 0%;
+}
+
+button span:nth-child(2) {
+  top: 10px;
+  right: 100%;
+}
+
+button:hover span:nth-child(2) {
+  right: 0;
+}
+
+button span:nth-child(3) {
+  top: 20px;
+  left: 100%;
+  right: 0;
+}
+
+button:hover span:nth-child(3) {
+  left: 0;
+}
+
+button span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+}
+
+button:hover span:nth-child(4) {
+  bottom: 0;
+}
+
+/* End Button 1 */
+```
