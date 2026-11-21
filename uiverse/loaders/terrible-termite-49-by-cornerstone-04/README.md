@@ -1,0 +1,75 @@
+# Terrible Termite 49
+
+A loader UI element from Uiverse.io by Cornerstone-04.
+
+Source: https://uiverse.io/Cornerstone-04/terrible-termite-49
+
+Author: Cornerstone-04
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loader
+
+Colors: #32ff3c, #6bff7f, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 40px, inherit
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader">
+
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Cornerstone-04 - Tags: loader */
+.loader {
+  display: inline-block;
+  width: 190px;
+  height: 10px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.loader span {
+  font: 700 22px monospace;
+  text-transform: uppercase;
+  margin: auto;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.loader::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 150%;
+  height: 100%;
+  background-image: linear-gradient(332deg, #6bff7f, #32ff3c);
+  border-radius: inherit;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: load5123 1s infinite;
+}
+
+@keyframes load5123 {
+  50% {
+    transform: scaleX(1);
+  }
+
+  100% {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+}
+```
