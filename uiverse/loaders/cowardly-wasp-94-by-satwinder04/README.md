@@ -1,0 +1,129 @@
+# Cowardly Wasp 94
+
+A loader UI element from Uiverse.io by Satwinder04.
+
+Source: https://uiverse.io/Satwinder04/cowardly-wasp-94
+
+Author: Satwinder04
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loader
+
+Colors: #db3434
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader-container">
+  <div class="loader">
+    <div class="loader-inner"></div>
+    <div class="loader-inner"></div>
+    <div class="loader-inner"></div>
+    <div class="loader-inner"></div>
+    <div class="loader-inner"></div>
+    <div class="loader-inner"></div>
+    <div class="loader-inner"></div>
+    <div class="loader-inner"></div>
+  </div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Satwinder04 - Tags: loader */
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.loader-inner {
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #db3434;
+  animation: loader_05101 1.2s linear infinite;
+}
+
+.loader-inner:nth-child(1) {
+  top: 0;
+  left: 0;
+  animation-delay: 0s;
+}
+
+.loader-inner:nth-child(2) {
+  top: 0;
+  left: 1.5rem;
+  animation-delay: 0.1s;
+}
+
+.loader-inner:nth-child(3) {
+  top: 0;
+  left: 3rem;
+  animation-delay: 0.2s;
+}
+
+.loader-inner:nth-child(4) {
+  top: 1.5rem;
+  left: 0;
+  animation-delay: 0.3s;
+}
+
+.loader-inner:nth-child(5) {
+  top: 1.5rem;
+  left: 1.5rem;
+  animation-delay: 0.4s;
+}
+
+.loader-inner:nth-child(6) {
+  top: 1.5rem;
+  left: 3rem;
+  animation-delay: 0.5s;
+}
+
+.loader-inner:nth-child(7) {
+  top: 3rem;
+  left: 0;
+  animation-delay: 0.6s;
+}
+
+.loader-inner:nth-child(8) {
+  top: 3rem;
+  left: 1.5rem;
+  animation-delay: 0.7s;
+}
+
+.loader-inner:nth-child(9) {
+  top: 3rem;
+  left: 3rem;
+  animation-delay: 0.8s;
+}
+
+@keyframes loader_05101 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+```

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cuddly Turkey 4</title>
+<style>
+body { display: flex; min-height: 100vh; align-items: center; justify-content: center; margin: 0; }
+</style>
+<style>
+/* From Uiverse.io by G4b413l - Tags: loader, after */
+.loader {
+  position: relative;
+  width: 300px;
+  height: 3px;
+  background: linear-gradient(to right, transparent, #28AE60, transparent);
+  overflow: hidden;
+}
+
+.loader::after {
+  content: '';
+  position: absolute;
+  translate: -200px 0;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #212121, transparent);
+  animation: slide 1s infinite;
+}
+
+@keyframes slide {
+  100% {
+    translate: 300px 0;
+  }
+}
+</style>
+</head>
+<body>
+<div class="loader"></div>
+</body>
+</html>

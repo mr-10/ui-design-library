@@ -1,0 +1,88 @@
+# Curly Bullfrog 98
+
+A loader UI element from Uiverse.io by Bodyhc.
+
+Source: https://uiverse.io/Bodyhc/curly-bullfrog-98
+
+Author: Bodyhc
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loading, loader, cube, loading animation, 3d loader
+
+Colors: #01b4f9, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 10px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="wrapper">
+  <div class="cube">
+    <div class="side front"></div>
+    <div class="side back"></div>
+    <div class="side top"></div>
+    <div class="side bottom"></div>
+    <div class="side left"></div>
+    <div class="side right"></div>
+  </div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Bodyhc  - Tags: loading, loader, cube, loading animation, 3d loader */
+.wrapper {
+  perspective: 1000px;
+}
+.cube {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: animate 4s linear infinite;
+}
+.side {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  display: grid;
+  background-color: #01b4f9;
+  border-radius: 10px;
+  place-content: center;
+  border: 3px solid #fff;
+}
+
+.front {
+  transform: translateZ(100px);
+}
+.back {
+  transform: rotateY(180deg) translateZ(100px);
+}
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+.left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+.right {
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+@keyframes animate {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  100% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+```
