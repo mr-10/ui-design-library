@@ -1,0 +1,75 @@
+# Little Mouse 69
+
+A loader UI element from Uiverse.io by Cornerstone-04.
+
+Source: https://uiverse.io/Cornerstone-04/little-mouse-69
+
+Author: Cornerstone-04
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loader
+
+Colors: #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader">
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Cornerstone-04 - Tags: loader */
+.loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: 0.5s linear;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  animation: bounce6135 1s alternate infinite;
+  transition: 0.5s linear;
+}
+
+.ball {
+  background: #fff;
+}
+
+.ball:nth-child(2) {
+  animation-delay: 0.25s;
+}
+
+.ball:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+@keyframes bounce6135 {
+  from {
+    transform: scale(2);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+```
