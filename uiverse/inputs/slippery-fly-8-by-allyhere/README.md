@@ -1,0 +1,89 @@
+# Slippery Fly 8
+
+A input UI element from Uiverse.io by Allyhere.
+
+Source: https://uiverse.io/Allyhere/slippery-fly-8
+
+Author: Allyhere
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: input
+
+Colors: See styles.css
+
+Fonts: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+Spacing and radius: 0.2em
+
+## Source Code
+
+### index.html
+
+```html
+<p class="input-container">
+    <input type="text" placeholder="Enter your name" name="text" id="text" class="input-field" autocomplete="name">
+    <label class="input-label" for="text">Name</label>
+</p>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Allyhere - Tags: input */
+.input-container {
+  --c-text: rgb(50, 50, 80);
+  --c-bg: rgb(252, 252, 252);
+  --c-outline: rgb(55, 45 , 190);
+  display: grid;
+  gap: 1ch;
+  position: relative;
+  max-width: 190px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.input-field {
+  padding: 0.5em 0.75em;
+  border-radius: 0.2em;
+  border: 1px solid var(--c-border, currentColor);
+  color: var(--c-text);
+  font-size: 1rem;
+  letter-spacing: 0.1ch;
+  width: 100%;
+}
+
+.input-field:not(:placeholder-shown) + .input-label {
+  transform: translateY(-220%);
+  opacity: 1;
+}
+
+.input-field:invalid {
+  --c-border: rgb(230, 85, 60);
+  --c-text: rgb(230, 85, 60);
+  --c-outline: rgb(230, 85, 60);
+}
+
+.input-field:is(:disabled, :read-only) {
+  --c-border: rgb(150, 150, 150);
+  --c-text: rgb(170, 170, 170);
+}
+
+.input-field:is(:focus, :focus-visible) {
+  outline: 2px solid var(--c-outline);
+  outline-offset: 2px;
+}
+
+.input-label {
+  --timing: 200ms ease-in;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transition: transform var(--timing),
+    opacity var(--timing);
+  transform: translateY(-50%);
+  opacity: 0;
+  color: var(--c-text);
+  font-weight: 500;
+}
+```
