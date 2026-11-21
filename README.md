@@ -26,6 +26,7 @@
 - [Features](#-features)
 - [Categories](#-categories)
 - [How to Use](#-how-to-use)
+- [Use with AI agents](#-use-with-ai-agents)
 - [Quick Start](#-quick-start)
 - [Preview Gallery](#-preview-gallery)
 - [Folder Structure](#-folder-structure)
@@ -71,6 +72,49 @@ It is made for **developers, designers, and students** who want beautiful, produ
 2. **Open an element** — open an element folder and read its `README.md`, or open `index.html` to see it live.
 3. **Copy the code** — copy the HTML from `index.html` and the CSS from `styles.css`.
 4. **Paste into your project** — drop the code into your page, tweak the colors, and ship it. That's it.
+
+## 🤖 Use with AI agents
+
+Give your AI coding assistant access to all 3,805 elements through the
+[MCP server](mcp/) (`ui-design-library-mcp`, free, no login, no API key).
+It searches the library, fetches one element at a time, and keeps the
+author credit. Full setup page:
+[mr-10.github.io/ui-design-library/#/ai-agents](https://mr-10.github.io/ui-design-library/#/ai-agents).
+
+Add this to your client config (Claude Desktop, Cursor, VS Code, Windsurf):
+
+```json
+{
+  "mcpServers": {
+    "ui-design-library": {
+      "command": "npx",
+      "args": ["-y", "ui-design-library-mcp"]
+    }
+  }
+}
+```
+
+Or with Claude Code, run once:
+
+```bash
+claude mcp add ui-design-library -- npx -y ui-design-library-mcp
+```
+
+Then ask, for example: *"Add a glowing hover button to my page."* The agent
+searches, fetches the best match, and adds it with the author credit.
+
+Prefer the terminal? The same package ships a `ui-lib` command:
+
+```bash
+ui-lib search "glowing button"
+ui-lib get <id> --format react
+ui-lib add <id> --dir ./components
+```
+
+Machine-readable data: [`data/index.min.json`](https://mr-10.github.io/ui-design-library/data/index.min.json),
+[`data/categories.json`](https://mr-10.github.io/ui-design-library/data/categories.json),
+one file per element at `api/<category>/<id>.json`, and
+[`llms.txt`](https://mr-10.github.io/ui-design-library/llms.txt).
 
 ## ⚡ Quick Start
 

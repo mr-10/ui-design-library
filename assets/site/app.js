@@ -313,6 +313,7 @@
     syncTopbar();
     if (parts.length === 0) { renderHome(); return; }
     if (parts[0] === 'browse') { renderBrowse(r.params); return; }
+    if (parts[0] === 'ai-agents') { renderAiAgents(); return; }
     if (parts.length >= 2 && CATEGORIES.indexOf(parts[0]) !== -1) { renderPreview(parts[0], parts[1], r.params); return; }
     renderNotFound();
   }
@@ -321,6 +322,43 @@
   function renderNotFound() {
     view.innerHTML = '<div class="empty-state"><h1>Not found</h1><p>That page does not exist.</p><p><a href="#/browse">Browse all elements</a></p></div>';
     document.title = 'Not found — UI Design Library';
+  }
+
+  /* ---------- use with AI agents ---------- */
+  var MCP_CONFIG = '{\n  "mcpServers": {\n    "ui-design-library": {\n      "command": "npx",\n      "args": ["-y", "ui-design-library-mcp"]\n    }\n  }\n}';
+  function renderAiAgents() {
+    document.title = 'Use with AI agents — UI Design Library';
+    var mb = $('#mobilebar'); mb.hidden = true; mb.classList.remove('show');
+    view.innerHTML =
+      '<div class="crumb"><a href="#/">Home</a> / Use with AI agents</div>' +
+      '<section class="doc">' +
+        '<h1>Use with AI agents</h1>' +
+        '<p>Give your AI coding assistant access to all 3,805 elements through the ' +
+        '<a href="https://github.com/mr-10/ui-design-library/tree/main/mcp" target="_blank" rel="noopener">ui-design-library-mcp</a> ' +
+        'server (npm package <code>ui-design-library-mcp</code>, free, no login, no API key). ' +
+        'It searches the library, fetches one element at a time, and keeps the author credit.</p>' +
+        '<h2>1. Add the server</h2>' +
+        '<p>Copy this config into your client:</p>' +
+        '<pre class="cfg" id="mcpCfg">' + esc(MCP_CONFIG) + '</pre>' +
+        '<p><button class="btn small" id="copyCfgBtn">⧉ Copy config</button></p>' +
+        '<h3>Claude Desktop</h3><p>Paste it into your Claude Desktop config file (<code>claude_desktop_config.json</code>), then restart Claude Desktop.</p>' +
+        '<h3>Claude Code</h3><p>Or run this once in your terminal:</p>' +
+        '<pre class="cfg">claude mcp add ui-design-library -- npx -y ui-design-library-mcp</pre>' +
+        '<h3>Cursor, VS Code and Windsurf</h3><p>Paste the same config into the MCP settings of your editor (Cursor: Settings → MCP; VS Code: the MCP extension settings; Windsurf: MCP settings).</p>' +
+        '<h2>2. Ask for an element</h2>' +
+        '<p>Try it in a chat with your agent:</p>' +
+        '<pre class="cfg">You: Add a glowing hover button to my page.\n\nAgent: (calls search_elements "glowing hover button", then\nget_element for the best match, and adds it with the author credit.)</pre>' +
+        '<h2>3. Or use the command line</h2>' +
+        '<pre class="cfg">npx -y ui-design-library-mcp --help   # starts the MCP server (stdio)\nui-lib search "glowing button"        # search from your terminal\nui-lib get &lt;id&gt; --format react     # get one element as a React component\nui-lib add &lt;id&gt; --dir ./components  # save it into your project</pre>' +
+        '<p>Full reference: <a href="https://github.com/mr-10/ui-design-library/tree/main/mcp#readme" target="_blank" rel="noopener">mcp/README.md</a>. ' +
+        'Machine-readable data: <a href="https://mr-10.github.io/ui-design-library/data/index.min.json">index</a> · ' +
+        '<a href="https://mr-10.github.io/ui-design-library/llms.txt">llms.txt</a>.</p>' +
+      '</section>';
+    var btn = $('#copyCfgBtn');
+    if (btn) btn.addEventListener('click', function () {
+      copyText(MCP_CONFIG, btn);
+    });
+    setActiveTree(null, null, null);
   }
 
   /* ---------- home ---------- */
@@ -343,7 +381,7 @@
         '<div class="step"><span class="num">2</span><h3>Copy</h3><p>One click copies clean HTML and CSS — no setup, no JavaScript.</p></div>' +
         '<div class="step"><span class="num">3</span><h3>Paste. Ship.</h3><p>Drop it into your project, tweak the colors, and go live.</p></div>' +
       '</div>' +
-      '<p class="home-foot">Made with care by <a href="https://github.com/mr-10" target="_blank" rel="noopener">Rakibul Hasan</a> · Elements by the <a href="https://uiverse.io" target="_blank" rel="noopener">Uiverse</a> community, MIT licensed.</p>';
+      '<p class="home-foot">Made with care by <a href="https://github.com/mr-10" target="_blank" rel="noopener">Rakibul Hasan</a> · Elements by the <a href="https://uiverse.io" target="_blank" rel="noopener">Uiverse</a> community, MIT licensed. · <a href="#/ai-agents">Use with AI agents (MCP)</a></p>';
     loadManifest().then(function (m) {
       var t = $('#homeTotal'); if (t) t.textContent = m.total.toLocaleString('en-US');
     });
