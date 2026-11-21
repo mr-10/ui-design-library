@@ -1,0 +1,91 @@
+# Average Bear 68
+
+A form UI element from Uiverse.io by boryanakrasteva.
+
+Source: https://uiverse.io/boryanakrasteva/average-bear-68
+
+Author: boryanakrasteva
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: form
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 10px, 5px
+
+## Source Code
+
+### index.html
+
+```html
+<form class="form">
+    <label class="label">username</label>
+    <input class="input" type="text">
+    <label class="label">password</label>
+    <input class="input" type="text"> 
+    <button>Submit</button>
+</form>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by boryanakrasteva - Tags: form */
+.form {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 20px 40px;
+  background-color: rgba(245, 245, 245, 0.034);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.192);
+  transition: .2s linear;
+}
+
+.form button {
+  align-self: flex-end;
+}
+
+.form:hover {
+  transform: scale(1.1);
+}
+
+.label {
+  font-size: 14px;
+  margin-bottom: -10.6px;
+}
+
+.input {
+  height: 25px;
+  width: 100%;
+  border: 0.5px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  transition: .2s linear;
+  position: relative;
+}
+
+.input:focus {
+  outline: none;
+  background-color: rgba(173, 173, 173, 0.233);
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.137);
+}
+
+button {
+  border: none;
+  padding: 4px 10px;
+  border-radius: 5px;
+  transition: .2s linear;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.74);
+  box-shadow: 2px 2px 10px rgba(124, 124, 124, 0.192);
+}
+```
