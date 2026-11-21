@@ -1,0 +1,94 @@
+# Serious Cat 43
+
+A loader UI element from Uiverse.io by edwardytb.
+
+Source: https://uiverse.io/edwardytb/serious-cat-43
+
+Author: edwardytb
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loader
+
+Colors: #3498db, #e74c3c, #f1c40f
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader">
+  <div class="box"></div>
+  <div class="circle"></div>
+  <div class="triangle"></div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by edwardytb - Tags: loader */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #3498db;
+  animation: box-expand 1s ease-in-out infinite alternate;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+  border-top-color: #f1c40f;
+  animation: circle-rotate 1s linear infinite;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid #e74c3c;
+  animation: triangle-expand 1s ease-in-out infinite alternate;
+}
+
+@keyframes box-expand {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes circle-rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes triangle-expand {
+  0% {
+    width: 0;
+    height: 0;
+  }
+
+  100% {
+    width: 30px;
+    height: 60px;
+  }
+}
+```
