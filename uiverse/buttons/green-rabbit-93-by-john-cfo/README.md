@@ -1,0 +1,98 @@
+# Green Rabbit 93
+
+A button UI element from Uiverse.io by John-CFO.
+
+Source: https://uiverse.io/John-CFO/green-rabbit-93
+
+Author: John-CFO
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button, glow, reflection
+
+Colors: #1f4c65
+
+Fonts: Arial, Helvetica, sans-serif
+
+Spacing and radius: 0, 5px
+
+## Source Code
+
+### index.html
+
+```html
+<button class="btn">
+  <span class="text">Button</span>
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by John-CFO - Tags: button, glow, reflection */
+.btn {
+  height: 3.5rem;
+  width: 13.2rem;
+  border-radius: 5px;
+  border: 5px solid rgb(255, 255, 255);
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+  animation: flickering 2s linear infinite both;
+  text-transform: uppercase;
+  background-color: rgb(83, 82, 82);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+@keyframes flickering {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  41.99% {
+    opacity: 1;
+  }
+
+  42% {
+    opacity: 0;
+  }
+
+  43% {
+    opacity: 0;
+  }
+
+  43.01% {
+    opacity: 1;
+  }
+
+  47.99% {
+    opacity: 1;
+  }
+
+  48% {
+    opacity: 0;
+  }
+
+  49% {
+    opacity: 0;
+  }
+
+  49.01% {
+    opacity: 1;
+  }
+}
+
+.text {
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover {
+  background-color: black;
+  border-radius: 0;
+}
+```
