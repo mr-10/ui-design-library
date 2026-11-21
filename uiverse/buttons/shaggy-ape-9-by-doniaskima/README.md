@@ -1,0 +1,32 @@
+# Shaggy Ape 9
+
+A button UI element from Uiverse.io by doniaskima.
+
+Source: https://uiverse.io/doniaskima/shaggy-ape-9
+
+Author: doniaskima
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: —
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<!-- From Uiverse.io by doniaskima - Tags: button, 2d button, cute button -->
+<button type="button" class="inline-block px-6 py-3 mr-3 font-bold text-center text-white uppercase align-middle transition-all rounded-lg cursor-pointer bg-gradient-to-tl from-purple-700 to-pink-500 leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 hover:scale-110 hover:rotate-2 hover:bg-pink-700 hover:text-pink-200 hover:shadow-lg active:opacity-85">Button</button>
+```
+
+### styles.css
+
+```css
+/* No CSS in source file */
+```
