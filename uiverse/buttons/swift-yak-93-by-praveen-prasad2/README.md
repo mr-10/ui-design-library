@@ -1,0 +1,70 @@
+# Swift Yak 93
+
+A button UI element from Uiverse.io by praveen-prasad2.
+
+Source: https://uiverse.io/praveen-prasad2/swift-yak-93
+
+Author: praveen-prasad2
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: #268391, #2c9caf, #70bdca, #c5c5c5, #ffffff
+
+Fonts: inherit
+
+Spacing and radius: 30em
+
+## Source Code
+
+### index.html
+
+```html
+<button type="submit" class="button">
+  <span>Hello</span>
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by praveen-prasad2 - Tags: button */
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+}
+
+button:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #70bdca;
+  box-shadow: 4px 5px 17px -4px #268391;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #2c9caf;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+button:hover::before {
+  width: 250%;
+}
+```
