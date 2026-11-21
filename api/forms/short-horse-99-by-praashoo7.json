@@ -8,12 +8,12 @@
  "description": "Outlined rounded gray form that lifts and glows on hover.",
  "howItWorks": "On hover, transform becomes translateX(-0.5em) translateY(-0.5em), border becomes 1px solid #171717, box-shadow becomes 10px 10px 0px #666666. On focus, background changes from whitesmoke to #ffffff, box-shadow becomes inset 2px 5px 10px #000000.",
  "tags": [
+  "login",
+  "submit",
   "outlined",
   "rounded",
   "lift",
-  "slide",
-  "glow",
-  "login"
+  "slide"
  ],
  "colors": [
   "#969696",

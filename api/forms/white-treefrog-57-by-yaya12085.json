@@ -8,11 +8,11 @@
  "description": "Pill sky-blue login form that lights up when focused.",
  "howItWorks": "On focus, border becomes 1px solid #176fd3.",
  "tags": [
+  "signup",
+  "like",
   "blue",
   "rounded",
   "pill",
-  "signup",
-  "like",
   "login-form"
  ],
  "colors": [

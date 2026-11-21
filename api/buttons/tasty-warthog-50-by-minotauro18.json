@@ -8,12 +8,12 @@
  "description": "Gradient blue button that expands on hover with a smooth transition.",
  "howItWorks": "On hover, width becomes 90px.",
  "tags": [
+  "github",
+  "twitter",
+  "social",
   "blue",
   "cyan",
-  "gradient",
-  "flat",
-  "expand",
-  "github"
+  "gradient"
  ],
  "colors": [
   "#003cff",

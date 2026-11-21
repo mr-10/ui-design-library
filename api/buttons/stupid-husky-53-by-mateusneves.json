@@ -8,11 +8,11 @@
  "description": "Gradient pink button that fades on hover with a smooth transition.",
  "howItWorks": "On hover, height becomes 100%, top becomes 0, opacity becomes 1.",
  "tags": [
+  "next",
   "pink",
   "gradient",
   "flat",
   "fade",
-  "next",
   "button"
  ],
  "colors": [

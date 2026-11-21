@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/nanda248/neat-tiger-26",
  "trigger": "hover",
  "description": "Red card that starts animating on hover with a smooth transition.",
- "howItWorks": "On hover, box-shadow becomes #ffd700 0px 7px 29px 0px, starts the color-change animation (animating).",
+ "howItWorks": "On hover, box-shadow becomes #ffd700 0px 7px 29px 0px, starts the color-change animation (moving).",
  "tags": [
+  "like",
   "red",
   "yellow",
   "glow",
   "animated",
-  "spin",
-  "like"
+  "spin"
  ],
  "colors": [
   "#ff3131",

@@ -5,15 +5,15 @@
  "author": "Subaashbala",
  "source": "https://uiverse.io/Subaashbala/itchy-husky-37",
  "trigger": "auto-loop",
- "description": "Pill teal loader with animating; morphing motion in a loop.",
- "howItWorks": "It loops a 2.5s animation (animating; morphing, rotating).",
+ "description": "Pill teal loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2.5s animation (morphing, rotating; sliding).",
  "tags": [
   "teal",
   "rounded",
   "pill",
+  "slide",
   "morph",
-  "spin",
-  "animation"
+  "spin"
  ],
  "colors": [
   "#59d5e0",

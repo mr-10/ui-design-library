@@ -8,11 +8,11 @@
  "description": "Outlined rounded black button that fades on hover.",
  "howItWorks": "On hover, opacity becomes 1, top becomes -120%.",
  "tags": [
+  "share",
   "outlined",
   "rounded",
   "flat",
   "fade",
-  "share",
   "social"
  ],
  "colors": [

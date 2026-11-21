@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded emerald form that glows on hover.",
  "howItWorks": "On hover, background-color changes from transparent to #64ffda, text color changes from #64ffda to #000, box-shadow becomes inset 2px 5px 10px #050505.",
  "tags": [
+  "send",
   "emerald",
   "gradient",
   "dark",
   "outlined",
-  "rounded",
-  "glow"
+  "rounded"
  ],
  "colors": [
   "#64ffda",

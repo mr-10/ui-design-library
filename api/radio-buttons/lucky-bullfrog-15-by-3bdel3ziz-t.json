@@ -8,12 +8,12 @@
  "description": "Rounded orange radio button that toggles on and off when clicked.",
  "howItWorks": "On hover, opacity becomes 0.6. Clicking it toggles it: opacity becomes 0.6, scale becomes 1.2, width becomes 100%.",
  "tags": [
+  "cart",
+  "home",
   "orange",
   "rounded",
   "flat",
-  "fade",
-  "cart",
-  "home"
+  "fade"
  ],
  "colors": [
   "#d17842",

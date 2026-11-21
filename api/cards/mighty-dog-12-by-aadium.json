@@ -8,12 +8,12 @@
  "description": "Dark violet card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #2e0043 to #e81123, background-color changes from #2e0043 to #c042ff2e.",
  "tags": [
+  "close",
   "violet",
   "yellow",
   "dark",
   "outlined",
-  "flat",
-  "color-change"
+  "flat"
  ],
  "colors": [
   "#c042ff",

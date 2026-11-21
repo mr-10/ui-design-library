@@ -8,12 +8,12 @@
  "description": "Rounded gray login form that reacts on hover.",
  "howItWorks": "On focus, box-shadow becomes inset 1px 1px 2px #BABECC,\n              inset -1px -1px 2px #ffffff73, text color changes from #3498db to #3498db, box-shadow becomes inset 2px 2px 5px #BABECC,\n             inset -5px -5px 10px #ffffff73.",
  "tags": [
-  "rounded",
   "login",
   "signup",
   "password",
   "email",
-  "phone"
+  "phone",
+  "rounded"
  ],
  "colors": [
   "#595959",

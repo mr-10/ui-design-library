@@ -8,12 +8,12 @@
  "description": "Dark pill yellow checkbox that toggles on and off when clicked.",
  "howItWorks": "On hover, background-color changes from #1e1e1e to #eccd00, scale becomes 0.98, box-shadow becomes none. Clicking it toggles it: background-color changes from #1e1e1e to #eccd00, scale becomes 0.98, box-shadow becomes none. On focus, box-shadow becomes none, scale becomes 0.98.",
  "tags": [
+  "menu",
   "yellow",
   "dark",
   "rounded",
   "pill",
-  "glow",
-  "color-change"
+  "glow"
  ],
  "colors": [
   "#ffdd00",

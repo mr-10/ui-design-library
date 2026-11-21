@@ -5,7 +5,7 @@
  "author": "joe-watson-sbf",
  "source": "https://uiverse.io/joe-watson-sbf/swift-frog-15",
  "trigger": "static",
- "description": "Gradient orange card with gradient fill with a smooth transition.",
+ "description": "Gradient orange card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "orange",

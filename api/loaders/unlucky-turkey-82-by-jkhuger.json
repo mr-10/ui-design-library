@@ -5,8 +5,8 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/unlucky-turkey-82",
  "trigger": "auto-loop",
- "description": "White loader with animating; bouncing motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; bouncing).",
+ "description": "White loader with bouncing motion in a loop.",
+ "howItWorks": "It loops a 2s animation (bouncing; moving).",
  "tags": [
   "flat",
   "bounce",

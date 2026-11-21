@@ -5,15 +5,15 @@
  "author": "david-mohseni",
  "source": "https://uiverse.io/david-mohseni/brave-shrimp-86",
  "trigger": "hover",
- "description": "Pill sky-blue button that changes colour on hover.",
+ "description": "Pill sky-blue social button that changes colour on hover.",
  "howItWorks": "On hover, top becomes -45px, opacity becomes 1, text-shadow becomes 0px -1px 0px #000000.",
  "tags": [
+  "facebook",
+  "twitter",
+  "social",
   "blue",
   "cyan",
-  "rounded",
-  "pill",
-  "fade",
-  "color-change"
+  "rounded"
  ],
  "colors": [
   "#1877f2",

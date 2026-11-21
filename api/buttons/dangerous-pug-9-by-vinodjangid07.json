@@ -8,11 +8,11 @@
  "description": "Yellow button that starts animating on hover with a smooth transition.",
  "howItWorks": "On hover, starts the slide-in-left animation (fading, sliding).",
  "tags": [
+  "next",
   "yellow",
   "animated",
   "fade",
   "slide",
-  "next",
   "button"
  ],
  "colors": [

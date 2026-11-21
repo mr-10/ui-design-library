@@ -8,12 +8,12 @@
  "description": "Pill dark teal pricing card that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #009688 to #ffffff, background-color changes from #e0f2f1 to #009688, border becomes 1px solid #009688. On focus, text color changes from #009688 to #ffffff, background-color changes from #e0f2f1 to #009688, border becomes 1px solid #009688.",
  "tags": [
+  "pricing",
+  "cart",
   "teal",
   "rounded",
   "pill",
-  "color-change",
-  "pricing",
-  "cart"
+  "color-change"
  ],
  "colors": [
   "#009688",

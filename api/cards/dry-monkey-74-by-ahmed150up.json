@@ -8,9 +8,9 @@
  "description": "Dark white card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #333 to #f7f7f7, text color changes from #ffffff to #000000.",
  "tags": [
+  "chat",
   "dark",
   "color-change",
-  "chat",
   "card",
   "hover",
   "css"

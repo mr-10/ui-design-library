@@ -8,12 +8,12 @@
  "description": "Gradient rounded gray button that scales up on hover.",
  "howItWorks": "On hover, opacity becomes 0, left becomes calc(50% - 17.5px), transform becomes translate(-50%, 2px) rotate(270deg) scale(1.5).",
  "tags": [
+  "send",
   "gradient",
   "outlined",
   "rounded",
   "fade",
-  "scale",
-  "rotate"
+  "scale"
  ],
  "colors": [
   "#aaaaaa",

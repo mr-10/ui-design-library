@@ -5,7 +5,7 @@
  "author": "Fadhilmagass",
  "source": "https://uiverse.io/Fadhilmagass/proud-quail-48",
  "trigger": "hover",
- "description": "Gradient dark pill dark sky-blue button that rotates on hover.",
+ "description": "Gradient pill dark sky-blue button that rotates on hover.",
  "howItWorks": "On hover, width becomes 500px, height becomes 500px, transform becomes rotate(360deg).",
  "tags": [
   "blue",

@@ -5,8 +5,8 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/brown-falcon-48",
  "trigger": "hover",
- "description": "Gradient 3d dark pill black button that starts animating on hover.",
- "howItWorks": "On hover, starts the jello animation (animating).",
+ "description": "Gradient 3d pill black button that starts animating on hover.",
+ "howItWorks": "On hover, starts the jello animation (sliding).",
  "tags": [
   "gradient",
   "3d",

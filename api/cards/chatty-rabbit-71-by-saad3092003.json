@@ -5,7 +5,7 @@
  "author": "Saad3092003",
  "source": "https://uiverse.io/Saad3092003/chatty-rabbit-71",
  "trigger": "auto-loop",
- "description": "Gradient 3d black card with bouncing motion in a loop.",
+ "description": "Gradient 3d black card with rotating motion in a loop.",
  "howItWorks": "It loops a 10s animation (bouncing, rotating; rotating).",
  "tags": [
   "gradient",

@@ -8,11 +8,11 @@
  "description": "Outlined white button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, box-shadow becomes 0px -13px 56px 12px #ffffffa6, text color changes from #000000 to #ffffff, width becomes 100%.",
  "tags": [
+  "play",
   "outlined",
   "glow",
   "color-change",
   "expand",
-  "play",
   "button"
  ],
  "colors": [

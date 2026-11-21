@@ -8,12 +8,12 @@
  "description": "Gradient pill fuchsia card that starts animating on hover.",
  "howItWorks": "On hover, height becomes 65%, filter becomes blur(7px), starts the anim animation (bouncing).",
  "tags": [
+  "social",
   "fuchsia",
   "blue",
   "gradient",
   "rounded",
-  "pill",
-  "animated"
+  "pill"
  ],
  "colors": [
   "#cc39a4",

@@ -5,8 +5,8 @@
  "author": "Srivatsajbhat",
  "source": "https://uiverse.io/Srivatsajbhat/tidy-parrot-17",
  "trigger": "auto-loop",
- "description": "Pill gray loader with animating; bouncing motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; bouncing, rotating; rotating).",
+ "description": "Pill gray loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (bouncing, rotating; moving; rotating).",
  "tags": [
   "rounded",
   "pill",

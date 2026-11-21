@@ -5,7 +5,7 @@
  "author": "vnuny",
  "source": "https://uiverse.io/vnuny/stale-mouse-74",
  "trigger": "hover",
- "description": "Outlined pill purple tooltip that changes colour on hover.",
+ "description": "Outlined pill purple tooltip with arrow that changes colour on hover.",
  "howItWorks": "On hover, z-index becomes 5, padding becomes 35px 0, opacity becomes 1.",
  "tags": [
   "purple",

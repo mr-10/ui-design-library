@@ -237,10 +237,10 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "back",
     "red",
     "flat",
     "pulse",
-    "back",
     "checkbox",
     "icon",
     "animation",
@@ -711,14 +711,14 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "play",
+    "pause",
     "red",
     "gradient",
     "rounded",
     "pill",
     "flat",
     "spin",
-    "play",
-    "pause",
     "checkbox",
     "music-player"
    ],
@@ -750,6 +750,7 @@
     "flat",
     "pulse",
     "spin",
+    "slide",
     "checkbox",
     "checked",
     "css"
@@ -876,6 +877,7 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "back",
     "orange",
     "dark",
     "rounded",
@@ -884,7 +886,6 @@
     "slide",
     "glow",
     "color-change",
-    "back",
     "checkbox"
    ],
    "colors": [
@@ -1041,7 +1042,7 @@
    "author": "krlozCJ",
    "link": "https://uiverse.io/krlozCJ/dull-bobcat-80",
    "path": "uiverse/checkboxes/dull-bobcat-80-by-krlozcj/",
-   "description": "Dark pill black checkbox that toggles on and off when clicked.",
+   "description": "Pill black checkbox that toggles on and off when clicked.",
    "howItWorks": "Clicking it toggles it: box-shadow becomes 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%), inset 1.5px 1.5px 3px #0e0e0e, inset -1.5px -1.5px 3px #5f5e5e, opacity becomes 1.",
    "trigger": "checked",
    "needsJs": false,
@@ -1555,7 +1556,7 @@
    "link": "https://uiverse.io/Shoh2008/hard-eel-52",
    "path": "uiverse/checkboxes/hard-eel-52-by-shoh2008/",
    "description": "3d pill black checkbox that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: opacity becomes 0, transform becomes scale(0.3) translate(-50%, -50%) rotate(45deg), starts the bounceInBeforeDont-44 animation (fading, pulsing, rotating).",
+   "howItWorks": "Clicking it toggles it: opacity becomes 0, transform becomes scale(0.3) translate(-50%, -50%) rotate(45deg), starts the bounceInBeforeDont-44 animation (fading, pulsing, rotating, sliding).",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -1567,8 +1568,8 @@
     "fade",
     "pulse",
     "spin",
-    "checkbox",
-    "checked"
+    "slide",
+    "checkbox"
    ],
    "colors": [
     "#000000",
@@ -1718,7 +1719,7 @@
    "link": "https://uiverse.io/JkHuger/horrible-lion-90",
    "path": "uiverse/checkboxes/horrible-lion-90-by-jkhuger/",
    "description": "Neon pill pink checkbox that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: text color changes from #888 to #e2264d, filter becomes none, starts the heart animation (animating). On focus, text-shadow becomes 0 0 3px #ffffff, 0 1px 1px #ffffff, 0 -1px 1px #ffffff, 1px 0 1px #ffffff, -1px 0 1px #ffffff.",
+   "howItWorks": "Clicking it toggles it: text color changes from #888 to #e2264d, filter becomes none, starts the heart animation (moving). On focus, text-shadow becomes 0 0 3px #ffffff, 0 1px 1px #ffffff, 0 -1px 1px #ffffff, 1px 0 1px #ffffff, -1px 0 1px #ffffff.",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -1791,12 +1792,12 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "like",
     "red",
     "rounded",
     "pill",
     "pulse",
     "fade",
-    "like",
     "checkbox",
     "simple",
     "heart",
@@ -1826,12 +1827,12 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "like",
     "red",
     "neon",
     "gradient",
     "outlined",
     "spin",
-    "like",
     "checkbox",
     "icon",
     "button",
@@ -2115,7 +2116,7 @@
    "link": "https://uiverse.io/OptX71285225/little-lionfish-48",
    "path": "uiverse/checkboxes/little-lionfish-48-by-optx71285225/",
    "description": "Green checkbox that toggles on and off when clicked.",
-   "howItWorks": "On hover, background-color changes from #fff to #ccc, box-shadow becomes 0 0 10px #000000, transform becomes scale(1.05). Clicking it toggles it: starts the checkboxExpand animation (pulsing, rotating), background-color changes from #fff to #4caf50, border-color becomes #4caf50.",
+   "howItWorks": "On hover, background-color changes from #fff to #ccc, box-shadow becomes 0 0 10px #000000, transform becomes scale(1.05). Clicking it toggles it: starts the checkboxExpand animation (pulsing, rotating, sliding), background-color changes from #fff to #4caf50, border-color becomes #4caf50.",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -2125,6 +2126,7 @@
     "color-change",
     "pulse",
     "spin",
+    "slide",
     "checkbox",
     "simple",
     "checked"
@@ -2371,11 +2373,12 @@
    "author": "Praashoo7",
    "link": "https://uiverse.io/Praashoo7/moody-sloth-42",
    "path": "uiverse/checkboxes/moody-sloth-42-by-praashoo7/",
-   "description": "Dark rounded black checkbox that toggles on and off when clicked.",
+   "description": "Rounded black checkbox that toggles on and off when clicked.",
    "howItWorks": "On hover, background-color changes from #171717 to #ffffff, transform becomes rotate(-8deg). Clicking it toggles it: background-color changes from #171717 to limegreen, text color changes to #ffffff, starts the 0 animation.",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "like",
     "dark",
     "rounded",
     "flat",
@@ -2383,7 +2386,6 @@
     "rotate",
     "bounce",
     "spin",
-    "like",
     "checkbox",
     "thumb"
    ],
@@ -2500,7 +2502,7 @@
    "author": "aadium",
    "link": "https://uiverse.io/aadium/nervous-baboon-15",
    "path": "uiverse/checkboxes/nervous-baboon-15-by-aadium/",
-   "description": "Dark rounded dark green checkbox that toggles on and off when clicked.",
+   "description": "Rounded dark green checkbox that toggles on and off when clicked.",
    "howItWorks": "Clicking it toggles it: box-shadow becomes 4px 4px 6px #000000,\n  -4px -4px 6px #3c3c3c, box-shadow becomes 2px 2px 3px #000000,\n  -2px -2px 3px #3c3c3c.",
    "trigger": "checked",
    "needsJs": false,
@@ -2631,10 +2633,10 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
-    "outlined",
-    "color-change",
     "delete",
     "edit",
+    "outlined",
+    "color-change",
     "checkbox",
     "dropdown",
     "checked"
@@ -2762,11 +2764,11 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "like",
     "pink",
     "flat",
     "pulse",
     "fade",
-    "like",
     "checkbox",
     "heart",
     "hover-effect",
@@ -2889,7 +2891,7 @@
    "link": "https://uiverse.io/Timbar09/popular-bulldog-40",
    "path": "uiverse/checkboxes/popular-bulldog-40-by-timbar09/",
    "description": "Outlined pill cyan checkbox that toggles on and off when clicked.",
-   "howItWorks": "On hover, text color changes from #8f8f8f to #cdcdcd. Clicking it toggles it: starts the shrink animation (changing colour), starts the grow animation (changing colour), background-color changes to #2bbee7.",
+   "howItWorks": "On hover, text color changes from #8f8f8f to #cdcdcd. Clicking it toggles it: starts the shrink animation (pulsing), starts the grow animation (pulsing), background-color changes to #2bbee7.",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -2899,6 +2901,7 @@
     "pill",
     "flat",
     "color-change",
+    "pulse",
     "checkbox",
     "checked",
     "css"
@@ -3110,9 +3113,10 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "google",
+    "social",
     "rounded",
     "color-change",
-    "google",
     "checkbox",
     "checkboxes",
     "checked",
@@ -3177,6 +3181,7 @@
     "rounded",
     "fade",
     "spin",
+    "slide",
     "checkbox",
     "checked",
     "css"
@@ -3943,9 +3948,10 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "twitter",
+    "social",
     "violet",
     "rounded",
-    "twitter",
     "checkbox",
     "checkboxes",
     "checked",
@@ -3972,13 +3978,14 @@
    "link": "https://uiverse.io/bociKond/spotty-elephant-13",
    "path": "uiverse/checkboxes/spotty-elephant-13-by-bocikond/",
    "description": "Pill dark emerald checkbox that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: background-color changes from #ccc to #0B6E4F, border-radius becomes .5rem, starts the pulse animation (animating).",
+   "howItWorks": "Clicking it toggles it: background-color changes from #ccc to #0B6E4F, border-radius becomes .5rem, starts the pulse animation (rotating).",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
     "emerald",
     "rounded",
     "pill",
+    "spin",
     "checkbox",
     "pulse",
     "color",
@@ -4037,10 +4044,10 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "back",
     "blue",
     "neon",
     "3d",
-    "back",
     "checkbox",
     "simple",
     "animation",
@@ -4129,7 +4136,7 @@
    "link": "https://uiverse.io/mobinkakei/strange-frog-14",
    "path": "uiverse/checkboxes/strange-frog-14-by-mobinkakei/",
    "description": "Pill red checkbox that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: background changes from #ff5b5b to #20cca5, opacity becomes 1, starts the bling6132 animation (animating).",
+   "howItWorks": "Clicking it toggles it: background changes from #ff5b5b to #20cca5, opacity becomes 1, starts the bling6132 animation (moving).",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -4167,13 +4174,13 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "menu",
     "yellow",
     "dark",
     "rounded",
     "pill",
     "glow",
     "color-change",
-    "menu",
     "checkbox",
     "simple",
     "button"
@@ -4386,14 +4393,14 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "play",
+    "pause",
     "red",
     "gradient",
     "rounded",
     "pill",
     "flat",
     "spin",
-    "play",
-    "pause",
     "checkbox",
     "switch"
    ],
@@ -4451,11 +4458,11 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "like",
     "flat",
     "fade",
     "pulse",
     "spin",
-    "like",
     "checkbox",
     "svg",
     "checked"
@@ -4483,10 +4490,10 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "menu",
     "red",
     "rounded",
     "flat",
-    "menu",
     "checkbox",
     "hamburger",
     "checked"
@@ -4780,10 +4787,10 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "back",
     "blue",
     "neon",
     "3d",
-    "back",
     "checkbox",
     "flip",
     "checked"
@@ -4910,8 +4917,8 @@
     "pill",
     "shrink",
     "expand",
-    "checkbox",
-    "checked"
+    "slide",
+    "checkbox"
    ],
    "colors": [
     "#da0b0b",
@@ -5459,6 +5466,7 @@
     "flat",
     "fade",
     "spin",
+    "slide",
     "checkbox",
     "checked",
     "css"

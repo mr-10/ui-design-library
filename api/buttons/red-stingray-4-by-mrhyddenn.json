@@ -5,15 +5,15 @@
  "author": "mrhyddenn",
  "source": "https://uiverse.io/mrhyddenn/red-stingray-4",
  "trigger": "hover",
- "description": "Neon pill sky-blue button that glows on hover.",
+ "description": "Neon pill sky-blue social button that glows on hover.",
  "howItWorks": "On hover, text color changes from #2890f1 to #fff, border becomes 1px solid #2890f1, box-shadow becomes inset 0 0 0 10em #2890f1.",
  "tags": [
+  "twitter",
+  "social",
   "blue",
   "neon",
   "outlined",
-  "rounded",
-  "pill",
-  "color-change"
+  "rounded"
  ],
  "colors": [
   "#2890f1",

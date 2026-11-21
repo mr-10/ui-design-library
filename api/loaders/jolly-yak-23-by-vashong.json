@@ -5,7 +5,7 @@
  "author": "VashonG",
  "source": "https://uiverse.io/VashonG/jolly-yak-23",
  "trigger": "auto-loop",
- "description": "Gradient pill sky-blue loader with bouncing motion in a loop.",
+ "description": "Gradient pill sky-blue loader with rotating motion in a loop.",
  "howItWorks": "It loops a animation (bouncing, rotating).",
  "tags": [
   "blue",

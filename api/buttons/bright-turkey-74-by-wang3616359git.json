@@ -8,12 +8,12 @@
  "description": "Neon rounded cyan send button that starts animating on hover.",
  "howItWorks": "On hover, starts the msgRun animation (sliding).",
  "tags": [
+  "send",
   "cyan",
   "neon",
   "rounded",
   "animated",
-  "slide",
-  "send"
+  "slide"
  ],
  "colors": [
   "#0873bd",

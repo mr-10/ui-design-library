@@ -5,8 +5,8 @@
  "author": "Pradeepsaranbishnoi",
  "source": "https://uiverse.io/Pradeepsaranbishnoi/chatty-bird-86",
  "trigger": "auto-loop",
- "description": "Dark rounded light red loader with animating; growing and shrinking motion in a loop.",
- "howItWorks": "It loops a 1.5s animation (animating; growing and shrinking).",
+ "description": "Dark rounded light red loader with growing and shrinking motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (growing and shrinking; moving).",
  "tags": [
   "red",
   "dark",

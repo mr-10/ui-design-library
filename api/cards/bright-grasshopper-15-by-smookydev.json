@@ -8,10 +8,10 @@
  "description": "Pill gray profile card that changes colour on hover.",
  "howItWorks": "On hover, border changes.",
  "tags": [
+  "profile",
   "rounded",
   "pill",
   "color-change",
-  "profile",
   "profile-card",
   "cards"
  ],

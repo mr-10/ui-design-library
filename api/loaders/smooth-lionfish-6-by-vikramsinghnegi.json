@@ -5,15 +5,15 @@
  "author": "vikramsinghnegi",
  "source": "https://uiverse.io/vikramsinghnegi/smooth-lionfish-6",
  "trigger": "auto-loop",
- "description": "Gradient red loader with animating; shimmering motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; shimmering).",
+ "description": "Gradient red loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 2s animation (shimmering; sliding).",
  "tags": [
   "red",
   "gradient",
   "shimmer",
+  "slide",
   "animation",
-  "loader",
-  "factory"
+  "loader"
  ],
  "colors": [
   "#d2d3e0",

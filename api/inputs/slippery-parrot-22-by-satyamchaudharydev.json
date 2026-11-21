@@ -8,12 +8,12 @@
  "description": "Outlined pill emerald text input that lights up when focused.",
  "howItWorks": "On focus, transform becomes rotate(80deg) scale(1.3), opacity becomes 1, transform becomes rotate(-80deg).",
  "tags": [
+  "close",
   "emerald",
   "outlined",
   "rounded",
   "pill",
-  "flat",
-  "close"
+  "flat"
  ],
  "colors": [
   "#15a986",

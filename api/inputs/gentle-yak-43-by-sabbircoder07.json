@@ -8,11 +8,11 @@
  "description": "Outlined rounded pink text input that reacts on hover.",
  "howItWorks": "On focus, the outline is removed, width becomes 100%, background-color changes from transparent to #f0eeee.",
  "tags": [
+  "search",
   "pink",
   "outlined",
   "rounded",
   "flat",
-  "search",
   "text-input"
  ],
  "colors": [

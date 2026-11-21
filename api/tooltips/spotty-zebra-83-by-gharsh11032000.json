@@ -5,7 +5,7 @@
  "author": "gharsh11032000",
  "source": "https://uiverse.io/gharsh11032000/spotty-zebra-83",
  "trigger": "hover",
- "description": "Outlined rounded gray tooltip that starts animating on hover.",
+ "description": "Outlined rounded gray tooltip with arrow that starts animating on hover.",
  "howItWorks": "On hover, top becomes -100%, opacity becomes 1, scale becomes 1.",
  "tags": [
   "outlined",

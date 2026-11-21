@@ -8,12 +8,12 @@
  "description": "Rounded light orange checkout form that lights up when focused.",
  "howItWorks": "On focus, border becomes 1px solid transparent, box-shadow becomes 0px 0px 0px 2px #F3D2C9, background-color changes from #ECC2C0 to #F4E2DE.",
  "tags": [
-  "orange",
-  "red",
-  "rounded",
   "pricing",
   "cart",
-  "checkout"
+  "checkout",
+  "orange",
+  "red",
+  "rounded"
  ],
  "colors": [
   "#f3d2c9",

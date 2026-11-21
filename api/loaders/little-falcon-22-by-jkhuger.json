@@ -5,7 +5,7 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/little-falcon-22",
  "trigger": "auto-loop",
- "description": "Pill indigo loader with fading motion in a loop.",
+ "description": "Pill indigo loader with pulsing motion in a loop.",
  "howItWorks": "It loops a 0.85s animation (fading, pulsing).",
  "tags": [
   "indigo",

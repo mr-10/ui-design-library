@@ -5,7 +5,7 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/kind-cougar-54",
  "trigger": "auto-loop",
- "description": "Gray loader with pulsing motion in a loop.",
+ "description": "Gray loader with rotating motion in a loop.",
  "howItWorks": "It loops a animation (pulsing, sliding; rotating).",
  "tags": [
   "flat",

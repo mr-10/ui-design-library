@@ -5,15 +5,15 @@
  "author": "andrew-demchenk0",
  "source": "https://uiverse.io/andrew-demchenk0/kind-ladybug-7",
  "trigger": "auto-loop",
- "description": "Pill yellow dots loader with animating; pulsing; rotating motion in a loop.",
- "howItWorks": "It loops a 0.5s animation (animating; pulsing; rotating).",
+ "description": "Pill yellow dots loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 0.5s animation (pulsing; rotating, sliding; sliding).",
  "tags": [
   "yellow",
   "rounded",
   "pill",
   "flat",
   "spin",
-  "pulse"
+  "slide"
  ],
  "colors": [
   "#eff107",

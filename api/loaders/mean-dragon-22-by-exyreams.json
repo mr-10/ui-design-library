@@ -5,15 +5,15 @@
  "author": "exyreams",
  "source": "https://uiverse.io/exyreams/mean-dragon-22",
  "trigger": "auto-loop",
- "description": "Red loader with animating; pulsing motion in a loop.",
- "howItWorks": "It loops a 1.3s animation (animating; pulsing, rotating; rotating).",
+ "description": "Red loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1.3s animation (pulsing, rotating; rotating; sliding).",
  "tags": [
   "red",
   "flat",
+  "slide",
   "spin",
   "pulse",
-  "loading",
-  "loader"
+  "loading"
  ],
  "colors": [
   "#ff0000",

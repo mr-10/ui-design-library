@@ -8,12 +8,12 @@
  "description": "Gradient dark pill gray card that changes colour on hover.",
  "howItWorks": "On hover, background changes from #333333 to linear-gradient(45deg, #66757f, #00acee, #36daff, #dbedff), background changes from #333333 to linear-gradient(45deg, #134ac0, #316ff6, #78a3ff), background changes from #333333 to linear-gradient(45deg, #872419, #db4a39, #ff7061).",
  "tags": [
+  "social",
+  "google",
+  "facebook",
+  "twitter",
   "gradient",
-  "dark",
-  "outlined",
-  "rounded",
-  "pill",
-  "flat"
+  "dark"
  ],
  "colors": [
   "#333333",

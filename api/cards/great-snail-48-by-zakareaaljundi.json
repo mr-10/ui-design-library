@@ -8,12 +8,12 @@
  "description": "3d rounded dark purple card that reacts on hover.",
  "howItWorks": "On hover, transform becomes rotatex(-0.5turn), transform becomes translateY(88.3px) rotateX(0.5turn), border becomes 3px solid #800080.",
  "tags": [
+  "back",
   "purple",
   "3d",
   "rounded",
   "flat",
-  "drop",
-  "back"
+  "drop"
  ],
  "colors": [
   "#800080",

@@ -5,7 +5,7 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/curly-goose-54",
  "trigger": "auto-loop",
- "description": "Gradient 3d rounded sky-blue loader with fading motion in a loop.",
+ "description": "Gradient 3d rounded sky-blue loader with rotating motion in a loop.",
  "howItWorks": "It loops a animation (fading, rotating).",
  "tags": [
   "blue",

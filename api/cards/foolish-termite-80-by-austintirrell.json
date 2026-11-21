@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded violet card that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.1).",
  "tags": [
+  "social",
   "violet",
   "teal",
   "neon",
   "gradient",
-  "rounded",
-  "scale"
+  "rounded"
  ],
  "colors": [
   "#b73eee",

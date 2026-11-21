@@ -8,12 +8,12 @@
  "description": "Rounded violet button that starts animating on hover.",
  "howItWorks": "On hover, background changes from #a549da3d to #a549da62, starts the lr animation (sliding).",
  "tags": [
+  "edit",
   "violet",
   "rounded",
   "flat",
   "color-change",
-  "animated",
-  "slide"
+  "animated"
  ],
  "colors": [
   "#a549da",

@@ -5,15 +5,15 @@
  "author": "andrew-demchenk0",
  "source": "https://uiverse.io/andrew-demchenk0/heavy-mule-52",
  "trigger": "static",
- "description": "Dark pill black card with rounded corners with a smooth transition.",
+ "description": "Outlined pill black card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "menu",
+  "play",
   "dark",
   "outlined",
   "rounded",
-  "pill",
-  "flat",
-  "menu"
+  "pill"
  ],
  "colors": [
   "#090909",

@@ -5,15 +5,15 @@
  "author": "csozidev",
  "source": "https://uiverse.io/csozidev/weak-bulldog-22",
  "trigger": "auto-loop",
- "description": "Sky-blue loader with fading motion in a loop.",
- "howItWorks": "It loops a 4s animation (fading).",
+ "description": "Sky-blue loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 4s animation (fading, sliding).",
  "tags": [
   "blue",
   "flat",
   "fade",
+  "slide",
   "simple",
-  "3d",
-  "loader"
+  "3d"
  ],
  "colors": [
   "#286cb5",

@@ -5,15 +5,15 @@
  "author": "SelfMadeSystem",
  "source": "https://uiverse.io/SelfMadeSystem/pretty-snake-70",
  "trigger": "checked",
- "description": "3d dark rounded dark indigo login form that toggles on and off when clicked.",
+ "description": "3d rounded dark indigo login form that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: starts the unhello animation (rotating), starts the hello animation (rotating). On focus, the outline is removed, border becomes 1px solid #ffffff, border-bottom becomes 2px solid #cfb2ff.",
  "tags": [
-  "indigo",
-  "3d",
-  "dark",
-  "outlined",
-  "rounded",
-  "flat"
+  "login",
+  "signup",
+  "password",
+  "social",
+  "email",
+  "indigo"
  ],
  "colors": [
   "#2c164f",

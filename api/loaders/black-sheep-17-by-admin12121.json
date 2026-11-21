@@ -5,15 +5,15 @@
  "author": "Admin12121",
  "source": "https://uiverse.io/Admin12121/black-sheep-17",
  "trigger": "auto-loop",
- "description": "Gradient 3d sky-blue loader with animating; fading; pulsing motion in a loop.",
- "howItWorks": "It loops a animation (animating; fading; pulsing, rotating).",
+ "description": "Gradient 3d sky-blue loader with rotating motion in a loop.",
+ "howItWorks": "It loops a animation (fading; pulsing, rotating; pulsing, rotating, sliding; sliding).",
  "tags": [
   "blue",
   "gradient",
   "3d",
   "flat",
-  "pulse",
-  "spin"
+  "slide",
+  "pulse"
  ],
  "colors": [
   "#275efe",

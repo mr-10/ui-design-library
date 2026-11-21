@@ -8,12 +8,12 @@
  "description": "Rounded black login form that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, a ring appears.",
  "tags": [
-  "rounded",
-  "ring",
-  "color-change",
   "profile",
   "password",
-  "email"
+  "email",
+  "rounded",
+  "ring",
+  "color-change"
  ],
  "colors": [
   "#111827",

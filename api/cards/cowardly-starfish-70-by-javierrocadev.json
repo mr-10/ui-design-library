@@ -8,12 +8,12 @@
  "description": "Pill white card that glows on hover with a smooth transition.",
  "howItWorks": "On hover, opacity becomes 1, box-shadow becomes inset 0px 10px 36px -13px #000000, background-color changes from #aaa3a3 to #030505.",
  "tags": [
+  "pause",
   "rounded",
   "pill",
   "fade",
   "glow",
-  "color-change",
-  "pause"
+  "color-change"
  ],
  "colors": [
   "#f1efef",

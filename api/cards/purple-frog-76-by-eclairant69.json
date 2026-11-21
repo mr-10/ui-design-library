@@ -8,12 +8,12 @@
  "description": "Rounded green card that lifts and glows on hover.",
  "howItWorks": "On hover, transform becomes translateY(-5px), box-shadow becomes 0 0 20px #000000, text color changes from #181a18 to #ccc.",
  "tags": [
+  "social",
   "green",
   "rounded",
   "lift",
   "glow",
-  "color-change",
-  "rotate"
+  "color-change"
  ],
  "colors": [
   "#6ed371",

@@ -5,8 +5,8 @@
  "author": "tiagoadag1203",
  "source": "https://uiverse.io/tiagoadag1203/fat-parrot-54",
  "trigger": "focus",
- "description": "Dark rounded black text input that lights up when focused.",
- "howItWorks": "On focus, starts the rotateShadow animation (animating).",
+ "description": "Rounded black text input that lights up when focused.",
+ "howItWorks": "On focus, starts the rotateShadow animation (moving).",
  "tags": [
   "dark",
   "rounded",

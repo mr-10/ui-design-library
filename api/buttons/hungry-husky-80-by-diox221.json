@@ -5,7 +5,7 @@
  "author": "Diox221",
  "source": "https://uiverse.io/Diox221/hungry-husky-80",
  "trigger": "hover",
- "description": "Dark rounded dark cyan button that scales up on hover.",
+ "description": "Rounded dark cyan button that scales up on hover.",
  "howItWorks": "On hover, transform becomes translate(-50%, -50%) scale(2).",
  "tags": [
   "cyan",

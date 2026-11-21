@@ -8,12 +8,12 @@
  "description": "Outlined pill pink toggle switch that starts animating on hover.",
  "howItWorks": "On hover, starts the ripple animation (fading, pulsing).",
  "tags": [
+  "comment",
   "pink",
   "outlined",
   "rounded",
   "pill",
-  "flat",
-  "animated"
+  "flat"
  ],
  "colors": [
   "#f5356e",

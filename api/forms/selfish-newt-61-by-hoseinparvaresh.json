@@ -8,12 +8,12 @@
  "description": "Gradient rounded gray login form that glows on hover.",
  "howItWorks": "On hover, background-color changes from wheat to #424242, border becomes none, border-radius becomes 0.5rem.",
  "tags": [
+  "login",
+  "password",
   "gradient",
   "rounded",
   "color-change",
-  "glow",
-  "login",
-  "password"
+  "glow"
  ],
  "colors": [
   "#808080",

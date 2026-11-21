@@ -8,10 +8,10 @@
  "description": "Rounded white button that slides on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translateX(97.5px), transform becomes translateX(100px).",
  "tags": [
+  "follow",
   "rounded",
   "flat",
   "slide",
-  "follow",
   "button",
   "hover"
  ],

@@ -5,7 +5,7 @@
  "author": "Dyls00",
  "source": "https://uiverse.io/Dyls00/afraid-newt-19",
  "trigger": "hover",
- "description": "Rounded orange tooltip that changes colour on hover.",
+ "description": "Rounded orange tooltip with arrow that changes colour on hover.",
  "howItWorks": "On hover, top becomes -100%, opacity becomes 1, text color changes to #ffffff.",
  "tags": [
   "orange",
@@ -13,7 +13,7 @@
   "flat",
   "color-change",
   "fade",
-  "tooltip"
+  "tooltip-with-arrow"
  ],
  "colors": [
   "#ee6d22",

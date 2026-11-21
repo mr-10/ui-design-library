@@ -8,11 +8,11 @@
  "description": "Gradient pill black text input that reacts on hover.",
  "howItWorks": "On hover, scale becomes 1.1.",
  "tags": [
+  "search",
   "gradient",
   "outlined",
   "rounded",
   "pill",
-  "search",
   "text-input"
  ],
  "colors": [

@@ -5,7 +5,7 @@
  "author": "MuhammadHasann",
  "source": "https://uiverse.io/MuhammadHasann/old-wombat-33",
  "trigger": "auto-loop",
- "description": "Neon gradient rounded blue button with growing and shrinking; shimmering motion in a loop.",
+ "description": "Neon gradient rounded blue button with shimmering motion in a loop.",
  "howItWorks": "It loops a 25s animation (growing and shrinking; shimmering).",
  "tags": [
   "blue",

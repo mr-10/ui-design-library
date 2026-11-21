@@ -8,10 +8,10 @@
  "description": "Pill gray button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, shadow grows.",
  "tags": [
+  "send",
   "rounded",
   "pill",
   "glow",
-  "send",
   "buttons",
   "css"
  ],

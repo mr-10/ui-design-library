@@ -8,12 +8,12 @@
  "description": "Outlined red subscribe button that slides on hover.",
  "howItWorks": "On hover, width becomes 100%, transform becomes translateX(4px), text color changes from #111 to #c84747.",
  "tags": [
+  "newsletter",
   "red",
   "outlined",
   "flat",
   "expand",
-  "slide",
-  "color-change"
+  "slide"
  ],
  "colors": [
   "#c84747",

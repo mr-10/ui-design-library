@@ -5,15 +5,15 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/slippery-puma-80",
  "trigger": "auto-loop",
- "description": "Orange loader with animating; bouncing; fading; pulsing; rotating motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; bouncing; fading; pulsing; rotating).",
+ "description": "Orange loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (bouncing; fading; moving; pulsing; rotating, sliding).",
  "tags": [
+  "rating",
   "orange",
   "green",
   "flat",
   "fade",
-  "spin",
-  "pulse"
+  "spin"
  ],
  "colors": [
   "#ff4500",

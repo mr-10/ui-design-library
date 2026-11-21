@@ -5,15 +5,15 @@
  "author": "Admin12121",
  "source": "https://uiverse.io/Admin12121/brown-bird-6",
  "trigger": "static",
- "description": "Gradient pill dark blue pricing card with soft shadow and rounded corners and gradient fill.",
+ "description": "Gradient pill dark blue pricing card with soft shadow.",
  "howItWorks": "It has no hover, click, focus or animation states; the pricing card is a fixed design.",
  "tags": [
+  "pricing",
   "blue",
   "green",
   "gradient",
   "dark",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#152148",

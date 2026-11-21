@@ -5,7 +5,7 @@
  "author": "McHaXYT",
  "source": "https://uiverse.io/McHaXYT/fresh-turkey-35",
  "trigger": "hover",
- "description": "Dark black button that lifts on hover with a smooth transition.",
+ "description": "Black button that lifts on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translateY(-3px).",
  "tags": [
   "dark",

@@ -5,8 +5,8 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/big-bulldog-8",
  "trigger": "auto-loop",
- "description": "Pill black loader with fading motion in a loop.",
- "howItWorks": "It loops a animation (fading, pulsing; rotating).",
+ "description": "Pill black loader with rotating motion in a loop.",
+ "howItWorks": "It loops a animation (fading, pulsing, sliding; rotating).",
  "tags": [
   "rounded",
   "pill",

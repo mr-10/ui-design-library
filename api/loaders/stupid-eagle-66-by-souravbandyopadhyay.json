@@ -5,8 +5,8 @@
  "author": "SouravBandyopadhyay",
  "source": "https://uiverse.io/SouravBandyopadhyay/stupid-eagle-66",
  "trigger": "auto-loop",
- "description": "White loader with animating motion in a loop.",
- "howItWorks": "It loops a 1.6s animation (animating).",
+ "description": "White loader with moving motion in a loop.",
+ "howItWorks": "It loops a 1.6s animation (moving).",
  "tags": [
   "flat",
   "loading",

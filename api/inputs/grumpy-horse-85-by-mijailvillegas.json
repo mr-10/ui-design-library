@@ -8,12 +8,12 @@
  "description": "Gradient cyan text input that changes colour on hover.",
  "howItWorks": "On hover, background changes from linear-gradient(\n    90deg,\n    transparent 0%,\n    #66e0ff 27%,\n    #66e0ff 63%,\n    transparent 100%\n  ) to linear-gradient(\n    90deg,\n    transparent 0%,\n    #66e0ff 27%,\n    #66e0ff 63%,\n    transparent 100%\n  ), text color changes from hsla(192, 100%, 88%, 0.806) to hsl(0, 0%, 100%), font-size becomes medium. On focus, background changes from linear-gradient(\n    90deg,\n    transparent 0%,\n    #66e0ff 27%,\n    #66e0ff 63%,\n    transparent 100%\n  ) to hsla(0, 0%, 100%, 0.814), the outline is removed, border-bottom becomes 1px solid hsl(192, 100%, 100%).",
  "tags": [
+  "submit",
   "cyan",
   "gradient",
   "outlined",
   "color-change",
-  "spin",
-  "submit"
+  "spin"
  ],
  "colors": [
   "#66e0ff",

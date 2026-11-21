@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded pink button that glows on hover.",
  "howItWorks": "On hover, background changes from linear-gradient(45deg, transparent 27%, #fd1853 5%, #fd1853 73%, transparent 27%) to transparent, text color changes from #ffffff to #00e6f6, box-shadow becomes 0 0 50px #fd1853.",
  "tags": [
+  "rating",
   "pink",
   "teal",
   "neon",
   "gradient",
-  "outlined",
-  "rounded"
+  "outlined"
  ],
  "colors": [
   "#fd1853",

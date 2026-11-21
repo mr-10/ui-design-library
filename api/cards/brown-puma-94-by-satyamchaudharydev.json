@@ -8,12 +8,12 @@
  "description": "Pill dark blue card that reacts on hover.",
  "howItWorks": "On hover, transform becomes translateY(1em).",
  "tags": [
+  "menu",
+  "play",
   "blue",
   "cyan",
   "rounded",
-  "pill",
-  "flat",
-  "drop"
+  "pill"
  ],
  "colors": [
   "#1c204b",

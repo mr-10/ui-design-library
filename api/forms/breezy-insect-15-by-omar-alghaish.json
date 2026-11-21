@@ -8,12 +8,12 @@
  "description": "Outlined rounded sky-blue form that changes colour on hover.",
  "howItWorks": "On hover, opacity becomes .9, background-color changes from #ff0000 to #ffffff. On focus, border becomes 1px #0088ff solid, the outline is removed, text color changes from #0088ff to #0088ff.",
  "tags": [
-  "blue",
-  "red",
-  "outlined",
-  "rounded",
-  "flat",
-  "fade"
+  "login",
+  "submit",
+  "password",
+  "twitter",
+  "email",
+  "social"
  ],
  "colors": [
   "#0088ff",

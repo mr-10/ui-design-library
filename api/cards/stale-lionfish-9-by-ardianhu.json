@@ -8,12 +8,12 @@
  "description": "Rounded cyan login card that lights up when focused.",
  "howItWorks": "On focus, a ring appears.",
  "tags": [
+  "login",
+  "signup",
   "cyan",
   "green",
   "rounded",
-  "ring",
-  "login",
-  "signup"
+  "ring"
  ],
  "colors": [
   "#7dd3fc",

@@ -8,12 +8,12 @@
  "description": "Rounded violet checkbox that toggles on and off when clicked.",
  "howItWorks": "Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "twitter",
+  "social",
   "violet",
   "rounded",
-  "twitter",
   "checkbox",
-  "checkboxes",
-  "checked"
+  "checkboxes"
  ],
  "colors": [
   "#6b21a8",

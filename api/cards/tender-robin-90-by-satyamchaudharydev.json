@@ -8,11 +8,11 @@
  "description": "Fuchsia card that changes colour on hover with a smooth transition.",
  "howItWorks": "On hover, top becomes 0, font-size becomes 1.2em, background changes from #f7f7f8 to #FFE5F4.",
  "tags": [
+  "follow",
   "fuchsia",
   "flat",
   "color-change",
   "fade",
-  "follow",
   "instagram"
  ],
  "colors": [

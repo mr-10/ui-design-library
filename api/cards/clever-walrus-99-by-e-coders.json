@@ -5,7 +5,7 @@
  "author": "e-coders",
  "source": "https://uiverse.io/e-coders/clever-walrus-99",
  "trigger": "static",
- "description": "Gradient light red card with soft shadow and gradient fill.",
+ "description": "Gradient light red card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "red",

@@ -8,12 +8,12 @@
  "description": "3d rounded white profile card that reacts on hover.",
  "howItWorks": "On hover, transform becomes rotateX(180deg) rotateZ(-180deg).",
  "tags": [
-  "3d",
-  "outlined",
-  "rounded",
   "profile",
   "facebook",
-  "twitter"
+  "twitter",
+  "add",
+  "back",
+  "follow"
  ],
  "colors": [
   "#ffffff",

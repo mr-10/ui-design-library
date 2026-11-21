@@ -8,12 +8,12 @@
  "description": "Gradient rounded dark sky-blue login form that glows on hover.",
  "howItWorks": "On hover, background changes and text colour changes. On focus, shadow grows.",
  "tags": [
+  "login",
+  "password",
   "blue",
   "violet",
   "gradient",
-  "rounded",
-  "color-change",
-  "glow"
+  "rounded"
  ],
  "colors": [
   "#1f2937",

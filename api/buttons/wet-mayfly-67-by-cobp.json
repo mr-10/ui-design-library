@@ -5,12 +5,12 @@
  "author": "Cobp",
  "source": "https://uiverse.io/Cobp/wet-mayfly-67",
  "trigger": "static",
- "description": "Outlined rounded gray button with soft shadow and rounded corners.",
+ "description": "Outlined rounded gray button with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
+  "send",
   "outlined",
   "rounded",
-  "send",
   "material-design",
   "3d",
   "button"

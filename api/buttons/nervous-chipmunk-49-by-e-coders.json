@@ -5,11 +5,13 @@
  "author": "e-coders",
  "source": "https://uiverse.io/e-coders/nervous-chipmunk-49",
  "trigger": "hover",
- "description": "White button that changes colour on hover with a smooth transition.",
+ "description": "White social button that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #FAFBFC to #F3F4F6. On focus, outline becomes 1px transparent.",
  "tags": [
-  "color-change",
   "github",
+  "social",
+  "color-change",
+  "social-button",
   "button",
   "hover"
  ],

@@ -8,12 +8,12 @@
  "description": "Outlined pill light red profile card that glows and scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.2), background changes from #ffffff to #f55d56, text color changes from #fbb9b6 to #ffffff.",
  "tags": [
+  "profile",
+  "contact",
+  "social",
   "red",
   "outlined",
-  "rounded",
-  "pill",
-  "scale",
-  "color-change"
+  "rounded"
  ],
  "colors": [
   "#fcd0ce",

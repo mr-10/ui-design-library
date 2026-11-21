@@ -8,12 +8,12 @@
  "description": "Pill gray newsletter form that toggles on and off when clicked.",
  "howItWorks": "On hover, background changes. On focus, a ring appears. Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "submit",
+  "newsletter",
+  "save",
   "rounded",
   "pill",
-  "ring",
-  "color-change",
-  "scale",
-  "submit"
+  "ring"
  ],
  "colors": [
   "#d1d5db",

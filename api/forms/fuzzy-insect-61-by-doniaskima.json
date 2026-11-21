@@ -8,12 +8,12 @@
  "description": "Gradient rounded white login form that toggles on and off when clicked.",
  "howItWorks": "On hover, it scales and background changes and opacity changes and shadow grows and border changes and text colour changes. On focus, shadow grows and border changes and background changes and text colour changes. Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "signup",
   "gradient",
   "rounded",
   "scale",
   "color-change",
-  "fade",
-  "glow"
+  "fade"
  ],
  "colors": [
   "#e5e7eb",

@@ -8,11 +8,11 @@
  "description": "Gradient dark rounded white checkout form that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0px 0px 0px 2px #FFFFFF, 0px 0px 0px 4px #0000003a. On focus, border becomes 1px solid transparent, box-shadow becomes 0px 0px 0px 2px #242424, background-color changes from #F2F2F2 to transparent.",
  "tags": [
+  "checkout",
   "gradient",
   "dark",
   "rounded",
   "glow",
-  "checkout",
   "checkout-form"
  ],
  "colors": [

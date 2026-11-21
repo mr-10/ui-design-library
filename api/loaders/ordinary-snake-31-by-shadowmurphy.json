@@ -5,7 +5,7 @@
  "author": "shadowmurphy",
  "source": "https://uiverse.io/shadowmurphy/ordinary-snake-31",
  "trigger": "static",
- "description": "Gradient pill green spinner loader with rounded corners and gradient fill.",
+ "description": "Gradient pill green spinner loader with clean lines.",
  "howItWorks": "It has no hover, click, focus or animation states; the spinner loader is a fixed design.",
  "tags": [
   "green",

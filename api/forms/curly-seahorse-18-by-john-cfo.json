@@ -8,12 +8,12 @@
  "description": "Neon pill red form that glows on hover.",
  "howItWorks": "On hover, text color changes from #ff0000 to #ffffff, background changes from transparent to #00eeff, border becomes 1px solid #00e1ff. On focus, border becomes 1px solid #63ecf1, box-shadow becomes inset -1px -1px 5px #ffffff,\n        inset 10px 10px 10px #000000, transform becomes scale(1.05).",
  "tags": [
+  "close",
   "red",
   "teal",
   "neon",
   "outlined",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#ff0000",

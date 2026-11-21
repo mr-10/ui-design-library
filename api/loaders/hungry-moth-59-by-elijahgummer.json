@@ -5,7 +5,7 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/hungry-moth-59",
  "trigger": "auto-loop",
- "description": "Gradient pill dark teal loader with bouncing; growing and shrinking; rotating motion in a loop.",
+ "description": "Gradient pill dark teal loader with rotating motion in a loop.",
  "howItWorks": "It loops a 10s animation (bouncing; growing and shrinking; rotating).",
  "tags": [
   "teal",

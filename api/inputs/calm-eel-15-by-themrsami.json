@@ -5,15 +5,15 @@
  "author": "themrsami",
  "source": "https://uiverse.io/themrsami/calm-eel-15",
  "trigger": "hover",
- "description": "Gradient dark pill black text input that glows on hover.",
+ "description": "Gradient pill black text input that glows on hover.",
  "howItWorks": "On hover, background-color changes from #333 to #555, box-shadow becomes 0 0 15px #ffffff, transform becomes translate(-50%, -50%) scale(1). On focus, box-shadow becomes 0 0 30px #ffffff, transform becomes translate(-50%, -50%) scale(1.2), background changes from radial-gradient(circle, #ffffff, transparent) to radial-gradient(circle, #ffffff, transparent).",
  "tags": [
+  "search",
   "gradient",
   "dark",
   "outlined",
   "rounded",
-  "pill",
-  "color-change"
+  "pill"
  ],
  "colors": [
   "#1e1e1e",

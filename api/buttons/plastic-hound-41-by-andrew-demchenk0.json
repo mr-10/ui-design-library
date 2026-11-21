@@ -8,12 +8,12 @@
  "description": "Dark sky-blue button that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #313638 to #2753a7, background-color changes from #313638 to #cd242b, background-color changes from #313638 to #55acee.",
  "tags": [
+  "contact",
   "blue",
   "red",
   "dark",
   "flat",
-  "color-change",
-  "contact"
+  "color-change"
  ],
  "colors": [
   "#313638",

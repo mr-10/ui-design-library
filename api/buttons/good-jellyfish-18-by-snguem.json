@@ -8,10 +8,10 @@
  "description": "Outlined rounded black button that expands on hover.",
  "howItWorks": "On hover, width becomes 100%, height becomes 100%, border-radius becomes 20px.",
  "tags": [
+  "send",
   "outlined",
   "rounded",
   "expand",
-  "send",
   "icon",
   "animation"
  ],

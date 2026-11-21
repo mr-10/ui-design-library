@@ -5,7 +5,7 @@
  "author": "Amerss",
  "source": "https://uiverse.io/Amerss/massive-robin-70",
  "trigger": "static",
- "description": "Rounded black loader with rounded corners with a smooth transition.",
+ "description": "Rounded black loader with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the loader is a fixed design.",
  "tags": [
   "rounded",

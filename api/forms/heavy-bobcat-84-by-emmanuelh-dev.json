@@ -8,12 +8,12 @@
  "description": "Pill gray login form that changes colour on hover.",
  "howItWorks": "On hover, background changes and border changes and text colour changes. On focus, border changes and a ring appears.",
  "tags": [
+  "submit",
+  "password",
   "rounded",
   "pill",
   "color-change",
-  "ring",
-  "submit",
-  "password"
+  "ring"
  ],
  "colors": [
   "#4b5563",

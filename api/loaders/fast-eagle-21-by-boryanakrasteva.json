@@ -5,15 +5,15 @@
  "author": "boryanakrasteva",
  "source": "https://uiverse.io/boryanakrasteva/fast-eagle-21",
  "trigger": "auto-loop",
- "description": "Outlined light lime spinner loader with fading motion in a loop.",
- "howItWorks": "It loops a 4s animation (fading, pulsing).",
+ "description": "Outlined light lime spinner loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 4s animation (fading, pulsing, sliding).",
  "tags": [
   "lime",
   "outlined",
   "fade",
   "pulse",
-  "spinner-loader",
-  "loader"
+  "slide",
+  "spinner-loader"
  ],
  "colors": [
   "#f3f3f3",

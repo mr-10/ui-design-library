@@ -5,15 +5,15 @@
  "author": "zanina-yassine",
  "source": "https://uiverse.io/zanina-yassine/tame-wolverine-39",
  "trigger": "auto-loop",
- "description": "Dark pill black loader with pulsing; rotating motion in a loop.",
+ "description": "Outlined pill black loader with rotating motion in a loop.",
  "howItWorks": "It loops a 3s animation (pulsing; rotating).",
  "tags": [
+  "rating",
   "dark",
   "outlined",
   "rounded",
   "pill",
-  "pulse",
-  "spin"
+  "pulse"
  ],
  "colors": [
   "#131516",

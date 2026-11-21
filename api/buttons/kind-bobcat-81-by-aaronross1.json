@@ -8,12 +8,12 @@
  "description": "Pill red button that rotates on hover with a smooth transition.",
  "howItWorks": "On hover, width becomes 120px, border-radius becomes 50px, background-color changes from #141414 to #ff4545.",
  "tags": [
+  "edit",
   "red",
   "rounded",
   "pill",
   "color-change",
-  "expand",
-  "rotate"
+  "expand"
  ],
  "colors": [
   "#141414",

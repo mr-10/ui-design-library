@@ -8,11 +8,11 @@
  "description": "Rounded sky-blue send button that slides on hover.",
  "howItWorks": "On hover, background changes and it shifts position.",
  "tags": [
+  "send",
   "blue",
   "rounded",
   "color-change",
   "slide",
-  "send",
   "send-button"
  ],
  "colors": [

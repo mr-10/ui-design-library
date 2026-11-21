@@ -5,15 +5,15 @@
  "author": "bociKond",
  "source": "https://uiverse.io/bociKond/breezy-sloth-97",
  "trigger": "auto-loop",
- "description": "Outlined pill light emerald loader with animating motion in a loop.",
- "howItWorks": "It loops a .5s animation (animating).",
+ "description": "Outlined pill light emerald loader with rotating motion in a loop.",
+ "howItWorks": "It loops a .5s animation (rotating).",
  "tags": [
+  "phone",
   "emerald",
   "cyan",
   "outlined",
   "rounded",
-  "pill",
-  "flat"
+  "pill"
  ],
  "colors": [
   "#cce3de",

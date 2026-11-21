@@ -8,11 +8,11 @@
  "description": "Pill gray button that slides on hover with a smooth transition.",
  "howItWorks": "On hover, it rotates and it shifts position.",
  "tags": [
+  "send",
   "rounded",
   "pill",
   "rotate",
   "slide",
-  "send",
   "buttons"
  ],
  "colors": [

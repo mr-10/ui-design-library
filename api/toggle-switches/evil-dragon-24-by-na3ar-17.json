@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/Na3ar-17/evil-dragon-24",
  "trigger": "checked",
  "description": "Neon pill blue toggle switch that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: width becomes 57px, starts the installed animation (growing and shrinking), starts the rotate animation (fading, rotating).",
+ "howItWorks": "Clicking it toggles it: width becomes 57px, starts the installed animation (growing and shrinking), starts the rotate animation (fading, rotating, sliding).",
  "tags": [
+  "download",
   "blue",
   "neon",
   "outlined",
   "rounded",
-  "pill",
-  "fade"
+  "pill"
  ],
  "colors": [
   "#5b5bf0",

@@ -5,13 +5,13 @@
  "author": "mrhyddenn",
  "source": "https://uiverse.io/mrhyddenn/silly-starfish-53",
  "trigger": "checked",
- "description": "Gradient dark rounded black toggle switch that toggles on and off when clicked.",
+ "description": "Gradient rounded black toggle switch that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: text-shadow becomes inset 1px 1px 1px #000000, text color changes from #636161 to #8d8d8d, top becomes 10px.",
  "tags": [
+  "back",
   "gradient",
   "dark",
   "rounded",
-  "back",
   "toggle-switch",
   "skeuomorphism"
  ],

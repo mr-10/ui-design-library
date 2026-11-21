@@ -5,12 +5,12 @@
  "author": "AKAspidey01",
  "source": "https://uiverse.io/AKAspidey01/jolly-tiger-60",
  "trigger": "static",
- "description": "Gradient rounded white button with soft shadow and rounded corners and gradient fill.",
+ "description": "Gradient rounded white button with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
+  "send",
   "gradient",
   "rounded",
-  "send",
   "neumorphism",
   "flashy",
   "button"

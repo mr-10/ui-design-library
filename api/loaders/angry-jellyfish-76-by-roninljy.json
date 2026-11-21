@@ -5,7 +5,7 @@
  "author": "RoninLJY",
  "source": "https://uiverse.io/RoninLJY/angry-jellyfish-76",
  "trigger": "auto-loop",
- "description": "Rounded green loader with pulsing motion in a loop.",
+ "description": "Rounded green loader with rotating motion in a loop.",
  "howItWorks": "It loops a 3s animation (pulsing, rotating).",
  "tags": [
   "green",

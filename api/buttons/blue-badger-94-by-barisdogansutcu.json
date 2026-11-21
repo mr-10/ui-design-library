@@ -8,12 +8,12 @@
  "description": "Gradient rounded cyan button that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.1).",
  "tags": [
+  "social",
   "cyan",
   "amber",
   "gradient",
   "outlined",
-  "rounded",
-  "flat"
+  "rounded"
  ],
  "colors": [
   "#1ab7ea",

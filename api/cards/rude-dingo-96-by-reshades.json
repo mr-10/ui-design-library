@@ -5,15 +5,15 @@
  "author": "reshades",
  "source": "https://uiverse.io/reshades/rude-dingo-96",
  "trigger": "hover",
- "description": "Dark rounded black card that changes colour on hover.",
+ "description": "Outlined rounded black card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #121212 to #ffffff10.",
  "tags": [
+  "close",
+  "comment",
   "dark",
   "outlined",
   "rounded",
-  "flat",
-  "color-change",
-  "close"
+  "flat"
  ],
  "colors": [
   "#121212",

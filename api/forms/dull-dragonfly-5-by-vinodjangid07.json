@@ -8,9 +8,9 @@
  "description": "Rounded gray form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #525252 to #0e0e0e.",
  "tags": [
+  "upload",
   "rounded",
   "color-change",
-  "upload",
   "form",
   "image",
   "file-upload"

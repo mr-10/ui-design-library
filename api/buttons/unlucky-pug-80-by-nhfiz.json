@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/nhfiz/unlucky-pug-80",
  "trigger": "hover",
  "description": "Dark rounded teal button that starts animating on hover.",
- "howItWorks": "On hover, transform becomes scale(0.07), starts the shake_341 animation (pulsing), top becomes 5px. On focus, text color changes from #fff to #464646, transform becomes scale(0.07), starts the launch_341 animation (fading).",
+ "howItWorks": "On hover, transform becomes scale(0.07), starts the shake_341 animation (pulsing, sliding), top becomes 5px. On focus, text color changes from #fff to #464646, transform becomes scale(0.07), starts the launch_341 animation (fading).",
  "tags": [
   "teal",
   "blue",

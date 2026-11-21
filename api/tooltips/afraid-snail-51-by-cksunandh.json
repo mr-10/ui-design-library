@@ -5,15 +5,15 @@
  "author": "Cksunandh",
  "source": "https://uiverse.io/Cksunandh/afraid-snail-51",
  "trigger": "hover",
- "description": "Rounded emerald tooltip that fades on hover with a smooth transition.",
+ "description": "Rounded emerald tooltip with arrow that fades on hover.",
  "howItWorks": "On hover, top becomes -100%, opacity becomes 1.",
  "tags": [
   "emerald",
   "rounded",
   "flat",
   "fade",
-  "simple",
-  "tooltip"
+  "tooltip-with-arrow",
+  "arrow"
  ],
  "colors": [
   "#00a36d",

@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/Yaya12085/lovely-firefox-94",
  "trigger": "checked",
  "description": "Gradient pill sky-blue toggle switch that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: box-shadow becomes inset -2px -2px 0 #5e5e5e,inset 2px 2px 0 #1c1c1c, border becomes 4px solid #4d7cff, starts the animeBorder animation (animating).",
+ "howItWorks": "Clicking it toggles it: box-shadow becomes inset -2px -2px 0 #5e5e5e,inset 2px 2px 0 #1c1c1c, border becomes 4px solid #4d7cff, starts the animeBorder animation (moving).",
  "tags": [
   "blue",
   "gradient",

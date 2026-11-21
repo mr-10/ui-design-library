@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/mobinkakei/silent-kangaroo-88",
  "trigger": "hover",
  "description": "3d rounded sky-blue button that starts animating on hover.",
- "howItWorks": "On hover, starts the rotate624 animation (rotating), starts the storm1261 animation (animating), left becomes 120%.",
+ "howItWorks": "On hover, starts the rotate624 animation (rotating, sliding), starts the storm1261 animation (sliding), left becomes 120%.",
  "tags": [
   "blue",
   "green",

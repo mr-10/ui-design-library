@@ -5,15 +5,15 @@
  "author": "shadowmurphy",
  "source": "https://uiverse.io/shadowmurphy/rotten-bullfrog-69",
  "trigger": "static",
- "description": "Dark rounded gray form with rounded corners with a smooth transition.",
+ "description": "Dark rounded gray form with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the form is a fixed design.",
  "tags": [
+  "close",
+  "send",
+  "chat",
   "dark",
   "outlined",
-  "rounded",
-  "flat",
-  "close",
-  "send"
+  "rounded"
  ],
  "colors": [
   "#343541",

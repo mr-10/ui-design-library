@@ -8,12 +8,12 @@
  "description": "Rounded teal button that scales up on hover.",
  "howItWorks": "On hover, background changes and it scales and text colour changes.",
  "tags": [
+  "back",
+  "rating",
   "teal",
   "blue",
   "rounded",
-  "color-change",
-  "scale",
-  "back"
+  "color-change"
  ],
  "colors": [
   "#06b6d4",

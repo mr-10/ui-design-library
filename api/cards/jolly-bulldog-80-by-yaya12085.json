@@ -5,14 +5,14 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/jolly-bulldog-80",
  "trigger": "static",
- "description": "Gradient rounded purple pricing card with rounded corners and gradient fill.",
+ "description": "Gradient rounded purple pricing card with clean lines.",
  "howItWorks": "It has no hover, click, focus or animation states; the pricing card is a fixed design.",
  "tags": [
+  "next",
   "purple",
   "gradient",
   "rounded",
   "flat",
-  "next",
   "pricing-card"
  ],
  "colors": [

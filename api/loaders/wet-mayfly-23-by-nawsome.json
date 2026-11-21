@@ -5,8 +5,8 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/wet-mayfly-23",
  "trigger": "auto-loop",
- "description": "Gradient 3d pill light amber loader with pulsing; rotating motion in a loop.",
- "howItWorks": "It loops a animation (pulsing; rotating).",
+ "description": "Gradient 3d pill light amber loader with rotating motion in a loop.",
+ "howItWorks": "It loops a animation (pulsing; rotating; rotating, sliding).",
  "tags": [
   "amber",
   "gradient",

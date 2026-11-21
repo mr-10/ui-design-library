@@ -8,9 +8,9 @@
  "description": "Gradient rounded gray button that responds while pressed down.",
  "howItWorks": "While pressed, transform becomes translate(3px, -3px) rotate(-45deg), box-shadow becomes none.",
  "tags": [
+  "send",
   "gradient",
   "rounded",
-  "send",
   "neumorphism",
   "button",
   "shadow"

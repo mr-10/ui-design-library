@@ -5,8 +5,8 @@
  "author": "satyamchaudharydev",
  "source": "https://uiverse.io/satyamchaudharydev/strange-turkey-17",
  "trigger": "auto-loop",
- "description": "Gradient purple loader with animating motion in a loop.",
- "howItWorks": "It loops a 1s animation (animating).",
+ "description": "Gradient purple loader with moving motion in a loop.",
+ "howItWorks": "It loops a 1s animation (moving).",
  "tags": [
   "purple",
   "gradient",

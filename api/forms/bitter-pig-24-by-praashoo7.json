@@ -8,12 +8,12 @@
  "description": "Neon rounded orange login form that fades on hover.",
  "howItWorks": "On hover, opacity becomes 0.8.",
  "tags": [
+  "login",
+  "submit",
   "orange",
   "amber",
   "neon",
-  "outlined",
-  "rounded",
-  "fade"
+  "outlined"
  ],
  "colors": [
   "#daa06d",

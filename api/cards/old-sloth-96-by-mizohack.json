@@ -5,8 +5,8 @@
  "author": "Mizohack",
  "source": "https://uiverse.io/Mizohack/old-sloth-96",
  "trigger": "auto-loop",
- "description": "Gradient dark rounded teal card with animating motion in a loop.",
- "howItWorks": "It loops a 1.5s animation (animating).",
+ "description": "Gradient dark rounded teal card with moving motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (moving).",
  "tags": [
   "teal",
   "yellow",

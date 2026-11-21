@@ -5,7 +5,7 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/hard-mole-83",
  "trigger": "static",
- "description": "Outlined rounded sky-blue card with soft shadow and rounded corners.",
+ "description": "Outlined rounded sky-blue card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "blue",

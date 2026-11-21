@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/Mohammad-Rahme-576/spicy-grasshopper-17",
  "trigger": "hover",
  "description": "Neon gradient 3d rounded violet button that starts animating on hover.",
- "howItWorks": "On hover, background changes from #8a2be2 to linear-gradient(\n    135deg,\n    #8a2be2,\n    #4b0082\n  ), transform becomes scale(1.05) translateY(-3px) rotateY(10deg), box-shadow becomes 0 0 20px #8a2be2,\n    0 0 40px #4b0082,\n    0 0 60px #da70d6. On focus, the outline is removed, box-shadow becomes 0 0 0 4px #8a2be2,\n    0 0 30px #da70d6, starts the focusPulse animation (animating).",
+ "howItWorks": "On hover, background changes from #8a2be2 to linear-gradient(\n    135deg,\n    #8a2be2,\n    #4b0082\n  ), transform becomes scale(1.05) translateY(-3px) rotateY(10deg), box-shadow becomes 0 0 20px #8a2be2,\n    0 0 40px #4b0082,\n    0 0 60px #da70d6. On focus, the outline is removed, box-shadow becomes 0 0 0 4px #8a2be2,\n    0 0 30px #da70d6, starts the focusPulse animation (moving).",
  "tags": [
   "violet",
   "purple",

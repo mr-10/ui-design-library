@@ -8,12 +8,12 @@
  "description": "Rounded white radio button that toggles on and off when clicked.",
  "howItWorks": "On hover, background changes. On focus, a ring appears. Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "google",
+  "social",
   "rounded",
   "color-change",
   "ring",
-  "google",
-  "radio-button",
-  "radio-buttons"
+  "radio-button"
  ],
  "colors": [
   "#f8fafc",

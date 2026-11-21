@@ -5,12 +5,12 @@
  "author": "kandalgaonkarshubham",
  "source": "https://uiverse.io/kandalgaonkarshubham/yellow-dolphin-39",
  "trigger": "static",
- "description": "Minimal white button with clean lines with a smooth transition.",
+ "description": "Minimal white button with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
+  "send",
   "minimal",
   "flat",
-  "send",
   "buttons",
   "static",
   "css"

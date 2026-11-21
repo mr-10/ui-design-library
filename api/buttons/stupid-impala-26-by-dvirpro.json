@@ -8,12 +8,12 @@
  "description": "Gradient pill red button that starts animating on hover.",
  "howItWorks": "On hover, starts the heartBeat animation (pulsing), transform becomes translate(-50%, -50%) scale(1).",
  "tags": [
+  "like",
   "red",
   "gradient",
   "rounded",
   "pill",
-  "animated",
-  "shrink"
+  "animated"
  ],
  "colors": [
   "#ff5252",

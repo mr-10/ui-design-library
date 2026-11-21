@@ -5,7 +5,7 @@
  "author": "adamgiebl",
  "source": "https://uiverse.io/adamgiebl/stale-catfish-69",
  "trigger": "static",
- "description": "Minimal gray card with clean lines with a smooth transition.",
+ "description": "Minimal gray card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "minimal",

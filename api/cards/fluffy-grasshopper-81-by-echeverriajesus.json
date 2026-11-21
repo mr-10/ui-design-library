@@ -8,12 +8,12 @@
  "description": "Gradient rounded dark sky-blue pricing card that scales up on hover.",
  "howItWorks": "On hover, it scales and a ring appears.",
  "tags": [
+  "cart",
+  "add",
   "blue",
   "green",
   "gradient",
-  "rounded",
-  "scale",
-  "ring"
+  "rounded"
  ],
  "colors": [
   "#1f2937",

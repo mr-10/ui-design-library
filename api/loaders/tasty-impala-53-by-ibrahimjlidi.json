@@ -5,7 +5,7 @@
  "author": "ibrahimjlidi",
  "source": "https://uiverse.io/ibrahimjlidi/tasty-impala-53",
  "trigger": "auto-loop",
- "description": "Pill dark sky-blue loader with bouncing motion in a loop.",
+ "description": "Pill dark sky-blue loader with rotating motion in a loop.",
  "howItWorks": "It loops a 0.5s animation (bouncing, pulsing, rotating; pulsing).",
  "tags": [
   "blue",

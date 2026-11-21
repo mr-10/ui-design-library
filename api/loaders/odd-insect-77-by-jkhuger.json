@@ -5,15 +5,15 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/odd-insect-77",
  "trigger": "auto-loop",
- "description": "3d teal cube loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 3s animation (animating; rotating).",
+ "description": "3d teal cube loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 3s animation (rotating; rotating, sliding; sliding).",
  "tags": [
+  "back",
   "teal",
   "3d",
   "spin",
-  "back",
-  "cube-loader",
-  "loader"
+  "slide",
+  "cube-loader"
  ],
  "colors": [
   "#43bfcf",

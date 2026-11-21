@@ -5,7 +5,7 @@
  "author": "OnCloud125252",
  "source": "https://uiverse.io/OnCloud125252/tough-moth-4",
  "trigger": "hover",
- "description": "Dark black sign in button that rotates on hover.",
+ "description": "Black sign in button that rotates on hover.",
  "howItWorks": "On hover, transform becomes translate(calc(50% +  * 0.1), calc((50% +  * 0.1) * -1)) rotate(45deg), text color changes from #ffffff to #000000. On focus, transform becomes translate(calc(50% +  * 0.1), calc((50% +  * 0.1) * -1)) rotate(45deg), text color changes from #ffffff to #000000.",
  "tags": [
   "dark",

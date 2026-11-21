@@ -8,12 +8,12 @@
  "description": "Gradient rounded gray login form that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 2px 2px 12px #ffffff, font-weight becomes bold.",
  "tags": [
+  "login",
+  "signup",
+  "password",
   "gradient",
   "outlined",
-  "rounded",
-  "glow",
-  "login",
-  "signup"
+  "rounded"
  ],
  "colors": [
   "#808080",

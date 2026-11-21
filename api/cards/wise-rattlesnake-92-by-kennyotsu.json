@@ -5,12 +5,12 @@
  "author": "kennyotsu",
  "source": "https://uiverse.io/kennyotsu/wise-rattlesnake-92",
  "trigger": "static",
- "description": "Red card with clean lines with a smooth transition.",
+ "description": "Red card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "password",
   "red",
   "flat",
-  "password",
   "simple",
   "material-design",
   "alert"

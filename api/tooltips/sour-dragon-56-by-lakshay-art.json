@@ -5,15 +5,15 @@
  "author": "Lakshay-art",
  "source": "https://uiverse.io/Lakshay-art/sour-dragon-56",
  "trigger": "hover",
- "description": "Gradient rounded dark green tooltip that fades on hover.",
+ "description": "Gradient rounded dark green tooltip with arrow that fades on hover.",
  "howItWorks": "On hover, top becomes -120px, opacity becomes 1, rotate becomes z 20deg.",
  "tags": [
+  "save",
   "green",
   "gradient",
   "rounded",
   "fade",
-  "save",
-  "simple"
+  "tooltip-with-arrow"
  ],
  "colors": [
   "#3f5641",

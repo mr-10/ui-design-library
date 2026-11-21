@@ -8,12 +8,12 @@
  "description": "Rounded light amber notification that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #ece0b4 to #f4e0a6, border-color becomes #f4e0a6.",
  "tags": [
+  "next",
   "amber",
   "rounded",
   "flat",
   "color-change",
-  "pulse",
-  "next"
+  "pulse"
  ],
  "colors": [
   "#ece0b4",

@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded fuchsia text input that rotates on hover.",
  "howItWorks": "On hover, opacity becomes 0, transform becomes translate(-50%, -50%) rotate(-98deg), transform becomes translate(-50%, -50%) rotate(-120deg). On focus, the outline is removed, transform becomes translate(-50%, -50%) rotate(442deg), transform becomes translate(-50%, -50%) rotate(420deg).",
  "tags": [
+  "search",
   "fuchsia",
   "gradient",
   "dark",
   "outlined",
-  "rounded",
-  "flat"
+  "rounded"
  ],
  "colors": [
   "#010201",

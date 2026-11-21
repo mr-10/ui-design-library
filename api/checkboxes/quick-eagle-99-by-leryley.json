@@ -8,12 +8,12 @@
  "description": "Rounded white checkbox that toggles on and off when clicked.",
  "howItWorks": "On hover, background changes. Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "google",
+  "social",
   "rounded",
   "color-change",
-  "google",
   "checkbox",
-  "checkboxes",
-  "checked"
+  "checkboxes"
  ],
  "colors": [
   "#ffffff",

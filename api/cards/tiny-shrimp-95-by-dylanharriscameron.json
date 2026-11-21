@@ -5,7 +5,7 @@
  "author": "dylanharriscameron",
  "source": "https://uiverse.io/dylanharriscameron/tiny-shrimp-95",
  "trigger": "hover",
- "description": "3d dark rounded black card that glows on hover.",
+ "description": "3d rounded black card that glows on hover.",
  "howItWorks": "On hover, transform becomes translateZ(50px), transform becomes translateZ(24px), transform becomes rotateX(10deg) rotateY(-10deg) translateZ(0). On focus, transform becomes translateZ(50px), transform becomes translateZ(24px), transform becomes rotateX(10deg) rotateY(-10deg) translateZ(0).",
  "tags": [
   "3d",

@@ -8,12 +8,12 @@
  "description": "Rounded red form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #ff6f69 to #ff5f59.",
  "tags": [
+  "submit",
+  "email",
   "red",
   "rounded",
   "flat",
-  "color-change",
-  "submit",
-  "email"
+  "color-change"
  ],
  "colors": [
   "#333333",

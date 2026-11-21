@@ -8,12 +8,12 @@
  "description": "Gradient rounded pink button that changes colour on hover.",
  "howItWorks": "On hover, background changes from #ff135a to #fff, width becomes 140px.",
  "tags": [
+  "download",
   "pink",
   "gradient",
   "rounded",
   "color-change",
-  "expand",
-  "download"
+  "expand"
  ],
  "colors": [
   "#ff135a",

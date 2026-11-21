@@ -8,12 +8,12 @@
  "description": "Neon gradient 3d pill indigo profile card that toggles on and off when clicked.",
  "howItWorks": "On hover, filter becomes grayscale(0%), scale becomes 1.025, box-shadow becomes 0 0 5em rgba(, .5). Clicking it toggles it: text-shadow becomes 0px 2px 5px rgba(, .35), border-radius becomes 10px, height becomes 295px.",
  "tags": [
+  "profile",
+  "social",
+  "facebook",
+  "twitter",
   "indigo",
-  "neon",
-  "gradient",
-  "3d",
-  "rounded",
-  "pill"
+  "neon"
  ],
  "colors": [
   "#f5f5f5",

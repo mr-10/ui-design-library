@@ -8,11 +8,11 @@
  "description": "Dark pill indigo toggle switch that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: box-shadow becomes none, left becomes 72%, transform becomes rotate(360deg). On focus, box-shadow becomes 10px 10px 100px #7f8996.",
  "tags": [
+  "play",
   "indigo",
   "dark",
   "rounded",
   "pill",
-  "play",
   "toggle-switch"
  ],
  "colors": [

@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/coding-masala/slimy-cow-34",
  "trigger": "checked",
  "description": "Neon pill red toggle switch that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: starts the shadow-animation_5020 animation (animating), transform becomes translateX(25px).",
+ "howItWorks": "Clicking it toggles it: starts the shadow-animation_5020 animation (moving), transform becomes translateX(25px).",
  "tags": [
   "red",
   "neon",

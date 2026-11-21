@@ -5,8 +5,8 @@
  "author": "Fareny",
  "source": "https://uiverse.io/Fareny/bad-snail-59",
  "trigger": "auto-loop",
- "description": "Dark rounded indigo loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a animation (animating; rotating).",
+ "description": "Dark rounded indigo loader with rotating motion in a loop.",
+ "howItWorks": "It loops a animation (moving; rotating).",
  "tags": [
   "indigo",
   "dark",

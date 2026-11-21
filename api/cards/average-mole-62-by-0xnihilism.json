@@ -8,12 +8,12 @@
  "description": "Dark red card that glows and scales up on hover.",
  "howItWorks": "On hover, transform becomes rotate(0deg) scale(1.02), box-shadow becomes 20px 20px 0 #000, opacity becomes 0. On focus, the outline is removed, transform becomes scale(1.05).",
  "tags": [
+  "signup",
+  "newsletter",
   "red",
   "dark",
   "scale",
-  "rotate",
-  "glow",
-  "lift"
+  "rotate"
  ],
  "colors": [
   "#ff0000",

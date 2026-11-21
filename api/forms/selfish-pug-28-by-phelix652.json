@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded emerald login form that glows on hover.",
  "howItWorks": "On hover, text color changes from #000000 to #00ffc8, text color changes from #000000 to #ffffff, transform becomes scale(0.98).",
  "tags": [
+  "login",
+  "password",
   "emerald",
   "gradient",
   "dark",
-  "outlined",
-  "rounded",
-  "color-change"
+  "outlined"
  ],
  "colors": [
   "#00ffc8",

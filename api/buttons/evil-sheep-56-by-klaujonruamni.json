@@ -5,7 +5,7 @@
  "author": "KlaujonRuamni",
  "source": "https://uiverse.io/KlaujonRuamni/evil-sheep-56",
  "trigger": "hover",
- "description": "Gradient dark rounded dark blue button that starts animating on hover.",
+ "description": "Gradient rounded dark blue button that starts animating on hover.",
  "howItWorks": "On hover, background changes from linear-gradient(to bottom, #1b1c3f, #4a4e91) to linear-gradient(to bottom, #2c2f63, #5b67b7), starts the button-particles animation (shimmering), transform becomes translateY(-2px).",
  "tags": [
   "blue",

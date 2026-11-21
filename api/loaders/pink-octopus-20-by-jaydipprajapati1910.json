@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/JaydipPrajapati1910/pink-octopus-20",
  "trigger": "auto-loop",
  "description": "Outlined pill amber loader with rotating motion in a loop.",
- "howItWorks": "It loops a 8s animation (rotating).",
+ "howItWorks": "It loops a 8s animation (rotating, sliding).",
  "tags": [
   "amber",
   "orange",

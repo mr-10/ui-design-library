@@ -8,11 +8,11 @@
  "description": "Pill yellow tooltip that scales up on hover.",
  "howItWorks": "On hover, it scales.",
  "tags": [
+  "like",
   "yellow",
   "rounded",
   "pill",
   "scale",
-  "like",
   "tooltips"
  ],
  "colors": [

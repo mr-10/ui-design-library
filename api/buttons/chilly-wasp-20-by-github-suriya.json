@@ -8,12 +8,12 @@
  "description": "Rounded white button that starts animating on hover.",
  "howItWorks": "On hover, starts the fly-1 animation (bouncing), transform becomes translateX(4.2em) rotate(45deg) scale(1.1), transform becomes translateX(9em).",
  "tags": [
+  "send",
   "rounded",
   "animated",
   "scale",
   "slide",
-  "rotate",
-  "bounce"
+  "rotate"
  ],
  "colors": [
   "#eef0ee",

@@ -5,8 +5,8 @@
  "author": "ZacharyCrespin",
  "source": "https://uiverse.io/ZacharyCrespin/grumpy-stingray-26",
  "trigger": "auto-loop",
- "description": "White cube loader with animating motion in a loop.",
- "howItWorks": "It loops a 10s animation (animating).",
+ "description": "White cube loader with moving motion in a loop.",
+ "howItWorks": "It loops a 10s animation (moving).",
  "tags": [
   "flat",
   "cube-loader",

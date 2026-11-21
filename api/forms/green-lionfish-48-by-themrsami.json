@@ -8,12 +8,12 @@
  "description": "Pill sky-blue login form that changes colour on hover.",
  "howItWorks": "On hover, border changes and text colour changes. On focus, border changes.",
  "tags": [
+  "twitter",
+  "social",
   "blue",
   "rounded",
   "pill",
-  "color-change",
-  "twitter",
-  "login-form"
+  "color-change"
  ],
  "colors": [
   "#1e3a8a",

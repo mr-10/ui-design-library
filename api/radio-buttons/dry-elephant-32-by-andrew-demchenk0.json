@@ -8,12 +8,12 @@
  "description": "Neon pill red radio button that toggles on and off when clicked.",
  "howItWorks": "On hover, transform becomes scale(1.05). Clicking it toggles it: top becomes 19px, right becomes 19px, width becomes 12px.",
  "tags": [
+  "pricing",
   "red",
   "amber",
   "neon",
   "outlined",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#ff0000",

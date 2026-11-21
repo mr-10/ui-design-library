@@ -8,8 +8,8 @@
  "description": "Sky-blue signup form that lights up when focused.",
  "howItWorks": "On focus, border becomes 2px solid #2d8cf0.",
  "tags": [
-  "blue",
   "login",
+  "blue",
   "signup-form",
   "email",
   "social",

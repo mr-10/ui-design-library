@@ -8,10 +8,10 @@
  "description": "Neon 3d sky-blue checkbox that toggles on and off when clicked.",
  "howItWorks": "On hover, border-color becomes #0b76ef. Clicking it toggles it: border-color becomes #0b76ef, transform becomes rotateY(180deg).",
  "tags": [
+  "back",
   "blue",
   "neon",
   "3d",
-  "back",
   "checkbox",
   "flip"
  ],

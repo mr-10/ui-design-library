@@ -8,12 +8,12 @@
  "description": "Outlined rounded sky-blue login form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #e0ecfb to #005ce6, text color changes from #0066ff to #005ce6.",
  "tags": [
+  "email",
   "blue",
   "outlined",
   "rounded",
   "flat",
-  "color-change",
-  "email"
+  "color-change"
  ],
  "colors": [
   "#005ce6",

@@ -8,10 +8,10 @@
  "description": "Rounded cyan button that expands on hover with a smooth transition.",
  "howItWorks": "On hover, width becomes 150px, border-radius becomes 5px, padding becomes 2px.",
  "tags": [
+  "social",
   "cyan",
   "rounded",
   "expand",
-  "social",
   "button",
   "hover"
  ],

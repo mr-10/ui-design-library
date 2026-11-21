@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded purple search input that toggles on and off when clicked.",
  "howItWorks": "On hover, top becomes -3.5rem, opacity becomes 1. Clicking it toggles it: height becomes 20rem, opacity becomes 0, opacity becomes 1. On focus, opacity becomes 0.75.",
  "tags": [
+  "search",
   "purple",
   "blue",
   "gradient",
   "dark",
-  "outlined",
-  "rounded"
+  "outlined"
  ],
  "colors": [
   "#ff00ff",

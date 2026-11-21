@@ -8,12 +8,12 @@
  "description": "Pill white button that glows and scales up on hover.",
  "howItWorks": "On hover, it scales and shadow grows and background changes and it rotates.",
  "tags": [
+  "send",
   "rounded",
   "pill",
   "scale",
   "glow",
-  "color-change",
-  "rotate"
+  "color-change"
  ],
  "colors": [
   "#f9fafb",

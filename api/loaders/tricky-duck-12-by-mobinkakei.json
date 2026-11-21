@@ -5,7 +5,7 @@
  "author": "mobinkakei",
  "source": "https://uiverse.io/mobinkakei/tricky-duck-12",
  "trigger": "auto-loop",
- "description": "Gradient pill white loader with growing and shrinking; shimmering motion in a loop.",
+ "description": "Gradient pill white loader with shimmering motion in a loop.",
  "howItWorks": "It loops a 10s animation (growing and shrinking; shimmering).",
  "tags": [
   "gradient",

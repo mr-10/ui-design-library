@@ -5,15 +5,15 @@
  "author": "PriyanshuGupta28",
  "source": "https://uiverse.io/PriyanshuGupta28/calm-earwig-94",
  "trigger": "auto-loop",
- "description": "Dark black spinner loader with rotating motion in a loop.",
- "howItWorks": "It loops a 1s animation (rotating).",
+ "description": "Black spinner loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1s animation (rotating, sliding).",
  "tags": [
   "dark",
   "flat",
   "spin",
+  "slide",
   "spinner-loader",
-  "loader",
-  "3d-loader"
+  "loader"
  ],
  "colors": [
   "#000000",

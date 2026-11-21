@@ -5,8 +5,8 @@
  "author": "Tsiangana",
  "source": "https://uiverse.io/Tsiangana/purple-fly-11",
  "trigger": "auto-loop",
- "description": "Gradient dark emerald loader with animating motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating).",
+ "description": "Gradient dark emerald loader with moving motion in a loop.",
+ "howItWorks": "It loops a 2s animation (moving).",
  "tags": [
   "emerald",
   "gradient",

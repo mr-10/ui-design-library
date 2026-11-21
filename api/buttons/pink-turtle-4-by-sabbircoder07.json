@@ -8,12 +8,12 @@
  "description": "Gradient rounded white button that starts animating on hover.",
  "howItWorks": "On hover, transform becomes translateY(-3px), border-radius becomes 26px, starts the pulsate animation (pulsing). On focus, the outline is removed, border-radius becomes 26px, starts the pulsate animation (pulsing).",
  "tags": [
+  "next",
   "gradient",
   "outlined",
   "rounded",
   "lift",
-  "animated",
-  "slide"
+  "animated"
  ],
  "colors": [
   "#ffffff",

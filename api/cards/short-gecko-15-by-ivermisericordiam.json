@@ -5,7 +5,7 @@
  "author": "IverMisericordiaM",
  "source": "https://uiverse.io/IverMisericordiaM/short-gecko-15",
  "trigger": "static",
- "description": "Gradient dark blue card with soft shadow and gradient fill.",
+ "description": "Gradient dark blue card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "blue",

@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/misaraadel/tame-elephant-97",
  "trigger": "hover",
  "description": "3d green button that starts animating on hover.",
- "howItWorks": "On hover, starts the sideClip animation (animating), opacity becomes 1, starts the storm animation (animating).",
+ "howItWorks": "On hover, starts the sideClip animation (moving), opacity becomes 1, starts the storm animation (sliding).",
  "tags": [
   "green",
   "3d",

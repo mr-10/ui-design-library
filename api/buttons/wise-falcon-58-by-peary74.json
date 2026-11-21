@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded amber button that glows on hover.",
  "howItWorks": "On hover, background changes from transparent to #000, text color changes from #ffffff to #ea8b19, box-shadow becomes 0 0 50px #ea8b19.",
  "tags": [
+  "rating",
   "amber",
   "neon",
   "gradient",
   "dark",
-  "outlined",
-  "rounded"
+  "outlined"
  ],
  "colors": [
   "#ea8b19",

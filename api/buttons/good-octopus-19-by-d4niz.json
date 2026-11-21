@@ -8,12 +8,12 @@
  "description": "Neon rounded blue button that glows on hover.",
  "howItWorks": "On hover, transform becomes translate(-0.05em, -0.05em), box-shadow becomes 0.15em 0.15em #5566c2.",
  "tags": [
+  "contact",
   "blue",
   "indigo",
   "neon",
   "rounded",
-  "glow",
-  "contact"
+  "glow"
  ],
  "colors": [
   "#5566c2",

@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/Lmickk2/brown-sheep-53",
  "trigger": "hover",
  "description": "Cyan card that starts animating on hover with a smooth transition.",
- "howItWorks": "On hover, left becomes -7em, transform becomes rotate(-15deg), starts the slide-left animation (animating).",
+ "howItWorks": "On hover, left becomes -7em, transform becomes rotate(-15deg), starts the slide-left animation (moving).",
  "tags": [
   "cyan",
   "red",

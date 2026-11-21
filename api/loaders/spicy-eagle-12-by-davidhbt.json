@@ -5,7 +5,7 @@
  "author": "davidhbt",
  "source": "https://uiverse.io/davidhbt/spicy-eagle-12",
  "trigger": "auto-loop",
- "description": "Pill gray spinner loader with fading motion in a loop.",
+ "description": "Pill gray spinner loader with pulsing motion in a loop.",
  "howItWorks": "It loops a 1.2s animation (fading, pulsing).",
  "tags": [
   "rounded",

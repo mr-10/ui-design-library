@@ -8,12 +8,12 @@
  "description": "Glass neon gradient rounded pink card that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.2).",
  "tags": [
+  "social",
   "pink",
   "blue",
   "neon",
   "glassmorphism",
-  "gradient",
-  "rounded"
+  "gradient"
  ],
  "colors": [
   "#e1306c",

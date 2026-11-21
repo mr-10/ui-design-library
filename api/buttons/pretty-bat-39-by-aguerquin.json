@@ -5,15 +5,15 @@
  "author": "aguerquin",
  "source": "https://uiverse.io/aguerquin/pretty-bat-39",
  "trigger": "hover",
- "description": "3d dark light red button that reacts on hover.",
+ "description": "3d dark light red social button that reacts on hover.",
  "howItWorks": "On hover, border-color becomes #ff98a2, transform becomes rotateX(90deg).",
  "tags": [
+  "github",
+  "social",
   "red",
   "3d",
   "dark",
-  "outlined",
-  "flat",
-  "github"
+  "outlined"
  ],
  "colors": [
   "#ff98a2",

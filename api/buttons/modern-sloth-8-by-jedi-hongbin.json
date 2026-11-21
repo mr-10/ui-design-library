@@ -8,10 +8,10 @@
  "description": "White button that lifts and glows on hover.",
  "howItWorks": "On hover, font-size becomes 1.2em, transform becomes translateX(-5px), box-shadow becomes 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff.",
  "tags": [
+  "back",
   "slide",
   "lift",
   "glow",
-  "back",
   "icon",
   "button"
  ],

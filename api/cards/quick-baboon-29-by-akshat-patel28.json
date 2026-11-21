@@ -5,7 +5,7 @@
  "author": "akshat-patel28",
  "source": "https://uiverse.io/akshat-patel28/quick-baboon-29",
  "trigger": "static",
- "description": "Pill green card with soft shadow and rounded corners.",
+ "description": "Pill green card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "green",

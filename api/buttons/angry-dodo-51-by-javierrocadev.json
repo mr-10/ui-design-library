@@ -8,12 +8,12 @@
  "description": "Gradient pill white button that glows and scales up on hover.",
  "howItWorks": "On hover, opacity changes and shadow grows and it scales and it rotates.",
  "tags": [
+  "send",
   "gradient",
   "rounded",
   "pill",
   "fade",
-  "glow",
-  "scale"
+  "glow"
  ],
  "colors": [
   "#f8fafc",

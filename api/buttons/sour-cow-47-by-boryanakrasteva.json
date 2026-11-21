@@ -8,12 +8,12 @@
  "description": "Outlined rounded black button that scales up on hover.",
  "howItWorks": "On hover, width becomes 150px, opacity becomes 1, transform becomes scale(1.1).",
  "tags": [
+  "delete",
   "outlined",
   "rounded",
   "expand",
   "fade",
-  "scale",
-  "delete"
+  "scale"
  ],
  "colors": [
   "#000000",

@@ -8,12 +8,12 @@
  "description": "Gradient rounded white checkout form that lights up when focused.",
  "howItWorks": "On focus, border becomes 1px solid transparent, box-shadow becomes 0px 0px 0px 2px #242424, background-color changes from #efeff3 to transparent.",
  "tags": [
-  "gradient",
-  "outlined",
-  "rounded",
   "pricing",
   "cart",
-  "checkout"
+  "checkout",
+  "gradient",
+  "outlined",
+  "rounded"
  ],
  "colors": [
   "#efefef",

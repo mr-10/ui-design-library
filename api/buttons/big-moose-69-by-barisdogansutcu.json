@@ -8,11 +8,11 @@
  "description": "Rounded gray button that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(3) translate(50%), transform becomes translateX(10px), transform becomes translateX(200%).",
  "tags": [
+  "play",
   "rounded",
   "flat",
   "scale",
   "slide",
-  "play",
   "button"
  ],
  "colors": [

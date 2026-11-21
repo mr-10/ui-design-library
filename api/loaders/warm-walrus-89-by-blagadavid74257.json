@@ -5,7 +5,7 @@
  "author": "BlagaDavid74257",
  "source": "https://uiverse.io/BlagaDavid74257/warm-walrus-89",
  "trigger": "auto-loop",
- "description": "Outlined pill white spinner loader with fading motion in a loop.",
+ "description": "Outlined pill white spinner loader with rotating motion in a loop.",
  "howItWorks": "It loops a 1s animation (fading, pulsing; rotating).",
  "tags": [
   "outlined",

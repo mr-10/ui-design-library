@@ -8,12 +8,12 @@
  "description": "Rounded dark sky-blue toggle switch that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: background-color changes from #c7dbd7 to #2b4360, transform becomes translateX(1.3em) rotate(45deg), padding becomes 3px. On focus, box-shadow becomes 0 0.5rem 1rem #000000.",
  "tags": [
+  "rating",
   "blue",
   "rounded",
   "spin",
   "slide",
-  "fade",
-  "rating"
+  "fade"
  ],
  "colors": [
   "#c7dbd7",

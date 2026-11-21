@@ -8,12 +8,12 @@
  "description": "Gradient rounded amber card that scales up on hover.",
  "howItWorks": "On hover, opacity becomes 0.25, transform becomes translateY(0%), transform becomes translateX(-1rem).",
  "tags": [
+  "add",
   "amber",
   "green",
   "gradient",
   "rounded",
-  "flat",
-  "fade"
+  "flat"
  ],
  "colors": [
   "#c79013",

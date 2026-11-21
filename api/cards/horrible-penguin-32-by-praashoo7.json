@@ -8,12 +8,12 @@
  "description": "Dark rounded red card that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #000000 to #ff0000, background changes from #ffffff to #ff0000, text color changes from #000000 to #ffffff.",
  "tags": [
+  "github",
+  "twitter",
+  "share",
+  "social",
   "red",
-  "dark",
-  "rounded",
-  "flat",
-  "color-change",
-  "github"
+  "dark"
  ],
  "colors": [
   "#ff0000",

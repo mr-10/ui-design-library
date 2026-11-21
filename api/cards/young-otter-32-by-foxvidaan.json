@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/FoxVidaan/young-otter-32",
  "trigger": "hover",
  "description": "Glass neon gradient rounded violet card that starts animating on hover.",
- "howItWorks": "On hover, starts the create-animation animation (pulsing), starts the post-animation animation (bouncing, pulsing, rotating), starts the inspire-animation animation (animating).",
+ "howItWorks": "On hover, starts the create-animation animation (pulsing), starts the post-animation animation (bouncing, pulsing, rotating), starts the inspire-animation animation (moving).",
  "tags": [
   "violet",
   "emerald",

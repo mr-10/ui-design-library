@@ -8,12 +8,12 @@
  "description": "Gradient 3d pill green text input that glows and scales up on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 2px 5px #000000, 0 0 10px #000000 inset, background changes from linear-gradient(\n    to bottom right,\n    #ffffff,\n    transparent\n  ) to linear-gradient(to right, #e6e6e6, #f9f9f9), border-color becomes #999. On focus, border-color becomes #4caf50, background changes from linear-gradient(\n    to bottom right,\n    #ffffff,\n    transparent\n  ) to linear-gradient(to right, #c2f0c2, #f0f0f0), transform becomes rotateX(20deg).",
  "tags": [
+  "search",
   "green",
   "gradient",
   "3d",
   "outlined",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#4caf50",

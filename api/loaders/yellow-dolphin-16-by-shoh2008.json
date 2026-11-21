@@ -5,15 +5,15 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/yellow-dolphin-16",
  "trigger": "auto-loop",
- "description": "Pill white loader with pulsing motion in a loop.",
- "howItWorks": "It loops a 2s animation (pulsing).",
+ "description": "Pill white loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 2s animation (pulsing, sliding).",
  "tags": [
   "rounded",
   "pill",
   "flat",
   "pulse",
-  "loader",
-  "auto-loop"
+  "slide",
+  "loader"
  ],
  "colors": [
   "#ffffff",

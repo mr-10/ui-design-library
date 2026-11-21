@@ -8,12 +8,12 @@
  "description": "Glass gradient pill dark violet card that starts animating on hover.",
  "howItWorks": "On hover, transform becomes scale(1.05), transform becomes translateY(-5px) rotate(1deg), box-shadow becomes 0 7px 50px 10px #000000.",
  "tags": [
+  "social",
   "violet",
   "glassmorphism",
   "gradient",
   "outlined",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#875c98",

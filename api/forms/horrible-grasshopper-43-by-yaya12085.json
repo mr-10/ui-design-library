@@ -8,12 +8,12 @@
  "description": "Dark rounded white signup form that lights up when focused.",
  "howItWorks": "On focus, background-color changes from #1a202c to #fff, box-shadow becomes 0 0 0 2px #cbd5e0.",
  "tags": [
-  "dark",
-  "outlined",
-  "rounded",
   "signup",
   "submit",
-  "password"
+  "password",
+  "email",
+  "dark",
+  "outlined"
  ],
  "colors": [
   "#1a202c",

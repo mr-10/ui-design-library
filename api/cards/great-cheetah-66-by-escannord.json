@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/escannord/great-cheetah-66",
  "trigger": "auto-loop",
  "description": "Outlined pill light violet card with rotating motion in a loop.",
- "howItWorks": "It loops a 43200s animation (rotating).",
+ "howItWorks": "It loops a 43200s animation (rotating, sliding).",
  "tags": [
   "violet",
   "blue",

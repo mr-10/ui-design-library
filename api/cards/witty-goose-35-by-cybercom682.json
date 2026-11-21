@@ -8,12 +8,12 @@
  "description": "Pill sky-blue card that changes colour on hover.",
  "howItWorks": "On hover, background changes.",
  "tags": [
+  "send",
+  "chat",
   "blue",
   "green",
   "rounded",
-  "pill",
-  "color-change",
-  "send"
+  "pill"
  ],
  "colors": [
   "#3b82f6",

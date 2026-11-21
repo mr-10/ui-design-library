@@ -8,11 +8,11 @@
  "description": "Rounded sky-blue download button that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, a ring appears.",
  "tags": [
+  "download",
   "blue",
   "rounded",
   "color-change",
   "ring",
-  "download",
   "download-button"
  ],
  "colors": [

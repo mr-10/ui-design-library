@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded orange card that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: starts the slide-in-fwd-center animation (pulsing).",
  "tags": [
+  "social",
+  "rating",
   "orange",
   "blue",
   "gradient",
-  "dark",
-  "rounded",
-  "pulse"
+  "dark"
  ],
  "colors": [
   "#ff662f",

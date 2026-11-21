@@ -8,10 +8,10 @@
  "description": "Rounded black button that changes colour on hover.",
  "howItWorks": "On hover, background changes and opacity changes.",
  "tags": [
+  "download",
   "rounded",
   "color-change",
   "fade",
-  "download",
   "buttons",
   "css"
  ],

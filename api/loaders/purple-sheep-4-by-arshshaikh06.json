@@ -5,7 +5,7 @@
  "author": "arshshaikh06",
  "source": "https://uiverse.io/arshshaikh06/purple-sheep-4",
  "trigger": "static",
- "description": "Gradient gray loader with gradient fill with a smooth transition.",
+ "description": "Gradient gray loader with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the loader is a fixed design.",
  "tags": [
   "gradient",

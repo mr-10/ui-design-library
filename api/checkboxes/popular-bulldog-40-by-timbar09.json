@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/Timbar09/popular-bulldog-40",
  "trigger": "checked",
  "description": "Outlined pill cyan checkbox that toggles on and off when clicked.",
- "howItWorks": "On hover, text color changes from #8f8f8f to #cdcdcd. Clicking it toggles it: starts the shrink animation (changing colour), starts the grow animation (changing colour), background-color changes to #2bbee7.",
+ "howItWorks": "On hover, text color changes from #8f8f8f to #cdcdcd. Clicking it toggles it: starts the shrink animation (pulsing), starts the grow animation (pulsing), background-color changes to #2bbee7.",
  "tags": [
   "cyan",
   "outlined",

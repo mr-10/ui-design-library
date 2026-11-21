@@ -8,12 +8,12 @@
  "description": "Gradient 3d pill blue card that glows on hover.",
  "howItWorks": "On hover, transform becomes rotate(3deg) rotateX(45deg), height becomes 90px, box-shadow becomes 0 5px 0px 5px #e41d6dc4, 0 10px 0px 10px #e41d6d8c,\n    0 15px 0px 15px #e41d6d49.",
  "tags": [
+  "social",
   "blue",
   "pink",
   "gradient",
   "3d",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#5661ea",

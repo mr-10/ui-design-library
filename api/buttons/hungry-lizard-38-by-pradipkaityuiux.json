@@ -8,12 +8,12 @@
  "description": "Rounded blue subscribe button that starts animating on hover.",
  "howItWorks": "On hover, transform becomes rotate(30deg) translateY(10px) translateX(-15px), transform becomes rotate(30deg) translateY(-70px) translateX(-30px), starts the wobel animation (pulsing).",
  "tags": [
+  "newsletter",
   "blue",
   "rounded",
   "flat",
   "drop",
-  "slide",
-  "rotate"
+  "slide"
  ],
  "colors": [
   "#000fdb",

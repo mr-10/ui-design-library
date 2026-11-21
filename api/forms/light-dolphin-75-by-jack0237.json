@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded cyan login form that changes colour on hover.",
  "howItWorks": "On hover, background changes from #ffffff14 to #212121. On focus, top becomes -16px, left becomes 0, background changes from #ffffff14 to #212121 padding-box.",
  "tags": [
+  "submit",
+  "password",
+  "email",
   "cyan",
   "gradient",
-  "dark",
-  "outlined",
-  "rounded",
-  "flat"
+  "dark"
  ],
  "colors": [
   "#212121",

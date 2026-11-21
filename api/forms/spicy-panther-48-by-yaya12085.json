@@ -8,11 +8,11 @@
  "description": "Gradient rounded sky-blue newsletter form that lights up when focused.",
  "howItWorks": "On focus, border becomes 1px solid rgb(99 102 241).",
  "tags": [
+  "newsletter",
   "blue",
   "gradient",
   "rounded",
   "flat",
-  "newsletter",
   "newsletter-form"
  ],
  "colors": [

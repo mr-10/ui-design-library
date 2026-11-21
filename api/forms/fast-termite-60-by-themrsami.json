@@ -8,12 +8,12 @@
  "description": "Rounded blue signup form that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, a ring appears and border changes.",
  "tags": [
+  "password",
+  "email",
   "blue",
   "rounded",
   "ring",
-  "color-change",
-  "password",
-  "email"
+  "color-change"
  ],
  "colors": [
   "#374151",

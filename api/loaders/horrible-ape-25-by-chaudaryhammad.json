@@ -8,12 +8,12 @@
  "description": "3d cyan cube loader with rotating motion in a loop.",
  "howItWorks": "It loops a 3s animation (rotating).",
  "tags": [
+  "back",
   "cyan",
   "red",
   "3d",
   "flat",
-  "spin",
-  "back"
+  "spin"
  ],
  "colors": [
   "#3498db",

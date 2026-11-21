@@ -8,12 +8,12 @@
  "description": "Glass dark rounded cyan card that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.5), font-size becomes 20px, text color changes to #ffffff.",
  "tags": [
+  "social",
+  "github",
   "cyan",
   "glassmorphism",
   "dark",
-  "outlined",
-  "rounded",
-  "flat"
+  "outlined"
  ],
  "colors": [
   "#181818",

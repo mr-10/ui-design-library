@@ -8,12 +8,12 @@
  "description": "Gradient pill cyan tooltip that changes colour on hover.",
  "howItWorks": "On hover, background changes from #fff to #fff, top becomes 150%, opacity becomes 1.",
  "tags": [
-  "cyan",
-  "blue",
-  "gradient",
-  "rounded",
-  "pill",
-  "color-change"
+  "github",
+  "facebook",
+  "twitter",
+  "send",
+  "social",
+  "cyan"
  ],
  "colors": [
   "#03a9f4",

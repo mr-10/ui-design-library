@@ -8,12 +8,12 @@
  "description": "Gradient pill teal send button that lifts and glows on hover.",
  "howItWorks": "On hover, transform becomes translateY(-3px), box-shadow becomes 0px 8px 15px #000000, background-color changes from #ffffff to #ffffff.",
  "tags": [
+  "send",
   "teal",
   "blue",
   "gradient",
   "rounded",
-  "pill",
-  "lift"
+  "pill"
  ],
  "colors": [
   "#4dc7d9",

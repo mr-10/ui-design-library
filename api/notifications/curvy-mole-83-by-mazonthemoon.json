@@ -8,12 +8,12 @@
  "description": "Gradient rounded dark red notification that glows on hover.",
  "howItWorks": "On hover, top becomes 2px, background changes from #840f00 to radial-gradient(hsl(6, 100%, 18%), hsl(6, 100%, 16%)), box-shadow becomes inset 0 1px 0 hsl(6, 100%, 25%), 0 2px 0 hsl(6, 100%, 22%),\n    0 3px 0 hsl(6, 100%, 18%), 0 4px 0 hsl(6, 100%, 16%),\n    0 5px 0 hsl(6, 100%, 12%), 0 6px 0 hsl(6, 100%, 10%).",
  "tags": [
+  "rating",
   "red",
   "gradient",
   "rounded",
   "glow",
-  "color-change",
-  "pulse"
+  "color-change"
  ],
  "colors": [
   "#5c0900",

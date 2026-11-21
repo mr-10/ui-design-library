@@ -5,7 +5,7 @@
  "author": "JsGrisales",
  "source": "https://uiverse.io/JsGrisales/wise-ladybug-7",
  "trigger": "static",
- "description": "Gradient light teal button with gradient fill with a smooth transition.",
+ "description": "Gradient light teal button with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
   "teal",

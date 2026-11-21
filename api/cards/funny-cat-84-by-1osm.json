@@ -5,12 +5,12 @@
  "author": "1osm",
  "source": "https://uiverse.io/1osm/funny-cat-84",
  "trigger": "static",
- "description": "Rounded red card with soft shadow and rounded corners.",
+ "description": "Rounded red card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "social",
   "red",
   "rounded",
-  "social",
   "card",
   "static",
   "css"

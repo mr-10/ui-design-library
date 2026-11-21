@@ -8,12 +8,12 @@
  "description": "Outlined rounded orange form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #fcb13e to #b54141, background-color changes from #fcb13e to #c78d35.",
  "tags": [
+  "send",
   "orange",
   "amber",
   "outlined",
   "rounded",
-  "color-change",
-  "send"
+  "color-change"
  ],
  "colors": [
   "#de4513",

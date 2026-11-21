@@ -8,11 +8,11 @@
  "description": "Pill indigo button that expands on hover with a smooth transition.",
  "howItWorks": "On hover, width becomes 120px, border-radius becomes 40px, transform becomes translate(10px).",
  "tags": [
+  "comment",
   "indigo",
   "rounded",
   "pill",
   "expand",
-  "comment",
   "button"
  ],
  "colors": [

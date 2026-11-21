@@ -8,11 +8,11 @@
  "description": "Rounded pink button that expands on hover with a smooth transition.",
  "howItWorks": "On hover, width becomes calc(100% - 0.6rem).",
  "tags": [
+  "share",
   "pink",
   "rounded",
   "flat",
   "expand",
-  "share",
   "button"
  ],
  "colors": [

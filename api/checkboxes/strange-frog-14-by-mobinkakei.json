@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/mobinkakei/strange-frog-14",
  "trigger": "checked",
  "description": "Pill red checkbox that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: background changes from #ff5b5b to #20cca5, opacity becomes 1, starts the bling6132 animation (animating).",
+ "howItWorks": "Clicking it toggles it: background changes from #ff5b5b to #20cca5, opacity becomes 1, starts the bling6132 animation (moving).",
  "tags": [
   "red",
   "emerald",

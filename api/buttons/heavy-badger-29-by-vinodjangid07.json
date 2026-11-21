@@ -8,12 +8,12 @@
  "description": "Gradient rounded purple save button that expands on hover.",
  "howItWorks": "On hover, width becomes 90px, transform becomes translate(10px), width becomes 0.",
  "tags": [
+  "save",
   "purple",
   "violet",
   "gradient",
   "rounded",
-  "flat",
-  "expand"
+  "flat"
  ],
  "colors": [
   "#0c0c0c",

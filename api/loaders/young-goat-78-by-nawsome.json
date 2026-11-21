@@ -5,8 +5,8 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/young-goat-78",
  "trigger": "auto-loop",
- "description": "Red spinner loader with animating motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating).",
+ "description": "Red spinner loader with moving motion in a loop.",
+ "howItWorks": "It loops a 2s animation (moving).",
  "tags": [
   "red",
   "amber",

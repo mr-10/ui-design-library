@@ -5,15 +5,15 @@
  "author": "alexroumi",
  "source": "https://uiverse.io/alexroumi/polite-dodo-16",
  "trigger": "static",
- "description": "Gradient rounded light amber card with rounded corners and gradient fill.",
+ "description": "Gradient rounded light amber card with clean lines.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "social",
   "amber",
   "orange",
   "gradient",
   "rounded",
-  "flat",
-  "social"
+  "flat"
  ],
  "colors": [
   "#ffd093",

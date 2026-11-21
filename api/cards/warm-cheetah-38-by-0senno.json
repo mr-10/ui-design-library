@@ -8,12 +8,12 @@
  "description": "Neon pill blue card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #2e2e2e to #405de6.",
  "tags": [
+  "social",
   "blue",
   "neon",
   "dark",
   "rounded",
-  "pill",
-  "color-change"
+  "pill"
  ],
  "colors": [
   "#1e1e1e",

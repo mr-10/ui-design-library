@@ -8,12 +8,12 @@
  "description": "Gradient pill light amber profile card that glows and scales up on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 8px 50px #23232333, transform becomes translateY(-5%), transform becomes translateY(100%).",
  "tags": [
+  "social",
   "amber",
   "gradient",
   "rounded",
   "pill",
-  "glow",
-  "lift"
+  "glow"
  ],
  "colors": [
   "#232323",

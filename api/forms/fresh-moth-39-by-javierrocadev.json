@@ -8,11 +8,11 @@
  "description": "Rounded cyan login form that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, a ring appears.",
  "tags": [
+  "password",
   "cyan",
   "rounded",
   "color-change",
   "ring",
-  "password",
   "login-form"
  ],
  "colors": [

@@ -5,7 +5,7 @@
  "author": "MusKRI",
  "source": "https://uiverse.io/MusKRI/wise-pig-77",
  "trigger": "active",
- "description": "Gradient dark pill black button that responds while pressed down.",
+ "description": "Gradient pill black button that responds while pressed down.",
  "howItWorks": "While pressed, transform becomes scale(13), opacity becomes 1.",
  "tags": [
   "gradient",

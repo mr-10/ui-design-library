@@ -5,7 +5,7 @@
  "author": "fanishah",
  "source": "https://uiverse.io/fanishah/terrible-goose-14",
  "trigger": "auto-loop",
- "description": "Neon gradient 3d pill amber loader with pulsing motion in a loop.",
+ "description": "Neon gradient 3d pill amber loader with rotating motion in a loop.",
  "howItWorks": "It loops a 0.8s animation (pulsing, rotating).",
  "tags": [
   "amber",

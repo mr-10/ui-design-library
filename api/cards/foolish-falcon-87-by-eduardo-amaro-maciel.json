@@ -5,7 +5,7 @@
  "author": "eduardo-amaro-maciel",
  "source": "https://uiverse.io/eduardo-amaro-maciel/foolish-falcon-87",
  "trigger": "static",
- "description": "Gradient dark rounded black card with rounded corners and gradient fill.",
+ "description": "Gradient rounded black card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "gradient",

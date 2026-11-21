@@ -5,15 +5,15 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/witty-firefox-53",
  "trigger": "hover",
- "description": "Pill white button that changes colour on hover.",
+ "description": "Pill white social button that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #000000 to transparent, text color changes from #ffffff to #000000.",
  "tags": [
+  "google",
+  "play",
+  "social",
   "rounded",
   "pill",
-  "flat",
-  "color-change",
-  "google",
-  "play"
+  "flat"
  ],
  "colors": [
   "#ffffff",

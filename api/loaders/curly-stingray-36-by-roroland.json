@@ -5,15 +5,15 @@
  "author": "roroland",
  "source": "https://uiverse.io/roroland/curly-stingray-36",
  "trigger": "auto-loop",
- "description": "Gradient 3d fuchsia loader with animating; fading motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; fading).",
+ "description": "Gradient 3d fuchsia loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (fading, pulsing, sliding; moving; rotating, sliding).",
  "tags": [
   "fuchsia",
   "amber",
   "gradient",
   "3d",
   "flat",
-  "fade"
+  "spin"
  ],
  "colors": [
   "#e4138d",

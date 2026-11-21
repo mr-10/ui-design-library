@@ -8,12 +8,12 @@
  "description": "3d dark rounded gray form that toggles on and off when clicked.",
  "howItWorks": "On hover, transform becomes scale(1.05), box-shadow becomes 6px 6px 10px #000000,\n  1px 1px 10px #ffffff,\n  inset 2px 2px 10px #000000,\n  inset -1px -1px 5px #ffffff. Clicking it toggles it: transform becomes rotateY(-180deg). On focus, opacity becomes 0, transform becomes scale(1.05), box-shadow becomes 6px 6px 10px #000000,\n  1px 1px 10px #ffffff,\n  inset 2px 2px 10px #000000,\n  inset -1px -1px 5px #ffffff.",
  "tags": [
+  "login",
+  "signup",
   "3d",
   "dark",
   "rounded",
-  "scale",
-  "glow",
-  "login"
+  "scale"
  ],
  "colors": [
   "#212121",

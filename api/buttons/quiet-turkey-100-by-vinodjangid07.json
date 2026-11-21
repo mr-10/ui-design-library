@@ -8,12 +8,12 @@
  "description": "Gradient cyan button that starts animating on hover.",
  "howItWorks": "On hover, starts the gradient animation (shimmering).",
  "tags": [
+  "share",
   "cyan",
   "purple",
   "gradient",
   "animated",
-  "shimmer",
-  "share"
+  "shimmer"
  ],
  "colors": [
   "#6bc5f8",

@@ -8,12 +8,12 @@
  "description": "Outlined rounded sky-blue form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #3366cc to #27408b. On focus, border-color becomes #3366cc, top becomes -10px, left becomes 10px.",
  "tags": [
+  "submit",
+  "email",
+  "comment",
   "blue",
   "outlined",
-  "rounded",
-  "flat",
-  "color-change",
-  "submit"
+  "rounded"
  ],
  "colors": [
   "#3366cc",

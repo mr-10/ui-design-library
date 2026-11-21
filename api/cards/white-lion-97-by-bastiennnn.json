@@ -8,12 +8,12 @@
  "description": "Gradient rounded dark indigo card that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.04) rotate(-1deg), background-color changes from #242d86 to #8515ff.",
  "tags": [
+  "social",
   "indigo",
   "blue",
   "gradient",
   "outlined",
-  "rounded",
-  "scale"
+  "rounded"
  ],
  "colors": [
   "#140752",

@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/seyed-mohsen-mousavi/bitter-snail-5",
  "trigger": "hover",
  "description": "Glass rounded gray button that starts animating on hover.",
- "howItWorks": "On hover, transform becomes rotate3d(1, 1, 1, 360deg), starts the shadow animation (animating).",
+ "howItWorks": "On hover, transform becomes rotate3d(1, 1, 1, 360deg), starts the shadow animation (moving).",
  "tags": [
   "glassmorphism",
   "rounded",

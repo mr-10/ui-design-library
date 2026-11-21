@@ -5,7 +5,7 @@
  "author": "Cybercom682",
  "source": "https://uiverse.io/Cybercom682/pink-shrimp-80",
  "trigger": "auto-loop",
- "description": "Pill dark violet loader with morphing motion in a loop.",
+ "description": "Pill dark violet loader with rotating motion in a loop.",
  "howItWorks": "It loops a 4s animation (morphing, pulsing; morphing, rotating; pulsing).",
  "tags": [
   "violet",

@@ -5,15 +5,15 @@
  "author": "LeonKohli",
  "source": "https://uiverse.io/LeonKohli/chatty-lionfish-6",
  "trigger": "hover",
- "description": "Gradient dark pill black card that glows and scales up on hover.",
+ "description": "Gradient pill black card that glows and scales up on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 0.75em 1.5em #000000, transform becomes scale(1.1), text color changes from #ffffff to #e1306c.",
  "tags": [
+  "social",
   "gradient",
   "dark",
   "rounded",
   "pill",
-  "glow",
-  "scale"
+  "glow"
  ],
  "colors": [
   "#141313",

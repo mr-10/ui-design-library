@@ -8,12 +8,12 @@
  "description": "Rounded blue wave loader that changes colour on hover.",
  "howItWorks": "On hover, background changes from #545FE5 to #fff, background changes from #545FE5 to #545FE5.",
  "tags": [
+  "menu",
   "blue",
   "rounded",
   "flat",
   "color-change",
-  "pulse",
-  "menu"
+  "pulse"
  ],
  "colors": [
   "#545fe5",

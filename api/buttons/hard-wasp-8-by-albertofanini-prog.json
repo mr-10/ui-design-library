@@ -8,12 +8,12 @@
  "description": "Gradient pill dark blue button that starts animating on hover.",
  "howItWorks": "On hover, transform becomes translate3d(0px, 8px, 0), transform becomes translate3d(-4px, 6px, 0), transform becomes translate3d(14px, -8px, 0).",
  "tags": [
+  "rating",
   "blue",
   "purple",
   "gradient",
   "outlined",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#090979",

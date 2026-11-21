@@ -5,7 +5,7 @@
  "author": "kyle1dev",
  "source": "https://uiverse.io/kyle1dev/quiet-cougar-91",
  "trigger": "hover",
- "description": "Gradient dark black tooltip that lifts and glows on hover.",
+ "description": "Gradient black tooltip that lifts and glows on hover.",
  "howItWorks": "On hover, opacity becomes 1, transform becomes translateX(-50%) translateY(0), background changes from linear-gradient(to right, #333, #000) to linear-gradient(to right, #000, #333).",
  "tags": [
   "gradient",

@@ -5,15 +5,15 @@
  "author": "Divyank-Gupta-g",
  "source": "https://uiverse.io/Divyank-Gupta-g/happy-robin-54",
  "trigger": "hover",
- "description": "Pill white button that glows on hover with a smooth transition.",
+ "description": "Pill white social login button that glows on hover.",
  "howItWorks": "On hover, shadow grows and background changes and text colour changes.",
  "tags": [
+  "google",
+  "social",
   "rounded",
   "pill",
   "glow",
-  "color-change",
-  "google",
-  "buttons"
+  "color-change"
  ],
  "colors": [
   "#ffffff",

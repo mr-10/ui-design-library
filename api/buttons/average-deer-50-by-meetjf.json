@@ -5,15 +5,15 @@
  "author": "MeetJF",
  "source": "https://uiverse.io/MeetJF/average-deer-50",
  "trigger": "static",
- "description": "Rounded white button with rounded corners with a smooth transition.",
- "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
+ "description": "Rounded white social button with clean lines and a smooth transition.",
+ "howItWorks": "It has no hover, click, focus or animation states; the social button is a fixed design.",
  "tags": [
-  "rounded",
   "download",
   "google",
   "play",
-  "buttons",
-  "static"
+  "social",
+  "rounded",
+  "social-button"
  ],
  "colors": [
   "#ffffff",

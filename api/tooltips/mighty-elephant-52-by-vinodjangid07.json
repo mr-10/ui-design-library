@@ -5,15 +5,15 @@
  "author": "vinodjangid07",
  "source": "https://uiverse.io/vinodjangid07/mighty-elephant-52",
  "trigger": "hover",
- "description": "Rounded gray tooltip that fades on hover with a smooth transition.",
+ "description": "Rounded gray tooltip with arrow that fades on hover.",
  "howItWorks": "On hover, top becomes -100%, opacity becomes 1.",
  "tags": [
+  "follow",
   "rounded",
   "flat",
   "fade",
-  "follow",
-  "tooltip",
-  "animation"
+  "tooltip-with-arrow",
+  "arrow"
  ],
  "colors": [
   "#d3d3d3",

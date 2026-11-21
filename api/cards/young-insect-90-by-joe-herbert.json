@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded purple card that lifts on hover.",
  "howItWorks": "On hover, width becomes 500px, height becomes 250px, opacity becomes 0.",
  "tags": [
+  "social",
   "purple",
   "cyan",
   "neon",
   "gradient",
-  "rounded",
-  "expand"
+  "rounded"
  ],
  "colors": [
   "#cccccc",

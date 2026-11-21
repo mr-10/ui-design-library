@@ -8,8 +8,8 @@
  "description": "Cyan button that reacts on hover with a smooth transition.",
  "howItWorks": "On focus, text color changes from #fff to #039be5, width becomes 100%, height becomes 100%.",
  "tags": [
-  "cyan",
   "download",
+  "cyan",
   "button",
   "hover",
   "css"

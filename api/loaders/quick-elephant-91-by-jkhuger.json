@@ -5,11 +5,12 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/quick-elephant-91",
  "trigger": "auto-loop",
- "description": "White loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 4s animation (animating; rotating).",
+ "description": "White loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 4s animation (rotating; sliding).",
  "tags": [
   "flat",
   "spin",
+  "slide",
   "loader",
   "auto-loop",
   "css"

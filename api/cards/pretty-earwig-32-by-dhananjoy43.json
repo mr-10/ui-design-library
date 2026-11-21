@@ -8,10 +8,10 @@
  "description": "Rounded dark sky-blue login card that changes colour on hover.",
  "howItWorks": "On hover, background changes.",
  "tags": [
+  "login",
   "blue",
   "rounded",
   "color-change",
-  "login",
   "login-card",
   "cards"
  ],

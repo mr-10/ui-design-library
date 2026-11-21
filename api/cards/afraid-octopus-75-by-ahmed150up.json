@@ -8,12 +8,12 @@
  "description": "Dark pill white profile card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #333 to #f1f1f1, text color changes from #fff to #333.",
  "tags": [
+  "send",
+  "chat",
   "dark",
   "outlined",
   "rounded",
-  "pill",
-  "flat",
-  "color-change"
+  "pill"
  ],
  "colors": [
   "#333333",

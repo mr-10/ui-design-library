@@ -8,12 +8,12 @@
  "description": "Gradient rounded green button that rotates on hover.",
  "howItWorks": "On hover, left becomes 80%, transform becomes rotate(45deg), text color changes from #16db65 to #ffffff.",
  "tags": [
+  "send",
   "green",
   "gradient",
   "outlined",
   "rounded",
-  "rotate",
-  "color-change"
+  "rotate"
  ],
  "colors": [
   "#16db65",

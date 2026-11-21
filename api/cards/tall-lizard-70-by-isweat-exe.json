@@ -5,7 +5,7 @@
  "author": "iSweat-exe",
  "source": "https://uiverse.io/iSweat-exe/tall-lizard-70",
  "trigger": "static",
- "description": "Pill red card with soft shadow and rounded corners.",
+ "description": "Pill red card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "red",

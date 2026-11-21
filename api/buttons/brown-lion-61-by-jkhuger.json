@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/JkHuger/brown-lion-61",
  "trigger": "checked",
  "description": "Sky-blue button that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: background changes from #3F8EFC to #87E544, starts the downloadSuccess animation (changing colour), starts the downloadState animation (animating).",
+ "howItWorks": "Clicking it toggles it: background changes from #3F8EFC to #87E544, starts the downloadSuccess animation (changing colour), starts the downloadState animation (moving).",
  "tags": [
   "blue",
   "green",

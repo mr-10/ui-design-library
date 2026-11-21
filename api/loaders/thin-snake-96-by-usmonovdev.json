@@ -5,8 +5,8 @@
  "author": "usmonovdev",
  "source": "https://uiverse.io/usmonovdev/thin-snake-96",
  "trigger": "auto-loop",
- "description": "Outlined pill amber spinner loader with fading; rotating motion in a loop.",
- "howItWorks": "It loops a 0.65s animation (fading; rotating).",
+ "description": "Outlined pill amber spinner loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 0.65s animation (fading; rotating, sliding).",
  "tags": [
   "amber",
   "orange",

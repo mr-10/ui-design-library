@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/OptX71285225/little-lionfish-48",
  "trigger": "checked",
  "description": "Green checkbox that toggles on and off when clicked.",
- "howItWorks": "On hover, background-color changes from #fff to #ccc, box-shadow becomes 0 0 10px #000000, transform becomes scale(1.05). Clicking it toggles it: starts the checkboxExpand animation (pulsing, rotating), background-color changes from #fff to #4caf50, border-color becomes #4caf50.",
+ "howItWorks": "On hover, background-color changes from #fff to #ccc, box-shadow becomes 0 0 10px #000000, transform becomes scale(1.05). Clicking it toggles it: starts the checkboxExpand animation (pulsing, rotating, sliding), background-color changes from #fff to #4caf50, border-color becomes #4caf50.",
  "tags": [
   "green",
   "scale",

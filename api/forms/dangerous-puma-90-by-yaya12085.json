@@ -8,12 +8,12 @@
  "description": "Rounded gray form that lights up when focused.",
  "howItWorks": "On focus, a ring appears.",
  "tags": [
-  "rounded",
-  "ring",
   "submit",
   "password",
   "back",
-  "email"
+  "email",
+  "rounded",
+  "ring"
  ],
  "colors": [
   "#4b5563",

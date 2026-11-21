@@ -5,7 +5,7 @@
  "author": "Pradeepsaranbishnoi",
  "source": "https://uiverse.io/Pradeepsaranbishnoi/spotty-chipmunk-79",
  "trigger": "checked",
- "description": "Dark pill dark cyan button that toggles on and off when clicked.",
+ "description": "Pill dark cyan button that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: width becomes 42px, starts the _a animation (rotating), starts the _b animation (rotating).",
  "tags": [
   "cyan",

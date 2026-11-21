@@ -5,10 +5,11 @@
  "author": "catraco",
  "source": "https://uiverse.io/catraco/strong-bat-45",
  "trigger": "auto-loop",
- "description": "Gray loader with animating; growing and shrinking motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; growing and shrinking).",
+ "description": "Gray loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 2s animation (growing and shrinking; sliding).",
  "tags": [
   "flat",
+  "slide",
   "loader",
   "circle",
   "animated",

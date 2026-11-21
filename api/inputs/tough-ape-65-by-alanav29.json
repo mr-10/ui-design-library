@@ -8,10 +8,10 @@
  "description": "Outlined violet text input that lights up when focused.",
  "howItWorks": "On focus, text color changes from #000000 to #a142f9, transform becomes translateX(0.5rem), the outline is removed.",
  "tags": [
+  "email",
   "violet",
   "outlined",
   "flat",
-  "email",
   "text-input",
   "simple"
  ],

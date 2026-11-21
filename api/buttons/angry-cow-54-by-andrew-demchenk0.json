@@ -8,12 +8,12 @@
  "description": "Rounded red button that starts animating on hover.",
  "howItWorks": "On hover, background changes from #ff284818 to #ff284839, starts the pulse animation (pulsing).",
  "tags": [
+  "pause",
   "red",
   "rounded",
   "flat",
   "color-change",
-  "animated",
-  "pulse"
+  "animated"
  ],
  "colors": [
   "#ff2848",

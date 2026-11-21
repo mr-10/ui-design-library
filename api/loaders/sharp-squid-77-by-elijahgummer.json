@@ -5,15 +5,15 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/sharp-squid-77",
  "trigger": "auto-loop",
- "description": "Black loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 3s animation (animating; rotating).",
+ "description": "Black loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 3s animation (moving; rotating; rotating, sliding).",
  "tags": [
   "flat",
   "spin",
+  "slide",
   "loading",
   "loader",
-  "star",
-  "circle"
+  "star"
  ],
  "colors": [
   "#1c1d1e",

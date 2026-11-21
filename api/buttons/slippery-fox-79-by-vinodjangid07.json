@@ -8,12 +8,12 @@
  "description": "Outlined rounded red button that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #292929 to #ed3838, opacity becomes 1.",
  "tags": [
+  "delete",
   "red",
   "outlined",
   "rounded",
   "color-change",
-  "fade",
-  "delete"
+  "fade"
  ],
  "colors": [
   "#292929",

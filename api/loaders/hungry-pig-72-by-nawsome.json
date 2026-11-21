@@ -5,7 +5,7 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/hungry-pig-72",
  "trigger": "static",
- "description": "Minimal white loader with clean lines with a smooth transition.",
+ "description": "Minimal white loader with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the loader is a fixed design.",
  "tags": [
   "minimal",

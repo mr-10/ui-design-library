@@ -5,7 +5,7 @@
  "author": "hoshikawamaki",
  "source": "https://uiverse.io/hoshikawamaki/strange-firefox-50",
  "trigger": "static",
- "description": "Pill light violet card with rounded corners with a smooth transition.",
+ "description": "Pill light violet card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "violet",

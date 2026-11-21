@@ -5,7 +5,7 @@
  "author": "Praashoo7",
  "source": "https://uiverse.io/Praashoo7/mighty-warthog-35",
  "trigger": "hover",
- "description": "Dark rounded black button that fades on hover.",
+ "description": "Rounded black button that fades on hover with a smooth transition.",
  "howItWorks": "On hover, z-index becomes 4, opacity becomes 0.",
  "tags": [
   "dark",

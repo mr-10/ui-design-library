@@ -8,12 +8,12 @@
  "description": "Gradient rounded white form that changes colour on hover.",
  "howItWorks": "On hover, bottom becomes 3px, background changes from linear-gradient(144deg,#af40ff,\n              #5b42f3 50%,#00ddeb) to linear-gradient(144deg,#9706ff,\n              #2f0fff 50%,#18f0ff). On focus, the outline is removed, background changes from linear-gradient(144deg,#af40ff,\n              #5b42f3 50%,#00ddeb) to #f1f1f1.",
  "tags": [
+  "login",
+  "submit",
   "gradient",
   "rounded",
   "color-change",
-  "shimmer",
-  "login",
-  "submit"
+  "shimmer"
  ],
  "colors": [
   "#bababa",

@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/LilaRest/loud-walrus-26",
  "trigger": "hover",
  "description": "Rounded white button that starts animating on hover.",
- "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (animating).",
+ "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (moving).",
  "tags": [
+  "like",
   "rounded",
   "scale",
   "color-change",
   "animated",
-  "fade",
-  "pulse"
+  "fade"
  ],
  "colors": [
   "#0a2540",

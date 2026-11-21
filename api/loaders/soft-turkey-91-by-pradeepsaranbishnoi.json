@@ -5,7 +5,7 @@
  "author": "Pradeepsaranbishnoi",
  "source": "https://uiverse.io/Pradeepsaranbishnoi/soft-turkey-91",
  "trigger": "auto-loop",
- "description": "Gray loader with fading; rotating motion in a loop.",
+ "description": "Gray loader with rotating motion in a loop.",
  "howItWorks": "It loops a animation (fading; rotating).",
  "tags": [
   "flat",

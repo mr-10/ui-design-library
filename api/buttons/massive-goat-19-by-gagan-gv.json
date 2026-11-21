@@ -5,14 +5,14 @@
  "author": "gagan-gv",
  "source": "https://uiverse.io/gagan-gv/massive-goat-19",
  "trigger": "hover",
- "description": "Dark black menu button that glows on hover.",
+ "description": "Black menu button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, box-shadow becomes 0 0 20px 0px #2e2e2e3a, width becomes 175px, opacity becomes 0. On focus, the outline is removed.",
  "tags": [
+  "menu",
   "dark",
   "glow",
   "expand",
   "fade",
-  "menu",
   "menu-button"
  ],
  "colors": [

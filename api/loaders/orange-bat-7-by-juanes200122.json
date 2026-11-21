@@ -5,8 +5,8 @@
  "author": "Juanes200122",
  "source": "https://uiverse.io/Juanes200122/orange-bat-7",
  "trigger": "auto-loop",
- "description": "Pill black loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 0.75s animation (animating; rotating).",
+ "description": "Pill black loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 0.75s animation (moving; rotating).",
  "tags": [
   "rounded",
   "pill",

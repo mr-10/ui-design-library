@@ -5,15 +5,15 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/calm-fish-83",
  "trigger": "auto-loop",
- "description": "Pill red loader with pulsing; rotating motion in a loop.",
- "howItWorks": "It loops a 0.4s animation (pulsing; rotating).",
+ "description": "Pill red loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 0.4s animation (pulsing; rotating, sliding).",
  "tags": [
   "red",
   "rounded",
   "pill",
   "flat",
   "spin",
-  "pulse"
+  "slide"
  ],
  "colors": [
   "#ff0000",

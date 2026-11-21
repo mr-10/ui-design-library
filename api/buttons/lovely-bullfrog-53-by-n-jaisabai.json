@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/n-jaisabai/lovely-bullfrog-53",
  "trigger": "hover",
  "description": "Gradient blue button that starts animating on hover.",
- "howItWorks": "On hover, background changes from radial-gradient(ellipse at top, #ffffff, #0000ff, #000000, #000000) to radial-gradient(ellipse at top, #ffffff, #0000ff, #000000, #000000), starts the gradient animation (animating), filter becomes blur(1.5em).",
+ "howItWorks": "On hover, background changes from radial-gradient(ellipse at top, #ffffff, #0000ff, #000000, #000000) to radial-gradient(ellipse at top, #ffffff, #0000ff, #000000, #000000), starts the gradient animation (moving), filter becomes blur(1.5em).",
  "tags": [
   "blue",
   "gradient",

@@ -5,15 +5,15 @@
  "author": "Praashoo7",
  "source": "https://uiverse.io/Praashoo7/chilly-baboon-67",
  "trigger": "hover",
- "description": "Pill fuchsia button that lifts on hover with a smooth transition.",
+ "description": "Pill fuchsia social button that lifts on hover.",
  "howItWorks": "On hover, transform becomes translateY(-1em), background-color changes from #ffffff to #cc39a4, background-color changes from #ffffff to #03A9F4.",
  "tags": [
+  "twitter",
+  "share",
+  "social",
   "fuchsia",
   "cyan",
-  "rounded",
-  "pill",
-  "flat",
-  "lift"
+  "rounded"
  ],
  "colors": [
   "#cc39a4",

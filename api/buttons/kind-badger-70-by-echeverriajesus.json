@@ -5,14 +5,15 @@
  "author": "EcheverriaJesus",
  "source": "https://uiverse.io/EcheverriaJesus/kind-badger-70",
  "trigger": "hover",
- "description": "Rounded gray button that scales up on hover.",
+ "description": "Rounded gray social button that scales up on hover.",
  "howItWorks": "On hover, it scales.",
  "tags": [
+  "github",
+  "social",
   "rounded",
   "scale",
-  "github",
-  "buttons",
-  "css"
+  "social-button",
+  "buttons"
  ],
  "colors": [
   "#d1d5db",

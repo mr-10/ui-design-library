@@ -8,12 +8,12 @@
  "description": "Gradient rounded dark sky-blue tooltip that slides on hover.",
  "howItWorks": "On hover, it shifts position and opacity changes and text colour changes.",
  "tags": [
+  "github",
+  "social",
   "blue",
   "gradient",
   "rounded",
-  "slide",
-  "fade",
-  "color-change"
+  "slide"
  ],
  "colors": [
   "#1f2937",

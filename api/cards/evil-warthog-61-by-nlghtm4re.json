@@ -8,12 +8,12 @@
  "description": "Dark rounded green card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #000 to #b60202, background-color changes from #000 to #acac04, background-color changes from #000 to #079f07. On focus, the outline is removed.",
  "tags": [
+  "close",
+  "add",
   "green",
   "red",
   "dark",
-  "rounded",
-  "color-change",
-  "close"
+  "rounded"
  ],
  "colors": [
   "#333333",

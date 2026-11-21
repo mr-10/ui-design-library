@@ -8,12 +8,12 @@
  "description": "Neon gradient fuchsia text input that lights up when focused.",
  "howItWorks": "On focus, box-shadow becomes -100px 0px 80px -20px #cc279a,\n    100px 0 80px -20px #4d38de, 0px 0px 80px -0px #010101, background-color changes from transparent to #010101, starts the border-animate animation (shimmering).",
  "tags": [
+  "search",
   "fuchsia",
   "blue",
   "neon",
   "gradient",
-  "outlined",
-  "shimmer"
+  "outlined"
  ],
  "colors": [
   "#010101",

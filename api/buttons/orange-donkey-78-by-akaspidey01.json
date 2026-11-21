@@ -8,9 +8,9 @@
  "description": "Rounded green button that reacts on hover with a smooth transition.",
  "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
+  "back",
   "green",
   "rounded",
-  "back",
   "buttons",
   "css"
  ],

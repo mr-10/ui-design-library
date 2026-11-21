@@ -8,11 +8,11 @@
  "description": "Outlined rounded gray submit button that slides on hover.",
  "howItWorks": "On hover, text color changes from #fff to #272727, transform becomes translateX(0).",
  "tags": [
+  "submit",
   "outlined",
   "rounded",
   "color-change",
   "slide",
-  "submit",
   "submit-button"
  ],
  "colors": [

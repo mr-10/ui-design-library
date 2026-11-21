@@ -5,7 +5,7 @@
  "author": "myshy13",
  "source": "https://uiverse.io/myshy13/tender-donkey-10",
  "trigger": "static",
- "description": "Rounded gray card with rounded corners with a smooth transition.",
+ "description": "Rounded gray card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "rounded",

@@ -5,15 +5,15 @@
  "author": "Admin12121",
  "source": "https://uiverse.io/Admin12121/stupid-mouse-29",
  "trigger": "auto-loop",
- "description": "Neon pill amber bars loader with animating; changing colour; fading; rotating motion in a loop.",
- "howItWorks": "It loops a 0.5s animation (animating; changing colour; fading; rotating).",
+ "description": "Neon gradient pill amber bars loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 0.5s animation (changing colour; fading; moving; rotating).",
  "tags": [
+  "rating",
   "amber",
   "neon",
   "gradient",
   "outlined",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#4d4454",

@@ -5,7 +5,7 @@
  "author": "1osm",
  "source": "https://uiverse.io/1osm/afraid-mouse-29",
  "trigger": "static",
- "description": "Outlined rounded gray card with rounded corners with a smooth transition.",
+ "description": "Outlined rounded gray card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "outlined",

@@ -5,7 +5,7 @@
  "author": "Cybercom682",
  "source": "https://uiverse.io/Cybercom682/little-owl-63",
  "trigger": "static",
- "description": "White button with soft shadow with a smooth transition.",
+ "description": "White button with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
   "send",

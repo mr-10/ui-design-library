@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded cyan button that reacts on hover.",
  "howItWorks": "On hover, margin becomes -80px 0 0 10px, margin becomes -10px 0 0 10px.",
  "tags": [
+  "download",
   "cyan",
   "neon",
   "gradient",
   "dark",
-  "rounded",
-  "download"
+  "rounded"
  ],
  "colors": [
   "#00b7ea",

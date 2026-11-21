@@ -75,21 +75,21 @@
    "author": "0x3ther",
    "link": "https://uiverse.io/0x3ther/afraid-eagle-38",
    "path": "uiverse/buttons/afraid-eagle-38-by-0x3ther/",
-   "description": "Gradient rounded sky-blue button that changes colour on hover.",
+   "description": "Gradient rounded sky-blue social button that changes colour on hover.",
    "howItWorks": "On hover, background changes. On focus, a ring appears.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "facebook",
+    "twitter",
+    "social",
     "blue",
     "red",
     "gradient",
     "rounded",
     "color-change",
     "ring",
-    "facebook",
-    "twitter",
-    "buttons",
-    "css"
+    "social-button"
    ],
    "colors": [
     "#3b82f6",
@@ -180,16 +180,16 @@
    "link": "https://uiverse.io/LilaRest/afraid-fox-80",
    "path": "uiverse/buttons/afraid-fox-80-by-lilarest/",
    "description": "Rounded white button that starts animating on hover.",
-   "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (animating).",
+   "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "like",
     "rounded",
     "scale",
     "color-change",
     "animated",
     "pulse",
-    "like",
     "neumorphism",
     "skeuomorphism",
     "animation",
@@ -324,7 +324,7 @@
    "author": "sherghan7",
    "link": "https://uiverse.io/sherghan7/afraid-owl-82",
    "path": "uiverse/buttons/afraid-owl-82-by-sherghan7/",
-   "description": "Dark black button that glows on hover with a smooth transition.",
+   "description": "Black button that glows on hover with a smooth transition.",
    "howItWorks": "On hover, box-shadow becomes #EEEEEE 0px 0px 0px 11px, #161616 0px 0px 0px 10px, background changes from #000 to #000, text color changes from #EEEEEE to #EEEEEE.",
    "trigger": "hover",
    "needsJs": false,
@@ -454,10 +454,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
     "color-change",
-    "send",
     "simple",
     "material-design",
     "neumorphism",
@@ -526,12 +526,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "blue",
     "indigo",
     "flat",
     "color-change",
     "fade",
-    "download",
     "download-button",
     "button",
     "hover"
@@ -657,7 +657,7 @@
    "author": "mobinkakei",
    "link": "https://uiverse.io/mobinkakei/ancient-goose-30",
    "path": "uiverse/buttons/ancient-goose-30-by-mobinkakei/",
-   "description": "Gradient dark rounded dark sky-blue button that reacts on hover.",
+   "description": "Gradient rounded dark sky-blue button that reacts on hover.",
    "howItWorks": "On hover, top becomes -100%, top becomes 50%.",
    "trigger": "hover",
    "needsJs": false,
@@ -690,7 +690,7 @@
    "link": "https://uiverse.io/Yatsu68/ancient-ladybug-46",
    "path": "uiverse/buttons/ancient-ladybug-46-by-yatsu68/",
    "description": "Gradient rounded dark blue button that starts animating on hover.",
-   "howItWorks": "On hover, background changes from #1b2164 to linear-gradient(-45deg, #1b2164, #6a33a8, #1b2164, #2ba6f5), transform becomes scale(1.01), starts the scaling-and-gradient animation (shimmering).",
+   "howItWorks": "On hover, background changes from #1b2164 to linear-gradient(-45deg, #1b2164, #6a33a8, #1b2164, #2ba6f5), transform becomes scale(1.01), starts the scaling-and-gradient animation (pulsing, shimmering).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -724,8 +724,8 @@
    "author": "boryanakrasteva",
    "link": "https://uiverse.io/boryanakrasteva/ancient-mule-42",
    "path": "uiverse/buttons/ancient-mule-42-by-boryanakrasteva/",
-   "description": "Outlined rounded gray button with animating motion in a loop.",
-   "howItWorks": "It loops a 1.5s animation (animating).",
+   "description": "Outlined rounded gray button with moving motion in a loop.",
+   "howItWorks": "It loops a 1.5s animation (moving).",
    "trigger": "auto-loop",
    "needsJs": false,
    "tags": [
@@ -759,9 +759,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "green",
     "glow",
-    "submit",
     "submit-button",
     "button",
     "hover",
@@ -887,11 +887,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "play",
     "gradient",
     "rounded",
     "pill",
     "glow",
-    "play",
     "buttons",
     "css"
    ],
@@ -957,13 +957,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "pause",
     "red",
     "rounded",
     "flat",
     "color-change",
     "animated",
     "pulse",
-    "pause",
     "icon",
     "animation",
     "button"
@@ -994,6 +994,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
     "pill",
@@ -1001,7 +1002,6 @@
     "glow",
     "scale",
     "rotate",
-    "send",
     "buttons",
     "css"
    ],
@@ -1059,7 +1059,7 @@
    "author": "OnCloud125252",
    "link": "https://uiverse.io/OnCloud125252/angry-dragonfly-77",
    "path": "uiverse/buttons/angry-dragonfly-77-by-oncloud125252/",
-   "description": "Dark black button that rotates on hover with a smooth transition.",
+   "description": "Black button that rotates on hover with a smooth transition.",
    "howItWorks": "On hover, transform becomes rotate(180deg). On focus, transform becomes rotate(180deg).",
    "trigger": "hover",
    "needsJs": false,
@@ -1294,11 +1294,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "play",
     "outlined",
     "glow",
     "color-change",
     "expand",
-    "play",
     "button",
     "hover",
     "css"
@@ -1321,15 +1321,17 @@
    "author": "MeetJF",
    "link": "https://uiverse.io/MeetJF/average-deer-50",
    "path": "uiverse/buttons/average-deer-50-by-meetjf/",
-   "description": "Rounded white button with rounded corners with a smooth transition.",
-   "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
+   "description": "Rounded white social button with clean lines and a smooth transition.",
+   "howItWorks": "It has no hover, click, focus or animation states; the social button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
-    "rounded",
     "download",
     "google",
     "play",
+    "social",
+    "rounded",
+    "social-button",
     "buttons",
     "static",
     "css"
@@ -1357,7 +1359,7 @@
    "link": "https://uiverse.io/gharsh11032000/average-falcon-37",
    "path": "uiverse/buttons/average-falcon-37-by-gharsh11032000/",
    "description": "Dark pill gray button that starts animating on hover.",
-   "howItWorks": "On hover, starts the shakeBack animation (rotating), scale becomes 1.2, box-shadow becomes none.",
+   "howItWorks": "On hover, starts the shakeBack animation (rotating, sliding), scale becomes 1.2, box-shadow becomes none.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -1367,10 +1369,10 @@
     "animated",
     "glow",
     "spin",
+    "slide",
     "button",
     "search",
-    "hover-effect",
-    "hover"
+    "hover-effect"
    ],
    "colors": [
     "#e8e8e8",
@@ -1466,10 +1468,10 @@
    "trigger": "active",
    "needsJs": false,
    "tags": [
+    "play",
     "red",
     "dark",
     "rounded",
-    "play",
     "neumorphism",
     "button",
     "realistic",
@@ -1991,11 +1993,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "play",
     "rounded",
     "flat",
     "scale",
     "slide",
-    "play",
     "button",
     "game",
     "among-us",
@@ -2125,12 +2127,12 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "share",
     "blue",
     "neon",
     "gradient",
     "outlined",
     "pulse",
-    "share",
     "button",
     "checked",
     "css"
@@ -2252,7 +2254,7 @@
    "link": "https://uiverse.io/seyed-mohsen-mousavi/bitter-snail-5",
    "path": "uiverse/buttons/bitter-snail-5-by-seyed-mohsen-mousavi/",
    "description": "Glass rounded gray button that starts animating on hover.",
-   "howItWorks": "On hover, transform becomes rotate3d(1, 1, 1, 360deg), starts the shadow animation (animating).",
+   "howItWorks": "On hover, transform becomes rotate3d(1, 1, 1, 360deg), starts the shadow animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -2290,11 +2292,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "like",
     "red",
     "rounded",
     "glow",
     "color-change",
-    "like",
     "button",
     "hover",
     "css"
@@ -2528,6 +2530,8 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "cart",
+    "add",
     "red",
     "dark",
     "rounded",
@@ -2535,9 +2539,7 @@
     "color-change",
     "expand",
     "slide",
-    "drop",
-    "cart",
-    "add"
+    "drop"
    ],
    "colors": [
     "#132233",
@@ -2598,6 +2600,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "social",
     "cyan",
     "amber",
     "gradient",
@@ -2606,7 +2609,6 @@
     "flat",
     "scale",
     "slide",
-    "social",
     "youtube"
    ],
    "colors": [
@@ -2788,10 +2790,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "add",
     "blue",
     "rounded",
     "glow",
-    "add",
     "button",
     "upload",
     "file",
@@ -2857,13 +2859,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "upload",
     "green",
     "blue",
     "rounded",
     "flat",
     "color-change",
     "fade",
-    "upload",
     "upload-button",
     "button",
     "hover"
@@ -2895,10 +2897,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "rounded",
     "color-change",
     "slide",
-    "submit",
     "submit-button",
     "buttons",
     "css"
@@ -3065,13 +3067,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "cart",
+    "add",
     "yellow",
     "outlined",
     "rounded",
     "pill",
     "slide",
-    "cart",
-    "add",
     "button",
     "hover-effect",
     "add-to-cart"
@@ -3205,6 +3207,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "back",
     "green",
     "indigo",
     "3d",
@@ -3212,7 +3215,6 @@
     "scale",
     "color-change",
     "glow",
-    "back",
     "flat-design",
     "button"
    ],
@@ -3235,21 +3237,21 @@
    "author": "david-mohseni",
    "link": "https://uiverse.io/david-mohseni/brave-shrimp-86",
    "path": "uiverse/buttons/brave-shrimp-86-by-david-mohseni/",
-   "description": "Pill sky-blue button that changes colour on hover.",
+   "description": "Pill sky-blue social button that changes colour on hover.",
    "howItWorks": "On hover, top becomes -45px, opacity becomes 1, text-shadow becomes 0px -1px 0px #000000.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "facebook",
+    "twitter",
+    "social",
     "blue",
     "cyan",
     "rounded",
     "pill",
     "fade",
     "color-change",
-    "facebook",
-    "twitter",
-    "tooltip",
-    "social"
+    "social-button"
    ],
    "colors": [
     "#1877f2",
@@ -3377,11 +3379,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "add",
     "green",
     "rounded",
     "color-change",
     "slide",
-    "add",
     "buttons",
     "css"
    ],
@@ -3476,12 +3478,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "amber",
     "outlined",
     "rounded",
     "flat",
     "slide",
-    "send",
     "button",
     "hover",
     "animated"
@@ -3509,11 +3511,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "play",
     "gradient",
     "rounded",
     "flat",
     "color-change",
-    "play",
     "black",
     "button",
     "game",
@@ -3553,10 +3555,10 @@
     "3d",
     "rounded",
     "pill",
+    "slide",
     "spin",
     "bounce",
-    "fade",
-    "slide"
+    "fade"
    ],
    "colors": [
     "#fc623b",
@@ -3646,6 +3648,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "rating",
     "blue",
     "pink",
     "gradient",
@@ -3654,8 +3657,7 @@
     "rounded",
     "pill",
     "glow",
-    "color-change",
-    "fade"
+    "color-change"
    ],
    "colors": [
     "#3b2ad5",
@@ -3676,16 +3678,18 @@
    "author": "elijahgummer",
    "link": "https://uiverse.io/elijahgummer/bright-chicken-11",
    "path": "uiverse/buttons/bright-chicken-11-by-elijahgummer/",
-   "description": "Rounded gray button that changes colour on hover.",
+   "description": "Rounded gray social button that changes colour on hover.",
    "howItWorks": "On hover, background changes and a ring appears and text colour changes.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "github",
+    "rating",
+    "social",
     "rounded",
     "color-change",
     "ring",
-    "github",
-    "rating",
+    "social-button",
     "buttons",
     "css"
    ],
@@ -3777,7 +3781,7 @@
    "author": "mi-series",
    "link": "https://uiverse.io/mi-series/bright-termite-75",
    "path": "uiverse/buttons/bright-termite-75-by-mi-series/",
-   "description": "Dark black button that glows on hover with a smooth transition.",
+   "description": "Black button that glows on hover with a smooth transition.",
    "howItWorks": "On hover, box-shadow becomes 8px 10px 0 #000, background changes from #000 to transparent, border becomes 2px solid #000.",
    "trigger": "hover",
    "needsJs": false,
@@ -3813,12 +3817,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "cyan",
     "neon",
     "rounded",
     "animated",
     "slide",
-    "send",
     "send-button",
     "button",
     "hover",
@@ -3985,8 +3989,8 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/brown-falcon-48",
    "path": "uiverse/buttons/brown-falcon-48-by-doniaskima/",
-   "description": "Gradient 3d dark pill black button that starts animating on hover.",
-   "howItWorks": "On hover, starts the jello animation (animating).",
+   "description": "Gradient 3d pill black button that starts animating on hover.",
+   "howItWorks": "On hover, starts the jello animation (sliding).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -3997,6 +4001,7 @@
     "pill",
     "flat",
     "animated",
+    "slide",
     "button",
     "hover"
    ],
@@ -4031,6 +4036,7 @@
     "outlined",
     "glow",
     "spin",
+    "slide",
     "button",
     "hover",
     "css"
@@ -4122,7 +4128,7 @@
    "link": "https://uiverse.io/JkHuger/brown-lion-61",
    "path": "uiverse/buttons/brown-lion-61-by-jkhuger/",
    "description": "Sky-blue button that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: background changes from #3F8EFC to #87E544, starts the downloadSuccess animation (changing colour), starts the downloadState animation (animating).",
+   "howItWorks": "Clicking it toggles it: background changes from #3F8EFC to #87E544, starts the downloadSuccess animation (changing colour), starts the downloadState animation (moving).",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -4530,12 +4536,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "flat",
     "color-change",
     "drop",
     "rotate",
     "fade",
-    "download",
     "download-button",
     "button",
     "hover"
@@ -4625,9 +4631,9 @@
    "trigger": "active",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
-    "send",
     "simple",
     "button",
     "smooth",
@@ -4762,6 +4768,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "blue",
     "gradient",
     "rounded",
@@ -4770,8 +4777,7 @@
     "glow",
     "fade",
     "slide",
-    "rotate",
-    "send"
+    "rotate"
    ],
    "colors": [
     "#3b82f6",
@@ -4833,10 +4839,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "green",
     "dark",
     "flat",
-    "submit",
     "submit-button",
     "button",
     "hover",
@@ -5035,6 +5041,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "back",
     "cyan",
     "teal",
     "gradient",
@@ -5043,7 +5050,6 @@
     "pill",
     "scale",
     "fade",
-    "back",
     "button"
    ],
    "colors": [
@@ -5131,7 +5137,7 @@
    "author": "barisdogansutcu",
    "link": "https://uiverse.io/barisdogansutcu/chatty-snake-91",
    "path": "uiverse/buttons/chatty-snake-91-by-barisdogansutcu/",
-   "description": "Neon rounded blue button with changing colour motion in a loop.",
+   "description": "Neon rounded blue button with sliding motion in a loop.",
    "howItWorks": "It loops a .5s animation (changing colour, growing and shrinking; pulsing; pulsing, sliding).",
    "trigger": "auto-loop",
    "needsJs": false,
@@ -5200,21 +5206,21 @@
    "author": "Praashoo7",
    "link": "https://uiverse.io/Praashoo7/chilly-baboon-67",
    "path": "uiverse/buttons/chilly-baboon-67-by-praashoo7/",
-   "description": "Pill fuchsia button that lifts on hover with a smooth transition.",
+   "description": "Pill fuchsia social button that lifts on hover.",
    "howItWorks": "On hover, transform becomes translateY(-1em), background-color changes from #ffffff to #cc39a4, background-color changes from #ffffff to #03A9F4.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "twitter",
+    "share",
+    "social",
     "fuchsia",
     "cyan",
     "rounded",
     "pill",
     "flat",
     "lift",
-    "color-change",
-    "twitter",
-    "share",
-    "tooltip"
+    "color-change"
    ],
    "colors": [
     "#cc39a4",
@@ -5413,11 +5419,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "comment",
     "indigo",
     "rounded",
     "pill",
     "expand",
-    "comment",
     "button",
     "button-hover-effect",
     "hover"
@@ -5502,7 +5508,7 @@
    "link": "https://uiverse.io/LilaRest/chilly-moth-52",
    "path": "uiverse/buttons/chilly-moth-52-by-lilarest/",
    "description": "Rounded white button that starts animating on hover.",
-   "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (animating).",
+   "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -5572,7 +5578,7 @@
    "link": "https://uiverse.io/ilkhoeri/chilly-sloth-36",
    "path": "uiverse/buttons/chilly-sloth-36-by-ilkhoeri/",
    "description": "Outlined gray button that starts animating on hover.",
-   "howItWorks": "On hover, border-color becomes hsl(211deg 100% 48%), text color changes to hsl(211deg 100% 48%), starts the has-saved animation (pulsing, rotating).",
+   "howItWorks": "On hover, border-color becomes hsl(211deg 100% 48%), text color changes to hsl(211deg 100% 48%), starts the has-saved animation (pulsing, rotating, sliding).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -5582,10 +5588,10 @@
     "animated",
     "pulse",
     "spin",
+    "slide",
     "simple",
     "button",
-    "toggle",
-    "svg"
+    "toggle"
    ],
    "colors": [
     "#999999",
@@ -5610,13 +5616,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "animated",
     "scale",
     "slide",
     "rotate",
     "bounce",
-    "send",
     "material-design",
     "white",
     "button"
@@ -5677,7 +5683,7 @@
    "author": "Shoh2008",
    "link": "https://uiverse.io/Shoh2008/clever-bullfrog-79",
    "path": "uiverse/buttons/clever-bullfrog-79-by-shoh2008/",
-   "description": "Gradient dark black button that reacts on hover.",
+   "description": "Gradient black button that reacts on hover with a smooth transition.",
    "howItWorks": "On hover, outline-color becomes #ffffff. On focus, outline-color becomes #ffffff.",
    "trigger": "hover",
    "needsJs": false,
@@ -5777,6 +5783,8 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "facebook",
+    "social",
     "blue",
     "neon",
     "3d",
@@ -5784,9 +5792,7 @@
     "pill",
     "rotate",
     "glow",
-    "scale",
-    "color-change",
-    "pulse"
+    "scale"
    ],
    "colors": [
     "#1877f2",
@@ -5906,16 +5912,16 @@
    "link": "https://uiverse.io/mobinkakei/cold-bat-89",
    "path": "uiverse/buttons/cold-bat-89-by-mobinkakei/",
    "description": "Indigo button that starts animating on hover with a smooth transition.",
-   "howItWorks": "On hover, box-shadow becomes 10px 10px 0 #FBC638, starts the color_anim animation (animating), transform becomes translateX(0%). On focus, the outline is removed.",
+   "howItWorks": "On hover, box-shadow becomes 10px 10px 0 #FBC638, starts the color_anim animation (moving), transform becomes translateX(0%). On focus, the outline is removed.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "next",
     "indigo",
     "amber",
     "glow",
     "animated",
     "slide",
-    "next",
     "button",
     "hover",
     "css"
@@ -5943,7 +5949,7 @@
    "link": "https://uiverse.io/kalp-lathia/cold-cougar-17",
    "path": "uiverse/buttons/cold-cougar-17-by-kalp-lathia/",
    "description": "Outlined rounded sky-blue button that starts animating on hover.",
-   "howItWorks": "On hover, starts the button-radius animation (morphing), starts the left-shake animation (animating), starts the right-shake animation (animating).",
+   "howItWorks": "On hover, starts the button-radius animation (morphing), starts the left-shake animation (moving), starts the right-shake animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -6005,18 +6011,18 @@
    "author": "nima-mollazadeh",
    "link": "https://uiverse.io/nima-mollazadeh/cold-monkey-21",
    "path": "uiverse/buttons/cold-monkey-21-by-nima-mollazadeh/",
-   "description": "Dark pill black button that fades on hover.",
+   "description": "Pill black button that fades on hover with a smooth transition.",
    "howItWorks": "On hover, transform becomes translateY(100%), opacity becomes 1, transform becomes translateY(0).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "signup",
     "dark",
     "rounded",
     "pill",
     "flat",
     "drop",
     "fade",
-    "signup",
     "button",
     "hover",
     "css"
@@ -6076,7 +6082,7 @@
    "author": "rhino-corey",
    "link": "https://uiverse.io/rhino-corey/cowardly-chicken-15",
    "path": "uiverse/buttons/cowardly-chicken-15-by-rhino-corey/",
-   "description": "Gradient dark black button that reacts on hover.",
+   "description": "Gradient black button that reacts on hover with a smooth transition.",
    "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
    "trigger": "hover",
    "needsJs": false,
@@ -6143,6 +6149,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "green",
     "gradient",
     "outlined",
@@ -6150,7 +6157,6 @@
     "rotate",
     "color-change",
     "expand",
-    "send",
     "simple",
     "animation"
    ],
@@ -6313,16 +6319,16 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
     "glow",
     "rotate",
     "animated",
-    "send",
+    "slide",
     "simple",
     "button",
-    "hover",
-    "light"
+    "hover"
    ],
    "colors": [
     "#161616",
@@ -6513,7 +6519,7 @@
    "link": "https://uiverse.io/gharsh11032000/cuddly-squid-93",
    "path": "uiverse/buttons/cuddly-squid-93-by-gharsh11032000/",
    "description": "Dark rounded red button that starts animating on hover.",
-   "howItWorks": "On hover, starts the shake animation (animating), translate becomes 0 0.",
+   "howItWorks": "On hover, starts the shake animation (rotating), translate becomes 0 0.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -6522,6 +6528,7 @@
     "rounded",
     "flat",
     "animated",
+    "spin",
     "button",
     "hover",
     "shake"
@@ -6645,7 +6652,7 @@
    "link": "https://uiverse.io/KitoC/curly-cheetah-59",
    "path": "uiverse/buttons/curly-cheetah-59-by-kitoc/",
    "description": "Neon pill orange button that starts animating on hover.",
-   "howItWorks": "On hover, border becomes 2px solid #f27a2a, starts the alert animation (animating), z-index becomes 100. On focus, z-index becomes 100, starts the engine-start animation (pulsing), starts the descend animation (pulsing).",
+   "howItWorks": "On hover, border becomes 2px solid #f27a2a, starts the alert animation (moving), z-index becomes 100. On focus, z-index becomes 100, starts the engine-start animation (pulsing), starts the descend animation (pulsing).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -6718,6 +6725,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "back",
     "green",
     "emerald",
     "gradient",
@@ -6726,8 +6734,7 @@
     "flat",
     "fade",
     "animated",
-    "bounce",
-    "back"
+    "bounce"
    ],
    "colors": [
     "#44ea76",
@@ -6753,6 +6760,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "blue",
     "teal",
     "neon",
@@ -6761,8 +6769,7 @@
     "pill",
     "expand",
     "animated",
-    "spin",
-    "download"
+    "spin"
    ],
    "colors": [
     "#2f5dc5",
@@ -6823,10 +6830,10 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
-    "outlined",
-    "rounded",
     "profile",
     "settings",
+    "outlined",
+    "rounded",
     "minimalist",
     "ios",
     "navigation",
@@ -6994,10 +7001,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "edit",
     "violet",
     "rounded",
     "color-change",
-    "edit",
     "purple",
     "button",
     "hover"
@@ -7156,16 +7163,16 @@
    "author": "Creatlydev",
    "link": "https://uiverse.io/Creatlydev/dangerous-donkey-67",
    "path": "uiverse/buttons/dangerous-donkey-67-by-creatlydev/",
-   "description": "Gradient green upload button with soft shadow and gradient fill.",
+   "description": "Gradient green upload button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the upload button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "upload",
     "green",
     "indigo",
     "gradient",
     "outlined",
-    "upload",
     "upload-button",
     "neumorphism",
     "button",
@@ -7257,7 +7264,7 @@
    "link": "https://uiverse.io/3bdel3ziz-T/dangerous-newt-76",
    "path": "uiverse/buttons/dangerous-newt-76-by-3bdel3ziz-t/",
    "description": "Outlined pill red button that starts animating on hover.",
-   "howItWorks": "On hover, background changes from transparent to #aaaaaa, starts the bell-animation animation (rotating).",
+   "howItWorks": "On hover, background changes from transparent to #aaaaaa, starts the bell-animation animation (pulsing, rotating).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -7268,9 +7275,9 @@
     "flat",
     "color-change",
     "animated",
+    "pulse",
     "spin",
-    "icon",
-    "animation"
+    "icon"
    ],
    "colors": [
     "#ff0000",
@@ -7322,14 +7329,14 @@
    "author": "mark-edison-jim",
    "link": "https://uiverse.io/mark-edison-jim/dangerous-penguin-53",
    "path": "uiverse/buttons/dangerous-penguin-53-by-mark-edison-jim/",
-   "description": "Gradient rounded white button with soft shadow and rounded corners and gradient fill.",
+   "description": "Gradient rounded white button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
-    "send",
     "simple",
     "icon",
     "button",
@@ -7362,11 +7369,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "next",
     "yellow",
     "animated",
     "fade",
     "slide",
-    "next",
     "button",
     "hover-effect",
     "click-effect",
@@ -7489,7 +7496,7 @@
    "author": "misaraadel",
    "link": "https://uiverse.io/misaraadel/dry-cow-55",
    "path": "uiverse/buttons/dry-cow-55-by-misaraadel/",
-   "description": "3d dark rounded black button that starts animating on hover.",
+   "description": "3d rounded black button that starts animating on hover.",
    "howItWorks": "On hover, transform becomes translate(-12px, -12px), transform becomes translate(6px, 6px), opacity becomes .5.",
    "trigger": "hover",
    "needsJs": false,
@@ -7500,10 +7507,10 @@
     "flat",
     "fade",
     "animated",
+    "slide",
     "button",
     "creative",
-    "3d-button",
-    "css-animation"
+    "3d-button"
    ],
    "colors": [
     "#020202",
@@ -7528,12 +7535,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "red",
     "outlined",
     "rounded",
     "flat",
     "color-change",
-    "download",
     "button",
     "hover",
     "css"
@@ -7707,10 +7714,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "follow",
     "rounded",
     "flat",
     "slide",
-    "follow",
     "button",
     "hover",
     "css"
@@ -7807,13 +7814,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "newsletter",
     "red",
     "outlined",
     "flat",
     "expand",
     "slide",
     "color-change",
-    "newsletter",
     "subscribe-button",
     "button",
     "hover"
@@ -7841,6 +7848,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "back",
     "indigo",
     "purple",
     "glassmorphism",
@@ -7848,7 +7856,6 @@
     "rounded",
     "drop",
     "glow",
-    "back",
     "simple",
     "blue"
    ],
@@ -8010,13 +8017,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "social",
     "blue",
     "red",
     "3d",
     "rotate",
     "glow",
     "color-change",
-    "social",
     "social-media",
     "social-lincks",
     "buttons"
@@ -8313,12 +8320,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "cyan",
     "neon",
     "gradient",
     "dark",
     "rounded",
-    "download",
     "blue",
     "button",
     "hover"
@@ -8603,7 +8610,7 @@
    "link": "https://uiverse.io/Codecite/evil-ape-86",
    "path": "uiverse/buttons/evil-ape-86-by-codecite/",
    "description": "Rounded white button that responds while pressed down.",
-   "howItWorks": "While pressed, starts the press animation (pulsing), starts the bounce animation (fading, pulsing, rotating).",
+   "howItWorks": "While pressed, starts the press animation (pulsing), starts the bounce animation (fading, pulsing, rotating, sliding).",
    "trigger": "active",
    "needsJs": false,
    "tags": [
@@ -8611,6 +8618,7 @@
     "pulse",
     "fade",
     "spin",
+    "slide",
     "icon",
     "button",
     "copy",
@@ -8742,11 +8750,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "blue",
     "rounded",
     "color-change",
     "ring",
-    "download",
     "download-button",
     "buttons",
     "css"
@@ -8775,11 +8783,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "pill",
     "rotate",
     "slide",
-    "send",
     "buttons",
     "css"
    ],
@@ -8906,7 +8914,7 @@
    "author": "KlaujonRuamni",
    "link": "https://uiverse.io/KlaujonRuamni/evil-sheep-56",
    "path": "uiverse/buttons/evil-sheep-56-by-klaujonruamni/",
-   "description": "Gradient dark rounded dark blue button that starts animating on hover.",
+   "description": "Gradient rounded dark blue button that starts animating on hover.",
    "howItWorks": "On hover, background changes from linear-gradient(to bottom, #1b1c3f, #4a4e91) to linear-gradient(to bottom, #2c2f63, #5b67b7), starts the button-particles animation (shimmering), transform becomes translateY(-2px).",
    "trigger": "hover",
    "needsJs": false,
@@ -8984,10 +8992,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "newsletter",
     "red",
     "flat",
     "color-change",
-    "newsletter",
     "subscribe-button",
     "button",
     "add",
@@ -9048,7 +9056,7 @@
    "link": "https://uiverse.io/0xnihilism/fast-cat-82",
    "path": "uiverse/buttons/fast-cat-82-by-0xnihilism/",
    "description": "Gradient dark cyan button that starts animating on hover.",
-   "howItWorks": "On hover, opacity becomes 1, starts the slide animation (animating), transform becomes translate(-4px, -4px).",
+   "howItWorks": "On hover, opacity becomes 1, starts the slide animation (moving), transform becomes translate(-4px, -4px).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -9293,9 +9301,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "rounded",
     "color-change",
-    "submit",
     "submit-button",
     "buttons",
     "css"
@@ -9430,6 +9438,7 @@
     "indigo",
     "gradient",
     "rounded",
+    "pulse",
     "spin",
     "button",
     "modern",
@@ -9456,7 +9465,7 @@
    "link": "https://uiverse.io/212004ALJI/fat-eagle-24",
    "path": "uiverse/buttons/fat-eagle-24-by-212004alji/",
    "description": "Emerald button that starts animating on hover with a smooth transition.",
-   "howItWorks": "On hover, starts the glitch_4011 animation (animating), text-shadow becomes -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8, background-color changes to transparent.",
+   "howItWorks": "On hover, starts the glitch_4011 animation (sliding), text-shadow becomes -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8, background-color changes to transparent.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -9465,6 +9474,7 @@
     "color-change",
     "animated",
     "glow",
+    "slide",
     "button",
     "glitch",
     "hover"
@@ -9794,15 +9804,17 @@
    "author": "Javierrocadev",
    "link": "https://uiverse.io/Javierrocadev/fat-snail-15",
    "path": "uiverse/buttons/fat-snail-15-by-javierrocadev/",
-   "description": "Pill black button that changes colour on hover.",
+   "description": "Pill black social button that changes colour on hover.",
    "howItWorks": "On hover, border changes and text colour changes.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "github",
+    "social",
     "rounded",
     "pill",
     "color-change",
-    "github",
+    "social-button",
     "buttons",
     "css"
    ],
@@ -9858,7 +9870,7 @@
    "link": "https://uiverse.io/marcelodolza/fat-zebra-11",
    "path": "uiverse/buttons/fat-zebra-11-by-marcelodolza/",
    "description": "Neon gradient rounded red button that starts animating on hover.",
-   "howItWorks": "On hover, transform becomes scale(1.02), box-shadow becomes 0 0 1px 2px #ffffff,\n    0 15px 30px #000000, 0 10px 3px -3px #000000, transform becomes scale(1.05, 1.1). On focus, opacity becomes 1, starts the disapear animation (bouncing, fading, sliding), starts the takeOff animation (fading, pulsing, rotating, sliding).",
+   "howItWorks": "On hover, transform becomes scale(1.02), box-shadow becomes 0 0 1px 2px #ffffff,\n    0 15px 30px #000000, 0 10px 3px -3px #000000, transform becomes scale(1.05, 1.1). On focus, opacity becomes 1, starts the disapear animation (bouncing, fading), starts the takeOff animation (fading, pulsing, rotating, sliding).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -9933,7 +9945,7 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/fluffy-bulldog-70",
    "path": "uiverse/buttons/fluffy-bulldog-70-by-doniaskima/",
-   "description": "Gradient dark pill black button that reacts on hover.",
+   "description": "Gradient pill black button that reacts on hover.",
    "howItWorks": "On hover, transform becomes translate(0).",
    "trigger": "hover",
    "needsJs": false,
@@ -10016,9 +10028,9 @@
     "color-change",
     "fade",
     "spin",
+    "slide",
     "pulse",
-    "button",
-    "hover"
+    "button"
    ],
    "colors": [
     "#000000",
@@ -10039,7 +10051,7 @@
    "link": "https://uiverse.io/elijahgummer/fluffy-gecko-12",
    "path": "uiverse/buttons/fluffy-gecko-12-by-elijahgummer/",
    "description": "Neon gradient pill indigo button that toggles on and off when clicked.",
-   "howItWorks": "On hover, opacity becomes 1, starts the letterShow animation (bouncing, fading), starts the letterHide animation (bouncing, fading). Clicking it toggles it: starts the bump animation (animating), starts the beat animation (pulsing).",
+   "howItWorks": "On hover, opacity becomes 1, starts the letterShow animation (bouncing, fading), starts the letterHide animation (bouncing, fading). Clicking it toggles it: starts the bump animation (moving), starts the beat animation (pulsing).",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -10151,12 +10163,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
-    "blue",
-    "fuchsia",
-    "color-change",
     "github",
     "twitter",
     "social",
+    "blue",
+    "fuchsia",
+    "color-change",
     "button",
     "social-media",
     "2d-button",
@@ -10283,6 +10295,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "teal",
     "blue",
     "gradient",
@@ -10291,8 +10304,7 @@
     "lift",
     "glow",
     "color-change",
-    "rotate",
-    "send"
+    "rotate"
    ],
    "colors": [
     "#4dc7d9",
@@ -10390,12 +10402,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "newsletter",
     "amber",
     "outlined",
     "rounded",
     "glow",
     "color-change",
-    "newsletter",
     "subscribe-button",
     "button",
     "hover-effect",
@@ -10530,10 +10542,10 @@
     "flat",
     "scale",
     "color-change",
+    "spin",
     "button",
     "arrow",
-    "text",
-    "circular"
+    "text"
    ],
    "colors": [
     "#7808d0",
@@ -10680,7 +10692,7 @@
    "author": "McHaXYT",
    "link": "https://uiverse.io/McHaXYT/fresh-turkey-35",
    "path": "uiverse/buttons/fresh-turkey-35-by-mchaxyt/",
-   "description": "Dark black button that lifts on hover with a smooth transition.",
+   "description": "Black button that lifts on hover with a smooth transition.",
    "howItWorks": "On hover, transform becomes translateY(-3px).",
    "trigger": "hover",
    "needsJs": false,
@@ -10713,7 +10725,7 @@
    "author": "ercnersoy",
    "link": "https://uiverse.io/ercnersoy/friendly-catfish-72",
    "path": "uiverse/buttons/friendly-catfish-72-by-ercnersoy/",
-   "description": "Outlined rounded amber button with soft shadow and rounded corners.",
+   "description": "Outlined rounded amber button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -10747,14 +10759,14 @@
    "author": "MetaBlue2000",
    "link": "https://uiverse.io/MetaBlue2000/friendly-chipmunk-57",
    "path": "uiverse/buttons/friendly-chipmunk-57-by-metablue2000/",
-   "description": "Outlined rounded gray button with soft shadow and rounded corners.",
+   "description": "Outlined rounded gray button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "send",
     "outlined",
     "rounded",
-    "send",
     "message",
     "challenge",
     "effect-3d",
@@ -10919,6 +10931,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "next",
     "green",
     "neon",
     "rounded",
@@ -10926,7 +10939,6 @@
     "shrink",
     "slide",
     "rotate",
-    "next",
     "button",
     "ring"
    ],
@@ -10993,10 +11005,10 @@
     "dark",
     "animated",
     "spin",
+    "slide",
     "button",
     "mario",
-    "game",
-    "hover"
+    "game"
    ],
    "colors": [
     "#de5917",
@@ -11022,6 +11034,7 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "outlined",
     "rounded",
@@ -11030,8 +11043,7 @@
     "scale",
     "slide",
     "rotate",
-    "animated",
-    "bounce"
+    "animated"
    ],
    "colors": [
     "#1c1c1c",
@@ -11215,15 +11227,15 @@
    "author": "DevPTG",
    "link": "https://uiverse.io/DevPTG/funny-quail-20",
    "path": "uiverse/buttons/funny-quail-20-by-devptg/",
-   "description": "Pill blue button with soft shadow and rounded corners.",
+   "description": "Pill blue button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "chat",
     "blue",
     "rounded",
     "pill",
-    "chat",
     "button",
     "static",
     "css"
@@ -11578,7 +11590,7 @@
    "author": "e-coders",
    "link": "https://uiverse.io/e-coders/gentle-seahorse-53",
    "path": "uiverse/buttons/gentle-seahorse-53-by-e-coders/",
-   "description": "Sky-blue button with soft shadow with a smooth transition.",
+   "description": "Sky-blue button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -11614,9 +11626,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "color-change",
-    "send",
     "buttons",
     "css"
    ],
@@ -11773,6 +11785,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "play",
     "red",
     "rounded",
     "flat",
@@ -11780,7 +11793,6 @@
     "animated",
     "fade",
     "slide",
-    "play",
     "button",
     "hover"
    ],
@@ -11808,13 +11820,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "add",
     "red",
     "rounded",
     "flat",
     "color-change",
     "animated",
     "spin",
-    "add",
     "animation",
     "calendar",
     "button"
@@ -11912,17 +11924,17 @@
    "author": "dylanharriscameron",
    "link": "https://uiverse.io/dylanharriscameron/good-dingo-46",
    "path": "uiverse/buttons/good-dingo-46-by-dylanharriscameron/",
-   "description": "Gradient 3d dark rounded black button that lights up when focused.",
+   "description": "Gradient 3d rounded black button that lights up when focused.",
    "howItWorks": "On focus, the outline is removed.",
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "delete",
     "gradient",
     "3d",
     "dark",
     "rounded",
     "fade",
-    "delete",
     "button",
     "keyboard",
     "focus"
@@ -12018,10 +12030,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "outlined",
     "rounded",
     "expand",
-    "send",
     "icon",
     "animation",
     "button",
@@ -12080,12 +12092,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "contact",
     "blue",
     "indigo",
     "neon",
     "rounded",
     "glow",
-    "contact",
     "icon",
     "button",
     "hover"
@@ -12255,10 +12267,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "delete",
     "blue",
     "rounded",
     "flat",
-    "delete",
     "button",
     "hover",
     "css"
@@ -12282,8 +12294,8 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/great-dolphin-45",
    "path": "uiverse/buttons/great-dolphin-45-by-doniaskima/",
-   "description": "Gradient dark pill black button that starts animating on hover.",
-   "howItWorks": "On hover, starts the pulse animation (animating), box-shadow becomes 0 0 0 2em transparent.",
+   "description": "Gradient pill black button that starts animating on hover.",
+   "howItWorks": "On hover, starts the pulse animation (moving), box-shadow becomes 0 0 0 2em transparent.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -12381,7 +12393,7 @@
    "author": "e-coders",
    "link": "https://uiverse.io/e-coders/great-falcon-16",
    "path": "uiverse/buttons/great-falcon-16-by-e-coders/",
-   "description": "Dark rounded black button that changes colour on hover.",
+   "description": "Rounded black button that changes colour on hover.",
    "howItWorks": "On hover, background-color changes from #111827 to #374151. On focus, box-shadow becomes none, outline becomes 2px solid #ffffff.",
    "trigger": "hover",
    "needsJs": false,
@@ -12425,11 +12437,11 @@
     "expand",
     "animated",
     "spin",
+    "slide",
     "icon",
     "button",
     "svg",
-    "plant",
-    "hover"
+    "plant"
    ],
    "colors": [
     "#181818",
@@ -12585,7 +12597,7 @@
    "author": "Bodyhc",
    "link": "https://uiverse.io/Bodyhc/great-walrus-67",
    "path": "uiverse/buttons/great-walrus-67-by-bodyhc/",
-   "description": "Gradient dark rounded black button that reacts on hover.",
+   "description": "Gradient rounded black button that reacts on hover.",
    "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
    "trigger": "hover",
    "needsJs": false,
@@ -12860,11 +12872,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "blue",
     "gradient",
     "outlined",
     "rounded",
-    "download",
     "download-button",
     "button",
     "hover",
@@ -13127,7 +13139,7 @@
    "link": "https://uiverse.io/simontheonlyone/happy-baboon-60",
    "path": "uiverse/buttons/happy-baboon-60-by-simontheonlyone/",
    "description": "Neon gradient rounded amber button that fades on hover.",
-   "howItWorks": "On hover, opacity becomes 1. On focus, width becomes 2.3em, background-color changes from #666 to #297eff, starts the wow animation (bouncing).",
+   "howItWorks": "On hover, opacity becomes 1. On focus, width becomes 2.3em, background-color changes from #666 to #297eff, starts the wow animation (bouncing, pulsing).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -13137,10 +13149,10 @@
     "rounded",
     "fade",
     "bounce",
+    "pulse",
     "tooltip",
     "button",
-    "download",
-    "unique"
+    "download"
    ],
    "colors": [
     "#ebfcfe",
@@ -13303,7 +13315,7 @@
    "link": "https://uiverse.io/Yaya12085/happy-emu-100",
    "path": "uiverse/buttons/happy-emu-100-by-yaya12085/",
    "description": "Gradient 3d dark pill amber button that starts animating on hover.",
-   "howItWorks": "On hover, transform becomes skewY(9.3deg) scaleY(2), starts the shake_3019 animation (bouncing, rotating, sliding), transform becomes translateX(-50%) translateY(-100%). On focus, starts the push_3019 animation (bouncing, rotating).",
+   "howItWorks": "On hover, transform becomes skewY(9.3deg) scaleY(2), starts the shake_3019 animation (bouncing, rotating), transform becomes translateX(-50%) translateY(-100%). On focus, starts the push_3019 animation (bouncing, rotating).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -13372,7 +13384,7 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/happy-moth-17",
    "path": "uiverse/buttons/happy-moth-17-by-doniaskima/",
-   "description": "Gradient dark rounded black button that fades on hover.",
+   "description": "Gradient rounded black button that fades on hover.",
    "howItWorks": "On hover, opacity becomes 1, opacity becomes 0.",
    "trigger": "hover",
    "needsJs": false,
@@ -13408,16 +13420,18 @@
    "author": "Divyank-Gupta-g",
    "link": "https://uiverse.io/Divyank-Gupta-g/happy-robin-54",
    "path": "uiverse/buttons/happy-robin-54-by-divyank-gupta-g/",
-   "description": "Pill white button that glows on hover with a smooth transition.",
+   "description": "Pill white social login button that glows on hover.",
    "howItWorks": "On hover, shadow grows and background changes and text colour changes.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "google",
+    "social",
     "rounded",
     "pill",
     "glow",
     "color-change",
-    "google",
+    "social-login-button",
     "buttons",
     "css"
    ],
@@ -13440,7 +13454,7 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/happy-turtle-32",
    "path": "uiverse/buttons/happy-turtle-32-by-doniaskima/",
-   "description": "Gradient dark pill black button that fades on hover.",
+   "description": "Gradient pill black button that fades on hover.",
    "howItWorks": "On hover, transform becomes translateY(100%), opacity becomes 1, transform becomes translateY(0).",
    "trigger": "hover",
    "needsJs": false,
@@ -13874,17 +13888,17 @@
    "author": "elijahgummer",
    "link": "https://uiverse.io/elijahgummer/hard-turkey-58",
    "path": "uiverse/buttons/hard-turkey-58-by-elijahgummer/",
-   "description": "Gradient dark pill black button that rotates on hover.",
+   "description": "Gradient pill black button that rotates on hover.",
    "howItWorks": "On hover, filter becomes drop-shadow(0 10px 20px #323232)\n    drop-shadow(0 0 20px #020202), transform becomes rotate(-35deg).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "signup",
     "gradient",
     "dark",
     "rounded",
     "pill",
     "rotate",
-    "signup",
     "simple",
     "neumorphism",
     "minimalist",
@@ -13914,6 +13928,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "rating",
     "blue",
     "purple",
     "gradient",
@@ -13922,8 +13937,7 @@
     "pill",
     "rotate",
     "animated",
-    "spin",
-    "rating"
+    "spin"
    ],
    "colors": [
     "#090979",
@@ -13949,13 +13963,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "save",
     "purple",
     "violet",
     "gradient",
     "rounded",
     "flat",
     "expand",
-    "save",
     "save-button",
     "button",
     "hover-effect"
@@ -14050,13 +14064,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "back",
+    "rating",
     "teal",
     "blue",
     "rounded",
     "color-change",
     "scale",
-    "back",
-    "rating",
     "buttons",
     "css"
    ],
@@ -14183,12 +14197,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "cart",
     "fuchsia",
     "blue",
     "gradient",
     "flat",
     "slide",
-    "cart",
     "button",
     "hover",
     "css"
@@ -14282,7 +14296,7 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/heavy-skunk-100",
    "path": "uiverse/buttons/heavy-skunk-100-by-doniaskima/",
-   "description": "Gradient dark black button that reacts on hover.",
+   "description": "Gradient black button that reacts on hover with a smooth transition.",
    "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
    "trigger": "hover",
    "needsJs": false,
@@ -14390,6 +14404,7 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "lift",
     "glow",
@@ -14398,8 +14413,7 @@
     "animated",
     "spin",
     "slide",
-    "fade",
-    "send"
+    "fade"
    ],
    "colors": [
     "#dddddd",
@@ -14565,10 +14579,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
     "slide",
-    "send",
     "icon",
     "animation",
     "white",
@@ -14831,11 +14845,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "blue",
     "rounded",
     "glow",
     "color-change",
-    "download",
     "button",
     "hover",
     "css"
@@ -14867,9 +14881,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "rounded",
     "color-change",
-    "download",
     "icon",
     "button",
     "dark",
@@ -14895,7 +14909,7 @@
    "author": "Spacious74",
    "link": "https://uiverse.io/Spacious74/helpless-tiger-55",
    "path": "uiverse/buttons/helpless-tiger-55-by-spacious74/",
-   "description": "Neon gradient rounded blue button with soft shadow and rounded corners and gradient fill.",
+   "description": "Neon gradient rounded blue button with soft shadow.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -15071,9 +15085,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "glow",
-    "send",
     "simple",
     "button",
     "code",
@@ -15134,7 +15148,7 @@
    "link": "https://uiverse.io/ilkhoeri/honest-panther-87",
    "path": "uiverse/buttons/honest-panther-87-by-ilkhoeri/",
    "description": "Outlined gray button that starts animating on hover.",
-   "howItWorks": "On hover, border-color becomes hsl(211deg 100% 48%), text color changes to hsl(211deg 100% 48%), starts the has-liked-thumb animation (pulsing, rotating).",
+   "howItWorks": "On hover, border-color becomes hsl(211deg 100% 48%), text color changes to hsl(211deg 100% 48%), starts the has-liked-thumb animation (pulsing, rotating, sliding).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -15144,10 +15158,10 @@
     "animated",
     "pulse",
     "spin",
+    "slide",
     "simple",
     "success",
-    "button",
-    "like"
+    "button"
    ],
    "colors": [
     "#999999",
@@ -15377,13 +15391,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "green",
     "neon",
     "outlined",
     "rounded",
     "lift",
     "glow",
-    "download",
     "download-button",
     "button",
     "hover"
@@ -15472,14 +15486,14 @@
    "author": "Shivaraj-Kolekar",
    "link": "https://uiverse.io/Shivaraj-Kolekar/horrible-parrot-27",
    "path": "uiverse/buttons/horrible-parrot-27-by-shivaraj-kolekar/",
-   "description": "Rounded dark sky-blue button with rounded corners with a smooth transition.",
+   "description": "Rounded dark sky-blue button with clean lines and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "send",
     "blue",
     "rounded",
-    "send",
     "buttons",
     "static",
     "css"
@@ -15504,20 +15518,21 @@
    "author": "Yaya12085",
    "link": "https://uiverse.io/Yaya12085/horrible-pug-35",
    "path": "uiverse/buttons/horrible-pug-35-by-yaya12085/",
-   "description": "Gradient rounded cyan button that glows on hover.",
+   "description": "Gradient rounded cyan social login button that glows on hover.",
    "howItWorks": "On hover, box-shadow becomes 0 4px 30px  #04afff, 0 2px 30px #0b9eff.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "twitter",
+    "social",
     "cyan",
     "gradient",
     "rounded",
     "glow",
-    "twitter",
+    "social-login-button",
     "icon",
     "button",
-    "connect",
-    "hover"
+    "connect"
    ],
    "colors": [
     "#039be5",
@@ -15543,14 +15558,14 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "facebook",
+    "social",
     "blue",
     "flat",
     "shrink",
     "color-change",
-    "facebook",
     "icon",
     "animation",
-    "social",
     "twitter",
     "instagram"
    ],
@@ -15705,12 +15720,13 @@
    "link": "https://uiverse.io/gharsh11032000/hot-grasshopper-70",
    "path": "uiverse/buttons/hot-grasshopper-70-by-gharsh11032000/",
    "description": "Rounded gray button that starts animating on hover.",
-   "howItWorks": "On hover, starts the shakeBack animation (animating), scale becomes 1.3.",
+   "howItWorks": "On hover, starts the shakeBack animation (sliding), scale becomes 1.3.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
     "rounded",
     "animated",
+    "slide",
     "button",
     "search",
     "hover-effect",
@@ -15838,7 +15854,7 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/hungry-donkey-93",
    "path": "uiverse/buttons/hungry-donkey-93-by-doniaskima/",
-   "description": "Gradient 3d dark black button that reacts on hover.",
+   "description": "Gradient 3d black button that reacts on hover.",
    "howItWorks": "On hover, transform becomes rotateY(40deg), transform becomes rotateY(calc(40deg * -1)).",
    "trigger": "hover",
    "needsJs": false,
@@ -15872,7 +15888,7 @@
    "author": "Diox221",
    "link": "https://uiverse.io/Diox221/hungry-husky-80",
    "path": "uiverse/buttons/hungry-husky-80-by-diox221/",
-   "description": "Dark rounded dark cyan button that scales up on hover.",
+   "description": "Rounded dark cyan button that scales up on hover.",
    "howItWorks": "On hover, transform becomes translate(-50%, -50%) scale(2).",
    "trigger": "hover",
    "needsJs": false,
@@ -15910,6 +15926,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "newsletter",
     "blue",
     "rounded",
     "flat",
@@ -15918,8 +15935,7 @@
     "rotate",
     "lift",
     "animated",
-    "pulse",
-    "newsletter"
+    "pulse"
    ],
    "colors": [
     "#000fdb",
@@ -15982,13 +15998,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "back",
     "outlined",
     "flat",
     "drop",
     "fade",
     "lift",
     "rotate",
-    "back",
     "button",
     "hover",
     "css"
@@ -16051,13 +16067,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "contact",
     "indigo",
     "rounded",
     "flat",
     "color-change",
     "expand",
     "slide",
-    "contact",
     "button",
     "hover",
     "animated"
@@ -16159,11 +16175,13 @@
    "author": "R0G3RF4",
    "link": "https://uiverse.io/R0G3RF4/hungry-termite-32",
    "path": "uiverse/buttons/hungry-termite-32-by-r0g3rf4/",
-   "description": "Neon pill sky-blue button that glows on hover.",
+   "description": "Neon pill sky-blue social button that glows on hover.",
    "howItWorks": "On hover, text color changes from #0163E0 to #fff, border becomes 1px solid #0163E0, box-shadow becomes inset 0 0 0 10em #0163E0.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "facebook",
+    "social",
     "blue",
     "neon",
     "outlined",
@@ -16171,9 +16189,7 @@
     "pill",
     "color-change",
     "glow",
-    "facebook",
-    "button",
-    "hover"
+    "social-button"
    ],
    "colors": [
     "#0163e0",
@@ -16222,7 +16238,7 @@
    "author": "Shoh2008",
    "link": "https://uiverse.io/Shoh2008/hungry-treefrog-88",
    "path": "uiverse/buttons/hungry-treefrog-88-by-shoh2008/",
-   "description": "Dark rounded black button that starts animating on hover.",
+   "description": "Rounded black button that starts animating on hover.",
    "howItWorks": "On hover, starts the a animation (pulsing).",
    "trigger": "hover",
    "needsJs": false,
@@ -16258,11 +16274,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "blue",
     "rounded",
     "color-change",
     "slide",
-    "send",
     "send-button",
     "buttons",
     "css"
@@ -16627,10 +16643,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
     "slide",
-    "send",
     "icon",
     "animation",
     "white",
@@ -16665,13 +16681,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "back",
     "violet",
     "yellow",
     "3d",
     "outlined",
     "flat",
     "color-change",
-    "back",
     "button",
     "text",
     "purple"
@@ -16834,13 +16850,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "next",
     "pink",
     "outlined",
     "rounded",
     "slide",
     "lift",
     "glow",
-    "next",
     "button",
     "desined-button",
     "hover"
@@ -16863,14 +16879,14 @@
    "author": "AKAspidey01",
    "link": "https://uiverse.io/AKAspidey01/jolly-tiger-60",
    "path": "uiverse/buttons/jolly-tiger-60-by-akaspidey01/",
-   "description": "Gradient rounded white button with soft shadow and rounded corners and gradient fill.",
+   "description": "Gradient rounded white button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
-    "send",
     "neumorphism",
     "flashy",
     "button",
@@ -16927,14 +16943,16 @@
    "author": "EcheverriaJesus",
    "link": "https://uiverse.io/EcheverriaJesus/kind-badger-70",
    "path": "uiverse/buttons/kind-badger-70-by-echeverriajesus/",
-   "description": "Rounded gray button that scales up on hover.",
+   "description": "Rounded gray social button that scales up on hover.",
    "howItWorks": "On hover, it scales.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "github",
+    "social",
     "rounded",
     "scale",
-    "github",
+    "social-button",
     "buttons",
     "css"
    ],
@@ -16962,6 +16980,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "edit",
     "red",
     "rounded",
     "pill",
@@ -16970,7 +16989,6 @@
     "rotate",
     "drop",
     "fade",
-    "edit",
     "button"
    ],
    "colors": [
@@ -17031,6 +17049,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "save",
     "dark",
     "rounded",
     "flat",
@@ -17038,7 +17057,6 @@
     "scale",
     "slide",
     "fade",
-    "save",
     "save-button",
     "button"
    ],
@@ -17137,7 +17155,7 @@
    "author": "kamehame-ha",
    "link": "https://uiverse.io/kamehame-ha/kind-otter-31",
    "path": "uiverse/buttons/kind-otter-31-by-kamehame-ha/",
-   "description": "Dark black button that changes colour on hover.",
+   "description": "Black button that changes colour on hover with a smooth transition.",
    "howItWorks": "On hover, background-color changes from #181717 to transparent, text color changes from #ffffff to #181717.",
    "trigger": "hover",
    "needsJs": false,
@@ -17301,7 +17319,7 @@
    "link": "https://uiverse.io/LilaRest/lazy-lionfish-12",
    "path": "uiverse/buttons/lazy-lionfish-12-by-lilarest/",
    "description": "Rounded white button that starts animating on hover.",
-   "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (animating).",
+   "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -17369,7 +17387,7 @@
    "link": "https://uiverse.io/htwarriors108/lazy-owl-9",
    "path": "uiverse/buttons/lazy-owl-9-by-htwarriors108/",
    "description": "Gradient dark rounded teal button that starts animating on hover.",
-   "howItWorks": "On hover, scale becomes 1.15, starts the animate animation (animating), transform becomes translateY(-15px).",
+   "howItWorks": "On hover, scale becomes 1.15, starts the animate animation (moving), transform becomes translateY(-15px).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -17715,7 +17733,7 @@
    "link": "https://uiverse.io/hssqrshi/light-rattlesnake-90",
    "path": "uiverse/buttons/light-rattlesnake-90-by-hssqrshi/",
    "description": "Neon gradient 3d rounded violet button that starts animating on hover.",
-   "howItWorks": "On hover, background-color changes from #c47dfb to #b46cea, transform becomes perspective(500px) rotateX(5deg), starts the glow animation (animating). On focus, the outline is removed, box-shadow becomes 0 0 0 4px #c47dfb.",
+   "howItWorks": "On hover, background-color changes from #c47dfb to #b46cea, transform becomes perspective(500px) rotateX(5deg), starts the glow animation (moving). On focus, the outline is removed, box-shadow becomes 0 0 0 4px #c47dfb.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -17754,12 +17772,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
     "glow",
     "color-change",
     "fade",
-    "send",
     "simple",
     "animation",
     "white",
@@ -17849,7 +17867,7 @@
    "author": "Cybercom682",
    "link": "https://uiverse.io/Cybercom682/little-owl-63",
    "path": "uiverse/buttons/little-owl-63-by-cybercom682/",
-   "description": "White button with soft shadow with a smooth transition.",
+   "description": "White button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -17883,12 +17901,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "green",
     "dark",
     "glow",
     "drop",
     "bounce",
-    "download",
     "icon",
     "button",
     "hover"
@@ -18016,13 +18034,13 @@
    "trigger": "active",
    "needsJs": false,
    "tags": [
+    "signup",
     "red",
     "indigo",
     "gradient",
     "3d",
     "dark",
     "rounded",
-    "signup",
     "button",
     "active",
     "css"
@@ -18051,9 +18069,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "rounded",
     "color-change",
-    "submit",
     "submit-button",
     "buttons",
     "css"
@@ -18116,6 +18134,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "rating",
     "pink",
     "teal",
     "neon",
@@ -18124,8 +18143,7 @@
     "rounded",
     "glow",
     "color-change",
-    "expand",
-    "rating"
+    "expand"
    ],
    "colors": [
     "#fd1853",
@@ -18218,11 +18236,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "delete",
     "rounded",
     "pill",
     "slide",
     "glow",
-    "delete",
     "buttons",
     "css"
    ],
@@ -18485,6 +18503,7 @@
     "outlined",
     "rounded",
     "flat",
+    "slide",
     "button",
     "hover",
     "css"
@@ -18513,6 +18532,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "menu",
     "blue",
     "outlined",
     "rounded",
@@ -18521,7 +18541,6 @@
     "fade",
     "color-change",
     "rotate",
-    "menu",
     "animation"
    ],
    "colors": [
@@ -18612,17 +18631,17 @@
    "link": "https://uiverse.io/LilaRest/loud-walrus-26",
    "path": "uiverse/buttons/loud-walrus-26-by-lilarest/",
    "description": "Rounded white button that starts animating on hover.",
-   "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (animating).",
+   "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "like",
     "rounded",
     "scale",
     "color-change",
     "animated",
     "fade",
     "pulse",
-    "like",
     "neumorphism",
     "skeuomorphism",
     "social"
@@ -18683,7 +18702,7 @@
    "link": "https://uiverse.io/n-jaisabai/lovely-bullfrog-53",
    "path": "uiverse/buttons/lovely-bullfrog-53-by-n-jaisabai/",
    "description": "Gradient blue button that starts animating on hover.",
-   "howItWorks": "On hover, background changes from radial-gradient(ellipse at top, #ffffff, #0000ff, #000000, #000000) to radial-gradient(ellipse at top, #ffffff, #0000ff, #000000, #000000), starts the gradient animation (animating), filter becomes blur(1.5em).",
+   "howItWorks": "On hover, background changes from radial-gradient(ellipse at top, #ffffff, #0000ff, #000000, #000000) to radial-gradient(ellipse at top, #ffffff, #0000ff, #000000, #000000), starts the gradient animation (moving), filter becomes blur(1.5em).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -18725,11 +18744,11 @@
     "fade",
     "pulse",
     "spin",
+    "slide",
     "delete",
     "animated",
     "3d-button",
-    "buttons",
-    "hover"
+    "buttons"
    ],
    "colors": [
     "#e6e6e6",
@@ -18823,16 +18842,16 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "twitter",
+    "social",
     "blue",
     "rounded",
     "pill",
     "glow",
     "color-change",
-    "twitter",
     "simple",
     "neumorphism",
-    "button",
-    "hover"
+    "button"
    ],
    "colors": [
     "#cacaca",
@@ -18892,12 +18911,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "edit",
     "cyan",
     "gradient",
     "outlined",
     "rounded",
     "glow",
-    "edit",
     "button",
     "hover",
     "css"
@@ -18960,12 +18979,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
     "pill",
     "lift",
     "glow",
-    "send",
     "simple",
     "neumorphism",
     "skeuomorphism",
@@ -19121,15 +19140,15 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "facebook",
+    "twitter",
+    "share",
+    "social",
     "emerald",
     "green",
     "gradient",
     "color-change",
     "glow",
-    "facebook",
-    "twitter",
-    "share",
-    "social",
     "button"
    ],
    "colors": [
@@ -19256,16 +19275,16 @@
    "author": "gagan-gv",
    "link": "https://uiverse.io/gagan-gv/massive-goat-19",
    "path": "uiverse/buttons/massive-goat-19-by-gagan-gv/",
-   "description": "Dark black menu button that glows on hover.",
+   "description": "Black menu button that glows on hover with a smooth transition.",
    "howItWorks": "On hover, box-shadow becomes 0 0 20px 0px #2e2e2e3a, width becomes 175px, opacity becomes 0. On focus, the outline is removed.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "menu",
     "dark",
     "glow",
     "expand",
     "fade",
-    "menu",
     "menu-button",
     "button",
     "hover",
@@ -19440,10 +19459,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "indigo",
     "rounded",
     "glow",
-    "download",
     "download-button",
     "simple",
     "icon",
@@ -19478,10 +19497,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "pill",
     "glow",
-    "send",
     "buttons",
     "css"
    ],
@@ -19709,8 +19728,8 @@
    "author": "VashonG",
    "link": "https://uiverse.io/VashonG/mean-mayfly-77",
    "path": "uiverse/buttons/mean-mayfly-77-by-vashong/",
-   "description": "Neon gradient 3d pill amber button with animating motion in a loop.",
-   "howItWorks": "It loops a animation (animating).",
+   "description": "Neon gradient 3d pill amber button with sliding motion in a loop.",
+   "howItWorks": "It loops a animation (sliding).",
    "trigger": "auto-loop",
    "needsJs": false,
    "tags": [
@@ -19722,8 +19741,8 @@
     "outlined",
     "rounded",
     "pill",
-    "button",
-    "ios"
+    "slide",
+    "button"
    ],
    "colors": [
     "#ffa31a",
@@ -19813,12 +19832,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "add",
     "green",
     "flat",
     "color-change",
     "slide",
     "expand",
-    "add",
     "button",
     "hover"
    ],
@@ -19879,7 +19898,7 @@
    "author": "Praashoo7",
    "link": "https://uiverse.io/Praashoo7/mighty-warthog-35",
    "path": "uiverse/buttons/mighty-warthog-35-by-praashoo7/",
-   "description": "Dark rounded black button that fades on hover.",
+   "description": "Rounded black button that fades on hover with a smooth transition.",
    "howItWorks": "On hover, z-index becomes 4, opacity becomes 0.",
    "trigger": "hover",
    "needsJs": false,
@@ -20110,7 +20129,7 @@
    "link": "https://uiverse.io/mrhyddenn/modern-puma-17",
    "path": "uiverse/buttons/modern-puma-17-by-mrhyddenn/",
    "description": "Dark pill gray button that starts animating on hover.",
-   "howItWorks": "On hover, starts the sh0 animation (rotating), starts the storm animation, opacity becomes 0.15.",
+   "howItWorks": "On hover, starts the sh0 animation (rotating, sliding), starts the storm animation, opacity becomes 0.15.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -20123,7 +20142,7 @@
     "shrink",
     "scale",
     "spin",
-    "button"
+    "slide"
    ],
    "colors": [
     "#333333",
@@ -20217,10 +20236,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "back",
     "slide",
     "lift",
     "glow",
-    "back",
     "icon",
     "button",
     "hover"
@@ -20582,12 +20601,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "cart",
+    "add",
     "violet",
     "pink",
     "flat",
     "lift",
-    "cart",
-    "add",
     "button",
     "hover"
    ],
@@ -20816,9 +20835,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "save",
     "flat",
     "color-change",
-    "save",
     "btn",
     "buttons",
     "hover"
@@ -20873,7 +20892,7 @@
    "link": "https://uiverse.io/Botwe-Felix5820/nasty-deer-97",
    "path": "uiverse/buttons/nasty-deer-97-by-botwe-felix5820/",
    "description": "Rounded sky-blue button that starts animating on hover.",
-   "howItWorks": "On hover, starts the shake3856 animation (animating).",
+   "howItWorks": "On hover, starts the shake3856 animation (sliding).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -20881,6 +20900,7 @@
     "rounded",
     "flat",
     "animated",
+    "slide",
     "button",
     "shake",
     "hover"
@@ -20977,6 +20997,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
     "scale",
@@ -20985,7 +21006,6 @@
     "slide",
     "rotate",
     "bounce",
-    "send",
     "animation"
    ],
    "colors": [
@@ -21047,13 +21067,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "play",
     "pink",
     "neon",
     "outlined",
     "rounded",
     "lift",
     "glow",
-    "play",
     "play-button",
     "button",
     "hover"
@@ -21087,6 +21107,7 @@
     "outlined",
     "rounded",
     "spin",
+    "slide",
     "button",
     "anime",
     "hover"
@@ -21215,6 +21236,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "rating",
     "violet",
     "gradient",
     "outlined",
@@ -21223,7 +21245,6 @@
     "fade",
     "bounce",
     "spin",
-    "rating",
     "button"
    ],
    "colors": [
@@ -21279,13 +21300,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "outlined",
     "rounded",
     "rotate",
     "scale",
     "glow",
-    "send",
     "button",
     "hover",
     "message"
@@ -21314,6 +21335,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "share",
     "blue",
     "gradient",
     "dark",
@@ -21321,7 +21343,6 @@
     "scale",
     "glow",
     "color-change",
-    "share",
     "simple",
     "button"
    ],
@@ -21549,6 +21570,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "rating",
     "blue",
     "gradient",
     "dark",
@@ -21557,8 +21579,7 @@
     "pill",
     "flat",
     "rotate",
-    "shrink",
-    "rating"
+    "shrink"
    ],
    "colors": [
     "#0e6cb9",
@@ -21584,6 +21605,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "red",
     "amber",
     "gradient",
@@ -21591,7 +21613,6 @@
     "animated",
     "fade",
     "slide",
-    "submit",
     "submit-button",
     "button"
    ],
@@ -21651,13 +21672,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "contact",
     "amber",
     "pink",
     "neon",
     "gradient",
     "glow",
     "expand",
-    "contact",
     "button",
     "hover-effect",
     "hover"
@@ -21681,13 +21702,15 @@
    "author": "e-coders",
    "link": "https://uiverse.io/e-coders/nervous-chipmunk-49",
    "path": "uiverse/buttons/nervous-chipmunk-49-by-e-coders/",
-   "description": "White button that changes colour on hover with a smooth transition.",
+   "description": "White social button that changes colour on hover.",
    "howItWorks": "On hover, background-color changes from #FAFBFC to #F3F4F6. On focus, outline becomes 1px transparent.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
-    "color-change",
     "github",
+    "social",
+    "color-change",
+    "social-button",
     "button",
     "hover"
    ],
@@ -21820,13 +21843,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "chat",
     "yellow",
     "amber",
     "gradient",
     "rounded",
     "pill",
     "fade",
-    "chat",
     "button",
     "hover-effect",
     "hover"
@@ -21992,7 +22015,7 @@
    "author": "Shubh0408",
    "link": "https://uiverse.io/Shubh0408/nervous-warthog-96",
    "path": "uiverse/buttons/nervous-warthog-96-by-shubh0408/",
-   "description": "Pill white button with rounded corners with a smooth transition.",
+   "description": "Pill white button with clean lines and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -22022,7 +22045,7 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/nervous-wombat-2",
    "path": "uiverse/buttons/nervous-wombat-2-by-doniaskima/",
-   "description": "Gradient dark rounded black button that reacts on hover.",
+   "description": "Gradient rounded black button that reacts on hover.",
    "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
    "trigger": "hover",
    "needsJs": false,
@@ -22340,10 +22363,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "social",
     "cyan",
     "rounded",
     "expand",
-    "social",
     "button",
     "hover",
     "css"
@@ -22370,7 +22393,7 @@
    "author": "Lakshay-art",
    "link": "https://uiverse.io/Lakshay-art/nice-insect-63",
    "path": "uiverse/buttons/nice-insect-63-by-lakshay-art/",
-   "description": "Glass gradient pill light purple button with rounded corners and gradient fill.",
+   "description": "Glass gradient pill light purple button with clean lines.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -22408,16 +22431,18 @@
    "author": "willeumsk",
    "link": "https://uiverse.io/willeumsk/nice-panda-73",
    "path": "uiverse/buttons/nice-panda-73-by-willeumsk/",
-   "description": "Rounded dark sky-blue button that glows on hover.",
+   "description": "Rounded dark sky-blue social button that glows on hover.",
    "howItWorks": "On hover, text colour changes and shadow grows.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "twitter",
+    "social",
     "blue",
     "rounded",
     "color-change",
     "glow",
-    "twitter",
+    "social-button",
     "buttons",
     "css"
    ],
@@ -22537,7 +22562,7 @@
    "author": "vinodjangid07",
    "link": "https://uiverse.io/vinodjangid07/odd-snake-27",
    "path": "uiverse/buttons/odd-snake-27-by-vinodjangid07/",
-   "description": "Gradient pill amber button that fades on hover.",
+   "description": "Gradient pill amber social button that fades on hover.",
    "howItWorks": "On hover, width becomes 110px, border-radius becomes 30px, opacity becomes 1.",
    "trigger": "hover",
    "needsJs": false,
@@ -22550,8 +22575,8 @@
     "flat",
     "expand",
     "fade",
-    "instagram",
-    "button"
+    "social-button",
+    "instagram"
    ],
    "colors": [
     "#f09433",
@@ -22577,13 +22602,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "settings",
     "indigo",
     "rounded",
     "flat",
     "color-change",
     "animated",
     "spin",
-    "settings",
     "button",
     "hover"
    ],
@@ -22637,7 +22662,7 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/old-catfish-59",
    "path": "uiverse/buttons/old-catfish-59-by-doniaskima/",
-   "description": "Gradient dark black button that starts animating on hover.",
+   "description": "Gradient black button that starts animating on hover.",
    "howItWorks": "On hover, starts the move-up-alternate animation (bouncing).",
    "trigger": "hover",
    "needsJs": false,
@@ -22737,7 +22762,7 @@
    "author": "escannord",
    "link": "https://uiverse.io/escannord/old-grasshopper-30",
    "path": "uiverse/buttons/old-grasshopper-30-by-escannord/",
-   "description": "Gradient rounded purple button with rounded corners and gradient fill.",
+   "description": "Gradient rounded purple button with clean lines and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -22832,7 +22857,7 @@
    "author": "MuhammadHasann",
    "link": "https://uiverse.io/MuhammadHasann/old-wombat-33",
    "path": "uiverse/buttons/old-wombat-33-by-muhammadhasann/",
-   "description": "Neon gradient rounded blue button with growing and shrinking; shimmering motion in a loop.",
+   "description": "Neon gradient rounded blue button with shimmering motion in a loop.",
    "howItWorks": "It loops a 25s animation (growing and shrinking; shimmering).",
    "trigger": "auto-loop",
    "needsJs": false,
@@ -22906,9 +22931,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "back",
     "green",
     "rounded",
-    "back",
     "buttons",
     "css"
    ],
@@ -23110,6 +23135,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "blue",
     "gradient",
     "dark",
@@ -23118,8 +23144,7 @@
     "glow",
     "color-change",
     "animated",
-    "spin",
-    "send"
+    "spin"
    ],
    "colors": [
     "#212121",
@@ -23176,10 +23201,11 @@
    "link": "https://uiverse.io/simontheonlyone/ordinary-starfish-54",
    "path": "uiverse/buttons/ordinary-starfish-54-by-simontheonlyone/",
    "description": "Neon rounded orange button that starts animating on hover.",
-   "howItWorks": "On hover, starts the like animation (rotating), starts the loke animation (rotating), scale becomes 6. On focus, starts the pop-up animation (fading).",
+   "howItWorks": "On hover, starts the like animation (rotating), starts the loke animation (rotating), scale becomes 6. On focus, starts the pop-up animation (fading, pulsing).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "like",
     "orange",
     "neon",
     "outlined",
@@ -23187,9 +23213,8 @@
     "animated",
     "fade",
     "spin",
-    "like",
-    "animation",
-    "button"
+    "pulse",
+    "animation"
    ],
    "colors": [
     "#dddddd",
@@ -23448,10 +23473,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "expand",
     "slide",
-    "send",
     "button",
     "challenge",
     "hover-effect",
@@ -23677,7 +23702,7 @@
    "link": "https://uiverse.io/niat786/perfect-warthog-57",
    "path": "uiverse/buttons/perfect-warthog-57-by-niat786/",
    "description": "Gradient rounded white button that starts animating on hover.",
-   "howItWorks": "On hover, starts the pulse animation, starts the pulse512 animation (animating).",
+   "howItWorks": "On hover, starts the pulse animation, starts the pulse512 animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -23992,6 +24017,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "next",
     "gradient",
     "outlined",
     "rounded",
@@ -23999,7 +24025,6 @@
     "animated",
     "slide",
     "pulse",
-    "next",
     "button",
     "read-more"
    ],
@@ -24064,9 +24089,9 @@
    "trigger": "active",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
-    "send",
     "neumorphism",
     "button",
     "shadow",
@@ -24132,12 +24157,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "contact",
     "blue",
     "red",
     "dark",
     "flat",
     "color-change",
-    "contact",
     "twitter",
     "youtube",
     "facebook",
@@ -24196,11 +24221,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "blue",
     "gradient",
     "rounded",
     "glow",
-    "download",
     "download-button",
     "icon",
     "button",
@@ -24297,12 +24322,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "play",
     "red",
     "rounded",
     "drop",
     "glow",
     "color-change",
-    "play",
     "button",
     "hover",
     "css"
@@ -24502,7 +24527,7 @@
     "rounded",
     "color-change",
     "spin",
-    "pulse"
+    "slide"
    ],
    "colors": [
     "#ffdb3b",
@@ -24594,12 +24619,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "dark",
     "outlined",
     "rounded",
     "bounce",
-    "send",
     "simple",
     "animation",
     "button",
@@ -24827,12 +24852,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "add",
     "green",
     "rounded",
     "flat",
     "expand",
     "fade",
-    "add",
     "button",
     "hover",
     "css"
@@ -24891,21 +24916,21 @@
    "author": "aguerquin",
    "link": "https://uiverse.io/aguerquin/pretty-bat-39",
    "path": "uiverse/buttons/pretty-bat-39-by-aguerquin/",
-   "description": "3d dark light red button that reacts on hover.",
+   "description": "3d dark light red social button that reacts on hover.",
    "howItWorks": "On hover, border-color becomes #ff98a2, transform becomes rotateX(90deg).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "github",
+    "social",
     "red",
     "3d",
     "dark",
     "outlined",
     "flat",
-    "github",
+    "social-button",
     "button",
-    "hover",
-    "cube",
-    "btn"
+    "hover"
    ],
    "colors": [
     "#ff98a2",
@@ -25134,10 +25159,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "like",
     "red",
     "outlined",
     "color-change",
-    "like",
     "button",
     "click-effect",
     "hover"
@@ -25196,7 +25221,7 @@
    "author": "sahilxkhadka",
    "link": "https://uiverse.io/sahilxkhadka/pretty-snail-44",
    "path": "uiverse/buttons/pretty-snail-44-by-sahilxkhadka/",
-   "description": "Gradient dark rounded gray button with soft shadow and rounded corners and gradient fill.",
+   "description": "Gradient dark rounded gray button with soft shadow.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -25232,14 +25257,14 @@
    "author": "csozidev",
    "link": "https://uiverse.io/csozidev/pretty-snail-69",
    "path": "uiverse/buttons/pretty-snail-69-by-csozidev/",
-   "description": "Gradient rounded white button with soft shadow and rounded corners and gradient fill.",
+   "description": "Gradient rounded white button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
-    "send",
     "simple",
     "button",
     "light",
@@ -25271,13 +25296,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "edit",
     "violet",
     "rounded",
     "flat",
     "color-change",
     "animated",
     "slide",
-    "edit",
     "animation",
     "purple",
     "button"
@@ -25303,8 +25328,8 @@
    "author": "JesusRafaelNavaCruz",
    "link": "https://uiverse.io/JesusRafaelNavaCruz/pretty-yak-93",
    "path": "uiverse/buttons/pretty-yak-93-by-jesusrafaelnavacruz/",
-   "description": "Light violet button with animating motion in a loop.",
-   "howItWorks": "It loops a 4s animation (animating).",
+   "description": "Light violet button with moving motion in a loop.",
+   "howItWorks": "It loops a 4s animation (moving).",
    "trigger": "auto-loop",
    "needsJs": false,
    "tags": [
@@ -25435,13 +25460,13 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "menu",
+    "like",
+    "rating",
     "violet",
     "green",
     "color-change",
     "scale",
-    "menu",
-    "like",
-    "rating",
     "button",
     "checked",
     "css"
@@ -25470,10 +25495,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "play",
     "teal",
     "neon",
     "slide",
-    "play",
     "play-button",
     "icon",
     "animation",
@@ -25535,7 +25560,7 @@
    "author": "Fadhilmagass",
    "link": "https://uiverse.io/Fadhilmagass/proud-quail-48",
    "path": "uiverse/buttons/proud-quail-48-by-fadhilmagass/",
-   "description": "Gradient dark pill dark sky-blue button that rotates on hover.",
+   "description": "Gradient pill dark sky-blue button that rotates on hover.",
    "howItWorks": "On hover, width becomes 500px, height becomes 500px, transform becomes rotate(360deg).",
    "trigger": "hover",
    "needsJs": false,
@@ -25646,7 +25671,7 @@
    "link": "https://uiverse.io/cssbuttons-io/purple-gecko-91",
    "path": "uiverse/buttons/purple-gecko-91-by-cssbuttons-io/",
    "description": "3d indigo button that starts animating on hover.",
-   "howItWorks": "On hover, background-color changes from #FFFFFF to #FFF65B, starts the translateWobble animation (fading).",
+   "howItWorks": "On hover, background-color changes from #FFFFFF to #FFF65B, starts the translateWobble animation (fading, sliding).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -25658,8 +25683,8 @@
     "animated",
     "spin",
     "fade",
-    "button",
-    "hover"
+    "slide",
+    "button"
    ],
    "colors": [
     "#5d00ff",
@@ -25720,13 +25745,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "blue",
     "dark",
     "rounded",
     "pill",
     "flat",
     "scale",
-    "submit",
     "submit-button",
     "button",
     "hover"
@@ -25758,13 +25783,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "pill",
     "scale",
     "glow",
     "color-change",
     "rotate",
-    "send",
     "buttons",
     "css"
    ],
@@ -25857,11 +25882,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "outlined",
     "rounded",
     "color-change",
     "slide",
-    "submit",
     "submit-button",
     "button",
     "hover",
@@ -25894,6 +25919,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "upload",
     "yellow",
     "amber",
     "neon",
@@ -25901,7 +25927,6 @@
     "rounded",
     "glow",
     "color-change",
-    "upload",
     "button",
     "modern"
    ],
@@ -25924,7 +25949,7 @@
    "author": "Webdevava",
    "link": "https://uiverse.io/Webdevava/purple-tiger-90",
    "path": "uiverse/buttons/purple-tiger-90-by-webdevava/",
-   "description": "Dark black button that reacts on hover with a smooth transition.",
+   "description": "Black button that reacts on hover with a smooth transition.",
    "howItWorks": "On hover, border becomes 3px solid #fff, transform becomes rotate3d(0, 1, 0.5, 360deg).",
    "trigger": "hover",
    "needsJs": false,
@@ -25993,11 +26018,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "play",
     "gradient",
     "rounded",
     "fade",
     "scale",
-    "play",
     "buttons",
     "css"
    ],
@@ -26059,11 +26084,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "lift",
     "glow",
     "color-change",
-    "send",
     "icon",
     "white",
     "button",
@@ -26097,13 +26122,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "github",
+    "twitter",
+    "social",
     "blue",
     "fuchsia",
     "rounded",
     "color-change",
-    "github",
-    "twitter",
-    "social",
     "instagram",
     "button",
     "discord"
@@ -26128,7 +26153,7 @@
    "link": "https://uiverse.io/MuhammadHasann/quick-goose-5",
    "path": "uiverse/buttons/quick-goose-5-by-muhammadhasann/",
    "description": "3d rounded amber button that starts animating on hover.",
-   "howItWorks": "On hover, transform becomes rotateX(15deg) rotateY(-15deg) rotateZ(0deg), box-shadow becomes -2px -2px #18181888, starts the shake animation (animating).",
+   "howItWorks": "On hover, transform becomes rotateX(15deg) rotateY(-15deg) rotateZ(0deg), box-shadow becomes -2px -2px #18181888, starts the shake animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -26162,7 +26187,7 @@
    "author": "Yaya12085",
    "link": "https://uiverse.io/Yaya12085/quick-husky-74",
    "path": "uiverse/buttons/quick-husky-74-by-yaya12085/",
-   "description": "Gradient 3d dark rounded black button that lights up when focused.",
+   "description": "Gradient 3d rounded black button that lights up when focused.",
    "howItWorks": "On focus, the outline is removed.",
    "trigger": "focus",
    "needsJs": false,
@@ -26200,6 +26225,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "outlined",
     "rounded",
@@ -26208,8 +26234,7 @@
     "rotate",
     "pulse",
     "spin",
-    "send",
-    "animation"
+    "slide"
    ],
    "colors": [
     "#aaaaaa",
@@ -26312,11 +26337,11 @@
     "rounded",
     "flat",
     "fade",
+    "slide",
     "button",
     "delete",
     "animated",
-    "css",
-    "hover"
+    "css"
    ],
    "colors": [
     "#ff2c6c",
@@ -26340,14 +26365,14 @@
    "author": "Subaashbala",
    "link": "https://uiverse.io/Subaashbala/quiet-cow-11",
    "path": "uiverse/buttons/quiet-cow-11-by-subaashbala/",
-   "description": "Gradient rounded white button with rounded corners and gradient fill.",
+   "description": "Gradient rounded white button with clean lines and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
-    "send",
     "simple",
     "neumorphism",
     "button",
@@ -26439,7 +26464,7 @@
    "author": "adamgiebl",
    "link": "https://uiverse.io/adamgiebl/quiet-duck-78",
    "path": "uiverse/buttons/quiet-duck-78-by-adamgiebl/",
-   "description": "Gradient dark rounded dark blue button that slides on hover.",
+   "description": "Gradient rounded dark blue button that slides on hover.",
    "howItWorks": "On hover, transform becomes translateX(5px) rotate(90deg), transform becomes translateX(7px).",
    "trigger": "hover",
    "needsJs": false,
@@ -26519,10 +26544,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
     "glow",
-    "send",
     "icon",
     "white",
     "button",
@@ -26624,11 +26649,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "upload",
     "green",
     "blue",
     "outlined",
     "flat",
-    "upload",
     "upload-button",
     "animation",
     "button",
@@ -26758,12 +26783,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "share",
     "cyan",
     "purple",
     "gradient",
     "animated",
     "shimmer",
-    "share",
     "button",
     "hover-effect",
     "hover"
@@ -26853,16 +26878,16 @@
    "author": "Uzmakh",
    "link": "https://uiverse.io/Uzmakh/rare-fox-82",
    "path": "uiverse/buttons/rare-fox-82-by-uzmakh/",
-   "description": "Gradient rounded dark blue button with soft shadow and rounded corners and gradient fill.",
+   "description": "Gradient rounded dark blue button with soft shadow.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "send",
     "blue",
     "gradient",
     "outlined",
     "rounded",
-    "send",
     "simple",
     "button",
     "lightdark",
@@ -26916,7 +26941,7 @@
    "author": "Bodyhc",
    "link": "https://uiverse.io/Bodyhc/rare-ladybug-6",
    "path": "uiverse/buttons/rare-ladybug-6-by-bodyhc/",
-   "description": "Gradient light blue button with soft shadow and gradient fill.",
+   "description": "Gradient light blue button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -27015,13 +27040,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "cart",
+    "add",
     "animated",
     "bounce",
     "fade",
     "spin",
     "slide",
-    "cart",
-    "add",
     "button",
     "hover-effect",
     "click-effect"
@@ -27076,21 +27101,21 @@
    "author": "Creatlydev",
    "link": "https://uiverse.io/Creatlydev/rare-treefrog-56",
    "path": "uiverse/buttons/rare-treefrog-56-by-creatlydev/",
-   "description": "Glass neon rounded yellow button that glows on hover.",
+   "description": "Glass neon rounded yellow social button that glows on hover.",
    "howItWorks": "On hover, box-shadow becomes inset 0 1px 0 0 #ffffff,\n    inset 0 0 0 1px #fce803, text color changes from #fff to #fce803, transform becomes translate(0, -0.25rem).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "github",
+    "social",
     "yellow",
     "neon",
     "glassmorphism",
     "rounded",
     "glow",
     "color-change",
-    "github",
-    "button",
-    "hover",
-    "css"
+    "social-button",
+    "button"
    ],
    "colors": [
     "#fce803",
@@ -27149,13 +27174,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "delete",
     "red",
     "neon",
     "outlined",
     "glow",
     "color-change",
     "expand",
-    "delete",
     "flashy",
     "button"
    ],
@@ -27209,7 +27234,7 @@
    "author": "JohnnyCSilva",
    "link": "https://uiverse.io/JohnnyCSilva/red-gecko-43",
    "path": "uiverse/buttons/red-gecko-43-by-johnnycsilva/",
-   "description": "Dark dark sky-blue button that glows and scales up on hover.",
+   "description": "Dark sky-blue button that glows and scales up on hover.",
    "howItWorks": "On hover, background-color changes from #031d67 to #051749, box-shadow becomes 0px 22px 19px -8px #100877, transform becomes scale(1.02,1.02).",
    "trigger": "hover",
    "needsJs": false,
@@ -27306,11 +27331,13 @@
    "author": "mrhyddenn",
    "link": "https://uiverse.io/mrhyddenn/red-stingray-4",
    "path": "uiverse/buttons/red-stingray-4-by-mrhyddenn/",
-   "description": "Neon pill sky-blue button that glows on hover.",
+   "description": "Neon pill sky-blue social button that glows on hover.",
    "howItWorks": "On hover, text color changes from #2890f1 to #fff, border becomes 1px solid #2890f1, box-shadow becomes inset 0 0 0 10em #2890f1.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "twitter",
+    "social",
     "blue",
     "neon",
     "outlined",
@@ -27318,9 +27345,7 @@
     "pill",
     "color-change",
     "glow",
-    "twitter",
-    "button",
-    "hover"
+    "social-button"
    ],
    "colors": [
     "#2890f1",
@@ -27379,10 +27404,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "blue",
     "rounded",
     "color-change",
-    "submit",
     "submit-button",
     "buttons",
     "css"
@@ -27447,12 +27472,12 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "play",
     "yellow",
     "neon",
     "gradient",
     "3d",
     "slide",
-    "play",
     "flashy",
     "button",
     "game",
@@ -27482,10 +27507,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "rounded",
     "color-change",
     "fade",
-    "download",
     "buttons",
     "css"
    ],
@@ -27582,6 +27607,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "yellow",
     "blue",
     "neon",
@@ -27590,8 +27616,7 @@
     "pill",
     "scale",
     "glow",
-    "rotate",
-    "color-change"
+    "rotate"
    ],
    "colors": [
     "#ffd700",
@@ -27788,12 +27813,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "pink",
     "gradient",
     "rounded",
     "color-change",
     "expand",
-    "download",
     "simple",
     "button",
     "hover-effect",
@@ -28039,12 +28064,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "social",
     "indigo",
     "blue",
     "rounded",
     "pill",
     "glow",
-    "social",
     "buttons",
     "css"
    ],
@@ -28068,7 +28093,7 @@
    "author": "Shoh2008",
    "link": "https://uiverse.io/Shoh2008/selfish-puma-67",
    "path": "uiverse/buttons/selfish-puma-67-by-shoh2008/",
-   "description": "Purple button with clean lines with a smooth transition.",
+   "description": "Purple button with clean lines and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -28174,12 +28199,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "play",
     "red",
     "rounded",
     "lift",
     "glow",
     "color-change",
-    "play",
     "button",
     "hover",
     "css"
@@ -28208,10 +28233,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "blue",
     "glow",
     "color-change",
-    "download",
     "download-button",
     "button",
     "big",
@@ -28445,7 +28470,7 @@
    "link": "https://uiverse.io/TemRevil/shaggy-donkey-83",
    "path": "uiverse/buttons/shaggy-donkey-83-by-temrevil/",
    "description": "Outlined pill dark sky-blue button that starts animating on hover.",
-   "howItWorks": "On hover, text color changes from #124 to #fff, starts the b-a animation (animating), starts the cir-1-border animation (animating).",
+   "howItWorks": "On hover, text color changes from #124 to #fff, starts the b-a animation (moving), starts the cir-1-border animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -28484,11 +28509,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "add",
     "green",
     "gradient",
     "rounded",
     "glow",
-    "add",
     "icon",
     "button",
     "hover"
@@ -28516,12 +28541,13 @@
    "link": "https://uiverse.io/r7chardgh/shaggy-octopus-89",
    "path": "uiverse/buttons/shaggy-octopus-89-by-r7chardgh/",
    "description": "Dark gray button that starts animating on hover.",
-   "howItWorks": "On hover, starts the shake animation (animating).",
+   "howItWorks": "On hover, starts the shake animation (sliding).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
     "dark",
     "animated",
+    "slide",
     "button",
     "hover",
     "glitch"
@@ -28579,6 +28605,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "add",
     "amber",
     "dark",
     "rounded",
@@ -28586,7 +28613,6 @@
     "color-change",
     "animated",
     "spin",
-    "add",
     "button",
     "hover"
    ],
@@ -28852,15 +28878,17 @@
    "author": "Yaya12085",
    "link": "https://uiverse.io/Yaya12085/sharp-quail-80",
    "path": "uiverse/buttons/sharp-quail-80-by-yaya12085/",
-   "description": "Rounded white button that scales up on hover.",
+   "description": "Rounded white social button that scales up on hover.",
    "howItWorks": "On hover, transform becomes scale(1.02).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "google",
+    "social",
     "rounded",
     "flat",
     "scale",
-    "google",
+    "social-button",
     "button",
     "input",
     "connect",
@@ -28890,6 +28918,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "share",
     "indigo",
     "blue",
     "rounded",
@@ -28898,7 +28927,6 @@
     "glow",
     "color-change",
     "expand",
-    "share",
     "button"
    ],
    "colors": [
@@ -29000,10 +29028,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "add",
     "blue",
     "rounded",
     "glow",
-    "add",
     "button",
     "hover",
     "css"
@@ -29065,11 +29093,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "social",
     "pink",
     "red",
     "flat",
     "color-change",
-    "social",
     "button",
     "hover-effect",
     "hoverme",
@@ -29243,10 +29271,10 @@
    "trigger": "active",
    "needsJs": false,
    "tags": [
+    "back",
     "red",
     "gradient",
     "outlined",
-    "back",
     "button",
     "active",
     "3d-button"
@@ -29446,7 +29474,7 @@
    "author": "AnshKaushal",
    "link": "https://uiverse.io/AnshKaushal/shy-grasshopper-99",
    "path": "uiverse/buttons/shy-grasshopper-99-by-anshkaushal/",
-   "description": "Dark black button that scales up on hover.",
+   "description": "Black button that scales up on hover with a smooth transition.",
    "howItWorks": "On hover, background-color changes from #101014 to #f5f0f0, text color changes from #f5f0f0 to #101014, transform becomes scale(1.2).",
    "trigger": "hover",
    "needsJs": false,
@@ -29482,9 +29510,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "blue",
     "color-change",
-    "submit",
     "submit-button",
     "animation",
     "subscription",
@@ -29516,17 +29544,17 @@
    "link": "https://uiverse.io/Li-Deheng/shy-moth-10",
    "path": "uiverse/buttons/shy-moth-10-by-li-deheng/",
    "description": "Neon rounded pink button that starts animating on hover.",
-   "howItWorks": "On hover, starts the btn-content animation (animating), outline becomes 0.1em solid transparent, box-shadow becomes 0 0 0.4em 0 #ff135a. On focus, starts the btn-content animation (animating), outline becomes 0.1em solid transparent, box-shadow becomes 0 0 0.4em 0 #ff135a.",
+   "howItWorks": "On hover, starts the btn-content animation (moving), outline becomes 0.1em solid transparent, box-shadow becomes 0 0 0.4em 0 #ff135a. On focus, starts the btn-content animation (moving), outline becomes 0.1em solid transparent, box-shadow becomes 0 0 0.4em 0 #ff135a.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "next",
     "pink",
     "neon",
     "rounded",
     "glow",
     "animated",
     "slide",
-    "next",
     "animation",
     "button",
     "hover"
@@ -29558,6 +29586,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "rating",
     "fuchsia",
     "violet",
     "gradient",
@@ -29566,7 +29595,6 @@
     "pill",
     "scale",
     "fade",
-    "rating",
     "button"
    ],
    "colors": [
@@ -29814,7 +29842,7 @@
    "link": "https://uiverse.io/mobinkakei/silent-kangaroo-88",
    "path": "uiverse/buttons/silent-kangaroo-88-by-mobinkakei/",
    "description": "3d rounded sky-blue button that starts animating on hover.",
-   "howItWorks": "On hover, starts the rotate624 animation (rotating), starts the storm1261 animation (animating), left becomes 120%.",
+   "howItWorks": "On hover, starts the rotate624 animation (rotating, sliding), starts the storm1261 animation (sliding), left becomes 120%.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -29826,8 +29854,8 @@
     "flat",
     "animated",
     "spin",
-    "button",
-    "hover"
+    "slide",
+    "button"
    ],
    "colors": [
     "#164ca7",
@@ -29856,12 +29884,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "rating",
     "orange",
     "rounded",
     "glow",
     "color-change",
     "expand",
-    "rating",
     "button",
     "hover",
     "star"
@@ -29925,9 +29953,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "blue",
     "fade",
-    "download",
     "download-button",
     "button",
     "hover"
@@ -30059,13 +30087,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "login",
+    "social",
     "orange",
     "pink",
     "gradient",
     "flat",
     "lift",
-    "login",
-    "social",
     "button",
     "hover",
     "css"
@@ -30390,7 +30418,7 @@
    "link": "https://uiverse.io/MuhammadHasann/slimy-fish-99",
    "path": "uiverse/buttons/slimy-fish-99-by-muhammadhasann/",
    "description": "Gradient 3d rounded yellow button that starts animating on hover.",
-   "howItWorks": "On hover, filter becomes blur(.05em), starts the lightBox animation (animating), starts the light animation (fading).",
+   "howItWorks": "On hover, filter becomes blur(.05em), starts the lightBox animation (moving), starts the light animation (fading).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -30624,7 +30652,7 @@
    "author": "pipic1",
    "link": "https://uiverse.io/pipic1/slimy-parrot-86",
    "path": "uiverse/buttons/slimy-parrot-86-by-pipic1/",
-   "description": "Gradient light blue button with soft shadow and gradient fill.",
+   "description": "Gradient light blue button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -30694,6 +30722,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "cart",
     "red",
     "purple",
     "outlined",
@@ -30701,7 +30730,6 @@
     "flat",
     "scale",
     "fade",
-    "cart",
     "button",
     "buy-now"
    ],
@@ -30732,6 +30760,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "home",
     "violet",
     "purple",
     "gradient",
@@ -30740,8 +30769,7 @@
     "expand",
     "fade",
     "shrink",
-    "color-change",
-    "home"
+    "color-change"
    ],
    "colors": [
     "#777777",
@@ -30763,7 +30791,7 @@
    "link": "https://uiverse.io/TemRevil/slippery-fox-2",
    "path": "uiverse/buttons/slippery-fox-2-by-temrevil/",
    "description": "Outlined pill dark sky-blue button that starts animating on hover.",
-   "howItWorks": "On hover, text color changes from #124 to #fff, starts the b-a animation (animating), starts the cir-1-border animation (animating).",
+   "howItWorks": "On hover, text color changes from #124 to #fff, starts the b-a animation (moving), starts the cir-1-border animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -30802,12 +30830,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "delete",
     "red",
     "outlined",
     "rounded",
     "color-change",
     "fade",
-    "delete",
     "tooltip",
     "button",
     "hover",
@@ -30914,6 +30942,7 @@
     "pink",
     "gradient",
     "animated",
+    "slide",
     "button",
     "glitch",
     "hover"
@@ -30942,11 +30971,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "green",
     "flat",
     "color-change",
     "fade",
-    "download",
     "download-button",
     "button",
     "hover"
@@ -30973,7 +31002,7 @@
    "author": "Laurits123456",
    "link": "https://uiverse.io/Laurits123456/slippery-squid-55",
    "path": "uiverse/buttons/slippery-squid-55-by-laurits123456/",
-   "description": "Dark rounded black button that toggles on and off when clicked.",
+   "description": "Rounded black button that toggles on and off when clicked.",
    "howItWorks": "On hover, border becomes 1px solid #000000. Clicking it toggles it: transform becomes translateY(290%)rotate(45deg), width becomes 40px, transform becomes translateY(-270%) rotate(-45deg).",
    "trigger": "checked",
    "needsJs": false,
@@ -31006,7 +31035,7 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/smart-bear-14",
    "path": "uiverse/buttons/smart-bear-14-by-doniaskima/",
-   "description": "Gradient dark rounded black button that fades on hover.",
+   "description": "Gradient rounded black button that fades on hover.",
    "howItWorks": "On hover, opacity becomes 1.",
    "trigger": "hover",
    "needsJs": false,
@@ -31048,11 +31077,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "share",
     "pink",
     "rounded",
     "flat",
     "expand",
-    "share",
     "button",
     "social-media",
     "hover"
@@ -31150,6 +31179,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "blue",
     "rounded",
     "flat",
@@ -31158,7 +31188,6 @@
     "slide",
     "rotate",
     "bounce",
-    "send",
     "send-button"
    ],
    "colors": [
@@ -31217,7 +31246,7 @@
    "link": "https://uiverse.io/misaraadel/smart-otter-53",
    "path": "uiverse/buttons/smart-otter-53-by-misaraadel/",
    "description": "Green button that starts animating on hover with a smooth transition.",
-   "howItWorks": "On hover, starts the sideClip animation (animating), opacity becomes 1, starts the fadeInLeft animation (fading).",
+   "howItWorks": "On hover, starts the sideClip animation (moving), opacity becomes 1, starts the fadeInLeft animation (fading, sliding).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -31225,12 +31254,12 @@
     "flat",
     "fade",
     "animated",
+    "slide",
     "twitter",
     "facebook",
     "tik-tok",
     "button",
-    "clip-path",
-    "linkedin"
+    "clip-path"
    ],
    "colors": [
     "#5b9d15",
@@ -31288,9 +31317,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "rotate",
-    "send",
     "button",
     "simple-button",
     "hover-button",
@@ -31394,16 +31423,16 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
-    "orange",
-    "rounded",
-    "glow",
-    "color-change",
-    "expand",
     "facebook",
     "twitter",
     "follow",
     "rating",
-    "button"
+    "social",
+    "orange",
+    "rounded",
+    "glow",
+    "color-change",
+    "expand"
    ],
    "colors": [
     "#fec195",
@@ -31492,6 +31521,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "back",
     "red",
     "gradient",
     "3d",
@@ -31499,7 +31529,6 @@
     "rounded",
     "pill",
     "spin",
-    "back",
     "button",
     "danger"
    ],
@@ -31562,16 +31591,16 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "social",
+    "github",
+    "twitter",
     "cyan",
     "fuchsia",
     "glassmorphism",
     "gradient",
     "rounded",
     "expand",
-    "fade",
-    "glow",
-    "color-change",
-    "animated"
+    "fade"
    ],
    "colors": [
     "#29b6f6",
@@ -31896,10 +31925,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "share",
     "rounded",
     "flat",
     "expand",
-    "share",
     "hover",
     "social",
     "button"
@@ -32032,10 +32061,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "save",
     "blue",
     "outlined",
     "rounded",
-    "save",
     "button",
     "hover",
     "css"
@@ -32126,11 +32155,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "follow",
     "cyan",
     "flat",
     "color-change",
     "fade",
-    "follow",
     "button",
     "linkedin",
     "hover"
@@ -32189,12 +32218,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "delete",
     "outlined",
     "rounded",
     "expand",
     "fade",
     "scale",
-    "delete",
     "button",
     "hover"
    ],
@@ -32216,7 +32245,7 @@
    "author": "abrahamcalsin",
    "link": "https://uiverse.io/abrahamcalsin/sour-donkey-65",
    "path": "uiverse/buttons/sour-donkey-65-by-abrahamcalsin/",
-   "description": "Dark dark sky-blue button that starts animating on hover.",
+   "description": "Dark sky-blue button that starts animating on hover.",
    "howItWorks": "On hover, right becomes auto, left becomes 0, width becomes 100%.",
    "trigger": "hover",
    "needsJs": false,
@@ -32354,7 +32383,7 @@
    "link": "https://uiverse.io/Mohammad-Rahme-576/spicy-grasshopper-17",
    "path": "uiverse/buttons/spicy-grasshopper-17-by-mohammad-rahme-576/",
    "description": "Neon gradient 3d rounded violet button that starts animating on hover.",
-   "howItWorks": "On hover, background changes from #8a2be2 to linear-gradient(\n    135deg,\n    #8a2be2,\n    #4b0082\n  ), transform becomes scale(1.05) translateY(-3px) rotateY(10deg), box-shadow becomes 0 0 20px #8a2be2,\n    0 0 40px #4b0082,\n    0 0 60px #da70d6. On focus, the outline is removed, box-shadow becomes 0 0 0 4px #8a2be2,\n    0 0 30px #da70d6, starts the focusPulse animation (animating).",
+   "howItWorks": "On hover, background changes from #8a2be2 to linear-gradient(\n    135deg,\n    #8a2be2,\n    #4b0082\n  ), transform becomes scale(1.05) translateY(-3px) rotateY(10deg), box-shadow becomes 0 0 20px #8a2be2,\n    0 0 40px #4b0082,\n    0 0 60px #da70d6. On focus, the outline is removed, box-shadow becomes 0 0 0 4px #8a2be2,\n    0 0 30px #da70d6, starts the focusPulse animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -32454,17 +32483,19 @@
    "author": "Manish-Tamang",
    "link": "https://uiverse.io/Manish-Tamang/spicy-panther-59",
    "path": "uiverse/buttons/spicy-panther-59-by-manish-tamang/",
-   "description": "Rounded amber button that changes colour on hover.",
+   "description": "Rounded amber social button that changes colour on hover.",
    "howItWorks": "On hover, background changes and a ring appears and text colour changes.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "github",
+    "rating",
+    "social",
     "amber",
     "rounded",
     "color-change",
     "ring",
-    "github",
-    "rating",
+    "social-button",
     "buttons",
     "css"
    ],
@@ -32591,9 +32622,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "glow",
-    "send",
     "simple",
     "material-design",
     "3d",
@@ -32656,12 +32687,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "delete",
     "red",
     "flat",
     "color-change",
     "slide",
     "expand",
-    "delete",
     "button",
     "hover"
    ],
@@ -32689,12 +32720,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "play",
     "blue",
     "rounded",
     "flat",
     "scale",
     "slide",
-    "play",
     "button",
     "discord",
     "join-now",
@@ -32851,10 +32882,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "save",
     "lime",
     "rounded",
     "color-change",
-    "save",
     "buttons",
     "css"
    ],
@@ -32877,7 +32908,7 @@
    "author": "Pradeepsaranbishnoi",
    "link": "https://uiverse.io/Pradeepsaranbishnoi/spotty-chipmunk-79",
    "path": "uiverse/buttons/spotty-chipmunk-79-by-pradeepsaranbishnoi/",
-   "description": "Dark pill dark cyan button that toggles on and off when clicked.",
+   "description": "Pill dark cyan button that toggles on and off when clicked.",
    "howItWorks": "Clicking it toggles it: width becomes 42px, starts the _a animation (rotating), starts the _b animation (rotating).",
    "trigger": "checked",
    "needsJs": false,
@@ -33043,21 +33074,21 @@
    "author": "csozidev",
    "link": "https://uiverse.io/csozidev/spotty-lion-8",
    "path": "uiverse/buttons/spotty-lion-8-by-csozidev/",
-   "description": "Outlined rounded black button that starts animating on hover.",
-   "howItWorks": "On hover, starts the text animation (animating), top becomes 50%, left becomes 9%.",
+   "description": "Outlined rounded black social button that starts animating on hover.",
+   "howItWorks": "On hover, starts the text animation (moving), top becomes 50%, left becomes 9%.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "google",
+    "social",
     "outlined",
     "rounded",
     "flat",
     "animated",
     "fade",
     "expand",
-    "google",
-    "simple",
-    "flat-design",
-    "animation"
+    "social-button",
+    "simple"
    ],
    "colors": [
     "#000000",
@@ -33108,7 +33139,7 @@
    "author": "bhaveshxrawat",
    "link": "https://uiverse.io/bhaveshxrawat/spotty-snail-58",
    "path": "uiverse/buttons/spotty-snail-58-by-bhaveshxrawat/",
-   "description": "Gradient dark rounded black button that glows on hover.",
+   "description": "Gradient rounded black button that glows on hover.",
    "howItWorks": "On hover, background changes from linear-gradient(225deg, #181818, #2e2e2e) to #212121, box-shadow becomes -5px 5px 10px #191919,\n             5px -5px 10px #292929, opacity becomes 0.7.",
    "trigger": "hover",
    "needsJs": false,
@@ -33186,12 +33217,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "indigo",
     "blue",
     "gradient",
     "rounded",
     "flat",
-    "download",
     "download-button",
     "button",
     "hover"
@@ -33215,7 +33246,7 @@
    "author": "sunnyshaikh",
    "link": "https://uiverse.io/sunnyshaikh/stale-bear-45",
    "path": "uiverse/buttons/stale-bear-45-by-sunnyshaikh/",
-   "description": "Gradient rounded light cyan button with soft shadow and rounded corners and gradient fill.",
+   "description": "Gradient rounded light cyan button with soft shadow.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -33486,7 +33517,7 @@
    "link": "https://uiverse.io/212004ALJI/strange-bat-74",
    "path": "uiverse/buttons/strange-bat-74-by-212004alji/",
    "description": "Neon rounded pink button that starts animating on hover.",
-   "howItWorks": "On hover, starts the glitch_4011 animation (animating), bottom becomes -40px, width becomes 100px.",
+   "howItWorks": "On hover, starts the glitch_4011 animation (sliding), bottom becomes -40px, width becomes 100px.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -33496,6 +33527,7 @@
     "rounded",
     "animated",
     "expand",
+    "slide",
     "button",
     "hover",
     "css"
@@ -33827,8 +33859,8 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
-    "cyan",
     "download",
+    "cyan",
     "button",
     "hover",
     "css"
@@ -33853,7 +33885,7 @@
    "link": "https://uiverse.io/LilaRest/strong-fly-77",
    "path": "uiverse/buttons/strong-fly-77-by-lilarest/",
    "description": "Rounded white button that starts animating on hover.",
-   "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (animating).",
+   "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -33895,6 +33927,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "rating",
     "blue",
     "gradient",
     "rounded",
@@ -33902,7 +33935,6 @@
     "fade",
     "scale",
     "rotate",
-    "rating",
     "button",
     "hover"
    ],
@@ -33926,20 +33958,20 @@
    "link": "https://uiverse.io/Bastiennnn/strong-lionfish-94",
    "path": "uiverse/buttons/strong-lionfish-94-by-bastiennnn/",
    "description": "Rounded gray button that starts animating on hover.",
-   "howItWorks": "On hover, box-shadow becomes 0 5px 10px #3a3a3a, transform becomes translateY(-10px), starts the flyAround animation (pulsing, rotating).",
+   "howItWorks": "On hover, box-shadow becomes 0 5px 10px #3a3a3a, transform becomes translateY(-10px), starts the flyAround animation (pulsing, rotating, sliding).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "lift",
     "glow",
     "animated",
     "pulse",
     "spin",
-    "send",
+    "slide",
     "simple",
-    "animation",
-    "button"
+    "animation"
    ],
    "colors": [
     "#7a7a7a",
@@ -33965,6 +33997,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "play",
     "gradient",
     "rounded",
     "flat",
@@ -33972,7 +34005,6 @@
     "fade",
     "animated",
     "spin",
-    "play",
     "play-button",
     "button"
    ],
@@ -34203,11 +34235,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "next",
     "pink",
     "gradient",
     "flat",
     "fade",
-    "next",
     "button",
     "hover",
     "css"
@@ -34236,6 +34268,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "like",
     "red",
     "gradient",
     "rounded",
@@ -34243,7 +34276,6 @@
     "animated",
     "shrink",
     "pulse",
-    "like",
     "simple",
     "icon"
    ],
@@ -34274,11 +34306,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "delete",
     "red",
     "color-change",
     "slide",
     "expand",
-    "delete",
     "icon",
     "button",
     "hover"
@@ -34334,7 +34366,7 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/stupid-walrus-83",
    "path": "uiverse/buttons/stupid-walrus-83-by-doniaskima/",
-   "description": "Gradient dark rounded black button that reacts on hover.",
+   "description": "Gradient rounded black button that reacts on hover.",
    "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
    "trigger": "hover",
    "needsJs": false,
@@ -34406,7 +34438,7 @@
    "link": "https://uiverse.io/Na3ar-17/sweet-horse-64",
    "path": "uiverse/buttons/sweet-horse-64-by-na3ar-17/",
    "description": "Gradient white button that starts animating on hover.",
-   "howItWorks": "On hover, starts the pulse animation, starts the pulse512 animation (animating), letter-spacing becomes 2px.",
+   "howItWorks": "On hover, starts the pulse animation, starts the pulse512 animation (moving), letter-spacing becomes 2px.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -34446,8 +34478,8 @@
    "trigger": "active",
    "needsJs": false,
    "tags": [
-    "rounded",
     "login",
+    "rounded",
     "login-button",
     "simple",
     "3d",
@@ -34479,6 +34511,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "delete",
     "orange",
     "red",
     "gradient",
@@ -34486,7 +34519,6 @@
     "pill",
     "expand",
     "fade",
-    "delete",
     "button",
     "hover-effect"
    ],
@@ -34611,7 +34643,7 @@
    "author": "niat786",
    "link": "https://uiverse.io/niat786/swift-bullfrog-83",
    "path": "uiverse/buttons/swift-bullfrog-83-by-niat786/",
-   "description": "Dark black button that changes colour on hover.",
+   "description": "Black button that changes colour on hover with a smooth transition.",
    "howItWorks": "On hover, background changes from #000000 to #2b2a2a.",
    "trigger": "hover",
    "needsJs": false,
@@ -34787,10 +34819,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "blue",
     "rounded",
     "glow",
-    "submit",
     "button",
     "hover",
     "css"
@@ -34813,21 +34845,21 @@
    "author": "McHaXYT",
    "link": "https://uiverse.io/McHaXYT/swift-mayfly-80",
    "path": "uiverse/buttons/swift-mayfly-80-by-mchaxyt/",
-   "description": "Dark pill gray button that rotates on hover.",
+   "description": "Dark pill gray social button that rotates on hover.",
    "howItWorks": "On hover, transform becomes rotate(360deg), background-color changes from #2d2e32 to #ffff, text color changes from #ffff to #2d2e32.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "github",
+    "twitter",
+    "social",
     "dark",
     "rounded",
     "pill",
     "flat",
     "rotate",
     "color-change",
-    "github",
-    "twitter",
-    "white",
-    "black"
+    "social-button"
    ],
    "colors": [
     "#2d2e32",
@@ -34847,7 +34879,7 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/swift-newt-52",
    "path": "uiverse/buttons/swift-newt-52-by-doniaskima/",
-   "description": "Gradient 3d dark black button that starts animating on hover.",
+   "description": "Gradient 3d black button that starts animating on hover.",
    "howItWorks": "On hover, transform becomes rotateX(35deg), starts the progress-bar animation (fading).",
    "trigger": "hover",
    "needsJs": false,
@@ -34922,16 +34954,16 @@
    "author": "kamehame-ha",
    "link": "https://uiverse.io/kamehame-ha/swift-penguin-73",
    "path": "uiverse/buttons/swift-penguin-73-by-kamehame-ha/",
-   "description": "Outlined sky-blue button with clean lines with a smooth transition.",
+   "description": "Outlined sky-blue button with clean lines and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "share",
     "blue",
     "amber",
     "outlined",
     "flat",
-    "share",
     "success",
     "error",
     "lightdark",
@@ -35294,7 +35326,7 @@
    "author": "abuayaan01",
    "link": "https://uiverse.io/abuayaan01/tall-mayfly-66",
    "path": "uiverse/buttons/tall-mayfly-66-by-abuayaan01/",
-   "description": "Dark rounded dark sky-blue button with rotating motion in a loop.",
+   "description": "Rounded dark sky-blue button with rotating motion in a loop.",
    "howItWorks": "It loops a 5s animation (rotating).",
    "trigger": "auto-loop",
    "needsJs": false,
@@ -35403,10 +35435,10 @@
    "trigger": "active",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "outlined",
     "rounded",
-    "send",
     "button",
     "message",
     "active"
@@ -35466,7 +35498,7 @@
    "link": "https://uiverse.io/misaraadel/tame-elephant-97",
    "path": "uiverse/buttons/tame-elephant-97-by-misaraadel/",
    "description": "3d green button that starts animating on hover.",
-   "howItWorks": "On hover, starts the sideClip animation (animating), opacity becomes 1, starts the storm animation (animating).",
+   "howItWorks": "On hover, starts the sideClip animation (moving), opacity becomes 1, starts the storm animation (sliding).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -35476,10 +35508,10 @@
     "fade",
     "animated",
     "color-change",
+    "slide",
     "button",
     "clip-path",
-    "hover-effect",
-    "clip"
+    "hover-effect"
    ],
    "colors": [
     "#5ba50e",
@@ -35711,6 +35743,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "outlined",
     "rounded",
@@ -35719,8 +35752,7 @@
     "animated",
     "pulse",
     "spin",
-    "send",
-    "button"
+    "slide"
    ],
    "colors": [
     "#d0d4da",
@@ -35914,15 +35946,15 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "github",
+    "twitter",
+    "social",
     "blue",
     "cyan",
     "gradient",
     "flat",
     "expand",
-    "github",
-    "twitter",
     "media",
-    "social",
     "instagram"
    ],
    "colors": [
@@ -35949,12 +35981,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "emerald",
     "flat",
     "color-change",
     "slide",
     "expand",
-    "download",
     "download-button",
     "button",
     "hover",
@@ -36052,6 +36084,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "like",
     "violet",
     "purple",
     "gradient",
@@ -36060,8 +36093,7 @@
     "expand",
     "fade",
     "shrink",
-    "color-change",
-    "like"
+    "color-change"
    ],
    "colors": [
     "#777777",
@@ -36316,7 +36348,7 @@
    "author": "SelfMadeSystem",
    "link": "https://uiverse.io/SelfMadeSystem/terrible-rat-80",
    "path": "uiverse/buttons/terrible-rat-80-by-selfmadesystem/",
-   "description": "Rounded indigo button with soft shadow and rounded corners.",
+   "description": "Rounded indigo button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -36851,11 +36883,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "follow",
     "cyan",
     "rounded",
     "flat",
     "slide",
-    "follow",
     "button",
     "hover",
     "css"
@@ -37017,7 +37049,7 @@
    "author": "JOBOYA",
    "link": "https://uiverse.io/JOBOYA/tiny-goose-31",
    "path": "uiverse/buttons/tiny-goose-31-by-joboya/",
-   "description": "Pill gray button with rounded corners with a smooth transition.",
+   "description": "Pill gray button with clean lines and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -37047,16 +37079,16 @@
    "author": "JaydipPrajapati1910",
    "link": "https://uiverse.io/JaydipPrajapati1910/tiny-moose-9",
    "path": "uiverse/buttons/tiny-moose-9-by-jaydipprajapati1910/",
-   "description": "Gradient rounded green button with soft shadow and rounded corners and gradient fill.",
+   "description": "Gradient rounded green button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "signup",
     "green",
     "lime",
     "gradient",
     "rounded",
-    "signup",
     "button",
     "sign-up",
     "static"
@@ -37294,9 +37326,9 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "contact",
     "rounded",
     "scale",
-    "contact",
     "buttons",
     "css"
    ],
@@ -37352,7 +37384,7 @@
    "author": "OnCloud125252",
    "link": "https://uiverse.io/OnCloud125252/tough-moth-4",
    "path": "uiverse/buttons/tough-moth-4-by-oncloud125252/",
-   "description": "Dark black sign in button that rotates on hover.",
+   "description": "Black sign in button that rotates on hover.",
    "howItWorks": "On hover, transform becomes translate(calc(50% +  * 0.1), calc((50% +  * 0.1) * -1)) rotate(45deg), text color changes from #ffffff to #000000. On focus, transform becomes translate(calc(50% +  * 0.1), calc((50% +  * 0.1) * -1)) rotate(45deg), text color changes from #ffffff to #000000.",
    "trigger": "hover",
    "needsJs": false,
@@ -37391,11 +37423,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "delete",
     "red",
     "rounded",
     "color-change",
     "expand",
-    "delete",
     "neumorphism",
     "button",
     "hover"
@@ -37458,13 +37490,13 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "menu",
+    "like",
+    "rating",
     "violet",
     "blue",
     "color-change",
     "scale",
-    "menu",
-    "like",
-    "rating",
     "button",
     "checked",
     "css"
@@ -37561,12 +37593,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "red",
     "dark",
     "outlined",
     "color-change",
     "expand",
-    "download",
     "button",
     "hover"
    ],
@@ -37764,11 +37796,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "follow",
     "fuchsia",
     "flat",
     "color-change",
     "fade",
-    "follow",
     "instagram",
     "button",
     "hover"
@@ -37859,14 +37891,14 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "like",
+    "rating",
     "pink",
     "flat",
     "expand",
     "color-change",
     "animated",
     "pulse",
-    "like",
-    "rating",
     "red",
     "button"
    ],
@@ -38001,11 +38033,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "share",
     "outlined",
     "rounded",
     "flat",
     "fade",
-    "share",
     "social",
     "button",
     "hover"
@@ -38131,7 +38163,7 @@
    "link": "https://uiverse.io/nhfiz/unlucky-pug-80",
    "path": "uiverse/buttons/unlucky-pug-80-by-nhfiz/",
    "description": "Dark rounded teal button that starts animating on hover.",
-   "howItWorks": "On hover, transform becomes scale(0.07), starts the shake_341 animation (pulsing), top becomes 5px. On focus, text color changes from #fff to #464646, transform becomes scale(0.07), starts the launch_341 animation (fading).",
+   "howItWorks": "On hover, transform becomes scale(0.07), starts the shake_341 animation (pulsing, sliding), top becomes 5px. On focus, text color changes from #fff to #464646, transform becomes scale(0.07), starts the launch_341 animation (fading).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -38143,8 +38175,8 @@
     "animated",
     "glow",
     "pulse",
-    "fade",
-    "button"
+    "slide",
+    "fade"
    ],
    "colors": [
     "#51eafd",
@@ -38170,13 +38202,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "red",
     "rounded",
     "flat",
     "drop",
     "fade",
     "pulse",
-    "download",
     "download-button",
     "icon",
     "animation"
@@ -38405,11 +38437,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "delete",
     "red",
     "rounded",
     "color-change",
     "scale",
-    "delete",
     "buttons",
     "css"
    ],
@@ -38437,13 +38469,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "close",
     "red",
     "outlined",
     "flat",
     "color-change",
     "animated",
     "fade",
-    "close",
     "button",
     "click-animation",
     "minimal"
@@ -38539,6 +38571,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "blue",
     "rounded",
     "flat",
@@ -38546,7 +38579,6 @@
     "rotate",
     "pulse",
     "spin",
-    "send",
     "send-button",
     "button"
    ],
@@ -38699,7 +38731,7 @@
    "author": "cssbuttons-io",
    "link": "https://uiverse.io/cssbuttons-io/weak-firefox-5",
    "path": "uiverse/buttons/weak-firefox-5-by-cssbuttons-io/",
-   "description": "Gradient dark pill dark sky-blue button that expands on hover.",
+   "description": "Gradient pill dark sky-blue button that expands on hover.",
    "howItWorks": "On hover, width becomes 14em, height becomes 14em.",
    "trigger": "hover",
    "needsJs": false,
@@ -38837,7 +38869,7 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/weak-penguin-24",
    "path": "uiverse/buttons/weak-penguin-24-by-doniaskima/",
-   "description": "Gradient dark rounded black button that reacts on hover.",
+   "description": "Gradient rounded black button that reacts on hover.",
    "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
    "trigger": "hover",
    "needsJs": false,
@@ -38872,16 +38904,18 @@
    "author": "elijahgummer",
    "link": "https://uiverse.io/elijahgummer/weak-rattlesnake-90",
    "path": "uiverse/buttons/weak-rattlesnake-90-by-elijahgummer/",
-   "description": "Pill white button that glows on hover with a smooth transition.",
+   "description": "Pill white social button that glows on hover.",
    "howItWorks": "On hover, shadow grows and background changes and text colour changes.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "github",
+    "social",
     "rounded",
     "pill",
     "glow",
     "color-change",
-    "github",
+    "social-button",
     "buttons",
     "css"
    ],
@@ -38943,10 +38977,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "dark",
     "rounded",
     "flat",
-    "submit",
     "submit-button",
     "simple",
     "black",
@@ -39043,8 +39077,8 @@
    "author": "mrhyddenn",
    "link": "https://uiverse.io/mrhyddenn/wet-cobra-49",
    "path": "uiverse/buttons/wet-cobra-49-by-mrhyddenn/",
-   "description": "Outlined rounded cyan button with fading motion in a loop.",
-   "howItWorks": "It loops a 2s animation (fading).",
+   "description": "Outlined rounded cyan button with sliding motion in a loop.",
+   "howItWorks": "It loops a 2s animation (fading; fading, sliding).",
    "trigger": "auto-loop",
    "needsJs": false,
    "tags": [
@@ -39052,6 +39086,7 @@
     "outlined",
     "rounded",
     "fade",
+    "slide",
     "button",
     "auto-loop",
     "css"
@@ -39107,14 +39142,14 @@
    "author": "Cobp",
    "link": "https://uiverse.io/Cobp/wet-mayfly-67",
    "path": "uiverse/buttons/wet-mayfly-67-by-cobp/",
-   "description": "Outlined rounded gray button with soft shadow and rounded corners.",
+   "description": "Outlined rounded gray button with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "send",
     "outlined",
     "rounded",
-    "send",
     "material-design",
     "3d",
     "button",
@@ -39209,10 +39244,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "amber",
     "flat",
     "color-change",
-    "download",
     "download-button",
     "button",
     "hover",
@@ -39411,13 +39446,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "rounded",
     "glow",
     "color-change",
     "slide",
     "rotate",
-    "send",
     "gray",
     "button",
     "sendmessage"
@@ -39543,7 +39578,7 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/wicked-eagle-30",
    "path": "uiverse/buttons/wicked-eagle-30-by-doniaskima/",
-   "description": "Gradient dark rounded black button that starts animating on hover.",
+   "description": "Gradient rounded black button that starts animating on hover.",
    "howItWorks": "On hover, starts the move-up-alternate animation (bouncing).",
    "trigger": "hover",
    "needsJs": false,
@@ -39647,8 +39682,8 @@
    "trigger": "active",
    "needsJs": false,
    "tags": [
-    "green",
     "submit",
+    "green",
     "submit-button",
     "simple",
     "material-design",
@@ -39683,9 +39718,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "glow",
-    "send",
     "button",
     "challenge",
     "html",
@@ -39715,6 +39750,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "rating",
     "amber",
     "neon",
     "gradient",
@@ -39723,8 +39759,7 @@
     "rounded",
     "glow",
     "color-change",
-    "expand",
-    "slide"
+    "expand"
    ],
    "colors": [
     "#ea8b19",
@@ -39745,7 +39780,7 @@
    "author": "doniaskima",
    "link": "https://uiverse.io/doniaskima/wise-goat-6",
    "path": "uiverse/buttons/wise-goat-6-by-doniaskima/",
-   "description": "Gradient dark black button that starts animating on hover.",
+   "description": "Gradient black button that starts animating on hover.",
    "howItWorks": "On hover, starts the move-up-alternate animation (bouncing).",
    "trigger": "hover",
    "needsJs": false,
@@ -39780,7 +39815,7 @@
    "author": "iZOXVL",
    "link": "https://uiverse.io/iZOXVL/wise-goat-75",
    "path": "uiverse/buttons/wise-goat-75-by-izoxvl/",
-   "description": "Gradient dark rounded black button that scales up on hover.",
+   "description": "Gradient rounded black button that scales up on hover.",
    "howItWorks": "On hover, transform becomes scale(4), border-color becomes #666666, background changes from #1a1a1a to #292929.",
    "trigger": "hover",
    "needsJs": false,
@@ -39879,7 +39914,7 @@
    "author": "JsGrisales",
    "link": "https://uiverse.io/JsGrisales/wise-ladybug-7",
    "path": "uiverse/buttons/wise-ladybug-7-by-jsgrisales/",
-   "description": "Gradient light teal button with gradient fill with a smooth transition.",
+   "description": "Gradient light teal button with clean lines and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -39985,10 +40020,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "pill",
     "scale",
-    "send",
     "buttons",
     "css"
    ],
@@ -40011,7 +40046,7 @@
    "author": "MusKRI",
    "link": "https://uiverse.io/MusKRI/wise-pig-77",
    "path": "uiverse/buttons/wise-pig-77-by-muskri/",
-   "description": "Gradient dark pill black button that responds while pressed down.",
+   "description": "Gradient pill black button that responds while pressed down.",
    "howItWorks": "While pressed, transform becomes scale(13), opacity becomes 1.",
    "trigger": "active",
    "needsJs": false,
@@ -40217,11 +40252,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "profile",
     "cyan",
     "rounded",
     "color-change",
     "fade",
-    "profile",
     "buttons",
     "css"
    ],
@@ -40386,7 +40421,7 @@
    "link": "https://uiverse.io/isfandiyor132/witty-falcon-39",
    "path": "uiverse/buttons/witty-falcon-39-by-isfandiyor132/",
    "description": "Gradient dark gray button that starts animating on hover.",
-   "howItWorks": "On hover, starts the rotate animation (animating).",
+   "howItWorks": "On hover, starts the rotate animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
@@ -40419,21 +40454,21 @@
    "author": "Yaya12085",
    "link": "https://uiverse.io/Yaya12085/witty-firefox-53",
    "path": "uiverse/buttons/witty-firefox-53-by-yaya12085/",
-   "description": "Pill white button that changes colour on hover.",
+   "description": "Pill white social button that changes colour on hover.",
    "howItWorks": "On hover, background-color changes from #000000 to transparent, text color changes from #ffffff to #000000.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "google",
+    "play",
+    "social",
     "rounded",
     "pill",
     "flat",
     "color-change",
-    "google",
-    "play",
+    "social-button",
     "icon",
-    "button",
-    "hover",
-    "dark"
+    "button"
    ],
    "colors": [
     "#ffffff",
@@ -40458,6 +40493,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "pill",
     "slide",
@@ -40465,7 +40501,6 @@
     "lift",
     "glow",
     "shrink",
-    "send",
     "button",
     "simple-button"
    ],
@@ -40833,6 +40868,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "violet",
     "rounded",
     "pill",
@@ -40840,7 +40876,6 @@
     "color-change",
     "animated",
     "bounce",
-    "download",
     "download-button",
     "button"
    ],
@@ -40868,10 +40903,10 @@
    "trigger": "active",
    "needsJs": false,
    "tags": [
+    "send",
     "gradient",
     "outlined",
     "rounded",
-    "send",
     "simple",
     "3d",
     "action",
@@ -40932,7 +40967,7 @@
    "author": "vinodjangid07",
    "link": "https://uiverse.io/vinodjangid07/wonderful-yak-52",
    "path": "uiverse/buttons/wonderful-yak-52-by-vinodjangid07/",
-   "description": "Glass dark rounded black button that rotates on hover.",
+   "description": "Glass rounded black button that rotates on hover.",
    "howItWorks": "On hover, transform becomes rotate(35deg), background-color changes from transparent to #9c9c9c.",
    "trigger": "hover",
    "needsJs": false,
@@ -40966,14 +41001,14 @@
    "author": "Cherie05",
    "link": "https://uiverse.io/Cherie05/yellow-bobcat-58",
    "path": "uiverse/buttons/yellow-bobcat-58-by-cherie05/",
-   "description": "Pill gray button with rounded corners with a smooth transition.",
+   "description": "Pill gray button with clean lines and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "pill",
-    "send",
     "buttons",
     "static",
     "css"
@@ -41032,20 +41067,21 @@
    "author": "EcheverriaJesus",
    "link": "https://uiverse.io/EcheverriaJesus/yellow-dodo-45",
    "path": "uiverse/buttons/yellow-dodo-45-by-echeverriajesus/",
-   "description": "Gradient pill dark sky-blue button that scales up on hover.",
+   "description": "Gradient pill dark sky-blue social button that scales up on hover.",
    "howItWorks": "On hover, it scales and text colour changes and border changes.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "github",
+    "social",
     "blue",
     "gradient",
     "rounded",
     "pill",
     "scale",
     "color-change",
-    "github",
-    "buttons",
-    "css"
+    "social-button",
+    "buttons"
    ],
    "colors": [
     "#1f2937",
@@ -41067,14 +41103,14 @@
    "author": "kandalgaonkarshubham",
    "link": "https://uiverse.io/kandalgaonkarshubham/yellow-dolphin-39",
    "path": "uiverse/buttons/yellow-dolphin-39-by-kandalgaonkarshubham/",
-   "description": "Minimal white button with clean lines with a smooth transition.",
+   "description": "Minimal white button with clean lines and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
    "tags": [
+    "send",
     "minimal",
     "flat",
-    "send",
     "buttons",
     "static",
     "css"
@@ -41104,11 +41140,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "download",
     "violet",
     "rounded",
     "flat",
     "color-change",
-    "download",
     "purple",
     "button",
     "hover"
@@ -41333,7 +41369,7 @@
    "author": "sahilxkhadka",
    "link": "https://uiverse.io/sahilxkhadka/young-dolphin-79",
    "path": "uiverse/buttons/young-dolphin-79-by-sahilxkhadka/",
-   "description": "Gradient dark rounded gray button with soft shadow and rounded corners and gradient fill.",
+   "description": "Gradient dark rounded gray button with soft shadow.",
    "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -41370,11 +41406,11 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "submit",
     "emerald",
     "outlined",
     "rounded",
     "flat",
-    "submit",
     "button",
     "progress-bar",
     "focus"
@@ -41504,6 +41540,8 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "settings",
+    "home",
     "orange",
     "red",
     "outlined",
@@ -41511,8 +41549,6 @@
     "color-change",
     "rotate",
     "expand",
-    "settings",
-    "home",
     "action"
    ],
    "colors": [
@@ -41542,10 +41578,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "send",
     "rounded",
     "glow",
     "rotate",
-    "send",
     "skeuomorphism",
     "animation",
     "email",

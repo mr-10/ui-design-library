@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/cssbuttons-io/purple-gecko-91",
  "trigger": "hover",
  "description": "3d indigo button that starts animating on hover.",
- "howItWorks": "On hover, background-color changes from #FFFFFF to #FFF65B, starts the translateWobble animation (fading).",
+ "howItWorks": "On hover, background-color changes from #FFFFFF to #FFF65B, starts the translateWobble animation (fading, sliding).",
  "tags": [
   "indigo",
   "red",

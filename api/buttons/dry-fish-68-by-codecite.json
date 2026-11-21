@@ -8,12 +8,12 @@
  "description": "Outlined rounded red button that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #fff to #4e484a, height becomes 11%.",
  "tags": [
+  "download",
   "red",
   "outlined",
   "rounded",
   "flat",
-  "color-change",
-  "download"
+  "color-change"
  ],
  "colors": [
   "#ed553b",

@@ -5,8 +5,8 @@
  "author": "asgardOP",
  "source": "https://uiverse.io/asgardOP/ancient-cow-78",
  "trigger": "auto-loop",
- "description": "Outlined rounded indigo loader with animating; growing and shrinking motion in a loop.",
- "howItWorks": "It loops a 1s animation (animating; growing and shrinking).",
+ "description": "Outlined rounded indigo loader with growing and shrinking motion in a loop.",
+ "howItWorks": "It loops a 1s animation (growing and shrinking; moving).",
  "tags": [
   "indigo",
   "outlined",

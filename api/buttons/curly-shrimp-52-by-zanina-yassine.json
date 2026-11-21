@@ -8,10 +8,10 @@
  "description": "Outlined rounded gray button that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: left becomes 2px, left becomes calc(130px + 2px), left becomes calc(130px * 2 + 2px).",
  "tags": [
-  "outlined",
-  "rounded",
   "profile",
   "settings",
+  "outlined",
+  "rounded",
   "minimalist",
   "ios"
  ],

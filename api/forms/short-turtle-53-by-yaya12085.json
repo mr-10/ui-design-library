@@ -8,12 +8,12 @@
  "description": "Outlined pill blue signup form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #4169e1 to #385ac2. On focus, top becomes 30px, font-size becomes 0.7em, font-weight becomes 600.",
  "tags": [
-  "blue",
-  "outlined",
-  "rounded",
-  "pill",
-  "flat",
-  "color-change"
+  "login",
+  "signup",
+  "submit",
+  "password",
+  "email",
+  "blue"
  ],
  "colors": [
   "#4169e1",

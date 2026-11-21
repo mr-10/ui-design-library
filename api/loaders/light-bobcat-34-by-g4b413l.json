@@ -5,7 +5,7 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/light-bobcat-34",
  "trigger": "auto-loop",
- "description": "Pill white loader with pulsing motion in a loop.",
+ "description": "Pill white loader with rotating motion in a loop.",
  "howItWorks": "It loops a animation (pulsing, sliding; rotating).",
  "tags": [
   "rounded",

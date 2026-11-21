@@ -5,8 +5,8 @@
  "author": "KhaledMatalkah",
  "source": "https://uiverse.io/KhaledMatalkah/modern-rattlesnake-33",
  "trigger": "auto-loop",
- "description": "Outlined pill yellow loader with fading motion in a loop.",
- "howItWorks": "It loops a 1.5s animation (fading, pulsing; rotating).",
+ "description": "Outlined pill yellow loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (fading, pulsing, sliding; rotating).",
  "tags": [
   "yellow",
   "outlined",

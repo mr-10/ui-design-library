@@ -8,12 +8,12 @@
  "description": "Dark rounded gray pricing card that starts animating on hover.",
  "howItWorks": "On hover, opacity becomes 1, height becomes 65%, filter becomes blur(7px).",
  "tags": [
+  "pricing",
   "dark",
   "rounded",
   "flat",
   "fade",
-  "animated",
-  "scale"
+  "animated"
  ],
  "colors": [
   "#313131",

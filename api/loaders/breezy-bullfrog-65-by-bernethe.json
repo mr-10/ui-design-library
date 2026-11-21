@@ -5,8 +5,8 @@
  "author": "bernethe",
  "source": "https://uiverse.io/bernethe/breezy-bullfrog-65",
  "trigger": "auto-loop",
- "description": "Pill white loader with animating motion in a loop.",
- "howItWorks": "It loops a 1s animation (animating).",
+ "description": "Pill white loader with moving motion in a loop.",
+ "howItWorks": "It loops a 1s animation (moving).",
  "tags": [
   "rounded",
   "pill",

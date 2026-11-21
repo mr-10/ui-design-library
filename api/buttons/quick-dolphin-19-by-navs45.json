@@ -8,11 +8,11 @@
  "description": "Rounded white button that lifts and glows on hover.",
  "howItWorks": "On hover, background-color changes from #fff to #e0e0e0, transform becomes translateY(-5px), box-shadow becomes -2px 2px 1.3px 1px #7f807f,\n    -5px 5px 2.8px 0px #ffffff, -5px 7px 4.4px 0px #c5c6c5,\n    0px 0px 2.4px 4px #e4e5e4, 0px 10px 20px #000000.",
  "tags": [
+  "send",
   "rounded",
   "lift",
   "glow",
   "color-change",
-  "send",
   "icon"
  ],
  "colors": [

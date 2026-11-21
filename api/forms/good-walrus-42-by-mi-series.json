@@ -8,12 +8,12 @@
  "description": "Neon rounded red form that changes colour on hover.",
  "howItWorks": "On hover, background changes from #EE4E34 to #EE3E34. On focus, box-shadow becomes 0 1px 0 #000000.",
  "tags": [
+  "submit",
+  "phone",
   "red",
   "neon",
   "rounded",
-  "color-change",
-  "submit",
-  "phone"
+  "color-change"
  ],
  "colors": [
   "#fcedda",

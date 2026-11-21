@@ -8,12 +8,12 @@
  "description": "Gradient pill white profile card that glows and scales up on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 10px 50px #23232333, transform becomes translateY(-5%), transform becomes scale(1.1).",
  "tags": [
-  "gradient",
-  "rounded",
-  "pill",
-  "glow",
-  "lift",
-  "scale"
+  "contact",
+  "social",
+  "github",
+  "twitter",
+  "email",
+  "gradient"
  ],
  "colors": [
   "#515f65",

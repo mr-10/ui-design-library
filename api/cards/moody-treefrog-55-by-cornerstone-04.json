@@ -5,7 +5,7 @@
  "author": "Cornerstone-04",
  "source": "https://uiverse.io/Cornerstone-04/moody-treefrog-55",
  "trigger": "hover",
- "description": "3d dark black card that reacts on hover.",
+ "description": "3d black card that reacts on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translateZ(10px) rotateX(20deg) rotateY(20deg), transform becomes translateZ(50px).",
  "tags": [
   "3d",

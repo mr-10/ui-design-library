@@ -8,12 +8,12 @@
  "description": "Outlined rounded sky-blue search input that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.2), transform becomes scale(1). On focus, the outline is removed, border becomes 1.5px solid #1a73e8, transform becomes translateY(-50%) scale(0.8).",
  "tags": [
+  "search",
   "blue",
   "outlined",
   "rounded",
   "flat",
-  "scale",
-  "shrink"
+  "scale"
  ],
  "colors": [
   "#9e9e9e",

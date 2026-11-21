@@ -5,7 +5,7 @@
  "author": "catraco",
  "source": "https://uiverse.io/catraco/proud-otter-3",
  "trigger": "static",
- "description": "Gradient rounded sky-blue card with soft shadow and rounded corners and gradient fill.",
+ "description": "Gradient rounded sky-blue card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "blue",

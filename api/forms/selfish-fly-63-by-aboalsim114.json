@@ -8,12 +8,12 @@
  "description": "Gradient 3d rounded sky-blue login form that glows and scales up on hover.",
  "howItWorks": "On hover, border-color becomes #3b8df2, background-color changes from #3b8df2 to #ffffff, transform becomes scale(1.05) rotateY(20deg). On focus, border-color becomes #3b8df2, background-color changes from #3b8df2 to #ffffff, transform becomes scale(1.05) rotateY(20deg).",
  "tags": [
+  "submit",
   "blue",
   "cyan",
   "gradient",
   "3d",
-  "outlined",
-  "rounded"
+  "outlined"
  ],
  "colors": [
   "#3b8df2",

@@ -8,10 +8,10 @@
  "description": "Rounded sky-blue card that glows on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translate(-2px, -4px), box-shadow becomes 16px 16px 0 , transform becomes translate(.2em, -.2em).",
  "tags": [
+  "rating",
   "blue",
   "rounded",
   "glow",
-  "rating",
   "card",
   "hover"
  ],

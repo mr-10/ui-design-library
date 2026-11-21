@@ -8,12 +8,12 @@
  "description": "Neon rounded light cyan login form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #00a6fd to #0099e9, text color changes from #428bca to #4c9dd0, opacity becomes 1. On focus, box-shadow becomes 0 0 6px 3px #caedff, outline becomes 1px solid #97dbff, border-color becomes #00a6fd.",
  "tags": [
+  "password",
+  "google",
+  "social",
   "cyan",
   "neon",
-  "outlined",
-  "rounded",
-  "color-change",
-  "fade"
+  "outlined"
  ],
  "colors": [
   "#4b4b4b",

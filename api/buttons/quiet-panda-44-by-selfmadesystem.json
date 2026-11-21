@@ -8,11 +8,11 @@
  "description": "Outlined green upload button that reacts on hover.",
  "howItWorks": "On focus, opacity becomes 0, starts the 0 animation.",
  "tags": [
+  "upload",
   "green",
   "blue",
   "outlined",
   "flat",
-  "upload",
   "upload-button"
  ],
  "colors": [

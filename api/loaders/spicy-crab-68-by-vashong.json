@@ -5,15 +5,15 @@
  "author": "VashonG",
  "source": "https://uiverse.io/VashonG/spicy-crab-68",
  "trigger": "auto-loop",
- "description": "3d light blue loader with pulsing motion in a loop.",
- "howItWorks": "It loops a animation (pulsing, rotating; rotating).",
+ "description": "3d light blue loader with rotating motion in a loop.",
+ "howItWorks": "It loops a animation (pulsing, rotating; rotating, sliding).",
  "tags": [
   "blue",
   "3d",
   "flat",
   "pulse",
   "spin",
-  "loader"
+  "slide"
  ],
  "colors": [
   "#99b2ff",

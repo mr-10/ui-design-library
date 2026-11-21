@@ -8,12 +8,12 @@
  "description": "Gradient rounded blue card that glows and scales up on hover.",
  "howItWorks": "On hover, box-shadow becomes 0px 10px 20px #000000, transform becomes scale(1.1) rotate(10deg).",
  "tags": [
+  "save",
   "blue",
   "gradient",
   "rounded",
   "glow",
-  "scale",
-  "rotate"
+  "scale"
  ],
  "colors": [
   "#9198e5",

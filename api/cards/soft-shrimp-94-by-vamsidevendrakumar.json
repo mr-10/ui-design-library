@@ -8,12 +8,12 @@
  "description": "3d rounded purple card that reacts on hover.",
  "howItWorks": "On hover, transform becomes rotateY(180deg).",
  "tags": [
+  "back",
   "purple",
   "orange",
   "3d",
   "rounded",
-  "flat",
-  "back"
+  "flat"
  ],
  "colors": [
   "#6a2c70",

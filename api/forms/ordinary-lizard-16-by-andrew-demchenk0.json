@@ -8,12 +8,12 @@
  "description": "Outlined blue form that slides on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translateX(-20px), background changes from #6d74e3 to #575cb5. On focus, the outline is removed, border becomes 3.5px solid #d8daf7, border becomes 3.5px solid #c2c5f3.",
  "tags": [
+  "submit",
   "blue",
   "outlined",
   "flat",
   "slide",
-  "color-change",
-  "submit"
+  "color-change"
  ],
  "colors": [
   "#6d74e3",

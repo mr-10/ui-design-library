@@ -8,10 +8,10 @@
  "description": "Dark rounded teal card that reacts on hover.",
  "howItWorks": "On hover, height becomes 60px, font-size becomes 2em.",
  "tags": [
+  "back",
   "teal",
   "dark",
   "rounded",
-  "back",
   "card",
   "hover"
  ],

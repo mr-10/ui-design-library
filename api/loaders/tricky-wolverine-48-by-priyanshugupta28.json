@@ -8,11 +8,11 @@
  "description": "3d sky-blue loader with rotating motion in a loop.",
  "howItWorks": "It loops a 3s animation (rotating).",
  "tags": [
+  "back",
   "blue",
   "3d",
   "flat",
   "spin",
-  "back",
   "loader"
  ],
  "colors": [

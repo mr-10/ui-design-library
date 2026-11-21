@@ -8,12 +8,12 @@
  "description": "Gradient cyan login form that lights up when focused.",
  "howItWorks": "On focus, the outline is removed.",
  "tags": [
-  "cyan",
-  "gradient",
-  "flat",
   "login",
   "submit",
-  "password"
+  "password",
+  "email",
+  "cyan",
+  "gradient"
  ],
  "colors": [
   "#00b7ff",

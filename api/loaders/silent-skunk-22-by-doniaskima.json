@@ -5,8 +5,8 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/silent-skunk-22",
  "trigger": "auto-loop",
- "description": "Gradient dark pill yellow loader with animating motion in a loop.",
- "howItWorks": "It loops a .5s animation (animating).",
+ "description": "Gradient dark pill yellow loader with moving motion in a loop.",
+ "howItWorks": "It loops a .5s animation (moving).",
  "tags": [
   "yellow",
   "gradient",

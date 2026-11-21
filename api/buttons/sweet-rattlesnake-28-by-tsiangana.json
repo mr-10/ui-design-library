@@ -8,12 +8,12 @@
  "description": "Gradient pill orange button that fades on hover.",
  "howItWorks": "On hover, width becomes 125px, border-radius becomes 40px, width becomes 30%.",
  "tags": [
+  "delete",
   "orange",
   "red",
   "gradient",
   "rounded",
-  "pill",
-  "expand"
+  "pill"
  ],
  "colors": [
   "#ff8741",

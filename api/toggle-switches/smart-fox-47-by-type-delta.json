@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/Type-Delta/smart-fox-47",
  "trigger": "checked",
  "description": "Gray toggle switch that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: starts the ballTrace_toggleMotionOff9371A animation (fading), starts the ball_toggleMotionOn9371A animation (animating), starts the ball_toggleMotionOff9371 animation (sliding).",
+ "howItWorks": "Clicking it toggles it: starts the ballTrace_toggleMotionOff9371A animation (fading, sliding), starts the ball_toggleMotionOn9371A animation (sliding), starts the ball_toggleMotionOff9371 animation (sliding).",
  "tags": [
   "flat",
   "slide",

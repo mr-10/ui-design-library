@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/Li-Deheng/shy-moth-10",
  "trigger": "hover",
  "description": "Neon rounded pink button that starts animating on hover.",
- "howItWorks": "On hover, starts the btn-content animation (animating), outline becomes 0.1em solid transparent, box-shadow becomes 0 0 0.4em 0 #ff135a. On focus, starts the btn-content animation (animating), outline becomes 0.1em solid transparent, box-shadow becomes 0 0 0.4em 0 #ff135a.",
+ "howItWorks": "On hover, starts the btn-content animation (moving), outline becomes 0.1em solid transparent, box-shadow becomes 0 0 0.4em 0 #ff135a. On focus, starts the btn-content animation (moving), outline becomes 0.1em solid transparent, box-shadow becomes 0 0 0.4em 0 #ff135a.",
  "tags": [
+  "next",
   "pink",
   "neon",
   "rounded",
   "glow",
-  "animated",
-  "slide"
+  "animated"
  ],
  "colors": [
   "#ff135a",

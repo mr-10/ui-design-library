@@ -5,15 +5,15 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/hard-turkey-58",
  "trigger": "hover",
- "description": "Gradient dark pill black button that rotates on hover.",
+ "description": "Gradient pill black button that rotates on hover.",
  "howItWorks": "On hover, filter becomes drop-shadow(0 10px 20px #323232)\n    drop-shadow(0 0 20px #020202), transform becomes rotate(-35deg).",
  "tags": [
+  "signup",
   "gradient",
   "dark",
   "rounded",
   "pill",
-  "rotate",
-  "signup"
+  "rotate"
  ],
  "colors": [
   "#292929",

@@ -5,15 +5,15 @@
  "author": "TanimMahbub",
  "source": "https://uiverse.io/TanimMahbub/white-fly-43",
  "trigger": "hover",
- "description": "Dark amber tooltip that fades on hover with a smooth transition.",
+ "description": "Dark amber tooltip with arrow that fades on hover.",
  "howItWorks": "On hover, opacity becomes 1, transform becomes translateY(0), bottom becomes calc(100% + 6px).",
  "tags": [
+  "github",
+  "social",
   "amber",
   "dark",
   "flat",
-  "drop",
-  "fade",
-  "github"
+  "drop"
  ],
  "colors": [
   "#191919",

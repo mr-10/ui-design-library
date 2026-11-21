@@ -5,15 +5,15 @@
  "author": "EcheverriaJesus",
  "source": "https://uiverse.io/EcheverriaJesus/yellow-dodo-45",
  "trigger": "hover",
- "description": "Gradient pill dark sky-blue button that scales up on hover.",
+ "description": "Gradient pill dark sky-blue social button that scales up on hover.",
  "howItWorks": "On hover, it scales and text colour changes and border changes.",
  "tags": [
+  "github",
+  "social",
   "blue",
   "gradient",
   "rounded",
-  "pill",
-  "scale",
-  "color-change"
+  "pill"
  ],
  "colors": [
   "#1f2937",

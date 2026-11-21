@@ -8,12 +8,12 @@
  "description": "Sky-blue tooltip that glows and scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.05), background changes from #fff to #0056b3, text color changes from #007bff to #fff.",
  "tags": [
+  "pricing",
   "blue",
   "scale",
   "glow",
   "color-change",
-  "shrink",
-  "pricing"
+  "shrink"
  ],
  "colors": [
   "#007bff",

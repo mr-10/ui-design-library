@@ -8,10 +8,10 @@
  "description": "Rounded black login form that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, a ring appears.",
  "tags": [
+  "password",
   "rounded",
   "ring",
   "color-change",
-  "password",
   "login-form",
   "forms"
  ],

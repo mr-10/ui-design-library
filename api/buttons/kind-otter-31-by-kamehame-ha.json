@@ -5,7 +5,7 @@
  "author": "kamehame-ha",
  "source": "https://uiverse.io/kamehame-ha/kind-otter-31",
  "trigger": "hover",
- "description": "Dark black button that changes colour on hover.",
+ "description": "Black button that changes colour on hover with a smooth transition.",
  "howItWorks": "On hover, background-color changes from #181717 to transparent, text color changes from #ffffff to #181717.",
  "tags": [
   "dark",

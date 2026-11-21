@@ -5,15 +5,15 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/sharp-quail-80",
  "trigger": "hover",
- "description": "Rounded white button that scales up on hover.",
+ "description": "Rounded white social button that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.02).",
  "tags": [
+  "google",
+  "social",
   "rounded",
   "flat",
   "scale",
-  "google",
-  "button",
-  "input"
+  "social-button"
  ],
  "colors": [
   "#413f3f",

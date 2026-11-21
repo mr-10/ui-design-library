@@ -5,7 +5,7 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/selfish-puma-67",
  "trigger": "static",
- "description": "Purple button with clean lines with a smooth transition.",
+ "description": "Purple button with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
   "purple",

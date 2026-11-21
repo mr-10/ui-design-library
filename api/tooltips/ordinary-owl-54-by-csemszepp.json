@@ -8,12 +8,12 @@
  "description": "Outlined rounded dark sky-blue tooltip that changes colour on hover.",
  "howItWorks": "On hover, width becomes 142px, background-color changes from #53647c to #22344d. On focus, width becomes 142px, background-color changes from #53647c to #22344d, outline becomes 1px solid #22344d.",
  "tags": [
+  "download",
   "blue",
   "outlined",
   "rounded",
   "flat",
-  "color-change",
-  "expand"
+  "color-change"
  ],
  "colors": [
   "#53647c",

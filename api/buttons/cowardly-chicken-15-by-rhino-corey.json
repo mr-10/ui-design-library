@@ -5,7 +5,7 @@
  "author": "rhino-corey",
  "source": "https://uiverse.io/rhino-corey/cowardly-chicken-15",
  "trigger": "hover",
- "description": "Gradient dark black button that reacts on hover.",
+ "description": "Gradient black button that reacts on hover with a smooth transition.",
  "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
   "gradient",

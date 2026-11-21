@@ -5,7 +5,7 @@
  "author": "PriyanshuGupta28",
  "source": "https://uiverse.io/PriyanshuGupta28/cuddly-gecko-29",
  "trigger": "static",
- "description": "Gradient rounded blue card with soft shadow and rounded corners and gradient fill.",
+ "description": "Gradient rounded blue card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "blue",

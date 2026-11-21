@@ -8,9 +8,9 @@
  "description": "Rounded white text input that lights up when focused.",
  "howItWorks": "On focus, shadow grows.",
  "tags": [
+  "email",
   "rounded",
   "glow",
-  "email",
   "text-input",
   "inputs",
   "focus"

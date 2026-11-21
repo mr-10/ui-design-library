@@ -8,12 +8,12 @@
  "description": "Gradient rounded teal card that fades on hover.",
  "howItWorks": "On hover, opacity becomes 0.8, transform becomes scale(0.9).",
  "tags": [
+  "add",
+  "rating",
   "teal",
   "gradient",
   "rounded",
-  "flat",
-  "shrink",
-  "fade"
+  "flat"
  ],
  "colors": [
   "#f9f9f9",

@@ -8,9 +8,9 @@
  "description": "Rounded light sky-blue text input that lights up when focused.",
  "howItWorks": "On focus, background changes from #ffffff to #f2f2f2, border becomes 1px solid #5a7ec7, border-radius becomes 10px.",
  "tags": [
+  "search",
   "blue",
   "rounded",
-  "search",
   "text-input",
   "input",
   "light"

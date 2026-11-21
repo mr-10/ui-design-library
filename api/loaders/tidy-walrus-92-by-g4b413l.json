@@ -5,7 +5,7 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/tidy-walrus-92",
  "trigger": "auto-loop",
- "description": "Pill indigo dots loader with bouncing motion in a loop.",
+ "description": "Pill indigo dots loader with rotating motion in a loop.",
  "howItWorks": "It loops a animation (bouncing, fading, pulsing; rotating).",
  "tags": [
   "indigo",

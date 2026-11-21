@@ -8,12 +8,12 @@
  "description": "3d rounded white pricing card that slides on hover.",
  "howItWorks": "On hover, background-color changes from #000000 to limegreen, width becomes 12.5em, height becomes 23em.",
  "tags": [
+  "pricing",
+  "cart",
+  "add",
   "3d",
   "rounded",
-  "color-change",
-  "drop",
-  "expand",
-  "slide"
+  "color-change"
  ],
  "colors": [
   "#ffffff",

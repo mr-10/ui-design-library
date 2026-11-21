@@ -8,12 +8,12 @@
  "description": "Gradient 3d dark rounded red button that responds while pressed down.",
  "howItWorks": "While pressed, transform becomes scale(0.93).",
  "tags": [
+  "signup",
   "red",
   "indigo",
   "gradient",
   "3d",
-  "dark",
-  "rounded"
+  "dark"
  ],
  "colors": [
   "#2b3044",

@@ -5,7 +5,7 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/tall-monkey-16",
  "trigger": "static",
- "description": "White spinner loader with clean lines with a smooth transition.",
+ "description": "White spinner loader with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the spinner loader is a fixed design.",
  "tags": [
   "flat",

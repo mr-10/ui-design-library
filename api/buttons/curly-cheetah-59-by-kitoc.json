@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/KitoC/curly-cheetah-59",
  "trigger": "hover",
  "description": "Neon pill orange button that starts animating on hover.",
- "howItWorks": "On hover, border becomes 2px solid #f27a2a, starts the alert animation (animating), z-index becomes 100. On focus, z-index becomes 100, starts the engine-start animation (pulsing), starts the descend animation (pulsing).",
+ "howItWorks": "On hover, border becomes 2px solid #f27a2a, starts the alert animation (moving), z-index becomes 100. On focus, z-index becomes 100, starts the engine-start animation (pulsing), starts the descend animation (pulsing).",
  "tags": [
   "orange",
   "neon",

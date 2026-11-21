@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/SantiagoBoS/wet-fish-33",
  "trigger": "hover",
  "description": "Rounded gray card that starts animating on hover.",
- "howItWorks": "On hover, width becomes 190px, height becomes 254px, background changes from #000000 to #ffffff. On focus, starts the cardAnimacion animation (animating), box-shadow becomes 0 0 0 0.8em #ffffff, border-radius becomes 20px.",
+ "howItWorks": "On hover, width becomes 190px, height becomes 254px, background changes from #000000 to #ffffff. On focus, starts the cardAnimacion animation (moving), box-shadow becomes 0 0 0 0.8em #ffffff, border-radius becomes 20px.",
  "tags": [
   "rounded",
   "color-change",

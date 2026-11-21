@@ -8,12 +8,12 @@
  "description": "Outlined rounded green form that lights up when focused.",
  "howItWorks": "On focus, the outline is removed, top becomes -20px, font-size becomes 14px.",
  "tags": [
-  "green",
-  "outlined",
-  "rounded",
-  "flat",
   "login",
-  "submit"
+  "submit",
+  "password",
+  "email",
+  "green",
+  "outlined"
  ],
  "colors": [
   "#42ff1c",

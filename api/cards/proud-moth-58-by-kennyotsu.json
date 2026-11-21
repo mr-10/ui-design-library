@@ -8,10 +8,10 @@
  "description": "Rounded white card that changes colour on hover.",
  "howItWorks": "On hover, text colour changes.",
  "tags": [
-  "rounded",
-  "color-change",
   "share",
   "follow",
+  "rounded",
+  "color-change",
   "cards",
   "css"
  ],

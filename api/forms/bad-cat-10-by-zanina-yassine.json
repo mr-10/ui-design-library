@@ -8,12 +8,12 @@
  "description": "Gradient rounded white form that changes colour on hover.",
  "howItWorks": "On hover, left becomes 2px, left becomes calc(50% - 2px), background-color changes from transparent to #07b90d.",
  "tags": [
+  "pricing",
+  "social",
   "gradient",
   "outlined",
   "rounded",
-  "color-change",
-  "pricing",
-  "social"
+  "color-change"
  ],
  "colors": [
   "#2b2b2f",

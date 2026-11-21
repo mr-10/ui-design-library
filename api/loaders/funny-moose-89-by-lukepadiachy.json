@@ -8,12 +8,12 @@
  "description": "3d orange cube loader with rotating motion in a loop.",
  "howItWorks": "It loops a 5s animation (rotating).",
  "tags": [
+  "back",
   "orange",
   "green",
   "3d",
   "outlined",
-  "flat",
-  "spin"
+  "flat"
  ],
  "colors": [
   "#ff3d00",

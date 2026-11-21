@@ -5,8 +5,8 @@
  "author": "sahilxkhadka",
  "source": "https://uiverse.io/sahilxkhadka/hot-octopus-44",
  "trigger": "auto-loop",
- "description": "Rounded blue card with animating motion in a loop.",
- "howItWorks": "It loops a 1.8s animation (animating).",
+ "description": "Rounded blue card with moving motion in a loop.",
+ "howItWorks": "It loops a 1.8s animation (moving).",
  "tags": [
   "blue",
   "rounded",

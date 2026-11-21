@@ -5,7 +5,7 @@
  "author": "SouravBandyopadhyay",
  "source": "https://uiverse.io/SouravBandyopadhyay/rude-sloth-38",
  "trigger": "auto-loop",
- "description": "3d pill gray loader with fading; growing and shrinking; rotating motion in a loop.",
+ "description": "3d pill gray loader with rotating motion in a loop.",
  "howItWorks": "It loops a 2s animation (fading; growing and shrinking; rotating).",
  "tags": [
   "3d",

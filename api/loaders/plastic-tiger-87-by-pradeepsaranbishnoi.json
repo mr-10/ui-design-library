@@ -5,8 +5,8 @@
  "author": "Pradeepsaranbishnoi",
  "source": "https://uiverse.io/Pradeepsaranbishnoi/plastic-tiger-87",
  "trigger": "auto-loop",
- "description": "3d dark sky-blue cube loader with pulsing motion in a loop.",
- "howItWorks": "It loops a animation (pulsing, rotating).",
+ "description": "3d dark sky-blue cube loader with rotating motion in a loop.",
+ "howItWorks": "It loops a animation (pulsing, rotating, sliding).",
  "tags": [
   "blue",
   "cyan",

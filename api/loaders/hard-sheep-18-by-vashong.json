@@ -8,12 +8,12 @@
  "description": "Dark pill sky-blue spinner loader that fades on hover.",
  "howItWorks": "On hover, border-color becomes #fff, border-color becomes #ffffff, opacity becomes 0.4.",
  "tags": [
+  "like",
   "blue",
   "cyan",
   "dark",
   "outlined",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#222222",

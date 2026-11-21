@@ -5,14 +5,14 @@
  "author": "Manish-Tamang",
  "source": "https://uiverse.io/Manish-Tamang/empty-firefox-58",
  "trigger": "static",
- "description": "Pill red pricing card with rounded corners with a smooth transition.",
+ "description": "Pill red pricing card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the pricing card is a fixed design.",
  "tags": [
+  "next",
   "red",
   "green",
   "rounded",
   "pill",
-  "next",
   "pricing-card"
  ],
  "colors": [

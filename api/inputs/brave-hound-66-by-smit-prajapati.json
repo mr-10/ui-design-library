@@ -8,11 +8,11 @@
  "description": "Gradient pill light sky-blue text input that reacts on hover.",
  "howItWorks": "On hover, border-left becomes 3px solid #ffffff. On focus, the outline is removed, background changes from linear-gradient(135deg, #dae8f7 0%, #d6e5f7 100%) to linear-gradient(135deg, #eff7ff 0%, #d6e5f7 100%).",
  "tags": [
+  "search",
   "blue",
   "gradient",
   "rounded",
   "pill",
-  "search",
   "text-input"
  ],
  "colors": [

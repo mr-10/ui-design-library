@@ -8,10 +8,10 @@
  "description": "Gradient rounded gray button that responds while pressed down.",
  "howItWorks": "While pressed, box-shadow becomes none, transform becomes translateY(3px).",
  "tags": [
+  "send",
   "gradient",
   "outlined",
   "rounded",
-  "send",
   "button",
   "message"
  ],

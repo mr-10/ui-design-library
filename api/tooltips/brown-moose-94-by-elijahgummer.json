@@ -5,15 +5,15 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/brown-moose-94",
  "trigger": "hover",
- "description": "Green tooltip that fades on hover with a smooth transition.",
+ "description": "Green tooltip with arrow that fades on hover.",
  "howItWorks": "On hover, opacity becomes 1.",
  "tags": [
   "green",
   "flat",
   "fade",
-  "simple",
-  "tooltip",
-  "minimalist"
+  "tooltip-with-arrow",
+  "arrow",
+  "simple"
  ],
  "colors": [
   "#6e7681",

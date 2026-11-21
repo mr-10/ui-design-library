@@ -8,10 +8,10 @@
  "description": "Dark rounded red button that responds while pressed down.",
  "howItWorks": "While pressed, box-shadow becomes #000000 0px 0px 0px, inset 0.5px 0.5px 4px #000000,\n    #c7c3c0 -3.2px -3.2px 8px 0px inset, scale becomes 0.95, box-shadow becomes #000000 0px 0px 0px, inset 0.5px 0.5px 4px #000000,\n    #d42a02 -3.2px -3.2px 8px 0px inset.",
  "tags": [
+  "play",
   "red",
   "dark",
   "rounded",
-  "play",
   "neumorphism",
   "button"
  ],

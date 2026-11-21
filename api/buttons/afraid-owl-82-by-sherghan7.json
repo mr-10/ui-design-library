@@ -5,7 +5,7 @@
  "author": "sherghan7",
  "source": "https://uiverse.io/sherghan7/afraid-owl-82",
  "trigger": "hover",
- "description": "Dark black button that glows on hover with a smooth transition.",
+ "description": "Black button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, box-shadow becomes #EEEEEE 0px 0px 0px 11px, #161616 0px 0px 0px 10px, background changes from #000 to #000, text color changes from #EEEEEE to #EEEEEE.",
  "tags": [
   "dark",

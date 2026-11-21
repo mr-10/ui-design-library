@@ -5,7 +5,7 @@
  "author": "Tsiangana",
  "source": "https://uiverse.io/Tsiangana/brave-kangaroo-28",
  "trigger": "hover",
- "description": "3d dark pill dark cyan card that starts animating on hover.",
+ "description": "3d pill dark cyan card that starts animating on hover.",
  "howItWorks": "On hover, width becomes 120px, background-color changes from #fff to #0e3746, text color changes from #fff to #fff.",
  "tags": [
   "cyan",

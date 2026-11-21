@@ -8,12 +8,12 @@
  "description": "Dark red button that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #fff to #0f1923, width becomes calc(100% + 15px), background-color changes from #ff4655 to #fff. On focus, the outline is removed.",
  "tags": [
+  "download",
   "red",
   "dark",
   "outlined",
   "color-change",
-  "expand",
-  "download"
+  "expand"
  ],
  "colors": [
   "#0f1923",

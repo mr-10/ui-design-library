@@ -5,8 +5,8 @@
  "author": "akshat-patel28",
  "source": "https://uiverse.io/akshat-patel28/tender-dolphin-38",
  "trigger": "auto-loop",
- "description": "Outlined pill teal file input with animating; fading motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; fading).",
+ "description": "Outlined pill teal file input with fading motion in a loop.",
+ "howItWorks": "It loops a 2s animation (fading; moving).",
  "tags": [
   "teal",
   "outlined",

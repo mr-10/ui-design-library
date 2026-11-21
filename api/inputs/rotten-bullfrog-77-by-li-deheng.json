@@ -8,10 +8,10 @@
  "description": "Outlined gray text input that changes colour on hover.",
  "howItWorks": "On hover, border-color becomes #999999, background changes from transparent to #808080, opacity becomes .8. On focus, text color changes from #cccccc to transparent.",
  "tags": [
+  "search",
   "outlined",
   "color-change",
   "fade",
-  "search",
   "text-input",
   "input"
  ],

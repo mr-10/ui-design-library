@@ -8,12 +8,12 @@
  "description": "Neon gradient pill sky-blue download button that starts animating on hover.",
  "howItWorks": "On hover, width becomes 50px, height becomes 50px, border-radius becomes 50%.",
  "tags": [
+  "download",
   "blue",
   "teal",
   "neon",
   "gradient",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#2f5dc5",

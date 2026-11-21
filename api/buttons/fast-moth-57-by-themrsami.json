@@ -8,9 +8,9 @@
  "description": "Rounded white submit button that changes colour on hover.",
  "howItWorks": "On hover, background changes and text colour changes. On focus, text colour changes and background changes.",
  "tags": [
+  "submit",
   "rounded",
   "color-change",
-  "submit",
   "submit-button",
   "buttons",
   "css"

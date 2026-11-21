@@ -5,15 +5,15 @@
  "author": "fanishah",
  "source": "https://uiverse.io/fanishah/fat-dodo-89",
  "trigger": "auto-loop",
- "description": "White loader with animating; pulsing; pulsing motion in a loop.",
- "howItWorks": "It loops a 3s animation (animating; pulsing; pulsing, rotating).",
+ "description": "White loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 3s animation (moving; pulsing; pulsing, rotating, sliding).",
  "tags": [
   "flat",
   "pulse",
   "spin",
+  "slide",
   "loading",
-  "loader",
-  "auto-loop"
+  "loader"
  ],
  "colors": [
   "#ffffff",

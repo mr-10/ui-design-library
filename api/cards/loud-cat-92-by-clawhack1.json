@@ -8,12 +8,12 @@
  "description": "Rounded sky-blue login card that glows on hover.",
  "howItWorks": "On hover, background-color changes from #007bff to #0069d9, background-color changes from #007bff to #0069d9e7, box-shadow becomes 0px 0px 30px 0px #0069d9. On focus, box-shadow becomes inset 0px 2px 5px #000000, the outline is removed.",
  "tags": [
+  "login",
+  "password",
   "blue",
   "rounded",
   "color-change",
-  "glow",
-  "login",
-  "password"
+  "glow"
  ],
  "colors": [
   "#0069d9",

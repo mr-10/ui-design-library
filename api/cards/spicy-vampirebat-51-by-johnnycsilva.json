@@ -8,10 +8,10 @@
  "description": "Rounded orange card that glows on hover with a smooth transition.",
  "howItWorks": "On hover, box-shadow becomes 0 5px 10px #000000.",
  "tags": [
+  "save",
   "orange",
   "rounded",
   "glow",
-  "save",
   "card",
   "card-template"
  ],

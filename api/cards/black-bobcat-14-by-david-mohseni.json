@@ -8,9 +8,9 @@
  "description": "Gradient 3d gray card that reacts on hover.",
  "howItWorks": "On hover, transform becomes rotateY(180deg).",
  "tags": [
+  "back",
   "gradient",
   "3d",
-  "back",
   "card",
   "hover",
   "css"

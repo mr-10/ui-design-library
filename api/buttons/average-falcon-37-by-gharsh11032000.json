@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/gharsh11032000/average-falcon-37",
  "trigger": "hover",
  "description": "Dark pill gray button that starts animating on hover.",
- "howItWorks": "On hover, starts the shakeBack animation (rotating), scale becomes 1.2, box-shadow becomes none.",
+ "howItWorks": "On hover, starts the shakeBack animation (rotating, sliding), scale becomes 1.2, box-shadow becomes none.",
  "tags": [
   "dark",
   "rounded",

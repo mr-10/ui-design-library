@@ -8,12 +8,12 @@
  "description": "Gradient dark pill sky-blue button that rotates on hover.",
  "howItWorks": "On hover, transform becomes rotate(-105deg), transform becomes scale(0.62), top becomes calc(5px * /2).",
  "tags": [
+  "rating",
   "blue",
   "gradient",
   "dark",
   "outlined",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#0e6cb9",

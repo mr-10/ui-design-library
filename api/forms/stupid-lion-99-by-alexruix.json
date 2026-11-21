@@ -8,12 +8,12 @@
  "description": "Dark rounded indigo login form that toggles on and off when clicked.",
  "howItWorks": "On hover, background-color changes from #240046 to #6d44b8. Clicking it toggles it: transform becomes translateY(-60%), transform becomes scale(1), margin becomes 10% 0 5%.",
  "tags": [
+  "login",
+  "signup",
   "indigo",
   "dark",
   "rounded",
-  "color-change",
-  "login",
-  "signup"
+  "color-change"
  ],
  "colors": [
   "#240046",

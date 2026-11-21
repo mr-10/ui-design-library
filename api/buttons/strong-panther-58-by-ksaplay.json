@@ -8,12 +8,12 @@
  "description": "Gradient rounded white play button that starts animating on hover.",
  "howItWorks": "On hover, transform becomes scale(1.1), opacity becomes .5, starts the turn_4810 animation (rotating).",
  "tags": [
+  "play",
   "gradient",
   "rounded",
   "flat",
   "scale",
-  "fade",
-  "animated"
+  "fade"
  ],
  "colors": [
   "#ffffff",

@@ -5,7 +5,7 @@
  "author": "escannord",
  "source": "https://uiverse.io/escannord/lovely-panther-66",
  "trigger": "static",
- "description": "Outlined white card with soft shadow with a smooth transition.",
+ "description": "Outlined white card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "outlined",

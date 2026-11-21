@@ -5,15 +5,15 @@
  "author": "vladaxinte",
  "source": "https://uiverse.io/vladaxinte/black-mouse-53",
  "trigger": "static",
- "description": "Gradient white card with gradient fill with a smooth transition.",
+ "description": "Gradient white card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "twitter",
+  "social",
   "gradient",
   "outlined",
   "flat",
-  "twitter",
-  "social-media",
-  "logo"
+  "social-media"
  ],
  "colors": [
   "#ffffff",

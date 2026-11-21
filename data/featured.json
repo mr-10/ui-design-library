@@ -1,5 +1,5 @@
 {
- "version": "ad0a23a75570",
+ "version": "b0d13fd04e73",
  "elements": [
   {
    "id": "young-newt-20-by-dexter-st",
@@ -43,7 +43,7 @@
    "author": "abrahamcalsin",
    "link": "https://uiverse.io/abrahamcalsin/serious-turkey-52",
    "path": "uiverse/loaders/serious-turkey-52-by-abrahamcalsin/",
-   "description": "Pill dark sky-blue spinner loader with fading motion in a loop.",
+   "description": "Pill dark sky-blue spinner loader with pulsing motion in a loop.",
    "howItWorks": "It loops a animation (fading, pulsing).",
    "trigger": "auto-loop",
    "needsJs": false,
@@ -82,16 +82,16 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
+    "password",
+    "google",
+    "email",
+    "social",
     "blue",
     "dark",
     "outlined",
     "rounded",
-    "flat",
-    "color-change",
-    "submit",
-    "password",
-    "google",
-    "email"
+    "flat"
    ],
    "colors": [
     "#2d79f3",
@@ -153,8 +153,8 @@
    "author": "Nawsome",
    "link": "https://uiverse.io/Nawsome/wet-mayfly-23",
    "path": "uiverse/loaders/wet-mayfly-23-by-nawsome/",
-   "description": "Gradient 3d pill light amber loader with pulsing; rotating motion in a loop.",
-   "howItWorks": "It loops a animation (pulsing; rotating).",
+   "description": "Gradient 3d pill light amber loader with rotating motion in a loop.",
+   "howItWorks": "It loops a animation (pulsing; rotating; rotating, sliding).",
    "trigger": "auto-loop",
    "needsJs": false,
    "tags": [
@@ -164,10 +164,10 @@
     "rounded",
     "pill",
     "spin",
+    "slide",
     "pulse",
     "loader",
-    "hamster",
-    "wheel"
+    "hamster"
    ],
    "colors": [
     "#999999",
@@ -261,16 +261,16 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "social",
+    "facebook",
+    "twitter",
+    "share",
     "blue",
     "violet",
     "neon",
     "glassmorphism",
     "gradient",
-    "dark",
-    "rounded",
-    "pill",
-    "fade",
-    "shrink"
+    "dark"
    ],
    "colors": [
     "#6e8efb",
@@ -299,10 +299,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
-    "color-change",
-    "expand",
     "google",
     "github",
+    "social",
+    "color-change",
+    "expand",
     "form",
     "login-form",
     "sign-up-form",

@@ -8,12 +8,12 @@
  "description": "Gradient rounded amber card that starts animating on hover.",
  "howItWorks": "On hover, background changes to linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%), filter becomes progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ), starts the bounce_613 animation (pulsing).",
  "tags": [
+  "social",
+  "twitter",
   "amber",
   "orange",
   "gradient",
-  "rounded",
-  "flat",
-  "color-change"
+  "rounded"
  ],
  "colors": [
   "#f09433",

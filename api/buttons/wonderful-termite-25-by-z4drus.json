@@ -8,10 +8,10 @@
  "description": "Gradient rounded black button that responds while pressed down.",
  "howItWorks": "While pressed, border-radius becomes 10px 10px 8px 8px / 8px, transform becomes translateY(2px).",
  "tags": [
+  "send",
   "gradient",
   "outlined",
   "rounded",
-  "send",
   "simple",
   "3d"
  ],

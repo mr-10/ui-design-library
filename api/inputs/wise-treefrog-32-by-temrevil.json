@@ -8,12 +8,12 @@
  "description": "Dark rounded indigo text input that glows on hover.",
  "howItWorks": "On hover, background changes from #14213d to #dfe7fd, box-shadow becomes -100px -40px 100px 30px #2d00f75b, 60px 40px 100px 5px #db00b65b,\n    inset 40px 20px 1000px -150px #f20089,\n    inset -40px -20px 1000px -160px #2d00f7. On focus, background changes from #14213d to #dfe7fd, box-shadow becomes -100px -40px 100px 30px #2d00f75b, 60px 40px 100px 5px #db00b65b,\n    inset 40px 20px 1000px -150px #f20089,\n    inset -40px -20px 1000px -160px #2d00f7.",
  "tags": [
+  "search",
   "indigo",
   "blue",
   "dark",
   "rounded",
-  "glow",
-  "color-change"
+  "glow"
  ],
  "colors": [
   "#2d00f7",

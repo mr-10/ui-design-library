@@ -5,15 +5,15 @@
  "author": "OMPRABHU8125",
  "source": "https://uiverse.io/OMPRABHU8125/nice-sheep-25",
  "trigger": "auto-loop",
- "description": "Gradient dark pill teal loader with animating; pulsing motion in a loop.",
- "howItWorks": "It loops a 3s animation (animating; pulsing, rotating).",
+ "description": "Gradient dark pill teal loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 3s animation (moving; pulsing, rotating).",
  "tags": [
+  "rating",
   "teal",
   "blue",
   "gradient",
   "dark",
-  "outlined",
-  "rounded"
+  "outlined"
  ],
  "colors": [
   "#00ffff",

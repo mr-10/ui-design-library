@@ -5,8 +5,8 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/brown-dragon-7",
  "trigger": "auto-loop",
- "description": "Neon green loader with animating; pulsing motion in a loop.",
- "howItWorks": "It loops a 3s animation (animating; pulsing).",
+ "description": "Neon green loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a 3s animation (moving; pulsing).",
  "tags": [
   "green",
   "neon",

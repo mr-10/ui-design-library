@@ -5,7 +5,7 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/tall-goose-27",
  "trigger": "static",
- "description": "Outlined pill light cyan card with soft shadow and rounded corners.",
+ "description": "Outlined pill light cyan card with soft shadow.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "cyan",

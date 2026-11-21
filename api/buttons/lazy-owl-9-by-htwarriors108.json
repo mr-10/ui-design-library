@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/htwarriors108/lazy-owl-9",
  "trigger": "hover",
  "description": "Gradient dark rounded teal button that starts animating on hover.",
- "howItWorks": "On hover, scale becomes 1.15, starts the animate animation (animating), transform becomes translateY(-15px).",
+ "howItWorks": "On hover, scale becomes 1.15, starts the animate animation (moving), transform becomes translateY(-15px).",
  "tags": [
   "teal",
   "yellow",

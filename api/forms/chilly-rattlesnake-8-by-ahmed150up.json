@@ -8,12 +8,12 @@
  "description": "Dark white form that glows on hover with a smooth transition.",
  "howItWorks": "On hover, background-color changes from #333 to #ffffff, text color changes from #fff to #000000, box-shadow becomes 0 4px 18px 0 #000000.",
  "tags": [
+  "send",
+  "chat",
   "dark",
   "outlined",
   "glow",
-  "color-change",
-  "send",
-  "chat"
+  "color-change"
  ],
  "colors": [
   "#333333",

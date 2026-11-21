@@ -8,12 +8,12 @@
  "description": "Outlined rounded light pink button that lifts and glows on hover.",
  "howItWorks": "On hover, font-size becomes 1.2em, transform becomes translateX(6px), box-shadow becomes 10px 10px 40px #d1d1d1.",
  "tags": [
+  "next",
   "pink",
   "outlined",
   "rounded",
   "slide",
-  "lift",
-  "glow"
+  "lift"
  ],
  "colors": [
   "#f2bed1",

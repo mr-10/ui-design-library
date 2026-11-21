@@ -5,13 +5,13 @@
  "author": "WrongCodeU",
  "source": "https://uiverse.io/WrongCodeU/fast-bulldog-65",
  "trigger": "static",
- "description": "Rounded sky-blue pricing card with soft shadow and rounded corners.",
+ "description": "Rounded sky-blue pricing card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the pricing card is a fixed design.",
  "tags": [
+  "pricing",
   "blue",
   "cyan",
   "rounded",
-  "pricing",
   "pricing-card",
   "subscription"
  ],

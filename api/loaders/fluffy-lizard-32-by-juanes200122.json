@@ -5,15 +5,15 @@
  "author": "Juanes200122",
  "source": "https://uiverse.io/Juanes200122/fluffy-lizard-32",
  "trigger": "auto-loop",
- "description": "White loader with animating; bouncing; fading motion in a loop.",
- "howItWorks": "It loops a 4s animation (animating; bouncing; fading).",
+ "description": "White loader with bouncing motion in a loop.",
+ "howItWorks": "It loops a 4s animation (bouncing; fading; fading, pulsing; moving).",
  "tags": [
   "flat",
   "fade",
+  "pulse",
   "bounce",
   "3d",
-  "loader",
-  "svg"
+  "loader"
  ],
  "colors": [
   "#ffffff",

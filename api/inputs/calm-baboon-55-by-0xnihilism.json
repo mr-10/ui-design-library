@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/0xnihilism/calm-baboon-55",
  "trigger": "focus",
  "description": "Gradient dark sky-blue text input that lights up when focused.",
- "howItWorks": "On focus, starts the focus-pulse animation (animating), top becomes -2px, left becomes -2px.",
+ "howItWorks": "On focus, starts the focus-pulse animation (moving), top becomes -2px, left becomes -2px.",
  "tags": [
   "blue",
   "gradient",
   "dark",
+  "slide",
   "shimmer",
-  "text-input",
-  "simple"
+  "text-input"
  ],
  "colors": [
   "#4a90e2",

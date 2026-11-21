@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/TemRevil/shaggy-donkey-83",
  "trigger": "hover",
  "description": "Outlined pill dark sky-blue button that starts animating on hover.",
- "howItWorks": "On hover, text color changes from #124 to #fff, starts the b-a animation (animating), starts the cir-1-border animation (animating).",
+ "howItWorks": "On hover, text color changes from #124 to #fff, starts the b-a animation (moving), starts the cir-1-border animation (moving).",
  "tags": [
   "blue",
   "outlined",

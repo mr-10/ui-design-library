@@ -5,15 +5,15 @@
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/fat-snail-15",
  "trigger": "hover",
- "description": "Pill black button that changes colour on hover.",
+ "description": "Pill black social button that changes colour on hover.",
  "howItWorks": "On hover, border changes and text colour changes.",
  "tags": [
+  "github",
+  "social",
   "rounded",
   "pill",
   "color-change",
-  "github",
-  "buttons",
-  "css"
+  "social-button"
  ],
  "colors": [
   "#171717",

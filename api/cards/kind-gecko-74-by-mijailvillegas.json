@@ -8,12 +8,12 @@
  "description": "Glass neon pill amber card that starts animating on hover.",
  "howItWorks": "On hover, starts the ease-out animation, background changes from #ffffff to #adadad, transform becomes translate(15px, -15px).",
  "tags": [
+  "facebook",
+  "twitter",
+  "social",
   "amber",
   "blue",
-  "neon",
-  "glassmorphism",
-  "rounded",
-  "pill"
+  "neon"
  ],
  "colors": [
   "#ffae00",

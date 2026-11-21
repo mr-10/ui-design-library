@@ -8,12 +8,12 @@
  "description": "Rounded green signup form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #707070 to #58BC82, text color changes from #58BC82 to #707070. On focus, outline becomes 2px solid #58BC82.",
  "tags": [
+  "submit",
+  "password",
+  "email",
   "green",
   "rounded",
-  "flat",
-  "color-change",
-  "submit",
-  "password"
+  "flat"
  ],
  "colors": [
   "#707070",

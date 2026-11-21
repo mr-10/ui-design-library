@@ -5,7 +5,7 @@
  "author": "nabilbdt",
  "source": "https://uiverse.io/nabilbdt/new-robin-92",
  "trigger": "hover",
- "description": "Dark rounded dark green tooltip that changes colour on hover.",
+ "description": "Rounded dark green tooltip that changes colour on hover.",
  "howItWorks": "On hover, opacity becomes 1, background-color changes from #28282817 to #646464.",
  "tags": [
   "green",

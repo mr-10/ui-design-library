@@ -5,7 +5,7 @@
  "author": "ahmed150up",
  "source": "https://uiverse.io/ahmed150up/terrible-shrimp-45",
  "trigger": "auto-loop",
- "description": "Neon rounded yellow notification with pulsing; rotating motion in a loop.",
+ "description": "Neon rounded yellow notification with rotating motion in a loop.",
  "howItWorks": "It loops a 3s animation (pulsing; rotating).",
  "tags": [
   "yellow",

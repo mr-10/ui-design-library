@@ -8,12 +8,12 @@
  "description": "Rounded dark blue button that changes colour on hover.",
  "howItWorks": "On hover, scale becomes 1.1, background-color changes from #ffffff to #cc39a4, background-color changes from #ffffff to #03A9F4.",
  "tags": [
+  "github",
+  "twitter",
+  "social",
   "blue",
   "fuchsia",
-  "rounded",
-  "color-change",
-  "github",
-  "twitter"
+  "rounded"
  ],
  "colors": [
   "#32325d",

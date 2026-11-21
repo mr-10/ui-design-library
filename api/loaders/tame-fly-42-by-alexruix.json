@@ -5,8 +5,8 @@
  "author": "alexruix",
  "source": "https://uiverse.io/alexruix/tame-fly-42",
  "trigger": "auto-loop",
- "description": "Pill teal loader with animating; pulsing motion in a loop.",
- "howItWorks": "It loops a 0.5s animation (animating; pulsing).",
+ "description": "Pill teal loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a 0.5s animation (moving; pulsing).",
  "tags": [
   "teal",
   "rounded",

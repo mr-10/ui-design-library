@@ -8,12 +8,12 @@
  "description": "Outlined pill black form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #008cff to hsla(223,10%,60%,0.2), background-color changes from #008cff to #e92806.",
  "tags": [
+  "upload",
+  "close",
   "outlined",
   "rounded",
   "pill",
-  "color-change",
-  "upload",
-  "close"
+  "color-change"
  ],
  "colors": [
   "#0f0e0e",

@@ -8,11 +8,11 @@
  "description": "3d rounded cyan card that reacts on hover.",
  "howItWorks": "On hover, transform becomes rotateY(180deg).",
  "tags": [
+  "back",
   "cyan",
   "3d",
   "rounded",
   "flat",
-  "back",
   "card"
  ],
  "colors": [

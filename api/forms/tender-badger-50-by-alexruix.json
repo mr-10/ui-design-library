@@ -8,12 +8,12 @@
  "description": "Neon rounded sky-blue login form that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #fff to #005ce6, background-color changes from #0066ff to #005ce6.",
  "tags": [
+  "email",
   "blue",
   "neon",
   "outlined",
   "rounded",
-  "color-change",
-  "email"
+  "color-change"
  ],
  "colors": [
   "#0066ff",

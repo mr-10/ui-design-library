@@ -5,7 +5,7 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/swift-newt-52",
  "trigger": "hover",
- "description": "Gradient 3d dark black button that starts animating on hover.",
+ "description": "Gradient 3d black button that starts animating on hover.",
  "howItWorks": "On hover, transform becomes rotateX(35deg), starts the progress-bar animation (fading).",
  "tags": [
   "gradient",

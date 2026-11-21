@@ -8,11 +8,11 @@
  "description": "Gradient 3d red card that reacts on hover.",
  "howItWorks": "On hover, transform becomes rotateX(180deg), z-index becomes 0.",
  "tags": [
+  "back",
   "red",
   "gradient",
   "3d",
   "flat",
-  "back",
   "glassmorphism"
  ],
  "colors": [

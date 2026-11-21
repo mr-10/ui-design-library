@@ -8,12 +8,12 @@
  "description": "Glass gradient rounded cyan button that starts animating on hover.",
  "howItWorks": "On hover, width becomes 14em, opacity becomes 0, margin becomes 0.2em.",
  "tags": [
+  "social",
+  "github",
+  "twitter",
   "cyan",
   "fuchsia",
-  "glassmorphism",
-  "gradient",
-  "rounded",
-  "expand"
+  "glassmorphism"
  ],
  "colors": [
   "#29b6f6",

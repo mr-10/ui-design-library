@@ -5,15 +5,15 @@
  "author": "aadium",
  "source": "https://uiverse.io/aadium/black-eel-56",
  "trigger": "hover",
- "description": "Dark rounded black profile card that changes colour on hover.",
+ "description": "Outlined rounded black profile card that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #ffffff to #c9510c, text color changes from #ffffff to #d62976, text color changes from #ffffff to #3b5998.",
  "tags": [
-  "dark",
-  "outlined",
-  "rounded",
-  "color-change",
   "github",
-  "facebook"
+  "facebook",
+  "twitter",
+  "social",
+  "dark",
+  "outlined"
  ],
  "colors": [
   "#191919",

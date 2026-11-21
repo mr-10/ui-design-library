@@ -5,7 +5,7 @@
  "author": "Satwinder04",
  "source": "https://uiverse.io/Satwinder04/cowardly-wasp-94",
  "trigger": "auto-loop",
- "description": "Pill red loader with fading motion in a loop.",
+ "description": "Pill red loader with pulsing motion in a loop.",
  "howItWorks": "It loops a 1.2s animation (fading, pulsing).",
  "tags": [
   "red",

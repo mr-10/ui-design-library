@@ -8,12 +8,12 @@
  "description": "Neon rounded cyan login form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #4eb8dd to #217093. On focus, the outline is removed, box-shadow becomes 0px 2px 10px #000000, background-color changes from #4eb8dd to #edf8fc.",
  "tags": [
+  "password",
+  "email",
   "cyan",
   "neon",
   "rounded",
-  "color-change",
-  "password",
-  "email"
+  "color-change"
  ],
  "colors": [
   "#217093",

@@ -6,12 +6,12 @@
  "source": "https://uiverse.io/SelfMadeSystem/selfish-starfish-40",
  "trigger": "checked",
  "description": "Amber radio button that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: starts the idle animation (animating).",
+ "howItWorks": "Clicking it toggles it: starts the idle animation (moving).",
  "tags": [
+  "rating",
   "amber",
   "flat",
   "pulse",
-  "rating",
   "radio-button",
   "star"
  ],

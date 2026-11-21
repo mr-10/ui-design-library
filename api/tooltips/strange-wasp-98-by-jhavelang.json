@@ -5,7 +5,7 @@
  "author": "JhaveLang",
  "source": "https://uiverse.io/JhaveLang/strange-wasp-98",
  "trigger": "hover",
- "description": "Gradient rounded teal tooltip that slides on hover.",
+ "description": "Gradient rounded teal tooltip with arrow that slides on hover.",
  "howItWorks": "On hover, top becomes -45px, opacity becomes 1, transform becomes translateX(-50%) scale(1).",
  "tags": [
   "teal",

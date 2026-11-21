@@ -8,12 +8,12 @@
  "description": "Gradient dark pill violet card that glows on hover.",
  "howItWorks": "On hover, width becomes 150%, height becomes 100%, letter-spacing becomes 0.025em.",
  "tags": [
+  "social",
   "violet",
   "gradient",
   "dark",
   "rounded",
-  "pill",
-  "expand"
+  "pill"
  ],
  "colors": [
   "#9b40fc",

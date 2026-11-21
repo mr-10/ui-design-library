@@ -5,7 +5,7 @@
  "author": "Z4drus",
  "source": "https://uiverse.io/Z4drus/polite-seahorse-77",
  "trigger": "auto-loop",
- "description": "Pill blue loader with fading motion in a loop.",
+ "description": "Pill blue loader with sliding motion in a loop.",
  "howItWorks": "It loops a animation (fading, pulsing, sliding).",
  "tags": [
   "blue",

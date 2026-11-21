@@ -8,12 +8,12 @@
  "description": "Rounded sky-blue send button that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.05) rotate(3deg).",
  "tags": [
+  "send",
   "blue",
   "rounded",
   "flat",
   "scale",
-  "rotate",
-  "pulse"
+  "rotate"
  ],
  "colors": [
   "#4092ef",

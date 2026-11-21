@@ -8,12 +8,12 @@
  "description": "Gradient 3d rounded orange card that reacts on hover.",
  "howItWorks": "On hover, transform becomes rotateY(180deg).",
  "tags": [
+  "back",
   "orange",
   "gradient",
   "3d",
   "outlined",
-  "rounded",
-  "back"
+  "rounded"
  ],
  "colors": [
   "#ff7f50",

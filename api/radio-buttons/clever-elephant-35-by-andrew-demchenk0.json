@@ -8,10 +8,10 @@
  "description": "Amber radio button that toggles on and off when clicked.",
  "howItWorks": "On hover, text color changes to #e58e09, text color changes to #ff9e0b. Clicking it toggles it: font-size becomes 30px, text color changes to #666, text color changes to #e58e09.",
  "tags": [
+  "rating",
   "amber",
   "flat",
   "color-change",
-  "rating",
   "radio-button",
   "radio"
  ],

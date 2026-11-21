@@ -8,11 +8,11 @@
  "description": "Rounded sky-blue form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #007bff to #e2e6ea.",
  "tags": [
+  "upload",
   "blue",
   "rounded",
   "flat",
   "color-change",
-  "upload",
   "form"
  ],
  "colors": [

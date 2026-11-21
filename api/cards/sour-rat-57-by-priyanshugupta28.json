@@ -5,7 +5,7 @@
  "author": "PriyanshuGupta28",
  "source": "https://uiverse.io/PriyanshuGupta28/sour-rat-57",
  "trigger": "static",
- "description": "Dark gray card with soft shadow with a smooth transition.",
+ "description": "Dark gray card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "dark",

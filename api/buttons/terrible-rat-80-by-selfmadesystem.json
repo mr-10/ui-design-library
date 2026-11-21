@@ -5,7 +5,7 @@
  "author": "SelfMadeSystem",
  "source": "https://uiverse.io/SelfMadeSystem/terrible-rat-80",
  "trigger": "static",
- "description": "Rounded indigo button with soft shadow and rounded corners.",
+ "description": "Rounded indigo button with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
   "indigo",

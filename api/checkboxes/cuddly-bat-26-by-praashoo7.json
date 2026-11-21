@@ -8,12 +8,12 @@
  "description": "Dark pill orange checkbox that toggles on and off when clicked.",
  "howItWorks": "On hover, text color changes from #000000 to #ffffff, box-shadow becomes none, transform becomes translateX(6px) translateY(6px). Clicking it toggles it: transform becomes rotate(360deg), box-shadow becomes none, border becomes 4px solid #F28C38.",
  "tags": [
+  "back",
   "orange",
   "dark",
   "rounded",
   "pill",
-  "drop",
-  "slide"
+  "drop"
  ],
  "colors": [
   "#222222",

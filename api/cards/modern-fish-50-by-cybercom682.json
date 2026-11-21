@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded violet card that starts animating on hover.",
  "howItWorks": "On hover, box-shadow becomes 4px 4px 6px 0px #521489, transform becomes scale(1.02), width becomes 100%.",
  "tags": [
+  "social",
   "violet",
   "blue",
   "gradient",
   "dark",
-  "rounded",
-  "scale"
+  "rounded"
  ],
  "colors": [
   "#1a1a1a",

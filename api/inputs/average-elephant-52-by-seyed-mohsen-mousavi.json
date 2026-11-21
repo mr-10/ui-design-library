@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded fuchsia text input that lights up when focused.",
  "howItWorks": "On focus, transform becomes skew(10deg, 0deg), box-shadow becomes -13px 20px 20px #000000.",
  "tags": [
+  "search",
   "fuchsia",
   "neon",
   "gradient",
   "dark",
-  "outlined",
-  "rounded"
+  "outlined"
  ],
  "colors": [
   "#808080",

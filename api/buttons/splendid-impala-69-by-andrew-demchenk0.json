@@ -8,12 +8,12 @@
  "description": "Red button that slides on hover with a smooth transition.",
  "howItWorks": "On hover, background changes from #cc0000 to #cc0000, text color changes from #fff to transparent, width becomes 148px.",
  "tags": [
+  "delete",
   "red",
   "flat",
   "color-change",
   "slide",
-  "expand",
-  "delete"
+  "expand"
  ],
  "colors": [
   "#cc0000",

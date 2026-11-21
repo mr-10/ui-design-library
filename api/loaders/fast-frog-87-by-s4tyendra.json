@@ -5,7 +5,7 @@
  "author": "S4tyendra",
  "source": "https://uiverse.io/S4tyendra/fast-frog-87",
  "trigger": "auto-loop",
- "description": "Pill red loader with morphing motion in a loop.",
+ "description": "Pill red loader with rotating motion in a loop.",
  "howItWorks": "It loops a 2.3s animation (morphing, pulsing, rotating; pulsing; pulsing, sliding; rotating).",
  "tags": [
   "red",

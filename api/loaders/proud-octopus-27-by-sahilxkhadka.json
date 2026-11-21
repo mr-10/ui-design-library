@@ -5,7 +5,7 @@
  "author": "sahilxkhadka",
  "source": "https://uiverse.io/sahilxkhadka/proud-octopus-27",
  "trigger": "static",
- "description": "Pill gray loader with rounded corners with a smooth transition.",
+ "description": "Pill gray loader with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the loader is a fixed design.",
  "tags": [
   "rounded",

@@ -5,13 +5,13 @@
  "author": "Manish-Tamang",
  "source": "https://uiverse.io/Manish-Tamang/cuddly-rabbit-84",
  "trigger": "static",
- "description": "Rounded red card with rounded corners with a smooth transition.",
+ "description": "Rounded red card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "next",
   "red",
   "amber",
   "rounded",
-  "next",
   "cards",
   "static"
  ],

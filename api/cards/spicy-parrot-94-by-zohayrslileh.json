@@ -5,13 +5,13 @@
  "author": "zohayrslileh",
  "source": "https://uiverse.io/zohayrslileh/spicy-parrot-94",
  "trigger": "static",
- "description": "Rounded amber pricing card with rounded corners with a smooth transition.",
+ "description": "Rounded amber pricing card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the pricing card is a fixed design.",
  "tags": [
-  "amber",
-  "rounded",
   "pricing",
   "newsletter",
+  "amber",
+  "rounded",
   "pricing-card",
   "cards"
  ],

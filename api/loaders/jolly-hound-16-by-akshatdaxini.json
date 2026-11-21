@@ -5,15 +5,15 @@
  "author": "AkshatDaxini",
  "source": "https://uiverse.io/AkshatDaxini/jolly-hound-16",
  "trigger": "auto-loop",
- "description": "Outlined white loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 45s animation (animating; rotating).",
+ "description": "Outlined white loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 45s animation (rotating; sliding).",
  "tags": [
   "outlined",
   "flat",
   "spin",
+  "slide",
   "loader",
-  "github",
-  "share"
+  "github"
  ],
  "colors": [
   "#ffffff",

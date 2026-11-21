@@ -8,10 +8,10 @@
  "description": "Rounded gray toggle switch that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: starts the heartButton animation (pulsing), transform becomes translate(0px,-100%), opacity becomes 0.",
  "tags": [
-  "rounded",
-  "pulse",
   "add",
   "like",
+  "rounded",
+  "pulse",
   "toggle-switch",
   "switch"
  ],

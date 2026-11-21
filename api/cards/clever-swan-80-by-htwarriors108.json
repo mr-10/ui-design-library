@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/htwarriors108/clever-swan-80",
  "trigger": "hover",
  "description": "Gradient rounded cyan card that starts animating on hover.",
- "howItWorks": "On hover, scale becomes 1.05, rotate becomes 3deg, starts the rotate animation (changing colour).",
+ "howItWorks": "On hover, scale becomes 1.05, rotate becomes 3deg, starts the rotate animation (rotating).",
  "tags": [
   "cyan",
   "pink",

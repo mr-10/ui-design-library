@@ -5,15 +5,15 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/terrible-dog-7",
  "trigger": "auto-loop",
- "description": "Dark pill black loader with fading motion in a loop.",
- "howItWorks": "It loops a 3.4s animation (fading, pulsing; pulsing).",
+ "description": "Pill black loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 3.4s animation (fading, pulsing, sliding; pulsing, sliding).",
  "tags": [
   "dark",
   "rounded",
   "pill",
   "fade",
   "pulse",
-  "loader"
+  "slide"
  ],
  "colors": [
   "#1d1d1d",

@@ -8,12 +8,12 @@
  "description": "Gradient pill yellow button that fades on hover.",
  "howItWorks": "On hover, opacity becomes 1.",
  "tags": [
+  "chat",
   "yellow",
   "amber",
   "gradient",
   "rounded",
-  "pill",
-  "fade"
+  "pill"
  ],
  "colors": [
   "#ffe53b",

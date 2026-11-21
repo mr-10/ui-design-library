@@ -8,10 +8,10 @@
  "description": "Pill white button that scales up on hover.",
  "howItWorks": "On hover, it scales.",
  "tags": [
+  "send",
   "rounded",
   "pill",
   "scale",
-  "send",
   "buttons",
   "css"
  ],

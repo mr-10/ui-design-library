@@ -8,11 +8,11 @@
  "description": "Gradient rounded blue download button that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 0.5em 1.5em -0.5em #4d36d0be.",
  "tags": [
+  "download",
   "blue",
   "gradient",
   "rounded",
   "glow",
-  "download",
   "download-button"
  ],
  "colors": [

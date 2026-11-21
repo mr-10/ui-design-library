@@ -8,9 +8,9 @@
  "description": "Amber radio button that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: font-size becomes 30px.",
  "tags": [
+  "rating",
   "amber",
   "flat",
-  "rating",
   "radio-button",
   "radio",
   "stars"

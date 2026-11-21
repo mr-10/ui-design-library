@@ -8,12 +8,12 @@
  "description": "Gradient pill violet card that glows on hover.",
  "howItWorks": "On hover, background changes and shadow grows. On focus, background changes and text colour changes.",
  "tags": [
+  "settings",
   "violet",
   "gradient",
   "rounded",
   "pill",
-  "color-change",
-  "glow"
+  "color-change"
  ],
  "colors": [
   "#c084fc",

@@ -5,12 +5,12 @@
  "author": "Shivaraj-Kolekar",
  "source": "https://uiverse.io/Shivaraj-Kolekar/horrible-parrot-27",
  "trigger": "static",
- "description": "Rounded dark sky-blue button with rounded corners with a smooth transition.",
+ "description": "Rounded dark sky-blue button with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
+  "send",
   "blue",
   "rounded",
-  "send",
   "buttons",
   "static",
   "css"

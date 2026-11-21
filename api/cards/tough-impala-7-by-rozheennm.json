@@ -5,8 +5,8 @@
  "author": "RozheenNM",
  "source": "https://uiverse.io/RozheenNM/tough-impala-7",
  "trigger": "auto-loop",
- "description": "Neon gradient orange card with pulsing motion in a loop.",
- "howItWorks": "It loops a 8s animation (pulsing, rotating).",
+ "description": "Neon gradient orange card with rotating motion in a loop.",
+ "howItWorks": "It loops a 8s animation (pulsing, rotating; pulsing, rotating, sliding).",
  "tags": [
   "orange",
   "red",

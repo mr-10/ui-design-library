@@ -5,15 +5,15 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/horrible-pug-35",
  "trigger": "hover",
- "description": "Gradient rounded cyan button that glows on hover.",
+ "description": "Gradient rounded cyan social login button that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 4px 30px  #04afff, 0 2px 30px #0b9eff.",
  "tags": [
+  "twitter",
+  "social",
   "cyan",
   "gradient",
   "rounded",
-  "glow",
-  "twitter",
-  "icon"
+  "glow"
  ],
  "colors": [
   "#039be5",

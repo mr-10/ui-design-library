@@ -8,12 +8,12 @@
  "description": "Rounded sky-blue card that fades on hover with a smooth transition.",
  "howItWorks": "On hover, opacity becomes 1, z-index becomes 15, filter becomes blur(3px).",
  "tags": [
+  "social",
+  "follow",
   "blue",
   "red",
   "rounded",
-  "flat",
-  "fade",
-  "shrink"
+  "flat"
  ],
  "colors": [
   "#1e90ff",

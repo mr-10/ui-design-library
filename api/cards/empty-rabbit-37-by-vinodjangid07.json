@@ -8,12 +8,12 @@
  "description": "Black profile card that lifts on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translateX(-25%) translateY(-20%).",
  "tags": [
+  "github",
+  "social",
   "flat",
   "lift",
   "slide",
-  "github",
-  "profile-card",
-  "card"
+  "profile-card"
  ],
  "colors": [
   "#0e0e0e",

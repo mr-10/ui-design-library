@@ -8,12 +8,12 @@
  "description": "Dark pill sky-blue submit button that scales up on hover.",
  "howItWorks": "On hover, transform becomes translate(-50%, -50%) scale(4).",
  "tags": [
+  "submit",
   "blue",
   "dark",
   "rounded",
   "pill",
-  "flat",
-  "scale"
+  "flat"
  ],
  "colors": [
   "#171717",

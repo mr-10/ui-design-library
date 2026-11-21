@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/0xnihilism/fast-cat-82",
  "trigger": "hover",
  "description": "Gradient dark cyan button that starts animating on hover.",
- "howItWorks": "On hover, opacity becomes 1, starts the slide animation (animating), transform becomes translate(-4px, -4px).",
+ "howItWorks": "On hover, opacity becomes 1, starts the slide animation (moving), transform becomes translate(-4px, -4px).",
  "tags": [
   "cyan",
   "orange",

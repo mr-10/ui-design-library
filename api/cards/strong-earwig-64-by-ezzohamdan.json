@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded cyan card that starts animating on hover.",
  "howItWorks": "On hover, box-shadow becomes 0px 5px 10px #74d6f7, 0px -5px 10px blueviolet, transform becomes scale(1.05), opacity becomes 1.",
  "tags": [
+  "social",
   "cyan",
   "violet",
   "gradient",
   "dark",
-  "rounded",
-  "scale"
+  "rounded"
  ],
  "colors": [
   "#74d6f7",

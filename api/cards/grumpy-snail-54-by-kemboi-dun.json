@@ -5,7 +5,7 @@
  "author": "Kemboi-Dun",
  "source": "https://uiverse.io/Kemboi-Dun/grumpy-snail-54",
  "trigger": "hover",
- "description": "Dark pill black card that fades on hover.",
+ "description": "Pill black card that fades on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translateY(0), opacity becomes 1.",
  "tags": [
   "dark",

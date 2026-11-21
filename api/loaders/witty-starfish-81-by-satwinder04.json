@@ -5,15 +5,15 @@
  "author": "Satwinder04",
  "source": "https://uiverse.io/Satwinder04/witty-starfish-81",
  "trigger": "auto-loop",
- "description": "Orange bars loader with growing and shrinking motion in a loop.",
- "howItWorks": "It loops a 1.5s animation (growing and shrinking).",
+ "description": "Orange bars loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (sliding).",
  "tags": [
   "orange",
   "flat",
+  "slide",
   "bars-loader",
   "loader",
-  "auto-loop",
-  "css"
+  "auto-loop"
  ],
  "colors": [
   "#ff6a00",

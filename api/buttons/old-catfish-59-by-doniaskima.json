@@ -5,7 +5,7 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/old-catfish-59",
  "trigger": "hover",
- "description": "Gradient dark black button that starts animating on hover.",
+ "description": "Gradient black button that starts animating on hover.",
  "howItWorks": "On hover, starts the move-up-alternate animation (bouncing).",
  "tags": [
   "gradient",

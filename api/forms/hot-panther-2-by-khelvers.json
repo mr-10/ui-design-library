@@ -8,11 +8,11 @@
  "description": "Rounded cyan login form that lifts on hover.",
  "howItWorks": "On hover, background changes from #3498db to #2980b9, transform becomes translateY(-2px).",
  "tags": [
+  "login",
   "cyan",
   "rounded",
   "lift",
   "color-change",
-  "login",
   "login-form"
  ],
  "colors": [

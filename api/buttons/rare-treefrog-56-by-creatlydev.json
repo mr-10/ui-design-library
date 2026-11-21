@@ -5,15 +5,15 @@
  "author": "Creatlydev",
  "source": "https://uiverse.io/Creatlydev/rare-treefrog-56",
  "trigger": "hover",
- "description": "Glass neon rounded yellow button that glows on hover.",
+ "description": "Glass neon rounded yellow social button that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes inset 0 1px 0 0 #ffffff,\n    inset 0 0 0 1px #fce803, text color changes from #fff to #fce803, transform becomes translate(0, -0.25rem).",
  "tags": [
+  "github",
+  "social",
   "yellow",
   "neon",
   "glassmorphism",
-  "rounded",
-  "glow",
-  "color-change"
+  "rounded"
  ],
  "colors": [
   "#fce803",

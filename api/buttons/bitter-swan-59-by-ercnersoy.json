@@ -8,11 +8,11 @@
  "description": "Rounded red button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, background-color changes from #e74133 to #f54d3e, box-shadow becomes 0px 0px 5px 3px #e7413373, transform becomes rotate(-1turn).",
  "tags": [
+  "like",
   "red",
   "rounded",
   "glow",
   "color-change",
-  "like",
   "button"
  ],
  "colors": [

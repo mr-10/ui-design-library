@@ -5,7 +5,7 @@
  "author": "abrahamcalsin",
  "source": "https://uiverse.io/abrahamcalsin/sour-donkey-65",
  "trigger": "hover",
- "description": "Dark dark sky-blue button that starts animating on hover.",
+ "description": "Dark sky-blue button that starts animating on hover.",
  "howItWorks": "On hover, right becomes auto, left becomes 0, width becomes 100%.",
  "tags": [
   "blue",

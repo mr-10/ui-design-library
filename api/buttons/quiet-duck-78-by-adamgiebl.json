@@ -5,7 +5,7 @@
  "author": "adamgiebl",
  "source": "https://uiverse.io/adamgiebl/quiet-duck-78",
  "trigger": "hover",
- "description": "Gradient dark rounded dark blue button that slides on hover.",
+ "description": "Gradient rounded dark blue button that slides on hover.",
  "howItWorks": "On hover, transform becomes translateX(5px) rotate(90deg), transform becomes translateX(7px).",
  "tags": [
   "blue",

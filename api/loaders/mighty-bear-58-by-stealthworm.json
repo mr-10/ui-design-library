@@ -5,15 +5,15 @@
  "author": "StealthWorm",
  "source": "https://uiverse.io/StealthWorm/mighty-bear-58",
  "trigger": "auto-loop",
- "description": "Neon pill light purple loader with animating; fading; growing and shrinking motion in a loop.",
- "howItWorks": "It loops a 3s animation (animating; fading; growing and shrinking).",
+ "description": "Neon pill light purple loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 3s animation (fading; sliding).",
  "tags": [
   "purple",
   "fuchsia",
   "neon",
   "rounded",
   "pill",
-  "fade"
+  "slide"
  ],
  "colors": [
   "#fa95fb",

@@ -5,7 +5,7 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/happy-moth-17",
  "trigger": "hover",
- "description": "Gradient dark rounded black button that fades on hover.",
+ "description": "Gradient rounded black button that fades on hover.",
  "howItWorks": "On hover, opacity becomes 1, opacity becomes 0.",
  "tags": [
   "gradient",

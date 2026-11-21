@@ -5,7 +5,7 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/hungry-treefrog-88",
  "trigger": "hover",
- "description": "Dark rounded black button that starts animating on hover.",
+ "description": "Rounded black button that starts animating on hover.",
  "howItWorks": "On hover, starts the a animation (pulsing).",
  "tags": [
   "dark",

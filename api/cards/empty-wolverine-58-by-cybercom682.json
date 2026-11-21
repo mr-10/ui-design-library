@@ -8,11 +8,11 @@
  "description": "Rounded green card that scales up on hover.",
  "howItWorks": "On hover, background changes and it scales.",
  "tags": [
+  "next",
   "green",
   "rounded",
   "color-change",
   "scale",
-  "next",
   "cards"
  ],
  "colors": [

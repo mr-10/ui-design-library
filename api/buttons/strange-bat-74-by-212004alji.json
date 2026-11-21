@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/212004ALJI/strange-bat-74",
  "trigger": "hover",
  "description": "Neon rounded pink button that starts animating on hover.",
- "howItWorks": "On hover, starts the glitch_4011 animation (animating), bottom becomes -40px, width becomes 100px.",
+ "howItWorks": "On hover, starts the glitch_4011 animation (sliding), bottom becomes -40px, width becomes 100px.",
  "tags": [
   "pink",
   "neon",

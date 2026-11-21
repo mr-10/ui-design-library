@@ -8,12 +8,12 @@
  "description": "Glass gradient 3d pill dark green card that glows on hover.",
  "howItWorks": "On hover, transform becomes translate3d(0, 0, 10px), background changes from #00f9cb to #000000, transform becomes rotate3d(1, 1, 0, 30deg).",
  "tags": [
+  "social",
+  "share",
   "green",
   "emerald",
   "glassmorphism",
-  "gradient",
-  "3d",
-  "outlined"
+  "gradient"
  ],
  "colors": [
   "#054711",

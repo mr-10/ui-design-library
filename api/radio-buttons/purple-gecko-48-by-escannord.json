@@ -8,12 +8,12 @@
  "description": "Outlined pill sky-blue radio button that toggles on and off when clicked.",
  "howItWorks": "On hover, border-color becomes #2f64d8. Clicking it toggles it: border-color becomes #2f64d8, top becomes 50%, left becomes 50%.",
  "tags": [
+  "pricing",
+  "save",
   "blue",
   "outlined",
   "rounded",
-  "pill",
-  "flat",
-  "pricing"
+  "pill"
  ],
  "colors": [
   "#2f64d8",

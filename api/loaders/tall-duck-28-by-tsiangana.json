@@ -5,15 +5,15 @@
  "author": "Tsiangana",
  "source": "https://uiverse.io/Tsiangana/tall-duck-28",
  "trigger": "auto-loop",
- "description": "Pill gray spinner loader with fading motion in a loop.",
- "howItWorks": "It loops a animation (fading, pulsing; rotating).",
+ "description": "Pill gray spinner loader with rotating motion in a loop.",
+ "howItWorks": "It loops a animation (fading, pulsing; rotating, sliding).",
  "tags": [
   "rounded",
   "pill",
   "spin",
+  "slide",
   "fade",
-  "pulse",
-  "spinner-loader"
+  "pulse"
  ],
  "colors": [
   "#121f35",

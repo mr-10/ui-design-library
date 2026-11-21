@@ -8,12 +8,12 @@
  "description": "Dark rounded sky-blue login form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #212121 to #313131. On focus, the outline is removed, border-color becomes #1778f2.",
  "tags": [
-  "blue",
-  "dark",
-  "outlined",
-  "rounded",
-  "color-change",
-  "signup"
+  "signup",
+  "submit",
+  "password",
+  "social",
+  "facebook",
+  "back"
  ],
  "colors": [
   "#212121",

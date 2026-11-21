@@ -8,10 +8,10 @@
  "description": "Gradient rounded gray button that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 1px 0px 3px 0px #0c0c0c.",
  "tags": [
+  "send",
   "gradient",
   "rounded",
   "glow",
-  "send",
   "icon",
   "white"
  ],

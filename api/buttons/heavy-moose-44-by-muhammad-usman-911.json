@@ -8,12 +8,12 @@
  "description": "Gradient fuchsia button that reacts on hover with a smooth transition.",
  "howItWorks": "On hover, translate becomes 0% 0%.",
  "tags": [
+  "cart",
   "fuchsia",
   "blue",
   "gradient",
   "flat",
-  "slide",
-  "cart"
+  "slide"
  ],
  "colors": [
   "#f032a7",

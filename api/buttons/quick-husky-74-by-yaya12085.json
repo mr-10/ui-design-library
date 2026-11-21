@@ -5,7 +5,7 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/quick-husky-74",
  "trigger": "focus",
- "description": "Gradient 3d dark rounded black button that lights up when focused.",
+ "description": "Gradient 3d rounded black button that lights up when focused.",
  "howItWorks": "On focus, the outline is removed.",
  "tags": [
   "gradient",

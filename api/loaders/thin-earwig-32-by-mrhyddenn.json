@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/mrhyddenn/thin-earwig-32",
  "trigger": "auto-loop",
  "description": "Pill yellow loader with rotating motion in a loop.",
- "howItWorks": "It loops a 1s animation (rotating).",
+ "howItWorks": "It loops a 1s animation (rotating, sliding).",
  "tags": [
   "yellow",
   "red",

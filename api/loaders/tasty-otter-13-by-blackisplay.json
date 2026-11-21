@@ -5,15 +5,15 @@
  "author": "BlackisPlay",
  "source": "https://uiverse.io/BlackisPlay/tasty-otter-13",
  "trigger": "auto-loop",
- "description": "Gray loader with animating motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating).",
+ "description": "Gray loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (rotating).",
  "tags": [
   "flat",
+  "spin",
   "material-design",
   "animation",
   "3d",
-  "minimalist",
-  "black"
+  "minimalist"
  ],
  "colors": [
   "#444443",

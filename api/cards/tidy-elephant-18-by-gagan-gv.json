@@ -5,7 +5,7 @@
  "author": "gagan-gv",
  "source": "https://uiverse.io/gagan-gv/tidy-elephant-18",
  "trigger": "static",
- "description": "White card with soft shadow with a smooth transition.",
+ "description": "White card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "card",

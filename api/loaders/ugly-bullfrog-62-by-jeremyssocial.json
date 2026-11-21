@@ -5,14 +5,14 @@
  "author": "jeremyssocial",
  "source": "https://uiverse.io/jeremyssocial/ugly-bullfrog-62",
  "trigger": "auto-loop",
- "description": "Dark pill green loader with animating; growing and shrinking motion in a loop.",
- "howItWorks": "It loops a 4s animation (animating; growing and shrinking).",
+ "description": "Dark pill green loader with growing and shrinking motion in a loop.",
+ "howItWorks": "It loops a 4s animation (growing and shrinking; moving).",
  "tags": [
+  "close",
   "green",
   "dark",
   "rounded",
   "pill",
-  "close",
   "animation"
  ],
  "colors": [

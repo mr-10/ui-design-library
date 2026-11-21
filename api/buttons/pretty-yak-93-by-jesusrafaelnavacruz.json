@@ -5,8 +5,8 @@
  "author": "JesusRafaelNavaCruz",
  "source": "https://uiverse.io/JesusRafaelNavaCruz/pretty-yak-93",
  "trigger": "auto-loop",
- "description": "Light violet button with animating motion in a loop.",
- "howItWorks": "It loops a 4s animation (animating).",
+ "description": "Light violet button with moving motion in a loop.",
+ "howItWorks": "It loops a 4s animation (moving).",
  "tags": [
   "violet",
   "flat",

@@ -5,15 +5,15 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/cuddly-turkey-4",
  "trigger": "auto-loop",
- "description": "Gradient green loader with animating motion in a loop.",
- "howItWorks": "It loops a 1s animation (animating).",
+ "description": "Gradient green loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 1s animation (sliding).",
  "tags": [
   "green",
   "gradient",
   "outlined",
   "flat",
-  "loader",
-  "after"
+  "slide",
+  "loader"
  ],
  "colors": [
   "#28ae60",

@@ -8,10 +8,10 @@
  "description": "Rounded dark green pricing card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #f2f7f2 to #026602.",
  "tags": [
+  "like",
   "green",
   "rounded",
   "color-change",
-  "like",
   "pricing-card",
   "simple"
  ],

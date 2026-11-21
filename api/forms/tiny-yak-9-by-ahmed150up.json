@@ -8,12 +8,12 @@
  "description": "Dark gray signup form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #333 to #ccc, text color changes from #fff to #333.",
  "tags": [
-  "dark",
-  "outlined",
-  "color-change",
   "signup",
   "password",
-  "email"
+  "email",
+  "dark",
+  "outlined",
+  "color-change"
  ],
  "colors": [
   "#333333",

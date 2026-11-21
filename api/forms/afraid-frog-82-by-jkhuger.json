@@ -8,11 +8,11 @@
  "description": "Outlined rounded gray signup form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from transparent to #000000, text color changes from #000 to #ffffff. On focus, transform becomes translateX(113px) translateY(-15px), font-size becomes 0.8em, padding becomes 5px 10px.",
  "tags": [
+  "password",
+  "email",
   "outlined",
   "rounded",
   "color-change",
-  "password",
-  "email",
   "signup-form"
  ],
  "colors": [

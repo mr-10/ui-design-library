@@ -5,8 +5,8 @@
  "author": "Saiyed-Tanvir",
  "source": "https://uiverse.io/Saiyed-Tanvir/blue-tiger-12",
  "trigger": "auto-loop",
- "description": "Neon amber loader with animating motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating).",
+ "description": "Neon amber loader with moving motion in a loop.",
+ "howItWorks": "It loops a 2s animation (moving).",
  "tags": [
   "amber",
   "neon",

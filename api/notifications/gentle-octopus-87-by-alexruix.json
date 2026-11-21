@@ -5,7 +5,7 @@
  "author": "alexruix",
  "source": "https://uiverse.io/alexruix/gentle-octopus-87",
  "trigger": "static",
- "description": "Dark pill amber notification with soft shadow and rounded corners.",
+ "description": "Dark pill amber notification with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the notification is a fixed design.",
  "tags": [
   "amber",

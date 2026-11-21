@@ -8,12 +8,12 @@
  "description": "Gradient pill red checkbox that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: starts the borderAnimate animation (rotating), starts the reveal animation (growing and shrinking).",
  "tags": [
+  "play",
+  "pause",
   "red",
   "gradient",
   "rounded",
-  "pill",
-  "flat",
-  "spin"
+  "pill"
  ],
  "colors": [
   "#ff6347",

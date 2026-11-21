@@ -5,7 +5,7 @@
  "author": "sahilxkhadka",
  "source": "https://uiverse.io/sahilxkhadka/young-dolphin-79",
  "trigger": "static",
- "description": "Gradient dark rounded gray button with soft shadow and rounded corners and gradient fill.",
+ "description": "Gradient dark rounded gray button with soft shadow.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
   "gradient",

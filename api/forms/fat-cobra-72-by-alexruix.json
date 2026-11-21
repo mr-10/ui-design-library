@@ -8,12 +8,12 @@
  "description": "Dark light amber login form that glows on hover.",
  "howItWorks": "On hover, background-color changes from #ffeba7 to #5e6681, text color changes from #f5f5f5 to #ffeba7, box-shadow becomes 0 8px 24px 0 rgb(16 39 112 / 20%). On focus, opacity becomes 0.",
  "tags": [
+  "login",
+  "password",
   "amber",
   "dark",
   "outlined",
-  "glow",
-  "color-change",
-  "login"
+  "glow"
  ],
  "colors": [
   "#ffeba7",

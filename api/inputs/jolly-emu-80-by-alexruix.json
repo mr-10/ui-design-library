@@ -5,14 +5,14 @@
  "author": "alexruix",
  "source": "https://uiverse.io/alexruix/jolly-emu-80",
  "trigger": "hover",
- "description": "Dark rounded black email input that changes colour on hover.",
+ "description": "Rounded black email input that changes colour on hover.",
  "howItWorks": "On hover, the outline is removed, border-color becomes #05060f, text color changes from #05060f99 to #05060fc2. On focus, the outline is removed, border-color becomes #05060f, text color changes from #05060f99 to #05060fc2.",
  "tags": [
+  "email",
   "dark",
   "rounded",
   "flat",
   "color-change",
-  "email",
   "email-input"
  ],
  "colors": [

@@ -8,10 +8,10 @@
  "description": "Gradient black button that slides on hover with a smooth transition.",
  "howItWorks": "On hover, width becomes 101%, height becomes 104%, filter becomes none.",
  "tags": [
+  "send",
   "gradient",
   "expand",
   "slide",
-  "send",
   "button",
   "challenge"
  ],

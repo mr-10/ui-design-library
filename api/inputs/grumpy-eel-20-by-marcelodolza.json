@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/marcelodolza/grumpy-eel-20",
  "trigger": "checked",
  "description": "Neon gradient pill blue text input that toggles on and off when clicked.",
- "howItWorks": "On hover, transform becomes translate(320px, 0) skew(30deg), filter becomes brightness(1.3), transform becomes scale(1.07). Clicking it toggles it: transform becomes translateY(0), opacity becomes 1, filter becomes blur(0). On focus, transform becomes translate(440px, 0) skew(40deg) scaleX(0.5), starts the shake animation (animating), opacity becomes 0.",
+ "howItWorks": "On hover, transform becomes translate(320px, 0) skew(30deg), filter becomes brightness(1.3), transform becomes scale(1.07). Clicking it toggles it: transform becomes translateY(0), opacity becomes 1, filter becomes blur(0). On focus, transform becomes translate(440px, 0) skew(40deg) scaleX(0.5), starts the shake animation (sliding), opacity becomes 0.",
  "tags": [
+  "rating",
   "blue",
   "neon",
   "gradient",
   "dark",
-  "outlined",
-  "rounded"
+  "outlined"
  ],
  "colors": [
   "#f4ddff",

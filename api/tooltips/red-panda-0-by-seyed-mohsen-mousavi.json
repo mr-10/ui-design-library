@@ -5,7 +5,7 @@
  "author": "seyed-mohsen-mousavi",
  "source": "https://uiverse.io/seyed-mohsen-mousavi/red-panda-0",
  "trigger": "hover",
- "description": "Dark black tooltip that starts animating on hover.",
+ "description": "Black tooltip that starts animating on hover with a smooth transition.",
  "howItWorks": "On hover, border becomes 5px solid #cacdd0, top becomes -100%, opacity becomes 1.",
  "tags": [
   "dark",

@@ -8,12 +8,12 @@
  "description": "Dark rounded cyan card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #2E2E2E to #3F3F3F, background-color changes from #2E2E2E to #49B3EA, background-color changes from #2E2E2E to #3A3A3A.",
  "tags": [
+  "search",
+  "settings",
+  "send",
+  "email",
   "cyan",
-  "dark",
-  "rounded",
-  "flat",
-  "color-change",
-  "fade"
+  "dark"
  ],
  "colors": [
   "#333333",

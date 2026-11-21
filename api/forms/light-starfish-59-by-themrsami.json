@@ -8,12 +8,12 @@
  "description": "Gradient rounded sky-blue login form that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, background changes and a ring appears.",
  "tags": [
+  "login",
+  "signup",
+  "password",
   "blue",
   "gradient",
-  "rounded",
-  "color-change",
-  "ring",
-  "login"
+  "rounded"
  ],
  "colors": [
   "#111827",

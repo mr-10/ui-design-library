@@ -8,11 +8,11 @@
  "description": "Pill white pricing card that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #000000 to #ffffff, background-color changes from #ffffff to transparent.",
  "tags": [
+  "pricing",
   "rounded",
   "pill",
   "flat",
   "color-change",
-  "pricing",
   "pricing-card"
  ],
  "colors": [

@@ -8,12 +8,12 @@
  "description": "Dark rounded gray save button that scales up on hover.",
  "howItWorks": "On hover, background changes from #212121 to #000, transform becomes scale(1.25), transform becomes translateX(1.2em) scale(1.1).",
  "tags": [
+  "save",
   "dark",
   "rounded",
   "flat",
   "color-change",
-  "scale",
-  "slide"
+  "scale"
  ],
  "colors": [
   "#212121",

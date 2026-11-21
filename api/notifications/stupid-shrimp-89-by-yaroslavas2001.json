@@ -8,12 +8,12 @@
  "description": "Gradient rounded indigo notification that changes colour on hover.",
  "howItWorks": "On hover, height becomes 0em, width becomes 0em, filter becomes blur(10px).",
  "tags": [
+  "menu",
+  "next",
+  "rating",
   "indigo",
   "blue",
-  "gradient",
-  "outlined",
-  "rounded",
-  "flat"
+  "gradient"
  ],
  "colors": [
   "#6720d9",

@@ -8,12 +8,12 @@
  "description": "Black button that starts animating on hover with a smooth transition.",
  "howItWorks": "On hover, starts the slide-in-top animation (bouncing, fading, rotating), starts the slide-in-left animation (fading, sliding).",
  "tags": [
+  "cart",
+  "add",
   "animated",
   "bounce",
   "fade",
-  "spin",
-  "slide",
-  "cart"
+  "spin"
  ],
  "colors": [
   "#1d1d1d",

@@ -8,11 +8,11 @@
  "description": "Cyan button that changes colour on hover with a smooth transition.",
  "howItWorks": "On hover, left becomes 0.6em, text color changes from #0077b5 to #fff, opacity becomes 1.",
  "tags": [
+  "follow",
   "cyan",
   "flat",
   "color-change",
   "fade",
-  "follow",
   "button"
  ],
  "colors": [

@@ -8,11 +8,11 @@
  "description": "Rounded cyan button that changes colour on hover.",
  "howItWorks": "On hover, background changes and opacity changes.",
  "tags": [
+  "profile",
   "cyan",
   "rounded",
   "color-change",
   "fade",
-  "profile",
   "buttons"
  ],
  "colors": [

@@ -8,12 +8,12 @@
  "description": "Neon gradient pill purple pricing card that reacts on hover.",
  "howItWorks": "On hover, top becomes 6px, left becomes 20%, rotate becomes 230deg.",
  "tags": [
+  "pricing",
+  "cart",
+  "add",
+  "rating",
   "purple",
-  "neon",
-  "gradient",
-  "dark",
-  "outlined",
-  "rounded"
+  "neon"
  ],
  "colors": [
   "#1b1b1b",

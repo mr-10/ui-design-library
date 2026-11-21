@@ -5,8 +5,8 @@
  "author": "VashonG",
  "source": "https://uiverse.io/VashonG/mean-mayfly-77",
  "trigger": "auto-loop",
- "description": "Neon gradient 3d pill amber button with animating motion in a loop.",
- "howItWorks": "It loops a animation (animating).",
+ "description": "Neon gradient 3d pill amber button with sliding motion in a loop.",
+ "howItWorks": "It loops a animation (sliding).",
  "tags": [
   "amber",
   "blue",

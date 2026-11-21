@@ -8,10 +8,10 @@
  "description": "Rounded lime button that changes colour on hover.",
  "howItWorks": "On hover, background changes.",
  "tags": [
+  "save",
   "lime",
   "rounded",
   "color-change",
-  "save",
   "buttons",
   "css"
  ],

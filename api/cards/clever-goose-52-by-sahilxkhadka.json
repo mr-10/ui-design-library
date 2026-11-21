@@ -8,12 +8,12 @@
  "description": "Gradient pill teal card that scales up on hover.",
  "howItWorks": "On hover, text colour changes and it scales.",
  "tags": [
+  "settings",
+  "home",
   "teal",
   "violet",
   "gradient",
-  "rounded",
-  "pill",
-  "color-change"
+  "rounded"
  ],
  "colors": [
   "#d1d5db",

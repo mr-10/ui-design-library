@@ -8,12 +8,12 @@
  "description": "Pill white tooltip that scales up on hover.",
  "howItWorks": "On hover, background changes and opacity changes and it scales.",
  "tags": [
+  "contact",
+  "home",
   "rounded",
   "pill",
   "color-change",
-  "fade",
-  "scale",
-  "contact"
+  "fade"
  ],
  "colors": [
   "#ffffff",

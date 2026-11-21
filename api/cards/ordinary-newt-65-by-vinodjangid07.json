@@ -8,12 +8,12 @@
  "description": "Dark rounded violet card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #c083eb to whitesmoke, text color changes from #ffffff to #9c59cc.",
  "tags": [
+  "add",
   "violet",
   "dark",
   "rounded",
   "flat",
-  "color-change",
-  "add"
+  "color-change"
  ],
  "colors": [
   "#1c1f2f",

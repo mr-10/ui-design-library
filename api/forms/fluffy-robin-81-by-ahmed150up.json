@@ -8,12 +8,12 @@
  "description": "Outlined pill white form that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.2).",
  "tags": [
+  "play",
+  "pause",
   "outlined",
   "rounded",
   "pill",
-  "flat",
-  "scale",
-  "play"
+  "flat"
  ],
  "colors": [
   "#666666",

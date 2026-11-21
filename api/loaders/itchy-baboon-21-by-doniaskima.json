@@ -5,8 +5,8 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/itchy-baboon-21",
  "trigger": "auto-loop",
- "description": "Gradient dark black loader with animating motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating).",
+ "description": "Gradient black loader with moving motion in a loop.",
+ "howItWorks": "It loops a 2s animation (moving).",
  "tags": [
   "gradient",
   "dark",

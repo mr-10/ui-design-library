@@ -8,12 +8,12 @@
  "description": "3d dark rounded purple profile card that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #c143da to #ffffff, transform becomes rotateY(180deg).",
  "tags": [
-  "purple",
-  "3d",
-  "dark",
-  "outlined",
-  "rounded",
-  "flat"
+  "profile",
+  "github",
+  "facebook",
+  "twitter",
+  "back",
+  "social"
  ],
  "colors": [
   "#c143da",

@@ -8,9 +8,9 @@
  "description": "Sky-blue radio input that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: text color changes from #bbb7b7 to #016bf5.",
  "tags": [
+  "rating",
   "blue",
   "flat",
-  "rating",
   "radio-input",
   "input",
   "rating-button"

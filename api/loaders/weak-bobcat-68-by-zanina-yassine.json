@@ -5,15 +5,15 @@
  "author": "zanina-yassine",
  "source": "https://uiverse.io/zanina-yassine/weak-bobcat-68",
  "trigger": "auto-loop",
- "description": "Gradient pill sky-blue loader with fading motion in a loop.",
+ "description": "Gradient pill sky-blue loader with sliding motion in a loop.",
  "howItWorks": "It loops a 8s animation (fading, pulsing; sliding).",
  "tags": [
+  "back",
   "blue",
   "amber",
   "gradient",
   "rounded",
-  "pill",
-  "flat"
+  "pill"
  ],
  "colors": [
   "#4c9beb",

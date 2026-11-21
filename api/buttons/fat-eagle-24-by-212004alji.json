@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/212004ALJI/fat-eagle-24",
  "trigger": "hover",
  "description": "Emerald button that starts animating on hover with a smooth transition.",
- "howItWorks": "On hover, starts the glitch_4011 animation (animating), text-shadow becomes -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8, background-color changes to transparent.",
+ "howItWorks": "On hover, starts the glitch_4011 animation (sliding), text-shadow becomes -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8, background-color changes to transparent.",
  "tags": [
   "emerald",
   "teal",
   "color-change",
   "animated",
   "glow",
-  "button"
+  "slide"
  ],
  "colors": [
   "#00ffd5",

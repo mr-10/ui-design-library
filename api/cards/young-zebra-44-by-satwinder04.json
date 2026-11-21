@@ -5,7 +5,7 @@
  "author": "Satwinder04",
  "source": "https://uiverse.io/Satwinder04/young-zebra-44",
  "trigger": "hover",
- "description": "Dark rounded black card that scales up on hover.",
+ "description": "Rounded black card that scales up on hover.",
  "howItWorks": "On hover, transform becomes translateY(-10px), transform becomes scale(1.2), transform becomes translateY(-100%).",
  "tags": [
   "dark",

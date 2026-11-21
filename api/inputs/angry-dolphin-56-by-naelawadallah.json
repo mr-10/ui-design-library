@@ -5,14 +5,14 @@
  "author": "naelawadallah",
  "source": "https://uiverse.io/naelawadallah/angry-dolphin-56",
  "trigger": "hover",
- "description": "Dark rounded black text input that glows on hover.",
+ "description": "Outlined rounded black text input that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 0 1em #00000013. On focus, box-shadow becomes 0 0 1em #00000013, the outline is removed, background-color changes from transparent to #0a0a0aad.",
  "tags": [
+  "search",
   "dark",
   "outlined",
   "rounded",
   "glow",
-  "search",
   "text-input"
  ],
  "colors": [

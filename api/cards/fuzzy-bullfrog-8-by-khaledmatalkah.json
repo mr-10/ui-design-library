@@ -8,12 +8,12 @@
  "description": "Neon gradient 3d red card that reacts on hover.",
  "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
+  "back",
   "red",
   "neon",
   "gradient",
   "3d",
-  "outlined",
-  "spin"
+  "outlined"
  ],
  "colors": [
   "#d61515",

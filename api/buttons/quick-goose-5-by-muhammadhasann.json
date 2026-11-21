@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/MuhammadHasann/quick-goose-5",
  "trigger": "hover",
  "description": "3d rounded amber button that starts animating on hover.",
- "howItWorks": "On hover, transform becomes rotateX(15deg) rotateY(-15deg) rotateZ(0deg), box-shadow becomes -2px -2px #18181888, starts the shake animation (animating).",
+ "howItWorks": "On hover, transform becomes rotateX(15deg) rotateY(-15deg) rotateZ(0deg), box-shadow becomes -2px -2px #18181888, starts the shake animation (moving).",
  "tags": [
   "amber",
   "3d",

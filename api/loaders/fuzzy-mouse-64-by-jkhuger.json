@@ -5,7 +5,7 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/fuzzy-mouse-64",
  "trigger": "auto-loop",
- "description": "Gradient 3d rounded teal loader with fading; rotating motion in a loop.",
+ "description": "Gradient 3d rounded teal loader with rotating motion in a loop.",
  "howItWorks": "It loops a 1.2s animation (fading; rotating).",
  "tags": [
   "teal",

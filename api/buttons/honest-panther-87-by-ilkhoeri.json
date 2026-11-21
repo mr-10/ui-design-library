@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/ilkhoeri/honest-panther-87",
  "trigger": "hover",
  "description": "Outlined gray button that starts animating on hover.",
- "howItWorks": "On hover, border-color becomes hsl(211deg 100% 48%), text color changes to hsl(211deg 100% 48%), starts the has-liked-thumb animation (pulsing, rotating).",
+ "howItWorks": "On hover, border-color becomes hsl(211deg 100% 48%), text color changes to hsl(211deg 100% 48%), starts the has-liked-thumb animation (pulsing, rotating, sliding).",
  "tags": [
   "outlined",
   "flat",

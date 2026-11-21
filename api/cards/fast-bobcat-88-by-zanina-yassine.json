@@ -8,12 +8,12 @@
  "description": "Neon gradient pill sky-blue profile card that glows and scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.01) translateY(-2px), box-shadow becomes 0 10px 20px 0#054eed6b. On focus, border becomes 1px solid transparent, box-shadow becomes 0px 0px 0px 2px #115DFC, background-color changes from #00000011 to transparent.",
  "tags": [
+  "login",
+  "profile",
   "blue",
   "neon",
   "gradient",
-  "dark",
-  "outlined",
-  "rounded"
+  "dark"
  ],
  "colors": [
   "#115dfc",

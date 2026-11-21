@@ -8,12 +8,12 @@
  "description": "Gradient pill gray button that lifts and glows on hover.",
  "howItWorks": "On hover, transform becomes translateY(-5px), box-shadow becomes 0px 10px 15px 0px #0004, bottom becomes -6px. On focus, the outline is removed.",
  "tags": [
+  "send",
   "gradient",
   "rounded",
   "pill",
   "lift",
-  "glow",
-  "send"
+  "glow"
  ],
  "colors": [
   "#fdfffe",

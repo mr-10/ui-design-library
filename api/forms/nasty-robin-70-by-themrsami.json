@@ -8,12 +8,12 @@
  "description": "Rounded sky-blue login form that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, border changes and a ring appears.",
  "tags": [
-  "blue",
-  "rounded",
-  "color-change",
-  "ring",
   "password",
-  "google"
+  "google",
+  "email",
+  "social",
+  "blue",
+  "rounded"
  ],
  "colors": [
   "#4b5563",

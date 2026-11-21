@@ -8,12 +8,12 @@
  "description": "Outlined rounded dark teal login form that fades on hover.",
  "howItWorks": "On hover, opacity becomes .9. On focus, transform becomes translateY(4px), box-shadow becomes 1px 2px 0px 0px #E99F4C.",
  "tags": [
+  "login",
+  "password",
+  "email",
   "teal",
   "amber",
-  "outlined",
-  "rounded",
-  "fade",
-  "login"
+  "outlined"
  ],
  "colors": [
   "#264143",

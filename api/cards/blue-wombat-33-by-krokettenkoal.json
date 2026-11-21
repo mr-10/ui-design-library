@@ -5,7 +5,7 @@
  "author": "krokettenkoal",
  "source": "https://uiverse.io/krokettenkoal/blue-wombat-33",
  "trigger": "hover",
- "description": "Glass gradient dark rounded dark purple card that starts animating on hover.",
+ "description": "Glass gradient rounded dark purple card that starts animating on hover.",
  "howItWorks": "On hover, text color changes from #bdbc8d to #2d093a, border-color becomes transparent, background-color changes from transparent to #e5ca45.",
  "tags": [
   "purple",

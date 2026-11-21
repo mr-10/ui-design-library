@@ -8,11 +8,11 @@
  "description": "Pink button that changes colour on hover with a smooth transition.",
  "howItWorks": "On hover, translate becomes -0px -10px, background-color changes to #dd9dbd, background-color changes to #f16060.",
  "tags": [
+  "social",
   "pink",
   "red",
   "flat",
   "color-change",
-  "social",
   "button"
  ],
  "colors": [

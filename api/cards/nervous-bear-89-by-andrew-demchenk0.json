@@ -5,7 +5,7 @@
  "author": "andrew-demchenk0",
  "source": "https://uiverse.io/andrew-demchenk0/nervous-bear-89",
  "trigger": "static",
- "description": "Rounded sky-blue card with soft shadow and rounded corners.",
+ "description": "Rounded sky-blue card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "blue",

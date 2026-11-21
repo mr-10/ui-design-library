@@ -5,12 +5,12 @@
  "author": "Kagamiie",
  "source": "https://uiverse.io/Kagamiie/funny-ladybug-49",
  "trigger": "static",
- "description": "Rounded light blue card with soft shadow and rounded corners.",
+ "description": "Rounded light blue card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "delete",
   "blue",
   "rounded",
-  "delete",
   "simple",
   "card",
   "about-me"

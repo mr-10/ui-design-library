@@ -8,12 +8,12 @@
  "description": "Outlined rounded dark blue newsletter form that glows on hover.",
  "howItWorks": "On hover, background-color changes from #0f0092 to #07013d, box-shadow becomes -5px 6px 20px 0px #585858. On focus, the outline is removed, border-bottom becomes 1px solid #0d095e.",
  "tags": [
+  "submit",
+  "newsletter",
   "blue",
   "outlined",
   "rounded",
-  "glow",
-  "color-change",
-  "submit"
+  "glow"
  ],
  "colors": [
   "#333333",

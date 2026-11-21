@@ -8,11 +8,11 @@
  "description": "Fuchsia button that changes colour on hover with a smooth transition.",
  "howItWorks": "On hover, left becomes 0.6em, text color changes from #bc2a8d to #fff, opacity becomes 1.",
  "tags": [
+  "follow",
   "fuchsia",
   "flat",
   "color-change",
   "fade",
-  "follow",
   "instagram"
  ],
  "colors": [

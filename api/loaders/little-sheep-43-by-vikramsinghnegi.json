@@ -5,8 +5,8 @@
  "author": "vikramsinghnegi",
  "source": "https://uiverse.io/vikramsinghnegi/little-sheep-43",
  "trigger": "auto-loop",
- "description": "Outlined black loader with animating motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating).",
+ "description": "Outlined black loader with moving motion in a loop.",
+ "howItWorks": "It loops a 2s animation (moving).",
  "tags": [
   "outlined",
   "flat",

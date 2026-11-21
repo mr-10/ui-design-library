@@ -5,7 +5,7 @@
  "author": "AqFox",
  "source": "https://uiverse.io/AqFox/sour-robin-86",
  "trigger": "auto-loop",
- "description": "Pill sky-blue spinner loader with bouncing motion in a loop.",
+ "description": "Pill sky-blue spinner loader with rotating motion in a loop.",
  "howItWorks": "It loops a 1.25s animation (bouncing, rotating).",
  "tags": [
   "blue",

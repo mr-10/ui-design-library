@@ -5,14 +5,14 @@
  "author": "FahadArnob52539",
  "source": "https://uiverse.io/FahadArnob52539/bitter-goose-93",
  "trigger": "static",
- "description": "Outlined rounded blue login form with rounded corners.",
+ "description": "Outlined rounded blue login form with clean lines.",
  "howItWorks": "It has no hover, click, focus or animation states; the login form is a fixed design.",
  "tags": [
+  "login",
   "blue",
   "outlined",
   "rounded",
   "flat",
-  "login",
   "login-form"
  ],
  "colors": [

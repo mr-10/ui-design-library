@@ -8,12 +8,12 @@
  "description": "Rounded white button that toggles on and off when clicked.",
  "howItWorks": "On hover, background-color changes from #f9f9f9 to #e0e0e0, box-shadow becomes inset -2px -2px 5px #000000,\n    3px 3px 7px #000000, transform becomes translateY(-2px). Clicking it toggles it: opacity becomes 0, starts the fadeIn animation (fading), starts the send animation (rotating, sliding).",
  "tags": [
+  "send",
   "rounded",
   "lift",
   "glow",
   "color-change",
-  "rotate",
-  "animated"
+  "rotate"
  ],
  "colors": [
   "#dddddd",

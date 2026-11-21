@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded gray card that lifts and glows on hover.",
  "howItWorks": "On hover, transform becomes translateY(-5px), box-shadow becomes 0px 8px 8px #000000.",
  "tags": [
+  "upload",
   "gradient",
   "dark",
   "outlined",
   "rounded",
-  "lift",
-  "glow"
+  "lift"
  ],
  "colors": [
   "#1f1f1f",

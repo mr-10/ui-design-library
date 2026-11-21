@@ -5,15 +5,15 @@
  "author": "kerolos23",
  "source": "https://uiverse.io/kerolos23/ancient-lizard-27",
  "trigger": "auto-loop",
- "description": "Pill purple loader with animating; pulsing motion in a loop.",
- "howItWorks": "It loops a 0.6s animation (animating; pulsing).",
+ "description": "Pill purple loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 0.6s animation (pulsing; sliding).",
  "tags": [
   "purple",
   "rounded",
   "pill",
   "flat",
   "pulse",
-  "loader"
+  "slide"
  ],
  "colors": [
   "#c517f0",

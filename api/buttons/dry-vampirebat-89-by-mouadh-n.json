@@ -8,12 +8,12 @@
  "description": "Glass gradient rounded indigo button that glows on hover.",
  "howItWorks": "On hover, transform becomes translateY(10px), box-shadow becomes -10px 0 50px #f1006c,\n    10px 0 50px #551fc8.",
  "tags": [
+  "back",
   "indigo",
   "purple",
   "glassmorphism",
   "gradient",
-  "rounded",
-  "drop"
+  "rounded"
  ],
  "colors": [
   "#551fc8",

@@ -5,15 +5,15 @@
  "author": "sameer2malik",
  "source": "https://uiverse.io/sameer2malik/lucky-insect-98",
  "trigger": "static",
- "description": "Rounded white login form with soft shadow and rounded corners.",
+ "description": "Rounded white login form with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the login form is a fixed design.",
  "tags": [
-  "rounded",
   "login",
   "signup",
   "submit",
   "facebook",
-  "login-form"
+  "social",
+  "rounded"
  ],
  "colors": [
   "#a1a1a1",

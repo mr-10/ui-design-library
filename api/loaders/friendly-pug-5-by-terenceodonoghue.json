@@ -5,7 +5,7 @@
  "author": "terenceodonoghue",
  "source": "https://uiverse.io/terenceodonoghue/friendly-pug-5",
  "trigger": "auto-loop",
- "description": "Pill cyan loader with fading motion in a loop.",
+ "description": "Pill cyan loader with pulsing motion in a loop.",
  "howItWorks": "It loops a 1.8s animation (fading, pulsing).",
  "tags": [
   "cyan",

@@ -5,7 +5,7 @@
  "author": "vk-uiux",
  "source": "https://uiverse.io/vk-uiux/grumpy-dolphin-30",
  "trigger": "auto-loop",
- "description": "3d white loader with fading motion in a loop.",
+ "description": "3d white loader with rotating motion in a loop.",
  "howItWorks": "It loops a 2s animation (fading, rotating).",
  "tags": [
   "3d",

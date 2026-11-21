@@ -8,11 +8,11 @@
  "description": "Gradient rounded blue download button that reacts on hover.",
  "howItWorks": "On hover, border-color becomes #f4f5f2.",
  "tags": [
+  "download",
   "blue",
   "gradient",
   "outlined",
   "rounded",
-  "download",
   "download-button"
  ],
  "colors": [

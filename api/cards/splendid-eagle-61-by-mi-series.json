@@ -8,11 +8,11 @@
  "description": "Rounded emerald pricing card that fades on hover.",
  "howItWorks": "On hover, opacity becomes .85.",
  "tags": [
+  "pricing",
+  "newsletter",
   "emerald",
   "rounded",
   "fade",
-  "pricing",
-  "newsletter",
   "pricing-card"
  ],
  "colors": [

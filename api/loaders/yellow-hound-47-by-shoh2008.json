@@ -5,7 +5,7 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/yellow-hound-47",
  "trigger": "auto-loop",
- "description": "White loader with fading motion in a loop.",
+ "description": "White loader with rotating motion in a loop.",
  "howItWorks": "It loops a 8s animation (fading, rotating, sliding; growing and shrinking).",
  "tags": [
   "fade",

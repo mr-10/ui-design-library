@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/escannord/ugly-octopus-60",
  "trigger": "auto-loop",
  "description": "Outlined pill indigo loader with rotating motion in a loop.",
- "howItWorks": "It loops a 2s animation (rotating).",
+ "howItWorks": "It loops a 2s animation (rotating, sliding).",
  "tags": [
   "indigo",
   "outlined",

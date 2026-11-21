@@ -8,12 +8,12 @@
  "description": "Neon rounded pink contact form that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.1). On focus, the outline is removed, box-shadow becomes 0 0 5px #ff6384, transform becomes scale(1.05).",
  "tags": [
+  "submit",
+  "contact",
+  "email",
   "pink",
   "neon",
-  "outlined",
-  "rounded",
-  "scale",
-  "submit"
+  "outlined"
  ],
  "colors": [
   "#ff6384",

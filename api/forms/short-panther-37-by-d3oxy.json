@@ -8,12 +8,12 @@
  "description": "Gray form that changes colour on hover with a smooth transition.",
  "howItWorks": "On hover, text color changes from #323232 to #e8e8e8, width becomes 100%.",
  "tags": [
-  "color-change",
-  "expand",
   "google",
   "github",
-  "form",
-  "login-form"
+  "social",
+  "color-change",
+  "expand",
+  "form"
  ],
  "colors": [
   "#323232",

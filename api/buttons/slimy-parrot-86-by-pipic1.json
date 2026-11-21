@@ -5,7 +5,7 @@
  "author": "pipic1",
  "source": "https://uiverse.io/pipic1/slimy-parrot-86",
  "trigger": "static",
- "description": "Gradient light blue button with soft shadow and gradient fill.",
+ "description": "Gradient light blue button with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
   "blue",

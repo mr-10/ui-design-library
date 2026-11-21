@@ -8,11 +8,11 @@
  "description": "Pill emerald toggle switch that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: background-color changes from none to #4b725e, border becomes 4px solid  #07bd80, top becomes 2px.",
  "tags": [
+  "rating",
   "emerald",
   "rounded",
   "pill",
   "flat",
-  "rating",
   "toggle-switch"
  ],
  "colors": [

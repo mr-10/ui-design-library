@@ -5,8 +5,8 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/slimy-tiger-93",
  "trigger": "auto-loop",
- "description": "Black spinner loader with animating; fading motion in a loop.",
- "howItWorks": "It loops a animation (animating; fading, pulsing).",
+ "description": "Black spinner loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a animation (fading, pulsing; moving).",
  "tags": [
   "fade",
   "pulse",

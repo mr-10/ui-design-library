@@ -8,11 +8,11 @@
  "description": "Rounded sky-blue search input that changes colour on hover.",
  "howItWorks": "On hover, text colour changes and background changes. On focus, a ring appears and border changes.",
  "tags": [
+  "search",
   "blue",
   "rounded",
   "ring",
   "color-change",
-  "search",
   "search-input"
  ],
  "colors": [

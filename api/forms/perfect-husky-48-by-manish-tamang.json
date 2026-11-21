@@ -8,12 +8,12 @@
  "description": "Rounded sky-blue form that changes colour on hover.",
  "howItWorks": "On hover, text colour changes and background changes.",
  "tags": [
-  "blue",
-  "rounded",
-  "color-change",
   "login",
   "google",
-  "email"
+  "email",
+  "social",
+  "blue",
+  "rounded"
  ],
  "colors": [
   "#3b82f6",

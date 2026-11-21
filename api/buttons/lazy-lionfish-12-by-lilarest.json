@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/LilaRest/lazy-lionfish-12",
  "trigger": "hover",
  "description": "Rounded white button that starts animating on hover.",
- "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (animating).",
+ "howItWorks": "On hover, background-color changes from #e8e8e8 to #eee, transform becomes scale(105%), starts the movingBorders animation (moving).",
  "tags": [
   "rounded",
   "scale",

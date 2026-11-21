@@ -8,12 +8,12 @@
  "description": "Neon rounded green download button that lifts and glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 0 0px 1px #42f112,\n    0 0 10px 2px #33fd30,\n    inset 0 0 0px 1px #42f112,\n    inset 0 0 30px 2px #33fd30, text-shadow becomes 0 0 10px #33fd30, transform becomes translateY(-5px).",
  "tags": [
+  "download",
   "green",
   "neon",
   "outlined",
   "rounded",
-  "lift",
-  "glow"
+  "lift"
  ],
  "colors": [
   "#33fd30",

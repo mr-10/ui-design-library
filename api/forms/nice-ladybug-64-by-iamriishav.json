@@ -8,11 +8,11 @@
  "description": "Neon sky-blue login form that changes colour on hover.",
  "howItWorks": "On hover, background changes from #42b72a to #196fe0, background changes from #42b72a to #34a61d. On focus, outline becomes 1.2px solid #1877f2.",
  "tags": [
+  "password",
   "blue",
   "neon",
   "outlined",
   "color-change",
-  "password",
   "login-form"
  ],
  "colors": [

@@ -5,12 +5,12 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/mean-vampirebat-50",
  "trigger": "static",
- "description": "Indigo pricing card with clean lines with a smooth transition.",
+ "description": "Indigo pricing card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the pricing card is a fixed design.",
  "tags": [
+  "pricing",
   "indigo",
   "flat",
-  "pricing",
   "pricing-card",
   "card",
   "dark"

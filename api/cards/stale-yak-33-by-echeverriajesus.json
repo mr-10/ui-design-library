@@ -8,11 +8,11 @@
  "description": "Rounded dark green pricing card that scales up on hover.",
  "howItWorks": "On hover, it scales.",
  "tags": [
+  "delete",
+  "edit",
   "green",
   "rounded",
   "scale",
-  "delete",
-  "edit",
   "pricing-card"
  ],
  "colors": [

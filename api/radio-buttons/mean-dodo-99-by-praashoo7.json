@@ -8,12 +8,12 @@
  "description": "Neon gradient pill red radio button that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: starts the flicker animation (fading), opacity becomes 1, opacity becomes 0.",
  "tags": [
+  "back",
   "red",
   "neon",
   "gradient",
   "dark",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#47434c",

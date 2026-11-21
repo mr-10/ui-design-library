@@ -5,12 +5,12 @@
  "author": "revanth-004",
  "source": "https://uiverse.io/revanth-004/gentle-grasshopper-79",
  "trigger": "static",
- "description": "Sky-blue card with soft shadow with a smooth transition.",
+ "description": "Sky-blue card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "close",
   "blue",
   "green",
-  "close",
   "alert",
   "minimalist",
   "success"

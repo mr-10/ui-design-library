@@ -8,12 +8,12 @@
  "description": "Outlined pill yellow button that slides on hover.",
  "howItWorks": "On hover, transform becomes translateX(58px), border-radius becomes 40px, transform becomes translate(10px,0px).",
  "tags": [
+  "cart",
+  "add",
   "yellow",
   "outlined",
   "rounded",
-  "pill",
-  "slide",
-  "cart"
+  "pill"
  ],
  "colors": [
   "#ffd000",

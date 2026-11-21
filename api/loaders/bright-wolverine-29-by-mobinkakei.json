@@ -5,7 +5,7 @@
  "author": "mobinkakei",
  "source": "https://uiverse.io/mobinkakei/bright-wolverine-29",
  "trigger": "auto-loop",
- "description": "Pill green spinner loader with fading motion in a loop.",
+ "description": "Pill green spinner loader with pulsing motion in a loop.",
  "howItWorks": "It loops a 2s animation (fading, pulsing).",
  "tags": [
   "green",

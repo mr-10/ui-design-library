@@ -8,11 +8,11 @@
  "description": "Outlined rounded red card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from transparent to #ff4942, background-color changes from transparent to #c5c5c5.",
  "tags": [
+  "delete",
   "red",
   "outlined",
   "rounded",
   "color-change",
-  "delete",
   "simple"
  ],
  "colors": [

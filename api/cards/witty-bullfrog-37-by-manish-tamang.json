@@ -8,12 +8,12 @@
  "description": "Gradient pill green pricing card that toggles on and off when clicked.",
  "howItWorks": "On hover, transform becomes scale(0.98). Clicking it toggles it: text color changes from #fff to #fff, left becomes 0%, width becomes 90px.",
  "tags": [
+  "pricing",
+  "email",
   "green",
   "violet",
   "gradient",
-  "outlined",
-  "rounded",
-  "pill"
+  "outlined"
  ],
  "colors": [
   "#22c55e",

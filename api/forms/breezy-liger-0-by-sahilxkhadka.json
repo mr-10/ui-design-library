@@ -8,12 +8,12 @@
  "description": "Neon rounded sky-blue login form that changes colour on hover.",
  "howItWorks": "On hover, background changes from #06b909 to #0f71f1, background changes from #06b909 to #03ad06. On focus, border becomes 1.8px solid #1877f2.",
  "tags": [
-  "blue",
-  "neon",
-  "rounded",
-  "color-change",
   "login",
-  "password"
+  "password",
+  "facebook",
+  "social",
+  "blue",
+  "neon"
  ],
  "colors": [
   "#1877f2",

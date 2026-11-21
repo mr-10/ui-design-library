@@ -14,13 +14,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "blue",
     "neon",
     "outlined",
     "rounded",
     "scale",
     "color-change",
-    "search",
     "text-input",
     "input",
     "input-effect"
@@ -115,6 +115,7 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "search",
     "purple",
     "blue",
     "gradient",
@@ -123,7 +124,6 @@
     "rounded",
     "flat",
     "fade",
-    "search",
     "search-input"
    ],
    "colors": [
@@ -176,16 +176,16 @@
    "author": "naelawadallah",
    "link": "https://uiverse.io/naelawadallah/angry-dolphin-56",
    "path": "uiverse/inputs/angry-dolphin-56-by-naelawadallah/",
-   "description": "Dark rounded black text input that glows on hover.",
+   "description": "Outlined rounded black text input that glows on hover.",
    "howItWorks": "On hover, box-shadow becomes 0 0 1em #00000013. On focus, box-shadow becomes 0 0 1em #00000013, the outline is removed, background-color changes from transparent to #0a0a0aad.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "dark",
     "outlined",
     "rounded",
     "glow",
-    "search",
     "text-input",
     "input",
     "hover"
@@ -217,13 +217,13 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "search",
     "fuchsia",
     "neon",
     "gradient",
     "dark",
     "outlined",
     "rounded",
-    "search",
     "text-input",
     "input",
     "shadow"
@@ -682,11 +682,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "blue",
     "gradient",
     "rounded",
     "pill",
-    "search",
     "text-input",
     "input",
     "search-bar",
@@ -717,12 +717,12 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "search",
     "blue",
     "gradient",
     "dark",
     "outlined",
     "rounded",
-    "search",
     "text-input",
     "purple",
     "input",
@@ -755,11 +755,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "gradient",
     "dark",
     "outlined",
     "rounded",
-    "search",
     "text-input",
     "input",
     "hover",
@@ -917,20 +917,20 @@
    "link": "https://uiverse.io/0xnihilism/calm-baboon-55",
    "path": "uiverse/inputs/calm-baboon-55-by-0xnihilism/",
    "description": "Gradient dark sky-blue text input that lights up when focused.",
-   "howItWorks": "On focus, starts the focus-pulse animation (animating), top becomes -2px, left becomes -2px.",
+   "howItWorks": "On focus, starts the focus-pulse animation (moving), top becomes -2px, left becomes -2px.",
    "trigger": "focus",
    "needsJs": false,
    "tags": [
     "blue",
     "gradient",
     "dark",
+    "slide",
     "shimmer",
     "text-input",
     "simple",
     "input",
     "smooth",
-    "flip",
-    "hover-button"
+    "flip"
    ],
    "colors": [
     "#4a90e2",
@@ -954,11 +954,12 @@
    "author": "themrsami",
    "link": "https://uiverse.io/themrsami/calm-eel-15",
    "path": "uiverse/inputs/calm-eel-15-by-themrsami/",
-   "description": "Gradient dark pill black text input that glows on hover.",
+   "description": "Gradient pill black text input that glows on hover.",
    "howItWorks": "On hover, background-color changes from #333 to #555, box-shadow becomes 0 0 15px #ffffff, transform becomes translate(-50%, -50%) scale(1). On focus, box-shadow becomes 0 0 30px #ffffff, transform becomes translate(-50%, -50%) scale(1.2), background changes from radial-gradient(circle, #ffffff, transparent) to radial-gradient(circle, #ffffff, transparent).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "gradient",
     "dark",
     "outlined",
@@ -967,7 +968,6 @@
     "color-change",
     "glow",
     "shrink",
-    "search",
     "text-input"
    ],
    "colors": [
@@ -1348,6 +1348,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "fuchsia",
     "gradient",
     "dark",
@@ -1356,8 +1357,7 @@
     "flat",
     "fade",
     "rotate",
-    "spin",
-    "search"
+    "spin"
    ],
    "colors": [
     "#010201",
@@ -1446,10 +1446,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "upload",
     "green",
     "rounded",
     "expand",
-    "upload",
     "file-input",
     "hover",
     "input",
@@ -1572,11 +1572,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "blue",
     "outlined",
     "flat",
     "color-change",
-    "submit",
     "email-input",
     "subscription",
     "input",
@@ -1639,11 +1639,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "password",
     "cyan",
     "rounded",
     "flat",
     "color-change",
-    "password",
     "password-input",
     "button",
     "form",
@@ -1669,8 +1669,8 @@
    "author": "tiagoadag1203",
    "link": "https://uiverse.io/tiagoadag1203/fat-parrot-54",
    "path": "uiverse/inputs/fat-parrot-54-by-tiagoadag1203/",
-   "description": "Dark rounded black text input that lights up when focused.",
-   "howItWorks": "On focus, starts the rotateShadow animation (animating).",
+   "description": "Rounded black text input that lights up when focused.",
+   "howItWorks": "On focus, starts the rotateShadow animation (moving).",
    "trigger": "focus",
    "needsJs": false,
    "tags": [
@@ -1707,11 +1707,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "outlined",
     "rounded",
     "pill",
     "color-change",
-    "search",
     "search-input",
     "input",
     "hover",
@@ -1937,11 +1937,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "blue",
     "rounded",
     "ring",
     "color-change",
-    "search",
     "search-input",
     "inputs",
     "css"
@@ -2104,12 +2104,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "blue",
     "outlined",
     "rounded",
     "glow",
     "color-change",
-    "submit",
     "text-input",
     "input",
     "about-me",
@@ -2171,9 +2171,9 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "password",
     "outlined",
     "flat",
-    "password",
     "text-input",
     "input",
     "key",
@@ -2202,11 +2202,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "pink",
     "outlined",
     "rounded",
     "flat",
-    "search",
     "text-input",
     "input",
     "search-bar",
@@ -2272,11 +2272,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "add",
     "dark",
     "outlined",
     "rounded",
     "fade",
-    "add",
     "file-input",
     "input",
     "message",
@@ -2435,10 +2435,11 @@
    "link": "https://uiverse.io/marcelodolza/grumpy-eel-20",
    "path": "uiverse/inputs/grumpy-eel-20-by-marcelodolza/",
    "description": "Neon gradient pill blue text input that toggles on and off when clicked.",
-   "howItWorks": "On hover, transform becomes translate(320px, 0) skew(30deg), filter becomes brightness(1.3), transform becomes scale(1.07). Clicking it toggles it: transform becomes translateY(0), opacity becomes 1, filter becomes blur(0). On focus, transform becomes translate(440px, 0) skew(40deg) scaleX(0.5), starts the shake animation (animating), opacity becomes 0.",
+   "howItWorks": "On hover, transform becomes translate(320px, 0) skew(30deg), filter becomes brightness(1.3), transform becomes scale(1.07). Clicking it toggles it: transform becomes translateY(0), opacity becomes 1, filter becomes blur(0). On focus, transform becomes translate(440px, 0) skew(40deg) scaleX(0.5), starts the shake animation (sliding), opacity becomes 0.",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "rating",
     "blue",
     "neon",
     "gradient",
@@ -2447,8 +2448,7 @@
     "rounded",
     "pill",
     "scale",
-    "color-change",
-    "lift"
+    "color-change"
    ],
    "colors": [
     "#f4ddff",
@@ -2474,16 +2474,16 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
     "cyan",
     "gradient",
     "outlined",
     "color-change",
     "spin",
-    "submit",
+    "slide",
     "text-input",
     "cyberpunk",
-    "input",
-    "neon"
+    "input"
    ],
    "colors": [
     "#66e0ff",
@@ -2575,10 +2575,10 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
-    "emerald",
-    "rounded",
     "play",
     "pause",
+    "emerald",
+    "rounded",
     "text-input",
     "animation",
     "media",
@@ -3050,9 +3050,9 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "search",
     "blue",
     "rounded",
-    "search",
     "text-input",
     "input",
     "light",
@@ -3082,9 +3082,9 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "phone",
     "rounded",
     "color-change",
-    "phone",
     "number-input",
     "inputs",
     "focus",
@@ -3115,9 +3115,9 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "rating",
     "blue",
     "flat",
-    "rating",
     "radio-input",
     "input",
     "rating-button",
@@ -3244,16 +3244,16 @@
    "author": "alexruix",
    "link": "https://uiverse.io/alexruix/jolly-emu-80",
    "path": "uiverse/inputs/jolly-emu-80-by-alexruix/",
-   "description": "Dark rounded black email input that changes colour on hover.",
+   "description": "Rounded black email input that changes colour on hover.",
    "howItWorks": "On hover, the outline is removed, border-color becomes #05060f, text color changes from #05060f99 to #05060fc2. On focus, the outline is removed, border-color becomes #05060f, text color changes from #05060f99 to #05060fc2.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "email",
     "dark",
     "rounded",
     "flat",
     "color-change",
-    "email",
     "email-input",
     "input",
     "hover"
@@ -3315,11 +3315,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "gradient",
     "outlined",
     "rounded",
     "pill",
-    "search",
     "text-input",
     "material-design",
     "blue",
@@ -3486,6 +3486,7 @@
     "green",
     "outlined",
     "flat",
+    "slide",
     "text-input",
     "input",
     "focus",
@@ -3515,16 +3516,16 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "search",
     "blue",
     "neon",
     "outlined",
     "rounded",
     "pill",
     "spin",
-    "search",
+    "slide",
     "search-input",
-    "input",
-    "focus"
+    "input"
    ],
    "colors": [
     "#255ff4",
@@ -3581,11 +3582,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "password",
+    "close",
     "green",
     "rounded",
     "flat",
-    "password",
-    "close",
     "password-input",
     "input",
     "hover",
@@ -3811,8 +3812,8 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
-    "outlined",
     "email",
+    "outlined",
     "email-input",
     "input",
     "focus"
@@ -3876,13 +3877,13 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "search",
     "lime",
     "dark",
     "outlined",
     "rounded",
     "pill",
     "flat",
-    "search",
     "text-input",
     "simple",
     "input"
@@ -3984,12 +3985,12 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "phone",
     "blue",
     "neon",
     "outlined",
     "rounded",
     "color-change",
-    "phone",
     "radio-input",
     "input",
     "validate",
@@ -4017,7 +4018,7 @@
    "author": "Minka1902",
    "link": "https://uiverse.io/Minka1902/neat-bear-54",
    "path": "uiverse/inputs/neat-bear-54-by-minka1902/",
-   "description": "Dark dark sky-blue text input that lights up when focused.",
+   "description": "Outlined dark sky-blue text input that lights up when focused.",
    "howItWorks": "On focus, box-shadow becomes none, width becomes 35%, width becomes 100%.",
    "trigger": "focus",
    "needsJs": false,
@@ -4055,10 +4056,10 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "newsletter",
     "blue",
     "outlined",
     "flat",
-    "newsletter",
     "email-input",
     "subscription",
     "email",
@@ -4089,13 +4090,13 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "search",
     "fuchsia",
     "blue",
     "neon",
     "gradient",
     "outlined",
     "shimmer",
-    "search",
     "text-input",
     "animation",
     "button"
@@ -4159,10 +4160,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "outlined",
     "rounded",
     "glow",
-    "search",
     "text-input",
     "input",
     "hover"
@@ -4701,16 +4702,16 @@
    "author": "Fadhilmagass",
    "link": "https://uiverse.io/Fadhilmagass/proud-mule-71",
    "path": "uiverse/inputs/proud-mule-71-by-fadhilmagass/",
-   "description": "Gradient dark rounded gray text input with animating motion in a loop.",
-   "howItWorks": "It loops a 5s animation (animating).",
+   "description": "Gradient dark rounded gray text input with moving motion in a loop.",
+   "howItWorks": "It loops a 5s animation (moving).",
    "trigger": "auto-loop",
    "needsJs": false,
    "tags": [
+    "search",
     "gradient",
     "dark",
     "outlined",
     "rounded",
-    "search",
     "text-input",
     "minimalist",
     "input",
@@ -4740,10 +4741,10 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
-    "emerald",
-    "rounded",
     "play",
     "pause",
+    "emerald",
+    "rounded",
     "text-input",
     "media",
     "button",
@@ -4778,9 +4779,9 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "password",
     "blue",
     "rounded",
-    "password",
     "password-input",
     "inputs",
     "focus",
@@ -4843,9 +4844,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "outlined",
     "flat",
-    "search",
     "text-input",
     "simple",
     "input",
@@ -5046,10 +5047,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "outlined",
     "color-change",
     "fade",
-    "search",
     "text-input",
     "input",
     "hover"
@@ -5073,7 +5074,7 @@
    "author": "BurgiSimon",
    "link": "https://uiverse.io/BurgiSimon/rotten-dolphin-78",
    "path": "uiverse/inputs/rotten-dolphin-78-by-burgisimon/",
-   "description": "Dark black text input that glows on hover.",
+   "description": "Black text input that glows on hover with a smooth transition.",
    "howItWorks": "On hover, box-shadow becomes 1px 1px 1px 1px #959793,\n    -1px -1px 1px 1px #7c7c7c, text color changes from whitesmoke to #999999. On focus, background-color changes from #121212 to #222, border becomes 1.5px solid #bdbdbd.",
    "trigger": "hover",
    "needsJs": false,
@@ -5146,10 +5147,10 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "dark",
     "flat",
     "color-change",
-    "search",
     "text-input",
     "simple",
     "material-design",
@@ -5214,9 +5215,9 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "email",
     "red",
     "green",
-    "email",
     "email-input",
     "inputs",
     "focus",
@@ -5314,6 +5315,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "add",
     "amber",
     "orange",
     "neon",
@@ -5322,7 +5324,6 @@
     "rounded",
     "glow",
     "color-change",
-    "add",
     "text-input"
    ],
    "colors": [
@@ -5379,10 +5380,11 @@
    "link": "https://uiverse.io/siraj-ha/serious-moose-70",
    "path": "uiverse/inputs/serious-moose-70-by-siraj-ha/",
    "description": "Neon rounded blue search input that starts animating on hover.",
-   "howItWorks": "On hover, box-shadow becomes 10px 10px 20px #6c6eff,\n    -10px -10px 20px #ff59e9, starts the rotateGlow animation (animating).",
+   "howItWorks": "On hover, box-shadow becomes 10px 10px 20px #6c6eff,\n    -10px -10px 20px #ff59e9, starts the rotateGlow animation (moving).",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "blue",
     "fuchsia",
     "neon",
@@ -5391,7 +5393,6 @@
     "rounded",
     "glow",
     "animated",
-    "search",
     "search-input"
    ],
    "colors": [
@@ -5486,6 +5487,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "blue",
     "fuchsia",
     "neon",
@@ -5494,8 +5496,7 @@
     "rounded",
     "pill",
     "fade",
-    "spin",
-    "search"
+    "spin"
    ],
    "colors": [
     "#434343",
@@ -5592,9 +5593,9 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "email",
     "rounded",
     "glow",
-    "email",
     "text-input",
     "inputs",
     "focus",
@@ -5657,9 +5658,9 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "email",
     "outlined",
     "flat",
-    "email",
     "text-input",
     "animation",
     "white",
@@ -5691,9 +5692,9 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "rounded",
     "glow",
-    "search",
     "text-input",
     "input",
     "hover"
@@ -5826,6 +5827,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "blue",
     "fuchsia",
     "neon",
@@ -5834,8 +5836,7 @@
     "rounded",
     "pill",
     "scale",
-    "glow",
-    "color-change"
+    "glow"
    ],
    "colors": [
     "#7864ff",
@@ -5967,12 +5968,12 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "close",
     "emerald",
     "outlined",
     "rounded",
     "pill",
     "flat",
-    "close",
     "text-input",
     "input",
     "search",
@@ -6034,11 +6035,11 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "add",
     "teal",
     "blue",
     "flat",
     "fade",
-    "add",
     "text-input",
     "input",
     "submit",
@@ -6206,14 +6207,14 @@
    "author": "krlozCJ",
    "link": "https://uiverse.io/krlozCJ/splendid-starfish-73",
    "path": "uiverse/inputs/splendid-starfish-73-by-krlozcj/",
-   "description": "Dark rounded black search input that lights up when focused.",
+   "description": "Rounded black search input that lights up when focused.",
    "howItWorks": "On focus, width becomes 200px, box-shadow becomes 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%), inset 1.5px 1.5px 3px #0e0e0e, inset -1.5px -1.5px 3px #5f5e5e.",
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "search",
     "dark",
     "rounded",
-    "search",
     "search-input",
     "input",
     "focus"
@@ -6242,13 +6243,13 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "search",
     "indigo",
     "neon",
     "gradient",
     "dark",
     "outlined",
     "rounded",
-    "search",
     "text-input",
     "icon",
     "purple"
@@ -6366,7 +6367,7 @@
    "author": "eslam-hany",
    "link": "https://uiverse.io/eslam-hany/strange-goose-48",
    "path": "uiverse/inputs/strange-goose-48-by-eslam-hany/",
-   "description": "Dark dark sky-blue text input that lights up when focused.",
+   "description": "Outlined dark sky-blue text input that lights up when focused.",
    "howItWorks": "On focus, box-shadow becomes none, width becomes 35%, width becomes 100%.",
    "trigger": "focus",
    "needsJs": false,
@@ -6402,6 +6403,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "blue",
     "purple",
     "neon",
@@ -6410,8 +6412,7 @@
     "outlined",
     "rounded",
     "scale",
-    "color-change",
-    "fade"
+    "color-change"
    ],
    "colors": [
     "#0000ff",
@@ -6468,6 +6469,8 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "submit",
+    "add",
     "pink",
     "blue",
     "neon",
@@ -6475,8 +6478,6 @@
     "dark",
     "rounded",
     "color-change",
-    "submit",
-    "add",
     "text-input"
    ],
    "colors": [
@@ -6506,13 +6507,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "blue",
     "outlined",
     "rounded",
     "flat",
     "scale",
     "shrink",
-    "search",
     "search-input",
     "animation",
     "button"
@@ -6572,10 +6573,10 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "rating",
     "violet",
     "flat",
     "color-change",
-    "rating",
     "radio-input",
     "input",
     "stars",
@@ -6604,6 +6605,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "fuchsia",
     "blue",
     "gradient",
@@ -6612,8 +6614,7 @@
     "pill",
     "color-change",
     "expand",
-    "animated",
-    "search"
+    "animated"
    ],
    "colors": [
     "#b43598",
@@ -6671,12 +6672,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
+    "close",
     "cyan",
     "outlined",
     "rounded",
     "pill",
-    "search",
-    "close",
     "text-input",
     "input",
     "hover"
@@ -6733,8 +6734,8 @@
    "author": "akshat-patel28",
    "link": "https://uiverse.io/akshat-patel28/tender-dolphin-38",
    "path": "uiverse/inputs/tender-dolphin-38-by-akshat-patel28/",
-   "description": "Outlined pill teal file input with animating; fading motion in a loop.",
-   "howItWorks": "It loops a 2s animation (animating; fading).",
+   "description": "Outlined pill teal file input with fading motion in a loop.",
+   "howItWorks": "It loops a 2s animation (fading; moving).",
    "trigger": "auto-loop",
    "needsJs": false,
    "tags": [
@@ -6832,15 +6833,15 @@
    "author": "LightAndy1",
    "link": "https://uiverse.io/LightAndy1/tidy-pig-67",
    "path": "uiverse/inputs/tidy-pig-67-by-lightandy1/",
-   "description": "Dark rounded black search input that glows on hover.",
+   "description": "Rounded black search input that glows on hover.",
    "howItWorks": "On hover, box-shadow becomes 0 0 0 2.5px #2f303d, 0px 0px 25px -15px #000. On focus, box-shadow becomes 0 0 0 2.5px #2f303d.",
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "dark",
     "rounded",
     "glow",
-    "search",
     "search-input",
     "simple",
     "icon",
@@ -6975,10 +6976,10 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "email",
     "violet",
     "outlined",
     "flat",
-    "email",
     "text-input",
     "simple",
     "minimalist",
@@ -7080,11 +7081,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "blue",
     "rounded",
     "ring",
     "color-change",
-    "search",
     "search-input",
     "inputs",
     "css"
@@ -7304,6 +7305,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "green",
     "gradient",
     "3d",
@@ -7312,8 +7314,7 @@
     "pill",
     "glow",
     "color-change",
-    "scale",
-    "pulse"
+    "scale"
    ],
    "colors": [
     "#4caf50",
@@ -7377,13 +7378,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "search",
     "indigo",
     "blue",
     "dark",
     "rounded",
     "glow",
     "color-change",
-    "search",
     "text-input",
     "inputs",
     "hover"
@@ -7445,9 +7446,9 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "email",
     "outlined",
     "rounded",
-    "email",
     "text-input",
     "form",
     "input",
@@ -7512,6 +7513,7 @@
    "trigger": "focus",
    "needsJs": false,
    "tags": [
+    "search",
     "fuchsia",
     "purple",
     "gradient",
@@ -7520,7 +7522,6 @@
     "pill",
     "flat",
     "spin",
-    "search",
     "text-input"
    ],
    "colors": [

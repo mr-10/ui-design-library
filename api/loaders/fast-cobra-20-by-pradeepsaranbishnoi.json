@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/Pradeepsaranbishnoi/fast-cobra-20",
  "trigger": "auto-loop",
  "description": "3d rounded dark sky-blue dots loader with rotating motion in a loop.",
- "howItWorks": "It loops a animation (rotating).",
+ "howItWorks": "It loops a animation (rotating, sliding).",
  "tags": [
   "blue",
   "cyan",

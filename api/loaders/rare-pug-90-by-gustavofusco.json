@@ -5,11 +5,12 @@
  "author": "gustavofusco",
  "source": "https://uiverse.io/gustavofusco/rare-pug-90",
  "trigger": "static",
- "description": "White loader with clean lines with a smooth transition.",
+ "description": "White loader with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the loader is a fixed design.",
  "tags": [
   "flat",
   "spin",
+  "slide",
   "loader",
   "pen"
  ],

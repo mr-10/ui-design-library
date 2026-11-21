@@ -8,9 +8,9 @@
  "description": "Outlined white text input that reacts on hover.",
  "howItWorks": "On focus, the outline is removed.",
  "tags": [
+  "search",
   "outlined",
   "flat",
-  "search",
   "text-input",
   "simple",
   "input"

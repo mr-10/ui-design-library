@@ -8,12 +8,12 @@
  "description": "Pill light violet download button that starts animating on hover.",
  "howItWorks": "On hover, opacity becomes 1, background-color changes from #0c0c0c to #965eff, border-bottom becomes 2px solid #ebebeb.",
  "tags": [
+  "download",
   "violet",
   "rounded",
   "pill",
   "fade",
-  "color-change",
-  "animated"
+  "color-change"
  ],
  "colors": [
   "#0c0c0c",

@@ -5,12 +5,12 @@
  "author": "MetaBlue2000",
  "source": "https://uiverse.io/MetaBlue2000/friendly-chipmunk-57",
  "trigger": "static",
- "description": "Outlined rounded gray button with soft shadow and rounded corners.",
+ "description": "Outlined rounded gray button with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
+  "send",
   "outlined",
   "rounded",
-  "send",
   "message",
   "challenge",
   "effect-3d"

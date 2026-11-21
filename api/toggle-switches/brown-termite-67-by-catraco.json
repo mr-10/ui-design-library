@@ -8,11 +8,11 @@
  "description": "Rounded blue toggle switch that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: background-color changes from #5050e5 to #35d5e5, transform becomes translate(100%) rotate(180deg), opacity becomes 0.",
  "tags": [
+  "back",
   "blue",
   "amber",
   "rounded",
   "flat",
-  "back",
   "toggle-switch"
  ],
  "colors": [

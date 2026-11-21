@@ -8,12 +8,12 @@
  "description": "Outlined rounded sky-blue card that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.05) translateY(-3px), background-color changes from #ECECEC to #F5F8FE, background-color changes from #ECECEC to #1763fa.",
  "tags": [
-  "blue",
-  "outlined",
-  "rounded",
-  "scale",
-  "lift",
-  "color-change"
+  "search",
+  "upload",
+  "save",
+  "edit",
+  "add",
+  "email"
  ],
  "colors": [
   "#ececec",

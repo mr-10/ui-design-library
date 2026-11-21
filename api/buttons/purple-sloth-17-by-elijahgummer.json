@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded yellow button that glows on hover.",
  "howItWorks": "On hover, background-color changes from linear-gradient(45deg, #ffc75d, #ffc708) to #ffc75d !important, box-shadow becomes 0 0 34px #ffb20861 !important, text-shadow becomes 0 0 4px #ffe825.",
  "tags": [
+  "upload",
   "yellow",
   "amber",
   "neon",
   "gradient",
-  "rounded",
-  "glow"
+  "rounded"
  ],
  "colors": [
   "#ffe825",

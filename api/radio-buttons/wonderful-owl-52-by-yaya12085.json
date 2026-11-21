@@ -5,7 +5,7 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/wonderful-owl-52",
  "trigger": "checked",
- "description": "Dark pill dark green radio button that toggles on and off when clicked.",
+ "description": "Pill dark green radio button that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: background-color changes from #212121 to #008000, top becomes 0, background-color changes from #212121 to #4169e1.",
  "tags": [
   "green",

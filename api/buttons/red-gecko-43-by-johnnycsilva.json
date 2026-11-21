@@ -5,7 +5,7 @@
  "author": "JohnnyCSilva",
  "source": "https://uiverse.io/JohnnyCSilva/red-gecko-43",
  "trigger": "hover",
- "description": "Dark dark sky-blue button that glows and scales up on hover.",
+ "description": "Dark sky-blue button that glows and scales up on hover.",
  "howItWorks": "On hover, background-color changes from #031d67 to #051749, box-shadow becomes 0px 22px 19px -8px #100877, transform becomes scale(1.02,1.02).",
  "tags": [
   "blue",

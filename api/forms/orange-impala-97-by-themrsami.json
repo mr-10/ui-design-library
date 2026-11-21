@@ -8,12 +8,12 @@
  "description": "Rounded gray login form that changes colour on hover.",
  "howItWorks": "On hover, text colour changes and background changes. On focus, border changes and a ring appears.",
  "tags": [
-  "rounded",
-  "color-change",
-  "ring",
   "password",
   "google",
-  "login-form"
+  "social",
+  "rounded",
+  "color-change",
+  "ring"
  ],
  "colors": [
   "#374151",

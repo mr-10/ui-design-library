@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/Na3ar-17/sweet-horse-64",
  "trigger": "hover",
  "description": "Gradient white button that starts animating on hover.",
- "howItWorks": "On hover, starts the pulse animation, starts the pulse512 animation (animating), letter-spacing becomes 2px.",
+ "howItWorks": "On hover, starts the pulse animation, starts the pulse512 animation (moving), letter-spacing becomes 2px.",
  "tags": [
   "gradient",
   "outlined",

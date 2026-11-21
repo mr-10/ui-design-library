@@ -5,7 +5,7 @@
  "author": "niat786",
  "source": "https://uiverse.io/niat786/swift-bullfrog-83",
  "trigger": "hover",
- "description": "Dark black button that changes colour on hover.",
+ "description": "Black button that changes colour on hover with a smooth transition.",
  "howItWorks": "On hover, background changes from #000000 to #2b2a2a.",
  "tags": [
   "dark",

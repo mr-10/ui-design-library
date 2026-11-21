@@ -5,7 +5,7 @@
  "author": "Tsiangana",
  "source": "https://uiverse.io/Tsiangana/mighty-grasshopper-37",
  "trigger": "auto-loop",
- "description": "Outlined pill yellow spinner loader with bouncing; fading motion in a loop.",
+ "description": "Outlined pill yellow spinner loader with bouncing motion in a loop.",
  "howItWorks": "It loops a 2s animation (bouncing; fading, pulsing).",
  "tags": [
   "yellow",

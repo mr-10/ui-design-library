@@ -5,15 +5,15 @@
  "author": "JaydipPrajapati1910",
  "source": "https://uiverse.io/JaydipPrajapati1910/kind-lionfish-71",
  "trigger": "static",
- "description": "Gradient rounded dark cyan product card with soft shadow and rounded corners and gradient fill.",
+ "description": "Gradient rounded dark cyan product card with soft shadow.",
  "howItWorks": "It has no hover, click, focus or animation states; the product card is a fixed design.",
  "tags": [
-  "cyan",
-  "gradient",
-  "outlined",
-  "rounded",
   "menu",
-  "social"
+  "social",
+  "facebook",
+  "twitter",
+  "chat",
+  "cyan"
  ],
  "colors": [
   "#055586",

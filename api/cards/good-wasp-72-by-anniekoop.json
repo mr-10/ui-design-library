@@ -8,11 +8,11 @@
  "description": "Outlined rounded sky-blue card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from transparent to #d3ddf1, border becomes 1.5px solid #1677ff.",
  "tags": [
+  "edit",
   "blue",
   "outlined",
   "rounded",
   "color-change",
-  "edit",
   "simple"
  ],
  "colors": [

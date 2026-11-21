@@ -8,11 +8,11 @@
  "description": "Rounded cyan button that slides on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translateX(96px), transform becomes translateX(100px).",
  "tags": [
+  "follow",
   "cyan",
   "rounded",
   "flat",
   "slide",
-  "follow",
   "button"
  ],
  "colors": [

@@ -5,7 +5,7 @@
  "author": "omar-alghaish",
  "source": "https://uiverse.io/omar-alghaish/moody-wombat-53",
  "trigger": "auto-loop",
- "description": "Rounded red loader with bouncing motion in a loop.",
+ "description": "Rounded red loader with rotating motion in a loop.",
  "howItWorks": "It loops a animation (bouncing, pulsing, rotating).",
  "tags": [
   "red",

@@ -5,8 +5,8 @@
  "author": "mobinkakei",
  "source": "https://uiverse.io/mobinkakei/tidy-cheetah-71",
  "trigger": "auto-loop",
- "description": "Gradient white pattern with animating motion in a loop.",
- "howItWorks": "It loops a 0s animation (animating).",
+ "description": "Gradient white pattern with moving motion in a loop.",
+ "howItWorks": "It loops a 0s animation (moving).",
  "tags": [
   "gradient",
   "flat",

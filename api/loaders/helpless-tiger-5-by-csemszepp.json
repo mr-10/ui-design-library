@@ -5,8 +5,8 @@
  "author": "csemszepp",
  "source": "https://uiverse.io/csemszepp/helpless-tiger-5",
  "trigger": "auto-loop",
- "description": "Outlined pill red loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 1.5s animation (animating; rotating).",
+ "description": "Outlined pill red loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (moving; rotating).",
  "tags": [
   "red",
   "outlined",

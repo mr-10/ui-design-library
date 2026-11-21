@@ -5,8 +5,8 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/kind-mole-87",
  "trigger": "auto-loop",
- "description": "Gradient 3d light blue loader with animating; bouncing; sliding motion in a loop.",
- "howItWorks": "It loops a animation (animating; bouncing; sliding).",
+ "description": "Gradient 3d light blue loader with bouncing motion in a loop.",
+ "howItWorks": "It loops a animation (bouncing; moving; sliding).",
  "tags": [
   "blue",
   "gradient",

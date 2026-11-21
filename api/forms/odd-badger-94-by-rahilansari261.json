@@ -8,11 +8,11 @@
  "description": "Dark rounded gray form that lights up when focused.",
  "howItWorks": "On focus, transform becomes translateY(8px), transform becomes translateY(-30px) translateX(10px) scale(0.75), text color changes from #eee to #dc2f55.",
  "tags": [
+  "submit",
+  "email",
   "dark",
   "rounded",
   "flat",
-  "submit",
-  "email",
   "form"
  ],
  "colors": [

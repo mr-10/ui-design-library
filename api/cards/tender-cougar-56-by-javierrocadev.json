@@ -8,12 +8,12 @@
  "description": "Gradient pill dark cyan card that fades on hover.",
  "howItWorks": "On hover, opacity changes.",
  "tags": [
+  "download",
   "cyan",
   "gradient",
   "rounded",
   "pill",
-  "fade",
-  "download"
+  "fade"
  ],
  "colors": [
   "#155e75",

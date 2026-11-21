@@ -5,7 +5,7 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/wicked-eagle-30",
  "trigger": "hover",
- "description": "Gradient dark rounded black button that starts animating on hover.",
+ "description": "Gradient rounded black button that starts animating on hover.",
  "howItWorks": "On hover, starts the move-up-alternate animation (bouncing).",
  "tags": [
   "gradient",

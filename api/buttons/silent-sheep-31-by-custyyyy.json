@@ -8,9 +8,9 @@
  "description": "Sky-blue download button that fades on hover with a smooth transition.",
  "howItWorks": "On hover, opacity becomes 4, right becomes 0.",
  "tags": [
+  "download",
   "blue",
   "fade",
-  "download",
   "download-button",
   "button",
   "hover"

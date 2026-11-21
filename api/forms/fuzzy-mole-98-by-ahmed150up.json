@@ -8,12 +8,12 @@
  "description": "Dark rounded white login form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #333 to #ccc, text color changes from #ffffff to #000000.",
  "tags": [
+  "login",
+  "password",
   "dark",
   "outlined",
   "rounded",
-  "color-change",
-  "login",
-  "password"
+  "color-change"
  ],
  "colors": [
   "#cccccc",

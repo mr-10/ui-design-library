@@ -5,15 +5,15 @@
  "author": "akshat-patel28",
  "source": "https://uiverse.io/akshat-patel28/rare-cobra-61",
  "trigger": "hover",
- "description": "Dark rounded dark teal login form that changes colour on hover.",
+ "description": "Outlined rounded dark teal login form that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #fff to #000.",
  "tags": [
-  "teal",
-  "dark",
-  "outlined",
-  "rounded",
-  "color-change",
-  "login"
+  "login",
+  "signup",
+  "password",
+  "google",
+  "back",
+  "social"
  ],
  "colors": [
   "#747474",

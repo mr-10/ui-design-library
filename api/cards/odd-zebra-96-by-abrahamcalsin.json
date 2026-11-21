@@ -8,12 +8,12 @@
  "description": "Neon rounded amber pricing card that lifts and glows on hover.",
  "howItWorks": "On hover, transform becomes translateY(-3%), box-shadow becomes 0 3px 10px #cfd4de.",
  "tags": [
+  "pricing",
   "amber",
   "neon",
   "dark",
   "rounded",
-  "lift",
-  "glow"
+  "lift"
  ],
  "colors": [
   "#cfd4de",

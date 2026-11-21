@@ -8,11 +8,11 @@
  "description": "Gradient rounded black button that scales up on hover.",
  "howItWorks": "On hover, opacity changes.",
  "tags": [
+  "play",
   "gradient",
   "rounded",
   "fade",
   "scale",
-  "play",
   "buttons"
  ],
  "colors": [

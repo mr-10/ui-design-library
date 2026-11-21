@@ -5,7 +5,7 @@
  "author": "AmIt-DasIT",
  "source": "https://uiverse.io/AmIt-DasIT/rotten-rat-40",
  "trigger": "checked",
- "description": "Dark rounded dark sky-blue toggle switch that toggles on and off when clicked.",
+ "description": "Rounded dark sky-blue toggle switch that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: background-color changes from #223243 to #ffff00, box-shadow becomes none, transform becomes translateX(1.5em).",
  "tags": [
   "blue",

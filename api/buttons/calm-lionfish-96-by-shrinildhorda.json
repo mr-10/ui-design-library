@@ -8,12 +8,12 @@
  "description": "Gray download button that rotates on hover with a smooth transition.",
  "howItWorks": "On hover, background-color changes from #ffffff to #323232, transform becomes translateY(0px) rotate(0deg), opacity becomes 1.",
  "tags": [
+  "download",
   "flat",
   "color-change",
   "drop",
   "rotate",
-  "fade",
-  "download"
+  "fade"
  ],
  "colors": [
   "#323232",

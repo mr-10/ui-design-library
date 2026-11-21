@@ -5,11 +5,12 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/friendly-parrot-96",
  "trigger": "auto-loop",
- "description": "Rounded white loader with animating motion in a loop.",
- "howItWorks": "It loops a 1s animation (animating).",
+ "description": "Rounded white loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 1s animation (sliding).",
  "tags": [
   "rounded",
   "flat",
+  "slide",
   "loader",
   "auto-loop",
   "css"

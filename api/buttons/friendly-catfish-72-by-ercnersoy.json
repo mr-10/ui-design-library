@@ -5,7 +5,7 @@
  "author": "ercnersoy",
  "source": "https://uiverse.io/ercnersoy/friendly-catfish-72",
  "trigger": "static",
- "description": "Outlined rounded amber button with soft shadow and rounded corners.",
+ "description": "Outlined rounded amber button with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
   "amber",

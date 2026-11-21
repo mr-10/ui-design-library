@@ -5,7 +5,7 @@
  "author": "javierBarroso",
  "source": "https://uiverse.io/javierBarroso/average-quail-26",
  "trigger": "checked",
- "description": "3d dark rounded dark green radio button that toggles on and off when clicked.",
+ "description": "3d rounded dark green radio button that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: box-shadow becomes inset -2px 2px 2px #fff9,\n    -5px 5px 5px #2225, transform becomes rotateY(0deg).",
  "tags": [
   "green",

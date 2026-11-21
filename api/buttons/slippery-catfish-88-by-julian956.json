@@ -8,12 +8,12 @@
  "description": "Outlined rounded red button that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.2), opacity becomes 1, top becomes 105%.",
  "tags": [
+  "cart",
   "red",
   "purple",
   "outlined",
   "rounded",
-  "flat",
-  "scale"
+  "flat"
  ],
  "colors": [
   "#f00808",

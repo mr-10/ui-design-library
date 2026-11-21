@@ -5,7 +5,7 @@
  "author": "hoi-du",
  "source": "https://uiverse.io/hoi-du/dull-stingray-6",
  "trigger": "auto-loop",
- "description": "Pill white loader with morphing motion in a loop.",
+ "description": "Pill white loader with rotating motion in a loop.",
  "howItWorks": "It loops a animation (morphing, rotating).",
  "tags": [
   "rounded",

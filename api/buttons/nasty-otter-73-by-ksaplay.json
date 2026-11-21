@@ -8,12 +8,12 @@
  "description": "Neon rounded pink play button that lifts and glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 0 0px 1px #F11271,\n    0 0 10px 2px #FD3084,\n    inset 0 0 0px 1px #F11271,\n    inset 0 0 30px 2px #FD3084, text-shadow becomes 0 0 10px #FD3084, transform becomes translateY(-5px).",
  "tags": [
+  "play",
   "pink",
   "neon",
   "outlined",
   "rounded",
-  "lift",
-  "glow"
+  "lift"
  ],
  "colors": [
   "#fd3084",

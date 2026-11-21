@@ -8,12 +8,12 @@
  "description": "Neon gradient pill blue text input that glows and scales up on hover.",
  "howItWorks": "On hover, background changes from linear-gradient(\n    135deg,\n    #7864ff 0%,\n    #7864ff 100%\n  ) to linear-gradient(\n    135deg,\n    #7864ff 0%,\n    #7864ff 100%\n  ), transform becomes scale(1.05), box-shadow becomes 0 0 15px #7864ff. On focus, box-shadow becomes 0 0 15px #ff64dc,\n    0 0 15px #7864ff, width becomes 70%, height becomes 70%.",
  "tags": [
+  "search",
   "blue",
   "fuchsia",
   "neon",
   "gradient",
-  "outlined",
-  "rounded"
+  "outlined"
  ],
  "colors": [
   "#7864ff",

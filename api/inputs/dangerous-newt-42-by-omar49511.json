@@ -8,10 +8,10 @@
  "description": "Rounded green file input that expands on hover.",
  "howItWorks": "On hover, width becomes 100%.",
  "tags": [
+  "upload",
   "green",
   "rounded",
   "expand",
-  "upload",
   "file-input",
   "hover"
  ],

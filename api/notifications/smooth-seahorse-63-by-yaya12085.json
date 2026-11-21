@@ -8,11 +8,11 @@
  "description": "Rounded indigo notification that rotates on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes rotate(45deg), height becomes 100%.",
  "tags": [
+  "next",
   "indigo",
   "rounded",
   "rotate",
   "pulse",
-  "next",
   "notification"
  ],
  "colors": [

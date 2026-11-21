@@ -8,12 +8,12 @@
  "description": "Rounded gray tooltip that changes colour on hover.",
  "howItWorks": "On hover, background changes from #222 to #222, top becomes -100%, top becomes 0.",
  "tags": [
+  "cart",
+  "add",
   "rounded",
   "flat",
   "color-change",
-  "fade",
-  "cart",
-  "add"
+  "fade"
  ],
  "colors": [
   "#222222",

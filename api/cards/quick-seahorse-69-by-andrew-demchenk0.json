@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded sky-blue pricing card that lifts on hover.",
  "howItWorks": "On hover, transform becomes translateY(-3px), border becomes 2px solid #2d8cf0.",
  "tags": [
+  "pricing",
   "blue",
   "neon",
   "gradient",
   "outlined",
-  "rounded",
-  "lift"
+  "rounded"
  ],
  "colors": [
   "#323232",

@@ -11,9 +11,9 @@
   "indigo",
   "gradient",
   "rounded",
+  "pulse",
   "spin",
-  "button",
-  "modern"
+  "button"
  ],
  "colors": [
   "#7b3bfc",

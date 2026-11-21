@@ -8,10 +8,10 @@
  "description": "Red checkbox that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: transform becomes scale(1.1), starts the bookmark-pop animation (pulsing).",
  "tags": [
+  "back",
   "red",
   "flat",
   "pulse",
-  "back",
   "checkbox",
   "icon"
  ],

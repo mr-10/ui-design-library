@@ -8,11 +8,11 @@
  "description": "Neon rounded sky-blue pricing card that changes colour on hover.",
  "howItWorks": "On hover, background changes from #fff to #eaefff, border becomes 1px solid #275efe, outline becomes .5px solid #275efe.",
  "tags": [
+  "pricing",
   "blue",
   "neon",
   "rounded",
   "color-change",
-  "pricing",
   "pricing-card"
  ],
  "colors": [

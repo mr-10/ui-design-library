@@ -8,12 +8,12 @@
  "description": "Dark emerald download button that slides on hover.",
  "howItWorks": "On hover, background changes from #17795E to #17795E, text color changes from #fff to transparent, width becomes 148px.",
  "tags": [
+  "download",
   "emerald",
   "flat",
   "color-change",
   "slide",
-  "expand",
-  "download"
+  "expand"
  ],
  "colors": [
   "#17795e",

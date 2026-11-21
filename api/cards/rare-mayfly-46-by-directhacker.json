@@ -8,12 +8,12 @@
  "description": "Neon gradient 3d rounded sky-blue card that glows and scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.05) rotateX(-10deg) rotateY(-10deg), box-shadow becomes 0 8px 40px #000000, 0 12px 60px #000000, transform becomes translateY(-20px) translateX(20px).",
  "tags": [
+  "social",
   "blue",
   "indigo",
   "neon",
   "gradient",
-  "3d",
-  "dark"
+  "3d"
  ],
  "colors": [
   "#608bbc",

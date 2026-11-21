@@ -8,12 +8,12 @@
  "description": "Gradient pill green button that starts animating on hover.",
  "howItWorks": "On hover, opacity becomes 1, starts the slide-in-bottom animation (bouncing, fading).",
  "tags": [
+  "back",
   "green",
   "emerald",
   "gradient",
   "rounded",
-  "pill",
-  "flat"
+  "pill"
  ],
  "colors": [
   "#44ea76",

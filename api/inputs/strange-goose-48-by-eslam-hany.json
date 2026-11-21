@@ -5,7 +5,7 @@
  "author": "eslam-hany",
  "source": "https://uiverse.io/eslam-hany/strange-goose-48",
  "trigger": "focus",
- "description": "Dark dark sky-blue text input that lights up when focused.",
+ "description": "Outlined dark sky-blue text input that lights up when focused.",
  "howItWorks": "On focus, box-shadow becomes none, width becomes 35%, width becomes 100%.",
  "tags": [
   "blue",

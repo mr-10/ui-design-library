@@ -8,12 +8,12 @@
  "description": "Amber toggle switch that toggles on and off when clicked.",
  "howItWorks": "On hover, text color changes from #ccc to #ffc300, transform becomes scale(1.2), starts the bounce animation (pulsing). Clicking it toggles it: text color changes from #ccc to #ffc300, transform becomes scale(1.2), starts the bounce animation (pulsing).",
  "tags": [
+  "rating",
   "amber",
   "scale",
   "color-change",
   "animated",
-  "pulse",
-  "rating"
+  "pulse"
  ],
  "colors": [
   "#cccccc",

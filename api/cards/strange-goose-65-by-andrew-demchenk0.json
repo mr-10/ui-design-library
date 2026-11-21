@@ -8,12 +8,12 @@
  "description": "Gradient pill orange card that lifts on hover.",
  "howItWorks": "On hover, opacity becomes 1, height becomes 35px, transform becomes translateY(-5px).",
  "tags": [
+  "github",
+  "facebook",
+  "social",
   "orange",
   "gradient",
-  "outlined",
-  "rounded",
-  "pill",
-  "fade"
+  "outlined"
  ],
  "colors": [
   "#8b4513",

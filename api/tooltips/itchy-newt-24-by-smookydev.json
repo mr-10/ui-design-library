@@ -8,12 +8,12 @@
  "description": "Gradient light red tooltip that scales up on hover.",
  "howItWorks": "On hover, it shifts position and opacity changes and it scales and it rotates and text colour changes.",
  "tags": [
+  "like",
   "red",
   "pink",
   "gradient",
   "slide",
-  "fade",
-  "scale"
+  "fade"
  ],
  "colors": [
   "#fda4af",

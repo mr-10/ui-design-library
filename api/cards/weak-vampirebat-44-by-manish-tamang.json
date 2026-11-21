@@ -8,12 +8,12 @@
  "description": "Pill sky-blue card that changes colour on hover.",
  "howItWorks": "On hover, text colour changes and background changes. On focus, a ring appears.",
  "tags": [
+  "close",
   "blue",
   "rounded",
   "pill",
   "color-change",
-  "ring",
-  "close"
+  "ring"
  ],
  "colors": [
   "#111827",

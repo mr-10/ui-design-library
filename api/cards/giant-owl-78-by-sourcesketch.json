@@ -5,7 +5,7 @@
  "author": "Sourcesketch",
  "source": "https://uiverse.io/Sourcesketch/giant-owl-78",
  "trigger": "hover",
- "description": "Gradient 3d dark rounded dark indigo card that lifts and glows on hover.",
+ "description": "Gradient 3d rounded dark indigo card that lifts and glows on hover.",
  "howItWorks": "On hover, transform becomes translateY(-20px), text-shadow becomes 2px 2px 8px #6e5b94, left becomes 50px.",
  "tags": [
   "indigo",

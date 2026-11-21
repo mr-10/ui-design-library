@@ -5,8 +5,8 @@
  "author": "youranonone10",
  "source": "https://uiverse.io/youranonone10/young-otter-44",
  "trigger": "auto-loop",
- "description": "Dark pill dark sky-blue loader with fading; fading motion in a loop.",
- "howItWorks": "It loops a 0.8s animation (fading; fading, pulsing).",
+ "description": "Outlined pill dark sky-blue loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 0.8s animation (fading, pulsing; fading, sliding).",
  "tags": [
   "blue",
   "dark",

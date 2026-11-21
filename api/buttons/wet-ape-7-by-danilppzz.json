@@ -8,10 +8,10 @@
  "description": "Dark rounded gray submit button that reacts on hover.",
  "howItWorks": "On hover, border becomes 1px solid #fff.",
  "tags": [
+  "submit",
   "dark",
   "rounded",
   "flat",
-  "submit",
   "submit-button",
   "simple"
  ],

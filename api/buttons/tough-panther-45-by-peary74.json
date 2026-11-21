@@ -8,11 +8,11 @@
  "description": "Rounded red button that changes colour on hover.",
  "howItWorks": "On hover, letter-spacing becomes 4px, text color changes from #ff0000 to #fff, background changes from none to #ff0000.",
  "tags": [
+  "delete",
   "red",
   "rounded",
   "color-change",
   "expand",
-  "delete",
   "neumorphism"
  ],
  "colors": [

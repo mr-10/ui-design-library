@@ -5,7 +5,7 @@
  "author": "emmanuelh-dev",
  "source": "https://uiverse.io/emmanuelh-dev/ancient-pig-83",
  "trigger": "static",
- "description": "Pill red card with rounded corners with a smooth transition.",
+ "description": "Pill red card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "red",

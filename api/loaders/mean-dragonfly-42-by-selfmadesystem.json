@@ -5,8 +5,8 @@
  "author": "SelfMadeSystem",
  "source": "https://uiverse.io/SelfMadeSystem/mean-dragonfly-42",
  "trigger": "auto-loop",
- "description": "White loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; rotating).",
+ "description": "White loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (moving; rotating).",
  "tags": [
   "flat",
   "spin",

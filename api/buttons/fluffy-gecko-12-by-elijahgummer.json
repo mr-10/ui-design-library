@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/elijahgummer/fluffy-gecko-12",
  "trigger": "checked",
  "description": "Neon gradient pill indigo button that toggles on and off when clicked.",
- "howItWorks": "On hover, opacity becomes 1, starts the letterShow animation (bouncing, fading), starts the letterHide animation (bouncing, fading). Clicking it toggles it: starts the bump animation (animating), starts the beat animation (pulsing).",
+ "howItWorks": "On hover, opacity becomes 1, starts the letterShow animation (bouncing, fading), starts the letterHide animation (bouncing, fading). Clicking it toggles it: starts the bump animation (moving), starts the beat animation (pulsing).",
  "tags": [
   "indigo",
   "neon",

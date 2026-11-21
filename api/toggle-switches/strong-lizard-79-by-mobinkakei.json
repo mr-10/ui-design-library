@@ -8,11 +8,11 @@
  "description": "Pill sky-blue toggle switch that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: background-color changes from #fff to #749dd6, text color changes from #ffffff to #749ed7, text color changes from #ffffff to #fff.",
  "tags": [
+  "rating",
   "blue",
   "cyan",
   "rounded",
   "pill",
-  "rating",
   "toggle-switch"
  ],
  "colors": [

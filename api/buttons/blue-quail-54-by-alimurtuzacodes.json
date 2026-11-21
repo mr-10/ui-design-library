@@ -8,10 +8,10 @@
  "description": "Rounded white submit button that slides on hover.",
  "howItWorks": "On hover, background changes and it shifts position and text colour changes and border changes.",
  "tags": [
+  "submit",
   "rounded",
   "color-change",
   "slide",
-  "submit",
   "submit-button",
   "buttons"
  ],

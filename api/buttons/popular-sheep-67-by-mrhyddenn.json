@@ -8,12 +8,12 @@
  "description": "Rounded green button that fades on hover with a smooth transition.",
  "howItWorks": "On hover, width becomes 120px, width becomes 4px, border-radius becomes 2px. On focus, the outline is removed.",
  "tags": [
+  "add",
   "green",
   "rounded",
   "flat",
   "expand",
-  "fade",
-  "add"
+  "fade"
  ],
  "colors": [
   "#2e8b57",

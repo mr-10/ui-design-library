@@ -8,10 +8,10 @@
  "description": "Rounded red checkbox that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: background changes from #ffffff to #ff0000, left becomes 5px, transform becomes rotate(45deg).",
  "tags": [
+  "menu",
   "red",
   "rounded",
   "flat",
-  "menu",
   "checkbox",
   "hamburger"
  ],

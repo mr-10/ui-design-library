@@ -5,8 +5,8 @@
  "author": "Spacious74",
  "source": "https://uiverse.io/Spacious74/moody-owl-18",
  "trigger": "auto-loop",
- "description": "Gradient dark rounded white card with animating motion in a loop.",
- "howItWorks": "It loops a 6s animation (animating).",
+ "description": "Gradient dark rounded white card with moving motion in a loop.",
+ "howItWorks": "It loops a 6s animation (moving).",
  "tags": [
   "gradient",
   "dark",

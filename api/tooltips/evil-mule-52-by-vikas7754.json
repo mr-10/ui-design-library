@@ -8,12 +8,12 @@
  "description": "Dark rounded cyan tooltip that glows on hover.",
  "howItWorks": "On hover, top becomes -150px, opacity becomes 1, transform becomes rotate(-35deg) skew(20deg).",
  "tags": [
+  "profile",
   "cyan",
   "dark",
   "outlined",
   "rounded",
-  "fade",
-  "rotate"
+  "fade"
  ],
  "colors": [
   "#1da1f2",

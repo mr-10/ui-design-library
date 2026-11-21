@@ -8,12 +8,12 @@
  "description": "Gradient pill teal form that toggles on and off when clicked.",
  "howItWorks": "On hover, shadow grows. On focus, border changes. Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "password",
+  "email",
   "teal",
   "cyan",
   "gradient",
-  "rounded",
-  "pill",
-  "color-change"
+  "rounded"
  ],
  "colors": [
   "#06b6d4",

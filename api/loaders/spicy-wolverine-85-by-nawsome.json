@@ -5,15 +5,15 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/spicy-wolverine-85",
  "trigger": "auto-loop",
- "description": "Pill sky-blue bars loader with animating; pulsing motion in a loop.",
- "howItWorks": "It loops a 4s animation (animating; pulsing).",
+ "description": "Pill sky-blue bars loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 4s animation (pulsing; sliding).",
  "tags": [
   "blue",
   "rounded",
   "pill",
+  "slide",
   "pulse",
-  "bars-loader",
-  "loader"
+  "bars-loader"
  ],
  "colors": [
   "#2c8fff",

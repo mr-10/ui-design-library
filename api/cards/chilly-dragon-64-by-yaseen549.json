@@ -5,7 +5,7 @@
  "author": "Yaseen549",
  "source": "https://uiverse.io/Yaseen549/chilly-dragon-64",
  "trigger": "static",
- "description": "Dark rounded gray card with soft shadow and rounded corners.",
+ "description": "Dark rounded gray card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "dark",

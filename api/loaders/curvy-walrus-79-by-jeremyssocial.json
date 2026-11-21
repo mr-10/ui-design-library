@@ -5,8 +5,8 @@
  "author": "jeremyssocial",
  "source": "https://uiverse.io/jeremyssocial/curvy-walrus-79",
  "trigger": "auto-loop",
- "description": "Neon green bars loader with animating; fading; growing and shrinking; shimmering motion in a loop.",
- "howItWorks": "It loops a 3s animation (animating; fading; growing and shrinking; shimmering).",
+ "description": "Neon gradient pill green bars loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 3s animation (fading, sliding; growing and shrinking; moving; shimmering).",
  "tags": [
   "green",
   "purple",

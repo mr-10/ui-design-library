@@ -5,7 +5,7 @@
  "author": "cssbuttons-io",
  "source": "https://uiverse.io/cssbuttons-io/weak-firefox-5",
  "trigger": "hover",
- "description": "Gradient dark pill dark sky-blue button that expands on hover.",
+ "description": "Gradient pill dark sky-blue button that expands on hover.",
  "howItWorks": "On hover, width becomes 14em, height becomes 14em.",
  "tags": [
   "blue",

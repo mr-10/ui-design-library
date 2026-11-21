@@ -5,15 +5,15 @@
  "author": "csozidev",
  "source": "https://uiverse.io/csozidev/spotty-lion-8",
  "trigger": "hover",
- "description": "Outlined rounded black button that starts animating on hover.",
- "howItWorks": "On hover, starts the text animation (animating), top becomes 50%, left becomes 9%.",
+ "description": "Outlined rounded black social button that starts animating on hover.",
+ "howItWorks": "On hover, starts the text animation (moving), top becomes 50%, left becomes 9%.",
  "tags": [
+  "google",
+  "social",
   "outlined",
   "rounded",
   "flat",
-  "animated",
-  "fade",
-  "expand"
+  "animated"
  ],
  "colors": [
   "#000000",

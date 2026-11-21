@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded pink card that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.2), text color changes from #edf2f4 to #f72585.",
  "tags": [
+  "social",
   "pink",
   "violet",
   "neon",
   "gradient",
-  "dark",
-  "rounded"
+  "dark"
  ],
  "colors": [
   "#f72585",

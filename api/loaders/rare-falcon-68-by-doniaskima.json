@@ -5,7 +5,7 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/rare-falcon-68",
  "trigger": "auto-loop",
- "description": "Gradient dark orange loader with rotating; shimmering motion in a loop.",
+ "description": "Gradient dark orange loader with rotating motion in a loop.",
  "howItWorks": "It loops a 2s animation (rotating; shimmering).",
  "tags": [
   "orange",

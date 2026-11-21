@@ -5,8 +5,8 @@
  "author": "Sourcesketch",
  "source": "https://uiverse.io/Sourcesketch/strange-catfish-68",
  "trigger": "auto-loop",
- "description": "Dark pill red dots loader with animating; bouncing motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; bouncing, pulsing; rotating).",
+ "description": "Dark pill red dots loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (bouncing, pulsing; bouncing, pulsing, sliding; moving; rotating, sliding).",
  "tags": [
   "red",
   "blue",

@@ -5,7 +5,7 @@
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/great-swan-88",
  "trigger": "auto-loop",
- "description": "Neon pill green card with fading motion in a loop.",
+ "description": "Neon pill green card with rotating motion in a loop.",
  "howItWorks": "It loops a 3s animation (fading, pulsing; rotating).",
  "tags": [
   "green",

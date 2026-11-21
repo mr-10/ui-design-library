@@ -8,12 +8,12 @@
  "description": "3d rounded dark sky-blue notification that glows and scales up on hover.",
  "howItWorks": "On hover, background-color changes from #efefef to #c3daf6, text color changes from #000 to #1e2b3c, transform becomes scale(1.1).",
  "tags": [
+  "next",
   "blue",
   "3d",
   "rounded",
   "scale",
-  "glow",
-  "color-change"
+  "glow"
  ],
  "colors": [
   "#1e2b3c",

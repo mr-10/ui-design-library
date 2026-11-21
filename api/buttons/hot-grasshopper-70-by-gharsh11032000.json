@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/gharsh11032000/hot-grasshopper-70",
  "trigger": "hover",
  "description": "Rounded gray button that starts animating on hover.",
- "howItWorks": "On hover, starts the shakeBack animation (animating), scale becomes 1.3.",
+ "howItWorks": "On hover, starts the shakeBack animation (sliding), scale becomes 1.3.",
  "tags": [
   "rounded",
   "animated",
+  "slide",
   "button",
   "search",
-  "hover-effect",
-  "hover"
+  "hover-effect"
  ],
  "colors": [
   "#212121",

@@ -8,11 +8,11 @@
  "description": "Gradient pill white button that glows on hover.",
  "howItWorks": "On hover, shadow grows.",
  "tags": [
+  "play",
   "gradient",
   "rounded",
   "pill",
   "glow",
-  "play",
   "buttons"
  ],
  "colors": [

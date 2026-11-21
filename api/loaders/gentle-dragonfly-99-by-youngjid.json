@@ -5,15 +5,15 @@
  "author": "youngjid",
  "source": "https://uiverse.io/youngjid/gentle-dragonfly-99",
  "trigger": "auto-loop",
- "description": "Teal loader with animating motion in a loop.",
- "howItWorks": "It loops a 0.3s animation (animating).",
+ "description": "Teal loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 0.3s animation (sliding).",
  "tags": [
   "teal",
   "purple",
   "flat",
+  "slide",
   "loader",
-  "dark",
-  "glitch"
+  "dark"
  ],
  "colors": [
   "#00ffff",

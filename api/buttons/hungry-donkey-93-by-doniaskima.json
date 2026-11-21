@@ -5,7 +5,7 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/hungry-donkey-93",
  "trigger": "hover",
- "description": "Gradient 3d dark black button that reacts on hover.",
+ "description": "Gradient 3d black button that reacts on hover.",
  "howItWorks": "On hover, transform becomes rotateY(40deg), transform becomes rotateY(calc(40deg * -1)).",
  "tags": [
   "gradient",

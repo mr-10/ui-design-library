@@ -8,9 +8,9 @@
  "description": "Rounded white button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, box-shadow becomes 0 6px 8px #000000.",
  "tags": [
+  "send",
   "rounded",
   "glow",
-  "send",
   "simple",
   "button",
   "code"

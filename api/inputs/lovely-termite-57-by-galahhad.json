@@ -8,11 +8,11 @@
  "description": "Rounded green password input that reacts on hover.",
  "howItWorks": "On hover, border-color becomes #868686. On focus, border-color becomes #868686.",
  "tags": [
+  "password",
+  "close",
   "green",
   "rounded",
   "flat",
-  "password",
-  "close",
   "password-input"
  ],
  "colors": [

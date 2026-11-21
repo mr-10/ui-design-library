@@ -5,15 +5,15 @@
  "author": "andrew-demchenk0",
  "source": "https://uiverse.io/andrew-demchenk0/silent-earwig-10",
  "trigger": "auto-loop",
- "description": "Violet loader with animating motion in a loop.",
- "howItWorks": "It loops a 1s animation (animating).",
+ "description": "Violet loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 1s animation (moving; sliding).",
  "tags": [
   "violet",
   "green",
   "flat",
+  "slide",
   "loader",
-  "glitch",
-  "animated"
+  "glitch"
  ],
  "colors": [
   "#8b00ff",

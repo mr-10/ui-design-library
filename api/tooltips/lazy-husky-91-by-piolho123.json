@@ -5,15 +5,15 @@
  "author": "piolho123",
  "source": "https://uiverse.io/piolho123/lazy-husky-91",
  "trigger": "hover",
- "description": "Outlined rounded purple tooltip that fades on hover.",
+ "description": "Outlined rounded purple tooltip with arrow that fades on hover.",
  "howItWorks": "On hover, top becomes -100%, opacity becomes 1.",
  "tags": [
   "purple",
   "outlined",
   "rounded",
   "fade",
-  "simple",
-  "tooltip"
+  "tooltip-with-arrow",
+  "arrow"
  ],
  "colors": [
   "#ff11ff",

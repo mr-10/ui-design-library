@@ -5,12 +5,13 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/cold-liger-90",
  "trigger": "auto-loop",
- "description": "3d light sky-blue loader with animating motion in a loop.",
- "howItWorks": "It loops a animation (animating).",
+ "description": "3d light sky-blue loader with sliding motion in a loop.",
+ "howItWorks": "It loops a animation (sliding).",
  "tags": [
   "blue",
   "3d",
   "flat",
+  "slide",
   "loader",
   "auto-loop"
  ],

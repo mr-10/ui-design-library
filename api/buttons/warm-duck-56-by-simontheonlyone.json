@@ -8,12 +8,12 @@
  "description": "Outlined red button that starts animating on hover.",
  "howItWorks": "On hover, background-color changes from #feffe1 to #d20000, starts the close animation (fading).",
  "tags": [
+  "close",
   "red",
   "outlined",
   "flat",
   "color-change",
-  "animated",
-  "fade"
+  "animated"
  ],
  "colors": [
   "#feffe1",

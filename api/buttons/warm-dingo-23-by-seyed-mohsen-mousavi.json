@@ -8,11 +8,11 @@
  "description": "Rounded red button that scales up on hover.",
  "howItWorks": "On hover, background changes and it scales.",
  "tags": [
+  "delete",
   "red",
   "rounded",
   "color-change",
   "scale",
-  "delete",
   "buttons"
  ],
  "colors": [

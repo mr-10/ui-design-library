@@ -8,10 +8,10 @@
  "description": "Rounded light sky-blue card that changes colour on hover.",
  "howItWorks": "On hover, border changes and text colour changes. On focus, border changes and background changes.",
  "tags": [
+  "send",
   "blue",
   "rounded",
   "color-change",
-  "send",
   "cards",
   "css"
  ],

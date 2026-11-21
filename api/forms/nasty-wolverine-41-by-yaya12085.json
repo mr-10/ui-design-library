@@ -8,9 +8,9 @@
  "description": "Rounded white form that changes colour on hover.",
  "howItWorks": "On hover, background changes from #fff to #008cff, border-color becomes #111111, text color changes from #444 to #222.",
  "tags": [
+  "upload",
   "rounded",
   "color-change",
-  "upload",
   "form",
   "hover",
   "css"

@@ -5,7 +5,7 @@
  "author": "Fadhilmagass",
  "source": "https://uiverse.io/Fadhilmagass/bad-firefox-25",
  "trigger": "auto-loop",
- "description": "Pill sky-blue dots loader with fading motion in a loop.",
+ "description": "Pill sky-blue dots loader with pulsing motion in a loop.",
  "howItWorks": "It loops a 1.5s animation (fading, pulsing).",
  "tags": [
   "blue",

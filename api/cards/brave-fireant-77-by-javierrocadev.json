@@ -8,11 +8,11 @@
  "description": "Gradient rounded cyan card that glows on hover.",
  "howItWorks": "On hover, shadow grows.",
  "tags": [
+  "like",
   "cyan",
   "gradient",
   "rounded",
   "glow",
-  "like",
   "cards"
  ],
  "colors": [

@@ -8,11 +8,11 @@
  "description": "Dark rounded gray file input that fades on hover.",
  "howItWorks": "On hover, opacity becomes 1. On focus, border becomes 1px solid #6e6e6e.",
  "tags": [
+  "add",
   "dark",
   "outlined",
   "rounded",
   "fade",
-  "add",
   "file-input"
  ],
  "colors": [

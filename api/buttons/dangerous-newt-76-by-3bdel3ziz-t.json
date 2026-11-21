@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/3bdel3ziz-T/dangerous-newt-76",
  "trigger": "hover",
  "description": "Outlined pill red button that starts animating on hover.",
- "howItWorks": "On hover, background changes from transparent to #aaaaaa, starts the bell-animation animation (rotating).",
+ "howItWorks": "On hover, background changes from transparent to #aaaaaa, starts the bell-animation animation (pulsing, rotating).",
  "tags": [
   "red",
   "outlined",

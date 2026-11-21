@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/mobinkakei/cold-bat-89",
  "trigger": "hover",
  "description": "Indigo button that starts animating on hover with a smooth transition.",
- "howItWorks": "On hover, box-shadow becomes 10px 10px 0 #FBC638, starts the color_anim animation (animating), transform becomes translateX(0%). On focus, the outline is removed.",
+ "howItWorks": "On hover, box-shadow becomes 10px 10px 0 #FBC638, starts the color_anim animation (moving), transform becomes translateX(0%). On focus, the outline is removed.",
  "tags": [
+  "next",
   "indigo",
   "amber",
   "glow",
   "animated",
-  "slide",
-  "next"
+  "slide"
  ],
  "colors": [
   "#6225e6",

@@ -5,15 +5,15 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/lovely-kangaroo-88",
  "trigger": "auto-loop",
- "description": "Dark red dots loader with animating; pulsing motion in a loop.",
- "howItWorks": "It loops a animation (animating; pulsing).",
+ "description": "Dark red dots loader with sliding motion in a loop.",
+ "howItWorks": "It loops a animation (pulsing; sliding).",
  "tags": [
   "red",
   "flat",
+  "slide",
   "pulse",
   "dots-loader",
-  "loader",
-  "auto-loop"
+  "loader"
  ],
  "colors": [
   "#512727",

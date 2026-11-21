@@ -3,7 +3,7 @@
 > 3,805 free copy-paste HTML+CSS UI elements (buttons, loaders, cards, forms, toggles, inputs, checkboxes, patterns, radio buttons, tooltips, notifications) from Uiverse.io, MIT licensed. Every element is pure HTML + CSS, no JavaScript, no login, no account, no API key. Browse, copy the code, paste it into your project, keep the author credit.
 
 > Live site: https://mr-10.github.io/ui-design-library
-> Data version: ad0a23a75570
+> Data version: b0d13fd04e73
 
 ## Categories
 

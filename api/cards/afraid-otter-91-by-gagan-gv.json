@@ -5,7 +5,7 @@
  "author": "gagan-gv",
  "source": "https://uiverse.io/gagan-gv/afraid-otter-91",
  "trigger": "hover",
- "description": "Dark pill dark sky-blue card that scales up on hover.",
+ "description": "Pill dark sky-blue card that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.1), border becomes 1px solid #f0f0f0, opacity becomes 1.",
  "tags": [
   "blue",

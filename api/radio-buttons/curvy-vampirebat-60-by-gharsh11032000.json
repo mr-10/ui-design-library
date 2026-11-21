@@ -8,12 +8,12 @@
  "description": "Neon pill sky-blue radio button that toggles on and off when clicked.",
  "howItWorks": "On hover, transform becomes translateY(-50%) scale(1.2), border-color becomes #4c8bf5, box-shadow becomes 0 0 10px #4c8bf580. Clicking it toggles it: transform becomes translateY(-50%) scale(0.9), border becomes 5px solid #4c8bf5, text color changes from #fff to #4c8bf5.",
  "tags": [
+  "next",
   "blue",
   "neon",
   "outlined",
   "rounded",
-  "pill",
-  "scale"
+  "pill"
  ],
  "colors": [
   "#4c8bf5",

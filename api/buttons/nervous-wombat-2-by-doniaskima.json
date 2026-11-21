@@ -5,7 +5,7 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/nervous-wombat-2",
  "trigger": "hover",
- "description": "Gradient dark rounded black button that reacts on hover.",
+ "description": "Gradient rounded black button that reacts on hover.",
  "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
   "gradient",

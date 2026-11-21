@@ -5,15 +5,15 @@
  "author": "dylanharriscameron",
  "source": "https://uiverse.io/dylanharriscameron/stupid-mole-90",
  "trigger": "auto-loop",
- "description": "Pill red card with animating motion in a loop.",
- "howItWorks": "It loops a 5s animation (animating).",
+ "description": "Pill red card with sliding motion in a loop.",
+ "howItWorks": "It loops a 5s animation (sliding).",
  "tags": [
   "red",
   "rounded",
   "pill",
+  "slide",
   "neumorphism",
-  "glassmorphism",
-  "card"
+  "glassmorphism"
  ],
  "colors": [
   "#bebebe",

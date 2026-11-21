@@ -8,12 +8,12 @@
  "description": "Outlined rounded lime newsletter form that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0px 0px 3px 1px #a29d9d, background-color changes from #f6eca9 to #f6eca9, text color changes from #f6eca9 to #c6cf9b.",
  "tags": [
+  "newsletter",
   "lime",
   "yellow",
   "outlined",
   "rounded",
-  "glow",
-  "color-change"
+  "glow"
  ],
  "colors": [
   "#c6cf9b",

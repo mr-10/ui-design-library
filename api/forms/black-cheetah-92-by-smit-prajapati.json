@@ -8,11 +8,11 @@
  "description": "Dark orange form that changes colour on hover.",
  "howItWorks": "On hover, background changes from #001925 to transparent, border becomes 1px solid #ff7a01, text color changes from #ff7a01 to #ff7a01. On focus, border-left becomes 5px solid #ff7a01.",
  "tags": [
+  "send",
   "orange",
   "dark",
   "flat",
   "color-change",
-  "send",
   "form"
  ],
  "colors": [

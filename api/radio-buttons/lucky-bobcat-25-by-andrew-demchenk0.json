@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/andrew-demchenk0/lucky-bobcat-25",
  "trigger": "checked",
  "description": "Green radio button that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: starts the glitch animation (animating).",
+ "howItWorks": "Clicking it toggles it: starts the glitch animation (sliding).",
  "tags": [
   "green",
   "pink",
   "flat",
+  "slide",
   "radio-button",
-  "cyberpunk",
-  "neon"
+  "cyberpunk"
  ],
  "colors": [
   "#00e572",

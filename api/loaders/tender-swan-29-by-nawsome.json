@@ -5,7 +5,7 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/tender-swan-29",
  "trigger": "auto-loop",
- "description": "Dark black loader with changing colour; pulsing motion in a loop.",
+ "description": "Black loader with pulsing motion in a loop.",
  "howItWorks": "It loops a animation (changing colour; pulsing).",
  "tags": [
   "dark",

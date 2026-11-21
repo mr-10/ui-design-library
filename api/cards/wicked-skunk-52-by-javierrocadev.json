@@ -8,11 +8,11 @@
  "description": "Rounded white card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #0f1419 to #272C30.",
  "tags": [
+  "newsletter",
+  "share",
   "rounded",
   "flat",
   "color-change",
-  "newsletter",
-  "share",
   "twitter"
  ],
  "colors": [

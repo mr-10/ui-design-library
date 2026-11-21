@@ -8,12 +8,12 @@
  "description": "Gradient rounded gray button that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes none, transform becomes scaleY(0.6), border-bottom becomes 2px solid #4d4d4d.",
  "tags": [
+  "send",
   "gradient",
   "rounded",
   "glow",
   "color-change",
-  "fade",
-  "send"
+  "fade"
  ],
  "colors": [
   "#d6d6d6",

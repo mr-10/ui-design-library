@@ -6,10 +6,11 @@
  "source": "https://uiverse.io/r7chardgh/shaggy-octopus-89",
  "trigger": "hover",
  "description": "Dark gray button that starts animating on hover.",
- "howItWorks": "On hover, starts the shake animation (animating).",
+ "howItWorks": "On hover, starts the shake animation (sliding).",
  "tags": [
   "dark",
   "animated",
+  "slide",
   "button",
   "hover",
   "glitch"

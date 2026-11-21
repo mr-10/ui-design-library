@@ -8,12 +8,12 @@
  "description": "Gradient pill violet profile card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from transparent to #892be2.",
  "tags": [
+  "like",
+  "comment",
   "violet",
   "gradient",
   "outlined",
-  "rounded",
-  "pill",
-  "flat"
+  "rounded"
  ],
  "colors": [
   "#d3d3d3",

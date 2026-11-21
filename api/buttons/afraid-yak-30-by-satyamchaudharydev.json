@@ -8,12 +8,12 @@
  "description": "Sky-blue download button that changes colour on hover.",
  "howItWorks": "On hover, background changes from #1163ff to #6c18ff, top becomes -100%, top becomes 0.",
  "tags": [
+  "download",
   "blue",
   "indigo",
   "flat",
   "color-change",
-  "fade",
-  "download"
+  "fade"
  ],
  "colors": [
   "#1163ff",

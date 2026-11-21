@@ -5,8 +5,8 @@
  "author": "KSAplay",
  "source": "https://uiverse.io/KSAplay/helpless-moose-10",
  "trigger": "auto-loop",
- "description": "Yellow loader with animating motion in a loop.",
- "howItWorks": "It loops a 4s animation (animating).",
+ "description": "Yellow loader with moving motion in a loop.",
+ "howItWorks": "It loops a 4s animation (moving).",
  "tags": [
   "yellow",
   "amber",

@@ -5,7 +5,7 @@
  "author": "neerajbaniwal",
  "source": "https://uiverse.io/neerajbaniwal/sweet-sloth-99",
  "trigger": "checked",
- "description": "Rounded sky-blue tooltip that toggles on and off when clicked.",
+ "description": "Rounded sky-blue tooltip with arrow that toggles on and off when clicked.",
  "howItWorks": "On hover, opacity becomes 1. Clicking it toggles it: starts the pang-animation animation (fading, pulsing), transform becomes translate(25px, 30%) rotate(40deg), transform becomes translate(-4px, 30%) rotate(80deg).",
  "tags": [
   "blue",
@@ -13,7 +13,7 @@
   "fade",
   "pulse",
   "spin",
-  "tooltip"
+  "tooltip-with-arrow"
  ],
  "colors": [
   "#414856",

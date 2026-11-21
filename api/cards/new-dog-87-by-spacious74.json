@@ -5,15 +5,15 @@
  "author": "Spacious74",
  "source": "https://uiverse.io/Spacious74/new-dog-87",
  "trigger": "auto-loop",
- "description": "Gradient dark rounded black card with bouncing motion in a loop.",
- "howItWorks": "It loops a 1.5s animation (bouncing).",
+ "description": "Gradient rounded black card with bouncing motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (bouncing, sliding).",
  "tags": [
+  "social",
   "gradient",
   "dark",
   "rounded",
   "bounce",
-  "social",
-  "flashy"
+  "slide"
  ],
  "colors": [
   "#dcfffc",

@@ -5,7 +5,7 @@
  "author": "JOBOYA",
  "source": "https://uiverse.io/JOBOYA/tiny-goose-31",
  "trigger": "static",
- "description": "Pill gray button with rounded corners with a smooth transition.",
+ "description": "Pill gray button with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
   "rounded",

@@ -8,12 +8,12 @@
  "description": "Gradient rounded cyan button that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0px 0px 0px 3px #30a1b8.",
  "tags": [
+  "edit",
   "cyan",
   "gradient",
   "outlined",
   "rounded",
-  "glow",
-  "edit"
+  "glow"
  ],
  "colors": [
   "#30a1b8",

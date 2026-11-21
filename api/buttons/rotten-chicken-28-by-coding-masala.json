@@ -8,10 +8,10 @@
  "description": "Rounded blue submit button that changes colour on hover.",
  "howItWorks": "On hover, background changes.",
  "tags": [
+  "submit",
   "blue",
   "rounded",
   "color-change",
-  "submit",
   "submit-button",
   "buttons"
  ],

@@ -5,8 +5,8 @@
  "author": "codebykay101",
  "source": "https://uiverse.io/codebykay101/dull-shrimp-28",
  "trigger": "auto-loop",
- "description": "Neon 3d green cube loader with animating; sliding motion in a loop.",
- "howItWorks": "It loops a 4s animation (animating; sliding).",
+ "description": "Neon 3d green cube loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 4s animation (sliding).",
  "tags": [
   "green",
   "neon",

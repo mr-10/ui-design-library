@@ -8,10 +8,10 @@
  "description": "Dark green submit button that reacts on hover.",
  "howItWorks": "On hover, height becomes 30%, height becomes 100%.",
  "tags": [
+  "submit",
   "green",
   "dark",
   "flat",
-  "submit",
   "submit-button",
   "button"
  ],

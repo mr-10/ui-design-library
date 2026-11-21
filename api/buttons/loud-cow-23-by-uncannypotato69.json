@@ -8,11 +8,11 @@
  "description": "Pill white button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, it shifts position.",
  "tags": [
+  "delete",
   "rounded",
   "pill",
   "slide",
   "glow",
-  "delete",
   "buttons"
  ],
  "colors": [

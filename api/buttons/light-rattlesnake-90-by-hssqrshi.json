@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/hssqrshi/light-rattlesnake-90",
  "trigger": "hover",
  "description": "Neon gradient 3d rounded violet button that starts animating on hover.",
- "howItWorks": "On hover, background-color changes from #c47dfb to #b46cea, transform becomes perspective(500px) rotateX(5deg), starts the glow animation (animating). On focus, the outline is removed, box-shadow becomes 0 0 0 4px #c47dfb.",
+ "howItWorks": "On hover, background-color changes from #c47dfb to #b46cea, transform becomes perspective(500px) rotateX(5deg), starts the glow animation (moving). On focus, the outline is removed, box-shadow becomes 0 0 0 4px #c47dfb.",
  "tags": [
   "violet",
   "neon",

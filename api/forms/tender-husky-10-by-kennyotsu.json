@@ -8,12 +8,12 @@
  "description": "Glass gradient 3d dark rounded gray form that fades on hover.",
  "howItWorks": "On hover, opacity becomes 0.8.",
  "tags": [
+  "submit",
+  "phone",
   "glassmorphism",
   "gradient",
   "3d",
-  "dark",
-  "outlined",
-  "rounded"
+  "dark"
  ],
  "colors": [
   "#cecece",

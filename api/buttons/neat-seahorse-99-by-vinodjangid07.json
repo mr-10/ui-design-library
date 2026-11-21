@@ -8,12 +8,12 @@
  "description": "Gradient rounded red submit button that starts animating on hover.",
  "howItWorks": "On hover, starts the slide-in-left animation (fading, sliding).",
  "tags": [
+  "submit",
   "red",
   "amber",
   "gradient",
   "rounded",
-  "animated",
-  "fade"
+  "animated"
  ],
  "colors": [
   "#e62300",

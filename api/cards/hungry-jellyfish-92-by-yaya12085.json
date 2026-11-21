@@ -8,12 +8,12 @@
  "description": "Pill white pricing card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from rgb(99 102 241 ) to rgb(79 70 229 ).",
  "tags": [
+  "pricing",
+  "email",
   "rounded",
   "pill",
   "flat",
-  "color-change",
-  "pricing",
-  "email"
+  "color-change"
  ],
  "colors": [
   "#ffffff",

@@ -8,12 +8,12 @@
  "description": "Gradient 3d dark pill orange card that reacts on hover.",
  "howItWorks": "On hover, transform becomes rotateY(180deg).",
  "tags": [
+  "back",
   "orange",
   "amber",
   "gradient",
   "3d",
-  "dark",
-  "rounded"
+  "dark"
  ],
  "colors": [
   "#ff9966",

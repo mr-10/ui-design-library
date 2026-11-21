@@ -8,12 +8,12 @@
  "description": "Outlined rounded violet signup form that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #ffffff to #639, background-color changes from #639 to #ffffff, border becomes 1px dashed #639. On focus, border becomes 1px solid #639, the outline is removed.",
  "tags": [
+  "signup",
+  "submit",
+  "newsletter",
   "violet",
   "outlined",
-  "rounded",
-  "color-change",
-  "signup",
-  "submit"
+  "rounded"
  ],
  "colors": [
   "#663399",

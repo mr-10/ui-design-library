@@ -8,12 +8,12 @@
  "description": "Outlined orange button that rotates on hover with a smooth transition.",
  "howItWorks": "On hover, text color changes from #ffffff to #ac2800, transform becomes rotate(0deg), width becomes 100%.",
  "tags": [
+  "settings",
+  "home",
   "orange",
   "red",
   "outlined",
-  "flat",
-  "color-change",
-  "rotate"
+  "flat"
  ],
  "colors": [
   "#ac2800",

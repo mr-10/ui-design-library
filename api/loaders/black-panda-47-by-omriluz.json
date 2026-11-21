@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/omriluz/black-panda-47",
  "trigger": "auto-loop",
  "description": "Neon gradient 3d rounded yellow loader with bouncing motion in a loop.",
- "howItWorks": "It loops a 0.07s animation (bouncing, sliding; shimmering).",
+ "howItWorks": "It loops a 0.07s animation (bouncing; shimmering).",
  "tags": [
   "yellow",
   "red",

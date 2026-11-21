@@ -5,7 +5,7 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/tiny-emu-37",
  "trigger": "static",
- "description": "Pill emerald card with soft shadow and rounded corners.",
+ "description": "Pill emerald card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "emerald",

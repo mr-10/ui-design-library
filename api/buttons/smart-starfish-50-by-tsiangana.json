@@ -8,12 +8,12 @@
  "description": "Rounded light orange button that glows on hover.",
  "howItWorks": "On hover, background changes from #fec195 to transparent, text color changes from #fff to #fec195, box-shadow becomes 0 0 25px #fec1958c.",
  "tags": [
-  "orange",
-  "rounded",
-  "glow",
-  "color-change",
-  "expand",
-  "facebook"
+  "facebook",
+  "twitter",
+  "follow",
+  "rating",
+  "social",
+  "orange"
  ],
  "colors": [
   "#fec195",

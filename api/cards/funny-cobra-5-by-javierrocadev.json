@@ -8,12 +8,12 @@
  "description": "3d dark rounded red card that rotates on hover.",
  "howItWorks": "On hover, transform becomes rotateY(180deg) rotate(25deg).",
  "tags": [
+  "back",
   "red",
   "yellow",
   "3d",
   "dark",
-  "outlined",
-  "rounded"
+  "outlined"
  ],
  "colors": [
   "#191f1f",

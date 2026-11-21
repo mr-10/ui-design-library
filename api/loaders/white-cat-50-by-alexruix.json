@@ -5,7 +5,7 @@
  "author": "alexruix",
  "source": "https://uiverse.io/alexruix/white-cat-50",
  "trigger": "auto-loop",
- "description": "Pill red loader with bouncing motion in a loop.",
+ "description": "Pill red loader with rotating motion in a loop.",
  "howItWorks": "It loops a 0.5s animation (bouncing, pulsing, rotating; pulsing).",
  "tags": [
   "red",

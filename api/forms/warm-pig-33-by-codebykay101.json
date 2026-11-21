@@ -8,12 +8,12 @@
  "description": "Gradient sky-blue contact form that lifts and glows on hover.",
  "howItWorks": "On hover, opacity becomes 0.2, transform becomes translateY(-3px), box-shadow becomes 0 5px 15px #000000. On focus, transform becomes translateY(-50%) scale(.9), margin becomes 0em, padding becomes 0.4em.",
  "tags": [
+  "contact",
+  "send",
   "blue",
   "cyan",
   "gradient",
-  "outlined",
-  "fade",
-  "lift"
+  "outlined"
  ],
  "colors": [
   "#e8e8e8",

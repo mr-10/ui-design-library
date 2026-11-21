@@ -5,15 +5,15 @@
  "author": "fanishah",
  "source": "https://uiverse.io/fanishah/terrible-snake-34",
  "trigger": "auto-loop",
- "description": "White spinner loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 5s animation (animating; rotating).",
+ "description": "White spinner loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 5s animation (moving; rotating; rotating, sliding).",
  "tags": [
   "flat",
   "spin",
+  "slide",
   "spinner-loader",
   "loading",
-  "loader",
-  "auto-loop"
+  "loader"
  ],
  "colors": [
   "#ffffff",

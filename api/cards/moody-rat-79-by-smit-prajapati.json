@@ -8,12 +8,12 @@
  "description": "Gradient rounded sky-blue card that glows and scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.08), box-shadow becomes #8db1cd 0px 30px 30px -25px, transform becomes scale(1.5).",
  "tags": [
+  "twitter",
+  "social",
   "blue",
   "cyan",
   "gradient",
-  "outlined",
-  "rounded",
-  "scale"
+  "outlined"
  ],
  "colors": [
   "#8db1cd",

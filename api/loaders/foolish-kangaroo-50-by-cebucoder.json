@@ -5,8 +5,8 @@
  "author": "Cebucoder",
  "source": "https://uiverse.io/Cebucoder/foolish-kangaroo-50",
  "trigger": "auto-loop",
- "description": "Rounded white loader with animating; fading motion in a loop.",
- "howItWorks": "It loops a 0.6s animation (animating; fading).",
+ "description": "Rounded white loader with fading motion in a loop.",
+ "howItWorks": "It loops a 0.6s animation (fading; moving).",
  "tags": [
   "rounded",
   "fade",

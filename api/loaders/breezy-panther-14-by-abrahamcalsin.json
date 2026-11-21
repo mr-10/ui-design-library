@@ -5,7 +5,7 @@
  "author": "abrahamcalsin",
  "source": "https://uiverse.io/abrahamcalsin/breezy-panther-14",
  "trigger": "auto-loop",
- "description": "Dark dark sky-blue loader with growing and shrinking motion in a loop.",
+ "description": "Dark sky-blue loader with growing and shrinking motion in a loop.",
  "howItWorks": "It loops a .9s animation (growing and shrinking).",
  "tags": [
   "blue",

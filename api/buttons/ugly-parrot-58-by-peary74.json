@@ -8,12 +8,12 @@
  "description": "Pink button that starts animating on hover with a smooth transition.",
  "howItWorks": "On hover, right becomes auto, left becomes 0, width becomes 100%.",
  "tags": [
+  "like",
+  "rating",
   "pink",
   "flat",
   "expand",
-  "color-change",
-  "animated",
-  "pulse"
+  "color-change"
  ],
  "colors": [
   "#fd1853",

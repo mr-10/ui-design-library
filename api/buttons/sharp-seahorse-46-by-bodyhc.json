@@ -8,12 +8,12 @@
  "description": "Rounded dark indigo button that glows and scales up on hover.",
  "howItWorks": "On hover, width becomes 180px, height becomes 60px, transform becomes scale(1.3) rotate(2deg).",
  "tags": [
+  "share",
   "indigo",
   "blue",
   "rounded",
   "scale",
-  "rotate",
-  "glow"
+  "rotate"
  ],
  "colors": [
   "#270092",

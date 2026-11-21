@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/Shoh2008/cold-walrus-85",
  "trigger": "auto-loop",
  "description": "Amber loader with rotating motion in a loop.",
- "howItWorks": "It loops a 2.5s animation (rotating).",
+ "howItWorks": "It loops a 2.5s animation (rotating, sliding).",
  "tags": [
   "amber",
   "flat",
   "spin",
+  "slide",
   "loader",
-  "auto-loop",
-  "css"
+  "auto-loop"
  ],
  "colors": [
   "#ffa500",

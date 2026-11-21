@@ -8,12 +8,12 @@
  "description": "Neon gradient 3d yellow button that lights up when focused.",
  "howItWorks": "On focus, the outline is removed, box-shadow becomes 0 0 0 3px #ffeb34.",
  "tags": [
+  "play",
   "yellow",
   "neon",
   "gradient",
   "3d",
-  "slide",
-  "play"
+  "slide"
  ],
  "colors": [
   "#c4c4c4",

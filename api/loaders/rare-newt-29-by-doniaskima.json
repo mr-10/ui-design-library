@@ -5,8 +5,8 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/rare-newt-29",
  "trigger": "auto-loop",
- "description": "Gradient dark red loader with animating; shimmering motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; shimmering).",
+ "description": "Gradient dark red loader with shimmering motion in a loop.",
+ "howItWorks": "It loops a 2s animation (moving; shimmering).",
  "tags": [
   "red",
   "gradient",

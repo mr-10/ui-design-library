@@ -8,12 +8,12 @@
  "description": "Neon gradient 3d rounded blue card that reacts on hover.",
  "howItWorks": "On hover, transform becomes rotateY(180deg).",
  "tags": [
+  "back",
   "blue",
   "purple",
   "neon",
   "gradient",
-  "3d",
-  "outlined"
+  "3d"
  ],
  "colors": [
   "#4158d0",

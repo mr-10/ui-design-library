@@ -5,8 +5,8 @@
  "author": "SelfMadeSystem",
  "source": "https://uiverse.io/SelfMadeSystem/orange-crab-82",
  "trigger": "auto-loop",
- "description": "Cyan loader with animating motion in a loop.",
- "howItWorks": "It loops a 4s animation (animating).",
+ "description": "Cyan loader with moving motion in a loop.",
+ "howItWorks": "It loops a 4s animation (moving).",
  "tags": [
   "cyan",
   "flat",

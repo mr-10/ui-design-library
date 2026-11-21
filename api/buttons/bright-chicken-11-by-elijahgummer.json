@@ -5,15 +5,15 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/bright-chicken-11",
  "trigger": "hover",
- "description": "Rounded gray button that changes colour on hover.",
+ "description": "Rounded gray social button that changes colour on hover.",
  "howItWorks": "On hover, background changes and a ring appears and text colour changes.",
  "tags": [
-  "rounded",
-  "color-change",
-  "ring",
   "github",
   "rating",
-  "buttons"
+  "social",
+  "rounded",
+  "color-change",
+  "ring"
  ],
  "colors": [
   "#6b7280",

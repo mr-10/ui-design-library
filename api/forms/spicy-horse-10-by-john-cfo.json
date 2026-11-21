@@ -8,12 +8,12 @@
  "description": "Gradient pill dark blue login form that starts animating on hover.",
  "howItWorks": "On hover, border-radius becomes 3.9px, box-shadow becomes 4px 5px 17px -4px #ffffff, starts the sh02 animation (fading). On focus, opacity becomes 0.",
  "tags": [
+  "signup",
+  "submit",
+  "rating",
   "blue",
   "gradient",
-  "outlined",
-  "rounded",
-  "pill",
-  "glow"
+  "outlined"
  ],
  "colors": [
   "#020024",

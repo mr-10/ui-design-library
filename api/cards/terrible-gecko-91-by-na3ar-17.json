@@ -8,12 +8,12 @@
  "description": "Gradient rounded violet card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #242832 to #5353ff, text color changes from #7e8590 to #ffffff, transform becomes translate(1px, -1px).",
  "tags": [
+  "settings",
+  "delete",
+  "add",
   "violet",
   "gradient",
-  "rounded",
-  "flat",
-  "color-change",
-  "settings"
+  "rounded"
  ],
  "colors": [
   "#bd89ff",

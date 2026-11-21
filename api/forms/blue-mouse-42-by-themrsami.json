@@ -8,12 +8,12 @@
  "description": "Gradient rounded dark sky-blue newsletter form that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, background changes and a ring appears.",
  "tags": [
+  "newsletter",
   "blue",
   "gradient",
   "rounded",
   "color-change",
-  "ring",
-  "newsletter"
+  "ring"
  ],
  "colors": [
   "#1f2937",

@@ -5,7 +5,7 @@
  "author": "DSB2004",
  "source": "https://uiverse.io/DSB2004/ugly-yak-77",
  "trigger": "auto-loop",
- "description": "Gradient 3d indigo loader with bouncing; growing and shrinking motion in a loop.",
+ "description": "Gradient 3d indigo loader with bouncing motion in a loop.",
  "howItWorks": "It loops a animation (bouncing; growing and shrinking).",
  "tags": [
   "indigo",

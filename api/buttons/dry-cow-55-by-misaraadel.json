@@ -5,7 +5,7 @@
  "author": "misaraadel",
  "source": "https://uiverse.io/misaraadel/dry-cow-55",
  "trigger": "hover",
- "description": "3d dark rounded black button that starts animating on hover.",
+ "description": "3d rounded black button that starts animating on hover.",
  "howItWorks": "On hover, transform becomes translate(-12px, -12px), transform becomes translate(6px, 6px), opacity becomes .5.",
  "tags": [
   "3d",

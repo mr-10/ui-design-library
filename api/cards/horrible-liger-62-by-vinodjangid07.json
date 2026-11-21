@@ -8,11 +8,11 @@
  "description": "Gradient pill gray profile card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from linear-gradient(to right,#363636,#202020) to #2b2b2b.",
  "tags": [
+  "profile",
   "gradient",
   "rounded",
   "pill",
   "color-change",
-  "profile",
   "profile-card"
  ],
  "colors": [

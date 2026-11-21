@@ -5,15 +5,15 @@
  "author": "bhaveshxrawat",
  "source": "https://uiverse.io/bhaveshxrawat/silly-panda-37",
  "trigger": "auto-loop",
- "description": "Pill red loader with pulsing motion in a loop.",
- "howItWorks": "It loops a 0.5s animation (pulsing).",
+ "description": "Pill red loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 0.5s animation (pulsing, sliding).",
  "tags": [
   "red",
   "rounded",
   "pill",
   "flat",
   "pulse",
-  "loader"
+  "slide"
  ],
  "colors": [
   "#ff2c2c",

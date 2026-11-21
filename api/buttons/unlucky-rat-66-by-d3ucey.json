@@ -8,12 +8,12 @@
  "description": "Rounded red download button that fades on hover.",
  "howItWorks": "On hover, transform becomes translateY(0px), opacity becomes 0, opacity becomes 1. On focus, starts the heartbeat animation (pulsing).",
  "tags": [
+  "download",
   "red",
   "rounded",
   "flat",
   "drop",
-  "fade",
-  "pulse"
+  "fade"
  ],
  "colors": [
   "#ff0021",

@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/AHMED-MIT/quick-dragonfly-5",
  "trigger": "auto-loop",
  "description": "Blue spinner loader with rotating motion in a loop.",
- "howItWorks": "It loops a 1s animation (rotating).",
+ "howItWorks": "It loops a 1s animation (rotating, sliding).",
  "tags": [
   "blue",
   "flat",
   "spin",
+  "slide",
   "spinner-loader",
-  "about-me",
-  "css"
+  "about-me"
  ],
  "colors": [
   "#474bff",

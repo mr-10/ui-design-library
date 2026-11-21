@@ -8,12 +8,12 @@
  "description": "Rounded blue button that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.3) translate(-40%), transform becomes translateX(90%), transform becomes translateX(200%).",
  "tags": [
+  "play",
   "blue",
   "rounded",
   "flat",
   "scale",
-  "slide",
-  "play"
+  "slide"
  ],
  "colors": [
   "#5865f2",

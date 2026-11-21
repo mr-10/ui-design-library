@@ -8,10 +8,10 @@
  "description": "Rounded violet button that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #ffffff to transparent, right becomes 43%, margin becomes 0.",
  "tags": [
+  "edit",
   "violet",
   "rounded",
   "color-change",
-  "edit",
   "purple",
   "button"
  ],

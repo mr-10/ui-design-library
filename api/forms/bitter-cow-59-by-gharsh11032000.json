@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded purple form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from transparent to #fff, border-color becomes #fff. On focus, the outline is removed, border-color becomes #e81cff.",
  "tags": [
+  "submit",
+  "email",
   "purple",
   "gradient",
   "dark",
-  "outlined",
-  "rounded",
-  "flat"
+  "outlined"
  ],
  "colors": [
   "#e81cff",

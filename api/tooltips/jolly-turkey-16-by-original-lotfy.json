@@ -5,7 +5,7 @@
  "author": "original-lotfy",
  "source": "https://uiverse.io/original-lotfy/jolly-turkey-16",
  "trigger": "hover",
- "description": "Gradient rounded teal tooltip that fades on hover.",
+ "description": "Gradient rounded teal tooltip with arrow that fades on hover.",
  "howItWorks": "On hover, top becomes -120%, opacity becomes 1.",
  "tags": [
   "teal",
@@ -13,7 +13,7 @@
   "gradient",
   "rounded",
   "fade",
-  "simple"
+  "tooltip-with-arrow"
  ],
  "colors": [
   "#0acbec",

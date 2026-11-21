@@ -8,12 +8,12 @@
  "description": "Rounded gray checkout form that changes colour on hover.",
  "howItWorks": "On hover, background changes.",
  "tags": [
-  "rounded",
-  "color-change",
   "google",
   "add",
-  "checkout-form",
-  "forms"
+  "social",
+  "rounded",
+  "color-change",
+  "checkout-form"
  ],
  "colors": [
   "#27272a",

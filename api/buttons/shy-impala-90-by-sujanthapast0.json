@@ -8,9 +8,9 @@
  "description": "Sky-blue submit button that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #fff to #cbdcf8. On focus, background-color changes from #fff to #cbdcf8, opacity becomes 100%, transform becomes translatey(26px).",
  "tags": [
+  "submit",
   "blue",
   "color-change",
-  "submit",
   "submit-button",
   "animation",
   "subscription"

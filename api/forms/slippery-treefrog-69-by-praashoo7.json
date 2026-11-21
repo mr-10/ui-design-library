@@ -8,12 +8,12 @@
  "description": "Outlined rounded gray login form that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 1px 1px 1px #000000, scale becomes 0.99, box-shadow becomes inset 0px 0px 0px #d1d1d1,\n            inset 0px 0px 0px #ffffff. On focus, box-shadow becomes inset 0px 0px 0px #d1d1d1,\n            inset 0px 0px 0px #ffffff, background-color changes from #ebebeb to #d3d3d3.",
  "tags": [
+  "submit",
+  "back",
   "outlined",
   "rounded",
   "glow",
-  "color-change",
-  "submit",
-  "back"
+  "color-change"
  ],
  "colors": [
   "#b5b5b5",

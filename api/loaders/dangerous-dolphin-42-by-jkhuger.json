@@ -5,15 +5,15 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/dangerous-dolphin-42",
  "trigger": "auto-loop",
- "description": "Gradient pill red loader with animating; changing colour; fading motion in a loop.",
- "howItWorks": "It loops a 0.5s animation (animating; changing colour; fading, pulsing; pulsing).",
+ "description": "Gradient pill red loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 0.5s animation (changing colour; fading, pulsing; pulsing; sliding).",
  "tags": [
+  "rating",
   "red",
   "gradient",
   "outlined",
   "rounded",
-  "pill",
-  "flat"
+  "pill"
  ],
  "colors": [
   "#f5f5f5",

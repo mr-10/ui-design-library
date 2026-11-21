@@ -8,12 +8,12 @@
  "description": "Gradient rounded sky-blue button that scales up on hover.",
  "howItWorks": "On hover, opacity becomes 1, transform becomes scale(1.3), transform becomes translate(-55px, -20px) rotate(55deg) scale(1.8).",
  "tags": [
+  "rating",
   "blue",
   "gradient",
   "rounded",
   "flat",
-  "fade",
-  "scale"
+  "fade"
  ],
  "colors": [
   "#4878a8",

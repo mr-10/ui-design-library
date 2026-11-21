@@ -8,12 +8,12 @@
  "description": "Pill fuchsia product card that scales up on hover.",
  "howItWorks": "On hover, it rotates and it scales.",
  "tags": [
+  "email",
   "fuchsia",
   "violet",
   "rounded",
   "pill",
-  "rotate",
-  "scale"
+  "rotate"
  ],
  "colors": [
   "#042635",

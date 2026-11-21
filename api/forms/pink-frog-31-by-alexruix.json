@@ -8,12 +8,12 @@
  "description": "Rounded gray login form that lights up when focused.",
  "howItWorks": "On focus, a ring appears and border changes.",
  "tags": [
-  "rounded",
-  "ring",
-  "color-change",
   "password",
   "back",
-  "email"
+  "email",
+  "rounded",
+  "ring",
+  "color-change"
  ],
  "colors": [
   "#4b5563",

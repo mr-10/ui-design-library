@@ -5,7 +5,7 @@
  "author": "BurgiSimon",
  "source": "https://uiverse.io/BurgiSimon/rotten-dolphin-78",
  "trigger": "hover",
- "description": "Dark black text input that glows on hover.",
+ "description": "Black text input that glows on hover with a smooth transition.",
  "howItWorks": "On hover, box-shadow becomes 1px 1px 1px 1px #959793,\n    -1px -1px 1px 1px #7c7c7c, text color changes from whitesmoke to #999999. On focus, background-color changes from #121212 to #222, border becomes 1.5px solid #bdbdbd.",
  "tags": [
   "dark",

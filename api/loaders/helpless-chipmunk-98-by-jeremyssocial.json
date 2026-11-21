@@ -5,7 +5,7 @@
  "author": "jeremyssocial",
  "source": "https://uiverse.io/jeremyssocial/helpless-chipmunk-98",
  "trigger": "auto-loop",
- "description": "3d dark gray cube loader with fading motion in a loop.",
+ "description": "3d dark gray cube loader with rotating motion in a loop.",
  "howItWorks": "It loops a 2.4s animation (fading, rotating).",
  "tags": [
   "3d",

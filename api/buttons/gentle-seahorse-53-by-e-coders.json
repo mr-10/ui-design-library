@@ -5,7 +5,7 @@
  "author": "e-coders",
  "source": "https://uiverse.io/e-coders/gentle-seahorse-53",
  "trigger": "static",
- "description": "Sky-blue button with soft shadow with a smooth transition.",
+ "description": "Sky-blue button with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
   "blue",

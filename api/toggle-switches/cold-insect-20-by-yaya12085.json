@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/Yaya12085/cold-insect-20",
  "trigger": "checked",
  "description": "Gradient rounded gray toggle switch that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: starts the anime1 animation (changing colour), box-shadow becomes none, starts the anime2 animation (animating).",
+ "howItWorks": "Clicking it toggles it: starts the anime1 animation (changing colour), box-shadow becomes none, starts the anime2 animation (moving).",
  "tags": [
   "gradient",
   "outlined",

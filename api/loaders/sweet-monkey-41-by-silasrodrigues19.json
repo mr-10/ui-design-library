@@ -5,7 +5,7 @@
  "author": "SilasRodrigues19",
  "source": "https://uiverse.io/SilasRodrigues19/sweet-monkey-41",
  "trigger": "auto-loop",
- "description": "White loader with fading motion in a loop.",
+ "description": "White loader with pulsing motion in a loop.",
  "howItWorks": "It loops a 1.5s animation (fading, pulsing).",
  "tags": [
   "flat",

@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/Yaya12085/happy-emu-100",
  "trigger": "hover",
  "description": "Gradient 3d dark pill amber button that starts animating on hover.",
- "howItWorks": "On hover, transform becomes skewY(9.3deg) scaleY(2), starts the shake_3019 animation (bouncing, rotating, sliding), transform becomes translateX(-50%) translateY(-100%). On focus, starts the push_3019 animation (bouncing, rotating).",
+ "howItWorks": "On hover, transform becomes skewY(9.3deg) scaleY(2), starts the shake_3019 animation (bouncing, rotating), transform becomes translateX(-50%) translateY(-100%). On focus, starts the push_3019 animation (bouncing, rotating).",
  "tags": [
   "amber",
   "gradient",

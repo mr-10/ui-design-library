@@ -8,12 +8,12 @@
  "description": "Rounded yellow form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #f1f182 to #ebff3b, text color changes from #000000 to #000000.",
  "tags": [
+  "submit",
+  "password",
   "yellow",
   "lime",
   "rounded",
-  "color-change",
-  "submit",
-  "password"
+  "color-change"
  ],
  "colors": [
   "#000241",

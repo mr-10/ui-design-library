@@ -5,7 +5,7 @@
  "author": "Dalyn-Liu",
  "source": "https://uiverse.io/Dalyn-Liu/polite-deer-52",
  "trigger": "auto-loop",
- "description": "Neon emerald card with morphing motion in a loop.",
+ "description": "Neon emerald card with pulsing motion in a loop.",
  "howItWorks": "It loops a 1.2s animation (morphing, pulsing).",
  "tags": [
   "emerald",

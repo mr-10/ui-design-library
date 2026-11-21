@@ -8,12 +8,12 @@
  "description": "Green tooltip that toggles on and off when clicked.",
  "howItWorks": "On hover, starts the none animation. Clicking it toggles it: opacity becomes 0.",
  "tags": [
+  "close",
   "green",
   "animated",
   "bounce",
   "fade",
-  "slide",
-  "close"
+  "slide"
  ],
  "colors": [
   "#222222",

@@ -8,12 +8,12 @@
  "description": "Gradient pill sky-blue card that changes colour on hover.",
  "howItWorks": "On hover, text colour changes.",
  "tags": [
+  "social",
+  "close",
   "blue",
   "gradient",
   "rounded",
-  "pill",
-  "color-change",
-  "social"
+  "pill"
  ],
  "colors": [
   "#3b82f6",

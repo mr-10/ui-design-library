@@ -8,9 +8,9 @@
  "description": "Emerald pricing card that fades on hover with a smooth transition.",
  "howItWorks": "On hover, bottom becomes 0, opacity becomes 1.",
  "tags": [
+  "pricing",
   "emerald",
   "fade",
-  "pricing",
   "pricing-card",
   "card",
   "hover"

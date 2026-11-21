@@ -8,12 +8,12 @@
  "description": "Gradient pill cyan login form that glows and scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.03), box-shadow becomes #85bdd7 0px 23px 10px -20px, transform becomes scale(1.2). On focus, the outline is removed.",
  "tags": [
-  "cyan",
-  "gradient",
-  "rounded",
-  "pill",
-  "scale",
-  "glow"
+  "login",
+  "password",
+  "social",
+  "google",
+  "twitter",
+  "cyan"
  ],
  "colors": [
   "#85bdd7",

@@ -5,15 +5,15 @@
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/modern-dragon-29",
  "trigger": "hover",
- "description": "Dark dark sky-blue card that scales up on hover.",
+ "description": "Dark sky-blue card that scales up on hover.",
  "howItWorks": "On hover, background changes from #ffd60a to #ffffff, text color changes from #003566 to #000000, transform becomes scale(1.5) rotate(-25deg).",
  "tags": [
+  "cart",
+  "add",
   "blue",
   "yellow",
   "dark",
-  "flat",
-  "color-change",
-  "scale"
+  "flat"
  ],
  "colors": [
   "#003566",

@@ -5,7 +5,7 @@
  "author": "MrLegendGaming",
  "source": "https://uiverse.io/MrLegendGaming/unlucky-goat-90",
  "trigger": "auto-loop",
- "description": "3d purple loader with bouncing motion in a loop.",
+ "description": "3d purple loader with rotating motion in a loop.",
  "howItWorks": "It loops a 2s animation (bouncing, fading; rotating).",
  "tags": [
   "purple",

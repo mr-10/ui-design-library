@@ -8,12 +8,12 @@
  "description": "Gradient pill sky-blue form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #3f4c6b to #3f4c6b, background-color changes from #3f4c6b to #ff0000. On focus, border becomes 1px solid rgb(99 102 241).",
  "tags": [
+  "close",
   "blue",
   "gradient",
   "rounded",
   "pill",
-  "color-change",
-  "close"
+  "color-change"
  ],
  "colors": [
   "#3f4c6b",

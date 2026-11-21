@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded blue card with sliding motion in a loop.",
  "howItWorks": "It loops a 7.5s animation (sliding).",
  "tags": [
+  "home",
   "blue",
   "red",
   "neon",
   "gradient",
-  "dark",
-  "outlined"
+  "dark"
  ],
  "colors": [
   "#3a3dff",

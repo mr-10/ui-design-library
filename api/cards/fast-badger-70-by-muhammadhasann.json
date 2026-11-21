@@ -8,12 +8,12 @@
  "description": "Gradient pill black card with rotating motion in a loop.",
  "howItWorks": "It loops a 8s animation (rotating).",
  "tags": [
+  "next",
   "gradient",
   "outlined",
   "rounded",
   "pill",
-  "spin",
-  "next"
+  "spin"
  ],
  "colors": [
   "#14141a",

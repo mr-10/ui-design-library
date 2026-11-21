@@ -8,10 +8,10 @@
  "description": "Dark pill gray toggle switch that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: background changes from #fefefe to #f43f5e, transform becomes translateX(50px), width becomes 20px.",
  "tags": [
+  "play",
   "dark",
   "rounded",
   "pill",
-  "play",
   "toggle-switch",
   "neumorphism"
  ],

@@ -5,13 +5,13 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/empty-horse-27",
  "trigger": "static",
- "description": "Gradient rounded sky-blue pricing card with soft shadow and rounded corners and gradient fill.",
+ "description": "Gradient rounded sky-blue pricing card with soft shadow.",
  "howItWorks": "It has no hover, click, focus or animation states; the pricing card is a fixed design.",
  "tags": [
+  "pricing",
   "blue",
   "gradient",
   "rounded",
-  "pricing",
   "pricing-card",
   "card"
  ],

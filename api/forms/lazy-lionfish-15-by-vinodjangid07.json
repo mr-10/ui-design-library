@@ -8,10 +8,10 @@
  "description": "Pill black form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #ffffff to #242424.",
  "tags": [
+  "email",
   "rounded",
   "pill",
   "color-change",
-  "email",
   "form",
   "discount"
  ],

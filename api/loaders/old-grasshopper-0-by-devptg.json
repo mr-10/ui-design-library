@@ -5,7 +5,7 @@
  "author": "DevPTG",
  "source": "https://uiverse.io/DevPTG/old-grasshopper-0",
  "trigger": "auto-loop",
- "description": "Cyan loader with fading motion in a loop.",
+ "description": "Cyan loader with rotating motion in a loop.",
  "howItWorks": "It loops a 2s animation (fading, rotating).",
  "tags": [
   "cyan",

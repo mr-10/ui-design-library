@@ -8,11 +8,11 @@
  "description": "Gradient dark rounded gray text input that reacts on hover.",
  "howItWorks": "On hover, border-color becomes #808080. On focus, background changes from linear-gradient(-225deg, #343434, #6d6d6d) to #464646, border-color becomes #808080.",
  "tags": [
+  "search",
   "gradient",
   "dark",
   "outlined",
   "rounded",
-  "search",
   "text-input"
  ],
  "colors": [

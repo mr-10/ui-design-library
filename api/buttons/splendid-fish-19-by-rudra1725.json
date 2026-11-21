@@ -8,9 +8,9 @@
  "description": "Rounded white button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, box-shadow becomes inset 0 0 6px #000000, 0 0 10px wheat.",
  "tags": [
+  "send",
   "rounded",
   "glow",
-  "send",
   "simple",
   "material-design",
   "3d"

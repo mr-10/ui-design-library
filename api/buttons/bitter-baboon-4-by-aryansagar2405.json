@@ -8,12 +8,12 @@
  "description": "Neon gradient sky-blue button that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: starts the pop animation (pulsing).",
  "tags": [
+  "share",
   "blue",
   "neon",
   "gradient",
   "outlined",
-  "pulse",
-  "share"
+  "pulse"
  ],
  "colors": [
   "#212121",

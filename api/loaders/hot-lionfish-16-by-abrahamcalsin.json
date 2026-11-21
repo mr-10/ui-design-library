@@ -5,15 +5,15 @@
  "author": "abrahamcalsin",
  "source": "https://uiverse.io/abrahamcalsin/hot-lionfish-16",
  "trigger": "auto-loop",
- "description": "Dark sky-blue dots loader with animating; pulsing motion in a loop.",
- "howItWorks": "It loops a animation (animating; pulsing).",
+ "description": "Dark sky-blue dots loader with sliding motion in a loop.",
+ "howItWorks": "It loops a animation (pulsing; sliding).",
  "tags": [
   "blue",
+  "slide",
   "pulse",
   "dots-loader",
   "loader",
-  "auto-loop",
-  "css"
+  "auto-loop"
  ],
  "colors": [
   "#183153",

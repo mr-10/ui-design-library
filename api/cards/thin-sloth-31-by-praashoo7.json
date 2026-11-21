@@ -8,10 +8,10 @@
  "description": "Rounded gray card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #e9e8e8 to #d3d3d3.",
  "tags": [
+  "play",
   "rounded",
   "flat",
   "color-change",
-  "play",
   "media",
   "card"
  ],

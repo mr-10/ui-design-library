@@ -8,12 +8,12 @@
  "description": "Gradient rounded pink card that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: transform becomes translateX(100%), background-color changes from #000000 to #34323D, opacity becomes 1.",
  "tags": [
+  "menu",
+  "phone",
   "pink",
   "amber",
   "gradient",
-  "rounded",
-  "menu",
-  "phone"
+  "rounded"
  ],
  "colors": [
   "#ff0080",

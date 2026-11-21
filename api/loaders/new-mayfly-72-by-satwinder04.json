@@ -5,7 +5,7 @@
  "author": "Satwinder04",
  "source": "https://uiverse.io/Satwinder04/new-mayfly-72",
  "trigger": "auto-loop",
- "description": "Dark pill gray spinner loader with fading motion in a loop.",
+ "description": "Dark pill gray spinner loader with pulsing motion in a loop.",
  "howItWorks": "It loops a 1s animation (fading, pulsing).",
  "tags": [
   "dark",

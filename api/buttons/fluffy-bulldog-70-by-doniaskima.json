@@ -5,7 +5,7 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/fluffy-bulldog-70",
  "trigger": "hover",
- "description": "Gradient dark pill black button that reacts on hover.",
+ "description": "Gradient pill black button that reacts on hover.",
  "howItWorks": "On hover, transform becomes translate(0).",
  "tags": [
   "gradient",

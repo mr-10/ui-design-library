@@ -5,7 +5,7 @@
  "author": "aadil-01",
  "source": "https://uiverse.io/aadil-01/rude-moth-27",
  "trigger": "auto-loop",
- "description": "Rounded cyan loader with bouncing motion in a loop.",
+ "description": "Rounded cyan loader with rotating motion in a loop.",
  "howItWorks": "It loops a 5s animation (bouncing, sliding; rotating).",
  "tags": [
   "cyan",

@@ -8,12 +8,12 @@
  "description": "Gradient rounded red card that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 5px 5px 10px 0px #ab4b3866, z-index becomes 1, opacity becomes 1.",
  "tags": [
+  "save",
   "red",
   "gradient",
   "rounded",
   "glow",
-  "fade",
-  "color-change"
+  "fade"
  ],
  "colors": [
   "#ab4b38",

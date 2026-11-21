@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded sky-blue button that glows and scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.1), box-shadow becomes 0 0 1em 0.45em #000000, background changes from #212121 to radial-gradient(\n    circle at bottom,\n    #3264b4 10%,\n    #212121 70%\n  ).",
  "tags": [
+  "share",
   "blue",
   "gradient",
   "dark",
   "rounded",
-  "scale",
-  "glow"
+  "scale"
  ],
  "colors": [
   "#212121",

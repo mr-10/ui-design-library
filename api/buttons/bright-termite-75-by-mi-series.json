@@ -5,7 +5,7 @@
  "author": "mi-series",
  "source": "https://uiverse.io/mi-series/bright-termite-75",
  "trigger": "hover",
- "description": "Dark black button that glows on hover with a smooth transition.",
+ "description": "Black button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, box-shadow becomes 8px 10px 0 #000, background changes from #000 to transparent, border becomes 2px solid #000.",
  "tags": [
   "dark",

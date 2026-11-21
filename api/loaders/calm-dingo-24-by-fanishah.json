@@ -5,8 +5,8 @@
  "author": "fanishah",
  "source": "https://uiverse.io/fanishah/calm-dingo-24",
  "trigger": "auto-loop",
- "description": "White spinner loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 3s animation (animating; rotating).",
+ "description": "White spinner loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 3s animation (moving; rotating).",
  "tags": [
   "flat",
   "spin",

@@ -5,7 +5,7 @@
  "author": "MohamedAboSeada",
  "source": "https://uiverse.io/MohamedAboSeada/bitter-skunk-14",
  "trigger": "hover",
- "description": "Dark pill black tooltip that starts animating on hover.",
+ "description": "Outlined pill black tooltip that starts animating on hover.",
  "howItWorks": "On hover, opacity becomes 1, starts the HeightUP animation (growing and shrinking).",
  "tags": [
   "dark",

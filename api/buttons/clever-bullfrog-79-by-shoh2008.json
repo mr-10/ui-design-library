@@ -5,7 +5,7 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/clever-bullfrog-79",
  "trigger": "hover",
- "description": "Gradient dark black button that reacts on hover.",
+ "description": "Gradient black button that reacts on hover with a smooth transition.",
  "howItWorks": "On hover, outline-color becomes #ffffff. On focus, outline-color becomes #ffffff.",
  "tags": [
   "gradient",

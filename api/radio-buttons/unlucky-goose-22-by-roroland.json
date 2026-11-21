@@ -12,8 +12,8 @@
   "neon",
   "rounded",
   "pill",
-  "radio-button",
-  "radio"
+  "pulse",
+  "spin"
  ],
  "colors": [
   "#bbb013",

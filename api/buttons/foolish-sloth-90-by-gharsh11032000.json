@@ -8,12 +8,12 @@
  "description": "Outlined rounded amber subscribe button that glows on hover.",
  "howItWorks": "On hover, scale becomes 3, text color changes from #c1a362 to #212121, scale becomes 1.1.",
  "tags": [
+  "newsletter",
   "amber",
   "outlined",
   "rounded",
   "glow",
-  "color-change",
-  "newsletter"
+  "color-change"
  ],
  "colors": [
   "#c1a362",

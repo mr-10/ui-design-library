@@ -5,7 +5,7 @@
  "author": "Bastiennnn",
  "source": "https://uiverse.io/Bastiennnn/wicked-dog-68",
  "trigger": "hover",
- "description": "Dark rounded dark blue card that lifts and glows on hover.",
+ "description": "Rounded dark blue card that lifts and glows on hover.",
  "howItWorks": "On hover, transform becomes translateY(-7px), box-shadow becomes 0px 10px 10px #000000. On focus, outline becomes none !important.",
  "tags": [
   "blue",

@@ -8,12 +8,12 @@
  "description": "Gradient rounded white button that glows and scales up on hover.",
  "howItWorks": "On hover, transform becomes rotate(45deg), transform becomes scale(1.03), box-shadow becomes 0px 185px 52px 0px #171717,\n    0px 119px 47px 0px #171717,\n    0px 67px 40px 0px #171717,\n    0px 30px 30px 0px #171717,\n    0px 7px 16px 0px #171717.",
  "tags": [
+  "send",
   "gradient",
   "outlined",
   "rounded",
   "rotate",
-  "scale",
-  "glow"
+  "scale"
  ],
  "colors": [
   "#171717",

@@ -5,7 +5,7 @@
  "author": "vinodjangid07",
  "source": "https://uiverse.io/vinodjangid07/wonderful-yak-52",
  "trigger": "hover",
- "description": "Glass dark rounded black button that rotates on hover.",
+ "description": "Glass rounded black button that rotates on hover.",
  "howItWorks": "On hover, transform becomes rotate(35deg), background-color changes from transparent to #9c9c9c.",
  "tags": [
   "glassmorphism",

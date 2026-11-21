@@ -8,12 +8,12 @@
  "description": "Rounded red button that starts animating on hover.",
  "howItWorks": "On hover, background-color changes from #ff0000 to #000000, starts the slide-right animation (fading, sliding). On focus, background-color changes from #ff0000 to #000000.",
  "tags": [
+  "play",
   "red",
   "rounded",
   "flat",
   "color-change",
-  "animated",
-  "fade"
+  "animated"
  ],
  "colors": [
   "#ff0000",

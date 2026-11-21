@@ -5,8 +5,8 @@
  "author": "AHMED-MIT",
  "source": "https://uiverse.io/AHMED-MIT/cold-ape-73",
  "trigger": "auto-loop",
- "description": "Pill black spinner loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 0.5s animation (animating; rotating).",
+ "description": "Pill black spinner loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 0.5s animation (moving; rotating).",
  "tags": [
   "rounded",
   "pill",

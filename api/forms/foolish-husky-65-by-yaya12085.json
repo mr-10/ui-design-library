@@ -8,12 +8,12 @@
  "description": "Pill green form that toggles on and off when clicked.",
  "howItWorks": "On hover, opacity becomes .9. Clicking it toggles it: border-color becomes #2563eb.",
  "tags": [
+  "save",
   "green",
   "blue",
   "rounded",
   "pill",
-  "fade",
-  "save"
+  "fade"
  ],
  "colors": [
   "#4b5563",

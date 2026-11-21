@@ -8,12 +8,12 @@
  "description": "Neon pill blue pricing card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #6558d3 to #4133B7. On focus, background-color changes from #6558d3 to #4133B7.",
  "tags": [
+  "pricing",
   "blue",
   "neon",
   "rounded",
   "pill",
-  "color-change",
-  "pricing"
+  "color-change"
  ],
  "colors": [
   "#0026ff",

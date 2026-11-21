@@ -8,12 +8,12 @@
  "description": "Neon gradient red checkbox that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: starts the wiggle animation (rotating).",
  "tags": [
+  "like",
   "red",
   "neon",
   "gradient",
   "outlined",
-  "spin",
-  "like"
+  "spin"
  ],
  "colors": [
   "#212121",

@@ -5,7 +5,7 @@
  "author": "bociKond",
  "source": "https://uiverse.io/bociKond/terrible-emu-64",
  "trigger": "hover",
- "description": "Pill teal tooltip that rotates on hover with a smooth transition.",
+ "description": "Pill teal tooltip with arrow that rotates on hover.",
  "howItWorks": "On hover, transform becomes rotate(225deg), top becomes -100%, opacity becomes 1.",
  "tags": [
   "teal",

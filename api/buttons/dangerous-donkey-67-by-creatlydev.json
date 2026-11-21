@@ -5,14 +5,14 @@
  "author": "Creatlydev",
  "source": "https://uiverse.io/Creatlydev/dangerous-donkey-67",
  "trigger": "static",
- "description": "Gradient green upload button with soft shadow and gradient fill.",
+ "description": "Gradient green upload button with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the upload button is a fixed design.",
  "tags": [
+  "upload",
   "green",
   "indigo",
   "gradient",
   "outlined",
-  "upload",
   "upload-button"
  ],
  "colors": [

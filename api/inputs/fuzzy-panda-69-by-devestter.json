@@ -8,12 +8,12 @@
  "description": "Outlined rounded sky-blue text input that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes #000000 0px 4px 12px, border-color becomes #8aafff, border-radius becomes 7px. On focus, border becomes 2px solid #3978ff, box-shadow becomes #858282 0px 4px 12px, transform becomes scale(0.99).",
  "tags": [
+  "submit",
   "blue",
   "outlined",
   "rounded",
   "glow",
-  "color-change",
-  "submit"
+  "color-change"
  ],
  "colors": [
   "#4d4f52",

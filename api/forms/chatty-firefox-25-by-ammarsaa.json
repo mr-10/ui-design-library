@@ -8,12 +8,12 @@
  "description": "Dark pill cyan signup form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #00bfff to #00bfff96. On focus, text color changes from #fff to #00bfff, top becomes 0px, font-size becomes 0.7em.",
  "tags": [
-  "cyan",
-  "dark",
-  "rounded",
-  "pill",
-  "flat",
-  "color-change"
+  "login",
+  "signup",
+  "submit",
+  "password",
+  "email",
+  "cyan"
  ],
  "colors": [
   "#00bfff",

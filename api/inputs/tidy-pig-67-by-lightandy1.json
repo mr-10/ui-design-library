@@ -5,13 +5,13 @@
  "author": "LightAndy1",
  "source": "https://uiverse.io/LightAndy1/tidy-pig-67",
  "trigger": "hover",
- "description": "Dark rounded black search input that glows on hover.",
+ "description": "Rounded black search input that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 0 0 2.5px #2f303d, 0px 0px 25px -15px #000. On focus, box-shadow becomes 0 0 0 2.5px #2f303d.",
  "tags": [
+  "search",
   "dark",
   "rounded",
   "glow",
-  "search",
   "search-input",
   "simple"
  ],

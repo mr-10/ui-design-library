@@ -8,12 +8,12 @@
  "description": "Violet button that toggles on and off when clicked.",
  "howItWorks": "On hover, background changes from #596778 to #eeeeee, text color changes from #c49cde to #091974, transform becomes scale(1.2, 1.2) translate3d(0, 0, 0). Clicking it toggles it: transform becomes translate3d(0, 0, 0) rotate(45deg), transform becomes translate3d(0, 0, 0) scale(0.1, 1), transform becomes translate3d(0, 0, 0) rotate(-45deg).",
  "tags": [
+  "menu",
+  "like",
+  "rating",
   "violet",
   "green",
-  "color-change",
-  "scale",
-  "menu",
-  "like"
+  "color-change"
  ],
  "colors": [
   "#eeeeee",

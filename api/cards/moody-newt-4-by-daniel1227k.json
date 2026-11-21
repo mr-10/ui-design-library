@@ -8,12 +8,12 @@
  "description": "Gradient cyan card that lifts on hover with a smooth transition.",
  "howItWorks": "On hover, scale becomes 0.5, opacity becomes 0.9, transform becomes translateY(-70px).",
  "tags": [
+  "facebook",
+  "twitter",
+  "social",
   "cyan",
   "pink",
-  "gradient",
-  "flat",
-  "lift",
-  "fade"
+  "gradient"
  ],
  "colors": [
   "#03a9f4",

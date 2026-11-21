@@ -8,10 +8,10 @@
  "description": "Rounded indigo download button that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 0.5em 1.5em -0.5em #584774, height becomes 60%.",
  "tags": [
+  "download",
   "indigo",
   "rounded",
   "glow",
-  "download",
   "download-button",
   "simple"
  ],

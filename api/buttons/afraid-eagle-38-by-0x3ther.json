@@ -5,15 +5,15 @@
  "author": "0x3ther",
  "source": "https://uiverse.io/0x3ther/afraid-eagle-38",
  "trigger": "hover",
- "description": "Gradient rounded sky-blue button that changes colour on hover.",
+ "description": "Gradient rounded sky-blue social button that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, a ring appears.",
  "tags": [
+  "facebook",
+  "twitter",
+  "social",
   "blue",
   "red",
-  "gradient",
-  "rounded",
-  "color-change",
-  "ring"
+  "gradient"
  ],
  "colors": [
   "#3b82f6",

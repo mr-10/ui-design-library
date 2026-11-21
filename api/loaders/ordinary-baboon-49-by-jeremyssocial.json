@@ -8,12 +8,12 @@
  "description": "Neon pill green dots loader with fading motion in a loop.",
  "howItWorks": "It loops a 1.5s animation (fading).",
  "tags": [
+  "close",
   "green",
   "red",
   "neon",
   "dark",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#00ff00",

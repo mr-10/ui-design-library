@@ -8,10 +8,10 @@
  "description": "Outlined red button that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #ffffff to #db0000.",
  "tags": [
+  "like",
   "red",
   "outlined",
   "color-change",
-  "like",
   "button",
   "click-effect"
  ],

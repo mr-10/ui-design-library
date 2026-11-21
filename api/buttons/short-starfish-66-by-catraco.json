@@ -8,10 +8,10 @@
  "description": "Gradient red button that responds while pressed down.",
  "howItWorks": "While pressed, transform becomes translateY(0%), box-shadow becomes 0 0.",
  "tags": [
+  "back",
   "red",
   "gradient",
   "outlined",
-  "back",
   "button",
   "active"
  ],

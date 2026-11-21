@@ -481,11 +481,11 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "rating",
     "emerald",
     "rounded",
     "pill",
     "flat",
-    "rating",
     "toggle-switch",
     "switch",
     "moon",
@@ -521,10 +521,10 @@
     "outlined",
     "rounded",
     "pill",
+    "spin",
     "toggle-switch",
     "switch",
-    "toggle-switches",
-    "checked"
+    "toggle-switches"
    ],
    "colors": [
     "#f8acff",
@@ -682,7 +682,7 @@
    "link": "https://uiverse.io/BurgiSimon/breezy-donkey-2",
    "path": "uiverse/toggle-switches/breezy-donkey-2-by-burgisimon/",
    "description": "Neon rounded green toggle switch that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: background-color changes from #ff3636 to #00c763, transform becomes translateX(2.5em), starts the slideRight animation (bouncing, sliding). On focus, box-shadow becomes 0 0 1px #00c763.",
+   "howItWorks": "Clicking it toggles it: background-color changes from #ff3636 to #00c763, transform becomes translateX(2.5em), starts the slideRight animation (bouncing). On focus, box-shadow becomes 0 0 1px #00c763.",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -691,8 +691,8 @@
     "neon",
     "rounded",
     "bounce",
-    "slide",
     "toggle-switch",
+    "slide",
     "simple",
     "animation",
     "switch"
@@ -717,7 +717,7 @@
    "link": "https://uiverse.io/vinodjangid07/breezy-goose-71",
    "path": "uiverse/toggle-switches/breezy-goose-71-by-vinodjangid07/",
    "description": "Rounded dark teal toggle switch that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: starts the bookmark animation (animating).",
+   "howItWorks": "Clicking it toggles it: starts the bookmark animation (moving).",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -917,11 +917,11 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "back",
     "blue",
     "amber",
     "rounded",
     "flat",
-    "back",
     "toggle-switch",
     "switch",
     "dark",
@@ -1212,7 +1212,7 @@
    "link": "https://uiverse.io/Yaya12085/cold-insect-20",
    "path": "uiverse/toggle-switches/cold-insect-20-by-yaya12085/",
    "description": "Gradient rounded gray toggle switch that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: starts the anime1 animation (changing colour), box-shadow becomes none, starts the anime2 animation (animating).",
+   "howItWorks": "Clicking it toggles it: starts the anime1 animation (changing colour), box-shadow becomes none, starts the anime2 animation (moving).",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -1520,6 +1520,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "comment",
     "pink",
     "outlined",
     "rounded",
@@ -1528,7 +1529,6 @@
     "animated",
     "fade",
     "pulse",
-    "comment",
     "toggle-switch"
    ],
    "colors": [
@@ -1890,20 +1890,20 @@
    "link": "https://uiverse.io/Na3ar-17/evil-dragon-24",
    "path": "uiverse/toggle-switches/evil-dragon-24-by-na3ar-17/",
    "description": "Neon pill blue toggle switch that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: width becomes 57px, starts the installed animation (growing and shrinking), starts the rotate animation (fading, rotating).",
+   "howItWorks": "Clicking it toggles it: width becomes 57px, starts the installed animation (growing and shrinking), starts the rotate animation (fading, rotating, sliding).",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "download",
     "blue",
     "neon",
     "outlined",
     "rounded",
     "pill",
+    "pulse",
     "fade",
     "spin",
-    "download",
-    "toggle-switch",
-    "action"
+    "slide"
    ],
    "colors": [
     "#5b5bf0",
@@ -2069,11 +2069,11 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "back",
     "amber",
     "dark",
     "rounded",
     "pill",
-    "back",
     "toggle-switch",
     "simple",
     "animation",
@@ -2139,13 +2139,13 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "back",
     "red",
     "green",
     "3d",
     "rounded",
     "pill",
     "flat",
-    "back",
     "toggle-switch",
     "switch",
     "flip"
@@ -3453,12 +3453,12 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "rating",
     "amber",
     "scale",
     "color-change",
     "animated",
     "pulse",
-    "rating",
     "toggle-switch",
     "switch",
     "starrating",
@@ -3682,7 +3682,7 @@
    "link": "https://uiverse.io/PriyanshuGupta28/little-grasshopper-46",
    "path": "uiverse/toggle-switches/little-grasshopper-46-by-priyanshugupta28/",
    "description": "3d pill sky-blue toggle switch that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: opacity becomes 0, transform becomes scale(0.3) translate(-50%, -50%) rotate(45deg), starts the bounceInBeforeDont-44 animation (fading, pulsing, rotating).",
+   "howItWorks": "Clicking it toggles it: opacity becomes 0, transform becomes scale(0.3) translate(-50%, -50%) rotate(45deg), starts the bounceInBeforeDont-44 animation (fading, pulsing, rotating, sliding).",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -3695,7 +3695,7 @@
     "fade",
     "pulse",
     "spin",
-    "toggle-switch"
+    "slide"
    ],
    "colors": [
     "#0059ff",
@@ -3754,7 +3754,7 @@
    "link": "https://uiverse.io/Yaya12085/lovely-firefox-94",
    "path": "uiverse/toggle-switches/lovely-firefox-94-by-yaya12085/",
    "description": "Gradient pill sky-blue toggle switch that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: box-shadow becomes inset -2px -2px 0 #5e5e5e,inset 2px 2px 0 #1c1c1c, border becomes 4px solid #4d7cff, starts the animeBorder animation (animating).",
+   "howItWorks": "Clicking it toggles it: box-shadow becomes inset -2px -2px 0 #5e5e5e,inset 2px 2px 0 #1c1c1c, border becomes 4px solid #4d7cff, starts the animeBorder animation (moving).",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -4063,12 +4063,12 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "rating",
     "blue",
     "rounded",
     "spin",
     "slide",
     "fade",
-    "rating",
     "toggle-switch",
     "switch",
     "space",
@@ -4239,10 +4239,10 @@
     "outlined",
     "rounded",
     "pill",
+    "slide",
     "toggle-switch",
     "animation",
-    "minimalist",
-    "switch"
+    "minimalist"
    ],
    "colors": [
     "#d9d9d9",
@@ -4264,7 +4264,7 @@
    "link": "https://uiverse.io/Praashoo7/nasty-seahorse-26",
    "path": "uiverse/toggle-switches/nasty-seahorse-26-by-praashoo7/",
    "description": "Glass neon pill amber toggle switch that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: starts the tap animation (animating), background-color changes from #747373 to #FFA133, starts the bling_8561328 animation (animating). On focus, box-shadow becomes 0 0 1px #FFA133.",
+   "howItWorks": "Clicking it toggles it: starts the tap animation (pulsing), background-color changes from #747373 to #FFA133, starts the bling_8561328 animation (moving). On focus, box-shadow becomes 0 0 1px #FFA133.",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -4273,11 +4273,11 @@
     "glassmorphism",
     "rounded",
     "pill",
+    "pulse",
     "toggle-switch",
     "switch",
     "torch",
-    "flashlight",
-    "toggle-switches"
+    "flashlight"
    ],
    "colors": [
     "#ffa133",
@@ -4930,10 +4930,10 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "play",
     "dark",
     "rounded",
     "pill",
-    "play",
     "toggle-switch",
     "neumorphism",
     "switch",
@@ -5471,7 +5471,7 @@
    "author": "AmIt-DasIT",
    "link": "https://uiverse.io/AmIt-DasIT/rotten-rat-40",
    "path": "uiverse/toggle-switches/rotten-rat-40-by-amit-dasit/",
-   "description": "Dark rounded dark sky-blue toggle switch that toggles on and off when clicked.",
+   "description": "Rounded dark sky-blue toggle switch that toggles on and off when clicked.",
    "howItWorks": "Clicking it toggles it: background-color changes from #223243 to #ffff00, box-shadow becomes none, transform becomes translateX(1.5em).",
    "trigger": "checked",
    "needsJs": false,
@@ -5925,8 +5925,8 @@
     "pill",
     "shrink",
     "expand",
-    "toggle-switch",
-    "skeuomorphism"
+    "slide",
+    "toggle-switch"
    ],
    "colors": [
     "#da0b0b",
@@ -6217,15 +6217,15 @@
    "author": "mrhyddenn",
    "link": "https://uiverse.io/mrhyddenn/silly-starfish-53",
    "path": "uiverse/toggle-switches/silly-starfish-53-by-mrhyddenn/",
-   "description": "Gradient dark rounded black toggle switch that toggles on and off when clicked.",
+   "description": "Gradient rounded black toggle switch that toggles on and off when clicked.",
    "howItWorks": "Clicking it toggles it: text-shadow becomes inset 1px 1px 1px #000000, text color changes from #636161 to #8d8d8d, top becomes 10px.",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "back",
     "gradient",
     "dark",
     "rounded",
-    "back",
     "toggle-switch",
     "skeuomorphism",
     "switch",
@@ -6255,7 +6255,7 @@
    "link": "https://uiverse.io/coding-masala/slimy-cow-34",
    "path": "uiverse/toggle-switches/slimy-cow-34-by-coding-masala/",
    "description": "Neon pill red toggle switch that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: starts the shadow-animation_5020 animation (animating), transform becomes translateX(25px).",
+   "howItWorks": "Clicking it toggles it: starts the shadow-animation_5020 animation (moving), transform becomes translateX(25px).",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -6387,7 +6387,7 @@
    "link": "https://uiverse.io/Type-Delta/smart-fox-47",
    "path": "uiverse/toggle-switches/smart-fox-47-by-type-delta/",
    "description": "Gray toggle switch that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: starts the ballTrace_toggleMotionOff9371A animation (fading), starts the ball_toggleMotionOn9371A animation (animating), starts the ball_toggleMotionOff9371 animation (sliding).",
+   "howItWorks": "Clicking it toggles it: starts the ballTrace_toggleMotionOff9371A animation (fading, sliding), starts the ball_toggleMotionOn9371A animation (sliding), starts the ball_toggleMotionOff9371 animation (sliding).",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -6425,10 +6425,10 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
-    "rounded",
-    "pulse",
     "add",
     "like",
+    "rounded",
+    "pulse",
     "toggle-switch",
     "switch",
     "toggle-switches",
@@ -7155,11 +7155,11 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "rating",
     "blue",
     "cyan",
     "rounded",
     "pill",
-    "rating",
     "toggle-switch",
     "switch",
     "dark",
@@ -7522,11 +7522,12 @@
    "link": "https://uiverse.io/barisdogansutcu/tender-dingo-64",
    "path": "uiverse/toggle-switches/tender-dingo-64-by-barisdogansutcu/",
    "description": "White toggle switch that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: transform becomes translate(0px, 0px), starts the check-animation animation (animating), background-color changes from hsl(0deg 0% 100%) to hsl(0deg 0% 100%).",
+   "howItWorks": "Clicking it toggles it: transform becomes translate(0px, 0px), starts the check-animation animation (sliding), background-color changes from hsl(0deg 0% 100%) to hsl(0deg 0% 100%).",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
     "like",
+    "slide",
     "toggle-switch",
     "complex",
     "switch",
@@ -7587,7 +7588,7 @@
    "link": "https://uiverse.io/csemszepp/terrible-frog-94",
    "path": "uiverse/toggle-switches/terrible-frog-94-by-csemszepp/",
    "description": "Pill dark sky-blue toggle switch that toggles on and off when clicked.",
-   "howItWorks": "Clicking it toggles it: starts the toggle animation (morphing), transform becomes translate3d(75%,-50%,0), background changes from #BBBBBB to #3CCC97.",
+   "howItWorks": "Clicking it toggles it: starts the toggle animation (morphing, sliding), transform becomes translate3d(75%,-50%,0), background changes from #BBBBBB to #3CCC97.",
    "trigger": "checked",
    "needsJs": false,
    "tags": [
@@ -7596,6 +7597,7 @@
     "rounded",
     "pill",
     "morph",
+    "slide",
     "toggle-switch",
     "switch",
     "toggle-switches",
@@ -8280,11 +8282,11 @@
    "trigger": "checked",
    "needsJs": false,
    "tags": [
+    "play",
     "indigo",
     "dark",
     "rounded",
     "pill",
-    "play",
     "toggle-switch",
     "simple",
     "material-design",

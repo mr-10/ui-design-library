@@ -5,7 +5,7 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/ugly-elephant-80",
  "trigger": "auto-loop",
- "description": "Gradient dark black loader with shimmering motion in a loop.",
+ "description": "Gradient black loader with shimmering motion in a loop.",
  "howItWorks": "It loops a 1s animation (shimmering).",
  "tags": [
   "gradient",

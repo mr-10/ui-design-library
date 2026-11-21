@@ -5,8 +5,8 @@
  "author": "timlmit",
  "source": "https://uiverse.io/timlmit/stupid-mouse-79",
  "trigger": "auto-loop",
- "description": "Red loader with animating; growing and shrinking motion in a loop.",
- "howItWorks": "It loops a 10s animation (animating; growing and shrinking).",
+ "description": "Red loader with growing and shrinking motion in a loop.",
+ "howItWorks": "It loops a 10s animation (growing and shrinking; moving).",
  "tags": [
   "red",
   "teal",

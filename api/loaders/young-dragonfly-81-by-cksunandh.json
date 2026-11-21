@@ -5,15 +5,15 @@
  "author": "Cksunandh",
  "source": "https://uiverse.io/Cksunandh/young-dragonfly-81",
  "trigger": "auto-loop",
- "description": "Gray loader with animating motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating).",
+ "description": "Gray loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 2s animation (sliding).",
  "tags": [
   "flat",
+  "slide",
   "simple",
   "loader",
   "html",
-  "css",
-  "auto-loop"
+  "css"
  ],
  "colors": [
   "#3d3d3d",

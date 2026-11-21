@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/bociKond/spotty-elephant-13",
  "trigger": "checked",
  "description": "Pill dark emerald checkbox that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: background-color changes from #ccc to #0B6E4F, border-radius becomes .5rem, starts the pulse animation (animating).",
+ "howItWorks": "Clicking it toggles it: background-color changes from #ccc to #0B6E4F, border-radius becomes .5rem, starts the pulse animation (rotating).",
  "tags": [
   "emerald",
   "rounded",
   "pill",
+  "spin",
   "checkbox",
-  "pulse",
-  "color"
+  "pulse"
  ],
  "colors": [
   "#0b6e4f",

@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded pink text input that changes colour on hover.",
  "howItWorks": "On hover, background changes from linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%) to linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%), background changes from linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%) to #2E2E2E.",
  "tags": [
+  "submit",
+  "add",
   "pink",
   "blue",
   "neon",
-  "gradient",
-  "dark",
-  "rounded"
+  "gradient"
  ],
  "colors": [
   "#2e2e2e",

@@ -5,7 +5,7 @@
  "author": "Salem795",
  "source": "https://uiverse.io/Salem795/fluffy-cat-65",
  "trigger": "auto-loop",
- "description": "Dark gray loader with bouncing; sliding motion in a loop.",
+ "description": "Dark gray loader with bouncing motion in a loop.",
  "howItWorks": "It loops a 1s animation (bouncing; sliding).",
  "tags": [
   "dark",

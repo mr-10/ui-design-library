@@ -8,12 +8,12 @@
  "description": "Gradient emerald button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, text color changes to transparent, background changes from #25d366 to radial-gradient(\n    to bottom right,\n    #f2295c,\n    #29ace1\n  ), top becomes -0.96em.",
  "tags": [
+  "facebook",
+  "twitter",
+  "share",
+  "social",
   "emerald",
-  "green",
-  "gradient",
-  "color-change",
-  "glow",
-  "facebook"
+  "green"
  ],
  "colors": [
   "#0aedbd",

@@ -8,12 +8,12 @@
  "description": "Outlined rounded amber button that slides on hover.",
  "howItWorks": "On hover, transform becomes translateX(0%). On focus, transform becomes translateX(0%).",
  "tags": [
+  "send",
   "amber",
   "outlined",
   "rounded",
   "flat",
-  "slide",
-  "send"
+  "slide"
  ],
  "colors": [
   "#ffb400",

@@ -8,12 +8,12 @@
  "description": "Pill red checkbox that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: starts the circles animation (fading, pulsing), starts the bookmark animation (pulsing), starts the circle animation (fading).",
  "tags": [
+  "like",
   "red",
   "rounded",
   "pill",
   "pulse",
-  "fade",
-  "like"
+  "fade"
  ],
  "colors": [
   "#fc3636",

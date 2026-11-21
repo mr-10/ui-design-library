@@ -5,15 +5,15 @@
  "author": "shadowmurphy",
  "source": "https://uiverse.io/shadowmurphy/big-lionfish-7",
  "trigger": "auto-loop",
- "description": "White loader with growing and shrinking; rotating motion in a loop.",
- "howItWorks": "It loops a 1.5s animation (growing and shrinking; rotating).",
+ "description": "White loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1.5s animation (growing and shrinking; rotating; sliding).",
  "tags": [
   "flat",
   "spin",
+  "slide",
   "simple",
   "material-design",
-  "neumorphism",
-  "skeuomorphism"
+  "neumorphism"
  ],
  "colors": [
   "#ffffff",

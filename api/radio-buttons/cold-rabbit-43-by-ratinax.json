@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/Ratinax/cold-rabbit-43",
  "trigger": "checked",
  "description": "Yellow radio button that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: starts the rotate animation (rotating), transform becomes rotate(360deg).",
+ "howItWorks": "Clicking it toggles it: starts the rotate animation (pulsing, rotating), transform becomes rotate(360deg).",
  "tags": [
+  "rating",
   "yellow",
   "flat",
+  "pulse",
   "spin",
-  "rating",
-  "radio-button",
-  "radio-buttons"
+  "radio-button"
  ],
  "colors": [
   "#ffff00",

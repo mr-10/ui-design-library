@@ -5,7 +5,7 @@
  "author": "SelfMadeSystem",
  "source": "https://uiverse.io/SelfMadeSystem/black-yak-68",
  "trigger": "auto-loop",
- "description": "Pill white dots loader with fading motion in a loop.",
+ "description": "Pill white dots loader with rotating motion in a loop.",
  "howItWorks": "It loops a animation (fading, rotating).",
  "tags": [
   "rounded",

@@ -8,12 +8,12 @@
  "description": "Pill white button that lifts and glows on hover.",
  "howItWorks": "On hover, transform becomes translateX(200%), opacity becomes 0, transform becomes translateY(-2px).",
  "tags": [
+  "send",
   "rounded",
   "pill",
   "slide",
   "fade",
-  "lift",
-  "glow"
+  "lift"
  ],
  "colors": [
   "#333333",

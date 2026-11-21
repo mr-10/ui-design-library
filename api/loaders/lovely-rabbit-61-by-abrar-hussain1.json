@@ -5,7 +5,7 @@
  "author": "Abrar-Hussain1",
  "source": "https://uiverse.io/Abrar-Hussain1/lovely-rabbit-61",
  "trigger": "auto-loop",
- "description": "Pill sky-blue loader with fading motion in a loop.",
+ "description": "Pill sky-blue loader with rotating motion in a loop.",
  "howItWorks": "It loops a 1s animation (fading, pulsing; rotating).",
  "tags": [
   "blue",

@@ -8,12 +8,12 @@
  "description": "Outlined rounded light indigo login form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #a268ff to #7e54ff. On focus, the outline is removed, border-bottom becomes 2px solid #c772ff.",
  "tags": [
+  "login",
+  "submit",
+  "password",
   "indigo",
   "outlined",
-  "rounded",
-  "color-change",
-  "login",
-  "submit"
+  "rounded"
  ],
  "colors": [
   "#d1c1ff",

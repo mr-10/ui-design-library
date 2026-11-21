@@ -5,8 +5,8 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/great-dolphin-45",
  "trigger": "hover",
- "description": "Gradient dark pill black button that starts animating on hover.",
- "howItWorks": "On hover, starts the pulse animation (animating), box-shadow becomes 0 0 0 2em transparent.",
+ "description": "Gradient pill black button that starts animating on hover.",
+ "howItWorks": "On hover, starts the pulse animation (moving), box-shadow becomes 0 0 0 2em transparent.",
  "tags": [
   "gradient",
   "dark",

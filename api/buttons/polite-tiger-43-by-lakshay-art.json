@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded white button that reacts on hover.",
  "howItWorks": "On hover, scale becomes 1.05. On focus, transform becomes rotate(-45deg) translateX(110px) translateY(90px), transform becomes translateY(-450px), opacity becomes 0.",
  "tags": [
+  "send",
   "gradient",
   "dark",
   "outlined",
   "rounded",
-  "bounce",
-  "send"
+  "bounce"
  ],
  "colors": [
   "#eaeaea",

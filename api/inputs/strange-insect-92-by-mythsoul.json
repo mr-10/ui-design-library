@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded blue text input that scales up on hover.",
  "howItWorks": "On hover, text color changes from #fff to #ff00ff, transform becomes scale(1.1).",
  "tags": [
+  "search",
   "blue",
   "purple",
   "neon",
   "gradient",
-  "dark",
-  "outlined"
+  "dark"
  ],
  "colors": [
   "#0000ff",

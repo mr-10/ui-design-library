@@ -5,8 +5,8 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/angry-snail-76",
  "trigger": "auto-loop",
- "description": "Pill dark yellow dots loader with fading motion in a loop.",
- "howItWorks": "It loops a animation (fading, pulsing).",
+ "description": "Pill dark yellow dots loader with sliding motion in a loop.",
+ "howItWorks": "It loops a animation (fading, pulsing, sliding).",
  "tags": [
   "yellow",
   "rounded",

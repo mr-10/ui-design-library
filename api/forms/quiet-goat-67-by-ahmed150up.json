@@ -8,12 +8,12 @@
  "description": "Dark pill gray form that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.2).",
  "tags": [
+  "play",
+  "pause",
   "dark",
   "outlined",
   "rounded",
-  "pill",
-  "flat",
-  "scale"
+  "pill"
  ],
  "colors": [
   "#282828",

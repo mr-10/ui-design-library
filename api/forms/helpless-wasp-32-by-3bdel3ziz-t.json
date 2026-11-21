@@ -8,12 +8,12 @@
  "description": "Dark rounded orange checkout form that changes colour on hover.",
  "howItWorks": "On hover, border-color becomes #d17942, text color changes from #fff to #d17842, border becomes 2px solid #d17842. On focus, top becomes 0, left becomes 0, text color changes from #fff to #d17842.",
  "tags": [
+  "checkout",
+  "add",
   "orange",
   "dark",
   "outlined",
-  "rounded",
-  "color-change",
-  "checkout"
+  "rounded"
  ],
  "colors": [
   "#d17842",

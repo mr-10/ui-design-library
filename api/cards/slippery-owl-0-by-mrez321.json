@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/MRez321/slippery-owl-0",
  "trigger": "hover",
  "description": "Gradient dark pill cyan card that starts animating on hover.",
- "howItWorks": "On hover, starts the float animation (animating), starts the blink animation (bouncing, pulsing).",
+ "howItWorks": "On hover, starts the float animation (moving), starts the blink animation (bouncing, pulsing).",
  "tags": [
   "cyan",
   "gradient",

@@ -8,9 +8,9 @@
  "description": "Rounded white text input that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 0 1em #00000013. On focus, box-shadow becomes 0 0 1em #00000013, the outline is removed, background-color changes from #f4f2f2 to #f0eeee.",
  "tags": [
+  "search",
   "rounded",
   "glow",
-  "search",
   "text-input",
   "input",
   "hover"

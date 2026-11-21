@@ -5,7 +5,7 @@
  "author": "mobinkakei",
  "source": "https://uiverse.io/mobinkakei/tall-robin-8",
  "trigger": "auto-loop",
- "description": "Pill red dots loader with fading motion in a loop.",
+ "description": "Pill red dots loader with pulsing motion in a loop.",
  "howItWorks": "It loops a 1.5s animation (fading, pulsing).",
  "tags": [
   "red",

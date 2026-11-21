@@ -5,8 +5,8 @@
  "author": "Smit-Prajapati",
  "source": "https://uiverse.io/Smit-Prajapati/tricky-turtle-16",
  "trigger": "auto-loop",
- "description": "Glass gradient pill gray loader with animating; pulsing motion in a loop.",
- "howItWorks": "It loops a animation (animating; pulsing).",
+ "description": "Glass gradient pill gray loader with pulsing motion in a loop.",
+ "howItWorks": "It loops a animation (moving; pulsing).",
  "tags": [
   "glassmorphism",
   "gradient",

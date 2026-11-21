@@ -8,11 +8,11 @@
  "description": "Rounded green button that slides on hover with a smooth transition.",
  "howItWorks": "On hover, background changes and it shifts position.",
  "tags": [
+  "add",
   "green",
   "rounded",
   "color-change",
   "slide",
-  "add",
   "buttons"
  ],
  "colors": [

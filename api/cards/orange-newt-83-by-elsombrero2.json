@@ -8,9 +8,9 @@
  "description": "Green pricing card that reacts on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes rotateZ(0deg).",
  "tags": [
+  "pricing",
   "green",
   "amber",
-  "pricing",
   "pricing-card",
   "card",
   "hover"

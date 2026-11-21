@@ -8,12 +8,12 @@
  "description": "Outlined rounded blue card that glows and scales up on hover.",
  "howItWorks": "On hover, background-color changes from hsl(0, 0%, 10%) to hsl(0, 0%, 15%), box-shadow becomes 0px 20px 40px hsl(40, 60%, 0%, 0.4),\n    inset 1px 2px 4px #ffffff, transform becomes scale(1.1).",
  "tags": [
+  "rating",
   "blue",
   "outlined",
   "rounded",
   "scale",
-  "glow",
-  "color-change"
+  "glow"
  ],
  "colors": [
   "#808080",

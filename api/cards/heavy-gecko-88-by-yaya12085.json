@@ -5,15 +5,15 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/heavy-gecko-88",
  "trigger": "static",
- "description": "Gradient rounded sky-blue card with rounded corners and gradient fill.",
+ "description": "Gradient rounded sky-blue card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
-  "blue",
-  "gradient",
-  "rounded",
   "download",
   "google",
-  "play"
+  "play",
+  "social",
+  "blue",
+  "gradient"
  ],
  "colors": [
   "#488aec",

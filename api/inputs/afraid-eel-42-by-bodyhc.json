@@ -8,12 +8,12 @@
  "description": "Neon rounded sky-blue text input that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.1), text color changes from #fff to #ffffff, background-color changes from #4e99e9 to #0000ff.",
  "tags": [
+  "search",
   "blue",
   "neon",
   "outlined",
   "rounded",
-  "scale",
-  "color-change"
+  "scale"
  ],
  "colors": [
   "#4e99e9",

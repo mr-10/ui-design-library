@@ -5,14 +5,14 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/serious-eagle-83",
  "trigger": "static",
- "description": "Dark pill gray pricing card with soft shadow and rounded corners.",
+ "description": "Dark pill gray pricing card with soft shadow.",
  "howItWorks": "It has no hover, click, focus or animation states; the pricing card is a fixed design.",
  "tags": [
+  "pricing",
   "dark",
   "outlined",
   "rounded",
   "pill",
-  "pricing",
   "pricing-card"
  ],
  "colors": [

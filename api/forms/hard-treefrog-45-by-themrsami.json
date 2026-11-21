@@ -8,12 +8,12 @@
  "description": "Rounded gray signup form that changes colour on hover.",
  "howItWorks": "On hover, text colour changes.",
  "tags": [
-  "rounded",
-  "color-change",
   "contact",
   "facebook",
-  "signup-form",
-  "forms"
+  "social",
+  "rounded",
+  "color-change",
+  "signup-form"
  ],
  "colors": [
   "#9ca3af",

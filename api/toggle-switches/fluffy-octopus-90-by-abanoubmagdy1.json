@@ -8,12 +8,12 @@
  "description": "3d pill light red toggle switch that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: transform becomes rotateY(0), transform becomes rotateY(-180deg), transform becomes translateX(1.5em).",
  "tags": [
+  "back",
   "red",
   "green",
   "3d",
   "rounded",
-  "pill",
-  "flat"
+  "pill"
  ],
  "colors": [
   "#f5aeae",

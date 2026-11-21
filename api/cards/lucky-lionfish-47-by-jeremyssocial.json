@@ -8,12 +8,12 @@
  "description": "Neon gradient pill pink card that glows and scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.05), box-shadow becomes 0.4em 0.4em 0.8em #000000, background changes from #ffffff to linear-gradient(45deg, #ff1493, #e040fb).",
  "tags": [
+  "social",
   "pink",
   "purple",
   "neon",
   "gradient",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#ff1493",

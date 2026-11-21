@@ -8,9 +8,9 @@
  "description": "Rounded gray form that changes colour on hover.",
  "howItWorks": "On hover, background changes and text colour changes.",
  "tags": [
+  "submit",
   "rounded",
   "color-change",
-  "submit",
   "forms",
   "css"
  ],

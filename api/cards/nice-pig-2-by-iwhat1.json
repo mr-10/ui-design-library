@@ -8,12 +8,12 @@
  "description": "Neon 3d rounded yellow profile card that reacts on hover.",
  "howItWorks": "On hover, transform becomes rotateX(180deg) rotateZ(-180deg).",
  "tags": [
-  "yellow",
-  "neon",
-  "3d",
-  "outlined",
-  "rounded",
-  "profile"
+  "profile",
+  "facebook",
+  "twitter",
+  "add",
+  "back",
+  "follow"
  ],
  "colors": [
   "#ffff00",

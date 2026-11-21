@@ -5,7 +5,7 @@
  "author": "Subaashbala",
  "source": "https://uiverse.io/Subaashbala/silly-sheep-7",
  "trigger": "checked",
- "description": "Dark pill black radio button that toggles on and off when clicked.",
+ "description": "Pill black radio button that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: transform becomes translateX(-50%) rotateZ(-60deg), transform becomes translateX(-50%) rotateZ(-35deg), transform becomes translateX(-50%) rotateZ(0deg).",
  "tags": [
   "dark",

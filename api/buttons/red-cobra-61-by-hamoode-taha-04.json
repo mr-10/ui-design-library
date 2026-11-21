@@ -8,12 +8,12 @@
  "description": "Neon red button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, text color changes from #dbdada to #f7f7f7, background-color changes from transparent to #ca1919, border-color becomes #ca1919.",
  "tags": [
+  "delete",
   "red",
   "neon",
   "outlined",
   "glow",
-  "color-change",
-  "expand"
+  "color-change"
  ],
  "colors": [
   "#ca1919",

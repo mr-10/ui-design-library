@@ -5,14 +5,14 @@
  "author": "SouravBandyopadhyay",
  "source": "https://uiverse.io/SouravBandyopadhyay/fresh-squid-60",
  "trigger": "auto-loop",
- "description": "Pill pink cube loader with animating; morphing motion in a loop.",
- "howItWorks": "It loops a 2.88s animation (animating; morphing).",
+ "description": "Pill pink cube loader with morphing motion in a loop.",
+ "howItWorks": "It loops a 2.88s animation (morphing; moving).",
  "tags": [
+  "like",
   "pink",
   "rounded",
   "pill",
   "morph",
-  "like",
   "cube-loader"
  ],
  "colors": [

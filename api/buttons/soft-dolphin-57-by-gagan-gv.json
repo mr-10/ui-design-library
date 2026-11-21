@@ -8,10 +8,10 @@
  "description": "Rounded white button that expands on hover with a smooth transition.",
  "howItWorks": "On hover, width becomes 0, z-index becomes 2, width becomes 100%.",
  "tags": [
+  "share",
   "rounded",
   "flat",
   "expand",
-  "share",
   "hover",
   "social"
  ],

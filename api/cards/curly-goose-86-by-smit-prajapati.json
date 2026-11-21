@@ -8,12 +8,12 @@
  "description": "Gradient red card that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.2), transform becomes scale(1.1), top becomes -50px.",
  "tags": [
+  "twitter",
+  "social",
   "red",
   "gradient",
   "outlined",
-  "scale",
-  "fade",
-  "twitter"
+  "scale"
  ],
  "colors": [
   "#ff0000",

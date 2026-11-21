@@ -5,15 +5,15 @@
  "author": "andrew-demchenk0",
  "source": "https://uiverse.io/andrew-demchenk0/quiet-liger-31",
  "trigger": "auto-loop",
- "description": "Dark pink notification with bouncing motion in a loop.",
- "howItWorks": "It loops a 5s animation (bouncing, pulsing; bouncing, rotating; bouncing, rotating, sliding; pulsing).",
+ "description": "Dark pink notification with rotating motion in a loop.",
+ "howItWorks": "It loops a 5s animation (bouncing, pulsing, sliding; bouncing, rotating; bouncing, rotating, sliding; pulsing).",
  "tags": [
+  "rating",
   "pink",
   "flat",
   "bounce",
   "spin",
-  "slide",
-  "pulse"
+  "slide"
  ],
  "colors": [
   "#680638",

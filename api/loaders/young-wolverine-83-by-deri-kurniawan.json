@@ -5,7 +5,7 @@
  "author": "Deri-Kurniawan",
  "source": "https://uiverse.io/Deri-Kurniawan/young-wolverine-83",
  "trigger": "static",
- "description": "Rounded gray loader with rounded corners with a smooth transition.",
+ "description": "Rounded gray loader with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the loader is a fixed design.",
  "tags": [
   "rounded",

@@ -8,12 +8,12 @@
  "description": "Gradient rounded gray button that glows on hover.",
  "howItWorks": "On hover, background changes from linear-gradient(#adabab 50%, #4e4d4df8 100%) to linear-gradient(#ffffff8f 50%, #cacaca86 100%), box-shadow becomes 0 -1px #000000, transform becomes translateX(-7px) rotate(45deg).",
  "tags": [
+  "send",
   "gradient",
   "rounded",
   "glow",
   "color-change",
-  "slide",
-  "rotate"
+  "slide"
  ],
  "colors": [
   "#1c1c1c",

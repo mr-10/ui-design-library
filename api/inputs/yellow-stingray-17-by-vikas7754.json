@@ -8,12 +8,12 @@
  "description": "Gradient pill fuchsia text input that lights up when focused.",
  "howItWorks": "On focus, border becomes 1px solid #f200ff, background changes from linear-gradient(#0000ff, #ff00e6) to #191919.",
  "tags": [
+  "search",
   "fuchsia",
   "purple",
   "gradient",
   "outlined",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#ff00e6",

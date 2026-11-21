@@ -8,12 +8,12 @@
  "description": "Gradient rounded gray button that starts animating on hover.",
  "howItWorks": "On hover, scale becomes 0.96, border-color becomes #00000080 #00000080 #0000004d #0000004d, padding becomes 2rem.",
  "tags": [
+  "send",
   "gradient",
   "outlined",
   "rounded",
   "glow",
-  "color-change",
-  "animated"
+  "color-change"
  ],
  "colors": [
   "#d0d4da",

@@ -5,8 +5,8 @@
  "author": "Subaashbala",
  "source": "https://uiverse.io/Subaashbala/tender-baboon-47",
  "trigger": "auto-loop",
- "description": "Gradient 3d pill green loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 5s animation (animating; rotating).",
+ "description": "Gradient 3d pill green loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 5s animation (rotating, sliding; sliding).",
  "tags": [
   "green",
   "lime",

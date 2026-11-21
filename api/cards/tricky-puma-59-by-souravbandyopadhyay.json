@@ -8,12 +8,12 @@
  "description": "Gradient pill dark blue card that starts animating on hover.",
  "howItWorks": "On hover, starts the pendulum animation (rotating), background changes from #ffffff to #ffffff.",
  "tags": [
+  "social",
   "blue",
   "gradient",
   "rounded",
   "pill",
-  "animated",
-  "color-change"
+  "animated"
  ],
  "colors": [
   "#202639",

@@ -5,7 +5,7 @@
  "author": "Spacious74",
  "source": "https://uiverse.io/Spacious74/helpless-tiger-55",
  "trigger": "static",
- "description": "Neon gradient rounded blue button with soft shadow and rounded corners and gradient fill.",
+ "description": "Neon gradient rounded blue button with soft shadow.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
   "blue",

@@ -8,9 +8,9 @@
  "description": "Outlined white text input that lights up when focused.",
  "howItWorks": "On focus, font-size becomes 0.8rem, top becomes 10px, transform becomes translateY(-120%).",
  "tags": [
+  "email",
   "outlined",
   "flat",
-  "email",
   "text-input",
   "animation",
   "white"

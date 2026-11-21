@@ -8,12 +8,12 @@
  "description": "3d yellow card that starts animating on hover.",
  "howItWorks": "On hover, transform becomes rotateX(70deg) translateY(250px), box-shadow becomes 0px 0px 120px -100px #e4e727, starts the grow animation (pulsing, rotating).",
  "tags": [
+  "rating",
   "yellow",
   "red",
   "3d",
   "drop",
-  "glow",
-  "animated"
+  "glow"
  ],
  "colors": [
   "#efd510",

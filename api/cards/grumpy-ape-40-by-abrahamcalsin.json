@@ -8,12 +8,12 @@
  "description": "Dark pill emerald card that lifts on hover.",
  "howItWorks": "On hover, transform becomes translateY(-10px), opacity becomes 1, transform becomes translate(-50%, -130%).",
  "tags": [
+  "social",
+  "facebook",
+  "twitter",
   "emerald",
   "dark",
-  "outlined",
-  "rounded",
-  "pill",
-  "lift"
+  "outlined"
  ],
  "colors": [
   "#7cdacc",

@@ -5,7 +5,7 @@
  "author": "andrew-demchenk0",
  "source": "https://uiverse.io/andrew-demchenk0/sweet-eel-60",
  "trigger": "auto-loop",
- "description": "Neon gradient 3d pill violet card with bouncing motion in a loop.",
+ "description": "Neon gradient 3d pill violet card with rotating motion in a loop.",
  "howItWorks": "It loops a 4s animation (bouncing, rotating).",
  "tags": [
   "violet",

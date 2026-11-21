@@ -8,12 +8,12 @@
  "description": "3d sky-blue button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes perspective(1000px) rotate(-30deg) skew(25deg) translate(5px, -5px), box-shadow becomes -20px 20px 10px #000000, text color changes to #ffffff.",
  "tags": [
+  "social",
   "blue",
   "red",
   "3d",
   "rotate",
-  "glow",
-  "color-change"
+  "glow"
  ],
  "colors": [
   "#3b5999",

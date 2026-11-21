@@ -8,9 +8,9 @@
  "description": "Rounded green radio button that toggles on and off when clicked.",
  "howItWorks": "Clicking it switches it on or off; its CSS has no :checked rule that changes a visible property.",
  "tags": [
+  "rating",
   "green",
   "rounded",
-  "rating",
   "radio-button",
   "select",
   "option"

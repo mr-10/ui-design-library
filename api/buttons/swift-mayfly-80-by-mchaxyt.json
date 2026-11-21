@@ -5,15 +5,15 @@
  "author": "McHaXYT",
  "source": "https://uiverse.io/McHaXYT/swift-mayfly-80",
  "trigger": "hover",
- "description": "Dark pill gray button that rotates on hover.",
+ "description": "Dark pill gray social button that rotates on hover.",
  "howItWorks": "On hover, transform becomes rotate(360deg), background-color changes from #2d2e32 to #ffff, text color changes from #ffff to #2d2e32.",
  "tags": [
+  "github",
+  "twitter",
+  "social",
   "dark",
   "rounded",
-  "pill",
-  "flat",
-  "rotate",
-  "color-change"
+  "pill"
  ],
  "colors": [
   "#2d2e32",

@@ -8,8 +8,8 @@
  "description": "Outlined gray email input that lights up when focused.",
  "howItWorks": "On focus, border becomes none, box-shadow becomes 0px 1.5px 0px 0px #72E985, the outline is removed.",
  "tags": [
-  "outlined",
   "email",
+  "outlined",
   "email-input",
   "input",
   "focus"

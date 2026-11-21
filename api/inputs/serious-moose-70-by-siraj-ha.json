@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/siraj-ha/serious-moose-70",
  "trigger": "hover",
  "description": "Neon rounded blue search input that starts animating on hover.",
- "howItWorks": "On hover, box-shadow becomes 10px 10px 20px #6c6eff,\n    -10px -10px 20px #ff59e9, starts the rotateGlow animation (animating).",
+ "howItWorks": "On hover, box-shadow becomes 10px 10px 20px #6c6eff,\n    -10px -10px 20px #ff59e9, starts the rotateGlow animation (moving).",
  "tags": [
+  "search",
   "blue",
   "fuchsia",
   "neon",
   "dark",
-  "outlined",
-  "rounded"
+  "outlined"
  ],
  "colors": [
   "#6c6eff",

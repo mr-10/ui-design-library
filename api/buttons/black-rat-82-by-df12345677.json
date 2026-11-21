@@ -8,12 +8,12 @@
  "description": "Dark rounded red button that glows on hover.",
  "howItWorks": "On hover, width becomes 60px, background-color changes from #132233 to #332233, box-shadow becomes 20px 20px 96px #bebebe,-20px -20px 96px #ffffff.",
  "tags": [
+  "cart",
+  "add",
   "red",
   "dark",
   "rounded",
-  "glow",
-  "color-change",
-  "expand"
+  "glow"
  ],
  "colors": [
   "#132233",

@@ -5,7 +5,7 @@
  "author": "Navarog21",
  "source": "https://uiverse.io/Navarog21/little-falcon-37",
  "trigger": "auto-loop",
- "description": "Rounded indigo loader with growing and shrinking; rotating motion in a loop.",
+ "description": "Rounded indigo loader with rotating motion in a loop.",
  "howItWorks": "It loops a 1.2s animation (growing and shrinking; rotating).",
  "tags": [
   "indigo",

@@ -8,12 +8,12 @@
  "description": "Outlined pill sky-blue card that glows on hover.",
  "howItWorks": "On hover, text color changes from #2879f3 to #2879f3, box-shadow becomes 0 2px 10px #000000, text color changes from #2879f3 to #f37e10.",
  "tags": [
+  "password",
+  "back",
   "blue",
   "orange",
   "outlined",
-  "rounded",
-  "pill",
-  "glow"
+  "rounded"
  ],
  "colors": [
   "#2879f3",

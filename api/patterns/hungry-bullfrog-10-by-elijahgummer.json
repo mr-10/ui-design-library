@@ -5,7 +5,7 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/hungry-bullfrog-10",
  "trigger": "static",
- "description": "Gradient rounded cyan pattern with soft shadow and rounded corners and gradient fill.",
+ "description": "Gradient rounded cyan pattern with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
   "cyan",

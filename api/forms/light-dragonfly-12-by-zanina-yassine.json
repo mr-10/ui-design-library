@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded white login form that lights up when focused.",
  "howItWorks": "On focus, border becomes 1px solid transparent, box-shadow becomes 0px 0px 0px 2px #242424, background-color changes from #e8e8e8 to transparent.",
  "tags": [
-  "gradient",
-  "dark",
-  "outlined",
-  "rounded",
   "login",
-  "password"
+  "password",
+  "google",
+  "email",
+  "social",
+  "gradient"
  ],
  "colors": [
   "#8b8e98",

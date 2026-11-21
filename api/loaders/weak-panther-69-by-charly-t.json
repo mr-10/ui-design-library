@@ -5,8 +5,8 @@
  "author": "Charly-T",
  "source": "https://uiverse.io/Charly-T/weak-panther-69",
  "trigger": "auto-loop",
- "description": "White loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a animation (animating; rotating).",
+ "description": "White loader with rotating motion in a loop.",
+ "howItWorks": "It loops a animation (moving; rotating).",
  "tags": [
   "flat",
   "spin",

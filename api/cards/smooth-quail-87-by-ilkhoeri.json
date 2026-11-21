@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/ilkhoeri/smooth-quail-87",
  "trigger": "focus",
  "description": "Dark rounded gray card that lights up when focused.",
- "howItWorks": "On focus, starts the clipboard-check animation (animating).",
+ "howItWorks": "On focus, starts the clipboard-check animation (moving).",
  "tags": [
   "dark",
   "outlined",

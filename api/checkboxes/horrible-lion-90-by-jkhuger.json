@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/JkHuger/horrible-lion-90",
  "trigger": "checked",
  "description": "Neon pill pink checkbox that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: text color changes from #888 to #e2264d, filter becomes none, starts the heart animation (animating). On focus, text-shadow becomes 0 0 3px #ffffff, 0 1px 1px #ffffff, 0 -1px 1px #ffffff, 1px 0 1px #ffffff, -1px 0 1px #ffffff.",
+ "howItWorks": "Clicking it toggles it: text color changes from #888 to #e2264d, filter becomes none, starts the heart animation (moving). On focus, text-shadow becomes 0 0 3px #ffffff, 0 1px 1px #ffffff, 0 -1px 1px #ffffff, 1px 0 1px #ffffff, -1px 0 1px #ffffff.",
  "tags": [
   "pink",
   "red",

@@ -5,7 +5,7 @@
  "author": "OnCloud125252",
  "source": "https://uiverse.io/OnCloud125252/angry-dragonfly-77",
  "trigger": "hover",
- "description": "Dark black button that rotates on hover with a smooth transition.",
+ "description": "Black button that rotates on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes rotate(180deg). On focus, transform becomes rotate(180deg).",
  "tags": [
   "dark",

@@ -8,12 +8,12 @@
  "description": "Pill dark sky-blue card that glows on hover.",
  "howItWorks": "On hover, border changes and shadow grows and background changes.",
  "tags": [
+  "delete",
   "blue",
   "rounded",
   "pill",
   "color-change",
-  "glow",
-  "delete"
+  "glow"
  ],
  "colors": [
   "#1f2937",

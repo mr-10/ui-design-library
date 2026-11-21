@@ -8,9 +8,9 @@
  "description": "Rounded gray button that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #0f0f0f to #ececec, border becomes 3px solid #8a8a8a, text color changes from #ffffff to #000000.",
  "tags": [
+  "download",
   "rounded",
   "color-change",
-  "download",
   "icon",
   "button",
   "dark"

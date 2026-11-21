@@ -8,12 +8,12 @@
  "description": "Gradient rounded violet card that starts animating on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 2px 14px #000000, border-radius becomes 40px, starts the animate animation (rotating, sliding).",
  "tags": [
+  "social",
   "violet",
   "blue",
   "gradient",
   "outlined",
-  "rounded",
-  "glow"
+  "rounded"
  ],
  "colors": [
   "#af40ff",

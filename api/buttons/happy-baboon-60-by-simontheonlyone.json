@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/simontheonlyone/happy-baboon-60",
  "trigger": "hover",
  "description": "Neon gradient rounded amber button that fades on hover.",
- "howItWorks": "On hover, opacity becomes 1. On focus, width becomes 2.3em, background-color changes from #666 to #297eff, starts the wow animation (bouncing).",
+ "howItWorks": "On hover, opacity becomes 1. On focus, width becomes 2.3em, background-color changes from #666 to #297eff, starts the wow animation (bouncing, pulsing).",
  "tags": [
   "amber",
   "neon",

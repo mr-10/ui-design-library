@@ -8,11 +8,11 @@
  "description": "Rounded sky-blue login form that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, border changes.",
  "tags": [
+  "login",
+  "password",
   "blue",
   "rounded",
   "color-change",
-  "login",
-  "password",
   "login-form"
  ],
  "colors": [

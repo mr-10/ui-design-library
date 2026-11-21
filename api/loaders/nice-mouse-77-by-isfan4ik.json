@@ -5,8 +5,8 @@
  "author": "isfan4ik",
  "source": "https://uiverse.io/isfan4ik/nice-mouse-77",
  "trigger": "auto-loop",
- "description": "Pink loader with animating motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating).",
+ "description": "Pink loader with moving motion in a loop.",
+ "howItWorks": "It loops a 2s animation (moving).",
  "tags": [
   "pink",
   "flat",

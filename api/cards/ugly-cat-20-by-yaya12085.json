@@ -5,13 +5,13 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/ugly-cat-20",
  "trigger": "static",
- "description": "Yellow card with clean lines with a smooth transition.",
+ "description": "Yellow card with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
+  "rating",
   "yellow",
   "blue",
   "flat",
-  "rating",
   "testimonial",
   "card"
  ],

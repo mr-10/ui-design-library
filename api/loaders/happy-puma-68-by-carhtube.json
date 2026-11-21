@@ -5,7 +5,7 @@
  "author": "carhtube",
  "source": "https://uiverse.io/carhtube/happy-puma-68",
  "trigger": "auto-loop",
- "description": "Gradient pill indigo spinner loader with rotating; shimmering motion in a loop.",
+ "description": "Gradient pill indigo spinner loader with rotating motion in a loop.",
  "howItWorks": "It loops a 10s animation (rotating; shimmering).",
  "tags": [
   "indigo",

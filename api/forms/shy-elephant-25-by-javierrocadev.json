@@ -8,12 +8,12 @@
  "description": "Pill dark cyan form that fades on hover.",
  "howItWorks": "On hover, opacity changes.",
  "tags": [
+  "profile",
+  "email",
   "cyan",
   "rounded",
   "pill",
-  "fade",
-  "profile",
-  "email"
+  "fade"
  ],
  "colors": [
   "#4b5563",

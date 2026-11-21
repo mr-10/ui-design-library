@@ -8,12 +8,12 @@
  "description": "Gradient rounded orange form that changes colour on hover.",
  "howItWorks": "On hover, border becomes 2px solid #ff5900, background changes from #ff5900 to #00000000, text color changes from #ff5900 to #ff5900. On focus, border becomes 1px solid #66da4300, border-bottom becomes 1px solid #ff5900, background-color changes from transparent to transparent.",
  "tags": [
+  "submit",
   "orange",
   "green",
   "gradient",
   "outlined",
-  "rounded",
-  "flat"
+  "rounded"
  ],
  "colors": [
   "#ff5900",

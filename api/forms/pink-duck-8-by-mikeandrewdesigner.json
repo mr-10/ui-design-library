@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded gray login form that changes colour on hover.",
  "howItWorks": "On hover, background changes from -webkit-linear-gradient(#B563FF, #535EFC, #0EC8EE) to linear-gradient(144deg, #1e1e1e , 20%,#1e1e1e 50%,#1e1e1e ), text color changes from #fff to #ffffff, padding becomes 16px !important. On focus, starts the bounce animation (bouncing, fading).",
  "tags": [
+  "login",
   "gradient",
   "dark",
   "outlined",
   "rounded",
-  "flat",
-  "color-change"
+  "flat"
  ],
  "colors": [
   "#1e1e1e",

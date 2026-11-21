@@ -8,9 +8,9 @@
  "description": "Gradient rounded white button that responds while pressed down.",
  "howItWorks": "While pressed, scale becomes 99%, box-shadow becomes 0px 1px 2px 1px hsl(0, 0%, 70%), 0px 10px 35px 0px hsl(0, 0%, 75%),\n    0px -10px 35px 0px hsl(0, 0%, 100%).",
  "tags": [
+  "send",
   "gradient",
   "rounded",
-  "send",
   "simple",
   "button",
   "smooth"

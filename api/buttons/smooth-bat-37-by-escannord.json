@@ -8,12 +8,12 @@
  "description": "Gradient 3d pill dark red button that reacts on hover.",
  "howItWorks": "On hover, transform becomes translate(-50%, -50%) rotateX(60deg).",
  "tags": [
+  "back",
   "red",
   "gradient",
   "3d",
   "outlined",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#363636",

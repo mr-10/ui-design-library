@@ -5,7 +5,7 @@
  "author": "vinodjangid07",
  "source": "https://uiverse.io/vinodjangid07/odd-snake-27",
  "trigger": "hover",
- "description": "Gradient pill amber button that fades on hover.",
+ "description": "Gradient pill amber social button that fades on hover.",
  "howItWorks": "On hover, width becomes 110px, border-radius becomes 30px, opacity becomes 1.",
  "tags": [
   "amber",

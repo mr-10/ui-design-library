@@ -5,7 +5,7 @@
  "author": "MRez321",
  "source": "https://uiverse.io/MRez321/nice-stingray-21",
  "trigger": "hover",
- "description": "Rounded blue tooltip that starts animating on hover.",
+ "description": "Rounded blue tooltip with arrow that starts animating on hover.",
  "howItWorks": "On hover, top becomes -100%, opacity becomes 1, starts the shake animation (rotating).",
  "tags": [
   "blue",

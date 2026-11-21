@@ -8,9 +8,9 @@
  "description": "White button that changes colour on hover with a smooth transition.",
  "howItWorks": "On hover, background-color changes from #f2f2f2 to #ddd.",
  "tags": [
+  "save",
   "flat",
   "color-change",
-  "save",
   "btn",
   "buttons",
   "hover"

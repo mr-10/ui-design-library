@@ -8,12 +8,12 @@
  "description": "Gradient rounded light violet button that fades on hover.",
  "howItWorks": "On hover, opacity becomes 1.",
  "tags": [
+  "rating",
   "violet",
   "gradient",
   "outlined",
   "rounded",
-  "flat",
-  "fade"
+  "flat"
  ],
  "colors": [
   "#d9a1ff",

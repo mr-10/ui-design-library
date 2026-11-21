@@ -5,7 +5,7 @@
  "author": "Yassin6up",
  "source": "https://uiverse.io/Yassin6up/rare-goose-44",
  "trigger": "hover",
- "description": "Neon rounded teal tooltip that starts animating on hover.",
+ "description": "Neon rounded teal tooltip with arrow that starts animating on hover.",
  "howItWorks": "On hover, top becomes -100%, opacity becomes 1, starts the 1s animation.",
  "tags": [
   "teal",

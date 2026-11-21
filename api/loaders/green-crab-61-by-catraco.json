@@ -5,7 +5,7 @@
  "author": "catraco",
  "source": "https://uiverse.io/catraco/green-crab-61",
  "trigger": "auto-loop",
- "description": "Outlined gray loader with fading; rotating motion in a loop.",
+ "description": "Outlined gray loader with rotating motion in a loop.",
  "howItWorks": "It loops a .8s animation (fading; rotating).",
  "tags": [
   "outlined",

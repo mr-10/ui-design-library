@@ -8,12 +8,12 @@
  "description": "Gradient rounded violet button that glows on hover.",
  "howItWorks": "On hover, width becomes 180px, box-shadow becomes 0px 10px 25px #000000, opacity becomes 1.",
  "tags": [
+  "like",
   "violet",
   "purple",
   "gradient",
   "rounded",
-  "glow",
-  "expand"
+  "glow"
  ],
  "colors": [
   "#777777",

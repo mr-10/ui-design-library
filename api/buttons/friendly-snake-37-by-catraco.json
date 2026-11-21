@@ -8,12 +8,12 @@
  "description": "Neon rounded green button that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 0 0 5px #b4ff64, transform becomes scale(1), font-size becomes 20px.",
  "tags": [
+  "next",
   "green",
   "neon",
   "rounded",
   "glow",
-  "shrink",
-  "slide"
+  "shrink"
  ],
  "colors": [
   "#b4ff64",

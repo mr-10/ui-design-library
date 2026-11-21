@@ -8,12 +8,12 @@
  "description": "Blue card that starts animating on hover with a smooth transition.",
  "howItWorks": "On hover, box-shadow becomes 0 14px 28px #000000, 0 10px 10px #000000, opacity becomes 0, z-index becomes -3.",
  "tags": [
+  "social",
   "blue",
   "glow",
   "fade",
   "lift",
-  "drop",
-  "color-change"
+  "drop"
  ],
  "colors": [
   "#e7e7e7",

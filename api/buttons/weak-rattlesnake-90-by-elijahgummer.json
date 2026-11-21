@@ -5,15 +5,15 @@
  "author": "elijahgummer",
  "source": "https://uiverse.io/elijahgummer/weak-rattlesnake-90",
  "trigger": "hover",
- "description": "Pill white button that glows on hover with a smooth transition.",
+ "description": "Pill white social button that glows on hover.",
  "howItWorks": "On hover, shadow grows and background changes and text colour changes.",
  "tags": [
+  "github",
+  "social",
   "rounded",
   "pill",
   "glow",
-  "color-change",
-  "github",
-  "buttons"
+  "color-change"
  ],
  "colors": [
   "#ffffff",

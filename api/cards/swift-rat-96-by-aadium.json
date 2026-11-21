@@ -8,12 +8,12 @@
  "description": "Dark rounded red pricing card that toggles on and off when clicked.",
  "howItWorks": "On hover, background-color changes from #131313 to #bb6c74, border-top becomes 2px solid transparent, text color changes from #bb6c74 to #111111. Clicking it toggles it: background-color changes from #131313 to #000, text color changes from #bb6c74 to #fff, font-weight becomes 600.",
  "tags": [
+  "cart",
+  "add",
   "red",
   "pink",
   "dark",
-  "outlined",
-  "rounded",
-  "color-change"
+  "outlined"
  ],
  "colors": [
   "#bb6c74",

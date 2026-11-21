@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/Botwe-Felix5820/nasty-deer-97",
  "trigger": "hover",
  "description": "Rounded sky-blue button that starts animating on hover.",
- "howItWorks": "On hover, starts the shake3856 animation (animating).",
+ "howItWorks": "On hover, starts the shake3856 animation (sliding).",
  "tags": [
   "blue",
   "rounded",
   "flat",
   "animated",
-  "button",
-  "shake"
+  "slide",
+  "button"
  ],
  "colors": [
   "#016dd9",

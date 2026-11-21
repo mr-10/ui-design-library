@@ -8,12 +8,12 @@
  "description": "Gradient rounded black button that toggles on and off when clicked.",
  "howItWorks": "On hover, box-shadow becomes inset 0 8px 24px #ffffff,\n    0 6px 16px #1c1c1c,\n     0 2px 4px #1c1c1c,\n     0 30px 100px #1c1c1c,\n    0 15px 30px #1c1c1c,\n     0 6px 12px #1c1c1c, transform becomes translateY(-1px), starts the flying animation (bouncing). Clicking it toggles it: transform becomes scale(0.5) translateX(-200px), starts the planeSlide animation (sliding), opacity becomes 0.",
  "tags": [
+  "send",
   "gradient",
   "outlined",
   "rounded",
   "lift",
-  "glow",
-  "scale"
+  "glow"
  ],
  "colors": [
   "#1c1c1c",

@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/simontheonlyone/ordinary-starfish-54",
  "trigger": "hover",
  "description": "Neon rounded orange button that starts animating on hover.",
- "howItWorks": "On hover, starts the like animation (rotating), starts the loke animation (rotating), scale becomes 6. On focus, starts the pop-up animation (fading).",
+ "howItWorks": "On hover, starts the like animation (rotating), starts the loke animation (rotating), scale becomes 6. On focus, starts the pop-up animation (fading, pulsing).",
  "tags": [
+  "like",
   "orange",
   "neon",
   "outlined",
   "rounded",
-  "animated",
-  "fade"
+  "animated"
  ],
  "colors": [
   "#dddddd",

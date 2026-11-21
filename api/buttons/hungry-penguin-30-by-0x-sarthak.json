@@ -8,12 +8,12 @@
  "description": "Rounded indigo button that slides on hover with a smooth transition.",
  "howItWorks": "On hover, width becomes 100%, background changes from #552da8 to #1c1c1c, transform becomes translateX(0).",
  "tags": [
+  "contact",
   "indigo",
   "rounded",
   "flat",
   "color-change",
-  "expand",
-  "slide"
+  "expand"
  ],
  "colors": [
   "#552da8",

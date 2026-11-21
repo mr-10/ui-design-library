@@ -8,10 +8,10 @@
  "description": "Rounded sky-blue button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, box-shadow becomes 0 10px 15px -3px #488aec4f, 0 4px 6px -2px #488aec17. On focus, opacity becomes .85, box-shadow becomes none.",
  "tags": [
+  "add",
   "blue",
   "rounded",
   "glow",
-  "add",
   "button",
   "hover"
  ],

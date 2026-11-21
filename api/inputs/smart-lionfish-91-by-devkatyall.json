@@ -8,11 +8,11 @@
  "description": "Teal text input that lights up when focused.",
  "howItWorks": "On focus, the outline is removed, starts the draw animation (fading), background changes from #000000 to #31e4ff.",
  "tags": [
+  "add",
   "teal",
   "blue",
   "flat",
   "fade",
-  "add",
   "text-input"
  ],
  "colors": [

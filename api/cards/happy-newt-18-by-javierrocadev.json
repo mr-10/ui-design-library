@@ -8,12 +8,12 @@
  "description": "Gradient dark pill white card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #0f1113 to #b3b6b6, border-radius becomes 0px 0px 15px 15px, background-color changes from #0f1113 to #2c3136.",
  "tags": [
+  "follow",
   "gradient",
   "dark",
   "rounded",
   "pill",
-  "flat",
-  "color-change"
+  "flat"
  ],
  "colors": [
   "#b3b6b6",

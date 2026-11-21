@@ -5,15 +5,15 @@
  "author": "dylanharriscameron",
  "source": "https://uiverse.io/dylanharriscameron/good-dingo-46",
  "trigger": "focus",
- "description": "Gradient 3d dark rounded black button that lights up when focused.",
+ "description": "Gradient 3d rounded black button that lights up when focused.",
  "howItWorks": "On focus, the outline is removed.",
  "tags": [
+  "delete",
   "gradient",
   "3d",
   "dark",
   "rounded",
-  "fade",
-  "delete"
+  "fade"
  ],
  "colors": [
   "#ffffff",

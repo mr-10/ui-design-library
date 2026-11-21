@@ -5,8 +5,8 @@
  "author": "StealthWorm",
  "source": "https://uiverse.io/StealthWorm/cuddly-wasp-46",
  "trigger": "auto-loop",
- "description": "Neon gradient 3d pill cyan loader with rotating; rotating motion in a loop.",
- "howItWorks": "It loops a 6s animation (rotating; rotating, sliding; sliding).",
+ "description": "Neon gradient 3d pill cyan loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 6s animation (rotating, sliding; sliding).",
  "tags": [
   "cyan",
   "neon",

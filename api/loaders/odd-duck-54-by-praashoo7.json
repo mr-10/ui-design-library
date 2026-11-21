@@ -5,7 +5,7 @@
  "author": "Praashoo7",
  "source": "https://uiverse.io/Praashoo7/odd-duck-54",
  "trigger": "auto-loop",
- "description": "White loader with bouncing; bouncing motion in a loop.",
+ "description": "White loader with bouncing motion in a loop.",
  "howItWorks": "It loops a 2s animation (bouncing; bouncing, sliding; sliding).",
  "tags": [
   "slide",

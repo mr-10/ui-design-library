@@ -8,11 +8,11 @@
  "description": "Pill dark sky-blue card that changes colour on hover.",
  "howItWorks": "On hover, background changes.",
  "tags": [
+  "delete",
   "blue",
   "rounded",
   "pill",
   "color-change",
-  "delete",
   "cards"
  ],
  "colors": [

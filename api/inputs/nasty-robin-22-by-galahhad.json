@@ -8,12 +8,12 @@
  "description": "Neon rounded sky-blue radio input that toggles on and off when clicked.",
  "howItWorks": "On hover, background changes from none to #d3d3d3, background-color changes from #ffffff to #dad9d9. Clicking it toggles it: top becomes calc(50px + 5px), opacity becomes 1, rotate becomes 180deg. On focus, border-color becomes #006eff, box-shadow becomes 0px 2px 5px 0px #006eff.",
  "tags": [
+  "phone",
   "blue",
   "neon",
   "outlined",
   "rounded",
-  "color-change",
-  "phone"
+  "color-change"
  ],
  "colors": [
   "#d3d3d3",

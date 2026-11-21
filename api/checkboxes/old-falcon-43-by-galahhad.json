@@ -8,10 +8,10 @@
  "description": "Outlined gray checkbox that toggles on and off when clicked.",
  "howItWorks": "On hover, text color changes from #333 to #fff, background changes from none to #6495ed, transform becomes scale(1.1). Clicking it toggles it: top becomes 50%, transform becomes translateY(-50%) rotate(45deg), bottom becomes 50%. On focus, text color changes from #333 to #fff, background changes from none to #6495ed, outline-color becomes #000000.",
  "tags": [
-  "outlined",
-  "color-change",
   "delete",
   "edit",
+  "outlined",
+  "color-change",
   "checkbox",
   "dropdown"
  ],

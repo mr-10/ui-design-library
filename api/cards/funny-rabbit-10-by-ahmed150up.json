@@ -5,13 +5,13 @@
  "author": "ahmed150up",
  "source": "https://uiverse.io/ahmed150up/funny-rabbit-10",
  "trigger": "static",
- "description": "Dark pill white profile card with soft shadow and rounded corners.",
+ "description": "Dark pill white profile card with soft shadow.",
  "howItWorks": "It has no hover, click, focus or animation states; the profile card is a fixed design.",
  "tags": [
+  "chat",
   "dark",
   "rounded",
   "pill",
-  "chat",
   "profile-card",
   "card"
  ],

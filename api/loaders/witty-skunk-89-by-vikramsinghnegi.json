@@ -5,8 +5,8 @@
  "author": "vikramsinghnegi",
  "source": "https://uiverse.io/vikramsinghnegi/witty-skunk-89",
  "trigger": "auto-loop",
- "description": "Dark gray loader with animating motion in a loop.",
- "howItWorks": "It loops a 1s animation (animating).",
+ "description": "Dark gray loader with moving motion in a loop.",
+ "howItWorks": "It loops a 1s animation (moving).",
  "tags": [
   "dark",
   "loader",

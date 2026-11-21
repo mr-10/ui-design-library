@@ -5,7 +5,7 @@
  "author": "Rodrypaladin",
  "source": "https://uiverse.io/Rodrypaladin/evil-goat-39",
  "trigger": "auto-loop",
- "description": "Pill orange loader with pulsing motion in a loop.",
+ "description": "Pill orange loader with rotating motion in a loop.",
  "howItWorks": "It loops a 1s animation (pulsing, rotating).",
  "tags": [
   "orange",

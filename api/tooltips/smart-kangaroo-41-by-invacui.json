@@ -5,15 +5,15 @@
  "author": "Invacui",
  "source": "https://uiverse.io/Invacui/smart-kangaroo-41",
  "trigger": "hover",
- "description": "Glass rounded gray tooltip that lifts on hover.",
+ "description": "Glass rounded gray tooltip with arrow that lifts on hover.",
  "howItWorks": "On hover, opacity becomes 1, transform becomes translateY(-130%), background changes from #534545 to #ffffff.",
  "tags": [
+  "social",
   "glassmorphism",
   "outlined",
   "rounded",
   "flat",
-  "fade",
-  "lift"
+  "fade"
  ],
  "colors": [
   "#9c9c9c",

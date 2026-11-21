@@ -5,10 +5,11 @@
  "author": "Bethel-nz",
  "source": "https://uiverse.io/Bethel-nz/honest-elephant-63",
  "trigger": "static",
- "description": "White spinner loader with clean lines with a smooth transition.",
+ "description": "White spinner loader with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the spinner loader is a fixed design.",
  "tags": [
   "flat",
+  "slide",
   "spinner-loader",
   "loader",
   "css"

@@ -8,12 +8,12 @@
  "description": "Rounded amber card that lifts on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translateY(-5px), text color changes from #6b7280 to #fbbf24.",
  "tags": [
+  "like",
+  "rating",
   "amber",
   "rounded",
   "lift",
-  "color-change",
-  "like",
-  "rating"
+  "color-change"
  ],
  "colors": [
   "#f59e0b",

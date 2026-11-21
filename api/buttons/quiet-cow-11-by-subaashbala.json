@@ -5,12 +5,12 @@
  "author": "Subaashbala",
  "source": "https://uiverse.io/Subaashbala/quiet-cow-11",
  "trigger": "static",
- "description": "Gradient rounded white button with rounded corners and gradient fill.",
+ "description": "Gradient rounded white button with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
+  "send",
   "gradient",
   "rounded",
-  "send",
   "simple",
   "neumorphism",
   "button"

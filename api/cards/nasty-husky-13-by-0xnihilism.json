@@ -8,12 +8,12 @@
  "description": "Dark green card that glows on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translate(-5px, -5px), box-shadow becomes 17px 17px 0 #000, transform becomes translateX(0). On focus, the outline is removed, transform becomes scale(1.05), background-color changes from #000 to #000.",
  "tags": [
+  "newsletter",
   "green",
   "dark",
   "outlined",
   "glow",
-  "slide",
-  "drop"
+  "slide"
  ],
  "colors": [
   "#5ad641",

@@ -8,12 +8,12 @@
  "description": "Dark rounded sky-blue login form that reacts on hover.",
  "howItWorks": "On hover, border becomes 1px solid #2d79f3. On focus, the outline is removed, border becomes 1.5px solid #2d79f3.",
  "tags": [
-  "blue",
-  "dark",
-  "outlined",
-  "rounded",
-  "flat",
-  "submit"
+  "submit",
+  "password",
+  "google",
+  "email",
+  "social",
+  "blue"
  ],
  "colors": [
   "#2d79f3",

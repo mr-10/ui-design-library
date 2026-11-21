@@ -8,12 +8,12 @@
  "description": "Dark rounded amber form that lights up when focused.",
  "howItWorks": "On focus, background changes from #ffa500 to #ffa500.",
  "tags": [
+  "submit",
   "amber",
   "dark",
   "outlined",
   "rounded",
-  "flat",
-  "submit"
+  "flat"
  ],
  "colors": [
   "#ffa500",

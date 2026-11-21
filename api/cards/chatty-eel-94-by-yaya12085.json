@@ -8,12 +8,12 @@
  "description": "Gradient rounded sky-blue card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #606c88 to #153586, background-color changes from #606c88 to #3f4c6b, background-color changes from #606c88 to #3a4553.",
  "tags": [
+  "download",
+  "close",
   "blue",
   "gradient",
   "outlined",
-  "rounded",
-  "color-change",
-  "download"
+  "rounded"
  ],
  "colors": [
   "#606c88",

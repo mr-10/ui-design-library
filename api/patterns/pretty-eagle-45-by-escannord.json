@@ -5,7 +5,7 @@
  "author": "escannord",
  "source": "https://uiverse.io/escannord/pretty-eagle-45",
  "trigger": "static",
- "description": "Gradient 3d black pattern with soft shadow and gradient fill.",
+ "description": "Gradient 3d black pattern with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
   "gradient",

@@ -8,10 +8,10 @@
  "description": "Neon sky-blue form that lights up when focused.",
  "howItWorks": "On focus, the outline is removed, border becomes 2px solid #2d8cf0, border-right becomes 0.",
  "tags": [
-  "blue",
-  "neon",
   "submit",
   "newsletter",
+  "blue",
+  "neon",
   "email",
   "form"
  ],

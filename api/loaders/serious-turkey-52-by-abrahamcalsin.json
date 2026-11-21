@@ -5,7 +5,7 @@
  "author": "abrahamcalsin",
  "source": "https://uiverse.io/abrahamcalsin/serious-turkey-52",
  "trigger": "auto-loop",
- "description": "Pill dark sky-blue spinner loader with fading motion in a loop.",
+ "description": "Pill dark sky-blue spinner loader with pulsing motion in a loop.",
  "howItWorks": "It loops a animation (fading, pulsing).",
  "tags": [
   "blue",

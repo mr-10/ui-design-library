@@ -5,15 +5,15 @@
  "author": "csozidev",
  "source": "https://uiverse.io/csozidev/young-bat-70",
  "trigger": "auto-loop",
- "description": "Blue cube loader with animating motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating).",
+ "description": "Blue cube loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (pulsing, rotating, sliding).",
  "tags": [
   "blue",
   "flat",
-  "cube-loader",
-  "loader",
-  "auto-loop",
-  "css"
+  "pulse",
+  "spin",
+  "slide",
+  "cube-loader"
  ],
  "colors": [
   "#7289da",

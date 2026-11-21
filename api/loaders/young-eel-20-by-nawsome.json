@@ -5,7 +5,7 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/young-eel-20",
  "trigger": "auto-loop",
- "description": "Red dots loader with fading; fading motion in a loop.",
+ "description": "Red dots loader with rotating motion in a loop.",
  "howItWorks": "It loops a 2.4s animation (fading; fading, morphing; rotating).",
  "tags": [
   "red",

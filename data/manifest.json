@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T10:11:36.381053+00:00",
+  "generatedAt": "2026-11-21T10:18:20.927264+00:00",
   "total": 3805,
   "categories": [
     {
@@ -70,15 +70,15 @@
   "topTags": [
     {
       "tag": "rounded",
-      "count": 2633
+      "count": 2627
     },
     {
       "tag": "flat",
-      "count": 1561
+      "count": 1557
     },
     {
       "tag": "css",
-      "count": 1319
+      "count": 1307
     },
     {
       "tag": "gradient",
@@ -86,19 +86,19 @@
     },
     {
       "tag": "color-change",
-      "count": 1095
+      "count": 1076
     },
     {
       "tag": "pill",
-      "count": 1044
+      "count": 1041
     },
     {
       "tag": "hover",
-      "count": 1031
+      "count": 1013
     },
     {
       "tag": "button",
-      "count": 1012
+      "count": 1002
     },
     {
       "tag": "blue",
@@ -106,55 +106,59 @@
     },
     {
       "tag": "outlined",
-      "count": 945
+      "count": 942
     },
     {
       "tag": "dark",
-      "count": 663
-    },
-    {
-      "tag": "fade",
       "count": 661
     },
     {
+      "tag": "fade",
+      "count": 648
+    },
+    {
       "tag": "loader",
-      "count": 647
+      "count": 640
     },
     {
       "tag": "glow",
-      "count": 629
-    },
-    {
-      "tag": "auto-loop",
-      "count": 553
+      "count": 622
     },
     {
       "tag": "spin",
-      "count": 539
+      "count": 547
+    },
+    {
+      "tag": "auto-loop",
+      "count": 543
     },
     {
       "tag": "red",
       "count": 471
     },
     {
+      "tag": "slide",
+      "count": 463
+    },
+    {
       "tag": "card",
-      "count": 467
+      "count": 463
     },
     {
       "tag": "neon",
-      "count": 386
+      "count": 385
     },
     {
       "tag": "checked",
-      "count": 377
+      "count": 374
     },
     {
       "tag": "scale",
-      "count": 370
+      "count": 368
     },
     {
       "tag": "animated",
-      "count": 366
+      "count": 361
     },
     {
       "tag": "green",
@@ -162,7 +166,7 @@
     },
     {
       "tag": "simple",
-      "count": 348
+      "count": 346
     },
     {
       "tag": "3d",
@@ -170,23 +174,19 @@
     },
     {
       "tag": "pulse",
-      "count": 312
-    },
-    {
-      "tag": "animation",
-      "count": 302
+      "count": 321
     },
     {
       "tag": "cyan",
       "count": 302
     },
     {
-      "tag": "slide",
-      "count": 297
+      "tag": "animation",
+      "count": 295
     },
     {
       "tag": "expand",
-      "count": 263
+      "count": 262
     }
   ],
   "issues": {

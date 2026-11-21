@@ -8,10 +8,10 @@
  "description": "Gradient rounded white button that slides on hover.",
  "howItWorks": "On hover, top becomes 1px, left becomes 1px, right becomes 1px. On focus, outline becomes 2px solid #fefefe, box-shadow becomes 9px 9px 44px #cecece3a, -9px -9px 44px #d3d3d33d,\n    inset 0 0 0 2px #c0c0c0, transform becomes rotate(-40deg).",
  "tags": [
+  "send",
   "gradient",
   "rounded",
   "slide",
-  "send",
   "icon",
   "animation"
  ],

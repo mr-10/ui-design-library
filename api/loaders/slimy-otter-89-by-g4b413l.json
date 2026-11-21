@@ -5,7 +5,7 @@
  "author": "G4b413l",
  "source": "https://uiverse.io/G4b413l/slimy-otter-89",
  "trigger": "auto-loop",
- "description": "Pill blue loader with fading motion in a loop.",
+ "description": "Pill blue loader with pulsing motion in a loop.",
  "howItWorks": "It loops a animation (fading, pulsing).",
  "tags": [
   "blue",

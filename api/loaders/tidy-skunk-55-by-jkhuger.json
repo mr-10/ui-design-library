@@ -5,8 +5,8 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/tidy-skunk-55",
  "trigger": "auto-loop",
- "description": "3d pill yellow spinner loader with animating; fading; rotating motion in a loop.",
- "howItWorks": "It loops a 5s animation (animating; fading; rotating).",
+ "description": "3d pill yellow spinner loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 5s animation (fading; moving; rotating).",
  "tags": [
   "yellow",
   "blue",

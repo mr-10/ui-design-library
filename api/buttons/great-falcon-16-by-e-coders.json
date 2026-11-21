@@ -5,7 +5,7 @@
  "author": "e-coders",
  "source": "https://uiverse.io/e-coders/great-falcon-16",
  "trigger": "hover",
- "description": "Dark rounded black button that changes colour on hover.",
+ "description": "Rounded black button that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #111827 to #374151. On focus, box-shadow becomes none, outline becomes 2px solid #ffffff.",
  "tags": [
   "dark",

@@ -5,15 +5,15 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/quick-rattlesnake-57",
  "trigger": "auto-loop",
- "description": "Emerald loader with animating; fading motion in a loop.",
- "howItWorks": "It loops a animation (animating; fading).",
+ "description": "Emerald loader with sliding motion in a loop.",
+ "howItWorks": "It loops a animation (fading; sliding).",
  "tags": [
   "emerald",
   "flat",
   "fade",
+  "slide",
   "animation",
-  "loader",
-  "text"
+  "loader"
  ],
  "colors": [
   "#ecf0f1",

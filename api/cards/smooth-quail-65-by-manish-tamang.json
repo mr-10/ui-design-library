@@ -8,12 +8,12 @@
  "description": "Gradient pill violet card that glows on hover.",
  "howItWorks": "On hover, shadow grows.",
  "tags": [
+  "next",
   "violet",
   "green",
   "gradient",
   "rounded",
-  "pill",
-  "glow"
+  "pill"
  ],
  "colors": [
   "#9333ea",

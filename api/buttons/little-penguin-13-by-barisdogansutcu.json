@@ -8,12 +8,12 @@
  "description": "Dark green button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, box-shadow becomes #000000 0px 54px 55px, #000000 0px -12px 30px, #000000 0px 4px 6px, #000000 0px 12px 13px, #000000 0px -3px 5px, transform becomes translateY(100%).",
  "tags": [
+  "download",
   "green",
   "dark",
   "glow",
   "drop",
-  "bounce",
-  "download"
+  "bounce"
  ],
  "colors": [
   "#242a35",

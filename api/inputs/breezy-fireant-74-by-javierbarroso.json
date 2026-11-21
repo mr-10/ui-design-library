@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded sky-blue text input that lights up when focused.",
  "howItWorks": "On focus, text color changes from transparent to #999, width becomes 300px.",
  "tags": [
+  "search",
   "blue",
   "gradient",
   "dark",
   "outlined",
-  "rounded",
-  "search"
+  "rounded"
  ],
  "colors": [
   "#141414",

@@ -8,11 +8,11 @@
  "description": "Rounded sky-blue button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, background changes from #0059ff to #4586ff, box-shadow becomes 0px 0px 20px -3px #4586ff, top becomes -100%.",
  "tags": [
+  "download",
   "blue",
   "rounded",
   "glow",
   "color-change",
-  "download",
   "button"
  ],
  "colors": [

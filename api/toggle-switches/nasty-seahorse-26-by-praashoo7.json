@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/Praashoo7/nasty-seahorse-26",
  "trigger": "checked",
  "description": "Glass neon pill amber toggle switch that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: starts the tap animation (animating), background-color changes from #747373 to #FFA133, starts the bling_8561328 animation (animating). On focus, box-shadow becomes 0 0 1px #FFA133.",
+ "howItWorks": "Clicking it toggles it: starts the tap animation (pulsing), background-color changes from #747373 to #FFA133, starts the bling_8561328 animation (moving). On focus, box-shadow becomes 0 0 1px #FFA133.",
  "tags": [
   "amber",
   "neon",
   "glassmorphism",
   "rounded",
   "pill",
-  "toggle-switch"
+  "pulse"
  ],
  "colors": [
   "#ffa133",

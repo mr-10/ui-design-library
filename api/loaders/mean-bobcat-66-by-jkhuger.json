@@ -5,8 +5,8 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/mean-bobcat-66",
  "trigger": "auto-loop",
- "description": "White loader with animating; growing and shrinking motion in a loop.",
- "howItWorks": "It loops a 5s animation (animating; growing and shrinking).",
+ "description": "White loader with growing and shrinking motion in a loop.",
+ "howItWorks": "It loops a 5s animation (growing and shrinking; moving).",
  "tags": [
   "flat",
   "animation",

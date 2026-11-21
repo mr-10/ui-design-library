@@ -8,12 +8,12 @@
  "description": "Gradient pill sky-blue login form that lights up when focused.",
  "howItWorks": "On focus, transform becomes translateY(-120%) scale(0.9).",
  "tags": [
+  "submit",
+  "password",
   "blue",
   "cyan",
   "gradient",
-  "rounded",
-  "pill",
-  "submit"
+  "rounded"
  ],
  "colors": [
   "#5e7eb6",

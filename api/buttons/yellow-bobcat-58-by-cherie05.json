@@ -5,12 +5,12 @@
  "author": "Cherie05",
  "source": "https://uiverse.io/Cherie05/yellow-bobcat-58",
  "trigger": "static",
- "description": "Pill gray button with rounded corners with a smooth transition.",
+ "description": "Pill gray button with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
+  "send",
   "rounded",
   "pill",
-  "send",
   "buttons",
   "static",
   "css"

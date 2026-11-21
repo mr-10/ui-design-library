@@ -8,12 +8,12 @@
  "description": "Glass neon gradient pill blue tooltip that glows and scales up on hover.",
  "howItWorks": "On hover, opacity becomes 1, transform becomes scale(1), background changes from #2a2a2a to linear-gradient(135deg, #a777e3, #6e8efb). On focus, the outline is removed, box-shadow becomes 0 0 0 3px #6e8efb,\n    0 8px 15px #000000, box-shadow becomes 0 8px 15px #000000.",
  "tags": [
+  "social",
+  "facebook",
+  "twitter",
+  "share",
   "blue",
-  "violet",
-  "neon",
-  "glassmorphism",
-  "gradient",
-  "dark"
+  "violet"
  ],
  "colors": [
   "#6e8efb",

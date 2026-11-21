@@ -5,7 +5,7 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/moody-crab-18",
  "trigger": "static",
- "description": "Outlined rounded gray loader with rounded corners with a smooth transition.",
+ "description": "Outlined rounded gray loader with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the loader is a fixed design.",
  "tags": [
   "outlined",

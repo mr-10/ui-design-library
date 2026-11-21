@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded blue button that starts animating on hover.",
  "howItWorks": "On hover, box-shadow becomes -15px -15px 500px #ffffff, background changes to , starts the 1s animation.",
  "tags": [
+  "send",
   "blue",
   "gradient",
   "dark",
   "outlined",
-  "rounded",
-  "glow"
+  "rounded"
  ],
  "colors": [
   "#212121",

@@ -8,11 +8,11 @@
  "description": "Dark pill amber toggle switch that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: left becomes 74%, left becomes 50%.",
  "tags": [
+  "back",
   "amber",
   "dark",
   "rounded",
   "pill",
-  "back",
   "toggle-switch"
  ],
  "colors": [

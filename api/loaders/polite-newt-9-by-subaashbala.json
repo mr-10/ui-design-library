@@ -5,8 +5,8 @@
  "author": "Subaashbala",
  "source": "https://uiverse.io/Subaashbala/polite-newt-9",
  "trigger": "auto-loop",
- "description": "Gradient 3d dark pill cyan loader with animating; fading motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; fading, rotating; rotating).",
+ "description": "Gradient 3d dark pill cyan loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (fading, rotating; rotating; sliding).",
  "tags": [
   "cyan",
   "teal",

@@ -8,11 +8,11 @@
  "description": "Rounded dark sky-blue card that glows on hover.",
  "howItWorks": "On hover, shadow grows and background changes and text colour changes.",
  "tags": [
+  "like",
   "blue",
   "rounded",
   "glow",
   "color-change",
-  "like",
   "cards"
  ],
  "colors": [

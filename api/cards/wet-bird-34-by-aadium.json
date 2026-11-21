@@ -8,12 +8,12 @@
  "description": "Dark rounded sky-blue card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #000000 to transparent, text color changes from #1b77da to #1b77da, border becomes 2px solid #1b77da.",
  "tags": [
+  "login",
   "blue",
   "lime",
   "dark",
   "rounded",
-  "color-change",
-  "login"
+  "color-change"
  ],
  "colors": [
   "#f2f2f2",

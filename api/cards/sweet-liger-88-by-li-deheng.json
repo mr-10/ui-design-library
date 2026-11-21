@@ -8,12 +8,12 @@
  "description": "Gradient pill gray card that toggles on and off when clicked.",
  "howItWorks": "On hover, box-shadow becomes 0 5px 5px 0 #00000026, width becomes 1rem, height becomes 1rem. Clicking it toggles it: starts the checked-icon-like animation (fading, pulsing, rotating), starts the checked-icon-dislike animation (fading, pulsing, rotating), width becomes 10px.",
  "tags": [
+  "like",
+  "close",
   "gradient",
   "outlined",
   "rounded",
-  "pill",
-  "glow",
-  "color-change"
+  "pill"
  ],
  "colors": [
   "#353535",

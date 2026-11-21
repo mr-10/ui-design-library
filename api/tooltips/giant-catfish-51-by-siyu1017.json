@@ -5,7 +5,7 @@
  "author": "Siyu1017",
  "source": "https://uiverse.io/Siyu1017/giant-catfish-51",
  "trigger": "hover",
- "description": "Gradient rounded violet tooltip that lifts on hover.",
+ "description": "Gradient rounded violet tooltip with arrow that lifts on hover.",
  "howItWorks": "On hover, opacity becomes 1, transform becomes translateX(-50%) translateY(-100%) scale(1).",
  "tags": [
   "violet",

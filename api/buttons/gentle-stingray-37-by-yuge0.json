@@ -8,9 +8,9 @@
  "description": "Rounded gray button that changes colour on hover.",
  "howItWorks": "On hover, background changes.",
  "tags": [
+  "send",
   "rounded",
   "color-change",
-  "send",
   "buttons",
   "css"
  ],

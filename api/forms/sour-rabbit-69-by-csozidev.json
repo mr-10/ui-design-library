@@ -8,12 +8,12 @@
  "description": "Outlined sky-blue form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #0067b8 to #000000, background-color changes from #0067b8 to #005da6.",
  "tags": [
+  "next",
+  "back",
+  "email",
   "blue",
   "outlined",
-  "flat",
-  "color-change",
-  "next",
-  "back"
+  "flat"
  ],
  "colors": [
   "#1b1b1b",

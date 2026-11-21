@@ -8,12 +8,12 @@
  "description": "Gradient rounded purple card that fades on hover.",
  "howItWorks": "On hover, opacity becomes 1.",
  "tags": [
+  "social",
   "purple",
   "cyan",
   "gradient",
   "rounded",
-  "flat",
-  "fade"
+  "flat"
  ],
  "colors": [
   "#202020",

@@ -8,12 +8,12 @@
  "description": "Rounded sky-blue radio button that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: transform becomes translateY(calc(-40% - 11px)), transform becomes translateY(calc(0% - 11px)), transform becomes translateY(calc(20% - 11px)).",
  "tags": [
+  "like",
   "blue",
   "red",
   "rounded",
   "flat",
-  "pulse",
-  "spin"
+  "pulse"
  ],
  "colors": [
   "#2196f3",

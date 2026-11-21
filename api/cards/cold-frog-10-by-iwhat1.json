@@ -8,12 +8,12 @@
  "description": "Neon gradient 3d rounded pink card that reacts on hover.",
  "howItWorks": "On hover, transform becomes rotateY(180deg) rotateZ(180deg).",
  "tags": [
+  "back",
+  "follow",
   "pink",
   "cyan",
   "neon",
-  "gradient",
-  "3d",
-  "rounded"
+  "gradient"
  ],
  "colors": [
   "#323232",

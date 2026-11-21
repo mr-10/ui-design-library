@@ -5,15 +5,15 @@
  "author": "NlghtM4re",
  "source": "https://uiverse.io/NlghtM4re/moody-fly-80",
  "trigger": "auto-loop",
- "description": "Rounded cyan cube loader with bouncing motion in a loop.",
- "howItWorks": "It loops a 2.5s animation (bouncing, rotating, sliding).",
+ "description": "Rounded cyan cube loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2.5s animation (bouncing, rotating).",
  "tags": [
   "cyan",
   "rounded",
   "bounce",
   "spin",
-  "slide",
-  "cube-loader"
+  "cube-loader",
+  "slide"
  ],
  "colors": [
   "#47c3f8",

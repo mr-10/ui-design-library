@@ -8,11 +8,11 @@
  "description": "Gradient rounded gray button that changes colour on hover.",
  "howItWorks": "On hover, border-color becomes #d0cfcf, text color changes from #a4a4a2 to #dbd8d8, font-size becomes 16px.",
  "tags": [
+  "play",
   "gradient",
   "rounded",
   "flat",
   "color-change",
-  "play",
   "black"
  ],
  "colors": [

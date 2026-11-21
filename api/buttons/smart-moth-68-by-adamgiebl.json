@@ -8,12 +8,12 @@
  "description": "Rounded blue send button that starts animating on hover.",
  "howItWorks": "On hover, starts the fly-1 animation (bouncing), transform becomes translateX(1.2em) rotate(45deg) scale(1.1), transform becomes translateX(5em).",
  "tags": [
+  "send",
   "blue",
   "rounded",
   "flat",
   "animated",
-  "scale",
-  "slide"
+  "scale"
  ],
  "colors": [
   "#4169e1",

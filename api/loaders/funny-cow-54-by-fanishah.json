@@ -5,15 +5,15 @@
  "author": "fanishah",
  "source": "https://uiverse.io/fanishah/funny-cow-54",
  "trigger": "auto-loop",
- "description": "Red loader with animating motion in a loop.",
- "howItWorks": "It loops a 1.8s animation (animating).",
+ "description": "Red loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 1.8s animation (sliding).",
  "tags": [
   "red",
   "indigo",
   "flat",
+  "slide",
   "loader",
-  "auto-loop",
-  "css"
+  "auto-loop"
  ],
  "colors": [
   "#fa5767",

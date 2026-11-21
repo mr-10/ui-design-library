@@ -8,12 +8,12 @@
  "description": "Rounded red button that starts animating on hover.",
  "howItWorks": "On hover, background changes from #FF342B to #e52e26, starts the slope animation (rotating).",
  "tags": [
+  "add",
   "red",
   "rounded",
   "flat",
   "color-change",
-  "animated",
-  "spin"
+  "animated"
  ],
  "colors": [
   "#ff342b",

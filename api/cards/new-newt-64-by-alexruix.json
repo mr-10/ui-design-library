@@ -8,12 +8,12 @@
  "description": "Gradient pill amber card that slides on hover.",
  "howItWorks": "On hover, background-color changes from linear-gradient(to top, #ff930f, #ffcc33) to #1b1b1b25, transform becomes translateX(-100%), transform becomes translateX(0).",
  "tags": [
+  "back",
   "amber",
   "gradient",
   "rounded",
   "pill",
-  "flat",
-  "color-change"
+  "flat"
  ],
  "colors": [
   "#1b1b1b",

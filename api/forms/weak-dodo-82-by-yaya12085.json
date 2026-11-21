@@ -5,14 +5,14 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/weak-dodo-82",
  "trigger": "static",
- "description": "Outlined rounded blue contact form with soft shadow and rounded corners.",
+ "description": "Outlined rounded blue contact form with soft shadow.",
  "howItWorks": "It has no hover, click, focus or animation states; the contact form is a fixed design.",
  "tags": [
+  "submit",
+  "contact",
   "blue",
   "outlined",
   "rounded",
-  "submit",
-  "contact",
   "contact-form"
  ],
  "colors": [

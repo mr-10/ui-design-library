@@ -5,7 +5,7 @@
  "author": "csemszepp",
  "source": "https://uiverse.io/csemszepp/nice-liger-66",
  "trigger": "auto-loop",
- "description": "Gradient amber loader with bouncing; pulsing; rotating motion in a loop.",
+ "description": "Gradient amber loader with rotating motion in a loop.",
  "howItWorks": "It loops a 3s animation (bouncing; pulsing; rotating, sliding; shimmering).",
  "tags": [
   "amber",

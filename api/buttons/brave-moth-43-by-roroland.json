@@ -8,12 +8,12 @@
  "description": "3d rounded green button that glows and scales up on hover.",
  "howItWorks": "On hover, background-color changes from #4CAF50 to #4f16ac, transform becomes rotateY(180deg) scale(1.5), background-color changes from #4CAF50 to #5117ad.",
  "tags": [
+  "back",
   "green",
   "indigo",
   "3d",
   "rounded",
-  "scale",
-  "color-change"
+  "scale"
  ],
  "colors": [
   "#4caf50",

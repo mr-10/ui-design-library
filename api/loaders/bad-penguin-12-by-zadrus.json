@@ -5,7 +5,7 @@
  "author": "Zadrus",
  "source": "https://uiverse.io/Zadrus/bad-penguin-12",
  "trigger": "auto-loop",
- "description": "Pill green loader with fading motion in a loop.",
+ "description": "Pill green loader with rotating motion in a loop.",
  "howItWorks": "It loops a 1s animation (fading, rotating).",
  "tags": [
   "green",

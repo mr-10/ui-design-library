@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/BurgiSimon/breezy-donkey-2",
  "trigger": "checked",
  "description": "Neon rounded green toggle switch that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: background-color changes from #ff3636 to #00c763, transform becomes translateX(2.5em), starts the slideRight animation (bouncing, sliding). On focus, box-shadow becomes 0 0 1px #00c763.",
+ "howItWorks": "Clicking it toggles it: background-color changes from #ff3636 to #00c763, transform becomes translateX(2.5em), starts the slideRight animation (bouncing). On focus, box-shadow becomes 0 0 1px #00c763.",
  "tags": [
   "green",
   "red",
   "neon",
   "rounded",
   "bounce",
-  "slide"
+  "toggle-switch"
  ],
  "colors": [
   "#00c763",

@@ -8,12 +8,12 @@
  "description": "Outlined white button that lifts on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes scaleX(1), opacity becomes 1, transform becomes translateY(0px).",
  "tags": [
+  "back",
   "outlined",
   "flat",
   "drop",
   "fade",
-  "lift",
-  "rotate"
+  "lift"
  ],
  "colors": [
   "#ffffff",

@@ -5,15 +5,15 @@
  "author": "Lakshay-art",
  "source": "https://uiverse.io/Lakshay-art/soft-dingo-98",
  "trigger": "auto-loop",
- "description": "Pill light cyan card with fading; shimmering motion in a loop.",
+ "description": "Pill light cyan card with fading motion in a loop.",
  "howItWorks": "It loops a 30s animation (fading; shimmering).",
  "tags": [
+  "rating",
   "cyan",
   "rounded",
   "pill",
   "shimmer",
-  "fade",
-  "rating"
+  "fade"
  ],
  "colors": [
   "#c3f4ff",

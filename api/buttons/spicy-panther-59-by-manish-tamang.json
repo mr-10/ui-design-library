@@ -5,15 +5,15 @@
  "author": "Manish-Tamang",
  "source": "https://uiverse.io/Manish-Tamang/spicy-panther-59",
  "trigger": "hover",
- "description": "Rounded amber button that changes colour on hover.",
+ "description": "Rounded amber social button that changes colour on hover.",
  "howItWorks": "On hover, background changes and a ring appears and text colour changes.",
  "tags": [
+  "github",
+  "rating",
+  "social",
   "amber",
   "rounded",
-  "color-change",
-  "ring",
-  "github",
-  "rating"
+  "color-change"
  ],
  "colors": [
   "#111827",

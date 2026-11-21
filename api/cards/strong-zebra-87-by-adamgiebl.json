@@ -5,7 +5,7 @@
  "author": "adamgiebl",
  "source": "https://uiverse.io/adamgiebl/strong-zebra-87",
  "trigger": "static",
- "description": "Rounded gray card with soft shadow and rounded corners.",
+ "description": "Rounded gray card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "rounded",

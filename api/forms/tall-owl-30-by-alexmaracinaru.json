@@ -8,10 +8,10 @@
  "description": "Blue login form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #7878bd to #5f5f9c. On focus, outline becomes 1px solid #aeaed6.",
  "tags": [
-  "blue",
-  "color-change",
   "login",
   "password",
+  "blue",
+  "color-change",
   "login-form",
   "form"
  ],

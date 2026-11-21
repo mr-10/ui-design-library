@@ -5,13 +5,13 @@
  "author": "Charly-T",
  "source": "https://uiverse.io/Charly-T/swift-bulldog-26",
  "trigger": "auto-loop",
- "description": "Amber loader with animating; fading motion in a loop.",
- "howItWorks": "It loops a animation (animating; fading).",
+ "description": "Amber loader with fading motion in a loop.",
+ "howItWorks": "It loops a animation (fading; moving).",
  "tags": [
+  "back",
   "amber",
   "flat",
   "fade",
-  "back",
   "loader",
   "auto-loop"
  ],

@@ -8,12 +8,12 @@
  "description": "Neon rounded fuchsia radio button that toggles on and off when clicked.",
  "howItWorks": "On hover, border-color becomes #cc39a4, border-color becomes #03a9f4, border-color becomes #8c9eff. Clicking it toggles it: border-color becomes #fff, box-shadow becomes 0 5px 10px #000000, text color changes from #707070 to #cc39a4. On focus, background-color changes from #fff to #cc39a4, border-color becomes #fff, box-shadow becomes 0 5px 10px #000000, 0 0 0 4px #b5c9fc.",
  "tags": [
+  "twitter",
+  "social",
   "fuchsia",
   "cyan",
   "neon",
-  "rounded",
-  "shrink",
-  "fade"
+  "rounded"
  ],
  "colors": [
   "#cc39a4",

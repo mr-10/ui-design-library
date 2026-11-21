@@ -5,15 +5,15 @@
  "author": "R0G3RF4",
  "source": "https://uiverse.io/R0G3RF4/hungry-termite-32",
  "trigger": "hover",
- "description": "Neon pill sky-blue button that glows on hover.",
+ "description": "Neon pill sky-blue social button that glows on hover.",
  "howItWorks": "On hover, text color changes from #0163E0 to #fff, border becomes 1px solid #0163E0, box-shadow becomes inset 0 0 0 10em #0163E0.",
  "tags": [
+  "facebook",
+  "social",
   "blue",
   "neon",
   "outlined",
-  "rounded",
-  "pill",
-  "color-change"
+  "rounded"
  ],
  "colors": [
   "#0163e0",

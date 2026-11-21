@@ -8,12 +8,12 @@
  "description": "Gradient dark rounded sky-blue login form that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0px 0px 0px 2px #ffffff, 0px 0px 0px 4px #0000003a. On focus, border becomes 1.5px solid #2d79f3, top becomes 5px, left becomes 5px.",
  "tags": [
+  "login",
+  "submit",
+  "password",
+  "email",
   "blue",
-  "gradient",
-  "dark",
-  "outlined",
-  "rounded",
-  "glow"
+  "gradient"
  ],
  "colors": [
   "#2d79f3",

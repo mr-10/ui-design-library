@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded green login form that glows on hover.",
  "howItWorks": "On hover, background changes from transparent to #03f40f, text color changes from #ffffff to #fff, border-radius becomes 5px. On focus, top becomes -20px, left becomes 0, text color changes from #ffffff to #bdb8b8.",
  "tags": [
+  "login",
+  "password",
+  "send",
   "green",
   "neon",
-  "gradient",
-  "outlined",
-  "rounded",
-  "glow"
+  "gradient"
  ],
  "colors": [
   "#03f40f",

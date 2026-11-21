@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/Yatsu68/ancient-ladybug-46",
  "trigger": "hover",
  "description": "Gradient rounded dark blue button that starts animating on hover.",
- "howItWorks": "On hover, background changes from #1b2164 to linear-gradient(-45deg, #1b2164, #6a33a8, #1b2164, #2ba6f5), transform becomes scale(1.01), starts the scaling-and-gradient animation (shimmering).",
+ "howItWorks": "On hover, background changes from #1b2164 to linear-gradient(-45deg, #1b2164, #6a33a8, #1b2164, #2ba6f5), transform becomes scale(1.01), starts the scaling-and-gradient animation (pulsing, shimmering).",
  "tags": [
   "blue",
   "amber",

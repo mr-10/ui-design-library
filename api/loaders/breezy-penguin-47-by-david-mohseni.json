@@ -5,15 +5,15 @@
  "author": "david-mohseni",
  "source": "https://uiverse.io/david-mohseni/breezy-penguin-47",
  "trigger": "auto-loop",
- "description": "White loader with fading motion in a loop.",
- "howItWorks": "It loops a 2s animation (fading, rotating).",
+ "description": "White loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (fading, rotating, sliding).",
  "tags": [
   "flat",
   "fade",
   "spin",
+  "slide",
   "loader",
-  "auto-loop",
-  "css"
+  "auto-loop"
  ],
  "colors": [
   "#ffffff",

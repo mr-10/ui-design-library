@@ -8,11 +8,11 @@
  "description": "Outlined pill white search input that changes colour on hover.",
  "howItWorks": "On hover, background changes from #f1f1f1 to #0c48db. On focus, width becomes 100%, outline becomes transparent, background changes from #f1f1f1 to #fff.",
  "tags": [
+  "search",
   "outlined",
   "rounded",
   "pill",
   "color-change",
-  "search",
   "search-input"
  ],
  "colors": [

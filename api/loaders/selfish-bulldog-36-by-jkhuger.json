@@ -5,8 +5,8 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/selfish-bulldog-36",
  "trigger": "auto-loop",
- "description": "Dark pill indigo loader with animating; sliding motion in a loop.",
- "howItWorks": "It loops a 4s animation (animating; sliding).",
+ "description": "Dark pill indigo loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 4s animation (moving; sliding).",
  "tags": [
   "indigo",
   "dark",

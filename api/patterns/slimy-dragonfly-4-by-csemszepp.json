@@ -5,7 +5,7 @@
  "author": "csemszepp",
  "source": "https://uiverse.io/csemszepp/slimy-dragonfly-4",
  "trigger": "static",
- "description": "Gradient gray pattern with gradient fill with a smooth transition.",
+ "description": "Gradient gray pattern with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the pattern is a fixed design.",
  "tags": [
   "gradient",

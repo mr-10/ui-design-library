@@ -5,8 +5,8 @@
  "author": "Pradeepsaranbishnoi",
  "source": "https://uiverse.io/Pradeepsaranbishnoi/fast-frog-4",
  "trigger": "auto-loop",
- "description": "Pill red loader with animating motion in a loop.",
- "howItWorks": "It loops a 1s animation (animating).",
+ "description": "Pill red loader with moving motion in a loop.",
+ "howItWorks": "It loops a 1s animation (moving).",
  "tags": [
   "red",
   "amber",

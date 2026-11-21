@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/csemszepp/terrible-frog-94",
  "trigger": "checked",
  "description": "Pill dark sky-blue toggle switch that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: starts the toggle animation (morphing), transform becomes translate3d(75%,-50%,0), background changes from #BBBBBB to #3CCC97.",
+ "howItWorks": "Clicking it toggles it: starts the toggle animation (morphing, sliding), transform becomes translate3d(75%,-50%,0), background changes from #BBBBBB to #3CCC97.",
  "tags": [
   "blue",
   "emerald",
   "rounded",
   "pill",
   "morph",
-  "toggle-switch"
+  "slide"
  ],
  "colors": [
   "#243548",

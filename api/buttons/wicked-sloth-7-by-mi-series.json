@@ -8,8 +8,8 @@
  "description": "Green submit button that responds while pressed down.",
  "howItWorks": "While pressed, transform becomes translateY(5px), outline becomes 0.",
  "tags": [
-  "green",
   "submit",
+  "green",
   "submit-button",
   "simple",
   "material-design",

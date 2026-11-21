@@ -8,12 +8,12 @@
  "description": "Outlined rounded blue button that rotates on hover.",
  "howItWorks": "On hover, opacity becomes 1, transform becomes translateY(0), border-top becomes transparent.",
  "tags": [
+  "menu",
   "blue",
   "outlined",
   "rounded",
   "flat",
-  "drop",
-  "fade"
+  "drop"
  ],
  "colors": [
   "#0a3cff",

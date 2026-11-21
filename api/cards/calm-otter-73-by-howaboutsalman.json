@@ -8,11 +8,11 @@
  "description": "Rounded amber card that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, border changes.",
  "tags": [
+  "submit",
+  "email",
   "amber",
   "rounded",
   "color-change",
-  "submit",
-  "email",
   "cards"
  ],
  "colors": [

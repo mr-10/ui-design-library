@@ -8,12 +8,12 @@
  "description": "Glass gradient rounded teal login form that glows on hover.",
  "howItWorks": "On hover, background changes from linear-gradient(144deg, #9c11ffce, #2000eeb6 50%, #15efffbb) to #8bbdff, bottom becomes 4px, background changes from linear-gradient(144deg, #9c11ffce, #2000eeb6 50%, #15efffbb) to linear-gradient(144deg, #9c11ff, #2000ee 50%, #15fff3). On focus, the outline is removed, background changes from linear-gradient(144deg, #9c11ffce, #2000eeb6 50%, #15efffbb) to #8bbdff, box-shadow becomes 0px 0px 1px 4px #9ee5e3.",
  "tags": [
+  "login",
   "teal",
   "blue",
   "glassmorphism",
   "gradient",
-  "rounded",
-  "color-change"
+  "rounded"
  ],
  "colors": [
   "#f3f3f3",

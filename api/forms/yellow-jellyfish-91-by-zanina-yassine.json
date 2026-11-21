@@ -8,11 +8,11 @@
  "description": "Gradient rounded white newsletter form that lights up when focused.",
  "howItWorks": "On focus, border becomes 1px solid transparent, box-shadow becomes 0px 0px 0px 1px #2B2B2F, background-color changes from linear-gradient(180deg, #4480FF 0%, #115DFC 50%, #0550ED 100%) to transparent.",
  "tags": [
+  "submit",
+  "newsletter",
   "gradient",
   "outlined",
   "rounded",
-  "submit",
-  "newsletter",
   "newsletter-form"
  ],
  "colors": [

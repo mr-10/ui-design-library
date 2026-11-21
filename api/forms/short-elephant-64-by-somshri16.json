@@ -8,12 +8,12 @@
  "description": "Outlined rounded white contact form that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #818181 to #ffffff, background changes from #ffffff to #cacaca, width becomes 1.5rem. On focus, top becomes 30px, font-size becomes 0.7em, font-weight becomes 600.",
  "tags": [
+  "submit",
+  "contact",
+  "email",
   "outlined",
   "rounded",
-  "flat",
-  "color-change",
-  "expand",
-  "submit"
+  "flat"
  ],
  "colors": [
   "#cacaca",

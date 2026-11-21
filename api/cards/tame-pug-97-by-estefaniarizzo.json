@@ -8,9 +8,9 @@
  "description": "Rounded white card that lifts on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translateY(-5px), transform becomes translateY(-3px).",
  "tags": [
+  "social",
   "rounded",
   "lift",
-  "social",
   "material-design",
   "green",
   "card"

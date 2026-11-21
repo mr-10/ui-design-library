@@ -5,15 +5,15 @@
  "author": "SelfMadeSystem",
  "source": "https://uiverse.io/SelfMadeSystem/neat-emu-37",
  "trigger": "hover",
- "description": "Rounded indigo tooltip that fades on hover with a smooth transition.",
+ "description": "Rounded indigo tooltip with arrow that fades on hover.",
  "howItWorks": "On hover, top becomes -4.5em, opacity becomes 1.",
  "tags": [
   "indigo",
   "blue",
   "rounded",
   "fade",
-  "tooltip",
-  "3d"
+  "tooltip-with-arrow",
+  "arrow"
  ],
  "colors": [
   "#34217d",

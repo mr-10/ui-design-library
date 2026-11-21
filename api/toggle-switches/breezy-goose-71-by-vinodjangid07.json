@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/vinodjangid07/breezy-goose-71",
  "trigger": "checked",
  "description": "Rounded dark teal toggle switch that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: starts the bookmark animation (animating).",
+ "howItWorks": "Clicking it toggles it: starts the bookmark animation (moving).",
  "tags": [
   "teal",
   "rounded",

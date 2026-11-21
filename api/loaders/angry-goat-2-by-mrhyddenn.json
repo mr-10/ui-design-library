@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/mrhyddenn/angry-goat-2",
  "trigger": "auto-loop",
  "description": "Neon pill sky-blue wave loader with rotating motion in a loop.",
- "howItWorks": "It loops a 5s animation (rotating).",
+ "howItWorks": "It loops a 5s animation (rotating, sliding).",
  "tags": [
   "blue",
   "neon",

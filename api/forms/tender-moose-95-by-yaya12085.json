@@ -5,11 +5,11 @@
  "author": "Yaya12085",
  "source": "https://uiverse.io/Yaya12085/tender-moose-95",
  "trigger": "static",
- "description": "Rounded gray form with soft shadow and rounded corners.",
+ "description": "Rounded gray form with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the form is a fixed design.",
  "tags": [
-  "rounded",
   "upload",
+  "rounded",
   "form",
   "image",
   "file-upload",

@@ -8,12 +8,12 @@
  "description": "Gradient rounded blue login form that lights up when focused.",
  "howItWorks": "On focus, the outline is removed, border becomes solid 1px #0034de, transform becomes translateY(-51%) translateX(-10px) scale(0.8).",
  "tags": [
-  "blue",
-  "gradient",
-  "outlined",
-  "rounded",
   "login",
-  "submit"
+  "submit",
+  "password",
+  "email",
+  "blue",
+  "gradient"
  ],
  "colors": [
   "#8d8d8d",

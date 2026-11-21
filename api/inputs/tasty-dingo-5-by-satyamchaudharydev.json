@@ -8,12 +8,12 @@
  "description": "Outlined pill cyan text input that reacts on hover.",
  "howItWorks": "On focus, the outline is removed, border becomes 1px solid #1b9bee, background changes from none to transparent.",
  "tags": [
+  "search",
+  "close",
   "cyan",
   "outlined",
   "rounded",
-  "pill",
-  "search",
-  "close"
+  "pill"
  ],
  "colors": [
   "#1b9bee",

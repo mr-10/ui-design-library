@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/isfandiyor132/witty-falcon-39",
  "trigger": "hover",
  "description": "Gradient dark gray button that starts animating on hover.",
- "howItWorks": "On hover, starts the rotate animation (animating).",
+ "howItWorks": "On hover, starts the rotate animation (moving).",
  "tags": [
   "gradient",
   "dark",

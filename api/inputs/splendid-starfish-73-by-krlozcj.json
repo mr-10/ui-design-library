@@ -5,12 +5,12 @@
  "author": "krlozCJ",
  "source": "https://uiverse.io/krlozCJ/splendid-starfish-73",
  "trigger": "focus",
- "description": "Dark rounded black search input that lights up when focused.",
+ "description": "Rounded black search input that lights up when focused.",
  "howItWorks": "On focus, width becomes 200px, box-shadow becomes 0px 0px 0px #0e0e0e, 0px 0px 0px rgb(95 94 94 / 25%), inset 1.5px 1.5px 3px #0e0e0e, inset -1.5px -1.5px 3px #5f5e5e.",
  "tags": [
+  "search",
   "dark",
   "rounded",
-  "search",
   "search-input",
   "input",
   "focus"

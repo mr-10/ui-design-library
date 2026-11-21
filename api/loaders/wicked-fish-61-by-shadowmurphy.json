@@ -5,8 +5,8 @@
  "author": "shadowmurphy",
  "source": "https://uiverse.io/shadowmurphy/wicked-fish-61",
  "trigger": "auto-loop",
- "description": "Gradient rounded black loader with animating motion in a loop.",
- "howItWorks": "It loops a 1.9s animation (animating).",
+ "description": "Gradient rounded black loader with moving motion in a loop.",
+ "howItWorks": "It loops a 1.9s animation (moving).",
  "tags": [
   "gradient",
   "rounded",

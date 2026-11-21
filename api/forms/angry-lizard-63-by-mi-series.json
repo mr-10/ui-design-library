@@ -8,12 +8,12 @@
  "description": "Rounded red form that toggles on and off when clicked.",
  "howItWorks": "On hover, opacity becomes .9. Clicking it toggles it: border-color becomes #FA2742.",
  "tags": [
-  "red",
-  "rounded",
-  "fade",
   "password",
   "send",
-  "email"
+  "email",
+  "red",
+  "rounded",
+  "fade"
  ],
  "colors": [
   "#fa2742",

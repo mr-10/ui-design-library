@@ -8,12 +8,12 @@
  "description": "Neon gradient pill dark blue text input that fades on hover.",
  "howItWorks": "On hover, opacity becomes 0.6, transform becomes translate(5px, -2px), scale becomes 0.8. On focus, opacity becomes 0.6, transform becomes translate(5px, -2px), scale becomes 0.8.",
  "tags": [
+  "search",
   "blue",
   "fuchsia",
   "neon",
   "gradient",
-  "outlined",
-  "rounded"
+  "outlined"
  ],
  "colors": [
   "#434343",

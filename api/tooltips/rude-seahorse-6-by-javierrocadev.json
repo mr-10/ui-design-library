@@ -5,7 +5,7 @@
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/rude-seahorse-6",
  "trigger": "hover",
- "description": "Gradient dark pill violet tooltip that scales up on hover.",
+ "description": "Gradient dark pill violet tooltip with arrow that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(2), top becomes -210%, left becomes 43%.",
  "tags": [
   "violet",

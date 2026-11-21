@@ -5,7 +5,7 @@
  "author": "pravusagar",
  "source": "https://uiverse.io/pravusagar/tidy-zebra-16",
  "trigger": "auto-loop",
- "description": "Gradient pill cyan loader with rotating; shimmering motion in a loop.",
+ "description": "Gradient pill cyan loader with rotating motion in a loop.",
  "howItWorks": "It loops a 10s animation (rotating; shimmering).",
  "tags": [
   "cyan",

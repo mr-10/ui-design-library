@@ -8,12 +8,12 @@
  "description": "Gradient rounded gray login form that changes colour on hover.",
  "howItWorks": "On hover, background changes from transparent to #fff, text color changes from #fff to #272727, border-radius becomes 5px. On focus, top becomes -20px, left becomes 0, text color changes from #fff to #fff.",
  "tags": [
-  "gradient",
-  "outlined",
-  "rounded",
-  "color-change",
   "login",
-  "submit"
+  "submit",
+  "password",
+  "email",
+  "gradient",
+  "outlined"
  ],
  "colors": [
   "#aaaaaa",

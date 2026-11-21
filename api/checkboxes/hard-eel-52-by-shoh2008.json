@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/Shoh2008/hard-eel-52",
  "trigger": "checked",
  "description": "3d pill black checkbox that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: opacity becomes 0, transform becomes scale(0.3) translate(-50%, -50%) rotate(45deg), starts the bounceInBeforeDont-44 animation (fading, pulsing, rotating).",
+ "howItWorks": "Clicking it toggles it: opacity becomes 0, transform becomes scale(0.3) translate(-50%, -50%) rotate(45deg), starts the bounceInBeforeDont-44 animation (fading, pulsing, rotating, sliding).",
  "tags": [
   "3d",
   "outlined",

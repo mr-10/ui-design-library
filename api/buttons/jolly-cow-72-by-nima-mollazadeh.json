@@ -8,12 +8,12 @@
  "description": "3d violet button that changes colour on hover.",
  "howItWorks": "On hover, background-color changes to #7c00fe, transform becomes rotateX(-90deg), text color changes to #000000.",
  "tags": [
+  "back",
   "violet",
   "yellow",
   "3d",
   "outlined",
-  "flat",
-  "color-change"
+  "flat"
  ],
  "colors": [
   "#7c00fe",

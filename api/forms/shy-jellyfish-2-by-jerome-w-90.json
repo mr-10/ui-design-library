@@ -8,12 +8,12 @@
  "description": "Outlined pill green form that scales up on hover.",
  "howItWorks": "On hover, background-color changes from #1cc972 to #e9e5ff, border becomes 1px solid #6a6b76, transform becomes scale(1.3). On focus, background-color changes from #1cc972 to #e9e5ff, border becomes 1px solid #6a6b76, transform becomes scale(1.3).",
  "tags": [
+  "upload",
+  "close",
   "green",
   "outlined",
   "rounded",
-  "pill",
-  "color-change",
-  "scale"
+  "pill"
  ],
  "colors": [
   "#1cc972",

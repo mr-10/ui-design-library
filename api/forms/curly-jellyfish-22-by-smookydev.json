@@ -8,12 +8,12 @@
  "description": "Rounded white login form that toggles on and off when clicked.",
  "howItWorks": "On hover, it shifts position and it scales. On focus, a ring appears and border changes and it scales. Clicking it switches it on or off and it holds that state.",
  "tags": [
+  "password",
+  "email",
   "rounded",
   "slide",
   "ring",
-  "color-change",
-  "scale",
-  "password"
+  "color-change"
  ],
  "colors": [
   "#ffffff",

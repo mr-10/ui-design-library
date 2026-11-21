@@ -5,7 +5,7 @@
  "author": "M4NT",
  "source": "https://uiverse.io/M4NT/tiny-mayfly-20",
  "trigger": "hover",
- "description": "Dark rounded dark green notification that lifts on hover.",
+ "description": "Outlined rounded dark green notification that lifts on hover.",
  "howItWorks": "On hover, transform becomes translateY(-8px), text color changes from #000 to #ff7700, text color changes from #000 to #ffbb00.",
  "tags": [
   "green",

@@ -8,12 +8,12 @@
  "description": "Outlined rounded cyan login form that changes colour on hover.",
  "howItWorks": "On hover, background changes from #0095f6 to #1877f2, background changes from #0095f6 to #0095f6, opacity becomes .7.",
  "tags": [
-  "cyan",
-  "outlined",
-  "rounded",
-  "flat",
-  "color-change",
-  "fade"
+  "password",
+  "facebook",
+  "email",
+  "phone",
+  "social",
+  "cyan"
  ],
  "colors": [
   "#dbdbdb",

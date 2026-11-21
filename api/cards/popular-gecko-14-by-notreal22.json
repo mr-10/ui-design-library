@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/NotReal22/popular-gecko-14",
  "trigger": "hover",
  "description": "Gradient pill green card that starts animating on hover.",
- "howItWorks": "On hover, starts the moving-weel animation (animating), starts the moving-weel-2 animation (animating), opacity becomes 1.",
+ "howItWorks": "On hover, starts the moving-weel animation (rotating), starts the moving-weel-2 animation (rotating), opacity becomes 1.",
  "tags": [
   "green",
   "gradient",

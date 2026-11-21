@@ -8,10 +8,10 @@
  "description": "Neon teal play button that slides on hover.",
  "howItWorks": "On hover, transform becomes translateX(80px), transform becomes translate(23px).",
  "tags": [
+  "play",
   "teal",
   "neon",
   "slide",
-  "play",
   "play-button",
   "icon"
  ],

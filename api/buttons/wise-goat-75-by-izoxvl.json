@@ -5,7 +5,7 @@
  "author": "iZOXVL",
  "source": "https://uiverse.io/iZOXVL/wise-goat-75",
  "trigger": "hover",
- "description": "Gradient dark rounded black button that scales up on hover.",
+ "description": "Gradient rounded black button that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(4), border-color becomes #666666, background changes from #1a1a1a to #292929.",
  "tags": [
   "gradient",

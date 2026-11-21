@@ -8,10 +8,10 @@
  "description": "Red subscribe button that changes colour on hover.",
  "howItWorks": "On hover, background-color changes to #dc143c.",
  "tags": [
+  "newsletter",
   "red",
   "flat",
   "color-change",
-  "newsletter",
   "subscribe-button",
   "button"
  ],

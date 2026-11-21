@@ -5,8 +5,8 @@
  "author": "Subaashbala",
  "source": "https://uiverse.io/Subaashbala/ugly-lizard-47",
  "trigger": "auto-loop",
- "description": "Glass pill orange loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 15s animation (animating; rotating).",
+ "description": "Glass pill orange loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 15s animation (rotating, sliding; sliding).",
  "tags": [
   "orange",
   "pink",

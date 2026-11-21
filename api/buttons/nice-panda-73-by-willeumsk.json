@@ -5,15 +5,15 @@
  "author": "willeumsk",
  "source": "https://uiverse.io/willeumsk/nice-panda-73",
  "trigger": "hover",
- "description": "Rounded dark sky-blue button that glows on hover.",
+ "description": "Rounded dark sky-blue social button that glows on hover.",
  "howItWorks": "On hover, text colour changes and shadow grows.",
  "tags": [
+  "twitter",
+  "social",
   "blue",
   "rounded",
   "color-change",
-  "glow",
-  "twitter",
-  "buttons"
+  "glow"
  ],
  "colors": [
   "#1e293b",

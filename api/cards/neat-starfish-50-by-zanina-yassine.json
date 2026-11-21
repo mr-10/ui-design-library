@@ -8,12 +8,12 @@
  "description": "Gradient pill sky-blue card that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.05).",
  "tags": [
+  "back",
   "blue",
   "amber",
   "gradient",
   "rounded",
-  "pill",
-  "scale"
+  "pill"
  ],
  "colors": [
   "#4c9beb",

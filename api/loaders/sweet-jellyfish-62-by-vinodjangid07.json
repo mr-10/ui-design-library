@@ -5,8 +5,8 @@
  "author": "vinodjangid07",
  "source": "https://uiverse.io/vinodjangid07/sweet-jellyfish-62",
  "trigger": "auto-loop",
- "description": "Black loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 0.5s animation (animating; rotating).",
+ "description": "Black loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 0.5s animation (moving; rotating).",
  "tags": [
   "flat",
   "spin",

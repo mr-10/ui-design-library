@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/MuhammadHasann/slimy-fish-99",
  "trigger": "hover",
  "description": "Gradient 3d rounded yellow button that starts animating on hover.",
- "howItWorks": "On hover, filter becomes blur(.05em), starts the lightBox animation (animating), starts the light animation (fading).",
+ "howItWorks": "On hover, filter becomes blur(.05em), starts the lightBox animation (moving), starts the light animation (fading).",
  "tags": [
   "yellow",
   "amber",

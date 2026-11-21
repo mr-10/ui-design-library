@@ -8,12 +8,12 @@
  "description": "Neon 3d rounded light red form that glows on hover.",
  "howItWorks": "On hover, text color changes from #ffb0b0 to #f10d0d, background-color changes from #f10d0d to #ffb0b0, box-shadow becomes 0 0 1em .25em #ffb0b0,\n        0 0 4em 2em #ff7b7b,\n        inset 0 0 .75em .25em #ffb0b0.",
  "tags": [
+  "send",
   "red",
   "neon",
   "3d",
   "dark",
-  "rounded",
-  "glow"
+  "rounded"
  ],
  "colors": [
   "#ffb0b0",

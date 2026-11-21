@@ -8,8 +8,8 @@
  "description": "Black login form that changes colour on hover.",
  "howItWorks": "On hover, border changes and text colour changes. On focus, border changes.",
  "tags": [
-  "color-change",
   "submit",
+  "color-change",
   "login-form",
   "forms",
   "css"

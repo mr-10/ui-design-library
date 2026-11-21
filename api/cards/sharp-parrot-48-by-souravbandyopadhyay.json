@@ -8,11 +8,11 @@
  "description": "Pill blue card that changes colour on hover.",
  "howItWorks": "On hover, background changes.",
  "tags": [
+  "contact",
   "blue",
   "rounded",
   "pill",
   "color-change",
-  "contact",
   "cards"
  ],
  "colors": [

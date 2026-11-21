@@ -8,12 +8,12 @@
  "description": "Gradient rounded dark sky-blue contact form that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, background changes and a ring appears and border changes.",
  "tags": [
+  "submit",
+  "contact",
   "blue",
   "gradient",
   "rounded",
-  "color-change",
-  "ring",
-  "submit"
+  "color-change"
  ],
  "colors": [
   "#e5e7eb",

@@ -5,7 +5,7 @@
  "author": "ahmed150up",
  "source": "https://uiverse.io/ahmed150up/fuzzy-bird-5",
  "trigger": "static",
- "description": "Dark rounded white card with soft shadow and rounded corners.",
+ "description": "Dark rounded white card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "dark",

@@ -5,8 +5,8 @@
  "author": "xopc333",
  "source": "https://uiverse.io/xopc333/wise-fish-34",
  "trigger": "auto-loop",
- "description": "Orange spinner loader with animating; fading; sliding motion in a loop.",
- "howItWorks": "It loops a 1.6s animation (animating; fading; sliding).",
+ "description": "Orange spinner loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 1.6s animation (fading; moving; sliding).",
  "tags": [
   "orange",
   "flat",

@@ -5,12 +5,12 @@
  "author": "mark-edison-jim",
  "source": "https://uiverse.io/mark-edison-jim/dangerous-penguin-53",
  "trigger": "static",
- "description": "Gradient rounded white button with soft shadow and rounded corners and gradient fill.",
+ "description": "Gradient rounded white button with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
+  "send",
   "gradient",
   "rounded",
-  "send",
   "simple",
   "icon",
   "button"

@@ -5,7 +5,7 @@
  "author": "doniaskima",
  "source": "https://uiverse.io/doniaskima/happy-turtle-32",
  "trigger": "hover",
- "description": "Gradient dark pill black button that fades on hover.",
+ "description": "Gradient pill black button that fades on hover.",
  "howItWorks": "On hover, transform becomes translateY(100%), opacity becomes 1, transform becomes translateY(0).",
  "tags": [
   "gradient",

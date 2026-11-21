@@ -8,12 +8,12 @@
  "description": "Dark rounded violet login form that slides on hover.",
  "howItWorks": "On hover, transform becomes translateX(600px). On focus, the outline is removed, border-bottom becomes 2px solid #c772ff.",
  "tags": [
+  "login",
+  "submit",
   "violet",
   "dark",
   "outlined",
-  "rounded",
-  "slide",
-  "login"
+  "rounded"
  ],
  "colors": [
   "#2e2e2e",

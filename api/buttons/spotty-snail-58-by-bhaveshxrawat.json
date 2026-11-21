@@ -5,7 +5,7 @@
  "author": "bhaveshxrawat",
  "source": "https://uiverse.io/bhaveshxrawat/spotty-snail-58",
  "trigger": "hover",
- "description": "Gradient dark rounded black button that glows on hover.",
+ "description": "Gradient rounded black button that glows on hover.",
  "howItWorks": "On hover, background changes from linear-gradient(225deg, #181818, #2e2e2e) to #212121, box-shadow becomes -5px 5px 10px #191919,\n             5px -5px 10px #292929, opacity becomes 0.7.",
  "tags": [
   "gradient",

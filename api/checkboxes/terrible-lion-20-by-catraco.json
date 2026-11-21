@@ -8,11 +8,11 @@
  "description": "White checkbox that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: starts the kfs-fill-like animation (pulsing).",
  "tags": [
+  "like",
   "flat",
   "fade",
   "pulse",
   "spin",
-  "like",
   "checkbox"
  ],
  "colors": [

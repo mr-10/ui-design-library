@@ -8,12 +8,12 @@
  "description": "Neon gradient pill yellow card that starts animating on hover.",
  "howItWorks": "On hover, text color changes from #ffffff to #ffd700, width becomes 100%, height becomes 100%.",
  "tags": [
+  "social",
   "yellow",
   "blue",
   "neon",
   "gradient",
-  "dark",
-  "rounded"
+  "dark"
  ],
  "colors": [
   "#ffd700",

@@ -5,8 +5,8 @@
  "author": "Admin12121",
  "source": "https://uiverse.io/Admin12121/white-husky-41",
  "trigger": "auto-loop",
- "description": "3d sky-blue spinner loader with animating; rotating; sliding motion in a loop.",
- "howItWorks": "It loops a 5s animation (animating; rotating; sliding).",
+ "description": "3d sky-blue spinner loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 5s animation (moving; rotating; rotating, sliding; sliding).",
  "tags": [
   "blue",
   "3d",

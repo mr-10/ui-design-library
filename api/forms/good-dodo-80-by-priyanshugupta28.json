@@ -8,11 +8,11 @@
  "description": "Outlined rounded white newsletter form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #ff6600 to #ff8533.",
  "tags": [
+  "newsletter",
+  "email",
   "outlined",
   "rounded",
   "color-change",
-  "newsletter",
-  "email",
   "newsletter-form"
  ],
  "colors": [

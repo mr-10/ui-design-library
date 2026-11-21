@@ -8,12 +8,12 @@
  "description": "Gradient pill indigo login form that scales up on hover.",
  "howItWorks": "On hover, it scales and background changes and text colour changes. On focus, text colour changes.",
  "tags": [
+  "submit",
+  "password",
+  "email",
   "indigo",
   "gradient",
-  "rounded",
-  "pill",
-  "scale",
-  "color-change"
+  "rounded"
  ],
  "colors": [
   "#8b5cf6",

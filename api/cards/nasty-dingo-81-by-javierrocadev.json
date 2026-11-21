@@ -5,7 +5,7 @@
  "author": "Javierrocadev",
  "source": "https://uiverse.io/Javierrocadev/nasty-dingo-81",
  "trigger": "hover",
- "description": "Dark dark blue card that rotates on hover.",
+ "description": "Dark blue card that rotates on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes rotate(35deg).",
  "tags": [
   "blue",

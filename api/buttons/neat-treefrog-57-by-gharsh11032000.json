@@ -8,12 +8,12 @@
  "description": "Neon gradient amber button that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0 0 30px #f89b29,\n  0 0 30px #ff0f7b, width becomes 100%, height becomes 100%.",
  "tags": [
+  "contact",
   "amber",
   "pink",
   "neon",
   "gradient",
-  "glow",
-  "expand"
+  "glow"
  ],
  "colors": [
   "#f89b29",

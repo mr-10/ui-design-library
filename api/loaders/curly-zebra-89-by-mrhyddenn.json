@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/mrhyddenn/curly-zebra-89",
  "trigger": "auto-loop",
  "description": "Gradient pill sky-blue loader with rotating motion in a loop.",
- "howItWorks": "It loops a animation (rotating).",
+ "howItWorks": "It loops a animation (rotating, sliding).",
  "tags": [
   "blue",
   "gradient",
   "rounded",
   "pill",
   "spin",
-  "loader"
+  "slide"
  ],
  "colors": [
   "#d1d1d1",

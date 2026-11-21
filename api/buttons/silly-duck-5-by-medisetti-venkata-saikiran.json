@@ -8,12 +8,12 @@
  "description": "Gradient orange button that lifts on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translateY(-50px).",
  "tags": [
+  "login",
+  "social",
   "orange",
   "pink",
   "gradient",
-  "flat",
-  "lift",
-  "login"
+  "flat"
  ],
  "colors": [
   "#ff7a00",

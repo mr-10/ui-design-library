@@ -8,9 +8,9 @@
  "description": "Green submit button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, box-shadow becomes 5px 6px 0px #000000.",
  "tags": [
+  "submit",
   "green",
   "glow",
-  "submit",
   "submit-button",
   "button",
   "hover"

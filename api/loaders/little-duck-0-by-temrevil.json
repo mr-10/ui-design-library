@@ -5,15 +5,15 @@
  "author": "TemRevil",
  "source": "https://uiverse.io/TemRevil/little-duck-0",
  "trigger": "auto-loop",
- "description": "Sky-blue loader with animating; fading; growing and shrinking; rotating motion in a loop.",
- "howItWorks": "It loops a 1.2s animation (animating; fading; growing and shrinking; rotating).",
+ "description": "Sky-blue loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1.2s animation (fading; growing and shrinking; pulsing; rotating).",
  "tags": [
   "blue",
   "flat",
   "fade",
   "spin",
-  "simple",
-  "animation"
+  "pulse",
+  "simple"
  ],
  "colors": [
   "#3395ff",

@@ -5,7 +5,7 @@
  "author": "dzoshi",
  "source": "https://uiverse.io/dzoshi/bad-warthog-50",
  "trigger": "hover",
- "description": "Gradient dark rounded black card that glows on hover.",
+ "description": "Gradient rounded black card that glows on hover.",
  "howItWorks": "On hover, text color changes from #67676b05 to #928b8b, background-color changes from linear-gradient(-45deg, #111111 0%, #080808 100%) to 482fb8, box-shadow becomes 0px 10px 40px 0px #000000,\n    0px 10px 20px 0px #1d098f, 0px 0px 180px 0px #2f04ca.",
  "tags": [
   "gradient",

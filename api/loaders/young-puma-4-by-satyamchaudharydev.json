@@ -5,7 +5,7 @@
  "author": "satyamchaudharydev",
  "source": "https://uiverse.io/satyamchaudharydev/young-puma-4",
  "trigger": "auto-loop",
- "description": "Pill emerald spinner loader with pulsing motion in a loop.",
+ "description": "Pill emerald spinner loader with rotating motion in a loop.",
  "howItWorks": "It loops a animation (pulsing, rotating).",
  "tags": [
   "emerald",

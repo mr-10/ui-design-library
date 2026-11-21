@@ -8,12 +8,12 @@
  "description": "Outlined rounded gray login form that reacts on hover.",
  "howItWorks": "On focus, border-color becomes #a78bfa.",
  "tags": [
-  "outlined",
-  "rounded",
-  "flat",
   "login",
   "signup",
-  "password"
+  "password",
+  "social",
+  "outlined",
+  "rounded"
  ],
  "colors": [
   "#9ca3af",

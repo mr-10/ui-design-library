@@ -5,15 +5,15 @@
  "author": "mobinkakei",
  "source": "https://uiverse.io/mobinkakei/dry-insect-94",
  "trigger": "auto-loop",
- "description": "3d gray loader with animating; pulsing motion in a loop.",
- "howItWorks": "It loops a 1s animation (animating; pulsing).",
+ "description": "3d gray loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 1s animation (moving; pulsing, sliding).",
  "tags": [
   "3d",
   "pulse",
+  "slide",
   "loading",
   "loader",
-  "space",
-  "auto-loop"
+  "space"
  ],
  "colors": [
   "#a19dad",

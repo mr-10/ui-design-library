@@ -8,12 +8,12 @@
  "description": "Gradient 3d dark pill gray card that scales up on hover.",
  "howItWorks": "On hover, transform becomes rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1.5).",
  "tags": [
-  "gradient",
-  "3d",
-  "dark",
-  "outlined",
-  "rounded",
-  "pill"
+  "search",
+  "menu",
+  "google",
+  "back",
+  "home",
+  "phone"
  ],
  "colors": [
   "#333333",

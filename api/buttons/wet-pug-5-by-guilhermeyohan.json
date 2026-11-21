@@ -8,10 +8,10 @@
  "description": "Amber download button that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #fbc02d to #ffe082.",
  "tags": [
+  "download",
   "amber",
   "flat",
   "color-change",
-  "download",
   "download-button",
   "button"
  ],

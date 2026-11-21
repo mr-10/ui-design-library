@@ -8,10 +8,10 @@
  "description": "Dark gray text input that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #2d2d2d to #313131. On focus, background-color changes from #2d2d2d to #1e1f20, border becomes 1px solid #2d2d2d, border-bottom becomes 2px solid #4cc2ff.",
  "tags": [
+  "search",
   "dark",
   "flat",
   "color-change",
-  "search",
   "text-input",
   "simple"
  ],

@@ -5,8 +5,8 @@
  "author": "Alaner-xs",
  "source": "https://uiverse.io/Alaner-xs/loud-lizard-23",
  "trigger": "auto-loop",
- "description": "Outlined pill white loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; rotating).",
+ "description": "Outlined pill white loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (moving; rotating).",
  "tags": [
   "outlined",
   "rounded",

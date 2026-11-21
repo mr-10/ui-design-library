@@ -8,9 +8,9 @@
  "description": "Outlined rounded gray text input that lights up when focused.",
  "howItWorks": "On focus, text color changes from #636363 to #c5c5c5, the outline is removed, border becomes 2px solid #ffffff.",
  "tags": [
+  "email",
   "outlined",
   "rounded",
-  "email",
   "text-input",
   "form",
   "input"

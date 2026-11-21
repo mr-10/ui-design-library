@@ -5,15 +5,15 @@
  "author": "Tsiangana",
  "source": "https://uiverse.io/Tsiangana/thin-cougar-23",
  "trigger": "hover",
- "description": "Gradient pill pink tooltip that slides on hover.",
+ "description": "Gradient pill pink tooltip with arrow that slides on hover.",
  "howItWorks": "On hover, left becomes 100%, opacity becomes 1, z-index becomes -10.",
  "tags": [
+  "back",
   "pink",
   "gradient",
   "rounded",
   "pill",
-  "fade",
-  "slide"
+  "fade"
  ],
  "colors": [
   "#ff3cac",

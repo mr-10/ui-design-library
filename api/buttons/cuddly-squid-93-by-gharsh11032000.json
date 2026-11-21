@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/gharsh11032000/cuddly-squid-93",
  "trigger": "hover",
  "description": "Dark rounded red button that starts animating on hover.",
- "howItWorks": "On hover, starts the shake animation (animating), translate becomes 0 0.",
+ "howItWorks": "On hover, starts the shake animation (rotating), translate becomes 0 0.",
  "tags": [
   "red",
   "dark",
   "rounded",
   "flat",
   "animated",
-  "button"
+  "spin"
  ],
  "colors": [
   "#e8e8e8",

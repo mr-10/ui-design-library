@@ -5,15 +5,15 @@
  "author": "mrhyddenn",
  "source": "https://uiverse.io/mrhyddenn/wet-cobra-49",
  "trigger": "auto-loop",
- "description": "Outlined rounded cyan button with fading motion in a loop.",
- "howItWorks": "It loops a 2s animation (fading).",
+ "description": "Outlined rounded cyan button with sliding motion in a loop.",
+ "howItWorks": "It loops a 2s animation (fading; fading, sliding).",
  "tags": [
   "cyan",
   "outlined",
   "rounded",
   "fade",
-  "button",
-  "auto-loop"
+  "slide",
+  "button"
  ],
  "colors": [
   "#2a5470",

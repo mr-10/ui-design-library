@@ -5,7 +5,7 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/fresh-panther-41",
  "trigger": "auto-loop",
- "description": "Dark rounded black bars loader with rotating motion in a loop.",
+ "description": "Outlined rounded black bars loader with rotating motion in a loop.",
  "howItWorks": "It loops a 3s animation (rotating).",
  "tags": [
   "dark",

@@ -8,12 +8,12 @@
  "description": "3d dark gray cube loader that changes colour on hover.",
  "howItWorks": "On hover, background changes from #333 to #555. On focus, border becomes 0.1em solid #999.",
  "tags": [
+  "back",
   "3d",
   "dark",
   "flat",
   "color-change",
-  "spin",
-  "back"
+  "spin"
  ],
  "colors": [
   "#333333",

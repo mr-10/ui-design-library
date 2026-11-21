@@ -5,15 +5,15 @@
  "author": "SHABANA7422",
  "source": "https://uiverse.io/SHABANA7422/honest-dodo-28",
  "trigger": "auto-loop",
- "description": "Pill black loader with pulsing motion in a loop.",
- "howItWorks": "It loops a animation (pulsing, rotating; rotating).",
+ "description": "Pill black loader with rotating motion in a loop.",
+ "howItWorks": "It loops a animation (pulsing, rotating, sliding; rotating).",
  "tags": [
   "rounded",
   "pill",
   "flat",
   "pulse",
   "spin",
-  "loader"
+  "slide"
  ],
  "colors": [
   "#000000",

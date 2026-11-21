@@ -8,11 +8,11 @@
  "description": "White pricing card that glows on hover with a smooth transition.",
  "howItWorks": "On hover, margin becomes 10px 10px 0 0, box-shadow becomes 0px 0px #333, filter becomes blur(1px).",
  "tags": [
-  "glow",
-  "fade",
   "pricing",
   "cart",
   "add",
+  "glow",
+  "fade",
   "pricing-card"
  ],
  "colors": [

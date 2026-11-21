@@ -5,8 +5,8 @@
  "author": "kerolos23",
  "source": "https://uiverse.io/kerolos23/smooth-wombat-54",
  "trigger": "auto-loop",
- "description": "3d pill green loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 1s animation (animating; rotating).",
+ "description": "3d pill green loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1s animation (moving; rotating, sliding).",
  "tags": [
   "green",
   "orange",

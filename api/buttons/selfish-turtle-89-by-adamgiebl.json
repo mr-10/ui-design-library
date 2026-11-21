@@ -8,12 +8,12 @@
  "description": "Rounded red button that lifts and glows on hover.",
  "howItWorks": "On hover, background-color changes from #ff7979 to #2f3640, text color changes from #fff to #ff7979, box-shadow becomes 2px 2px 20px #2f3640.",
  "tags": [
+  "play",
   "red",
   "rounded",
   "lift",
   "glow",
-  "color-change",
-  "play"
+  "color-change"
  ],
  "colors": [
   "#ff7979",

@@ -8,12 +8,12 @@
  "description": "Gradient rounded sky-blue send button that glows and scales up on hover.",
  "howItWorks": "On hover, background changes and opacity changes and it shifts position and it rotates and text colour changes.",
  "tags": [
+  "send",
   "blue",
   "gradient",
   "rounded",
   "color-change",
-  "scale",
-  "glow"
+  "scale"
  ],
  "colors": [
   "#3b82f6",

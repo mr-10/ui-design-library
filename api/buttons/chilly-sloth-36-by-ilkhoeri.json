@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/ilkhoeri/chilly-sloth-36",
  "trigger": "hover",
  "description": "Outlined gray button that starts animating on hover.",
- "howItWorks": "On hover, border-color becomes hsl(211deg 100% 48%), text color changes to hsl(211deg 100% 48%), starts the has-saved animation (pulsing, rotating).",
+ "howItWorks": "On hover, border-color becomes hsl(211deg 100% 48%), text color changes to hsl(211deg 100% 48%), starts the has-saved animation (pulsing, rotating, sliding).",
  "tags": [
   "outlined",
   "flat",

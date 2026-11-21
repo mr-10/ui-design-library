@@ -8,10 +8,10 @@
  "description": "Rounded blue button that reacts on hover with a smooth transition.",
  "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
+  "delete",
   "blue",
   "rounded",
   "flat",
-  "delete",
   "button",
   "hover"
  ],

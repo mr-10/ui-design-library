@@ -8,12 +8,12 @@
  "description": "Violet button that lifts on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translateY(-60px).",
  "tags": [
+  "cart",
+  "add",
   "violet",
   "pink",
   "flat",
-  "lift",
-  "cart",
-  "add"
+  "lift"
  ],
  "colors": [
   "#730fd1",

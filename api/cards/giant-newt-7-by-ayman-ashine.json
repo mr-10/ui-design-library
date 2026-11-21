@@ -8,12 +8,12 @@
  "description": "Gradient black card that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #212121 to #2c2c2c.",
  "tags": [
+  "social",
   "gradient",
   "color-change",
   "bounce",
   "fade",
-  "spin",
-  "pulse"
+  "spin"
  ],
  "colors": [
   "#111111",

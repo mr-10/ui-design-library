@@ -5,14 +5,14 @@
  "author": "kamehame-ha",
  "source": "https://uiverse.io/kamehame-ha/swift-penguin-73",
  "trigger": "static",
- "description": "Outlined sky-blue button with clean lines with a smooth transition.",
+ "description": "Outlined sky-blue button with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
+  "share",
   "blue",
   "amber",
   "outlined",
   "flat",
-  "share",
   "success"
  ],
  "colors": [

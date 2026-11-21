@@ -8,11 +8,11 @@
  "description": "Rounded blue card that glows on hover with a smooth transition.",
  "howItWorks": "On hover, box-shadow becomes none, background-color changes from #e4e4e4 to #3035cb, text color changes from #b82323 to #e4e4e4.",
  "tags": [
+  "chat",
   "blue",
   "rounded",
   "glow",
   "color-change",
-  "chat",
   "neumorphism"
  ],
  "colors": [

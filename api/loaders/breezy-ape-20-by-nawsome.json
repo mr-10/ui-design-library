@@ -5,15 +5,15 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/breezy-ape-20",
  "trigger": "static",
- "description": "3d pill gray dots loader with soft shadow and rounded corners.",
+ "description": "3d pill gray dots loader with soft shadow.",
  "howItWorks": "It has no hover, click, focus or animation states; the dots loader is a fixed design.",
  "tags": [
   "3d",
   "rounded",
   "pill",
+  "slide",
   "dots-loader",
-  "loader",
-  "css"
+  "loader"
  ],
  "colors": [
   "#2e3138",

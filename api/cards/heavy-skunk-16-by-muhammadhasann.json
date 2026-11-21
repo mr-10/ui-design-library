@@ -8,12 +8,12 @@
  "description": "Neon gradient pill purple pricing card that glows on hover.",
  "howItWorks": "On hover, box-shadow becomes 0px 0px 20px 0 #7a308f, width becomes 0, opacity becomes 0.",
  "tags": [
+  "pricing",
   "purple",
   "neon",
   "gradient",
   "rounded",
-  "pill",
-  "glow"
+  "pill"
  ],
  "colors": [
   "#7a308f",

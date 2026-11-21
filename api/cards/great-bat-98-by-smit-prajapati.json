@@ -5,15 +5,15 @@
  "author": "Smit-Prajapati",
  "source": "https://uiverse.io/Smit-Prajapati/great-bat-98",
  "trigger": "hover",
- "description": "Gradient dark rounded dark blue card that scales up on hover.",
+ "description": "Gradient rounded dark blue card that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.05).",
  "tags": [
+  "social",
   "blue",
   "teal",
   "gradient",
   "dark",
-  "rounded",
-  "scale"
+  "rounded"
  ],
  "colors": [
   "#1b233d",

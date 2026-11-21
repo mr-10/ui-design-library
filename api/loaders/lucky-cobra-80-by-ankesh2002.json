@@ -5,15 +5,15 @@
  "author": "Ankesh2002",
  "source": "https://uiverse.io/Ankesh2002/lucky-cobra-80",
  "trigger": "auto-loop",
- "description": "Green loader with animating; pulsing motion in a loop.",
- "howItWorks": "It loops a 1s animation (animating; pulsing, rotating).",
+ "description": "Green loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 1s animation (moving; pulsing, rotating, sliding).",
  "tags": [
   "green",
   "flat",
   "pulse",
   "spin",
-  "loader",
-  "auto-loop"
+  "slide",
+  "loader"
  ],
  "colors": [
   "#00bd26",

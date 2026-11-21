@@ -5,8 +5,8 @@
  "author": "akshat-patel28",
  "source": "https://uiverse.io/akshat-patel28/cold-impala-14",
  "trigger": "auto-loop",
- "description": "Gradient green loader with animating; growing and shrinking motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; growing and shrinking).",
+ "description": "Gradient green loader with growing and shrinking motion in a loop.",
+ "howItWorks": "It loops a 2s animation (growing and shrinking; moving).",
  "tags": [
   "green",
   "blue",

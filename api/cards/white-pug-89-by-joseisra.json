@@ -8,10 +8,10 @@
  "description": "3d cyan card that reacts on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes rotateY(0.5turn).",
  "tags": [
+  "back",
   "cyan",
   "3d",
   "flat",
-  "back",
   "card",
   "flip"
  ],

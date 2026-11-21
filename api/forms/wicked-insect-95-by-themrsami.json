@@ -8,12 +8,12 @@
  "description": "Rounded dark sky-blue contact form that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, a ring appears.",
  "tags": [
+  "contact",
+  "send",
+  "email",
   "blue",
   "rounded",
-  "ring",
-  "color-change",
-  "contact",
-  "send"
+  "ring"
  ],
  "colors": [
   "#1f2937",

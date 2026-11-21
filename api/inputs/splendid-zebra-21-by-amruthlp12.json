@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded indigo text input that lights up when focused.",
  "howItWorks": "It has no :focus rule in its CSS; focusing the text input shows only the browser default.",
  "tags": [
+  "search",
   "indigo",
   "neon",
   "gradient",
   "dark",
-  "outlined",
-  "rounded"
+  "outlined"
  ],
  "colors": [
   "#333333",

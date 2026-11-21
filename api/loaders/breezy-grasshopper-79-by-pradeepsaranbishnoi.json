@@ -5,15 +5,15 @@
  "author": "Pradeepsaranbishnoi",
  "source": "https://uiverse.io/Pradeepsaranbishnoi/breezy-grasshopper-79",
  "trigger": "auto-loop",
- "description": "3d dark sky-blue cube loader with fading motion in a loop.",
- "howItWorks": "It loops a 8s animation (fading).",
+ "description": "3d dark sky-blue cube loader with sliding motion in a loop.",
+ "howItWorks": "It loops a 8s animation (fading, sliding).",
  "tags": [
   "blue",
   "cyan",
   "3d",
   "flat",
   "fade",
-  "cube-loader"
+  "slide"
  ],
  "colors": [
   "#1e3f57",

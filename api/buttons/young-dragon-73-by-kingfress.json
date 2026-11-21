@@ -8,11 +8,11 @@
  "description": "Outlined rounded emerald button that lights up when focused.",
  "howItWorks": "On focus, starts the scaling animation (growing and shrinking), transform becomes translateY(-5em), transform becomes translateY(0) scale(1).",
  "tags": [
+  "submit",
   "emerald",
   "outlined",
   "rounded",
   "flat",
-  "submit",
   "button"
  ],
  "colors": [

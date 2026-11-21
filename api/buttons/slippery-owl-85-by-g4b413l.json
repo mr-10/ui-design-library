@@ -8,11 +8,11 @@
  "description": "Light green download button that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #4CC713 to #45a21a, text color changes from #ffffff to #ffffff, border-color becomes #cdefbd.",
  "tags": [
+  "download",
   "green",
   "flat",
   "color-change",
   "fade",
-  "download",
   "download-button"
  ],
  "colors": [

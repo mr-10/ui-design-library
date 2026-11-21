@@ -8,11 +8,11 @@
  "description": "Sky-blue pricing card that fades on hover with a smooth transition.",
  "howItWorks": "On hover, opacity becomes 1, transform becomes translateY(17px), font-weight becomes 700.",
  "tags": [
+  "pricing",
   "blue",
   "drop",
   "fade",
   "expand",
-  "pricing",
   "pricing-card"
  ],
  "colors": [

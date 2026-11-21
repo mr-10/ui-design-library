@@ -8,9 +8,9 @@
  "description": "White card with rotating motion in a loop.",
  "howItWorks": "It loops a 20s animation (rotating).",
  "tags": [
+  "social",
   "flat",
   "spin",
-  "social",
   "simple",
   "animation",
   "twitter"

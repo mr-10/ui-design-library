@@ -8,10 +8,10 @@
  "description": "Rounded gray form that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #000 to #46495E!important, background changes from #46496E to #46495E.",
  "tags": [
-  "rounded",
-  "color-change",
   "password",
   "settings",
+  "rounded",
+  "color-change",
   "material-design",
   "minimalist"
  ],

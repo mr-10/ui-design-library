@@ -5,7 +5,7 @@
  "author": "mobinkakei",
  "source": "https://uiverse.io/mobinkakei/ancient-goose-30",
  "trigger": "hover",
- "description": "Gradient dark rounded dark sky-blue button that reacts on hover.",
+ "description": "Gradient rounded dark sky-blue button that reacts on hover.",
  "howItWorks": "On hover, top becomes -100%, top becomes 50%.",
  "tags": [
   "blue",

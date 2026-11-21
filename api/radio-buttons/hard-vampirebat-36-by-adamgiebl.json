@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/adamgiebl/hard-vampirebat-36",
  "trigger": "checked",
  "description": "Gradient rounded white radio button that toggles on and off when clicked.",
- "howItWorks": "On hover, transform becomes translateY(-6px), transform becomes translateY(4px). Clicking it toggles it: opacity becomes 1, starts the fly-up animation (animating).",
+ "howItWorks": "On hover, transform becomes translateY(-6px), transform becomes translateY(4px). Clicking it toggles it: opacity becomes 1, starts the fly-up animation (sliding).",
  "tags": [
   "gradient",
   "outlined",
   "rounded",
   "lift",
   "drop",
-  "radio-button"
+  "slide"
  ],
  "colors": [
   "#ffffff",

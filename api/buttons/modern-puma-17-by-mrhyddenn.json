@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/mrhyddenn/modern-puma-17",
  "trigger": "hover",
  "description": "Dark pill gray button that starts animating on hover.",
- "howItWorks": "On hover, starts the sh0 animation (rotating), starts the storm animation, opacity becomes 0.15.",
+ "howItWorks": "On hover, starts the sh0 animation (rotating, sliding), starts the storm animation, opacity becomes 0.15.",
  "tags": [
   "dark",
   "rounded",

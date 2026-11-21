@@ -8,12 +8,12 @@
  "description": "Dark pill green login form that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #00FF7F to #00FF7F, text color changes from #868686 to #161616. On focus, border becomes 1px solid #00FF7F, the outline is removed.",
  "tags": [
+  "login",
+  "password",
+  "back",
   "green",
   "dark",
-  "outlined",
-  "rounded",
-  "pill",
-  "color-change"
+  "outlined"
  ],
  "colors": [
   "#00ff7f",

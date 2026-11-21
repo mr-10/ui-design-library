@@ -8,12 +8,12 @@
  "description": "Neon pill sky-blue search input that lights up when focused.",
  "howItWorks": "On focus, background changes from #000000 to powderblue, border-radius becomes 0.25em, box-shadow becomes none.",
  "tags": [
+  "search",
   "blue",
   "neon",
   "outlined",
   "rounded",
-  "pill",
-  "spin"
+  "pill"
  ],
  "colors": [
   "#255ff4",

@@ -8,12 +8,12 @@
  "description": "Gradient rounded dark sky-blue form that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, background changes and a ring appears.",
  "tags": [
+  "submit",
   "blue",
   "gradient",
   "rounded",
   "color-change",
-  "ring",
-  "submit"
+  "ring"
  ],
  "colors": [
   "#1f2937",

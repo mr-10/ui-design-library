@@ -8,12 +8,12 @@
  "description": "Gradient rounded white button that starts animating on hover.",
  "howItWorks": "On hover, background changes from linear-gradient(to bottom, #eceeec, #ffffff) to linear-gradient(to bottom, #ffffff, #eceeec), transform becomes scale(1.05), starts the fly-1 animation (bouncing).",
  "tags": [
+  "send",
   "gradient",
   "rounded",
   "scale",
   "color-change",
-  "animated",
-  "slide"
+  "animated"
  ],
  "colors": [
   "#eceeec",

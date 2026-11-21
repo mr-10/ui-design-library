@@ -5,7 +5,7 @@
  "author": "Nawsome",
  "source": "https://uiverse.io/Nawsome/ugly-skunk-66",
  "trigger": "auto-loop",
- "description": "Rounded dark sky-blue loader with growing and shrinking; morphing motion in a loop.",
+ "description": "Rounded dark sky-blue loader with morphing motion in a loop.",
  "howItWorks": "It loops a 3s animation (growing and shrinking; morphing).",
  "tags": [
   "blue",

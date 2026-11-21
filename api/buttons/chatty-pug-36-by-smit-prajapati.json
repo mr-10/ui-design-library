@@ -8,12 +8,12 @@
  "description": "Gradient pill dark cyan button that scales up on hover.",
  "howItWorks": "On hover, transform becomes scale(1.1), transform becomes translate(0%, -40%), opacity becomes 1.",
  "tags": [
+  "back",
   "cyan",
   "teal",
   "gradient",
   "outlined",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#64646f",

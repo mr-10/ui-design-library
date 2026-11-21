@@ -5,7 +5,7 @@
  "author": "sunnyshaikh",
  "source": "https://uiverse.io/sunnyshaikh/stale-bear-45",
  "trigger": "static",
- "description": "Gradient rounded light cyan button with soft shadow and rounded corners and gradient fill.",
+ "description": "Gradient rounded light cyan button with soft shadow.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
   "cyan",

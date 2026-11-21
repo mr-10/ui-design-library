@@ -8,12 +8,12 @@
  "description": "Gradient dark pill fuchsia text input that starts animating on hover.",
  "howItWorks": "On hover, background-color changes from #ffffff to #ffffff, height becomes 100%, width becomes 100%.",
  "tags": [
+  "search",
   "fuchsia",
   "blue",
   "gradient",
   "dark",
-  "rounded",
-  "pill"
+  "rounded"
  ],
  "colors": [
   "#b43598",

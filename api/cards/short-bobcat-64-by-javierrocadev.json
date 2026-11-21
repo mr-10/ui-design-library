@@ -8,12 +8,12 @@
  "description": "Gradient dark orange pricing card that changes colour on hover.",
  "howItWorks": "On hover, background changes.",
  "tags": [
+  "cart",
+  "add",
   "orange",
   "blue",
   "gradient",
-  "color-change",
-  "cart",
-  "add"
+  "color-change"
  ],
  "colors": [
   "#f9fafb",

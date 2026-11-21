@@ -5,8 +5,8 @@
  "author": "Hoseinnaqvi",
  "source": "https://uiverse.io/Hoseinnaqvi/terrible-hound-31",
  "trigger": "auto-loop",
- "description": "Gradient dark green card with animating; fading motion in a loop.",
- "howItWorks": "It loops a 1s animation (animating; fading).",
+ "description": "Gradient dark green card with fading motion in a loop.",
+ "howItWorks": "It loops a 1s animation (fading; moving).",
  "tags": [
   "green",
   "gradient",

@@ -5,8 +5,8 @@
  "author": "Z4drus",
  "source": "https://uiverse.io/Z4drus/average-lizard-53",
  "trigger": "auto-loop",
- "description": "Gradient 3d rounded dark sky-blue loader with fading; fading motion in a loop.",
- "howItWorks": "It loops a 4s animation (fading; fading, pulsing; rotating).",
+ "description": "Gradient 3d rounded dark sky-blue loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 4s animation (fading; fading, pulsing, sliding; rotating, sliding).",
  "tags": [
   "blue",
   "gradient",

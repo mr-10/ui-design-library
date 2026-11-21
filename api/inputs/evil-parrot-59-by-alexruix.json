@@ -8,11 +8,11 @@
  "description": "Outlined blue email input that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #5e4dcd to #5e5dcd. On focus, border-color becomes #3898EC, the outline is removed.",
  "tags": [
+  "submit",
   "blue",
   "outlined",
   "flat",
   "color-change",
-  "submit",
   "email-input"
  ],
  "colors": [

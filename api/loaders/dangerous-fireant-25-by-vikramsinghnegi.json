@@ -5,8 +5,8 @@
  "author": "vikramsinghnegi",
  "source": "https://uiverse.io/vikramsinghnegi/dangerous-fireant-25",
  "trigger": "auto-loop",
- "description": "Gradient dark red loader with animating; bouncing; shimmering motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; bouncing; shimmering).",
+ "description": "Gradient dark red loader with bouncing motion in a loop.",
+ "howItWorks": "It loops a 2s animation (bouncing; moving; shimmering).",
  "tags": [
   "red",
   "amber",

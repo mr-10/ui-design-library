@@ -8,12 +8,12 @@
  "description": "Rounded blue login form that changes colour on hover.",
  "howItWorks": "On hover, text colour changes and background changes. On focus, a ring appears and border changes.",
  "tags": [
+  "password",
+  "back",
+  "email",
   "blue",
   "rounded",
-  "ring",
-  "color-change",
-  "password",
-  "back"
+  "ring"
  ],
  "colors": [
   "#374151",

@@ -5,7 +5,7 @@
  "author": "adamgiebl",
  "source": "https://uiverse.io/adamgiebl/serious-penguin-95",
  "trigger": "static",
- "description": "Rounded dark blue card with soft shadow and rounded corners.",
+ "description": "Rounded dark blue card with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "blue",

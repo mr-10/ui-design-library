@@ -5,8 +5,8 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/selfish-crab-11",
  "trigger": "auto-loop",
- "description": "Pill orange loader with animating; rotating motion in a loop.",
- "howItWorks": "It loops a 2s animation (animating; rotating).",
+ "description": "Pill orange loader with rotating motion in a loop.",
+ "howItWorks": "It loops a 2s animation (moving; rotating).",
  "tags": [
   "orange",
   "rounded",

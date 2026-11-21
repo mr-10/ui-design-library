@@ -14,13 +14,13 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "rating",
     "red",
     "gradient",
     "rounded",
     "glow",
     "color-change",
     "pulse",
-    "rating",
     "notification",
     "hover",
     "css"
@@ -150,7 +150,7 @@
    "author": "alexruix",
    "link": "https://uiverse.io/alexruix/gentle-octopus-87",
    "path": "uiverse/notifications/gentle-octopus-87-by-alexruix/",
-   "description": "Dark pill amber notification with soft shadow and rounded corners.",
+   "description": "Dark pill amber notification with soft shadow and a smooth transition.",
    "howItWorks": "It has no hover, click, focus or animation states; the notification is a fixed design.",
    "trigger": "static",
    "needsJs": false,
@@ -190,12 +190,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "next",
     "emerald",
     "rounded",
     "flat",
     "color-change",
     "bounce",
-    "next",
     "notification",
     "hover",
     "css"
@@ -224,6 +224,7 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "next",
     "blue",
     "3d",
     "rounded",
@@ -232,8 +233,7 @@
     "color-change",
     "bounce",
     "fade",
-    "spin",
-    "next"
+    "spin"
    ],
    "colors": [
     "#1e2b3c",
@@ -254,18 +254,18 @@
    "author": "andrew-demchenk0",
    "link": "https://uiverse.io/andrew-demchenk0/quiet-liger-31",
    "path": "uiverse/notifications/quiet-liger-31-by-andrew-demchenk0/",
-   "description": "Dark pink notification with bouncing motion in a loop.",
-   "howItWorks": "It loops a 5s animation (bouncing, pulsing; bouncing, rotating; bouncing, rotating, sliding; pulsing).",
+   "description": "Dark pink notification with rotating motion in a loop.",
+   "howItWorks": "It loops a 5s animation (bouncing, pulsing, sliding; bouncing, rotating; bouncing, rotating, sliding; pulsing).",
    "trigger": "auto-loop",
    "needsJs": false,
    "tags": [
+    "rating",
     "pink",
     "flat",
     "bounce",
     "spin",
     "slide",
     "pulse",
-    "rating",
     "notification",
     "auto-loop",
     "css"
@@ -292,7 +292,7 @@
    "author": "John-CFO",
    "link": "https://uiverse.io/John-CFO/quiet-puma-22",
    "path": "uiverse/notifications/quiet-puma-22-by-john-cfo/",
-   "description": "Gradient 3d rounded amber notification with fading motion in a loop.",
+   "description": "Gradient 3d rounded amber notification with rotating motion in a loop.",
    "howItWorks": "It loops a 5s animation (fading, pulsing; rotating).",
    "trigger": "auto-loop",
    "needsJs": false,
@@ -367,12 +367,12 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "next",
     "amber",
     "rounded",
     "flat",
     "color-change",
     "pulse",
-    "next",
     "notification",
     "hover",
     "css"
@@ -401,11 +401,11 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "next",
     "indigo",
     "rounded",
     "rotate",
     "pulse",
-    "next",
     "notification",
     "hover",
     "css"
@@ -434,16 +434,16 @@
    "trigger": "hover",
    "needsJs": false,
    "tags": [
+    "menu",
+    "next",
+    "rating",
     "indigo",
     "blue",
     "gradient",
     "outlined",
     "rounded",
     "flat",
-    "expand",
-    "color-change",
-    "shimmer",
-    "spin"
+    "expand"
    ],
    "colors": [
     "#6720d9",
@@ -540,7 +540,7 @@
    "author": "ahmed150up",
    "link": "https://uiverse.io/ahmed150up/terrible-shrimp-45",
    "path": "uiverse/notifications/terrible-shrimp-45-by-ahmed150up/",
-   "description": "Neon rounded yellow notification with pulsing; rotating motion in a loop.",
+   "description": "Neon rounded yellow notification with rotating motion in a loop.",
    "howItWorks": "It loops a 3s animation (pulsing; rotating).",
    "trigger": "auto-loop",
    "needsJs": false,
@@ -573,7 +573,7 @@
    "author": "M4NT",
    "link": "https://uiverse.io/M4NT/tiny-mayfly-20",
    "path": "uiverse/notifications/tiny-mayfly-20-by-m4nt/",
-   "description": "Dark rounded dark green notification that lifts on hover.",
+   "description": "Outlined rounded dark green notification that lifts on hover.",
    "howItWorks": "On hover, transform becomes translateY(-8px), text color changes from #000 to #ff7700, text color changes from #000 to #ffbb00.",
    "trigger": "hover",
    "needsJs": false,
@@ -612,8 +612,8 @@
    "author": "Praashoo7",
    "link": "https://uiverse.io/Praashoo7/ugly-walrus-48",
    "path": "uiverse/notifications/ugly-walrus-48-by-praashoo7/",
-   "description": "Lime notification with animating; fading motion in a loop.",
-   "howItWorks": "It loops a 2s animation (animating; fading).",
+   "description": "Lime notification with fading motion in a loop.",
+   "howItWorks": "It loops a 2s animation (fading; moving).",
    "trigger": "auto-loop",
    "needsJs": false,
    "tags": [
@@ -787,8 +787,8 @@
    "author": "Sameer2244",
    "link": "https://uiverse.io/Sameer2244/white-eagle-79",
    "path": "uiverse/notifications/white-eagle-79-by-sameer2244/",
-   "description": "3d pill yellow notification with animating; pulsing motion in a loop.",
-   "howItWorks": "It loops a 2s animation (animating; pulsing, rotating; rotating).",
+   "description": "3d pill yellow notification with rotating motion in a loop.",
+   "howItWorks": "It loops a 2s animation (moving; pulsing, rotating, sliding; rotating, sliding).",
    "trigger": "auto-loop",
    "needsJs": false,
    "tags": [
@@ -798,10 +798,10 @@
     "rounded",
     "pill",
     "spin",
+    "slide",
     "pulse",
     "notification",
-    "auto-loop",
-    "css"
+    "auto-loop"
    ],
    "colors": [
     "#fcff36",

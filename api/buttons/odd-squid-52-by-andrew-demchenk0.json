@@ -8,12 +8,12 @@
  "description": "Rounded indigo button that starts animating on hover.",
  "howItWorks": "On hover, background changes from #5e41de33 to #5e41de4d, starts the spin animation (rotating).",
  "tags": [
+  "settings",
   "indigo",
   "rounded",
   "flat",
   "color-change",
-  "animated",
-  "spin"
+  "animated"
  ],
  "colors": [
   "#5e41de",

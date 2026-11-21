@@ -8,10 +8,10 @@
  "description": "Blue download button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, background-color changes from #bedbfd to #a4cefd, box-shadow becomes #000000 0px 4px 6px -1px, #000000 0px 2px 4px -1px.",
  "tags": [
+  "download",
   "blue",
   "glow",
   "color-change",
-  "download",
   "download-button",
   "button"
  ],

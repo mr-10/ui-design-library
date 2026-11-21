@@ -5,15 +5,15 @@
  "author": "akshat-patel28",
  "source": "https://uiverse.io/akshat-patel28/empty-pug-43",
  "trigger": "checked",
- "description": "Dark rounded dark sky-blue login form that toggles on and off when clicked.",
+ "description": "Outlined rounded dark sky-blue login form that toggles on and off when clicked.",
  "howItWorks": "Clicking it toggles it: left becomes -100%, left becomes 15px. On focus, top becomes 5px, transform becomes none, font-size becomes 12px.",
  "tags": [
-  "blue",
-  "dark",
-  "outlined",
-  "rounded",
   "login",
-  "password"
+  "password",
+  "back",
+  "email",
+  "blue",
+  "dark"
  ],
  "colors": [
   "#0e2954",

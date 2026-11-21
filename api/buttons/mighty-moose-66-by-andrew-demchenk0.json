@@ -8,12 +8,12 @@
  "description": "Green button that slides on hover with a smooth transition.",
  "howItWorks": "On hover, background changes from #34974d to #34974d, text color changes from #fff to transparent, width becomes 148px.",
  "tags": [
+  "add",
   "green",
   "flat",
   "color-change",
   "slide",
-  "expand",
-  "add"
+  "expand"
  ],
  "colors": [
   "#34974d",

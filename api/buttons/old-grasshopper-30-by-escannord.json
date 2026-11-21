@@ -5,7 +5,7 @@
  "author": "escannord",
  "source": "https://uiverse.io/escannord/old-grasshopper-30",
  "trigger": "static",
- "description": "Gradient rounded purple button with rounded corners and gradient fill.",
+ "description": "Gradient rounded purple button with clean lines and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
   "purple",

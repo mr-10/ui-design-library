@@ -8,12 +8,12 @@
  "description": "Neon pill pink form that starts animating on hover.",
  "howItWorks": "On hover, starts the ripple animation (fading, pulsing), background-color changes from #0a84ff to #f1f1f1, background-color changes from #0a84ff to #026eda.",
  "tags": [
+  "send",
+  "comment",
   "pink",
   "neon",
   "outlined",
-  "rounded",
-  "pill",
-  "animated"
+  "rounded"
  ],
  "colors": [
   "#f1f1f1",

@@ -8,12 +8,12 @@
  "description": "Neon gradient rounded dark blue login form that reacts on hover.",
  "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
  "tags": [
+  "login",
+  "signup",
+  "password",
   "blue",
   "neon",
-  "gradient",
-  "outlined",
-  "rounded",
-  "login"
+  "gradient"
  ],
  "colors": [
   "#020024",

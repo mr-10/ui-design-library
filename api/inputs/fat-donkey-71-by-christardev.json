@@ -8,11 +8,11 @@
  "description": "Rounded cyan password input that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #d4cbcb to #6ad5f0, the outline is removed, border becomes 4px solid #000000.",
  "tags": [
+  "password",
   "cyan",
   "rounded",
   "flat",
   "color-change",
-  "password",
   "password-input"
  ],
  "colors": [

@@ -8,12 +8,12 @@
  "description": "Gradient rounded violet login form that changes colour on hover.",
  "howItWorks": "On hover, background changes. On focus, border changes.",
  "tags": [
+  "password",
+  "email",
   "violet",
   "gradient",
   "rounded",
-  "color-change",
-  "password",
-  "email"
+  "color-change"
  ],
  "colors": [
   "#d1d5db",

@@ -8,11 +8,11 @@
  "description": "Rounded white form that fades on hover with a smooth transition.",
  "howItWorks": "On hover, the outline is removed, border becomes 1px solid #000, opacity becomes .9.",
  "tags": [
-  "rounded",
-  "fade",
   "send",
   "add",
   "email",
+  "rounded",
+  "fade",
   "simple"
  ],
  "colors": [

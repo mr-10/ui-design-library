@@ -8,10 +8,10 @@
  "description": "Outlined rounded sky-blue button that reacts on hover.",
  "howItWorks": "On hover, left becomes 0%.",
  "tags": [
+  "save",
   "blue",
   "outlined",
   "rounded",
-  "save",
   "button",
   "hover"
  ],

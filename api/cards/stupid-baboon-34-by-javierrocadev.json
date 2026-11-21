@@ -8,12 +8,12 @@
  "description": "Gradient rounded yellow card that scales up on hover.",
  "howItWorks": "On hover, background changes from radial-gradient(circle, #fbef3f 0%, #fffdd4 100%) to linear-gradient(135deg, #303030 10%, #000000 90%), background changes from radial-gradient(circle, #fbef3f 0%, #fffdd4 100%) to linear-gradient(90deg, #fff100 0%, #f6f95d 77%, #eeff00 100%), transform becomes scale(1.2) rotate(10deg).",
  "tags": [
+  "rating",
   "yellow",
   "gradient",
   "rounded",
   "color-change",
-  "scale",
-  "rotate"
+  "scale"
  ],
  "colors": [
   "#303030",

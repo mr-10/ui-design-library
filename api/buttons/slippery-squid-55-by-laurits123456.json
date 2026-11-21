@@ -5,7 +5,7 @@
  "author": "Laurits123456",
  "source": "https://uiverse.io/Laurits123456/slippery-squid-55",
  "trigger": "checked",
- "description": "Dark rounded black button that toggles on and off when clicked.",
+ "description": "Rounded black button that toggles on and off when clicked.",
  "howItWorks": "On hover, border becomes 1px solid #000000. Clicking it toggles it: transform becomes translateY(290%)rotate(45deg), width becomes 40px, transform becomes translateY(-270%) rotate(-45deg).",
  "tags": [
   "dark",

@@ -8,9 +8,9 @@
  "description": "Rounded gray number input that lights up when focused.",
  "howItWorks": "On focus, border changes.",
  "tags": [
+  "phone",
   "rounded",
   "color-change",
-  "phone",
   "number-input",
   "inputs",
   "focus"

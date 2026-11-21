@@ -5,7 +5,7 @@
  "author": "Bodyhc",
  "source": "https://uiverse.io/Bodyhc/rare-ladybug-6",
  "trigger": "static",
- "description": "Gradient light blue button with soft shadow and gradient fill.",
+ "description": "Gradient light blue button with soft shadow and a smooth transition.",
  "howItWorks": "It has no hover, click, focus or animation states; the button is a fixed design.",
  "tags": [
   "blue",

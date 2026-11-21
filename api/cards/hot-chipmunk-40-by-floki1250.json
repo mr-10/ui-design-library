@@ -8,12 +8,12 @@
  "description": "Gradient rounded blue card that changes colour on hover.",
  "howItWorks": "On hover, text color changes from #ffffff to #bf3dd2, scale becomes 1.25.",
  "tags": [
+  "social",
   "blue",
   "cyan",
   "gradient",
   "rounded",
-  "flat",
-  "color-change"
+  "flat"
  ],
  "colors": [
   "#0000ff",

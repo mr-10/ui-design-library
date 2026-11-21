@@ -5,7 +5,7 @@
  "author": "JkHuger",
  "source": "https://uiverse.io/JkHuger/spotty-swan-68",
  "trigger": "static",
- "description": "Gradient 3d pill gray card with soft shadow and rounded corners and gradient fill.",
+ "description": "Gradient 3d pill gray card with soft shadow.",
  "howItWorks": "It has no hover, click, focus or animation states; the card is a fixed design.",
  "tags": [
   "gradient",
@@ -13,7 +13,7 @@
   "rounded",
   "pill",
   "spin",
-  "card"
+  "slide"
  ],
  "colors": [
   "#cccccc",

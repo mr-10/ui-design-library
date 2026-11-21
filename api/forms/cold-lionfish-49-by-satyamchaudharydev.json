@@ -8,11 +8,11 @@
  "description": "Dark rounded white newsletter form that fades on hover.",
  "howItWorks": "On hover, opacity becomes 0.8.",
  "tags": [
+  "signup",
+  "newsletter",
   "dark",
   "rounded",
   "fade",
-  "signup",
-  "newsletter",
   "newsletter-form"
  ],
  "colors": [

@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/XuYeean/angry-donkey-87",
  "trigger": "checked",
  "description": "Neon 3d teal radio button that toggles on and off when clicked.",
- "howItWorks": "On hover, starts the light animation (animating). Clicking it toggles it: starts the light animation (animating), starts the Scale animation, box-shadow becomes 0 0 40px #48e9ff, inset 0 0 4px #48e9ff.",
+ "howItWorks": "On hover, starts the light animation (moving). Clicking it toggles it: starts the light animation (moving), starts the Scale animation, box-shadow becomes 0 0 40px #48e9ff, inset 0 0 4px #48e9ff.",
  "tags": [
   "teal",
   "neon",

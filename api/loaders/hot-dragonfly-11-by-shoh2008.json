@@ -5,15 +5,15 @@
  "author": "Shoh2008",
  "source": "https://uiverse.io/Shoh2008/hot-dragonfly-11",
  "trigger": "auto-loop",
- "description": "Pill white loader with animating; bouncing motion in a loop.",
- "howItWorks": "It loops a 3s animation (animating; bouncing).",
+ "description": "Pill white loader with bouncing motion in a loop.",
+ "howItWorks": "It loops a 3s animation (bouncing; sliding).",
  "tags": [
   "rounded",
   "pill",
   "flat",
   "bounce",
-  "loader",
-  "auto-loop"
+  "slide",
+  "loader"
  ],
  "colors": [
   "#131a1d",

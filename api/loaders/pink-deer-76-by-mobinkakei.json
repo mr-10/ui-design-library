@@ -5,14 +5,14 @@
  "author": "mobinkakei",
  "source": "https://uiverse.io/mobinkakei/pink-deer-76",
  "trigger": "auto-loop",
- "description": "Rounded indigo spinner loader with animating motion in a loop.",
- "howItWorks": "It loops a 1.8s animation (animating).",
+ "description": "Rounded indigo spinner loader with moving motion in a loop.",
+ "howItWorks": "It loops a 1.8s animation (moving).",
  "tags": [
+  "back",
   "indigo",
   "blue",
   "rounded",
   "flat",
-  "back",
   "spinner-loader"
  ],
  "colors": [

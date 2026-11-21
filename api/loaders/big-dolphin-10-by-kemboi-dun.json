@@ -5,8 +5,8 @@
  "author": "Kemboi-Dun",
  "source": "https://uiverse.io/Kemboi-Dun/big-dolphin-10",
  "trigger": "auto-loop",
- "description": "Neon rounded cyan loader with animating motion in a loop.",
- "howItWorks": "It loops a 4s animation (animating).",
+ "description": "Neon rounded cyan loader with moving motion in a loop.",
+ "howItWorks": "It loops a 4s animation (moving).",
  "tags": [
   "cyan",
   "neon",

@@ -8,12 +8,12 @@
  "description": "Rounded green upload button that changes colour on hover.",
  "howItWorks": "On hover, background-color changes from #4CC713 to #1a60a2, text color changes from #ffffff to #ffffff, border-color becomes #bdd3ef.",
  "tags": [
+  "upload",
   "green",
   "blue",
   "rounded",
   "flat",
-  "color-change",
-  "fade"
+  "color-change"
  ],
  "colors": [
   "#4cc713",

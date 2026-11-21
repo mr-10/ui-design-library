@@ -5,8 +5,8 @@
  "author": "Z4drus",
  "source": "https://uiverse.io/Z4drus/cowardly-deer-31",
  "trigger": "auto-loop",
- "description": "Cyan loader with animating motion in a loop.",
- "howItWorks": "It loops a animation (animating).",
+ "description": "Cyan loader with moving motion in a loop.",
+ "howItWorks": "It loops a animation (moving).",
  "tags": [
   "cyan",
   "flat",

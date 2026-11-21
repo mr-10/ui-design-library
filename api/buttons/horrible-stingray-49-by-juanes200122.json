@@ -8,12 +8,12 @@
  "description": "Sky-blue button that changes colour on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes scaleX(0), transform becomes scale(1), text color changes from #404040 to #3b5998.",
  "tags": [
+  "facebook",
+  "social",
   "blue",
   "flat",
   "shrink",
-  "color-change",
-  "facebook",
-  "icon"
+  "color-change"
  ],
  "colors": [
   "#404040",

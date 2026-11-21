@@ -6,7 +6,7 @@
  "source": "https://uiverse.io/niat786/perfect-warthog-57",
  "trigger": "hover",
  "description": "Gradient rounded white button that starts animating on hover.",
- "howItWorks": "On hover, starts the pulse animation, starts the pulse512 animation (animating).",
+ "howItWorks": "On hover, starts the pulse animation, starts the pulse512 animation (moving).",
  "tags": [
   "gradient",
   "outlined",

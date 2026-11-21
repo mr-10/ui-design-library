@@ -6,14 +6,14 @@
  "source": "https://uiverse.io/barisdogansutcu/tender-dingo-64",
  "trigger": "checked",
  "description": "White toggle switch that toggles on and off when clicked.",
- "howItWorks": "Clicking it toggles it: transform becomes translate(0px, 0px), starts the check-animation animation (animating), background-color changes from hsl(0deg 0% 100%) to hsl(0deg 0% 100%).",
+ "howItWorks": "Clicking it toggles it: transform becomes translate(0px, 0px), starts the check-animation animation (sliding), background-color changes from hsl(0deg 0% 100%) to hsl(0deg 0% 100%).",
  "tags": [
   "like",
+  "slide",
   "toggle-switch",
   "complex",
   "switch",
-  "heart",
-  "toggle-switches"
+  "heart"
  ],
  "colors": [
   "#ffffff",

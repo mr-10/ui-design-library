@@ -5,15 +5,15 @@
  "author": "nima-mollazadeh",
  "source": "https://uiverse.io/nima-mollazadeh/cold-monkey-21",
  "trigger": "hover",
- "description": "Dark pill black button that fades on hover.",
+ "description": "Pill black button that fades on hover with a smooth transition.",
  "howItWorks": "On hover, transform becomes translateY(100%), opacity becomes 1, transform becomes translateY(0).",
  "tags": [
+  "signup",
   "dark",
   "rounded",
   "pill",
   "flat",
-  "drop",
-  "fade"
+  "drop"
  ],
  "colors": [
   "#ffffff",

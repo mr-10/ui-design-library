@@ -8,12 +8,12 @@
  "description": "Pill indigo button that glows on hover with a smooth transition.",
  "howItWorks": "On hover, shadow grows.",
  "tags": [
+  "social",
   "indigo",
   "blue",
   "rounded",
   "pill",
-  "glow",
-  "social"
+  "glow"
  ],
  "colors": [
   "#a78bfa",
