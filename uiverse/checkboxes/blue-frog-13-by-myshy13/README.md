@@ -1,0 +1,86 @@
+# Blue Frog 13
+
+A checkbox UI element from Uiverse.io by myshy13.
+
+Source: https://uiverse.io/myshy13/blue-frog-13
+
+Author: myshy13
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: checkbox
+
+Colors: #b30000, #ccc, #ff2929
+
+Fonts: See styles.css
+
+Spacing and radius: 0.2em
+
+## Source Code
+
+### index.html
+
+```html
+<label class="container">
+  <input type="checkbox" checked="checked" />
+  <div class="checkmark"></div>
+</label>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by myshy13  - Tags: checkbox */
+.container input {
+  opacity: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+}
+
+.checkmark {
+  transition: 0.5s ease;
+  border-radius: 0.2em;
+}
+
+.checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 1.3em;
+  width: 1.3em;
+  background-color: #ccc;
+}
+.container input:checked ~ .checkmark {
+  background-color: #b30000;
+  box-shadow: #ff2929 0px 0px 1em;
+  outline: rgb(139, 0, 0) 3px solid;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark::after {
+  display: block;
+}
+
+.container .checkmark::after {
+  left: 0.45em;
+  top: 0.25em;
+  width: 0.25em;
+  height: 0.5em;
+  border: solid white;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+}
+```
