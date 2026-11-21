@@ -1,0 +1,51 @@
+# Ugly Bear 28
+
+A pattern UI element from Uiverse.io by csemszepp.
+
+Source: https://uiverse.io/csemszepp/ugly-bear-28
+
+Author: csemszepp
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: simple, material design, pattern
+
+Colors: #000, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<div class="container"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by csemszepp - Tags: simple, material design, pattern */
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #fff;
+  filter: contrast(7);
+  --mask: linear-gradient(red, rgba(0, 0, 0, 0.45));
+}
+
+.container::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: radial-gradient(#000, transparent) 0 0/1em 1em space;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  content: "";
+}
+```
