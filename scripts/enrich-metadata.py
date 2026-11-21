@@ -703,13 +703,19 @@ def describe_keyframes(keyframes):
         motions = set()
         for _, decls in steps:
             tr = decls.get("transform", "")
-            if "rotate" in tr:
+            # standalone translate:/rotate:/scale: properties are used too;
+            # note the VALUE has no "translate" word in it, so track the
+            # property itself (translate: -50px 0px is a slide).
+            has_translate = "translate" in decls
+            has_rotate = "rotate" in decls
+            has_scale = "scale" in decls
+            if has_rotate or "rotate" in tr:
                 motions.add("rotating")
             if "translatey" in tr.lower():
                 motions.add("bouncing")
-            if "translatex" in tr.lower():
+            elif has_translate or "translate" in tr.lower():
                 motions.add("sliding")
-            if "scale" in tr:
+            if has_scale or "scale" in tr:
                 motions.add("pulsing")
             if "opacity" in decls:
                 motions.add("fading")
@@ -724,7 +730,7 @@ def describe_keyframes(keyframes):
                     motions.add("changing colour")
                 if "width" in decls or "height" in decls:
                     motions.add("growing and shrinking")
-        summary = ", ".join(sorted(motions)) if motions else "animating"
+        summary = ", ".join(sorted(motions)) if motions else "moving"
         out[name] = summary
     return out
 
@@ -732,7 +738,7 @@ def describe_keyframes(keyframes):
 # Noun / description / how-it-works / tags
 # ---------------------------------------------------------------------------
 
-def detect_noun(category, html_body, class_tokens, text_content):
+def detect_noun(category, html_body, class_tokens, text_content, css_text=""):
     """Short noun phrase for the element, e.g. 'login form', 'spinner loader'."""
     text = text_content.lower()
     classes = " ".join(class_tokens).lower()
@@ -787,10 +793,27 @@ def detect_noun(category, html_body, class_tokens, text_content):
             return "text input"
         return f"{t} input"
     if category == "tooltips":
+        if "arrow" in text or "arrow" in classes:
+            return "tooltip with arrow"
+        # a small rotated square (usually ::before/::after) is the arrow
+        # pointer: e.g. width/height 0.6em + transform rotate(180deg)
+        for m in re.finditer(r'::(?:before|after)\s*\{([^}]*)\}', css_text, re.I):
+            block = m.group(1).lower()
+            if "rotate" in block and re.search(
+                    r'(?:width|height)\s*:\s*[\d.]+(?:em|rem|px)', block):
+                return "tooltip with arrow"
         return "tooltip"
     if category == "notifications":
         return "toast notification" if "toast" in classes else "notification"
     if category == "buttons":
+        # social-brand buttons (Facebook / Twitter / Google ...) are social
+        # login buttons, the common use for a set of them
+        social_brands = ("facebook", "twitter", "google", "github",
+                         "linkedin", "instagram")
+        if any(b in text for b in social_brands):
+            if "login" in text or "sign" in text:
+                return "social login button"
+            return "social button"
         # short meaningful button text becomes the use-case noun
         words = [w for w in re.split(r"\s+", text.strip()) if w]
         if 1 <= len(words) <= 2:
@@ -825,7 +848,12 @@ def fit_words(words, lo=8, hi=15):
                 words.pop(1)
             else:
                 break
-    pad = ["with a smooth transition", "with soft edges", "with a clean look"]
+    # padding must not repeat a connector already in the words:
+    # "with clean lines with a smooth transition" reads badly.
+    if "with" in words:
+        pad = ["and a smooth transition", "and soft edges", "and a clean look"]
+    else:
+        pad = ["with a smooth transition", "with soft edges", "with a clean look"]
     i = 0
     while len(words) < lo and i < len(pad):
         words.extend(_words(pad[i]))
@@ -875,7 +903,8 @@ def build_description(category, noun, styles, top_hexes, trigger,
         style_words.append("gradient")
     if "3d" in styles:
         style_words.append("3D")
-    if "dark" in styles and "neon" not in styles:
+    if ("dark" in styles and "neon" not in styles and colour != "black"
+            and not colour.startswith("dark")):
         style_words.append("dark")
     if "minimal" in styles and not style_words:
         style_words.append("minimal")
@@ -887,7 +916,17 @@ def build_description(category, noun, styles, top_hexes, trigger,
         style_words.append("rounded")
 
     if trigger == "auto-loop" and kf_summary:
-        motion = kf_summary.split(", ")[0]
+        # pick the motion by priority: a movement word beats a colour
+        # change (a loader that slides squares is a sliding loader, even
+        # if it also changes colour). kf_summary joins per-animation
+        # summaries with "; " and motions within one with ", ".
+        all_motions = [m.strip() for m in
+                       re.split(r'[;,]', kf_summary) if m.strip()]
+        priority = ["rotating", "bouncing", "sliding", "pulsing", "fading",
+                    "morphing", "shimmering", "changing colour",
+                    "growing and shrinking", "moving"]
+        motion = next((p for p in priority if p in all_motions),
+                      all_motions[0] if all_motions else "moving")
         words = _words(f"{' '.join(style_words)} {colour} {noun} with {motion} motion in a loop".strip())
         words = [w for w in words if w]
         # make the motion read naturally: "spinning", "bouncing", ...
@@ -896,9 +935,11 @@ def build_description(category, noun, styles, top_hexes, trigger,
         feature = []
         if "box-shadow" in _decls_text_from(base_decls):
             feature.append("soft shadow")
-        if "rounded" in styles or "pill" in styles:
+        # do not repeat a style word already in the description
+        if ("rounded" in styles or "pill" in styles) and \
+                "rounded" not in style_words and "pill" not in style_words:
             feature.append("rounded corners")
-        if "gradient" in styles:
+        if "gradient" in styles and "gradient" not in style_words:
             feature.append("gradient fill")
         feat = " and ".join(feature) if feature else "clean lines"
         words = _words(f"{' '.join(style_words)} {colour} {noun} with {feat}".strip())
@@ -1055,9 +1096,23 @@ def build_tags(old_tags, styles, top_hexes, hover_words, kf_words,
                noun, text_content, class_tokens, trigger, category,
                old_trigger=None):
     """New descriptive tags first, then old tags (dedup, cap 10).
-    Drops stale trigger tags (e.g. 'static' when the trigger is now 'hover')."""
+    Drops stale trigger tags (e.g. 'static' when the trigger is now 'hover').
+    Use-case tags come first: they are the most discriminating for search
+    (a 'social' button must surface for 'social login button')."""
     new = []
+    # use-case tags from text / classes (first: most discriminating)
+    hay = (text_content + " " + " ".join(class_tokens)).lower()
+    for word, tag in USE_CASE_WORDS.items():
+        if re.search(r"\b" + re.escape(word) + r"\b", hay):
+            if tag not in new:
+                new.append(tag)
+    # a Facebook/Twitter/Google/... button is a social button even when
+    # the word "social" never appears in its text
+    if set(new) & {"facebook", "twitter", "google", "github", "linkedin",
+                   "instagram"} and "social" not in new:
+        new.append("social")
     # colour tags (top 2 vivid colours; near-black/white/gray do not count)
+    n_color = 0
     for hx in top_hexes:
         _, s, l = hex_to_hsl(hx)
         if s < 0.25 or l < 0.15 or l > 0.92:
@@ -1067,7 +1122,8 @@ def build_tags(old_tags, styles, top_hexes, hover_words, kf_words,
             tag = name.replace("sky-blue", "blue")
             if tag not in new:
                 new.append(tag)
-        if len(new) >= 2:
+                n_color += 1
+        if n_color >= 2:
             break
     # style tags
     for s in ("neon", "glass", "gradient", "3d", "minimal", "dark",
@@ -1090,17 +1146,14 @@ def build_tags(old_tags, styles, top_hexes, hover_words, kf_words,
              "shimmering": "shimmer", "morphing": "morph"}.get(w)
         if t and t not in new:
             new.append(t)
-    # use-case tags from text / classes
-    hay = (text_content + " " + " ".join(class_tokens)).lower()
-    for word, tag in USE_CASE_WORDS.items():
-        if re.search(r"\b" + re.escape(word) + r"\b", hay):
-            if tag not in new:
-                new.append(tag)
     # noun-derived tag (e.g. "login-form" for a login form)
     noun_tag = noun.replace(" ", "-")
     if noun_tag not in new and noun_tag not in ("button", "loader", "card",
                                                 "input", "form", "tooltip"):
         new.append(noun_tag)
+    # a "tooltip with arrow" also gets the plain "arrow" tag
+    if "arrow" in noun and "arrow" not in new:
+        new.append("arrow")
     # old tags after the new ones (minus stale trigger tags)
     out = []
     for t in new + list(old_tags):
@@ -1240,7 +1293,7 @@ def enrich_element(cat, el, folder):
     kf_words = list(dict.fromkeys(kf_words))
 
     # --- noun, description, how-it-works, tags ---
-    noun = detect_noun(cat, body, class_tokens, text_content)
+    noun = detect_noun(cat, body, class_tokens, text_content, css_all)
     kf_summary = "; ".join(sorted(set(kf_desc.values()))) if kf_desc else ""
     base = base_rules(rules)
     description = build_description(cat, noun, styles, colors, trigger,

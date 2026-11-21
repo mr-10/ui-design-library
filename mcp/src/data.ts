@@ -9,7 +9,7 @@ import { join } from 'node:path';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 
 export const BASE_URL = 'https://mr-10.github.io/ui-design-library';
-export const DATA_VERSION = 'b62515dc6880';
+export const DATA_VERSION = 'b0d13fd04e73';
 
 export interface IndexElement {
   id: string;
@@ -306,8 +306,69 @@ function toSummary(e: IndexElement): ElementSummary {
   };
 }
 
-/** Case-insensitive substring search over name, tags and description.
- *  Name matches rank first, then tag matches, then description matches. */
+/** Words that carry no search meaning; dropped from multi-word queries. */
+const STOPWORDS = new Set([
+  'a', 'an', 'the', 'with', 'and', 'for', 'of', 'on', 'in', 'to', 'me',
+  'my', 'is', 'it', 'that', 'this', 'show', 'get', 'give', 'find', 'make',
+  'create', 'please', 'i', 'want', 'need', 'looking', 'by', 'or', 'as',
+  'at', 'from', 'into', 'one', 'some', 'any',
+]);
+
+/** Split an agent-style query ("neon glowing button") into search tokens. */
+function tokenizeQuery(query: string): string[] {
+  const words = query
+    .toLowerCase()
+    .split(/[^a-z0-9]+/)
+    .filter(Boolean);
+  const tokens = words.filter((w) => !STOPWORDS.has(w));
+  return tokens.length > 0 ? tokens : words;
+}
+
+/** Light stemmer: "glowing" and "glows" both stem to "glow", so an agent
+ *  query "neon glowing button" also matches an element whose description
+ *  says "glows". */
+function stem(word: string): string {
+  let w = word;
+  if (w.length > 5 && w.endsWith('ing')) w = w.slice(0, -3);
+  else if (w.length > 4 && w.endsWith('ed')) w = w.slice(0, -2);
+  else if (w.length > 4 && w.endsWith('es')) w = w.slice(0, -2);
+  else if (w.length > 3 && w.endsWith('s')) w = w.slice(0, -1);
+  return w;
+}
+
+/** True when a field contains the token as a substring, or contains a word
+ *  with the same stem (so "glowing" matches "glow" and "glows"). */
+function fieldMatches(text: string, token: string): boolean {
+  const lower = text.toLowerCase();
+  const t = token.toLowerCase();
+  if (lower.includes(t)) return true;
+  const ts = stem(t);
+  if (ts.length < 4) return false;
+  for (const word of lower.split(/[^a-z0-9]+/)) {
+    if (!word) continue;
+    if (stem(word) === ts) return true;
+  }
+  return false;
+}
+
+/** Score one token against one element. Name matches count most, then an
+ *  exact tag, then a tag containing the token, then the description, then
+ *  the category. Returns 0 when the token matches nothing. */
+function tokenScore(el: IndexElement, token: string): number {
+  let score = 0;
+  const tags = el.tags.map((t) => t.toLowerCase());
+  if (fieldMatches(el.name, token)) score += 10;
+  if (tags.some((t) => t === token)) score += 8;
+  else if (tags.some((t) => fieldMatches(t, token))) score += 6;
+  if (fieldMatches(el.description, token)) score += 4;
+  if (fieldMatches(el.category, token)) score += 2;
+  return score;
+}
+
+/** Tokenized search over name, tags, description and category.
+ *  Every query word must match somewhere for a full hit; elements matching
+ *  fewer words still rank below the full hits. Single-word queries behave
+ *  exactly as before (name, then tag, then description). */
 export async function searchElements(
   query: string,
   opts: DataOptions & {
@@ -316,8 +377,8 @@ export async function searchElements(
     limit?: number;
   } = {},
 ): Promise<ElementSummary[]> {
-  const q = query.trim().toLowerCase();
-  if (!q) {
+  const tokens = tokenizeQuery(query.trim());
+  if (tokens.length === 0) {
     throw new UiLibError(
       'search_elements needs a non-empty query.',
       'Pass a keyword, e.g. search_elements with query "glowing button".',
@@ -325,18 +386,26 @@ export async function searchElements(
   }
   const limit = Math.min(Math.max(opts.limit ?? 8, 1), 20);
   const index = await loadIndex(opts);
-  const ranked: { el: IndexElement; rank: number }[] = [];
+  const ranked: { el: IndexElement; matched: number; score: number }[] = [];
   for (const el of index.elements) {
     if (opts.category && el.category !== opts.category) continue;
     if (opts.trigger && el.trigger !== opts.trigger) continue;
-    let rank = -1;
-    if (el.name.toLowerCase().includes(q)) rank = 0;
-    else if (el.tags.some((t) => t.toLowerCase().includes(q))) rank = 1;
-    else if (el.description.toLowerCase().includes(q)) rank = 2;
-    if (rank >= 0) ranked.push({ el, rank });
+    let matched = 0;
+    let score = 0;
+    for (const token of tokens) {
+      const s = tokenScore(el, token);
+      if (s > 0) {
+        matched += 1;
+        score += s;
+      }
+    }
+    if (matched > 0) ranked.push({ el, matched, score });
   }
   ranked.sort(
-    (a, b) => a.rank - b.rank || a.el.name.localeCompare(b.el.name),
+    (a, b) =>
+      b.matched - a.matched ||
+      b.score - a.score ||
+      a.el.name.localeCompare(b.el.name),
   );
   return ranked.slice(0, limit).map((r) => toSummary(r.el));
 }

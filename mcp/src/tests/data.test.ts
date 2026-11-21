@@ -145,6 +145,31 @@ test('search ranks name matches before tag matches before description matches', 
   }
 });
 
+test('search tokenizes multi-word agent queries', async () => {
+  const dir = await tempCacheDir();
+  try {
+    clearMemoryCache();
+    const current = { index: makeIndex('v1', [EL1, EL2, EL3]) };
+    const o = opts(dir, current);
+    // "glowing button" matches EL1 on both words (name + tag + description);
+    // EL2 matches only "glowing" (its glow tag) and EL3 only "glowing"
+    // (its description), so EL2 ranks above EL3.
+    const results = await searchElements('glowing button', o);
+    assert.deepEqual(
+      results.map((r) => r.id),
+      ['glowing-button-1-by-alice', 'plain-card-2-by-bob', 'simple-box-3-by-carol'],
+    );
+    // Stopwords are dropped: "a glowing button" behaves the same.
+    const withStop = await searchElements('a glowing button', o);
+    assert.deepEqual(
+      withStop.map((r) => r.id),
+      ['glowing-button-1-by-alice', 'plain-card-2-by-bob', 'simple-box-3-by-carol'],
+    );
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
+});
+
 test('search is case-insensitive and filters by category and trigger', async () => {
   const dir = await tempCacheDir();
   try {
