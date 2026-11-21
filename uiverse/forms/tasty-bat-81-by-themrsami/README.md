@@ -1,0 +1,71 @@
+# Tasty Bat 81
+
+A form UI element from Uiverse.io by themrsami.
+
+Source: https://uiverse.io/themrsami/tasty-bat-81
+
+Author: themrsami
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: —
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<!-- From Uiverse.io by themrsami - Tags: material design, form, tailwind, tailwindcss, themrsami, Dream form -->
+<div class="mt-4 flex flex-col bg-gray-100 rounded-lg p-4 shadow-sm">
+  <h2 class="ai-story-maker-dream-form text-black font-bold text-2xl">AI Story Maker Dream Form</h2>
+
+  <div class="mt-4">
+    <label class="text-black" for="title">Title</label>
+    <input placeholder="Enter a title for your dream" class="w-full bg-white rounded-md border-gray-300 text-black px-2 py-1" type="text">
+  </div>
+
+  <div class="mt-4">
+    <label class="text-black" for="description">Description</label>
+    <textarea placeholder="Describe your dream in detail" class="w-full bg-white rounded-md border-gray-300 text-black px-2 py-1" id="description"></textarea>
+  </div>
+
+  <div class="mt-4 flex flex-row space-x-2">
+    <div class="flex-1">
+      <label class="text-black" for="emotions">Emotions</label>
+      <input placeholder="What emotions did you feel during your dream?" class="w-full bg-white rounded-md border-gray-300 text-black px-2 py-1" id="emotions" type="text">
+    </div>
+
+    <div class="flex-1">
+      <label class="text-black" for="symbols">Symbols</label>
+      <input placeholder="Did you see any symbols in your dream?" class="w-full bg-white rounded-md border-gray-300 text-black px-2 py-1" id="symbols" type="text">
+    </div>
+  </div>
+
+  <div class="mt-4 flex flex-row space-x-2">
+    <div class="flex-1">
+      <label class="text-black" for="themes">Themes</label>
+      <input placeholder="What themes do you think your dream might be about?" class="w-full bg-white rounded-md border-gray-300 text-black px-2 py-1" id="themes" type="text">
+    </div>
+  </div>
+
+  <div class="mt-4 flex justify-end">
+    <button class="bg-white text-black rounded-md px-4 py-1 hover:bg-gray-200 hover:text-gray-900" id="generate-button" type="button">Generate</button>
+  </div>
+
+  <div class="mt-4">
+    <textarea placeholder="Your AI-generated story will appear here" class="w-full bg-white rounded-md border-gray-300 text-black px-2 py-1 h-48" id="story-output"></textarea>
+  </div>
+</div>
+```
+
+### styles.css
+
+```css
+/* No CSS in source file */
+```
