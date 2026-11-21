@@ -1,0 +1,98 @@
+# Tricky Turkey 18
+
+A toggle switch UI element from Uiverse.io by Praashoo7.
+
+Source: https://uiverse.io/Praashoo7/tricky-turkey-18
+
+Author: Praashoo7
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: switch
+
+Colors: #ccc
+
+Fonts: See styles.css
+
+Spacing and radius: 2.5px, 5px
+
+## Source Code
+
+### index.html
+
+```html
+<label class="switch">
+  <input type="checkbox" class="chk1">
+  <span class="slider"></span>
+</label>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Praashoo7 - Tags: switch */
+/* The switch - the box around the slider */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 4em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch .chk1 {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 5px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 2.5px;
+  left: 0.3em;
+  bottom: 0.3em;
+  background-color: white;
+  transition: 0.4s;
+  box-shadow: 0 6px 7px rgba(0,0,0,0.3);
+}
+
+.slider:after {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 2.5px;
+  left: 2.3em;
+  bottom: 0.3em;
+  background-color: #ccc;
+  transition: 0.4s;
+  box-shadow: 0 0px 0px rgba(0,0,0,0.3);
+}
+
+.chk1:checked + .slider:before {
+  background-color: #ccc;
+  box-shadow: 0 0px 0px rgba(0,0,0,0.3);
+}
+
+.chk1:checked + .slider:after {
+  background-color: rgb(0, 182, 45);
+  box-shadow: 0 6px 7px rgba(0,0,0,0.3);
+}
+```
