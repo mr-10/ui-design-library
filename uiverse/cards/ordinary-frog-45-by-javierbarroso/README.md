@@ -1,0 +1,121 @@
+# Ordinary Frog 45
+
+A card UI element from Uiverse.io by javierBarroso.
+
+Source: https://uiverse.io/javierBarroso/ordinary-frog-45
+
+Author: javierBarroso
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: card, radio, creative, cool card
+
+Colors: #00ca4e, #454a50, #f4f4f3, #ff605c, #ffbd44
+
+Fonts: See styles.css
+
+Spacing and radius: 50%, 8px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="card">
+  <div class="tools">
+    <div class="circle">
+      <span class="red box"></span>
+    </div>
+    <div class="circle">
+      <span class="yellow box"></span>
+    </div>
+    <div class="circle">
+      <span class="green box"></span>
+    </div>
+  </div>
+  <div class="card__content">
+    <p class="title">Title</p>
+    <hr>
+    <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus pariatur animi praesentium
+    </p>
+  </div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by javierBarroso - Source: EmmaxPlay - Tags: card, radio, creative, cool card */
+.card {
+  width: 190px;
+  height: 254px;
+  margin: 0 auto;
+  background-color: #f4f4f3;
+  border-radius: 8px;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card::after {
+  position: absolute;
+  content: '';
+  background-color: #454a50;
+  width: 50px;
+  height: 100px;
+  z-index: -1;
+  border-radius: 8px;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+  border-radius: 8px;
+  background: #454a50;
+  margin-top: -2px;
+}
+
+.circle {
+  padding: 0 4px;
+}
+
+.card__content {
+  height: 100%;
+  margin: 0px;
+  border-radius: 8px;
+  background: #f4f4f3;
+  padding: 10px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.content {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.box {
+  display: inline-block;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: #ff605c;
+}
+
+.yellow {
+  background-color: #ffbd44;
+}
+
+.green {
+  background-color: #00ca4e;
+}
+```
