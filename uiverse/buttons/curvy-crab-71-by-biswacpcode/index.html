@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Curvy Crab 71</title>
+<style>
+body { display: flex; min-height: 100vh; align-items: center; justify-content: center; margin: 0; }
+</style>
+<style>
+/* From Uiverse.io by biswacpcode - Tags: button */
+button {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  border: none;
+  background: none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+button::before {
+  margin-left: auto;
+}
+
+button::after, button::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+button:hover::after, button:hover::before {
+  width: 100%;
+}
+</style>
+</head>
+<body>
+<button>
+  HOVER ME
+</button>
+</body>
+</html>
