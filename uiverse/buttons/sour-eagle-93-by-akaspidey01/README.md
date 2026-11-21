@@ -1,0 +1,39 @@
+# Sour Eagle 93
+
+A button UI element from Uiverse.io by AKAspidey01.
+
+Source: https://uiverse.io/AKAspidey01/sour-eagle-93
+
+Author: AKAspidey01
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: —
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<!-- From Uiverse.io by AKAspidey01 - Tags: animation, button, transition, hover effect, premium -->
+<button class="cursor-pointer relative group overflow-hidden border-2 px-8 py-2 border-green-500">
+  <span class="font-bold text-white text-xl relative z-10 group-hover:text-green-500 duration-500">Blink</span>
+  <span class="absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:-translate-x-full h-full"></span>
+  <span class="absolute top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-x-full h-full"></span>
+  
+    <span class="absolute top-0 left-0 w-full bg-green-500 duration-500 delay-300 group-hover:-translate-y-full h-full"></span>
+  <span class="absolute delay-300 top-0 left-0 w-full bg-green-500 duration-500 group-hover:translate-y-full h-full"></span>
+</button>
+```
+
+### styles.css
+
+```css
+/* No CSS in source file */
+```
