@@ -1,0 +1,58 @@
+# Nice Mole 58
+
+A pattern UI element from Uiverse.io by Efrain2112.
+
+Source: https://uiverse.io/Efrain2112/nice-mole-58
+
+Author: Efrain2112
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: simple, blue, white, pattern
+
+Colors: #add8e6
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<div class="container"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Efrain2112  - Tags: simple, blue, white, pattern */
+.container {
+  width: 100%;
+  height: 100%;
+  --size: 80px; /* control the size */
+  --color: #add8e6;
+
+  background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 40%,
+      #add8e6 41%,
+      #add8e6 60%,
+      transparent 61%,
+      transparent 100%
+    ),
+    linear-gradient(
+      45deg,
+      #add8e6 25%,
+      transparent 25%,
+      transparent 50%,
+      #add8e6 50%,
+      #add8e6 75%,
+      transparent 75%,
+      transparent
+    );
+  background-size: var(--size) var(--size);
+}
+```
