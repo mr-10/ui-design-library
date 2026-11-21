@@ -1,0 +1,69 @@
+# Ugly Octopus 60
+
+A loader UI element from Uiverse.io by escannord.
+
+Source: https://uiverse.io/escannord/ugly-octopus-60
+
+Author: escannord
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: animation, loader, spinner
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader">
+  <span style="--i:1px" class="load"></span>
+  <span style="--i:2px" class="load"></span>
+  <span style="--i:3px" class="load"></span>
+  <span style="--i:4px" class="load"></span>
+  <span style="--i:5px" class="load"></span>
+  <span style="--i:6px" class="load"></span>
+  <span style="--i:7px" class="load"></span>
+  <span style="--i:8px" class="load"></span>
+  <span style="--i:9px" class="load"></span>
+  <span style="--i:10px" class="load"></span>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by escannord  - Tags: animation, loader, spinner */
+.loader {
+  position: relative;
+}
+.load {
+  display: inline-block;
+  height: calc(var(--i) * 15);
+  width: calc(var(--i) * 15);
+  background-color: transparent;
+  position: absolute;
+  border: 5px rgb(47, 0, 255) solid;
+  border-top: none;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: turn 2s infinite linear;
+}
+
+.load:nth-child(odd) {
+  animation: turn 2s infinite linear reverse;
+}
+
+@keyframes turn {
+  100% {
+    transform: translate(-50%, -50%) rotateZ(360deg);
+  }
+}
+```
