@@ -1,1 +1,3525 @@
-{"category": "radio-buttons", "count": 102, "elements": [{"id": "angry-donkey-87-by-xuyeean", "name": "Angry Donkey 87", "category": "radio-buttons", "author": "XuYeean", "link": "https://uiverse.io/XuYeean/angry-donkey-87", "path": "uiverse/radio-buttons/angry-donkey-87-by-xuyeean/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#48e9ff", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "average-quail-26-by-javierbarroso", "name": "Average Quail 26", "category": "radio-buttons", "author": "javierBarroso", "link": "https://uiverse.io/javierBarroso/average-quail-26", "path": "uiverse/radio-buttons/average-quail-26-by-javierbarroso/", "description": "A radio button with animation, 3d and button styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["animation", "3d", "button", "modern", "radio", "toggle"], "colors": ["#222222", "#111111", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "bad-starfish-74-by-shoh2008", "name": "Bad Starfish 74", "category": "radio-buttons", "author": "Shoh2008", "link": "https://uiverse.io/Shoh2008/bad-starfish-74", "path": "uiverse/radio-buttons/bad-starfish-74-by-shoh2008/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "big-swan-35-by-pradeepsaranbishnoi", "name": "Big Swan 35", "category": "radio-buttons", "author": "Pradeepsaranbishnoi", "link": "https://uiverse.io/Pradeepsaranbishnoi/big-swan-35", "path": "uiverse/radio-buttons/big-swan-35-by-pradeepsaranbishnoi/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#111111", "#ff0000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "bitter-rabbit-96-by-pradeepsaranbishnoi", "name": "Bitter Rabbit 96", "category": "radio-buttons", "author": "Pradeepsaranbishnoi", "link": "https://uiverse.io/Pradeepsaranbishnoi/bitter-rabbit-96", "path": "uiverse/radio-buttons/bitter-rabbit-96-by-pradeepsaranbishnoi/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#079ad9", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "black-husky-57-by-pradeepsaranbishnoi", "name": "Black Husky 57", "category": "radio-buttons", "author": "Pradeepsaranbishnoi", "link": "https://uiverse.io/Pradeepsaranbishnoi/black-husky-57", "path": "uiverse/radio-buttons/black-husky-57-by-pradeepsaranbishnoi/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#414856", "#7c96b2", "#4f29f0"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "clever-cheetah-40-by-tsiangana", "name": "Clever Cheetah 40", "category": "radio-buttons", "author": "Tsiangana", "link": "https://uiverse.io/Tsiangana/clever-cheetah-40", "path": "uiverse/radio-buttons/clever-cheetah-40-by-tsiangana/", "description": "A radio button with futuristic, animated and futuristic-radio-buttons styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["futuristic", "animated", "futuristic-radio-buttons", "radio-buttons", "checked"], "colors": ["#4a9ce9", "#cacaca", "#f0f0f0"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "clever-elephant-35-by-andrew-demchenk0", "name": "Clever Elephant 35", "category": "radio-buttons", "author": "andrew-demchenk0", "link": "https://uiverse.io/andrew-demchenk0/clever-elephant-35", "path": "uiverse/radio-buttons/clever-elephant-35-by-andrew-demchenk0/", "description": "A radio button with radio, stars and rating styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "stars", "rating", "radio-buttons", "checked"], "colors": ["#666666", "#e58e09", "#ff9e0b"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "cold-bobcat-20-by-admin12121", "name": "Cold Bobcat 20", "category": "radio-buttons", "author": "Admin12121", "link": "https://uiverse.io/Admin12121/cold-bobcat-20", "path": "uiverse/radio-buttons/cold-bobcat-20-by-admin12121/", "description": "A radio button with simple, material-design and checkbox styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["simple", "material-design", "checkbox", "radio", "radio-buttons", "checked"], "colors": ["#333333", "#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "cold-mayfly-100-by-praashoo7", "name": "Cold Mayfly 100", "category": "radio-buttons", "author": "Praashoo7", "link": "https://uiverse.io/Praashoo7/cold-mayfly-100", "path": "uiverse/radio-buttons/cold-mayfly-100-by-praashoo7/", "description": "A radio button with neumorphism, red and realistic styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["neumorphism", "red", "realistic", "radio", "cross", "radio-buttons"], "colors": ["#171717", "#050505"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "cold-rabbit-43-by-ratinax", "name": "Cold Rabbit 43", "category": "radio-buttons", "author": "Ratinax", "link": "https://uiverse.io/Ratinax/cold-rabbit-43", "path": "uiverse/radio-buttons/cold-rabbit-43-by-ratinax/", "description": "A radio button UI element.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio-buttons", "checked", "css"], "colors": ["#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "cuddly-sheep-92-by-pradeepsaranbishnoi", "name": "Cuddly Sheep 92", "category": "radio-buttons", "author": "Pradeepsaranbishnoi", "link": "https://uiverse.io/Pradeepsaranbishnoi/cuddly-sheep-92", "path": "uiverse/radio-buttons/cuddly-sheep-92-by-pradeepsaranbishnoi/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#272626", "#afa490", "#847a62"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "curly-duck-62-by-3bdel3ziz-t", "name": "Curly Duck 62", "category": "radio-buttons", "author": "3bdel3ziz-T", "link": "https://uiverse.io/3bdel3ziz-T/curly-duck-62", "path": "uiverse/radio-buttons/curly-duck-62-by-3bdel3ziz-t/", "description": "A radio button UI element.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio-buttons", "checked", "css"], "colors": ["#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "curvy-vampirebat-60-by-gharsh11032000", "name": "Curvy Vampirebat 60", "category": "radio-buttons", "author": "gharsh11032000", "link": "https://uiverse.io/gharsh11032000/curvy-vampirebat-60", "path": "uiverse/radio-buttons/curvy-vampirebat-60-by-gharsh11032000/", "description": "A radio button with radio, hover-effect and click-effect styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "hover-effect", "click-effect", "checked"], "colors": ["#4c8bf5", "#555555", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "dry-elephant-32-by-andrew-demchenk0", "name": "Dry Elephant 32", "category": "radio-buttons", "author": "andrew-demchenk0", "link": "https://uiverse.io/andrew-demchenk0/dry-elephant-32", "path": "uiverse/radio-buttons/dry-elephant-32-by-andrew-demchenk0/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#ff0000", "#ffa500", "#008000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "dull-lizard-58-by-jkhuger", "name": "Dull Lizard 58", "category": "radio-buttons", "author": "JkHuger", "link": "https://uiverse.io/JkHuger/dull-lizard-58", "path": "uiverse/radio-buttons/dull-lizard-58-by-jkhuger/", "description": "A radio button with radio, male and female styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "male", "female", "non-binary", "radio-buttons", "checked"], "colors": ["#333333", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "empty-badger-73-by-yaya12085", "name": "Empty Badger 73", "category": "radio-buttons", "author": "Yaya12085", "link": "https://uiverse.io/Yaya12085/empty-badger-73", "path": "uiverse/radio-buttons/empty-badger-73-by-yaya12085/", "description": "A radio button with progress, card and shadow styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["progress", "card", "shadow", "radio", "quizz", "select"], "colors": ["#bbbbbb", "#313131", "#181818"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "fast-turtle-85-by-na3ar-17", "name": "Fast Turtle 85", "category": "radio-buttons", "author": "Na3ar-17", "link": "https://uiverse.io/Na3ar-17/fast-turtle-85", "path": "uiverse/radio-buttons/fast-turtle-85-by-na3ar-17/", "description": "A radio button with simple, black and hover styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["simple", "black", "hover", "input", "radio", "radio-buttons"], "colors": ["#435dd8", "#2a2e3c", "#2d3750"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "fat-bullfrog-40-by-selfmadesystem", "name": "Fat Bullfrog 40", "category": "radio-buttons", "author": "SelfMadeSystem", "link": "https://uiverse.io/SelfMadeSystem/fat-bullfrog-40", "path": "uiverse/radio-buttons/fat-bullfrog-40-by-selfmadesystem/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#4a9ce9", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "fat-termite-40-by-aboalsim114", "name": "Fat Termite 40", "category": "radio-buttons", "author": "aboalsim114", "link": "https://uiverse.io/aboalsim114/fat-termite-40", "path": "uiverse/radio-buttons/fat-termite-40-by-aboalsim114/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#ff5722", "#4caf50", "#81c784"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "fluffy-catfish-36-by-sandeepgopan", "name": "Fluffy Catfish 36", "category": "radio-buttons", "author": "sandeepgopan", "link": "https://uiverse.io/sandeepgopan/fluffy-catfish-36", "path": "uiverse/radio-buttons/fluffy-catfish-36-by-sandeepgopan/", "description": "A radio button with hover, input and theme-switch styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["hover", "input", "theme-switch", "radio", "futuristic-radio-buttons", "radio-buttons"], "colors": ["#afaeae", "#e41c23", "#7f7f7f"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "foolish-donkey-86-by-jaydipprajapati1910", "name": "Foolish Donkey 86", "category": "radio-buttons", "author": "JaydipPrajapati1910", "link": "https://uiverse.io/JaydipPrajapati1910/foolish-donkey-86", "path": "uiverse/radio-buttons/foolish-donkey-86-by-jaydipprajapati1910/", "description": "A radio button with yellow and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["yellow", "radio", "radio-buttons", "checked"], "colors": ["#171717", "#050505"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "friendly-panther-39-by-mijailvillegas", "name": "Friendly Panther 39", "category": "radio-buttons", "author": "MijailVillegas", "link": "https://uiverse.io/MijailVillegas/friendly-panther-39", "path": "uiverse/radio-buttons/friendly-panther-39-by-mijailvillegas/", "description": "A radio button with cyberpunk, neon and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["cyberpunk", "neon", "radio", "futuristic", "animated", "radio-buttons"], "colors": ["#4090b5", "#9e30a9", "#2d0c30"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "fuzzy-yak-55-by-werlynrodriguez", "name": "Fuzzy Yak 55", "category": "radio-buttons", "author": "WerlynRodriguez", "link": "https://uiverse.io/WerlynRodriguez/fuzzy-yak-55", "path": "uiverse/radio-buttons/fuzzy-yak-55-by-werlynrodriguez/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#7d008b", "#d303ea", "#fdfdfd"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "gentle-vampirebat-46-by-3bdel3ziz-t", "name": "Gentle Vampirebat 46", "category": "radio-buttons", "author": "3bdel3ziz-T", "link": "https://uiverse.io/3bdel3ziz-T/gentle-vampirebat-46", "path": "uiverse/radio-buttons/gentle-vampirebat-46-by-3bdel3ziz-t/", "description": "A radio button with simple, minimalist and input styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["simple", "minimalist", "input", "dark", "light", "radio"], "colors": ["#2a2f3b", "#323741"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "giant-jellyfish-3-by-lilarest", "name": "Giant Jellyfish 3", "category": "radio-buttons", "author": "LilaRest", "link": "https://uiverse.io/LilaRest/giant-jellyfish-3", "path": "uiverse/radio-buttons/giant-jellyfish-3-by-lilarest/", "description": "A radio button UI element.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio-buttons", "checked", "css"], "colors": ["#f5f5f5", "#bebdbd", "#32325d"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "good-newt-78-by-navarog21", "name": "Good Newt 78", "category": "radio-buttons", "author": "Navarog21", "link": "https://uiverse.io/Navarog21/good-newt-78", "path": "uiverse/radio-buttons/good-newt-78-by-navarog21/", "description": "A radio button UI element.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio-buttons", "checked", "css"], "colors": ["#00c6fb", "#005bea", "#212121"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "good-quail-97-by-radwakhalil22", "name": "Good Quail 97", "category": "radio-buttons", "author": "radwakhalil22", "link": "https://uiverse.io/radwakhalil22/good-quail-97", "path": "uiverse/radio-buttons/good-quail-97-by-radwakhalil22/", "description": "A radio button UI element.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio-buttons", "checked", "css"], "colors": ["#5d34a8", "#51e0d2", "#c3bacc"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "great-badger-21-by-asgardop", "name": "Great Badger 21", "category": "radio-buttons", "author": "asgardOP", "link": "https://uiverse.io/asgardOP/great-badger-21", "path": "uiverse/radio-buttons/great-badger-21-by-asgardop/", "description": "A radio button with button, smooth and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["button", "smooth", "radio", "menu", "hover-effect", "css-effect"], "colors": ["#eb28b0", "#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "green-chicken-4-by-hoshikawamaki", "name": "Green Chicken 4", "category": "radio-buttons", "author": "hoshikawamaki", "link": "https://uiverse.io/hoshikawamaki/green-chicken-4", "path": "uiverse/radio-buttons/green-chicken-4-by-hoshikawamaki/", "description": "A radio button UI element.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio-buttons", "checked", "css"], "colors": ["#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "green-lizard-94-by-smookydev", "name": "Green Lizard 94", "category": "radio-buttons", "author": "SmookyDev", "link": "https://uiverse.io/SmookyDev/green-lizard-94", "path": "uiverse/radio-buttons/green-lizard-94-by-smookydev/", "description": "A radio button UI element.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio-buttons", "checked", "css"], "colors": ["#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "green-wasp-49-by-yaya12085", "name": "Green Wasp 49", "category": "radio-buttons", "author": "Yaya12085", "link": "https://uiverse.io/Yaya12085/green-wasp-49", "path": "uiverse/radio-buttons/green-wasp-49-by-yaya12085/", "description": "A radio button with radio, select and animated styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "select", "animated", "click-animation", "radio-buttons", "checked"], "colors": ["#1f9cf1", "#ff9801", "#353434"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "hard-vampirebat-36-by-adamgiebl", "name": "Hard Vampirebat 36", "category": "radio-buttons", "author": "adamgiebl", "link": "https://uiverse.io/adamgiebl/hard-vampirebat-36", "path": "uiverse/radio-buttons/hard-vampirebat-36-by-adamgiebl/", "description": "A radio button with skeuomorphism, realistic and neon styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["skeuomorphism", "realistic", "neon", "radio", "radio-buttons", "checked"], "colors": ["#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "heavy-dragonfly-92-by-pradeepsaranbishnoi", "name": "Heavy Dragonfly 92", "category": "radio-buttons", "author": "Pradeepsaranbishnoi", "link": "https://uiverse.io/Pradeepsaranbishnoi/heavy-dragonfly-92", "path": "uiverse/radio-buttons/heavy-dragonfly-92-by-pradeepsaranbishnoi/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#185ee0", "#e6eef9", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "helpless-termite-82-by-slowless0", "name": "Helpless Termite 82", "category": "radio-buttons", "author": "SlowLess0", "link": "https://uiverse.io/SlowLess0/helpless-termite-82", "path": "uiverse/radio-buttons/helpless-termite-82-by-slowless0/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#40fce3", "#6240fc", "#cccccc"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "hot-bird-10-by-andrew-demchenk0", "name": "Hot Bird 10", "category": "radio-buttons", "author": "andrew-demchenk0", "link": "https://uiverse.io/andrew-demchenk0/hot-bird-10", "path": "uiverse/radio-buttons/hot-bird-10-by-andrew-demchenk0/", "description": "A radio button with simple, theme-switch and radio styling.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["simple", "theme-switch", "radio", "buttons", "template", "for-js"], "colors": ["#323232", "#808080"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "hungry-bat-66-by-pradeepsaranbishnoi", "name": "Hungry Bat 66", "category": "radio-buttons", "author": "Pradeepsaranbishnoi", "link": "https://uiverse.io/Pradeepsaranbishnoi/hungry-bat-66", "path": "uiverse/radio-buttons/hungry-bat-66-by-pradeepsaranbishnoi/", "description": "A radio button with switch styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["switch", "radio-buttons", "checked"], "colors": ["#f2f6f5", "#cbd5d6", "#888888"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "itchy-mouse-15-by-ratinax", "name": "Itchy Mouse 15", "category": "radio-buttons", "author": "Ratinax", "link": "https://uiverse.io/Ratinax/itchy-mouse-15", "path": "uiverse/radio-buttons/itchy-mouse-15-by-ratinax/", "description": "A radio button with radio, buttons and traffic-light styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "buttons", "traffic-light", "radio-buttons", "checked"], "colors": ["#990000", "#999900", "#009900"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "jolly-liger-24-by-cybercom682", "name": "Jolly Liger 24", "category": "radio-buttons", "author": "Cybercom682", "link": "https://uiverse.io/Cybercom682/jolly-liger-24", "path": "uiverse/radio-buttons/jolly-liger-24-by-cybercom682/", "description": "A radio button UI element.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio-buttons", "checked", "css"], "colors": ["#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "lovely-goose-53-by-spacious74", "name": "Lovely Goose 53", "category": "radio-buttons", "author": "Spacious74", "link": "https://uiverse.io/Spacious74/lovely-goose-53", "path": "uiverse/radio-buttons/lovely-goose-53-by-spacious74/", "description": "A radio button with active, radio and menu styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["active", "radio", "menu", "radio-buttons", "checked"], "colors": ["#e8e8e8", "#70c489", "#1d1d29"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "lucky-bobcat-25-by-andrew-demchenk0", "name": "Lucky Bobcat 25", "category": "radio-buttons", "author": "andrew-demchenk0", "link": "https://uiverse.io/andrew-demchenk0/lucky-bobcat-25", "path": "uiverse/radio-buttons/lucky-bobcat-25-by-andrew-demchenk0/", "description": "A radio button with cyberpunk, neon and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["cyberpunk", "neon", "radio", "radio-buttons", "checked"], "colors": ["#ff184c", "#fded00", "#8b00ff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "lucky-bullfrog-15-by-3bdel3ziz-t", "name": "Lucky Bullfrog 15", "category": "radio-buttons", "author": "3bdel3ziz-T", "link": "https://uiverse.io/3bdel3ziz-T/lucky-bullfrog-15", "path": "uiverse/radio-buttons/lucky-bullfrog-15-by-3bdel3ziz-t/", "description": "A radio button with hover, switch and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["hover", "switch", "radio", "svg", "custom", "creative"], "colors": ["#d17842", "#0c0f14", "#52555a"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "lucky-moth-60-by-spj2401dev", "name": "Lucky Moth 60", "category": "radio-buttons", "author": "spj2401Dev", "link": "https://uiverse.io/spj2401Dev/lucky-moth-60", "path": "uiverse/radio-buttons/lucky-moth-60-by-spj2401dev/", "description": "A radio button UI element.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio-buttons", "checked", "css"], "colors": ["#2b426d", "#385c7e", "#02375a"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "massive-turtle-43-by-aadium", "name": "Massive Turtle 43", "category": "radio-buttons", "author": "aadium", "link": "https://uiverse.io/aadium/massive-turtle-43", "path": "uiverse/radio-buttons/massive-turtle-43-by-aadium/", "description": "A radio button with cyberpunk, radio and futuristic styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["cyberpunk", "radio", "futuristic", "radio-buttons", "checked"], "colors": ["#defe47", "#f887ff", "#78cce2"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "mean-dodo-99-by-praashoo7", "name": "Mean Dodo 99", "category": "radio-buttons", "author": "Praashoo7", "link": "https://uiverse.io/Praashoo7/mean-dodo-99", "path": "uiverse/radio-buttons/mean-dodo-99-by-praashoo7/", "description": "A radio button with realistic, radio and traffic-lights styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["realistic", "radio", "traffic-lights", "radio-buttons", "checked"], "colors": ["#47434c", "#f6ff7e", "#171717"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "mighty-wasp-74-by-nlghtm4re", "name": "Mighty Wasp 74", "category": "radio-buttons", "author": "NlghtM4re", "link": "https://uiverse.io/NlghtM4re/mighty-wasp-74", "path": "uiverse/radio-buttons/mighty-wasp-74-by-nlghtm4re/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#47afef", "#a4d7f6", "#89cffb"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "moody-dog-23-by-gharsh11032000", "name": "Moody Dog 23", "category": "radio-buttons", "author": "gharsh11032000", "link": "https://uiverse.io/gharsh11032000/moody-dog-23", "path": "uiverse/radio-buttons/moody-dog-23-by-gharsh11032000/", "description": "A radio button with radio and click-effect styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "click-effect", "checked"], "colors": ["#4c8bf5", "#f2f2f2", "#555555"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "moody-starfish-95-by-pradeepsaranbishnoi", "name": "Moody Starfish 95", "category": "radio-buttons", "author": "Pradeepsaranbishnoi", "link": "https://uiverse.io/Pradeepsaranbishnoi/moody-starfish-95", "path": "uiverse/radio-buttons/moody-starfish-95-by-pradeepsaranbishnoi/", "description": "A radio button with simple, button and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["simple", "button", "radio", "radio-buttons", "checked"], "colors": ["#454857", "#bdbdbd", "#95d891"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "nasty-horse-50-by-andretellao", "name": "Nasty Horse 50", "category": "radio-buttons", "author": "andretellao", "link": "https://uiverse.io/andretellao/nasty-horse-50", "path": "uiverse/radio-buttons/nasty-horse-50-by-andretellao/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#dd33ff", "#33f8ff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "nasty-lizard-71-by-tsiangana", "name": "Nasty Lizard 71", "category": "radio-buttons", "author": "Tsiangana", "link": "https://uiverse.io/Tsiangana/nasty-lizard-71", "path": "uiverse/radio-buttons/nasty-lizard-71-by-tsiangana/", "description": "A radio button with twitter, instagram and modern styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["twitter", "instagram", "modern", "radio", "creative", "radio-buttons"], "colors": ["#cc39a4", "#03a9f4", "#8c9eff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "nasty-octopus-47-by-shadowfax29", "name": "Nasty Octopus 47", "category": "radio-buttons", "author": "shadowfax29", "link": "https://uiverse.io/shadowfax29/nasty-octopus-47", "path": "uiverse/radio-buttons/nasty-octopus-47-by-shadowfax29/", "description": "A radio button with radio, planet and simple-radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "planet", "simple-radio", "radio-buttons", "checked"], "colors": ["#e06be0", "#334155", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "neat-turkey-32-by-amit-dasit", "name": "Neat Turkey 32", "category": "radio-buttons", "author": "AmIt-DasIT", "link": "https://uiverse.io/AmIt-DasIT/neat-turkey-32", "path": "uiverse/radio-buttons/neat-turkey-32-by-amit-dasit/", "description": "A radio button with dark, shadow and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["dark", "shadow", "radio", "neumorphism", "radio-buttons", "checked"], "colors": ["#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "orange-eagle-19-by-yaya12085", "name": "Orange Eagle 19", "category": "radio-buttons", "author": "Yaya12085", "link": "https://uiverse.io/Yaya12085/orange-eagle-19", "path": "uiverse/radio-buttons/orange-eagle-19-by-yaya12085/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#353434", "#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "ordinary-stingray-85-by-csozidev", "name": "Ordinary Stingray 85", "category": "radio-buttons", "author": "csozidev", "link": "https://uiverse.io/csozidev/ordinary-stingray-85", "path": "uiverse/radio-buttons/ordinary-stingray-85-by-csozidev/", "description": "A radio button with simple, button and hover styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["simple", "button", "hover", "input", "radio", "gender"], "colors": ["#ff87bf", "#3d44ff", "#c9c600"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "perfect-cheetah-72-by-galahhad", "name": "Perfect Cheetah 72", "category": "radio-buttons", "author": "Galahhad", "link": "https://uiverse.io/Galahhad/perfect-cheetah-72", "path": "uiverse/radio-buttons/perfect-cheetah-72-by-galahhad/", "description": "A radio button with theme, theme-switch and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["theme", "theme-switch", "radio", "dropdown", "radio-buttons", "checked"], "colors": ["#e0e0e0", "#3a3a3a", "#a0a0a0"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "pink-ape-66-by-coding-masala", "name": "Pink Ape 66", "category": "radio-buttons", "author": "coding-masala", "link": "https://uiverse.io/coding-masala/pink-ape-66", "path": "uiverse/radio-buttons/pink-ape-66-by-coding-masala/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#555555", "#aaaaaa", "#dddddd"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "pink-dragon-17-by-andrew-demchenk0", "name": "Pink Dragon 17", "category": "radio-buttons", "author": "andrew-demchenk0", "link": "https://uiverse.io/andrew-demchenk0/pink-dragon-17", "path": "uiverse/radio-buttons/pink-dragon-17-by-andrew-demchenk0/", "description": "A radio button with glitch and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["glitch", "radio", "radio-buttons", "checked"], "colors": ["#ff184c", "#fded00", "#8b00ff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "polite-monkey-88-by-coding-masala", "name": "Polite Monkey 88", "category": "radio-buttons", "author": "coding-masala", "link": "https://uiverse.io/coding-masala/polite-monkey-88", "path": "uiverse/radio-buttons/polite-monkey-88-by-coding-masala/", "description": "A radio button with radio and advanced styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "advanced", "radio-buttons", "checked"], "colors": ["#ff1111", "#f1f1f1", "#cccccc"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "polite-rattlesnake-85-by-christosmourgelas", "name": "Polite Rattlesnake 85", "category": "radio-buttons", "author": "ChristosMourgelas", "link": "https://uiverse.io/ChristosMourgelas/polite-rattlesnake-85", "path": "uiverse/radio-buttons/polite-rattlesnake-85-by-christosmourgelas/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#4d4d4d", "#00b4ff", "#cccccc"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "popular-octopus-59-by-shoh2008", "name": "Popular Octopus 59", "category": "radio-buttons", "author": "Shoh2008", "link": "https://uiverse.io/Shoh2008/popular-octopus-59", "path": "uiverse/radio-buttons/popular-octopus-59-by-shoh2008/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#454857", "#bdbdbd", "#95d891"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "purple-gecko-48-by-escannord", "name": "Purple Gecko 48", "category": "radio-buttons", "author": "escannord", "link": "https://uiverse.io/escannord/purple-gecko-48", "path": "uiverse/radio-buttons/purple-gecko-48-by-escannord/", "description": "A radio button with simple, material-design and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["simple", "material-design", "radio", "payment", "radio-buttons", "checked"], "colors": ["#2f64d8", "#a1b0d8", "#bdbbcf"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "quiet-pug-68-by-peary74", "name": "Quiet Pug 68", "category": "radio-buttons", "author": "Peary74", "link": "https://uiverse.io/Peary74/quiet-pug-68", "path": "uiverse/radio-buttons/quiet-pug-68-by-peary74/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#fd9800", "#7e7e7e", "#181818"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "rare-eagle-99-by-safvan-tsy", "name": "Rare Eagle 99", "category": "radio-buttons", "author": "Safvan-tsy", "link": "https://uiverse.io/Safvan-tsy/rare-eagle-99", "path": "uiverse/radio-buttons/rare-eagle-99-by-safvan-tsy/", "description": "A radio button UI element.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio-buttons", "checked", "css"], "colors": ["#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "red-mayfly-78-by-shadowmurphy", "name": "Red Mayfly 78", "category": "radio-buttons", "author": "shadowmurphy", "link": "https://uiverse.io/shadowmurphy/red-mayfly-78", "path": "uiverse/radio-buttons/red-mayfly-78-by-shadowmurphy/", "description": "A radio button with profile, notification and github styling.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["profile", "notification", "github", "radio", "svg", "git"], "colors": ["#0d1117", "#21262c", "#1a1f24"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "rude-mouse-79-by-yaya12085", "name": "Rude Mouse 79", "category": "radio-buttons", "author": "Yaya12085", "link": "https://uiverse.io/Yaya12085/rude-mouse-79", "path": "uiverse/radio-buttons/rude-mouse-79-by-yaya12085/", "description": "A radio button with radio, select and tab styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "select", "tab", "radio-buttons", "checked"], "colors": ["#eeeeee", "#334155", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "selfish-ladybug-61-by-pradeepsaranbishnoi", "name": "Selfish Ladybug 61", "category": "radio-buttons", "author": "Pradeepsaranbishnoi", "link": "https://uiverse.io/Pradeepsaranbishnoi/selfish-ladybug-61", "path": "uiverse/radio-buttons/selfish-ladybug-61-by-pradeepsaranbishnoi/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#414181", "#00005c", "#d6d6e5"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "selfish-starfish-40-by-selfmadesystem", "name": "Selfish Starfish 40", "category": "radio-buttons", "author": "SelfMadeSystem", "link": "https://uiverse.io/SelfMadeSystem/selfish-starfish-40", "path": "uiverse/radio-buttons/selfish-starfish-40-by-selfmadesystem/", "description": "A radio button with star, radio and animated styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["star", "radio", "animated", "rate", "stars", "rating"], "colors": ["#666666", "#ffc73a"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "serious-monkey-58-by-wizard503", "name": "Serious Monkey 58", "category": "radio-buttons", "author": "wizard503", "link": "https://uiverse.io/wizard503/serious-monkey-58", "path": "uiverse/radio-buttons/serious-monkey-58-by-wizard503/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#2df4e9", "#ffff00", "#f07f90"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "serious-sheep-31-by-neerajbaniwal", "name": "Serious Sheep 31", "category": "radio-buttons", "author": "neerajbaniwal", "link": "https://uiverse.io/neerajbaniwal/serious-sheep-31", "path": "uiverse/radio-buttons/serious-sheep-31-by-neerajbaniwal/", "description": "A radio button with radio, submit and switcher styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "submit", "switcher", "html", "css", "3d-button"], "colors": ["#d1d9e6", "#ecf0f3", "#394a56"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "short-chipmunk-97-by-sanjanasogimatt", "name": "Short Chipmunk 97", "category": "radio-buttons", "author": "SanjanaSogimatt", "link": "https://uiverse.io/SanjanaSogimatt/short-chipmunk-97", "path": "uiverse/radio-buttons/short-chipmunk-97-by-sanjanasogimatt/", "description": "A radio button with neumorphism, skeuomorphism and minimalist styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["neumorphism", "skeuomorphism", "minimalist", "gradient", "button", "hover"], "colors": ["#cf6efb", "#4f29cd", "#464646"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "shy-walrus-83-by-whitenervosa", "name": "Shy Walrus 83", "category": "radio-buttons", "author": "WhiteNervosa", "link": "https://uiverse.io/WhiteNervosa/shy-walrus-83", "path": "uiverse/radio-buttons/shy-walrus-83-by-whitenervosa/", "description": "A radio button with checkbox, radio and multiple-option styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["checkbox", "radio", "multiple-option", "radio-buttons", "checked"], "colors": ["#2c2c2c", "#2d6737", "#34723f"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "silent-liger-85-by-yaya12085", "name": "Silent Liger 85", "category": "radio-buttons", "author": "Yaya12085", "link": "https://uiverse.io/Yaya12085/silent-liger-85", "path": "uiverse/radio-buttons/silent-liger-85-by-yaya12085/", "description": "A radio button with icon, radio and svg styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["icon", "radio", "svg", "vehicle", "radio-buttons", "checked"], "colors": ["#2260ff", "#b5bfd9", "#b5c9fc"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "silly-bulldog-25-by-aadium", "name": "Silly Bulldog 25", "category": "radio-buttons", "author": "aadium", "link": "https://uiverse.io/aadium/silly-bulldog-25", "path": "uiverse/radio-buttons/silly-bulldog-25-by-aadium/", "description": "A radio button with radio, futuristic and futuristic-radio-buttons styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "futuristic", "futuristic-radio-buttons", "radio-buttons", "checked"], "colors": ["#743ad5", "#d53a9d", "#212121"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "silly-insect-34-by-jkhuger", "name": "Silly Insect 34", "category": "radio-buttons", "author": "JkHuger", "link": "https://uiverse.io/JkHuger/silly-insect-34", "path": "uiverse/radio-buttons/silly-insect-34-by-jkhuger/", "description": "A radio button with select, option and emotion styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["select", "option", "emotion", "radio-buttons", "checked"], "colors": ["#000010", "#f2f2f2", "#00cc4f"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "silly-sheep-7-by-subaashbala", "name": "Silly Sheep 7", "category": "radio-buttons", "author": "Subaashbala", "link": "https://uiverse.io/Subaashbala/silly-sheep-7", "path": "uiverse/radio-buttons/silly-sheep-7-by-subaashbala/", "description": "A radio button with skeuomorphism, realistic and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["skeuomorphism", "realistic", "radio", "rotate", "click-effect", "radio-buttons"], "colors": ["#808080", "#cfc9bd", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "slimy-eel-61-by-watchakorn-18k", "name": "Slimy Eel 61", "category": "radio-buttons", "author": "watchakorn-18k", "link": "https://uiverse.io/watchakorn-18k/slimy-eel-61", "path": "uiverse/radio-buttons/slimy-eel-61-by-watchakorn-18k/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#ff3355", "#4433ee", "#860e22"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "slimy-warthog-37-by-pradeepsaranbishnoi", "name": "Slimy Warthog 37", "category": "radio-buttons", "author": "Pradeepsaranbishnoi", "link": "https://uiverse.io/Pradeepsaranbishnoi/slimy-warthog-37", "path": "uiverse/radio-buttons/slimy-warthog-37-by-pradeepsaranbishnoi/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#0043ed", "#2260ff", "#b5c9fc"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "slippery-chicken-56-by-shadowmurphy", "name": "Slippery Chicken 56", "category": "radio-buttons", "author": "shadowmurphy", "link": "https://uiverse.io/shadowmurphy/slippery-chicken-56", "path": "uiverse/radio-buttons/slippery-chicken-56-by-shadowmurphy/", "description": "A radio button with circle, radio and variations styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["circle", "radio", "radio-buttons", "variations", "checked"], "colors": ["#255ff4", "#17181c", "#e3e4e8"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "smart-fox-51-by-kyle1dev", "name": "Smart Fox 51", "category": "radio-buttons", "author": "kyle1dev", "link": "https://uiverse.io/kyle1dev/smart-fox-51", "path": "uiverse/radio-buttons/smart-fox-51-by-kyle1dev/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#007bff", "#333333", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "soft-baboon-75-by-lilarest", "name": "Soft Baboon 75", "category": "radio-buttons", "author": "LilaRest", "link": "https://uiverse.io/LilaRest/soft-baboon-75", "path": "uiverse/radio-buttons/soft-baboon-75-by-lilarest/", "description": "A radio button with neumorphism, skeuomorphism and glassmorphism styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["neumorphism", "skeuomorphism", "glassmorphism", "animation", "minimalist", "ball"], "colors": ["#f5f5f5", "#bebdbd", "#32325d"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "soft-firefox-40-by-elijahgummer", "name": "Soft Firefox 40", "category": "radio-buttons", "author": "elijahgummer", "link": "https://uiverse.io/elijahgummer/soft-firefox-40", "path": "uiverse/radio-buttons/soft-firefox-40-by-elijahgummer/", "description": "A radio button with simple, animation and jelly styling.", "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.", "trigger": "focus", "needsJs": false, "tags": ["simple", "animation", "jelly", "shadow", "modern", "radio"], "colors": ["#f4f4f4", "#efefef", "#ececec"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "sour-stingray-86-by-vk-uiux", "name": "Sour Stingray 86", "category": "radio-buttons", "author": "vk-uiux", "link": "https://uiverse.io/vk-uiux/sour-stingray-86", "path": "uiverse/radio-buttons/sour-stingray-86-by-vk-uiux/", "description": "A radio button with list, gradient and card styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["list", "gradient", "card", "radio", "animated", "radio-buttons"], "colors": ["#40fcaa", "#406ffc", "#e5e5e5"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "spicy-dingo-98-by-yaya12085", "name": "Spicy Dingo 98", "category": "radio-buttons", "author": "Yaya12085", "link": "https://uiverse.io/Yaya12085/spicy-dingo-98", "path": "uiverse/radio-buttons/spicy-dingo-98-by-yaya12085/", "description": "A radio button with button, hover and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["button", "hover", "radio", "futuristic", "radio-buttons", "checked"], "colors": ["#d4145a", "#bbbbbb", "#fbb03b"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "spicy-fish-10-by-andrew-demchenk0", "name": "Spicy Fish 10", "category": "radio-buttons", "author": "andrew-demchenk0", "link": "https://uiverse.io/andrew-demchenk0/spicy-fish-10", "path": "uiverse/radio-buttons/spicy-fish-10-by-andrew-demchenk0/", "description": "A radio button with neumorphism, realistic and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["neumorphism", "realistic", "radio", "radio-buttons", "checked"], "colors": ["#00ff00", "#323232", "#666666"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "stale-parrot-18-by-saiyed-tanvir", "name": "Stale Parrot 18", "category": "radio-buttons", "author": "Saiyed-Tanvir", "link": "https://uiverse.io/Saiyed-Tanvir/stale-parrot-18", "path": "uiverse/radio-buttons/stale-parrot-18-by-saiyed-tanvir/", "description": "A radio button with hover, glow and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["hover", "glow", "radio", "animated", "futuristic-radio-buttons", "custom"], "colors": ["#00ff6a", "#212121"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "stupid-kangaroo-64-by-arqui9897", "name": "Stupid Kangaroo 64", "category": "radio-buttons", "author": "Arqui9897", "link": "https://uiverse.io/Arqui9897/stupid-kangaroo-64", "path": "uiverse/radio-buttons/stupid-kangaroo-64-by-arqui9897/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#fa9115", "#faa91b", "#040404"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "stupid-seahorse-9-by-andrew-demchenk0", "name": "Stupid Seahorse 9", "category": "radio-buttons", "author": "andrew-demchenk0", "link": "https://uiverse.io/andrew-demchenk0/stupid-seahorse-9", "path": "uiverse/radio-buttons/stupid-seahorse-9-by-andrew-demchenk0/", "description": "A radio button with radio, select and options styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "select", "radio-buttons", "options", "checked"], "colors": ["#323232", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "tiny-tiger-4-by-pradeepsaranbishnoi", "name": "Tiny Tiger 4", "category": "radio-buttons", "author": "Pradeepsaranbishnoi", "link": "https://uiverse.io/Pradeepsaranbishnoi/tiny-tiger-4", "path": "uiverse/radio-buttons/tiny-tiger-4-by-pradeepsaranbishnoi/", "description": "A radio button with flashy, green and bubble styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["flashy", "green", "bubble", "radio", "click", "radio-buttons"], "colors": ["#61cea5", "#ff00ff", "#00ffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "tough-deer-65-by-3bdel3ziz-t", "name": "Tough Deer 65", "category": "radio-buttons", "author": "3bdel3ziz-T", "link": "https://uiverse.io/3bdel3ziz-T/tough-deer-65", "path": "uiverse/radio-buttons/tough-deer-65-by-3bdel3ziz-t/", "description": "A radio button with red, blue and social styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["red", "blue", "social", "smooth", "radio", "custom"], "colors": ["#3f3f3f", "#2196f3", "#ff3232"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "tough-parrot-85-by-shlomo20", "name": "Tough Parrot 85", "category": "radio-buttons", "author": "shlomo20", "link": "https://uiverse.io/shlomo20/tough-parrot-85", "path": "uiverse/radio-buttons/tough-parrot-85-by-shlomo20/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#7af4ec", "#e5719e", "#1a3271"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "tough-rat-92-by-yaya12085", "name": "Tough Rat 92", "category": "radio-buttons", "author": "Yaya12085", "link": "https://uiverse.io/Yaya12085/tough-rat-92", "path": "uiverse/radio-buttons/tough-rat-92-by-yaya12085/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#2ecc71", "#3498db", "#f1c40f"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "ugly-yak-75-by-cbolson", "name": "Ugly Yak 75", "category": "radio-buttons", "author": "cbolson", "link": "https://uiverse.io/cbolson/ugly-yak-75", "path": "uiverse/radio-buttons/ugly-yak-75-by-cbolson/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#666666", "#f33195", "#127acf"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "unlucky-goose-22-by-roroland", "name": "Unlucky Goose 22", "category": "radio-buttons", "author": "roroland", "link": "https://uiverse.io/roroland/unlucky-goose-22", "path": "uiverse/radio-buttons/unlucky-goose-22-by-roroland/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#777777", "#bbb013", "#c0a50e"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "unlucky-yak-48-by-aguerquin", "name": "Unlucky Yak 48", "category": "radio-buttons", "author": "aguerquin", "link": "https://uiverse.io/aguerquin/unlucky-yak-48", "path": "uiverse/radio-buttons/unlucky-yak-48-by-aguerquin/", "description": "A radio button with hover, radio and stars styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["hover", "radio", "stars", "rating", "radio-buttons", "checked"], "colors": ["#666666", "#ffa723", "#ff9e0b"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "warm-zebra-29-by-ahmed150up", "name": "Warm Zebra 29", "category": "radio-buttons", "author": "ahmed150up", "link": "https://uiverse.io/ahmed150up/warm-zebra-29", "path": "uiverse/radio-buttons/warm-zebra-29-by-ahmed150up/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#2ed573", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "wet-dragonfly-79-by-pradeepsaranbishnoi", "name": "Wet Dragonfly 79", "category": "radio-buttons", "author": "Pradeepsaranbishnoi", "link": "https://uiverse.io/Pradeepsaranbishnoi/wet-dragonfly-79", "path": "uiverse/radio-buttons/wet-dragonfly-79-by-pradeepsaranbishnoi/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#cccccc", "#5cb85c", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "wet-emu-59-by-ozgeozkaraa01", "name": "Wet Emu 59", "category": "radio-buttons", "author": "ozgeozkaraa01", "link": "https://uiverse.io/ozgeozkaraa01/wet-emu-59", "path": "uiverse/radio-buttons/wet-emu-59-by-ozgeozkaraa01/", "description": "A radio button with button, radio and hover-button styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["button", "radio", "hover-button", "radio-buttons", "checked"], "colors": ["#ffcc00", "#f2f2f2", "#333333"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "white-ape-33-by-yaroslavas2001", "name": "White Ape 33", "category": "radio-buttons", "author": "yaroslavas2001", "link": "https://uiverse.io/yaroslavas2001/white-ape-33", "path": "uiverse/radio-buttons/white-ape-33-by-yaroslavas2001/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#38c038", "#0068f1", "#edeaea"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "wicked-deer-90-by-whitenervosa", "name": "Wicked Deer 90", "category": "radio-buttons", "author": "WhiteNervosa", "link": "https://uiverse.io/WhiteNervosa/wicked-deer-90", "path": "uiverse/radio-buttons/wicked-deer-90-by-whitenervosa/", "description": "A radio button with radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio", "radio-buttons", "checked"], "colors": ["#2c2c2c", "#2d6737", "#34723f"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "wicked-liger-39-by-ayman-ashine", "name": "Wicked Liger 39", "category": "radio-buttons", "author": "ayman-ashine", "link": "https://uiverse.io/ayman-ashine/wicked-liger-39", "path": "uiverse/radio-buttons/wicked-liger-39-by-ayman-ashine/", "description": "A radio button UI element.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["radio-buttons", "checked", "css"], "colors": ["#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "wise-snake-15-by-pradeepsaranbishnoi", "name": "Wise Snake 15", "category": "radio-buttons", "author": "Pradeepsaranbishnoi", "link": "https://uiverse.io/Pradeepsaranbishnoi/wise-snake-15", "path": "uiverse/radio-buttons/wise-snake-15-by-pradeepsaranbishnoi/", "description": "A radio button with simple, animation and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["simple", "animation", "radio", "advanced", "radio-buttons", "checked"], "colors": ["#939393", "#009688"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "wonderful-owl-52-by-yaya12085", "name": "Wonderful Owl 52", "category": "radio-buttons", "author": "Yaya12085", "link": "https://uiverse.io/Yaya12085/wonderful-owl-52", "path": "uiverse/radio-buttons/wonderful-owl-52-by-yaya12085/", "description": "A radio button with button, input and radio styling.", "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.", "trigger": "checked", "needsJs": false, "tags": ["button", "input", "radio", "select", "animated", "design"], "colors": ["#cccccc", "#212121", "#81eb81"], "files": ["README.md", "index.html", "styles.css"], "issues": []}]}
+{
+ "category": "radio-buttons",
+ "count": 102,
+ "elements": [
+  {
+   "id": "angry-donkey-87-by-xuyeean",
+   "name": "Angry Donkey 87",
+   "category": "radio-buttons",
+   "author": "XuYeean",
+   "link": "https://uiverse.io/XuYeean/angry-donkey-87",
+   "path": "uiverse/radio-buttons/angry-donkey-87-by-xuyeean/",
+   "description": "Neon 3d teal radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, starts the light animation (animating). Clicking it toggles it: starts the light animation (animating), starts the Scale animation, box-shadow becomes 0 0 40px #48e9ff, inset 0 0 4px #48e9ff.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "teal",
+    "neon",
+    "3d",
+    "outlined",
+    "animated",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#48e9ff",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "tailwind": true
+  },
+  {
+   "id": "average-quail-26-by-javierbarroso",
+   "name": "Average Quail 26",
+   "category": "radio-buttons",
+   "author": "javierBarroso",
+   "link": "https://uiverse.io/javierBarroso/average-quail-26",
+   "path": "uiverse/radio-buttons/average-quail-26-by-javierbarroso/",
+   "description": "3d dark rounded dark green radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: box-shadow becomes inset -2px 2px 2px #fff9,\n    -5px 5px 5px #2225, transform becomes rotateY(0deg).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "3d",
+    "dark",
+    "rounded",
+    "radio-button",
+    "animation",
+    "button",
+    "modern",
+    "radio",
+    "toggle"
+   ],
+   "colors": [
+    "#222222",
+    "#111111",
+    "#008000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "bad-starfish-74-by-shoh2008",
+   "name": "Bad Starfish 74",
+   "category": "radio-buttons",
+   "author": "Shoh2008",
+   "link": "https://uiverse.io/Shoh2008/bad-starfish-74",
+   "path": "uiverse/radio-buttons/bad-starfish-74-by-shoh2008/",
+   "description": "Gradient rounded white radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it switches it on or off; its CSS has no :checked rule that changes a visible property.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "gradient",
+    "rounded",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "big-swan-35-by-pradeepsaranbishnoi",
+   "name": "Big Swan 35",
+   "category": "radio-buttons",
+   "author": "Pradeepsaranbishnoi",
+   "link": "https://uiverse.io/Pradeepsaranbishnoi/big-swan-35",
+   "path": "uiverse/radio-buttons/big-swan-35-by-pradeepsaranbishnoi/",
+   "description": "Dark pill red radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: opacity becomes 1, transform becomes translateX(2px) translateY(2px), transform becomes translateX(63px) translateY(13px) rotate(-32deg) scaleY(1.2).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "dark",
+    "rounded",
+    "pill",
+    "flat",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#111111",
+    "#ff0000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "bitter-rabbit-96-by-pradeepsaranbishnoi",
+   "name": "Bitter Rabbit 96",
+   "category": "radio-buttons",
+   "author": "Pradeepsaranbishnoi",
+   "link": "https://uiverse.io/Pradeepsaranbishnoi/bitter-rabbit-96",
+   "path": "uiverse/radio-buttons/bitter-rabbit-96-by-pradeepsaranbishnoi/",
+   "description": "Outlined cyan radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: background-color changes to #079ad9, border becomes 2px solid #079ad9, text color changes from #079ad9 to #ffffff.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "cyan",
+    "outlined",
+    "flat",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#079ad9",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "black-husky-57-by-pradeepsaranbishnoi",
+   "name": "Black Husky 57",
+   "category": "radio-buttons",
+   "author": "Pradeepsaranbishnoi",
+   "link": "https://uiverse.io/Pradeepsaranbishnoi/black-husky-57",
+   "path": "uiverse/radio-buttons/black-husky-57-by-pradeepsaranbishnoi/",
+   "description": "Outlined pill indigo radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: starts the stretch-animate animation (pulsing).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "indigo",
+    "blue",
+    "outlined",
+    "rounded",
+    "pill",
+    "pulse",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#4f29f0",
+    "#414856",
+    "#7c96b2"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "clever-cheetah-40-by-tsiangana",
+   "name": "Clever Cheetah 40",
+   "category": "radio-buttons",
+   "author": "Tsiangana",
+   "link": "https://uiverse.io/Tsiangana/clever-cheetah-40",
+   "path": "uiverse/radio-buttons/clever-cheetah-40-by-tsiangana/",
+   "description": "Neon gradient 3d pill sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: background-color changes from #4a9ce9 to #fff, z-index becomes 500, width becomes 10px.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "neon",
+    "gradient",
+    "3d",
+    "rounded",
+    "pill",
+    "bounce",
+    "slide",
+    "radio-button",
+    "futuristic"
+   ],
+   "colors": [
+    "#4a9ce9",
+    "#cacaca",
+    "#f0f0f0"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "clever-elephant-35-by-andrew-demchenk0",
+   "name": "Clever Elephant 35",
+   "category": "radio-buttons",
+   "author": "andrew-demchenk0",
+   "link": "https://uiverse.io/andrew-demchenk0/clever-elephant-35",
+   "path": "uiverse/radio-buttons/clever-elephant-35-by-andrew-demchenk0/",
+   "description": "Amber radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, text color changes to #e58e09, text color changes to #ff9e0b. Clicking it toggles it: font-size becomes 30px, text color changes to #666, text color changes to #e58e09.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "amber",
+    "flat",
+    "color-change",
+    "rating",
+    "radio-button",
+    "radio",
+    "stars",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#666666",
+    "#e58e09",
+    "#ff9e0b"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "cold-bobcat-20-by-admin12121",
+   "name": "Cold Bobcat 20",
+   "category": "radio-buttons",
+   "author": "Admin12121",
+   "link": "https://uiverse.io/Admin12121/cold-bobcat-20",
+   "path": "uiverse/radio-buttons/cold-bobcat-20-by-admin12121/",
+   "description": "Red radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background changes from hsl(0 0% 0%) to hsl(0 0% 20%). Clicking it toggles it: background changes from hsl(0 0% 0%) to hsl(0 0% 20%). On focus, outline-color becomes #ff0000.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "flat",
+    "color-change",
+    "radio-button",
+    "simple",
+    "material-design",
+    "checkbox",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#333333",
+    "#ff0000",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "SF Pro Text"
+   ]
+  },
+  {
+   "id": "cold-mayfly-100-by-praashoo7",
+   "name": "Cold Mayfly 100",
+   "category": "radio-buttons",
+   "author": "Praashoo7",
+   "link": "https://uiverse.io/Praashoo7/cold-mayfly-100",
+   "path": "uiverse/radio-buttons/cold-mayfly-100-by-praashoo7/",
+   "description": "Dark red radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, scale becomes 1.2, box-shadow becomes none. Clicking it toggles it: box-shadow becomes none, transform becomes rotate(180deg), scale becomes 1.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "dark",
+    "glow",
+    "radio-button",
+    "neumorphism",
+    "realistic",
+    "radio",
+    "cross",
+    "radio-buttons"
+   ],
+   "colors": [
+    "#ff0000",
+    "#171717",
+    "#050505"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "cold-rabbit-43-by-ratinax",
+   "name": "Cold Rabbit 43",
+   "category": "radio-buttons",
+   "author": "Ratinax",
+   "link": "https://uiverse.io/Ratinax/cold-rabbit-43",
+   "path": "uiverse/radio-buttons/cold-rabbit-43-by-ratinax/",
+   "description": "Yellow radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: starts the rotate animation (rotating), transform becomes rotate(360deg).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "yellow",
+    "flat",
+    "spin",
+    "rating",
+    "radio-button",
+    "radio-buttons",
+    "checked",
+    "css"
+   ],
+   "colors": [
+    "#ffff00",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "cuddly-sheep-92-by-pradeepsaranbishnoi",
+   "name": "Cuddly Sheep 92",
+   "category": "radio-buttons",
+   "author": "Pradeepsaranbishnoi",
+   "link": "https://uiverse.io/Pradeepsaranbishnoi/cuddly-sheep-92",
+   "path": "uiverse/radio-buttons/cuddly-sheep-92-by-pradeepsaranbishnoi/",
+   "description": "Gradient rounded gray radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: box-shadow becomes 0.1em 0 0 #272626af inset,\n\t\t\t-0.1em 0 0 #272626 inset,\n\t\t\t0 0.1em 0 #847a62 inset,\n\t\t\t0 -0.1em 0 #0000007f,\n\t\t\t0 0.1em 0 #0000007f,\n\t\t\t0 -0.1em 0 #722257 inset,\n\t\t\t-0.1em -0.2em 0 #ffffff7f inset,\n\t\t\t0.2em 0 0 #ffffff7f inset, box-shadow becomes 0.1em 0 0 #272626af inset,\n\t\t\t-0.1em 0 0 #272626 inset,\n\t\t\t0 -0.1em 0 #722257 inset,\n\t\t\t0 0.1em 0 #847a62 inset,\n\t\t\t-0.1em 0 0 #847a62 inset,\n\t\t\t0 -0.1em 0 #0000001f,\n\t\t\t0 0.1em 0 #0000007f,\n\t\t\t-0.1em -0.1em 0 0.1em #ffffff7f inset, box-shadow becomes 0.1em 0 0 #272626af inset,\n\t\t\t-0.1em 0 0 #272626af inset,\n\t\t\t0 0.1em 0 #847a62 inset,\n\t\t\t0 -0.1em 0 #0000007f,\n\t\t\t0 0.1em 0 #0000007f,\n\t\t\t0 -0.1em 0 #722257 inset,\n\t\t\t-0.1em -0.2em 0 #ffffff7f inset. On focus, outline becomes transparent.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "gradient",
+    "rounded",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#272626",
+    "#afa490",
+    "#847a62"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "curly-duck-62-by-3bdel3ziz-t",
+   "name": "Curly Duck 62",
+   "category": "radio-buttons",
+   "author": "3bdel3ziz-T",
+   "link": "https://uiverse.io/3bdel3ziz-T/curly-duck-62",
+   "path": "uiverse/radio-buttons/curly-duck-62-by-3bdel3ziz-t/",
+   "description": "Rounded gray radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it switches it on or off and it holds that state.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "rounded",
+    "radio-button",
+    "radio-buttons",
+    "checked",
+    "css"
+   ],
+   "colors": [
+    "#374151",
+    "#ffffff",
+    "#000000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "tailwind": true
+  },
+  {
+   "id": "curvy-vampirebat-60-by-gharsh11032000",
+   "name": "Curvy Vampirebat 60",
+   "category": "radio-buttons",
+   "author": "gharsh11032000",
+   "link": "https://uiverse.io/gharsh11032000/curvy-vampirebat-60",
+   "path": "uiverse/radio-buttons/curvy-vampirebat-60-by-gharsh11032000/",
+   "description": "Neon pill sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, transform becomes translateY(-50%) scale(1.2), border-color becomes #4c8bf5, box-shadow becomes 0 0 10px #4c8bf580. Clicking it toggles it: transform becomes translateY(-50%) scale(0.9), border becomes 5px solid #4c8bf5, text color changes from #fff to #4c8bf5.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "neon",
+    "outlined",
+    "rounded",
+    "pill",
+    "scale",
+    "lift",
+    "glow",
+    "next",
+    "radio-button"
+   ],
+   "colors": [
+    "#4c8bf5",
+    "#555555",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "dry-elephant-32-by-andrew-demchenk0",
+   "name": "Dry Elephant 32",
+   "category": "radio-buttons",
+   "author": "andrew-demchenk0",
+   "link": "https://uiverse.io/andrew-demchenk0/dry-elephant-32",
+   "path": "uiverse/radio-buttons/dry-elephant-32-by-andrew-demchenk0/",
+   "description": "Neon pill red radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, transform becomes scale(1.05). Clicking it toggles it: top becomes 19px, right becomes 19px, width becomes 12px.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "amber",
+    "neon",
+    "outlined",
+    "rounded",
+    "pill",
+    "scale",
+    "pricing",
+    "radio-button",
+    "radio"
+   ],
+   "colors": [
+    "#ff0000",
+    "#ffa500",
+    "#008000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "dull-lizard-58-by-jkhuger",
+   "name": "Dull Lizard 58",
+   "category": "radio-buttons",
+   "author": "JkHuger",
+   "link": "https://uiverse.io/JkHuger/dull-lizard-58",
+   "path": "uiverse/radio-buttons/dull-lizard-58-by-jkhuger/",
+   "description": "Outlined pill gray radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, transform becomes translateY(-2px). Clicking it toggles it: transform becomes translate(-50%, -50%) scale(1).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "outlined",
+    "rounded",
+    "pill",
+    "flat",
+    "lift",
+    "radio-button",
+    "radio",
+    "male",
+    "female",
+    "non-binary"
+   ],
+   "colors": [
+    "#333333",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "empty-badger-73-by-yaya12085",
+   "name": "Empty Badger 73",
+   "category": "radio-buttons",
+   "author": "Yaya12085",
+   "link": "https://uiverse.io/Yaya12085/empty-badger-73",
+   "path": "uiverse/radio-buttons/empty-badger-73-by-yaya12085/",
+   "description": "Neon rounded red radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background-color changes from #fff to #181818, border becomes 1px solid #bbb. Clicking it toggles it: border-color becomes #ff0000, text color changes from #ff0000 to #ff0000, border-color becomes #16f516.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "neon",
+    "rounded",
+    "color-change",
+    "radio-button",
+    "progress",
+    "card",
+    "shadow",
+    "radio",
+    "quizz"
+   ],
+   "colors": [
+    "#ff0000",
+    "#bbbbbb",
+    "#313131"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "fast-turtle-85-by-na3ar-17",
+   "name": "Fast Turtle 85",
+   "category": "radio-buttons",
+   "author": "Na3ar-17",
+   "link": "https://uiverse.io/Na3ar-17/fast-turtle-85",
+   "path": "uiverse/radio-buttons/fast-turtle-85-by-na3ar-17/",
+   "description": "Dark pill blue radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background-color changes from #202030 to #2a2e3c. Clicking it toggles it: background-color changes from #202030 to #2d3750, border-color becomes #435dd8, height becomes 50px.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "dark",
+    "rounded",
+    "pill",
+    "color-change",
+    "radio-button",
+    "simple",
+    "black",
+    "input",
+    "radio"
+   ],
+   "colors": [
+    "#435dd8",
+    "#2a2e3c",
+    "#2d3750"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "fat-bullfrog-40-by-selfmadesystem",
+   "name": "Fat Bullfrog 40",
+   "category": "radio-buttons",
+   "author": "SelfMadeSystem",
+   "link": "https://uiverse.io/SelfMadeSystem/fat-bullfrog-40",
+   "path": "uiverse/radio-buttons/fat-bullfrog-40-by-selfmadesystem/",
+   "description": "Pill sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: background-color changes to #4a9ce9, filter becomes drop-shadow(0 0 10px #4a9ce9).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "rounded",
+    "pill",
+    "flat",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#4a9ce9",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "fat-termite-40-by-aboalsim114",
+   "name": "Fat Termite 40",
+   "category": "radio-buttons",
+   "author": "aboalsim114",
+   "link": "https://uiverse.io/aboalsim114/fat-termite-40",
+   "path": "uiverse/radio-buttons/fat-termite-40-by-aboalsim114/",
+   "description": "Gradient pill orange radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: background changes from linear-gradient(135deg, #4CAF50 0%, #81C784 100%) to linear-gradient(135deg, #FF5722 0%, #FF7043 100%), box-shadow becomes 0 10px 20px #ff5722, transform becomes scale(1.2).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "orange",
+    "green",
+    "gradient",
+    "rounded",
+    "pill",
+    "fade",
+    "pulse",
+    "radio-button",
+    "radio",
+    "radio-buttons"
+   ],
+   "colors": [
+    "#ff5722",
+    "#4caf50",
+    "#81c784"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "tailwind": true
+  },
+  {
+   "id": "fluffy-catfish-36-by-sandeepgopan",
+   "name": "Fluffy Catfish 36",
+   "category": "radio-buttons",
+   "author": "sandeepgopan",
+   "link": "https://uiverse.io/sandeepgopan/fluffy-catfish-36",
+   "path": "uiverse/radio-buttons/fluffy-catfish-36-by-sandeepgopan/",
+   "description": "Rounded red radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, box-shadow becomes inset 4px 4px 12px #afaeae,inset -4px -4px 12px #ffffffc9, border-radius becomes 100px. Clicking it toggles it: text color changes from hsl(0, 0%, 50%) to #E41C23.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "rounded",
+    "glow",
+    "radio-button",
+    "input",
+    "theme-switch",
+    "radio",
+    "futuristic-radio-buttons",
+    "radio-buttons"
+   ],
+   "colors": [
+    "#808080",
+    "#afaeae",
+    "#e41c23"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "Courier New",
+    "Franklin Gothic Medium"
+   ]
+  },
+  {
+   "id": "foolish-donkey-86-by-jaydipprajapati1910",
+   "name": "Foolish Donkey 86",
+   "category": "radio-buttons",
+   "author": "JaydipPrajapati1910",
+   "link": "https://uiverse.io/JaydipPrajapati1910/foolish-donkey-86",
+   "path": "uiverse/radio-buttons/foolish-donkey-86-by-jaydipprajapati1910/",
+   "description": "Dark pill yellow radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, scale becomes 1.2, box-shadow becomes none. Clicking it toggles it: box-shadow becomes none, border becomes 1px solid #ffff00, transform becomes rotate(360deg).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "yellow",
+    "dark",
+    "rounded",
+    "pill",
+    "glow",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#ffff00",
+    "#171717",
+    "#050505"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "friendly-panther-39-by-mijailvillegas",
+   "name": "Friendly Panther 39",
+   "category": "radio-buttons",
+   "author": "MijailVillegas",
+   "link": "https://uiverse.io/MijailVillegas/friendly-panther-39",
+   "path": "uiverse/radio-buttons/friendly-panther-39-by-mijailvillegas/",
+   "description": "Gradient dark cyan radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: background-color changes from #212121 to #4090b5, background changes from transparent to repeating-linear-gradient(to bottom, transparent 0%, #4090b5 1px, #4090b5 3px, #4090b5 5px, #4090b5 4px, transparent 0.5%), repeating-linear-gradient(to left, hsl(295, 60%, 12%) 100%, hsl(295, 60%, 12%) 100%), box-shadow becomes inset 0 40px 20px hsl(296, 59%, 10%).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "cyan",
+    "purple",
+    "gradient",
+    "dark",
+    "outlined",
+    "spin",
+    "radio-button",
+    "cyberpunk",
+    "neon",
+    "radio"
+   ],
+   "colors": [
+    "#4090b5",
+    "#9e30a9",
+    "#2e0c31"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "Segoe UI"
+   ]
+  },
+  {
+   "id": "fuzzy-yak-55-by-werlynrodriguez",
+   "name": "Fuzzy Yak 55",
+   "category": "radio-buttons",
+   "author": "WerlynRodriguez",
+   "link": "https://uiverse.io/WerlynRodriguez/fuzzy-yak-55",
+   "path": "uiverse/radio-buttons/fuzzy-yak-55-by-werlynrodriguez/",
+   "description": "Outlined pill dark purple radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: opacity becomes 1, transform becomes scale(1) rotate(0deg), border becomes calc(0.3em / 2) solid #fff.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "purple",
+    "outlined",
+    "rounded",
+    "pill",
+    "flat",
+    "spin",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#7d008b",
+    "#d303ea",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "monospace"
+   ]
+  },
+  {
+   "id": "gentle-vampirebat-46-by-3bdel3ziz-t",
+   "name": "Gentle Vampirebat 46",
+   "category": "radio-buttons",
+   "author": "3bdel3ziz-T",
+   "link": "https://uiverse.io/3bdel3ziz-T/gentle-vampirebat-46",
+   "path": "uiverse/radio-buttons/gentle-vampirebat-46-by-3bdel3ziz-t/",
+   "description": "Dark gray radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, opacity becomes 1, top becomes 0, transform becomes rotate(0deg).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "dark",
+    "flat",
+    "fade",
+    "rotate",
+    "color-change",
+    "radio-button",
+    "simple",
+    "minimalist",
+    "input",
+    "light"
+   ],
+   "colors": [
+    "#2a2f3b",
+    "#323741",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "giant-jellyfish-3-by-lilarest",
+   "name": "Giant Jellyfish 3",
+   "category": "radio-buttons",
+   "author": "LilaRest",
+   "link": "https://uiverse.io/LilaRest/giant-jellyfish-3",
+   "path": "uiverse/radio-buttons/giant-jellyfish-3-by-lilarest/",
+   "description": "Glass rounded white radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: transform becomes translateX(0px).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "glassmorphism",
+    "rounded",
+    "radio-button",
+    "radio-buttons",
+    "checked",
+    "css"
+   ],
+   "colors": [
+    "#f5f5f5",
+    "#808080",
+    "#bebdbd"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "monospace"
+   ]
+  },
+  {
+   "id": "good-newt-78-by-navarog21",
+   "name": "Good Newt 78",
+   "category": "radio-buttons",
+   "author": "Navarog21",
+   "link": "https://uiverse.io/Navarog21/good-newt-78",
+   "path": "uiverse/radio-buttons/good-newt-78-by-navarog21/",
+   "description": "Neon gradient cyan radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, transform becomes scale(0.8), box-shadow becomes 0 20px 20px #00c6fb. Clicking it toggles it: filter becomes hue-rotate(330deg), starts the 2s animation, transform becomes scale(0.8).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "cyan",
+    "neon",
+    "gradient",
+    "dark",
+    "shrink",
+    "glow",
+    "pulse",
+    "spin",
+    "radio-button",
+    "radio-buttons"
+   ],
+   "colors": [
+    "#212121",
+    "#00c6fb",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "good-quail-97-by-radwakhalil22",
+   "name": "Good Quail 97",
+   "category": "radio-buttons",
+   "author": "radwakhalil22",
+   "link": "https://uiverse.io/radwakhalil22/good-quail-97",
+   "path": "uiverse/radio-buttons/good-quail-97-by-radwakhalil22/",
+   "description": "Pill black radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, opacity becomes 1, font-weight becomes 700, transform becomes scale(0.9). Clicking it toggles it: width becomes 100%, height becomes 100%, border-radius becomes 50%.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "rounded",
+    "pill",
+    "fade",
+    "shrink",
+    "color-change",
+    "radio-button",
+    "radio-buttons",
+    "checked",
+    "css"
+   ],
+   "colors": [
+    "#051310",
+    "#c3bacc",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "Arial"
+   ]
+  },
+  {
+   "id": "great-badger-21-by-asgardop",
+   "name": "Great Badger 21",
+   "category": "radio-buttons",
+   "author": "asgardOP",
+   "link": "https://uiverse.io/asgardOP/great-badger-21",
+   "path": "uiverse/radio-buttons/great-badger-21-by-asgardop/",
+   "description": "Outlined rounded fuchsia radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, text color changes to #eb28b0, opacity becomes 100%. Clicking it toggles it: text color changes to #eb28b0.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "fuchsia",
+    "blue",
+    "outlined",
+    "rounded",
+    "color-change",
+    "fade",
+    "radio-button",
+    "button",
+    "smooth",
+    "radio"
+   ],
+   "colors": [
+    "#eb28b0",
+    "#1f2937",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "tailwind": true
+  },
+  {
+   "id": "green-chicken-4-by-hoshikawamaki",
+   "name": "Green Chicken 4",
+   "category": "radio-buttons",
+   "author": "hoshikawamaki",
+   "link": "https://uiverse.io/hoshikawamaki/green-chicken-4",
+   "path": "uiverse/radio-buttons/green-chicken-4-by-hoshikawamaki/",
+   "description": "Gradient rounded violet radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it switches it on or off and it holds that state.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "violet",
+    "gradient",
+    "rounded",
+    "radio-button",
+    "radio-buttons",
+    "checked",
+    "css"
+   ],
+   "colors": [
+    "#374151",
+    "#c084fc"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "tailwind": true
+  },
+  {
+   "id": "green-lizard-94-by-smookydev",
+   "name": "Green Lizard 94",
+   "category": "radio-buttons",
+   "author": "SmookyDev",
+   "link": "https://uiverse.io/SmookyDev/green-lizard-94",
+   "path": "uiverse/radio-buttons/green-lizard-94-by-smookydev/",
+   "description": "Rounded white radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background changes. On focus, a ring appears. Clicking it switches it on or off and it holds that state.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "rounded",
+    "color-change",
+    "ring",
+    "google",
+    "radio-button",
+    "radio-buttons",
+    "checked",
+    "css"
+   ],
+   "colors": [
+    "#f8fafc",
+    "#6b7280"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "tailwind": true
+  },
+  {
+   "id": "green-wasp-49-by-yaya12085",
+   "name": "Green Wasp 49",
+   "category": "radio-buttons",
+   "author": "Yaya12085",
+   "link": "https://uiverse.io/Yaya12085/green-wasp-49",
+   "path": "uiverse/radio-buttons/green-wasp-49-by-yaya12085/",
+   "description": "Rounded cyan radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: text color changes from #000000 to #fff, transform becomes translateY(calc(300px * 0 / 3)), background-color changes from #fff to #000000.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "cyan",
+    "amber",
+    "rounded",
+    "flat",
+    "radio-button",
+    "radio",
+    "select",
+    "animated",
+    "click-animation",
+    "radio-buttons"
+   ],
+   "colors": [
+    "#353434",
+    "#1f9cf1",
+    "#ff9801"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "hard-vampirebat-36-by-adamgiebl",
+   "name": "Hard Vampirebat 36",
+   "category": "radio-buttons",
+   "author": "adamgiebl",
+   "link": "https://uiverse.io/adamgiebl/hard-vampirebat-36",
+   "path": "uiverse/radio-buttons/hard-vampirebat-36-by-adamgiebl/",
+   "description": "Gradient rounded white radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, transform becomes translateY(-6px), transform becomes translateY(4px). Clicking it toggles it: opacity becomes 1, starts the fly-up animation (animating).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "gradient",
+    "outlined",
+    "rounded",
+    "lift",
+    "drop",
+    "radio-button",
+    "skeuomorphism",
+    "realistic",
+    "neon",
+    "radio"
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "tailwind": true
+  },
+  {
+   "id": "heavy-dragonfly-92-by-pradeepsaranbishnoi",
+   "name": "Heavy Dragonfly 92",
+   "category": "radio-buttons",
+   "author": "Pradeepsaranbishnoi",
+   "link": "https://uiverse.io/Pradeepsaranbishnoi/heavy-dragonfly-92",
+   "path": "uiverse/radio-buttons/heavy-dragonfly-92-by-pradeepsaranbishnoi/",
+   "description": "Neon pill sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: text color changes from #000000 to #185ee0, background-color changes from #e6eef9 to #185ee0, text color changes from #000000 to #fff.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "neon",
+    "rounded",
+    "pill",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#185ee0",
+    "#e6eef9",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "helpless-termite-82-by-slowless0",
+   "name": "Helpless Termite 82",
+   "category": "radio-buttons",
+   "author": "SlowLess0",
+   "link": "https://uiverse.io/SlowLess0/helpless-termite-82",
+   "path": "uiverse/radio-buttons/helpless-termite-82-by-slowless0/",
+   "description": "Gradient rounded teal radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background changes from linear-gradient(to right bottom, hsl(172, 97%, 62%), hsl(251, 97%, 62%)) to hsla(0, 0%, 40%, .14). Clicking it toggles it: transform becomes scale(0), text color changes from hsl(0, 0%, 60%) to hsl(0, 0%, 40%). On focus, background changes from linear-gradient(to right bottom, hsl(172, 97%, 62%), hsl(251, 97%, 62%)) to hsla(0, 0%, 40%, .14).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "teal",
+    "indigo",
+    "gradient",
+    "rounded",
+    "flat",
+    "color-change",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#666666",
+    "#40fce3",
+    "#6340fc"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "hot-bird-10-by-andrew-demchenk0",
+   "name": "Hot Bird 10",
+   "category": "radio-buttons",
+   "author": "andrew-demchenk0",
+   "link": "https://uiverse.io/andrew-demchenk0/hot-bird-10",
+   "path": "uiverse/radio-buttons/hot-bird-10-by-andrew-demchenk0/",
+   "description": "Outlined pill gray radio button that reacts on hover.",
+   "howItWorks": "Its CSS has no :hover rule that changes a visible property; hovering it shows no change.",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "outlined",
+    "rounded",
+    "pill",
+    "flat",
+    "radio-button",
+    "simple",
+    "theme-switch",
+    "radio",
+    "buttons",
+    "template"
+   ],
+   "colors": [
+    "#808080",
+    "#323232",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "hungry-bat-66-by-pradeepsaranbishnoi",
+   "name": "Hungry Bat 66",
+   "category": "radio-buttons",
+   "author": "Pradeepsaranbishnoi",
+   "link": "https://uiverse.io/Pradeepsaranbishnoi/hungry-bat-66",
+   "path": "uiverse/radio-buttons/hungry-bat-66-by-pradeepsaranbishnoi/",
+   "description": "Neon gradient orange radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: transform becomes rotate(-90deg), transform becomes rotate(-30deg), transform becomes rotate(30deg).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "orange",
+    "neon",
+    "gradient",
+    "dark",
+    "outlined",
+    "radio-button",
+    "switch",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#f2f6f5",
+    "#cbd5d6",
+    "#ff5500"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "itchy-mouse-15-by-ratinax",
+   "name": "Itchy Mouse 15",
+   "category": "radio-buttons",
+   "author": "Ratinax",
+   "link": "https://uiverse.io/Ratinax/itchy-mouse-15",
+   "path": "uiverse/radio-buttons/itchy-mouse-15-by-ratinax/",
+   "description": "Neon pill red radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background-color changes from #009900 to #ff0000, background-color changes from #009900 to #ffa500, background-color changes from #009900 to #00ff00. Clicking it toggles it: background-color changes from #009900 to #ff0000, box-shadow becomes 0 0 2em #ff0000, background-color changes from #009900 to #ffa500.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "amber",
+    "neon",
+    "rounded",
+    "pill",
+    "color-change",
+    "radio-button",
+    "radio",
+    "buttons",
+    "traffic-light"
+   ],
+   "colors": [
+    "#ff0000",
+    "#ffa500",
+    "#00ff00"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "jolly-liger-24-by-cybercom682",
+   "name": "Jolly Liger 24",
+   "category": "radio-buttons",
+   "author": "Cybercom682",
+   "link": "https://uiverse.io/Cybercom682/jolly-liger-24",
+   "path": "uiverse/radio-buttons/jolly-liger-24-by-cybercom682/",
+   "description": "Pill red radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it switches it on or off and it holds that state.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "amber",
+    "rounded",
+    "pill",
+    "radio-button",
+    "radio-buttons",
+    "checked",
+    "css"
+   ],
+   "colors": [
+    "#ef4444",
+    "#eab308",
+    "#22c55e"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "tailwind": true
+  },
+  {
+   "id": "lovely-goose-53-by-spacious74",
+   "name": "Lovely Goose 53",
+   "category": "radio-buttons",
+   "author": "Spacious74",
+   "link": "https://uiverse.io/Spacious74/lovely-goose-53",
+   "path": "uiverse/radio-buttons/lovely-goose-53-by-spacious74/",
+   "description": "Outlined rounded green radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, text color changes to #fff, text color changes to #1d1d29. Clicking it toggles it: background-color changes from #70c489 to #e8e8e8, font-weight becomes 600, text color changes to #1d1d29.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "outlined",
+    "rounded",
+    "color-change",
+    "radio-button",
+    "radio",
+    "menu",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#e8e8e8",
+    "#70c489",
+    "#1d1d29"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "lucky-bobcat-25-by-andrew-demchenk0",
+   "name": "Lucky Bobcat 25",
+   "category": "radio-buttons",
+   "author": "andrew-demchenk0",
+   "link": "https://uiverse.io/andrew-demchenk0/lucky-bobcat-25",
+   "path": "uiverse/radio-buttons/lucky-bobcat-25-by-andrew-demchenk0/",
+   "description": "Green radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: starts the glitch animation (animating).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "pink",
+    "flat",
+    "radio-button",
+    "cyberpunk",
+    "neon",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#00e572",
+    "#cc133c",
+    "#f5f53d"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "lucky-bullfrog-15-by-3bdel3ziz-t",
+   "name": "Lucky Bullfrog 15",
+   "category": "radio-buttons",
+   "author": "3bdel3ziz-T",
+   "link": "https://uiverse.io/3bdel3ziz-T/lucky-bullfrog-15",
+   "path": "uiverse/radio-buttons/lucky-bullfrog-15-by-3bdel3ziz-t/",
+   "description": "Rounded orange radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, opacity becomes 0.6. Clicking it toggles it: opacity becomes 0.6, scale becomes 1.2, width becomes 100%.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "orange",
+    "rounded",
+    "flat",
+    "fade",
+    "cart",
+    "home",
+    "radio-button",
+    "switch",
+    "radio",
+    "svg"
+   ],
+   "colors": [
+    "#d17842",
+    "#0c0f14",
+    "#aeaeae"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "lucky-moth-60-by-spj2401dev",
+   "name": "Lucky Moth 60",
+   "category": "radio-buttons",
+   "author": "spj2401Dev",
+   "link": "https://uiverse.io/spj2401Dev/lucky-moth-60",
+   "path": "uiverse/radio-buttons/lucky-moth-60-by-spj2401dev/",
+   "description": "Outlined rounded dark sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: background-color changes from #385c7e to #ffffff, text color changes from #ffffff to #02375a, border becomes 1px solid #2b426d.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "cyan",
+    "outlined",
+    "rounded",
+    "radio-button",
+    "radio-buttons",
+    "checked",
+    "css"
+   ],
+   "colors": [
+    "#2b426d",
+    "#385c7e",
+    "#02375a"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "massive-turtle-43-by-aadium",
+   "name": "Massive Turtle 43",
+   "category": "radio-buttons",
+   "author": "aadium",
+   "link": "https://uiverse.io/aadium/massive-turtle-43",
+   "path": "uiverse/radio-buttons/massive-turtle-43-by-aadium/",
+   "description": "Outlined lime radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, border becomes 3px solid #78cce2, background-color changes from transparent to #78cce2, border becomes 3px solid #defe47. Clicking it toggles it: transform becomes scale(1).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "lime",
+    "purple",
+    "outlined",
+    "color-change",
+    "radio-button",
+    "cyberpunk",
+    "radio",
+    "futuristic",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#defe47",
+    "#f887ff",
+    "#78cce2"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "mean-dodo-99-by-praashoo7",
+   "name": "Mean Dodo 99",
+   "category": "radio-buttons",
+   "author": "Praashoo7",
+   "link": "https://uiverse.io/Praashoo7/mean-dodo-99",
+   "path": "uiverse/radio-buttons/mean-dodo-99-by-praashoo7/",
+   "description": "Neon gradient pill red radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: starts the flicker animation (fading), opacity becomes 1, opacity becomes 0.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "neon",
+    "gradient",
+    "dark",
+    "rounded",
+    "pill",
+    "fade",
+    "back",
+    "radio-button",
+    "realistic"
+   ],
+   "colors": [
+    "#47434c",
+    "#171717",
+    "#9b0621"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "mighty-wasp-74-by-nlghtm4re",
+   "name": "Mighty Wasp 74",
+   "category": "radio-buttons",
+   "author": "NlghtM4re",
+   "link": "https://uiverse.io/NlghtM4re/mighty-wasp-74",
+   "path": "uiverse/radio-buttons/mighty-wasp-74-by-nlghtm4re/",
+   "description": "Outlined rounded cyan radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background-color changes from #a4d7f6 to #89cffb. Clicking it toggles it: background-color changes from #a4d7f6 to #47afef, box-shadow becomes #0b466b 0px 5px 29px 5px.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "cyan",
+    "outlined",
+    "rounded",
+    "color-change",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#47afef",
+    "#a4d7f6",
+    "#89cffb"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "moody-dog-23-by-gharsh11032000",
+   "name": "Moody Dog 23",
+   "category": "radio-buttons",
+   "author": "gharsh11032000",
+   "link": "https://uiverse.io/gharsh11032000/moody-dog-23",
+   "path": "uiverse/radio-buttons/moody-dog-23-by-gharsh11032000/",
+   "description": "Neon pill sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, transform becomes scale(1.2), border-color becomes #4c8bf5, box-shadow becomes 0 0 20px #4c8bf580. Clicking it toggles it: background-color changes to #4c8bf5, border-color becomes transparent, transform becomes scale(0.8).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "neon",
+    "outlined",
+    "rounded",
+    "pill",
+    "scale",
+    "glow",
+    "radio-button",
+    "radio",
+    "radio-buttons"
+   ],
+   "colors": [
+    "#4c8bf5",
+    "#f2f2f2",
+    "#555555"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "moody-starfish-95-by-pradeepsaranbishnoi",
+   "name": "Moody Starfish 95",
+   "category": "radio-buttons",
+   "author": "Pradeepsaranbishnoi",
+   "link": "https://uiverse.io/Pradeepsaranbishnoi/moody-starfish-95",
+   "path": "uiverse/radio-buttons/moody-starfish-95-by-pradeepsaranbishnoi/",
+   "description": "Gradient gray radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: text color changes from #bdbdbdbd to #fff, box-shadow becomes 0 1px 1px #0000002e, text-shadow becomes 0 1px 0px #79485f7a.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "gradient",
+    "radio-button",
+    "simple",
+    "button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#454857",
+    "#23212d",
+    "#b9b9b9"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "system-ui"
+   ]
+  },
+  {
+   "id": "nasty-horse-50-by-andretellao",
+   "name": "Nasty Horse 50",
+   "category": "radio-buttons",
+   "author": "andretellao",
+   "link": "https://uiverse.io/andretellao/nasty-horse-50",
+   "path": "uiverse/radio-buttons/nasty-horse-50-by-andretellao/",
+   "description": "Neon pill purple radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: transform becomes scale(1.02).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "purple",
+    "teal",
+    "neon",
+    "outlined",
+    "rounded",
+    "pill",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#dd33ff",
+    "#33f8ff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "nasty-lizard-71-by-tsiangana",
+   "name": "Nasty Lizard 71",
+   "category": "radio-buttons",
+   "author": "Tsiangana",
+   "link": "https://uiverse.io/Tsiangana/nasty-lizard-71",
+   "path": "uiverse/radio-buttons/nasty-lizard-71-by-tsiangana/",
+   "description": "Neon rounded fuchsia radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, border-color becomes #cc39a4, border-color becomes #03a9f4, border-color becomes #8c9eff. Clicking it toggles it: border-color becomes #fff, box-shadow becomes 0 5px 10px #000000, text color changes from #707070 to #cc39a4. On focus, background-color changes from #fff to #cc39a4, border-color becomes #fff, box-shadow becomes 0 5px 10px #000000, 0 0 0 4px #b5c9fc.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "fuchsia",
+    "cyan",
+    "neon",
+    "rounded",
+    "shrink",
+    "fade",
+    "twitter",
+    "radio-button",
+    "instagram",
+    "modern"
+   ],
+   "colors": [
+    "#cc39a4",
+    "#03a9f4",
+    "#8c9eff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "nasty-octopus-47-by-shadowfax29",
+   "name": "Nasty Octopus 47",
+   "category": "radio-buttons",
+   "author": "shadowfax29",
+   "link": "https://uiverse.io/shadowfax29/nasty-octopus-47",
+   "path": "uiverse/radio-buttons/nasty-octopus-47-by-shadowfax29/",
+   "description": "Neon gradient pill blue radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: text color changes from #334155 to #ffffff, background changes from linear-gradient(#ff0000,#ffa500) to linear-gradient(#0000ff,#008000), font-weight becomes 600.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "red",
+    "neon",
+    "gradient",
+    "outlined",
+    "rounded",
+    "pill",
+    "spin",
+    "slide",
+    "radio-button"
+   ],
+   "colors": [
+    "#0000ff",
+    "#ff0000",
+    "#ffa500"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "neat-turkey-32-by-amit-dasit",
+   "name": "Neat Turkey 32",
+   "category": "radio-buttons",
+   "author": "AmIt-DasIT",
+   "link": "https://uiverse.io/AmIt-DasIT/neat-turkey-32",
+   "path": "uiverse/radio-buttons/neat-turkey-32-by-amit-dasit/",
+   "description": "Outlined pill white radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: box-shadow becomes 3px 3px 6px #000000,\n   -1px -1px 4px #ffffff,\n   inset 3px 3px 6px #000000,\n   inset -1px -1px 4px #ffffff, transform becomes scale(1.1).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "outlined",
+    "rounded",
+    "pill",
+    "radio-button",
+    "dark",
+    "shadow",
+    "radio",
+    "neumorphism",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#ffffff",
+    "#000000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "orange-eagle-19-by-yaya12085",
+   "name": "Orange Eagle 19",
+   "category": "radio-buttons",
+   "author": "Yaya12085",
+   "link": "https://uiverse.io/Yaya12085/orange-eagle-19",
+   "path": "uiverse/radio-buttons/orange-eagle-19-by-yaya12085/",
+   "description": "Rounded white radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: text color changes from #000000 to #fff, background-color changes from #fff to rgb(11 117 223), transform becomes translateX(calc(300px * 0/3)).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "rounded",
+    "flat",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#353434",
+    "#ffffff",
+    "#000000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "ordinary-stingray-85-by-csozidev",
+   "name": "Ordinary Stingray 85",
+   "category": "radio-buttons",
+   "author": "csozidev",
+   "link": "https://uiverse.io/csozidev/ordinary-stingray-85",
+   "path": "uiverse/radio-buttons/ordinary-stingray-85-by-csozidev/",
+   "description": "Rounded pink radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, filter becomes brightness(1.1). Clicking it toggles it: border becomes solid #ff87bf, text color changes from #a9a9a9 to #ff87bf, background-color changes from #d3d3d3 to #ffb8d9.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "pink",
+    "blue",
+    "rounded",
+    "flat",
+    "radio-button",
+    "simple",
+    "button",
+    "input",
+    "radio",
+    "gender"
+   ],
+   "colors": [
+    "#a9a9a9",
+    "#ff87bf",
+    "#3d44ff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "perfect-cheetah-72-by-galahhad",
+   "name": "Perfect Cheetah 72",
+   "category": "radio-buttons",
+   "author": "Galahhad",
+   "link": "https://uiverse.io/Galahhad/perfect-cheetah-72",
+   "path": "uiverse/radio-buttons/perfect-cheetah-72-by-galahhad/",
+   "description": "Gray radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background-color changes from #3A3A3A to #5A5656. Clicking it toggles it: outline becomes 0.0625em solid #A0A0A0, background-color changes from #3A3A3A to #5A5656, background-color changes from #3A3A3A to #b9b9b970.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "flat",
+    "color-change",
+    "radio-button",
+    "theme",
+    "theme-switch",
+    "radio",
+    "dropdown",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#3a3a3a",
+    "#e0e0e0",
+    "#a0a0a0"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "var(--total_font_family)",
+    "inherit"
+   ]
+  },
+  {
+   "id": "pink-ape-66-by-coding-masala",
+   "name": "Pink Ape 66",
+   "category": "radio-buttons",
+   "author": "coding-masala",
+   "link": "https://uiverse.io/coding-masala/pink-ape-66",
+   "path": "uiverse/radio-buttons/pink-ape-66-by-coding-masala/",
+   "description": "Outlined pill gray radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, border-color becomes #555, background-color changes to #555. Clicking it toggles it: transform becomes translate(-50%, -50%) scale(1), background-color changes to #ff6600, background-color changes to #ffffff.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "outlined",
+    "rounded",
+    "pill",
+    "flat",
+    "color-change",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#555555",
+    "#aaaaaa",
+    "#dddddd"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "pink-dragon-17-by-andrew-demchenk0",
+   "name": "Pink Dragon 17",
+   "category": "radio-buttons",
+   "author": "andrew-demchenk0",
+   "link": "https://uiverse.io/andrew-demchenk0/pink-dragon-17",
+   "path": "uiverse/radio-buttons/pink-dragon-17-by-andrew-demchenk0/",
+   "description": "Green radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: starts the glitch animation (animating).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "pink",
+    "flat",
+    "radio-button",
+    "glitch",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#00e572",
+    "#cc133c",
+    "#f5f53d"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "polite-monkey-88-by-coding-masala",
+   "name": "Polite Monkey 88",
+   "category": "radio-buttons",
+   "author": "coding-masala",
+   "link": "https://uiverse.io/coding-masala/polite-monkey-88",
+   "path": "uiverse/radio-buttons/polite-monkey-88-by-coding-masala/",
+   "description": "Outlined pill red radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background-color changes from #fff to #e6e6e6, border-color becomes #555. Clicking it toggles it: background-color changes from #fff to #ffc3c3, border-color becomes #ff1111, width becomes 0.5em. On focus, outline becomes 2px solid #ff1111.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "outlined",
+    "rounded",
+    "pill",
+    "flat",
+    "color-change",
+    "radio-button",
+    "radio",
+    "advanced",
+    "radio-buttons"
+   ],
+   "colors": [
+    "#ff1111",
+    "#f1f1f1",
+    "#cccccc"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "Arial"
+   ]
+  },
+  {
+   "id": "polite-rattlesnake-85-by-christosmourgelas",
+   "name": "Polite Rattlesnake 85",
+   "category": "radio-buttons",
+   "author": "ChristosMourgelas",
+   "link": "https://uiverse.io/ChristosMourgelas/polite-rattlesnake-85",
+   "path": "uiverse/radio-buttons/polite-rattlesnake-85-by-christosmourgelas/",
+   "description": "Dark pill cyan radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: border-color becomes #00b4ff, background-color changes from #333 to #00b4ff, text color changes from #ccc to #fff.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "cyan",
+    "dark",
+    "rounded",
+    "pill",
+    "flat",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#4d4d4d",
+    "#00b4ff",
+    "#cccccc"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "popular-octopus-59-by-shoh2008",
+   "name": "Popular Octopus 59",
+   "category": "radio-buttons",
+   "author": "Shoh2008",
+   "link": "https://uiverse.io/Shoh2008/popular-octopus-59",
+   "path": "uiverse/radio-buttons/popular-octopus-59-by-shoh2008/",
+   "description": "Gradient gray radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: text color changes from #bdbdbdbd to #fff, box-shadow becomes 0 1px 1px #0000002e, text-shadow becomes 0 1px 0px #79485f7a.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "gradient",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#454857",
+    "#23212d",
+    "#b9b9b9"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "system-ui"
+   ]
+  },
+  {
+   "id": "purple-gecko-48-by-escannord",
+   "name": "Purple Gecko 48",
+   "category": "radio-buttons",
+   "author": "escannord",
+   "link": "https://uiverse.io/escannord/purple-gecko-48",
+   "path": "uiverse/radio-buttons/purple-gecko-48-by-escannord/",
+   "description": "Outlined pill sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, border-color becomes #2f64d8. Clicking it toggles it: border-color becomes #2f64d8, top becomes 50%, left becomes 50%.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "outlined",
+    "rounded",
+    "pill",
+    "flat",
+    "pricing",
+    "save",
+    "radio-button",
+    "simple",
+    "material-design"
+   ],
+   "colors": [
+    "#2f64d8",
+    "#a1b0d8",
+    "#bdbbcf"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "quiet-pug-68-by-peary74",
+   "name": "Quiet Pug 68",
+   "category": "radio-buttons",
+   "author": "Peary74",
+   "link": "https://uiverse.io/Peary74/quiet-pug-68",
+   "path": "uiverse/radio-buttons/quiet-pug-68-by-peary74/",
+   "description": "Dark rounded amber radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background changes from #2e2f33 to #ffdf6a, border-radius becomes 100px, background changes from #2e2f33 to #cacaca. Clicking it toggles it: z-index becomes 1, top becomes 3px, left becomes 30px.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "amber",
+    "dark",
+    "rounded",
+    "color-change",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#fd9800",
+    "#7e7e7e",
+    "#181818"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "Franklin Gothic Medium"
+   ]
+  },
+  {
+   "id": "rare-eagle-99-by-safvan-tsy",
+   "name": "Rare Eagle 99",
+   "category": "radio-buttons",
+   "author": "Safvan-tsy",
+   "link": "https://uiverse.io/Safvan-tsy/rare-eagle-99",
+   "path": "uiverse/radio-buttons/rare-eagle-99-by-safvan-tsy/",
+   "description": "Rounded gray radio button that scales up on hover.",
+   "howItWorks": "On hover, border changes.",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "rounded",
+    "color-change",
+    "scale",
+    "radio-button",
+    "radio-buttons",
+    "css"
+   ],
+   "colors": [
+    "#d1d5db",
+    "#f9fafb",
+    "#6b7280"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "tailwind": true
+  },
+  {
+   "id": "red-mayfly-78-by-shadowmurphy",
+   "name": "Red Mayfly 78",
+   "category": "radio-buttons",
+   "author": "shadowmurphy",
+   "link": "https://uiverse.io/shadowmurphy/red-mayfly-78",
+   "path": "uiverse/radio-buttons/red-mayfly-78-by-shadowmurphy/",
+   "description": "Dark black radio button that changes colour on hover.",
+   "howItWorks": "On hover, background-color changes from transparent to #21262C. On focus, background-color changes from transparent to #21262C, background-color changes from transparent to #1A1F24, the outline is removed.",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "dark",
+    "outlined",
+    "flat",
+    "color-change",
+    "profile",
+    "radio-button",
+    "notification",
+    "github",
+    "radio",
+    "svg"
+   ],
+   "colors": [
+    "#0d1117",
+    "#21262c",
+    "#1a1f24"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "rude-mouse-79-by-yaya12085",
+   "name": "Rude Mouse 79",
+   "category": "radio-buttons",
+   "author": "Yaya12085",
+   "link": "https://uiverse.io/Yaya12085/rude-mouse-79",
+   "path": "uiverse/radio-buttons/rude-mouse-79-by-yaya12085/",
+   "description": "Outlined rounded white radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: background-color changes from #EEE to #fff, font-weight becomes 600.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "outlined",
+    "rounded",
+    "radio-button",
+    "radio",
+    "select",
+    "tab",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#eeeeee",
+    "#334155",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "selfish-ladybug-61-by-pradeepsaranbishnoi",
+   "name": "Selfish Ladybug 61",
+   "category": "radio-buttons",
+   "author": "Pradeepsaranbishnoi",
+   "link": "https://uiverse.io/Pradeepsaranbishnoi/selfish-ladybug-61",
+   "path": "uiverse/radio-buttons/selfish-ladybug-61-by-pradeepsaranbishnoi/",
+   "description": "Pill blue radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background-color changes to #d6d6e5. Clicking it toggles it: background-color changes to #414181, text color changes from #414181 to #ffffff, box-shadow becomes inset 0 0 0 0.4375em #00005c.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "rounded",
+    "pill",
+    "color-change",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#414181",
+    "#00005c",
+    "#d6d6e5"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "selfish-starfish-40-by-selfmadesystem",
+   "name": "Selfish Starfish 40",
+   "category": "radio-buttons",
+   "author": "SelfMadeSystem",
+   "link": "https://uiverse.io/SelfMadeSystem/selfish-starfish-40",
+   "path": "uiverse/radio-buttons/selfish-starfish-40-by-selfmadesystem/",
+   "description": "Amber radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: starts the idle animation (animating).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "amber",
+    "flat",
+    "pulse",
+    "rating",
+    "radio-button",
+    "star",
+    "radio",
+    "animated",
+    "rate",
+    "stars"
+   ],
+   "colors": [
+    "#ffc73a",
+    "#666666"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "serious-monkey-58-by-wizard503",
+   "name": "Serious Monkey 58",
+   "category": "radio-buttons",
+   "author": "wizard503",
+   "link": "https://uiverse.io/wizard503/serious-monkey-58",
+   "path": "uiverse/radio-buttons/serious-monkey-58-by-wizard503/",
+   "description": "Neon gradient rounded teal radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: width becomes 1.2em, height becomes 1.2em, border-radius becomes 0%.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "teal",
+    "yellow",
+    "neon",
+    "gradient",
+    "dark",
+    "outlined",
+    "rounded",
+    "spin",
+    "shimmer",
+    "radio-button"
+   ],
+   "colors": [
+    "#2df4e9",
+    "#ffff00",
+    "#f07f90"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "serious-sheep-31-by-neerajbaniwal",
+   "name": "Serious Sheep 31",
+   "category": "radio-buttons",
+   "author": "neerajbaniwal",
+   "link": "https://uiverse.io/neerajbaniwal/serious-sheep-31",
+   "path": "uiverse/radio-buttons/serious-sheep-31-by-neerajbaniwal/",
+   "description": "Pill light sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, opacity becomes 1. Clicking it toggles it: transform becomes scale3d(0.975, 0.975, 1) translate3d(0, 10%, 0), opacity becomes 0. On focus, transform becomes translate3d(8px, 0, 0), opacity becomes 1.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "rounded",
+    "pill",
+    "fade",
+    "close",
+    "delete",
+    "radio-button",
+    "radio",
+    "submit",
+    "switcher"
+   ],
+   "colors": [
+    "#d1d9e6",
+    "#ecf0f3",
+    "#394a56"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "short-chipmunk-97-by-sanjanasogimatt",
+   "name": "Short Chipmunk 97",
+   "category": "radio-buttons",
+   "author": "SanjanaSogimatt",
+   "link": "https://uiverse.io/SanjanaSogimatt/short-chipmunk-97",
+   "path": "uiverse/radio-buttons/short-chipmunk-97-by-sanjanasogimatt/",
+   "description": "Gradient rounded violet radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, box-shadow becomes inset 10px 10px 15px #000000,\n    inset 10px 10px 15px #000000. Clicking it toggles it: box-shadow becomes 10px 10px 15px #000000,\n    10px 10px 15px #000000, background changes from #ffffff to linear-gradient(45deg,#cf6efb,#4f29cd), text color changes from #000000 to #ffffff.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "violet",
+    "indigo",
+    "gradient",
+    "rounded",
+    "glow",
+    "radio-button",
+    "neumorphism",
+    "skeuomorphism",
+    "minimalist",
+    "button"
+   ],
+   "colors": [
+    "#464646",
+    "#cf6efb",
+    "#4f29cd"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "poppins"
+   ]
+  },
+  {
+   "id": "shy-walrus-83-by-whitenervosa",
+   "name": "Shy Walrus 83",
+   "category": "radio-buttons",
+   "author": "WhiteNervosa",
+   "link": "https://uiverse.io/WhiteNervosa/shy-walrus-83",
+   "path": "uiverse/radio-buttons/shy-walrus-83-by-whitenervosa/",
+   "description": "Dark green radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background-color changes from #000000 to #2c2c2c, text color changes from #ffffff to #ffffff, box-shadow becomes #000000 0px -4px 1px 0px inset, #ffffff 0px -1px 1px 0px, #000000 0px 2px 4px 1px. Clicking it toggles it: background-color changes from #000000 to #2d6737, text color changes from #ffffff to #ffffff, box-shadow becomes #000000 0px -4px 1px 0px inset, #ffffff 0px -1px 1px 0px, #000000 0px 2px 4px 1px.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "glow",
+    "color-change",
+    "lift",
+    "radio-button",
+    "checkbox",
+    "radio",
+    "multiple-option",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#2c2c2c",
+    "#2d6737",
+    "#34723f"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "silent-liger-85-by-yaya12085",
+   "name": "Silent Liger 85",
+   "category": "radio-buttons",
+   "author": "Yaya12085",
+   "link": "https://uiverse.io/Yaya12085/silent-liger-85",
+   "path": "uiverse/radio-buttons/silent-liger-85-by-yaya12085/",
+   "description": "Neon pill sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, border-color becomes #2260ff, transform becomes scale(1), opacity becomes 1. Clicking it toggles it: border-color becomes #2260ff, box-shadow becomes 0 5px 10px #000000, text color changes from #707070 to #2260ff. On focus, border-color becomes #2260ff, box-shadow becomes 0 5px 10px #000000, 0 0 0 4px #b5c9fc, transform becomes scale(1).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "neon",
+    "rounded",
+    "pill",
+    "shrink",
+    "fade",
+    "radio-button",
+    "icon",
+    "radio",
+    "svg"
+   ],
+   "colors": [
+    "#2260ff",
+    "#b5bfd9",
+    "#b5c9fc"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "silly-bulldog-25-by-aadium",
+   "name": "Silly Bulldog 25",
+   "category": "radio-buttons",
+   "author": "aadium",
+   "link": "https://uiverse.io/aadium/silly-bulldog-25",
+   "path": "uiverse/radio-buttons/silly-bulldog-25-by-aadium/",
+   "description": "Gradient dark indigo radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: box-shadow becomes 5px 5px 25px #743ad5,\n                -5px -5px 25px #d53a9d, box-shadow becomes -5px 5px 25px #743ad5,\n                5px -5px 25px #d53a9d, box-shadow becomes -5px 5px 25px #d53a9d,\n                5px -5px 25px #743ad5.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "indigo",
+    "fuchsia",
+    "gradient",
+    "dark",
+    "radio-button",
+    "radio",
+    "futuristic",
+    "futuristic-radio-buttons",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#743ad5",
+    "#d53a9d",
+    "#212121"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "Lucida Sans"
+   ]
+  },
+  {
+   "id": "silly-insect-34-by-jkhuger",
+   "name": "Silly Insect 34",
+   "category": "radio-buttons",
+   "author": "JkHuger",
+   "link": "https://uiverse.io/JkHuger/silly-insect-34",
+   "path": "uiverse/radio-buttons/silly-insect-34-by-jkhuger/",
+   "description": "Rounded green radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it switches it on or off; its CSS has no :checked rule that changes a visible property.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "rounded",
+    "rating",
+    "radio-button",
+    "select",
+    "option",
+    "emotion",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#000010",
+    "#f2f2f2",
+    "#00cc4f"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "silly-sheep-7-by-subaashbala",
+   "name": "Silly Sheep 7",
+   "category": "radio-buttons",
+   "author": "Subaashbala",
+   "link": "https://uiverse.io/Subaashbala/silly-sheep-7",
+   "path": "uiverse/radio-buttons/silly-sheep-7-by-subaashbala/",
+   "description": "Dark pill black radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: transform becomes translateX(-50%) rotateZ(-60deg), transform becomes translateX(-50%) rotateZ(-35deg), transform becomes translateX(-50%) rotateZ(0deg).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "dark",
+    "rounded",
+    "pill",
+    "radio-button",
+    "skeuomorphism",
+    "realistic",
+    "radio",
+    "rotate",
+    "click-effect",
+    "radio-buttons"
+   ],
+   "colors": [
+    "#808080",
+    "#cfc9bd",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "slimy-eel-61-by-watchakorn-18k",
+   "name": "Slimy Eel 61",
+   "category": "radio-buttons",
+   "author": "watchakorn-18k",
+   "link": "https://uiverse.io/watchakorn-18k/slimy-eel-61",
+   "path": "uiverse/radio-buttons/slimy-eel-61-by-watchakorn-18k/",
+   "description": "Gradient pill red radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, border becomes 0px, box-shadow becomes 0px 0px 5px -1px #43e inset,0px 0px 5px -1px #43e, transform becomes translate(-50%, -50%) scale(1.5). Clicking it toggles it: background-color changes to #f35.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "blue",
+    "gradient",
+    "rounded",
+    "pill",
+    "glow",
+    "scale",
+    "radio-button",
+    "radio",
+    "radio-buttons"
+   ],
+   "colors": [
+    "#ff3355",
+    "#4433ee"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "slimy-warthog-37-by-pradeepsaranbishnoi",
+   "name": "Slimy Warthog 37",
+   "category": "radio-buttons",
+   "author": "Pradeepsaranbishnoi",
+   "link": "https://uiverse.io/Pradeepsaranbishnoi/slimy-warthog-37",
+   "path": "uiverse/radio-buttons/slimy-warthog-37-by-pradeepsaranbishnoi/",
+   "description": "Neon sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: box-shadow becomes 0 0 0 0.0625em #0043ed, background-color changes from #fff to #dee7ff, z-index becomes 1. On focus, outline becomes 0, border-color becomes #2260ff, box-shadow becomes 0 0 0 4px #b5c9fc.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "neon",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#0043ed",
+    "#2260ff",
+    "#b5c9fc"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "slippery-chicken-56-by-shadowmurphy",
+   "name": "Slippery Chicken 56",
+   "category": "radio-buttons",
+   "author": "shadowmurphy",
+   "link": "https://uiverse.io/shadowmurphy/slippery-chicken-56",
+   "path": "uiverse/radio-buttons/slippery-chicken-56-by-shadowmurphy/",
+   "description": "Neon pill sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: text color changes from #e3e4e8 to #255ff4, transform becomes translateY(0), transform becomes translateY(3em).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "neon",
+    "dark",
+    "rounded",
+    "pill",
+    "slide",
+    "radio-button",
+    "circle",
+    "radio",
+    "radio-buttons"
+   ],
+   "colors": [
+    "#255ff4",
+    "#17181c",
+    "#e3e4e8"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "smart-fox-51-by-kyle1dev",
+   "name": "Smart Fox 51",
+   "category": "radio-buttons",
+   "author": "kyle1dev",
+   "link": "https://uiverse.io/kyle1dev/smart-fox-51",
+   "path": "uiverse/radio-buttons/smart-fox-51-by-kyle1dev/",
+   "description": "Neon pill sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background-color changes from #000000 to #ffffff, transform becomes scale(1.03), box-shadow becomes 0 6px 12px #000000. Clicking it toggles it: background-color changes from #000000 to #ffffff, border-color becomes #007bff, box-shadow becomes 0 0 0 8px #007bff.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "neon",
+    "rounded",
+    "pill",
+    "scale",
+    "glow",
+    "color-change",
+    "pulse",
+    "radio-button",
+    "radio"
+   ],
+   "colors": [
+    "#007bff",
+    "#333333",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "soft-baboon-75-by-lilarest",
+   "name": "Soft Baboon 75",
+   "category": "radio-buttons",
+   "author": "LilaRest",
+   "link": "https://uiverse.io/LilaRest/soft-baboon-75",
+   "path": "uiverse/radio-buttons/soft-baboon-75-by-lilarest/",
+   "description": "Glass rounded white radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: transform becomes translateX(0px).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "glassmorphism",
+    "rounded",
+    "radio-button",
+    "neumorphism",
+    "skeuomorphism",
+    "animation",
+    "minimalist",
+    "ball"
+   ],
+   "colors": [
+    "#f5f5f5",
+    "#808080",
+    "#bebdbd"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "monospace"
+   ]
+  },
+  {
+   "id": "soft-firefox-40-by-elijahgummer",
+   "name": "Soft Firefox 40",
+   "category": "radio-buttons",
+   "author": "elijahgummer",
+   "link": "https://uiverse.io/elijahgummer/soft-firefox-40",
+   "path": "uiverse/radio-buttons/soft-firefox-40-by-elijahgummer/",
+   "description": "White radio button that lights up when focused.",
+   "howItWorks": "On focus, text color changes from #242424 to #87ceeb.",
+   "trigger": "focus",
+   "needsJs": false,
+   "tags": [
+    "radio-button",
+    "simple",
+    "animation",
+    "jelly",
+    "shadow",
+    "modern",
+    "radio"
+   ],
+   "colors": [
+    "#f4f4f4",
+    "#efefef",
+    "#e0e0e0"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "sour-stingray-86-by-vk-uiux",
+   "name": "Sour Stingray 86",
+   "category": "radio-buttons",
+   "author": "vk-uiux",
+   "link": "https://uiverse.io/vk-uiux/sour-stingray-86",
+   "path": "uiverse/radio-buttons/sour-stingray-86-by-vk-uiux/",
+   "description": "Gradient rounded green radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background changes from linear-gradient(to right bottom, hsl(154, 97%, 62%), hsl(225, 97%, 62%)) to hsla(0, 0%, 80%, .14). Clicking it toggles it: transform becomes scale(0), text color changes from hsl(0, 0%, 60%) to hsl(0, 0%, 40%). On focus, background changes from linear-gradient(to right bottom, hsl(154, 97%, 62%), hsl(225, 97%, 62%)) to hsla(0, 0%, 80%, .14).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "blue",
+    "gradient",
+    "rounded",
+    "flat",
+    "color-change",
+    "radio-button",
+    "list",
+    "card",
+    "radio"
+   ],
+   "colors": [
+    "#cccccc",
+    "#40fcab",
+    "#406ffc"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "spicy-dingo-98-by-yaya12085",
+   "name": "Spicy Dingo 98",
+   "category": "radio-buttons",
+   "author": "Yaya12085",
+   "link": "https://uiverse.io/Yaya12085/spicy-dingo-98",
+   "path": "uiverse/radio-buttons/spicy-dingo-98-by-yaya12085/",
+   "description": "Gradient rounded pink radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background-color changes from #444 to #FBB03B. Clicking it toggles it: background-color changes from #444 to #D4145A, text color changes from #fff to #000, transform becomes scale(1.2).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "pink",
+    "gradient",
+    "rounded",
+    "color-change",
+    "pulse",
+    "radio-button",
+    "button",
+    "radio",
+    "futuristic",
+    "radio-buttons"
+   ],
+   "colors": [
+    "#bbbbbb",
+    "#d4145a",
+    "#444444"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "spicy-fish-10-by-andrew-demchenk0",
+   "name": "Spicy Fish 10",
+   "category": "radio-buttons",
+   "author": "andrew-demchenk0",
+   "link": "https://uiverse.io/andrew-demchenk0/spicy-fish-10",
+   "path": "uiverse/radio-buttons/spicy-fish-10-by-andrew-demchenk0/",
+   "description": "Dark rounded green radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: text color changes to #ccc, text-shadow becomes 1px 1px 0.5px #00ff00, border-radius becomes 8px.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "dark",
+    "rounded",
+    "radio-button",
+    "neumorphism",
+    "realistic",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#00ff00",
+    "#323232",
+    "#666666"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "stale-parrot-18-by-saiyed-tanvir",
+   "name": "Stale Parrot 18",
+   "category": "radio-buttons",
+   "author": "Saiyed-Tanvir",
+   "link": "https://uiverse.io/Saiyed-Tanvir/stale-parrot-18",
+   "path": "uiverse/radio-buttons/stale-parrot-18-by-saiyed-tanvir/",
+   "description": "Neon 3d green radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, transform becomes rotateY(-30deg), transform becomes rotateY(35deg). Clicking it toggles it: text color changes from #00ff6a to #212121, background-color changes to #00ff6a, transform becomes translateX(calc(4.5cm * 0/3)).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "neon",
+    "3d",
+    "radio-button",
+    "glow",
+    "radio",
+    "animated",
+    "futuristic-radio-buttons",
+    "custom"
+   ],
+   "colors": [
+    "#00ff6a",
+    "#212121"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "stupid-kangaroo-64-by-arqui9897",
+   "name": "Stupid Kangaroo 64",
+   "category": "radio-buttons",
+   "author": "Arqui9897",
+   "link": "https://uiverse.io/Arqui9897/stupid-kangaroo-64",
+   "path": "uiverse/radio-buttons/stupid-kangaroo-64-by-arqui9897/",
+   "description": "Gradient dark pill amber radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background changes from linear-gradient(45deg, transparent, transparent 40%, #ffff00),\n    linear-gradient(#040404, #0b0707) to #fa9115. Clicking it toggles it: background changes from linear-gradient(45deg, transparent, transparent 40%, #ffff00),\n    linear-gradient(#040404, #0b0707) to #faa91b, width becomes 80px, height becomes 80px.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "amber",
+    "gradient",
+    "dark",
+    "outlined",
+    "rounded",
+    "pill",
+    "flat",
+    "color-change",
+    "fade",
+    "spin"
+   ],
+   "colors": [
+    "#fa9115",
+    "#faa91b",
+    "#040404"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "stupid-seahorse-9-by-andrew-demchenk0",
+   "name": "Stupid Seahorse 9",
+   "category": "radio-buttons",
+   "author": "andrew-demchenk0",
+   "link": "https://uiverse.io/andrew-demchenk0/stupid-seahorse-9",
+   "path": "uiverse/radio-buttons/stupid-seahorse-9-by-andrew-demchenk0/",
+   "description": "Rounded gray radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: background-color changes from #fff to #323232, text color changes from #323232 to #FFF.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "rounded",
+    "radio-button",
+    "radio",
+    "select",
+    "radio-buttons",
+    "options",
+    "checked"
+   ],
+   "colors": [
+    "#323232",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "tiny-tiger-4-by-pradeepsaranbishnoi",
+   "name": "Tiny Tiger 4",
+   "category": "radio-buttons",
+   "author": "Pradeepsaranbishnoi",
+   "link": "https://uiverse.io/Pradeepsaranbishnoi/tiny-tiger-4",
+   "path": "uiverse/radio-buttons/tiny-tiger-4-by-pradeepsaranbishnoi/",
+   "description": "Gradient pill emerald radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: starts the radio animation (bouncing, pulsing), transform becomes translateY(-50%) scale(1).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "emerald",
+    "purple",
+    "gradient",
+    "rounded",
+    "pill",
+    "flat",
+    "bounce",
+    "pulse",
+    "radio-button",
+    "flashy"
+   ],
+   "colors": [
+    "#61cea5",
+    "#ff00ff",
+    "#00ffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "tough-deer-65-by-3bdel3ziz-t",
+   "name": "Tough Deer 65",
+   "category": "radio-buttons",
+   "author": "3bdel3ziz-T",
+   "link": "https://uiverse.io/3bdel3ziz-T/tough-deer-65",
+   "path": "uiverse/radio-buttons/tough-deer-65-by-3bdel3ziz-t/",
+   "description": "Rounded sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: transform becomes translateY(calc(-40% - 11px)), transform becomes translateY(calc(0% - 11px)), transform becomes translateY(calc(20% - 11px)).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "red",
+    "rounded",
+    "flat",
+    "pulse",
+    "spin",
+    "like",
+    "radio-button",
+    "social",
+    "smooth"
+   ],
+   "colors": [
+    "#2196f3",
+    "#ff3232",
+    "#3f3f3f"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "sans-serif"
+   ]
+  },
+  {
+   "id": "tough-parrot-85-by-shlomo20",
+   "name": "Tough Parrot 85",
+   "category": "radio-buttons",
+   "author": "shlomo20",
+   "link": "https://uiverse.io/shlomo20/tough-parrot-85",
+   "path": "uiverse/radio-buttons/tough-parrot-85-by-shlomo20/",
+   "description": "Gradient pill teal radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background-color changes from transparent to #7af4ec, box-shadow becomes 0px 0px 10px 1px #7af4ec. Clicking it toggles it: background changes from transparent to conic-gradient(from 300deg at 18% 50%, #e5719e, #7af4ec, #1a3271, #101a2e, #a859a0), background changes from transparent to conic-gradient(from 300deg at 51% 50%, #e5719e, #7af4ec, #1a3271, #101a2e, #a859a0), background changes from transparent to conic-gradient(from 300deg at 84% 50%, #e5719e, #7af4ec, #1a3271, #101a2e, #a859a0).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "teal",
+    "pink",
+    "gradient",
+    "outlined",
+    "rounded",
+    "pill",
+    "glow",
+    "color-change",
+    "radio-button",
+    "radio"
+   ],
+   "colors": [
+    "#7af4ec",
+    "#e5719e",
+    "#1a3271"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "tough-rat-92-by-yaya12085",
+   "name": "Tough Rat 92",
+   "category": "radio-buttons",
+   "author": "Yaya12085",
+   "link": "https://uiverse.io/Yaya12085/tough-rat-92",
+   "path": "uiverse/radio-buttons/tough-rat-92-by-yaya12085/",
+   "description": "Outlined pill green radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: opacity becomes 1, background-color changes from #f1c40f to #2ecc71, background-color changes from #f1c40f to #3498db.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "cyan",
+    "outlined",
+    "rounded",
+    "pill",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#2ecc71",
+    "#3498db",
+    "#f1c40f"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "Arial"
+   ]
+  },
+  {
+   "id": "ugly-yak-75-by-cbolson",
+   "name": "Ugly Yak 75",
+   "category": "radio-buttons",
+   "author": "cbolson",
+   "link": "https://uiverse.io/cbolson/ugly-yak-75",
+   "path": "uiverse/radio-buttons/ugly-yak-75-by-cbolson/",
+   "description": "Outlined pill sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, opacity becomes 0.5, scale becomes 1, background-color changes from transparent to #f33195. Clicking it toggles it: opacity becomes 1, scale becomes 1. On focus, opacity becomes 0.5, scale becomes 1, background-color changes from transparent to #f33195.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "pink",
+    "outlined",
+    "rounded",
+    "pill",
+    "flat",
+    "color-change",
+    "fade",
+    "radio-button",
+    "radio"
+   ],
+   "colors": [
+    "#127acf",
+    "#f33195",
+    "#666666"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "unlucky-goose-22-by-roroland",
+   "name": "Unlucky Goose 22",
+   "category": "radio-buttons",
+   "author": "roroland",
+   "link": "https://uiverse.io/roroland/unlucky-goose-22",
+   "path": "uiverse/radio-buttons/unlucky-goose-22-by-roroland/",
+   "description": "Neon pill yellow radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, scale becomes 1.25. Clicking it toggles it: scale becomes 2, outline becomes 2px solid #bbb013, box-shadow becomes 0 0 1.5em #ffffff,  inset 0 0 .75em #c0a50e.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "yellow",
+    "neon",
+    "rounded",
+    "pill",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#bbb013",
+    "#777777",
+    "#c0a50e"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "unlucky-yak-48-by-aguerquin",
+   "name": "Unlucky Yak 48",
+   "category": "radio-buttons",
+   "author": "aguerquin",
+   "link": "https://uiverse.io/aguerquin/unlucky-yak-48",
+   "path": "uiverse/radio-buttons/unlucky-yak-48-by-aguerquin/",
+   "description": "Amber radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: font-size becomes 30px.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "amber",
+    "flat",
+    "rating",
+    "radio-button",
+    "radio",
+    "stars",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#666666",
+    "#ffa723",
+    "#ff9e0b"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "warm-zebra-29-by-ahmed150up",
+   "name": "Warm Zebra 29",
+   "category": "radio-buttons",
+   "author": "ahmed150up",
+   "link": "https://uiverse.io/ahmed150up/warm-zebra-29",
+   "path": "uiverse/radio-buttons/warm-zebra-29-by-ahmed150up/",
+   "description": "Pill green radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, transform becomes scale(1.2), font-size becomes 18px, text color changes from #fff to #2ed573. Clicking it toggles it: opacity becomes 1.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "rounded",
+    "pill",
+    "flat",
+    "scale",
+    "color-change",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#2ed573",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "wet-dragonfly-79-by-pradeepsaranbishnoi",
+   "name": "Wet Dragonfly 79",
+   "category": "radio-buttons",
+   "author": "Pradeepsaranbishnoi",
+   "link": "https://uiverse.io/Pradeepsaranbishnoi/wet-dragonfly-79",
+   "path": "uiverse/radio-buttons/wet-dragonfly-79-by-pradeepsaranbishnoi/",
+   "description": "3d pill green radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: border-color becomes #5cb85c, transform becomes translateZ(0px), background-color changes to #fff.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "3d",
+    "outlined",
+    "rounded",
+    "pill",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#cccccc",
+    "#5cb85c",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "wet-emu-59-by-ozgeozkaraa01",
+   "name": "Wet Emu 59",
+   "category": "radio-buttons",
+   "author": "ozgeozkaraa01",
+   "link": "https://uiverse.io/ozgeozkaraa01/wet-emu-59",
+   "path": "uiverse/radio-buttons/wet-emu-59-by-ozgeozkaraa01/",
+   "description": "Outlined pill yellow radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: background-color changes from #fff to #ffcc00, border-color becomes #fff, text color changes from #333 to #64748b.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "yellow",
+    "outlined",
+    "rounded",
+    "pill",
+    "radio-button",
+    "button",
+    "radio",
+    "hover-button",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#ffcc00",
+    "#f2f2f2",
+    "#333333"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "white-ape-33-by-yaroslavas2001",
+   "name": "White Ape 33",
+   "category": "radio-buttons",
+   "author": "yaroslavas2001",
+   "link": "https://uiverse.io/yaroslavas2001/white-ape-33",
+   "path": "uiverse/radio-buttons/white-ape-33-by-yaroslavas2001/",
+   "description": "3d pill green radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, border becomes 1.6px dotted #fff. Clicking it toggles it: transform becomes rotateZ(23.4deg), transform becomes rotateZ(-23.4deg), transform becomes rotateZ(43.9deg).",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "blue",
+    "3d",
+    "outlined",
+    "rounded",
+    "pill",
+    "flat",
+    "spin",
+    "radio-button",
+    "radio"
+   ],
+   "colors": [
+    "#38c038",
+    "#0068f1",
+    "#edeaea"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "wicked-deer-90-by-whitenervosa",
+   "name": "Wicked Deer 90",
+   "category": "radio-buttons",
+   "author": "WhiteNervosa",
+   "link": "https://uiverse.io/WhiteNervosa/wicked-deer-90",
+   "path": "uiverse/radio-buttons/wicked-deer-90-by-whitenervosa/",
+   "description": "Dark green radio button that toggles on and off when clicked.",
+   "howItWorks": "On hover, background-color changes from #000000 to #2c2c2c, text color changes from #ffffff to #ffffff, box-shadow becomes #000000 0px -4px 1px 0px inset, #ffffff 0px -1px 1px 0px, #000000 0px 2px 4px 1px. Clicking it toggles it: background-color changes from #000000 to #2d6737, text color changes from #ffffff to #ffffff, box-shadow becomes #000000 0px -4px 1px 0px inset, #ffffff 0px -1px 1px 0px, #000000 0px 2px 4px 1px.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "glow",
+    "color-change",
+    "lift",
+    "radio-button",
+    "radio",
+    "radio-buttons",
+    "checked"
+   ],
+   "colors": [
+    "#2c2c2c",
+    "#2d6737",
+    "#34723f"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "wicked-liger-39-by-ayman-ashine",
+   "name": "Wicked Liger 39",
+   "category": "radio-buttons",
+   "author": "ayman-ashine",
+   "link": "https://uiverse.io/ayman-ashine/wicked-liger-39",
+   "path": "uiverse/radio-buttons/wicked-liger-39-by-ayman-ashine/",
+   "description": "Pill sky-blue radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it switches it on or off and it holds that state.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "pink",
+    "rounded",
+    "pill",
+    "radio-button",
+    "radio-buttons",
+    "checked",
+    "css"
+   ],
+   "colors": [
+    "#60a5fa",
+    "#f472b6",
+    "#c084fc"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "mono"
+   ],
+   "tailwind": true
+  },
+  {
+   "id": "wise-snake-15-by-pradeepsaranbishnoi",
+   "name": "Wise Snake 15",
+   "category": "radio-buttons",
+   "author": "Pradeepsaranbishnoi",
+   "link": "https://uiverse.io/Pradeepsaranbishnoi/wise-snake-15",
+   "path": "uiverse/radio-buttons/wise-snake-15-by-pradeepsaranbishnoi/",
+   "description": "Gradient pill dark teal radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: background changes from none to #009688 content-box, opacity becomes 0, opacity becomes 1.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "teal",
+    "gradient",
+    "outlined",
+    "rounded",
+    "pill",
+    "flat",
+    "radio-button",
+    "simple",
+    "animation",
+    "radio"
+   ],
+   "colors": [
+    "#009688",
+    "#939393"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "wonderful-owl-52-by-yaya12085",
+   "name": "Wonderful Owl 52",
+   "category": "radio-buttons",
+   "author": "Yaya12085",
+   "link": "https://uiverse.io/Yaya12085/wonderful-owl-52",
+   "path": "uiverse/radio-buttons/wonderful-owl-52-by-yaya12085/",
+   "description": "Dark pill dark green radio button that toggles on and off when clicked.",
+   "howItWorks": "Clicking it toggles it: background-color changes from #212121 to #008000, top becomes 0, background-color changes from #212121 to #4169e1.",
+   "trigger": "checked",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "dark",
+    "rounded",
+    "pill",
+    "flat",
+    "bounce",
+    "slide",
+    "radio-button",
+    "button",
+    "input"
+   ],
+   "colors": [
+    "#cccccc",
+    "#212121",
+    "#008000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "-apple-system"
+   ]
+  }
+ ]
+}

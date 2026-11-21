@@ -1,1 +1,822 @@
-{"category": "notifications", "count": 23, "elements": [{"id": "curvy-mole-83-by-mazonthemoon", "name": "Curvy Mole 83", "category": "notifications", "author": "MazontheMoon", "link": "https://uiverse.io/MazontheMoon/curvy-mole-83", "path": "uiverse/notifications/curvy-mole-83-by-mazonthemoon/", "description": "A notification UI element.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["notification", "hover", "css"], "colors": ["#5b0900", "#510800", "#7f0c00"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "funny-impala-78-by-gianluks90", "name": "Funny Impala 78", "category": "notifications", "author": "Gianluks90", "link": "https://uiverse.io/Gianluks90/funny-impala-78", "path": "uiverse/notifications/funny-impala-78-by-gianluks90/", "description": "A notification UI element.", "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.", "trigger": "auto-loop", "needsJs": false, "tags": ["notification", "auto-loop", "css"], "colors": ["#e50000", "#ff8d00", "#ffee00"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "fuzzy-fly-47-by-activeicedigital", "name": "Fuzzy Fly 47", "category": "notifications", "author": "ActiveIceDigital", "link": "https://uiverse.io/ActiveIceDigital/fuzzy-fly-47", "path": "uiverse/notifications/fuzzy-fly-47-by-activeicedigital/", "description": "A notification UI element.", "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.", "trigger": "auto-loop", "needsJs": false, "tags": ["notification", "auto-loop", "css"], "colors": ["#ff0000", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "gentle-kangaroo-69-by-tursynbek", "name": "Gentle Kangaroo 69", "category": "notifications", "author": "tursynbek", "link": "https://uiverse.io/tursynbek/gentle-kangaroo-69", "path": "uiverse/notifications/gentle-kangaroo-69-by-tursynbek/", "description": "A notification UI element.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["notification", "hover", "css"], "colors": ["#ff5733", "#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "gentle-octopus-87-by-alexruix", "name": "Gentle Octopus 87", "category": "notifications", "author": "alexruix", "link": "https://uiverse.io/alexruix/gentle-octopus-87", "path": "uiverse/notifications/gentle-octopus-87-by-alexruix/", "description": "A notification UI element.", "howItWorks": "It sits still — a fixed design with no animation or interaction.", "trigger": "static", "needsJs": false, "tags": ["notification", "static", "css"], "colors": ["#181818", "#dddddd", "#ffc300"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "massive-dingo-46-by-santaval", "name": "Massive Dingo 46", "category": "notifications", "author": "Santaval", "link": "https://uiverse.io/Santaval/massive-dingo-46", "path": "uiverse/notifications/massive-dingo-46-by-santaval/", "description": "A notification UI element.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["notification", "hover", "css"], "colors": ["#e7e5df", "#393e41", "#44bba4"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "nervous-zebra-0-by-wittyhydra", "name": "Nervous Zebra 0", "category": "notifications", "author": "WittyHydra", "link": "https://uiverse.io/WittyHydra/nervous-zebra-0", "path": "uiverse/notifications/nervous-zebra-0-by-wittyhydra/", "description": "A notification UI element.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["notification", "hover", "css"], "colors": ["#1e2b3c", "#c3daf6", "#888888"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "quiet-liger-31-by-andrew-demchenk0", "name": "Quiet Liger 31", "category": "notifications", "author": "andrew-demchenk0", "link": "https://uiverse.io/andrew-demchenk0/quiet-liger-31", "path": "uiverse/notifications/quiet-liger-31-by-andrew-demchenk0/", "description": "A notification UI element.", "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.", "trigger": "auto-loop", "needsJs": false, "tags": ["notification", "auto-loop", "css"], "colors": ["#680638", "#6b043a", "#cc014d"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "quiet-puma-22-by-john-cfo", "name": "Quiet Puma 22", "category": "notifications", "author": "John-CFO", "link": "https://uiverse.io/John-CFO/quiet-puma-22", "path": "uiverse/notifications/quiet-puma-22-by-john-cfo/", "description": "A notification UI element.", "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.", "trigger": "auto-loop", "needsJs": false, "tags": ["notification", "auto-loop", "css"], "colors": ["#3f5efb", "#090909", "#e8e8e8"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "red-goat-27-by-devsleonardo", "name": "Red Goat 27", "category": "notifications", "author": "devsleonardo", "link": "https://uiverse.io/devsleonardo/red-goat-27", "path": "uiverse/notifications/red-goat-27-by-devsleonardo/", "description": "A notification UI element.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["notification", "hover", "css"], "colors": ["#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "slimy-vampirebat-16-by-fujitawa", "name": "Slimy Vampirebat 16", "category": "notifications", "author": "Fujitawa", "link": "https://uiverse.io/Fujitawa/slimy-vampirebat-16", "path": "uiverse/notifications/slimy-vampirebat-16-by-fujitawa/", "description": "A notification UI element.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["notification", "hover", "css"], "colors": ["#ece0b4", "#f4e0a6"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "smooth-seahorse-63-by-yaya12085", "name": "Smooth Seahorse 63", "category": "notifications", "author": "Yaya12085", "link": "https://uiverse.io/Yaya12085/smooth-seahorse-63", "path": "uiverse/notifications/smooth-seahorse-63-by-yaya12085/", "description": "A notification UI element.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["notification", "hover", "css"], "colors": ["#7d5cf5", "#212121", "#494949"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "stupid-shrimp-89-by-yaroslavas2001", "name": "Stupid Shrimp 89", "category": "notifications", "author": "yaroslavas2001", "link": "https://uiverse.io/yaroslavas2001/stupid-shrimp-89", "path": "uiverse/notifications/stupid-shrimp-89-by-yaroslavas2001/", "description": "A notification UI element.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["notification", "hover", "css"], "colors": ["#6720d9", "#0062ff", "#0085ff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "swift-fireant-79-by-mijailvillegas", "name": "Swift Fireant 79", "category": "notifications", "author": "MijailVillegas", "link": "https://uiverse.io/MijailVillegas/swift-fireant-79", "path": "uiverse/notifications/swift-fireant-79-by-mijailvillegas/", "description": "A notification UI element.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["notification", "hover", "css"], "colors": ["#dddddd", "#a11a1a", "#9b9b9b"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "tasty-ape-73-by-jkhuger", "name": "Tasty Ape 73", "category": "notifications", "author": "JkHuger", "link": "https://uiverse.io/JkHuger/tasty-ape-73", "path": "uiverse/notifications/tasty-ape-73-by-jkhuger/", "description": "A notification UI element.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["notification", "hover", "css"], "colors": ["#fdd835", "#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "terrible-shrimp-45-by-ahmed150up", "name": "Terrible Shrimp 45", "category": "notifications", "author": "ahmed150up", "link": "https://uiverse.io/ahmed150up/terrible-shrimp-45", "path": "uiverse/notifications/terrible-shrimp-45-by-ahmed150up/", "description": "A notification UI element.", "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.", "trigger": "auto-loop", "needsJs": false, "tags": ["notification", "auto-loop", "css"], "colors": ["#ffd700", "#ffffff", "#000000"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "tiny-mayfly-20-by-m4nt", "name": "Tiny Mayfly 20", "category": "notifications", "author": "M4NT", "link": "https://uiverse.io/M4NT/tiny-mayfly-20", "path": "uiverse/notifications/tiny-mayfly-20-by-m4nt/", "description": "A notification UI element.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["notification", "hover", "css"], "colors": ["#005e2f", "#c66b49", "#ffbb80"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "ugly-walrus-48-by-praashoo7", "name": "Ugly Walrus 48", "category": "notifications", "author": "Praashoo7", "link": "https://uiverse.io/Praashoo7/ugly-walrus-48", "path": "uiverse/notifications/ugly-walrus-48-by-praashoo7/", "description": "A notification with animation, pixelart and mario styling.", "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.", "trigger": "auto-loop", "needsJs": false, "tags": ["animation", "notification", "pixelart", "mario", "auto-loop"], "colors": ["#847a00", "#e11f03", "#fab802"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "unlucky-bird-53-by-jyefu013", "name": "Unlucky Bird 53", "category": "notifications", "author": "jyefu013", "link": "https://uiverse.io/jyefu013/unlucky-bird-53", "path": "uiverse/notifications/unlucky-bird-53-by-jyefu013/", "description": "A notification UI element.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["notification", "hover", "css"], "colors": ["#eeff00", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "warm-deer-90-by-newbiners", "name": "Warm Deer 90", "category": "notifications", "author": "newbiners", "link": "https://uiverse.io/newbiners/warm-deer-90", "path": "uiverse/notifications/warm-deer-90-by-newbiners/", "description": "A notification UI element.", "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.", "trigger": "auto-loop", "needsJs": false, "tags": ["notification", "auto-loop", "css"], "colors": ["#929292", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "weak-rattlesnake-4-by-stealthworm", "name": "Weak Rattlesnake 4", "category": "notifications", "author": "StealthWorm", "link": "https://uiverse.io/StealthWorm/weak-rattlesnake-4", "path": "uiverse/notifications/weak-rattlesnake-4-by-stealthworm/", "description": "A notification UI element.", "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.", "trigger": "hover", "needsJs": false, "tags": ["notification", "hover", "css"], "colors": ["#b9a80f", "#696115", "#113736"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "white-cat-52-by-guilhermeyohan", "name": "White Cat 52", "category": "notifications", "author": "guilhermeyohan", "link": "https://uiverse.io/guilhermeyohan/white-cat-52", "path": "uiverse/notifications/white-cat-52-by-guilhermeyohan/", "description": "A notification UI element.", "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.", "trigger": "auto-loop", "needsJs": false, "tags": ["notification", "auto-loop", "css"], "colors": ["#2ed603", "#3c3b3b", "#ffffff"], "files": ["README.md", "index.html", "styles.css"], "issues": []}, {"id": "white-eagle-79-by-sameer2244", "name": "White Eagle 79", "category": "notifications", "author": "Sameer2244", "link": "https://uiverse.io/Sameer2244/white-eagle-79", "path": "uiverse/notifications/white-eagle-79-by-sameer2244/", "description": "A notification UI element.", "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.", "trigger": "auto-loop", "needsJs": false, "tags": ["notification", "auto-loop", "css"], "colors": ["#fcff36", "#12af04", "#f0f0f0"], "files": ["README.md", "index.html", "styles.css"], "issues": []}]}
+{
+ "category": "notifications",
+ "count": 23,
+ "elements": [
+  {
+   "id": "curvy-mole-83-by-mazonthemoon",
+   "name": "Curvy Mole 83",
+   "category": "notifications",
+   "author": "MazontheMoon",
+   "link": "https://uiverse.io/MazontheMoon/curvy-mole-83",
+   "path": "uiverse/notifications/curvy-mole-83-by-mazonthemoon/",
+   "description": "Gradient rounded dark red notification that glows on hover.",
+   "howItWorks": "On hover, top becomes 2px, background changes from #840f00 to radial-gradient(hsl(6, 100%, 18%), hsl(6, 100%, 16%)), box-shadow becomes inset 0 1px 0 hsl(6, 100%, 25%), 0 2px 0 hsl(6, 100%, 22%),\n    0 3px 0 hsl(6, 100%, 18%), 0 4px 0 hsl(6, 100%, 16%),\n    0 5px 0 hsl(6, 100%, 12%), 0 6px 0 hsl(6, 100%, 10%).",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "gradient",
+    "rounded",
+    "glow",
+    "color-change",
+    "pulse",
+    "rating",
+    "notification",
+    "hover",
+    "css"
+   ],
+   "colors": [
+    "#5c0900",
+    "#800d00",
+    "#700b00"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "Verdana"
+   ]
+  },
+  {
+   "id": "funny-impala-78-by-gianluks90",
+   "name": "Funny Impala 78",
+   "category": "notifications",
+   "author": "Gianluks90",
+   "link": "https://uiverse.io/Gianluks90/funny-impala-78",
+   "path": "uiverse/notifications/funny-impala-78-by-gianluks90/",
+   "description": "Gradient rounded red notification with shimmering motion in a loop.",
+   "howItWorks": "It loops a 4s animation (shimmering).",
+   "trigger": "auto-loop",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "amber",
+    "gradient",
+    "rounded",
+    "flat",
+    "shimmer",
+    "notification",
+    "auto-loop",
+    "css"
+   ],
+   "colors": [
+    "#ececec",
+    "#e50000",
+    "#ff8d00"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "fuzzy-fly-47-by-activeicedigital",
+   "name": "Fuzzy Fly 47",
+   "category": "notifications",
+   "author": "ActiveIceDigital",
+   "link": "https://uiverse.io/ActiveIceDigital/fuzzy-fly-47",
+   "path": "uiverse/notifications/fuzzy-fly-47-by-activeicedigital/",
+   "description": "Rounded red notification with bouncing motion in a loop.",
+   "howItWorks": "It loops a 1s animation (bouncing, fading).",
+   "trigger": "auto-loop",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "rounded",
+    "bounce",
+    "fade",
+    "notification",
+    "auto-loop",
+    "css"
+   ],
+   "colors": [
+    "#ff0000",
+    "#000000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "gentle-kangaroo-69-by-tursynbek",
+   "name": "Gentle Kangaroo 69",
+   "category": "notifications",
+   "author": "tursynbek",
+   "link": "https://uiverse.io/tursynbek/gentle-kangaroo-69",
+   "path": "uiverse/notifications/gentle-kangaroo-69-by-tursynbek/",
+   "description": "Pill red notification that starts animating on hover.",
+   "howItWorks": "On hover, background-color changes from #ff5733 to #ffffff, text color changes from #ffffff to #ff5733, transform becomes scale(1.1).",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "red",
+    "rounded",
+    "pill",
+    "scale",
+    "color-change",
+    "animated",
+    "expand",
+    "bounce",
+    "notification",
+    "hover"
+   ],
+   "colors": [
+    "#ff5733",
+    "#ffffff",
+    "#000000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "Montserrat"
+   ]
+  },
+  {
+   "id": "gentle-octopus-87-by-alexruix",
+   "name": "Gentle Octopus 87",
+   "category": "notifications",
+   "author": "alexruix",
+   "link": "https://uiverse.io/alexruix/gentle-octopus-87",
+   "path": "uiverse/notifications/gentle-octopus-87-by-alexruix/",
+   "description": "Dark pill amber notification with soft shadow and rounded corners.",
+   "howItWorks": "It has no hover, click, focus or animation states; the notification is a fixed design.",
+   "trigger": "static",
+   "needsJs": false,
+   "tags": [
+    "amber",
+    "dark",
+    "rounded",
+    "pill",
+    "fade",
+    "bounce",
+    "pulse",
+    "notification",
+    "static",
+    "css"
+   ],
+   "colors": [
+    "#181818",
+    "#dddddd",
+    "#ffc300"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "massive-dingo-46-by-santaval",
+   "name": "Massive Dingo 46",
+   "category": "notifications",
+   "author": "Santaval",
+   "link": "https://uiverse.io/Santaval/massive-dingo-46",
+   "path": "uiverse/notifications/massive-dingo-46-by-santaval/",
+   "description": "Rounded emerald notification that changes colour on hover.",
+   "howItWorks": "On hover, height becomes 100%, text color changes from transparent to #e7e5df.",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "emerald",
+    "rounded",
+    "flat",
+    "color-change",
+    "bounce",
+    "next",
+    "notification",
+    "hover",
+    "css"
+   ],
+   "colors": [
+    "#e7e5df",
+    "#393e41",
+    "#44bba4"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "nervous-zebra-0-by-wittyhydra",
+   "name": "Nervous Zebra 0",
+   "category": "notifications",
+   "author": "WittyHydra",
+   "link": "https://uiverse.io/WittyHydra/nervous-zebra-0",
+   "path": "uiverse/notifications/nervous-zebra-0-by-wittyhydra/",
+   "description": "3d rounded dark sky-blue notification that glows and scales up on hover.",
+   "howItWorks": "On hover, background-color changes from #efefef to #c3daf6, text color changes from #000 to #1e2b3c, transform becomes scale(1.1).",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "blue",
+    "3d",
+    "rounded",
+    "scale",
+    "glow",
+    "color-change",
+    "bounce",
+    "fade",
+    "spin",
+    "next"
+   ],
+   "colors": [
+    "#1e2b3c",
+    "#c3daf6",
+    "#1c1f2b"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "quiet-liger-31-by-andrew-demchenk0",
+   "name": "Quiet Liger 31",
+   "category": "notifications",
+   "author": "andrew-demchenk0",
+   "link": "https://uiverse.io/andrew-demchenk0/quiet-liger-31",
+   "path": "uiverse/notifications/quiet-liger-31-by-andrew-demchenk0/",
+   "description": "Dark pink notification with bouncing motion in a loop.",
+   "howItWorks": "It loops a 5s animation (bouncing, pulsing; bouncing, rotating; bouncing, rotating, sliding; pulsing).",
+   "trigger": "auto-loop",
+   "needsJs": false,
+   "tags": [
+    "pink",
+    "flat",
+    "bounce",
+    "spin",
+    "slide",
+    "pulse",
+    "rating",
+    "notification",
+    "auto-loop",
+    "css"
+   ],
+   "colors": [
+    "#680638",
+    "#cc014d",
+    "#db0f5a"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "Lucida Console"
+   ]
+  },
+  {
+   "id": "quiet-puma-22-by-john-cfo",
+   "name": "Quiet Puma 22",
+   "category": "notifications",
+   "author": "John-CFO",
+   "link": "https://uiverse.io/John-CFO/quiet-puma-22",
+   "path": "uiverse/notifications/quiet-puma-22-by-john-cfo/",
+   "description": "Gradient 3d rounded amber notification with fading motion in a loop.",
+   "howItWorks": "It loops a 5s animation (fading, pulsing; rotating).",
+   "trigger": "auto-loop",
+   "needsJs": false,
+   "tags": [
+    "amber",
+    "blue",
+    "gradient",
+    "3d",
+    "rounded",
+    "flat",
+    "fade",
+    "pulse",
+    "spin",
+    "notification"
+   ],
+   "colors": [
+    "#ffc61b",
+    "#090909",
+    "#3f5efb"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "fantasy"
+   ]
+  },
+  {
+   "id": "red-goat-27-by-devsleonardo",
+   "name": "Red Goat 27",
+   "category": "notifications",
+   "author": "devsleonardo",
+   "link": "https://uiverse.io/devsleonardo/red-goat-27",
+   "path": "uiverse/notifications/red-goat-27-by-devsleonardo/",
+   "description": "Yellow notification that starts animating on hover with a smooth transition.",
+   "howItWorks": "On hover, starts the spin animation (rotating).",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "yellow",
+    "flat",
+    "animated",
+    "bounce",
+    "spin",
+    "notification",
+    "hover",
+    "css"
+   ],
+   "colors": [
+    "#ffd700",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "slimy-vampirebat-16-by-fujitawa",
+   "name": "Slimy Vampirebat 16",
+   "category": "notifications",
+   "author": "Fujitawa",
+   "link": "https://uiverse.io/Fujitawa/slimy-vampirebat-16",
+   "path": "uiverse/notifications/slimy-vampirebat-16-by-fujitawa/",
+   "description": "Rounded light amber notification that changes colour on hover.",
+   "howItWorks": "On hover, background-color changes from #ece0b4 to #f4e0a6, border-color becomes #f4e0a6.",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "amber",
+    "rounded",
+    "flat",
+    "color-change",
+    "pulse",
+    "next",
+    "notification",
+    "hover",
+    "css"
+   ],
+   "colors": [
+    "#ece0b4",
+    "#f4e0a6",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "smooth-seahorse-63-by-yaya12085",
+   "name": "Smooth Seahorse 63",
+   "category": "notifications",
+   "author": "Yaya12085",
+   "link": "https://uiverse.io/Yaya12085/smooth-seahorse-63",
+   "path": "uiverse/notifications/smooth-seahorse-63-by-yaya12085/",
+   "description": "Rounded indigo notification that rotates on hover with a smooth transition.",
+   "howItWorks": "On hover, transform becomes rotate(45deg), height becomes 100%.",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "indigo",
+    "rounded",
+    "rotate",
+    "pulse",
+    "next",
+    "notification",
+    "hover",
+    "css"
+   ],
+   "colors": [
+    "#7d5cf5",
+    "#212121",
+    "#494949"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "stupid-shrimp-89-by-yaroslavas2001",
+   "name": "Stupid Shrimp 89",
+   "category": "notifications",
+   "author": "yaroslavas2001",
+   "link": "https://uiverse.io/yaroslavas2001/stupid-shrimp-89",
+   "path": "uiverse/notifications/stupid-shrimp-89-by-yaroslavas2001/",
+   "description": "Gradient rounded indigo notification that changes colour on hover.",
+   "howItWorks": "On hover, height becomes 0em, width becomes 0em, filter becomes blur(10px).",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "indigo",
+    "blue",
+    "gradient",
+    "outlined",
+    "rounded",
+    "flat",
+    "expand",
+    "color-change",
+    "shimmer",
+    "spin"
+   ],
+   "colors": [
+    "#6720d9",
+    "#0062ff",
+    "#0085ff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "swift-fireant-79-by-mijailvillegas",
+   "name": "Swift Fireant 79",
+   "category": "notifications",
+   "author": "MijailVillegas",
+   "link": "https://uiverse.io/MijailVillegas/swift-fireant-79",
+   "path": "uiverse/notifications/swift-fireant-79-by-mijailvillegas/",
+   "description": "Dark green notification that starts animating on hover.",
+   "howItWorks": "On hover, opacity becomes 1, transform becomes translateY(100%), background changes from #000000 to #a11a1a.",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "red",
+    "dark",
+    "flat",
+    "drop",
+    "color-change",
+    "fade",
+    "animated",
+    "bounce",
+    "pulse"
+   ],
+   "colors": [
+    "#dddddd",
+    "#00ff00",
+    "#a11a1a"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "Lucida Console"
+   ]
+  },
+  {
+   "id": "tasty-ape-73-by-jkhuger",
+   "name": "Tasty Ape 73",
+   "category": "notifications",
+   "author": "JkHuger",
+   "link": "https://uiverse.io/JkHuger/tasty-ape-73",
+   "path": "uiverse/notifications/tasty-ape-73-by-jkhuger/",
+   "description": "Neon gradient rounded dark green notification that starts animating on hover.",
+   "howItWorks": "On hover, starts the none animation, starts the confetti animation (bouncing).",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "red",
+    "neon",
+    "gradient",
+    "rounded",
+    "animated",
+    "bounce",
+    "fade",
+    "pulse",
+    "notification"
+   ],
+   "colors": [
+    "#008000",
+    "#ff0000",
+    "#ffc0cb"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "Courier New"
+   ]
+  },
+  {
+   "id": "terrible-shrimp-45-by-ahmed150up",
+   "name": "Terrible Shrimp 45",
+   "category": "notifications",
+   "author": "ahmed150up",
+   "link": "https://uiverse.io/ahmed150up/terrible-shrimp-45",
+   "path": "uiverse/notifications/terrible-shrimp-45-by-ahmed150up/",
+   "description": "Neon rounded yellow notification with pulsing; rotating motion in a loop.",
+   "howItWorks": "It loops a 3s animation (pulsing; rotating).",
+   "trigger": "auto-loop",
+   "needsJs": false,
+   "tags": [
+    "yellow",
+    "neon",
+    "rounded",
+    "pulse",
+    "spin",
+    "notification",
+    "auto-loop",
+    "css"
+   ],
+   "colors": [
+    "#ffd700",
+    "#ffffff",
+    "#000000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "tiny-mayfly-20-by-m4nt",
+   "name": "Tiny Mayfly 20",
+   "category": "notifications",
+   "author": "M4NT",
+   "link": "https://uiverse.io/M4NT/tiny-mayfly-20",
+   "path": "uiverse/notifications/tiny-mayfly-20-by-m4nt/",
+   "description": "Dark rounded dark green notification that lifts on hover.",
+   "howItWorks": "On hover, transform becomes translateY(-8px), text color changes from #000 to #ff7700, text color changes from #000 to #ffbb00.",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "orange",
+    "dark",
+    "outlined",
+    "rounded",
+    "lift",
+    "color-change",
+    "notification",
+    "hover",
+    "css"
+   ],
+   "colors": [
+    "#005e2f",
+    "#c66b49",
+    "#ffbb80"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "VT323"
+   ],
+   "tailwind": true
+  },
+  {
+   "id": "ugly-walrus-48-by-praashoo7",
+   "name": "Ugly Walrus 48",
+   "category": "notifications",
+   "author": "Praashoo7",
+   "link": "https://uiverse.io/Praashoo7/ugly-walrus-48",
+   "path": "uiverse/notifications/ugly-walrus-48-by-praashoo7/",
+   "description": "Lime notification with animating; fading motion in a loop.",
+   "howItWorks": "It loops a 2s animation (animating; fading).",
+   "trigger": "auto-loop",
+   "needsJs": false,
+   "tags": [
+    "lime",
+    "red",
+    "fade",
+    "notification",
+    "animation",
+    "pixelart",
+    "mario",
+    "auto-loop"
+   ],
+   "colors": [
+    "#92ca41",
+    "#e11f03",
+    "#847a00"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "unlucky-bird-53-by-jyefu013",
+   "name": "Unlucky Bird 53",
+   "category": "notifications",
+   "author": "jyefu013",
+   "link": "https://uiverse.io/jyefu013/unlucky-bird-53",
+   "path": "uiverse/notifications/unlucky-bird-53-by-jyefu013/",
+   "description": "Pill yellow notification that starts animating on hover.",
+   "howItWorks": "On hover, opacity becomes 0, opacity becomes 1, starts the bounce animation (pulsing).",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "yellow",
+    "rounded",
+    "pill",
+    "flat",
+    "fade",
+    "animated",
+    "color-change",
+    "expand",
+    "pulse",
+    "notification"
+   ],
+   "colors": [
+    "#eeff00",
+    "#ffffff",
+    "#000000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "warm-deer-90-by-newbiners",
+   "name": "Warm Deer 90",
+   "category": "notifications",
+   "author": "newbiners",
+   "link": "https://uiverse.io/newbiners/warm-deer-90",
+   "path": "uiverse/notifications/warm-deer-90-by-newbiners/",
+   "description": "Rounded yellow notification with bouncing motion in a loop.",
+   "howItWorks": "It loops a 2s animation (bouncing).",
+   "trigger": "auto-loop",
+   "needsJs": false,
+   "tags": [
+    "yellow",
+    "rounded",
+    "flat",
+    "bounce",
+    "notification",
+    "auto-loop",
+    "css"
+   ],
+   "colors": [
+    "#929292",
+    "#ffff00",
+    "#000000"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": []
+  },
+  {
+   "id": "weak-rattlesnake-4-by-stealthworm",
+   "name": "Weak Rattlesnake 4",
+   "category": "notifications",
+   "author": "StealthWorm",
+   "link": "https://uiverse.io/StealthWorm/weak-rattlesnake-4",
+   "path": "uiverse/notifications/weak-rattlesnake-4-by-stealthworm/",
+   "description": "Neon gradient 3d pill yellow notification that starts animating on hover.",
+   "howItWorks": "On hover, opacity becomes 1, transform becomes translateY(-1.5rem), starts the pulse_crystal animation (rotating).",
+   "trigger": "hover",
+   "needsJs": false,
+   "tags": [
+    "yellow",
+    "neon",
+    "gradient",
+    "3d",
+    "dark",
+    "outlined",
+    "rounded",
+    "pill",
+    "lift",
+    "fade"
+   ],
+   "colors": [
+    "#b9a80f",
+    "#696115",
+    "#113736"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "Gill Sans"
+   ]
+  },
+  {
+   "id": "white-cat-52-by-guilhermeyohan",
+   "name": "White Cat 52",
+   "category": "notifications",
+   "author": "guilhermeyohan",
+   "link": "https://uiverse.io/guilhermeyohan/white-cat-52",
+   "path": "uiverse/notifications/white-cat-52-by-guilhermeyohan/",
+   "description": "Rounded green notification with bouncing motion in a loop.",
+   "howItWorks": "It loops a 2s animation (bouncing, fading; pulsing).",
+   "trigger": "auto-loop",
+   "needsJs": false,
+   "tags": [
+    "green",
+    "rounded",
+    "flat",
+    "bounce",
+    "fade",
+    "pulse",
+    "notification",
+    "auto-loop",
+    "css"
+   ],
+   "colors": [
+    "#2ed603",
+    "#3c3b3b",
+    "#ffffff"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "-apple-system"
+   ]
+  },
+  {
+   "id": "white-eagle-79-by-sameer2244",
+   "name": "White Eagle 79",
+   "category": "notifications",
+   "author": "Sameer2244",
+   "link": "https://uiverse.io/Sameer2244/white-eagle-79",
+   "path": "uiverse/notifications/white-eagle-79-by-sameer2244/",
+   "description": "3d pill yellow notification with animating; pulsing motion in a loop.",
+   "howItWorks": "It loops a 2s animation (animating; pulsing, rotating; rotating).",
+   "trigger": "auto-loop",
+   "needsJs": false,
+   "tags": [
+    "yellow",
+    "green",
+    "3d",
+    "rounded",
+    "pill",
+    "spin",
+    "pulse",
+    "notification",
+    "auto-loop",
+    "css"
+   ],
+   "colors": [
+    "#fcff36",
+    "#12af04",
+    "#f0f0f0"
+   ],
+   "files": [
+    "README.md",
+    "index.html",
+    "styles.css"
+   ],
+   "issues": [],
+   "fonts": [
+    "cursive"
+   ]
+  }
+ ]
+}

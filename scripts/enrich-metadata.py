@@ -650,6 +650,15 @@ def describe_hover_change(hover_decls, base_decls, defs=None, kf_desc=None):
             if kf_desc and anim in kf_desc:
                 desc = f" ({kf_desc[anim]})"
             changes.append(f"starts the {anim} animation{desc}")
+        elif prop == "outline":
+            changes.append("the outline is removed" if val == "none"
+                           else f"outline becomes {val}")
+        elif prop in ("border-radius", "border-top", "border-right",
+                      "border-bottom", "border-left", "font-size",
+                      "font-weight", "text-shadow", "outline-color",
+                      "outline-width", "top", "left", "right", "bottom",
+                      "scale", "rotate", "translate", "margin", "z-index"):
+            changes.append(f"{prop} becomes {val}")
     return changes
 
 
@@ -952,41 +961,49 @@ def build_how_it_works(trigger, rules, keyframes, kf_desc, noun, defs=None,
     tw_state = tw_state or {}
     base = base_rules(rules)
     sentences = []
+
+    def state_sentence(pseudo, intro):
+        """Collect the property changes from EVERY rule with this
+        pseudo-class (not just the first) and phrase them."""
+        rules_for = state_rules(rules, pseudo)
+        if not rules_for:
+            return None
+        bdecls = {}
+        for _, d in base.items():
+            bdecls.update(d)
+        seen, changes = set(), []
+        for _, decls in rules_for.items():
+            for c in describe_hover_change(decls, bdecls, defs, kf_desc):
+                if c not in seen:
+                    seen.add(c)
+                    changes.append(c)
+        if not changes:
+            return None
+        return intro + ", ".join(changes[:3]) + "."
+
     hover = state_rules(rules, ":hover")
     if hover:
-        for _, hdecls in list(hover.items())[:1]:
-            bdecls = {}
-            for _, d in base.items():
-                bdecls.update(d)
-            changes = describe_hover_change(hdecls, bdecls, defs, kf_desc)
-            if changes:
-                sentences.append("On hover, " + " and ".join(changes) + ".")
+        s = state_sentence(":hover", "On hover, ")
+        if s:
+            sentences.append(s)
     elif tw_state.get("hover"):
         sentences.append("On hover, " + " and ".join(
             list(dict.fromkeys(tw_state["hover"]))) + ".")
     if tw_state.get("focus") and not state_rules(rules, ":focus"):
         sentences.append("On focus, " + " and ".join(
             list(dict.fromkeys(tw_state["focus"]))) + ".")
-    checked = state_rules(rules, ":checked")
-    if checked:
-        for _, cdecls in list(checked.items())[:1]:
-            changes = describe_hover_change(cdecls, {}, defs, kf_desc)
-            if changes:
-                sentences.append("Clicking it toggles it: " + " and ".join(changes) + ".")
-            else:
-                sentences.append("Clicking it switches it on or off and it holds that state.")
-    focus = state_rules(rules, ":focus")
-    if focus:
-        for _, fdecls in list(focus.items())[:1]:
-            changes = describe_hover_change(fdecls, {}, defs, kf_desc)
-            if changes:
-                sentences.append("On focus, " + " and ".join(changes) + ".")
-    active = state_rules(rules, ":active")
-    if active and trigger == "active":
-        for _, adecls in list(active.items())[:1]:
-            changes = describe_hover_change(adecls, {}, defs, kf_desc)
-            if changes:
-                sentences.append("While pressed, " + " and ".join(changes) + ".")
+    s = state_sentence(":checked", "Clicking it toggles it: ")
+    if s:
+        sentences.append(s)
+    elif trigger == "checked" and not state_rules(rules, ":checked"):
+        sentences.append("Clicking it switches it on or off and it holds that state.")
+    s = state_sentence(":focus", "On focus, ")
+    if s:
+        sentences.append(s)
+    if trigger == "active":
+        s = state_sentence(":active", "While pressed, ")
+        if s:
+            sentences.append(s)
     if keyframes and trigger == "auto-loop":
         # find the animation duration from the rules
         dur = ""
@@ -1006,15 +1023,25 @@ def build_how_it_works(trigger, rules, keyframes, kf_desc, noun, defs=None,
                 f"It has no hover, click, focus or animation states; "
                 f"the {noun} is a fixed design.")
         elif trigger == "hover":
-            sentences.append("Move your mouse over it and it reacts; move away and it returns to rest.")
+            sentences.append(
+                "Its CSS has no :hover rule that changes a visible property; "
+                "hovering it shows no change.")
         elif trigger == "checked":
-            sentences.append("Click it to switch it on or off; it holds its state until clicked again.")
+            sentences.append(
+                "Clicking it switches it on or off; its CSS has no :checked "
+                "rule that changes a visible property.")
         elif trigger == "focus":
-            sentences.append("Click into it (or tab to it) and it lights up while it has focus.")
+            sentences.append(
+                f"It has no :focus rule in its CSS; focusing the {noun} "
+                f"shows only the browser default.")
         elif trigger == "click":
-            sentences.append("Click it to see it react.")
+            sentences.append(
+                "Clicking it runs its JavaScript; its CSS has no visible "
+                "click state.")
         elif trigger == "active":
-            sentences.append("Press and hold it to see the pressed state; let go and it returns.")
+            sentences.append(
+                "Its CSS has no :active rule that changes a visible property; "
+                "pressing it shows no change.")
         elif trigger == "auto-loop":
             sentences.append("It animates on its own in a loop; no interaction needed.")
     return " ".join(sentences)
@@ -1225,9 +1252,19 @@ def enrich_element(cat, el, folder):
                       trigger, cat, old_trigger=el.get("trigger"))
 
     # --- usable-CSS check ---
-    decl_count = sum(len(d) for _, d in rules)
-    has_usable_css = bool(decl_count or keyframes or is_tw or inline_styles
-                          or re.search(r"<style[^>]*>\S", index_html))
+    # The reshape added a centring reset rule (body { display:flex; ... })
+    # to every index.html; that is not the element's own CSS, so it does
+    # not count as usable CSS.
+    RESET_BODY = {"display": "flex", "min-height": "100vh",
+                  "align-items": "center", "justify-content": "center",
+                  "margin": "0"}
+    own_decls = 0
+    for sel, decls in rules:
+        if sel.strip() == "body" and all(
+                decls.get(k) == v for k, v in RESET_BODY.items()):
+            continue
+        own_decls += len(decls)
+    has_usable_css = bool(own_decls or keyframes or is_tw or inline_styles)
     issues = []
     if not has_usable_css:
         issues.append("no-css")
