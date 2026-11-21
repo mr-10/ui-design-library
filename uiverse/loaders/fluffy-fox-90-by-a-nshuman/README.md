@@ -1,0 +1,75 @@
+# Fluffy Fox 90
+
+A loader UI element from Uiverse.io by A-nshuman.
+
+Source: https://uiverse.io/A-nshuman/fluffy-fox-90
+
+Author: A-nshuman
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: animation, loading, loader, creative, loading animation
+
+Colors: #2b83e2
+
+Fonts: See styles.css
+
+Spacing and radius: 4px, 8px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="blocks">
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by A-nshuman  - Tags: animation, loading, loader, creative, loading animation */
+.blocks {
+  border: 2px solid #2b83e2;
+  max-width: 158px;
+  padding: 4px;
+  border-radius: 8px;
+  gap: 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.blocks .block {
+  display: flex;
+  flex: 1;
+  border-radius: 4px;
+  background: #2b83e2;
+  width: 75px;
+  height: 75px;
+  animation: blockLoading 1s infinite;
+}
+.blocks .block:nth-child(1) {
+  animation-delay: 0ms;
+}
+.blocks .block:nth-child(2) {
+  animation-delay: 200ms;
+}
+.blocks .block:nth-child(3) {
+  animation-delay: 400ms;
+}
+.blocks .block:nth-child(4) {
+  animation-delay: 600ms;
+}
+@keyframes blockLoading {
+  0%,
+  100% {
+    flex: 1;
+  }
+  50% {
+    flex: 4;
+  }
+}
+```
