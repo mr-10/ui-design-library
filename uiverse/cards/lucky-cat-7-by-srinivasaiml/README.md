@@ -1,0 +1,99 @@
+# Lucky Cat 7
+
+A card UI element from Uiverse.io by srinivasaiml.
+
+Source: https://uiverse.io/srinivasaiml/lucky-cat-7
+
+Author: srinivasaiml
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: card
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 20px, 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="ball1"></div>
+<div class="card">
+  <p>VISA</p>
+  <div class="card-num">
+    6216 1906 5218 1991
+    <p>VALID : 15 - 04 - 2005</p>
+  </div>
+</div>
+<div class="ball2"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by srinivasaiml  - Tags: card */
+.card {
+  width: 330px;
+  height: 200px;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  border: 2px solid white;
+  border-radius: 20px;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.ball1 {
+  z-index: -9;
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border: 0 solid;
+  border-radius: 50%;
+  top: 50px;
+  margin-left: -350px;
+  background: linear-gradient(
+    45deg,
+    rgb(239, 199, 199),
+    rgb(239, 52, 192),
+    rgb(232, 184, 95)
+  );
+}
+.ball2 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  border: 0 solid;
+  border-radius: 50%;
+  bottom: 50px;
+  margin-right: -350px;
+  z-index: -1;
+  background: linear-gradient(
+    45deg,
+    rgb(239, 199, 199),
+    rgb(239, 52, 192),
+    rgb(232, 184, 95)
+  );
+}
+.card p {
+  font-size: 20px;
+  text-align: right;
+  padding: 10px;
+  font-weight: 600;
+  color: wheat;
+}
+.card-num {
+  color: hsl(0, 100%, 100%);
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.card-num p {
+  color: white;
+  font-size: 15px;
+  text-align: start;
+}
+```
