@@ -1,0 +1,79 @@
+# Silly Starfish 49
+
+A toggle switch UI element from Uiverse.io by elijahgummer.
+
+Source: https://uiverse.io/elijahgummer/silly-starfish-49
+
+Author: elijahgummer
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: simple, animation, green, switch, modern, transition
+
+Colors: #111, #14f960
+
+Fonts: See styles.css
+
+Spacing and radius: 40px, 90px
+
+## Source Code
+
+### index.html
+
+```html
+<label>
+  <input type="checkbox" class="inp" />
+  <span class="check"></span>
+</label>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by elijahgummer  - Tags: simple, animation, green, switch, modern, transition */
+.inp {
+  appearance: none;
+}
+
+.check {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  background: #111;
+  border-radius: 40px;
+}
+
+.check:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  width: 3px;
+  height: 3px;
+  border-radius: 90px;
+  transition: transform 0.5s;
+  box-shadow: 7.9px 0 0 5px #14f960; /* Change the color here */
+}
+
+.inp:checked ~ .check:before {
+  transform: translateX(13px);
+}
+
+.check:after {
+  content: "N";
+  position: absolute;
+  right: -16px;
+  top: -5px;
+  font-size: 20px;
+  color: #111;
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+  transform: translateX(20px);
+}
+
+.inp:checked ~ .check:after {
+  opacity: 1;
+  transform: translateX(0px);
+}
+```
