@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UI Design Library — 3,805 copy-paste UI elements</title>
+<meta name="description" content="Browse, preview and copy 3,805 free MIT-licensed UI elements: buttons, loaders, cards, forms and more. Pure HTML + CSS.">
+<link rel="icon" href="assets/site/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="topbar">
+  <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open library browser" aria-expanded="false">☰</button>
+  <a class="logo" href="#/" aria-label="UI Design Library home">
+    <span class="logo-mark" aria-hidden="true">▦</span>
+    <span class="logo-text">UI Design Library</span>
+  </a>
+  <div class="search-box" role="search">
+    <span class="search-icon" aria-hidden="true">⌕</span>
+    <input id="globalSearch" type="search" placeholder="Search 3,805 elements…" aria-label="Search elements" autocomplete="off">
+    <kbd class="search-key" aria-hidden="true">/</kbd>
+  </div>
+  <nav class="chips" id="triggerChips" aria-label="Filter by trigger">
+    <button data-trigger="all" class="chip active" aria-pressed="true">All</button>
+    <button data-trigger="hover" class="chip" aria-pressed="false">Hover</button>
+    <button data-trigger="click" class="chip" aria-pressed="false">Click</button>
+    <button data-trigger="auto-loop" class="chip" aria-pressed="false">Loop</button>
+    <button data-trigger="focus" class="chip" aria-pressed="false">Focus</button>
+    <button data-trigger="checked" class="chip" aria-pressed="false">Checked</button>
+  </nav>
+  <label class="tag-filter">
+    <span class="visually-hidden">Filter by tag</span>
+    <select id="tagSelect" aria-label="Filter by tag">
+      <option value="all">All tags</option>
+    </select>
+  </label>
+  <button class="icon-btn theme-btn" id="themeBtn" aria-label="Toggle dark mode" aria-pressed="false">◐</button>
+</header>
+
+<div class="shell">
+  <aside class="sidebar" id="sidebar" aria-label="Library browser">
+    <div class="sidebar-head">
+      <span>Library</span>
+      <button class="icon-btn close-btn" id="closeSidebar" aria-label="Close library browser">✕</button>
+    </div>
+    <div class="tree" id="tree" role="tree" aria-label="Categories and elements"></div>
+  </aside>
+  <div class="scrim" id="scrim" aria-hidden="true"></div>
+  <main class="view" id="view" tabindex="-1"></main>
+</div>
+
+<div class="mobilebar" id="mobilebar" hidden>
+  <button class="btn primary" id="mobilePlay">▶ Play</button>
+  <button class="btn" id="mobileCopy">⧉ Copy code</button>
+</div>
+
+<script src="assets/site/app.js"></script>
+</body>
+</html>
