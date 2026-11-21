@@ -1,0 +1,83 @@
+# Mighty Chipmunk 64
+
+A button UI element from Uiverse.io by Web-Potato.
+
+Source: https://uiverse.io/Web-Potato/mighty-chipmunk-64
+
+Author: Web-Potato
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: #212121, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 5px
+
+## Source Code
+
+### index.html
+
+```html
+<button>
+    Button
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Web-Potato - Tags: button */
+button {
+  position: relative;
+  height: 50px;
+  width: 150px;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: #212121;
+  transition: all 0.5s;
+  border: none;
+}
+
+button::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(29, 255, 86, 0.281);
+  border-radius: 5px;
+  transition: all 0.3s;
+  z-index: 1;
+}
+
+button:hover::before {
+  opacity: 0;
+  transform: scale(0.7,0.7);
+}
+
+button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s;
+  border: 1px solid rgba(29, 255, 86, 0.281);
+  border-radius: 5px;
+  transform: scale(1.5,1.5);
+  opacity: 0;
+  z-index: 1;
+}
+
+button:hover::after {
+  opacity: 1;
+  transform: scale(1,1);
+}
+```
