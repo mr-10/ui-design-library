@@ -1,0 +1,72 @@
+# Nasty Zebra 57
+
+A checkbox UI element from Uiverse.io by AnthonyPreite.
+
+Source: https://uiverse.io/AnthonyPreite/nasty-zebra-57
+
+Author: AnthonyPreite
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: red, green, minimalist, checkbox
+
+Colors: #4ebe96, #d84f68
+
+Fonts: See styles.css
+
+Spacing and radius: .8rem
+
+## Source Code
+
+### index.html
+
+```html
+<div><input type="checkbox" id="ni">
+<label for="ni" class="ni"></label></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by AnthonyPreite - Tags: red, green, minimalist, checkbox */
+/* ni means name input*/
+
+.ni {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 8px 20px;
+  border-radius: .8rem;
+  min-width: 124px;
+  text-align: center;
+  background: rgba(78, 190, 150, 0.1);
+  border: 0.5px solid rgba(22, 179, 124, 0.2);
+  cursor: pointer;
+}
+
+.ni:before {
+  content: "Check";
+  color: #4EBE96;
+}
+
+.ni:active {
+  transform: scale(0.94);
+}
+
+#ni {
+  position: fixed;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#ni:checked + .ni {
+  background: rgba(216, 79, 104, 0.1);
+  border-color: rgba(216, 79, 104, 0.2);
+}
+
+#ni:checked + .ni:before {
+  content: "Uncheck";
+  color: #D84F68;
+}
+```
