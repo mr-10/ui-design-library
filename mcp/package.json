@@ -1,0 +1,49 @@
+{
+  "name": "ui-design-library-mcp",
+  "version": "1.0.0",
+  "description": "MCP server and CLI for the UI Design Library — 3,805 free copy-paste HTML+CSS UI elements.",
+  "type": "module",
+  "license": "MIT",
+  "author": "mr-10",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mr-10/ui-design-library"
+  },
+  "homepage": "https://mr-10.github.io/ui-design-library/",
+  "bin": {
+    "ui-lib": "dist/cli.js",
+    "ui-design-library-mcp": "dist/server.js"
+  },
+  "main": "dist/server.js",
+  "types": "dist/data.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test \"dist/tests/*.test.js\"",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "mcp",
+    "ui",
+    "components",
+    "css",
+    "html",
+    "uiverse",
+    "copy-paste"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
