@@ -1,0 +1,156 @@
+# Kind Firefox 93
+
+A button UI element from Uiverse.io by SmookyDev.
+
+Source: https://uiverse.io/SmookyDev/kind-firefox-93
+
+Author: SmookyDev
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: animation, gradient, button, neon, css, css effect, buttons, button hover effect
+
+Colors: #000, #0004, #0c0c0c, #2980b9, #2ecc71, #3498db, #8e44ad, #9b59b6, #c0392b, #f1c40f
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<a href="#"><span>UIVERSE</span></a>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by SmookyDev  - Tags: animation, gradient, button, neon, css, css effect, buttons, button hover effect  */
+a {
+  position: relative;
+  width: 160px;
+  height: 50px;
+  line-height: 48px;
+  background: #000;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: 0.5s;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+}
+
+a span {
+  position: absolute;
+  display: block;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  text-align: center;
+  background: #0c0c0c;
+  color: rgba(255, 255, 255, 0.2);
+  transition: 0.5s;
+}
+
+a:hover span {
+  color: rgba(255, 255, 255, 1);
+}
+
+a span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 10;
+}
+
+a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    #c0392b,
+    #f39c12,
+    #f1c40f,
+    #2ecc71,
+    #3498db,
+    #2980b9,
+    #9b59b6,
+    #8e44ad,
+    #c0392b,
+    #f39c12,
+    #f1c40f,
+    #2ecc71,
+    #3498db,
+    #2980b9,
+    #9b59b6,
+    #8e44ad
+  );
+  background-size: 400%;
+  opacity: 0;
+  transition: 2.5 s;
+  animation: eff 20s linear infinite;
+}
+
+a:hover::before,
+a:hover::after {
+  opacity: 1;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    #c0392b,
+    #f39c12,
+    #f1c40f,
+    #2ecc71,
+    #3498db,
+    #2980b9,
+    #9b59b6,
+    #8e44ad,
+    #c0392b,
+    #f39c12,
+    #f1c40f,
+    #2ecc71,
+    #3498db,
+    #2980b9,
+    #9b59b6,
+    #8e44ad
+  );
+  background-size: 400%;
+  opacity: 0;
+  filter: blur(20px);
+  transition: 0.5s;
+  animation: eff 20s ease infinite;
+}
+
+@keyframes eff {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+```

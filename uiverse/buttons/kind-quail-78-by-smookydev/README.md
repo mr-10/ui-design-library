@@ -1,0 +1,32 @@
+# Kind Quail 78
+
+A button UI element from Uiverse.io by SmookyDev.
+
+Source: https://uiverse.io/SmookyDev/kind-quail-78
+
+Author: SmookyDev
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: —
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<!-- From Uiverse.io by SmookyDev - Tags: animation, button, hover effect, hoverme, tailwind, tailwindbutton -->
+<button class="smky-btn3 relative hover:text-[#778464] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 hover:transition-all hover:duration-500 after:transition-all after:duration-500 after:hover:transition-all after:hover:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#abd373] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-600">Hover ME</button>
+```
+
+### styles.css
+
+```css
+/* No CSS in source file */
+```

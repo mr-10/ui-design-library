@@ -1,0 +1,124 @@
+# Lazy Fish 83
+
+A button UI element from Uiverse.io by Wasim-Rana.
+
+Source: https://uiverse.io/Wasim-Rana/lazy-fish-83
+
+Author: Wasim-Rana
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: #2a0f3f6c, #2a0f3fbb, #3114494b, #3114498a, #4d1e7434, #4d1e7450, #4d1e745b, #4d1e746e, #4d1e7491, #4d1e74a8
+
+Fonts: See styles.css
+
+Spacing and radius: 16px, 19px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="btn-container">
+  <button class="glowing-button">
+    click me
+    <span class="arrow">➔</span>
+  </button>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Wasim-Rana  - Tags: button */
+.btn-container {
+  padding: 3px;
+  background: linear-gradient(180deg, #f3aefe, #8d35d3);
+  border-radius: 19px;
+  transform: perspective(850px) rotateX(14deg) rotateY(8deg) rotateZ(-11deg);
+  color: white;
+  box-shadow:
+    -4px 4px 0px #5d2b82,
+    -5px 7px 8px #4d1e7491,
+    -10px 13px 18px #4d1e7450,
+    -20px 20px 40px #4d1e74a8;
+  position: relative;
+  transition: all 0.4s ease;
+}
+
+.btn-container:hover {
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  box-shadow:
+    0px 4px 5px #5d2b82,
+    0px 7px 8px #4d1e7491,
+    0px 13px 18px #4d1e7450,
+    0px 20px 40px #4d1e74a8;
+}
+
+.btn-container:active {
+  box-shadow:
+    0px 4px 5px #5c2b82c7,
+    0px 7px 8px #4d1e745b,
+    0px 5px 18px #4d1e7434,
+    0px 10px 40px #4d1e746e;
+}
+
+.btn-container:active > .glowing-button {
+  box-shadow: inset 0px 6px 10px #3114494b;
+}
+
+.glowing-button {
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 22px 24px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 16px;
+  border: none;
+  background: linear-gradient(180deg, #d28dff, #8533c6);
+  box-shadow: inset 0px -6px 10px #3114494b;
+  text-shadow: -1px 1px 3px #2a0f3fbb;
+  transition: all 0.3s ease;
+}
+
+.glowing-button:hover {
+  background: linear-gradient(180deg, #c17de6, #7328b8);
+  box-shadow:
+    inset 0px -10px 20px #3114498a,
+    0px 8px 15px #5d2b82;
+  transform: translateY(-2px);
+}
+
+.arrow {
+  font-size: 24px;
+  margin-left: 10px;
+  display: inline-block;
+  filter: drop-shadow(-2px 2px 1px #2a0f3f6c);
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+  animation: arrow-pulse 1.5s infinite alternate;
+}
+
+@keyframes arrow-pulse {
+  0% {
+    transform: translateX(0);
+    color: white;
+  }
+  100% {
+    transform: translateX(5px);
+    color: #f3aefe;
+  }
+}
+
+.glowing-button:hover .arrow {
+  transform: translateX(15px);
+  color: #e3a0ff;
+}
+```
