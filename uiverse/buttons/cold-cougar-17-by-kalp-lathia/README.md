@@ -1,0 +1,131 @@
+# Cold Cougar 17
+
+A button UI element from Uiverse.io by kalp-lathia.
+
+Source: https://uiverse.io/kalp-lathia/cold-cougar-17
+
+Author: kalp-lathia
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button, bounce, animated
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 0rem, 0rem var(--border-radius) var(--border-radius) 0rem, 1rem, var(--border-radius), var(--border-radius) 0rem 0rem var(--border-radius)
+
+## Source Code
+
+### index.html
+
+```html
+<button class="button">
+  <span class="left"></span>
+  <span>Hover Me</span>
+  <span class="right"></span>
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by kalp-lathia - Tags: button, bounce, animated */
+.button {
+  --bg-color: rgb(0, 119, 255);
+  --color: white;
+  --border-radius: 1rem;
+  --animation-duaration: 1s;
+  --height: 4rem;
+  --span-width: 1.5rem;
+  --base-pos: 0rem;
+  --final-pos: -2rem
+}
+
+.button, .left, .right {
+  height: var(--height);
+  background-color: var(--bg-color);
+  transition: all var(--animation-duaration) ease-in-out;
+}
+
+.button {
+  position: relative;
+  font-size: 1rem;
+  padding: 0rem 2.5rem;
+  color: var(--color);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.left, .right {
+  width: var(--span-width);
+  position: absolute;
+  top: 0rem;
+}
+
+.left {
+  left: var(--base-pos);
+  border-radius: var(--border-radius) 0rem 0rem var(--border-radius);
+}
+
+.right {
+  right: var(--base-pos);
+  border-radius: 0rem var(--border-radius) var(--border-radius) 0rem;
+}
+
+.button:hover {
+  animation: button-radius var(--animation-duaration) infinite ease-in-out;
+}
+
+.button:hover .left {
+  animation: left-shake var(--animation-duaration) infinite ease-in-out;
+}
+
+.button:hover .right {
+  animation: right-shake var(--animation-duaration) infinite ease-in-out;
+}
+
+@keyframes button-radius {
+  0% {
+    border-radius: var(--border-radius);
+  }
+
+  50% {
+    border-radius: 0rem;
+  }
+
+  100% {
+    border-radius: var(--border-radius);
+  }
+}
+
+@keyframes left-shake {
+  0% {
+    left: var(--base-pos);
+  }
+
+  50% {
+    left: var(--final-pos);
+  }
+
+  100% {
+    left: var(--base-pos);
+  }
+}
+
+@keyframes right-shake {
+  0% {
+    right: var(--base-pos);
+  }
+
+  50% {
+    right: var(--final-pos);
+  }
+
+  100% {
+    right: var(--base-pos);
+  }
+}
+```
