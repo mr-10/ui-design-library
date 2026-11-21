@@ -1,0 +1,85 @@
+# Bright Pug 33
+
+A loader UI element from Uiverse.io by guilhermeyohan.
+
+Source: https://uiverse.io/guilhermeyohan/bright-pug-33
+
+Author: guilhermeyohan
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loader
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 15px, 20px, 30px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader">     
+         <div class="shape"></div>
+  </div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by guilhermeyohan - Tags: loader */
+.loader {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  animation: loader_513 2s linear infinite;
+}
+
+.shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+}
+
+.shape {
+  background-color: rgb(31, 1, 164);
+  animation: rectangle_513 4s linear infinite;
+  animation-delay: 2s;
+}
+
+@keyframes loader_513 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rectangle_513 {
+  0% {
+    transform: scale(1, 1);
+    border-radius: 15px;
+  }
+
+  25% {
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgba(133, 133, 133, 0.523);
+    background-color: rgb(13, 60, 189);
+    transform: scale(0.9);
+  }
+
+  50% {
+    border-radius: 20px;
+    transform: scale(1.4);
+    box-shadow: 2px 5px 50px rgba(90, 90, 90, 0.206);
+  }
+}
+```
