@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Quick Fox 3</title>
+<style>
+body { display: flex; min-height: 100vh; align-items: center; justify-content: center; margin: 0; }
+</style>
+<style>
+/* From Uiverse.io by Shoh2008 - Tags: loader */
+.loader {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background: #fff;
+  animation: wave_14 1s ease-in infinite;
+}
+
+@keyframes wave_14 {
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 255,255, 1),
+  0 0 0 20px rgba(255, 255,255, 0.2),
+  0 0 0 40px rgba(255, 255,255, 0.6),
+  0 0 0 60px rgba(255, 255,255, 0.4),
+  0 0 0 80px rgba(255, 255,255, 0.2)
+  }
+
+  100% {
+    box-shadow: 0 0 0 80px rgba(255, 255,255, 0),
+    0 0 0 60px rgba(255, 255,255, 0.2),
+    0 0 0 40px rgba(255, 255,255, 0.4),
+    0 0 0 20px rgba(255, 255,255, 0.6),
+    0 0 0 0px rgba(255, 255,255, 1)
+  }
+}
+</style>
+</head>
+<body>
+<div class="loader"></div>
+</body>
+</html>
