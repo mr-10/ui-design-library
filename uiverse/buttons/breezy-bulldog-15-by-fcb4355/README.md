@@ -1,0 +1,51 @@
+# Breezy Bulldog 15
+
+A button UI element from Uiverse.io by fcb4355.
+
+Source: https://uiverse.io/fcb4355/breezy-bulldog-15
+
+Author: fcb4355
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: #007ffe, #222, #bbb, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 4px
+
+## Source Code
+
+### index.html
+
+```html
+<button class="button">
+  Button
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by fcb4355 - Tags: button */
+.button {
+  padding: 7px 10px;
+  border: 1px solid #bbb;
+  color: #222;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.button:hover {
+  background-color: #007ffe;
+  color: #fff;
+  box-shadow: -20px 50px 50px rgba(0,0,0,0.2);
+  border: none;
+  padding: 10px 20px;
+}
+```
