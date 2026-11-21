@@ -12,6 +12,8 @@
 [![Last commit](https://img.shields.io/github/last-commit/mr-10/ui-design-library)](https://github.com/mr-10/ui-design-library/commits/main)
 [![GitHub stars](https://img.shields.io/github/stars/mr-10/ui-design-library?style=social)](https://github.com/mr-10/ui-design-library/stargazers)
 
+🌐 **[Visit the live site →](https://mr-10.github.io/ui-design-library/)** — browse all 3,805 elements, search by category, trigger or tag, and copy the code.
+
 ![How to use the library](assets/how-to-use.gif)
 
 🎬 Prefer video? Watch the [MP4 version](assets/how-to-use.mp4).
