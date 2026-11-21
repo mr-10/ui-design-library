@@ -27,8 +27,6 @@ Spacing and radius: 15px
     <span class="shackle"></span>
     <svg
       class="lock-body"
-      width=""
-      height=""
       viewBox="0 0 28 28"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

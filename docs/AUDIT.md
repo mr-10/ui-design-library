@@ -117,3 +117,41 @@ click / focus stay on their one-shot active state, so the driver never
 steals the search box focus while the user types. Live iframes stay
 bounded (4 at 390px after scrolling). Audit re-run after the fix: 27/28
 (same single flaky wrong-id check).
+
+## Uiverse comparison (21 Nov) — differences found and fixed
+
+Compared the live site against uiverse.io (inspected in a real browser).
+Uiverse facts: browse is light with a left sidebar; grid previews are
+~318x251, author avatar + username + views + saves underneath, NO title
+on the card; default sort is Randomized (reshuffles per load; options
+Randomized / Favorites / Views / Recent); 34 per page with First/Next
+pagination, not infinite scroll; previews are live DOM, lazy (blank
+grey first); loaders self-animate, buttons/toggles static at rest and
+animate on hover; hovering a card shows only a dark "</> Get code" pill
+bottom-right. Detail: preview left (~820x755, dark #212121 default,
+hex label, light/dark toggle), editable tabbed HTML/CSS right (CSS
+default), Save/Copy to Figma/Export/React under the preview, tags +
+date + views/saves, author block, MIT License, Variations.
+
+Fixed to match (commit, this round):
+- Default sort is now Random (reshuffles per load); A to Z and by
+  category remain as options. (Was A to Z.)
+- Detail stage defaults to dark #212121 with a hex label (#212121) at
+  the top centre, like Uiverse. Light/Checkered still available.
+- Detail page is two-column on desktop (preview left, code right,
+  code sticky); stacked on phones.
+- Grid cards show a dark "</> Get code" pill bottom-right on hover.
+- Data fix found by the audit: toggle-switches/rare-duck-10 had an
+  SVG with empty width="" and height="" attributes, which logged a
+  console error whenever it rendered. Removed them (CSS already sizes
+  it at 15px); regenerated its api JSON. The random sort is what
+  surfaced it, by putting that element in the first batch.
+
+Deliberate differences kept: infinite scroll (24/batch) instead of
+pagination; card keeps its title + author + trigger badge (no
+views/saves/avatar data exists in the source); grid previews autoplay
+hover/active (pulse) so the animation is visible on phones, where
+Uiverse's hover-only previews look static; trigger filter (Uiverse
+has none); the site's own home strip and AI-agents page.
+Audit after these changes: 27/28 (only the known flaky wrong-id
+not-found check).

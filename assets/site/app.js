@@ -267,7 +267,7 @@
   }
 
   /* ---------- state / filters ---------- */
-  var filters = { category: 'all', trigger: 'all', tag: 'all', q: '', sort: 'az' };
+  var filters = { category: 'all', trigger: 'all', tag: 'all', q: '', sort: 'random' };
   var browse = { results: [], shown: 0, loading: false };
   var BATCH = 24;
 
@@ -290,6 +290,9 @@
     });
     if (filters.sort === 'az') out.sort(function (a, b) { return a.name.localeCompare(b.name); });
     else if (filters.sort === 'category') out.sort(function (a, b) { return a.category === b.category ? a.name.localeCompare(b.name) : a.category.localeCompare(b.category); });
+    else if (filters.sort === 'random') { // Uiverse default: reshuffle on every browse render
+      for (var i = out.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = out[i]; out[i] = out[j]; out[j] = t; }
+    }
     return out;
   }
 
@@ -450,7 +453,7 @@
           CATEGORIES.map(function (c) { return '<option value="' + c + '">' + c + '</option>'; }).join('') +
         '</select>' +
         '<select id="sortSelect" aria-label="Sort elements">' +
-          '<option value="az">Sort: A to Z</option><option value="category">Sort: by category</option>' +
+          '<option value="random">Sort: Random</option><option value="az">Sort: A to Z</option><option value="category">Sort: by category</option>' +
         '</select>' +
       '</div>' +
       '<div class="grid" id="grid"></div>' +
@@ -477,7 +480,7 @@
     if (filters.trigger !== 'all') p.set('trigger', filters.trigger);
     if (filters.tag !== 'all') p.set('tag', filters.tag);
     if (filters.q) p.set('q', filters.q);
-    if (filters.sort !== 'az') p.set('sort', filters.sort);
+    if (filters.sort !== 'random') p.set('sort', filters.sort);
     var h = '#/browse' + (p.toString() ? '?' + p.toString() : '');
     if (location.hash !== h) history.replaceState(null, '', h);
   }
@@ -528,7 +531,7 @@
     next.forEach(function (rec) {
       var card = el(
         '<article class="card" tabindex="0" role="link" aria-label="' + esc(rec.name) + ' — ' + esc(rec.category) + ' element, open preview">' +
-          '<div class="preview"><div class="ph">Paused</div></div>' +
+          '<div class="preview"><div class="ph">Paused</div><a class="get-code" href="#/' + rec.category + '/' + rec.id + '" tabindex="-1">&lt;/&gt; Get code</a></div>' +
           '<div class="meta"><div class="name">' + esc(rec.name) + '</div>' +
           '<div class="by">by ' + esc(rec.author) + ' · ' + esc(rec.category) + '</div>' +
           '<span class="badge ' + esc(rec.trigger) + '">' + esc(triggerLabel(rec.trigger)) + '</span></div>' +
@@ -881,7 +884,7 @@
     var next = idx >= 0 && idx < catData.elements.length - 1 ? catData.elements[idx + 1] : null;
     var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    previewState = { rec: rec, catData: catData, idx: idx, playing: !reduced, speed: 1, loop: true, bg: 'light', fitMode: 'fit', tab: tab, iframe: null, files: {} };
+    previewState = { rec: rec, catData: catData, idx: idx, playing: !reduced, speed: 1, loop: true, bg: 'dark', fitMode: 'fit', tab: tab, iframe: null, files: {} };
 
     view.innerHTML =
       '<div class="crumb"><a href="#/">Home</a> / <a href="#/browse?cat=' + rec.category + '">' + esc(rec.category) + '</a> / ' + esc(rec.name) + '</div>' +
@@ -892,6 +895,7 @@
           '<button class="btn small" id="prevBtn"' + (prev ? '' : ' disabled') + '>← Previous</button>' +
           '<button class="btn small" id="nextBtn"' + (next ? '' : ' disabled') + '>Next →</button>' +
         '</span></div>' +
+      '<div class="preview-layout">' +
       '<div class="stage-wrap">' +
         '<div class="stage-toolbar">' +
           '<button class="btn primary" id="playBtn">' + (previewState.playing ? '❚❚ Pause' : '▶ Play') + '</button>' +
@@ -902,15 +906,16 @@
           '<button class="btn" id="loopBtn" aria-pressed="true">↻ Loop: on</button>' +
           '<span class="spacer"></span>' +
           '<span class="seg" id="bgSeg" role="group" aria-label="Stage background">' +
-            '<button data-bg="light" class="active">Light</button><button data-bg="dark">Dark</button><button data-bg="checkered">Checkered</button>' +
+            '<button data-bg="light">Light</button><button data-bg="dark" class="active">Dark</button><button data-bg="checkered">Checkered</button>' +
           '</span>' +
           '<span class="seg" id="fitSeg" role="group" aria-label="Preview size">' +
             '<button data-fit="fit" class="active">Fit</button><button data-fit="actual">100%</button>' +
           '</span>' +
           '<button class="btn" id="fsBtn">⛶ Fullscreen</button>' +
         '</div>' +
-        '<div class="stage bg-light" id="stage">' +
+        '<div class="stage bg-dark" id="stage">' +
           '<div id="stageFrame" style="width:100%;height:100%"></div>' +
+          '<div class="stage-hex" id="stageHex">#212121</div>' +
           '<div class="stage-hint">Click Play or the stage to run the demo</div>' +
         '</div>' +
         '<div class="stage-meta">' +
@@ -929,6 +934,7 @@
           '</div>' +
         '</div>' +
         '<div class="code-view" id="codeView"><pre><code id="codeContent">Loading code…</code></pre></div>' +
+      '</div>' +
       '</div>' +
       '<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:14px">' +
         '<button class="btn primary" id="copyAllBtn">⧉ Copy all code</button>' +
@@ -1039,6 +1045,8 @@
       var stage = $('#stage');
       stage.classList.remove('bg-light', 'bg-dark', 'bg-checkered');
       stage.classList.add('bg-' + st.bg);
+      var hex = $('#stageHex');
+      if (hex) hex.textContent = st.bg === 'dark' ? '#212121' : st.bg === 'light' ? '#ffffff' : 'checkered';
       postToFrame('remeasure');
     });
     $('#fsBtn').addEventListener('click', function () {
