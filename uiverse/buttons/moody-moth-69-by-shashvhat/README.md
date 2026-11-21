@@ -1,0 +1,82 @@
+# Moody Moth 69
+
+A button UI element from Uiverse.io by Shashvhat.
+
+Source: https://uiverse.io/Shashvhat/moody-moth-69
+
+Author: Shashvhat
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: simple, animation, button, hover, neon
+
+Colors: #0051ff, #00ddff, #00ffff, #04ff00, #d400ff, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 1.5em
+
+## Source Code
+
+### index.html
+
+```html
+<button class="button">
+  Button
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Shashvhat - Tags: simple, animation, button, hover, neon */
+.button {
+  padding: 0.6em 0.9em;
+  font-size: 1em;
+  background-color: transparent;
+  border: 0.2em solid;
+  border-color: #00ffff #04ff00 #0051ff #d400ff;
+  border-radius: 1.5em;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-radius 0.2s ease, color 0.2s ease,
+    border-shadow 0.2s ease, border-style 0.2s ease;
+}
+
+.button:active {
+}
+
+.button:hover {
+  transform: scale(1.3);
+  border-radius: 1.5em;
+  animation: btn-animation 0.4s 0.2s linear infinite;
+  color: #00ddff;
+}
+
+@keyframes btn-animation {
+  0% {
+    border-color: #00ffff #04ff00 #0051ff #d400ff;
+    transform: rotate(5deg) scale(1.3);
+  }
+
+  25% {
+    border-color: #d400ff #00ffff #04ff00 #0051ff;
+    transform: rotate(-5deg) scale(1.3);
+  }
+
+  50% {
+    border-color: #0051ff #d400ff #00ffff #04ff00;
+    transform: rotate(5deg) scale(1.3);
+  }
+
+  75% {
+    border-color: #04ff00 #0051ff #d400ff #00ffff;
+    transform: rotate(-5deg) scale(1.3);
+  }
+
+  100% {
+    border-color: #00ffff #04ff00 #0051ff #d400ff;
+    transform: rotate(5deg) scale(1.3);
+  }
+}
+```

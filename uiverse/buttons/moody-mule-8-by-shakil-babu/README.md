@@ -1,0 +1,59 @@
+# Moody Mule 8
+
+A button UI element from Uiverse.io by Shakil-Babu.
+
+Source: https://uiverse.io/Shakil-Babu/moody-mule-8
+
+Author: Shakil-Babu
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: #00bfa6, #87dbd0, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 10px
+
+## Source Code
+
+### index.html
+
+```html
+<button class="btn"> Hover me
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Shakil-Babu - Tags: button */
+.btn {
+ background-color: #00BFA6;
+ padding: 14px 40px;
+ color: #fff;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ cursor: pointer;
+ border-radius: 10px;
+ border: 2px dashed #00BFA6;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+ transition: .4s;
+}
+
+.btn span:last-child {
+ display: none;
+}
+
+.btn:hover {
+ transition: .4s;
+ border: 2px dashed #00BFA6;
+ background-color: #fff;
+ color: #00BFA6;
+}
+
+.btn:active {
+ background-color: #87dbd0;
+}
+```
