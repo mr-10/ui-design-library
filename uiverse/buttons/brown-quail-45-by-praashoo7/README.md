@@ -1,0 +1,59 @@
+# Brown Quail 45
+
+A button UI element from Uiverse.io by Praashoo7.
+
+Source: https://uiverse.io/Praashoo7/brown-quail-45
+
+Author: Praashoo7
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: neumorphism, button, hover
+
+Colors: #171717
+
+Fonts: See styles.css
+
+Spacing and radius: 15px
+
+## Source Code
+
+### index.html
+
+```html
+<button>
+  BUTTON
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Praashoo7 - Tags: neumorphism, button, hover */
+button {
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border-radius: 15px;
+  font-weight: bold;
+  transition: .4s ease-in-out;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.2);
+  letter-spacing: 0.2em;
+  border: none;
+}
+
+button:hover {
+  letter-spacing: 0.5em;
+  transform: translateY(-0.8em);
+  background: #171717;
+  color: white;
+}
+
+button:active {
+  letter-spacing: 0.4em;
+  transition: 0.1s all;
+  transform: translateY(-0.6em);
+  background: #171717;
+  color: white;
+}
+```
