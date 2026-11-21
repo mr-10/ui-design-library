@@ -1,0 +1,113 @@
+# Witty Gecko 70
+
+A card UI element from Uiverse.io by eduardo-amaro-maciel.
+
+Source: https://uiverse.io/eduardo-amaro-maciel/witty-gecko-70
+
+Author: eduardo-amaro-maciel
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: card, hover, rainbow
+
+Colors: #000, #0cbaba, #eee, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 15px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="container">
+  <div class="card">
+    <div class="face back">
+      <div class="content">
+        <span class="stars"></span>
+        <b class="desc">Hello</b>
+        <p class="desc">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+      </div>
+    </div>
+    <div class="face front">
+      <b>Hover</b>
+    </div>
+  </div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by eduardo-amaro-maciel - Tags: card, hover, rainbow */
+.container {
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  background: #000;
+  border-radius: 15px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+}
+
+.face {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.face.back {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.face.back b {
+  margin: 0;
+  padding: 0;
+}
+
+.face.back .desc {
+  background-color: #eee;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.face.front {
+  transition: 0.5s;
+}
+
+.face.front b {
+  margin: 0;
+  padding: 0;
+  font-size: 5.1em;
+  color: #fff;
+  transition: 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.card:hover .face.front {
+  height: 60px;
+}
+
+.card:hover .face.front b {
+  font-size: 2em;
+}
+
+.face.front {
+  background-color: #0cbaba;
+  border-radius: 15px;
+}
+```

@@ -1,0 +1,69 @@
+# Wicked Skunk 52
+
+A card UI element from Uiverse.io by Javierrocadev.
+
+Source: https://uiverse.io/Javierrocadev/wicked-skunk-52
+
+Author: Javierrocadev
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: twitter, card, white card, round card
+
+Colors: #272c30, #f7f9f9
+
+Fonts: See styles.css
+
+Spacing and radius: 15px, 16px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="card">
+  <span class="card__title">Subscribe to Premium</span>
+  <p class="card__text">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+  <button class="card__button">Subscribe</button>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Javierrocadev - Source: twitter.com - Tags: twitter, card, white card, round card */
+.card {
+  width: 350px;
+  height: 160px;
+  background: #f7f9f9;
+  padding: 10px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.card__title {
+  font-size: 1.4em;
+  font-weight: 800;
+}
+
+.card__text {
+  font-weight: 500;
+}
+
+.card__button {
+  cursor: pointer;
+  background-color: rgb(15, 20, 25);
+  color: #f7f9f9;
+  font-size: 1.15em;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+.card__button:hover {
+  background-color: #272C30;
+}
+```
