@@ -1,0 +1,111 @@
+# Dull Lizard 58
+
+A radio button UI element from Uiverse.io by JkHuger.
+
+Source: https://uiverse.io/JkHuger/dull-lizard-58
+
+Author: JkHuger
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: radio, male, female, non binary
+
+Colors: #333
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="radio-container">
+  <div class="radio-wrapper">
+    <label class="radio-button">
+      <input id="option1" name="radio-group" type="radio">
+      <span class="radio-checkmark"></span>
+      <span class="radio-label">Male</span>
+    </label>
+  </div>
+
+  <div class="radio-wrapper">
+    <label class="radio-button">
+      <input id="option2" name="radio-group" type="radio">
+      <span class="radio-checkmark"></span>
+      <span class="radio-label">Female</span>
+    </label>
+  </div>
+
+  <div class="radio-wrapper">
+    <label class="radio-button">
+      <input id="option3" name="radio-group" type="radio">
+      <span class="radio-checkmark"></span>
+      <span class="radio-label">Other</span>
+    </label>
+  </div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by JkHuger - Tags: radio, male, female, non binary */
+.radio-container {
+  margin: 0 auto;
+  max-width: 300px;
+  color: white;
+}
+
+.radio-wrapper {
+  margin-bottom: 20px;
+}
+
+.radio-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.radio-button:hover {
+  transform: translateY(-2px);
+}
+
+.radio-button input[type="radio"] {
+  display: none;
+}
+
+.radio-checkmark {
+  display: inline-block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+
+.radio-checkmark:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #333;
+  transition: all 0.2s ease-in-out;
+}
+
+.radio-button input[type="radio"]:checked ~ .radio-checkmark:before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.radio-label {
+  font-size: 16px;
+  font-weight: 600;
+}
+```
