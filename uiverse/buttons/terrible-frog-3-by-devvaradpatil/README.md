@@ -1,0 +1,90 @@
+# Terrible Frog 3
+
+A button UI element from Uiverse.io by DevVaradPatil.
+
+Source: https://uiverse.io/DevVaradPatil/terrible-frog-3
+
+Author: DevVaradPatil
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: #03a9f4, #f441af, #ffeb3b, #fff
+
+Fonts: sans-serif
+
+Spacing and radius: 30px, 40px
+
+## Source Code
+
+### index.html
+
+```html
+<button>
+  Button
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by DevVaradPatil - Tags: button */
+button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 130px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg,#03a9f4,#ffeb3b,#f441af,#03a9f4);
+  background-size: 400%;
+  border-radius: 30px;
+  z-index: 1;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+
+  100% {
+    background-position: 400%;
+  }
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+  background: linear-gradient(90deg,#03a9f4,#ffeb3b,#f441af,#03a9f4);
+  border-radius: 40px;
+  filter: blur(20px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+button:hover::before {
+  filter: blur(20px);
+  opacity: 1;
+  animation: animate 6s linear infinite;
+}
+```

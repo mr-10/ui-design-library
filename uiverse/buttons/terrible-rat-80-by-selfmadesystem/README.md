@@ -1,0 +1,86 @@
+# Terrible Rat 80
+
+A button UI element from Uiverse.io by SelfMadeSystem.
+
+Source: https://uiverse.io/SelfMadeSystem/terrible-rat-80
+
+Author: SelfMadeSystem
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: 3d, button, game, border, 3d button, illustrated
+
+Colors: #29107b, #34217d, #5c69ca, #8676c9, #8880d5, #9faef9, #fafcfe, #fefbff, #fefcff
+
+Fonts: See styles.css
+
+Spacing and radius: 10em, 5px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="button-container">
+  <span class="text">
+    <span class="button-lines">
+      <span class="button-line-1"></span>
+      <span class="button-line-2"></span>
+    </span>
+  </span>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by SelfMadeSystem  - Tags: 3d, button, game, border, 3d button, illustrated */
+.button-container {
+  --background: #fefbff;
+  --inner-shadow: #9faef9;
+  --inner-outline: #34217d;
+  --inner-outline-bottom: #fafcfe;
+  --inner-outline-middle: #8880d5;
+  --inner-outline-outer-top: #fefcff;
+  --inner-outline-outer-bottom-1: #29107b;
+  --line-1: #8676c9;
+  --line-2: #5c69ca;
+  position: relative;
+  background: var(--background);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 17px;
+  padding: 0.7em 1.8em;
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 8px 1px var(--inner-shadow),
+    0px 2px 0px 0px var(--inner-outline-bottom),
+    0px -2px 0px 0px var(--inner-outline),
+    -2px -2px 0px 0px var(--inner-outline),
+    2px -2px 0px 0px var(--inner-outline),
+    0px 0px 0px 6px var(--inner-outline-middle),
+    0px -2px 0px 7px var(--inner-outline-outer-top),
+    0px 4px 0px 7px var(--inner-outline-outer-bottom-1);
+}
+
+.button-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+
+.button-line-1 {
+  height: 0.2em;
+  width: 4em;
+  border-radius: 10em;
+  display: inline-block;
+  background: var(--line-1);
+}
+
+.button-line-2 {
+  height: 0.2em;
+  width: 3em;
+  border-radius: 10em;
+  display: inline-block;
+  background: var(--line-2);
+}
+```
