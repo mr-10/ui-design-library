@@ -1,0 +1,77 @@
+# Pretty Dingo 70
+
+A toggle switch UI element from Uiverse.io by JulioCodesSM.
+
+Source: https://uiverse.io/JulioCodesSM/pretty-dingo-70
+
+Author: JulioCodesSM
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: switch
+
+Colors: #05ae3e, #e03c3c, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 30px, 50%
+
+## Source Code
+
+### index.html
+
+```html
+<label for="toggle" class="button">
+  <input type="checkbox" id="toggle">
+  <span class="slider"></span>
+</label>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by JulioCodesSM - Tags: switch */
+.button {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 0;
+  color: white;
+}
+
+#toggle {
+  display: none;
+}
+
+.slider {
+  display: block;
+  font-size: 10px;
+  position: relative;
+}
+
+.slider::after {
+  content: 'OFF';
+  width: 25px;
+  height: 25px;
+  background-color: #e03c3c;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+  position: absolute;
+  top: -5px;
+  left: 0;
+  display: grid;
+  place-content: center;
+  line-height: 0;
+  transition: background-color .25s, transform .25s ease-in;
+}
+
+#toggle:checked + .slider::after {
+  content: 'ON';
+  background-color: #05ae3e;
+  transform: translateX(25px) rotate(360deg);
+}
+```

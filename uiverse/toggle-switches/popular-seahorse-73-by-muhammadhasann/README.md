@@ -1,0 +1,93 @@
+# Popular Seahorse 73
+
+A toggle switch UI element from Uiverse.io by MuhammadHasann.
+
+Source: https://uiverse.io/MuhammadHasann/popular-seahorse-73
+
+Author: MuhammadHasann
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: neumorphism, switch, checkbox, smooth, on, off, toggle
+
+Colors: #272727, #5e5e5e, #f43f5e, #fefefe
+
+Fonts: See styles.css
+
+Spacing and radius: 4px, 9999px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="toggle-cont">
+  <input class="toggle-input" id="toggle" name="toggle" type="checkbox" />
+  <label class="toggle-label" for="toggle">
+    <div class="cont-label-play">
+      <span class="label-play"></span>
+    </div>
+  </label>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by MuhammadHasann  - Tags: neumorphism, switch, checkbox, smooth, on, off, toggle */
+.toggle-cont {
+  width: 100px;
+  height: 50px;
+  border-radius: 9999px;
+}
+
+.toggle-cont .toggle-input {
+  display: none;
+}
+
+.toggle-cont .toggle-label {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  padding: 6px;
+  width: 100%;
+  height: 100%;
+  background: #272727;
+  border-radius: 9999px;
+  box-sizing: content-box;
+  box-shadow: 0px 0px 16px -8px #fefefe;
+}
+
+.toggle-cont .toggle-label .cont-label-play {
+  position: relative;
+  width: 50px;
+  aspect-ratio: 1 / 1;
+  background: #5e5e5e;
+  border-radius: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+}
+
+.toggle-cont .toggle-input:checked + .toggle-label .cont-label-play {
+  background: #f43f5e;
+  transform: translateX(50px);
+}
+
+.toggle-cont .toggle-label .label-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  width: 24px;
+  aspect-ratio: 1 / 1;
+  background: #fefefe;
+  border-radius: 4px;
+  clip-path: polygon(25% 0, 75% 50%, 25% 100%, 25% 51%);
+  transition: all 0.5s cubic-bezier(1, 0, 0, 1);
+}
+
+.toggle-cont .toggle-input:checked + .toggle-label .label-play {
+  width: 20px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+```
