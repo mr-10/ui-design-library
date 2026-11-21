@@ -1,0 +1,58 @@
+# Rare Termite 94
+
+A button UI element from Uiverse.io by ozgeozkaraa01.
+
+Source: https://uiverse.io/ozgeozkaraa01/rare-termite-94
+
+Author: ozgeozkaraa01
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: #e7eae8
+
+Fonts: See styles.css
+
+Spacing and radius: 8px
+
+## Source Code
+
+### index.html
+
+```html
+<button>
+  ↑
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by ozgeozkaraa01 - Tags: button */
+button {
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  width: 45px;
+  height: 45px;
+  opacity: 0.75;
+  border: 1px solid #e7eae8;
+  border-radius: 8px;
+  cursor: pointer;
+  animation: bounce_513 1s infinite;
+}
+
+@keyframes bounce_513 {
+  0%,
+    100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+```
