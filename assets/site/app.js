@@ -61,7 +61,7 @@
   var DRIVER = "(function(){try{"
     + "var TRIGGER='__TRIGGER__',AUTOPLAY=__AUTOPLAY__,MODE='__MODE__',OVR=__OVERRIDE__;"
     + "var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;"
-    + "var speed=1,playing=AUTOPLAY&&!reduced,loop=true,timer=null,phase=false,cycles=0;"
+    + "var speed=1,playing=AUTOPLAY&&!reduced,loop=true,timer=null,phase=false,cycles=0,userSim=false;"
     + "var stage=document.getElementById('stage');"
     + "function target(){return document.querySelector('input[type=\"checkbox\"],input[type=\"radio\"]')"
     + "||document.querySelector('button,input,select,textarea,a[href],label,[tabindex]')"
@@ -103,7 +103,8 @@
     + "u=union();"
     + "if(TRIGGER==='checked'||TRIGGER==='click'){var el=target();if(el){try{el.click();}catch(e){}document.body.offsetHeight;var u2=union();try{el.click();}catch(e){}if(u2&&u){u={l:Math.min(u.l,u2.l),t:Math.min(u.t,u2.t),r:Math.max(u.r,u2.r),b:Math.max(u.b,u2.b)};}}}"
     + "}"
-    + "if(!wasHover&&TRIGGER==='hover')simClass(false,'uilib-sim-hover');"
+    + "if(TRIGGER==='hover'&&!playing&&!userSim)simClass(false,'uilib-sim-hover');"
+    + "if(TRIGGER==='active'&&!playing&&!userSim)simClass(false,'uilib-sim-active');"
     + "if(!u)return;var cw=u.r-u.l,ch=u.b-u.t;if(cw<=0||ch<=0)return;"
     + "var boxW=document.documentElement.clientWidth,boxH=document.documentElement.clientHeight;"
     + "if(OVR&&OVR.padding!=null)factor=1-OVR.padding*2;"
@@ -124,6 +125,7 @@
     + "window.addEventListener('message',function(e){var d=e.data||{};if(!d||d.uilib!==1)return;"
     + "if(d.cmd==='play'){playing=true;cycles=0;schedule();}"
     + "if(d.cmd==='pause'){playing=false;clearTimeout(timer);}"
+    + "if(d.cmd==='sim'){var on=!!d.on;userSim=on;if(TRIGGER==='hover'){simClass(on,'uilib-sim-hover');}else if(TRIGGER==='active'){simClass(on,'uilib-sim-active');}}"
     + "if(d.cmd==='speed'){speed=d.speed||1;}"
     + "if(d.cmd==='loop'){loop=!!d.loop;if(loop&&playing)schedule();}"
     + "if(d.cmd==='mode'){window.__uilibMode=d.mode;if(d.mode==='actual'){if(stage)stage.style.transform='scale(1)';}else{fit();}}"
@@ -133,6 +135,13 @@
     + "if(window.ResizeObserver&&stage){try{var ro=new ResizeObserver(refit);ro.observe(stage);if(stage.firstElementChild)ro.observe(stage.firstElementChild);}catch(e){}}"
     + "if(document.fonts&&document.fonts.ready){document.fonts.ready.then(function(){refit();});}"
     + "setTimeout(refit,2500);"
+    + "/* Grid hover/tap: the parent cannot reliably see the pointer over"
+    + "   this iframe, so the preview itself reports entry and taps. It"
+    + "   only ever turns the sim ON; the parent turns it OFF on leave. */"
+    + "function gridEnter(){if(TRIGGER!=='hover'&&TRIGGER!=='active')return;userSim=true;simClass(true,TRIGGER==='hover'?'uilib-sim-hover':'uilib-sim-active');try{parent.postMessage({uilib:'tapped'},'*');}catch(e){}}"
+    + "function gridLeave(){if(TRIGGER!=='hover'&&TRIGGER!=='active')return;userSim=false;simClass(false,TRIGGER==='hover'?'uilib-sim-hover':'uilib-sim-active');try{parent.postMessage({uilib:'left'},'*');}catch(e){}}"
+    + "var hasFinePointer=false;try{hasFinePointer=window.matchMedia('(pointer:fine)').matches;}catch(e){}"
+    + "if(!AUTOPLAY){document.documentElement.addEventListener('mouseenter',gridEnter);document.addEventListener('pointerdown',gridEnter);if(hasFinePointer){document.documentElement.addEventListener('mouseleave',gridLeave);document.addEventListener('mouseout',function(e){if(!e.relatedTarget)gridLeave();});}}"
     + "if(TRIGGER==='static'){var st=document.createElement('style');st.textContent='.uilib-in{animation:uilibIn .6s ease both}@keyframes uilibIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}';document.head.appendChild(st);}"
     + "if(OVR&&OVR.background){document.body.style.background=OVR.background;}"
     + "prime();"
@@ -426,7 +435,15 @@
         if (en.isIntersecting) {
           if (!holder._frame) {
             holder.querySelector('.ph') && holder.querySelector('.ph').remove();
-            holder._frame = attachPreview(holder, rec, !!holder._gridAutoplay);
+            // No autoplay in the grid: previews stay still until the user
+            // points at or taps that card (setCardSim), like Uiverse.
+            holder._frame = attachPreview(holder, rec, false);
+            // If the user is already pointing at this card when its
+            // preview finishes loading, play it (the earlier message
+            // may have arrived before the driver was listening).
+            holder._frame.addEventListener('load', function () {
+              if (activeSimHolder === holder) setCardSim(holder, true);
+            });
           }
         } else if (holder._frame) {
           holder._frame.remove(); holder._frame = null;
@@ -435,6 +452,56 @@
       });
     }, { rootMargin: '200px' });
     return ioCards;
+  }
+
+  /* Play one grid card's preview while the user points at or taps it.
+     Only hover/active triggers get a steady sim state from the parent;
+     the rest are native (CSS animation, or the element when clicked
+     inside its iframe). Only one card plays at a time: turning one on
+     turns the previous one off. */
+  var activeSimHolder = null;
+  function setCardSim(holder, on) {
+    var rec = holder._rec;
+    if (!rec || (rec.trigger !== 'hover' && rec.trigger !== 'active')) return;
+    if (on) {
+      if (activeSimHolder && activeSimHolder !== holder) setCardSim(activeSimHolder, false);
+      activeSimHolder = holder;
+    } else if (activeSimHolder === holder) {
+      activeSimHolder = null;
+    }
+    var f = holder._frame;
+    if (!f || !f.contentWindow) return;
+    try { f.contentWindow.postMessage({ uilib: 1, cmd: 'sim', on: on }, '*'); } catch (e) {}
+  }
+
+  /* A preview reports its own entry/tap (the parent cannot see the
+     pointer over an iframe). Turn that card on, and only that card.
+     It also reports leaving the iframe (desktop mouse only): the
+     driver already turned its own sim off, so just clear it here. */
+  if (!setCardSim._tappedBound) {
+    setCardSim._tappedBound = true;
+    window.addEventListener('message', function (e) {
+      if (!e.data || !e.source) return;
+      var cards = document.querySelectorAll('.card .preview');
+      for (var i = 0; i < cards.length; i++) {
+        var h = cards[i];
+        if (h._frame && h._frame.contentWindow === e.source) {
+          if (e.data.uilib === 'tapped') { setCardSim(h, true); return; }
+          if (e.data.uilib === 'left') { setCardSim(h, false); return; }
+        }
+      }
+    });
+    /* The parent gets no mouse events while the pointer is over an
+       iframe, but it does get mousemove everywhere else. So when the
+       pointer moves over the parent document and is no longer over
+       the playing card, turn that card off. (This catches leaving a
+       card for empty space, which the iframe's own mouseleave can
+       miss.) */
+    document.addEventListener('mousemove', function (e) {
+      if (!activeSimHolder) return;
+      var card = activeSimHolder.closest('.card');
+      if (card && !card.contains(e.target)) setCardSim(activeSimHolder, false);
+    });
   }
 
   function renderBrowse(params) {
@@ -543,14 +610,10 @@
       });
       var holder = card.querySelector('.preview');
       holder._rec = rec;
-      // Autoplay in the grid only for triggers that animate without
-      // focusing or clicking (hover/active pulse a class; loop/static run
-      // on their own). checked/click/focus would steal the parent's focus
-      // on every step, so they show their active state once (prime) and
-      // stay there.
-      var gridAutoplay = rec.trigger === 'hover' || rec.trigger === 'active' ||
-        rec.trigger === 'auto-loop' || rec.trigger === 'static';
-      holder._gridAutoplay = gridAutoplay;
+      // The preview itself reports entry/leave/tap (the parent cannot
+      // see the pointer over an iframe), so the driver is the source
+      // of truth for its sim; the parent only keeps one card playing
+      // at a time (see the 'tapped'/'left' handler by setCardSim).
       cardObserver().observe(card);
       frag.appendChild(card);
     });
