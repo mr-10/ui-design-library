@@ -1,0 +1,77 @@
+# Ordinary Wombat 53
+
+A input UI element from Uiverse.io by Amine-maker.
+
+Source: https://uiverse.io/Amine-maker/ordinary-wombat-53
+
+Author: Amine-maker
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: active, input, account
+
+Colors: #2c2c54, #bbbbbb, #e8e8e8
+
+Fonts: See styles.css
+
+Spacing and radius: 10px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="relative">
+  <input class="input-cal input-base" id="input" placeholder="" type="text">
+  <label id="label-input">Name</label>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Amine-maker - Tags: active, input, account */
+#label-input {
+  transition: all 0.1s ease-in-out;
+  color: #2c2c54;
+  position: absolute;
+  top: 30%;
+  left: 18px;
+  transform: scale(0.95);
+  opacity: 1;
+  pointer-events: none;
+}
+
+.input-base {
+  border-radius: 10px;
+}
+
+#input:focus ~ label#label-input,
+#input:not(:placeholder-shown) ~ #label-input {
+  top: -20% !important;
+  left: 2px !important;
+  transform: scale(0.8);
+  background: white;
+  color: black;
+  padding: 0 6px;
+  opacity: 1;
+}
+
+#input {
+  transition: outline 0.2s ease;
+  font-size: 1rem;
+  outline-color: var(--button-text);
+  outline: unset;
+  border: 1px solid #bbbbbb;
+  padding: 17px 10px 10px 17px;
+  width: 100%;
+}
+
+#input:focus {
+  box-shadow: 0 0 0 1px #e8e8e8, 0 0 0 3px rgb(92, 127, 202);
+}
+
+.relative {
+  position: relative;
+}
+```

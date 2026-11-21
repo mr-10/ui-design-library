@@ -1,0 +1,60 @@
+# Nice Otter 15
+
+A input UI element from Uiverse.io by elijahgummer.
+
+Source: https://uiverse.io/elijahgummer/nice-otter-15
+
+Author: elijahgummer
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: animation, blue, input, glow, transition, hover effect, box-shadow
+
+Colors: #2980b9, #333, #3498db, #aaa, #f0f8ff, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 8px
+
+## Source Code
+
+### index.html
+
+```html
+<input placeholder="Type something..." class="input" name="text" type="text" />
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by elijahgummer  - Tags: animation, blue, input, glow, transition, hover effect, box-shadow */
+.input {
+  width: 200px;
+  padding: 12px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  outline: none;
+  font-size: 18px;
+  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  background-color: #fff;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border-color: #2980b9;
+  box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);
+  transform: scale(1.02);
+}
+
+/* Placeholder Styling */
+.input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+/* Hover Effect */
+.input:hover {
+  background-color: #f0f8ff;
+}
+```

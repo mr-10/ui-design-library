@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nice Otter 15</title>
+<style>
+body { display: flex; min-height: 100vh; align-items: center; justify-content: center; margin: 0; }
+</style>
+<style>
+/* From Uiverse.io by elijahgummer  - Tags: animation, blue, input, glow, transition, hover effect, box-shadow */
+.input {
+  width: 200px;
+  padding: 12px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  outline: none;
+  font-size: 18px;
+  transition: border-color 0.3s, box-shadow 0.3s, transform 0.3s;
+  background-color: #fff;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.input:focus {
+  border-color: #2980b9;
+  box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);
+  transform: scale(1.02);
+}
+
+/* Placeholder Styling */
+.input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+/* Hover Effect */
+.input:hover {
+  background-color: #f0f8ff;
+}
+</style>
+</head>
+<body>
+<input placeholder="Type something..." class="input" name="text" type="text" />
+</body>
+</html>
