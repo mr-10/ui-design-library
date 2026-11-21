@@ -1,0 +1,48 @@
+# Angry Bird 46
+
+A button UI element from Uiverse.io by Itskrish01.
+
+Source: https://uiverse.io/Itskrish01/angry-bird-46
+
+Author: Itskrish01
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: —
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<!-- From Uiverse.io by Itskrish01  - Tags: button -->
+<button
+  class="cursor-pointer transistion-all duration-500 hover:shadow-[0_15px_50px_-15px_#13b6da] p-[12px] rounded-[24px] flex gap-4 bg-gradient-to-r from-[#2891c5] to-[#13b6da]"
+>
+  <svg
+    class="h-12 w-12 bg-[#0a0a0a] shadow-xl rounded-full p-3"
+    viewBox="0 0 24 24"
+    fill="none"
+  >
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M15.003 14H3.5v-4h11.502l-4.165-4.538 2.705-2.947 7.353 8.012c.747.813.747 2.133 0 2.947l-7.353 8.011-2.705-2.947L15.003 14z"
+      fill="#F0F0F0"
+    ></path>
+  </svg>
+  <span class="text-[1.9rem] font-bold text-white pr-3">Play Now</span>
+</button>
+```
+
+### styles.css
+
+```css
+/* No CSS in source file */
+```

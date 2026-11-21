@@ -1,0 +1,96 @@
+# Angry Dragonfly 89
+
+A button UI element from Uiverse.io by vinodjangid07.
+
+Source: https://uiverse.io/vinodjangid07/angry-dragonfly-89
+
+Author: vinodjangid07
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: black, button, hover effect, click effect, create
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 0px
+
+## Source Code
+
+### index.html
+
+```html
+<button class="Btn">
+  
+  <div class="sign">+</div>
+  
+  <div class="text">Create</div>
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by vinodjangid07 - Tags: black, button, hover effect, click effect, create */
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: .3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: black;
+}
+
+/* plus sign */
+.sign {
+  width: 100%;
+  font-size: 2em;
+  color: white;
+  transition-duration: .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* text */
+.text {
+  position: absolute;
+  right: 0%;
+  width: 0%;
+  opacity: 0;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+  transition-duration: .3s;
+}
+/* hover effect on button width */
+.Btn:hover {
+  width: 125px;
+  border-radius: 0px;
+  transition-duration: .3s;
+}
+
+.Btn:hover .sign {
+  width: 30%;
+  transition-duration: .3s;
+  padding-left: 20px;
+}
+/* hover effect button's text */
+.Btn:hover .text {
+  opacity: 1;
+  width: 70%;
+  transition-duration: .3s;
+  padding-right: 20px;
+}
+/* button click effect*/
+.Btn:active {
+  transform: translate(2px ,2px);
+}
+```
