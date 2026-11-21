@@ -1,0 +1,18 @@
+{
+ "id": "unlucky-bird-53-by-jyefu013",
+ "name": "Unlucky Bird 53",
+ "category": "notifications",
+ "author": "jyefu013",
+ "source": "https://uiverse.io/jyefu013/unlucky-bird-53",
+ "trigger": "hover",
+ "description": "A notification UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "notification",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"btn\">\n  <span class=\"default-text\">New Level Unlocked!</span>\n  <span class=\"hover-text\">Congrats!</span>\n</button>",
+ "css": "/* From Uiverse.io by jyefu013 - Tags: notification */\n.btn {\n  padding: 10px;\n  border-radius: 5px;\n  font-size: 15px;\n  background-color: black;\n  color: rgb(238, 255, 0);\n  position: relative;\n  overflow: hidden;\n}\n\n.default-text {\n  z-index: 1;\n}\n\n.hover-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  opacity: 0;\n  transition: opacity 0.5s ease-in-out;\n}\n\n.btn:hover .default-text {\n  opacity: 0;\n}\n\n.btn:hover .hover-text {\n  opacity: 1;\n  animation: bounce 0.5s ease-in-out;\n}\n\n@keyframes bounce {\n  0% {\n    transform: scale(1);\n  }\n\n  25% {\n    transform: scale(1.2);\n  }\n\n  75% {\n    transform: scale(1.1);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n.btn:hover::after {\n  content: '';\n  position: absolute;\n  top: -10px;\n  left: -10px;\n  width: calc(100% + 20px);\n  height: calc(100% + 20px);\n  border-radius: 50%;\n  background-color: rgba(255, 255, 255, 0.5);\n  opacity: 0;\n  animation: fireworks 1s linear forwards;\n}\n\n@keyframes fireworks {\n  0% {\n    transform: scale(1);\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(4);\n    opacity: 0;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Unlucky Bird 53</title>\n<style>\n/* From Uiverse.io by jyefu013 - https://uiverse.io/jyefu013/unlucky-bird-53 */\n/* From Uiverse.io by jyefu013 - Tags: notification */\n.btn {\n  padding: 10px;\n  border-radius: 5px;\n  font-size: 15px;\n  background-color: black;\n  color: rgb(238, 255, 0);\n  position: relative;\n  overflow: hidden;\n}\n\n.default-text {\n  z-index: 1;\n}\n\n.hover-text {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  opacity: 0;\n  transition: opacity 0.5s ease-in-out;\n}\n\n.btn:hover .default-text {\n  opacity: 0;\n}\n\n.btn:hover .hover-text {\n  opacity: 1;\n  animation: bounce 0.5s ease-in-out;\n}\n\n@keyframes bounce {\n  0% {\n    transform: scale(1);\n  }\n\n  25% {\n    transform: scale(1.2);\n  }\n\n  75% {\n    transform: scale(1.1);\n  }\n\n  100% {\n    transform: scale(1);\n  }\n}\n\n.btn:hover::after {\n  content: '';\n  position: absolute;\n  top: -10px;\n  left: -10px;\n  width: calc(100% + 20px);\n  height: calc(100% + 20px);\n  border-radius: 50%;\n  background-color: rgba(255, 255, 255, 0.5);\n  opacity: 0;\n  animation: fireworks 1s linear forwards;\n}\n\n@keyframes fireworks {\n  0% {\n    transform: scale(1);\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(4);\n    opacity: 0;\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n  <span class=\"default-text\">New Level Unlocked!</span>\n  <span class=\"hover-text\">Congrats!</span>\n</button>\n</body>\n</html>\n"
+}

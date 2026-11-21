@@ -1,0 +1,18 @@
+{
+ "id": "mighty-chipmunk-64-by-web-potato",
+ "name": "Mighty Chipmunk 64",
+ "category": "buttons",
+ "author": "Web-Potato",
+ "source": "https://uiverse.io/Web-Potato/mighty-chipmunk-64",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n    Button\n</button>",
+ "css": "/* From Uiverse.io by Web-Potato - Tags: button */\nbutton {\n  position: relative;\n  height: 50px;\n  width: 150px;\n  color: #FFF;\n  font-size: 15px;\n  font-weight: 600;\n  letter-spacing: 2px;\n  background-color: #212121;\n  transition: all 0.5s;\n  border: none;\n}\n\nbutton::before {\n  position: absolute;\n  content: '';\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(29, 255, 86, 0.281);\n  border-radius: 5px;\n  transition: all 0.3s;\n  z-index: 1;\n}\n\nbutton:hover::before {\n  opacity: 0;\n  transform: scale(0.7,0.7);\n}\n\nbutton::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  transition: all 0.4s;\n  border: 1px solid rgba(29, 255, 86, 0.281);\n  border-radius: 5px;\n  transform: scale(1.5,1.5);\n  opacity: 0;\n  z-index: 1;\n}\n\nbutton:hover::after {\n  opacity: 1;\n  transform: scale(1,1);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mighty Chipmunk 64</title>\n<style>\n/* From Uiverse.io by Web-Potato - https://uiverse.io/Web-Potato/mighty-chipmunk-64 */\n/* From Uiverse.io by Web-Potato - Tags: button */\nbutton {\n  position: relative;\n  height: 50px;\n  width: 150px;\n  color: #FFF;\n  font-size: 15px;\n  font-weight: 600;\n  letter-spacing: 2px;\n  background-color: #212121;\n  transition: all 0.5s;\n  border: none;\n}\n\nbutton::before {\n  position: absolute;\n  content: '';\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(29, 255, 86, 0.281);\n  border-radius: 5px;\n  transition: all 0.3s;\n  z-index: 1;\n}\n\nbutton:hover::before {\n  opacity: 0;\n  transform: scale(0.7,0.7);\n}\n\nbutton::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  transition: all 0.4s;\n  border: 1px solid rgba(29, 255, 86, 0.281);\n  border-radius: 5px;\n  transform: scale(1.5,1.5);\n  opacity: 0;\n  z-index: 1;\n}\n\nbutton:hover::after {\n  opacity: 1;\n  transform: scale(1,1);\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n</body>\n</html>\n"
+}

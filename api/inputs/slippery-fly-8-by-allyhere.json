@@ -1,0 +1,18 @@
+{
+ "id": "slippery-fly-8-by-allyhere",
+ "name": "Slippery Fly 8",
+ "category": "inputs",
+ "author": "Allyhere",
+ "source": "https://uiverse.io/Allyhere/slippery-fly-8",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<p class=\"input-container\">\n    <input type=\"text\" placeholder=\"Enter your name\" name=\"text\" id=\"text\" class=\"input-field\" autocomplete=\"name\">\n    <label class=\"input-label\" for=\"text\">Name</label>\n</p>",
+ "css": "/* From Uiverse.io by Allyhere - Tags: input */\n.input-container {\n  --c-text: rgb(50, 50, 80);\n  --c-bg: rgb(252, 252, 252);\n  --c-outline: rgb(55, 45 , 190);\n  display: grid;\n  gap: 1ch;\n  position: relative;\n  max-width: 190px;\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n  color: black;\n}\n\n.input-field {\n  padding: 0.5em 0.75em;\n  border-radius: 0.2em;\n  border: 1px solid var(--c-border, currentColor);\n  color: var(--c-text);\n  font-size: 1rem;\n  letter-spacing: 0.1ch;\n  width: 100%;\n}\n\n.input-field:not(:placeholder-shown) + .input-label {\n  transform: translateY(-220%);\n  opacity: 1;\n}\n\n.input-field:invalid {\n  --c-border: rgb(230, 85, 60);\n  --c-text: rgb(230, 85, 60);\n  --c-outline: rgb(230, 85, 60);\n}\n\n.input-field:is(:disabled, :read-only) {\n  --c-border: rgb(150, 150, 150);\n  --c-text: rgb(170, 170, 170);\n}\n\n.input-field:is(:focus, :focus-visible) {\n  outline: 2px solid var(--c-outline);\n  outline-offset: 2px;\n}\n\n.input-label {\n  --timing: 200ms ease-in;\n  position: absolute;\n  left: 0;\n  top: 50%;\n  transition: transform var(--timing),\n    opacity var(--timing);\n  transform: translateY(-50%);\n  opacity: 0;\n  color: var(--c-text);\n  font-weight: 500;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slippery Fly 8</title>\n<style>\n/* From Uiverse.io by Allyhere - https://uiverse.io/Allyhere/slippery-fly-8 */\n/* From Uiverse.io by Allyhere - Tags: input */\n.input-container {\n  --c-text: rgb(50, 50, 80);\n  --c-bg: rgb(252, 252, 252);\n  --c-outline: rgb(55, 45 , 190);\n  display: grid;\n  gap: 1ch;\n  position: relative;\n  max-width: 190px;\n  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n  color: black;\n}\n\n.input-field {\n  padding: 0.5em 0.75em;\n  border-radius: 0.2em;\n  border: 1px solid var(--c-border, currentColor);\n  color: var(--c-text);\n  font-size: 1rem;\n  letter-spacing: 0.1ch;\n  width: 100%;\n}\n\n.input-field:not(:placeholder-shown) + .input-label {\n  transform: translateY(-220%);\n  opacity: 1;\n}\n\n.input-field:invalid {\n  --c-border: rgb(230, 85, 60);\n  --c-text: rgb(230, 85, 60);\n  --c-outline: rgb(230, 85, 60);\n}\n\n.input-field:is(:disabled, :read-only) {\n  --c-border: rgb(150, 150, 150);\n  --c-text: rgb(170, 170, 170);\n}\n\n.input-field:is(:focus, :focus-visible) {\n  outline: 2px solid var(--c-outline);\n  outline-offset: 2px;\n}\n\n.input-label {\n  --timing: 200ms ease-in;\n  position: absolute;\n  left: 0;\n  top: 50%;\n  transition: transform var(--timing),\n    opacity var(--timing);\n  transform: translateY(-50%);\n  opacity: 0;\n  color: var(--c-text);\n  font-weight: 500;\n}\n</style>\n</head>\n<body>\n<p class=\"input-container\">\n    <input type=\"text\" placeholder=\"Enter your name\" name=\"text\" id=\"text\" class=\"input-field\" autocomplete=\"name\">\n    <label class=\"input-label\" for=\"text\">Name</label>\n</p>\n</body>\n</html>\n"
+}

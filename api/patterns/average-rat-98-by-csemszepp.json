@@ -1,0 +1,19 @@
+{
+ "id": "average-rat-98-by-csemszepp",
+ "name": "Average Rat 98",
+ "category": "patterns",
+ "author": "csemszepp",
+ "source": "https://uiverse.io/csemszepp/average-rat-98",
+ "trigger": "static",
+ "description": "A pattern with simple and material-design styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "material-design",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 150px; /* control the size */\n  --c1: #ff847c;\n  --c2: #e84a5f;\n  --c3: #fecea8;\n  --c4: #99b898;\n\n  background: conic-gradient(\n      from 45deg at 75% 75%,\n      var(--c3) 90deg,\n      var(--c1) 0 180deg,\n      #0000 0\n    ),\n    conic-gradient(from -45deg at 25% 25%, var(--c3) 90deg, #0000 0),\n    conic-gradient(from -45deg at 50% 100%, #0000 180deg, var(--c3) 0),\n    conic-gradient(\n      from -45deg,\n      var(--c1) 90deg,\n      var(--c2) 0 225deg,\n      var(--c4) 0\n    );\n  background-size: var(--s) var(--s);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Average Rat 98</title>\n<style>\n/* From Uiverse.io by csemszepp - https://uiverse.io/csemszepp/average-rat-98 */\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 150px; /* control the size */\n  --c1: #ff847c;\n  --c2: #e84a5f;\n  --c3: #fecea8;\n  --c4: #99b898;\n\n  background: conic-gradient(\n      from 45deg at 75% 75%,\n      var(--c3) 90deg,\n      var(--c1) 0 180deg,\n      #0000 0\n    ),\n    conic-gradient(from -45deg at 25% 25%, var(--c3) 90deg, #0000 0),\n    conic-gradient(from -45deg at 50% 100%, #0000 180deg, var(--c3) 0),\n    conic-gradient(\n      from -45deg,\n      var(--c1) 90deg,\n      var(--c2) 0 225deg,\n      var(--c4) 0\n    );\n  background-size: var(--s) var(--s);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

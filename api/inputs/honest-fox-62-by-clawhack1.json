@@ -1,0 +1,18 @@
+{
+ "id": "honest-fox-62-by-clawhack1",
+ "name": "Honest Fox 62",
+ "category": "inputs",
+ "author": "ClawHack1",
+ "source": "https://uiverse.io/ClawHack1/honest-fox-62",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<div class=\"input\">\n    <input type=\"text\" required=\"\" autocomplete=\"off\">\n    <label for=\"name\">Username</label>\n</div>",
+ "css": "/* From Uiverse.io by ClawHack1 - Tags: input */\n.input {\n  font-family: 'Segoe UI', sans-serif;\n  margin: 1em 0 1em 0;\n  max-width: 190px;\n  position: relative;\n}\n\n.input input {\n  font-size: 100%;\n  padding: 0.8em;\n  outline: none;\n  border: 2px solid rgb(141, 109, 255);\n  background-color: transparent;\n  border-radius: 20px;\n  width: 100%;\n}\n\n.input label {\n  font-size: 100%;\n  position: absolute;\n  left: 0;\n  padding: 0.8em;\n  margin-left: 0.5em;\n  pointer-events: none;\n  transition: all 0.3s ease;\n  color: rgb(255, 255, 255);\n}\n\n.input :is(input:focus, input:valid)~label {\n  transform: translateY(-50%) scale(.9);\n  margin: 0em;\n  margin-left: 1.3em;\n  padding: 0.4em;\n  background-color: #212121;\n}\n\n.inputGroup :is(input:focus, input:valid) {\n  border-color: rgb(37, 37, 211);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Honest Fox 62</title>\n<style>\n/* From Uiverse.io by ClawHack1 - https://uiverse.io/ClawHack1/honest-fox-62 */\n/* From Uiverse.io by ClawHack1 - Tags: input */\n.input {\n  font-family: 'Segoe UI', sans-serif;\n  margin: 1em 0 1em 0;\n  max-width: 190px;\n  position: relative;\n}\n\n.input input {\n  font-size: 100%;\n  padding: 0.8em;\n  outline: none;\n  border: 2px solid rgb(141, 109, 255);\n  background-color: transparent;\n  border-radius: 20px;\n  width: 100%;\n}\n\n.input label {\n  font-size: 100%;\n  position: absolute;\n  left: 0;\n  padding: 0.8em;\n  margin-left: 0.5em;\n  pointer-events: none;\n  transition: all 0.3s ease;\n  color: rgb(255, 255, 255);\n}\n\n.input :is(input:focus, input:valid)~label {\n  transform: translateY(-50%) scale(.9);\n  margin: 0em;\n  margin-left: 1.3em;\n  padding: 0.4em;\n  background-color: #212121;\n}\n\n.inputGroup :is(input:focus, input:valid) {\n  border-color: rgb(37, 37, 211);\n}\n</style>\n</head>\n<body>\n<div class=\"input\">\n    <input type=\"text\" required=\"\" autocomplete=\"off\">\n    <label for=\"name\">Username</label>\n</div>\n</body>\n</html>\n"
+}

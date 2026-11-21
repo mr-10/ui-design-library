@@ -1,0 +1,20 @@
+{
+ "id": "dangerous-walrus-7-by-souravbandyopadhyay",
+ "name": "Dangerous Walrus 7",
+ "category": "patterns",
+ "author": "SouravBandyopadhyay",
+ "source": "https://uiverse.io/SouravBandyopadhyay/dangerous-walrus-7",
+ "trigger": "static",
+ "description": "A pattern with alert, minimalist and theme-switch styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "alert",
+  "minimalist",
+  "theme-switch",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by SouravBandyopadhyay  - Tags: alert, minimalist, theme-switch, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n      45deg,\n      transparent 33.33%,\n      rgba(57, 144, 179, 0.1) 33.33%,\n      rgba(0, 0, 0, 0.1) 66.66%,\n      transparent 66.66%\n    ),\n    lightblue;\n  background-size: 20px 20px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dangerous Walrus 7</title>\n<style>\n/* From Uiverse.io by SouravBandyopadhyay - https://uiverse.io/SouravBandyopadhyay/dangerous-walrus-7 */\n/* From Uiverse.io by SouravBandyopadhyay  - Tags: alert, minimalist, theme-switch, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(\n      45deg,\n      transparent 33.33%,\n      rgba(57, 144, 179, 0.1) 33.33%,\n      rgba(0, 0, 0, 0.1) 66.66%,\n      transparent 66.66%\n    ),\n    lightblue;\n  background-size: 20px 20px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

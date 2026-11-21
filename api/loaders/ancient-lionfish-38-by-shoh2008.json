@@ -1,0 +1,18 @@
+{
+ "id": "ancient-lionfish-38-by-shoh2008",
+ "name": "Ancient Lionfish 38",
+ "category": "loaders",
+ "author": "Shoh2008",
+ "source": "https://uiverse.io/Shoh2008/ancient-lionfish-38",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  transform: translateZ(1px);\n}\n\n.loader:after {\n  content: '$';\n  display: inline-block;\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  text-align: center;\n  line-height: 40px;\n  font-size: 32px;\n  font-weight: bold;\n  background: #FFD700;\n  color: #DAA520;\n  border: 4px double;\n  box-sizing: border-box;\n  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .1);\n  animation: coin-flip 4s cubic-bezier(0, 0.2, 0.8, 1) infinite;\n}\n\n@keyframes coin-flip {\n  0%, 100% {\n    animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);\n  }\n\n  0% {\n    transform: rotateY(0deg);\n  }\n\n  50% {\n    transform: rotateY(1800deg);\n    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);\n  }\n\n  100% {\n    transform: rotateY(3600deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Lionfish 38</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/ancient-lionfish-38 */\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  transform: translateZ(1px);\n}\n\n.loader:after {\n  content: '$';\n  display: inline-block;\n  width: 48px;\n  height: 48px;\n  border-radius: 50%;\n  text-align: center;\n  line-height: 40px;\n  font-size: 32px;\n  font-weight: bold;\n  background: #FFD700;\n  color: #DAA520;\n  border: 4px double;\n  box-sizing: border-box;\n  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .1);\n  animation: coin-flip 4s cubic-bezier(0, 0.2, 0.8, 1) infinite;\n}\n\n@keyframes coin-flip {\n  0%, 100% {\n    animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);\n  }\n\n  0% {\n    transform: rotateY(0deg);\n  }\n\n  50% {\n    transform: rotateY(1800deg);\n    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);\n  }\n\n  100% {\n    transform: rotateY(3600deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

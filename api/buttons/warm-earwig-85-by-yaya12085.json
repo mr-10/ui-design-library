@@ -1,0 +1,18 @@
+{
+ "id": "warm-earwig-85-by-yaya12085",
+ "name": "Warm Earwig 85",
+ "category": "buttons",
+ "author": "Yaya12085",
+ "source": "https://uiverse.io/Yaya12085/warm-earwig-85",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Yaya12085  - Tags: gradient, button, pro -->\n<button\n  class=\"ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-6 py-2 border-0 rounded-full text-sm font-medium text-white bg-gradient-to-l from-blue-500 to-purple-600 shadow-lg hover:from-purple-500 hover:to-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500\"\n>\n  Try Pro\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Earwig 85</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/warm-earwig-85 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Yaya12085  - Tags: gradient, button, pro -->\n<button\n  class=\"ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary hover:bg-primary/90 h-10 inline-flex items-center justify-center px-6 py-2 border-0 rounded-full text-sm font-medium text-white bg-gradient-to-l from-blue-500 to-purple-600 shadow-lg hover:from-purple-500 hover:to-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500\"\n>\n  Try Pro\n</button>\n</body>\n</html>\n"
+}

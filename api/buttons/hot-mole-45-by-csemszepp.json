@@ -1,0 +1,18 @@
+{
+ "id": "hot-mole-45-by-csemszepp",
+ "name": "Hot Mole 45",
+ "category": "buttons",
+ "author": "csemszepp",
+ "source": "https://uiverse.io/csemszepp/hot-mole-45",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by csemszepp - Tags: gradient, button -->\n<button class=\"bg-gradient-to-r from-pink-500 to-purple-500 hover:animate-pulse focus:outline-none text-white font-semibold py-3 px-6 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:bg-opacity-90\">\n  Click Me!\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hot Mole 45</title>\n<style>\n/* From Uiverse.io by csemszepp - https://uiverse.io/csemszepp/hot-mole-45 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by csemszepp - Tags: gradient, button -->\n<button class=\"bg-gradient-to-r from-pink-500 to-purple-500 hover:animate-pulse focus:outline-none text-white font-semibold py-3 px-6 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 hover:bg-opacity-90\">\n  Click Me!\n</button>\n</body>\n</html>\n"
+}

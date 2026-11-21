@@ -1,0 +1,19 @@
+{
+ "id": "stupid-insect-76-by-csemszepp",
+ "name": "Stupid Insect 76",
+ "category": "patterns",
+ "author": "csemszepp",
+ "source": "https://uiverse.io/csemszepp/stupid-insect-76",
+ "trigger": "static",
+ "description": "A pattern with simple and material-design styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "material-design",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 150px; /* control the size */\n  --c1: #f7d2a1;\n  --c2: #05057e;\n\n  --_g: var(--c1) 0% 5%, var(--c2) 6% 15%, var(--c1) 16% 25%, var(--c2) 26% 35%,\n    var(--c1) 36% 45%, var(--c2) 46% 55%, var(--c1) 56% 65%, var(--c2) 66% 75%,\n    var(--c1) 76% 85%, var(--c2) 86% 95%, #0000 96%;\n  background: radial-gradient(50% 50% at 100% 0, var(--_g)),\n    radial-gradient(50% 50% at 0 100%, var(--_g)),\n    radial-gradient(50% 50%, var(--_g)),\n    radial-gradient(50% 50%, var(--_g)) calc(var(--s) / 2) calc(var(--s) / 2)\n      var(--c1);\n  background-size: var(--s) var(--s);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stupid Insect 76</title>\n<style>\n/* From Uiverse.io by csemszepp - https://uiverse.io/csemszepp/stupid-insect-76 */\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 150px; /* control the size */\n  --c1: #f7d2a1;\n  --c2: #05057e;\n\n  --_g: var(--c1) 0% 5%, var(--c2) 6% 15%, var(--c1) 16% 25%, var(--c2) 26% 35%,\n    var(--c1) 36% 45%, var(--c2) 46% 55%, var(--c1) 56% 65%, var(--c2) 66% 75%,\n    var(--c1) 76% 85%, var(--c2) 86% 95%, #0000 96%;\n  background: radial-gradient(50% 50% at 100% 0, var(--_g)),\n    radial-gradient(50% 50% at 0 100%, var(--_g)),\n    radial-gradient(50% 50%, var(--_g)),\n    radial-gradient(50% 50%, var(--_g)) calc(var(--s) / 2) calc(var(--s) / 2)\n      var(--c1);\n  background-size: var(--s) var(--s);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

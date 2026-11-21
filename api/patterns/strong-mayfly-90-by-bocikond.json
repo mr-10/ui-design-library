@@ -1,0 +1,20 @@
+{
+ "id": "strong-mayfly-90-by-bocikond",
+ "name": "Strong Mayfly 90",
+ "category": "patterns",
+ "author": "bociKond",
+ "source": "https://uiverse.io/bociKond/strong-mayfly-90",
+ "trigger": "static",
+ "description": "A pattern with simple, pink and white styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "pink",
+  "white",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by bociKond  - Website: https://10015.io/tools/css-background-pattern-generator - Tags: simple, pink, white, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: radial-gradient(\n      50% 50% at 100% 0,\n      #ca3f3f 0% 5%,\n      #ffffff 6% 15%,\n      #ca3f3f 16% 25%,\n      #ffffff 26% 35%,\n      #ca3f3f 36% 45%,\n      #ffffff 46% 55%,\n      #ca3f3f 56% 65%,\n      #ffffff 66% 75%,\n      #ca3f3f 76% 85%,\n      #ffffff 86% 95%,\n      #0000 96%\n    ),\n    radial-gradient(\n      50% 50% at 0 100%,\n      #ca3f3f 0% 5%,\n      #ffffff 6% 15%,\n      #ca3f3f 16% 25%,\n      #ffffff 26% 35%,\n      #ca3f3f 36% 45%,\n      #ffffff 46% 55%,\n      #ca3f3f 56% 65%,\n      #ffffff 66% 75%,\n      #ca3f3f 76% 85%,\n      #ffffff 86% 95%,\n      #0000 96%\n    ),\n    radial-gradient(\n      50% 50%,\n      #ca3f3f 0% 5%,\n      #ffffff 6% 15%,\n      #ca3f3f 16% 25%,\n      #ffffff 26% 35%,\n      #ca3f3f 36% 45%,\n      #ffffff 46% 55%,\n      #ca3f3f 56% 65%,\n      #ffffff 66% 75%,\n      #ca3f3f 76% 85%,\n      #ffffff 86% 95%,\n      #0000 96%\n    ),\n    radial-gradient(\n        50% 50%,\n        #ca3f3f 0% 5%,\n        #ffffff 6% 15%,\n        #ca3f3f 16% 25%,\n        #ffffff 26% 35%,\n        #ca3f3f 36% 45%,\n        #ffffff 46% 55%,\n        #ca3f3f 56% 65%,\n        #ffffff 66% 75%,\n        #ca3f3f 76% 85%,\n        #ffffff 86% 95%,\n        #0000 96%\n      )\n      38px 38px;\n  background-size: 76px 76px;\n  background-color: #ca3f3f;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strong Mayfly 90</title>\n<style>\n/* From Uiverse.io by bociKond - https://uiverse.io/bociKond/strong-mayfly-90 */\n/* From Uiverse.io by bociKond  - Website: https://10015.io/tools/css-background-pattern-generator - Tags: simple, pink, white, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: radial-gradient(\n      50% 50% at 100% 0,\n      #ca3f3f 0% 5%,\n      #ffffff 6% 15%,\n      #ca3f3f 16% 25%,\n      #ffffff 26% 35%,\n      #ca3f3f 36% 45%,\n      #ffffff 46% 55%,\n      #ca3f3f 56% 65%,\n      #ffffff 66% 75%,\n      #ca3f3f 76% 85%,\n      #ffffff 86% 95%,\n      #0000 96%\n    ),\n    radial-gradient(\n      50% 50% at 0 100%,\n      #ca3f3f 0% 5%,\n      #ffffff 6% 15%,\n      #ca3f3f 16% 25%,\n      #ffffff 26% 35%,\n      #ca3f3f 36% 45%,\n      #ffffff 46% 55%,\n      #ca3f3f 56% 65%,\n      #ffffff 66% 75%,\n      #ca3f3f 76% 85%,\n      #ffffff 86% 95%,\n      #0000 96%\n    ),\n    radial-gradient(\n      50% 50%,\n      #ca3f3f 0% 5%,\n      #ffffff 6% 15%,\n      #ca3f3f 16% 25%,\n      #ffffff 26% 35%,\n      #ca3f3f 36% 45%,\n      #ffffff 46% 55%,\n      #ca3f3f 56% 65%,\n      #ffffff 66% 75%,\n      #ca3f3f 76% 85%,\n      #ffffff 86% 95%,\n      #0000 96%\n    ),\n    radial-gradient(\n        50% 50%,\n        #ca3f3f 0% 5%,\n        #ffffff 6% 15%,\n        #ca3f3f 16% 25%,\n        #ffffff 26% 35%,\n        #ca3f3f 36% 45%,\n        #ffffff 46% 55%,\n        #ca3f3f 56% 65%,\n        #ffffff 66% 75%,\n        #ca3f3f 76% 85%,\n        #ffffff 86% 95%,\n        #0000 96%\n      )\n      38px 38px;\n  background-size: 76px 76px;\n  background-color: #ca3f3f;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "ancient-goose-30-by-mobinkakei",
+ "name": "Ancient Goose 30",
+ "category": "buttons",
+ "author": "mobinkakei",
+ "source": "https://uiverse.io/mobinkakei/ancient-goose-30",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"btn\">\n    <span class=\"btn-text-one\">Hover me</span>\n    <span class=\"btn-text-two\">Great!</span>\n</button>",
+ "css": "/* From Uiverse.io by mobinkakei - Tags: button */\n.btn {\n  width: 140px;\n  height: 50px;\n  background: linear-gradient(to top, #00154c, #12376e, #23487f);\n  color: #fff;\n  border-radius: 50px;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  position: relative;\n  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);\n  overflow: hidden;\n}\n\n.btn span {\n  font-size: 12px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  transition: top 0.5s;\n}\n\n.btn-text-one {\n  position: absolute;\n  width: 100%;\n  top: 50%;\n  left: 0;\n  transform: translateY(-50%);\n}\n\n.btn-text-two {\n  position: absolute;\n  width: 100%;\n  top: 150%;\n  left: 0;\n  transform: translateY(-50%);\n}\n\n.btn:hover .btn-text-one {\n  top: -100%;\n}\n\n.btn:hover .btn-text-two {\n  top: 50%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Goose 30</title>\n<style>\n/* From Uiverse.io by mobinkakei - https://uiverse.io/mobinkakei/ancient-goose-30 */\n/* From Uiverse.io by mobinkakei - Tags: button */\n.btn {\n  width: 140px;\n  height: 50px;\n  background: linear-gradient(to top, #00154c, #12376e, #23487f);\n  color: #fff;\n  border-radius: 50px;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  position: relative;\n  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);\n  overflow: hidden;\n}\n\n.btn span {\n  font-size: 12px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  transition: top 0.5s;\n}\n\n.btn-text-one {\n  position: absolute;\n  width: 100%;\n  top: 50%;\n  left: 0;\n  transform: translateY(-50%);\n}\n\n.btn-text-two {\n  position: absolute;\n  width: 100%;\n  top: 150%;\n  left: 0;\n  transform: translateY(-50%);\n}\n\n.btn:hover .btn-text-one {\n  top: -100%;\n}\n\n.btn:hover .btn-text-two {\n  top: 50%;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n    <span class=\"btn-text-one\">Hover me</span>\n    <span class=\"btn-text-two\">Great!</span>\n</button>\n</body>\n</html>\n"
+}

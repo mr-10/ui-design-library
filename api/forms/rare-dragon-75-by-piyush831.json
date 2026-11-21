@@ -1,0 +1,19 @@
+{
+ "id": "rare-dragon-75-by-piyush831",
+ "name": "Rare Dragon 75",
+ "category": "forms",
+ "author": "Piyush831",
+ "source": "https://uiverse.io/Piyush831/rare-dragon-75",
+ "trigger": "hover",
+ "description": "A form with creative and box-shadow styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "form",
+  "creative",
+  "box-shadow",
+  "hover"
+ ],
+ "html": "<form class=\"form\">\n    <div class=\"flex\">\n      <div class=\"login color\">Login</div>\n      <label class=\"color\">Username :</label>\n      <input type=\"text\" class=\"input\">\n      <label class=\"color\">Password :</label>\n      <input type=\"password\" class=\"input\"> \n      <button class=\"\">Log-in</button>\n      <br>\n      <div class=\"color align\">Don't have account? <span class=\"span\">Sign-Up</span></div>\n    </div>\n</form>",
+ "css": "/* From Uiverse.io by Piyush831 - Tags: form, creative, box-shadow */\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  background: linear-gradient(to right ,grey,silver);\n  padding: 40px;\n  border-radius: 10px;\n}\n\n.login {\n  font-size: 25px;\n  font-weight: bold;\n  text-align: center;\n  margin-bottom: 20px;\n}\n\n.flex {\n  display: flex;\n  flex-direction: column;\n}\n\n.form button {\n  margin-top: 25px;\n  margin-bottom: 6px;\n  border-radius: 10px;\n  border: none;\n  padding-top: 4px;\n  padding-bottom: 4px;\n  font-size: 19px;\n  font-weight: bold;\n  color: grey;\n}\n\n.form label {\n  margin-top: 20px;\n  margin-bottom: 5px;\n}\n\n.form button:hover {\n  box-shadow: 2px 2px 12px white;\n}\n\n.input {\n  height: 30px;\n  outline: none;\n  padding: 15px;\n  border-radius: 10px;\n  border: none;\n  font-weight: bold;\n  font-size: 15px;\n  box-shadow: 2px 2px 12px inset black;\n}\n\n.span:hover {\n  font-weight: bold;\n}\n\n.color {\n  color: white;\n}\n\n.align {\n  text-align: center;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rare Dragon 75</title>\n<style>\n/* From Uiverse.io by Piyush831 - https://uiverse.io/Piyush831/rare-dragon-75 */\n/* From Uiverse.io by Piyush831 - Tags: form, creative, box-shadow */\n.form {\n  display: flex;\n  flex-direction: column;\n  gap: 10px;\n  background: linear-gradient(to right ,grey,silver);\n  padding: 40px;\n  border-radius: 10px;\n}\n\n.login {\n  font-size: 25px;\n  font-weight: bold;\n  text-align: center;\n  margin-bottom: 20px;\n}\n\n.flex {\n  display: flex;\n  flex-direction: column;\n}\n\n.form button {\n  margin-top: 25px;\n  margin-bottom: 6px;\n  border-radius: 10px;\n  border: none;\n  padding-top: 4px;\n  padding-bottom: 4px;\n  font-size: 19px;\n  font-weight: bold;\n  color: grey;\n}\n\n.form label {\n  margin-top: 20px;\n  margin-bottom: 5px;\n}\n\n.form button:hover {\n  box-shadow: 2px 2px 12px white;\n}\n\n.input {\n  height: 30px;\n  outline: none;\n  padding: 15px;\n  border-radius: 10px;\n  border: none;\n  font-weight: bold;\n  font-size: 15px;\n  box-shadow: 2px 2px 12px inset black;\n}\n\n.span:hover {\n  font-weight: bold;\n}\n\n.color {\n  color: white;\n}\n\n.align {\n  text-align: center;\n}\n</style>\n</head>\n<body>\n<form class=\"form\">\n    <div class=\"flex\">\n      <div class=\"login color\">Login</div>\n      <label class=\"color\">Username :</label>\n      <input type=\"text\" class=\"input\">\n      <label class=\"color\">Password :</label>\n      <input type=\"password\" class=\"input\"> \n      <button class=\"\">Log-in</button>\n      <br>\n      <div class=\"color align\">Don't have account? <span class=\"span\">Sign-Up</span></div>\n    </div>\n</form>\n</body>\n</html>\n"
+}

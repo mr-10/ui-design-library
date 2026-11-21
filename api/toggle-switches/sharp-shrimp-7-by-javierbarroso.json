@@ -1,0 +1,20 @@
+{
+ "id": "sharp-shrimp-7-by-javierbarroso",
+ "name": "Sharp Shrimp 7",
+ "category": "toggle-switches",
+ "author": "javierBarroso",
+ "source": "https://uiverse.io/javierBarroso/sharp-shrimp-7",
+ "trigger": "checked",
+ "description": "A toggle switch with animation, switch and toggle styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "animation",
+  "switch",
+  "toggle",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<div class=\"container\">\n  <label class=\"switch\">\n    <input type=\"checkbox\">\n    <span class=\"slider\"></span>\n  </label>\n</div>",
+ "css": "/* From Uiverse.io by javierBarroso - Tags: animation, switch, toggle */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 80px;\n  height: 80px;\n  border-radius: 80px;\n  box-shadow: 0px 5px 20px #11111166;\n  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: .4s;\n  border-radius: 30px;\n  transform: rotate(-90deg);\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: .4s cubic-bezier(0.19, 1, 0.22, 1);\n  transition-delay: .2s;\n}\n\n.switch input:checked + .slider {\n  background-color: #2196F3;\n  transform: rotate(90deg);\n}\n\n.switch input:focus + .slider {\n  box-shadow: 0 0 1px #2196F3;\n}\n\n.switch input:checked + .slider:before {\n  transition-delay: .2s;\n  transform: translateX(1.5em);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sharp Shrimp 7</title>\n<style>\n/* From Uiverse.io by javierBarroso - https://uiverse.io/javierBarroso/sharp-shrimp-7 */\n/* From Uiverse.io by javierBarroso - Tags: animation, switch, toggle */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 80px;\n  height: 80px;\n  border-radius: 80px;\n  box-shadow: 0px 5px 20px #11111166;\n  background: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: .4s;\n  border-radius: 30px;\n  transform: rotate(-90deg);\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: .4s cubic-bezier(0.19, 1, 0.22, 1);\n  transition-delay: .2s;\n}\n\n.switch input:checked + .slider {\n  background-color: #2196F3;\n  transform: rotate(90deg);\n}\n\n.switch input:focus + .slider {\n  box-shadow: 0 0 1px #2196F3;\n}\n\n.switch input:checked + .slider:before {\n  transition-delay: .2s;\n  transform: translateX(1.5em);\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <label class=\"switch\">\n    <input type=\"checkbox\">\n    <span class=\"slider\"></span>\n  </label>\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "afraid-eel-50-by-zanina-yassine",
+ "name": "Afraid Eel 50",
+ "category": "toggle-switches",
+ "author": "zanina-yassine",
+ "source": "https://uiverse.io/zanina-yassine/afraid-eel-50",
+ "trigger": "checked",
+ "description": "A toggle switch with switch and ios styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "ios",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<p class=\"component-title\">iOS Switch</p>\n\n<div class=\"container\">\n  <input type=\"checkbox\" class=\"checkbox\" id=\"checkbox\">\n  <label class=\"switch\" for=\"checkbox\">\n    <span class=\"slider\"></span>\n  </label>\n</div>",
+ "css": "/* From Uiverse.io by zanina-yassine - Tags: switch, ios */\n/* Remove this container when use*/\n.component-title {\n  width: 100%;\n  position: absolute;\n  z-index: 999;\n  top: 30px;\n  left: 0;\n  padding: 0;\n  margin: 0;\n  font-size: 1rem;\n  font-weight: 700;\n  color: #888;\n  text-align: center;\n}\n\n/* The switch - the box around the slider */\n.container {\n  width: 51px;\n  height: 31px;\n  position: relative;\n}\n\n/* Hide default HTML checkbox */\n.checkbox {\n  opacity: 0;\n  width: 0;\n  height: 0;\n  position: absolute;\n}\n\n.switch {\n  width: 100%;\n  height: 100%;\n  display: block;\n  background-color: #e9e9eb;\n  border-radius: 16px;\n  cursor: pointer;\n  transition: all 0.2s ease-out;\n}\n\n/* The slider */\n.slider {\n  width: 27px;\n  height: 27px;\n  position: absolute;\n  left: calc(50% - 27px/2 - 10px);\n  top: calc(50% - 27px/2);\n  border-radius: 50%;\n  background: #FFFFFF;\n  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);\n  transition: all 0.2s ease-out;\n  cursor: pointer;\n}\n\n.checkbox:checked + .switch {\n  background-color: #34C759;\n}\n\n.checkbox:checked + .switch .slider {\n  left: calc(50% - 27px/2 + 10px);\n  top: calc(50% - 27px/2);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Eel 50</title>\n<style>\n/* From Uiverse.io by zanina-yassine - https://uiverse.io/zanina-yassine/afraid-eel-50 */\n/* From Uiverse.io by zanina-yassine - Tags: switch, ios */\n/* Remove this container when use*/\n.component-title {\n  width: 100%;\n  position: absolute;\n  z-index: 999;\n  top: 30px;\n  left: 0;\n  padding: 0;\n  margin: 0;\n  font-size: 1rem;\n  font-weight: 700;\n  color: #888;\n  text-align: center;\n}\n\n/* The switch - the box around the slider */\n.container {\n  width: 51px;\n  height: 31px;\n  position: relative;\n}\n\n/* Hide default HTML checkbox */\n.checkbox {\n  opacity: 0;\n  width: 0;\n  height: 0;\n  position: absolute;\n}\n\n.switch {\n  width: 100%;\n  height: 100%;\n  display: block;\n  background-color: #e9e9eb;\n  border-radius: 16px;\n  cursor: pointer;\n  transition: all 0.2s ease-out;\n}\n\n/* The slider */\n.slider {\n  width: 27px;\n  height: 27px;\n  position: absolute;\n  left: calc(50% - 27px/2 - 10px);\n  top: calc(50% - 27px/2);\n  border-radius: 50%;\n  background: #FFFFFF;\n  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 1px rgba(0, 0, 0, 0.06);\n  transition: all 0.2s ease-out;\n  cursor: pointer;\n}\n\n.checkbox:checked + .switch {\n  background-color: #34C759;\n}\n\n.checkbox:checked + .switch .slider {\n  left: calc(50% - 27px/2 + 10px);\n  top: calc(50% - 27px/2);\n}\n</style>\n</head>\n<body>\n<p class=\"component-title\">iOS Switch</p>\n\n<div class=\"container\">\n  <input type=\"checkbox\" class=\"checkbox\" id=\"checkbox\">\n  <label class=\"switch\" for=\"checkbox\">\n    <span class=\"slider\"></span>\n  </label>\n</div>\n</body>\n</html>\n"
+}

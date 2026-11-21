@@ -1,0 +1,19 @@
+{
+ "id": "fuzzy-fish-86-by-mobinkakei",
+ "name": "Fuzzy Fish 86",
+ "category": "loaders",
+ "author": "mobinkakei",
+ "source": "https://uiverse.io/mobinkakei/fuzzy-fish-86",
+ "trigger": "auto-loop",
+ "description": "A loader with gradient and blur-filter styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "gradient",
+  "loader",
+  "blur-filter",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\">\n  <div class=\"loader_cube loader_cube--color\"></div>\n   <div class=\"loader_cube loader_cube--glowing\"></div>\n</div>",
+ "css": "/* From Uiverse.io by mobinkakei - Tags: gradient, loader, blur filter */\n.loader {\n  width: 150px;\n  height: 150px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.loader_cube {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 30px;\n}\n\n.loader_cube--glowing {\n  z-index: 2;\n  background-color: rgba(255, 255, 255, 0.2);\n  border: 2px solid rgba(255, 255, 255, 0.3);\n}\n\n.loader_cube--color {\n  z-index: 1;\n  filter: blur(2px);\n  background: linear-gradient(135deg, #1afbf0, #da00ff);\n  animation: loadtwo 2.5s ease-in-out infinite;\n}\n\n@keyframes loadtwo {\n  50% {\n    transform: rotate(-80deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fuzzy Fish 86</title>\n<style>\n/* From Uiverse.io by mobinkakei - https://uiverse.io/mobinkakei/fuzzy-fish-86 */\n/* From Uiverse.io by mobinkakei - Tags: gradient, loader, blur filter */\n.loader {\n  width: 150px;\n  height: 150px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.loader_cube {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border-radius: 30px;\n}\n\n.loader_cube--glowing {\n  z-index: 2;\n  background-color: rgba(255, 255, 255, 0.2);\n  border: 2px solid rgba(255, 255, 255, 0.3);\n}\n\n.loader_cube--color {\n  z-index: 1;\n  filter: blur(2px);\n  background: linear-gradient(135deg, #1afbf0, #da00ff);\n  animation: loadtwo 2.5s ease-in-out infinite;\n}\n\n@keyframes loadtwo {\n  50% {\n    transform: rotate(-80deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"loader_cube loader_cube--color\"></div>\n   <div class=\"loader_cube loader_cube--glowing\"></div>\n</div>\n</body>\n</html>\n"
+}

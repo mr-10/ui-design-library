@@ -1,0 +1,20 @@
+{
+ "id": "spicy-jellyfish-41-by-ahmedyasserdev",
+ "name": "Spicy Jellyfish 41",
+ "category": "checkboxes",
+ "author": "ahmedyasserdev",
+ "source": "https://uiverse.io/ahmedyasserdev/spicy-jellyfish-41",
+ "trigger": "checked",
+ "description": "A checkbox with hamburger, rotate and menu styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "checkbox",
+  "hamburger",
+  "rotate",
+  "menu",
+  "checked"
+ ],
+ "html": "<input id=\"burger-checkbox\" type=\"checkbox\" />\n<label class=\"burger\" for=\"burger-checkbox\">\n  <span></span>\n  <span></span>\n  <span></span>\n</label>",
+ "css": "/* From Uiverse.io by ahmedyasserdev  - Tags: checkbox, hamburger, rotate, menu */\n.burger {\n  display: inline-block;\n  cursor: pointer;\n  z-index: 1000;\n}\n\n.burger span {\n  display: block;\n  width: 30px;\n  height: 3px;\n  background: #333;\n  margin: 6px 0;\n  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55),\n    opacity 0.3s ease;\n}\n\n#burger-checkbox {\n  display: none;\n}\n\n#burger-checkbox:checked + .burger span:nth-child(1) {\n  transform: translateY(8px) rotate(45deg);\n}\n\n#burger-checkbox:checked + .burger span:nth-child(2) {\n  opacity: 0;\n  transform: translateX(-20px);\n}\n\n#burger-checkbox:checked + .burger span:nth-child(3) {\n  transform: translateY(-8px) rotate(-45deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spicy Jellyfish 41</title>\n<style>\n/* From Uiverse.io by ahmedyasserdev - https://uiverse.io/ahmedyasserdev/spicy-jellyfish-41 */\n/* From Uiverse.io by ahmedyasserdev  - Tags: checkbox, hamburger, rotate, menu */\n.burger {\n  display: inline-block;\n  cursor: pointer;\n  z-index: 1000;\n}\n\n.burger span {\n  display: block;\n  width: 30px;\n  height: 3px;\n  background: #333;\n  margin: 6px 0;\n  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55),\n    opacity 0.3s ease;\n}\n\n#burger-checkbox {\n  display: none;\n}\n\n#burger-checkbox:checked + .burger span:nth-child(1) {\n  transform: translateY(8px) rotate(45deg);\n}\n\n#burger-checkbox:checked + .burger span:nth-child(2) {\n  opacity: 0;\n  transform: translateX(-20px);\n}\n\n#burger-checkbox:checked + .burger span:nth-child(3) {\n  transform: translateY(-8px) rotate(-45deg);\n}\n</style>\n</head>\n<body>\n<input id=\"burger-checkbox\" type=\"checkbox\" />\n<label class=\"burger\" for=\"burger-checkbox\">\n  <span></span>\n  <span></span>\n  <span></span>\n</label>\n</body>\n</html>\n"
+}

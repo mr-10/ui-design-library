@@ -1,0 +1,21 @@
+{
+ "id": "bright-rabbit-33-by-the-best-codes",
+ "name": "Bright Rabbit 33",
+ "category": "toggle-switches",
+ "author": "The-Best-Codes",
+ "source": "https://uiverse.io/The-Best-Codes/bright-rabbit-33",
+ "trigger": "checked",
+ "description": "A toggle switch with material-design, animation and green styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "material-design",
+  "animation",
+  "green",
+  "switch",
+  "checkbox",
+  "modern"
+ ],
+ "html": "<div class=\"toggle-switch\">\n  <input class=\"toggle-input\" id=\"toggle\" type=\"checkbox\" />\n  <label class=\"toggle-label\" for=\"toggle\"></label>\n</div>",
+ "css": "/* From Uiverse.io by The-Best-Codes  - Tags: material design, animation, green, switch, checkbox, modern, css, css effect */\n.toggle-switch {\n  display: inline-block;\n  position: relative;\n  width: 60px;\n  height: 34px;\n}\n\n.toggle-input {\n  display: none;\n}\n\n.toggle-label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 60px;\n  height: 34px;\n  background-color: #ccc;\n  border-radius: 34px;\n  cursor: pointer;\n  transition: background-color 0.3s;\n}\n\n.toggle-label:before {\n  content: \"\";\n  position: absolute;\n  top: 2px;\n  left: 2px;\n  width: 30px;\n  height: 30px;\n  background-color: #fff;\n  border-radius: 50%;\n  transition: transform 0.3s;\n}\n\n.toggle-input:checked + .toggle-label {\n  background-color: #4fbf26;\n}\n\n.toggle-input:checked + .toggle-label:before {\n  transform: translateX(26px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bright Rabbit 33</title>\n<style>\n/* From Uiverse.io by The-Best-Codes - https://uiverse.io/The-Best-Codes/bright-rabbit-33 */\n/* From Uiverse.io by The-Best-Codes  - Tags: material design, animation, green, switch, checkbox, modern, css, css effect */\n.toggle-switch {\n  display: inline-block;\n  position: relative;\n  width: 60px;\n  height: 34px;\n}\n\n.toggle-input {\n  display: none;\n}\n\n.toggle-label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 60px;\n  height: 34px;\n  background-color: #ccc;\n  border-radius: 34px;\n  cursor: pointer;\n  transition: background-color 0.3s;\n}\n\n.toggle-label:before {\n  content: \"\";\n  position: absolute;\n  top: 2px;\n  left: 2px;\n  width: 30px;\n  height: 30px;\n  background-color: #fff;\n  border-radius: 50%;\n  transition: transform 0.3s;\n}\n\n.toggle-input:checked + .toggle-label {\n  background-color: #4fbf26;\n}\n\n.toggle-input:checked + .toggle-label:before {\n  transform: translateX(26px);\n}\n</style>\n</head>\n<body>\n<div class=\"toggle-switch\">\n  <input class=\"toggle-input\" id=\"toggle\" type=\"checkbox\" />\n  <label class=\"toggle-label\" for=\"toggle\"></label>\n</div>\n</body>\n</html>\n"
+}

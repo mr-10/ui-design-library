@@ -1,0 +1,18 @@
+{
+ "id": "nervous-sheep-18-by-alexruix",
+ "name": "Nervous Sheep 18",
+ "category": "loaders",
+ "author": "alexruix",
+ "source": "https://uiverse.io/alexruix/nervous-sheep-18",
+ "trigger": "auto-loop",
+ "description": "A loader with bars styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "bars",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by alexruix - Tags: loader, bars */\n.loader {\n  width: 8px;\n  height: 40px;\n  border-radius: 4px;\n  display: block;\n  background-color: currentColor;\n  margin: 20px auto;\n  position: relative;\n  color: #f2f2f2;\n  animation: animloader 0.3s 0.3s linear infinite alternate;\n}\n\n.loader::after,\n.loader::before {\n  content: '';\n  width: 8px;\n  height: 40px;\n  border-radius: 4px;\n  background: currentColor;\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  left: 20px;\n  animation: animloader 0.3s 0.45s linear infinite alternate;\n}\n\n.loader::before {\n  left: -20px;\n  animation-delay: 0s;\n}\n\n@keyframes animloader {\n  0% {\n    height: 48px;\n  }\n\n  100% {\n    height: 4px;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nervous Sheep 18</title>\n<style>\n/* From Uiverse.io by alexruix - https://uiverse.io/alexruix/nervous-sheep-18 */\n/* From Uiverse.io by alexruix - Tags: loader, bars */\n.loader {\n  width: 8px;\n  height: 40px;\n  border-radius: 4px;\n  display: block;\n  background-color: currentColor;\n  margin: 20px auto;\n  position: relative;\n  color: #f2f2f2;\n  animation: animloader 0.3s 0.3s linear infinite alternate;\n}\n\n.loader::after,\n.loader::before {\n  content: '';\n  width: 8px;\n  height: 40px;\n  border-radius: 4px;\n  background: currentColor;\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  left: 20px;\n  animation: animloader 0.3s 0.45s linear infinite alternate;\n}\n\n.loader::before {\n  left: -20px;\n  animation-delay: 0s;\n}\n\n@keyframes animloader {\n  0% {\n    height: 48px;\n  }\n\n  100% {\n    height: 4px;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

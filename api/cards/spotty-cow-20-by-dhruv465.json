@@ -1,0 +1,20 @@
+{
+ "id": "spotty-cow-20-by-dhruv465",
+ "name": "Spotty Cow 20",
+ "category": "cards",
+ "author": "dhruv465",
+ "source": "https://uiverse.io/dhruv465/spotty-cow-20",
+ "trigger": "auto-loop",
+ "description": "A card with animated, spin and loader-circle styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "animated",
+  "spin",
+  "loader-circle",
+  "cards",
+  "auto-loop"
+ ],
+ "html": "<div class=\"one-div\"></div>",
+ "css": "/* From Uiverse.io by dhruv465 - Tags: animated, spin, loader circle */\n.one-div {\n  width: 40px;\n  height: 40px;\n  border: 8px solid #fff;\n  border-top-color: #8c8eff;\n  border-radius: 50%;\n  animation: spin 1s linear infinite;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spotty Cow 20</title>\n<style>\n/* From Uiverse.io by dhruv465 - https://uiverse.io/dhruv465/spotty-cow-20 */\n/* From Uiverse.io by dhruv465 - Tags: animated, spin, loader circle */\n.one-div {\n  width: 40px;\n  height: 40px;\n  border: 8px solid #fff;\n  border-top-color: #8c8eff;\n  border-radius: 50%;\n  animation: spin 1s linear infinite;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n</body>\n</html>\n"
+}

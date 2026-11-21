@@ -1,0 +1,18 @@
+{
+ "id": "terrible-kangaroo-96-by-cornerstone-04",
+ "name": "Terrible Kangaroo 96",
+ "category": "checkboxes",
+ "author": "Cornerstone-04",
+ "source": "https://uiverse.io/Cornerstone-04/terrible-kangaroo-96",
+ "trigger": "checked",
+ "description": "A checkbox with circle styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "checkbox",
+  "circle",
+  "checked"
+ ],
+ "html": "<div class=\"check_container\">\n  <input id=\"checkbox\" class=\"hidden\" type=\"checkbox\">\n  <label class=\"checkbox\" for=\"checkbox\"></label>\n</div>",
+ "css": "/* From Uiverse.io by Cornerstone-04 - Tags: checkbox, circle */\n.check_container {\n  position: relative;\n}\n\n.checkbox {\n  position: relative;\n  top: 1px;\n  width: 30px;\n  height: 30px;\n  border: 2px solid #212fab;\n  border-radius: 50px;\n  cursor: pointer;\n  display: block;\n  transition: all 0.3s linear;\n}\n\n.checkbox::after {\n  content: \"\";\n  position: absolute;\n  top: 25%;\n  left: 20%;\n  width: 6px;\n  height: 12px;\n  opacity: 0;\n  transform: rotate(45deg) scale(0) translate(-50%, -50%);\n  border-right: 4px solid #ffffff;\n  border-bottom: 4px solid #ffffff;\n  transition: all 0.3s linear;\n}\n\n#checkbox:checked ~ .checkbox::after {\n  opacity: 1 !important;\n  transform: rotate(50deg) scale(1) translate(20%, -25%) !important;\n}\n\n#checkbox:checked ~ .checkbox {\n  background: #212fab;\n  border: none;\n}\n\n.hidden {\n  display: none !important;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Terrible Kangaroo 96</title>\n<style>\n/* From Uiverse.io by Cornerstone-04 - https://uiverse.io/Cornerstone-04/terrible-kangaroo-96 */\n/* From Uiverse.io by Cornerstone-04 - Tags: checkbox, circle */\n.check_container {\n  position: relative;\n}\n\n.checkbox {\n  position: relative;\n  top: 1px;\n  width: 30px;\n  height: 30px;\n  border: 2px solid #212fab;\n  border-radius: 50px;\n  cursor: pointer;\n  display: block;\n  transition: all 0.3s linear;\n}\n\n.checkbox::after {\n  content: \"\";\n  position: absolute;\n  top: 25%;\n  left: 20%;\n  width: 6px;\n  height: 12px;\n  opacity: 0;\n  transform: rotate(45deg) scale(0) translate(-50%, -50%);\n  border-right: 4px solid #ffffff;\n  border-bottom: 4px solid #ffffff;\n  transition: all 0.3s linear;\n}\n\n#checkbox:checked ~ .checkbox::after {\n  opacity: 1 !important;\n  transform: rotate(50deg) scale(1) translate(20%, -25%) !important;\n}\n\n#checkbox:checked ~ .checkbox {\n  background: #212fab;\n  border: none;\n}\n\n.hidden {\n  display: none !important;\n}\n</style>\n</head>\n<body>\n<div class=\"check_container\">\n  <input id=\"checkbox\" class=\"hidden\" type=\"checkbox\">\n  <label class=\"checkbox\" for=\"checkbox\"></label>\n</div>\n</body>\n</html>\n"
+}

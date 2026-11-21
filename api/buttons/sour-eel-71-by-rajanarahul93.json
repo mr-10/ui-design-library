@@ -1,0 +1,18 @@
+{
+ "id": "sour-eel-71-by-rajanarahul93",
+ "name": "Sour Eel 71",
+ "category": "buttons",
+ "author": "rajanarahul93",
+ "source": "https://uiverse.io/rajanarahul93/sour-eel-71",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by rajanarahul93  - Tags: simple, 3d, button -->\n<button\n  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out\"\n>\n  Explore Now\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sour Eel 71</title>\n<style>\n/* From Uiverse.io by rajanarahul93 - https://uiverse.io/rajanarahul93/sour-eel-71 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by rajanarahul93  - Tags: simple, 3d, button -->\n<button\n  class=\"bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transform hover:scale-105 transition duration-300 ease-in-out\"\n>\n  Explore Now\n</button>\n</body>\n</html>\n"
+}

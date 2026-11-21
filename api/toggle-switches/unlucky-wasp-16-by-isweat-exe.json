@@ -1,0 +1,21 @@
+{
+ "id": "unlucky-wasp-16-by-isweat-exe",
+ "name": "Unlucky Wasp 16",
+ "category": "toggle-switches",
+ "author": "iSweat-exe",
+ "source": "https://uiverse.io/iSweat-exe/unlucky-wasp-16",
+ "trigger": "checked",
+ "description": "A toggle switch with simple, animation and minimalist styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "simple",
+  "animation",
+  "minimalist",
+  "switch",
+  "onoff",
+  "toggle-switches"
+ ],
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>",
+ "css": "/* From Uiverse.io by iSweat-exe  - Tags: simple, animation, minimalist, switch, on/off */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 20px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: 0.4s;\n  border-radius: 10px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 5px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: 0.4s;\n}\n\n.switch input:checked + .slider {\n  background-color: green;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(1.5em);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Unlucky Wasp 16</title>\n<style>\n/* From Uiverse.io by iSweat-exe - https://uiverse.io/iSweat-exe/unlucky-wasp-16 */\n/* From Uiverse.io by iSweat-exe  - Tags: simple, animation, minimalist, switch, on/off */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 20px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: 0.4s;\n  border-radius: 10px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 5px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: 0.4s;\n}\n\n.switch input:checked + .slider {\n  background-color: green;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(1.5em);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+}

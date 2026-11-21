@@ -1,0 +1,18 @@
+{
+ "id": "terrible-owl-47-by-anas92876",
+ "name": "Terrible Owl 47",
+ "category": "inputs",
+ "author": "Anas92876",
+ "source": "https://uiverse.io/Anas92876/terrible-owl-47",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<input placeholder=\"Email\" class=\"input\" name=\"text\" type=\"email\">",
+ "css": "/* From Uiverse.io by Anas92876 - Tags: input */\n.input {\n  max-width: 400px;\n  padding: 1rem;\n  border-radius: 1rem;\n  border: none;\n  box-shadow: 2px 2px 30px 2px lightgrey;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Terrible Owl 47</title>\n<style>\n/* From Uiverse.io by Anas92876 - https://uiverse.io/Anas92876/terrible-owl-47 */\n/* From Uiverse.io by Anas92876 - Tags: input */\n.input {\n  max-width: 400px;\n  padding: 1rem;\n  border-radius: 1rem;\n  border: none;\n  box-shadow: 2px 2px 30px 2px lightgrey;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Email\" class=\"input\" name=\"text\" type=\"email\">\n</body>\n</html>\n"
+}

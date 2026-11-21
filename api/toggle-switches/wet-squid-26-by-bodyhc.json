@@ -1,0 +1,20 @@
+{
+ "id": "wet-squid-26-by-bodyhc",
+ "name": "Wet Squid 26",
+ "category": "toggle-switches",
+ "author": "Bodyhc",
+ "source": "https://uiverse.io/Bodyhc/wet-squid-26",
+ "trigger": "checked",
+ "description": "A toggle switch with switch, click and buttons styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "click",
+  "buttons",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<div class=\"flipswitch\">\n    <input checked=\"\" id=\"fs\" class=\"flipswitch-cb\" name=\"flipswitch\" type=\"checkbox\">\n    <label for=\"fs\" class=\"flipswitch-label\">\n        <div class=\"flipswitch-inner\"></div>\n        <div class=\"flipswitch-switch\"></div>\n    </label>\n</div>",
+ "css": "/* From Uiverse.io by Bodyhc - Tags: switch, click, buttons */\n.flipswitch {\n  position: relative;\n  width: 100px;\n}\n\n.flipswitch input[type=checkbox] {\n  display: none;\n}\n\n.flipswitch-label {\n  display: block;\n  overflow: hidden;\n  cursor: pointer;\n  border: 1px solid #999999;\n  border-radius: 50px;\n}\n\n.flipswitch-inner {\n  width: 200%;\n  margin-left: -100%;\n  transition: margin 0.3s ease-in 0s;\n}\n\n.flipswitch-inner:before, .flipswitch-inner:after {\n  float: left;\n  width: 50%;\n  height: 30px;\n  padding: 0;\n  line-height: 30px;\n  font-size: 20px;\n  color: white;\n  font-family: Trebuchet, Arial, sans-serif;\n  font-weight: bold;\n  box-sizing: border-box;\n}\n\n.flipswitch-inner:before {\n  content: \"ON\";\n  padding-left: 18px;\n  background-color: #437A99;\n  color: #FFFFFF;\n}\n\n.flipswitch-inner:after {\n  content: \"OFF\";\n  padding-right: 18px;\n  background-color: #FFFFFF;\n  color: #437A99;\n  text-align: right;\n}\n\n.flipswitch-switch {\n  width: 35px;\n  margin: -2.5px;\n  background: #FFFFFF;\n  border: 1px solid #999999;\n  border-radius: 50px;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 67px;\n  transition: all 0.3s ease-in 0s;\n}\n\n.flipswitch-cb:checked + .flipswitch-label .flipswitch-inner {\n  margin-left: 0;\n}\n\n.flipswitch-cb:checked + .flipswitch-label .flipswitch-switch {\n  right: 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wet Squid 26</title>\n<style>\n/* From Uiverse.io by Bodyhc - https://uiverse.io/Bodyhc/wet-squid-26 */\n/* From Uiverse.io by Bodyhc - Tags: switch, click, buttons */\n.flipswitch {\n  position: relative;\n  width: 100px;\n}\n\n.flipswitch input[type=checkbox] {\n  display: none;\n}\n\n.flipswitch-label {\n  display: block;\n  overflow: hidden;\n  cursor: pointer;\n  border: 1px solid #999999;\n  border-radius: 50px;\n}\n\n.flipswitch-inner {\n  width: 200%;\n  margin-left: -100%;\n  transition: margin 0.3s ease-in 0s;\n}\n\n.flipswitch-inner:before, .flipswitch-inner:after {\n  float: left;\n  width: 50%;\n  height: 30px;\n  padding: 0;\n  line-height: 30px;\n  font-size: 20px;\n  color: white;\n  font-family: Trebuchet, Arial, sans-serif;\n  font-weight: bold;\n  box-sizing: border-box;\n}\n\n.flipswitch-inner:before {\n  content: \"ON\";\n  padding-left: 18px;\n  background-color: #437A99;\n  color: #FFFFFF;\n}\n\n.flipswitch-inner:after {\n  content: \"OFF\";\n  padding-right: 18px;\n  background-color: #FFFFFF;\n  color: #437A99;\n  text-align: right;\n}\n\n.flipswitch-switch {\n  width: 35px;\n  margin: -2.5px;\n  background: #FFFFFF;\n  border: 1px solid #999999;\n  border-radius: 50px;\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  right: 67px;\n  transition: all 0.3s ease-in 0s;\n}\n\n.flipswitch-cb:checked + .flipswitch-label .flipswitch-inner {\n  margin-left: 0;\n}\n\n.flipswitch-cb:checked + .flipswitch-label .flipswitch-switch {\n  right: 0;\n}\n</style>\n</head>\n<body>\n<div class=\"flipswitch\">\n    <input checked=\"\" id=\"fs\" class=\"flipswitch-cb\" name=\"flipswitch\" type=\"checkbox\">\n    <label for=\"fs\" class=\"flipswitch-label\">\n        <div class=\"flipswitch-inner\"></div>\n        <div class=\"flipswitch-switch\"></div>\n    </label>\n</div>\n</body>\n</html>\n"
+}

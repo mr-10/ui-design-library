@@ -1,0 +1,20 @@
+{
+ "id": "rude-cobra-0-by-liuyingmei",
+ "name": "Rude Cobra 0",
+ "category": "patterns",
+ "author": "liuyingmei",
+ "source": "https://uiverse.io/liuyingmei/rude-cobra-0",
+ "trigger": "static",
+ "description": "A pattern with simple, green and blue styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "green",
+  "blue",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by liuyingmei  - Tags: simple, green, blue, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(\n    -135deg,\n    yellow,\n    pink 10px,\n    green 10px,\n    skyblue 20px\n  );\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rude Cobra 0</title>\n<style>\n/* From Uiverse.io by liuyingmei - https://uiverse.io/liuyingmei/rude-cobra-0 */\n/* From Uiverse.io by liuyingmei  - Tags: simple, green, blue, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(\n    -135deg,\n    yellow,\n    pink 10px,\n    green 10px,\n    skyblue 20px\n  );\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

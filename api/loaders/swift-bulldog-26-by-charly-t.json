@@ -1,0 +1,18 @@
+{
+ "id": "swift-bulldog-26-by-charly-t",
+ "name": "Swift Bulldog 26",
+ "category": "loaders",
+ "author": "Charly-T",
+ "source": "https://uiverse.io/Charly-T/swift-bulldog-26",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<svg class=\"loader\" viewBox=\"0 0 100 100\">\n    <circle class=\"moon moon-back\"></circle>\n    <circle class=\"planet\"></circle>\n    <circle class=\"moon moon-front\"></circle>\n</svg>",
+ "css": "/* From Uiverse.io by Charly-T - Tags: loader */\n.loader {\n  --moon-r: 0.7em;\n  --planet-r: 1.75em;\n  --planet-stroke-width: 4;\n  --center: 50;\n  --moon-max: 80;\n  --moon-min: 20;\n  --animation-duration: 4000ms;\n  --planet-stroke: black;\n  --planet-fill: white;\n  --moon-fill: #fecb00;\n  width: 7em;\n}\n\n.planet {\n  cx: var(--center);\n  cy: var(--center);\n  r: var(--planet-r);\n  fill: var(--planet-fill);\n  stroke: var(--planet-stroke);\n  stroke-width: var(--planet-stroke-width);\n}\n\n.moon {\n  fill: var(--moon-fill);\n  r: var(--moon-r);\n}\n\n.moon-front {\n  animation: orbit0234 var(--animation-duration) ease-in-out infinite,\n    orbit-front var(--animation-duration) linear infinite;\n}\n\n.moon-back {\n  animation: orbit0234 var(--animation-duration) ease-in-out infinite;\n}\n\n@keyframes orbit0234 {\n  0% {\n    cx: var(--moon-max);\n    cy: var(--moon-min);\n  }\n\n  50% {\n    cx: var(--moon-min);\n    cy: var(--moon-max);\n  }\n\n  100% {\n    cx: var(--moon-max);\n    cy: var(--moon-min);\n  }\n}\n\n@keyframes orbit-front {\n  0% {\n    opacity: 0;\n  }\n\n  49% {\n    opacity: 0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Bulldog 26</title>\n<style>\n/* From Uiverse.io by Charly-T - https://uiverse.io/Charly-T/swift-bulldog-26 */\n/* From Uiverse.io by Charly-T - Tags: loader */\n.loader {\n  --moon-r: 0.7em;\n  --planet-r: 1.75em;\n  --planet-stroke-width: 4;\n  --center: 50;\n  --moon-max: 80;\n  --moon-min: 20;\n  --animation-duration: 4000ms;\n  --planet-stroke: black;\n  --planet-fill: white;\n  --moon-fill: #fecb00;\n  width: 7em;\n}\n\n.planet {\n  cx: var(--center);\n  cy: var(--center);\n  r: var(--planet-r);\n  fill: var(--planet-fill);\n  stroke: var(--planet-stroke);\n  stroke-width: var(--planet-stroke-width);\n}\n\n.moon {\n  fill: var(--moon-fill);\n  r: var(--moon-r);\n}\n\n.moon-front {\n  animation: orbit0234 var(--animation-duration) ease-in-out infinite,\n    orbit-front var(--animation-duration) linear infinite;\n}\n\n.moon-back {\n  animation: orbit0234 var(--animation-duration) ease-in-out infinite;\n}\n\n@keyframes orbit0234 {\n  0% {\n    cx: var(--moon-max);\n    cy: var(--moon-min);\n  }\n\n  50% {\n    cx: var(--moon-min);\n    cy: var(--moon-max);\n  }\n\n  100% {\n    cx: var(--moon-max);\n    cy: var(--moon-min);\n  }\n}\n\n@keyframes orbit-front {\n  0% {\n    opacity: 0;\n  }\n\n  49% {\n    opacity: 0;\n  }\n\n  50% {\n    opacity: 1;\n  }\n}\n</style>\n</head>\n<body>\n<svg class=\"loader\" viewBox=\"0 0 100 100\">\n    <circle class=\"moon moon-back\"></circle>\n    <circle class=\"planet\"></circle>\n    <circle class=\"moon moon-front\"></circle>\n</svg>\n</body>\n</html>\n"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "hot-yak-44-by-escannord",
+ "name": "Hot Yak 44",
+ "category": "inputs",
+ "author": "escannord",
+ "source": "https://uiverse.io/escannord/hot-yak-44",
+ "trigger": "focus",
+ "description": "A input with light and search styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "light",
+  "search",
+  "focus"
+ ],
+ "html": "<div class=\"custom_input\">\n  <svg\n    viewBox=\"0 0 16 16\"\n    class=\"svg_icon bi-search\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z\"\n    ></path>\n  </svg>\n  <input placeholder=\"Placeholder Text\" type=\"text\" class=\"input\" />\n</div>",
+ "css": "/* From Uiverse.io by escannord  - Tags: input, light, search */\n.input {\n  max-width: 190px;\n}\n\n.custom_input {\n  display: flex;\n  align-items: center;\n  position: relative;\n  max-width: 100%;\n}\n\n.input {\n  font-size: 18px;\n  padding: 5px 10px;\n  width: 100%;\n  padding-left: 35px;\n  outline: none;\n  background: #ffffff;\n  color: #000000;\n  border: 1px solid #c4d1eb;\n  border-radius: 5px;\n  box-shadow: 3px 3px 2px 0px #e2e2e2;\n  transition: 0.3s ease;\n}\n\n.input:focus {\n  background: #f2f2f2;\n  border: 1px solid #5a7ec7;\n  border-radius: 10px;\n}\n\n.input::placeholder {\n  color: #dddddd;\n}\n\n.svg_icon {\n  position: absolute;\n  left: 10px;\n  fill: #4660dc;\n  width: 18px;\n  height: 18px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hot Yak 44</title>\n<style>\n/* From Uiverse.io by escannord - https://uiverse.io/escannord/hot-yak-44 */\n/* From Uiverse.io by escannord  - Tags: input, light, search */\n.input {\n  max-width: 190px;\n}\n\n.custom_input {\n  display: flex;\n  align-items: center;\n  position: relative;\n  max-width: 100%;\n}\n\n.input {\n  font-size: 18px;\n  padding: 5px 10px;\n  width: 100%;\n  padding-left: 35px;\n  outline: none;\n  background: #ffffff;\n  color: #000000;\n  border: 1px solid #c4d1eb;\n  border-radius: 5px;\n  box-shadow: 3px 3px 2px 0px #e2e2e2;\n  transition: 0.3s ease;\n}\n\n.input:focus {\n  background: #f2f2f2;\n  border: 1px solid #5a7ec7;\n  border-radius: 10px;\n}\n\n.input::placeholder {\n  color: #dddddd;\n}\n\n.svg_icon {\n  position: absolute;\n  left: 10px;\n  fill: #4660dc;\n  width: 18px;\n  height: 18px;\n}\n</style>\n</head>\n<body>\n<div class=\"custom_input\">\n  <svg\n    viewBox=\"0 0 16 16\"\n    class=\"svg_icon bi-search\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z\"\n    ></path>\n  </svg>\n  <input placeholder=\"Placeholder Text\" type=\"text\" class=\"input\" />\n</div>\n</body>\n</html>\n"
+}

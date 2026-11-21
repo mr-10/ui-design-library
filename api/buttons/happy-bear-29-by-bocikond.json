@@ -1,0 +1,18 @@
+{
+ "id": "happy-bear-29-by-bocikond",
+ "name": "Happy Bear 29",
+ "category": "buttons",
+ "author": "bociKond",
+ "source": "https://uiverse.io/bociKond/happy-bear-29",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by bociKond - Tags: button, focus, transition, color -->\n<button class=\"border-green-100 hover:border-green-200 text-green-900 rounded-lg border-4 cursor-pointer px-8 py-3 font-bold -skew-x-12 bg-gradient-to-bl from-green-400 to-green-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans\">\n      Button\n    </button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Happy Bear 29</title>\n<style>\n/* From Uiverse.io by bociKond - https://uiverse.io/bociKond/happy-bear-29 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by bociKond - Tags: button, focus, transition, color -->\n<button class=\"border-green-100 hover:border-green-200 text-green-900 rounded-lg border-4 cursor-pointer px-8 py-3 font-bold -skew-x-12 bg-gradient-to-bl from-green-400 to-green-300 opacity-80 hover:opacity-100 focus:opacity-100 focus:scale-105 transition-all duration-300 font-sans\">\n      Button\n    </button>\n</body>\n</html>\n"
+}

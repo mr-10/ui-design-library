@@ -1,0 +1,18 @@
+{
+ "id": "black-ape-85-by-tamaniphiri",
+ "name": "Black Ape 85",
+ "category": "inputs",
+ "author": "TamaniPhiri",
+ "source": "https://uiverse.io/TamaniPhiri/black-ape-85",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "inputs",
+  "focus",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by TamaniPhiri  - Tags: simple, email, input, login , login form, input -->\n<div\n  class=\"shadow-lg flex gap-2 items-center bg-white p-2 hover:shadow-xl duration-300 hover:border-2 border-gray-400 group delay-200 rounded-md\"\n>\n  <svg\n    class=\"group-hover:rotate-[360deg] duration-300\"\n    fill=\"none\"\n    stroke=\"currentColor\"\n    viewBox=\"0 0 24 24\"\n    height=\"1em\"\n    width=\"1em\"\n  >\n    <path\n      d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"\n    ></path>\n    <path d=\"M22 6l-10 7L2 6\"></path>\n  </svg>\n  <input\n    type=\"email\"\n    name=\"text\"\n    class=\"flex-1 focus:outline-none\"\n    placeholder=\"Email\"\n  />\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Black Ape 85</title>\n<style>\n/* From Uiverse.io by TamaniPhiri - https://uiverse.io/TamaniPhiri/black-ape-85 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by TamaniPhiri  - Tags: simple, email, input, login , login form, input -->\n<div\n  class=\"shadow-lg flex gap-2 items-center bg-white p-2 hover:shadow-xl duration-300 hover:border-2 border-gray-400 group delay-200 rounded-md\"\n>\n  <svg\n    class=\"group-hover:rotate-[360deg] duration-300\"\n    fill=\"none\"\n    stroke=\"currentColor\"\n    viewBox=\"0 0 24 24\"\n    height=\"1em\"\n    width=\"1em\"\n  >\n    <path\n      d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"\n    ></path>\n    <path d=\"M22 6l-10 7L2 6\"></path>\n  </svg>\n  <input\n    type=\"email\"\n    name=\"text\"\n    class=\"flex-1 focus:outline-none\"\n    placeholder=\"Email\"\n  />\n</div>\n</body>\n</html>\n"
+}

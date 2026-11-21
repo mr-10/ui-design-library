@@ -1,0 +1,20 @@
+{
+ "id": "green-goose-29-by-temrevil",
+ "name": "Green Goose 29",
+ "category": "cards",
+ "author": "TemRevil",
+ "source": "https://uiverse.io/TemRevil/green-goose-29",
+ "trigger": "hover",
+ "description": "A card with simple, animation and action styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "animation",
+  "action",
+  "card",
+  "hover"
+ ],
+ "html": "<div class=\"card\"><p>Card</p></div>",
+ "css": "/* From Uiverse.io by TemRevil  - Tags: simple, animation, action, card */\n.card {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 190px;\n  height: 254px;\n  background: #023047;\n  color: white;\n  font-size: 32px;\n  font-weight: 700;\n  border-radius: 10px;\n  cursor: pointer;\n  transition: 0.1s 0s linear;\n  position: relative;\n  overflow: hidden;\n}\n.card:active {\n  scale: 0.95;\n}\n.card::after {\n  content: \"\";\n  width: 500px;\n  height: 500px;\n  border-radius: 50%;\n  background-color: #fb8500;\n  position: absolute;\n  right: 250px;\n  transition: right 0.4s 0s linear;\n  z-index: 1;\n}\n.card:hover::after {\n  right: -160px;\n}\n.card:hover {\n  color: #023047;\n}\n.card p {\n  position: absolute;\n  z-index: 10;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Green Goose 29</title>\n<style>\n/* From Uiverse.io by TemRevil - https://uiverse.io/TemRevil/green-goose-29 */\n/* From Uiverse.io by TemRevil  - Tags: simple, animation, action, card */\n.card {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  width: 190px;\n  height: 254px;\n  background: #023047;\n  color: white;\n  font-size: 32px;\n  font-weight: 700;\n  border-radius: 10px;\n  cursor: pointer;\n  transition: 0.1s 0s linear;\n  position: relative;\n  overflow: hidden;\n}\n.card:active {\n  scale: 0.95;\n}\n.card::after {\n  content: \"\";\n  width: 500px;\n  height: 500px;\n  border-radius: 50%;\n  background-color: #fb8500;\n  position: absolute;\n  right: 250px;\n  transition: right 0.4s 0s linear;\n  z-index: 1;\n}\n.card:hover::after {\n  right: -160px;\n}\n.card:hover {\n  color: #023047;\n}\n.card p {\n  position: absolute;\n  z-index: 10;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"><p>Card</p></div>\n</body>\n</html>\n"
+}

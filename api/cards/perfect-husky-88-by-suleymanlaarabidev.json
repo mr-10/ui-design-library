@@ -1,0 +1,18 @@
+{
+ "id": "perfect-husky-88-by-suleymanlaarabidev",
+ "name": "Perfect Husky 88",
+ "category": "cards",
+ "author": "suleymanlaarabidev",
+ "source": "https://uiverse.io/suleymanlaarabidev/perfect-husky-88",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"card\">\n  <div class=\"first-content\">\n    <span>First</span>\n  </div>\n  <div class=\"second-content\">\n<span>Second</span>\n  </div>\n\n\n</div>",
+ "css": "/* From Uiverse.io by suleymanlaarabidev - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: rgb(103, 225, 255);\n  transition: all 0.4s;\n  border-radius: 10px;\n  box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);\n  font-size: 30px;\n  font-weight: 900;\n}\n\n.card:hover {\n  border-radius: 15px;\n  cursor: pointer;\n  transform: scale(1.2);\n  box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);\n  background: rgb(103, 151, 255);\n}\n\n.first-content {\n  height: 100%;\n  width: 100%;\n  transition: all 0.4s;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  opacity: 1;\n  border-radius: 15px;\n}\n\n.card:hover .first-content {\n  height: 0px;\n  opacity: 0;\n}\n\n.second-content {\n  height: 0%;\n  width: 100%;\n  opacity: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 15px;\n  transition: all 0.4s;\n  font-size: 0px;\n  transform: rotate(90deg) scale(-1);\n}\n\n.card:hover .second-content {\n  opacity: 1;\n  height: 100%;\n  font-size: 1.8rem;\n  transform: rotate(0deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Perfect Husky 88</title>\n<style>\n/* From Uiverse.io by suleymanlaarabidev - https://uiverse.io/suleymanlaarabidev/perfect-husky-88 */\n/* From Uiverse.io by suleymanlaarabidev - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: rgb(103, 225, 255);\n  transition: all 0.4s;\n  border-radius: 10px;\n  box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);\n  font-size: 30px;\n  font-weight: 900;\n}\n\n.card:hover {\n  border-radius: 15px;\n  cursor: pointer;\n  transform: scale(1.2);\n  box-shadow: 0px 0px 10px 5px  rgba(0, 0, 0, 0.705);\n  background: rgb(103, 151, 255);\n}\n\n.first-content {\n  height: 100%;\n  width: 100%;\n  transition: all 0.4s;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  opacity: 1;\n  border-radius: 15px;\n}\n\n.card:hover .first-content {\n  height: 0px;\n  opacity: 0;\n}\n\n.second-content {\n  height: 0%;\n  width: 100%;\n  opacity: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 15px;\n  transition: all 0.4s;\n  font-size: 0px;\n  transform: rotate(90deg) scale(-1);\n}\n\n.card:hover .second-content {\n  opacity: 1;\n  height: 100%;\n  font-size: 1.8rem;\n  transform: rotate(0deg);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"first-content\">\n    <span>First</span>\n  </div>\n  <div class=\"second-content\">\n<span>Second</span>\n  </div>\n\n\n</div>\n</body>\n</html>\n"
+}

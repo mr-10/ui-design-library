@@ -1,0 +1,18 @@
+{
+ "id": "serious-penguin-95-by-adamgiebl",
+ "name": "Serious Penguin 95",
+ "category": "cards",
+ "author": "adamgiebl",
+ "source": "https://uiverse.io/adamgiebl/serious-penguin-95",
+ "trigger": "static",
+ "description": "A card with neumorphism styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "neumorphism",
+  "card",
+  "static"
+ ],
+ "html": "<div class=\"card\"></div>",
+ "css": "/* From Uiverse.io by adamgiebl - Tags: neumorphism, card */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 30px;\n  background: lightgrey;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Serious Penguin 95</title>\n<style>\n/* From Uiverse.io by adamgiebl - https://uiverse.io/adamgiebl/serious-penguin-95 */\n/* From Uiverse.io by adamgiebl - Tags: neumorphism, card */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 30px;\n  background: lightgrey;\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+}

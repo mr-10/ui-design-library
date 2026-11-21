@@ -1,0 +1,19 @@
+{
+ "id": "new-warthog-10-by-sashank02",
+ "name": "New Warthog 10",
+ "category": "cards",
+ "author": "Sashank02",
+ "source": "https://uiverse.io/Sashank02/new-warthog-10",
+ "trigger": "hover",
+ "description": "A card with neumorphism and box-shadow styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "neumorphism",
+  "card",
+  "box-shadow",
+  "hover"
+ ],
+ "html": "<div class=\"card\">\n  <div class=\"card-image\"></div>\n  <p class=\"card-title\">Card title</p>\n  <p class=\"card-body\">\n    Nullam ac tristique nulla, at convallis quam. Integer consectetur mi nec magna tristique, non lobortis.\n  </p>\n  <p class=\"footer\">Written by <span class=\"by-name\">John Doe</span> on <span class=\"date\">25/05/23</span></p>\n</div>",
+ "css": "/* From Uiverse.io by Sashank02 - Tags: neumorphism, card, box-shadow */\n.card {\n  padding: 20px;\n  width: 330px;\n  min-height: 370px;\n  border-radius: 20px;\n  background: #e8e8e8;\n  box-shadow: 5px 5px 6px #dadada,\n               -5px -5px 6px #f6f6f6;\n  transition: 0.4s;\n}\n\n.card:hover {\n  translate: 0 -10px;\n}\n\n.card-title {\n  font-size: 18px;\n  font-weight: 600;\n  color: #2e54a7;\n  margin: 15px 0 0 10px;\n}\n\n.card-image {\n  min-height: 170px;\n  background-color: #c9c9c9;\n  border-radius: 15px;\n  box-shadow: inset 8px 8px 10px #c3c3c3,\n            inset -8px -8px 10px #cfcfcf;\n}\n\n.card-body {\n  margin: 13px 0 0 10px;\n  color: rgb(31, 31, 31);\n  font-size: 15px;\n}\n\n.footer {\n  float: right;\n  margin: 28px 0 0 18px;\n  font-size: 13px;\n  color: #636363;\n}\n\n.by-name {\n  font-weight: 700;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>New Warthog 10</title>\n<style>\n/* From Uiverse.io by Sashank02 - https://uiverse.io/Sashank02/new-warthog-10 */\n/* From Uiverse.io by Sashank02 - Tags: neumorphism, card, box-shadow */\n.card {\n  padding: 20px;\n  width: 330px;\n  min-height: 370px;\n  border-radius: 20px;\n  background: #e8e8e8;\n  box-shadow: 5px 5px 6px #dadada,\n               -5px -5px 6px #f6f6f6;\n  transition: 0.4s;\n}\n\n.card:hover {\n  translate: 0 -10px;\n}\n\n.card-title {\n  font-size: 18px;\n  font-weight: 600;\n  color: #2e54a7;\n  margin: 15px 0 0 10px;\n}\n\n.card-image {\n  min-height: 170px;\n  background-color: #c9c9c9;\n  border-radius: 15px;\n  box-shadow: inset 8px 8px 10px #c3c3c3,\n            inset -8px -8px 10px #cfcfcf;\n}\n\n.card-body {\n  margin: 13px 0 0 10px;\n  color: rgb(31, 31, 31);\n  font-size: 15px;\n}\n\n.footer {\n  float: right;\n  margin: 28px 0 0 18px;\n  font-size: 13px;\n  color: #636363;\n}\n\n.by-name {\n  font-weight: 700;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card-image\"></div>\n  <p class=\"card-title\">Card title</p>\n  <p class=\"card-body\">\n    Nullam ac tristique nulla, at convallis quam. Integer consectetur mi nec magna tristique, non lobortis.\n  </p>\n  <p class=\"footer\">Written by <span class=\"by-name\">John Doe</span> on <span class=\"date\">25/05/23</span></p>\n</div>\n</body>\n</html>\n"
+}

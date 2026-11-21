@@ -1,0 +1,18 @@
+{
+ "id": "rude-shrimp-21-by-joe-watson-sbf",
+ "name": "Rude Shrimp 21",
+ "category": "cards",
+ "author": "joe-watson-sbf",
+ "source": "https://uiverse.io/joe-watson-sbf/rude-shrimp-21",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"card\">\n    <p><span>HOVER ME</span></p>\n    <p><span>HOVER ME</span></p>\n    <p><span>HOVER ME</span></p>\n</div>",
+ "css": "/* From Uiverse.io by joe-watson-sbf - Tags: card, hover */\n.card {\n  width: 210px;\n  height: 254px;\n  border-radius: 4px;\n  background: #212121;\n  display: flex;\n  gap: 5px;\n  padding: .4em;\n}\n\n.card p {\n  height: 100%;\n  flex: 1;\n  overflow: hidden;\n  cursor: pointer;\n  border-radius: 2px;\n  transition: all .5s;\n  background: #212121;\n  border: 1px solid #ff5a91;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.card p:hover {\n  flex: 4;\n}\n\n.card p span {\n  min-width: 14em;\n  padding: .5em;\n  text-align: center;\n  transform: rotate(-90deg);\n  transition: all .5s;\n  text-transform: uppercase;\n  color: #ff568e;\n  letter-spacing: .1em;\n}\n\n.card p:hover span {\n  transform: rotate(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rude Shrimp 21</title>\n<style>\n/* From Uiverse.io by joe-watson-sbf - https://uiverse.io/joe-watson-sbf/rude-shrimp-21 */\n/* From Uiverse.io by joe-watson-sbf - Tags: card, hover */\n.card {\n  width: 210px;\n  height: 254px;\n  border-radius: 4px;\n  background: #212121;\n  display: flex;\n  gap: 5px;\n  padding: .4em;\n}\n\n.card p {\n  height: 100%;\n  flex: 1;\n  overflow: hidden;\n  cursor: pointer;\n  border-radius: 2px;\n  transition: all .5s;\n  background: #212121;\n  border: 1px solid #ff5a91;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.card p:hover {\n  flex: 4;\n}\n\n.card p span {\n  min-width: 14em;\n  padding: .5em;\n  text-align: center;\n  transform: rotate(-90deg);\n  transition: all .5s;\n  text-transform: uppercase;\n  color: #ff568e;\n  letter-spacing: .1em;\n}\n\n.card p:hover span {\n  transform: rotate(0);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n    <p><span>HOVER ME</span></p>\n    <p><span>HOVER ME</span></p>\n    <p><span>HOVER ME</span></p>\n</div>\n</body>\n</html>\n"
+}

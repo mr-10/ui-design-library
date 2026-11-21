@@ -1,0 +1,20 @@
+{
+ "id": "spicy-mule-43-by-devkatyall",
+ "name": "Spicy Mule 43",
+ "category": "cards",
+ "author": "devkatyall",
+ "source": "https://uiverse.io/devkatyall/spicy-mule-43",
+ "trigger": "auto-loop",
+ "description": "A card with text-animation, text and shining-text styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "card",
+  "text-animation",
+  "text",
+  "shining-text",
+  "auto-loop"
+ ],
+ "html": "<div class=\"shine\">UIVERSE</div>",
+ "css": "/* From Uiverse.io by devkatyall  - Tags: card, text animation, text, shining text */\n.shine {\n  font-size: 2em;\n  font-weight: 900;\n  color: rgba(255, 255, 255, 0.3);\n  background: #222 -webkit-gradient(\n      linear,\n      left top,\n      right top,\n      from(#222),\n      to(#222),\n      color-stop(0.5, #fff)\n    ) 0 0 no-repeat;\n  background-image: -webkit-linear-gradient(\n    -40deg,\n    transparent 0%,\n    transparent 40%,\n    #fff 50%,\n    transparent 60%,\n    transparent 100%\n  );\n  -webkit-background-clip: text;\n  -webkit-background-size: 50px;\n  -webkit-animation: zezzz;\n  -webkit-animation-duration: 5s;\n  -webkit-animation-iteration-count: infinite;\n}\n@-webkit-keyframes zezzz {\n  0%,\n  10% {\n    background-position: -200px;\n  }\n  20% {\n    background-position: top left;\n  }\n  100% {\n    background-position: 200px;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spicy Mule 43</title>\n<style>\n/* From Uiverse.io by devkatyall - https://uiverse.io/devkatyall/spicy-mule-43 */\n/* From Uiverse.io by devkatyall  - Tags: card, text animation, text, shining text */\n.shine {\n  font-size: 2em;\n  font-weight: 900;\n  color: rgba(255, 255, 255, 0.3);\n  background: #222 -webkit-gradient(\n      linear,\n      left top,\n      right top,\n      from(#222),\n      to(#222),\n      color-stop(0.5, #fff)\n    ) 0 0 no-repeat;\n  background-image: -webkit-linear-gradient(\n    -40deg,\n    transparent 0%,\n    transparent 40%,\n    #fff 50%,\n    transparent 60%,\n    transparent 100%\n  );\n  -webkit-background-clip: text;\n  -webkit-background-size: 50px;\n  -webkit-animation: zezzz;\n  -webkit-animation-duration: 5s;\n  -webkit-animation-iteration-count: infinite;\n}\n@-webkit-keyframes zezzz {\n  0%,\n  10% {\n    background-position: -200px;\n  }\n  20% {\n    background-position: top left;\n  }\n  100% {\n    background-position: 200px;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"shine\">UIVERSE</div>\n</body>\n</html>\n"
+}

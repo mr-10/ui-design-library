@@ -1,0 +1,18 @@
+{
+ "id": "giant-mouse-17-by-vashong",
+ "name": "Giant Mouse 17",
+ "category": "cards",
+ "author": "VashonG",
+ "source": "https://uiverse.io/VashonG/giant-mouse-17",
+ "trigger": "static",
+ "description": "A card UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "cards",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by VashonG - Tags: card, line, line loader, fintech, loan, interest -->\n<div class=\"CountersNumericV4WProgress w-96 h-44 relative\">\n  <div class=\"Bg w-96 h-44 left-0 top-0 absolute rounded-xl border border-neutral-300 border-opacity-70\"></div>\n  <div class=\"AmountR left-[332px] top-[110px] absolute text-right text-black text-sm font-bold leading-tight\">379</div>\n  <div class=\"AmountL left-[24px] top-[110px] absolute text-black text-sm font-bold leading-tight\">20.06.2024</div>\n  <div class=\"ElementProgressBarsMedium w-96 h-1 left-[24px] top-[86px] absolute\">\n    <div class=\"Bg w-80 h-1 left-0 top-0 static bg-white bg-opacity-90 rounded-sm\"></div>\n    <div class=\"Progress w-48 h-1 left-0 top-0 absolute bg-amber-300 rounded-sm\"></div>\n  </div>\n  <div class=\"SubtitleR left-[307px] top-[133px] absolute text-right text-zinc-500 text-xs font-medium leading-none\">Days left</div>\n  <div class=\"SubtitleL left-[24px] top-[133px] absolute text-zinc-500 text-xs font-medium leading-none\">Expiration date</div>\n  <div class=\"Amount left-[24px] top-[41px] absolute text-black text-lg font-extrabold leading-normal\">$6,900.00</div>\n  <div class=\"Title left-[24px] top-[15px] absolute text-zinc-500 text-sm font-normal leading-tight\">Accured interest</div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Mouse 17</title>\n<style>\n/* From Uiverse.io by VashonG - https://uiverse.io/VashonG/giant-mouse-17 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by VashonG - Tags: card, line, line loader, fintech, loan, interest -->\n<div class=\"CountersNumericV4WProgress w-96 h-44 relative\">\n  <div class=\"Bg w-96 h-44 left-0 top-0 absolute rounded-xl border border-neutral-300 border-opacity-70\"></div>\n  <div class=\"AmountR left-[332px] top-[110px] absolute text-right text-black text-sm font-bold leading-tight\">379</div>\n  <div class=\"AmountL left-[24px] top-[110px] absolute text-black text-sm font-bold leading-tight\">20.06.2024</div>\n  <div class=\"ElementProgressBarsMedium w-96 h-1 left-[24px] top-[86px] absolute\">\n    <div class=\"Bg w-80 h-1 left-0 top-0 static bg-white bg-opacity-90 rounded-sm\"></div>\n    <div class=\"Progress w-48 h-1 left-0 top-0 absolute bg-amber-300 rounded-sm\"></div>\n  </div>\n  <div class=\"SubtitleR left-[307px] top-[133px] absolute text-right text-zinc-500 text-xs font-medium leading-none\">Days left</div>\n  <div class=\"SubtitleL left-[24px] top-[133px] absolute text-zinc-500 text-xs font-medium leading-none\">Expiration date</div>\n  <div class=\"Amount left-[24px] top-[41px] absolute text-black text-lg font-extrabold leading-normal\">$6,900.00</div>\n  <div class=\"Title left-[24px] top-[15px] absolute text-zinc-500 text-sm font-normal leading-tight\">Accured interest</div>\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "spotty-husky-49-by-akaspidey01",
+ "name": "Spotty Husky 49",
+ "category": "buttons",
+ "author": "AKAspidey01",
+ "source": "https://uiverse.io/AKAspidey01/spotty-husky-49",
+ "trigger": "hover",
+ "description": "A button with simple, flashy and animation styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "flashy",
+  "animation",
+  "button",
+  "hover",
+  "smooth"
+ ],
+ "html": "<button class=\"button\">\n  <div class=\"similar-line line-1\"></div>\n  <div class=\"similar-line line-2\"></div>\n  <div class=\"similar-line line-3\"></div>\n</button>",
+ "css": "/* From Uiverse.io by AKAspidey01  - Tags: simple, flashy, animation, button, hover, smooth, hover effect, button hover effect  */\n.button {\n  cursor: pointer;\n  position: relative;\n  width: 5em;\n  height: 4em;\n  border: none;\n  background: rgb(248, 66, 42);\n  padding: 0.5em;\n  display: flex;\n  justify-content: center;\n  gap: 0.7em;\n  flex-direction: column;\n  transition-duration: 0.5s;\n}\n.button:hover {\n  background: rgb(7, 142, 253);\n}\n.similar-line {\n  height: 0.2em;\n  background: #fff;\n  border-radius: 1em;\n  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);\n}\n.line-1 {\n  width: 40%;\n}\n.line-2 {\n  width: 70%;\n}\n.line-3 {\n  width: 90%;\n}\n.button:hover .line-1 {\n  width: 90%;\n}\n.button:hover .line-2 {\n  width: 70%;\n}\n.button:hover .line-3 {\n  width: 40%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spotty Husky 49</title>\n<style>\n/* From Uiverse.io by AKAspidey01 - https://uiverse.io/AKAspidey01/spotty-husky-49 */\n/* From Uiverse.io by AKAspidey01  - Tags: simple, flashy, animation, button, hover, smooth, hover effect, button hover effect  */\n.button {\n  cursor: pointer;\n  position: relative;\n  width: 5em;\n  height: 4em;\n  border: none;\n  background: rgb(248, 66, 42);\n  padding: 0.5em;\n  display: flex;\n  justify-content: center;\n  gap: 0.7em;\n  flex-direction: column;\n  transition-duration: 0.5s;\n}\n.button:hover {\n  background: rgb(7, 142, 253);\n}\n.similar-line {\n  height: 0.2em;\n  background: #fff;\n  border-radius: 1em;\n  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);\n}\n.line-1 {\n  width: 40%;\n}\n.line-2 {\n  width: 70%;\n}\n.line-3 {\n  width: 90%;\n}\n.button:hover .line-1 {\n  width: 90%;\n}\n.button:hover .line-2 {\n  width: 70%;\n}\n.button:hover .line-3 {\n  width: 40%;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <div class=\"similar-line line-1\"></div>\n  <div class=\"similar-line line-2\"></div>\n  <div class=\"similar-line line-3\"></div>\n</button>\n</body>\n</html>\n"
+}

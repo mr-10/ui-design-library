@@ -1,0 +1,18 @@
+{
+ "id": "stale-sloth-57-by-clenio21",
+ "name": "Stale Sloth 57",
+ "category": "cards",
+ "author": "Clenio21",
+ "source": "https://uiverse.io/Clenio21/stale-sloth-57",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"card\"></div>",
+ "css": "/* From Uiverse.io by Clenio21 - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n --border-radius: 15px;\n --border-width: 4px;\n appearance: none;\n position: relative;\n padding: 1em 2em;\n border: 0;\n background: rgb(5, 5, 22);\n font-size: 18px;\n font-weight: 500;\n color: #fff;\n z-index: 2;\n border-radius: 15px;\n}\n\n.card::after {\n --m-i: linear-gradient(#000, #000);\n --m-o: content-box, padding-box;\n content: \"\";\n position: absolute;\n left: 0;\n top: 0;\n width: 100%;\n height: 100%;\n padding: var(--border-width);\n border-radius: var(--border-radius);\n background-image: conic-gradient(\n\t\t#488cfb,\n\t\t#29dbbc,\n\t\t#ddf505,\n\t\t#ff9f0e,\n\t\t#e440bb,\n\t\t#655adc,\n\t\t#488cfb\n\t);\n -webkit-mask-image: var(--m-i), var(--m-i);\n mask-image: var(--m-i), var(--m-i);\n -webkit-mask-origin: var(--m-o);\n mask-origin: var(--m-o);\n -webkit-mask-clip: var(--m-o);\n mask-composite: exclude;\n -webkit-mask-composite: destination-out;\n filter: hue-rotate(0);\n animation: rotate-hue linear 500ms infinite;\n animation-play-state: paused;\n}\n\n.card:hover::after {\n animation-play-state: running;\n}\n\n@keyframes rotate-hue {\n to {\n  filter: hue-rotate(1turn);\n }\n}\n\n.card,\n.card::after {\n box-sizing: border-box;\n}\n\n.card:active {\n --border-width: 5px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stale Sloth 57</title>\n<style>\n/* From Uiverse.io by Clenio21 - https://uiverse.io/Clenio21/stale-sloth-57 */\n/* From Uiverse.io by Clenio21 - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n --border-radius: 15px;\n --border-width: 4px;\n appearance: none;\n position: relative;\n padding: 1em 2em;\n border: 0;\n background: rgb(5, 5, 22);\n font-size: 18px;\n font-weight: 500;\n color: #fff;\n z-index: 2;\n border-radius: 15px;\n}\n\n.card::after {\n --m-i: linear-gradient(#000, #000);\n --m-o: content-box, padding-box;\n content: \"\";\n position: absolute;\n left: 0;\n top: 0;\n width: 100%;\n height: 100%;\n padding: var(--border-width);\n border-radius: var(--border-radius);\n background-image: conic-gradient(\n\t\t#488cfb,\n\t\t#29dbbc,\n\t\t#ddf505,\n\t\t#ff9f0e,\n\t\t#e440bb,\n\t\t#655adc,\n\t\t#488cfb\n\t);\n -webkit-mask-image: var(--m-i), var(--m-i);\n mask-image: var(--m-i), var(--m-i);\n -webkit-mask-origin: var(--m-o);\n mask-origin: var(--m-o);\n -webkit-mask-clip: var(--m-o);\n mask-composite: exclude;\n -webkit-mask-composite: destination-out;\n filter: hue-rotate(0);\n animation: rotate-hue linear 500ms infinite;\n animation-play-state: paused;\n}\n\n.card:hover::after {\n animation-play-state: running;\n}\n\n@keyframes rotate-hue {\n to {\n  filter: hue-rotate(1turn);\n }\n}\n\n.card,\n.card::after {\n box-sizing: border-box;\n}\n\n.card:active {\n --border-width: 5px;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+}

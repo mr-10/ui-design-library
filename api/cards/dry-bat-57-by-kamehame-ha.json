@@ -1,0 +1,18 @@
+{
+ "id": "dry-bat-57-by-kamehame-ha",
+ "name": "Dry Bat 57",
+ "category": "cards",
+ "author": "kamehame-ha",
+ "source": "https://uiverse.io/kamehame-ha/dry-bat-57",
+ "trigger": "static",
+ "description": "A card UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "cards",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by kamehame-ha  - Tags: simple, purple, minimalist, gradient, card, cookie -->\n<div\n  class=\"bg-gradient-to-r from-blue-400 to-indigo-500 rounded-lg overflow-hidden shadow-xl max-w-sm\"\n>\n  <div class=\"p-4\">\n    <h2 class=\"text-lg font-semibold mb-2 text-white\">Hello Traveler,</h2>\n    <p class=\"text-sm mb-4 text-white\">\n      This website uses cookies to enhance user experience and to analyze\n      performance and traffic on our website.\n    </p>\n    <div class=\"flex justify-end space-x-4\">\n      <button\n        class=\"duration-300 bg-black/0 hover:bg-black/25 text-white font-bold py-2 px-4 rounded\"\n      >\n        Accept\n      </button>\n      <button\n        class=\"duration-300 bg-black/0 hover:bg-black/25 text-white font-bold py-2 px-4 rounded\"\n      >\n        Decline\n      </button>\n    </div>\n  </div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Bat 57</title>\n<style>\n/* From Uiverse.io by kamehame-ha - https://uiverse.io/kamehame-ha/dry-bat-57 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by kamehame-ha  - Tags: simple, purple, minimalist, gradient, card, cookie -->\n<div\n  class=\"bg-gradient-to-r from-blue-400 to-indigo-500 rounded-lg overflow-hidden shadow-xl max-w-sm\"\n>\n  <div class=\"p-4\">\n    <h2 class=\"text-lg font-semibold mb-2 text-white\">Hello Traveler,</h2>\n    <p class=\"text-sm mb-4 text-white\">\n      This website uses cookies to enhance user experience and to analyze\n      performance and traffic on our website.\n    </p>\n    <div class=\"flex justify-end space-x-4\">\n      <button\n        class=\"duration-300 bg-black/0 hover:bg-black/25 text-white font-bold py-2 px-4 rounded\"\n      >\n        Accept\n      </button>\n      <button\n        class=\"duration-300 bg-black/0 hover:bg-black/25 text-white font-bold py-2 px-4 rounded\"\n      >\n        Decline\n      </button>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+}

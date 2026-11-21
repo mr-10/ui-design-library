@@ -1,0 +1,18 @@
+{
+ "id": "mighty-pig-81-by-sujitkavaiya",
+ "name": "Mighty Pig 81",
+ "category": "cards",
+ "author": "Sujitkavaiya",
+ "source": "https://uiverse.io/Sujitkavaiya/mighty-pig-81",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"card\"></div>",
+ "css": "/* From Uiverse.io by Sujitkavaiya - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background: rgb(255, 255, 255);\n border-radius: 0.4em;\n box-shadow: 0.3em 0.3em 0.7em #00000015;\n transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n border: rgb(250, 250, 250) 0.2em solid;\n}\n\n.card:hover {\n border: #006fff 0.2em solid;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mighty Pig 81</title>\n<style>\n/* From Uiverse.io by Sujitkavaiya - https://uiverse.io/Sujitkavaiya/mighty-pig-81 */\n/* From Uiverse.io by Sujitkavaiya - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background: rgb(255, 255, 255);\n border-radius: 0.4em;\n box-shadow: 0.3em 0.3em 0.7em #00000015;\n transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n border: rgb(250, 250, 250) 0.2em solid;\n}\n\n.card:hover {\n border: #006fff 0.2em solid;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+}

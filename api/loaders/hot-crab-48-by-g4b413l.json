@@ -1,0 +1,20 @@
+{
+ "id": "hot-crab-48-by-g4b413l",
+ "name": "Hot Crab 48",
+ "category": "loaders",
+ "author": "G4b413l",
+ "source": "https://uiverse.io/G4b413l/hot-crab-48",
+ "trigger": "auto-loop",
+ "description": "A loader with animation, loading and smooth styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "animation",
+  "loading",
+  "loader",
+  "smooth",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\">\n  <div class=\"scanner\">\n    <span>Loading...</span>\n  </div>\n</div>",
+ "css": "/* From Uiverse.io by G4b413l - Tags: animation, loading, loader, smooth */\n.scanner span {\n  color: transparent;\n  font-size: 1.4rem;\n  position: relative;\n  overflow: hidden;\n}\n\n.scanner span::before {\n  content: \"Loading...\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 0;\n  height: 100%;\n  border-right: 4px solid #17FEFF;\n  overflow: hidden;\n  color: #17FEFF;\n  animation: load91371 2s linear infinite;\n}\n\n@keyframes load91371 {\n  0%, 10%, 100% {\n    width: 0;\n  }\n\n  10%,20%,30%,40%,50%,60%,70%,80%,90%,100% {\n    border-right-color: transparent;\n  }\n\n  11%,21%,31%,41%,51%,61%,71%,81%,91% {\n    border-right-color: #17FEFF;\n  }\n\n  60%, 80% {\n    width: 100%;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hot Crab 48</title>\n<style>\n/* From Uiverse.io by G4b413l - https://uiverse.io/G4b413l/hot-crab-48 */\n/* From Uiverse.io by G4b413l - Tags: animation, loading, loader, smooth */\n.scanner span {\n  color: transparent;\n  font-size: 1.4rem;\n  position: relative;\n  overflow: hidden;\n}\n\n.scanner span::before {\n  content: \"Loading...\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 0;\n  height: 100%;\n  border-right: 4px solid #17FEFF;\n  overflow: hidden;\n  color: #17FEFF;\n  animation: load91371 2s linear infinite;\n}\n\n@keyframes load91371 {\n  0%, 10%, 100% {\n    width: 0;\n  }\n\n  10%,20%,30%,40%,50%,60%,70%,80%,90%,100% {\n    border-right-color: transparent;\n  }\n\n  11%,21%,31%,41%,51%,61%,71%,81%,91% {\n    border-right-color: #17FEFF;\n  }\n\n  60%, 80% {\n    width: 100%;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"scanner\">\n    <span>Loading...</span>\n  </div>\n</div>\n</body>\n</html>\n"
+}

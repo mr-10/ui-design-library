@@ -1,0 +1,19 @@
+{
+ "id": "stale-tiger-99-by-znvscripts",
+ "name": "Stale Tiger 99",
+ "category": "buttons",
+ "author": "znvscripts",
+ "source": "https://uiverse.io/znvscripts/stale-tiger-99",
+ "trigger": "hover",
+ "description": "A button with simple and click-effect styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "button",
+  "click-effect",
+  "hover"
+ ],
+ "html": "<button>Button</button>",
+ "css": "/* From Uiverse.io by znvscripts  - Tags: simple, button, click effect */\nbutton {\n  position: relative;\n  background: transparent;\n  cursor: pointer;\n  outline-offset: 4px;\n  transition: filter 250ms;\n  user-select: none;\n  touch-action: manipulation;\n  font-size: 1.1rem;\n  color: white;\n  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.3);\n  background: rgb(255, 0, 0);\n  border-radius: 12px;\n  padding: 12px 27px;\n  border: 3px solid black;\n}\n\nbutton:hover {\n  filter: brightness(110%);\n}\n\nbutton:active {\n  transform: translateY(2px);\n  transition: transform 34ms;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stale Tiger 99</title>\n<style>\n/* From Uiverse.io by znvscripts - https://uiverse.io/znvscripts/stale-tiger-99 */\n/* From Uiverse.io by znvscripts  - Tags: simple, button, click effect */\nbutton {\n  position: relative;\n  background: transparent;\n  cursor: pointer;\n  outline-offset: 4px;\n  transition: filter 250ms;\n  user-select: none;\n  touch-action: manipulation;\n  font-size: 1.1rem;\n  color: white;\n  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.3);\n  background: rgb(255, 0, 0);\n  border-radius: 12px;\n  padding: 12px 27px;\n  border: 3px solid black;\n}\n\nbutton:hover {\n  filter: brightness(110%);\n}\n\nbutton:active {\n  transform: translateY(2px);\n  transition: transform 34ms;\n}\n</style>\n</head>\n<body>\n<button>Button</button>\n</body>\n</html>\n"
+}

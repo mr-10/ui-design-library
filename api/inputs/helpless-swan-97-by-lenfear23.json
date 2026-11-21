@@ -1,0 +1,18 @@
+{
+ "id": "helpless-swan-97-by-lenfear23",
+ "name": "Helpless Swan 97",
+ "category": "inputs",
+ "author": "lenfear23",
+ "source": "https://uiverse.io/lenfear23/helpless-swan-97",
+ "trigger": "focus",
+ "description": "A input with neumorphism styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "neumorphism",
+  "input",
+  "focus"
+ ],
+ "html": "<input placeholder=\"First name\" class=\"input\" name=\"firstName\" type=\"text\">",
+ "css": "/* From Uiverse.io by lenfear23 - Tags: neumorphism, input */\n.input {\n  max-width: 200px;\n  min-height: 40px;\n  padding: 10px;\n  font-family: 'Courier New', Courier, monospace;\n  outline: none;\n  background: #e8e8e8;\n  box-shadow: 5px 5px 17px #c8c8c8,\n             -5px -5px 17px #ffffff;\n  border: none;\n  border-radius: 10px;\n  transition: all .5s;\n}\n\n.input:focus {\n  background: #e8e8e8;\n  box-shadow: inset 5px 5px 17px #c8c8c8,\n            inset -5px -5px 17px #ffffff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Swan 97</title>\n<style>\n/* From Uiverse.io by lenfear23 - https://uiverse.io/lenfear23/helpless-swan-97 */\n/* From Uiverse.io by lenfear23 - Tags: neumorphism, input */\n.input {\n  max-width: 200px;\n  min-height: 40px;\n  padding: 10px;\n  font-family: 'Courier New', Courier, monospace;\n  outline: none;\n  background: #e8e8e8;\n  box-shadow: 5px 5px 17px #c8c8c8,\n             -5px -5px 17px #ffffff;\n  border: none;\n  border-radius: 10px;\n  transition: all .5s;\n}\n\n.input:focus {\n  background: #e8e8e8;\n  box-shadow: inset 5px 5px 17px #c8c8c8,\n            inset -5px -5px 17px #ffffff;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"First name\" class=\"input\" name=\"firstName\" type=\"text\">\n</body>\n</html>\n"
+}

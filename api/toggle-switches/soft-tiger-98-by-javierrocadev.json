@@ -1,0 +1,18 @@
+{
+ "id": "soft-tiger-98-by-javierrocadev",
+ "name": "Soft Tiger 98",
+ "category": "toggle-switches",
+ "author": "Javierrocadev",
+ "source": "https://uiverse.io/Javierrocadev/soft-tiger-98",
+ "trigger": "checked",
+ "description": "A toggle switch UI element.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "toggle-switches",
+  "checked",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Javierrocadev - Source: Javierrocadev - Tags: red, green, hover, switch, rotate, hover effect, scale, tailwind -->\n<label class=\"relative inline-flex items-center cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\">\n  <div class=\"peer ring-0 bg-rose-400  rounded-full outline-none duration-300 after:duration-500 w-12 h-12  shadow-md peer-checked:bg-emerald-500  peer-focus:outline-none  after:content-['✖️'] after:rounded-full after:absolute after:outline-none after:h-10 after:w-10 after:bg-gray-50 after:top-1 after:left-1 after:flex after:justify-center after:items-center  peer-hover:after:scale-75 peer-checked:after:content-['✔️'] after:-rotate-180 peer-checked:after:rotate-0\">\n  </div>\n</label>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Tiger 98</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/soft-tiger-98 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev - Source: Javierrocadev - Tags: red, green, hover, switch, rotate, hover effect, scale, tailwind -->\n<label class=\"relative inline-flex items-center cursor-pointer\">\n  <input type=\"checkbox\" value=\"\" class=\"sr-only peer\">\n  <div class=\"peer ring-0 bg-rose-400  rounded-full outline-none duration-300 after:duration-500 w-12 h-12  shadow-md peer-checked:bg-emerald-500  peer-focus:outline-none  after:content-['✖️'] after:rounded-full after:absolute after:outline-none after:h-10 after:w-10 after:bg-gray-50 after:top-1 after:left-1 after:flex after:justify-center after:items-center  peer-hover:after:scale-75 peer-checked:after:content-['✔️'] after:-rotate-180 peer-checked:after:rotate-0\">\n  </div>\n</label>\n</body>\n</html>\n"
+}

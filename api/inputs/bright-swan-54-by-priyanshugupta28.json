@@ -1,0 +1,19 @@
+{
+ "id": "bright-swan-54-by-priyanshugupta28",
+ "name": "Bright Swan 54",
+ "category": "inputs",
+ "author": "PriyanshuGupta28",
+ "source": "https://uiverse.io/PriyanshuGupta28/bright-swan-54",
+ "trigger": "focus",
+ "description": "A input with range and input-effect styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "range",
+  "input-effect",
+  "focus"
+ ],
+ "html": "<input id=\"myRange\" class=\"slider\" value=\"50\" max=\"100\" min=\"0\" type=\"range\">",
+ "css": "/* From Uiverse.io by PriyanshuGupta28 - Tags: input, range, input effect  */\n.slider {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  outline: none;\n  opacity: 0.7;\n  -webkit-transition: .2s;\n  transition: opacity .2s;\n}\n\n.slider::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-color: #4c00ff;\n  background-image: linear-gradient(160deg, #4900f5 0%, #80D0C7 100%);\n  cursor: pointer;\n}\n\n.slider::-moz-range-thumb {\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-color: #0093E9;\n  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);\n  cursor: pointer;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bright Swan 54</title>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - https://uiverse.io/PriyanshuGupta28/bright-swan-54 */\n/* From Uiverse.io by PriyanshuGupta28 - Tags: input, range, input effect  */\n.slider {\n  -webkit-appearance: none;\n  width: 100%;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n  outline: none;\n  opacity: 0.7;\n  -webkit-transition: .2s;\n  transition: opacity .2s;\n}\n\n.slider::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  appearance: none;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-color: #4c00ff;\n  background-image: linear-gradient(160deg, #4900f5 0%, #80D0C7 100%);\n  cursor: pointer;\n}\n\n.slider::-moz-range-thumb {\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background-color: #0093E9;\n  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);\n  cursor: pointer;\n}\n</style>\n</head>\n<body>\n<input id=\"myRange\" class=\"slider\" value=\"50\" max=\"100\" min=\"0\" type=\"range\">\n</body>\n</html>\n"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "weak-wombat-42-by-escannord",
+ "name": "Weak Wombat 42",
+ "category": "inputs",
+ "author": "escannord",
+ "source": "https://uiverse.io/escannord/weak-wombat-42",
+ "trigger": "focus",
+ "description": "A input with simple and 3d styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "simple",
+  "3d",
+  "input",
+  "focus"
+ ],
+ "html": "<input class=\"input\" placeholder=\"typed here...\" name=\"text\" type=\"text\" />",
+ "css": "/* From Uiverse.io by escannord  - Tags: simple, 3d, input */\n.input {\n  max-width: 190px;\n  height: 2rem;\n  background-color: transparent;\n  border: 2px solid transparent;\n  color: white;\n  padding: 1rem;\n  box-shadow: 2px 2px 5px black, inset 2px 2px 5px rgb(53, 51, 51),\n    -1px -1px 20px rgba(59, 56, 56, 0.781);\n  outline: none;\n  border-radius: 10px;\n  font-size: medium;\n}\n\n.input:focus {\n  box-shadow: 2px 2px 5px black, inset 2px 2px 5px black,\n    -1px -1px 5px rgba(68, 67, 67, 0.781),\n    inset -1px -1px 5px rgba(66, 65, 65, 0.822);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Weak Wombat 42</title>\n<style>\n/* From Uiverse.io by escannord - https://uiverse.io/escannord/weak-wombat-42 */\n/* From Uiverse.io by escannord  - Tags: simple, 3d, input */\n.input {\n  max-width: 190px;\n  height: 2rem;\n  background-color: transparent;\n  border: 2px solid transparent;\n  color: white;\n  padding: 1rem;\n  box-shadow: 2px 2px 5px black, inset 2px 2px 5px rgb(53, 51, 51),\n    -1px -1px 20px rgba(59, 56, 56, 0.781);\n  outline: none;\n  border-radius: 10px;\n  font-size: medium;\n}\n\n.input:focus {\n  box-shadow: 2px 2px 5px black, inset 2px 2px 5px black,\n    -1px -1px 5px rgba(68, 67, 67, 0.781),\n    inset -1px -1px 5px rgba(66, 65, 65, 0.822);\n}\n</style>\n</head>\n<body>\n<input class=\"input\" placeholder=\"typed here...\" name=\"text\" type=\"text\" />\n</body>\n</html>\n"
+}

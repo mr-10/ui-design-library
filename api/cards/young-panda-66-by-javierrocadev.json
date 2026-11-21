@@ -1,0 +1,20 @@
+{
+ "id": "young-panda-66-by-javierrocadev",
+ "name": "Young Panda 66",
+ "category": "cards",
+ "author": "Javierrocadev",
+ "source": "https://uiverse.io/Javierrocadev/young-panda-66",
+ "trigger": "hover",
+ "description": "A card with green, hover-effect and tags styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "green",
+  "card",
+  "hover-effect",
+  "tags",
+  "hover"
+ ],
+ "html": "<div class=\"card\">\n  <span class=\"title\">All tags</span>\n  <div class=\"card__tags\">\n    <ul class=\"tag\">\n      <li class=\"tag__name\">JS</li>\n      <li class=\"tag__name\">wordpress</li>\n      <li class=\"tag__name\">uiverse</li>\n      <li class=\"tag__name\">Css</li>\n      <li class=\"tag__name\">html</li>\n      <li class=\"tag__name\">go</li>\n      <li class=\"tag__name\">java</li>\n      <li class=\"tag__name\">ux/ui</li>\n      <li class=\"tag__name\">figma</li> \n    </ul>\n  </div>\n</div>",
+ "css": "/* From Uiverse.io by Javierrocadev - Tags: green, card, hover effect, tags */\n.card {\n  width: 290px;\n  height: 300px;\n  background: #ecf39e;\n  padding: 10px;\n  display: flex;\n  flex-wrap: wrap;\n  color: #31572c;\n  border-radius: 15px;\n  box-shadow: -20px 20px 0px -5px #31572c;\n}\n\n.title {\n  font-weight: 900;\n  font-size: 1.7em;\n}\n\n.tag__name {\n  display: inline-block;\n  color: #fff;\n  font-size: 1.1em;\n  background-color: #31572c;\n  padding: 6px 23px 9px;\n  border-radius: 70em;\n  margin: 8px 6px 8px 0;\n  margin-left: 0px;\n  position: relative;\n  text-transform: lowercase;\n  cursor: pointer;\n  transition: all .3s ease-in-out;\n}\n\n.tag__name::before,.tag__name::after {\n  content: \"\";\n  display: inline-block;\n  position: absolute;\n  top: 40%;\n  width: 7px;\n  height: 7px;\n  border-radius: 50%;\n  background: #90a955;\n}\n\n.tag__name::before {\n  left: 7px;\n}\n\n.tag__name::after {\n  right: 7px;\n}\n\n.tag__name:hover {\n  transform: scale(1.1);\n  background-color: #51572c;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Young Panda 66</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/young-panda-66 */\n/* From Uiverse.io by Javierrocadev - Tags: green, card, hover effect, tags */\n.card {\n  width: 290px;\n  height: 300px;\n  background: #ecf39e;\n  padding: 10px;\n  display: flex;\n  flex-wrap: wrap;\n  color: #31572c;\n  border-radius: 15px;\n  box-shadow: -20px 20px 0px -5px #31572c;\n}\n\n.title {\n  font-weight: 900;\n  font-size: 1.7em;\n}\n\n.tag__name {\n  display: inline-block;\n  color: #fff;\n  font-size: 1.1em;\n  background-color: #31572c;\n  padding: 6px 23px 9px;\n  border-radius: 70em;\n  margin: 8px 6px 8px 0;\n  margin-left: 0px;\n  position: relative;\n  text-transform: lowercase;\n  cursor: pointer;\n  transition: all .3s ease-in-out;\n}\n\n.tag__name::before,.tag__name::after {\n  content: \"\";\n  display: inline-block;\n  position: absolute;\n  top: 40%;\n  width: 7px;\n  height: 7px;\n  border-radius: 50%;\n  background: #90a955;\n}\n\n.tag__name::before {\n  left: 7px;\n}\n\n.tag__name::after {\n  right: 7px;\n}\n\n.tag__name:hover {\n  transform: scale(1.1);\n  background-color: #51572c;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <span class=\"title\">All tags</span>\n  <div class=\"card__tags\">\n    <ul class=\"tag\">\n      <li class=\"tag__name\">JS</li>\n      <li class=\"tag__name\">wordpress</li>\n      <li class=\"tag__name\">uiverse</li>\n      <li class=\"tag__name\">Css</li>\n      <li class=\"tag__name\">html</li>\n      <li class=\"tag__name\">go</li>\n      <li class=\"tag__name\">java</li>\n      <li class=\"tag__name\">ux/ui</li>\n      <li class=\"tag__name\">figma</li> \n    </ul>\n  </div>\n</div>\n</body>\n</html>\n"
+}

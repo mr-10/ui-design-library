@@ -1,0 +1,18 @@
+{
+ "id": "nasty-zebra-71-by-echeverriajesus",
+ "name": "Nasty Zebra 71",
+ "category": "buttons",
+ "author": "EcheverriaJesus",
+ "source": "https://uiverse.io/EcheverriaJesus/nasty-zebra-71",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by EcheverriaJesus  - Tags: animation, button, hover, dark, download, tailwind -->\n<button\n  class=\"cursor-pointer bg-gray-800 px-3 py-2 rounded-md text-white tracking-wider shadow-xl animate-bounce hover:animate-none\"\n>\n  <svg\n    class=\"w-5 h-5\"\n    stroke=\"currentColor\"\n    stroke-width=\"2\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n    ></path>\n  </svg>\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Zebra 71</title>\n<style>\n/* From Uiverse.io by EcheverriaJesus - https://uiverse.io/EcheverriaJesus/nasty-zebra-71 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by EcheverriaJesus  - Tags: animation, button, hover, dark, download, tailwind -->\n<button\n  class=\"cursor-pointer bg-gray-800 px-3 py-2 rounded-md text-white tracking-wider shadow-xl animate-bounce hover:animate-none\"\n>\n  <svg\n    class=\"w-5 h-5\"\n    stroke=\"currentColor\"\n    stroke-width=\"2\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n    ></path>\n  </svg>\n</button>\n</body>\n</html>\n"
+}

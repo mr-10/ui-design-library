@@ -1,0 +1,18 @@
+{
+ "id": "white-emu-65-by-mike11jr",
+ "name": "White Emu 65",
+ "category": "buttons",
+ "author": "Mike11jr",
+ "source": "https://uiverse.io/Mike11jr/white-emu-65",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"btn\"> Hover Me!\n</button>",
+ "css": "/* From Uiverse.io by Mike11jr - Tags: button */\n.btn {\n padding: 0.9em 1.9em;\n font-size: 16px;\n border: none;\n background: #6285f8;\n color: white;\n cursor: pointer;\n position: relative;\n z-index: 1;\n}\n\n.btn:hover {\n color: rgb(255, 255, 255);\n}\n\n.btn::before,.btn::after {\n content: \"\";\n position: absolute;\n top: 0%;\n left: 0%;\n width: 100%;\n height: 100%;\n background: rgba(128, 128, 128, 0.096);\n backdrop-filter: blur(10px);\n z-index: -1;\n transition: all 0.4s;\n}\n\n.btn::after {\n z-index: -2;\n transition: all 0.4s;\n}\n\n.btn:hover::before {\n background: rgb(0, 0, 0, 0.315);\n border-radius: 10px;\n}\n\n.btn:hover::after {\n background: linear-gradient(to right, #cb6ce6, #38b6ff);\n border-radius: 10px;\n transform: scale(1.07, 1.2) rotateX(180deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>White Emu 65</title>\n<style>\n/* From Uiverse.io by Mike11jr - https://uiverse.io/Mike11jr/white-emu-65 */\n/* From Uiverse.io by Mike11jr - Tags: button */\n.btn {\n padding: 0.9em 1.9em;\n font-size: 16px;\n border: none;\n background: #6285f8;\n color: white;\n cursor: pointer;\n position: relative;\n z-index: 1;\n}\n\n.btn:hover {\n color: rgb(255, 255, 255);\n}\n\n.btn::before,.btn::after {\n content: \"\";\n position: absolute;\n top: 0%;\n left: 0%;\n width: 100%;\n height: 100%;\n background: rgba(128, 128, 128, 0.096);\n backdrop-filter: blur(10px);\n z-index: -1;\n transition: all 0.4s;\n}\n\n.btn::after {\n z-index: -2;\n transition: all 0.4s;\n}\n\n.btn:hover::before {\n background: rgb(0, 0, 0, 0.315);\n border-radius: 10px;\n}\n\n.btn:hover::after {\n background: linear-gradient(to right, #cb6ce6, #38b6ff);\n border-radius: 10px;\n transform: scale(1.07, 1.2) rotateX(180deg);\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"> Hover Me!\n</button>\n</body>\n</html>\n"
+}

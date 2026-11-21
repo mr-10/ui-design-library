@@ -1,0 +1,21 @@
+{
+ "id": "wet-ape-7-by-danilppzz",
+ "name": "Wet Ape 7",
+ "category": "buttons",
+ "author": "danilppzz",
+ "source": "https://uiverse.io/danilppzz/wet-ape-7",
+ "trigger": "hover",
+ "description": "A button with simple, black and dark styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "black",
+  "button",
+  "dark",
+  "hoverme",
+  "hover"
+ ],
+ "html": "<button class=\"button\">Submit</button>",
+ "css": "/* From Uiverse.io by danilppzz  - Tags: simple, black, button, dark, hoverme */\n.button {\n  background-color: #292929;\n  border: 1px solid #3e3e3e;\n  border-radius: 8px;\n  color: #fff;\n  padding: 14px 24px;\n  text-decoration: none;\n  font-size: 16px;\n  margin: 12px 14px;\n  cursor: pointer;\n}\n\n.button:hover {\n  border: 1px solid #fff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wet Ape 7</title>\n<style>\n/* From Uiverse.io by danilppzz - https://uiverse.io/danilppzz/wet-ape-7 */\n/* From Uiverse.io by danilppzz  - Tags: simple, black, button, dark, hoverme */\n.button {\n  background-color: #292929;\n  border: 1px solid #3e3e3e;\n  border-radius: 8px;\n  color: #fff;\n  padding: 14px 24px;\n  text-decoration: none;\n  font-size: 16px;\n  margin: 12px 14px;\n  cursor: pointer;\n}\n\n.button:hover {\n  border: 1px solid #fff;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Submit</button>\n</body>\n</html>\n"
+}

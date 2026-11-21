@@ -1,0 +1,19 @@
+{
+ "id": "ancient-falcon-18-by-dylanharriscameron",
+ "name": "Ancient Falcon 18",
+ "category": "loaders",
+ "author": "dylanharriscameron",
+ "source": "https://uiverse.io/dylanharriscameron/ancient-falcon-18",
+ "trigger": "auto-loop",
+ "description": "A loader with loading and infinite styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loading",
+  "loader",
+  "infinite",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loaderBar\"></div>",
+ "css": "/* From Uiverse.io by dylanharriscameron - Tags: loading, loader, infinite */\n.loaderBar {\n  width: calc(160px / 0.707);\n  height: 10px;\n  background: #F9F9F9;\n  border-radius: 10px;\n  border: 1px solid #006DFE;\n  position: relative;\n  overflow: hidden;\n}\n\n.loaderBar::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  border-radius: 5px;\n  background: repeating-linear-gradient(45deg, #0031F2 0 30px, #006DFE 0 40px) right/200% 100%;\n  animation: fillProgress 6s ease-in-out infinite, lightEffect 1s infinite linear;\n  animation-fill-mode: forwards;\n}\n\n@keyframes fillProgress {\n  0% {\n    width: 0;\n  }\n\n  33% {\n    width: 33.333%;\n  }\n\n  66% {\n    width: 66.67%;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n\n@keyframes lightEffect {\n  0%, 20%, 40%, 60%, 80%, 100% {\n    background: repeating-linear-gradient(45deg, #0031F2 0 30px, #006DFE 0 40px) right/200% 100%;\n  }\n\n  10%, 30%, 50%, 70%, 90% {\n    background: repeating-linear-gradient(45deg, #0031F2 0 30px, #006DFE 0 40px, rgba(255, 255, 255, 0.3) 0 40px) right/200% 100%;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Falcon 18</title>\n<style>\n/* From Uiverse.io by dylanharriscameron - https://uiverse.io/dylanharriscameron/ancient-falcon-18 */\n/* From Uiverse.io by dylanharriscameron - Tags: loading, loader, infinite */\n.loaderBar {\n  width: calc(160px / 0.707);\n  height: 10px;\n  background: #F9F9F9;\n  border-radius: 10px;\n  border: 1px solid #006DFE;\n  position: relative;\n  overflow: hidden;\n}\n\n.loaderBar::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  border-radius: 5px;\n  background: repeating-linear-gradient(45deg, #0031F2 0 30px, #006DFE 0 40px) right/200% 100%;\n  animation: fillProgress 6s ease-in-out infinite, lightEffect 1s infinite linear;\n  animation-fill-mode: forwards;\n}\n\n@keyframes fillProgress {\n  0% {\n    width: 0;\n  }\n\n  33% {\n    width: 33.333%;\n  }\n\n  66% {\n    width: 66.67%;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n\n@keyframes lightEffect {\n  0%, 20%, 40%, 60%, 80%, 100% {\n    background: repeating-linear-gradient(45deg, #0031F2 0 30px, #006DFE 0 40px) right/200% 100%;\n  }\n\n  10%, 30%, 50%, 70%, 90% {\n    background: repeating-linear-gradient(45deg, #0031F2 0 30px, #006DFE 0 40px, rgba(255, 255, 255, 0.3) 0 40px) right/200% 100%;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loaderBar\"></div>\n</body>\n</html>\n"
+}

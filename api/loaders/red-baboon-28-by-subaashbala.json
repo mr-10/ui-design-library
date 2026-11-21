@@ -1,0 +1,19 @@
+{
+ "id": "red-baboon-28-by-subaashbala",
+ "name": "Red Baboon 28",
+ "category": "loaders",
+ "author": "Subaashbala",
+ "source": "https://uiverse.io/Subaashbala/red-baboon-28",
+ "trigger": "auto-loop",
+ "description": "A loader with smooth and loading-animation styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "smooth",
+  "loading-animation",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\">\n  <span>&lt;</span>\n  <span>LOADING</span>\n  <span>/&gt;</span>\n</div>",
+ "css": "/* From Uiverse.io by Subaashbala  - Tags: loader, smooth, loading animation */\n.loader {\n  font-size: 2em;\n  font-weight: 900;\n}\n.loader > * {\n  color: black;\n}\n.loader span {\n  display: inline-flex;\n}\n.loader span:nth-child(2) {\n  letter-spacing: -1em;\n  overflow: hidden;\n  animation: reveal 1500ms cubic-bezier(0.645, 0.045, 0.355, 1) infinite\n    alternate;\n}\n@keyframes reveal {\n  0%,\n  100% {\n    opacity: 0.5;\n    letter-spacing: -1em;\n  }\n  50% {\n    opacity: 1;\n    letter-spacing: 0em;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Baboon 28</title>\n<style>\n/* From Uiverse.io by Subaashbala - https://uiverse.io/Subaashbala/red-baboon-28 */\n/* From Uiverse.io by Subaashbala  - Tags: loader, smooth, loading animation */\n.loader {\n  font-size: 2em;\n  font-weight: 900;\n}\n.loader > * {\n  color: black;\n}\n.loader span {\n  display: inline-flex;\n}\n.loader span:nth-child(2) {\n  letter-spacing: -1em;\n  overflow: hidden;\n  animation: reveal 1500ms cubic-bezier(0.645, 0.045, 0.355, 1) infinite\n    alternate;\n}\n@keyframes reveal {\n  0%,\n  100% {\n    opacity: 0.5;\n    letter-spacing: -1em;\n  }\n  50% {\n    opacity: 1;\n    letter-spacing: 0em;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <span>&lt;</span>\n  <span>LOADING</span>\n  <span>/&gt;</span>\n</div>\n</body>\n</html>\n"
+}

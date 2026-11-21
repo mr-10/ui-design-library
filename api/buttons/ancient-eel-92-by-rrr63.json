@@ -1,0 +1,18 @@
+{
+ "id": "ancient-eel-92-by-rrr63",
+ "name": "Ancient Eel 92",
+ "category": "buttons",
+ "author": "rrr63",
+ "source": "https://uiverse.io/rrr63/ancient-eel-92",
+ "trigger": "hover",
+ "description": "A button with scale styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "scale"
+ ],
+ "html": "<button class=\"button\">\n  Click here ..\n</button>",
+ "css": "/* From Uiverse.io by rrr63 - Tags: button, hover, scale */\n.button {\n  padding: 10px 35px;\n  background-color: #EBF5EE;\n  font-weight: bolder;\n  border: 0px;\n  position: relative;\n  cursor: pointer;\n  overflow: hidden;\n  border-radius: 5px;\n  transition: all .2s ease-in-out .1s;\n}\n\n.button:hover {\n  background-color: #EBF5EE;\n  transform: scale(1.2) rotate(5deg);\n}\n\n.button:before {\n  content: '';\n  position: absolute;\n  background-color: #78A1BB;\n  height: 180%;\n  top: -30%;\n  left: -40%;\n  transform: rotateZ(20deg);\n  width: 40px;\n  transition: left .2s ease-in-out, left 0s;\n}\n\n.button:after {\n  content: '';\n  position: absolute;\n  background-color: #283044;\n  height: 180%;\n  top: -30%;\n  left: -40%;\n  transform: translateX(-40px) rotateZ(20deg);\n  width: 40px;\n  transition: left .2s ease-in-out, left 0s;\n}\n\n.button:hover:after {\n  left: 150%;\n  transition: left .3s ease-in-out;\n}\n\n.button:hover:before {\n  left: 150%;\n  transition: left .3s ease-in-out;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Eel 92</title>\n<style>\n/* From Uiverse.io by rrr63 - https://uiverse.io/rrr63/ancient-eel-92 */\n/* From Uiverse.io by rrr63 - Tags: button, hover, scale */\n.button {\n  padding: 10px 35px;\n  background-color: #EBF5EE;\n  font-weight: bolder;\n  border: 0px;\n  position: relative;\n  cursor: pointer;\n  overflow: hidden;\n  border-radius: 5px;\n  transition: all .2s ease-in-out .1s;\n}\n\n.button:hover {\n  background-color: #EBF5EE;\n  transform: scale(1.2) rotate(5deg);\n}\n\n.button:before {\n  content: '';\n  position: absolute;\n  background-color: #78A1BB;\n  height: 180%;\n  top: -30%;\n  left: -40%;\n  transform: rotateZ(20deg);\n  width: 40px;\n  transition: left .2s ease-in-out, left 0s;\n}\n\n.button:after {\n  content: '';\n  position: absolute;\n  background-color: #283044;\n  height: 180%;\n  top: -30%;\n  left: -40%;\n  transform: translateX(-40px) rotateZ(20deg);\n  width: 40px;\n  transition: left .2s ease-in-out, left 0s;\n}\n\n.button:hover:after {\n  left: 150%;\n  transition: left .3s ease-in-out;\n}\n\n.button:hover:before {\n  left: 150%;\n  transition: left .3s ease-in-out;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Click here ..\n</button>\n</body>\n</html>\n"
+}

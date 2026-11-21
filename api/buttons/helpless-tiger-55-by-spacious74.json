@@ -1,0 +1,21 @@
+{
+ "id": "helpless-tiger-55-by-spacious74",
+ "name": "Helpless Tiger 55",
+ "category": "buttons",
+ "author": "Spacious74",
+ "source": "https://uiverse.io/Spacious74/helpless-tiger-55",
+ "trigger": "static",
+ "description": "A button with 3d, realistic and code styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "3d",
+  "button",
+  "realistic",
+  "code",
+  "social-media",
+  "neo"
+ ],
+ "html": "<button class=\"button\">\n  <div class=\"blob1\"></div>\n  <div class=\"blob2\"></div>\n  <div class=\"inner\">Realism</div>\n</button>",
+ "css": "/* From Uiverse.io by Spacious74  - Tags: 3d, button, realistic, code, social media, neo */\n.button {\n  cursor: pointer;\n  font-size: 1.6rem;\n  border-radius: 16px;\n  border: none;\n  padding: 2px;\n  background: radial-gradient(circle 80px at 80% -10%, #ffffff, #181b1b);\n  position: relative;\n}\n.button::after {\n  content: \"\";\n  position: absolute;\n  width: 65%;\n  height: 60%;\n  border-radius: 120px;\n  top: 0;\n  right: 0;\n  box-shadow: 0 0 20px #ffffff38;\n  z-index: -1;\n}\n\n.blob1 {\n  position: absolute;\n  width: 70px;\n  height: 100%;\n  border-radius: 16px;\n  bottom: 0;\n  left: 0;\n  background: radial-gradient(\n    circle 60px at 0% 100%,\n    #3fe9ff,\n    #0000ff80,\n    transparent\n  );\n  box-shadow: -10px 10px 30px #0051ff2d;\n}\n\n.inner {\n  padding: 14px 25px;\n  border-radius: 14px;\n  color: #fff;\n  z-index: 3;\n  position: relative;\n  background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);\n}\n.inner::before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  left: 0;\n  top: 0;\n  border-radius: 14px;\n  background: radial-gradient(\n    circle 60px at 0% 100%,\n    #00e1ff1a,\n    #0000ff11,\n    transparent\n  );\n  position: absolute;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Tiger 55</title>\n<style>\n/* From Uiverse.io by Spacious74 - https://uiverse.io/Spacious74/helpless-tiger-55 */\n/* From Uiverse.io by Spacious74  - Tags: 3d, button, realistic, code, social media, neo */\n.button {\n  cursor: pointer;\n  font-size: 1.6rem;\n  border-radius: 16px;\n  border: none;\n  padding: 2px;\n  background: radial-gradient(circle 80px at 80% -10%, #ffffff, #181b1b);\n  position: relative;\n}\n.button::after {\n  content: \"\";\n  position: absolute;\n  width: 65%;\n  height: 60%;\n  border-radius: 120px;\n  top: 0;\n  right: 0;\n  box-shadow: 0 0 20px #ffffff38;\n  z-index: -1;\n}\n\n.blob1 {\n  position: absolute;\n  width: 70px;\n  height: 100%;\n  border-radius: 16px;\n  bottom: 0;\n  left: 0;\n  background: radial-gradient(\n    circle 60px at 0% 100%,\n    #3fe9ff,\n    #0000ff80,\n    transparent\n  );\n  box-shadow: -10px 10px 30px #0051ff2d;\n}\n\n.inner {\n  padding: 14px 25px;\n  border-radius: 14px;\n  color: #fff;\n  z-index: 3;\n  position: relative;\n  background: radial-gradient(circle 80px at 80% -50%, #777777, #0f1111);\n}\n.inner::before {\n  content: \"\";\n  width: 100%;\n  height: 100%;\n  left: 0;\n  top: 0;\n  border-radius: 14px;\n  background: radial-gradient(\n    circle 60px at 0% 100%,\n    #00e1ff1a,\n    #0000ff11,\n    transparent\n  );\n  position: absolute;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <div class=\"blob1\"></div>\n  <div class=\"blob2\"></div>\n  <div class=\"inner\">Realism</div>\n</button>\n</body>\n</html>\n"
+}

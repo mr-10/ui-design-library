@@ -1,0 +1,20 @@
+{
+ "id": "curly-husky-35-by-charandeepsingh01",
+ "name": "Curly Husky 35",
+ "category": "loaders",
+ "author": "CharandeepSingh01",
+ "source": "https://uiverse.io/CharandeepSingh01/curly-husky-35",
+ "trigger": "auto-loop",
+ "description": "A loader with loading, loading-animation and 3d-loader styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loading",
+  "loader",
+  "loading-animation",
+  "3d-loader",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by CharandeepSingh01 - Tags: loading, loader, loading animation, 3d loader */\n/*View in dark mode for good effects*/\n.loader {\n  border: 4px solid red;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  border-right-color: transparent;\n  animation: rot 1s linear infinite;\n  box-shadow: 0px 0px 20px red inset;\n}\n\n@keyframes rot {\n  100% {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Husky 35</title>\n<style>\n/* From Uiverse.io by CharandeepSingh01 - https://uiverse.io/CharandeepSingh01/curly-husky-35 */\n/* From Uiverse.io by CharandeepSingh01 - Tags: loading, loader, loading animation, 3d loader */\n/*View in dark mode for good effects*/\n.loader {\n  border: 4px solid red;\n  width: 100px;\n  height: 100px;\n  border-radius: 50%;\n  border-right-color: transparent;\n  animation: rot 1s linear infinite;\n  box-shadow: 0px 0px 20px red inset;\n}\n\n@keyframes rot {\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

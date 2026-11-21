@@ -1,0 +1,18 @@
+{
+ "id": "strong-dragonfly-81-by-ozgeozkaraa01",
+ "name": "Strong Dragonfly 81",
+ "category": "loaders",
+ "author": "ozgeozkaraa01",
+ "source": "https://uiverse.io/ozgeozkaraa01/strong-dragonfly-81",
+ "trigger": "static",
+ "description": "A loader UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "loaders",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by ozgeozkaraa01 - Tags: loader, 3d loader -->\n<div class=\"relative\">\n    <div class=\"w-20 h-20 border-lime-200 border-2 rounded-full\"></div>\n    <div class=\"w-20 h-20 border-lime-700 border-t-2 animate-spin rounded-full absolute left-0 top-0\"></div>\n</div>\n\n<div class=\"relative\">\n    <div class=\"w-10 h-10 border-lime-200 border-2 rounded-full\"></div>\n    <div class=\"w-10 h-10 border-lime-700 border-t-2 animate-spin rounded-full absolute left-0 top-0\"></div>\n</div>\n\n<div class=\"relative\">\n    <div class=\"w-5 h-5 border-lime-200 border-2 rounded-full\"></div>\n    <div class=\"w-5 h-5 border-lime-700 border-t-2 animate-spin rounded-full absolute left-0 top-0\"></div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strong Dragonfly 81</title>\n<style>\n/* From Uiverse.io by ozgeozkaraa01 - https://uiverse.io/ozgeozkaraa01/strong-dragonfly-81 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by ozgeozkaraa01 - Tags: loader, 3d loader -->\n<div class=\"relative\">\n    <div class=\"w-20 h-20 border-lime-200 border-2 rounded-full\"></div>\n    <div class=\"w-20 h-20 border-lime-700 border-t-2 animate-spin rounded-full absolute left-0 top-0\"></div>\n</div>\n\n<div class=\"relative\">\n    <div class=\"w-10 h-10 border-lime-200 border-2 rounded-full\"></div>\n    <div class=\"w-10 h-10 border-lime-700 border-t-2 animate-spin rounded-full absolute left-0 top-0\"></div>\n</div>\n\n<div class=\"relative\">\n    <div class=\"w-5 h-5 border-lime-200 border-2 rounded-full\"></div>\n    <div class=\"w-5 h-5 border-lime-700 border-t-2 animate-spin rounded-full absolute left-0 top-0\"></div>\n</div>\n</body>\n</html>\n"
+}

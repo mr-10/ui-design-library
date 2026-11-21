@@ -1,0 +1,18 @@
+{
+ "id": "chatty-ladybug-95-by-javierrocadev",
+ "name": "Chatty Ladybug 95",
+ "category": "forms",
+ "author": "Javierrocadev",
+ "source": "https://uiverse.io/Javierrocadev/chatty-ladybug-95",
+ "trigger": "static",
+ "description": "A form UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "forms",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Javierrocadev - Tags: blue, form, login form, tailwind -->\n<div id=\"login\" class=\"w-64 h-80 bg-indigo-50 rounded shadow flex flex-col justify-between p-3\">       \n    <form class=\"text-indigo-500\" action=\"\" method=\"post\">\n        <fieldset class=\"border-4 border-dotted border-indigo-500 p-5\">\n            <legend class=\"px-2 italic -mx-2\">Welcome again!</legend>\n             <label class=\"text-xs font-bold after:content-['*'] after:text-red-400\" for=\"email\">Mail </label>     \n            <input class=\"w-full p-2 mb-2 mt-1 outline-none ring-none focus:ring-2 focus:ring-indigo-500\" type=\"email\" required=\"\">   \n            <label class=\"text-xs font-bold after:content-['*'] after:text-red-400\" for=\"password\">Password  </label>\n            <input class=\"w-full p-2 mb-2 mt-1 outline-none ring-none focus:ring-2 focus:ring-indigo-500\" type=\"password\" required=\"\">\n            <a href=\"#\" class=\"block text-right text-xs text-indigo-500 text-right mb-4\">Forgot Password?</a>\n            <button class=\"w-full rounded bg-indigo-500 text-indigo-50 p-2 text-center font-bold hover:bg-indigo-400\">Log In</button>\n        </fieldset>\n         </form>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chatty Ladybug 95</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/chatty-ladybug-95 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev - Tags: blue, form, login form, tailwind -->\n<div id=\"login\" class=\"w-64 h-80 bg-indigo-50 rounded shadow flex flex-col justify-between p-3\">       \n    <form class=\"text-indigo-500\" action=\"\" method=\"post\">\n        <fieldset class=\"border-4 border-dotted border-indigo-500 p-5\">\n            <legend class=\"px-2 italic -mx-2\">Welcome again!</legend>\n             <label class=\"text-xs font-bold after:content-['*'] after:text-red-400\" for=\"email\">Mail </label>     \n            <input class=\"w-full p-2 mb-2 mt-1 outline-none ring-none focus:ring-2 focus:ring-indigo-500\" type=\"email\" required=\"\">   \n            <label class=\"text-xs font-bold after:content-['*'] after:text-red-400\" for=\"password\">Password  </label>\n            <input class=\"w-full p-2 mb-2 mt-1 outline-none ring-none focus:ring-2 focus:ring-indigo-500\" type=\"password\" required=\"\">\n            <a href=\"#\" class=\"block text-right text-xs text-indigo-500 text-right mb-4\">Forgot Password?</a>\n            <button class=\"w-full rounded bg-indigo-500 text-indigo-50 p-2 text-center font-bold hover:bg-indigo-400\">Log In</button>\n        </fieldset>\n         </form>\n</div>\n</body>\n</html>\n"
+}

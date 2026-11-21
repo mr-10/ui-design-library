@@ -1,0 +1,37 @@
+# UI Design Library
+
+> 3,805 free copy-paste HTML+CSS UI elements (buttons, loaders, cards, forms, toggles, inputs, checkboxes, patterns, radio buttons, tooltips, notifications) from Uiverse.io, MIT licensed. Every element is pure HTML + CSS, no JavaScript, no login, no account, no API key. Browse, copy the code, paste it into your project, keep the author credit.
+
+> Live site: https://mr-10.github.io/ui-design-library
+> Data version: b62515dc6880
+
+## Categories
+
+- buttons: 1232 elements
+- loaders: 718 elements
+- cards: 726 elements
+- toggle-switches: 260 elements
+- inputs: 226 elements
+- forms: 181 elements
+- checkboxes: 172 elements
+- patterns: 103 elements
+- radio-buttons: 102 elements
+- tooltips: 62 elements
+- notifications: 23 elements
+
+## Machine-readable data
+
+- Full index (id, name, category, trigger, tags, description): https://mr-10.github.io/ui-design-library/data/index.min.json
+- Categories (names and counts): https://mr-10.github.io/ui-design-library/data/categories.json
+- One element (metadata, html, css, combined single-file version): https://mr-10.github.io/ui-design-library/api/<category>/<id>.json
+- Element source on GitHub: https://github.com/mr-10/ui-design-library/tree/main/uiverse/<category>/<id>
+
+## Use with AI agents (MCP)
+
+An MCP server is available as the npm package `ui-design-library-mcp` (command `npx -y ui-design-library-mcp`). It exposes search_elements, list_categories, get_element, get_similar and get_random over this data. See the README section "Use with AI agents" for the config for Claude Desktop, Claude Code, Cursor, VS Code and Windsurf.
+
+## Rules for using an element
+
+- Use at most one element's code per answer; search first, then fetch that one element.
+- Keep the author credit (author name + uiverse.io source link).
+- Adapt colours to the project; keep the element's behaviour.

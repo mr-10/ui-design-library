@@ -1,0 +1,21 @@
+{
+ "id": "wet-zebra-95-by-dashrath-sharma",
+ "name": "Wet Zebra 95",
+ "category": "buttons",
+ "author": "Dashrath-Sharma",
+ "source": "https://uiverse.io/Dashrath-Sharma/wet-zebra-95",
+ "trigger": "hover",
+ "description": "A button with glow, code and border styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "glow",
+  "code",
+  "border",
+  "box"
+ ],
+ "html": "<button class=\"border-el-btn\">\n  Button\n  <span class=\"b1\"></span>\n  <span class=\"b2\"></span>\n  <span class=\"b3\"></span>\n  <span class=\"b4\"></span>\n</button>",
+ "css": "/* From Uiverse.io by Dashrath-Sharma - Tags: button, hover, glow, code, border, box */\nbutton {\n  color: red;\n  outline: none;\n  border: none;\n  font-size: 17px;\n  padding: 1em 2em;\n  position: relative;\n  background: none;\n  cursor: pointer;\n}\n\nbutton:active {\n  transform: scale(.98);\n  box-shadow: .1px .1px 2px red;\n}\n\nbutton span {\n  position: absolute;\n  background: red;\n  transition: .5s;\n  box-shadow: 1px 1px 20px red;\n}\n\nbutton span:nth-child(1) {\n  top: 0;\n  left: 0;\n  width: 3px;\n  height: 30%;\n}\n\nbutton:hover span:nth-child(1) {\n  height: 100%;\n}\n\nbutton span:nth-child(2) {\n  top: 0;\n  left: 0;\n  width: 15%;\n  height: 3px;\n}\n\nbutton:hover span:nth-child(2) {\n  width: 100%;\n}\n\nbutton span:nth-child(3) {\n  bottom: 0;\n  right: 0;\n  width: 3px;\n  height: 30%;\n}\n\nbutton:hover span:nth-child(3) {\n  height: 100%;\n}\n\nbutton span:nth-child(4) {\n  bottom: 0;\n  right: 0;\n  width: 15%;\n  height: 3px;\n}\n\nbutton:hover span:nth-child(4) {\n  width: 100%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wet Zebra 95</title>\n<style>\n/* From Uiverse.io by Dashrath-Sharma - https://uiverse.io/Dashrath-Sharma/wet-zebra-95 */\n/* From Uiverse.io by Dashrath-Sharma - Tags: button, hover, glow, code, border, box */\nbutton {\n  color: red;\n  outline: none;\n  border: none;\n  font-size: 17px;\n  padding: 1em 2em;\n  position: relative;\n  background: none;\n  cursor: pointer;\n}\n\nbutton:active {\n  transform: scale(.98);\n  box-shadow: .1px .1px 2px red;\n}\n\nbutton span {\n  position: absolute;\n  background: red;\n  transition: .5s;\n  box-shadow: 1px 1px 20px red;\n}\n\nbutton span:nth-child(1) {\n  top: 0;\n  left: 0;\n  width: 3px;\n  height: 30%;\n}\n\nbutton:hover span:nth-child(1) {\n  height: 100%;\n}\n\nbutton span:nth-child(2) {\n  top: 0;\n  left: 0;\n  width: 15%;\n  height: 3px;\n}\n\nbutton:hover span:nth-child(2) {\n  width: 100%;\n}\n\nbutton span:nth-child(3) {\n  bottom: 0;\n  right: 0;\n  width: 3px;\n  height: 30%;\n}\n\nbutton:hover span:nth-child(3) {\n  height: 100%;\n}\n\nbutton span:nth-child(4) {\n  bottom: 0;\n  right: 0;\n  width: 15%;\n  height: 3px;\n}\n\nbutton:hover span:nth-child(4) {\n  width: 100%;\n}\n</style>\n</head>\n<body>\n<button class=\"border-el-btn\">\n  Button\n  <span class=\"b1\"></span>\n  <span class=\"b2\"></span>\n  <span class=\"b3\"></span>\n  <span class=\"b4\"></span>\n</button>\n</body>\n</html>\n"
+}

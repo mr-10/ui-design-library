@@ -1,0 +1,18 @@
+{
+ "id": "splendid-rat-98-by-shoh2008",
+ "name": "Splendid Rat 98",
+ "category": "toggle-switches",
+ "author": "Shoh2008",
+ "source": "https://uiverse.io/Shoh2008/splendid-rat-98",
+ "trigger": "checked",
+ "description": "A toggle switch with switch styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\" class=\"input\">\n  <span class=\"slider\"></span>\n</label>",
+ "css": "/* From Uiverse.io by Shoh2008 - Tags: switch */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch .input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #2e2e2e;\n  transition: .4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: #4e4;\n  transition: .4s;\n}\n\n.input:checked + .slider {\n  background-color: #000;\n}\n\n.input:focus + .slider {\n  box-shadow: 0 0 1px #000;\n}\n\n.input:checked + .slider:before {\n  transform: translateX(1.5em);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Splendid Rat 98</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/splendid-rat-98 */\n/* From Uiverse.io by Shoh2008 - Tags: switch */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch .input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #2e2e2e;\n  transition: .4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: #4e4;\n  transition: .4s;\n}\n\n.input:checked + .slider {\n  background-color: #000;\n}\n\n.input:focus + .slider {\n  box-shadow: 0 0 1px #000;\n}\n\n.input:checked + .slider:before {\n  transform: translateX(1.5em);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\" class=\"input\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+}

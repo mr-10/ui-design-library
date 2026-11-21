@@ -1,0 +1,21 @@
+{
+ "id": "unlucky-emu-32-by-vinodjangid07",
+ "name": "Unlucky Emu 32",
+ "category": "toggle-switches",
+ "author": "vinodjangid07",
+ "source": "https://uiverse.io/vinodjangid07/unlucky-emu-32",
+ "trigger": "checked",
+ "description": "A toggle switch with switch, hamburger and toggle styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "hamburger",
+  "toggle",
+  "click-effect",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<input type=\"checkbox\" id=\"checkbox\">\n    <label for=\"checkbox\" class=\"toggle\">\n        <div class=\"bars\" id=\"bar1\"></div>\n        <div class=\"bars\" id=\"bar2\"></div>\n        <div class=\"bars\" id=\"bar3\"></div>\n    </label>",
+ "css": "/* From Uiverse.io by vinodjangid07 - Tags: switch, hamburger, toggle, click effect */\n#checkbox {\n  display: none;\n}\n\n.toggle {\n  position: relative;\n  width: 40px;\n  height: 40px;\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  transition-duration: .3s;\n}\n\n.bars {\n  width: 100%;\n  height: 4px;\n  background-color: rgb(76, 189, 151);\n  border-radius: 5px;\n  transition-duration: .3s;\n}\n\n#checkbox:checked + .toggle .bars {\n  margin-left: 13px;\n}\n\n#checkbox:checked + .toggle #bar2 {\n  transform: rotate(135deg);\n  margin-left: 0;\n  transform-origin: center;\n  transition-duration: .3s;\n}\n\n#checkbox:checked + .toggle #bar1 {\n  transform: rotate(45deg);\n  transition-duration: .3s;\n  transform-origin: left center;\n}\n\n#checkbox:checked + .toggle #bar3 {\n  transform: rotate(-45deg);\n  transition-duration: .3s;\n  transform-origin: left center;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Unlucky Emu 32</title>\n<style>\n/* From Uiverse.io by vinodjangid07 - https://uiverse.io/vinodjangid07/unlucky-emu-32 */\n/* From Uiverse.io by vinodjangid07 - Tags: switch, hamburger, toggle, click effect */\n#checkbox {\n  display: none;\n}\n\n.toggle {\n  position: relative;\n  width: 40px;\n  height: 40px;\n  cursor: pointer;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  transition-duration: .3s;\n}\n\n.bars {\n  width: 100%;\n  height: 4px;\n  background-color: rgb(76, 189, 151);\n  border-radius: 5px;\n  transition-duration: .3s;\n}\n\n#checkbox:checked + .toggle .bars {\n  margin-left: 13px;\n}\n\n#checkbox:checked + .toggle #bar2 {\n  transform: rotate(135deg);\n  margin-left: 0;\n  transform-origin: center;\n  transition-duration: .3s;\n}\n\n#checkbox:checked + .toggle #bar1 {\n  transform: rotate(45deg);\n  transition-duration: .3s;\n  transform-origin: left center;\n}\n\n#checkbox:checked + .toggle #bar3 {\n  transform: rotate(-45deg);\n  transition-duration: .3s;\n  transform-origin: left center;\n}\n</style>\n</head>\n<body>\n<input type=\"checkbox\" id=\"checkbox\">\n    <label for=\"checkbox\" class=\"toggle\">\n        <div class=\"bars\" id=\"bar1\"></div>\n        <div class=\"bars\" id=\"bar2\"></div>\n        <div class=\"bars\" id=\"bar3\"></div>\n    </label>\n</body>\n</html>\n"
+}

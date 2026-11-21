@@ -1,0 +1,18 @@
+{
+ "id": "dull-owl-87-by-ahmed150up",
+ "name": "Dull Owl 87",
+ "category": "checkboxes",
+ "author": "ahmed150up",
+ "source": "https://uiverse.io/ahmed150up/dull-owl-87",
+ "trigger": "checked",
+ "description": "A checkbox with lock styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "checkbox",
+  "lock",
+  "checked"
+ ],
+ "html": "<label class=\"lock-checkbox\">\n  <input id=\"lock\" type=\"checkbox\">\n  <span class=\"lock-icon\">\n    <svg viewBox=\"0 0 24 24\">\n      <path d=\"M12 17c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6-9h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM8.9 6c0-1.71 1.39-3.1 3.1-3.1s3.1 1.39 3.1 3.1v2H8.9V6z\"></path>\n    </svg>\n  </span>\n</label>",
+ "css": "/* From Uiverse.io by ahmed150up - Tags: checkbox, lock */\n.lock-checkbox {\n  position: relative;\n  display: inline-block;\n  width: 40px;\n  height: 40px;\n  margin-right: 10px;\n}\n\n.lock-checkbox input[type=\"checkbox\"] {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.lock-icon {\n  fill: #00ff40;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 34px;\n  height: 34px;\n  transition: all 0.3s;\n  cursor: pointer;\n}\n\n.lock-checkbox input[type=\"checkbox\"]:checked + .lock-icon {\n  fill: #ff0000;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dull Owl 87</title>\n<style>\n/* From Uiverse.io by ahmed150up - https://uiverse.io/ahmed150up/dull-owl-87 */\n/* From Uiverse.io by ahmed150up - Tags: checkbox, lock */\n.lock-checkbox {\n  position: relative;\n  display: inline-block;\n  width: 40px;\n  height: 40px;\n  margin-right: 10px;\n}\n\n.lock-checkbox input[type=\"checkbox\"] {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.lock-icon {\n  fill: #00ff40;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 34px;\n  height: 34px;\n  transition: all 0.3s;\n  cursor: pointer;\n}\n\n.lock-checkbox input[type=\"checkbox\"]:checked + .lock-icon {\n  fill: #ff0000;\n}\n</style>\n</head>\n<body>\n<label class=\"lock-checkbox\">\n  <input id=\"lock\" type=\"checkbox\">\n  <span class=\"lock-icon\">\n    <svg viewBox=\"0 0 24 24\">\n      <path d=\"M12 17c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm6-9h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM8.9 6c0-1.71 1.39-3.1 3.1-3.1s3.1 1.39 3.1 3.1v2H8.9V6z\"></path>\n    </svg>\n  </span>\n</label>\n</body>\n</html>\n"
+}

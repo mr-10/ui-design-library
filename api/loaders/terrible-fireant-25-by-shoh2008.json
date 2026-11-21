@@ -1,0 +1,18 @@
+{
+ "id": "terrible-fireant-25-by-shoh2008",
+ "name": "Terrible Fireant 25",
+ "category": "loaders",
+ "author": "Shoh2008",
+ "source": "https://uiverse.io/Shoh2008/terrible-fireant-25",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 100px;\n  height: 46px;\n  position: relative;\n  border-bottom: 5px solid #FFF;\n  border-top: 5px solid #FFF;\n  box-sizing: border-box;\n}\n\n.loader:before , .loader:after {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: -20px;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: orange;\n  border: 5px solid #FFF;\n  box-sizing: border-box;\n  animation: slide_391 1s infinite ease-in-out alternate;\n}\n\n.loader:after {\n  top: 20px;\n  animation-direction: alternate-reverse;\n}\n\n@keyframes slide_391 {\n  0% , 20% {\n    transform: translateX(70px)\n  }\n\n  80% , 100% {\n    transform: translateX(-1px)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Terrible Fireant 25</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/terrible-fireant-25 */\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 100px;\n  height: 46px;\n  position: relative;\n  border-bottom: 5px solid #FFF;\n  border-top: 5px solid #FFF;\n  box-sizing: border-box;\n}\n\n.loader:before , .loader:after {\n  content: \"\";\n  position: absolute;\n  left: 0;\n  top: -20px;\n  width: 32px;\n  height: 32px;\n  border-radius: 50%;\n  background: orange;\n  border: 5px solid #FFF;\n  box-sizing: border-box;\n  animation: slide_391 1s infinite ease-in-out alternate;\n}\n\n.loader:after {\n  top: 20px;\n  animation-direction: alternate-reverse;\n}\n\n@keyframes slide_391 {\n  0% , 20% {\n    transform: translateX(70px)\n  }\n\n  80% , 100% {\n    transform: translateX(-1px)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

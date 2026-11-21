@@ -1,0 +1,18 @@
+{
+ "id": "cuddly-turkey-4-by-g4b413l",
+ "name": "Cuddly Turkey 4",
+ "category": "loaders",
+ "author": "G4b413l",
+ "source": "https://uiverse.io/G4b413l/cuddly-turkey-4",
+ "trigger": "auto-loop",
+ "description": "A loader with after styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "after",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by G4b413l - Tags: loader, after */\n.loader {\n  position: relative;\n  width: 300px;\n  height: 3px;\n  background: linear-gradient(to right, transparent, #28AE60, transparent);\n  overflow: hidden;\n}\n\n.loader::after {\n  content: '';\n  position: absolute;\n  translate: -200px 0;\n  width: 150px;\n  height: 100%;\n  background: linear-gradient(to right, transparent, #212121, transparent);\n  animation: slide 1s infinite;\n}\n\n@keyframes slide {\n  100% {\n    translate: 300px 0;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Turkey 4</title>\n<style>\n/* From Uiverse.io by G4b413l - https://uiverse.io/G4b413l/cuddly-turkey-4 */\n/* From Uiverse.io by G4b413l - Tags: loader, after */\n.loader {\n  position: relative;\n  width: 300px;\n  height: 3px;\n  background: linear-gradient(to right, transparent, #28AE60, transparent);\n  overflow: hidden;\n}\n\n.loader::after {\n  content: '';\n  position: absolute;\n  translate: -200px 0;\n  width: 150px;\n  height: 100%;\n  background: linear-gradient(to right, transparent, #212121, transparent);\n  animation: slide 1s infinite;\n}\n\n@keyframes slide {\n  100% {\n    translate: 300px 0;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

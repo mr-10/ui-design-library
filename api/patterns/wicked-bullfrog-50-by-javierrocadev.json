@@ -1,0 +1,20 @@
+{
+ "id": "wicked-bullfrog-50-by-javierrocadev",
+ "name": "Wicked Bullfrog 50",
+ "category": "patterns",
+ "author": "Javierrocadev",
+ "source": "https://uiverse.io/Javierrocadev/wicked-bullfrog-50",
+ "trigger": "static",
+ "description": "A pattern with blue, gradient and diamond styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "blue",
+  "gradient",
+  "diamond",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by Javierrocadev - Tags: blue, gradient, diamond, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background-image: radial-gradient( #173d49 85%, #36a6f1 90%,#0d1725 20%);\n  background-size: 50px 50px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wicked Bullfrog 50</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/wicked-bullfrog-50 */\n/* From Uiverse.io by Javierrocadev - Tags: blue, gradient, diamond, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background-image: radial-gradient( #173d49 85%, #36a6f1 90%,#0d1725 20%);\n  background-size: 50px 50px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

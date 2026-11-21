@@ -1,0 +1,18 @@
+{
+ "id": "silent-termite-64-by-diox221",
+ "name": "Silent Termite 64",
+ "category": "loaders",
+ "author": "Diox221",
+ "source": "https://uiverse.io/Diox221/silent-termite-64",
+ "trigger": "auto-loop",
+ "description": "A loader with accept-call styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "accept-call",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\">\n  <div class=\"circle circle-1\"></div>\n  <div class=\"circle circle-2\"></div>\n  <div class=\"circle circle-3\"></div>\n  <div class=\"circle circle-4\"></div>\n</div>",
+ "css": "/* From Uiverse.io by Diox221 - Tags: loader, accept call */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.circle {\n  position: relative;\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  margin: 10px;\n  box-shadow: inset 0 0 0 2px #fff;\n  transform-origin: center;\n  animation: fill 1.5s ease-in-out infinite;\n}\n\n.circle-1 {\n  animation-delay: 0s;\n}\n\n.circle-2 {\n  animation-delay: -0.4s;\n}\n\n.circle-3 {\n  animation-delay: -0.8s;\n}\n\n.circle-4 {\n  animation-delay: -1.2s;\n}\n\n@keyframes fill {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    box-shadow: inset 0 0 0 2px #fff, inset 0 0 0 6px #1c1c1e;\n    transform: scale(1.5);\n  }\n\n  100% {\n    box-shadow: inset 0 0 0 2px #fff, inset 0 0 0 6px #fff;\n    transform: scale(1);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Termite 64</title>\n<style>\n/* From Uiverse.io by Diox221 - https://uiverse.io/Diox221/silent-termite-64 */\n/* From Uiverse.io by Diox221 - Tags: loader, accept call */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.circle {\n  position: relative;\n  width: 40px;\n  height: 40px;\n  border-radius: 50%;\n  margin: 10px;\n  box-shadow: inset 0 0 0 2px #fff;\n  transform-origin: center;\n  animation: fill 1.5s ease-in-out infinite;\n}\n\n.circle-1 {\n  animation-delay: 0s;\n}\n\n.circle-2 {\n  animation-delay: -0.4s;\n}\n\n.circle-3 {\n  animation-delay: -0.8s;\n}\n\n.circle-4 {\n  animation-delay: -1.2s;\n}\n\n@keyframes fill {\n  0% {\n    transform: scale(1);\n  }\n\n  50% {\n    box-shadow: inset 0 0 0 2px #fff, inset 0 0 0 6px #1c1c1e;\n    transform: scale(1.5);\n  }\n\n  100% {\n    box-shadow: inset 0 0 0 2px #fff, inset 0 0 0 6px #fff;\n    transform: scale(1);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"circle circle-1\"></div>\n  <div class=\"circle circle-2\"></div>\n  <div class=\"circle circle-3\"></div>\n  <div class=\"circle circle-4\"></div>\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "great-snake-42-by-guilhermeyohan",
+ "name": "Great Snake 42",
+ "category": "toggle-switches",
+ "author": "guilhermeyohan",
+ "source": "https://uiverse.io/guilhermeyohan/great-snake-42",
+ "trigger": "checked",
+ "description": "A toggle switch with checkbox styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "checkbox",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<div class=\"checkbox-apple\">\n  <input class=\"yep\" id=\"check-apple\" type=\"checkbox\">\n  <label for=\"check-apple\"></label>\n</div>",
+ "css": "/* From Uiverse.io by guilhermeyohan - Tags: checkbox */\n.checkbox-apple {\n  position: relative;\n  width: 50px;\n  height: 25px;\n  margin: 20px;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n.checkbox-apple label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50px;\n  height: 25px;\n  border-radius: 50px;\n  background: linear-gradient(to bottom, #b3b3b3, #e6e6e6);\n  cursor: pointer;\n  transition: all 0.3s ease;\n}\n\n.checkbox-apple label:after {\n  content: '';\n  position: absolute;\n  top: 1px;\n  left: 1px;\n  width: 23px;\n  height: 23px;\n  border-radius: 50%;\n  background-color: #fff;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);\n  transition: all 0.3s ease;\n}\n\n.checkbox-apple input[type=\"checkbox\"]:checked + label {\n  background: linear-gradient(to bottom, #4cd964, #5de24e);\n}\n\n.checkbox-apple input[type=\"checkbox\"]:checked + label:after {\n  transform: translateX(25px);\n}\n\n.checkbox-apple label:hover {\n  background: linear-gradient(to bottom, #b3b3b3, #e6e6e6);\n}\n\n.checkbox-apple label:hover:after {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);\n}\n\n.yep {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50px;\n  height: 25px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Great Snake 42</title>\n<style>\n/* From Uiverse.io by guilhermeyohan - https://uiverse.io/guilhermeyohan/great-snake-42 */\n/* From Uiverse.io by guilhermeyohan - Tags: checkbox */\n.checkbox-apple {\n  position: relative;\n  width: 50px;\n  height: 25px;\n  margin: 20px;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n.checkbox-apple label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50px;\n  height: 25px;\n  border-radius: 50px;\n  background: linear-gradient(to bottom, #b3b3b3, #e6e6e6);\n  cursor: pointer;\n  transition: all 0.3s ease;\n}\n\n.checkbox-apple label:after {\n  content: '';\n  position: absolute;\n  top: 1px;\n  left: 1px;\n  width: 23px;\n  height: 23px;\n  border-radius: 50%;\n  background-color: #fff;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);\n  transition: all 0.3s ease;\n}\n\n.checkbox-apple input[type=\"checkbox\"]:checked + label {\n  background: linear-gradient(to bottom, #4cd964, #5de24e);\n}\n\n.checkbox-apple input[type=\"checkbox\"]:checked + label:after {\n  transform: translateX(25px);\n}\n\n.checkbox-apple label:hover {\n  background: linear-gradient(to bottom, #b3b3b3, #e6e6e6);\n}\n\n.checkbox-apple label:hover:after {\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);\n}\n\n.yep {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 50px;\n  height: 25px;\n}\n</style>\n</head>\n<body>\n<div class=\"checkbox-apple\">\n  <input class=\"yep\" id=\"check-apple\" type=\"checkbox\">\n  <label for=\"check-apple\"></label>\n</div>\n</body>\n</html>\n"
+}

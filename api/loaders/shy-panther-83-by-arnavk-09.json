@@ -1,0 +1,18 @@
+{
+ "id": "shy-panther-83-by-arnavk-09",
+ "name": "Shy Panther 83",
+ "category": "loaders",
+ "author": "ArnavK-09",
+ "source": "https://uiverse.io/ArnavK-09/shy-panther-83",
+ "trigger": "static",
+ "description": "A loader UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "loaders",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by ArnavK-09  - Tags: simple, gradient, button, loader, minimal, cursor, vintage, sober -->\n<div\n  class=\"hover:scale-110 transition-all ease-in-out cursor-pointer hover:shadow-xl hover:shadow-neutral-700 delay-250 animate-spin delay-50 duration-1000 bg-gradient-to-br border-4 shadow-inner shadow-neutral-700 border-neutral-950 from-white/80 to-gray-600 rounded-full grid place-items-center z-0 h-20 w-20 relative\"\n>\n  <div\n    class=\"rounded-full bg-neutral-900 absolute rotate-[90deg] z-20 h-20 scale-50 w-2\"\n  ></div>\n  <div\n    class=\"rounded-full bg-neutral-900 absolute rotate-[180deg] z-20 h-20 scale-50 w-2\"\n  ></div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shy Panther 83</title>\n<style>\n/* From Uiverse.io by ArnavK-09 - https://uiverse.io/ArnavK-09/shy-panther-83 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by ArnavK-09  - Tags: simple, gradient, button, loader, minimal, cursor, vintage, sober -->\n<div\n  class=\"hover:scale-110 transition-all ease-in-out cursor-pointer hover:shadow-xl hover:shadow-neutral-700 delay-250 animate-spin delay-50 duration-1000 bg-gradient-to-br border-4 shadow-inner shadow-neutral-700 border-neutral-950 from-white/80 to-gray-600 rounded-full grid place-items-center z-0 h-20 w-20 relative\"\n>\n  <div\n    class=\"rounded-full bg-neutral-900 absolute rotate-[90deg] z-20 h-20 scale-50 w-2\"\n  ></div>\n  <div\n    class=\"rounded-full bg-neutral-900 absolute rotate-[180deg] z-20 h-20 scale-50 w-2\"\n  ></div>\n</div>\n</body>\n</html>\n"
+}

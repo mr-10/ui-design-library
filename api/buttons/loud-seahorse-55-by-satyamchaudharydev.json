@@ -1,0 +1,18 @@
+{
+ "id": "loud-seahorse-55-by-satyamchaudharydev",
+ "name": "Loud Seahorse 55",
+ "category": "buttons",
+ "author": "satyamchaudharydev",
+ "source": "https://uiverse.io/satyamchaudharydev/loud-seahorse-55",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"button\">\n    Hover me :)\n</button>",
+ "css": "/* From Uiverse.io by satyamchaudharydev - Tags: button */\n/* inspired form gumroad website */\n.button {\n  --bg: #000;\n  --hover-bg: #ff90e8;\n  --hover-text: #000;\n  color: #fff;\n  border: 1px solid var(--bg);\n  border-radius: 4px;\n  padding: 0.8em 2em;\n  background: var(--bg);\n  transition: 0.2s;\n}\n\n.button:hover {\n  color: var(--hover-text);\n  transform: translate(-0.25rem,-0.25rem);\n  background: var(--hover-bg);\n  box-shadow: 0.25rem 0.25rem var(--bg);\n}\n\n.button:active {\n  transform: translate(0);\n  box-shadow: none;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Seahorse 55</title>\n<style>\n/* From Uiverse.io by satyamchaudharydev - https://uiverse.io/satyamchaudharydev/loud-seahorse-55 */\n/* From Uiverse.io by satyamchaudharydev - Tags: button */\n/* inspired form gumroad website */\n.button {\n  --bg: #000;\n  --hover-bg: #ff90e8;\n  --hover-text: #000;\n  color: #fff;\n  border: 1px solid var(--bg);\n  border-radius: 4px;\n  padding: 0.8em 2em;\n  background: var(--bg);\n  transition: 0.2s;\n}\n\n.button:hover {\n  color: var(--hover-text);\n  transform: translate(-0.25rem,-0.25rem);\n  background: var(--hover-bg);\n  box-shadow: 0.25rem 0.25rem var(--bg);\n}\n\n.button:active {\n  transform: translate(0);\n  box-shadow: none;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n    Hover me :)\n</button>\n</body>\n</html>\n"
+}

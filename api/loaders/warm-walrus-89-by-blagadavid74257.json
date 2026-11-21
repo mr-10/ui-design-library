@@ -1,0 +1,21 @@
+{
+ "id": "warm-walrus-89-by-blagadavid74257",
+ "name": "Warm Walrus 89",
+ "category": "loaders",
+ "author": "BlagaDavid74257",
+ "source": "https://uiverse.io/BlagaDavid74257/warm-walrus-89",
+ "trigger": "auto-loop",
+ "description": "A loader with tooltip, icon and animation styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "tooltip",
+  "icon",
+  "animation",
+  "loader",
+  "dark",
+  "theme"
+ ],
+ "html": "<div class=\"loading-container\">\n  <div class=\"loader\">\n    <div class=\"spinner\"></div>\n  </div>\n</div>",
+ "css": "/* From Uiverse.io by BlagaDavid74257  - Tags: tooltip, icon, animation, loader, dark, theme */\n.loading-container {\n  position: relative;\n  width: 100px;\n  height: 100px;\n}\n\n.loader {\n  width: 100px;\n  height: 100px;\n  border: 10px solid transparent;\n  border-top-color: #fff;\n  border-radius: 50%;\n  animation: spin 1s linear infinite;\n}\n\n.spinner {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 50px;\n  height: 50px;\n  background-color: #fff;\n  border-radius: 50%;\n  animation: pulse 1.5s infinite alternate;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes pulse {\n  from {\n    transform: scale(1);\n    opacity: 1;\n  }\n  to {\n    transform: scale(1.2);\n    opacity: 0.5;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Walrus 89</title>\n<style>\n/* From Uiverse.io by BlagaDavid74257 - https://uiverse.io/BlagaDavid74257/warm-walrus-89 */\n/* From Uiverse.io by BlagaDavid74257  - Tags: tooltip, icon, animation, loader, dark, theme */\n.loading-container {\n  position: relative;\n  width: 100px;\n  height: 100px;\n}\n\n.loader {\n  width: 100px;\n  height: 100px;\n  border: 10px solid transparent;\n  border-top-color: #fff;\n  border-radius: 50%;\n  animation: spin 1s linear infinite;\n}\n\n.spinner {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  width: 50px;\n  height: 50px;\n  background-color: #fff;\n  border-radius: 50%;\n  animation: pulse 1.5s infinite alternate;\n}\n\n@keyframes spin {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes pulse {\n  from {\n    transform: scale(1);\n    opacity: 1;\n  }\n  to {\n    transform: scale(1.2);\n    opacity: 0.5;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loading-container\">\n  <div class=\"loader\">\n    <div class=\"spinner\"></div>\n  </div>\n</div>\n</body>\n</html>\n"
+}

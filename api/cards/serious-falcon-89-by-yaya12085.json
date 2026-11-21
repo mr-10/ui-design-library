@@ -1,0 +1,19 @@
+{
+ "id": "serious-falcon-89-by-yaya12085",
+ "name": "Serious Falcon 89",
+ "category": "cards",
+ "author": "Yaya12085",
+ "source": "https://uiverse.io/Yaya12085/serious-falcon-89",
+ "trigger": "hover",
+ "description": "A card with paper and realistic styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "paper",
+  "realistic",
+  "hover"
+ ],
+ "html": "<div class=\"page\">\n  <div class=\"margin\"></div>\n  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris risus, lobortis a neque aliquet, ornare rutrum purus. Integer hendrerit ac est non cursus. Integer quis risus tincidunt nunc mattis ultricies. Proin sed enim tellus.</p>\n</div>",
+ "css": "/* From Uiverse.io by Yaya12085 - Tags: card, paper, realistic */\n.page {\n  position: relative;\n  box-sizing: border-box;\n  max-width: 300px;\n  font-family: cursive;\n  font-size: 20px;\n  border-radius: 10px;\n  background: #fff;\n  background-image: linear-gradient(#f5f5f0 1.1rem, #ccc 1.2rem);\n  background-size: 100% 1.2rem;\n  line-height: 1.2rem;\n  padding: 1.4rem 0.5rem 0.3rem 4.5rem;\n}\n\n.page::before,\n.page::after {\n  position: absolute;\n  content: \"\";\n  bottom: 10px;\n  width: 40%;\n  height: 10px;\n  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.7);\n  z-index: -1;\n  transition: all 0.3s ease;\n}\n\n.page::before {\n  left: 15px;\n  transform: skew(-5deg) rotate(-5deg);\n}\n\n.page::after {\n  right: 15px;\n  transform: skew(5deg) rotate(5deg);\n}\n\n.page:hover::before,\n.page:hover::after {\n  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);\n}\n\n.margin {\n  position: absolute;\n  border-left: 1px solid #d88;\n  height: 100%;\n  left: 3.3rem;\n  top: 0;\n}\n\n.page p {\n  margin: 0;\n  text-indent: 1rem;\n  padding-bottom: 1.2rem;\n  color: black;\n  line-height: 20px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Serious Falcon 89</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/serious-falcon-89 */\n/* From Uiverse.io by Yaya12085 - Tags: card, paper, realistic */\n.page {\n  position: relative;\n  box-sizing: border-box;\n  max-width: 300px;\n  font-family: cursive;\n  font-size: 20px;\n  border-radius: 10px;\n  background: #fff;\n  background-image: linear-gradient(#f5f5f0 1.1rem, #ccc 1.2rem);\n  background-size: 100% 1.2rem;\n  line-height: 1.2rem;\n  padding: 1.4rem 0.5rem 0.3rem 4.5rem;\n}\n\n.page::before,\n.page::after {\n  position: absolute;\n  content: \"\";\n  bottom: 10px;\n  width: 40%;\n  height: 10px;\n  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.7);\n  z-index: -1;\n  transition: all 0.3s ease;\n}\n\n.page::before {\n  left: 15px;\n  transform: skew(-5deg) rotate(-5deg);\n}\n\n.page::after {\n  right: 15px;\n  transform: skew(5deg) rotate(5deg);\n}\n\n.page:hover::before,\n.page:hover::after {\n  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);\n}\n\n.margin {\n  position: absolute;\n  border-left: 1px solid #d88;\n  height: 100%;\n  left: 3.3rem;\n  top: 0;\n}\n\n.page p {\n  margin: 0;\n  text-indent: 1rem;\n  padding-bottom: 1.2rem;\n  color: black;\n  line-height: 20px;\n}\n</style>\n</head>\n<body>\n<div class=\"page\">\n  <div class=\"margin\"></div>\n  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris risus, lobortis a neque aliquet, ornare rutrum purus. Integer hendrerit ac est non cursus. Integer quis risus tincidunt nunc mattis ultricies. Proin sed enim tellus.</p>\n</div>\n</body>\n</html>\n"
+}

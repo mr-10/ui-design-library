@@ -1,0 +1,20 @@
+{
+ "id": "fat-monkey-43-by-vikas7754",
+ "name": "Fat Monkey 43",
+ "category": "cards",
+ "author": "vikas7754",
+ "source": "https://uiverse.io/vikas7754/fat-monkey-43",
+ "trigger": "auto-loop",
+ "description": "A card with bubble, drop and water-drop styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "bubble",
+  "drop",
+  "water-drop",
+  "cards",
+  "auto-loop"
+ ],
+ "html": "<div class=\"one-div\"></div>",
+ "css": "/* From Uiverse.io by vikas7754 - Tags: bubble, drop, water drop */\n.one-div {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  background: transparent;\n  border-radius: 57% 43% 37% 63% / 45% 52% 48% 52%;\n  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05), \n                      15px 25px 10px rgba(0, 0, 0, 0.1), \n                      15px 20px 20px rgba(0, 0, 0, 0.05), \n                inset -10px -10px 15px rgba(237, 237, 237, 0.9);\n  animation: anim 1s infinite alternate;\n}\n\n.one-div:before {\n  content: '';\n  position: absolute;\n  left: 25px;\n  top: 35px;\n  width: 20px;\n  height: 20px;\n  border-radius: 42% 58% 37% 63% / 40% 43% 57% 60%;\n  background: #FFF\n}\n\n.one-div:after {\n  content: '';\n  position: absolute;\n  left: 60px;\n  top: 25px;\n  width: 10px;\n  height: 10px;\n  border-radius: 42% 58% 37% 63% / 40% 43% 57% 60%;\n  background: #ffffff\n}\n\n@keyframes anim {\n  0% {\n    transform: translateY(0);\n    height: 150px;\n    width: 150px;\n  }\n\n  100% {\n    transform: translateY(40px);\n    height: 135px;\n    width: 160px;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Monkey 43</title>\n<style>\n/* From Uiverse.io by vikas7754 - https://uiverse.io/vikas7754/fat-monkey-43 */\n/* From Uiverse.io by vikas7754 - Tags: bubble, drop, water drop */\n.one-div {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  background: transparent;\n  border-radius: 57% 43% 37% 63% / 45% 52% 48% 52%;\n  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05), \n                      15px 25px 10px rgba(0, 0, 0, 0.1), \n                      15px 20px 20px rgba(0, 0, 0, 0.05), \n                inset -10px -10px 15px rgba(237, 237, 237, 0.9);\n  animation: anim 1s infinite alternate;\n}\n\n.one-div:before {\n  content: '';\n  position: absolute;\n  left: 25px;\n  top: 35px;\n  width: 20px;\n  height: 20px;\n  border-radius: 42% 58% 37% 63% / 40% 43% 57% 60%;\n  background: #FFF\n}\n\n.one-div:after {\n  content: '';\n  position: absolute;\n  left: 60px;\n  top: 25px;\n  width: 10px;\n  height: 10px;\n  border-radius: 42% 58% 37% 63% / 40% 43% 57% 60%;\n  background: #ffffff\n}\n\n@keyframes anim {\n  0% {\n    transform: translateY(0);\n    height: 150px;\n    width: 150px;\n  }\n\n  100% {\n    transform: translateY(40px);\n    height: 135px;\n    width: 160px;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n</body>\n</html>\n"
+}

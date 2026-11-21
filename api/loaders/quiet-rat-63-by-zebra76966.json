@@ -1,0 +1,18 @@
+{
+ "id": "quiet-rat-63-by-zebra76966",
+ "name": "Quiet Rat 63",
+ "category": "loaders",
+ "author": "zebra76966",
+ "source": "https://uiverse.io/zebra76966/quiet-rat-63",
+ "trigger": "auto-loop",
+ "description": "A loader with multicolor styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "multicolor",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by zebra76966 - Tags: loader, multicolor */\n.loader {\n  border-top: 8px solid hotpink;\n  border-bottom: 8px solid #f55951;\n  border-left: 8px solid #3a9efd;\n  border-right: 8px solid #1fff7c;\n  border-radius: 100%;\n  height: 100px;\n  width: 100px;\n  animation: looper 5s infinite ease-in-out;\n}\n\n@keyframes looper {\n  0% {\n    border-radius: 100% 100% 100% 100%;\n    border-color: hotpink #3a9efd #1fff7c #f55951;\n  }\n\n  10% {\n    border-radius: 0% 100% 0% 0%;\n    border-color: #f55951;\n    transform: rotate(150deg);\n  }\n\n  20% {\n    border-radius: 0% 0% 0% 0%;\n    border-color: #3a9efd;\n  }\n\n  30% {\n    border-radius: 0% 0% 0% 0%;\n    border-color: #1fff7c;\n  }\n\n  40% {\n    border-radius: 0% 0% 0% 0%;\n    border-color: #3a9efd;\n  }\n\n  50% {\n    border-radius: 100%;\n    border-color: #f55951;\n  }\n\n  90% {\n    border-radius: 100%;\n    transform: rotate(360deg);\n    border-style: dashed;\n  }\n\n  100% {\n    transform: rotate(0deg);\n    border-radius: 100% 100% 100% 100%;\n    border-color: hotpink #3a9efd #1fff7c #f55951;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Quiet Rat 63</title>\n<style>\n/* From Uiverse.io by zebra76966 - https://uiverse.io/zebra76966/quiet-rat-63 */\n/* From Uiverse.io by zebra76966 - Tags: loader, multicolor */\n.loader {\n  border-top: 8px solid hotpink;\n  border-bottom: 8px solid #f55951;\n  border-left: 8px solid #3a9efd;\n  border-right: 8px solid #1fff7c;\n  border-radius: 100%;\n  height: 100px;\n  width: 100px;\n  animation: looper 5s infinite ease-in-out;\n}\n\n@keyframes looper {\n  0% {\n    border-radius: 100% 100% 100% 100%;\n    border-color: hotpink #3a9efd #1fff7c #f55951;\n  }\n\n  10% {\n    border-radius: 0% 100% 0% 0%;\n    border-color: #f55951;\n    transform: rotate(150deg);\n  }\n\n  20% {\n    border-radius: 0% 0% 0% 0%;\n    border-color: #3a9efd;\n  }\n\n  30% {\n    border-radius: 0% 0% 0% 0%;\n    border-color: #1fff7c;\n  }\n\n  40% {\n    border-radius: 0% 0% 0% 0%;\n    border-color: #3a9efd;\n  }\n\n  50% {\n    border-radius: 100%;\n    border-color: #f55951;\n  }\n\n  90% {\n    border-radius: 100%;\n    transform: rotate(360deg);\n    border-style: dashed;\n  }\n\n  100% {\n    transform: rotate(0deg);\n    border-radius: 100% 100% 100% 100%;\n    border-color: hotpink #3a9efd #1fff7c #f55951;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

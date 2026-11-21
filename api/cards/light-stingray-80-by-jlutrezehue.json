@@ -1,0 +1,18 @@
+{
+ "id": "light-stingray-80-by-jlutrezehue",
+ "name": "Light Stingray 80",
+ "category": "cards",
+ "author": "jlutrezehue",
+ "source": "https://uiverse.io/jlutrezehue/light-stingray-80",
+ "trigger": "static",
+ "description": "A card UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "cards",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by jlutrezehue  - Tags: simple, card, ios, modern, clean, card template, tailwind, tailwindcss -->\n<div class=\"bg-gray-100 max-w-sm mx-auto rounded shadow-md\">\n  <div class=\"text-center p-6\">\n    <p class=\"text-lg font-bold mb-0\">\n      Allow this device to access photos and videos?\n    </p>\n    <p class=\"text-sm mb-0\">\n      This device will be able to access photos and videos while it is connected\n      to your iPhone.\n    </p>\n  </div>\n  <div class=\"border-t border-gray-300 flex justify-center p-0\">\n    <div class=\"flex-1 text-center\">\n      <button\n        class=\"text-blue-600 hover:bg-white hover:rounded-bl-md w-full py-2\"\n        type=\"button\"\n      >\n        Allow\n      </button>\n    </div>\n    <div class=\"border-l border-gray-300\"></div>\n    <div class=\"flex-1 text-center\">\n      <button\n        class=\"text-blue-600 font-bold hover:bg-white hover:rounded-br-md w-full py-2\"\n        type=\"button\"\n      >\n        Don't Allow\n      </button>\n    </div>\n  </div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Light Stingray 80</title>\n<style>\n/* From Uiverse.io by jlutrezehue - https://uiverse.io/jlutrezehue/light-stingray-80 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by jlutrezehue  - Tags: simple, card, ios, modern, clean, card template, tailwind, tailwindcss -->\n<div class=\"bg-gray-100 max-w-sm mx-auto rounded shadow-md\">\n  <div class=\"text-center p-6\">\n    <p class=\"text-lg font-bold mb-0\">\n      Allow this device to access photos and videos?\n    </p>\n    <p class=\"text-sm mb-0\">\n      This device will be able to access photos and videos while it is connected\n      to your iPhone.\n    </p>\n  </div>\n  <div class=\"border-t border-gray-300 flex justify-center p-0\">\n    <div class=\"flex-1 text-center\">\n      <button\n        class=\"text-blue-600 hover:bg-white hover:rounded-bl-md w-full py-2\"\n        type=\"button\"\n      >\n        Allow\n      </button>\n    </div>\n    <div class=\"border-l border-gray-300\"></div>\n    <div class=\"flex-1 text-center\">\n      <button\n        class=\"text-blue-600 font-bold hover:bg-white hover:rounded-br-md w-full py-2\"\n        type=\"button\"\n      >\n        Don't Allow\n      </button>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+}

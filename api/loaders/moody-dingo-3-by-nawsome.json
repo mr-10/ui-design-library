@@ -1,0 +1,18 @@
+{
+ "id": "moody-dingo-3-by-nawsome",
+ "name": "Moody Dingo 3",
+ "category": "loaders",
+ "author": "Nawsome",
+ "source": "https://uiverse.io/Nawsome/moody-dingo-3",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<svg height=\"0\" width=\"0\">\n    <defs>\n        <filter color-interpolation-filters=\"sRGB\" height=\"200%\" y=\"-50%\" width=\"200%\" x=\"-50%\" id=\"goo\">\n            <feGaussianBlur result=\"blur\" stdDeviation=\"8\" in=\"SourceGraphic\"></feGaussianBlur>\n            <feColorMatrix result=\"cm\" values=\"1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -7\" mode=\"matrix\" in=\"blur\"></feColorMatrix>\n        </filter>\n    </defs>\n</svg>\n\n<svg height=\"180\" width=\"320\" viewBox=\"0 0 320 180\">\n    <g filter=\"url(#goo)\">\n        <circle cy=\"90\" cx=\"160\" r=\"24\" fill=\"#275EFE\" class=\"circle\"></circle>\n        <circle cy=\"90\" cx=\"160\" r=\"24\" fill=\"#275EFE\" class=\"circle right\"></circle>\n    </g>\n</svg>",
+ "css": "/* From Uiverse.io by Nawsome - Tags: loader */\n.circle {\n  animation: move571 4s linear infinite;\n}\n\n.circle.right {\n  animation-direction: reverse;\n}\n\n@keyframes move571 {\n  25% {\n    transform: translateX(-32px);\n  }\n\n  75% {\n    transform: translateX(32px);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Dingo 3</title>\n<style>\n/* From Uiverse.io by Nawsome - https://uiverse.io/Nawsome/moody-dingo-3 */\n/* From Uiverse.io by Nawsome - Tags: loader */\n.circle {\n  animation: move571 4s linear infinite;\n}\n\n.circle.right {\n  animation-direction: reverse;\n}\n\n@keyframes move571 {\n  25% {\n    transform: translateX(-32px);\n  }\n\n  75% {\n    transform: translateX(32px);\n  }\n}\n</style>\n</head>\n<body>\n<svg height=\"0\" width=\"0\">\n    <defs>\n        <filter color-interpolation-filters=\"sRGB\" height=\"200%\" y=\"-50%\" width=\"200%\" x=\"-50%\" id=\"goo\">\n            <feGaussianBlur result=\"blur\" stdDeviation=\"8\" in=\"SourceGraphic\"></feGaussianBlur>\n            <feColorMatrix result=\"cm\" values=\"1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -7\" mode=\"matrix\" in=\"blur\"></feColorMatrix>\n        </filter>\n    </defs>\n</svg>\n\n<svg height=\"180\" width=\"320\" viewBox=\"0 0 320 180\">\n    <g filter=\"url(#goo)\">\n        <circle cy=\"90\" cx=\"160\" r=\"24\" fill=\"#275EFE\" class=\"circle\"></circle>\n        <circle cy=\"90\" cx=\"160\" r=\"24\" fill=\"#275EFE\" class=\"circle right\"></circle>\n    </g>\n</svg>\n</body>\n</html>\n"
+}

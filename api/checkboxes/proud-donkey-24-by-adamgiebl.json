@@ -1,0 +1,18 @@
+{
+ "id": "proud-donkey-24-by-adamgiebl",
+ "name": "Proud Donkey 24",
+ "category": "checkboxes",
+ "author": "adamgiebl",
+ "source": "https://uiverse.io/adamgiebl/proud-donkey-24",
+ "trigger": "checked",
+ "description": "A checkbox UI element.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "checkbox",
+  "checked",
+  "css"
+ ],
+ "html": "<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>",
+ "css": "/* From Uiverse.io by adamgiebl - Tags: checkbox */\n/* Hide the default checkbox */\n.container input {\n position: absolute;\n opacity: 0;\n cursor: pointer;\n height: 0;\n width: 0;\n}\n\n.container {\n display: block;\n position: relative;\n cursor: pointer;\n font-size: 20px;\n user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n position: relative;\n top: 0;\n left: 0;\n height: 1.3em;\n width: 1.3em;\n background-color: #ccc;\n transition: all 0.3s;\n border-radius: 5px;\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n background-color: #47da99;\n animation: pop 0.5s;\n animation-direction: alternate;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n content: \"\";\n position: absolute;\n display: none;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n display: block;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n left: 0.45em;\n top: 0.25em;\n width: 0.25em;\n height: 0.5em;\n border: solid white;\n border-width: 0 0.15em 0.15em 0;\n transform: rotate(45deg);\n}\n\n@keyframes pop {\n 0% {\n  transform: scale(1);\n }\n\n 50% {\n  transform: scale(0.9);\n }\n\n 100% {\n  transform: scale(1);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Proud Donkey 24</title>\n<style>\n/* From Uiverse.io by adamgiebl - https://uiverse.io/adamgiebl/proud-donkey-24 */\n/* From Uiverse.io by adamgiebl - Tags: checkbox */\n/* Hide the default checkbox */\n.container input {\n position: absolute;\n opacity: 0;\n cursor: pointer;\n height: 0;\n width: 0;\n}\n\n.container {\n display: block;\n position: relative;\n cursor: pointer;\n font-size: 20px;\n user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n position: relative;\n top: 0;\n left: 0;\n height: 1.3em;\n width: 1.3em;\n background-color: #ccc;\n transition: all 0.3s;\n border-radius: 5px;\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n background-color: #47da99;\n animation: pop 0.5s;\n animation-direction: alternate;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n content: \"\";\n position: absolute;\n display: none;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n display: block;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n left: 0.45em;\n top: 0.25em;\n width: 0.25em;\n height: 0.5em;\n border: solid white;\n border-width: 0 0.15em 0.15em 0;\n transform: rotate(45deg);\n}\n\n@keyframes pop {\n 0% {\n  transform: scale(1);\n }\n\n 50% {\n  transform: scale(0.9);\n }\n\n 100% {\n  transform: scale(1);\n }\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>\n</body>\n</html>\n"
+}

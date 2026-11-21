@@ -1,0 +1,18 @@
+{
+ "id": "rare-panda-30-by-priyanshugupta28",
+ "name": "Rare Panda 30",
+ "category": "loaders",
+ "author": "PriyanshuGupta28",
+ "source": "https://uiverse.io/PriyanshuGupta28/rare-panda-30",
+ "trigger": "auto-loop",
+ "description": "A loader with simple-loader styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "simple-loader",
+  "auto-loop"
+ ],
+ "html": "<div class=\"custom-loader\"></div>",
+ "css": "/* From Uiverse.io by PriyanshuGupta28 - Tags: loader, simple loader */\n.custom-loader {\n  width: 50px;\n  height: 50px;\n  display: grid;\n}\n\n.custom-loader::before,\n.custom-loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  --c: radial-gradient(farthest-side,#1692f8 92%,rgba(179, 53, 53, 0));\n  background: var(--c) 50%  0, \n      var(--c) 50%  100%, \n      var(--c) 100% 50%, \n      var(--c) 0    50%;\n  background-size: 12px 12px;\n  background-repeat: no-repeat;\n  animation: s2 1s infinite;\n}\n\n.custom-loader::before {\n  margin: 4px;\n  filter: hue-rotate(45deg);\n  background-size: 8px 8px;\n  animation-timing-function: linear\n}\n\n@keyframes s2 {\n \n  100% {\n    transform: rotate(.5turn)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rare Panda 30</title>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - https://uiverse.io/PriyanshuGupta28/rare-panda-30 */\n/* From Uiverse.io by PriyanshuGupta28 - Tags: loader, simple loader */\n.custom-loader {\n  width: 50px;\n  height: 50px;\n  display: grid;\n}\n\n.custom-loader::before,\n.custom-loader::after {\n  content: \"\";\n  grid-area: 1/1;\n  --c: radial-gradient(farthest-side,#1692f8 92%,rgba(179, 53, 53, 0));\n  background: var(--c) 50%  0, \n      var(--c) 50%  100%, \n      var(--c) 100% 50%, \n      var(--c) 0    50%;\n  background-size: 12px 12px;\n  background-repeat: no-repeat;\n  animation: s2 1s infinite;\n}\n\n.custom-loader::before {\n  margin: 4px;\n  filter: hue-rotate(45deg);\n  background-size: 8px 8px;\n  animation-timing-function: linear\n}\n\n@keyframes s2 {\n \n  100% {\n    transform: rotate(.5turn)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"custom-loader\"></div>\n</body>\n</html>\n"
+}

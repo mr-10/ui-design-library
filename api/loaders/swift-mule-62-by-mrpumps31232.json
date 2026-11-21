@@ -1,0 +1,21 @@
+{
+ "id": "swift-mule-62-by-mrpumps31232",
+ "name": "Swift Mule 62",
+ "category": "loaders",
+ "author": "mrpumps31232",
+ "source": "https://uiverse.io/mrpumps31232/swift-mule-62",
+ "trigger": "auto-loop",
+ "description": "A loader with 3d, cube and modern styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "3d",
+  "loader",
+  "cube",
+  "modern",
+  "animated",
+  "clean"
+ ],
+ "html": "<div class=\"loading\">\n  <div class=\"cube\">\n    <div class=\"side front\"></div>\n    <div class=\"side back\"></div>\n    <div class=\"side top\"></div>\n    <div class=\"side bottom\"></div>\n    <div class=\"side left\"></div>\n    <div class=\"side right\"></div>\n  </div>\n</div>",
+ "css": "/* From Uiverse.io by mrpumps31232 - Tags: 3d, loader, cube, modern, animated, clean, fun */\n.loading {\n  width: 100px;\n  height: 100px;\n  perspective: 1000px;\n  margin: 50px auto;\n}\n\n.cube {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  transform-style: preserve-3d;\n  animation: rotate 2s infinite linear;\n}\n\n.side {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border: 2px solid rgb(255, 255, 255);\n}\n\n.front {\n  background: linear-gradient(45deg, #f00, #0ff);\n  transform: translateZ(50px);\n}\n\n.back {\n  background: linear-gradient(45deg, #0ff, #f00);\n  transform: translateZ(-50px) rotateY(180deg);\n}\n\n.top {\n  background: linear-gradient(45deg, #f0f, #ff0);\n  transform: rotateX(90deg) translateZ(50px);\n}\n\n.bottom {\n  background: linear-gradient(45deg, #ff0, #f0f);\n  transform: rotateX(-90deg) translateZ(50px);\n}\n\n.left {\n  background: linear-gradient(45deg, #0f0, #00f);\n  transform: rotateY(-90deg) translateZ(50px);\n}\n\n.right {\n  background: linear-gradient(45deg, #00f, #0f0);\n  transform: rotateY(90deg) translateZ(50px);\n}\n\n@keyframes rotate {\n  from {\n    transform: rotateY(0deg) rotateX(0deg);\n  }\n\n  to {\n    transform: rotateY(360deg) rotateX(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Mule 62</title>\n<style>\n/* From Uiverse.io by mrpumps31232 - https://uiverse.io/mrpumps31232/swift-mule-62 */\n/* From Uiverse.io by mrpumps31232 - Tags: 3d, loader, cube, modern, animated, clean, fun */\n.loading {\n  width: 100px;\n  height: 100px;\n  perspective: 1000px;\n  margin: 50px auto;\n}\n\n.cube {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  transform-style: preserve-3d;\n  animation: rotate 2s infinite linear;\n}\n\n.side {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  border: 2px solid rgb(255, 255, 255);\n}\n\n.front {\n  background: linear-gradient(45deg, #f00, #0ff);\n  transform: translateZ(50px);\n}\n\n.back {\n  background: linear-gradient(45deg, #0ff, #f00);\n  transform: translateZ(-50px) rotateY(180deg);\n}\n\n.top {\n  background: linear-gradient(45deg, #f0f, #ff0);\n  transform: rotateX(90deg) translateZ(50px);\n}\n\n.bottom {\n  background: linear-gradient(45deg, #ff0, #f0f);\n  transform: rotateX(-90deg) translateZ(50px);\n}\n\n.left {\n  background: linear-gradient(45deg, #0f0, #00f);\n  transform: rotateY(-90deg) translateZ(50px);\n}\n\n.right {\n  background: linear-gradient(45deg, #00f, #0f0);\n  transform: rotateY(90deg) translateZ(50px);\n}\n\n@keyframes rotate {\n  from {\n    transform: rotateY(0deg) rotateX(0deg);\n  }\n\n  to {\n    transform: rotateY(360deg) rotateX(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loading\">\n  <div class=\"cube\">\n    <div class=\"side front\"></div>\n    <div class=\"side back\"></div>\n    <div class=\"side top\"></div>\n    <div class=\"side bottom\"></div>\n    <div class=\"side left\"></div>\n    <div class=\"side right\"></div>\n  </div>\n</div>\n</body>\n</html>\n"
+}

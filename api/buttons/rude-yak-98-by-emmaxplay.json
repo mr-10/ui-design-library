@@ -1,0 +1,18 @@
+{
+ "id": "rude-yak-98-by-emmaxplay",
+ "name": "Rude Yak 98",
+ "category": "buttons",
+ "author": "EmmaxPlay",
+ "source": "https://uiverse.io/EmmaxPlay/rude-yak-98",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"btn\">Hover Me!</button>",
+ "css": "/* From Uiverse.io by EmmaxPlay - Tags: button */\n.btn {\n padding: 0.9em 1.6em;\n border: none;\n outline: none;\n color: #FFF;\n font-family: inherit;\n font-weight: 500;\n font-size: 17px;\n cursor: pointer;\n position: relative;\n z-index: 0;\n border-radius: 12px;\n}\n\n.btn::after {\n content: \"\";\n z-index: -1;\n position: absolute;\n width: 100%;\n height: 100%;\n background-color: rgb(46, 46, 46);\n left: 0;\n top: 0;\n border-radius: 10px;\n}\n/* glow */\n.btn::before {\n content: \"\";\n background: linear-gradient(\n    45deg,\n    #FF0000, #002BFF, #FF00C8, #002BFF,\n      #FF0000, #002BFF, #FF00C8, #002BFF\n);\n position: absolute;\n top: -2px;\n left: -2px;\n background-size: 600%;\n z-index: -1;\n width: calc(100% + 4px);\n height: calc(100% + 4px);\n filter: blur(8px);\n animation: glowing 20s linear infinite;\n transition: opacity .3s ease-in-out;\n border-radius: 10px;\n opacity: 0;\n}\n\n@keyframes glowing {\n 0% {\n  background-position: 0 0;\n }\n\n 50% {\n  background-position: 400% 0;\n }\n\n 100% {\n  background-position: 0 0;\n }\n}\n\n/* hover */\n.btn:hover::before {\n opacity: 1;\n}\n\n.btn:active:after {\n background: transparent;\n}\n\n.btn:active {\n color: #000;\n font-weight: bold;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rude Yak 98</title>\n<style>\n/* From Uiverse.io by EmmaxPlay - https://uiverse.io/EmmaxPlay/rude-yak-98 */\n/* From Uiverse.io by EmmaxPlay - Tags: button */\n.btn {\n padding: 0.9em 1.6em;\n border: none;\n outline: none;\n color: #FFF;\n font-family: inherit;\n font-weight: 500;\n font-size: 17px;\n cursor: pointer;\n position: relative;\n z-index: 0;\n border-radius: 12px;\n}\n\n.btn::after {\n content: \"\";\n z-index: -1;\n position: absolute;\n width: 100%;\n height: 100%;\n background-color: rgb(46, 46, 46);\n left: 0;\n top: 0;\n border-radius: 10px;\n}\n/* glow */\n.btn::before {\n content: \"\";\n background: linear-gradient(\n    45deg,\n    #FF0000, #002BFF, #FF00C8, #002BFF,\n      #FF0000, #002BFF, #FF00C8, #002BFF\n);\n position: absolute;\n top: -2px;\n left: -2px;\n background-size: 600%;\n z-index: -1;\n width: calc(100% + 4px);\n height: calc(100% + 4px);\n filter: blur(8px);\n animation: glowing 20s linear infinite;\n transition: opacity .3s ease-in-out;\n border-radius: 10px;\n opacity: 0;\n}\n\n@keyframes glowing {\n 0% {\n  background-position: 0 0;\n }\n\n 50% {\n  background-position: 400% 0;\n }\n\n 100% {\n  background-position: 0 0;\n }\n}\n\n/* hover */\n.btn:hover::before {\n opacity: 1;\n}\n\n.btn:active:after {\n background: transparent;\n}\n\n.btn:active {\n color: #000;\n font-weight: bold;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">Hover Me!</button>\n</body>\n</html>\n"
+}

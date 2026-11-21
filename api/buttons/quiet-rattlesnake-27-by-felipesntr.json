@@ -1,0 +1,18 @@
+{
+ "id": "quiet-rattlesnake-27-by-felipesntr",
+ "name": "Quiet Rattlesnake 27",
+ "category": "buttons",
+ "author": "felipesntr",
+ "source": "https://uiverse.io/felipesntr/quiet-rattlesnake-27",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button> # NICE BUTTON\n</button>",
+ "css": "/* From Uiverse.io by felipesntr - Tags: button */\nbutton {\n padding: 0.6em 1em;\n border: 4px solid #fa725a;\n transition: ease-in-out 0.3s;\n background-color: transparent;\n color: #fa725a;\n font-weight: bolder;\n font-size: 16px;\n}\n\nbutton:hover {\n transform: scale(1.2) rotate(10deg);\n background-color: #fa725a;\n color: white;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Quiet Rattlesnake 27</title>\n<style>\n/* From Uiverse.io by felipesntr - https://uiverse.io/felipesntr/quiet-rattlesnake-27 */\n/* From Uiverse.io by felipesntr - Tags: button */\nbutton {\n padding: 0.6em 1em;\n border: 4px solid #fa725a;\n transition: ease-in-out 0.3s;\n background-color: transparent;\n color: #fa725a;\n font-weight: bolder;\n font-size: 16px;\n}\n\nbutton:hover {\n transform: scale(1.2) rotate(10deg);\n background-color: #fa725a;\n color: white;\n}\n</style>\n</head>\n<body>\n<button> # NICE BUTTON\n</button>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "fuzzy-bullfrog-72-by-barisdogansutcu",
+ "name": "Fuzzy Bullfrog 72",
+ "category": "buttons",
+ "author": "barisdogansutcu",
+ "source": "https://uiverse.io/barisdogansutcu/fuzzy-bullfrog-72",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button> Button\n</button>",
+ "css": "/* From Uiverse.io by barisdogansutcu - Tags: button */\nbutton {\n padding: 17px 40px;\n border-radius: 50px;\n border: 0;\n background-color: white;\n box-shadow: rgb(0 0 0 / 5%) 0 0 8px;\n letter-spacing: 1.5px;\n text-transform: uppercase;\n font-size: 15px;\n transition: all .5s ease;\n}\n\nbutton:hover {\n letter-spacing: 3px;\n background-color: hsl(261deg 80% 48%);\n color: hsl(0, 0%, 100%);\n box-shadow: rgb(93 24 220) 0px 7px 29px 0px;\n}\n\nbutton:active {\n letter-spacing: 3px;\n background-color: hsl(261deg 80% 48%);\n color: hsl(0, 0%, 100%);\n box-shadow: rgb(93 24 220) 0px 0px 0px 0px;\n transform: translateY(10px);\n transition: 100ms;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fuzzy Bullfrog 72</title>\n<style>\n/* From Uiverse.io by barisdogansutcu - https://uiverse.io/barisdogansutcu/fuzzy-bullfrog-72 */\n/* From Uiverse.io by barisdogansutcu - Tags: button */\nbutton {\n padding: 17px 40px;\n border-radius: 50px;\n border: 0;\n background-color: white;\n box-shadow: rgb(0 0 0 / 5%) 0 0 8px;\n letter-spacing: 1.5px;\n text-transform: uppercase;\n font-size: 15px;\n transition: all .5s ease;\n}\n\nbutton:hover {\n letter-spacing: 3px;\n background-color: hsl(261deg 80% 48%);\n color: hsl(0, 0%, 100%);\n box-shadow: rgb(93 24 220) 0px 7px 29px 0px;\n}\n\nbutton:active {\n letter-spacing: 3px;\n background-color: hsl(261deg 80% 48%);\n color: hsl(0, 0%, 100%);\n box-shadow: rgb(93 24 220) 0px 0px 0px 0px;\n transform: translateY(10px);\n transition: 100ms;\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n</body>\n</html>\n"
+}

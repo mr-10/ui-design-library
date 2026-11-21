@@ -1,0 +1,18 @@
+{
+ "id": "happy-sloth-10-by-ozgeozkaraa01",
+ "name": "Happy Sloth 10",
+ "category": "cards",
+ "author": "ozgeozkaraa01",
+ "source": "https://uiverse.io/ozgeozkaraa01/happy-sloth-10",
+ "trigger": "static",
+ "description": "A card UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "cards",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by ozgeozkaraa01 - Tags: card, cool card, card design -->\n<div class=\"w-72 h-80 mx-auto bg-gray-100 rounded-xl shadow-2xl\">\n  <div class=\"flex items-center p-3\">\n    <div class=\"px-1\">\n      <span class=\"w-4 h-4 rounded-full inline-block bg-red-500 cursor-pointer\"></span>\n    </div>\n    <div class=\"px-1\">\n      <span class=\"w-4 h-4 rounded-full inline-block bg-yellow-400 cursor-pointer\"></span>\n    </div>\n    <div class=\"px-1\">\n      <span class=\"w-4 h-4 rounded-full inline-block bg-green-500 cursor-pointer\"></span>\n    </div>\n  </div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Happy Sloth 10</title>\n<style>\n/* From Uiverse.io by ozgeozkaraa01 - https://uiverse.io/ozgeozkaraa01/happy-sloth-10 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by ozgeozkaraa01 - Tags: card, cool card, card design -->\n<div class=\"w-72 h-80 mx-auto bg-gray-100 rounded-xl shadow-2xl\">\n  <div class=\"flex items-center p-3\">\n    <div class=\"px-1\">\n      <span class=\"w-4 h-4 rounded-full inline-block bg-red-500 cursor-pointer\"></span>\n    </div>\n    <div class=\"px-1\">\n      <span class=\"w-4 h-4 rounded-full inline-block bg-yellow-400 cursor-pointer\"></span>\n    </div>\n    <div class=\"px-1\">\n      <span class=\"w-4 h-4 rounded-full inline-block bg-green-500 cursor-pointer\"></span>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+}

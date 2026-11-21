@@ -1,0 +1,21 @@
+{
+ "id": "light-owl-27-by-steveblox",
+ "name": "Light Owl 27",
+ "category": "buttons",
+ "author": "SteveBloX",
+ "source": "https://uiverse.io/SteveBloX/light-owl-27",
+ "trigger": "active",
+ "description": "A button with white, black and shadow styling.",
+ "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "tags": [
+  "white",
+  "black",
+  "button",
+  "shadow",
+  "modern",
+  "bw"
+ ],
+ "html": "<button class=\"button\">Click me !</button>",
+ "css": "/* From Uiverse.io by SteveBloX  - Tags: white, black, button, shadow, modern, b&w */\n.button {\n  border-radius: 8px;\n  height: 40px;\n  border: none;\n  background: #222;\n  color: white;\n  padding: 15px;\n  box-shadow: 0 1px 1px -1px #00000026, 0 2px 1px -1px #00000025,\n    0 3px 3px -2px #00000023, 0 7px 6px -2px #00000020,\n    0 13px 13px -3px #0000001b, 0 30px 30px -4px #0000000d;\n  font-weight: bold;\n  font-family: Montserrat;\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  transition: 150ms ease-in-out;\n}\n\n.button:active {\n  scale: 0.95;\n  background: #fff;\n  color: black;\n  box-shadow: rgba(0, 0, 0, 0.26) 0px 1px 1px -1px,\n    rgba(0, 0, 0, 0.24) 0px 2px 3px -2px, rgba(0, 0, 0, 0.19) 0px 5px 9px -3px,\n    rgba(0, 0, 0, 0.03) 0px 16px 29px -4.5px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Light Owl 27</title>\n<style>\n/* From Uiverse.io by SteveBloX - https://uiverse.io/SteveBloX/light-owl-27 */\n/* From Uiverse.io by SteveBloX  - Tags: white, black, button, shadow, modern, b&w */\n.button {\n  border-radius: 8px;\n  height: 40px;\n  border: none;\n  background: #222;\n  color: white;\n  padding: 15px;\n  box-shadow: 0 1px 1px -1px #00000026, 0 2px 1px -1px #00000025,\n    0 3px 3px -2px #00000023, 0 7px 6px -2px #00000020,\n    0 13px 13px -3px #0000001b, 0 30px 30px -4px #0000000d;\n  font-weight: bold;\n  font-family: Montserrat;\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  transition: 150ms ease-in-out;\n}\n\n.button:active {\n  scale: 0.95;\n  background: #fff;\n  color: black;\n  box-shadow: rgba(0, 0, 0, 0.26) 0px 1px 1px -1px,\n    rgba(0, 0, 0, 0.24) 0px 2px 3px -2px, rgba(0, 0, 0, 0.19) 0px 5px 9px -3px,\n    rgba(0, 0, 0, 0.03) 0px 16px 29px -4.5px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Click me !</button>\n</body>\n</html>\n"
+}

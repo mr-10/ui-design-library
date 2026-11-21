@@ -1,0 +1,18 @@
+{
+ "id": "loud-dragon-12-by-javierrocadev",
+ "name": "Loud Dragon 12",
+ "category": "cards",
+ "author": "Javierrocadev",
+ "source": "https://uiverse.io/Javierrocadev/loud-dragon-12",
+ "trigger": "static",
+ "description": "A card UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "cards",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Javierrocadev  - Tags: card, hover, hover effect, hoverme, cardhover , card animation, card hover, tailwind -->\n<div\n  class=\"relative group cursor-pointer overflow-hidden duration-500 w-64 h-80 bg-zinc-800 text-gray-50 p-5\"\n>\n  <div class=\"\">\n    <div\n      class=\"group-hover:scale-110 w-full h-60 bg-blue-400 duration-500\"\n    ></div>\n    <div\n      class=\"absolute w-56 left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12\"\n    >\n      <div\n        class=\"absolute -z-10 left-0 w-64 h-28 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900\"\n      ></div>\n      <span class=\"text-xl font-bold\">Hover me!</span>\n      <p class=\"group-hover:opacity-100 w-56 duration-500 opacity-0\">\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n      </p>\n    </div>\n  </div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Dragon 12</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/loud-dragon-12 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev  - Tags: card, hover, hover effect, hoverme, cardhover , card animation, card hover, tailwind -->\n<div\n  class=\"relative group cursor-pointer overflow-hidden duration-500 w-64 h-80 bg-zinc-800 text-gray-50 p-5\"\n>\n  <div class=\"\">\n    <div\n      class=\"group-hover:scale-110 w-full h-60 bg-blue-400 duration-500\"\n    ></div>\n    <div\n      class=\"absolute w-56 left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12\"\n    >\n      <div\n        class=\"absolute -z-10 left-0 w-64 h-28 opacity-0 duration-500 group-hover:opacity-50 group-hover:bg-blue-900\"\n      ></div>\n      <span class=\"text-xl font-bold\">Hover me!</span>\n      <p class=\"group-hover:opacity-100 w-56 duration-500 opacity-0\">\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n      </p>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "selfish-goose-88-by-fanishah",
+ "name": "Selfish Goose 88",
+ "category": "loaders",
+ "author": "fanishah",
+ "source": "https://uiverse.io/fanishah/selfish-goose-88",
+ "trigger": "auto-loop",
+ "description": "A loader with loading styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loading",
+  "loader",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loading-bar\">\n    Loading\n</div>",
+ "css": "/* From Uiverse.io by fanishah - Tags: loading, loader */\n.loading-bar {\n  position: absolute;\n  transform: translate(-50%,-50%);\n  width: 110px;\n  height: 110px;\n  background: transparent;\n  border: px solid #3c3c3c;\n  border-radius: 50%;\n  text-align: center;\n  line-height: 111px;\n  font-family: sans-serif;\n  font-size: 15px;\n  color: #fff000;\n  letter-spacing: 3px;\n  text-transform: uppercase;\n  text-shadow: 0 0 20px #fff000;\n  box-shadow: 0 0 20px rgba(0,0,0,.5);\n}\n\n.loading-bar:before {\n  content: '';\n  position: absolute;\n  top: -3px;\n  left: -3px;\n  width: 100%;\n  height: 100%;\n  border: 3px solid transparent;\n  border-top: 5px solid #fff000;\n  border-right: 5px solid #fff000;\n  border-radius: 50%;\n  animation: animateC 2s linear infinite;\n}\n\n@keyframes animateC {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes animate {\n  0% {\n    transform: rotate(45deg);\n  }\n\n  100% {\n    transform: rotate(405deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Goose 88</title>\n<style>\n/* From Uiverse.io by fanishah - https://uiverse.io/fanishah/selfish-goose-88 */\n/* From Uiverse.io by fanishah - Tags: loading, loader */\n.loading-bar {\n  position: absolute;\n  transform: translate(-50%,-50%);\n  width: 110px;\n  height: 110px;\n  background: transparent;\n  border: px solid #3c3c3c;\n  border-radius: 50%;\n  text-align: center;\n  line-height: 111px;\n  font-family: sans-serif;\n  font-size: 15px;\n  color: #fff000;\n  letter-spacing: 3px;\n  text-transform: uppercase;\n  text-shadow: 0 0 20px #fff000;\n  box-shadow: 0 0 20px rgba(0,0,0,.5);\n}\n\n.loading-bar:before {\n  content: '';\n  position: absolute;\n  top: -3px;\n  left: -3px;\n  width: 100%;\n  height: 100%;\n  border: 3px solid transparent;\n  border-top: 5px solid #fff000;\n  border-right: 5px solid #fff000;\n  border-radius: 50%;\n  animation: animateC 2s linear infinite;\n}\n\n@keyframes animateC {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes animate {\n  0% {\n    transform: rotate(45deg);\n  }\n\n  100% {\n    transform: rotate(405deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loading-bar\">\n    Loading\n</div>\n</body>\n</html>\n"
+}

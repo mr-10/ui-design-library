@@ -1,0 +1,21 @@
+{
+ "id": "tall-kangaroo-61-by-faxriddin20",
+ "name": "Tall Kangaroo 61",
+ "category": "buttons",
+ "author": "faxriddin20",
+ "source": "https://uiverse.io/faxriddin20/tall-kangaroo-61",
+ "trigger": "active",
+ "description": "A button with simple, neumorphism and 3d styling.",
+ "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "tags": [
+  "simple",
+  "neumorphism",
+  "3d",
+  "minimalist",
+  "button",
+  "active"
+ ],
+ "html": "<button class=\"button\">Button</button>",
+ "css": "/* From Uiverse.io by faxriddin20  - Tags: simple, neumorphism, 3d, minimalist, button */\n.button {\n  cursor: pointer;\n  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,\n    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,\n    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,\n    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,\n    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;\n  border: none;\n  width: 160px;\n  height: 50px;\n  color: white;\n  background-color: transparent;\n  border-radius: 20px;\n  transition: all 0.3s ease;\n}\n.button:active {\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,\n    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tall Kangaroo 61</title>\n<style>\n/* From Uiverse.io by faxriddin20 - https://uiverse.io/faxriddin20/tall-kangaroo-61 */\n/* From Uiverse.io by faxriddin20  - Tags: simple, neumorphism, 3d, minimalist, button */\n.button {\n  cursor: pointer;\n  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,\n    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,\n    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,\n    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,\n    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;\n  border: none;\n  width: 160px;\n  height: 50px;\n  color: white;\n  background-color: transparent;\n  border-radius: 20px;\n  transition: all 0.3s ease;\n}\n.button:active {\n  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,\n    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Button</button>\n</body>\n</html>\n"
+}

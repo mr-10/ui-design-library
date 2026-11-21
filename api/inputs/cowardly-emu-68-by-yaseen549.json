@@ -1,0 +1,18 @@
+{
+ "id": "cowardly-emu-68-by-yaseen549",
+ "name": "Cowardly Emu 68",
+ "category": "inputs",
+ "author": "Yaseen549",
+ "source": "https://uiverse.io/Yaseen549/cowardly-emu-68",
+ "trigger": "active",
+ "description": "A input UI element.",
+ "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "tags": [
+  "input",
+  "active",
+  "css"
+ ],
+ "html": "<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type something here....\">",
+ "css": "/* From Uiverse.io by Yaseen549 - Tags: input */\n.input {\n color: #8707ff;\n border: 2px solid #8707ff;\n border-radius: 10px;\n padding: 10px 25px;\n background: transparent;\n max-width: 190px;\n}\n\n.input:active {\n box-shadow: 2px 2px 15px #8707ff inset;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Emu 68</title>\n<style>\n/* From Uiverse.io by Yaseen549 - https://uiverse.io/Yaseen549/cowardly-emu-68 */\n/* From Uiverse.io by Yaseen549 - Tags: input */\n.input {\n color: #8707ff;\n border: 2px solid #8707ff;\n border-radius: 10px;\n padding: 10px 25px;\n background: transparent;\n max-width: 190px;\n}\n\n.input:active {\n box-shadow: 2px 2px 15px #8707ff inset;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type something here....\">\n</body>\n</html>\n"
+}

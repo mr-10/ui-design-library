@@ -1,0 +1,21 @@
+{
+ "id": "pretty-mouse-82-by-doniaskima",
+ "name": "Pretty Mouse 82",
+ "category": "loaders",
+ "author": "doniaskima",
+ "source": "https://uiverse.io/doniaskima/pretty-mouse-82",
+ "trigger": "auto-loop",
+ "description": "A loader with simple, material-design and skeuomorphism styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "simple",
+  "material-design",
+  "skeuomorphism",
+  "glassmorphism",
+  "animation",
+  "loader"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by doniaskima - Tags: simple, material design, skeuomorphism, glassmorphism, animation, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 35px;\n  height: 80px;\n  position: relative;\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  padding: 3px 5px;\n  border-top: 1px solid #bbb6aa;\n  border-bottom: 4px solid #bbb6aa;\n  background: linear-gradient(#612329 0 0) bottom no-repeat content-box, \n    #e4e0d7;\n  mix-blend-mode: darken;\n  animation: l1 1.5s infinite linear;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  inset: -18px calc(50% - 2px) 8px;\n  background: #eb6b3e;\n  transform-origin: bottom;\n  transform: rotate(8deg);\n}\n\n@keyframes l1 {\n  0% {\n    background-size: 100% 100%\n  }\n\n  100% {\n    background-size: 100% 5%\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Pretty Mouse 82</title>\n<style>\n/* From Uiverse.io by doniaskima - https://uiverse.io/doniaskima/pretty-mouse-82 */\n/* From Uiverse.io by doniaskima - Tags: simple, material design, skeuomorphism, glassmorphism, animation, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 35px;\n  height: 80px;\n  position: relative;\n}\n\n.loader:after {\n  content: \"\";\n  position: absolute;\n  inset: 0;\n  padding: 3px 5px;\n  border-top: 1px solid #bbb6aa;\n  border-bottom: 4px solid #bbb6aa;\n  background: linear-gradient(#612329 0 0) bottom no-repeat content-box, \n    #e4e0d7;\n  mix-blend-mode: darken;\n  animation: l1 1.5s infinite linear;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  inset: -18px calc(50% - 2px) 8px;\n  background: #eb6b3e;\n  transform-origin: bottom;\n  transform: rotate(8deg);\n}\n\n@keyframes l1 {\n  0% {\n    background-size: 100% 100%\n  }\n\n  100% {\n    background-size: 100% 5%\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

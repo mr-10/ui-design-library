@@ -1,0 +1,18 @@
+{
+ "id": "light-rat-32-by-barisdogansutcu",
+ "name": "Light Rat 32",
+ "category": "loaders",
+ "author": "barisdogansutcu",
+ "source": "https://uiverse.io/barisdogansutcu/light-rat-32",
+ "trigger": "auto-loop",
+ "description": "A loader with spinner styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "spinner",
+  "auto-loop"
+ ],
+ "html": "<svg viewBox=\"25 25 50 50\">\n  <circle r=\"20\" cy=\"50\" cx=\"50\"></circle>\n</svg>",
+ "css": "/* From Uiverse.io by barisdogansutcu - Tags: loader, spinner */\nsvg {\n width: 3.25em;\n transform-origin: center;\n animation: rotate4 2s linear infinite;\n}\n\ncircle {\n fill: none;\n stroke: hsl(214, 97%, 59%);\n stroke-width: 2;\n stroke-dasharray: 1, 200;\n stroke-dashoffset: 0;\n stroke-linecap: round;\n animation: dash4 1.5s ease-in-out infinite;\n}\n\n@keyframes rotate4 {\n 100% {\n  transform: rotate(360deg);\n }\n}\n\n@keyframes dash4 {\n 0% {\n  stroke-dasharray: 1, 200;\n  stroke-dashoffset: 0;\n }\n\n 50% {\n  stroke-dasharray: 90, 200;\n  stroke-dashoffset: -35px;\n }\n\n 100% {\n  stroke-dashoffset: -125px;\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Light Rat 32</title>\n<style>\n/* From Uiverse.io by barisdogansutcu - https://uiverse.io/barisdogansutcu/light-rat-32 */\n/* From Uiverse.io by barisdogansutcu - Tags: loader, spinner */\nsvg {\n width: 3.25em;\n transform-origin: center;\n animation: rotate4 2s linear infinite;\n}\n\ncircle {\n fill: none;\n stroke: hsl(214, 97%, 59%);\n stroke-width: 2;\n stroke-dasharray: 1, 200;\n stroke-dashoffset: 0;\n stroke-linecap: round;\n animation: dash4 1.5s ease-in-out infinite;\n}\n\n@keyframes rotate4 {\n 100% {\n  transform: rotate(360deg);\n }\n}\n\n@keyframes dash4 {\n 0% {\n  stroke-dasharray: 1, 200;\n  stroke-dashoffset: 0;\n }\n\n 50% {\n  stroke-dasharray: 90, 200;\n  stroke-dashoffset: -35px;\n }\n\n 100% {\n  stroke-dashoffset: -125px;\n }\n}\n</style>\n</head>\n<body>\n<svg viewBox=\"25 25 50 50\">\n  <circle r=\"20\" cy=\"50\" cx=\"50\"></circle>\n</svg>\n</body>\n</html>\n"
+}

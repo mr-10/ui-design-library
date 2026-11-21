@@ -1,0 +1,18 @@
+{
+ "id": "smooth-quail-65-by-manish-tamang",
+ "name": "Smooth Quail 65",
+ "category": "cards",
+ "author": "Manish-Tamang",
+ "source": "https://uiverse.io/Manish-Tamang/smooth-quail-65",
+ "trigger": "static",
+ "description": "A card UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "cards",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Manish-Tamang  - Tags: card, gradients, border, hover effect -->\n<article\n  class=\"hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]\"\n>\n  <div class=\"w-60 rounded-[10px] bg-white p-4 !pt-20 sm:p-6\">\n    <time class=\"block text-xs text-gray-500\" datetime=\"2019-06-29\">\n      29th June 2019\n    </time>\n\n    <a href=\"#\">\n      <h3 class=\"mt-0.5 text-lg font-medium text-gray-900\">\n        Next.js crash course by KhateykoBan\n      </h3>\n    </a>\n\n    <div class=\"mt-4 flex flex-wrap gap-1\">\n      <span\n        class=\"whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600\"\n      >\n        Snippet\n      </span>\n\n      <span\n        class=\"whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600\"\n      >\n        JavaScript\n      </span>\n    </div>\n  </div>\n</article>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Quail 65</title>\n<style>\n/* From Uiverse.io by Manish-Tamang - https://uiverse.io/Manish-Tamang/smooth-quail-65 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Manish-Tamang  - Tags: card, gradients, border, hover effect -->\n<article\n  class=\"hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover:bg-[length:400%_400%] hover:shadow-sm hover:[animation-duration:_4s]\"\n>\n  <div class=\"w-60 rounded-[10px] bg-white p-4 !pt-20 sm:p-6\">\n    <time class=\"block text-xs text-gray-500\" datetime=\"2019-06-29\">\n      29th June 2019\n    </time>\n\n    <a href=\"#\">\n      <h3 class=\"mt-0.5 text-lg font-medium text-gray-900\">\n        Next.js crash course by KhateykoBan\n      </h3>\n    </a>\n\n    <div class=\"mt-4 flex flex-wrap gap-1\">\n      <span\n        class=\"whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600\"\n      >\n        Snippet\n      </span>\n\n      <span\n        class=\"whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-xs text-purple-600\"\n      >\n        JavaScript\n      </span>\n    </div>\n  </div>\n</article>\n</body>\n</html>\n"
+}

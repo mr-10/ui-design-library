@@ -1,0 +1,20 @@
+{
+ "id": "friendly-badger-72-by-taniadou",
+ "name": "Friendly Badger 72",
+ "category": "inputs",
+ "author": "TaniaDou",
+ "source": "https://uiverse.io/TaniaDou/friendly-badger-72",
+ "trigger": "focus",
+ "description": "A input with remove, placeholder and cool-input styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "remove",
+  "placeholder",
+  "cool-input",
+  "focus"
+ ],
+ "html": "<div class=\"input-box\">\n    <input required=\"\" type=\"text\" class=\"input\">\n    <label class=\"label text--flicking\">Name<sup>*</sup></label>\n</div>",
+ "css": "/* From Uiverse.io by TaniaDou - Tags: input, remove, placeholder, cool input */\n.input-box {\n  position: relative;\n  max-width: 190px;\n}\n\n.input {\n  position: relative;\n  width: 100%;\n  padding: 1.5rem;\n  background: none;\n  border: solid 1.5px #9e9e9e;\n  border-radius: .6rem;\n  color: #9e9e9e;\n  font-size: 1rem;\n}\n\n.label {\n  position: absolute;\n  pointer-events: none;\n  left: 1rem;\n  top: .875rem;\n  white-space: nowrap;\n  overflow: hidden;\n  line-height: 2rem;\n  padding-left: 1rem;\n  font-size: 1rem;\n  color: #9e9e9e;\n  transition: 500ms cubic-bezier(0.4,0,0.2,1);\n}\n\n.input:focus~.label, input:valid ~ label {\n  top: -6px;\n  left: -5px;\n  font-size: .875rem;\n  color: #9e9e9e;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Friendly Badger 72</title>\n<style>\n/* From Uiverse.io by TaniaDou - https://uiverse.io/TaniaDou/friendly-badger-72 */\n/* From Uiverse.io by TaniaDou - Tags: input, remove, placeholder, cool input */\n.input-box {\n  position: relative;\n  max-width: 190px;\n}\n\n.input {\n  position: relative;\n  width: 100%;\n  padding: 1.5rem;\n  background: none;\n  border: solid 1.5px #9e9e9e;\n  border-radius: .6rem;\n  color: #9e9e9e;\n  font-size: 1rem;\n}\n\n.label {\n  position: absolute;\n  pointer-events: none;\n  left: 1rem;\n  top: .875rem;\n  white-space: nowrap;\n  overflow: hidden;\n  line-height: 2rem;\n  padding-left: 1rem;\n  font-size: 1rem;\n  color: #9e9e9e;\n  transition: 500ms cubic-bezier(0.4,0,0.2,1);\n}\n\n.input:focus~.label, input:valid ~ label {\n  top: -6px;\n  left: -5px;\n  font-size: .875rem;\n  color: #9e9e9e;\n}\n</style>\n</head>\n<body>\n<div class=\"input-box\">\n    <input required=\"\" type=\"text\" class=\"input\">\n    <label class=\"label text--flicking\">Name<sup>*</sup></label>\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "friendly-puma-48-by-shadowfax29",
+ "name": "Friendly Puma 48",
+ "category": "buttons",
+ "author": "shadowfax29",
+ "source": "https://uiverse.io/shadowfax29/friendly-puma-48",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by shadowfax29 - Tags: button, active, 3d button -->\n\n<button class=\"relative text-neutral-300 cursor-pointer w-28 h-28 bg-purple-300 rounded-full flex justify-center  items-center  text-neutral-400 transition duration-300 shadow-lg shadow-purple-400  active:shadow-none active:translate-y-1.5\">\n  <div class=\"relative -top-[1px] cursor-pointer w-24 h-24 bg-purple-300 rounded-full border-8 border-white\">\n    <div class=\"w-3 h-3 bg-purple-800 rounded-full relative top-5 left-5\"></div>\n    <div class=\"w-3 h-3 bg-purple-800  rounded-full relative top-2 left-12\"></div>\n    <div class=\"w-3 h-3 bg-purple-800 rounded-full relative top-5 left-5\"></div>\n    <div class=\"w-3 h-3 bg-purple-800  rounded-full relative top-2 left-12\"></div>\n  </div>\n  \n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Friendly Puma 48</title>\n<style>\n/* From Uiverse.io by shadowfax29 - https://uiverse.io/shadowfax29/friendly-puma-48 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by shadowfax29 - Tags: button, active, 3d button -->\n\n<button class=\"relative text-neutral-300 cursor-pointer w-28 h-28 bg-purple-300 rounded-full flex justify-center  items-center  text-neutral-400 transition duration-300 shadow-lg shadow-purple-400  active:shadow-none active:translate-y-1.5\">\n  <div class=\"relative -top-[1px] cursor-pointer w-24 h-24 bg-purple-300 rounded-full border-8 border-white\">\n    <div class=\"w-3 h-3 bg-purple-800 rounded-full relative top-5 left-5\"></div>\n    <div class=\"w-3 h-3 bg-purple-800  rounded-full relative top-2 left-12\"></div>\n    <div class=\"w-3 h-3 bg-purple-800 rounded-full relative top-5 left-5\"></div>\n    <div class=\"w-3 h-3 bg-purple-800  rounded-full relative top-2 left-12\"></div>\n  </div>\n  \n</button>\n</body>\n</html>\n"
+}

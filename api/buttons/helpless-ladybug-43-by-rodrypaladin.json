@@ -1,0 +1,21 @@
+{
+ "id": "helpless-ladybug-43-by-rodrypaladin",
+ "name": "Helpless Ladybug 43",
+ "category": "buttons",
+ "author": "Rodrypaladin",
+ "source": "https://uiverse.io/Rodrypaladin/helpless-ladybug-43",
+ "trigger": "hover",
+ "description": "A button with animation, pink and dark styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "animation",
+  "pink",
+  "button",
+  "dark",
+  "shadow",
+  "border"
+ ],
+ "html": "<button class=\"button\">\n  <div class=\"button__int\">\n    <span class=\"button__span\">Button</span>\n  </div>\n</button>",
+ "css": "/* From Uiverse.io by Rodrypaladin - Tags: animation, pink, button, dark, shadow, border, color, box-shadow */\n.button {\n  background-image: linear-gradient(to right bottom, #e300ff, #ff00aa, #ff5956, #ffb900, #fffe00);\n  border: none;\n  font-size: 1.2em;\n  border-radius: 0;\n  padding: 4px;\n  transition: border-top-left-radius 0.2s ease-in, \n  border-top-right-radius 0.2s ease-in 0.15s, \n  border-bottom-right-radius 0.2s ease-in 0.3s,\n  border-bottom-left-radius 0.2s ease-in 0.45s, \n  padding 0.2s ease-in;\n  position: relative;\n}\n\n.button__int {\n  background-color: #212121;\n  color: white;\n  border-radius: 0;\n  padding: 10px 40px;\n  transition: all 0.2s ease-in,\n  border-top-left-radius 0.2s ease-in, \n  border-top-right-radius 0.2s ease-in 0.15s, \n  border-bottom-right-radius 0.2s ease-in 0.3s,\n  border-bottom-left-radius 0.2s ease-in 0.45s,\n  padding 0.2s ease-in;\n  font-weight: 600;\n  z-index: -1;\n  box-shadow: -25px -10px 30px -5px rgba(225, 0, 255, 0.7),\n    25px -10px 30px -5px rgba(255, 0, 212, 0.7),\n    25px 10px 30px -5px rgba(255, 174, 0, 0.7),\n    -25px 10px 30px -5px rgba(255, 230, 0, 0.7);\n}\n\n.button:active .button__int {\n  padding: 10px 30px;\n}\n\n.button:hover {\n  border-radius: 1.5em;\n}\n\n.button:hover .button__int {\n  border-radius: 1.3em;\n}\n\n.button:hover .button__int {\n  box-shadow: -15px -10px 30px -5px rgba(225, 0, 255, 0.8),\n    15px -10px 30px -5px rgba(255, 0, 212, 0.8),\n    15px 10px 30px -5px rgba(255, 174, 0, 0.8),\n    -15px 10px 30px -5px rgba(255, 230, 0.8);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Ladybug 43</title>\n<style>\n/* From Uiverse.io by Rodrypaladin - https://uiverse.io/Rodrypaladin/helpless-ladybug-43 */\n/* From Uiverse.io by Rodrypaladin - Tags: animation, pink, button, dark, shadow, border, color, box-shadow */\n.button {\n  background-image: linear-gradient(to right bottom, #e300ff, #ff00aa, #ff5956, #ffb900, #fffe00);\n  border: none;\n  font-size: 1.2em;\n  border-radius: 0;\n  padding: 4px;\n  transition: border-top-left-radius 0.2s ease-in, \n  border-top-right-radius 0.2s ease-in 0.15s, \n  border-bottom-right-radius 0.2s ease-in 0.3s,\n  border-bottom-left-radius 0.2s ease-in 0.45s, \n  padding 0.2s ease-in;\n  position: relative;\n}\n\n.button__int {\n  background-color: #212121;\n  color: white;\n  border-radius: 0;\n  padding: 10px 40px;\n  transition: all 0.2s ease-in,\n  border-top-left-radius 0.2s ease-in, \n  border-top-right-radius 0.2s ease-in 0.15s, \n  border-bottom-right-radius 0.2s ease-in 0.3s,\n  border-bottom-left-radius 0.2s ease-in 0.45s,\n  padding 0.2s ease-in;\n  font-weight: 600;\n  z-index: -1;\n  box-shadow: -25px -10px 30px -5px rgba(225, 0, 255, 0.7),\n    25px -10px 30px -5px rgba(255, 0, 212, 0.7),\n    25px 10px 30px -5px rgba(255, 174, 0, 0.7),\n    -25px 10px 30px -5px rgba(255, 230, 0, 0.7);\n}\n\n.button:active .button__int {\n  padding: 10px 30px;\n}\n\n.button:hover {\n  border-radius: 1.5em;\n}\n\n.button:hover .button__int {\n  border-radius: 1.3em;\n}\n\n.button:hover .button__int {\n  box-shadow: -15px -10px 30px -5px rgba(225, 0, 255, 0.8),\n    15px -10px 30px -5px rgba(255, 0, 212, 0.8),\n    15px 10px 30px -5px rgba(255, 174, 0, 0.8),\n    -15px 10px 30px -5px rgba(255, 230, 0.8);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <div class=\"button__int\">\n    <span class=\"button__span\">Button</span>\n  </div>\n</button>\n</body>\n</html>\n"
+}

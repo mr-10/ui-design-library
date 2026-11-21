@@ -1,0 +1,18 @@
+{
+ "id": "sharp-frog-56-by-sujitadroja",
+ "name": "Sharp Frog 56",
+ "category": "buttons",
+ "author": "SujitAdroja",
+ "source": "https://uiverse.io/SujitAdroja/sharp-frog-56",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"btn\">\n  Diagonal Swipe\n</button>",
+ "css": "/* From Uiverse.io by SujitAdroja - Tags: button */\n.btn {\n  color: purple;\n  text-transform: uppercase;\n  text-decoration: none;\n  border: 2px solid purple;\n  padding: 10px 20px;\n  font-size: 17px;\n  font-weight: bold;\n  background: transparent;\n  position: relative;\n  transition: all 1s;\n  overflow: hidden;\n}\n\n.btn:hover {\n  color: white;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  height: 100%;\n  width: 0%;\n  top: 0;\n  left: -40px;\n  transform: skewX(45deg);\n  background-color: purple;\n  z-index: -1;\n  transition: all 1s;\n}\n\n.btn:hover::before {\n  width: 160%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sharp Frog 56</title>\n<style>\n/* From Uiverse.io by SujitAdroja - https://uiverse.io/SujitAdroja/sharp-frog-56 */\n/* From Uiverse.io by SujitAdroja - Tags: button */\n.btn {\n  color: purple;\n  text-transform: uppercase;\n  text-decoration: none;\n  border: 2px solid purple;\n  padding: 10px 20px;\n  font-size: 17px;\n  font-weight: bold;\n  background: transparent;\n  position: relative;\n  transition: all 1s;\n  overflow: hidden;\n}\n\n.btn:hover {\n  color: white;\n}\n\n.btn::before {\n  content: '';\n  position: absolute;\n  height: 100%;\n  width: 0%;\n  top: 0;\n  left: -40px;\n  transform: skewX(45deg);\n  background-color: purple;\n  z-index: -1;\n  transition: all 1s;\n}\n\n.btn:hover::before {\n  width: 160%;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n  Diagonal Swipe\n</button>\n</body>\n</html>\n"
+}

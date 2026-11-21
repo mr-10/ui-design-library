@@ -1,0 +1,19 @@
+{
+ "id": "afraid-sheep-52-by-jeremyssocial",
+ "name": "Afraid Sheep 52",
+ "category": "patterns",
+ "author": "jeremyssocial",
+ "source": "https://uiverse.io/jeremyssocial/afraid-sheep-52",
+ "trigger": "auto-loop",
+ "description": "A pattern with dark and animated styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "dark",
+  "animated",
+  "pattern",
+  "auto-loop"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by jeremyssocial  - Tags: dark, animated, pattern */\n.container {\n  /* Basic dimensions and centering */\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n\n  /* Dark mode colors and gradient */\n  background: #121212; /* Fallback for browsers that don't support gradients */\n  background: linear-gradient(\n    135deg,\n    #121212 25%,\n    #1a1a1a 25%,\n    #1a1a1a 50%,\n    #121212 50%,\n    #121212 75%,\n    #1a1a1a 75%,\n    #1a1a1a\n  );\n  background-size: 40px 40px;\n\n  /* Animation */\n  animation: move 4s linear infinite;\n}\n\n@keyframes move {\n  0% {\n    background-position: 0 0;\n  }\n  100% {\n    background-position: 40px 40px;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Sheep 52</title>\n<style>\n/* From Uiverse.io by jeremyssocial - https://uiverse.io/jeremyssocial/afraid-sheep-52 */\n/* From Uiverse.io by jeremyssocial  - Tags: dark, animated, pattern */\n.container {\n  /* Basic dimensions and centering */\n  width: 100%;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n\n  /* Dark mode colors and gradient */\n  background: #121212; /* Fallback for browsers that don't support gradients */\n  background: linear-gradient(\n    135deg,\n    #121212 25%,\n    #1a1a1a 25%,\n    #1a1a1a 50%,\n    #121212 50%,\n    #121212 75%,\n    #1a1a1a 75%,\n    #1a1a1a\n  );\n  background-size: 40px 40px;\n\n  /* Animation */\n  animation: move 4s linear infinite;\n}\n\n@keyframes move {\n  0% {\n    background-position: 0 0;\n  }\n  100% {\n    background-position: 40px 40px;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

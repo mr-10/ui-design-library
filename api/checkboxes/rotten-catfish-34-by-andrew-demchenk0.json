@@ -1,0 +1,21 @@
+{
+ "id": "rotten-catfish-34-by-andrew-demchenk0",
+ "name": "Rotten Catfish 34",
+ "category": "checkboxes",
+ "author": "andrew-demchenk0",
+ "source": "https://uiverse.io/andrew-demchenk0/rotten-catfish-34",
+ "trigger": "checked",
+ "description": "A checkbox with blue, transition and checkmark styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "blue",
+  "checkbox",
+  "transition",
+  "checkmark",
+  "box-shadow",
+  "checked"
+ ],
+ "html": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>",
+ "css": "/* From Uiverse.io by andrew-demchenk0 - Tags: blue, checkbox, transition, checkmark, box-shadow */\n.container {\n  --input-focus: #2d8cf0;\n  --input-out-of-focus: #ccc;\n  --bg-color: #fff;\n  --bg-color-alt: #666;\n  --main-color: #323232;\n  position: relative;\n  cursor: pointer;\n}\n\n.container input {\n  position: absolute;\n  opacity: 0;\n}\n\n.checkmark {\n  width: 30px;\n  height: 30px;\n  position: relative;\n  top: 0;\n  left: 0;\n  border: 2px solid var(--main-color);\n  border-radius: 5px;\n  box-shadow: 4px 4px var(--main-color);\n  background-color: var(--input-out-of-focus);\n  transition: all 0.3s;\n}\n\n.container input:checked ~ .checkmark {\n  background-color: var(--input-focus);\n}\n\n.checkmark:after {\n  content: \"\";\n  width: 7px;\n  height: 15px;\n  position: absolute;\n  top: 2px;\n  left: 8px;\n  display: none;\n  border: solid var(--bg-color);\n  border-width: 0 2.5px 2.5px 0;\n  transform: rotate(45deg);\n}\n\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rotten Catfish 34</title>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - https://uiverse.io/andrew-demchenk0/rotten-catfish-34 */\n/* From Uiverse.io by andrew-demchenk0 - Tags: blue, checkbox, transition, checkmark, box-shadow */\n.container {\n  --input-focus: #2d8cf0;\n  --input-out-of-focus: #ccc;\n  --bg-color: #fff;\n  --bg-color-alt: #666;\n  --main-color: #323232;\n  position: relative;\n  cursor: pointer;\n}\n\n.container input {\n  position: absolute;\n  opacity: 0;\n}\n\n.checkmark {\n  width: 30px;\n  height: 30px;\n  position: relative;\n  top: 0;\n  left: 0;\n  border: 2px solid var(--main-color);\n  border-radius: 5px;\n  box-shadow: 4px 4px var(--main-color);\n  background-color: var(--input-out-of-focus);\n  transition: all 0.3s;\n}\n\n.container input:checked ~ .checkmark {\n  background-color: var(--input-focus);\n}\n\n.checkmark:after {\n  content: \"\";\n  width: 7px;\n  height: 15px;\n  position: absolute;\n  top: 2px;\n  left: 8px;\n  display: none;\n  border: solid var(--bg-color);\n  border-width: 0 2.5px 2.5px 0;\n  transform: rotate(45deg);\n}\n\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n</body>\n</html>\n"
+}

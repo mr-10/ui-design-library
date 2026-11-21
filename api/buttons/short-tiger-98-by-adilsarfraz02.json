@@ -1,0 +1,18 @@
+{
+ "id": "short-tiger-98-by-adilsarfraz02",
+ "name": "Short Tiger 98",
+ "category": "buttons",
+ "author": "adilsarfraz02",
+ "source": "https://uiverse.io/adilsarfraz02/short-tiger-98",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by adilsarfraz02 - Tags: button, blur, anchor, alt  -->\n<button class=\"cursor-pointer bg-gradient-to-tr from-cyan-200 to-blue-500 text-white text-xl font-sans rounded-2xl hover:bg-gradient-to-tr hover:from-blue-200 hover: hover:to-cyan-500 p-3\">\n  Hover me\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Short Tiger 98</title>\n<style>\n/* From Uiverse.io by adilsarfraz02 - https://uiverse.io/adilsarfraz02/short-tiger-98 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by adilsarfraz02 - Tags: button, blur, anchor, alt  -->\n<button class=\"cursor-pointer bg-gradient-to-tr from-cyan-200 to-blue-500 text-white text-xl font-sans rounded-2xl hover:bg-gradient-to-tr hover:from-blue-200 hover: hover:to-cyan-500 p-3\">\n  Hover me\n</button>\n</body>\n</html>\n"
+}

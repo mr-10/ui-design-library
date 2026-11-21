@@ -1,0 +1,19 @@
+{
+ "id": "brown-emu-91-by-zebra76966",
+ "name": "Brown Emu 91",
+ "category": "buttons",
+ "author": "zebra76966",
+ "source": "https://uiverse.io/zebra76966/brown-emu-91",
+ "trigger": "hover",
+ "description": "A button with dark and 3d-button styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "dark",
+  "3d-button",
+  "hover"
+ ],
+ "html": "<button class=\"c-button\">\n  <span class=\"c-main\">\n    <span class=\"c-ico\"><span class=\"c-blur\"></span> <span class=\"ico-text\">+</span></span>\n    button\n  </span>\n</button>",
+ "css": "/* From Uiverse.io by zebra76966 - Tags: button, dark, 3d button */\nbutton {\n  border: none;\n}\n\n.c-button {\n  background: linear-gradient(140deg, rgba(75, 118, 200, 1) 0%, rgba(31, 70, 145, 1) 100%);\n  border-radius: 45px;\n  font-size: 25px;\n  text-align: left;\n  padding: 11px 0px 11px 0px;\n  border: 4px solid rgb(37, 37, 37) !important;\n  border-style: outset;\n  box-shadow: -6px -5px 18px rgba(255, 255, 255, 0.1);\n  cursor: pointer;\n}\n\n.c-button .c-main {\n  border-radius: 45px;\n  color: rgba(255, 255, 255, 1);\n  padding: 11px 25px 11px 2px;\n  box-shadow: inset 0px 0px 5px rgba(17, 17, 17, 0);\n  transition: all 0.5s ease-in-out;\n  border: 1px solid transparent;\n}\n\n.c-ico .c-blur {\n  background: linear-gradient(318deg, rgba(75, 118, 200, 1) 0%, rgba(31, 70, 145, 1) 100%);\n  border-radius: 100%;\n  margin-left: 0;\n  padding: 8px 23px;\n  filter: blur(1px);\n  text-align: center;\n}\n\n.c-ico {\n  position: relative;\n  margin-right: 20px;\n}\n\n.c-ico .ico-text {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n\n/* Hovering */\n\n.c-button .c-main:hover {\n  box-shadow: inset 0px 0px 5px rgba(17, 17, 17, 0.6);\n  border: 1px solid rgba(26, 26, 26,0.5);\n  color: rgba(255, 255, 255, 0.5);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Brown Emu 91</title>\n<style>\n/* From Uiverse.io by zebra76966 - https://uiverse.io/zebra76966/brown-emu-91 */\n/* From Uiverse.io by zebra76966 - Tags: button, dark, 3d button */\nbutton {\n  border: none;\n}\n\n.c-button {\n  background: linear-gradient(140deg, rgba(75, 118, 200, 1) 0%, rgba(31, 70, 145, 1) 100%);\n  border-radius: 45px;\n  font-size: 25px;\n  text-align: left;\n  padding: 11px 0px 11px 0px;\n  border: 4px solid rgb(37, 37, 37) !important;\n  border-style: outset;\n  box-shadow: -6px -5px 18px rgba(255, 255, 255, 0.1);\n  cursor: pointer;\n}\n\n.c-button .c-main {\n  border-radius: 45px;\n  color: rgba(255, 255, 255, 1);\n  padding: 11px 25px 11px 2px;\n  box-shadow: inset 0px 0px 5px rgba(17, 17, 17, 0);\n  transition: all 0.5s ease-in-out;\n  border: 1px solid transparent;\n}\n\n.c-ico .c-blur {\n  background: linear-gradient(318deg, rgba(75, 118, 200, 1) 0%, rgba(31, 70, 145, 1) 100%);\n  border-radius: 100%;\n  margin-left: 0;\n  padding: 8px 23px;\n  filter: blur(1px);\n  text-align: center;\n}\n\n.c-ico {\n  position: relative;\n  margin-right: 20px;\n}\n\n.c-ico .ico-text {\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n\n/* Hovering */\n\n.c-button .c-main:hover {\n  box-shadow: inset 0px 0px 5px rgba(17, 17, 17, 0.6);\n  border: 1px solid rgba(26, 26, 26,0.5);\n  color: rgba(255, 255, 255, 0.5);\n}\n</style>\n</head>\n<body>\n<button class=\"c-button\">\n  <span class=\"c-main\">\n    <span class=\"c-ico\"><span class=\"c-blur\"></span> <span class=\"ico-text\">+</span></span>\n    button\n  </span>\n</button>\n</body>\n</html>\n"
+}

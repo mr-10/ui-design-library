@@ -1,0 +1,21 @@
+{
+ "id": "unlucky-turkey-88-by-subaashbala",
+ "name": "Unlucky Turkey 88",
+ "category": "toggle-switches",
+ "author": "Subaashbala",
+ "source": "https://uiverse.io/Subaashbala/unlucky-turkey-88",
+ "trigger": "checked",
+ "description": "A toggle switch with skeuomorphism, minimalist and switch styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "skeuomorphism",
+  "minimalist",
+  "switch",
+  "click-animation",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>",
+ "css": "/* From Uiverse.io by Subaashbala  - Tags: skeuomorphism, minimalist, switch, click animation */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 0.25em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: hotpink;\n  transition: 0.4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"O\";\n  display: grid;\n  text-align: center;\n  vertical-align: middle;\n  place-items: center;\n  font-size: 1em;\n  font-weight: 900;\n  width: 2em;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  bottom: 0.3em;\n  left: 0;\n  top: 50%;\n  transform: translate(0, -50%);\n  color: hotpink;\n  background-color: pink;\n  border: 1px solid rgba(255, 105, 180, 0.507);\n  transition: 0.4s;\n}\n\n.switch input:checked + .slider {\n  background-color: teal;\n}\n\n.switch input:checked + .slider:before {\n  content: \"|\";\n  color: teal;\n  background: paleturquoise;\n  border: 1px solid rgba(0, 128, 128, 0.514);\n  transform: translate(1.75em, -50%) rotateZ(360deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Unlucky Turkey 88</title>\n<style>\n/* From Uiverse.io by Subaashbala - https://uiverse.io/Subaashbala/unlucky-turkey-88 */\n/* From Uiverse.io by Subaashbala  - Tags: skeuomorphism, minimalist, switch, click animation */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 0.25em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: hotpink;\n  transition: 0.4s;\n  border-radius: 30px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"O\";\n  display: grid;\n  text-align: center;\n  vertical-align: middle;\n  place-items: center;\n  font-size: 1em;\n  font-weight: 900;\n  width: 2em;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  bottom: 0.3em;\n  left: 0;\n  top: 50%;\n  transform: translate(0, -50%);\n  color: hotpink;\n  background-color: pink;\n  border: 1px solid rgba(255, 105, 180, 0.507);\n  transition: 0.4s;\n}\n\n.switch input:checked + .slider {\n  background-color: teal;\n}\n\n.switch input:checked + .slider:before {\n  content: \"|\";\n  color: teal;\n  background: paleturquoise;\n  border: 1px solid rgba(0, 128, 128, 0.514);\n  transform: translate(1.75em, -50%) rotateZ(360deg);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+}

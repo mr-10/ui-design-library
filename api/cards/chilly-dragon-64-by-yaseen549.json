@@ -1,0 +1,18 @@
+{
+ "id": "chilly-dragon-64-by-yaseen549",
+ "name": "Chilly Dragon 64",
+ "category": "cards",
+ "author": "Yaseen549",
+ "source": "https://uiverse.io/Yaseen549/chilly-dragon-64",
+ "trigger": "static",
+ "description": "A card with neumorphism styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "card",
+  "neumorphism",
+  "static"
+ ],
+ "html": "<div class=\"card\"></div>",
+ "css": "/* From Uiverse.io by Yaseen549 - Tags: card, neumorphism */\n.card {\n width: 190px;\n height: 254px;\n border-radius: 30px;\n background: #212121;\n box-shadow: 15px 15px 30px rgb(25, 25, 25),\n             -15px -15px 30px rgb(60, 60, 60);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Dragon 64</title>\n<style>\n/* From Uiverse.io by Yaseen549 - https://uiverse.io/Yaseen549/chilly-dragon-64 */\n/* From Uiverse.io by Yaseen549 - Tags: card, neumorphism */\n.card {\n width: 190px;\n height: 254px;\n border-radius: 30px;\n background: #212121;\n box-shadow: 15px 15px 30px rgb(25, 25, 25),\n             -15px -15px 30px rgb(60, 60, 60);\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+}

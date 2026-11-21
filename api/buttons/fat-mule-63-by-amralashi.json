@@ -1,0 +1,18 @@
+{
+ "id": "fat-mule-63-by-amralashi",
+ "name": "Fat Mule 63",
+ "category": "buttons",
+ "author": "amralashi",
+ "source": "https://uiverse.io/amralashi/fat-mule-63",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n  Button\n</button>",
+ "css": "/* From Uiverse.io by amralashi - Tags: button */\nbutton {\n  width: 10rem;\n  height: 3rem;\n  background: linear-gradient(135deg, purple, pink, blue, aqua);\n  border-radius: 3rem;\n  font-size: 16px;\n  font-weight: 600;\n  color: white;\n  border: none;\n}\n\nbutton:hover {\n  background: linear-gradient(100deg, purple, pink, blue, aqua);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Mule 63</title>\n<style>\n/* From Uiverse.io by amralashi - https://uiverse.io/amralashi/fat-mule-63 */\n/* From Uiverse.io by amralashi - Tags: button */\nbutton {\n  width: 10rem;\n  height: 3rem;\n  background: linear-gradient(135deg, purple, pink, blue, aqua);\n  border-radius: 3rem;\n  font-size: 16px;\n  font-weight: 600;\n  color: white;\n  border: none;\n}\n\nbutton:hover {\n  background: linear-gradient(100deg, purple, pink, blue, aqua);\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+}

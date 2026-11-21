@@ -1,0 +1,18 @@
+{
+ "id": "tender-cobra-42-by-niat786",
+ "name": "Tender Cobra 42",
+ "category": "buttons",
+ "author": "niat786",
+ "source": "https://uiverse.io/niat786/tender-cobra-42",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button> Hover Me\n</button>",
+ "css": "/* From Uiverse.io by niat786 - Tags: button */\nbutton {\n border-radius: 999px;\n padding: 1em 2em;\n background: linear-gradient(117deg, rgb(254, 145, 80), rgb(254, 100, 70));\n border: none;\n color: rgb(255, 255, 255);\n font-size: 1rem;\n text-transform: uppercase;\n font-family: inherit;\n font-weight: 500;\n cursor: pointer;\n transition: box-shadow 0.25s ease 0s;\n letter-spacing: 0.08rem;\n}\n\nbutton:hover,\nbutton:focus {\n background: linear-gradient(117deg, rgb(248, 137, 73), rgb(248, 82, 49));\n box-shadow: 0 0.1rem 0.8rem rgb(254, 100, 70);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tender Cobra 42</title>\n<style>\n/* From Uiverse.io by niat786 - https://uiverse.io/niat786/tender-cobra-42 */\n/* From Uiverse.io by niat786 - Tags: button */\nbutton {\n border-radius: 999px;\n padding: 1em 2em;\n background: linear-gradient(117deg, rgb(254, 145, 80), rgb(254, 100, 70));\n border: none;\n color: rgb(255, 255, 255);\n font-size: 1rem;\n text-transform: uppercase;\n font-family: inherit;\n font-weight: 500;\n cursor: pointer;\n transition: box-shadow 0.25s ease 0s;\n letter-spacing: 0.08rem;\n}\n\nbutton:hover,\nbutton:focus {\n background: linear-gradient(117deg, rgb(248, 137, 73), rgb(248, 82, 49));\n box-shadow: 0 0.1rem 0.8rem rgb(254, 100, 70);\n}\n</style>\n</head>\n<body>\n<button> Hover Me\n</button>\n</body>\n</html>\n"
+}

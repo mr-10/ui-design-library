@@ -1,0 +1,19 @@
+{
+ "id": "hard-swan-77-by-aadium",
+ "name": "Hard Swan 77",
+ "category": "patterns",
+ "author": "aadium",
+ "source": "https://uiverse.io/aadium/hard-swan-77",
+ "trigger": "static",
+ "description": "A pattern with blue and duotone styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "blue",
+  "pattern",
+  "duotone",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by aadium - Tags: blue, pattern, duotone */\n.container {\n  --color1: rgb(179, 255, 226);\n  --color2: rgb(39, 0, 148);\n  width: 100%;\n  height: 100%;\n  background-image: linear-gradient(45deg, var(--color1) 25%, transparent 25%, transparent 75%, var(--color1) 75%, var(--color1)),\n                    linear-gradient(45deg, var(--color2) 25%, var(--color1) 25%, var(--color1) 75%, var(--color2) 75%, var(--color2));\n  background-size: 95px 15px;\n  background-position: 0 0, 135px 135px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Swan 77</title>\n<style>\n/* From Uiverse.io by aadium - https://uiverse.io/aadium/hard-swan-77 */\n/* From Uiverse.io by aadium - Tags: blue, pattern, duotone */\n.container {\n  --color1: rgb(179, 255, 226);\n  --color2: rgb(39, 0, 148);\n  width: 100%;\n  height: 100%;\n  background-image: linear-gradient(45deg, var(--color1) 25%, transparent 25%, transparent 75%, var(--color1) 75%, var(--color1)),\n                    linear-gradient(45deg, var(--color2) 25%, var(--color1) 25%, var(--color1) 75%, var(--color2) 75%, var(--color2));\n  background-size: 95px 15px;\n  background-position: 0 0, 135px 135px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

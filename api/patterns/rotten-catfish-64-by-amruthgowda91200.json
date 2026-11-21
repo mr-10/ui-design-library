@@ -1,0 +1,21 @@
+{
+ "id": "rotten-catfish-64-by-amruthgowda91200",
+ "name": "Rotten Catfish 64",
+ "category": "patterns",
+ "author": "AmruthGowda91200",
+ "source": "https://uiverse.io/AmruthGowda91200/rotten-catfish-64",
+ "trigger": "static",
+ "description": "A pattern with simple, blue and minimalist styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "blue",
+  "minimalist",
+  "html",
+  "css",
+  "pattern"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by AmruthGowda91200  - Tags: simple, blue, minimalist, html, css, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(\n      -45deg,\n      #ff7e5f,\n      #ff7e5f 10px,\n      #3f51b5 10px,\n      #3f51b5 20px\n    ),\n    repeating-linear-gradient(\n      45deg,\n      #3f51b5,\n      #3f51b5 10px,\n      #ff7e5f 10px,\n      #ff7e5f 20px\n    ),\n    repeating-linear-gradient(\n      -30deg,\n      #3f51b5,\n      #3f51b5 10px,\n      #ff7e5f 10px,\n      #ff7e5f 20px\n    ),\n    repeating-linear-gradient(\n      30deg,\n      #ff7e5f,\n      #ff7e5f 10px,\n      #3f51b5 10px,\n      #3f51b5 20px\n    );\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rotten Catfish 64</title>\n<style>\n/* From Uiverse.io by AmruthGowda91200 - https://uiverse.io/AmruthGowda91200/rotten-catfish-64 */\n/* From Uiverse.io by AmruthGowda91200  - Tags: simple, blue, minimalist, html, css, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(\n      -45deg,\n      #ff7e5f,\n      #ff7e5f 10px,\n      #3f51b5 10px,\n      #3f51b5 20px\n    ),\n    repeating-linear-gradient(\n      45deg,\n      #3f51b5,\n      #3f51b5 10px,\n      #ff7e5f 10px,\n      #ff7e5f 20px\n    ),\n    repeating-linear-gradient(\n      -30deg,\n      #3f51b5,\n      #3f51b5 10px,\n      #ff7e5f 10px,\n      #ff7e5f 20px\n    ),\n    repeating-linear-gradient(\n      30deg,\n      #ff7e5f,\n      #ff7e5f 10px,\n      #3f51b5 10px,\n      #3f51b5 20px\n    );\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "bad-starfish-74-by-shoh2008",
+ "name": "Bad Starfish 74",
+ "category": "radio-buttons",
+ "author": "Shoh2008",
+ "source": "https://uiverse.io/Shoh2008/bad-starfish-74",
+ "trigger": "checked",
+ "description": "A radio button with radio styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "radio",
+  "radio-buttons",
+  "checked"
+ ],
+ "html": "<div class=\"radio-input\">\n  <input name=\"radio\" type=\"radio\" class=\"input\" checked=\"\">\n  <input name=\"radio\" type=\"radio\" class=\"input\">\n  <input name=\"radio\" type=\"radio\" class=\"input\">\n</div>",
+ "css": "/* From Uiverse.io by Shoh2008 - Tags: radio */\n.input {\n  -webkit-appearance: none;\n /* remove default */\n  display: block;\n  margin: 10px;\n  width: 24px;\n  height: 24px;\n  border-radius: 12px;\n  cursor: pointer;\n  vertical-align: middle;\n  box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;\n  background-color: hsla(0,0%,0%,.2);\n  background-image: -webkit-radial-gradient( hsla(200,100%,90%,1) 0%, hsla(200,100%,70%,1) 15%, hsla(200,100%,60%,.3) 28%, hsla(200,100%,30%,0) 70% );\n  background-repeat: no-repeat;\n  -webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),\n    -webkit-transform .25s cubic-bezier(.8, 0, 1, 1);\n  outline: none;\n}\n\n.input:checked {\n  -webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),\n    -webkit-transform .25s cubic-bezier(0, 0, .2, 1);\n}\n\n.input:active {\n  -webkit-transform: scale(1.5);\n  -webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);\n}\n\n\n\n/* The up/down direction logic */\n\n.input,\n.input:active {\n  background-position: 0 24px;\n}\n\n.input:checked {\n  background-position: 0 0;\n}\n\n.input:checked ~ .input,\n.input:checked ~ .input:active {\n  background-position: 0 -24px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bad Starfish 74</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/bad-starfish-74 */\n/* From Uiverse.io by Shoh2008 - Tags: radio */\n.input {\n  -webkit-appearance: none;\n /* remove default */\n  display: block;\n  margin: 10px;\n  width: 24px;\n  height: 24px;\n  border-radius: 12px;\n  cursor: pointer;\n  vertical-align: middle;\n  box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;\n  background-color: hsla(0,0%,0%,.2);\n  background-image: -webkit-radial-gradient( hsla(200,100%,90%,1) 0%, hsla(200,100%,70%,1) 15%, hsla(200,100%,60%,.3) 28%, hsla(200,100%,30%,0) 70% );\n  background-repeat: no-repeat;\n  -webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),\n    -webkit-transform .25s cubic-bezier(.8, 0, 1, 1);\n  outline: none;\n}\n\n.input:checked {\n  -webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),\n    -webkit-transform .25s cubic-bezier(0, 0, .2, 1);\n}\n\n.input:active {\n  -webkit-transform: scale(1.5);\n  -webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);\n}\n\n\n\n/* The up/down direction logic */\n\n.input,\n.input:active {\n  background-position: 0 24px;\n}\n\n.input:checked {\n  background-position: 0 0;\n}\n\n.input:checked ~ .input,\n.input:checked ~ .input:active {\n  background-position: 0 -24px;\n}\n</style>\n</head>\n<body>\n<div class=\"radio-input\">\n  <input name=\"radio\" type=\"radio\" class=\"input\" checked=\"\">\n  <input name=\"radio\" type=\"radio\" class=\"input\">\n  <input name=\"radio\" type=\"radio\" class=\"input\">\n</div>\n</body>\n</html>\n"
+}

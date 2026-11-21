@@ -1,0 +1,19 @@
+{
+ "id": "black-impala-70-by-jaydipprajapati1910",
+ "name": "Black Impala 70",
+ "category": "inputs",
+ "author": "JaydipPrajapati1910",
+ "source": "https://uiverse.io/JaydipPrajapati1910/black-impala-70",
+ "trigger": "focus",
+ "description": "A input with animation and input-effect styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "animation",
+  "input",
+  "input-effect",
+  "focus"
+ ],
+ "html": "<input class=\"input\" name=\"text\" type=\"text\" placeholder=\"Name\">",
+ "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, input, input effect  */\n.input {\n  max-width: 190px;\n  border: none;\n  outline: none;\n  background: none;\n  font-size: 18px;\n  color: #fff;\n  padding: 15px 5px 10px 20px;\n  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),\n    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));\n  background-position: bottom right, bottom right;\n  background-size: 100% 100%, 100% 100%;\n  background-repeat: no-repeat;\n  box-shadow: inset -4px -10px 0px rgba(255, 255, 255, 0.4),\n    inset -4px -8px 0px rgba(0, 0, 0, 0.3),\n    0px 2px 1px rgba(0, 0, 0, 0.3),\n    0px 2px 1px rgba(255, 255, 255, 0.1);\n  transform: perspective(70px) rotateX(5deg) rotateY(0deg);\n  border-radius: 10px;\n}\n\n.input::before {\n  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),\n    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));\n  background-position: bottom right, bottom right;\n  background-size: 100% 100%, 100% 100%;\n  background-repeat: no-repeat;\n  z-index: -1;\n  border-radius: 15px;\n  transition: all .1s ease-in-out 0s;\n}\n\n.input:focus {\n  border: 2px solid #c3c6ce;\n}\n\n.input::placeholder {\n  color: #fff;\n  transition: all 0.3s ease;\n}\n\n.input:focus::placeholder {\n  color: #999;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Black Impala 70</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/black-impala-70 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: animation, input, input effect  */\n.input {\n  max-width: 190px;\n  border: none;\n  outline: none;\n  background: none;\n  font-size: 18px;\n  color: #fff;\n  padding: 15px 5px 10px 20px;\n  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),\n    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));\n  background-position: bottom right, bottom right;\n  background-size: 100% 100%, 100% 100%;\n  background-repeat: no-repeat;\n  box-shadow: inset -4px -10px 0px rgba(255, 255, 255, 0.4),\n    inset -4px -8px 0px rgba(0, 0, 0, 0.3),\n    0px 2px 1px rgba(0, 0, 0, 0.3),\n    0px 2px 1px rgba(255, 255, 255, 0.1);\n  transform: perspective(70px) rotateX(5deg) rotateY(0deg);\n  border-radius: 10px;\n}\n\n.input::before {\n  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),\n    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));\n  background-position: bottom right, bottom right;\n  background-size: 100% 100%, 100% 100%;\n  background-repeat: no-repeat;\n  z-index: -1;\n  border-radius: 15px;\n  transition: all .1s ease-in-out 0s;\n}\n\n.input:focus {\n  border: 2px solid #c3c6ce;\n}\n\n.input::placeholder {\n  color: #fff;\n  transition: all 0.3s ease;\n}\n\n.input:focus::placeholder {\n  color: #999;\n}\n</style>\n</head>\n<body>\n<input class=\"input\" name=\"text\" type=\"text\" placeholder=\"Name\">\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "lucky-donkey-6-by-adamgiebl",
+ "name": "Lucky Donkey 6",
+ "category": "buttons",
+ "author": "adamgiebl",
+ "source": "https://uiverse.io/adamgiebl/lucky-donkey-6",
+ "trigger": "hover",
+ "description": "A button with neumorphism styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "neumorphism",
+  "button",
+  "hover"
+ ],
+ "html": "<button> Button\n</button>",
+ "css": "/* From Uiverse.io by adamgiebl - Tags: neumorphism, button */\nbutton {\n  color: #090909;\n  padding: 0.7em 1.7em;\n  font-size: 18px;\n  border-radius: 0.5em;\n  background: #e8e8e8;\n  border: 1px solid #e8e8e8;\n  transition: all .3s;\n  box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\nbutton:hover {\n  border: 1px solid white;\n}\n\nbutton:active {\n  box-shadow: 4px 4px 12px #c5c5c5,\n             -4px -4px 12px #ffffff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lucky Donkey 6</title>\n<style>\n/* From Uiverse.io by adamgiebl - https://uiverse.io/adamgiebl/lucky-donkey-6 */\n/* From Uiverse.io by adamgiebl - Tags: neumorphism, button */\nbutton {\n  color: #090909;\n  padding: 0.7em 1.7em;\n  font-size: 18px;\n  border-radius: 0.5em;\n  background: #e8e8e8;\n  border: 1px solid #e8e8e8;\n  transition: all .3s;\n  box-shadow: 6px 6px 12px #c5c5c5,\n             -6px -6px 12px #ffffff;\n}\n\nbutton:hover {\n  border: 1px solid white;\n}\n\nbutton:active {\n  box-shadow: 4px 4px 12px #c5c5c5,\n             -4px -4px 12px #ffffff;\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n</body>\n</html>\n"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "strong-bullfrog-56-by-sujitadroja",
+ "name": "Strong Bullfrog 56",
+ "category": "buttons",
+ "author": "SujitAdroja",
+ "source": "https://uiverse.io/SujitAdroja/strong-bullfrog-56",
+ "trigger": "hover",
+ "description": "A button with simple, material-design and hover-effect styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "material-design",
+  "button",
+  "hover-effect",
+  "hoverme",
+  "hover-button"
+ ],
+ "html": "<button class=\"btn\">Hover Me</button>",
+ "css": "/* From Uiverse.io by SujitAdroja  - Tags: simple, material design, button, hover effect, hoverme, hover button, button hover effect , button hover */\n.btn {\n  position: relative;\n  background: none;\n  border: 2px solid black;\n  font-size: 1.2rem;\n  padding: 1rem 2rem;\n  border-radius: 0.5rem;\n  transition: all 0.3s;\n}\n.btn::before {\n  content: \"\";\n  height: 0%;\n  width: 0%;\n  border-radius: 50%;\n  top: 50%;\n  left: 50%;\n  z-index: -1;\n  position: absolute;\n  background-color: #494958;\n  transition: all 0.3s;\n}\n.btn:hover {\n  border: 2px solid #32323c;\n  color: white;\n}\n.btn:hover::before {\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  border-radius: 0.3rem;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strong Bullfrog 56</title>\n<style>\n/* From Uiverse.io by SujitAdroja - https://uiverse.io/SujitAdroja/strong-bullfrog-56 */\n/* From Uiverse.io by SujitAdroja  - Tags: simple, material design, button, hover effect, hoverme, hover button, button hover effect , button hover */\n.btn {\n  position: relative;\n  background: none;\n  border: 2px solid black;\n  font-size: 1.2rem;\n  padding: 1rem 2rem;\n  border-radius: 0.5rem;\n  transition: all 0.3s;\n}\n.btn::before {\n  content: \"\";\n  height: 0%;\n  width: 0%;\n  border-radius: 50%;\n  top: 50%;\n  left: 50%;\n  z-index: -1;\n  position: absolute;\n  background-color: #494958;\n  transition: all 0.3s;\n}\n.btn:hover {\n  border: 2px solid #32323c;\n  color: white;\n}\n.btn:hover::before {\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  border-radius: 0.3rem;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">Hover Me</button>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "fresh-frog-39-by-satyamchaudharydev",
+ "name": "Fresh Frog 39",
+ "category": "loaders",
+ "author": "satyamchaudharydev",
+ "source": "https://uiverse.io/satyamchaudharydev/fresh-frog-39",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"spinner\">\n  <span></span>\n  <span></span>\n  <span></span>\n</div>",
+ "css": "/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.spinner {\n --clr: rgb(0, 113, 128);\n --gap: 6px;\n   /* gap between each circle */\n width: 100px;\n height: 100px;\n display: flex;\n justify-content: center;\n align-items: center;\n gap: var(--gap);\n}\n\n.spinner span {\n width: 20px;\n height: 20px;\n border-radius: 100%;\n background-color: var(--clr);\n opacity: 0;\n}\n\n.spinner span:nth-child(1) {\n animation: fade 1s ease-in-out infinite;\n}\n\n.spinner span:nth-child(2) {\n animation: fade 1s ease-in-out 0.33s infinite;\n}\n\n.spinner span:nth-child(3) {\n animation: fade 1s ease-in-out 0.66s infinite;\n}\n\n@keyframes fade {\n 0%, 100% {\n  opacity: 1;\n }\n\n 60% {\n  opacity: 0;\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fresh Frog 39</title>\n<style>\n/* From Uiverse.io by satyamchaudharydev - https://uiverse.io/satyamchaudharydev/fresh-frog-39 */\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.spinner {\n --clr: rgb(0, 113, 128);\n --gap: 6px;\n   /* gap between each circle */\n width: 100px;\n height: 100px;\n display: flex;\n justify-content: center;\n align-items: center;\n gap: var(--gap);\n}\n\n.spinner span {\n width: 20px;\n height: 20px;\n border-radius: 100%;\n background-color: var(--clr);\n opacity: 0;\n}\n\n.spinner span:nth-child(1) {\n animation: fade 1s ease-in-out infinite;\n}\n\n.spinner span:nth-child(2) {\n animation: fade 1s ease-in-out 0.33s infinite;\n}\n\n.spinner span:nth-child(3) {\n animation: fade 1s ease-in-out 0.66s infinite;\n}\n\n@keyframes fade {\n 0%, 100% {\n  opacity: 1;\n }\n\n 60% {\n  opacity: 0;\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\">\n  <span></span>\n  <span></span>\n  <span></span>\n</div>\n</body>\n</html>\n"
+}

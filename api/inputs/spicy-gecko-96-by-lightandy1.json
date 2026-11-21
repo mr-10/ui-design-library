@@ -1,0 +1,21 @@
+{
+ "id": "spicy-gecko-96-by-lightandy1",
+ "name": "Spicy Gecko 96",
+ "category": "inputs",
+ "author": "LightAndy1",
+ "source": "https://uiverse.io/LightAndy1/spicy-gecko-96",
+ "trigger": "hover",
+ "description": "A input with simple, animation and login styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "animation",
+  "login",
+  "email",
+  "input",
+  "dark"
+ ],
+ "html": "<input class=\"input\" placeholder=\"Email\" type=\"email\">",
+ "css": "/* From Uiverse.io by LightAndy1 - Source: Cohen - https://uiverse.io/cohencoo/proud-husky-84 - Tags: simple, animation, login, email, input, dark */\n.input {\n  margin-top: 1rem;\n  border-radius: 10px;\n  outline: 2px solid #00a6fb;\n  border: 0;\n  font-family: \"Montserrat\", sans-serif;\n  background-color: #d6f1ff;\n  outline-offset: 3px;\n  padding: 10px 12.5px;\n  transition: all 0.2s ease;\n  width: 250px;\n}\n\n.input:hover {\n  background-color: #fff;\n}\n\n.input:focus {\n  outline-offset: -6px;\n  background-color: #d6f1ff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spicy Gecko 96</title>\n<style>\n/* From Uiverse.io by LightAndy1 - https://uiverse.io/LightAndy1/spicy-gecko-96 */\n/* From Uiverse.io by LightAndy1 - Source: Cohen - https://uiverse.io/cohencoo/proud-husky-84 - Tags: simple, animation, login, email, input, dark */\n.input {\n  margin-top: 1rem;\n  border-radius: 10px;\n  outline: 2px solid #00a6fb;\n  border: 0;\n  font-family: \"Montserrat\", sans-serif;\n  background-color: #d6f1ff;\n  outline-offset: 3px;\n  padding: 10px 12.5px;\n  transition: all 0.2s ease;\n  width: 250px;\n}\n\n.input:hover {\n  background-color: #fff;\n}\n\n.input:focus {\n  outline-offset: -6px;\n  background-color: #d6f1ff;\n}\n</style>\n</head>\n<body>\n<input class=\"input\" placeholder=\"Email\" type=\"email\">\n</body>\n</html>\n"
+}

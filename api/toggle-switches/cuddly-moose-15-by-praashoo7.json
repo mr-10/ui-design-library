@@ -1,0 +1,20 @@
+{
+ "id": "cuddly-moose-15-by-praashoo7",
+ "name": "Cuddly Moose 15",
+ "category": "toggle-switches",
+ "author": "Praashoo7",
+ "source": "https://uiverse.io/Praashoo7/cuddly-moose-15",
+ "trigger": "checked",
+ "description": "A toggle switch with switch, rounded and smooth styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "rounded",
+  "smooth",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<label class=\"switch\">\n  <input class=\"chk\" type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>",
+ "css": "/* From Uiverse.io by Praashoo7 - Tags: switch, rounded, smooth */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 2em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch .chk {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: .4s;\n  border-radius: 50%;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 2.5px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: .4s;\n  scale: 0;\n}\n\n.chk:checked + .slider {\n  background-color: limegreen;\n  transform: scale(0.7);\n  border-radius: 50%;\n}\n\n.chk:checked + .slider:before {\n  transform: rotateZ(360deg);\n  scale: 1;\n  border-radius: 50%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Moose 15</title>\n<style>\n/* From Uiverse.io by Praashoo7 - https://uiverse.io/Praashoo7/cuddly-moose-15 */\n/* From Uiverse.io by Praashoo7 - Tags: switch, rounded, smooth */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 2em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch .chk {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: .4s;\n  border-radius: 50%;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 2.5px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: .4s;\n  scale: 0;\n}\n\n.chk:checked + .slider {\n  background-color: limegreen;\n  transform: scale(0.7);\n  border-radius: 50%;\n}\n\n.chk:checked + .slider:before {\n  transform: rotateZ(360deg);\n  scale: 1;\n  border-radius: 50%;\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input class=\"chk\" type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+}

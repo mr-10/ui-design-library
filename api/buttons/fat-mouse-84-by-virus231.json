@@ -1,0 +1,20 @@
+{
+ "id": "fat-mouse-84-by-virus231",
+ "name": "Fat Mouse 84",
+ "category": "buttons",
+ "author": "virus231",
+ "source": "https://uiverse.io/virus231/fat-mouse-84",
+ "trigger": "hover",
+ "description": "A button with gradients, hover-effect and advanced styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "gradients",
+  "hover-effect",
+  "advanced",
+  "hover"
+ ],
+ "html": "<button class=\"button\">Button</button>",
+ "css": "/* From Uiverse.io by virus231  - Tags: button, gradients, hover effect, advanced */\n.button {\n  background: linear-gradient(140.14deg, #ec540e 15.05%, #d6361f 114.99%)\n      padding-box,\n    linear-gradient(142.51deg, #ff9465 8.65%, #af1905 88.82%) border-box;\n  border-radius: 7px;\n  border: 2px solid transparent;\n\n  text-shadow: 1px 1px 1px #00000040;\n  box-shadow: 8px 8px 20px 0px #45090059;\n\n  padding: 10px 40px;\n  line-height: 20px;\n  cursor: pointer;\n  transition: all 0.3s;\n  color: white;\n  font-size: 18px;\n  font-weight: 500;\n}\n\n.button:hover {\n  box-shadow: none;\n  opacity: 80%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Mouse 84</title>\n<style>\n/* From Uiverse.io by virus231 - https://uiverse.io/virus231/fat-mouse-84 */\n/* From Uiverse.io by virus231  - Tags: button, gradients, hover effect, advanced */\n.button {\n  background: linear-gradient(140.14deg, #ec540e 15.05%, #d6361f 114.99%)\n      padding-box,\n    linear-gradient(142.51deg, #ff9465 8.65%, #af1905 88.82%) border-box;\n  border-radius: 7px;\n  border: 2px solid transparent;\n\n  text-shadow: 1px 1px 1px #00000040;\n  box-shadow: 8px 8px 20px 0px #45090059;\n\n  padding: 10px 40px;\n  line-height: 20px;\n  cursor: pointer;\n  transition: all 0.3s;\n  color: white;\n  font-size: 18px;\n  font-weight: 500;\n}\n\n.button:hover {\n  box-shadow: none;\n  opacity: 80%;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Button</button>\n</body>\n</html>\n"
+}

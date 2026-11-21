@@ -1,0 +1,19 @@
+{
+ "id": "stale-catfish-69-by-adamgiebl",
+ "name": "Stale Catfish 69",
+ "category": "cards",
+ "author": "adamgiebl",
+ "source": "https://uiverse.io/adamgiebl/stale-catfish-69",
+ "trigger": "static",
+ "description": "A card with form and hover styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "form",
+  "card",
+  "hover",
+  "static"
+ ],
+ "html": "<div class=\"card\">\n  <div class=\"card-content\">Test</div>\n</div>",
+ "css": "/* From Uiverse.io by adamgiebl  - Tags: form, card, hover */\n.card {\n  width: 190px;\n  background: lightgrey;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stale Catfish 69</title>\n<style>\n/* From Uiverse.io by adamgiebl - https://uiverse.io/adamgiebl/stale-catfish-69 */\n/* From Uiverse.io by adamgiebl  - Tags: form, card, hover */\n.card {\n  width: 190px;\n  background: lightgrey;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card-content\">Test</div>\n</div>\n</body>\n</html>\n"
+}

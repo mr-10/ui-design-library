@@ -1,0 +1,19 @@
+{
+ "id": "massive-tiger-88-by-ratinax",
+ "name": "Massive Tiger 88",
+ "category": "buttons",
+ "author": "Ratinax",
+ "source": "https://uiverse.io/Ratinax/massive-tiger-88",
+ "trigger": "active",
+ "description": "A button with simple and red styling.",
+ "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "tags": [
+  "simple",
+  "red",
+  "button",
+  "active"
+ ],
+ "html": "<div class=\"container\">\n  <button class=\"button\">\n    Button\n  </button>\n</div>",
+ "css": "/* From Uiverse.io by Ratinax - Tags: simple, red, button, active */\n.container {\n  position: relative;\n  width: 4.5em;\n  height: 4em;\n  background-color: red;\n  overflow: hidden;\n  border-radius: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  scale: 2;\n  box-shadow: 0 .5em #AA1111;\n}\n\n.button {\n  cursor: pointer;\n  position: absolute;\n  text-transform: uppercase;\n  height: 110%;\n  width: 110%;\n  background-color: red;\n  color: white;\n  text-shadow: 0 0.1em 0.1em black;\n}\n\n.container:has(.button:active) {\n  box-shadow: none;\n  margin-top: 2em;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Massive Tiger 88</title>\n<style>\n/* From Uiverse.io by Ratinax - https://uiverse.io/Ratinax/massive-tiger-88 */\n/* From Uiverse.io by Ratinax - Tags: simple, red, button, active */\n.container {\n  position: relative;\n  width: 4.5em;\n  height: 4em;\n  background-color: red;\n  overflow: hidden;\n  border-radius: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  scale: 2;\n  box-shadow: 0 .5em #AA1111;\n}\n\n.button {\n  cursor: pointer;\n  position: absolute;\n  text-transform: uppercase;\n  height: 110%;\n  width: 110%;\n  background-color: red;\n  color: white;\n  text-shadow: 0 0.1em 0.1em black;\n}\n\n.container:has(.button:active) {\n  box-shadow: none;\n  margin-top: 2em;\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <button class=\"button\">\n    Button\n  </button>\n</div>\n</body>\n</html>\n"
+}

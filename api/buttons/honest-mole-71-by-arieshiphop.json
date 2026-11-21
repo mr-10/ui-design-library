@@ -1,0 +1,18 @@
+{
+ "id": "honest-mole-71-by-arieshiphop",
+ "name": "Honest Mole 71",
+ "category": "buttons",
+ "author": "arieshiphop",
+ "source": "https://uiverse.io/arieshiphop/honest-mole-71",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button> Button\n</button>",
+ "css": "/* From Uiverse.io by arieshiphop - Tags: button */\nbutton {\n font-size: 17px;\n padding: 0.5em 2em;\n border: transparent;\n box-shadow: 2px 2px 4px rgba(0,0,0,0.4);\n background: dodgerblue;\n color: white;\n border-radius: 4px;\n}\n\nbutton:hover {\n background: rgb(2,0,36);\n background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);\n}\n\nbutton:active {\n transform: translate(0em, 0.2em);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Honest Mole 71</title>\n<style>\n/* From Uiverse.io by arieshiphop - https://uiverse.io/arieshiphop/honest-mole-71 */\n/* From Uiverse.io by arieshiphop - Tags: button */\nbutton {\n font-size: 17px;\n padding: 0.5em 2em;\n border: transparent;\n box-shadow: 2px 2px 4px rgba(0,0,0,0.4);\n background: dodgerblue;\n color: white;\n border-radius: 4px;\n}\n\nbutton:hover {\n background: rgb(2,0,36);\n background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);\n}\n\nbutton:active {\n transform: translate(0em, 0.2em);\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n</body>\n</html>\n"
+}

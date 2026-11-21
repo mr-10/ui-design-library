@@ -1,0 +1,20 @@
+{
+ "id": "hungry-otter-56-by-priyanshugupta28",
+ "name": "Hungry Otter 56",
+ "category": "inputs",
+ "author": "PriyanshuGupta28",
+ "source": "https://uiverse.io/PriyanshuGupta28/hungry-otter-56",
+ "trigger": "checked",
+ "description": "A input with rating, rating-button and start-rating styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "input",
+  "rating",
+  "rating-button",
+  "start-rating",
+  "checked"
+ ],
+ "html": "<div class=\"rating\">\n  <input value=\"5\" name=\"rating\" id=\"star5\" type=\"radio\">\n  <label for=\"star5\"></label>\n  <input value=\"4\" name=\"rating\" id=\"star4\" type=\"radio\">\n  <label for=\"star4\"></label>\n  <input value=\"3\" name=\"rating\" id=\"star3\" type=\"radio\">\n  <label for=\"star3\"></label>\n  <input value=\"2\" name=\"rating\" id=\"star2\" type=\"radio\">\n  <label for=\"star2\"></label>\n  <input value=\"1\" name=\"rating\" id=\"star1\" type=\"radio\">\n  <label for=\"star1\"></label>\n</div>",
+ "css": "/* From Uiverse.io by PriyanshuGupta28 - Tags: input, rating, Rating Button, start rating */\n.rating {\n  display: flex;\n  flex-direction: row-reverse;\n /* Reverse the order of the stars */\n  font-size: 0;\n /* Remove the space between the elements */\n}\n\n.rating input[type=\"radio\"] {\n  display: none;\n /* Hide the radio buttons */\n}\n\n.rating label {\n  font-size: 30px;\n  color: rgba(187, 183, 183, 0.726);\n /* Empty star color */\n  margin: 0 2px;\n  cursor: pointer;\n}\n\n.rating label:before {\n  content: \"\\2605\";\n /* Unicode character for filled star */\n}\n\n.rating input[type=\"radio\"]:checked ~ label:before {\n  content: \"\\2606\";\n /* Unicode character for empty star */\n  color: #016bf5;\n /* Filled star color */\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Otter 56</title>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - https://uiverse.io/PriyanshuGupta28/hungry-otter-56 */\n/* From Uiverse.io by PriyanshuGupta28 - Tags: input, rating, Rating Button, start rating */\n.rating {\n  display: flex;\n  flex-direction: row-reverse;\n /* Reverse the order of the stars */\n  font-size: 0;\n /* Remove the space between the elements */\n}\n\n.rating input[type=\"radio\"] {\n  display: none;\n /* Hide the radio buttons */\n}\n\n.rating label {\n  font-size: 30px;\n  color: rgba(187, 183, 183, 0.726);\n /* Empty star color */\n  margin: 0 2px;\n  cursor: pointer;\n}\n\n.rating label:before {\n  content: \"\\2605\";\n /* Unicode character for filled star */\n}\n\n.rating input[type=\"radio\"]:checked ~ label:before {\n  content: \"\\2606\";\n /* Unicode character for empty star */\n  color: #016bf5;\n /* Filled star color */\n}\n</style>\n</head>\n<body>\n<div class=\"rating\">\n  <input value=\"5\" name=\"rating\" id=\"star5\" type=\"radio\">\n  <label for=\"star5\"></label>\n  <input value=\"4\" name=\"rating\" id=\"star4\" type=\"radio\">\n  <label for=\"star4\"></label>\n  <input value=\"3\" name=\"rating\" id=\"star3\" type=\"radio\">\n  <label for=\"star3\"></label>\n  <input value=\"2\" name=\"rating\" id=\"star2\" type=\"radio\">\n  <label for=\"star2\"></label>\n  <input value=\"1\" name=\"rating\" id=\"star1\" type=\"radio\">\n  <label for=\"star1\"></label>\n</div>\n</body>\n</html>\n"
+}

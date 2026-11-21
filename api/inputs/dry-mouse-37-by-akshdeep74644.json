@@ -1,0 +1,18 @@
+{
+ "id": "dry-mouse-37-by-akshdeep74644",
+ "name": "Dry Mouse 37",
+ "category": "inputs",
+ "author": "Akshdeep74644",
+ "source": "https://uiverse.io/Akshdeep74644/dry-mouse-37",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<section>\n    <div class=\"input-group\">\n        <input class=\"input\" autocomplete=\"off\" name=\"text\" type=\"text\" required=\"\">\n        <label class=\"user-label\">Full Name</label>\n    </div>\n</section>",
+ "css": "/* From Uiverse.io by Akshdeep74644 - Tags: input */\n.input-group {\n  position: relative;\n}\n\n.input {\n  border: 3px solid #000;\n  background: none;\n  padding: 1rem;\n  font-size: 1rem;\n  color: black;\n}\n\n.user-label {\n  position: absolute;\n  left: 15px;\n  color: #000;\n  pointer-events: none;\n  transform: translateY(1rem);\n  transition: 350ms;\n}\n\n.input:focus,\ninput:valid {\n  outline: none;\n  --angle: 0deg;\n  border-bottom: 3px solid;\n  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;\n  animation: 3s rotate9234 linear infinite;\n}\n\n@keyframes rotate9234 {\n  to {\n    --angle: 360deg;\n  }\n}\n\n@property --angle {\n  syntax: '<angle>';\n  initial-value: 0deg;\n  inherits: false;\n}\n\n.input:focus~label,\ninput:valid~label {\n  transform: translateY(235%) scale(1);\n  background-color: #e8e8e8;\n  padding: 0 .2em;\n  color: #2196f3;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Mouse 37</title>\n<style>\n/* From Uiverse.io by Akshdeep74644 - https://uiverse.io/Akshdeep74644/dry-mouse-37 */\n/* From Uiverse.io by Akshdeep74644 - Tags: input */\n.input-group {\n  position: relative;\n}\n\n.input {\n  border: 3px solid #000;\n  background: none;\n  padding: 1rem;\n  font-size: 1rem;\n  color: black;\n}\n\n.user-label {\n  position: absolute;\n  left: 15px;\n  color: #000;\n  pointer-events: none;\n  transform: translateY(1rem);\n  transition: 350ms;\n}\n\n.input:focus,\ninput:valid {\n  outline: none;\n  --angle: 0deg;\n  border-bottom: 3px solid;\n  border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;\n  animation: 3s rotate9234 linear infinite;\n}\n\n@keyframes rotate9234 {\n  to {\n    --angle: 360deg;\n  }\n}\n\n@property --angle {\n  syntax: '<angle>';\n  initial-value: 0deg;\n  inherits: false;\n}\n\n.input:focus~label,\ninput:valid~label {\n  transform: translateY(235%) scale(1);\n  background-color: #e8e8e8;\n  padding: 0 .2em;\n  color: #2196f3;\n}\n</style>\n</head>\n<body>\n<section>\n    <div class=\"input-group\">\n        <input class=\"input\" autocomplete=\"off\" name=\"text\" type=\"text\" required=\"\">\n        <label class=\"user-label\">Full Name</label>\n    </div>\n</section>\n</body>\n</html>\n"
+}

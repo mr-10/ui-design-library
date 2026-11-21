@@ -1,0 +1,18 @@
+{
+ "id": "happy-mole-82-by-cybercom682",
+ "name": "Happy Mole 82",
+ "category": "loaders",
+ "author": "Cybercom682",
+ "source": "https://uiverse.io/Cybercom682/happy-mole-82",
+ "trigger": "static",
+ "description": "A loader UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "loaders",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Cybercom682  - Tags: loader, spinner, circle, clean, circle loader, spin -->\n<div class=\"text-center\">\n  <div\n    class=\"w-16 h-16 border-4 border-dashed rounded-full animate-spin border-yellow-500 mx-auto\"\n  ></div>\n  <h2 class=\"text-zinc-900 dark:text-white mt-4\">Loading...</h2>\n  <p class=\"text-zinc-600 dark:text-zinc-400\">\n    Your adventure is about to begin\n  </p>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Happy Mole 82</title>\n<style>\n/* From Uiverse.io by Cybercom682 - https://uiverse.io/Cybercom682/happy-mole-82 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Cybercom682  - Tags: loader, spinner, circle, clean, circle loader, spin -->\n<div class=\"text-center\">\n  <div\n    class=\"w-16 h-16 border-4 border-dashed rounded-full animate-spin border-yellow-500 mx-auto\"\n  ></div>\n  <h2 class=\"text-zinc-900 dark:text-white mt-4\">Loading...</h2>\n  <p class=\"text-zinc-600 dark:text-zinc-400\">\n    Your adventure is about to begin\n  </p>\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "mean-bobcat-66-by-jkhuger",
+ "name": "Mean Bobcat 66",
+ "category": "loaders",
+ "author": "JkHuger",
+ "source": "https://uiverse.io/JkHuger/mean-bobcat-66",
+ "trigger": "auto-loop",
+ "description": "A loader with animation, text and writing styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "animation",
+  "text",
+  "writing",
+  "loaders",
+  "auto-loop"
+ ],
+ "html": "<div class=\"animation\">Text writing!</div>",
+ "css": "/* From Uiverse.io by JkHuger - Tags: animation, text, writing */\n@keyframes typing {\n  from {\n    width: 0;\n  }\n}\n\n@keyframes blink-caret {\n  50% {\n    border-color: transparent;\n  }\n}\n/* When you change the amount of characters in the h1, you have to change \nthe with: 14ch and  steps(14, end), if there is 14 characters, put 14, \nif there is 20 put 20 */\n.animation {\n  font: bold 200% Consolas, Monaco, monospace;\n  border-right: .1em solid black;\n  width: 13.20ch;\n  margin: 2em 2em;\n  white-space: nowrap;\n  overflow: hidden;\n  -webkit-animation: typing 5s steps(13, end),\n\t           blink-caret .5s step-end infinite alternate;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mean Bobcat 66</title>\n<style>\n/* From Uiverse.io by JkHuger - https://uiverse.io/JkHuger/mean-bobcat-66 */\n/* From Uiverse.io by JkHuger - Tags: animation, text, writing */\n@keyframes typing {\n  from {\n    width: 0;\n  }\n}\n\n@keyframes blink-caret {\n  50% {\n    border-color: transparent;\n  }\n}\n/* When you change the amount of characters in the h1, you have to change \nthe with: 14ch and  steps(14, end), if there is 14 characters, put 14, \nif there is 20 put 20 */\n.animation {\n  font: bold 200% Consolas, Monaco, monospace;\n  border-right: .1em solid black;\n  width: 13.20ch;\n  margin: 2em 2em;\n  white-space: nowrap;\n  overflow: hidden;\n  -webkit-animation: typing 5s steps(13, end),\n\t           blink-caret .5s step-end infinite alternate;\n}\n</style>\n</head>\n<body>\n<div class=\"animation\">Text writing!</div>\n</body>\n</html>\n"
+}

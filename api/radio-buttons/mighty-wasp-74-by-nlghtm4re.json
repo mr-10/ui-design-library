@@ -1,0 +1,18 @@
+{
+ "id": "mighty-wasp-74-by-nlghtm4re",
+ "name": "Mighty Wasp 74",
+ "category": "radio-buttons",
+ "author": "NlghtM4re",
+ "source": "https://uiverse.io/NlghtM4re/mighty-wasp-74",
+ "trigger": "checked",
+ "description": "A radio button with radio styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "radio",
+  "radio-buttons",
+  "checked"
+ ],
+ "html": "<div class=\"radio-buttons\">\n  <label>\n    <input type=\"radio\" name=\"option\" value=\"1\" checked=\"\">\n    <span class=\"option\">Option 1</span>\n  </label>\n  <label>\n    <input type=\"radio\" name=\"option\" value=\"2\">\n    <span class=\"option\">Option 2</span>\n  </label>\n  <label>\n    <input type=\"radio\" name=\"option\" value=\"3\">\n    <span class=\"option\">Option 3</span>\n  </label>\n</div>",
+ "css": "/* From Uiverse.io by NlghtM4re - Tags: radio */\n.radio-buttons {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: rgb(164, 215, 246);\n  border-radius: 15px;\n  box-shadow: rgb(71, 175, 239) 0px 5px 29px 5px;\n}\n\n.radio-buttons label {\n  position: relative;\n  cursor: pointer;\n}\n\n.radio-buttons input[type=\"radio\"] {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n}\n\n.option {\n  position: relative;\n  display: inline-block;\n  padding-top: 10px;\n  padding-bottom: 10px;\n  border: none;\n  color: black;\n  border-radius: 14px;\n  padding: 10px;\n}\n\n.option:hover {\n  background-color: rgb(137, 207, 251);\n}\n\n.radio-buttons input[type=\"radio\"]:checked + .option {\n  background-color: rgb(71, 175, 239);\n  box-shadow: rgb(11, 70, 107) 0px 5px 29px 5px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mighty Wasp 74</title>\n<style>\n/* From Uiverse.io by NlghtM4re - https://uiverse.io/NlghtM4re/mighty-wasp-74 */\n/* From Uiverse.io by NlghtM4re - Tags: radio */\n.radio-buttons {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: rgb(164, 215, 246);\n  border-radius: 15px;\n  box-shadow: rgb(71, 175, 239) 0px 5px 29px 5px;\n}\n\n.radio-buttons label {\n  position: relative;\n  cursor: pointer;\n}\n\n.radio-buttons input[type=\"radio\"] {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n}\n\n.option {\n  position: relative;\n  display: inline-block;\n  padding-top: 10px;\n  padding-bottom: 10px;\n  border: none;\n  color: black;\n  border-radius: 14px;\n  padding: 10px;\n}\n\n.option:hover {\n  background-color: rgb(137, 207, 251);\n}\n\n.radio-buttons input[type=\"radio\"]:checked + .option {\n  background-color: rgb(71, 175, 239);\n  box-shadow: rgb(11, 70, 107) 0px 5px 29px 5px;\n}\n</style>\n</head>\n<body>\n<div class=\"radio-buttons\">\n  <label>\n    <input type=\"radio\" name=\"option\" value=\"1\" checked=\"\">\n    <span class=\"option\">Option 1</span>\n  </label>\n  <label>\n    <input type=\"radio\" name=\"option\" value=\"2\">\n    <span class=\"option\">Option 2</span>\n  </label>\n  <label>\n    <input type=\"radio\" name=\"option\" value=\"3\">\n    <span class=\"option\">Option 3</span>\n  </label>\n</div>\n</body>\n</html>\n"
+}

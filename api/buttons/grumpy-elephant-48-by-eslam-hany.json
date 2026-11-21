@@ -1,0 +1,18 @@
+{
+ "id": "grumpy-elephant-48-by-eslam-hany",
+ "name": "Grumpy Elephant 48",
+ "category": "buttons",
+ "author": "eslam-hany",
+ "source": "https://uiverse.io/eslam-hany/grumpy-elephant-48",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"btn\">\n  Button\n</button>",
+ "css": "/* From Uiverse.io by eslam-hany - Tags: button */\n.btn {\n  position: relative;\n  padding: 10px 50px;\n  font-size: 20px;\n  border: 1px solid #002B5B;\n  text-transform: uppercase;\n  cursor: pointer;\n  border-radius: 15px;\n  transition: all 0.5s;\n  z-index: 1;\n}\n\n.btn:hover {\n  transform: scale(1.1);\n  color: #fff;\n  transition: all 0.5s;\n}\n\n.btn::after {\n  position: absolute;\n  content: \"\";\n  top: 50%;\n  left: 50%;\n  width: 0%;\n  height: 100%;\n  border-radius: 15px;\n  background: linear-gradient(#002B5b,#EA5455);\n  transition: all 0.5s;\n  z-index: -1;\n}\n\n.btn:hover::after {\n  top: 0%;\n  left: 0%;\n  width: 100%;\n  transition: all 0.5s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Grumpy Elephant 48</title>\n<style>\n/* From Uiverse.io by eslam-hany - https://uiverse.io/eslam-hany/grumpy-elephant-48 */\n/* From Uiverse.io by eslam-hany - Tags: button */\n.btn {\n  position: relative;\n  padding: 10px 50px;\n  font-size: 20px;\n  border: 1px solid #002B5B;\n  text-transform: uppercase;\n  cursor: pointer;\n  border-radius: 15px;\n  transition: all 0.5s;\n  z-index: 1;\n}\n\n.btn:hover {\n  transform: scale(1.1);\n  color: #fff;\n  transition: all 0.5s;\n}\n\n.btn::after {\n  position: absolute;\n  content: \"\";\n  top: 50%;\n  left: 50%;\n  width: 0%;\n  height: 100%;\n  border-radius: 15px;\n  background: linear-gradient(#002B5b,#EA5455);\n  transition: all 0.5s;\n  z-index: -1;\n}\n\n.btn:hover::after {\n  top: 0%;\n  left: 0%;\n  width: 100%;\n  transition: all 0.5s;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">\n  Button\n</button>\n</body>\n</html>\n"
+}

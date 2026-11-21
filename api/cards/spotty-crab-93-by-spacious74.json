@@ -1,0 +1,21 @@
+{
+ "id": "spotty-crab-93-by-spacious74",
+ "name": "Spotty Crab 93",
+ "category": "cards",
+ "author": "Spacious74",
+ "source": "https://uiverse.io/Spacious74/spotty-crab-93",
+ "trigger": "auto-loop",
+ "description": "A card with animation, 3d and social styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "animation",
+  "3d",
+  "social",
+  "card",
+  "3d-card",
+  "auto-loop"
+ ],
+ "html": "<div class=\"card\">\n  <div class=\"shadow\">⚠ Always follow traffic rules.</div>\n</div>",
+ "css": "/* From Uiverse.io by Spacious74  - Tags: animation, 3d, social, card, 3d card */\n.card {\n  width: 500px;\n  height: 120px;\n  background: #353535;\n  transform-style: preserve-3d;\n  transform: perspective(30rem) rotateX(30deg);\n  position: relative;\n  border-top-left-radius: 10px;\n  border-top-right-radius: 10px;\n}\n.card::before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  left: 0;\n  width: 100%;\n  height: 10px;\n  background: linear-gradient(\n    90deg,\n    #fff 0%,\n    #fff 70%,\n    #353535 70%,\n    #353535 100%\n  );\n  background-size: 120px;\n  animation: animateRoad 0.5s linear infinite;\n}\n@keyframes animateRoad {\n  0% {\n    background-position: 0px;\n  }\n  100% {\n    background-position: -120px;\n  }\n}\n\n.card::after {\n  content: \"\";\n  width: 100%;\n  height: 20px;\n  position: absolute;\n  bottom: -20px;\n  background-color: #272727;\n  transform-origin: top;\n  transform: perspective(30rem) rotateX(-30deg);\n  box-shadow: 0 10px 20px -2px #272727;\n  border-bottom-left-radius: 6px;\n  border-bottom-right-radius: 6px;\n}\n.shadow {\n  color: #fff;\n  padding: 10px;\n  letter-spacing: 1px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spotty Crab 93</title>\n<style>\n/* From Uiverse.io by Spacious74 - https://uiverse.io/Spacious74/spotty-crab-93 */\n/* From Uiverse.io by Spacious74  - Tags: animation, 3d, social, card, 3d card */\n.card {\n  width: 500px;\n  height: 120px;\n  background: #353535;\n  transform-style: preserve-3d;\n  transform: perspective(30rem) rotateX(30deg);\n  position: relative;\n  border-top-left-radius: 10px;\n  border-top-right-radius: 10px;\n}\n.card::before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  transform: translateY(-50%);\n  left: 0;\n  width: 100%;\n  height: 10px;\n  background: linear-gradient(\n    90deg,\n    #fff 0%,\n    #fff 70%,\n    #353535 70%,\n    #353535 100%\n  );\n  background-size: 120px;\n  animation: animateRoad 0.5s linear infinite;\n}\n@keyframes animateRoad {\n  0% {\n    background-position: 0px;\n  }\n  100% {\n    background-position: -120px;\n  }\n}\n\n.card::after {\n  content: \"\";\n  width: 100%;\n  height: 20px;\n  position: absolute;\n  bottom: -20px;\n  background-color: #272727;\n  transform-origin: top;\n  transform: perspective(30rem) rotateX(-30deg);\n  box-shadow: 0 10px 20px -2px #272727;\n  border-bottom-left-radius: 6px;\n  border-bottom-right-radius: 6px;\n}\n.shadow {\n  color: #fff;\n  padding: 10px;\n  letter-spacing: 1px;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"shadow\">⚠ Always follow traffic rules.</div>\n</div>\n</body>\n</html>\n"
+}

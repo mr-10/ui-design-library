@@ -1,0 +1,18 @@
+{
+ "id": "shaggy-vampirebat-38-by-coding-masala",
+ "name": "Shaggy Vampirebat 38",
+ "category": "loaders",
+ "author": "coding-masala",
+ "source": "https://uiverse.io/coding-masala/shaggy-vampirebat-38",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\">\n  <div class=\"loader-bar\"></div>\n  <div class=\"loader-bar\"></div>\n  <div class=\"loader-bar\"></div>\n  <div class=\"loader-bar\"></div>\n</div>",
+ "css": "/* From Uiverse.io by coding-masala - Tags: loader */\n.loader {\n  display: flex;\n  justify-content: center;\n}\n\n.loader-bar {\n  width: 4px;\n  height: 18px;\n  margin: 0 8px;\n  border-radius: 4px;\n  animation: loading_3194 1s ease-in-out infinite;\n  background-color: #333;\n}\n\n@keyframes loading_3194 {\n  0% {\n    transform: scale(1);\n  }\n\n  20% {\n    transform: scaleY(3);\n  }\n\n  40% {\n    transform: scale(1);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shaggy Vampirebat 38</title>\n<style>\n/* From Uiverse.io by coding-masala - https://uiverse.io/coding-masala/shaggy-vampirebat-38 */\n/* From Uiverse.io by coding-masala - Tags: loader */\n.loader {\n  display: flex;\n  justify-content: center;\n}\n\n.loader-bar {\n  width: 4px;\n  height: 18px;\n  margin: 0 8px;\n  border-radius: 4px;\n  animation: loading_3194 1s ease-in-out infinite;\n  background-color: #333;\n}\n\n@keyframes loading_3194 {\n  0% {\n    transform: scale(1);\n  }\n\n  20% {\n    transform: scaleY(3);\n  }\n\n  40% {\n    transform: scale(1);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"loader-bar\"></div>\n  <div class=\"loader-bar\"></div>\n  <div class=\"loader-bar\"></div>\n  <div class=\"loader-bar\"></div>\n</div>\n</body>\n</html>\n"
+}

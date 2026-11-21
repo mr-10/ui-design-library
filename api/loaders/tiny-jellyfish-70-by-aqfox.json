@@ -1,0 +1,18 @@
+{
+ "id": "tiny-jellyfish-70-by-aqfox",
+ "name": "Tiny Jellyfish 70",
+ "category": "loaders",
+ "author": "AqFox",
+ "source": "https://uiverse.io/AqFox/tiny-jellyfish-70",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"spinner\"></div>",
+ "css": "/* From Uiverse.io by AqFox - Tags: loader */\n.spinner {\n width: 56px;\n height: 56px;\n border: 11px #004dff double;\n border-left-style: solid;\n border-radius: 50%;\n animation: spinner-aib1d7 0.75s infinite linear;\n}\n\n@keyframes spinner-aib1d7 {\n to {\n  transform: rotate(360deg);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tiny Jellyfish 70</title>\n<style>\n/* From Uiverse.io by AqFox - https://uiverse.io/AqFox/tiny-jellyfish-70 */\n/* From Uiverse.io by AqFox - Tags: loader */\n.spinner {\n width: 56px;\n height: 56px;\n border: 11px #004dff double;\n border-left-style: solid;\n border-radius: 50%;\n animation: spinner-aib1d7 0.75s infinite linear;\n}\n\n@keyframes spinner-aib1d7 {\n to {\n  transform: rotate(360deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\"></div>\n</body>\n</html>\n"
+}

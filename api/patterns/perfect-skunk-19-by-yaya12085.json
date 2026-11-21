@@ -1,0 +1,19 @@
+{
+ "id": "perfect-skunk-19-by-yaya12085",
+ "name": "Perfect Skunk 19",
+ "category": "patterns",
+ "author": "Yaya12085",
+ "source": "https://uiverse.io/Yaya12085/perfect-skunk-19",
+ "trigger": "static",
+ "description": "A pattern with black and hexagonal styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "black",
+  "pattern",
+  "hexagonal",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by Yaya12085 - Tags: black, pattern, hexagonal */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: repeating-radial-gradient(circle, #000, #000 5px, transparent 6px);\n  background-size: 30px 30px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Perfect Skunk 19</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/perfect-skunk-19 */\n/* From Uiverse.io by Yaya12085 - Tags: black, pattern, hexagonal */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: repeating-radial-gradient(circle, #000, #000 5px, transparent 6px);\n  background-size: 30px 30px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

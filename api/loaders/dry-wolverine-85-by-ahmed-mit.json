@@ -1,0 +1,19 @@
+{
+ "id": "dry-wolverine-85-by-ahmed-mit",
+ "name": "Dry Wolverine 85",
+ "category": "loaders",
+ "author": "AHMED-MIT",
+ "source": "https://uiverse.io/AHMED-MIT/dry-wolverine-85",
+ "trigger": "auto-loop",
+ "description": "A loader with accept and account styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "accept",
+  "account",
+  "auto-loop"
+ ],
+ "html": "<div class=\"spinner\">\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n</div>",
+ "css": "/* From Uiverse.io by AHMED-MIT - Tags: loader, accept, account */\n.spinner {\n  position: relative;\n  width: 33.6px;\n  height: 33.6px;\n  perspective: 67.2px;\n}\n\n.spinner div {\n  width: 100%;\n  height: 100%;\n  background: #474bff;\n  position: absolute;\n  left: 50%;\n  transform-origin: left;\n  animation: spinner-16s03x 2s infinite;\n}\n\n.spinner div:nth-child(1) {\n  animation-delay: 0.15s;\n}\n\n.spinner div:nth-child(2) {\n  animation-delay: 0.3s;\n}\n\n.spinner div:nth-child(3) {\n  animation-delay: 0.45s;\n}\n\n.spinner div:nth-child(4) {\n  animation-delay: 0.6s;\n}\n\n.spinner div:nth-child(5) {\n  animation-delay: 0.75s;\n}\n\n@keyframes spinner-16s03x {\n  0% {\n    transform: rotateY(0deg);\n  }\n\n  50%, 80% {\n    transform: rotateY(-180deg);\n  }\n\n  90%, 100% {\n    opacity: 0;\n    transform: rotateY(-180deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Wolverine 85</title>\n<style>\n/* From Uiverse.io by AHMED-MIT - https://uiverse.io/AHMED-MIT/dry-wolverine-85 */\n/* From Uiverse.io by AHMED-MIT - Tags: loader, accept, account */\n.spinner {\n  position: relative;\n  width: 33.6px;\n  height: 33.6px;\n  perspective: 67.2px;\n}\n\n.spinner div {\n  width: 100%;\n  height: 100%;\n  background: #474bff;\n  position: absolute;\n  left: 50%;\n  transform-origin: left;\n  animation: spinner-16s03x 2s infinite;\n}\n\n.spinner div:nth-child(1) {\n  animation-delay: 0.15s;\n}\n\n.spinner div:nth-child(2) {\n  animation-delay: 0.3s;\n}\n\n.spinner div:nth-child(3) {\n  animation-delay: 0.45s;\n}\n\n.spinner div:nth-child(4) {\n  animation-delay: 0.6s;\n}\n\n.spinner div:nth-child(5) {\n  animation-delay: 0.75s;\n}\n\n@keyframes spinner-16s03x {\n  0% {\n    transform: rotateY(0deg);\n  }\n\n  50%, 80% {\n    transform: rotateY(-180deg);\n  }\n\n  90%, 100% {\n    opacity: 0;\n    transform: rotateY(-180deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\">\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n  <div></div>\n</div>\n</body>\n</html>\n"
+}

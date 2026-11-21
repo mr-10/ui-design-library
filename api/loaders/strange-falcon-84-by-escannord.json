@@ -1,0 +1,20 @@
+{
+ "id": "strange-falcon-84-by-escannord",
+ "name": "Strange Falcon 84",
+ "category": "loaders",
+ "author": "escannord",
+ "source": "https://uiverse.io/escannord/strange-falcon-84",
+ "trigger": "auto-loop",
+ "description": "A loader with animation, 3d and light styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "animation",
+  "3d",
+  "loader",
+  "light",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\">\n  <span class=\"ball ball1\"></span>\n  <span class=\"ball\"></span>\n  <span class=\"ball\"></span>\n  <span class=\"ball\"></span>\n  <span class=\"ball\"></span>\n</div>",
+ "css": "/* From Uiverse.io by escannord  - Tags: animation, 3d, loader, light */\n.loader {\n  text-align: center;\n  position: relative;\n  display: flex;\n}\n\n.loader .ball {\n  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);\n}\n\n.ball {\n  display: block;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background: radial-gradient(circle at 8px 5px, white 5%, black);\n  position: relative;\n  transform-origin: 50% -100px;\n}\n\n.ball:last-child {\n  animation: balance-right 1.2s infinite linear;\n}\n\n.ball:first-child {\n  animation: balance-left 1.2s infinite linear;\n}\n\n@keyframes balance-right {\n  0% {\n    transform: rotate(0deg);\n    animation-timing-function: linear;\n  }\n\n  50% {\n    transform: rotate(0deg);\n    animation-timing-function: ease-out;\n  }\n\n  75% {\n    transform: rotate(-30deg);\n    animation-timing-function: ease-in;\n  }\n}\n\n@keyframes balance-left {\n  0% {\n    transform: rotate(0deg);\n    animation-timing-function: ease-out;\n  }\n\n  25% {\n    transform: rotate(30deg);\n    animation-timing-function: ease-in;\n  }\n\n  50% {\n    transform: rotate(0deg);\n    animation-timing-function: linear;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strange Falcon 84</title>\n<style>\n/* From Uiverse.io by escannord - https://uiverse.io/escannord/strange-falcon-84 */\n/* From Uiverse.io by escannord  - Tags: animation, 3d, loader, light */\n.loader {\n  text-align: center;\n  position: relative;\n  display: flex;\n}\n\n.loader .ball {\n  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);\n}\n\n.ball {\n  display: block;\n  width: 20px;\n  height: 20px;\n  border-radius: 50%;\n  background: radial-gradient(circle at 8px 5px, white 5%, black);\n  position: relative;\n  transform-origin: 50% -100px;\n}\n\n.ball:last-child {\n  animation: balance-right 1.2s infinite linear;\n}\n\n.ball:first-child {\n  animation: balance-left 1.2s infinite linear;\n}\n\n@keyframes balance-right {\n  0% {\n    transform: rotate(0deg);\n    animation-timing-function: linear;\n  }\n\n  50% {\n    transform: rotate(0deg);\n    animation-timing-function: ease-out;\n  }\n\n  75% {\n    transform: rotate(-30deg);\n    animation-timing-function: ease-in;\n  }\n}\n\n@keyframes balance-left {\n  0% {\n    transform: rotate(0deg);\n    animation-timing-function: ease-out;\n  }\n\n  25% {\n    transform: rotate(30deg);\n    animation-timing-function: ease-in;\n  }\n\n  50% {\n    transform: rotate(0deg);\n    animation-timing-function: linear;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <span class=\"ball ball1\"></span>\n  <span class=\"ball\"></span>\n  <span class=\"ball\"></span>\n  <span class=\"ball\"></span>\n  <span class=\"ball\"></span>\n</div>\n</body>\n</html>\n"
+}

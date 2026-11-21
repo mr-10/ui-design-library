@@ -1,0 +1,18 @@
+{
+ "id": "wicked-seahorse-54-by-omar-alghaish",
+ "name": "Wicked Seahorse 54",
+ "category": "loaders",
+ "author": "omar-alghaish",
+ "source": "https://uiverse.io/omar-alghaish/wicked-seahorse-54",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\">loading...</div>",
+ "css": "/* From Uiverse.io by omar-alghaish - Tags: loader */\n@keyframes animate8345 {\n  0%,100% {\n    filter: hue-rotate(0deg);\n  }\n\n  50% {\n    filter: hue-rotate(360deg);\n  }\n}\n\n.loader {\n  color: rgb(0, 0, 0);\n  background: linear-gradient(to right, #2d60ec, #3ccfda);\n  font-size: 30px;\n  -webkit-text-fill-color: transparent;\n  -webkit-background-clip: text;\n  animation: animate8345 9s linear infinite;\n  font-weight: bold;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wicked Seahorse 54</title>\n<style>\n/* From Uiverse.io by omar-alghaish - https://uiverse.io/omar-alghaish/wicked-seahorse-54 */\n/* From Uiverse.io by omar-alghaish - Tags: loader */\n@keyframes animate8345 {\n  0%,100% {\n    filter: hue-rotate(0deg);\n  }\n\n  50% {\n    filter: hue-rotate(360deg);\n  }\n}\n\n.loader {\n  color: rgb(0, 0, 0);\n  background: linear-gradient(to right, #2d60ec, #3ccfda);\n  font-size: 30px;\n  -webkit-text-fill-color: transparent;\n  -webkit-background-clip: text;\n  animation: animate8345 9s linear infinite;\n  font-weight: bold;\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">loading...</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "spotty-dolphin-15-by-sahilxkhadka",
+ "name": "Spotty Dolphin 15",
+ "category": "buttons",
+ "author": "sahilxkhadka",
+ "source": "https://uiverse.io/sahilxkhadka/spotty-dolphin-15",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by sahilxkhadka - Tags: twitter, button, click -->\n<button class=\"cursor-pointer group block px-5 py-2 rounded-md bg-black text-white text-4xl font-bold shadow-2xl hover:scale-110 transition active:scale-90\">\n  <span class=\"group-hover:[text-shadow:3px_3px_6px_var(--tw-shadow-color)] shadow-white\">𝕏</span>\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spotty Dolphin 15</title>\n<style>\n/* From Uiverse.io by sahilxkhadka - https://uiverse.io/sahilxkhadka/spotty-dolphin-15 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by sahilxkhadka - Tags: twitter, button, click -->\n<button class=\"cursor-pointer group block px-5 py-2 rounded-md bg-black text-white text-4xl font-bold shadow-2xl hover:scale-110 transition active:scale-90\">\n  <span class=\"group-hover:[text-shadow:3px_3px_6px_var(--tw-shadow-color)] shadow-white\">𝕏</span>\n</button>\n</body>\n</html>\n"
+}

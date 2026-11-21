@@ -1,0 +1,18 @@
+{
+ "id": "rare-termite-94-by-ozgeozkaraa01",
+ "name": "Rare Termite 94",
+ "category": "buttons",
+ "author": "ozgeozkaraa01",
+ "source": "https://uiverse.io/ozgeozkaraa01/rare-termite-94",
+ "trigger": "auto-loop",
+ "description": "A button UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "button",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<button>\n  ↑\n</button>",
+ "css": "/* From Uiverse.io by ozgeozkaraa01 - Tags: button */\nbutton {\n  font-size: 20px;\n  background-color: white;\n  color: black;\n  width: 45px;\n  height: 45px;\n  opacity: 0.75;\n  border: 1px solid #e7eae8;\n  border-radius: 8px;\n  cursor: pointer;\n  animation: bounce_513 1s infinite;\n}\n\n@keyframes bounce_513 {\n  0%,\n    100% {\n    transform: translateY(-25%);\n    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);\n  }\n\n  50% {\n    transform: translateY(0);\n    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rare Termite 94</title>\n<style>\n/* From Uiverse.io by ozgeozkaraa01 - https://uiverse.io/ozgeozkaraa01/rare-termite-94 */\n/* From Uiverse.io by ozgeozkaraa01 - Tags: button */\nbutton {\n  font-size: 20px;\n  background-color: white;\n  color: black;\n  width: 45px;\n  height: 45px;\n  opacity: 0.75;\n  border: 1px solid #e7eae8;\n  border-radius: 8px;\n  cursor: pointer;\n  animation: bounce_513 1s infinite;\n}\n\n@keyframes bounce_513 {\n  0%,\n    100% {\n    transform: translateY(-25%);\n    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);\n  }\n\n  50% {\n    transform: translateY(0);\n    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);\n  }\n}\n</style>\n</head>\n<body>\n<button>\n  ↑\n</button>\n</body>\n</html>\n"
+}

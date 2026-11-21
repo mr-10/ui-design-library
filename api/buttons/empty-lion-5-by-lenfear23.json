@@ -1,0 +1,18 @@
+{
+ "id": "empty-lion-5-by-lenfear23",
+ "name": "Empty Lion 5",
+ "category": "buttons",
+ "author": "lenfear23",
+ "source": "https://uiverse.io/lenfear23/empty-lion-5",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n    Button\n</button>",
+ "css": "/* From Uiverse.io by lenfear23 - Tags: button */\nbutton {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  outline: none;\n  cursor: pointer;\n  width: 150px;\n  height: 50px;\n  background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);\n  border-radius: 30px;\n  border: 1px solid #8F9092;\n  transition: all 0.2s ease;\n  font-family: \"Source Sans Pro\", sans-serif;\n  font-size: 14px;\n  font-weight: 600;\n  color: #606060;\n  text-shadow: 0 1px #fff;\n}\n\nbutton:hover {\n  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;\n}\n\nbutton:active {\n  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;\n}\n\nbutton:focus {\n  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Empty Lion 5</title>\n<style>\n/* From Uiverse.io by lenfear23 - https://uiverse.io/lenfear23/empty-lion-5 */\n/* From Uiverse.io by lenfear23 - Tags: button */\nbutton {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  outline: none;\n  cursor: pointer;\n  width: 150px;\n  height: 50px;\n  background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);\n  border-radius: 30px;\n  border: 1px solid #8F9092;\n  transition: all 0.2s ease;\n  font-family: \"Source Sans Pro\", sans-serif;\n  font-size: 14px;\n  font-weight: 600;\n  color: #606060;\n  text-shadow: 0 1px #fff;\n}\n\nbutton:hover {\n  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;\n}\n\nbutton:active {\n  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;\n}\n\nbutton:focus {\n  box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n</body>\n</html>\n"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "polite-dingo-63-by-saidbl1",
+ "name": "Polite Dingo 63",
+ "category": "inputs",
+ "author": "saidbl1",
+ "source": "https://uiverse.io/saidbl1/polite-dingo-63",
+ "trigger": "focus",
+ "description": "A input with clean and nice styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "clean",
+  "nice",
+  "focus"
+ ],
+ "html": "<div class=\"inputBox\">\n  <input placeholder=\"Write here...\" type=\"text\" required=\"\">\n  <span>First name :</span>\n</div>",
+ "css": "/* From Uiverse.io by saidbl1 - Tags: input, clean, nice */\n.inputBox {\n  position: relative;\n}\n\n.inputBox input {\n  padding: 15px 20px;\n  outline: none;\n  background: transparent;\n  border-radius: 5px;\n  color: #212121;\n  border: 1px solid#212121;\n  font-size: 1em;\n}\n\n.inputBox span {\n  position: absolute;\n  left: 0;\n  font-size: 0.7em;\n  transform: translateX(14px) translateY(-7.5px);\n  padding: 0 6px 1px 5px;\n  border-radius: 2px;\n  background: #e8e8e8;\n  letter-spacing: 1px;\n  border: 1px solid #212121;\n  color: #212121;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Dingo 63</title>\n<style>\n/* From Uiverse.io by saidbl1 - https://uiverse.io/saidbl1/polite-dingo-63 */\n/* From Uiverse.io by saidbl1 - Tags: input, clean, nice */\n.inputBox {\n  position: relative;\n}\n\n.inputBox input {\n  padding: 15px 20px;\n  outline: none;\n  background: transparent;\n  border-radius: 5px;\n  color: #212121;\n  border: 1px solid#212121;\n  font-size: 1em;\n}\n\n.inputBox span {\n  position: absolute;\n  left: 0;\n  font-size: 0.7em;\n  transform: translateX(14px) translateY(-7.5px);\n  padding: 0 6px 1px 5px;\n  border-radius: 2px;\n  background: #e8e8e8;\n  letter-spacing: 1px;\n  border: 1px solid #212121;\n  color: #212121;\n}\n</style>\n</head>\n<body>\n<div class=\"inputBox\">\n  <input placeholder=\"Write here...\" type=\"text\" required=\"\">\n  <span>First name :</span>\n</div>\n</body>\n</html>\n"
+}

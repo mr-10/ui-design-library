@@ -1,0 +1,18 @@
+{
+ "id": "average-firefox-86-by-yaseen549",
+ "name": "Average Firefox 86",
+ "category": "inputs",
+ "author": "Yaseen549",
+ "source": "https://uiverse.io/Yaseen549/average-firefox-86",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<input placeholder=\"Enter your text...\" class=\"input\" name=\"text\" type=\"text\">",
+ "css": "/* From Uiverse.io by Yaseen549 - Tags: input */\n.input {\n  background-color: #212121;\n  max-width: 190px;\n  height: 40px;\n  padding: 10px;\n  /* text-align: center; */\n  border: 2px solid white;\n  border-radius: 5px;\n  /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */\n}\n\n.input:focus {\n  color: rgb(0, 255, 255);\n  background-color: #212121;\n  outline-color: rgb(0, 255, 255);\n  box-shadow: -3px -3px 15px rgb(0, 255, 255);\n  transition: .1s;\n  transition-property: box-shadow;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Average Firefox 86</title>\n<style>\n/* From Uiverse.io by Yaseen549 - https://uiverse.io/Yaseen549/average-firefox-86 */\n/* From Uiverse.io by Yaseen549 - Tags: input */\n.input {\n  background-color: #212121;\n  max-width: 190px;\n  height: 40px;\n  padding: 10px;\n  /* text-align: center; */\n  border: 2px solid white;\n  border-radius: 5px;\n  /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */\n}\n\n.input:focus {\n  color: rgb(0, 255, 255);\n  background-color: #212121;\n  outline-color: rgb(0, 255, 255);\n  box-shadow: -3px -3px 15px rgb(0, 255, 255);\n  transition: .1s;\n  transition-property: box-shadow;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Enter your text...\" class=\"input\" name=\"text\" type=\"text\">\n</body>\n</html>\n"
+}

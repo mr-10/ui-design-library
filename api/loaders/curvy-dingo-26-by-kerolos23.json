@@ -1,0 +1,18 @@
+{
+ "id": "curvy-dingo-26-by-kerolos23",
+ "name": "Curvy Dingo 26",
+ "category": "loaders",
+ "author": "kerolos23",
+ "source": "https://uiverse.io/kerolos23/curvy-dingo-26",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by kerolos23 - Tags: loader */\n.loader {\n  width: 53px;\n  height: 53px;\n  border: 5px dotted #000;\n  border-style: solid solid dotted dotted;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  box-sizing: border-box;\n  animation: rotation 2s linear infinite;\n}\n\n.loader::after {\n  content: '';\n  box-sizing: border-box;\n  position: absolute;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  margin: auto;\n  border: 4px dotted #F00;\n  border-style: solid solid dotted;\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  animation: rotationBack 1s linear infinite;\n  transform-origin: center center;\n}\n\n@keyframes rotation {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes rotationBack {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curvy Dingo 26</title>\n<style>\n/* From Uiverse.io by kerolos23 - https://uiverse.io/kerolos23/curvy-dingo-26 */\n/* From Uiverse.io by kerolos23 - Tags: loader */\n.loader {\n  width: 53px;\n  height: 53px;\n  border: 5px dotted #000;\n  border-style: solid solid dotted dotted;\n  border-radius: 50%;\n  display: inline-block;\n  position: relative;\n  box-sizing: border-box;\n  animation: rotation 2s linear infinite;\n}\n\n.loader::after {\n  content: '';\n  box-sizing: border-box;\n  position: absolute;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  margin: auto;\n  border: 4px dotted #F00;\n  border-style: solid solid dotted;\n  width: 30px;\n  height: 30px;\n  border-radius: 50%;\n  animation: rotationBack 1s linear infinite;\n  transform-origin: center center;\n}\n\n@keyframes rotation {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes rotationBack {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

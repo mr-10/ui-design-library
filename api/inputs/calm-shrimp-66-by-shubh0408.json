@@ -1,0 +1,18 @@
+{
+ "id": "calm-shrimp-66-by-shubh0408",
+ "name": "Calm Shrimp 66",
+ "category": "inputs",
+ "author": "Shubh0408",
+ "source": "https://uiverse.io/Shubh0408/calm-shrimp-66",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "inputs",
+  "focus",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Shubh0408  - Tags: input, text animation, animated, input effect , click animation -->\n<div class=\"flex flex-col-reverse\">\n  <input\n    placeholder=\"Enter detail\"\n    class=\"peer outline-none border pl-2 py-1 duration-500 border-black focus:border-dashed relative placeholder:duration-500 placeholder:absolute focus:placeholder:pt-10 focus:rounded-md\"\n    type=\"text\"\n  />\n  <span\n    class=\"pl-2 duration-500 opacity-0 peer-focus:opacity-100 -translate-y-5 peer-focus:translate-y-0\"\n    >Enter detail</span\n  >\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Calm Shrimp 66</title>\n<style>\n/* From Uiverse.io by Shubh0408 - https://uiverse.io/Shubh0408/calm-shrimp-66 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Shubh0408  - Tags: input, text animation, animated, input effect , click animation -->\n<div class=\"flex flex-col-reverse\">\n  <input\n    placeholder=\"Enter detail\"\n    class=\"peer outline-none border pl-2 py-1 duration-500 border-black focus:border-dashed relative placeholder:duration-500 placeholder:absolute focus:placeholder:pt-10 focus:rounded-md\"\n    type=\"text\"\n  />\n  <span\n    class=\"pl-2 duration-500 opacity-0 peer-focus:opacity-100 -translate-y-5 peer-focus:translate-y-0\"\n    >Enter detail</span\n  >\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "wet-robin-100-by-andibumann",
+ "name": "Wet Robin 100",
+ "category": "buttons",
+ "author": "AndiBumann",
+ "source": "https://uiverse.io/AndiBumann/wet-robin-100",
+ "trigger": "hover",
+ "description": "A button with animation and gradient styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "animation",
+  "gradient",
+  "button",
+  "hover"
+ ],
+ "html": "<div class=\"container\">\n  <button class=\"join-now-button\">Join now</button>\n</div>",
+ "css": "/* From Uiverse.io by AndiBumann  - Tags: animation, gradient, button */\n.join-now-button {\n  background-color: #ff69b4; /* Grundfarbe (Pink) */\n  background-image: linear-gradient(\n    to right,\n    #ff69b4 0%,\n    #ffffff 25%,\n    #f00 50%,\n    #ffa500 75%,\n    #ff69b4 100%\n  ); /* Farbverlauf */\n  background-size: 200% 100%; /* Größe des Farbverlaufs */\n  background-position: left; /* Position des Farbverlaufs */\n  transition: background-position 0.3s; /* Animation des Farbverlaufs */\n  padding: 10px 20px;\n  border: none;\n  border-radius: 5px;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Schatteneffekt */\n  cursor: pointer;\n  font-size: 18px;\n  font-weight: bold;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n}\n\n.join-now-button:hover {\n  background-position: right; /* Animation des Farbverlaufs */\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wet Robin 100</title>\n<style>\n/* From Uiverse.io by AndiBumann - https://uiverse.io/AndiBumann/wet-robin-100 */\n/* From Uiverse.io by AndiBumann  - Tags: animation, gradient, button */\n.join-now-button {\n  background-color: #ff69b4; /* Grundfarbe (Pink) */\n  background-image: linear-gradient(\n    to right,\n    #ff69b4 0%,\n    #ffffff 25%,\n    #f00 50%,\n    #ffa500 75%,\n    #ff69b4 100%\n  ); /* Farbverlauf */\n  background-size: 200% 100%; /* Größe des Farbverlaufs */\n  background-position: left; /* Position des Farbverlaufs */\n  transition: background-position 0.3s; /* Animation des Farbverlaufs */\n  padding: 10px 20px;\n  border: none;\n  border-radius: 5px;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Schatteneffekt */\n  cursor: pointer;\n  font-size: 18px;\n  font-weight: bold;\n  text-align: center;\n  text-decoration: none;\n  display: inline-block;\n}\n\n.join-now-button:hover {\n  background-position: right; /* Animation des Farbverlaufs */\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <button class=\"join-now-button\">Join now</button>\n</div>\n</body>\n</html>\n"
+}

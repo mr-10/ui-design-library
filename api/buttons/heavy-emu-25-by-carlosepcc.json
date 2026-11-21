@@ -1,0 +1,18 @@
+{
+ "id": "heavy-emu-25-by-carlosepcc",
+ "name": "Heavy Emu 25",
+ "category": "buttons",
+ "author": "carlosepcc",
+ "source": "https://uiverse.io/carlosepcc/heavy-emu-25",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by carlosepcc - Tags: simple, 3d, blue, button, game, transition, click effect, asset -->\n<button class=\"cursor-pointer transition-all bg-blue-500 text-white px-6 py-2 rounded-lg\nborder-blue-600\nborder-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]\nactive:border-b-[2px] active:brightness-90 active:translate-y-[2px]\">\n  Button\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Emu 25</title>\n<style>\n/* From Uiverse.io by carlosepcc - https://uiverse.io/carlosepcc/heavy-emu-25 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by carlosepcc - Tags: simple, 3d, blue, button, game, transition, click effect, asset -->\n<button class=\"cursor-pointer transition-all bg-blue-500 text-white px-6 py-2 rounded-lg\nborder-blue-600\nborder-b-[4px] hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px]\nactive:border-b-[2px] active:brightness-90 active:translate-y-[2px]\">\n  Button\n</button>\n</body>\n</html>\n"
+}

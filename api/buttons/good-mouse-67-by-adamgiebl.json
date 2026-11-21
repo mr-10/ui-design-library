@@ -1,0 +1,18 @@
+{
+ "id": "good-mouse-67-by-adamgiebl",
+ "name": "Good Mouse 67",
+ "category": "buttons",
+ "author": "adamgiebl",
+ "source": "https://uiverse.io/adamgiebl/good-mouse-67",
+ "trigger": "hover",
+ "description": "A button with neumorphism styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "neumorphism",
+  "button",
+  "hover"
+ ],
+ "html": "<button class=\"neu-button\">Press me</button>",
+ "css": "/* From Uiverse.io by adamgiebl - Tags: neumorphism, button */\n.neu-button {\n  background-color: #e0e0e0;\n  border-radius: 50px;\n  box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;\n  color: #4d4d4d;\n  cursor: pointer;\n  font-size: 18px;\n  padding: 15px 40px;\n  transition: all 0.2s ease-in-out;\n  border: 2px solid rgb(206, 206, 206);\n}\n\n.neu-button:hover {\n  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;\n}\n\n.neu-button:focus {\n  outline: none;\n  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Good Mouse 67</title>\n<style>\n/* From Uiverse.io by adamgiebl - https://uiverse.io/adamgiebl/good-mouse-67 */\n/* From Uiverse.io by adamgiebl - Tags: neumorphism, button */\n.neu-button {\n  background-color: #e0e0e0;\n  border-radius: 50px;\n  box-shadow: inset 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;\n  color: #4d4d4d;\n  cursor: pointer;\n  font-size: 18px;\n  padding: 15px 40px;\n  transition: all 0.2s ease-in-out;\n  border: 2px solid rgb(206, 206, 206);\n}\n\n.neu-button:hover {\n  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;\n}\n\n.neu-button:focus {\n  outline: none;\n  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;\n}\n</style>\n</head>\n<body>\n<button class=\"neu-button\">Press me</button>\n</body>\n</html>\n"
+}

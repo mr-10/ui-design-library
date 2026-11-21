@@ -1,0 +1,20 @@
+{
+ "id": "mean-puma-17-by-codecite",
+ "name": "Mean Puma 17",
+ "category": "loaders",
+ "author": "Codecite",
+ "source": "https://uiverse.io/Codecite/mean-puma-17",
+ "trigger": "auto-loop",
+ "description": "A loader with animation, loading and animated styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "animation",
+  "loading",
+  "loader",
+  "animated",
+  "auto-loop"
+ ],
+ "html": "<div class=\"spinner-container\">\n  <div class=\"spinner\">\n   <div class=\"spinner\">\n    <div class=\"spinner\">\n      <div class=\"spinner\">\n        <div class=\"spinner\">\n            <div class=\"spinner\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>",
+ "css": "/* From Uiverse.io by Codecite - Tags: animation, loading, loader, animated */\n.spinner-container {\n  width: 150px;\n  height: 150px;\n  position: relative;\n  margin: 30px auto;\n  overflow: hidden;\n}\n\n.spinner {\n  position: absolute;\n  width: calc(100% - 9.9px);\n  height: calc(100% - 9.9px);\n  border: 5px solid transparent;\n  border-radius: 50%;\n  border-top-color: #fff;\n  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.79) infinite;\n}\n\n@keyframes spin {\n  from {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mean Puma 17</title>\n<style>\n/* From Uiverse.io by Codecite - https://uiverse.io/Codecite/mean-puma-17 */\n/* From Uiverse.io by Codecite - Tags: animation, loading, loader, animated */\n.spinner-container {\n  width: 150px;\n  height: 150px;\n  position: relative;\n  margin: 30px auto;\n  overflow: hidden;\n}\n\n.spinner {\n  position: absolute;\n  width: calc(100% - 9.9px);\n  height: calc(100% - 9.9px);\n  border: 5px solid transparent;\n  border-radius: 50%;\n  border-top-color: #fff;\n  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.79) infinite;\n}\n\n@keyframes spin {\n  from {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner-container\">\n  <div class=\"spinner\">\n   <div class=\"spinner\">\n    <div class=\"spinner\">\n      <div class=\"spinner\">\n        <div class=\"spinner\">\n            <div class=\"spinner\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+}

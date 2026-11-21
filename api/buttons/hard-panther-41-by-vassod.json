@@ -1,0 +1,20 @@
+{
+ "id": "hard-panther-41-by-vassod",
+ "name": "Hard Panther 41",
+ "category": "buttons",
+ "author": "VassoD",
+ "source": "https://uiverse.io/VassoD/hard-panther-41",
+ "trigger": "hover",
+ "description": "A button with minimalist, dark and simple-button styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "minimalist",
+  "button",
+  "dark",
+  "simple-button",
+  "hover"
+ ],
+ "html": "<button class=\"button\">Simple button</button>",
+ "css": "/* From Uiverse.io by VassoD  - Tags: minimalist, button, dark, simple button */\n.button {\n  cursor: pointer;\n  background: rgba(255, 255, 255, 0.15);\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  color: #fff;\n  padding: 10px 20px;\n  border-radius: 0.5rem;\n  transition: background 0.3s ease-in-out;\n}\n\n.button:hover {\n  background: rgba(255, 255, 255, 0.25);\n  text-decoration: underline;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Panther 41</title>\n<style>\n/* From Uiverse.io by VassoD - https://uiverse.io/VassoD/hard-panther-41 */\n/* From Uiverse.io by VassoD  - Tags: minimalist, button, dark, simple button */\n.button {\n  cursor: pointer;\n  background: rgba(255, 255, 255, 0.15);\n  backdrop-filter: blur(10px);\n  border: 1px solid rgba(255, 255, 255, 0.2);\n  color: #fff;\n  padding: 10px 20px;\n  border-radius: 0.5rem;\n  transition: background 0.3s ease-in-out;\n}\n\n.button:hover {\n  background: rgba(255, 255, 255, 0.25);\n  text-decoration: underline;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Simple button</button>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "dangerous-quail-58-by-bhaveshxrawat",
+ "name": "Dangerous Quail 58",
+ "category": "cards",
+ "author": "bhaveshxrawat",
+ "source": "https://uiverse.io/bhaveshxrawat/dangerous-quail-58",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"card\">\n    <h2>CARD</h2>\n</div>",
+ "css": "/* From Uiverse.io by bhaveshxrawat - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: #07182E;\n  position: relative;\n  display: flex;\n  place-content: center;\n  place-items: center;\n  overflow: hidden;\n  border-radius: 20px;\n}\n\n.card h2 {\n  z-index: 1;\n  color: white;\n  font-size: 2em;\n}\n\n.card::before {\n  content: '';\n  position: absolute;\n  width: 100px;\n  background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));\n  height: 130%;\n  animation: rotBGimg 3s linear infinite;\n  transition: all 0.2s linear;\n}\n\n@keyframes rotBGimg {\n  from {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n.card::after {\n  content: '';\n  position: absolute;\n  background: #07182E;\n  ;\n  inset: 5px;\n  border-radius: 15px;\n}  \n/* .card:hover:before {\n  background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);\n  animation: rotBGimg 3.5s linear infinite;\n} */\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dangerous Quail 58</title>\n<style>\n/* From Uiverse.io by bhaveshxrawat - https://uiverse.io/bhaveshxrawat/dangerous-quail-58 */\n/* From Uiverse.io by bhaveshxrawat - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: #07182E;\n  position: relative;\n  display: flex;\n  place-content: center;\n  place-items: center;\n  overflow: hidden;\n  border-radius: 20px;\n}\n\n.card h2 {\n  z-index: 1;\n  color: white;\n  font-size: 2em;\n}\n\n.card::before {\n  content: '';\n  position: absolute;\n  width: 100px;\n  background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));\n  height: 130%;\n  animation: rotBGimg 3s linear infinite;\n  transition: all 0.2s linear;\n}\n\n@keyframes rotBGimg {\n  from {\n    transform: rotate(0deg);\n  }\n\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n.card::after {\n  content: '';\n  position: absolute;\n  background: #07182E;\n  ;\n  inset: 5px;\n  border-radius: 15px;\n}  \n/* .card:hover:before {\n  background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);\n  animation: rotBGimg 3.5s linear infinite;\n} */\n</style>\n</head>\n<body>\n<div class=\"card\">\n    <h2>CARD</h2>\n</div>\n</body>\n</html>\n"
+}

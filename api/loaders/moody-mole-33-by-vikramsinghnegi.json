@@ -1,0 +1,19 @@
+{
+ "id": "moody-mole-33-by-vikramsinghnegi",
+ "name": "Moody Mole 33",
+ "category": "loaders",
+ "author": "vikramsinghnegi",
+ "source": "https://uiverse.io/vikramsinghnegi/moody-mole-33",
+ "trigger": "auto-loop",
+ "description": "A loader with heart and smooth styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "heart",
+  "smooth",
+  "auto-loop"
+ ],
+ "html": "<span class=\"loader\"></span>",
+ "css": "/* From Uiverse.io by vikramsinghnegi  - Tags: loader, heart, smooth */\n.loader {\n  position: relative;\n  width: 40px;\n  height: 60px;\n  animation: heartBeat 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  background: red;\n  width: 40px;\n  height: 60px;\n  border-radius: 50px 50px 0 0;\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  transform: rotate(45deg);\n  transform-origin: 50% 68%;\n  box-shadow: 5px 4px 5px #0004 inset;\n}\n.loader:after {\n  transform: rotate(-45deg);\n}\n@keyframes heartBeat {\n  0% {\n    transform: scale(0.95);\n  }\n  5% {\n    transform: scale(1.1);\n  }\n  39% {\n    transform: scale(0.85);\n  }\n  45% {\n    transform: scale(1);\n  }\n  60% {\n    transform: scale(0.95);\n  }\n  100% {\n    transform: scale(0.9);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Mole 33</title>\n<style>\n/* From Uiverse.io by vikramsinghnegi - https://uiverse.io/vikramsinghnegi/moody-mole-33 */\n/* From Uiverse.io by vikramsinghnegi  - Tags: loader, heart, smooth */\n.loader {\n  position: relative;\n  width: 40px;\n  height: 60px;\n  animation: heartBeat 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  background: red;\n  width: 40px;\n  height: 60px;\n  border-radius: 50px 50px 0 0;\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  transform: rotate(45deg);\n  transform-origin: 50% 68%;\n  box-shadow: 5px 4px 5px #0004 inset;\n}\n.loader:after {\n  transform: rotate(-45deg);\n}\n@keyframes heartBeat {\n  0% {\n    transform: scale(0.95);\n  }\n  5% {\n    transform: scale(1.1);\n  }\n  39% {\n    transform: scale(0.85);\n  }\n  45% {\n    transform: scale(1);\n  }\n  60% {\n    transform: scale(0.95);\n  }\n  100% {\n    transform: scale(0.9);\n  }\n}\n</style>\n</head>\n<body>\n<span class=\"loader\"></span>\n</body>\n</html>\n"
+}

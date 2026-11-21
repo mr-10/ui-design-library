@@ -1,0 +1,19 @@
+{
+ "id": "calm-octopus-51-by-brola2008",
+ "name": "Calm Octopus 51",
+ "category": "cards",
+ "author": "Brola2008",
+ "source": "https://uiverse.io/Brola2008/calm-octopus-51",
+ "trigger": "hover",
+ "description": "A card with gradient and box-shadow styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "gradient",
+  "card",
+  "box-shadow",
+  "hover"
+ ],
+ "html": "<div class=\"one-div\"></div>",
+ "css": "/* From Uiverse.io by Brola2008 - Tags: gradient, card, box-shadow */\n.one-div {\n  width: 190px;\n  height: 250px;\n  background: linear-gradient(-45deg, rgb(9, 16, 109) ,  rgba(0,255,239,1));\n  border-radius: 20px;\n  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);\n  transition: 0.5s ease;\n}\n\n.one-div::after {\n  content: \"HOVER ME\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  font-weight: bold;\n  text-shadow: 1px 1px 4px rgb(0,0,0);\n  transition: .3s;\n}\n\n.one-div:hover {\n  scale: 1.1;\n  border-radius: 20px 80px;\n  box-shadow: 11px 11px 25px rgba(0, 0, 0, 0.5);\n}\n\n.one-div:hover::after {\n  content: \"THANKS\";\n  color: aqua;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Calm Octopus 51</title>\n<style>\n/* From Uiverse.io by Brola2008 - https://uiverse.io/Brola2008/calm-octopus-51 */\n/* From Uiverse.io by Brola2008 - Tags: gradient, card, box-shadow */\n.one-div {\n  width: 190px;\n  height: 250px;\n  background: linear-gradient(-45deg, rgb(9, 16, 109) ,  rgba(0,255,239,1));\n  border-radius: 20px;\n  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);\n  transition: 0.5s ease;\n}\n\n.one-div::after {\n  content: \"HOVER ME\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  font-weight: bold;\n  text-shadow: 1px 1px 4px rgb(0,0,0);\n  transition: .3s;\n}\n\n.one-div:hover {\n  scale: 1.1;\n  border-radius: 20px 80px;\n  box-shadow: 11px 11px 25px rgba(0, 0, 0, 0.5);\n}\n\n.one-div:hover::after {\n  content: \"THANKS\";\n  color: aqua;\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n</body>\n</html>\n"
+}

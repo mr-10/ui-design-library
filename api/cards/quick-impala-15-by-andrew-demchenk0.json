@@ -1,0 +1,20 @@
+{
+ "id": "quick-impala-15-by-andrew-demchenk0",
+ "name": "Quick Impala 15",
+ "category": "cards",
+ "author": "andrew-demchenk0",
+ "source": "https://uiverse.io/andrew-demchenk0/quick-impala-15",
+ "trigger": "hover",
+ "description": "A card with animation, 3d and border styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "animation",
+  "3d",
+  "card",
+  "border",
+  "hover"
+ ],
+ "html": "<div class=\"card\">\n  <div class=\"card__content\">your content here ↓<div>\n</div></div></div>",
+ "css": "/* From Uiverse.io by andrew-demchenk0 - Tags: animation, 3d, card, border */\n.card {\n  width: 190px;\n  height: 254px;\n  background: lightgrey;\n  position: relative;\n  transform: skewY(-10deg);\n  border: 5px solid #6d74e3;\n  box-sizing: border-box;\n  transition: all 0.3s;\n}\n\n.card::before {\n  content: '';\n  width: 10px;\n  height: 254px;\n  background: #6d74e3;\n  position: absolute;\n  top: -5px;\n  left: -14.7px;\n  transform-origin: right;\n  transform: skewY(45deg);\n  border: none;\n  transition: all 0.5s;\n}\n\n.card::after {\n  content: '';\n  height: 10px;\n  width: 190px;\n  background: #6d74e3;\n  position: absolute;\n  top: -14.7px;\n  left: -5px;\n  transform-origin: bottom;\n  transform: skewX(45deg);\n  border: none;\n  transition: all 0.5s;\n}\n\n.card:hover {\n  transform: skewY(0deg);\n}\n\n.card:hover::before {\n  width: 0px;\n  height: 249px;\n  left: 0;\n  top: 0.1px;\n}\n\n.card:hover::after {\n  width: 184px;\n  height: 0px;\n  left: 0.1px;\n  top: 0;\n}\n\n.card__content {\n  padding: 10px;\n  color: #323232;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Quick Impala 15</title>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - https://uiverse.io/andrew-demchenk0/quick-impala-15 */\n/* From Uiverse.io by andrew-demchenk0 - Tags: animation, 3d, card, border */\n.card {\n  width: 190px;\n  height: 254px;\n  background: lightgrey;\n  position: relative;\n  transform: skewY(-10deg);\n  border: 5px solid #6d74e3;\n  box-sizing: border-box;\n  transition: all 0.3s;\n}\n\n.card::before {\n  content: '';\n  width: 10px;\n  height: 254px;\n  background: #6d74e3;\n  position: absolute;\n  top: -5px;\n  left: -14.7px;\n  transform-origin: right;\n  transform: skewY(45deg);\n  border: none;\n  transition: all 0.5s;\n}\n\n.card::after {\n  content: '';\n  height: 10px;\n  width: 190px;\n  background: #6d74e3;\n  position: absolute;\n  top: -14.7px;\n  left: -5px;\n  transform-origin: bottom;\n  transform: skewX(45deg);\n  border: none;\n  transition: all 0.5s;\n}\n\n.card:hover {\n  transform: skewY(0deg);\n}\n\n.card:hover::before {\n  width: 0px;\n  height: 249px;\n  left: 0;\n  top: 0.1px;\n}\n\n.card:hover::after {\n  width: 184px;\n  height: 0px;\n  left: 0.1px;\n  top: 0;\n}\n\n.card__content {\n  padding: 10px;\n  color: #323232;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card__content\">your content here ↓<div>\n</div></div></div>\n</body>\n</html>\n"
+}

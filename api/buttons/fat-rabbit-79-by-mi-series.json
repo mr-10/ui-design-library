@@ -1,0 +1,18 @@
+{
+ "id": "fat-rabbit-79-by-mi-series",
+ "name": "Fat Rabbit 79",
+ "category": "buttons",
+ "author": "mi-series",
+ "source": "https://uiverse.io/mi-series/fat-rabbit-79",
+ "trigger": "hover",
+ "description": "A button with spin styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "spin",
+  "hover"
+ ],
+ "html": "<button>\n  Hover Me\n</button>",
+ "css": "/* From Uiverse.io by mi-series - Tags: button, spin */\nbutton {\n  width: 150px;\n  height: 50px;\n  border: 2px solid #000;\n  font-family: 'Lato', sans-serif;\n  font-size: 17px;\n  text-decoration: none;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  font-weight: 500;\n  background: transparent;\n  cursor: pointer;\n  position: relative;\n  display: inline-block;\n  margin: 20px;\n  outline: none;\n  text-align: center;\n  z-index: 2;\n  transition: all 0.3s ease;\n  overflow: hidden;\n}\n\nbutton::after {\n  position: absolute;\n  content: \" \";\n  z-index: -1;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  transition: all 0.3s ease;\n}\n\nbutton:hover {\n  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),\n              -4px -4px 6px 0 rgba(116, 125, 136, .2), \n    inset -4px -4px 6px 0 rgba(255,255,255,.5),\n    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);\n  color: #fff;\n}\n\nbutton:hover::after {\n  transform: scale(2) rotate(180deg);\n  background: #000;\n  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),\n              -4px -4px 6px 0 rgba(116, 125, 136, .2), \n    inset -4px -4px 6px 0 rgba(255,255,255,.5),\n    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Rabbit 79</title>\n<style>\n/* From Uiverse.io by mi-series - https://uiverse.io/mi-series/fat-rabbit-79 */\n/* From Uiverse.io by mi-series - Tags: button, spin */\nbutton {\n  width: 150px;\n  height: 50px;\n  border: 2px solid #000;\n  font-family: 'Lato', sans-serif;\n  font-size: 17px;\n  text-decoration: none;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  font-weight: 500;\n  background: transparent;\n  cursor: pointer;\n  position: relative;\n  display: inline-block;\n  margin: 20px;\n  outline: none;\n  text-align: center;\n  z-index: 2;\n  transition: all 0.3s ease;\n  overflow: hidden;\n}\n\nbutton::after {\n  position: absolute;\n  content: \" \";\n  z-index: -1;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  transition: all 0.3s ease;\n}\n\nbutton:hover {\n  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),\n              -4px -4px 6px 0 rgba(116, 125, 136, .2), \n    inset -4px -4px 6px 0 rgba(255,255,255,.5),\n    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);\n  color: #fff;\n}\n\nbutton:hover::after {\n  transform: scale(2) rotate(180deg);\n  background: #000;\n  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),\n              -4px -4px 6px 0 rgba(116, 125, 136, .2), \n    inset -4px -4px 6px 0 rgba(255,255,255,.5),\n    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);\n}\n</style>\n</head>\n<body>\n<button>\n  Hover Me\n</button>\n</body>\n</html>\n"
+}

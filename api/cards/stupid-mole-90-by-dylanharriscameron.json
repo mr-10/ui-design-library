@@ -1,0 +1,20 @@
+{
+ "id": "stupid-mole-90-by-dylanharriscameron",
+ "name": "Stupid Mole 90",
+ "category": "cards",
+ "author": "dylanharriscameron",
+ "source": "https://uiverse.io/dylanharriscameron/stupid-mole-90",
+ "trigger": "auto-loop",
+ "description": "A card with neumorphism, glassmorphism and animated styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "neumorphism",
+  "glassmorphism",
+  "card",
+  "animated",
+  "auto-loop"
+ ],
+ "html": "<div class=\"card\">\n  <div class=\"bg\"></div>\n  <div class=\"blob\"></div>\n</div>",
+ "css": "/* From Uiverse.io by dylanharriscameron - Tags: neumorphism, glassmorphism, card, animated */\n.card {\n  position: relative;\n  width: 200px;\n  height: 250px;\n  border-radius: 14px;\n  z-index: 1111;\n  overflow: hidden;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;\n  ;\n}\n\n.bg {\n  position: absolute;\n  top: 5px;\n  left: 5px;\n  width: 190px;\n  height: 240px;\n  z-index: 2;\n  background: rgba(255, 255, 255, .95);\n  backdrop-filter: blur(24px);\n  border-radius: 10px;\n  overflow: hidden;\n  outline: 2px solid white;\n}\n\n.blob {\n  position: absolute;\n  z-index: 1;\n  top: 50%;\n  left: 50%;\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n  background-color: #ff0000;\n  opacity: 1;\n  filter: blur(12px);\n  animation: blob-bounce 5s infinite ease;\n}\n\n@keyframes blob-bounce {\n  0% {\n    transform: translate(-100%, -100%) translate3d(0, 0, 0);\n  }\n\n  25% {\n    transform: translate(-100%, -100%) translate3d(100%, 0, 0);\n  }\n\n  50% {\n    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);\n  }\n\n  75% {\n    transform: translate(-100%, -100%) translate3d(0, 100%, 0);\n  }\n\n  100% {\n    transform: translate(-100%, -100%) translate3d(0, 0, 0);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stupid Mole 90</title>\n<style>\n/* From Uiverse.io by dylanharriscameron - https://uiverse.io/dylanharriscameron/stupid-mole-90 */\n/* From Uiverse.io by dylanharriscameron - Tags: neumorphism, glassmorphism, card, animated */\n.card {\n  position: relative;\n  width: 200px;\n  height: 250px;\n  border-radius: 14px;\n  z-index: 1111;\n  overflow: hidden;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;\n  ;\n}\n\n.bg {\n  position: absolute;\n  top: 5px;\n  left: 5px;\n  width: 190px;\n  height: 240px;\n  z-index: 2;\n  background: rgba(255, 255, 255, .95);\n  backdrop-filter: blur(24px);\n  border-radius: 10px;\n  overflow: hidden;\n  outline: 2px solid white;\n}\n\n.blob {\n  position: absolute;\n  z-index: 1;\n  top: 50%;\n  left: 50%;\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n  background-color: #ff0000;\n  opacity: 1;\n  filter: blur(12px);\n  animation: blob-bounce 5s infinite ease;\n}\n\n@keyframes blob-bounce {\n  0% {\n    transform: translate(-100%, -100%) translate3d(0, 0, 0);\n  }\n\n  25% {\n    transform: translate(-100%, -100%) translate3d(100%, 0, 0);\n  }\n\n  50% {\n    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);\n  }\n\n  75% {\n    transform: translate(-100%, -100%) translate3d(0, 100%, 0);\n  }\n\n  100% {\n    transform: translate(-100%, -100%) translate3d(0, 0, 0);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"bg\"></div>\n  <div class=\"blob\"></div>\n</div>\n</body>\n</html>\n"
+}

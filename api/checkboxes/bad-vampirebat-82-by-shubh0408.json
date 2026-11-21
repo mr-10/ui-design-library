@@ -1,0 +1,18 @@
+{
+ "id": "bad-vampirebat-82-by-shubh0408",
+ "name": "Bad Vampirebat 82",
+ "category": "checkboxes",
+ "author": "Shubh0408",
+ "source": "https://uiverse.io/Shubh0408/bad-vampirebat-82",
+ "trigger": "checked",
+ "description": "A checkbox UI element.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "checkboxes",
+  "checked",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Shubh0408  - Tags: checkbox, toggle, play, tailwind, tailwindcss -->\n<label\n  class=\"w-9 h-10 cursor-pointer flex flex-col items-center justify-center\"\n>\n  <input class=\"hidden peer\" type=\"checkbox\" />\n  <div\n    class=\"w-[50%] h-[2px] bg-white rounded-sm transition-all duration-300 origin-center rotate-90 -translate-x-[0.3rem] translate-y-[0.1rem] peer-checked:translate-y-[0.1rem]\"\n  ></div>\n  <div\n    class=\"w-[50%] h-[2px] bg-white rounded-md transition-all duration-300 origin-center rotate-90 translate-x-[0.3rem] -translate-y-[0.05rem] peer-checked:rotate-[-30deg] peer-checked:translate-y-[0.22rem] peer-checked:translate-x-[0.15rem]\"\n  ></div>\n  <div\n    class=\"w-[50%] h-[2px] bg-white rounded-md transition-all duration-300 origin-center rotate-90 translate-x-[0.3rem] -translate-y-[0.16rem] peer-checked:rotate-[30deg] peer-checked:translate-y-[-0.4rem] peer-checked:translate-x-[0.15rem]\"\n  ></div>\n</label>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bad Vampirebat 82</title>\n<style>\n/* From Uiverse.io by Shubh0408 - https://uiverse.io/Shubh0408/bad-vampirebat-82 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Shubh0408  - Tags: checkbox, toggle, play, tailwind, tailwindcss -->\n<label\n  class=\"w-9 h-10 cursor-pointer flex flex-col items-center justify-center\"\n>\n  <input class=\"hidden peer\" type=\"checkbox\" />\n  <div\n    class=\"w-[50%] h-[2px] bg-white rounded-sm transition-all duration-300 origin-center rotate-90 -translate-x-[0.3rem] translate-y-[0.1rem] peer-checked:translate-y-[0.1rem]\"\n  ></div>\n  <div\n    class=\"w-[50%] h-[2px] bg-white rounded-md transition-all duration-300 origin-center rotate-90 translate-x-[0.3rem] -translate-y-[0.05rem] peer-checked:rotate-[-30deg] peer-checked:translate-y-[0.22rem] peer-checked:translate-x-[0.15rem]\"\n  ></div>\n  <div\n    class=\"w-[50%] h-[2px] bg-white rounded-md transition-all duration-300 origin-center rotate-90 translate-x-[0.3rem] -translate-y-[0.16rem] peer-checked:rotate-[30deg] peer-checked:translate-y-[-0.4rem] peer-checked:translate-x-[0.15rem]\"\n  ></div>\n</label>\n</body>\n</html>\n"
+}

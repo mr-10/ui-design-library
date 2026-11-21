@@ -1,0 +1,18 @@
+{
+ "id": "cowardly-cougar-86-by-hoshikawamaki",
+ "name": "Cowardly Cougar 86",
+ "category": "toggle-switches",
+ "author": "hoshikawamaki",
+ "source": "https://uiverse.io/hoshikawamaki/cowardly-cougar-86",
+ "trigger": "checked",
+ "description": "A toggle switch UI element.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "toggle-switches",
+  "checked",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by hoshikawamaki  - Tags: simple, icon, animation, switch, toggle, animated, toggle switch, click animation -->\n<label\n  for=\"nav_bar_icon\"\n  class=\"w-9 h-10 cursor-pointer flex flex-col items-center justify-center space-y-1.5\"\n>\n  <input id=\"nav_bar_icon\" type=\"checkbox\" class=\"hidden peer\" />\n  <div\n    class=\"w-2/3 h-1.5 bg-purple-400 rounded-lg transition-all duration-300 origin-right peer-checked:w-full peer-checked:rotate-[-30deg] peer-checked:translate-y-[-5px]\"\n  ></div>\n  <div\n    class=\"w-full h-1.5 bg-purple-400 rounded-lg transition-all duration-300 origin-center peer-checked:rotate-90 peer-checked:translate-x-4\"\n  ></div>\n  <div\n    class=\"w-2/3 h-1.5 bg-purple-400 rounded-lg transition-all duration-300 origin-right peer-checked:w-full peer-checked:rotate-[30deg] peer-checked:translate-y-[5px]\"\n  ></div>\n</label>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Cougar 86</title>\n<style>\n/* From Uiverse.io by hoshikawamaki - https://uiverse.io/hoshikawamaki/cowardly-cougar-86 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by hoshikawamaki  - Tags: simple, icon, animation, switch, toggle, animated, toggle switch, click animation -->\n<label\n  for=\"nav_bar_icon\"\n  class=\"w-9 h-10 cursor-pointer flex flex-col items-center justify-center space-y-1.5\"\n>\n  <input id=\"nav_bar_icon\" type=\"checkbox\" class=\"hidden peer\" />\n  <div\n    class=\"w-2/3 h-1.5 bg-purple-400 rounded-lg transition-all duration-300 origin-right peer-checked:w-full peer-checked:rotate-[-30deg] peer-checked:translate-y-[-5px]\"\n  ></div>\n  <div\n    class=\"w-full h-1.5 bg-purple-400 rounded-lg transition-all duration-300 origin-center peer-checked:rotate-90 peer-checked:translate-x-4\"\n  ></div>\n  <div\n    class=\"w-2/3 h-1.5 bg-purple-400 rounded-lg transition-all duration-300 origin-right peer-checked:w-full peer-checked:rotate-[30deg] peer-checked:translate-y-[5px]\"\n  ></div>\n</label>\n</body>\n</html>\n"
+}

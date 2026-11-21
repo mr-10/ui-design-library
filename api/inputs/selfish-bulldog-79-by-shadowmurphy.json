@@ -1,0 +1,21 @@
+{
+ "id": "selfish-bulldog-79-by-shadowmurphy",
+ "name": "Selfish Bulldog 79",
+ "category": "inputs",
+ "author": "shadowmurphy",
+ "source": "https://uiverse.io/shadowmurphy/selfish-bulldog-79",
+ "trigger": "hover",
+ "description": "A input with simple, material-design and neumorphism styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "material-design",
+  "neumorphism",
+  "skeuomorphism",
+  "input",
+  "hover"
+ ],
+ "html": "<input\n  type=\"text\"\n  name=\"text\"\n  class=\"search-bar\"\n  placeholder=\"Type something\"\n/>",
+ "css": "/* From Uiverse.io by shadowmurphy  - Tags: simple, material design, neumorphism, skeuomorphism, input */\n.search-bar {\n  width: 200px;\n  height: 35px;\n  border-radius: 5px;\n  outline: none;\n  border: 1px solid #303030;\n  border-bottom: 2px solid #9a9a9a;\n  padding-left: 10px;\n  padding-right: 10px;\n  background-color: #2d2d2d;\n  color: white;\n  transition: all 0.3s ease;\n}\n\n.search-bar::placeholder {\n  color: #9a9a9a;\n}\n\n.search-bar:hover {\n  background-color: #313131;\n}\n\n.search-bar:active,\n.search-bar:focus {\n  background-color: #1e1f20;\n  border: 1px solid #2d2d2d;\n  border-bottom: 2px solid #4cc2ff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Bulldog 79</title>\n<style>\n/* From Uiverse.io by shadowmurphy - https://uiverse.io/shadowmurphy/selfish-bulldog-79 */\n/* From Uiverse.io by shadowmurphy  - Tags: simple, material design, neumorphism, skeuomorphism, input */\n.search-bar {\n  width: 200px;\n  height: 35px;\n  border-radius: 5px;\n  outline: none;\n  border: 1px solid #303030;\n  border-bottom: 2px solid #9a9a9a;\n  padding-left: 10px;\n  padding-right: 10px;\n  background-color: #2d2d2d;\n  color: white;\n  transition: all 0.3s ease;\n}\n\n.search-bar::placeholder {\n  color: #9a9a9a;\n}\n\n.search-bar:hover {\n  background-color: #313131;\n}\n\n.search-bar:active,\n.search-bar:focus {\n  background-color: #1e1f20;\n  border: 1px solid #2d2d2d;\n  border-bottom: 2px solid #4cc2ff;\n}\n</style>\n</head>\n<body>\n<input\n  type=\"text\"\n  name=\"text\"\n  class=\"search-bar\"\n  placeholder=\"Type something\"\n/>\n</body>\n</html>\n"
+}

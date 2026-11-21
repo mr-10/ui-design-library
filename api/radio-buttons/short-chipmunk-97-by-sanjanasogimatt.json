@@ -1,0 +1,21 @@
+{
+ "id": "short-chipmunk-97-by-sanjanasogimatt",
+ "name": "Short Chipmunk 97",
+ "category": "radio-buttons",
+ "author": "SanjanaSogimatt",
+ "source": "https://uiverse.io/SanjanaSogimatt/short-chipmunk-97",
+ "trigger": "checked",
+ "description": "A radio button with neumorphism, skeuomorphism and minimalist styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "neumorphism",
+  "skeuomorphism",
+  "minimalist",
+  "gradient",
+  "button",
+  "hover"
+ ],
+ "html": "<div class=\"radio-input\">\n        <input value=\"value-1\" name=\"value-radio\" id=\"value-1\" type=\"radio\">\n        <label for=\"value-1\" class=\"label\">BASIC</label>\n        <input value=\"value-2\" name=\"value-radio\" id=\"value-2\" type=\"radio\">\n        <label for=\"value-2\" class=\"label\">STANDARD</label>\n        <input value=\"value-3\" name=\"value-radio\" id=\"value-3\" type=\"radio\">\n        <label for=\"value-3\" class=\"label\">PREMIUM</label>\n</div>",
+ "css": "/* From Uiverse.io by SanjanaSogimatt - Tags: neumorphism, skeuomorphism, minimalist, gradient, button, hover, glow, radio, animated, futuristic-radio-buttons */\n.radio-input {\n  box-shadow: -10px -15px 15px rgba(255, 255, 255, 0.5),\n    10px 10px 25px rgba(70, 70, 70, 0.5);\n  margin: auto;\n  height: 80px;\n  width: 300px;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  position: absolute;\n  border-radius: 50px;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: white;\n}\n\n.radio-input input[type=\"radio\"] {\n  display: none;\n}\n\n.label {\n  font-size: .9rem;\n  font-weight: 600;\n  font-family: 'poppins',sans-serif;\n  padding: 18px 15px;\n  border-radius: 35px;\n  transition: 0.5s;\n  cursor: pointer;\n  color: black;\n}\n\n.radio-input input[type=\"radio\"]:checked + label {\n  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.151),\n    10px 10px 15px rgba(0, 0, 0, 0.218);\n  background: linear-gradient(45deg,#cf6efb,#4f29cd);\n  color: white;\n  transform: translateY(-4px);\n}\n\n.radio-input input[type=\"radio\"]:hover:not(:checked)+ label {\n  box-shadow: inset 10px 10px 15px rgba(0, 0, 0, 0.151),\n    inset 10px 10px 15px rgba(0, 0, 0, 0.218);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Short Chipmunk 97</title>\n<style>\n/* From Uiverse.io by SanjanaSogimatt - https://uiverse.io/SanjanaSogimatt/short-chipmunk-97 */\n/* From Uiverse.io by SanjanaSogimatt - Tags: neumorphism, skeuomorphism, minimalist, gradient, button, hover, glow, radio, animated, futuristic-radio-buttons */\n.radio-input {\n  box-shadow: -10px -15px 15px rgba(255, 255, 255, 0.5),\n    10px 10px 25px rgba(70, 70, 70, 0.5);\n  margin: auto;\n  height: 80px;\n  width: 300px;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n  position: absolute;\n  border-radius: 50px;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: white;\n}\n\n.radio-input input[type=\"radio\"] {\n  display: none;\n}\n\n.label {\n  font-size: .9rem;\n  font-weight: 600;\n  font-family: 'poppins',sans-serif;\n  padding: 18px 15px;\n  border-radius: 35px;\n  transition: 0.5s;\n  cursor: pointer;\n  color: black;\n}\n\n.radio-input input[type=\"radio\"]:checked + label {\n  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.151),\n    10px 10px 15px rgba(0, 0, 0, 0.218);\n  background: linear-gradient(45deg,#cf6efb,#4f29cd);\n  color: white;\n  transform: translateY(-4px);\n}\n\n.radio-input input[type=\"radio\"]:hover:not(:checked)+ label {\n  box-shadow: inset 10px 10px 15px rgba(0, 0, 0, 0.151),\n    inset 10px 10px 15px rgba(0, 0, 0, 0.218);\n}\n</style>\n</head>\n<body>\n<div class=\"radio-input\">\n        <input value=\"value-1\" name=\"value-radio\" id=\"value-1\" type=\"radio\">\n        <label for=\"value-1\" class=\"label\">BASIC</label>\n        <input value=\"value-2\" name=\"value-radio\" id=\"value-2\" type=\"radio\">\n        <label for=\"value-2\" class=\"label\">STANDARD</label>\n        <input value=\"value-3\" name=\"value-radio\" id=\"value-3\" type=\"radio\">\n        <label for=\"value-3\" class=\"label\">PREMIUM</label>\n</div>\n</body>\n</html>\n"
+}

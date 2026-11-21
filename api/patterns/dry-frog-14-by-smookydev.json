@@ -1,0 +1,21 @@
+{
+ "id": "dry-frog-14-by-smookydev",
+ "name": "Dry Frog 14",
+ "category": "patterns",
+ "author": "SmookyDev",
+ "source": "https://uiverse.io/SmookyDev/dry-frog-14",
+ "trigger": "static",
+ "description": "A pattern with cube, creative and premium styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "cube",
+  "creative",
+  "css",
+  "premium",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by SmookyDev  - Tags: cube, creative, css, premium, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: linear-gradient(\n      45deg,\n      #0000 calc(25% / 3),\n      #ffffff 0 calc(50% / 3),\n      #0000 0 calc(250% / 3),\n      #ffffff 0 calc(275% / 3),\n      #0000 0\n    ),\n    linear-gradient(\n      45deg,\n      #ffffff calc(25% / 3),\n      #0000 0 calc(50% / 3),\n      #ffffff 0 25%,\n      #0000 0 75%,\n      #ffffff 0 calc(250% / 3),\n      #0000 0 calc(275% / 3),\n      #ffffff 0\n    ),\n    linear-gradient(\n      -45deg,\n      #0000 calc(25% / 3),\n      #ffffff 0 calc(50% / 3),\n      #0000 0 calc(250% / 3),\n      #ffffff 0 calc(275% / 3),\n      #0000 0\n    ),\n    linear-gradient(\n        -45deg,\n        #ffffff calc(25% / 3),\n        #0000 0 calc(50% / 3),\n        #ffffff 0 25%,\n        #0000 0 75%,\n        #ffffff 0 calc(250% / 3),\n        #0000 0 calc(275% / 3),\n        #ffffff 0\n      )\n      #c77979;\n  background-size: 106px 106px;\n  background-position: 0 0, 53px 53px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Frog 14</title>\n<style>\n/* From Uiverse.io by SmookyDev - https://uiverse.io/SmookyDev/dry-frog-14 */\n/* From Uiverse.io by SmookyDev  - Tags: cube, creative, css, premium, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: linear-gradient(\n      45deg,\n      #0000 calc(25% / 3),\n      #ffffff 0 calc(50% / 3),\n      #0000 0 calc(250% / 3),\n      #ffffff 0 calc(275% / 3),\n      #0000 0\n    ),\n    linear-gradient(\n      45deg,\n      #ffffff calc(25% / 3),\n      #0000 0 calc(50% / 3),\n      #ffffff 0 25%,\n      #0000 0 75%,\n      #ffffff 0 calc(250% / 3),\n      #0000 0 calc(275% / 3),\n      #ffffff 0\n    ),\n    linear-gradient(\n      -45deg,\n      #0000 calc(25% / 3),\n      #ffffff 0 calc(50% / 3),\n      #0000 0 calc(250% / 3),\n      #ffffff 0 calc(275% / 3),\n      #0000 0\n    ),\n    linear-gradient(\n        -45deg,\n        #ffffff calc(25% / 3),\n        #0000 0 calc(50% / 3),\n        #ffffff 0 25%,\n        #0000 0 75%,\n        #ffffff 0 calc(250% / 3),\n        #0000 0 calc(275% / 3),\n        #ffffff 0\n      )\n      #c77979;\n  background-size: 106px 106px;\n  background-position: 0 0, 53px 53px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

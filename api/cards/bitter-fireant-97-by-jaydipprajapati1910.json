@@ -1,0 +1,19 @@
+{
+ "id": "bitter-fireant-97-by-jaydipprajapati1910",
+ "name": "Bitter Fireant 97",
+ "category": "cards",
+ "author": "JaydipPrajapati1910",
+ "source": "https://uiverse.io/JaydipPrajapati1910/bitter-fireant-97",
+ "trigger": "auto-loop",
+ "description": "A card with black and gradient styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "black",
+  "gradient",
+  "card",
+  "auto-loop"
+ ],
+ "html": "<div class=\"card\"></div>",
+ "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: black, gradient, card */\n.card {\n  width: 190px;\n  height: 254px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  padding: 0px 15px;\n  background-color: red;\n  border-radius: 10px;\n  border: none;\n  color: white;\n  position: relative;\n  cursor: pointer;\n  font-weight: 900;\n  transition-duration: .2s;\n  background: linear-gradient(0deg, #000, #272727);\n}\n\n.card:before, .card:after {\n  content: '';\n  position: absolute;\n  left: -2px;\n  top: -2px;\n  border-radius: 10px;\n  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, \n\t\t#0000ff, #00ff00,#ffff00, #ff0000);\n  background-size: 400%;\n  width: calc(100% + 4px);\n  height: calc(100% + 4px);\n  z-index: -1;\n  animation: steam 20s linear infinite;\n}\n\n@keyframes steam {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n\n.card:after {\n  filter: blur(100px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Fireant 97</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/bitter-fireant-97 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: black, gradient, card */\n.card {\n  width: 190px;\n  height: 254px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  padding: 0px 15px;\n  background-color: red;\n  border-radius: 10px;\n  border: none;\n  color: white;\n  position: relative;\n  cursor: pointer;\n  font-weight: 900;\n  transition-duration: .2s;\n  background: linear-gradient(0deg, #000, #272727);\n}\n\n.card:before, .card:after {\n  content: '';\n  position: absolute;\n  left: -2px;\n  top: -2px;\n  border-radius: 10px;\n  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, \n\t\t#0000ff, #00ff00,#ffff00, #ff0000);\n  background-size: 400%;\n  width: calc(100% + 4px);\n  height: calc(100% + 4px);\n  z-index: -1;\n  animation: steam 20s linear infinite;\n}\n\n@keyframes steam {\n  0% {\n    background-position: 0 0;\n  }\n\n  50% {\n    background-position: 400% 0;\n  }\n\n  100% {\n    background-position: 0 0;\n  }\n}\n\n.card:after {\n  filter: blur(100px);\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+}

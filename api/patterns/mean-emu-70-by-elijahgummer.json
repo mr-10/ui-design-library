@@ -1,0 +1,21 @@
+{
+ "id": "mean-emu-70-by-elijahgummer",
+ "name": "Mean Emu 70",
+ "category": "patterns",
+ "author": "elijahgummer",
+ "source": "https://uiverse.io/elijahgummer/mean-emu-70",
+ "trigger": "auto-loop",
+ "description": "A pattern with simple, animation and blue styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "simple",
+  "animation",
+  "blue",
+  "gradient",
+  "circle",
+  "transition"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by elijahgummer  - Tags: simple, animation, blue, gradient, circle, transition, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: lightblue;\n  position: relative;\n  overflow: hidden;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  top: -50%;\n  left: -50%;\n  width: 200%;\n  height: 200%;\n  background: radial-gradient(circle, #3498db 10%, transparent 20%),\n    radial-gradient(circle, transparent 10%, #3498db 20%);\n  background-size: 30px 30px; /* Adjust the size of the pattern */\n  animation: moveBackground 8s linear infinite; /* Adjust the animation duration and timing function */\n}\n\n@keyframes moveBackground {\n  0% {\n    transform: translate(0, 0);\n  }\n  100% {\n    transform: translate(20%, 20%);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mean Emu 70</title>\n<style>\n/* From Uiverse.io by elijahgummer - https://uiverse.io/elijahgummer/mean-emu-70 */\n/* From Uiverse.io by elijahgummer  - Tags: simple, animation, blue, gradient, circle, transition, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: lightblue;\n  position: relative;\n  overflow: hidden;\n}\n\n.container::before {\n  content: \"\";\n  position: absolute;\n  top: -50%;\n  left: -50%;\n  width: 200%;\n  height: 200%;\n  background: radial-gradient(circle, #3498db 10%, transparent 20%),\n    radial-gradient(circle, transparent 10%, #3498db 20%);\n  background-size: 30px 30px; /* Adjust the size of the pattern */\n  animation: moveBackground 8s linear infinite; /* Adjust the animation duration and timing function */\n}\n\n@keyframes moveBackground {\n  0% {\n    transform: translate(0, 0);\n  }\n  100% {\n    transform: translate(20%, 20%);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "quiet-zebra-41-by-fernando-sv",
+ "name": "Quiet Zebra 41",
+ "category": "loaders",
+ "author": "Fernando-sv",
+ "source": "https://uiverse.io/Fernando-sv/quiet-zebra-41",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by Fernando-sv - Tags: loader */\n.loader {\n  border: 4px solid rgba(0, 0, 0, .1);\n  border-left-color: transparent;\n  border-radius: 50%;\n}\n\n.loader {\n  border: 4px solid rgba(0, 0, 0, .1);\n  border-left-color: transparent;\n  width: 36px;\n  height: 36px;\n}\n\n.loader {\n  border: 4px solid rgba(0, 0, 0, .1);\n  border-left-color: transparent;\n  width: 36px;\n  height: 36px;\n  animation: spin89345 1s linear infinite;\n}\n\n@keyframes spin89345 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Quiet Zebra 41</title>\n<style>\n/* From Uiverse.io by Fernando-sv - https://uiverse.io/Fernando-sv/quiet-zebra-41 */\n/* From Uiverse.io by Fernando-sv - Tags: loader */\n.loader {\n  border: 4px solid rgba(0, 0, 0, .1);\n  border-left-color: transparent;\n  border-radius: 50%;\n}\n\n.loader {\n  border: 4px solid rgba(0, 0, 0, .1);\n  border-left-color: transparent;\n  width: 36px;\n  height: 36px;\n}\n\n.loader {\n  border: 4px solid rgba(0, 0, 0, .1);\n  border-left-color: transparent;\n  width: 36px;\n  height: 36px;\n  animation: spin89345 1s linear infinite;\n}\n\n@keyframes spin89345 {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

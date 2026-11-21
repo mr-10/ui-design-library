@@ -1,0 +1,21 @@
+{
+ "id": "lovely-rabbit-61-by-abrar-hussain1",
+ "name": "Lovely Rabbit 61",
+ "category": "loaders",
+ "author": "Abrar-Hussain1",
+ "source": "https://uiverse.io/Abrar-Hussain1/lovely-rabbit-61",
+ "trigger": "auto-loop",
+ "description": "A loader with animation, loading and spinner styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "animation",
+  "loading",
+  "loader",
+  "spinner",
+  "modern",
+  "circle"
+ ],
+ "html": "<div class=\"loader-container\">\n  <div class=\"loader\"></div>\n  <div class=\"loader-text\">Loading...</div>\n</div>",
+ "css": "/* From Uiverse.io by Abrar-Hussain1  - Tags: animation, loading, loader, spinner, modern, circle, animated, circle loader */\n.loader-container {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\n.loader {\n  width: 70px;\n  height: 70px;\n  position: relative;\n}\n\n.loader:before {\n  content: \"\";\n  width: 70px;\n  height: 70px;\n  border-radius: 50%;\n  border: 6px solid #007bff;\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: pulse 1s ease-in-out infinite;\n}\n\n.loader:after {\n  content: \"\";\n  width: 70px;\n  height: 70px;\n  border-radius: 50%;\n  border: 6px solid transparent;\n  border-top-color: #007bff;\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: spin 2s linear infinite;\n}\n\n.loader-text {\n  font-size: 24px;\n  margin-top: 20px;\n  color: #007bff;\n  font-family: Arial, sans-serif;\n  text-align: center;\n  text-transform: uppercase;\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(0.6);\n    opacity: 1;\n  }\n  50% {\n    transform: scale(1.2);\n    opacity: 0;\n  }\n  100% {\n    transform: scale(0.6);\n    opacity: 1;\n  }\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.content {\n  display: none;\n}\n\n.loaded .loader-container {\n  display: none;\n}\n\n.loaded .content {\n  display: block;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lovely Rabbit 61</title>\n<style>\n/* From Uiverse.io by Abrar-Hussain1 - https://uiverse.io/Abrar-Hussain1/lovely-rabbit-61 */\n/* From Uiverse.io by Abrar-Hussain1  - Tags: animation, loading, loader, spinner, modern, circle, animated, circle loader */\n.loader-container {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n}\n\n.loader {\n  width: 70px;\n  height: 70px;\n  position: relative;\n}\n\n.loader:before {\n  content: \"\";\n  width: 70px;\n  height: 70px;\n  border-radius: 50%;\n  border: 6px solid #007bff;\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: pulse 1s ease-in-out infinite;\n}\n\n.loader:after {\n  content: \"\";\n  width: 70px;\n  height: 70px;\n  border-radius: 50%;\n  border: 6px solid transparent;\n  border-top-color: #007bff;\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: spin 2s linear infinite;\n}\n\n.loader-text {\n  font-size: 24px;\n  margin-top: 20px;\n  color: #007bff;\n  font-family: Arial, sans-serif;\n  text-align: center;\n  text-transform: uppercase;\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(0.6);\n    opacity: 1;\n  }\n  50% {\n    transform: scale(1.2);\n    opacity: 0;\n  }\n  100% {\n    transform: scale(0.6);\n    opacity: 1;\n  }\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.content {\n  display: none;\n}\n\n.loaded .loader-container {\n  display: none;\n}\n\n.loaded .content {\n  display: block;\n}\n</style>\n</head>\n<body>\n<div class=\"loader-container\">\n  <div class=\"loader\"></div>\n  <div class=\"loader-text\">Loading...</div>\n</div>\n</body>\n</html>\n"
+}

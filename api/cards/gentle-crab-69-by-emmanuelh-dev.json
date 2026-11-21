@@ -1,0 +1,18 @@
+{
+ "id": "gentle-crab-69-by-emmanuelh-dev",
+ "name": "Gentle Crab 69",
+ "category": "cards",
+ "author": "emmanuelh-dev",
+ "source": "https://uiverse.io/emmanuelh-dev/gentle-crab-69",
+ "trigger": "static",
+ "description": "A card UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "cards",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by emmanuelh-dev - Tags: material design, card, box-shadow, gold -->\n<aside class=\"bg-black text-white p-6 rounded-lg w-full max-w-lg font-mono\">\n  <div class=\"flex justify-between items-center\">\n    <div class=\"flex space-x-2 text-red-500\">\n      <div class=\"w-3 h-3 rounded-full bg-red-500\"></div>\n      <div class=\"w-3 h-3 rounded-full bg-yellow-500\"></div>\n      <div class=\"w-3 h-3 rounded-full bg-green-500\"></div>\n    </div>\n    <p class=\"text-sm\">bash</p>\n  </div>\n  <div class=\"mt-4\">\n    <p class=\"text-green-400\">$ npm install next</p>\n    <p class=\"text-white\">+ next@10.2.3</p>\n    <p class=\"text-white\">added 1 package, and audited 2 packages in 3s</p>\n    <p class=\"text-green-400\">$</p>\n  </div>\n</aside>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Gentle Crab 69</title>\n<style>\n/* From Uiverse.io by emmanuelh-dev - https://uiverse.io/emmanuelh-dev/gentle-crab-69 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by emmanuelh-dev - Tags: material design, card, box-shadow, gold -->\n<aside class=\"bg-black text-white p-6 rounded-lg w-full max-w-lg font-mono\">\n  <div class=\"flex justify-between items-center\">\n    <div class=\"flex space-x-2 text-red-500\">\n      <div class=\"w-3 h-3 rounded-full bg-red-500\"></div>\n      <div class=\"w-3 h-3 rounded-full bg-yellow-500\"></div>\n      <div class=\"w-3 h-3 rounded-full bg-green-500\"></div>\n    </div>\n    <p class=\"text-sm\">bash</p>\n  </div>\n  <div class=\"mt-4\">\n    <p class=\"text-green-400\">$ npm install next</p>\n    <p class=\"text-white\">+ next@10.2.3</p>\n    <p class=\"text-white\">added 1 package, and audited 2 packages in 3s</p>\n    <p class=\"text-green-400\">$</p>\n  </div>\n</aside>\n</body>\n</html>\n"
+}

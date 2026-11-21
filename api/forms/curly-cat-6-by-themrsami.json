@@ -1,0 +1,18 @@
+{
+ "id": "curly-cat-6-by-themrsami",
+ "name": "Curly Cat 6",
+ "category": "forms",
+ "author": "themrsami",
+ "source": "https://uiverse.io/themrsami/curly-cat-6",
+ "trigger": "static",
+ "description": "A form UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "forms",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by themrsami - Tags: form, tailwind, tailwindcss, themrsami, darkversion, subscribe to our newsletter form -->\n<div class=\"flex flex-col items-center justify-center h-screen dark\">\n  <div class=\"w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6\">\n    <h2 class=\"text-2xl font-bold text-gray-200 mb-4\">Subscribe to Our Newsletter</h2>\n\n    <form class=\"flex flex-col\">\n      <input placeholder=\"Enter your email address\" class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"email\">\n\n      <button class=\"bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold py-2 px-4 rounded-md mt-4 hover:bg-green-600 hover:to-blue-600 transition ease-in-out duration-150\" type=\"submit\">Subscribe</button>\n    </form>\n\n    <div class=\"flex justify-center mt-4\">\n      <a class=\"text-sm text-gray-400 hover:underline\" href=\"#\">Privacy Policy</a>\n    </div>\n  </div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Cat 6</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/curly-cat-6 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by themrsami - Tags: form, tailwind, tailwindcss, themrsami, darkversion, subscribe to our newsletter form -->\n<div class=\"flex flex-col items-center justify-center h-screen dark\">\n  <div class=\"w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6\">\n    <h2 class=\"text-2xl font-bold text-gray-200 mb-4\">Subscribe to Our Newsletter</h2>\n\n    <form class=\"flex flex-col\">\n      <input placeholder=\"Enter your email address\" class=\"bg-gray-700 text-gray-200 border-0 rounded-md p-2 mb-4 focus:bg-gray-600 focus:outline-none focus:ring-1 focus:ring-blue-500 transition ease-in-out duration-150\" type=\"email\">\n\n      <button class=\"bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold py-2 px-4 rounded-md mt-4 hover:bg-green-600 hover:to-blue-600 transition ease-in-out duration-150\" type=\"submit\">Subscribe</button>\n    </form>\n\n    <div class=\"flex justify-center mt-4\">\n      <a class=\"text-sm text-gray-400 hover:underline\" href=\"#\">Privacy Policy</a>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+}

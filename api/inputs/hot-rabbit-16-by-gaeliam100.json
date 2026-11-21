@@ -1,0 +1,18 @@
+{
+ "id": "hot-rabbit-16-by-gaeliam100",
+ "name": "Hot Rabbit 16",
+ "category": "inputs",
+ "author": "gaeliam100",
+ "source": "https://uiverse.io/gaeliam100/hot-rabbit-16",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "inputs",
+  "focus",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by gaeliam100  - Website: https://www.youtube.com/watch?v=ZROj1Wt45yc - Name:  Laratips - Tags: simple, input, clean -->\n<div class=\"flex items-center justify-center min-h-screen\">\n  <div class=\"relative\">\n    <input\n      class=\"border-b border-gray-300 py-1 focus:border-b-2 focus:border-blue-700 transition-colors focus:outline-none peer bg-inherit\"\n      type=\"text\"\n      name=\"username\"\n      id=\"username\"\n    />\n    <label\n      class=\"absolute left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-blue-700\"\n      for=\"username\"\n      >Name</label\n    >\n  </div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hot Rabbit 16</title>\n<style>\n/* From Uiverse.io by gaeliam100 - https://uiverse.io/gaeliam100/hot-rabbit-16 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by gaeliam100  - Website: https://www.youtube.com/watch?v=ZROj1Wt45yc - Name:  Laratips - Tags: simple, input, clean -->\n<div class=\"flex items-center justify-center min-h-screen\">\n  <div class=\"relative\">\n    <input\n      class=\"border-b border-gray-300 py-1 focus:border-b-2 focus:border-blue-700 transition-colors focus:outline-none peer bg-inherit\"\n      type=\"text\"\n      name=\"username\"\n      id=\"username\"\n    />\n    <label\n      class=\"absolute left-0 top-1 cursor-text peer-focus:text-xs peer-focus:-top-4 transition-all peer-focus:text-blue-700\"\n      for=\"username\"\n      >Name</label\n    >\n  </div>\n</div>\n</body>\n</html>\n"
+}

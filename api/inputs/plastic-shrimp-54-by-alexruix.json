@@ -1,0 +1,18 @@
+{
+ "id": "plastic-shrimp-54-by-alexruix",
+ "name": "Plastic Shrimp 54",
+ "category": "inputs",
+ "author": "alexruix",
+ "source": "https://uiverse.io/alexruix/plastic-shrimp-54",
+ "trigger": "focus",
+ "description": "A input with search styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "search",
+  "focus"
+ ],
+ "html": "<div class=\"group\">\n    <svg class=\"icon\" aria-hidden=\"true\" viewBox=\"0 0 24 24\">\n        <g>\n            <path d=\"M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z\"></path>\n        </g>\n    </svg>\n    <input placeholder=\"Search\" type=\"search\" class=\"input\">\n</div>",
+ "css": "/* From Uiverse.io by alexruix - Tags: input, search */\n.group {\n  display: flex;\n  line-height: 28px;\n  align-items: center;\n  position: relative;\n  max-width: 190px;\n}\n\n.input {\n  height: 40px;\n  line-height: 28px;\n  padding: 0 1rem;\n  width: 100%;\n  padding-left: 2.5rem;\n  border: 2px solid transparent;\n  border-radius: 8px;\n  outline: none;\n  background-color: #D9E8D8;\n  color: #0d0c22;\n  box-shadow: 0 0 5px #C1D9BF, 0 0 0 10px #f5f5f5eb;\n  transition: .3s ease;\n}\n\n.input::placeholder {\n  color: #777;\n}\n\n.icon {\n  position: absolute;\n  left: 1rem;\n  fill: #777;\n  width: 1rem;\n  height: 1rem;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Plastic Shrimp 54</title>\n<style>\n/* From Uiverse.io by alexruix - https://uiverse.io/alexruix/plastic-shrimp-54 */\n/* From Uiverse.io by alexruix - Tags: input, search */\n.group {\n  display: flex;\n  line-height: 28px;\n  align-items: center;\n  position: relative;\n  max-width: 190px;\n}\n\n.input {\n  height: 40px;\n  line-height: 28px;\n  padding: 0 1rem;\n  width: 100%;\n  padding-left: 2.5rem;\n  border: 2px solid transparent;\n  border-radius: 8px;\n  outline: none;\n  background-color: #D9E8D8;\n  color: #0d0c22;\n  box-shadow: 0 0 5px #C1D9BF, 0 0 0 10px #f5f5f5eb;\n  transition: .3s ease;\n}\n\n.input::placeholder {\n  color: #777;\n}\n\n.icon {\n  position: absolute;\n  left: 1rem;\n  fill: #777;\n  width: 1rem;\n  height: 1rem;\n}\n</style>\n</head>\n<body>\n<div class=\"group\">\n    <svg class=\"icon\" aria-hidden=\"true\" viewBox=\"0 0 24 24\">\n        <g>\n            <path d=\"M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z\"></path>\n        </g>\n    </svg>\n    <input placeholder=\"Search\" type=\"search\" class=\"input\">\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "wise-walrus-71-by-mobinkakei",
+ "name": "Wise Walrus 71",
+ "category": "buttons",
+ "author": "mobinkakei",
+ "source": "https://uiverse.io/mobinkakei/wise-walrus-71",
+ "trigger": "hover",
+ "description": "A button with 3d styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "3d",
+  "button",
+  "hover"
+ ],
+ "html": "<button class=\"btn\">3D button</button>",
+ "css": "/* From Uiverse.io by mobinkakei - Tags: 3d, button, hover */\n.btn {\n  --color1: #1a8516;\n  --color2: #236b19;\n  perspective: 1000px;\n  padding: 1em 1em;\n  background: linear-gradient(var(--color1), var(--color2));\n  border: none;\n  outline: none;\n  font-size: 20px;\n  text-transform: uppercase;\n  letter-spacing: 4px;\n  color: #fff;\n  text-shadow: 0 10px 10px #000;\n  cursor: pointer;\n  transform: rotateX(70deg) rotateZ(30deg);\n  transform-style: preserve-3d;\n  transition: transform 0.5s;\n}\n\n.btn::before {\n  content: \"\";\n  width: 100%;\n  height: 15px;\n  background-color: var(--color2);\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  transform: rotateX(90deg);\n  transform-origin: bottom;\n}\n\n.btn::after {\n  content: \"\";\n  width: 15px;\n  height: 100%;\n  background-color: var(--color1);\n  position: absolute;\n  top: 0;\n  right: 0;\n  transform: rotateY(-90deg);\n  transform-origin: right;\n}\n\n.btn:hover {\n  transform: rotateX(30deg) rotateZ(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wise Walrus 71</title>\n<style>\n/* From Uiverse.io by mobinkakei - https://uiverse.io/mobinkakei/wise-walrus-71 */\n/* From Uiverse.io by mobinkakei - Tags: 3d, button, hover */\n.btn {\n  --color1: #1a8516;\n  --color2: #236b19;\n  perspective: 1000px;\n  padding: 1em 1em;\n  background: linear-gradient(var(--color1), var(--color2));\n  border: none;\n  outline: none;\n  font-size: 20px;\n  text-transform: uppercase;\n  letter-spacing: 4px;\n  color: #fff;\n  text-shadow: 0 10px 10px #000;\n  cursor: pointer;\n  transform: rotateX(70deg) rotateZ(30deg);\n  transform-style: preserve-3d;\n  transition: transform 0.5s;\n}\n\n.btn::before {\n  content: \"\";\n  width: 100%;\n  height: 15px;\n  background-color: var(--color2);\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  transform: rotateX(90deg);\n  transform-origin: bottom;\n}\n\n.btn::after {\n  content: \"\";\n  width: 15px;\n  height: 100%;\n  background-color: var(--color1);\n  position: absolute;\n  top: 0;\n  right: 0;\n  transform: rotateY(-90deg);\n  transform-origin: right;\n}\n\n.btn:hover {\n  transform: rotateX(30deg) rotateZ(0);\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">3D button</button>\n</body>\n</html>\n"
+}

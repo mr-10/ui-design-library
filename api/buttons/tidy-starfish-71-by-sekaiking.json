@@ -1,0 +1,18 @@
+{
+ "id": "tidy-starfish-71-by-sekaiking",
+ "name": "Tidy Starfish 71",
+ "category": "buttons",
+ "author": "sekaiking",
+ "source": "https://uiverse.io/sekaiking/tidy-starfish-71",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n    Hover Me\n</button>",
+ "css": "/* From Uiverse.io by sekaiking - Tags: button */\nbutton {\n  background-color: white;\n  color: black;\n  border-radius: 10em;\n  font-size: 17px;\n  font-weight: 600;\n  padding: 1em 2em;\n  cursor: pointer;\n  transition: all 0.3s ease-in-out;\n  border: 1px solid black;\n  box-shadow: 0 0 0 0 black;\n}\n\nbutton:hover {\n  transform: translateY(-4px) translateX(-2px);\n  box-shadow: 2px 5px 0 0 black;\n};\n\nbutton:active {\n  transform: translateY(2px) translateX(1px);\n  box-shadow: 0 0 0 0 black;\n};\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tidy Starfish 71</title>\n<style>\n/* From Uiverse.io by sekaiking - https://uiverse.io/sekaiking/tidy-starfish-71 */\n/* From Uiverse.io by sekaiking - Tags: button */\nbutton {\n  background-color: white;\n  color: black;\n  border-radius: 10em;\n  font-size: 17px;\n  font-weight: 600;\n  padding: 1em 2em;\n  cursor: pointer;\n  transition: all 0.3s ease-in-out;\n  border: 1px solid black;\n  box-shadow: 0 0 0 0 black;\n}\n\nbutton:hover {\n  transform: translateY(-4px) translateX(-2px);\n  box-shadow: 2px 5px 0 0 black;\n};\n\nbutton:active {\n  transform: translateY(2px) translateX(1px);\n  box-shadow: 0 0 0 0 black;\n};\n</style>\n</head>\n<body>\n<button>\n    Hover Me\n</button>\n</body>\n</html>\n"
+}

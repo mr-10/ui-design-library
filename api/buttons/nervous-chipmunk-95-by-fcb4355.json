@@ -1,0 +1,19 @@
+{
+ "id": "nervous-chipmunk-95-by-fcb4355",
+ "name": "Nervous Chipmunk 95",
+ "category": "buttons",
+ "author": "fcb4355",
+ "source": "https://uiverse.io/fcb4355/nervous-chipmunk-95",
+ "trigger": "hover",
+ "description": "A button with after and 3d-button styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "after",
+  "3d-button",
+  "hover"
+ ],
+ "html": "<button class=\"button\">\n  Button\n</button>",
+ "css": "/* From Uiverse.io by fcb4355 - Tags: button, after, 3d button */\n.button {\n  position: relative;\n  padding: 10px 20px;\n  border: none;\n  color: #007ffe;\n  cursor: pointer;\n  transition: .3s;\n  transition-delay: .3s;\n  z-index: 0;\n}\n\n.button::after {\n  position: absolute;\n  content: '';\n  width: 17px;\n  height: 17px;\n  background-color: #007ffe;\n  right: -20px;\n  border-radius: 50%;\n  top: 50%;\n  transform: translateY(-50%);\n  transition: .3s;\n  opacity: 0;\n}\n\n.button::before {\n  position: absolute;\n  z-index: 0;\n  content: '';\n  width: 17px;\n  height: 17px;\n  background-color: #007ffe;\n  left: -20px;\n  border-radius: 50%;\n  top: 50%;\n  transform: translateY(-50%);\n  transition: .3s;\n  opacity: 0;\n}\n\nbutton:hover::after {\n  z-index: -1;\n  right: 0;\n  width: 50%;\n  height: 100%;\n  border-radius: 0;\n  opacity: 1;\n}\n\nbutton:hover::before {\n  z-index: -1;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  border-radius: 0;\n  opacity: 1;\n}\n\nbutton:hover {\n  color: #fff;\n  box-shadow: 10px 50px 50px rgba(52, 152, 219,.2);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nervous Chipmunk 95</title>\n<style>\n/* From Uiverse.io by fcb4355 - https://uiverse.io/fcb4355/nervous-chipmunk-95 */\n/* From Uiverse.io by fcb4355 - Tags: button, after, 3d button */\n.button {\n  position: relative;\n  padding: 10px 20px;\n  border: none;\n  color: #007ffe;\n  cursor: pointer;\n  transition: .3s;\n  transition-delay: .3s;\n  z-index: 0;\n}\n\n.button::after {\n  position: absolute;\n  content: '';\n  width: 17px;\n  height: 17px;\n  background-color: #007ffe;\n  right: -20px;\n  border-radius: 50%;\n  top: 50%;\n  transform: translateY(-50%);\n  transition: .3s;\n  opacity: 0;\n}\n\n.button::before {\n  position: absolute;\n  z-index: 0;\n  content: '';\n  width: 17px;\n  height: 17px;\n  background-color: #007ffe;\n  left: -20px;\n  border-radius: 50%;\n  top: 50%;\n  transform: translateY(-50%);\n  transition: .3s;\n  opacity: 0;\n}\n\nbutton:hover::after {\n  z-index: -1;\n  right: 0;\n  width: 50%;\n  height: 100%;\n  border-radius: 0;\n  opacity: 1;\n}\n\nbutton:hover::before {\n  z-index: -1;\n  left: 0;\n  width: 50%;\n  height: 100%;\n  border-radius: 0;\n  opacity: 1;\n}\n\nbutton:hover {\n  color: #fff;\n  box-shadow: 10px 50px 50px rgba(52, 152, 219,.2);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+}

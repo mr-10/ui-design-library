@@ -1,0 +1,18 @@
+{
+ "id": "gentle-dragon-92-by-saidbl1",
+ "name": "Gentle Dragon 92",
+ "category": "inputs",
+ "author": "saidbl1",
+ "source": "https://uiverse.io/saidbl1/gentle-dragon-92",
+ "trigger": "focus",
+ "description": "A input with floating styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "floating"
+ ],
+ "html": "<div class=\"inputBox\">\n  <input required=\"\" type=\"text\">\n  <span>First name</span>\n</div>",
+ "css": "/* From Uiverse.io by saidbl1 - Tags: input, focus, floating */\n.inputBox {\n  position: relative;\n}\n\n.inputBox input {\n  padding: 15px 20px;\n  outline: none;\n  background: transparent;\n  border-radius: 5px;\n  color: #fff;\n  border: 1px solid#ee8456;\n  font-size: 1em;\n}\n\n.inputBox span {\n  position: absolute;\n  left: 0;\n  padding: 15px 20px;\n  pointer-events: none;\n  font-size: 1em;\n  transition: 0.4s cubic-bezier(0.05, 0.81, 0, 0.93);\n  color: #ee8456;\n  letter-spacing: 0.1em;\n}\n\n.inputBox input:focus ~ span,\n.inputBox input:valid ~ span {\n  font-size: 0.7em;\n  transform: translateX(14px) translateY(-7.5px);\n  padding: 0 5px;\n  border-radius: 2px;\n  background: #212121;\n  letter-spacing: 0em;\n  border: 1px solid #ee8456;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Gentle Dragon 92</title>\n<style>\n/* From Uiverse.io by saidbl1 - https://uiverse.io/saidbl1/gentle-dragon-92 */\n/* From Uiverse.io by saidbl1 - Tags: input, focus, floating */\n.inputBox {\n  position: relative;\n}\n\n.inputBox input {\n  padding: 15px 20px;\n  outline: none;\n  background: transparent;\n  border-radius: 5px;\n  color: #fff;\n  border: 1px solid#ee8456;\n  font-size: 1em;\n}\n\n.inputBox span {\n  position: absolute;\n  left: 0;\n  padding: 15px 20px;\n  pointer-events: none;\n  font-size: 1em;\n  transition: 0.4s cubic-bezier(0.05, 0.81, 0, 0.93);\n  color: #ee8456;\n  letter-spacing: 0.1em;\n}\n\n.inputBox input:focus ~ span,\n.inputBox input:valid ~ span {\n  font-size: 0.7em;\n  transform: translateX(14px) translateY(-7.5px);\n  padding: 0 5px;\n  border-radius: 2px;\n  background: #212121;\n  letter-spacing: 0em;\n  border: 1px solid #ee8456;\n}\n</style>\n</head>\n<body>\n<div class=\"inputBox\">\n  <input required=\"\" type=\"text\">\n  <span>First name</span>\n</div>\n</body>\n</html>\n"
+}

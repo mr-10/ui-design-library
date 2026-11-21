@@ -1,0 +1,21 @@
+{
+ "id": "selfish-octopus-83-by-vikramsinghnegi",
+ "name": "Selfish Octopus 83",
+ "category": "inputs",
+ "author": "vikramsinghnegi",
+ "source": "https://uiverse.io/vikramsinghnegi/selfish-octopus-83",
+ "trigger": "focus",
+ "description": "A input with simple, material-design and flashy styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "simple",
+  "material-design",
+  "flashy",
+  "alert",
+  "input",
+  "modern"
+ ],
+ "html": "<input placeholder=\"Type here...\" class=\"styled-input\" type=\"text\" />",
+ "css": "/* From Uiverse.io by vikramsinghnegi  - Tags: simple, material design, flashy, alert, input, modern */\n.styled-input {\n  position: relative;\n  cursor: text;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 0 16px;\n  height: 48px;\n  background-color: #fff;\n  border: 1px solid #d6d6e7;\n  border-radius: 3px;\n  color: rgb(35, 38, 59);\n  box-shadow: inset 0 1px 4px 0 rgb(119 122 175 / 30%);\n  overflow: hidden;\n  transition: all 100ms ease-in-out;\n}\n\n.styled-input:focus {\n  border-color: #3c4fe0;\n  box-shadow: 0 1px 0 0 rgb(35 38 59 / 5%);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Octopus 83</title>\n<style>\n/* From Uiverse.io by vikramsinghnegi - https://uiverse.io/vikramsinghnegi/selfish-octopus-83 */\n/* From Uiverse.io by vikramsinghnegi  - Tags: simple, material design, flashy, alert, input, modern */\n.styled-input {\n  position: relative;\n  cursor: text;\n  font-size: 14px;\n  line-height: 20px;\n  padding: 0 16px;\n  height: 48px;\n  background-color: #fff;\n  border: 1px solid #d6d6e7;\n  border-radius: 3px;\n  color: rgb(35, 38, 59);\n  box-shadow: inset 0 1px 4px 0 rgb(119 122 175 / 30%);\n  overflow: hidden;\n  transition: all 100ms ease-in-out;\n}\n\n.styled-input:focus {\n  border-color: #3c4fe0;\n  box-shadow: 0 1px 0 0 rgb(35 38 59 / 5%);\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Type here...\" class=\"styled-input\" type=\"text\" />\n</body>\n</html>\n"
+}

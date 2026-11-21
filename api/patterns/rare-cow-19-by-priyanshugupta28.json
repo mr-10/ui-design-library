@@ -1,0 +1,19 @@
+{
+ "id": "rare-cow-19-by-priyanshugupta28",
+ "name": "Rare Cow 19",
+ "category": "patterns",
+ "author": "PriyanshuGupta28",
+ "source": "https://uiverse.io/PriyanshuGupta28/rare-cow-19",
+ "trigger": "static",
+ "description": "A pattern with simple and material-design styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "material-design",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by PriyanshuGupta28  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(\n      45deg,\n      #e74c3c,\n      #e74c3c 10px,\n      transparent 10px,\n      transparent 20px\n    ),\n    repeating-linear-gradient(\n      -45deg,\n      #f39c12,\n      #f39c12 10px,\n      transparent 10px,\n      transparent 20px\n    );\n  background-size: 100% 100%, 100% 100%, 10px 10px, 10px 10px;\n  background-position: center center, center center, center center,\n    center center;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rare Cow 19</title>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - https://uiverse.io/PriyanshuGupta28/rare-cow-19 */\n/* From Uiverse.io by PriyanshuGupta28  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-linear-gradient(\n      45deg,\n      #e74c3c,\n      #e74c3c 10px,\n      transparent 10px,\n      transparent 20px\n    ),\n    repeating-linear-gradient(\n      -45deg,\n      #f39c12,\n      #f39c12 10px,\n      transparent 10px,\n      transparent 20px\n    );\n  background-size: 100% 100%, 100% 100%, 10px 10px, 10px 10px;\n  background-position: center center, center center, center center,\n    center center;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

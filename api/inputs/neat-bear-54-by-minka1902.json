@@ -1,0 +1,21 @@
+{
+ "id": "neat-bear-54-by-minka1902",
+ "name": "Neat Bear 54",
+ "category": "inputs",
+ "author": "Minka1902",
+ "source": "https://uiverse.io/Minka1902/neat-bear-54",
+ "trigger": "focus",
+ "description": "A input with code, click and border styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "code",
+  "click",
+  "border",
+  "html",
+  "css"
+ ],
+ "html": "<div class=\"input-container\">\n  <input type=\"text\" name=\"text\" class=\"input\">\n  <label class=\"label\">Input title</label>\n  <div class=\"top-line\"></div>\n  <div class=\"under-line\"></div>\n</div>",
+ "css": "/* From Uiverse.io by Minka1902 - Tags: input, code, click, border, html, css, css effect */\n.input-container {\n  position: relative;\n  width: clamp(100px, 100%, 200px);\n}\n\n.input {\n  padding: 10px;\n  height: 40px;\n  width: clamp(100px, 100%, 200px);\n  border: 2px solid #0B2447;\n  border-top: none;\n  font-size: 16px;\n  background: transparent;\n  outline: none;\n  box-shadow: 7px 7px 0px 0px #0B2447;\n  transition: all 0.5s;\n}\n\n.input:focus {\n  box-shadow: none;\n  transition: all 0.5s;\n}\n\n.label {\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  color: #0B2447;\n  transition: all 0.5s;\n  transform: scale(0);\n  z-index: -1;\n}\n\n.input-container .top-line {\n  position: absolute;\n  content: \"\";\n  background-color: #0B2447;\n  width: 100%;\n  height: 2px;\n  right: 0;\n  top: 0;\n  transition: all 0.5s;\n}\n\n.input-container input[type=\"text\"]:focus~.top-line {\n  width: 35%;\n  transition: all 0.5s;\n}\n\n.input-container .under-line {\n  position: absolute;\n  content: \"\";\n  background-color: #0B2447;\n  width: 0%;\n  height: 2px;\n  right: 0;\n  bottom: 0;\n  transition: all 0.5s;\n}\n\n.input-container input[type=\"text\"]:focus~.under-line {\n  width: 100%;\n  transition: all 0.5s;\n}\n\n.input-container input[type=\"text\"]:focus~.label {\n  top: -10px;\n  transform: scale(1);\n  transition: all 0.5s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Neat Bear 54</title>\n<style>\n/* From Uiverse.io by Minka1902 - https://uiverse.io/Minka1902/neat-bear-54 */\n/* From Uiverse.io by Minka1902 - Tags: input, code, click, border, html, css, css effect */\n.input-container {\n  position: relative;\n  width: clamp(100px, 100%, 200px);\n}\n\n.input {\n  padding: 10px;\n  height: 40px;\n  width: clamp(100px, 100%, 200px);\n  border: 2px solid #0B2447;\n  border-top: none;\n  font-size: 16px;\n  background: transparent;\n  outline: none;\n  box-shadow: 7px 7px 0px 0px #0B2447;\n  transition: all 0.5s;\n}\n\n.input:focus {\n  box-shadow: none;\n  transition: all 0.5s;\n}\n\n.label {\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  color: #0B2447;\n  transition: all 0.5s;\n  transform: scale(0);\n  z-index: -1;\n}\n\n.input-container .top-line {\n  position: absolute;\n  content: \"\";\n  background-color: #0B2447;\n  width: 100%;\n  height: 2px;\n  right: 0;\n  top: 0;\n  transition: all 0.5s;\n}\n\n.input-container input[type=\"text\"]:focus~.top-line {\n  width: 35%;\n  transition: all 0.5s;\n}\n\n.input-container .under-line {\n  position: absolute;\n  content: \"\";\n  background-color: #0B2447;\n  width: 0%;\n  height: 2px;\n  right: 0;\n  bottom: 0;\n  transition: all 0.5s;\n}\n\n.input-container input[type=\"text\"]:focus~.under-line {\n  width: 100%;\n  transition: all 0.5s;\n}\n\n.input-container input[type=\"text\"]:focus~.label {\n  top: -10px;\n  transform: scale(1);\n  transition: all 0.5s;\n}\n</style>\n</head>\n<body>\n<div class=\"input-container\">\n  <input type=\"text\" name=\"text\" class=\"input\">\n  <label class=\"label\">Input title</label>\n  <div class=\"top-line\"></div>\n  <div class=\"under-line\"></div>\n</div>\n</body>\n</html>\n"
+}

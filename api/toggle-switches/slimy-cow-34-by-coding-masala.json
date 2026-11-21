@@ -1,0 +1,18 @@
+{
+ "id": "slimy-cow-34-by-coding-masala",
+ "name": "Slimy Cow 34",
+ "category": "toggle-switches",
+ "author": "coding-masala",
+ "source": "https://uiverse.io/coding-masala/slimy-cow-34",
+ "trigger": "checked",
+ "description": "A toggle switch with switch styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<div class=\"toggle-switcher\">\n  <input type=\"checkbox\" id=\"toggle-switch\" class=\"toggle-input\">\n  <label for=\"toggle-switch\" class=\"toggle-label\"></label>\n</div>",
+ "css": "/* From Uiverse.io by coding-masala - Tags: switch */\n.toggle-switcher {\n  width: 50px;\n  height: 25px;\n  position: relative;\n  margin: 20px auto;\n  background: #000;\n  border-radius: 50px;\n}\n\n.toggle-input {\n  display: none;\n}\n\n.toggle-label {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border-radius: 50px;\n  cursor: pointer;\n  box-shadow: 0 0 0 0 #ff0000;\n}\n\n.toggle-label::before {\n  content: \"\";\n  width: 25px;\n  height: 25px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: #ffffff;\n  border-radius: 50%;\n  transition: all 0.3s ease;\n}\n\n.toggle-input:checked + .toggle-label {\n  animation: shadow-animation_5020 10s linear infinite;\n}\n\n.toggle-input:checked + .toggle-label::before {\n  transform: translateX(25px);\n}\n\n@keyframes shadow-animation_5020 {\n  0% {\n    box-shadow: 0 0 0 0 #ff0000;\n  }\n\n  50% {\n    box-shadow: 0 0 25px 25px #ffa500;\n  }\n\n  100% {\n    box-shadow: 0 0 0 0 #ff0000;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slimy Cow 34</title>\n<style>\n/* From Uiverse.io by coding-masala - https://uiverse.io/coding-masala/slimy-cow-34 */\n/* From Uiverse.io by coding-masala - Tags: switch */\n.toggle-switcher {\n  width: 50px;\n  height: 25px;\n  position: relative;\n  margin: 20px auto;\n  background: #000;\n  border-radius: 50px;\n}\n\n.toggle-input {\n  display: none;\n}\n\n.toggle-label {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border-radius: 50px;\n  cursor: pointer;\n  box-shadow: 0 0 0 0 #ff0000;\n}\n\n.toggle-label::before {\n  content: \"\";\n  width: 25px;\n  height: 25px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  background: #ffffff;\n  border-radius: 50%;\n  transition: all 0.3s ease;\n}\n\n.toggle-input:checked + .toggle-label {\n  animation: shadow-animation_5020 10s linear infinite;\n}\n\n.toggle-input:checked + .toggle-label::before {\n  transform: translateX(25px);\n}\n\n@keyframes shadow-animation_5020 {\n  0% {\n    box-shadow: 0 0 0 0 #ff0000;\n  }\n\n  50% {\n    box-shadow: 0 0 25px 25px #ffa500;\n  }\n\n  100% {\n    box-shadow: 0 0 0 0 #ff0000;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"toggle-switcher\">\n  <input type=\"checkbox\" id=\"toggle-switch\" class=\"toggle-input\">\n  <label for=\"toggle-switch\" class=\"toggle-label\"></label>\n</div>\n</body>\n</html>\n"
+}

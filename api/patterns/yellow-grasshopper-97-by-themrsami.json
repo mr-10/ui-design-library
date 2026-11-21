@@ -1,0 +1,21 @@
+{
+ "id": "yellow-grasshopper-97-by-themrsami",
+ "name": "Yellow Grasshopper 97",
+ "category": "patterns",
+ "author": "themrsami",
+ "source": "https://uiverse.io/themrsami/yellow-grasshopper-97",
+ "trigger": "static",
+ "description": "A pattern with simple, material-design and purple styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "material-design",
+  "purple",
+  "themrsami",
+  "pattern",
+  "cream"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by themrsami - Tags: simple, material design, purple, themrsami, pattern, cream */\n.container {\n  width: 100%;\n  height: 100%;\n  background: radial-gradient(circle at 50% 58.8%, transparent 20%, darkblue 21% 28%, transparent 29%),\n    radial-gradient(circle at 50% 0%, transparent 20%, darkblue 21% 28%, transparent 29%),\n    radial-gradient(circle at 50% 41.2%, transparent 10%, darkblue 11% 18%, transparent 19%),\n    radial-gradient(circle at 50% 100%, transparent 10%, darkblue 11% 18%, transparent 19%),\n    radial-gradient(circle at 50% 70.7%, transparent 10%, darkblue 11% 18%, transparent 19%),\n    radial-gradient(circle at 50% -20.7%, transparent 10%, darkblue 11% 18%, transparent 19%);\n  background-color: lightyellow;\n  background-size: 100px 100px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Yellow Grasshopper 97</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/yellow-grasshopper-97 */\n/* From Uiverse.io by themrsami - Tags: simple, material design, purple, themrsami, pattern, cream */\n.container {\n  width: 100%;\n  height: 100%;\n  background: radial-gradient(circle at 50% 58.8%, transparent 20%, darkblue 21% 28%, transparent 29%),\n    radial-gradient(circle at 50% 0%, transparent 20%, darkblue 21% 28%, transparent 29%),\n    radial-gradient(circle at 50% 41.2%, transparent 10%, darkblue 11% 18%, transparent 19%),\n    radial-gradient(circle at 50% 100%, transparent 10%, darkblue 11% 18%, transparent 19%),\n    radial-gradient(circle at 50% 70.7%, transparent 10%, darkblue 11% 18%, transparent 19%),\n    radial-gradient(circle at 50% -20.7%, transparent 10%, darkblue 11% 18%, transparent 19%);\n  background-color: lightyellow;\n  background-size: 100px 100px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

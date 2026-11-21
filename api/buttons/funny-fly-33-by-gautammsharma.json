@@ -1,0 +1,18 @@
+{
+ "id": "funny-fly-33-by-gautammsharma",
+ "name": "Funny Fly 33",
+ "category": "buttons",
+ "author": "Gautammsharma",
+ "source": "https://uiverse.io/Gautammsharma/funny-fly-33",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"comic-button\">Click me!</button>",
+ "css": "/* From Uiverse.io by Gautammsharma - Tags: button */\n.comic-button {\n  background-color: #ffed4b;\n  border: none;\n  color: #000;\n  font-size: 1.2rem;\n  font-weight: bold;\n  padding: 0.5rem 1rem;\n  text-transform: uppercase;\n  text-shadow: 1px 1px 0 #fff;\n  box-shadow: 4px 4px 0 #000;\n  position: relative;\n  overflow: hidden;\n  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;\n}\n\n.comic-button:before {\n  content: \"\";\n  position: absolute;\n  top: -20%;\n  left: -20%;\n  width: 150%;\n  height: 150%;\n  background-color: rgba(0,0,0,0.2);\n  transform: rotate(45deg);\n  z-index: -1;\n  opacity: 0;\n  transition: opacity 0.2s ease-in-out;\n}\n\n.comic-button:hover {\n  transform: translate(2px, 2px);\n  box-shadow: 6px 6px 0 #000;\n}\n\n.comic-button:hover:before {\n  opacity: 1;\n}\n\n.comic-button:active {\n  transform: translate(0px, 0px);\n  box-shadow: 4px 4px 0 #000;\n}\n\n.comic-button:active:before {\n  opacity: 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Funny Fly 33</title>\n<style>\n/* From Uiverse.io by Gautammsharma - https://uiverse.io/Gautammsharma/funny-fly-33 */\n/* From Uiverse.io by Gautammsharma - Tags: button */\n.comic-button {\n  background-color: #ffed4b;\n  border: none;\n  color: #000;\n  font-size: 1.2rem;\n  font-weight: bold;\n  padding: 0.5rem 1rem;\n  text-transform: uppercase;\n  text-shadow: 1px 1px 0 #fff;\n  box-shadow: 4px 4px 0 #000;\n  position: relative;\n  overflow: hidden;\n  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;\n}\n\n.comic-button:before {\n  content: \"\";\n  position: absolute;\n  top: -20%;\n  left: -20%;\n  width: 150%;\n  height: 150%;\n  background-color: rgba(0,0,0,0.2);\n  transform: rotate(45deg);\n  z-index: -1;\n  opacity: 0;\n  transition: opacity 0.2s ease-in-out;\n}\n\n.comic-button:hover {\n  transform: translate(2px, 2px);\n  box-shadow: 6px 6px 0 #000;\n}\n\n.comic-button:hover:before {\n  opacity: 1;\n}\n\n.comic-button:active {\n  transform: translate(0px, 0px);\n  box-shadow: 4px 4px 0 #000;\n}\n\n.comic-button:active:before {\n  opacity: 0;\n}\n</style>\n</head>\n<body>\n<button class=\"comic-button\">Click me!</button>\n</body>\n</html>\n"
+}

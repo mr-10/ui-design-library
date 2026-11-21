@@ -1,0 +1,19 @@
+{
+ "id": "stale-wombat-66-by-r7chardgh",
+ "name": "Stale Wombat 66",
+ "category": "buttons",
+ "author": "r7chardgh",
+ "source": "https://uiverse.io/r7chardgh/stale-wombat-66",
+ "trigger": "active",
+ "description": "A button with 3d and keyboard-style styling.",
+ "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "tags": [
+  "3d",
+  "button",
+  "keyboard-style",
+  "active"
+ ],
+ "html": "<button class=\"button\">\n  Enter\n</button>",
+ "css": "/* From Uiverse.io by r7chardgh - Tags: 3d, button, keyboard style */\n.button {\n  position: relative;\n  padding: 1em 1.5em;\n  transform: rotateX(40deg)rotateZ(40deg);\n  transform-style: preserve-3d;\n  border: .1em solid black;\n  transition: all 150ms;\n  background-color: rgb(233, 211, 184);\n  cursor: pointer;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  width: 2em;\n  height: 99%;\n  border: .1em solid black;\n  top: -.15em;\n  right: 0;\n  transform-origin: right;\n  transform: rotateY(-90deg);\n  transition: all 150ms;\n  background-color: rgb(155, 139, 120);\n}\n\n.button::after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 2em;\n  border: .1em solid black;\n  bottom: 0;\n  left: -.15em;\n  transform-origin: bottom;\n  transform: rotateX(90deg);\n  transition: all 150ms;\n  background-color: rgb(199, 179, 155);\n}\n\n.button:active {\n  transform: rotateX(40deg)rotateZ(40deg) translateZ(-1em);\n}\n\n.button:active::before {\n  width: 0;\n}\n\n.button:active::after {\n  height: 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stale Wombat 66</title>\n<style>\n/* From Uiverse.io by r7chardgh - https://uiverse.io/r7chardgh/stale-wombat-66 */\n/* From Uiverse.io by r7chardgh - Tags: 3d, button, keyboard style */\n.button {\n  position: relative;\n  padding: 1em 1.5em;\n  transform: rotateX(40deg)rotateZ(40deg);\n  transform-style: preserve-3d;\n  border: .1em solid black;\n  transition: all 150ms;\n  background-color: rgb(233, 211, 184);\n  cursor: pointer;\n}\n\n.button::before {\n  content: \"\";\n  position: absolute;\n  width: 2em;\n  height: 99%;\n  border: .1em solid black;\n  top: -.15em;\n  right: 0;\n  transform-origin: right;\n  transform: rotateY(-90deg);\n  transition: all 150ms;\n  background-color: rgb(155, 139, 120);\n}\n\n.button::after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 2em;\n  border: .1em solid black;\n  bottom: 0;\n  left: -.15em;\n  transform-origin: bottom;\n  transform: rotateX(90deg);\n  transition: all 150ms;\n  background-color: rgb(199, 179, 155);\n}\n\n.button:active {\n  transform: rotateX(40deg)rotateZ(40deg) translateZ(-1em);\n}\n\n.button:active::before {\n  width: 0;\n}\n\n.button:active::after {\n  height: 0;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Enter\n</button>\n</body>\n</html>\n"
+}

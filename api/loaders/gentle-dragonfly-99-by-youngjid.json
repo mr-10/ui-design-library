@@ -1,0 +1,21 @@
+{
+ "id": "gentle-dragonfly-99-by-youngjid",
+ "name": "Gentle Dragonfly 99",
+ "category": "loaders",
+ "author": "youngjid",
+ "source": "https://uiverse.io/youngjid/gentle-dragonfly-99",
+ "trigger": "auto-loop",
+ "description": "A loader with dark, glitch and text-animation styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "dark",
+  "glitch",
+  "text-animation",
+  "css-effect",
+  "glitch-effect"
+ ],
+ "html": "<div class=\"glitch\" data-text=\"Loading ...\">Loading ...</div>",
+ "css": "/* From Uiverse.io by youngjid  - Tags: loader, dark, glitch, text animation, css effect, glitch Effect */\n.glitch {\n  position: relative;\n  font-size: 60px;\n  font-weight: bold;\n  color: #ffffff;\n  letter-spacing: 3px;\n  z-index: 1;\n}\n\n.glitch:before,\n.glitch:after {\n  display: block;\n  content: attr(data-text);\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 0.8;\n}\n\n.glitch:before {\n  animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;\n  color: #00ffff;\n  z-index: -1;\n}\n\n.glitch:after {\n  animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both\n    infinite;\n  color: #ff00ff;\n  z-index: -2;\n}\n\n@keyframes glitch-it {\n  0% {\n    transform: translate(0);\n  }\n  20% {\n    transform: translate(-2px, 2px);\n  }\n  40% {\n    transform: translate(-2px, -2px);\n  }\n  60% {\n    transform: translate(2px, 2px);\n  }\n  80% {\n    transform: translate(2px, -2px);\n  }\n  to {\n    transform: translate(0);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Gentle Dragonfly 99</title>\n<style>\n/* From Uiverse.io by youngjid - https://uiverse.io/youngjid/gentle-dragonfly-99 */\n/* From Uiverse.io by youngjid  - Tags: loader, dark, glitch, text animation, css effect, glitch Effect */\n.glitch {\n  position: relative;\n  font-size: 60px;\n  font-weight: bold;\n  color: #ffffff;\n  letter-spacing: 3px;\n  z-index: 1;\n}\n\n.glitch:before,\n.glitch:after {\n  display: block;\n  content: attr(data-text);\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 0.8;\n}\n\n.glitch:before {\n  animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;\n  color: #00ffff;\n  z-index: -1;\n}\n\n.glitch:after {\n  animation: glitch-it 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both\n    infinite;\n  color: #ff00ff;\n  z-index: -2;\n}\n\n@keyframes glitch-it {\n  0% {\n    transform: translate(0);\n  }\n  20% {\n    transform: translate(-2px, 2px);\n  }\n  40% {\n    transform: translate(-2px, -2px);\n  }\n  60% {\n    transform: translate(2px, 2px);\n  }\n  80% {\n    transform: translate(2px, -2px);\n  }\n  to {\n    transform: translate(0);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"glitch\" data-text=\"Loading ...\">Loading ...</div>\n</body>\n</html>\n"
+}

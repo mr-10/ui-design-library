@@ -1,0 +1,18 @@
+{
+ "id": "wet-panda-59-by-javierrocadev",
+ "name": "Wet Panda 59",
+ "category": "cards",
+ "author": "Javierrocadev",
+ "source": "https://uiverse.io/Javierrocadev/wet-panda-59",
+ "trigger": "static",
+ "description": "A card UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "cards",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Javierrocadev  - Tags: simple, card, hover button -->\n<div\n  class=\"w-72 h-40 flex flex-col justify-center gap-2 bg-neutral-50 rounded-lg shadow p-2\"\n>\n  <div class=\"flex gap-2\">\n    <img class=\"bg-neutral-500 w-24 h-24 shrink-0 rounded-lg\" alt=\"\" />\n    <div class=\"flex flex-col\">\n      <span class=\"font-bold text-neutral-700 italic\">Card title</span>\n      <p class=\"line-clamp-3\">\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non\n        dolor augue. Nunc dictum erat sit amet iaculis interdum. Ut neque\n        tellus, congue vel lectus aliquam, dignissim porttitor velit.\n      </p>\n    </div>\n  </div>\n  <button\n    class=\"hover:bg-indigo-700 bg-indigo-500 font-bold text-neutral-50 rounded p-2\"\n  >\n    See more\n  </button>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wet Panda 59</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/wet-panda-59 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev  - Tags: simple, card, hover button -->\n<div\n  class=\"w-72 h-40 flex flex-col justify-center gap-2 bg-neutral-50 rounded-lg shadow p-2\"\n>\n  <div class=\"flex gap-2\">\n    <img class=\"bg-neutral-500 w-24 h-24 shrink-0 rounded-lg\" alt=\"\" />\n    <div class=\"flex flex-col\">\n      <span class=\"font-bold text-neutral-700 italic\">Card title</span>\n      <p class=\"line-clamp-3\">\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non\n        dolor augue. Nunc dictum erat sit amet iaculis interdum. Ut neque\n        tellus, congue vel lectus aliquam, dignissim porttitor velit.\n      </p>\n    </div>\n  </div>\n  <button\n    class=\"hover:bg-indigo-700 bg-indigo-500 font-bold text-neutral-50 rounded p-2\"\n  >\n    See more\n  </button>\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "helpless-sheep-31-by-pedertanberg",
+ "name": "Helpless Sheep 31",
+ "category": "loaders",
+ "author": "pedertanberg",
+ "source": "https://uiverse.io/pedertanberg/helpless-sheep-31",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\"><div></div></div>",
+ "css": "/* From Uiverse.io by pedertanberg - Tags: loader */\n.loader {\n display: inline-block;\n position: relative;\n width: 80px;\n height: 80px;\n transform: rotate(45deg);\n transform-origin: 40px 40px;\n}\n\n.loader div {\n top: 32px;\n left: 32px;\n position: absolute;\n width: 32px;\n height: 32px;\n background: red;\n animation: loader45 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);\n}\n\n.loader div:after,\n.loader div:before {\n content: \" \";\n position: absolute;\n display: block;\n width: 32px;\n height: 32px;\n background: red;\n}\n\n.loader div:before {\n left: -24px;\n border-radius: 50% 0 0 50%;\n}\n\n.loader div:after {\n top: -24px;\n border-radius: 50% 50% 0 0;\n}\n\n@keyframes loader45 {\n 0% {\n  transform: scale(0.95);\n }\n\n 5% {\n  transform: scale(1.1);\n }\n\n 39% {\n  transform: scale(0.85);\n }\n\n 45% {\n  transform: scale(1);\n }\n\n 60% {\n  transform: scale(0.95);\n }\n\n 100% {\n  transform: scale(0.9);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Sheep 31</title>\n<style>\n/* From Uiverse.io by pedertanberg - https://uiverse.io/pedertanberg/helpless-sheep-31 */\n/* From Uiverse.io by pedertanberg - Tags: loader */\n.loader {\n display: inline-block;\n position: relative;\n width: 80px;\n height: 80px;\n transform: rotate(45deg);\n transform-origin: 40px 40px;\n}\n\n.loader div {\n top: 32px;\n left: 32px;\n position: absolute;\n width: 32px;\n height: 32px;\n background: red;\n animation: loader45 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);\n}\n\n.loader div:after,\n.loader div:before {\n content: \" \";\n position: absolute;\n display: block;\n width: 32px;\n height: 32px;\n background: red;\n}\n\n.loader div:before {\n left: -24px;\n border-radius: 50% 0 0 50%;\n}\n\n.loader div:after {\n top: -24px;\n border-radius: 50% 50% 0 0;\n}\n\n@keyframes loader45 {\n 0% {\n  transform: scale(0.95);\n }\n\n 5% {\n  transform: scale(1.1);\n }\n\n 39% {\n  transform: scale(0.85);\n }\n\n 45% {\n  transform: scale(1);\n }\n\n 60% {\n  transform: scale(0.95);\n }\n\n 100% {\n  transform: scale(0.9);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"><div></div></div>\n</body>\n</html>\n"
+}

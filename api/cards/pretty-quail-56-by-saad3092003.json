@@ -1,0 +1,21 @@
+{
+ "id": "pretty-quail-56-by-saad3092003",
+ "name": "Pretty Quail 56",
+ "category": "cards",
+ "author": "Saad3092003",
+ "source": "https://uiverse.io/Saad3092003/pretty-quail-56",
+ "trigger": "hover",
+ "description": "A card with animation, shadow and animated styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "animation",
+  "card",
+  "hover",
+  "shadow",
+  "animated",
+  "shake"
+ ],
+ "html": "<div class=\"one-div\">\n  <div class=\"text\">Hello There</div>\n</div>",
+ "css": "/* From Uiverse.io by Saad3092003  - Tags: animation, card, hover, shadow, animated, shake, hover effect, box-shadow */\n.one-div {\n  position: relative;\n  height: 250px;\n  width: 200px;\n  background-color: rgb(15, 15, 15);\n  transform-style: preserve-3d;\n  animation: rot 2s infinite ease;\n  border-radius: 20px;\n  box-shadow: 0 0 50px 0px, inset 0 0 90px 0px;\n  color: white;\n  transition: 1s;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.one-div .text {\n  opacity: 0;\n  transition: all 0.5s;\n}\n\n.one-div:hover.one-div .text {\n  scale: 1.2;\n  opacity: 0.7;\n}\n\n.one-div:hover {\n  box-shadow: 0 0 50px 0px, inset 5px 5px 20px 0px black;\n}\n\n@keyframes rot {\n  0% {\n    transform: rotateX(-15deg) translateY(0px);\n  }\n\n  50% {\n    transform: rotateX(-15deg) translateY(-10px);\n  }\n\n  100% {\n    transform: rotateX(-15deg) translateY(0px);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Pretty Quail 56</title>\n<style>\n/* From Uiverse.io by Saad3092003 - https://uiverse.io/Saad3092003/pretty-quail-56 */\n/* From Uiverse.io by Saad3092003  - Tags: animation, card, hover, shadow, animated, shake, hover effect, box-shadow */\n.one-div {\n  position: relative;\n  height: 250px;\n  width: 200px;\n  background-color: rgb(15, 15, 15);\n  transform-style: preserve-3d;\n  animation: rot 2s infinite ease;\n  border-radius: 20px;\n  box-shadow: 0 0 50px 0px, inset 0 0 90px 0px;\n  color: white;\n  transition: 1s;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.one-div .text {\n  opacity: 0;\n  transition: all 0.5s;\n}\n\n.one-div:hover.one-div .text {\n  scale: 1.2;\n  opacity: 0.7;\n}\n\n.one-div:hover {\n  box-shadow: 0 0 50px 0px, inset 5px 5px 20px 0px black;\n}\n\n@keyframes rot {\n  0% {\n    transform: rotateX(-15deg) translateY(0px);\n  }\n\n  50% {\n    transform: rotateX(-15deg) translateY(-10px);\n  }\n\n  100% {\n    transform: rotateX(-15deg) translateY(0px);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\">\n  <div class=\"text\">Hello There</div>\n</div>\n</body>\n</html>\n"
+}

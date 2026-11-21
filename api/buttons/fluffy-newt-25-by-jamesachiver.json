@@ -1,0 +1,18 @@
+{
+ "id": "fluffy-newt-25-by-jamesachiver",
+ "name": "Fluffy Newt 25",
+ "category": "buttons",
+ "author": "JamesAchiver",
+ "source": "https://uiverse.io/JamesAchiver/fluffy-newt-25",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"button\">\n  <b>\n  Button\n  </b>\n</button>",
+ "css": "/* From Uiverse.io by JamesAchiver - Tags: button */\n.button {\n  position: relative;\n  padding: 0.5em 1.2em;\n  font-size: 1.8em;\n  font-family: Calibri;\n  background-color: #5b04bf;\n  border: none;\n  color: #FFF;\n  cursor: pointer;\n  align-items: center;\n  box-shadow: inset 0px 38px 25px 0 #5b04bf, inset 0 0px 0px 0px #084748a8, inset 0 69px 0px 0px #d74589af;\n  border-radius: 0.6em;\n}\n\n.button:hover {\n  padding: 0.7em 1.4em;\n  transition: 0.4s ease-in-out;\n  box-shadow: inset 0px 38px 25px 5px #5b04bf, inset 10px 40px 10px 0px #084748a8, inset 0 69px 0px 0px #31b0d7de;\n}\n\n.button:active {\n  box-shadow: 0.2em 0.2em 0.3em rgba(0,0,0,0.3);\n  transform: translate(0.1em , 0.1em);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Newt 25</title>\n<style>\n/* From Uiverse.io by JamesAchiver - https://uiverse.io/JamesAchiver/fluffy-newt-25 */\n/* From Uiverse.io by JamesAchiver - Tags: button */\n.button {\n  position: relative;\n  padding: 0.5em 1.2em;\n  font-size: 1.8em;\n  font-family: Calibri;\n  background-color: #5b04bf;\n  border: none;\n  color: #FFF;\n  cursor: pointer;\n  align-items: center;\n  box-shadow: inset 0px 38px 25px 0 #5b04bf, inset 0 0px 0px 0px #084748a8, inset 0 69px 0px 0px #d74589af;\n  border-radius: 0.6em;\n}\n\n.button:hover {\n  padding: 0.7em 1.4em;\n  transition: 0.4s ease-in-out;\n  box-shadow: inset 0px 38px 25px 5px #5b04bf, inset 10px 40px 10px 0px #084748a8, inset 0 69px 0px 0px #31b0d7de;\n}\n\n.button:active {\n  box-shadow: 0.2em 0.2em 0.3em rgba(0,0,0,0.3);\n  transform: translate(0.1em , 0.1em);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <b>\n  Button\n  </b>\n</button>\n</body>\n</html>\n"
+}

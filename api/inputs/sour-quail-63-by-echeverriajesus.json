@@ -1,0 +1,18 @@
+{
+ "id": "sour-quail-63-by-echeverriajesus",
+ "name": "Sour Quail 63",
+ "category": "inputs",
+ "author": "EcheverriaJesus",
+ "source": "https://uiverse.io/EcheverriaJesus/sour-quail-63",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "inputs",
+  "focus",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by EcheverriaJesus  - Tags: simple, input, text, tailwind -->\n<div class=\"flex justify-center items-center bg-white w-full h-full\">\n  <div>\n    <label class=\"block text-gray-800 font-semibold text-sm\" for=\"inputname\"\n      >Input Name</label\n    >\n    <div class=\"mt-2\">\n      <input\n        class=\"block w-56 rounded-md py-1.5 px-2 ring-1 ring-inset ring-gray-400 focus:text-gray-800\"\n        name=\"inputname\"\n        type=\"text\"\n      />\n    </div>\n    <label class=\"pt-1 block text-gray-500 text-sm\">Some Description</label>\n  </div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sour Quail 63</title>\n<style>\n/* From Uiverse.io by EcheverriaJesus - https://uiverse.io/EcheverriaJesus/sour-quail-63 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by EcheverriaJesus  - Tags: simple, input, text, tailwind -->\n<div class=\"flex justify-center items-center bg-white w-full h-full\">\n  <div>\n    <label class=\"block text-gray-800 font-semibold text-sm\" for=\"inputname\"\n      >Input Name</label\n    >\n    <div class=\"mt-2\">\n      <input\n        class=\"block w-56 rounded-md py-1.5 px-2 ring-1 ring-inset ring-gray-400 focus:text-gray-800\"\n        name=\"inputname\"\n        type=\"text\"\n      />\n    </div>\n    <label class=\"pt-1 block text-gray-500 text-sm\">Some Description</label>\n  </div>\n</div>\n</body>\n</html>\n"
+}

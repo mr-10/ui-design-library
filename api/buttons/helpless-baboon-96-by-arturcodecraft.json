@@ -1,0 +1,21 @@
+{
+ "id": "helpless-baboon-96-by-arturcodecraft",
+ "name": "Helpless Baboon 96",
+ "category": "buttons",
+ "author": "ArturCodeCraft",
+ "source": "https://uiverse.io/ArturCodeCraft/helpless-baboon-96",
+ "trigger": "hover",
+ "description": "A button with icon, apple and menu styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "icon",
+  "apple",
+  "button",
+  "menu",
+  "menuicon",
+  "menu-button"
+ ],
+ "html": "<button class=\"menu__icon\">\n</button>",
+ "css": "/* From Uiverse.io by ArturCodeCraft - Tags: icon, apple, button, menu, menuicon, menu button , hamburger menu */\n/* <reset-style> ============================ */\nbutton {\n  border: none;\n  background: none;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;\n  font-family: inherit;\n}\n/* <main-style> ============================ */\n.menu__icon {\n  width: 2rem;\n  height: 2rem;\n  padding: .25rem;\n  backdrop-filter: saturate(180%) blur(20px);\n  background-color: rgb(29, 29, 31, .7);\n  border: solid 1px rgba(66,66,69,0.7);\n}\n\n.menu__icon::before {\n  display: block;\n  content: \"+\";\n  color: rgb(245, 245, 247);\n  font-size: 1.125rem;\n  font-weight: 400;\n  transition: transform .3s ease-out;\n  transform-origin: center;\n}\n\n.menu__icon:hover::before {\n  transform: rotate(45deg) scale(1.08);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Baboon 96</title>\n<style>\n/* From Uiverse.io by ArturCodeCraft - https://uiverse.io/ArturCodeCraft/helpless-baboon-96 */\n/* From Uiverse.io by ArturCodeCraft - Tags: icon, apple, button, menu, menuicon, menu button , hamburger menu */\n/* <reset-style> ============================ */\nbutton {\n  border: none;\n  background: none;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;\n  font-family: inherit;\n}\n/* <main-style> ============================ */\n.menu__icon {\n  width: 2rem;\n  height: 2rem;\n  padding: .25rem;\n  backdrop-filter: saturate(180%) blur(20px);\n  background-color: rgb(29, 29, 31, .7);\n  border: solid 1px rgba(66,66,69,0.7);\n}\n\n.menu__icon::before {\n  display: block;\n  content: \"+\";\n  color: rgb(245, 245, 247);\n  font-size: 1.125rem;\n  font-weight: 400;\n  transition: transform .3s ease-out;\n  transform-origin: center;\n}\n\n.menu__icon:hover::before {\n  transform: rotate(45deg) scale(1.08);\n}\n</style>\n</head>\n<body>\n<button class=\"menu__icon\">\n</button>\n</body>\n</html>\n"
+}

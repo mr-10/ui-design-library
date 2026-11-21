@@ -1,0 +1,18 @@
+{
+ "id": "hungry-elephant-87-by-abanoubmagdy1",
+ "name": "Hungry Elephant 87",
+ "category": "loaders",
+ "author": "AbanoubMagdy1",
+ "source": "https://uiverse.io/AbanoubMagdy1/hungry-elephant-87",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by AbanoubMagdy1 - Tags: loader */\n.loader {\n  --dim: 5rem;\n  width: var(--dim);\n  height: var(--dim);\n  border: 7px solid #2596be;\n  border-top-color: transparent;\n  border-bottom-color: transparent;\n  border-radius: 50%;\n  animation: spin_51 1.5s infinite linear;\n}\n\n@keyframes spin_51 {\n  from {\n    transform: rotate(0)\n  }\n\n  to {\n    transform: rotate(360deg)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Elephant 87</title>\n<style>\n/* From Uiverse.io by AbanoubMagdy1 - https://uiverse.io/AbanoubMagdy1/hungry-elephant-87 */\n/* From Uiverse.io by AbanoubMagdy1 - Tags: loader */\n.loader {\n  --dim: 5rem;\n  width: var(--dim);\n  height: var(--dim);\n  border: 7px solid #2596be;\n  border-top-color: transparent;\n  border-bottom-color: transparent;\n  border-radius: 50%;\n  animation: spin_51 1.5s infinite linear;\n}\n\n@keyframes spin_51 {\n  from {\n    transform: rotate(0)\n  }\n\n  to {\n    transform: rotate(360deg)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

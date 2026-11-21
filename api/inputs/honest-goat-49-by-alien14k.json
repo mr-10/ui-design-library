@@ -1,0 +1,18 @@
+{
+ "id": "honest-goat-49-by-alien14k",
+ "name": "Honest Goat 49",
+ "category": "inputs",
+ "author": "Alien14k",
+ "source": "https://uiverse.io/Alien14k/honest-goat-49",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<div class=\"form__group\">\n    <input type=\"text\" class=\"form__field w-100\" placeholder=\"Input text\">\n    <label for=\"name\" class=\"form__label\"> Input text </label>\n</div>",
+ "css": "/* From Uiverse.io by Alien14k - Tags: input */\n.form__group {\n  position: relative;\n}\n\n.form__field {\n  border: 1px solid silver !important;\n  border-radius: 5px;\n  box-sizing: border-box;\n  color: #313a46;\n  height: 40px;\n  padding: 0rem 15px;\n}\n\n.form__field::placeholder {\n  color: transparent;\n}\n\n.form__field:placeholder-shown ~ .form__label {\n  top: 10px;\n  border-right: none;\n  border-left: none;\n}\n\n.form__label {\n  background-color: white;\n  border-left: 1px solid silver;\n  border-right: 1px solid silver;\n  color: #9b9b9b;\n  display: block;\n  font-size: .9em;\n  margin-left: 10px;\n  padding: 0 10px;\n  pointer-events: none;\n  position: absolute;\n  top: -10px;\n  transition: 0.2s;\n}\n\n.form__field:focus {\n  border: 1px solid #B9192C !important;\n  outline: none;\n}\n\n.form__field:focus ~ .form__label {\n  background-color: white;\n  border-right: 1px solid #B9192C;\n  border-left: 1px solid #B9192C;\n  color: #B9192C;\n  font-size: .9em;\n  margin-left: 10px;\n  padding: 0 10px;\n  position: absolute;\n  top: -10px;\n  transition: 0.2s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Honest Goat 49</title>\n<style>\n/* From Uiverse.io by Alien14k - https://uiverse.io/Alien14k/honest-goat-49 */\n/* From Uiverse.io by Alien14k - Tags: input */\n.form__group {\n  position: relative;\n}\n\n.form__field {\n  border: 1px solid silver !important;\n  border-radius: 5px;\n  box-sizing: border-box;\n  color: #313a46;\n  height: 40px;\n  padding: 0rem 15px;\n}\n\n.form__field::placeholder {\n  color: transparent;\n}\n\n.form__field:placeholder-shown ~ .form__label {\n  top: 10px;\n  border-right: none;\n  border-left: none;\n}\n\n.form__label {\n  background-color: white;\n  border-left: 1px solid silver;\n  border-right: 1px solid silver;\n  color: #9b9b9b;\n  display: block;\n  font-size: .9em;\n  margin-left: 10px;\n  padding: 0 10px;\n  pointer-events: none;\n  position: absolute;\n  top: -10px;\n  transition: 0.2s;\n}\n\n.form__field:focus {\n  border: 1px solid #B9192C !important;\n  outline: none;\n}\n\n.form__field:focus ~ .form__label {\n  background-color: white;\n  border-right: 1px solid #B9192C;\n  border-left: 1px solid #B9192C;\n  color: #B9192C;\n  font-size: .9em;\n  margin-left: 10px;\n  padding: 0 10px;\n  position: absolute;\n  top: -10px;\n  transition: 0.2s;\n}\n</style>\n</head>\n<body>\n<div class=\"form__group\">\n    <input type=\"text\" class=\"form__field w-100\" placeholder=\"Input text\">\n    <label for=\"name\" class=\"form__label\"> Input text </label>\n</div>\n</body>\n</html>\n"
+}

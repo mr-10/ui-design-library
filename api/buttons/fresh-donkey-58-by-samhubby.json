@@ -1,0 +1,18 @@
+{
+ "id": "fresh-donkey-58-by-samhubby",
+ "name": "Fresh Donkey 58",
+ "category": "buttons",
+ "author": "Samhubby",
+ "source": "https://uiverse.io/Samhubby/fresh-donkey-58",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Samhubby - Tags: button, simple button, ease -->\n<button class=\"cursor-pointer border-black border-2 px-3 py-2 rounded-lg bg-blue-500 text-white border-blue-900 hover:bg-blue-700 drop-shadow-2xl\">\n  Button\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fresh Donkey 58</title>\n<style>\n/* From Uiverse.io by Samhubby - https://uiverse.io/Samhubby/fresh-donkey-58 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Samhubby - Tags: button, simple button, ease -->\n<button class=\"cursor-pointer border-black border-2 px-3 py-2 rounded-lg bg-blue-500 text-white border-blue-900 hover:bg-blue-700 drop-shadow-2xl\">\n  Button\n</button>\n</body>\n</html>\n"
+}

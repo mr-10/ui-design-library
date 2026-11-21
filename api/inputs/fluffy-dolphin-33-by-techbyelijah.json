@@ -1,0 +1,19 @@
+{
+ "id": "fluffy-dolphin-33-by-techbyelijah",
+ "name": "Fluffy Dolphin 33",
+ "category": "inputs",
+ "author": "TechByElijah",
+ "source": "https://uiverse.io/TechByElijah/fluffy-dolphin-33",
+ "trigger": "hover",
+ "description": "A input with simple and animated styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "input",
+  "animated",
+  "hover"
+ ],
+ "html": "<div class=\"input-container\">\n  <input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Enter text\">\n  <div class=\"highlight\"></div>\n</div>",
+ "css": "/* From Uiverse.io by TechByElijah - Tags: simple, input, animated */\n.input-container {\n  position: relative;\n}\n\n.input {\n  font-size: 1em;\n  padding: 0.6em 1em;\n  border: none;\n  border-radius: 6px;\n  background-color: #f8f8f8;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n  transition: background-color 0.3s ease, box-shadow 0.3s ease;\n  max-width: 200px;\n  color: #333;\n}\n\n.input:hover {\n  background-color: #f2f2f2;\n}\n\n.input:focus {\n  outline: none;\n  background-color: #fff;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n}\n\n.input::placeholder {\n  color: #999;\n}\n\n.highlight {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0;\n  height: 2px;\n  background-color: #6c63ff;\n  transition: width 0.3s ease;\n}\n\n.input:focus + .highlight {\n  width: 100%;\n}\n\n/* Optional: Animation on focus */\n@keyframes input-focus {\n  from {\n    transform: scale(1);\n    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);\n  }\n\n  to {\n    transform: scale(1.02);\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n  }\n}\n\n.input:focus {\n  animation: input-focus 0.3s ease;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Dolphin 33</title>\n<style>\n/* From Uiverse.io by TechByElijah - https://uiverse.io/TechByElijah/fluffy-dolphin-33 */\n/* From Uiverse.io by TechByElijah - Tags: simple, input, animated */\n.input-container {\n  position: relative;\n}\n\n.input {\n  font-size: 1em;\n  padding: 0.6em 1em;\n  border: none;\n  border-radius: 6px;\n  background-color: #f8f8f8;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\n  transition: background-color 0.3s ease, box-shadow 0.3s ease;\n  max-width: 200px;\n  color: #333;\n}\n\n.input:hover {\n  background-color: #f2f2f2;\n}\n\n.input:focus {\n  outline: none;\n  background-color: #fff;\n  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n}\n\n.input::placeholder {\n  color: #999;\n}\n\n.highlight {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 0;\n  height: 2px;\n  background-color: #6c63ff;\n  transition: width 0.3s ease;\n}\n\n.input:focus + .highlight {\n  width: 100%;\n}\n\n/* Optional: Animation on focus */\n@keyframes input-focus {\n  from {\n    transform: scale(1);\n    box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);\n  }\n\n  to {\n    transform: scale(1.02);\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n  }\n}\n\n.input:focus {\n  animation: input-focus 0.3s ease;\n}\n</style>\n</head>\n<body>\n<div class=\"input-container\">\n  <input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Enter text\">\n  <div class=\"highlight\"></div>\n</div>\n</body>\n</html>\n"
+}

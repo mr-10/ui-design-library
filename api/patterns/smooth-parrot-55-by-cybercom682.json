@@ -1,0 +1,21 @@
+{
+ "id": "smooth-parrot-55-by-cybercom682",
+ "name": "Smooth Parrot 55",
+ "category": "patterns",
+ "author": "Cybercom682",
+ "source": "https://uiverse.io/Cybercom682/smooth-parrot-55",
+ "trigger": "static",
+ "description": "A pattern with simple, green and retro styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "green",
+  "retro",
+  "pattern",
+  "analog",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by Cybercom682  - Tags: simple, green, retro, pattern, analog */\n.container {\n  width: 100%;\n  height: 100%;\n  --color: rgba(0, 115, 19, 0.3);\n  background-color: #191a1a;\n  background-image: linear-gradient(\n      180deg,\n      transparent 24%,\n      var(--color) 25%,\n      var(--color) 26%,\n      transparent 27%,\n      transparent 74%,\n      var(--color) 75%,\n      var(--color) 76%,\n      transparent 77%,\n      transparent\n    ),\n    linear-gradient(\n      45deg,\n      transparent 24%,\n      var(--color) 35%,\n      var(--color) 26%,\n      transparent 17%,\n      transparent 74%,\n      var(--color) 75%,\n      var(--color) 76%,\n      transparent 77%,\n      transparent\n    );\n  background-size: 55px 55px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smooth Parrot 55</title>\n<style>\n/* From Uiverse.io by Cybercom682 - https://uiverse.io/Cybercom682/smooth-parrot-55 */\n/* From Uiverse.io by Cybercom682  - Tags: simple, green, retro, pattern, analog */\n.container {\n  width: 100%;\n  height: 100%;\n  --color: rgba(0, 115, 19, 0.3);\n  background-color: #191a1a;\n  background-image: linear-gradient(\n      180deg,\n      transparent 24%,\n      var(--color) 25%,\n      var(--color) 26%,\n      transparent 27%,\n      transparent 74%,\n      var(--color) 75%,\n      var(--color) 76%,\n      transparent 77%,\n      transparent\n    ),\n    linear-gradient(\n      45deg,\n      transparent 24%,\n      var(--color) 35%,\n      var(--color) 26%,\n      transparent 17%,\n      transparent 74%,\n      var(--color) 75%,\n      var(--color) 76%,\n      transparent 77%,\n      transparent\n    );\n  background-size: 55px 55px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

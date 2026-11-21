@@ -1,0 +1,19 @@
+{
+ "id": "tender-dolphin-96-by-jaydipprajapati1910",
+ "name": "Tender Dolphin 96",
+ "category": "buttons",
+ "author": "JaydipPrajapati1910",
+ "source": "https://uiverse.io/JaydipPrajapati1910/tender-dolphin-96",
+ "trigger": "hover",
+ "description": "A button with water and transparent styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "water",
+  "transparent",
+  "hover"
+ ],
+ "html": "<button class=\"button\">\n  Button\n</button>",
+ "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: button, water, transparent */\nbutton {\n  appearance: button;\n  outline: none;\n  border: none;\n  border-radius: 16px;\n  box-sizing: border-box;\n  color: #222;\n  cursor: pointer;\n  display: inline-block;\n  font-size: 15px;\n  font-weight: 700;\n  letter-spacing: .8px;\n  line-height: 20px;\n  margin: 0;\n  outline: none;\n  overflow: visible;\n  padding: 13px 19px;\n  text-align: center;\n  text-transform: uppercase;\n  touch-action: manipulation;\n  transform: translateZ(0);\n  transition: filter .2s;\n  user-select: none;\n  -webkit-user-select: none;\n  vertical-align: middle;\n  white-space: nowrap;\n}\n\nbutton:after {\n  background-clip: padding-box;\n  box-shadow: inset 4px 4px 4px rgba(15, 15, 15, 0.315),\n    4px 4px 4px rgba(28, 28, 28, 0.13);\n  border: none;\n  border-radius: 16px;\n  outline: none;\n  bottom: -4px;\n  content: \"\";\n  left: 0;\n  position: absolute;\n  right: 0;\n  top: 0;\n  z-index: -1;\n}\n\nbutton:main, button:focus {\n  user-select: auto;\n}\n\nbutton:hover:not(:disabled) {\n  filter: brightness(1.1);\n}\n\nbutton:disabled {\n  cursor: auto;\n}\n\nbutton:active:after {\n  border-width: 0 0 0px;\n}\n\nbutton:active {\n  padding-bottom: 10px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tender Dolphin 96</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/tender-dolphin-96 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: button, water, transparent */\nbutton {\n  appearance: button;\n  outline: none;\n  border: none;\n  border-radius: 16px;\n  box-sizing: border-box;\n  color: #222;\n  cursor: pointer;\n  display: inline-block;\n  font-size: 15px;\n  font-weight: 700;\n  letter-spacing: .8px;\n  line-height: 20px;\n  margin: 0;\n  outline: none;\n  overflow: visible;\n  padding: 13px 19px;\n  text-align: center;\n  text-transform: uppercase;\n  touch-action: manipulation;\n  transform: translateZ(0);\n  transition: filter .2s;\n  user-select: none;\n  -webkit-user-select: none;\n  vertical-align: middle;\n  white-space: nowrap;\n}\n\nbutton:after {\n  background-clip: padding-box;\n  box-shadow: inset 4px 4px 4px rgba(15, 15, 15, 0.315),\n    4px 4px 4px rgba(28, 28, 28, 0.13);\n  border: none;\n  border-radius: 16px;\n  outline: none;\n  bottom: -4px;\n  content: \"\";\n  left: 0;\n  position: absolute;\n  right: 0;\n  top: 0;\n  z-index: -1;\n}\n\nbutton:main, button:focus {\n  user-select: auto;\n}\n\nbutton:hover:not(:disabled) {\n  filter: brightness(1.1);\n}\n\nbutton:disabled {\n  cursor: auto;\n}\n\nbutton:active:after {\n  border-width: 0 0 0px;\n}\n\nbutton:active {\n  padding-bottom: 10px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+}

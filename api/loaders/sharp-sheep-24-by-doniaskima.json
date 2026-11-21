@@ -1,0 +1,19 @@
+{
+ "id": "sharp-sheep-24-by-doniaskima",
+ "name": "Sharp Sheep 24",
+ "category": "loaders",
+ "author": "doniaskima",
+ "source": "https://uiverse.io/doniaskima/sharp-sheep-24",
+ "trigger": "auto-loop",
+ "description": "A loader with simple and material-design styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "simple",
+  "material-design",
+  "loader",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 60px;\n  height: 30px;\n  display: grid;\n  --c: #0000 calc(100% - 5px),#000 calc(100% - 4px) 96%,#0000;\n  background: radial-gradient(farthest-side at bottom,var(--c)) 0 0,\n    radial-gradient(farthest-side at top   ,var(--c)) 100% 100%;\n  background-size: calc(50% + 2px) 50%;\n  background-repeat: no-repeat;\n  animation: l14 1.5s infinite linear;\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  grid-area: 1/1;\n  background: inherit;\n  animation: inherit;\n  animation-duration: 2s;\n}\n\n.loader:after {\n  --s: -1;\n}\n\n@keyframes l14 {\n  100% {\n    transform: rotate(calc(var(--s,1)*1turn))\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sharp Sheep 24</title>\n<style>\n/* From Uiverse.io by doniaskima - https://uiverse.io/doniaskima/sharp-sheep-24 */\n/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 60px;\n  height: 30px;\n  display: grid;\n  --c: #0000 calc(100% - 5px),#000 calc(100% - 4px) 96%,#0000;\n  background: radial-gradient(farthest-side at bottom,var(--c)) 0 0,\n    radial-gradient(farthest-side at top   ,var(--c)) 100% 100%;\n  background-size: calc(50% + 2px) 50%;\n  background-repeat: no-repeat;\n  animation: l14 1.5s infinite linear;\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  grid-area: 1/1;\n  background: inherit;\n  animation: inherit;\n  animation-duration: 2s;\n}\n\n.loader:after {\n  --s: -1;\n}\n\n@keyframes l14 {\n  100% {\n    transform: rotate(calc(var(--s,1)*1turn))\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

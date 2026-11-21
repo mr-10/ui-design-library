@@ -1,0 +1,19 @@
+{
+ "id": "mean-eel-73-by-uiverse-astronaut",
+ "name": "Mean Eel 73",
+ "category": "patterns",
+ "author": "uiverse-astronaut",
+ "source": "https://uiverse.io/uiverse-astronaut/mean-eel-73",
+ "trigger": "static",
+ "description": "A pattern with stripes and diagonal styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "pattern",
+  "stripes",
+  "diagonal",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by uiverse-astronaut - Tags: pattern, stripes, diagonal */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: repeating-linear-gradient(\n    45deg,\n    #e5e5f7,\n    #e5e5f7 10px,\n    #444cf7 10px,\n    #444cf7 20px\n    );\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mean Eel 73</title>\n<style>\n/* From Uiverse.io by uiverse-astronaut - https://uiverse.io/uiverse-astronaut/mean-eel-73 */\n/* From Uiverse.io by uiverse-astronaut - Tags: pattern, stripes, diagonal */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: repeating-linear-gradient(\n    45deg,\n    #e5e5f7,\n    #e5e5f7 10px,\n    #444cf7 10px,\n    #444cf7 20px\n    );\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "rude-otter-33-by-bodyhc",
+ "name": "Rude Otter 33",
+ "category": "buttons",
+ "author": "Bodyhc",
+ "source": "https://uiverse.io/Bodyhc/rude-otter-33",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Bodyhc - Tags: button, bootsrap button, butoon -->\n<button class=\"text-3x italic hover:not-italic font-black tracking-wider\tbg-fuchsia-600 hover:bg-fuchsia-400 rounded-full border-4 px-10 py-4 border-double shadow-inner shadow-2xl shadow-lg hover:shadow-fuchsia-600 md:shadow-xl w-30\">\n  BODYHC\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rude Otter 33</title>\n<style>\n/* From Uiverse.io by Bodyhc - https://uiverse.io/Bodyhc/rude-otter-33 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Bodyhc - Tags: button, bootsrap button, butoon -->\n<button class=\"text-3x italic hover:not-italic font-black tracking-wider\tbg-fuchsia-600 hover:bg-fuchsia-400 rounded-full border-4 px-10 py-4 border-double shadow-inner shadow-2xl shadow-lg hover:shadow-fuchsia-600 md:shadow-xl w-30\">\n  BODYHC\n</button>\n</body>\n</html>\n"
+}

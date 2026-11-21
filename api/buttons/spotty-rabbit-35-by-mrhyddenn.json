@@ -1,0 +1,18 @@
+{
+ "id": "spotty-rabbit-35-by-mrhyddenn",
+ "name": "Spotty Rabbit 35",
+ "category": "buttons",
+ "author": "mrhyddenn",
+ "source": "https://uiverse.io/mrhyddenn/spotty-rabbit-35",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n    <svg height=\"24\" width=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n        <path d=\"M20 17h2v2H2v-2h2v-7a8 8 0 1 1 16 0v7zm-2 0v-7a6 6 0 1 0-12 0v7h12zm-9 4h6v2H9v-2z\" fill=\"currentColor\"></path>\n    </svg>\n</button>",
+ "css": "/* From Uiverse.io by mrhyddenn - Tags: button */\nbutton {\n  background: none;\n  border: none;\n  padding: 15px 15px;\n  border-radius: 10px;\n}\n\nbutton:hover {\n  background: rgba(170, 170, 170, 0.062);\n  transition: 0.5s;\n}\n\nbutton svg {\n  color: #fff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spotty Rabbit 35</title>\n<style>\n/* From Uiverse.io by mrhyddenn - https://uiverse.io/mrhyddenn/spotty-rabbit-35 */\n/* From Uiverse.io by mrhyddenn - Tags: button */\nbutton {\n  background: none;\n  border: none;\n  padding: 15px 15px;\n  border-radius: 10px;\n}\n\nbutton:hover {\n  background: rgba(170, 170, 170, 0.062);\n  transition: 0.5s;\n}\n\nbutton svg {\n  color: #fff;\n}\n</style>\n</head>\n<body>\n<button>\n    <svg height=\"24\" width=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n        <path d=\"M20 17h2v2H2v-2h2v-7a8 8 0 1 1 16 0v7zm-2 0v-7a6 6 0 1 0-12 0v7h12zm-9 4h6v2H9v-2z\" fill=\"currentColor\"></path>\n    </svg>\n</button>\n</body>\n</html>\n"
+}

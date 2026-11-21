@@ -1,0 +1,18 @@
+{
+ "id": "wet-fish-33-by-santiagobos",
+ "name": "Wet Fish 33",
+ "category": "cards",
+ "author": "SantiagoBoS",
+ "source": "https://uiverse.io/SantiagoBoS/wet-fish-33",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"firstAnimation\">\n    <div class=\"secondAnimation\">\n        <div class=\"card\">\n        </div>\n    </div>\n</div>",
+ "css": "/* From Uiverse.io by SantiagoBoS - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: rgb(0, 0, 0);\n  border: 2px solid rgb(255, 255, 255);\n  border-radius: 20px;\n}\n\n.card:hover {\n  width: 190px;\n  height: 254px;\n  background: rgb(255, 255, 255);\n  border: 2px solid rgb(200, 200, 200);\n  border-radius: 20px;\n  background-color: #dfdfdf;\n  transition: all .5s;\n}\n\n.secondAnimation {\n  --hoverContorno: #959595;\n}\n\n.secondAnimation:hover,\n.secondAnimation:focus {\n  -webkit-animation: cardAnimacion 1.4s;\n  animation: cardAnimacion 1.4s;\n  box-shadow: 0 0 0 0.8em rgba(255, 255, 255, 0);\n  border-radius: 20px;\n}\n\n@-webkit-keyframes cardAnimacion {\n  0% {\n    box-shadow: 0 0 0 0 var(--hoverContorno);\n  }\n}\n\n@keyframes cardAnimacion {\n  0% {\n    box-shadow: 0 0 0 0 var(--hoverContorno);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wet Fish 33</title>\n<style>\n/* From Uiverse.io by SantiagoBoS - https://uiverse.io/SantiagoBoS/wet-fish-33 */\n/* From Uiverse.io by SantiagoBoS - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: rgb(0, 0, 0);\n  border: 2px solid rgb(255, 255, 255);\n  border-radius: 20px;\n}\n\n.card:hover {\n  width: 190px;\n  height: 254px;\n  background: rgb(255, 255, 255);\n  border: 2px solid rgb(200, 200, 200);\n  border-radius: 20px;\n  background-color: #dfdfdf;\n  transition: all .5s;\n}\n\n.secondAnimation {\n  --hoverContorno: #959595;\n}\n\n.secondAnimation:hover,\n.secondAnimation:focus {\n  -webkit-animation: cardAnimacion 1.4s;\n  animation: cardAnimacion 1.4s;\n  box-shadow: 0 0 0 0.8em rgba(255, 255, 255, 0);\n  border-radius: 20px;\n}\n\n@-webkit-keyframes cardAnimacion {\n  0% {\n    box-shadow: 0 0 0 0 var(--hoverContorno);\n  }\n}\n\n@keyframes cardAnimacion {\n  0% {\n    box-shadow: 0 0 0 0 var(--hoverContorno);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"firstAnimation\">\n    <div class=\"secondAnimation\">\n        <div class=\"card\">\n        </div>\n    </div>\n</div>\n</body>\n</html>\n"
+}

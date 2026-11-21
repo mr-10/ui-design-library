@@ -1,0 +1,21 @@
+{
+ "id": "quiet-panther-30-by-asgardop",
+ "name": "Quiet Panther 30",
+ "category": "buttons",
+ "author": "asgardOP",
+ "source": "https://uiverse.io/asgardOP/quiet-panther-30",
+ "trigger": "hover",
+ "description": "A button with simple, smooth and game styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "button",
+  "hover",
+  "smooth",
+  "game",
+  "html"
+ ],
+ "html": "<button class=\"button\">Minecraft</button>",
+ "css": "/* From Uiverse.io by asgardOP  - Tags: simple, button, hover, smooth, game, html, css */\n.button {\n  cursor: pointer;\n  width: fit-content;\n  height: fit-content;\n  padding: 15px;\n  background-color: rgb(223, 223, 223);\n  border-left: 3px solid white;\n  border-top: 3px solid white;\n  border-right: 3px solid gray;\n  border-bottom: 3px solid gray;\n  font-family: \"Courier New\", Courier, monospace;\n  font-size: 1.1rem;\n  font-weight: 900;\n  outline: 2px solid black;\n}\n\n.button:hover {\n  background-color: rgb(0, 197, 0);\n  color: white;\n  outline-color: white;\n  border-left: 3px solid rgb(0, 255, 0);\n  border-top: 3px solid rgb(0, 255, 0);\n  border-right: 3px solid green;\n  border-bottom: 3px solid green;\n}\n\n.button:active {\n  border-left: 3px solid green;\n  border-top: 3px solid green;\n  border-right: 3px solid rgb(0, 255, 0);\n  border-bottom: 3px solid rgb(0, 255, 0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Quiet Panther 30</title>\n<style>\n/* From Uiverse.io by asgardOP - https://uiverse.io/asgardOP/quiet-panther-30 */\n/* From Uiverse.io by asgardOP  - Tags: simple, button, hover, smooth, game, html, css */\n.button {\n  cursor: pointer;\n  width: fit-content;\n  height: fit-content;\n  padding: 15px;\n  background-color: rgb(223, 223, 223);\n  border-left: 3px solid white;\n  border-top: 3px solid white;\n  border-right: 3px solid gray;\n  border-bottom: 3px solid gray;\n  font-family: \"Courier New\", Courier, monospace;\n  font-size: 1.1rem;\n  font-weight: 900;\n  outline: 2px solid black;\n}\n\n.button:hover {\n  background-color: rgb(0, 197, 0);\n  color: white;\n  outline-color: white;\n  border-left: 3px solid rgb(0, 255, 0);\n  border-top: 3px solid rgb(0, 255, 0);\n  border-right: 3px solid green;\n  border-bottom: 3px solid green;\n}\n\n.button:active {\n  border-left: 3px solid green;\n  border-top: 3px solid green;\n  border-right: 3px solid rgb(0, 255, 0);\n  border-bottom: 3px solid rgb(0, 255, 0);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Minecraft</button>\n</body>\n</html>\n"
+}

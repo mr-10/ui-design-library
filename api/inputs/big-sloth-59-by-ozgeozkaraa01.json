@@ -1,0 +1,18 @@
+{
+ "id": "big-sloth-59-by-ozgeozkaraa01",
+ "name": "Big Sloth 59",
+ "category": "inputs",
+ "author": "ozgeozkaraa01",
+ "source": "https://uiverse.io/ozgeozkaraa01/big-sloth-59",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type...\">",
+ "css": "/* From Uiverse.io by ozgeozkaraa01 - Tags: input */\n.input {\n  font-weight: 500;\n  font-size: 14px;\n  height: 40px;\n  border-radius: 10px;\n  padding-left: 10px;\n  border: none;\n  border-bottom: 1px solid #e5e5e5;\n  outline: none;\n}\n\n.input:focus {\n  border-bottom: 1px solid #6941c6;\n  -webkit-transition: 0.1s;\n  transition: 0.5s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Sloth 59</title>\n<style>\n/* From Uiverse.io by ozgeozkaraa01 - https://uiverse.io/ozgeozkaraa01/big-sloth-59 */\n/* From Uiverse.io by ozgeozkaraa01 - Tags: input */\n.input {\n  font-weight: 500;\n  font-size: 14px;\n  height: 40px;\n  border-radius: 10px;\n  padding-left: 10px;\n  border: none;\n  border-bottom: 1px solid #e5e5e5;\n  outline: none;\n}\n\n.input:focus {\n  border-bottom: 1px solid #6941c6;\n  -webkit-transition: 0.1s;\n  transition: 0.5s;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type...\">\n</body>\n</html>\n"
+}

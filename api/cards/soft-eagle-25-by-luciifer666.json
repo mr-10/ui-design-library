@@ -1,0 +1,19 @@
+{
+ "id": "soft-eagle-25-by-luciifer666",
+ "name": "Soft Eagle 25",
+ "category": "cards",
+ "author": "Luciifer666",
+ "source": "https://uiverse.io/Luciifer666/soft-eagle-25",
+ "trigger": "auto-loop",
+ "description": "A card with loading and one-div styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loading",
+  "card",
+  "one-div",
+  "auto-loop"
+ ],
+ "html": "<div class=\"one-div\"></div>",
+ "css": "/* From Uiverse.io by Luciifer666 - Tags: loading, card, one-div */\n.one-div {\n  width: 100px;\n  height: 100px;\n  margin: 100px auto;\n  position: relative;\n}\n\n.one-div::before, .one-div::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  border: 6px solid transparent;\n}\n\n.one-div::before {\n  border-top-color: #3468db;\n  animation: spin 1.5s infinite linear;\n}\n\n.one-div::after {\n  border-top-color: #e67e22;\n  animation: spin-reverse 1.5s infinite linear;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes spin-reverse {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Eagle 25</title>\n<style>\n/* From Uiverse.io by Luciifer666 - https://uiverse.io/Luciifer666/soft-eagle-25 */\n/* From Uiverse.io by Luciifer666 - Tags: loading, card, one-div */\n.one-div {\n  width: 100px;\n  height: 100px;\n  margin: 100px auto;\n  position: relative;\n}\n\n.one-div::before, .one-div::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  border-radius: 50%;\n  border: 6px solid transparent;\n}\n\n.one-div::before {\n  border-top-color: #3468db;\n  animation: spin 1.5s infinite linear;\n}\n\n.one-div::after {\n  border-top-color: #e67e22;\n  animation: spin-reverse 1.5s infinite linear;\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes spin-reverse {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(-360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n</body>\n</html>\n"
+}

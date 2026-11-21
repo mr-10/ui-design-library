@@ -1,0 +1,21 @@
+{
+ "id": "foolish-mole-21-by-souravbandyopadhyay",
+ "name": "Foolish Mole 21",
+ "category": "patterns",
+ "author": "SouravBandyopadhyay",
+ "source": "https://uiverse.io/SouravBandyopadhyay/foolish-mole-21",
+ "trigger": "static",
+ "description": "A pattern with simple, material-design and blue styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "material-design",
+  "blue",
+  "smooth",
+  "share",
+  "pattern"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by SouravBandyopadhyay - Tags: simple, material design, blue, smooth, share, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: linear-gradient(45deg, #bcdbef 25%, transparent 25%, transparent 50%, #bcdbef 50%, #8ea2ae 75%, transparent 75%, transparent);\n  background-size: 20px 20px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Foolish Mole 21</title>\n<style>\n/* From Uiverse.io by SouravBandyopadhyay - https://uiverse.io/SouravBandyopadhyay/foolish-mole-21 */\n/* From Uiverse.io by SouravBandyopadhyay - Tags: simple, material design, blue, smooth, share, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: linear-gradient(45deg, #bcdbef 25%, transparent 25%, transparent 50%, #bcdbef 50%, #8ea2ae 75%, transparent 75%, transparent);\n  background-size: 20px 20px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

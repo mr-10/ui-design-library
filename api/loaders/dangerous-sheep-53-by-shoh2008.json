@@ -1,0 +1,18 @@
+{
+ "id": "dangerous-sheep-53-by-shoh2008",
+ "name": "Dangerous Sheep 53",
+ "category": "loaders",
+ "author": "Shoh2008",
+ "source": "https://uiverse.io/Shoh2008/dangerous-sheep-53",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  display: block;\n  position: relative;\n  height: 32px;\n  width: 140px;\n  border: 3px solid #fff;\n  border-radius: 20px;\n  box-sizing: border-box;\n  animation: balancing 2s linear infinite alternate;\n  transform-origin: center center;\n}\n\n.loader:before {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 52px;\n  height: 26px;\n  border-radius: 20px;\n  background: gold;\n  animation: ballbns 2s linear infinite alternate;\n}\n\n@keyframes ballbns {\n  0% {\n    left: 0;\n    transform: translateX(0%);\n  }\n\n  100% {\n    left: 100%;\n    transform: translateX(-100%);\n  }\n}\n\n@keyframes balancing {\n  0% {\n    transform: rotate(-25deg);\n  }\n\n  50% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(25deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dangerous Sheep 53</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/dangerous-sheep-53 */\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  display: block;\n  position: relative;\n  height: 32px;\n  width: 140px;\n  border: 3px solid #fff;\n  border-radius: 20px;\n  box-sizing: border-box;\n  animation: balancing 2s linear infinite alternate;\n  transform-origin: center center;\n}\n\n.loader:before {\n  content: '';\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 52px;\n  height: 26px;\n  border-radius: 20px;\n  background: gold;\n  animation: ballbns 2s linear infinite alternate;\n}\n\n@keyframes ballbns {\n  0% {\n    left: 0;\n    transform: translateX(0%);\n  }\n\n  100% {\n    left: 100%;\n    transform: translateX(-100%);\n  }\n}\n\n@keyframes balancing {\n  0% {\n    transform: rotate(-25deg);\n  }\n\n  50% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(25deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "calm-cat-84-by-selfmadesystem",
+ "name": "Calm Cat 84",
+ "category": "checkboxes",
+ "author": "SelfMadeSystem",
+ "source": "https://uiverse.io/SelfMadeSystem/calm-cat-84",
+ "trigger": "checked",
+ "description": "A checkbox UI element.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "checkbox",
+  "checked",
+  "css"
+ ],
+ "html": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>",
+ "css": "/* From Uiverse.io by SelfMadeSystem - Tags: checkbox */\n/* Hide the default checkbox */\n.container input {\n  display: none;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n  -webkit-tap-highlight-color: transparent;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  background-color: #2196F300;\n  border-radius: 0.25em;\n  transition: all 0.25s;\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n  background-color: #2196F3;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  transform: rotate(0deg);\n  border: 0.1em solid black;\n  left: 0;\n  top: 0;\n  width: 1.05em;\n  height: 1.05em;\n  border-radius: 0.25em;\n  transition: all 0.25s, border-width 0.1s;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n  left: 0.45em;\n  top: 0.25em;\n  width: 0.25em;\n  height: 0.5em;\n  border-color: #fff0 white white #fff0;\n  border-width: 0 0.15em 0.15em 0;\n  border-radius: 0em;\n  transform: rotate(45deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Calm Cat 84</title>\n<style>\n/* From Uiverse.io by SelfMadeSystem - https://uiverse.io/SelfMadeSystem/calm-cat-84 */\n/* From Uiverse.io by SelfMadeSystem - Tags: checkbox */\n/* Hide the default checkbox */\n.container input {\n  display: none;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n  -webkit-tap-highlight-color: transparent;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  background-color: #2196F300;\n  border-radius: 0.25em;\n  transition: all 0.25s;\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n  background-color: #2196F3;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  transform: rotate(0deg);\n  border: 0.1em solid black;\n  left: 0;\n  top: 0;\n  width: 1.05em;\n  height: 1.05em;\n  border-radius: 0.25em;\n  transition: all 0.25s, border-width 0.1s;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n  left: 0.45em;\n  top: 0.25em;\n  width: 0.25em;\n  height: 0.5em;\n  border-color: #fff0 white white #fff0;\n  border-width: 0 0.15em 0.15em 0;\n  border-radius: 0em;\n  transform: rotate(45deg);\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n</body>\n</html>\n"
+}

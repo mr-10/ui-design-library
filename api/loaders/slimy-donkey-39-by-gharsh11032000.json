@@ -1,0 +1,19 @@
+{
+ "id": "slimy-donkey-39-by-gharsh11032000",
+ "name": "Slimy Donkey 39",
+ "category": "loaders",
+ "author": "gharsh11032000",
+ "source": "https://uiverse.io/gharsh11032000/slimy-donkey-39",
+ "trigger": "auto-loop",
+ "description": "A loader with gradient and circle-loader styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "gradient",
+  "loader",
+  "circle-loader",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by gharsh11032000 - Tags: gradient, loader, circle loader */\n.loader {\n  width: 5em;\n  height: 5em;\n  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );\n  animation: spin 3s infinite;\n}\n\n.loader::before {\n  content: \"\";\n  z-index: -1;\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );\n  transform: translate3d(0, 0, 0) scale(0.95);\n  filter: blur(20px);\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(-45deg);\n  }\n\n  50% {\n    transform: rotate(-360deg);\n    border-radius: 50%;\n  }\n\n  100% {\n    transform: rotate(-45deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slimy Donkey 39</title>\n<style>\n/* From Uiverse.io by gharsh11032000 - https://uiverse.io/gharsh11032000/slimy-donkey-39 */\n/* From Uiverse.io by gharsh11032000 - Tags: gradient, loader, circle loader */\n.loader {\n  width: 5em;\n  height: 5em;\n  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );\n  animation: spin 3s infinite;\n}\n\n.loader::before {\n  content: \"\";\n  z-index: -1;\n  position: absolute;\n  inset: 0;\n  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );\n  transform: translate3d(0, 0, 0) scale(0.95);\n  filter: blur(20px);\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(-45deg);\n  }\n\n  50% {\n    transform: rotate(-360deg);\n    border-radius: 50%;\n  }\n\n  100% {\n    transform: rotate(-45deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

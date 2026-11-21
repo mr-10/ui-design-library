@@ -1,0 +1,21 @@
+{
+ "id": "soft-shrimp-94-by-vamsidevendrakumar",
+ "name": "Soft Shrimp 94",
+ "category": "cards",
+ "author": "vamsidevendrakumar",
+ "source": "https://uiverse.io/vamsidevendrakumar/soft-shrimp-94",
+ "trigger": "hover",
+ "description": "A card with animation, animated and hover-effect styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "animation",
+  "card",
+  "hover",
+  "animated",
+  "hover-effect",
+  "card-flip"
+ ],
+ "html": "<div class=\"card\">\n  <div class=\"card-inner\">\n    <div class=\"card-front\">\n      <p>Front Side</p>\n    </div>\n    <div class=\"card-back\">\n      <p>Back Side</p>\n    </div>\n  </div>\n</div>",
+ "css": "/* From Uiverse.io by vamsidevendrakumar - Tags: animation, card, hover, animated, hover effect, card flip, hoverme, card template, hover slide */\n.card {\n  width: 300px;\n  height: 200px;\n  perspective: 1000px;\n}\n\n.card-inner {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  transform-style: preserve-3d;\n  transition: transform 0.999s;\n}\n\n.card:hover .card-inner {\n  transform: rotateY(180deg);\n}\n\n.card-front,\n.card-back {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  backface-visibility: hidden;\n}\n\n.card-front {\n  background-color: #6A2C70;\n  color: #fff;\n  display: flex;\n  align-items: center;\n  border: 10px solid #6A2C70;\n  border-radius: 10px;\n  justify-content: center;\n  font-size: 24px;\n  transform: rotateY(0deg);\n}\n\n.card-back {\n  background-color: #F08A5D;\n  color: #fff;\n  display: flex;\n  align-items: center;\n  border: 10px solid #F08A5D;\n  border-radius: 10px;\n  justify-content: center;\n  font-size: 24px;\n  transform: rotateY(180deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Shrimp 94</title>\n<style>\n/* From Uiverse.io by vamsidevendrakumar - https://uiverse.io/vamsidevendrakumar/soft-shrimp-94 */\n/* From Uiverse.io by vamsidevendrakumar - Tags: animation, card, hover, animated, hover effect, card flip, hoverme, card template, hover slide */\n.card {\n  width: 300px;\n  height: 200px;\n  perspective: 1000px;\n}\n\n.card-inner {\n  width: 100%;\n  height: 100%;\n  position: relative;\n  transform-style: preserve-3d;\n  transition: transform 0.999s;\n}\n\n.card:hover .card-inner {\n  transform: rotateY(180deg);\n}\n\n.card-front,\n.card-back {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  backface-visibility: hidden;\n}\n\n.card-front {\n  background-color: #6A2C70;\n  color: #fff;\n  display: flex;\n  align-items: center;\n  border: 10px solid #6A2C70;\n  border-radius: 10px;\n  justify-content: center;\n  font-size: 24px;\n  transform: rotateY(0deg);\n}\n\n.card-back {\n  background-color: #F08A5D;\n  color: #fff;\n  display: flex;\n  align-items: center;\n  border: 10px solid #F08A5D;\n  border-radius: 10px;\n  justify-content: center;\n  font-size: 24px;\n  transform: rotateY(180deg);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card-inner\">\n    <div class=\"card-front\">\n      <p>Front Side</p>\n    </div>\n    <div class=\"card-back\">\n      <p>Back Side</p>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+}

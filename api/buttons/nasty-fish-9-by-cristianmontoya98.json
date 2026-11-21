@@ -1,0 +1,18 @@
+{
+ "id": "nasty-fish-9-by-cristianmontoya98",
+ "name": "Nasty Fish 9",
+ "category": "buttons",
+ "author": "CristianMontoya98",
+ "source": "https://uiverse.io/CristianMontoya98/nasty-fish-9",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"btn\"> Button\n</button>",
+ "css": "/* From Uiverse.io by CristianMontoya98 - Tags: button */\n.btn {\n width: 6.5em;\n height: 2.3em;\n margin: 0.5em;\n background: black;\n color: white;\n border: none;\n border-radius: 0.625em;\n font-size: 20px;\n font-weight: bold;\n cursor: pointer;\n position: relative;\n z-index: 1;\n overflow: hidden;\n}\n\nbutton:hover {\n color: black;\n}\n\nbutton:after {\n content: \"\";\n background: white;\n position: absolute;\n z-index: -1;\n left: -20%;\n right: -20%;\n top: 0;\n bottom: 0;\n transform: skewX(-45deg) scale(0, 1);\n transition: all 0.5s;\n}\n\nbutton:hover:after {\n transform: skewX(-45deg) scale(1, 1);\n -webkit-transition: all 0.5s;\n transition: all 0.5s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Fish 9</title>\n<style>\n/* From Uiverse.io by CristianMontoya98 - https://uiverse.io/CristianMontoya98/nasty-fish-9 */\n/* From Uiverse.io by CristianMontoya98 - Tags: button */\n.btn {\n width: 6.5em;\n height: 2.3em;\n margin: 0.5em;\n background: black;\n color: white;\n border: none;\n border-radius: 0.625em;\n font-size: 20px;\n font-weight: bold;\n cursor: pointer;\n position: relative;\n z-index: 1;\n overflow: hidden;\n}\n\nbutton:hover {\n color: black;\n}\n\nbutton:after {\n content: \"\";\n background: white;\n position: absolute;\n z-index: -1;\n left: -20%;\n right: -20%;\n top: 0;\n bottom: 0;\n transform: skewX(-45deg) scale(0, 1);\n transition: all 0.5s;\n}\n\nbutton:hover:after {\n transform: skewX(-45deg) scale(1, 1);\n -webkit-transition: all 0.5s;\n transition: all 0.5s;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"> Button\n</button>\n</body>\n</html>\n"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "afraid-newt-19-by-dyls00",
+ "name": "Afraid Newt 19",
+ "category": "tooltips",
+ "author": "Dyls00",
+ "source": "https://uiverse.io/Dyls00/afraid-newt-19",
+ "trigger": "hover",
+ "description": "A tooltip with smooth, cube and colorful styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "tooltip",
+  "smooth",
+  "cube",
+  "colorful",
+  "custom",
+  "hover"
+ ],
+ "html": "<div class=\"tooltip-container\">\n  <span class=\"tooltip\">Uiverse.io</span>\n  <span class=\"text\">Tooltip</span>\n</div>",
+ "css": "/* From Uiverse.io by Dyls00  - Tags: tooltip, smooth, cube, colorful, custom */\n/* This is an example, feel free to delete this code */\n.tooltip-container {\n  --background: #ee6d22;\n  position: relative;\n  background: var(--background);\n  cursor: pointer;\n  transition: all 0.2s;\n  border-radius: 15px;\n  font-size: 25px;\n  padding: 0.7em 1.8em;\n}\n\n.tooltip {\n  position: absolute;\n  top: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  padding: 0.3em 0.6em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s;\n  border-radius: 15px;\n  font-size: 50px;\n  margin-top: 90%;\n  background: black;\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 0.6em;\n  width: 0.6em;\n  bottom: 1.8em;\n  left: 50%;\n  transform: translate(-50%) rotate(180deg);\n  background: var(--background);\n}\n\n.tooltip-container:hover .tooltip {\n  top: -100%;\n  opacity: 1;\n  color: white;\n  visibility: visible;\n  pointer-events: auto;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Newt 19</title>\n<style>\n/* From Uiverse.io by Dyls00 - https://uiverse.io/Dyls00/afraid-newt-19 */\n/* From Uiverse.io by Dyls00  - Tags: tooltip, smooth, cube, colorful, custom */\n/* This is an example, feel free to delete this code */\n.tooltip-container {\n  --background: #ee6d22;\n  position: relative;\n  background: var(--background);\n  cursor: pointer;\n  transition: all 0.2s;\n  border-radius: 15px;\n  font-size: 25px;\n  padding: 0.7em 1.8em;\n}\n\n.tooltip {\n  position: absolute;\n  top: 0;\n  left: 50%;\n  transform: translateX(-50%);\n  padding: 0.3em 0.6em;\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s;\n  border-radius: 15px;\n  font-size: 50px;\n  margin-top: 90%;\n  background: black;\n}\n\n.tooltip::before {\n  position: absolute;\n  content: \"\";\n  height: 0.6em;\n  width: 0.6em;\n  bottom: 1.8em;\n  left: 50%;\n  transform: translate(-50%) rotate(180deg);\n  background: var(--background);\n}\n\n.tooltip-container:hover .tooltip {\n  top: -100%;\n  opacity: 1;\n  color: white;\n  visibility: visible;\n  pointer-events: auto;\n}\n</style>\n</head>\n<body>\n<div class=\"tooltip-container\">\n  <span class=\"tooltip\">Uiverse.io</span>\n  <span class=\"text\">Tooltip</span>\n</div>\n</body>\n</html>\n"
+}

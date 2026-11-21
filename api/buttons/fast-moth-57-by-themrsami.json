@@ -1,0 +1,18 @@
+{
+ "id": "fast-moth-57-by-themrsami",
+ "name": "Fast Moth 57",
+ "category": "buttons",
+ "author": "themrsami",
+ "source": "https://uiverse.io/themrsami/fast-moth-57",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by themrsami  - Tags: purple, button, hover, active, tailwind, tailwindcss -->\n<button\n  class=\"inline-block py-2 px-6 rounded-l-xl rounded-t-xl bg-[#7747FF] hover:bg-white hover:text-[#7747FF] focus:text-[#7747FF] focus:bg-gray-200 text-gray-50 font-bold leading-loose transition duration-200\"\n>\n  Submit\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fast Moth 57</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/fast-moth-57 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by themrsami  - Tags: purple, button, hover, active, tailwind, tailwindcss -->\n<button\n  class=\"inline-block py-2 px-6 rounded-l-xl rounded-t-xl bg-[#7747FF] hover:bg-white hover:text-[#7747FF] focus:text-[#7747FF] focus:bg-gray-200 text-gray-50 font-bold leading-loose transition duration-200\"\n>\n  Submit\n</button>\n</body>\n</html>\n"
+}

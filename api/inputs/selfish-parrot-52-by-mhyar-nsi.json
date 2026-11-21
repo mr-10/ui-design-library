@@ -1,0 +1,18 @@
+{
+ "id": "selfish-parrot-52-by-mhyar-nsi",
+ "name": "Selfish Parrot 52",
+ "category": "inputs",
+ "author": "Mhyar-nsi",
+ "source": "https://uiverse.io/Mhyar-nsi/selfish-parrot-52",
+ "trigger": "focus",
+ "description": "A input with ring styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "ring",
+  "focus"
+ ],
+ "html": "<input placeholder=\"Type here...\" class=\"input\" name=\"text\" type=\"text\">",
+ "css": "/* From Uiverse.io by Mhyar-nsi - Tags: input, ring */\n.input {\n  font-family: monospace;\n  max-width: 190px;\n  outline: none;\n  border: 1px solid #dadada;\n  padding: 10px;\n  border-radius: 5px;\n  background-color: #f3f7fe;\n  transition: .3s;\n  color: #3b82f6;\n}\n\n.input:focus {\n  border: 1px solid #3b82f6;\n  box-shadow: 0 0 0 4px #3b83f65f\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Selfish Parrot 52</title>\n<style>\n/* From Uiverse.io by Mhyar-nsi - https://uiverse.io/Mhyar-nsi/selfish-parrot-52 */\n/* From Uiverse.io by Mhyar-nsi - Tags: input, ring */\n.input {\n  font-family: monospace;\n  max-width: 190px;\n  outline: none;\n  border: 1px solid #dadada;\n  padding: 10px;\n  border-radius: 5px;\n  background-color: #f3f7fe;\n  transition: .3s;\n  color: #3b82f6;\n}\n\n.input:focus {\n  border: 1px solid #3b82f6;\n  box-shadow: 0 0 0 4px #3b83f65f\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Type here...\" class=\"input\" name=\"text\" type=\"text\">\n</body>\n</html>\n"
+}

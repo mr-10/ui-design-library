@@ -1,0 +1,20 @@
+{
+ "id": "strong-rabbit-3-by-javadpg",
+ "name": "Strong Rabbit 3",
+ "category": "cards",
+ "author": "javadpg",
+ "source": "https://uiverse.io/javadpg/strong-rabbit-3",
+ "trigger": "hover",
+ "description": "A card with modern, neon and blur-filter styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "modern",
+  "neon",
+  "blur-filter"
+ ],
+ "html": "<div class=\"card1\">\n        \n    </div>",
+ "css": "/* From Uiverse.io by javadpg - Tags: card, hover, modern, neon, blur filter */\n.card1 {\n  background-color: black;\n  width: 250px;\n  height: 300px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px;\n  box-shadow: 2px 2px 19px;\n}\n\n.card1::before {\n  content: \"\";\n  position: absolute;\n  z-index: -19;\n  width: 262px;\n  height: 312px;\n  margin: auto;\n  background: rgb(4,0,255);\n  background: linear-gradient(135deg, rgba(4,0,255,1) 0%, rgba(136,0,255,1) 35%, rgba(209,0,255,1) 100%);\n  border-radius: 6px;\n}\n\n.card1::after {\n  content: \"\";\n  position: absolute;\n  z-index: -19;\n  width: 262px;\n  height: 312px;\n  margin: auto;\n  background: rgb(4,0,255);\n  background: linear-gradient(135deg, rgba(4,0,255,1) 0%, rgba(136,0,255,1) 35%, rgba(209,0,255,1) 100%);\n  border-radius: 6px;\n  filter: blur(20px);\n  transition: 2s;\n}\n\n.card1:hover::after {\n  animation: cardafter 2.5s infinite forwards;\n}\n\n@keyframes cardafter {\n  0% {\n    opacity: 1;\n  }\n\n  50% {\n    opacity: 0;\n  }\n\n  100% {\n    opacity: 1;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strong Rabbit 3</title>\n<style>\n/* From Uiverse.io by javadpg - https://uiverse.io/javadpg/strong-rabbit-3 */\n/* From Uiverse.io by javadpg - Tags: card, hover, modern, neon, blur filter */\n.card1 {\n  background-color: black;\n  width: 250px;\n  height: 300px;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 6px;\n  box-shadow: 2px 2px 19px;\n}\n\n.card1::before {\n  content: \"\";\n  position: absolute;\n  z-index: -19;\n  width: 262px;\n  height: 312px;\n  margin: auto;\n  background: rgb(4,0,255);\n  background: linear-gradient(135deg, rgba(4,0,255,1) 0%, rgba(136,0,255,1) 35%, rgba(209,0,255,1) 100%);\n  border-radius: 6px;\n}\n\n.card1::after {\n  content: \"\";\n  position: absolute;\n  z-index: -19;\n  width: 262px;\n  height: 312px;\n  margin: auto;\n  background: rgb(4,0,255);\n  background: linear-gradient(135deg, rgba(4,0,255,1) 0%, rgba(136,0,255,1) 35%, rgba(209,0,255,1) 100%);\n  border-radius: 6px;\n  filter: blur(20px);\n  transition: 2s;\n}\n\n.card1:hover::after {\n  animation: cardafter 2.5s infinite forwards;\n}\n\n@keyframes cardafter {\n  0% {\n    opacity: 1;\n  }\n\n  50% {\n    opacity: 0;\n  }\n\n  100% {\n    opacity: 1;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"card1\">\n        \n    </div>\n</body>\n</html>\n"
+}

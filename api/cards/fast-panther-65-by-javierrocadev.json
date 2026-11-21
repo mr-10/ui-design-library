@@ -1,0 +1,21 @@
+{
+ "id": "fast-panther-65-by-javierrocadev",
+ "name": "Fast Panther 65",
+ "category": "cards",
+ "author": "Javierrocadev",
+ "source": "https://uiverse.io/Javierrocadev/fast-panther-65",
+ "trigger": "hover",
+ "description": "A card with list, blue and dark styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "list",
+  "blue",
+  "card",
+  "hover",
+  "dark",
+  "hover-effect"
+ ],
+ "html": "<div class=\"card\">\n  <span>In this article</span>\n  <div class=\"card__container\">\n   <p class=\"element\">Try it</p> \n   <p class=\"element\">Syntax</p> \n   <p class=\"element active\">Formal definition</p> \n   <p class=\"element\">Formal syntax</p> \n   <p class=\"element\">Examples</p> \n   <p class=\"element\">See also</p> \n  </div>\n</div>",
+ "css": "/* From Uiverse.io by Javierrocadev - Tags: list, blue, card, hover, dark, hover effect, card hover, mozilla */\n.card {\n  width: 250px;\n  height: 290px;\n  border-radius: 15px;\n  background: rgb(27, 26, 26);\n  color: white;\n  font-weight: 600;\n  font-size: 1.2em;\n  padding: 15px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  box-shadow: -5px 5px 1px 0px #004d92;\n}\n\n.element {\n  color: grey;\n  font-size: .8em;\n  padding: 6px 15px;\n  border-left: 2px solid grey;\n  cursor: pointer;\n}\n\n.active {\n  background-color: #004d92;\n  border-left: 2px solid #8cb4ff;\n  color: azure;\n}\n\n.element:hover:not(.active) {\n  color: #3775bb;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fast Panther 65</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/fast-panther-65 */\n/* From Uiverse.io by Javierrocadev - Tags: list, blue, card, hover, dark, hover effect, card hover, mozilla */\n.card {\n  width: 250px;\n  height: 290px;\n  border-radius: 15px;\n  background: rgb(27, 26, 26);\n  color: white;\n  font-weight: 600;\n  font-size: 1.2em;\n  padding: 15px;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  box-shadow: -5px 5px 1px 0px #004d92;\n}\n\n.element {\n  color: grey;\n  font-size: .8em;\n  padding: 6px 15px;\n  border-left: 2px solid grey;\n  cursor: pointer;\n}\n\n.active {\n  background-color: #004d92;\n  border-left: 2px solid #8cb4ff;\n  color: azure;\n}\n\n.element:hover:not(.active) {\n  color: #3775bb;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <span>In this article</span>\n  <div class=\"card__container\">\n   <p class=\"element\">Try it</p> \n   <p class=\"element\">Syntax</p> \n   <p class=\"element active\">Formal definition</p> \n   <p class=\"element\">Formal syntax</p> \n   <p class=\"element\">Examples</p> \n   <p class=\"element\">See also</p> \n  </div>\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "heavy-walrus-26-by-ashish-yadv",
+ "name": "Heavy Walrus 26",
+ "category": "loaders",
+ "author": "ashish-yadv",
+ "source": "https://uiverse.io/ashish-yadv/heavy-walrus-26",
+ "trigger": "auto-loop",
+ "description": "A loader with animation, loading-animation and bouncing-animation styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "animation",
+  "loader",
+  "loading-animation",
+  "bouncing-animation",
+  "bounce-animation",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\">\n  <li class=\"ball\"></li>\n  <li class=\"ball\"></li>\n  <li class=\"ball\"></li>\n</div>",
+ "css": "/* From Uiverse.io by ashish-yadv - Tags: animation, loader, loading animation, bouncing animation, bounce animation */\n.loader {\n  width: 60px;\n  display: flex;\n  justify-content: space-evenly;\n}\n\n.ball {\n  list-style: none;\n  width: 12px;\n  height: 12px;\n  border-radius: 50%;\n  background-color: #fff;\n}\n\n.ball:nth-child(1) {\n  animation: bounce-1 2.1s ease-in-out infinite;\n}\n\n@keyframes bounce-1 {\n  50% {\n    transform: translateY(-18px);\n  }\n}\n\n.ball:nth-child(2) {\n  animation: bounce-3 2.1s ease-in-out 0.3s infinite;\n}\n\n@keyframes bounce-2 {\n  50% {\n    transform: translateY(-18px);\n  }\n}\n\n.ball:nth-child(3) {\n  animation: bounce-3 2.1s ease-in-out 0.6s infinite;\n}\n\n@keyframes bounce-3 {\n  50% {\n    transform: translateY(-18px);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Walrus 26</title>\n<style>\n/* From Uiverse.io by ashish-yadv - https://uiverse.io/ashish-yadv/heavy-walrus-26 */\n/* From Uiverse.io by ashish-yadv - Tags: animation, loader, loading animation, bouncing animation, bounce animation */\n.loader {\n  width: 60px;\n  display: flex;\n  justify-content: space-evenly;\n}\n\n.ball {\n  list-style: none;\n  width: 12px;\n  height: 12px;\n  border-radius: 50%;\n  background-color: #fff;\n}\n\n.ball:nth-child(1) {\n  animation: bounce-1 2.1s ease-in-out infinite;\n}\n\n@keyframes bounce-1 {\n  50% {\n    transform: translateY(-18px);\n  }\n}\n\n.ball:nth-child(2) {\n  animation: bounce-3 2.1s ease-in-out 0.3s infinite;\n}\n\n@keyframes bounce-2 {\n  50% {\n    transform: translateY(-18px);\n  }\n}\n\n.ball:nth-child(3) {\n  animation: bounce-3 2.1s ease-in-out 0.6s infinite;\n}\n\n@keyframes bounce-3 {\n  50% {\n    transform: translateY(-18px);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <li class=\"ball\"></li>\n  <li class=\"ball\"></li>\n  <li class=\"ball\"></li>\n</div>\n</body>\n</html>\n"
+}

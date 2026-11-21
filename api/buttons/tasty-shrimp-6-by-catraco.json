@@ -1,0 +1,18 @@
+{
+ "id": "tasty-shrimp-6-by-catraco",
+ "name": "Tasty Shrimp 6",
+ "category": "buttons",
+ "author": "catraco",
+ "source": "https://uiverse.io/catraco/tasty-shrimp-6",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by catraco - Tags: icon, button, back arrow, goback -->\n<button class=\"cursor-pointer duration-200 hover:scale-125 active:scale-100\" title=\"Go Back\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50px\" height=\"50px\" viewBox=\"0 0 24 24\" class=\"stroke-blue-300\">\n    <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"1.5\" d=\"M11 6L5 12M5 12L11 18M5 12H19\"></path>\n  </svg>\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tasty Shrimp 6</title>\n<style>\n/* From Uiverse.io by catraco - https://uiverse.io/catraco/tasty-shrimp-6 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by catraco - Tags: icon, button, back arrow, goback -->\n<button class=\"cursor-pointer duration-200 hover:scale-125 active:scale-100\" title=\"Go Back\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"50px\" height=\"50px\" viewBox=\"0 0 24 24\" class=\"stroke-blue-300\">\n    <path stroke-linejoin=\"round\" stroke-linecap=\"round\" stroke-width=\"1.5\" d=\"M11 6L5 12M5 12L11 18M5 12H19\"></path>\n  </svg>\n</button>\n</body>\n</html>\n"
+}

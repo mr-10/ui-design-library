@@ -1,0 +1,20 @@
+{
+ "id": "afraid-eel-42-by-bodyhc",
+ "name": "Afraid Eel 42",
+ "category": "inputs",
+ "author": "Bodyhc",
+ "source": "https://uiverse.io/Bodyhc/afraid-eel-42",
+ "trigger": "hover",
+ "description": "A input with search, input-effect and search-bar styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "input",
+  "search",
+  "input-effect",
+  "search-bar",
+  "hover"
+ ],
+ "html": "<div class=\"search\">\n        <input placeholder=\"Search...\" type=\"text\">\n        <button type=\"submit\">Go</button>\n      </div>",
+ "css": "/* From Uiverse.io by Bodyhc - Tags: input, search, input effect , search bar */\n.search {\n  display: inline-block;\n  position: relative;\n}\n\n.search input[type=\"text\"] {\n  width: 200px;\n  padding: 10px;\n  border: none;\n  border-radius: 20px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n}\n\n.search button[type=\"submit\"] {\n  background-color: #4e99e9;\n  border: none;\n  color: #fff;\n  cursor: pointer;\n  padding: 10px 20px;\n  border-radius: 20px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n  position: absolute;\n  top: 0;\n  right: 0;\n  transition: .9s ease;\n}\n\n.search button[type=\"submit\"]:hover {\n  transform: scale(1.1);\n  color: rgb(255, 255, 255);\n  background-color: blue;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Eel 42</title>\n<style>\n/* From Uiverse.io by Bodyhc - https://uiverse.io/Bodyhc/afraid-eel-42 */\n/* From Uiverse.io by Bodyhc - Tags: input, search, input effect , search bar */\n.search {\n  display: inline-block;\n  position: relative;\n}\n\n.search input[type=\"text\"] {\n  width: 200px;\n  padding: 10px;\n  border: none;\n  border-radius: 20px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n}\n\n.search button[type=\"submit\"] {\n  background-color: #4e99e9;\n  border: none;\n  color: #fff;\n  cursor: pointer;\n  padding: 10px 20px;\n  border-radius: 20px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\n  position: absolute;\n  top: 0;\n  right: 0;\n  transition: .9s ease;\n}\n\n.search button[type=\"submit\"]:hover {\n  transform: scale(1.1);\n  color: rgb(255, 255, 255);\n  background-color: blue;\n}\n</style>\n</head>\n<body>\n<div class=\"search\">\n        <input placeholder=\"Search...\" type=\"text\">\n        <button type=\"submit\">Go</button>\n      </div>\n</body>\n</html>\n"
+}

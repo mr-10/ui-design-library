@@ -1,0 +1,19 @@
+{
+ "id": "massive-earwig-94-by-mrhyddenn",
+ "name": "Massive Earwig 94",
+ "category": "cards",
+ "author": "mrhyddenn",
+ "source": "https://uiverse.io/mrhyddenn/massive-earwig-94",
+ "trigger": "hover",
+ "description": "A card with sub and plan styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "sub",
+  "plan",
+  "hover"
+ ],
+ "html": "<div class=\"container\">\n    <div class=\"card_box\">\n        <span></span>\n    </div>\n</div>",
+ "css": "/* From Uiverse.io by mrhyddenn - Tags: card, sub, plan */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.card_box {\n  width: 200px;\n  height: 250px;\n  border-radius: 20px;\n  background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);\n  position: relative;\n  box-shadow: 0 25px 50px rgba(0,0,0,0.55);\n  cursor: pointer;\n  transition: all .3s;\n}\n\n.card_box:hover {\n  transform: scale(0.9);\n}\n\n.card_box span {\n  position: absolute;\n  overflow: hidden;\n  width: 150px;\n  height: 150px;\n  top: -10px;\n  left: -10px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.card_box span::before {\n  content: 'Premium';\n  position: absolute;\n  width: 150%;\n  height: 40px;\n  background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);\n  transform: rotate(-45deg) translateY(-20px);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #fff;\n  font-weight: 600;\n  letter-spacing: 0.1em;\n  text-transform: uppercase;\n  box-shadow: 0 5px 10px rgba(0,0,0,0.23);\n}\n\n.card_box span::after {\n  content: '';\n  position: absolute;\n  width: 10px;\n  bottom: 0;\n  left: 0;\n  height: 10px;\n  z-index: -1;\n  box-shadow: 140px -140px #cc3f47;\n  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Massive Earwig 94</title>\n<style>\n/* From Uiverse.io by mrhyddenn - https://uiverse.io/mrhyddenn/massive-earwig-94 */\n/* From Uiverse.io by mrhyddenn - Tags: card, sub, plan */\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.card_box {\n  width: 200px;\n  height: 250px;\n  border-radius: 20px;\n  background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);\n  position: relative;\n  box-shadow: 0 25px 50px rgba(0,0,0,0.55);\n  cursor: pointer;\n  transition: all .3s;\n}\n\n.card_box:hover {\n  transform: scale(0.9);\n}\n\n.card_box span {\n  position: absolute;\n  overflow: hidden;\n  width: 150px;\n  height: 150px;\n  top: -10px;\n  left: -10px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.card_box span::before {\n  content: 'Premium';\n  position: absolute;\n  width: 150%;\n  height: 40px;\n  background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);\n  transform: rotate(-45deg) translateY(-20px);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: #fff;\n  font-weight: 600;\n  letter-spacing: 0.1em;\n  text-transform: uppercase;\n  box-shadow: 0 5px 10px rgba(0,0,0,0.23);\n}\n\n.card_box span::after {\n  content: '';\n  position: absolute;\n  width: 10px;\n  bottom: 0;\n  left: 0;\n  height: 10px;\n  z-index: -1;\n  box-shadow: 140px -140px #cc3f47;\n  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n    <div class=\"card_box\">\n        <span></span>\n    </div>\n</div>\n</body>\n</html>\n"
+}

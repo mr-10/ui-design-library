@@ -1,0 +1,18 @@
+{
+ "id": "itchy-turtle-76-by-akshdeep74644",
+ "name": "Itchy Turtle 76",
+ "category": "inputs",
+ "author": "Akshdeep74644",
+ "source": "https://uiverse.io/Akshdeep74644/itchy-turtle-76",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<div class=\"container\">\n        <input type=\"text\" required=\"required\">\n        <label>You'r name</label>\n        <i></i>\n    </div>",
+ "css": "/* From Uiverse.io by Akshdeep74644 - Tags: input */\n.container {\n  position: relative;\n  width: 200px;\n}\n\n.container input {\n  width: 100%;\n  background: transparent;\n  outline: none;\n  border: none;\n  color: #222;\n  padding: 8px;\n}\n\n.container label {\n  position: absolute;\n  left: 0;\n  top: 0;\n  color: rgba(105, 105, 105, 0.7);\n  text-transform: uppercase;\n  pointer-events: none;\n  transition: .5s;\n  font-weight: bold;\n}\n\n.container input:valid ~ label,\n.container input:focus ~ label {\n  color: rgb(10, 131, 212);\n  transform: translateY(-15px);\n  font-size: .6rem;\n}\n\n.container i {\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  height: 2px;\n  background: #222;\n}\n\n.container i:before {\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(90deg, #ff1b69, #ff0, #2196f3, #9c27b0, #ff1b69);\n  animation: animate 3s linear infinite;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Itchy Turtle 76</title>\n<style>\n/* From Uiverse.io by Akshdeep74644 - https://uiverse.io/Akshdeep74644/itchy-turtle-76 */\n/* From Uiverse.io by Akshdeep74644 - Tags: input */\n.container {\n  position: relative;\n  width: 200px;\n}\n\n.container input {\n  width: 100%;\n  background: transparent;\n  outline: none;\n  border: none;\n  color: #222;\n  padding: 8px;\n}\n\n.container label {\n  position: absolute;\n  left: 0;\n  top: 0;\n  color: rgba(105, 105, 105, 0.7);\n  text-transform: uppercase;\n  pointer-events: none;\n  transition: .5s;\n  font-weight: bold;\n}\n\n.container input:valid ~ label,\n.container input:focus ~ label {\n  color: rgb(10, 131, 212);\n  transform: translateY(-15px);\n  font-size: .6rem;\n}\n\n.container i {\n  position: absolute;\n  left: 0;\n  bottom: 0;\n  width: 100%;\n  height: 2px;\n  background: #222;\n}\n\n.container i:before {\n  content: '';\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(90deg, #ff1b69, #ff0, #2196f3, #9c27b0, #ff1b69);\n  animation: animate 3s linear infinite;\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n        <input type=\"text\" required=\"required\">\n        <label>You'r name</label>\n        <i></i>\n    </div>\n</body>\n</html>\n"
+}

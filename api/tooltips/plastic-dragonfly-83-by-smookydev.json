@@ -1,0 +1,21 @@
+{
+ "id": "plastic-dragonfly-83-by-smookydev",
+ "name": "Plastic Dragonfly 83",
+ "category": "tooltips",
+ "author": "SmookyDev",
+ "source": "https://uiverse.io/SmookyDev/plastic-dragonfly-83",
+ "trigger": "hover",
+ "description": "A tooltip with simple, neumorphism and skeuomorphism styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "neumorphism",
+  "skeuomorphism",
+  "flashy",
+  "tooltip",
+  "icon"
+ ],
+ "html": "<div class=\"tooltip\">\n  <div class=\"icon\">i</div>\n  <div class=\"tooltiptext\">This is a cool tooltip!</div>\n</div>",
+ "css": "/* From Uiverse.io by SmookyDev  - Tags: simple, neumorphism, skeuomorphism, flashy, tooltip, icon, hover effect, css */\n.tooltip {\n  position: relative;\n  display: inline-block;\n  cursor: pointer;\n  font-family: \"Arial\", sans-serif;\n}\n\n.tooltip:hover .tooltiptext {\n  visibility: visible;\n  opacity: 1;\n}\n\n.tooltiptext {\n  visibility: hidden;\n  width: 200px;\n  background-color: #333;\n  color: #fff;\n  text-align: center;\n  border-radius: 5px;\n  padding: 10px;\n  position: absolute;\n  z-index: 1;\n  top: 125%;\n  left: 50%;\n  margin-left: -100px;\n  opacity: 0;\n  transition: opacity 0.3s;\n}\n\n.tooltiptext::after {\n  content: \"\";\n  position: absolute;\n  top: -10px;\n  left: 50%;\n  margin-left: -10px;\n  border-width: 10px;\n  border-style: solid;\n  border-color: transparent transparent #333 transparent;\n}\n\n.tooltip .icon {\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  background-color: #4caf50;\n  color: #fff;\n  border-radius: 50%;\n  text-align: center;\n  line-height: 20px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Plastic Dragonfly 83</title>\n<style>\n/* From Uiverse.io by SmookyDev - https://uiverse.io/SmookyDev/plastic-dragonfly-83 */\n/* From Uiverse.io by SmookyDev  - Tags: simple, neumorphism, skeuomorphism, flashy, tooltip, icon, hover effect, css */\n.tooltip {\n  position: relative;\n  display: inline-block;\n  cursor: pointer;\n  font-family: \"Arial\", sans-serif;\n}\n\n.tooltip:hover .tooltiptext {\n  visibility: visible;\n  opacity: 1;\n}\n\n.tooltiptext {\n  visibility: hidden;\n  width: 200px;\n  background-color: #333;\n  color: #fff;\n  text-align: center;\n  border-radius: 5px;\n  padding: 10px;\n  position: absolute;\n  z-index: 1;\n  top: 125%;\n  left: 50%;\n  margin-left: -100px;\n  opacity: 0;\n  transition: opacity 0.3s;\n}\n\n.tooltiptext::after {\n  content: \"\";\n  position: absolute;\n  top: -10px;\n  left: 50%;\n  margin-left: -10px;\n  border-width: 10px;\n  border-style: solid;\n  border-color: transparent transparent #333 transparent;\n}\n\n.tooltip .icon {\n  display: inline-block;\n  width: 20px;\n  height: 20px;\n  background-color: #4caf50;\n  color: #fff;\n  border-radius: 50%;\n  text-align: center;\n  line-height: 20px;\n}\n</style>\n</head>\n<body>\n<div class=\"tooltip\">\n  <div class=\"icon\">i</div>\n  <div class=\"tooltiptext\">This is a cool tooltip!</div>\n</div>\n</body>\n</html>\n"
+}

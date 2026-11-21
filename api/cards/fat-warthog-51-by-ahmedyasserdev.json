@@ -1,0 +1,19 @@
+{
+ "id": "fat-warthog-51-by-ahmedyasserdev",
+ "name": "Fat Warthog 51",
+ "category": "cards",
+ "author": "ahmedyasserdev",
+ "source": "https://uiverse.io/ahmedyasserdev/fat-warthog-51",
+ "trigger": "hover",
+ "description": "A card with cool-card and card-hover styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "cool-card",
+  "card-hover",
+  "hover"
+ ],
+ "html": "<div class=\"unique-card\">\n  <div class=\"background-overlay\"></div>\n  <div class=\"card-content\">\n    <div class=\"card-title\">Unique Card</div>\n    <div class=\"card-description\">Hover over me for a distinct effect!</div>\n  </div>\n</div>",
+ "css": "/* From Uiverse.io by ahmedyasserdev  - Tags: card, cool card, card hover */\n.unique-card {\n  position: relative;\n  width: 300px;\n  height: 200px;\n  overflow: hidden;\n  border-radius: 15px;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n  transition: transform 0.3s, box-shadow 0.3s;\n}\n\n.unique-card:hover {\n  transform: scale(1.1);\n  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);\n}\n\n.card-content {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n  color: #888;\n  z-index: 2;\n  transition: color 0.3s;\n}\n\n.unique-card:hover .card-content {\n  color: #ff7e5f;\n}\n\n.background-overlay {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(52, 73, 94, 0.7);\n  border-radius: 15px;\n  opacity: 0;\n  transition: opacity 0.3s;\n}\n\n.unique-card:hover .background-overlay {\n  opacity: 1;\n}\n\n.card-title {\n  font-size: 24px;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n\n.card-description {\n  font-size: 16px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Warthog 51</title>\n<style>\n/* From Uiverse.io by ahmedyasserdev - https://uiverse.io/ahmedyasserdev/fat-warthog-51 */\n/* From Uiverse.io by ahmedyasserdev  - Tags: card, cool card, card hover */\n.unique-card {\n  position: relative;\n  width: 300px;\n  height: 200px;\n  overflow: hidden;\n  border-radius: 15px;\n  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);\n  transition: transform 0.3s, box-shadow 0.3s;\n}\n\n.unique-card:hover {\n  transform: scale(1.1);\n  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);\n}\n\n.card-content {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n  color: #888;\n  z-index: 2;\n  transition: color 0.3s;\n}\n\n.unique-card:hover .card-content {\n  color: #ff7e5f;\n}\n\n.background-overlay {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(52, 73, 94, 0.7);\n  border-radius: 15px;\n  opacity: 0;\n  transition: opacity 0.3s;\n}\n\n.unique-card:hover .background-overlay {\n  opacity: 1;\n}\n\n.card-title {\n  font-size: 24px;\n  font-weight: bold;\n  margin-bottom: 10px;\n}\n\n.card-description {\n  font-size: 16px;\n}\n</style>\n</head>\n<body>\n<div class=\"unique-card\">\n  <div class=\"background-overlay\"></div>\n  <div class=\"card-content\">\n    <div class=\"card-title\">Unique Card</div>\n    <div class=\"card-description\">Hover over me for a distinct effect!</div>\n  </div>\n</div>\n</body>\n</html>\n"
+}

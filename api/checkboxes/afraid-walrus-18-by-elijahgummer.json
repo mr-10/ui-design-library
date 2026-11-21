@@ -1,0 +1,21 @@
+{
+ "id": "afraid-walrus-18-by-elijahgummer",
+ "name": "Afraid Walrus 18",
+ "category": "checkboxes",
+ "author": "elijahgummer",
+ "source": "https://uiverse.io/elijahgummer/afraid-walrus-18",
+ "trigger": "checked",
+ "description": "A checkbox with animation, black and hamburger styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "animation",
+  "black",
+  "checkbox",
+  "hamburger",
+  "arrow",
+  "checked"
+ ],
+ "html": "<input class=\"toggle-checkbox\" id=\"toggle\" type=\"checkbox\" />\n<label class=\"hamburger\" for=\"toggle\">\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n</label>",
+ "css": "/* From Uiverse.io by elijahgummer  - Tags: animation, black, checkbox, hamburger, arrow */\n.toggle-checkbox {\n  display: none;\n}\n\n.hamburger {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  width: 35px;\n  height: 24px;\n  cursor: pointer;\n}\n\n.hamburger .bar {\n  width: 100%;\n  height: 4px;\n  background-color: #333;\n  border-radius: 10px;\n  transition:\n    transform 0.3s ease,\n    opacity 0.3s ease;\n  position: relative;\n}\n\n.toggle-checkbox:checked + .hamburger .bar:nth-child(2) {\n  transform: translate(0px, 10px);\n  opacity: 0;\n  transition-delay: 0.3s;\n}\n\n.toggle-checkbox:checked + .hamburger .bar:nth-child(3) {\n  transform: translate(0px, -10px);\n  transition-delay: 0s;\n}\n\n.toggle-checkbox:checked + .hamburger .bar:nth-child(1) {\n  transform: rotate(-45deg) scale(0.7);\n  transition-delay: 0.6s;\n}\n.toggle-checkbox:checked + .hamburger .bar:nth-child(3) {\n  transform: rotate(45deg) scale(0.7);\n  transition-delay: 0.6s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Walrus 18</title>\n<style>\n/* From Uiverse.io by elijahgummer - https://uiverse.io/elijahgummer/afraid-walrus-18 */\n/* From Uiverse.io by elijahgummer  - Tags: animation, black, checkbox, hamburger, arrow */\n.toggle-checkbox {\n  display: none;\n}\n\n.hamburger {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  width: 35px;\n  height: 24px;\n  cursor: pointer;\n}\n\n.hamburger .bar {\n  width: 100%;\n  height: 4px;\n  background-color: #333;\n  border-radius: 10px;\n  transition:\n    transform 0.3s ease,\n    opacity 0.3s ease;\n  position: relative;\n}\n\n.toggle-checkbox:checked + .hamburger .bar:nth-child(2) {\n  transform: translate(0px, 10px);\n  opacity: 0;\n  transition-delay: 0.3s;\n}\n\n.toggle-checkbox:checked + .hamburger .bar:nth-child(3) {\n  transform: translate(0px, -10px);\n  transition-delay: 0s;\n}\n\n.toggle-checkbox:checked + .hamburger .bar:nth-child(1) {\n  transform: rotate(-45deg) scale(0.7);\n  transition-delay: 0.6s;\n}\n.toggle-checkbox:checked + .hamburger .bar:nth-child(3) {\n  transform: rotate(45deg) scale(0.7);\n  transition-delay: 0.6s;\n}\n</style>\n</head>\n<body>\n<input class=\"toggle-checkbox\" id=\"toggle\" type=\"checkbox\" />\n<label class=\"hamburger\" for=\"toggle\">\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n  <div class=\"bar\"></div>\n</label>\n</body>\n</html>\n"
+}

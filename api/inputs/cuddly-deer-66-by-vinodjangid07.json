@@ -1,0 +1,18 @@
+{
+ "id": "cuddly-deer-66-by-vinodjangid07",
+ "name": "Cuddly Deer 66",
+ "category": "inputs",
+ "author": "vinodjangid07",
+ "source": "https://uiverse.io/vinodjangid07/cuddly-deer-66",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<label for=\"usernameField\" class=\"usernamelabel label\">Username</label>\n    <input type=\"text\" placeholder=\"@\" id=\"usernameField\" required=\"required\">",
+ "css": "/* From Uiverse.io by vinodjangid07 - Tags: input */\n.usernamelabel {\n  display: block;\n  color: white;\n  font-size: 14px;\n  padding: 5px 5px;\n}\n\n#usernameField {\n  display: block;\n  width: 200px;\n  height: 40px;\n  background-color: #292929;\n  border-radius: 30px;\n  border: 2px solid #292929;\n  padding: 0px 12px;\n  outline: none;\n  caret-color: rgb(152, 88, 255);\n  color: rgb(212, 212, 212);\n  font-size: 12px;\n  transition-duration: .2s;\n}\n\n#usernameField:focus,\n#usernameField:valid {\n  border: 2px solid rgb(152, 88, 255);\n  transition-duration: .2s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Deer 66</title>\n<style>\n/* From Uiverse.io by vinodjangid07 - https://uiverse.io/vinodjangid07/cuddly-deer-66 */\n/* From Uiverse.io by vinodjangid07 - Tags: input */\n.usernamelabel {\n  display: block;\n  color: white;\n  font-size: 14px;\n  padding: 5px 5px;\n}\n\n#usernameField {\n  display: block;\n  width: 200px;\n  height: 40px;\n  background-color: #292929;\n  border-radius: 30px;\n  border: 2px solid #292929;\n  padding: 0px 12px;\n  outline: none;\n  caret-color: rgb(152, 88, 255);\n  color: rgb(212, 212, 212);\n  font-size: 12px;\n  transition-duration: .2s;\n}\n\n#usernameField:focus,\n#usernameField:valid {\n  border: 2px solid rgb(152, 88, 255);\n  transition-duration: .2s;\n}\n</style>\n</head>\n<body>\n<label for=\"usernameField\" class=\"usernamelabel label\">Username</label>\n    <input type=\"text\" placeholder=\"@\" id=\"usernameField\" required=\"required\">\n</body>\n</html>\n"
+}

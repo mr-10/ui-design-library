@@ -1,0 +1,21 @@
+{
+ "id": "sweet-termite-95-by-adilsarfraz02",
+ "name": "Sweet Termite 95",
+ "category": "patterns",
+ "author": "adilsarfraz02",
+ "source": "https://uiverse.io/adilsarfraz02/sweet-termite-95",
+ "trigger": "static",
+ "description": "A pattern with simple, realistic and modern styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "realistic",
+  "modern",
+  "premium",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by adilsarfraz02  - Tags: simple, realistic, modern, premium, pattern */\n.container {\n  background-color: transparent;\n  background-image: radial-gradient(#000000 1px, #e5e5f7 1px);\n  background-size: 30px 30px;\n  width: 100%;\n  height: 100vh;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sweet Termite 95</title>\n<style>\n/* From Uiverse.io by adilsarfraz02 - https://uiverse.io/adilsarfraz02/sweet-termite-95 */\n/* From Uiverse.io by adilsarfraz02  - Tags: simple, realistic, modern, premium, pattern */\n.container {\n  background-color: transparent;\n  background-image: radial-gradient(#000000 1px, #e5e5f7 1px);\n  background-size: 30px 30px;\n  width: 100%;\n  height: 100vh;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

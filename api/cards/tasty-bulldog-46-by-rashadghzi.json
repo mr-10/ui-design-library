@@ -1,0 +1,18 @@
+{
+ "id": "tasty-bulldog-46-by-rashadghzi",
+ "name": "Tasty Bulldog 46",
+ "category": "cards",
+ "author": "RashadGhzi",
+ "source": "https://uiverse.io/RashadGhzi/tasty-bulldog-46",
+ "trigger": "static",
+ "description": "A card UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "cards",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by RashadGhzi  - Tags: simple, card, modern, futuristic, creative, card template, tailwindcss -->\n<div class=\"bg-white rounded-lg shadow-lg p-6 max-w-xs font-serif\">\n  <div class=\"relative\">\n    <svg\n      fill=\"currentColor\"\n      viewBox=\"0 0 24 24\"\n      class=\"absolute -top-6 -right-6 w-24 h-24 text-indigo-400 opacity-25\"\n    >\n      <path\n        d=\"M12 0l3.094 9.488h9.956L15.49 15.338 18.585 24 12 18.512 5.415 24l3.094-8.662L0 9.488h9.956z\"\n      ></path>\n    </svg>\n    <svg\n      fill=\"currentColor\"\n      viewBox=\"0 0 24 24\"\n      class=\"w-16 h-16 mx-auto text-indigo-600\"\n    >\n      <path\n        d=\"M12 0l3.094 9.488h9.956L15.49 15.338 18.585 24 12 18.512 5.415 24l3.094-8.662L0 9.488h9.956z\"\n      ></path>\n    </svg>\n  </div>\n  <div class=\"mt-4 text-center\">\n    <div class=\"text-2xl font-semibold text-gray-900 font-mono\">\n      Unique Card Title\n    </div>\n    <div class=\"mt-2 text-gray-600\">\n      This is a unique card design featuring an abstract SVG pattern. It's\n      modern, minimalist, and stands out from the usual card designs.\n    </div>\n    <button\n      class=\"mt-6 px-4 py-2 bg-indigo-600 text-white text-sm w-full rounded shadow-md hover:bg-indigo-700 transition ease-out duration-300 hover:scale-95\"\n    >\n      Learn More\n    </button>\n  </div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tasty Bulldog 46</title>\n<style>\n/* From Uiverse.io by RashadGhzi - https://uiverse.io/RashadGhzi/tasty-bulldog-46 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by RashadGhzi  - Tags: simple, card, modern, futuristic, creative, card template, tailwindcss -->\n<div class=\"bg-white rounded-lg shadow-lg p-6 max-w-xs font-serif\">\n  <div class=\"relative\">\n    <svg\n      fill=\"currentColor\"\n      viewBox=\"0 0 24 24\"\n      class=\"absolute -top-6 -right-6 w-24 h-24 text-indigo-400 opacity-25\"\n    >\n      <path\n        d=\"M12 0l3.094 9.488h9.956L15.49 15.338 18.585 24 12 18.512 5.415 24l3.094-8.662L0 9.488h9.956z\"\n      ></path>\n    </svg>\n    <svg\n      fill=\"currentColor\"\n      viewBox=\"0 0 24 24\"\n      class=\"w-16 h-16 mx-auto text-indigo-600\"\n    >\n      <path\n        d=\"M12 0l3.094 9.488h9.956L15.49 15.338 18.585 24 12 18.512 5.415 24l3.094-8.662L0 9.488h9.956z\"\n      ></path>\n    </svg>\n  </div>\n  <div class=\"mt-4 text-center\">\n    <div class=\"text-2xl font-semibold text-gray-900 font-mono\">\n      Unique Card Title\n    </div>\n    <div class=\"mt-2 text-gray-600\">\n      This is a unique card design featuring an abstract SVG pattern. It's\n      modern, minimalist, and stands out from the usual card designs.\n    </div>\n    <button\n      class=\"mt-6 px-4 py-2 bg-indigo-600 text-white text-sm w-full rounded shadow-md hover:bg-indigo-700 transition ease-out duration-300 hover:scale-95\"\n    >\n      Learn More\n    </button>\n  </div>\n</div>\n</body>\n</html>\n"
+}

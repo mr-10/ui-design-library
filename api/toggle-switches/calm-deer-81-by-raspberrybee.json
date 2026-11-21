@@ -1,0 +1,20 @@
+{
+ "id": "calm-deer-81-by-raspberrybee",
+ "name": "Calm Deer 81",
+ "category": "toggle-switches",
+ "author": "RaspberryBee",
+ "source": "https://uiverse.io/RaspberryBee/calm-deer-81",
+ "trigger": "checked",
+ "description": "A toggle switch with active, switch and onoff styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "active",
+  "switch",
+  "onoff",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>",
+ "css": "/* From Uiverse.io by RaspberryBee - Tags: active, switch, on/off */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: rgb(182, 182, 182);\n  transition: .4s;\n  border-radius: 10px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 8px;\n  left: 0.3em;\n  bottom: 0.3em;\n  transform: rotate(270deg);\n  background-color: rgb(255, 255, 255);\n  transition: .4s;\n}\n\n.switch input:checked + .slider {\n  background-color: #21cc4c;\n}\n\n.switch input:focus + .slider {\n  box-shadow: 0 0 1px #2196F3;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(1.5em);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Calm Deer 81</title>\n<style>\n/* From Uiverse.io by RaspberryBee - https://uiverse.io/RaspberryBee/calm-deer-81 */\n/* From Uiverse.io by RaspberryBee - Tags: active, switch, on/off */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: rgb(182, 182, 182);\n  transition: .4s;\n  border-radius: 10px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 8px;\n  left: 0.3em;\n  bottom: 0.3em;\n  transform: rotate(270deg);\n  background-color: rgb(255, 255, 255);\n  transition: .4s;\n}\n\n.switch input:checked + .slider {\n  background-color: #21cc4c;\n}\n\n.switch input:focus + .slider {\n  box-shadow: 0 0 1px #2196F3;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(1.5em);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+}

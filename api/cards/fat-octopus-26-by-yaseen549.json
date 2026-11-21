@@ -1,0 +1,18 @@
+{
+ "id": "fat-octopus-26-by-yaseen549",
+ "name": "Fat Octopus 26",
+ "category": "cards",
+ "author": "Yaseen549",
+ "source": "https://uiverse.io/Yaseen549/fat-octopus-26",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"card\">\n</div>",
+ "css": "/* From Uiverse.io by Yaseen549 - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: transparent;\n  border: 2px solid #07ff07;\n  box-shadow: 2px 2px 15px #000000 inset;\n  text-align: center;\n  color: #e8e8e8;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-family: 'Pacifico';\n}\n\n.card:hover {\n  color: #07ff07;\n  box-shadow: 2px 2px 15px #07ff07 inset;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fat Octopus 26</title>\n<style>\n/* From Uiverse.io by Yaseen549 - https://uiverse.io/Yaseen549/fat-octopus-26 */\n/* From Uiverse.io by Yaseen549 - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: transparent;\n  border: 2px solid #07ff07;\n  box-shadow: 2px 2px 15px #000000 inset;\n  text-align: center;\n  color: #e8e8e8;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-family: 'Pacifico';\n}\n\n.card:hover {\n  color: #07ff07;\n  box-shadow: 2px 2px 15px #07ff07 inset;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n</div>\n</body>\n</html>\n"
+}

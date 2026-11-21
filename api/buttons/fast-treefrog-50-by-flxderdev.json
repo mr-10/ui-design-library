@@ -1,0 +1,20 @@
+{
+ "id": "fast-treefrog-50-by-flxderdev",
+ "name": "Fast Treefrog 50",
+ "category": "buttons",
+ "author": "flxderdev",
+ "source": "https://uiverse.io/flxderdev/fast-treefrog-50",
+ "trigger": "hover",
+ "description": "A button with gradient, modern and futuristic styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "gradient",
+  "button",
+  "modern",
+  "futuristic",
+  "hover"
+ ],
+ "html": "<button class=\"button\">HOVER ME</button>",
+ "css": "/* From Uiverse.io by flxderdev  - Tags: gradient, button, modern, futuristic */\n.button {\n  height: 55px;\n  width: 175px;\n  margin: auto;\n  align-items: center;\n  border-radius: 50px;\n  border: none;\n  text-align: center;\n  color: transparent;\n  text-shadow: 0 0 0 rgb(255, 255, 255);\n  font-size: 17px;\n  font-weight: 500;\n  text-transform: uppercase;\n  text-decoration: none;\n  box-sizing: border-box;\n  cursor: pointer;\n  transition: transform 50ms ease;\n  background: linear-gradient(90deg, #5f03f4, #f441a5, #b81fff, #5f03f4);\n  background-size: 400%;\n  display: block;\n  margin-right: auto;\n  margin-left: auto;\n  font-family: \"Montserrat\", sans-serif;\n}\n\n.button:hover {\n  -webkit-box-shadow: 0px 0px 15px 0px rgba(155, 0, 194, 0.9);\n  -moz-box-shadow: 0px 0px 15px 0px rgba(155, 0, 194, 0.9);\n  box-shadow: 0px 0px 15px 0px rgba(155, 0, 194, 0.9);\n  animation: animate 8s ease infinite;\n  transition: box-shadow, 0.4s;\n  border: none;\n  font-size: 19px;\n  transform: scale(1.05, 1.05);\n  background: linear-gradient(90deg, #5f03f4, #f441a5, #b81fff, #5f03f4);\n  background-size: 400%;\n}\n\n.button:hover:before {\n  filter: blur(20px);\n  opacity: 1;\n  animation: animate 8s linear infinite;\n}\n\n@keyframes animate {\n  0% {\n    background-position: 0%;\n  }\n\n  100% {\n    background-position: 400%;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fast Treefrog 50</title>\n<style>\n/* From Uiverse.io by flxderdev - https://uiverse.io/flxderdev/fast-treefrog-50 */\n/* From Uiverse.io by flxderdev  - Tags: gradient, button, modern, futuristic */\n.button {\n  height: 55px;\n  width: 175px;\n  margin: auto;\n  align-items: center;\n  border-radius: 50px;\n  border: none;\n  text-align: center;\n  color: transparent;\n  text-shadow: 0 0 0 rgb(255, 255, 255);\n  font-size: 17px;\n  font-weight: 500;\n  text-transform: uppercase;\n  text-decoration: none;\n  box-sizing: border-box;\n  cursor: pointer;\n  transition: transform 50ms ease;\n  background: linear-gradient(90deg, #5f03f4, #f441a5, #b81fff, #5f03f4);\n  background-size: 400%;\n  display: block;\n  margin-right: auto;\n  margin-left: auto;\n  font-family: \"Montserrat\", sans-serif;\n}\n\n.button:hover {\n  -webkit-box-shadow: 0px 0px 15px 0px rgba(155, 0, 194, 0.9);\n  -moz-box-shadow: 0px 0px 15px 0px rgba(155, 0, 194, 0.9);\n  box-shadow: 0px 0px 15px 0px rgba(155, 0, 194, 0.9);\n  animation: animate 8s ease infinite;\n  transition: box-shadow, 0.4s;\n  border: none;\n  font-size: 19px;\n  transform: scale(1.05, 1.05);\n  background: linear-gradient(90deg, #5f03f4, #f441a5, #b81fff, #5f03f4);\n  background-size: 400%;\n}\n\n.button:hover:before {\n  filter: blur(20px);\n  opacity: 1;\n  animation: animate 8s linear infinite;\n}\n\n@keyframes animate {\n  0% {\n    background-position: 0%;\n  }\n\n  100% {\n    background-position: 400%;\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">HOVER ME</button>\n</body>\n</html>\n"
+}

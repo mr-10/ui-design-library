@@ -1,0 +1,18 @@
+{
+ "id": "hard-cow-33-by-pozdevill",
+ "name": "Hard Cow 33",
+ "category": "buttons",
+ "author": "PozDevill",
+ "source": "https://uiverse.io/PozDevill/hard-cow-33",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>Button</button>",
+ "css": "/* From Uiverse.io by PozDevill - Tags: button */\nbutton {\n  position: relative;\n  font-family: 'Heebo', sans-serif;\n  padding: 12px 40px;\n  border: 0;\n  background: rgb(148, 1, 1);\n  color: #ffffff;\n  font-weight: 500;\n  font-size: 1em;\n  border-radius: 8px;\n  overflow: hidden;\n  cursor: pointer;\n  transition: 0.3s ease-in-out;\n}\n\nbutton:hover {\n  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.562);\n  transform: scale(1.01);\n  box-shadow: inset 0px 0px 10px rgba(255, 0, 0, 0.575);\n}\n\nbutton::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: -100px;\n  width: 50%;\n  height: 100%;\n  transform: rotate(80deg);\n  background: #ffffff77;\n  filter: blur(10px);\n  transition: 0.6s ease-in-out;\n}\n\nbutton:hover::after {\n  left: 100%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Cow 33</title>\n<style>\n/* From Uiverse.io by PozDevill - https://uiverse.io/PozDevill/hard-cow-33 */\n/* From Uiverse.io by PozDevill - Tags: button */\nbutton {\n  position: relative;\n  font-family: 'Heebo', sans-serif;\n  padding: 12px 40px;\n  border: 0;\n  background: rgb(148, 1, 1);\n  color: #ffffff;\n  font-weight: 500;\n  font-size: 1em;\n  border-radius: 8px;\n  overflow: hidden;\n  cursor: pointer;\n  transition: 0.3s ease-in-out;\n}\n\nbutton:hover {\n  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.562);\n  transform: scale(1.01);\n  box-shadow: inset 0px 0px 10px rgba(255, 0, 0, 0.575);\n}\n\nbutton::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: -100px;\n  width: 50%;\n  height: 100%;\n  transform: rotate(80deg);\n  background: #ffffff77;\n  filter: blur(10px);\n  transition: 0.6s ease-in-out;\n}\n\nbutton:hover::after {\n  left: 100%;\n}\n</style>\n</head>\n<body>\n<button>Button</button>\n</body>\n</html>\n"
+}

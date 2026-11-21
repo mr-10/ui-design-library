@@ -1,0 +1,18 @@
+{
+ "id": "new-sloth-45-by-javierrocadev",
+ "name": "New Sloth 45",
+ "category": "loaders",
+ "author": "Javierrocadev",
+ "source": "https://uiverse.io/Javierrocadev/new-sloth-45",
+ "trigger": "static",
+ "description": "A loader UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "loaders",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Javierrocadev - Tags: blue, loader, rounded, bounce animation, tailwind -->\n<div class=\"flex flex-row gap-2\">\n  <div class=\"w-4 h-4 rounded-full bg-blue-700 animate-bounce\"></div>\n  <div class=\"w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.3s]\"></div>\n  <div class=\"w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.5s]\"></div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>New Sloth 45</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/new-sloth-45 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev - Tags: blue, loader, rounded, bounce animation, tailwind -->\n<div class=\"flex flex-row gap-2\">\n  <div class=\"w-4 h-4 rounded-full bg-blue-700 animate-bounce\"></div>\n  <div class=\"w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.3s]\"></div>\n  <div class=\"w-4 h-4 rounded-full bg-blue-700 animate-bounce [animation-delay:-.5s]\"></div>\n</div>\n</body>\n</html>\n"
+}

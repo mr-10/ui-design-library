@@ -1,0 +1,18 @@
+{
+ "id": "cowardly-vampirebat-40-by-nakamoz",
+ "name": "Cowardly Vampirebat 40",
+ "category": "buttons",
+ "author": "NAKAMOZ",
+ "source": "https://uiverse.io/NAKAMOZ/cowardly-vampirebat-40",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n  Hover Me\n</button>",
+ "css": "/* From Uiverse.io by NAKAMOZ - Tags: button */\nbutton {\n  cursor: pointer;\n  background-color: transparent;\n  color: white;\n  border: none;\n  font-size: 17px;\n  position: relative;\n  z-index: 3;\n  transition: 0.5s;\n  -webkit-transition: 0.5s;\n  -moz-transition: 0.5s;\n  -ms-transition: 0.5s;\n  -o-transition: 0.5s;\n}\n\nbutton::before {\n  content: \"\";\n  border: 3px solid white;\n  position: absolute;\n  left: -25px;\n  bottom: 0;\n  display: block;\n  width: 10px;\n  height: 10px;\n  border-radius: 60px;\n  -webkit-border-radius: 60px;\n  -moz-border-radius: 60px;\n  -ms-border-radius: 60px;\n  -o-border-radius: 60px;\n  transition: 0.5s;\n  -webkit-transition: 0.5s;\n  -moz-transition: 0.5s;\n  -ms-transition: 0.5s;\n  -o-transition: 0.5s;\n}\n\nbutton:hover::before {\n  left: -25px;\n  bottom: -17.5px;\n  width: 100%;\n  padding: 20px;\n  background-color: white;\n  z-index: -1;\n}\n\nbutton:hover {\n  color: #282828;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Vampirebat 40</title>\n<style>\n/* From Uiverse.io by NAKAMOZ - https://uiverse.io/NAKAMOZ/cowardly-vampirebat-40 */\n/* From Uiverse.io by NAKAMOZ - Tags: button */\nbutton {\n  cursor: pointer;\n  background-color: transparent;\n  color: white;\n  border: none;\n  font-size: 17px;\n  position: relative;\n  z-index: 3;\n  transition: 0.5s;\n  -webkit-transition: 0.5s;\n  -moz-transition: 0.5s;\n  -ms-transition: 0.5s;\n  -o-transition: 0.5s;\n}\n\nbutton::before {\n  content: \"\";\n  border: 3px solid white;\n  position: absolute;\n  left: -25px;\n  bottom: 0;\n  display: block;\n  width: 10px;\n  height: 10px;\n  border-radius: 60px;\n  -webkit-border-radius: 60px;\n  -moz-border-radius: 60px;\n  -ms-border-radius: 60px;\n  -o-border-radius: 60px;\n  transition: 0.5s;\n  -webkit-transition: 0.5s;\n  -moz-transition: 0.5s;\n  -ms-transition: 0.5s;\n  -o-transition: 0.5s;\n}\n\nbutton:hover::before {\n  left: -25px;\n  bottom: -17.5px;\n  width: 100%;\n  padding: 20px;\n  background-color: white;\n  z-index: -1;\n}\n\nbutton:hover {\n  color: #282828;\n}\n</style>\n</head>\n<body>\n<button>\n  Hover Me\n</button>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "horrible-rattlesnake-14-by-erzenxz",
+ "name": "Horrible Rattlesnake 14",
+ "category": "inputs",
+ "author": "ErzenXz",
+ "source": "https://uiverse.io/ErzenXz/horrible-rattlesnake-14",
+ "trigger": "hover",
+ "description": "A input with search styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "input",
+  "search",
+  "hover"
+ ],
+ "html": "<input placeholder=\"Searth the internet...\" type=\"text\" name=\"text\" class=\"input\">",
+ "css": "/* From Uiverse.io by ErzenXz - Tags: input, search */\n.input {\n  width: 100%;\n  max-width: 220px;\n  height: 45px;\n  padding: 12px;\n  border-radius: 12px;\n  border: 1.5px solid lightgrey;\n  outline: none;\n  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);\n  box-shadow: 0px 0px 20px -18px;\n}\n\n.input:hover {\n  border: 2px solid lightgrey;\n  box-shadow: 0px 0px 20px -17px;\n}\n\n.input:active {\n  transform: scale(0.95);\n}\n\n.input:focus {\n  border: 2px solid grey;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Horrible Rattlesnake 14</title>\n<style>\n/* From Uiverse.io by ErzenXz - https://uiverse.io/ErzenXz/horrible-rattlesnake-14 */\n/* From Uiverse.io by ErzenXz - Tags: input, search */\n.input {\n  width: 100%;\n  max-width: 220px;\n  height: 45px;\n  padding: 12px;\n  border-radius: 12px;\n  border: 1.5px solid lightgrey;\n  outline: none;\n  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);\n  box-shadow: 0px 0px 20px -18px;\n}\n\n.input:hover {\n  border: 2px solid lightgrey;\n  box-shadow: 0px 0px 20px -17px;\n}\n\n.input:active {\n  transform: scale(0.95);\n}\n\n.input:focus {\n  border: 2px solid grey;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Searth the internet...\" type=\"text\" name=\"text\" class=\"input\">\n</body>\n</html>\n"
+}

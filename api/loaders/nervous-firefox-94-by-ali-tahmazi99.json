@@ -1,0 +1,18 @@
+{
+ "id": "nervous-firefox-94-by-ali-tahmazi99",
+ "name": "Nervous Firefox 94",
+ "category": "loaders",
+ "author": "Ali-Tahmazi99",
+ "source": "https://uiverse.io/Ali-Tahmazi99/nervous-firefox-94",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"load-row\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n</div>",
+ "css": "/* From Uiverse.io by Ali-Tahmazi99 - Tags: loader */\n.load-row {\n  width: 100px;\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.load-row span {\n  display: inline-block;\n  width: 10px;\n  height: 10px;\n  background: #f76002;\n  border-radius: 50px;\n  animation: up-down6 0.5s ease-in infinite alternate;\n}\n\n.load-row span:nth-child(2) {\n  background: #e85b04c4;\n  animation-delay: 0.16s;\n}\n\n.load-row span:nth-child(3) {\n  background: #e85b0491;\n  animation-delay: 0.32s;\n}\n\n.load-row span:nth-child(4) {\n  background: #e85b0456;\n  animation-delay: 0.48s;\n}\n\n@keyframes up-down6 {\n  0% {\n    transform: translateY(-10px);\n  }\n\n  100% {\n    transform: translateY(10px);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nervous Firefox 94</title>\n<style>\n/* From Uiverse.io by Ali-Tahmazi99 - https://uiverse.io/Ali-Tahmazi99/nervous-firefox-94 */\n/* From Uiverse.io by Ali-Tahmazi99 - Tags: loader */\n.load-row {\n  width: 100px;\n  height: 50px;\n  line-height: 50px;\n  text-align: center;\n}\n\n.load-row span {\n  display: inline-block;\n  width: 10px;\n  height: 10px;\n  background: #f76002;\n  border-radius: 50px;\n  animation: up-down6 0.5s ease-in infinite alternate;\n}\n\n.load-row span:nth-child(2) {\n  background: #e85b04c4;\n  animation-delay: 0.16s;\n}\n\n.load-row span:nth-child(3) {\n  background: #e85b0491;\n  animation-delay: 0.32s;\n}\n\n.load-row span:nth-child(4) {\n  background: #e85b0456;\n  animation-delay: 0.48s;\n}\n\n@keyframes up-down6 {\n  0% {\n    transform: translateY(-10px);\n  }\n\n  100% {\n    transform: translateY(10px);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"load-row\">\n    <span></span>\n    <span></span>\n    <span></span>\n    <span></span>\n</div>\n</body>\n</html>\n"
+}

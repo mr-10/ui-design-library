@@ -1,0 +1,19 @@
+{
+ "id": "curly-lionfish-2-by-gaurav-webdev",
+ "name": "Curly Lionfish 2",
+ "category": "cards",
+ "author": "Gaurav-WebDev",
+ "source": "https://uiverse.io/Gaurav-WebDev/curly-lionfish-2",
+ "trigger": "hover",
+ "description": "A card with hover-effect and cool-card styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover-effect",
+  "cool-card",
+  "hover"
+ ],
+ "html": "<div class=\"card\">\n  <p class=\"c-txt\">Hover Me</p>\n</div>",
+ "css": "/* From Uiverse.io by Gaurav-WebDev - Tags: card, hover effect, cool card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: lightgray;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 2em;\n  color: #333;\n  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\n  border-radius: 40px;\n  cursor: pointer;\n  position: relative;\n  transition: all 0.7s ease-in-out;\n  overflow: hidden;\n}\n\n.card::before {\n  content: \"\";\n  position: absolute;\n  height: 40%;\n  width: 100%;\n  background-color: #088080;\n  bottom: 0;\n  right: 0;\n  transform: translatey(70px);\n  border-radius: 100%;\n  transition: all 0.7s ease-in-out;\n}\n\n.c-txt {\n  z-index: 2;\n}\n\n.card:hover::before {\n  transform: scale(7) translate(-20px);\n}\n\n.card:hover {\n  box-shadow: 1px -10px 500px 500px #9fe4e44a;\n  color: #f3f3f3;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Lionfish 2</title>\n<style>\n/* From Uiverse.io by Gaurav-WebDev - https://uiverse.io/Gaurav-WebDev/curly-lionfish-2 */\n/* From Uiverse.io by Gaurav-WebDev - Tags: card, hover effect, cool card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: lightgray;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 2em;\n  color: #333;\n  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\n  border-radius: 40px;\n  cursor: pointer;\n  position: relative;\n  transition: all 0.7s ease-in-out;\n  overflow: hidden;\n}\n\n.card::before {\n  content: \"\";\n  position: absolute;\n  height: 40%;\n  width: 100%;\n  background-color: #088080;\n  bottom: 0;\n  right: 0;\n  transform: translatey(70px);\n  border-radius: 100%;\n  transition: all 0.7s ease-in-out;\n}\n\n.c-txt {\n  z-index: 2;\n}\n\n.card:hover::before {\n  transform: scale(7) translate(-20px);\n}\n\n.card:hover {\n  box-shadow: 1px -10px 500px 500px #9fe4e44a;\n  color: #f3f3f3;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <p class=\"c-txt\">Hover Me</p>\n</div>\n</body>\n</html>\n"
+}

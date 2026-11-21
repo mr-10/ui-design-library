@@ -1,0 +1,20 @@
+{
+ "id": "short-horse-44-by-priyanshugupta28",
+ "name": "Short Horse 44",
+ "category": "buttons",
+ "author": "PriyanshuGupta28",
+ "source": "https://uiverse.io/PriyanshuGupta28/short-horse-44",
+ "trigger": "hover",
+ "description": "A button with bootsrap-button, button-hover-effect and 2d-button styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "bootsrap-button",
+  "button-hover-effect",
+  "2d-button",
+  "hover"
+ ],
+ "html": "<button class=\"swipe-button\">Hover Me</button>",
+ "css": "/* From Uiverse.io by PriyanshuGupta28 - Tags: button, bootsrap button, button hover effect , 2d button */\n.swipe-button {\n  padding: 10px 20px;\n  font-size: 18px;\n  border: none;\n  background: linear-gradient(45deg, #3498db, #e74c3c, #9b59b6, #2ecc71);\n  background-size: 200% 200%;\n  background-position: 0 0;\n  color: white;\n  border-radius: 5px;\n  cursor: pointer;\n  font-family: sans-serif;\n  transition: background-position 0.5s ease-in-out, transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;\n}\n\n.swipe-button:hover {\n  background-position: 100% 100%;\n  transform: scale(1.05);\n  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n\n.swipe-button:active {\n  transform: translateY(2px);\n  color: #fff;\n /* Change text color when active */\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Short Horse 44</title>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - https://uiverse.io/PriyanshuGupta28/short-horse-44 */\n/* From Uiverse.io by PriyanshuGupta28 - Tags: button, bootsrap button, button hover effect , 2d button */\n.swipe-button {\n  padding: 10px 20px;\n  font-size: 18px;\n  border: none;\n  background: linear-gradient(45deg, #3498db, #e74c3c, #9b59b6, #2ecc71);\n  background-size: 200% 200%;\n  background-position: 0 0;\n  color: white;\n  border-radius: 5px;\n  cursor: pointer;\n  font-family: sans-serif;\n  transition: background-position 0.5s ease-in-out, transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;\n}\n\n.swipe-button:hover {\n  background-position: 100% 100%;\n  transform: scale(1.05);\n  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);\n}\n\n.swipe-button:active {\n  transform: translateY(2px);\n  color: #fff;\n /* Change text color when active */\n}\n</style>\n</head>\n<body>\n<button class=\"swipe-button\">Hover Me</button>\n</body>\n</html>\n"
+}

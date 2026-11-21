@@ -1,0 +1,18 @@
+{
+ "id": "ancient-sloth-30-by-satwinder04",
+ "name": "Ancient Sloth 30",
+ "category": "inputs",
+ "author": "Satwinder04",
+ "source": "https://uiverse.io/Satwinder04/ancient-sloth-30",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<div class=\"input-container\">\n  <input placeholder=\"Enter text\" class=\"input-field\" type=\"text\">\n  <label for=\"input-field\" class=\"input-label\">Enter text</label>\n  <span class=\"input-highlight\"></span>\n</div>",
+ "css": "/* From Uiverse.io by Satwinder04 - Tags: input */\n/* Input container */\n.input-container {\n  position: relative;\n  margin: 20px;\n}\n\n/* Input field */\n.input-field {\n  display: block;\n  width: 100%;\n  padding: 10px;\n  font-size: 16px;\n  border: none;\n  border-bottom: 2px solid #ccc;\n  outline: none;\n  background-color: transparent;\n}\n\n/* Input label */\n.input-label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  font-size: 16px;\n  color: rgba(204, 204, 204, 0);\n  pointer-events: none;\n  transition: all 0.3s ease;\n}\n\n/* Input highlight */\n.input-highlight {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  height: 2px;\n  width: 0;\n  background-color: #007bff;\n  transition: all 0.3s ease;\n}\n\n/* Input field:focus styles */\n.input-field:focus + .input-label {\n  top: -20px;\n  font-size: 12px;\n  color: #007bff;\n}\n\n.input-field:focus + .input-label + .input-highlight {\n  width: 100%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Sloth 30</title>\n<style>\n/* From Uiverse.io by Satwinder04 - https://uiverse.io/Satwinder04/ancient-sloth-30 */\n/* From Uiverse.io by Satwinder04 - Tags: input */\n/* Input container */\n.input-container {\n  position: relative;\n  margin: 20px;\n}\n\n/* Input field */\n.input-field {\n  display: block;\n  width: 100%;\n  padding: 10px;\n  font-size: 16px;\n  border: none;\n  border-bottom: 2px solid #ccc;\n  outline: none;\n  background-color: transparent;\n}\n\n/* Input label */\n.input-label {\n  position: absolute;\n  top: 0;\n  left: 0;\n  font-size: 16px;\n  color: rgba(204, 204, 204, 0);\n  pointer-events: none;\n  transition: all 0.3s ease;\n}\n\n/* Input highlight */\n.input-highlight {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  height: 2px;\n  width: 0;\n  background-color: #007bff;\n  transition: all 0.3s ease;\n}\n\n/* Input field:focus styles */\n.input-field:focus + .input-label {\n  top: -20px;\n  font-size: 12px;\n  color: #007bff;\n}\n\n.input-field:focus + .input-label + .input-highlight {\n  width: 100%;\n}\n</style>\n</head>\n<body>\n<div class=\"input-container\">\n  <input placeholder=\"Enter text\" class=\"input-field\" type=\"text\">\n  <label for=\"input-field\" class=\"input-label\">Enter text</label>\n  <span class=\"input-highlight\"></span>\n</div>\n</body>\n</html>\n"
+}

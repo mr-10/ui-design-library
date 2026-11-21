@@ -1,0 +1,19 @@
+{
+ "id": "little-pug-16-by-jkhuger",
+ "name": "Little Pug 16",
+ "category": "buttons",
+ "author": "JkHuger",
+ "source": "https://uiverse.io/JkHuger/little-pug-16",
+ "trigger": "hover",
+ "description": "A button with smooth and animated styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "smooth",
+  "animated",
+  "hover"
+ ],
+ "html": "<button class=\"testbutton\">\n  Click me\n</button>",
+ "css": "/* From Uiverse.io by JkHuger - Tags: button, smooth, animated */\n.testbutton {\n  display: block;\n  font-family: helvetica;\n  color: #000;\n  font-size: 16px;\n  font-weight: bold;\n  box-shadow: 9px 8px 0px -1px#BEE2F9, 9px 8px 0px 1px #000;\n  padding: 12px 25px;\n  border-radius: 11px;\n  border: 2px solid #000;\n  background: linear-gradient(to top, #63B8EE, #468CCF);\n  transition: .3s;\n  cursor: pointer;\n}\n\n.testbutton:hover {\n  transition: .3s;\n  transform: translate(-.3em, -.3em);\n  box-shadow: 14px 13px 0px -1px #BEE2F9, 14px 13px 0px 1px #000;\n  border: 2px solid #000;\n}\n\n.testbutton:active {\n  transition: .3s;\n  transform: translate(.6em, .6em);\n  box-shadow: 0px 0px 0px -1px #BEE2F9, 0px 0px 0px 0.1px#000;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Pug 16</title>\n<style>\n/* From Uiverse.io by JkHuger - https://uiverse.io/JkHuger/little-pug-16 */\n/* From Uiverse.io by JkHuger - Tags: button, smooth, animated */\n.testbutton {\n  display: block;\n  font-family: helvetica;\n  color: #000;\n  font-size: 16px;\n  font-weight: bold;\n  box-shadow: 9px 8px 0px -1px#BEE2F9, 9px 8px 0px 1px #000;\n  padding: 12px 25px;\n  border-radius: 11px;\n  border: 2px solid #000;\n  background: linear-gradient(to top, #63B8EE, #468CCF);\n  transition: .3s;\n  cursor: pointer;\n}\n\n.testbutton:hover {\n  transition: .3s;\n  transform: translate(-.3em, -.3em);\n  box-shadow: 14px 13px 0px -1px #BEE2F9, 14px 13px 0px 1px #000;\n  border: 2px solid #000;\n}\n\n.testbutton:active {\n  transition: .3s;\n  transform: translate(.6em, .6em);\n  box-shadow: 0px 0px 0px -1px #BEE2F9, 0px 0px 0px 0.1px#000;\n}\n</style>\n</head>\n<body>\n<button class=\"testbutton\">\n  Click me\n</button>\n</body>\n</html>\n"
+}

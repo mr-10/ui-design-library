@@ -1,0 +1,18 @@
+{
+ "id": "cowardly-walrus-58-by-sharkotech",
+ "name": "Cowardly Walrus 58",
+ "category": "cards",
+ "author": "Sharkotech",
+ "source": "https://uiverse.io/Sharkotech/cowardly-walrus-58",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"main\">\n  <div class=\"card\" id=\"c1\"></div>\n  <div class=\"card\" id=\"c2\"></div>\n  <div class=\"card\" id=\"c3\"></div>\n  <div class=\"card\" id=\"c4\"></div>\n</div>",
+ "css": "/* From Uiverse.io by Sharkotech - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: rgba(211, 211, 211, 0.199);\n  position: absolute;\n  transition: .3s ease-in-out;\n  cursor: pointer;\n  box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.3);\n}\n\n#c1 {\n  background-color: black;\n}\n\n#c2 {\n  background-color: blue;\n}\n\n#c3 {\n  background-color: red;\n}\n\n#c4 {\n  background-color: green;\n}\n\n.main:hover #c1 {\n  transform: translateX(-100px) rotate(-40deg);\n}\n\n.main:hover #c2 {\n  transform: translateX(-50px) rotate(-30deg);\n}\n\n.main:hover #c3 {\n  transform: translateX(0) rotate(-20deg);\n}\n\n.main:hover #c4 {\n  transform: translateX(50px) rotate(-10deg);\n}\n\n#c1:hover {\n  transform: translateX(-150px) rotate(0deg) !important;\n}\n\n#c2:hover {\n  transform: translateX(-100px) rotate(0deg) !important;\n}\n\n#c3:hover {\n  transform: translateX(-50px) rotate(0deg) !important;\n}\n\n#c4:hover {\n  transform: translateX(50px) rotate(0deg) !important;\n}\n\n.main {\n  display: grid;\n  height: 50vmax;\n  place-items: center;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Walrus 58</title>\n<style>\n/* From Uiverse.io by Sharkotech - https://uiverse.io/Sharkotech/cowardly-walrus-58 */\n/* From Uiverse.io by Sharkotech - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: rgba(211, 211, 211, 0.199);\n  position: absolute;\n  transition: .3s ease-in-out;\n  cursor: pointer;\n  box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.3);\n}\n\n#c1 {\n  background-color: black;\n}\n\n#c2 {\n  background-color: blue;\n}\n\n#c3 {\n  background-color: red;\n}\n\n#c4 {\n  background-color: green;\n}\n\n.main:hover #c1 {\n  transform: translateX(-100px) rotate(-40deg);\n}\n\n.main:hover #c2 {\n  transform: translateX(-50px) rotate(-30deg);\n}\n\n.main:hover #c3 {\n  transform: translateX(0) rotate(-20deg);\n}\n\n.main:hover #c4 {\n  transform: translateX(50px) rotate(-10deg);\n}\n\n#c1:hover {\n  transform: translateX(-150px) rotate(0deg) !important;\n}\n\n#c2:hover {\n  transform: translateX(-100px) rotate(0deg) !important;\n}\n\n#c3:hover {\n  transform: translateX(-50px) rotate(0deg) !important;\n}\n\n#c4:hover {\n  transform: translateX(50px) rotate(0deg) !important;\n}\n\n.main {\n  display: grid;\n  height: 50vmax;\n  place-items: center;\n}\n</style>\n</head>\n<body>\n<div class=\"main\">\n  <div class=\"card\" id=\"c1\"></div>\n  <div class=\"card\" id=\"c2\"></div>\n  <div class=\"card\" id=\"c3\"></div>\n  <div class=\"card\" id=\"c4\"></div>\n</div>\n</body>\n</html>\n"
+}

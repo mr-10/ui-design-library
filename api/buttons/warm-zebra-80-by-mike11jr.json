@@ -1,0 +1,18 @@
+{
+ "id": "warm-zebra-80-by-mike11jr",
+ "name": "Warm Zebra 80",
+ "category": "buttons",
+ "author": "Mike11jr",
+ "source": "https://uiverse.io/Mike11jr/warm-zebra-80",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"btn\"> Shop now\n</button>",
+ "css": "/* From Uiverse.io by Mike11jr - Tags: button */\n.btn {\n padding: 1.1em 2em;\n background: none;\n border: 2px solid #fff;\n font-size: 15px;\n color: #131313;\n cursor: pointer;\n position: relative;\n overflow: hidden;\n transition: all 0.3s;\n border-radius: 12px;\n background-color: #ecd448;\n font-weight: bolder;\n box-shadow: 0 2px 0 2px #000;\n}\n\n.btn:before {\n content: \"\";\n position: absolute;\n width: 100px;\n height: 120%;\n background-color: #ff6700;\n top: 50%;\n transform: skewX(30deg) translate(-150%, -50%);\n transition: all 0.5s;\n}\n\n.btn:hover {\n background-color: #4cc9f0;\n color: #fff;\n box-shadow: 0 2px 0 2px #0d3b66;\n}\n\n.btn:hover::before {\n transform: skewX(30deg) translate(150%, -50%);\n transition-delay: 0.1s;\n}\n\n.btn:active {\n transform: scale(0.9);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Zebra 80</title>\n<style>\n/* From Uiverse.io by Mike11jr - https://uiverse.io/Mike11jr/warm-zebra-80 */\n/* From Uiverse.io by Mike11jr - Tags: button */\n.btn {\n padding: 1.1em 2em;\n background: none;\n border: 2px solid #fff;\n font-size: 15px;\n color: #131313;\n cursor: pointer;\n position: relative;\n overflow: hidden;\n transition: all 0.3s;\n border-radius: 12px;\n background-color: #ecd448;\n font-weight: bolder;\n box-shadow: 0 2px 0 2px #000;\n}\n\n.btn:before {\n content: \"\";\n position: absolute;\n width: 100px;\n height: 120%;\n background-color: #ff6700;\n top: 50%;\n transform: skewX(30deg) translate(-150%, -50%);\n transition: all 0.5s;\n}\n\n.btn:hover {\n background-color: #4cc9f0;\n color: #fff;\n box-shadow: 0 2px 0 2px #0d3b66;\n}\n\n.btn:hover::before {\n transform: skewX(30deg) translate(150%, -50%);\n transition-delay: 0.1s;\n}\n\n.btn:active {\n transform: scale(0.9);\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"> Shop now\n</button>\n</body>\n</html>\n"
+}

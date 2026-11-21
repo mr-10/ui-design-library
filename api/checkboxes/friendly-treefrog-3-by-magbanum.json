@@ -1,0 +1,18 @@
+{
+ "id": "friendly-treefrog-3-by-magbanum",
+ "name": "Friendly Treefrog 3",
+ "category": "checkboxes",
+ "author": "magbanum",
+ "source": "https://uiverse.io/magbanum/friendly-treefrog-3",
+ "trigger": "checked",
+ "description": "A checkbox UI element.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "checkbox",
+  "checked",
+  "css"
+ ],
+ "html": "<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <span class=\"checkmark\"></span>\n</label>",
+ "css": "/* From Uiverse.io by magbanum - Tags: checkbox */\n/* Customize the label (the container) */\n.container {\n display: block;\n position: relative;\n cursor: pointer;\n font-size: 22px;\n user-select: none;\n}\n\n/* Hide the browser's default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: absolute;\n  top: -12px;\n  left: -12px;\n  height: 25px;\n  width: 25px;\n  background-color: #ccc;\n  border: solid gray 1px;\n  border-radius: 4px;\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n  background-color: #666666;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n  left: 0.4rem;\n  top: 0.2rem;\n  width: 6px;\n  height: 10px;\n  border: solid white;\n  border-width: 0 3px 3px 0;\n  transform: rotate(45deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Friendly Treefrog 3</title>\n<style>\n/* From Uiverse.io by magbanum - https://uiverse.io/magbanum/friendly-treefrog-3 */\n/* From Uiverse.io by magbanum - Tags: checkbox */\n/* Customize the label (the container) */\n.container {\n display: block;\n position: relative;\n cursor: pointer;\n font-size: 22px;\n user-select: none;\n}\n\n/* Hide the browser's default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: absolute;\n  top: -12px;\n  left: -12px;\n  height: 25px;\n  width: 25px;\n  background-color: #ccc;\n  border: solid gray 1px;\n  border-radius: 4px;\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n  background-color: #666666;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  display: none;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n  display: block;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n  left: 0.4rem;\n  top: 0.2rem;\n  width: 6px;\n  height: 10px;\n  border: solid white;\n  border-width: 0 3px 3px 0;\n  transform: rotate(45deg);\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <span class=\"checkmark\"></span>\n</label>\n</body>\n</html>\n"
+}

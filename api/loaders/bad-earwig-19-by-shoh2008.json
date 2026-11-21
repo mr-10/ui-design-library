@@ -1,0 +1,18 @@
+{
+ "id": "bad-earwig-19-by-shoh2008",
+ "name": "Bad Earwig 19",
+ "category": "loaders",
+ "author": "Shoh2008",
+ "source": "https://uiverse.io/Shoh2008/bad-earwig-19",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  display: inline-block;\n  position: relative;\n  background: #FFF;\n  box-sizing: border-box;\n  animation: zeroRotation 1s ease infinite alternate-reverse;\n}\n\n@keyframes zeroRotation {\n  0% {\n    transform: scale(1) rotate(0deg);\n  }\n\n  100% {\n    transform: scale(0.3) rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bad Earwig 19</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/bad-earwig-19 */\n/* From Uiverse.io by Shoh2008 - Tags: loader */\n.loader {\n  width: 48px;\n  height: 48px;\n  display: inline-block;\n  position: relative;\n  background: #FFF;\n  box-sizing: border-box;\n  animation: zeroRotation 1s ease infinite alternate-reverse;\n}\n\n@keyframes zeroRotation {\n  0% {\n    transform: scale(1) rotate(0deg);\n  }\n\n  100% {\n    transform: scale(0.3) rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

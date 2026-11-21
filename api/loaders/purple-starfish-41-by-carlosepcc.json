@@ -1,0 +1,18 @@
+{
+ "id": "purple-starfish-41-by-carlosepcc",
+ "name": "Purple Starfish 41",
+ "category": "loaders",
+ "author": "carlosepcc",
+ "source": "https://uiverse.io/carlosepcc/purple-starfish-41",
+ "trigger": "static",
+ "description": "A loader UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "loaders",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by carlosepcc - Tags: simple, skeuomorphism, animation, yellow, loader, game, circle, coin -->\n<div class=\"loader border-t-2 rounded-full border-yellow-500 bg-yellow-300 animate-spin\naspect-square w-8 flex justify-center items-center text-yellow-700\">$</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Starfish 41</title>\n<style>\n/* From Uiverse.io by carlosepcc - https://uiverse.io/carlosepcc/purple-starfish-41 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by carlosepcc - Tags: simple, skeuomorphism, animation, yellow, loader, game, circle, coin -->\n<div class=\"loader border-t-2 rounded-full border-yellow-500 bg-yellow-300 animate-spin\naspect-square w-8 flex justify-center items-center text-yellow-700\">$</div>\n</body>\n</html>\n"
+}

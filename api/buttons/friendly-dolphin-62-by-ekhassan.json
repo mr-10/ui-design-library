@@ -1,0 +1,18 @@
+{
+ "id": "friendly-dolphin-62-by-ekhassan",
+ "name": "Friendly Dolphin 62",
+ "category": "buttons",
+ "author": "ekhassan",
+ "source": "https://uiverse.io/ekhassan/friendly-dolphin-62",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by ekhassan  - Tags: button -->\n<button\n  class=\"cursor-pointer bg-violet-500 rounded-md text-white font-semibold transition duration-300 ease-in-out hover:bg-violet-700 hover:ring-2 hover:ring-violet-800 hover:shadow-xl hover:shadow-violet-500 focus:ring-violet-300 focus:shadow-violet-400 px-5 py-2\"\n>\n  Button\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Friendly Dolphin 62</title>\n<style>\n/* From Uiverse.io by ekhassan - https://uiverse.io/ekhassan/friendly-dolphin-62 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by ekhassan  - Tags: button -->\n<button\n  class=\"cursor-pointer bg-violet-500 rounded-md text-white font-semibold transition duration-300 ease-in-out hover:bg-violet-700 hover:ring-2 hover:ring-violet-800 hover:shadow-xl hover:shadow-violet-500 focus:ring-violet-300 focus:shadow-violet-400 px-5 py-2\"\n>\n  Button\n</button>\n</body>\n</html>\n"
+}

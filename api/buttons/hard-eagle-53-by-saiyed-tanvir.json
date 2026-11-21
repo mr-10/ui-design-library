@@ -1,0 +1,18 @@
+{
+ "id": "hard-eagle-53-by-saiyed-tanvir",
+ "name": "Hard Eagle 53",
+ "category": "buttons",
+ "author": "Saiyed-Tanvir",
+ "source": "https://uiverse.io/Saiyed-Tanvir/hard-eagle-53",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Saiyed-Tanvir - Tags: button, hover button -->\n<button class=\"shadow-[inset_0_0_0_0px_green] border-2 border-[#0f6] hover:bg-transparent hover:shadow-[inset_0_0_0_3px_#0f6] active:shadow-[inset_0_0_0_25px_#0f6] text-white font-bold py-2 px-4 rounded transition-all\">\n  Click me!\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Eagle 53</title>\n<style>\n/* From Uiverse.io by Saiyed-Tanvir - https://uiverse.io/Saiyed-Tanvir/hard-eagle-53 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Saiyed-Tanvir - Tags: button, hover button -->\n<button class=\"shadow-[inset_0_0_0_0px_green] border-2 border-[#0f6] hover:bg-transparent hover:shadow-[inset_0_0_0_3px_#0f6] active:shadow-[inset_0_0_0_25px_#0f6] text-white font-bold py-2 px-4 rounded transition-all\">\n  Click me!\n</button>\n</body>\n</html>\n"
+}

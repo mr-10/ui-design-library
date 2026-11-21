@@ -1,0 +1,18 @@
+{
+ "id": "tame-hound-16-by-absolutestrange",
+ "name": "Tame Hound 16",
+ "category": "buttons",
+ "author": "absoluteSTrange",
+ "source": "https://uiverse.io/absoluteSTrange/tame-hound-16",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button> Button\n</button>",
+ "css": "/* From Uiverse.io by absoluteSTrange - Tags: button */\nbutton {\n padding: 17px 40px;\n border-radius: 10px;\n border: 0;\n background-color: rgb(255, 56, 86);\n letter-spacing: 1.5px;\n font-size: 15px;\n transition: all .3s ease;\n box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;\n color: hsl(0, 0%, 100%);\n}\n\nbutton:hover {\n box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;\n}\n\nbutton:active {\n background-color: rgb(255, 56, 86);\n /*50, 168, 80*/\n box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;\n transform: translateY(5px);\n transition: 200ms;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tame Hound 16</title>\n<style>\n/* From Uiverse.io by absoluteSTrange - https://uiverse.io/absoluteSTrange/tame-hound-16 */\n/* From Uiverse.io by absoluteSTrange - Tags: button */\nbutton {\n padding: 17px 40px;\n border-radius: 10px;\n border: 0;\n background-color: rgb(255, 56, 86);\n letter-spacing: 1.5px;\n font-size: 15px;\n transition: all .3s ease;\n box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;\n color: hsl(0, 0%, 100%);\n}\n\nbutton:hover {\n box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;\n}\n\nbutton:active {\n background-color: rgb(255, 56, 86);\n /*50, 168, 80*/\n box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;\n transform: translateY(5px);\n transition: 200ms;\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n</body>\n</html>\n"
+}

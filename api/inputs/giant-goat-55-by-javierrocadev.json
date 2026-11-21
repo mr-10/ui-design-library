@@ -1,0 +1,18 @@
+{
+ "id": "giant-goat-55-by-javierrocadev",
+ "name": "Giant Goat 55",
+ "category": "inputs",
+ "author": "Javierrocadev",
+ "source": "https://uiverse.io/Javierrocadev/giant-goat-55",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "inputs",
+  "focus",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Javierrocadev - Tags: purple, input, blur filter, tailwind -->\n<div class=\"relative rounded-lg w-64 overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-0 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:-z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-12 after:top-3 after:rounded-full after:blur-lg\">\n <input placeholder=\"Mail...\" class=\"relative bg-transparent ring-0 outline-none border border-neutral-500 text-neutral-900 placeholder-violet-700 text-sm rounded-lg focus:ring-violet-500 placeholder-opacity-60 focus:border-violet-500 block w-full p-2.5 checked:bg-emerald-500\" type=\"text\">\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Goat 55</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/giant-goat-55 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Javierrocadev - Tags: purple, input, blur filter, tailwind -->\n<div class=\"relative rounded-lg w-64 overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-0 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:-z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-12 after:top-3 after:rounded-full after:blur-lg\">\n <input placeholder=\"Mail...\" class=\"relative bg-transparent ring-0 outline-none border border-neutral-500 text-neutral-900 placeholder-violet-700 text-sm rounded-lg focus:ring-violet-500 placeholder-opacity-60 focus:border-violet-500 block w-full p-2.5 checked:bg-emerald-500\" type=\"text\">\n</div>\n</body>\n</html>\n"
+}

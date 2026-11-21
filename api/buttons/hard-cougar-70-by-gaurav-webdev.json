@@ -1,0 +1,21 @@
+{
+ "id": "hard-cougar-70-by-gaurav-webdev",
+ "name": "Hard Cougar 70",
+ "category": "buttons",
+ "author": "Gaurav-WebDev",
+ "source": "https://uiverse.io/Gaurav-WebDev/hard-cougar-70",
+ "trigger": "hover",
+ "description": "A button with simple, smooth and btn styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "button",
+  "hover",
+  "smooth",
+  "btn",
+  "hover-effect"
+ ],
+ "html": "<button class=\"button\">\n  <p class=\"btn-txt\">Hello !</p>\n</button>",
+ "css": "/* From Uiverse.io by Gaurav-WebDev  - Tags: simple, button, hover, smooth, btn, hover effect */\n.button {\n  height: 50px;\n  width: 150px;\n  font-weight: 800;\n  border: none;\n  background-color: #3434;\n  color: #ffff;\n  border-radius: 20px;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: all 0.7s;\n}\n\n.button::after {\n  content: \"Me\";\n  height: 100%;\n  width: 50%;\n  background-color: coral;\n  position: absolute;\n  right: 0px;\n  bottom: 0px;\n  display: flex;\n  align-items: center;\n  justify-content: start;\n  padding-left: 10px;\n  box-sizing: border-box;\n  transition: all 0.7s;\n}\n\n.button::before {\n  content: \"Hover\";\n  height: 100%;\n  width: 50%;\n  background-color: teal;\n  position: absolute;\n  left: 0px;\n  top: 0px;\n  display: flex;\n  align-items: center;\n  justify-content: end;\n  padding-right: 10px;\n  box-sizing: border-box;\n  transition: all 0.7s;\n}\n\n.button:hover::after {\n  right: -100px;\n}\n\n.button:hover::before {\n  left: -100px;\n}\n\n.button:hover {\n  background-color: #000;\n  color: #fff;\n  transform: scale(1.2);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hard Cougar 70</title>\n<style>\n/* From Uiverse.io by Gaurav-WebDev - https://uiverse.io/Gaurav-WebDev/hard-cougar-70 */\n/* From Uiverse.io by Gaurav-WebDev  - Tags: simple, button, hover, smooth, btn, hover effect */\n.button {\n  height: 50px;\n  width: 150px;\n  font-weight: 800;\n  border: none;\n  background-color: #3434;\n  color: #ffff;\n  border-radius: 20px;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: all 0.7s;\n}\n\n.button::after {\n  content: \"Me\";\n  height: 100%;\n  width: 50%;\n  background-color: coral;\n  position: absolute;\n  right: 0px;\n  bottom: 0px;\n  display: flex;\n  align-items: center;\n  justify-content: start;\n  padding-left: 10px;\n  box-sizing: border-box;\n  transition: all 0.7s;\n}\n\n.button::before {\n  content: \"Hover\";\n  height: 100%;\n  width: 50%;\n  background-color: teal;\n  position: absolute;\n  left: 0px;\n  top: 0px;\n  display: flex;\n  align-items: center;\n  justify-content: end;\n  padding-right: 10px;\n  box-sizing: border-box;\n  transition: all 0.7s;\n}\n\n.button:hover::after {\n  right: -100px;\n}\n\n.button:hover::before {\n  left: -100px;\n}\n\n.button:hover {\n  background-color: #000;\n  color: #fff;\n  transform: scale(1.2);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <p class=\"btn-txt\">Hello !</p>\n</button>\n</body>\n</html>\n"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "quick-goat-3-by-ice1botmaker",
+ "name": "Quick Goat 3",
+ "category": "toggle-switches",
+ "author": "ICe1BotMaker",
+ "source": "https://uiverse.io/ICe1BotMaker/quick-goat-3",
+ "trigger": "checked",
+ "description": "A toggle switch with switch, modern and toggle-switch styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "modern",
+  "toggle-switch",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<label for=\"check\">\n  <input checked=\"\" id=\"check\" type=\"checkbox\">\n  <div class=\"check-bg\">\n    <span class=\"check-span\"></span>\n  </div>\n</label>",
+ "css": "/* From Uiverse.io by ICe1BotMaker - Tags: switch, modern, toggle switch */\nlabel[for=\"check\"] input {\n  display: none;\n}\n\nlabel[for=\"check\"] .check-bg {\n  width: 50px;\n  padding: 2.5px;\n  background: whitesmoke;\n  border-radius: 100px;\n  border: 1px solid rgb(228, 228, 228);\n  transition: background .1s, border .1s;\n}\n\nlabel[for=\"check\"] .check-span {\n  display: block;\n  background: rgb(219, 219, 219);\n  width: 25px;\n  height: 25px;\n  border-radius: 100%;\n  transition: background .1s, border .1s, margin-left .325s;\n}\n\nlabel[for=\"check\"] input:checked ~ .check-bg {\n  background: rgb(81, 107, 255);\n  border: 1px solid rgb(68, 90, 216);\n}\n\nlabel[for=\"check\"] input:checked ~ .check-bg .check-span {\n  background: white;\n  border: 0;\n  margin-left: 18px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Quick Goat 3</title>\n<style>\n/* From Uiverse.io by ICe1BotMaker - https://uiverse.io/ICe1BotMaker/quick-goat-3 */\n/* From Uiverse.io by ICe1BotMaker - Tags: switch, modern, toggle switch */\nlabel[for=\"check\"] input {\n  display: none;\n}\n\nlabel[for=\"check\"] .check-bg {\n  width: 50px;\n  padding: 2.5px;\n  background: whitesmoke;\n  border-radius: 100px;\n  border: 1px solid rgb(228, 228, 228);\n  transition: background .1s, border .1s;\n}\n\nlabel[for=\"check\"] .check-span {\n  display: block;\n  background: rgb(219, 219, 219);\n  width: 25px;\n  height: 25px;\n  border-radius: 100%;\n  transition: background .1s, border .1s, margin-left .325s;\n}\n\nlabel[for=\"check\"] input:checked ~ .check-bg {\n  background: rgb(81, 107, 255);\n  border: 1px solid rgb(68, 90, 216);\n}\n\nlabel[for=\"check\"] input:checked ~ .check-bg .check-span {\n  background: white;\n  border: 0;\n  margin-left: 18px;\n}\n</style>\n</head>\n<body>\n<label for=\"check\">\n  <input checked=\"\" id=\"check\" type=\"checkbox\">\n  <div class=\"check-bg\">\n    <span class=\"check-span\"></span>\n  </div>\n</label>\n</body>\n</html>\n"
+}

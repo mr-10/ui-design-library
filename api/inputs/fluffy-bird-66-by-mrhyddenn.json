@@ -1,0 +1,18 @@
+{
+ "id": "fluffy-bird-66-by-mrhyddenn",
+ "name": "Fluffy Bird 66",
+ "category": "inputs",
+ "author": "mrhyddenn",
+ "source": "https://uiverse.io/mrhyddenn/fluffy-bird-66",
+ "trigger": "focus",
+ "description": "A input with material-design styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "material-design",
+  "input",
+  "focus"
+ ],
+ "html": "<div class=\"form__group field\">\n    <input type=\"input\" class=\"form__field\" placeholder=\"Name\" required=\"\">\n    <label for=\"name\" class=\"form__label\">Name</label>\n</div>",
+ "css": "/* From Uiverse.io by mrhyddenn - Tags: material design, input */\n.form__group {\n  position: relative;\n  padding: 20px 0 0;\n  width: 100%;\n  max-width: 180px;\n}\n\n.form__field {\n  font-family: inherit;\n  width: 100%;\n  border: none;\n  border-bottom: 2px solid #9b9b9b;\n  outline: 0;\n  font-size: 17px;\n  color: #fff;\n  padding: 7px 0;\n  background: transparent;\n  transition: border-color 0.2s;\n}\n\n.form__field::placeholder {\n  color: transparent;\n}\n\n.form__field:placeholder-shown ~ .form__label {\n  font-size: 17px;\n  cursor: text;\n  top: 20px;\n}\n\n.form__label {\n  position: absolute;\n  top: 0;\n  display: block;\n  transition: 0.2s;\n  font-size: 17px;\n  color: #9b9b9b;\n  pointer-events: none;\n}\n\n.form__field:focus {\n  padding-bottom: 6px;\n  font-weight: 700;\n  border-width: 3px;\n  border-image: linear-gradient(to right, #116399, #38caef);\n  border-image-slice: 1;\n}\n\n.form__field:focus ~ .form__label {\n  position: absolute;\n  top: 0;\n  display: block;\n  transition: 0.2s;\n  font-size: 17px;\n  color: #38caef;\n  font-weight: 700;\n}\n\n/* reset input */\n.form__field:required, .form__field:invalid {\n  box-shadow: none;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Bird 66</title>\n<style>\n/* From Uiverse.io by mrhyddenn - https://uiverse.io/mrhyddenn/fluffy-bird-66 */\n/* From Uiverse.io by mrhyddenn - Tags: material design, input */\n.form__group {\n  position: relative;\n  padding: 20px 0 0;\n  width: 100%;\n  max-width: 180px;\n}\n\n.form__field {\n  font-family: inherit;\n  width: 100%;\n  border: none;\n  border-bottom: 2px solid #9b9b9b;\n  outline: 0;\n  font-size: 17px;\n  color: #fff;\n  padding: 7px 0;\n  background: transparent;\n  transition: border-color 0.2s;\n}\n\n.form__field::placeholder {\n  color: transparent;\n}\n\n.form__field:placeholder-shown ~ .form__label {\n  font-size: 17px;\n  cursor: text;\n  top: 20px;\n}\n\n.form__label {\n  position: absolute;\n  top: 0;\n  display: block;\n  transition: 0.2s;\n  font-size: 17px;\n  color: #9b9b9b;\n  pointer-events: none;\n}\n\n.form__field:focus {\n  padding-bottom: 6px;\n  font-weight: 700;\n  border-width: 3px;\n  border-image: linear-gradient(to right, #116399, #38caef);\n  border-image-slice: 1;\n}\n\n.form__field:focus ~ .form__label {\n  position: absolute;\n  top: 0;\n  display: block;\n  transition: 0.2s;\n  font-size: 17px;\n  color: #38caef;\n  font-weight: 700;\n}\n\n/* reset input */\n.form__field:required, .form__field:invalid {\n  box-shadow: none;\n}\n</style>\n</head>\n<body>\n<div class=\"form__group field\">\n    <input type=\"input\" class=\"form__field\" placeholder=\"Name\" required=\"\">\n    <label for=\"name\" class=\"form__label\">Name</label>\n</div>\n</body>\n</html>\n"
+}

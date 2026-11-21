@@ -1,0 +1,18 @@
+{
+ "id": "shaggy-snail-5-by-harryprocw",
+ "name": "Shaggy Snail 5",
+ "category": "buttons",
+ "author": "HarryProCW",
+ "source": "https://uiverse.io/HarryProCW/shaggy-snail-5",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by HarryProCW - Tags: button, animated, talwindCSS -->\n<button class=\"hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white\">Click on me</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shaggy Snail 5</title>\n<style>\n/* From Uiverse.io by HarryProCW - https://uiverse.io/HarryProCW/shaggy-snail-5 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by HarryProCW - Tags: button, animated, talwindCSS -->\n<button class=\"hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-white\">Click on me</button>\n</body>\n</html>\n"
+}

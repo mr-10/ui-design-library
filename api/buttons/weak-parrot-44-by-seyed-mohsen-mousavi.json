@@ -1,0 +1,18 @@
+{
+ "id": "weak-parrot-44-by-seyed-mohsen-mousavi",
+ "name": "Weak Parrot 44",
+ "category": "buttons",
+ "author": "seyed-mohsen-mousavi",
+ "source": "https://uiverse.io/seyed-mohsen-mousavi/weak-parrot-44",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by seyed-mohsen-mousavi  - Tags: gradient, button, hover -->\n<button\n  class=\"flex overflow-hidden ring-[5px] ring-white w-[5.1rem] hover:w-[6.5rem] items-center gap-2 cursor-pointer bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white px-5 py-2 rounded-full transition-all ease-in-out hover:scale hover:scale-105 font-[revert] active:scale-100 shadow-lg\"\n>\n  Click\n  <svg\n    class=\"size-6 mt-0.5\"\n    stroke=\"currentColor\"\n    stroke-width=\"1.5\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672Zm-7.518-.267A8.25 8.25 0 1 1 20.25 10.5M8.288 14.212A5.25 5.25 0 1 1 17.25 10.5\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n    ></path>\n  </svg>\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Weak Parrot 44</title>\n<style>\n/* From Uiverse.io by seyed-mohsen-mousavi - https://uiverse.io/seyed-mohsen-mousavi/weak-parrot-44 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by seyed-mohsen-mousavi  - Tags: gradient, button, hover -->\n<button\n  class=\"flex overflow-hidden ring-[5px] ring-white w-[5.1rem] hover:w-[6.5rem] items-center gap-2 cursor-pointer bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white px-5 py-2 rounded-full transition-all ease-in-out hover:scale hover:scale-105 font-[revert] active:scale-100 shadow-lg\"\n>\n  Click\n  <svg\n    class=\"size-6 mt-0.5\"\n    stroke=\"currentColor\"\n    stroke-width=\"1.5\"\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n  >\n    <path\n      d=\"M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672Zm-7.518-.267A8.25 8.25 0 1 1 20.25 10.5M8.288 14.212A5.25 5.25 0 1 1 17.25 10.5\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n    ></path>\n  </svg>\n</button>\n</body>\n</html>\n"
+}

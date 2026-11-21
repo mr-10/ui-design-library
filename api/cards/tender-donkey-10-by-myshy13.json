@@ -1,0 +1,18 @@
+{
+ "id": "tender-donkey-10-by-myshy13",
+ "name": "Tender Donkey 10",
+ "category": "cards",
+ "author": "myshy13",
+ "source": "https://uiverse.io/myshy13/tender-donkey-10",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"card\"></div>",
+ "css": "/* From Uiverse.io by myshy13  - Tags: card */\n.card {\n  font-family: monospace;\n  scale: 1.2;\n  height: 15em;\n  width: 20em;\n  border-radius: 0.8em;\n  background: #222;\n  overflow: hidden;\n  color: #ccc;\n\n  transition: 0.3s ease;\n  &:before {\n    content: \"User - zsh\";\n    text-align: center;\n    padding: 0.2em;\n    display: block;\n    background-color: #4e4e4e;\n  }\n  &:after {\n    content: \"User@device ~ $ \";\n    margin: 0.2em;\n  }\n  &:hover {\n    scale: 1.3;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tender Donkey 10</title>\n<style>\n/* From Uiverse.io by myshy13 - https://uiverse.io/myshy13/tender-donkey-10 */\n/* From Uiverse.io by myshy13  - Tags: card */\n.card {\n  font-family: monospace;\n  scale: 1.2;\n  height: 15em;\n  width: 20em;\n  border-radius: 0.8em;\n  background: #222;\n  overflow: hidden;\n  color: #ccc;\n\n  transition: 0.3s ease;\n  &:before {\n    content: \"User - zsh\";\n    text-align: center;\n    padding: 0.2em;\n    display: block;\n    background-color: #4e4e4e;\n  }\n  &:after {\n    content: \"User@device ~ $ \";\n    margin: 0.2em;\n  }\n  &:hover {\n    scale: 1.3;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "fresh-hound-11-by-arturcodecraft",
+ "name": "Fresh Hound 11",
+ "category": "buttons",
+ "author": "ArturCodeCraft",
+ "source": "https://uiverse.io/ArturCodeCraft/fresh-hound-11",
+ "trigger": "hover",
+ "description": "A button with links and btn styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "links",
+  "btn",
+  "hover"
+ ],
+ "html": "<a href=\"#\" class=\"menu__link\">\n  Hover me!\n</a>",
+ "css": "/* From Uiverse.io by ArturCodeCraft - Tags: button, links, btn */\n/* <reset-style> ============================ */\na {\n  text-decoration: none;\n}\n/* <main-style> ============================ */\n.menu__link {\n  color: #fff;\n  line-height: 2;\n  position: relative;\n  padding-right: 4px;\n}\n\n.menu__link:hover {\n  text-decoration: underline;\n}\n\n.menu__link::before {\n  content: '';\n  width: 6px;\n  height: 6px;\n  border-top: solid 2px #fff;\n  border-right: solid 2px #fff;\n  border-radius: 2px;\n  position: absolute;\n  top: 50%;\n  left: 100%;\n  transform: translateY(-50%) rotate(45deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fresh Hound 11</title>\n<style>\n/* From Uiverse.io by ArturCodeCraft - https://uiverse.io/ArturCodeCraft/fresh-hound-11 */\n/* From Uiverse.io by ArturCodeCraft - Tags: button, links, btn */\n/* <reset-style> ============================ */\na {\n  text-decoration: none;\n}\n/* <main-style> ============================ */\n.menu__link {\n  color: #fff;\n  line-height: 2;\n  position: relative;\n  padding-right: 4px;\n}\n\n.menu__link:hover {\n  text-decoration: underline;\n}\n\n.menu__link::before {\n  content: '';\n  width: 6px;\n  height: 6px;\n  border-top: solid 2px #fff;\n  border-right: solid 2px #fff;\n  border-radius: 2px;\n  position: absolute;\n  top: 50%;\n  left: 100%;\n  transform: translateY(-50%) rotate(45deg);\n}\n</style>\n</head>\n<body>\n<a href=\"#\" class=\"menu__link\">\n  Hover me!\n</a>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "loud-rattlesnake-53-by-jayramoliya",
+ "name": "Loud Rattlesnake 53",
+ "category": "inputs",
+ "author": "JayRamoliya",
+ "source": "https://uiverse.io/JayRamoliya/loud-rattlesnake-53",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<input placeholder=\"Enter text here\" class=\"input-style\" type=\"text\">",
+ "css": "/* From Uiverse.io by JayRamoliya - Tags: input */\n.input-style {\n  padding: 10px;\n  border: 2px solid #ccc;\n  border-radius: 5px;\n  font-size: 16px;\n  color: #555;\n  outline: none;\n}\n\n.input-style:focus {\n  border-color: #007bff;\n  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Rattlesnake 53</title>\n<style>\n/* From Uiverse.io by JayRamoliya - https://uiverse.io/JayRamoliya/loud-rattlesnake-53 */\n/* From Uiverse.io by JayRamoliya - Tags: input */\n.input-style {\n  padding: 10px;\n  border: 2px solid #ccc;\n  border-radius: 5px;\n  font-size: 16px;\n  color: #555;\n  outline: none;\n}\n\n.input-style:focus {\n  border-color: #007bff;\n  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Enter text here\" class=\"input-style\" type=\"text\">\n</body>\n</html>\n"
+}

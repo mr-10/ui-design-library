@@ -1,0 +1,20 @@
+{
+ "id": "breezy-liger-0-by-sahilxkhadka",
+ "name": "Breezy Liger 0",
+ "category": "forms",
+ "author": "sahilxkhadka",
+ "source": "https://uiverse.io/sahilxkhadka/breezy-liger-0",
+ "trigger": "hover",
+ "description": "A form with facebook, login and loginform styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "facebook",
+  "form",
+  "login",
+  "loginform",
+  "hover"
+ ],
+ "html": "<form>\n  <p class=\"logo\">Facebook</p>\n  <input type=\"text\" placeholder=\"Email\" required=\"\">\n  <input type=\"password\" placeholder=\"Password\" required=\"\">\n  <button class=\"login\">Log In</button>\n  <a href=\"#\">Forgot Password ?</a>\n  <hr>\n  <button class=\"create-account\">Create New Account</button>\n</form>",
+ "css": "/* From Uiverse.io by sahilxkhadka - Tags: facebook, form, login , loginform */\n.logo {\n  margin-bottom: 1rem;\n  font-size: 1.2rem;\n  text-align: center;\n  color: #1877f2;\n  font-weight: 700;\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  background: #fff;\n  padding: 1.5rem 1rem;\n  width: 300px;\n  border-radius: 0.5rem;\n  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);\n}\n\nform input {\n  outline: none;\n  padding: 0.4rem 0.5rem;\n  margin-bottom: 0.8rem;\n  font-size: 0.9rem;\n}\n\nform input:focus {\n  border: 1.8px solid #1877f2;\n}\n\nform .login {\n  outline: none;\n  border: none;\n  background: #1877f2;\n  padding: 0.8rem 1rem;\n  border-radius: 0.4rem;\n  font-size: 0.9rem;\n  color: #fff;\n}\n\nform .login:hover {\n  background: #0f71f1;\n  cursor: pointer;\n}\n\nform a {\n  text-decoration: none;\n  text-align: center;\n  font-size: 0.9rem;\n  padding-top: 0.8rem;\n  color: #1877f2;\n}\n\nform hr {\n  background: #f7f7f7;\n  margin: 0.5rem;\n}\n\nform .create-account {\n  outline: none;\n  border: none;\n  background: #06b909;\n  padding: 0.8rem 1rem;\n  border-radius: 0.5rem;\n  font-size: 0.9rem;\n  color: #fff;\n  width: 75%;\n  margin: 0 auto;\n}\n\nform .create-account:hover {\n  background: #03ad06;\n  cursor: pointer;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Breezy Liger 0</title>\n<style>\n/* From Uiverse.io by sahilxkhadka - https://uiverse.io/sahilxkhadka/breezy-liger-0 */\n/* From Uiverse.io by sahilxkhadka - Tags: facebook, form, login , loginform */\n.logo {\n  margin-bottom: 1rem;\n  font-size: 1.2rem;\n  text-align: center;\n  color: #1877f2;\n  font-weight: 700;\n}\n\nform {\n  display: flex;\n  flex-direction: column;\n  background: #fff;\n  padding: 1.5rem 1rem;\n  width: 300px;\n  border-radius: 0.5rem;\n  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);\n}\n\nform input {\n  outline: none;\n  padding: 0.4rem 0.5rem;\n  margin-bottom: 0.8rem;\n  font-size: 0.9rem;\n}\n\nform input:focus {\n  border: 1.8px solid #1877f2;\n}\n\nform .login {\n  outline: none;\n  border: none;\n  background: #1877f2;\n  padding: 0.8rem 1rem;\n  border-radius: 0.4rem;\n  font-size: 0.9rem;\n  color: #fff;\n}\n\nform .login:hover {\n  background: #0f71f1;\n  cursor: pointer;\n}\n\nform a {\n  text-decoration: none;\n  text-align: center;\n  font-size: 0.9rem;\n  padding-top: 0.8rem;\n  color: #1877f2;\n}\n\nform hr {\n  background: #f7f7f7;\n  margin: 0.5rem;\n}\n\nform .create-account {\n  outline: none;\n  border: none;\n  background: #06b909;\n  padding: 0.8rem 1rem;\n  border-radius: 0.5rem;\n  font-size: 0.9rem;\n  color: #fff;\n  width: 75%;\n  margin: 0 auto;\n}\n\nform .create-account:hover {\n  background: #03ad06;\n  cursor: pointer;\n}\n</style>\n</head>\n<body>\n<form>\n  <p class=\"logo\">Facebook</p>\n  <input type=\"text\" placeholder=\"Email\" required=\"\">\n  <input type=\"password\" placeholder=\"Password\" required=\"\">\n  <button class=\"login\">Log In</button>\n  <a href=\"#\">Forgot Password ?</a>\n  <hr>\n  <button class=\"create-account\">Create New Account</button>\n</form>\n</body>\n</html>\n"
+}

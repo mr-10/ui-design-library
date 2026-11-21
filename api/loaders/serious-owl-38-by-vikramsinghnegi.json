@@ -1,0 +1,19 @@
+{
+ "id": "serious-owl-38-by-vikramsinghnegi",
+ "name": "Serious Owl 38",
+ "category": "loaders",
+ "author": "vikramsinghnegi",
+ "source": "https://uiverse.io/vikramsinghnegi/serious-owl-38",
+ "trigger": "auto-loop",
+ "description": "A loader with loading and bar styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loading",
+  "loader",
+  "bar",
+  "auto-loop"
+ ],
+ "html": "<div class=\"bars\"></div>",
+ "css": "/* From Uiverse.io by vikramsinghnegi  - Tags: loading, loader, bar */\n.bars {\n  width: 50.5px;\n  height: 60.599999999999994px;\n  --c: repeating-linear-gradient(90deg, #474bff 0 10.1px, #0000 0 20.2px);\n  background: var(--c), var(--c), var(--c), var(--c);\n  background-size: 100% 21%;\n  background-repeat: no-repeat;\n  animation: bars-yrfh98 0.75s infinite alternate;\n}\n\n@keyframes bars-yrfh98 {\n  0%,\n  10% {\n    background-position: 0 0, 0 25%, 0 50%, 0 75%;\n  }\n\n  25% {\n    background-position: 0 0, 0 25%, 0 50%, 0 100%;\n  }\n\n  50% {\n    background-position: 0 0, 0 25%, 0 75%, 0 100%;\n  }\n\n  75% {\n    background-position: 0 0, 0 50%, 0 75%, 0 100%;\n  }\n\n  90%,\n  100% {\n    background-position: 0 25%, 0 50%, 0 75%, 0 100%;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Serious Owl 38</title>\n<style>\n/* From Uiverse.io by vikramsinghnegi - https://uiverse.io/vikramsinghnegi/serious-owl-38 */\n/* From Uiverse.io by vikramsinghnegi  - Tags: loading, loader, bar */\n.bars {\n  width: 50.5px;\n  height: 60.599999999999994px;\n  --c: repeating-linear-gradient(90deg, #474bff 0 10.1px, #0000 0 20.2px);\n  background: var(--c), var(--c), var(--c), var(--c);\n  background-size: 100% 21%;\n  background-repeat: no-repeat;\n  animation: bars-yrfh98 0.75s infinite alternate;\n}\n\n@keyframes bars-yrfh98 {\n  0%,\n  10% {\n    background-position: 0 0, 0 25%, 0 50%, 0 75%;\n  }\n\n  25% {\n    background-position: 0 0, 0 25%, 0 50%, 0 100%;\n  }\n\n  50% {\n    background-position: 0 0, 0 25%, 0 75%, 0 100%;\n  }\n\n  75% {\n    background-position: 0 0, 0 50%, 0 75%, 0 100%;\n  }\n\n  90%,\n  100% {\n    background-position: 0 25%, 0 50%, 0 75%, 0 100%;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"bars\"></div>\n</body>\n</html>\n"
+}

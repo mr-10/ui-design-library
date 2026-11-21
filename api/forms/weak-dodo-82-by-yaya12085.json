@@ -1,0 +1,21 @@
+{
+ "id": "weak-dodo-82-by-yaya12085",
+ "name": "Weak Dodo 82",
+ "category": "forms",
+ "author": "Yaya12085",
+ "source": "https://uiverse.io/Yaya12085/weak-dodo-82",
+ "trigger": "static",
+ "description": "A form with button, input and contact styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "button",
+  "form",
+  "input",
+  "contact",
+  "text",
+  "static"
+ ],
+ "html": "<form class=\"form\">\n    <div class=\"title\">Contact us</div>\n    <input type=\"text\" placeholder=\"Your email\" class=\"input\">\n    <textarea placeholder=\"Your message\"></textarea>\n     \n    <button>Submit</button>\n</form>",
+ "css": "/* From Uiverse.io by Yaya12085 - Tags: button, form, input, contact, text */\n.form {\n  position: relative;\n  display: flex;\n  align-items: flex-start;\n  flex-direction: column;\n  gap: 10px;\n  width: 300px;\n  background-color: white;\n  padding: 20px;\n  border-radius: 10px;\n  box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);\n}\n\n.form .title {\n  color: royalblue;\n  font-size: 30px;\n  font-weight: 600;\n  letter-spacing: -1px;\n  line-height: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.form input {\n  outline: 0;\n  border: 1px solid rgb(219, 213, 213);\n  padding: 8px 14px;\n  border-radius: 8px;\n  width: 100%;\n  height: 50px;\n}\n\n.form textarea {\n  border-radius: 8px;\n  height: 100px;\n  width: 100%;\n  resize: none;\n  outline: 0;\n  padding: 8px 14px;\n  border: 1px solid rgb(219, 213, 213);\n}\n\n.form button {\n  align-self: flex-end;\n  padding: 8px;\n  outline: 0;\n  border: 0;\n  border-radius: 8px;\n  font-size: 16px;\n  font-weight: 500;\n  background-color: royalblue;\n  color: #fff;\n  cursor: pointer;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Weak Dodo 82</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/weak-dodo-82 */\n/* From Uiverse.io by Yaya12085 - Tags: button, form, input, contact, text */\n.form {\n  position: relative;\n  display: flex;\n  align-items: flex-start;\n  flex-direction: column;\n  gap: 10px;\n  width: 300px;\n  background-color: white;\n  padding: 20px;\n  border-radius: 10px;\n  box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);\n}\n\n.form .title {\n  color: royalblue;\n  font-size: 30px;\n  font-weight: 600;\n  letter-spacing: -1px;\n  line-height: 30px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.form input {\n  outline: 0;\n  border: 1px solid rgb(219, 213, 213);\n  padding: 8px 14px;\n  border-radius: 8px;\n  width: 100%;\n  height: 50px;\n}\n\n.form textarea {\n  border-radius: 8px;\n  height: 100px;\n  width: 100%;\n  resize: none;\n  outline: 0;\n  padding: 8px 14px;\n  border: 1px solid rgb(219, 213, 213);\n}\n\n.form button {\n  align-self: flex-end;\n  padding: 8px;\n  outline: 0;\n  border: 0;\n  border-radius: 8px;\n  font-size: 16px;\n  font-weight: 500;\n  background-color: royalblue;\n  color: #fff;\n  cursor: pointer;\n}\n</style>\n</head>\n<body>\n<form class=\"form\">\n    <div class=\"title\">Contact us</div>\n    <input type=\"text\" placeholder=\"Your email\" class=\"input\">\n    <textarea placeholder=\"Your message\"></textarea>\n     \n    <button>Submit</button>\n</form>\n</body>\n</html>\n"
+}

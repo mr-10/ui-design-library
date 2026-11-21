@@ -1,0 +1,19 @@
+{
+ "id": "wicked-dodo-27-by-ratinax",
+ "name": "Wicked Dodo 27",
+ "category": "patterns",
+ "author": "Ratinax",
+ "source": "https://uiverse.io/Ratinax/wicked-dodo-27",
+ "trigger": "auto-loop",
+ "description": "A pattern with simple and red styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "simple",
+  "red",
+  "pattern",
+  "auto-loop"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by Ratinax - Tags: simple, red, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-radial-gradient(red 55%, white 56%);\n  animation: rotate 2s linear infinite;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wicked Dodo 27</title>\n<style>\n/* From Uiverse.io by Ratinax - https://uiverse.io/Ratinax/wicked-dodo-27 */\n/* From Uiverse.io by Ratinax - Tags: simple, red, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: repeating-radial-gradient(red 55%, white 56%);\n  animation: rotate 2s linear infinite;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

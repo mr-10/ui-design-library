@@ -1,0 +1,21 @@
+{
+ "id": "foolish-sloth-24-by-bocikond",
+ "name": "Foolish Sloth 24",
+ "category": "loaders",
+ "author": "bociKond",
+ "source": "https://uiverse.io/bociKond/foolish-sloth-24",
+ "trigger": "auto-loop",
+ "description": "A loader with minimalist, loading and animated styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "minimalist",
+  "loading",
+  "loader",
+  "animated",
+  "color",
+  "minimal"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by bociKond - Tags: minimalist, loading, loader, animated, color, minimal */\n.loader {\n  /* color of choise */\n  --clr: #05A8AA;\n  /* loading time of choice */\n  --load-time: 2s;\n  outline: 5px solid var(--clr);\n  outline-offset: 5px;\n  position: relative;\n  overflow: hidden;\n  border-radius: 5rem;\n  /* width: 10rem; */\n  /* height: 2rem; */\n  padding: 1rem 5rem;\n  /* use either padding or width + height*/\n  /* I prefer the padding one */\n  /* rotate: -90deg; */\n  /* rotate if you want/need vertical loader */\n}\n\n.loader::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: var(--clr);\n  z-index: 2;\n  animation: loading var(--load-time) ease-in-out infinite;\n}\n\n@keyframes loading {\n  0% {\n    width: 0%;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Foolish Sloth 24</title>\n<style>\n/* From Uiverse.io by bociKond - https://uiverse.io/bociKond/foolish-sloth-24 */\n/* From Uiverse.io by bociKond - Tags: minimalist, loading, loader, animated, color, minimal */\n.loader {\n  /* color of choise */\n  --clr: #05A8AA;\n  /* loading time of choice */\n  --load-time: 2s;\n  outline: 5px solid var(--clr);\n  outline-offset: 5px;\n  position: relative;\n  overflow: hidden;\n  border-radius: 5rem;\n  /* width: 10rem; */\n  /* height: 2rem; */\n  padding: 1rem 5rem;\n  /* use either padding or width + height*/\n  /* I prefer the padding one */\n  /* rotate: -90deg; */\n  /* rotate if you want/need vertical loader */\n}\n\n.loader::after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: var(--clr);\n  z-index: 2;\n  animation: loading var(--load-time) ease-in-out infinite;\n}\n\n@keyframes loading {\n  0% {\n    width: 0%;\n  }\n\n  100% {\n    width: 100%;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

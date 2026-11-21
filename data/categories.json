@@ -1,0 +1,61 @@
+{
+ "version": "b62515dc6880",
+ "total": 3805,
+ "categories": [
+  {
+   "name": "buttons",
+   "count": 1232,
+   "browse": "https://mr-10.github.io/ui-design-library/#/browse?category=buttons"
+  },
+  {
+   "name": "loaders",
+   "count": 718,
+   "browse": "https://mr-10.github.io/ui-design-library/#/browse?category=loaders"
+  },
+  {
+   "name": "cards",
+   "count": 726,
+   "browse": "https://mr-10.github.io/ui-design-library/#/browse?category=cards"
+  },
+  {
+   "name": "toggle-switches",
+   "count": 260,
+   "browse": "https://mr-10.github.io/ui-design-library/#/browse?category=toggle-switches"
+  },
+  {
+   "name": "inputs",
+   "count": 226,
+   "browse": "https://mr-10.github.io/ui-design-library/#/browse?category=inputs"
+  },
+  {
+   "name": "forms",
+   "count": 181,
+   "browse": "https://mr-10.github.io/ui-design-library/#/browse?category=forms"
+  },
+  {
+   "name": "checkboxes",
+   "count": 172,
+   "browse": "https://mr-10.github.io/ui-design-library/#/browse?category=checkboxes"
+  },
+  {
+   "name": "patterns",
+   "count": 103,
+   "browse": "https://mr-10.github.io/ui-design-library/#/browse?category=patterns"
+  },
+  {
+   "name": "radio-buttons",
+   "count": 102,
+   "browse": "https://mr-10.github.io/ui-design-library/#/browse?category=radio-buttons"
+  },
+  {
+   "name": "tooltips",
+   "count": 62,
+   "browse": "https://mr-10.github.io/ui-design-library/#/browse?category=tooltips"
+  },
+  {
+   "name": "notifications",
+   "count": 23,
+   "browse": "https://mr-10.github.io/ui-design-library/#/browse?category=notifications"
+  }
+ ]
+}

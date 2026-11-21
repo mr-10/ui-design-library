@@ -1,0 +1,20 @@
+{
+ "id": "strange-walrus-5-by-jaydipprajapati1910",
+ "name": "Strange Walrus 5",
+ "category": "cards",
+ "author": "JaydipPrajapati1910",
+ "source": "https://uiverse.io/JaydipPrajapati1910/strange-walrus-5",
+ "trigger": "static",
+ "description": "A card with white, black and box-shadow styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "white",
+  "black",
+  "card",
+  "box-shadow",
+  "static"
+ ],
+ "html": "<div class=\"card\">\n<div class=\"card__content\">\ncard</div>\n</div>",
+ "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: white, black, card, box-shadow */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 20px;\n  padding: 2px;\n  box-shadow: #111 0 1px 3px 2px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: none;\n  position: relative;\n  cursor: pointer;\n}\n\n.card__content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  background: linear-gradient(0deg, #000, #272727);\n  color: #fff;\n  border-radius: 17px;\n  width: 100%;\n  height: 100%;\n  font-size: 20px;\n  font-weight: 900;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strange Walrus 5</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/strange-walrus-5 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: white, black, card, box-shadow */\n.card {\n  width: 190px;\n  height: 254px;\n  border-radius: 20px;\n  padding: 2px;\n  box-shadow: #111 0 1px 3px 2px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border: none;\n  position: relative;\n  cursor: pointer;\n}\n\n.card__content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  background: linear-gradient(0deg, #000, #272727);\n  color: #fff;\n  border-radius: 17px;\n  width: 100%;\n  height: 100%;\n  font-size: 20px;\n  font-weight: 900;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n<div class=\"card__content\">\ncard</div>\n</div>\n</body>\n</html>\n"
+}

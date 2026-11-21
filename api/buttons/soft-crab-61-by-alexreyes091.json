@@ -1,0 +1,18 @@
+{
+ "id": "soft-crab-61-by-alexreyes091",
+ "name": "Soft Crab 61",
+ "category": "buttons",
+ "author": "alexreyes091",
+ "source": "https://uiverse.io/alexreyes091/soft-crab-61",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"btn\"> Button\n</button>",
+ "css": "/* From Uiverse.io by alexreyes091 - Tags: button */\n.btn {\n padding: 1rem 2rem;\n font-weight: 700;\n background: rgb(255, 255, 255);\n color: blueviolet;\n border-radius: .5rem;\n border-bottom: 2px solid blueviolet;\n border-right: 2px solid blueviolet;\n border-top: 2px solid white;\n border-left: 2px solid white;\n transition-duration: 1s;\n transition-property: border-top, \n    border-left, \n    border-bottom,\n    border-right,\n    box-shadow;\n}\n\n.btn:hover {\n border-top: 2px solid blueviolet;\n border-left: 2px solid blueviolet;\n border-bottom: 2px solid rgb(238, 103, 238);\n border-right: 2px solid rgb(238, 103, 238);\n box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Crab 61</title>\n<style>\n/* From Uiverse.io by alexreyes091 - https://uiverse.io/alexreyes091/soft-crab-61 */\n/* From Uiverse.io by alexreyes091 - Tags: button */\n.btn {\n padding: 1rem 2rem;\n font-weight: 700;\n background: rgb(255, 255, 255);\n color: blueviolet;\n border-radius: .5rem;\n border-bottom: 2px solid blueviolet;\n border-right: 2px solid blueviolet;\n border-top: 2px solid white;\n border-left: 2px solid white;\n transition-duration: 1s;\n transition-property: border-top, \n    border-left, \n    border-bottom,\n    border-right,\n    box-shadow;\n}\n\n.btn:hover {\n border-top: 2px solid blueviolet;\n border-left: 2px solid blueviolet;\n border-bottom: 2px solid rgb(238, 103, 238);\n border-right: 2px solid rgb(238, 103, 238);\n box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\"> Button\n</button>\n</body>\n</html>\n"
+}

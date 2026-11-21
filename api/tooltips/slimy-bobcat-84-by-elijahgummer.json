@@ -1,0 +1,21 @@
+{
+ "id": "slimy-bobcat-84-by-elijahgummer",
+ "name": "Slimy Bobcat 84",
+ "category": "tooltips",
+ "author": "elijahgummer",
+ "source": "https://uiverse.io/elijahgummer/slimy-bobcat-84",
+ "trigger": "hover",
+ "description": "A tooltip with simple, animation and blue styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "tooltip",
+  "animation",
+  "blue",
+  "modern",
+  "transition"
+ ],
+ "html": "<div class=\"tooltip-container\">\n  <span class=\"tooltip\">Uiverse.io</span>\n  <span class=\"text\">Tooltip</span>\n</div>",
+ "css": "/* From Uiverse.io by elijahgummer  - Tags: simple, tooltip, animation, blue, modern, transition */\n.tooltip-container {\n  --background: #22d3ee;\n  position: relative;\n  background: var(--background);\n  cursor: pointer;\n  transition: background 0.3s;\n  font-size: 17px;\n  padding: 0.7em 1.8em;\n}\n\n.tooltip {\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translateX(-50%) translateY(-10%); /* Adjusted the initial position */\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);\n  background: var(--background);\n  color: #fff;\n  border-radius: 0.3em;\n  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);\n  text-align: center;\n  font-size: 14px;\n  width: 120%; /* Adjusted the width */\n  padding: 0.5em 1em; /* Adjusted padding */\n  white-space: nowrap; /* Prevent text wrapping */\n}\n\n.tooltip-container:hover .tooltip {\n  top: -100%; /* Adjusted the tooltip position */\n  opacity: 1;\n  pointer-events: auto;\n  transform: translateX(-50%) translateY(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Slimy Bobcat 84</title>\n<style>\n/* From Uiverse.io by elijahgummer - https://uiverse.io/elijahgummer/slimy-bobcat-84 */\n/* From Uiverse.io by elijahgummer  - Tags: simple, tooltip, animation, blue, modern, transition */\n.tooltip-container {\n  --background: #22d3ee;\n  position: relative;\n  background: var(--background);\n  cursor: pointer;\n  transition: background 0.3s;\n  font-size: 17px;\n  padding: 0.7em 1.8em;\n}\n\n.tooltip {\n  position: absolute;\n  top: 100%;\n  left: 50%;\n  transform: translateX(-50%) translateY(-10%); /* Adjusted the initial position */\n  opacity: 0;\n  pointer-events: none;\n  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);\n  background: var(--background);\n  color: #fff;\n  border-radius: 0.3em;\n  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);\n  text-align: center;\n  font-size: 14px;\n  width: 120%; /* Adjusted the width */\n  padding: 0.5em 1em; /* Adjusted padding */\n  white-space: nowrap; /* Prevent text wrapping */\n}\n\n.tooltip-container:hover .tooltip {\n  top: -100%; /* Adjusted the tooltip position */\n  opacity: 1;\n  pointer-events: auto;\n  transform: translateX(-50%) translateY(0);\n}\n</style>\n</head>\n<body>\n<div class=\"tooltip-container\">\n  <span class=\"tooltip\">Uiverse.io</span>\n  <span class=\"text\">Tooltip</span>\n</div>\n</body>\n</html>\n"
+}

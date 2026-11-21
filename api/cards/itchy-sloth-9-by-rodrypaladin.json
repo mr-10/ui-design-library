@@ -1,0 +1,21 @@
+{
+ "id": "itchy-sloth-9-by-rodrypaladin",
+ "name": "Itchy Sloth 9",
+ "category": "cards",
+ "author": "Rodrypaladin",
+ "source": "https://uiverse.io/Rodrypaladin/itchy-sloth-9",
+ "trigger": "static",
+ "description": "A card with minimalist, black and dark styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "minimalist",
+  "black",
+  "card",
+  "dark",
+  "product",
+  "custom"
+ ],
+ "html": "<div class=\"card\">\n  <div class=\"card__title\">table</div>\n  <div class=\"card__data\">\n    <div class=\"card__right\">\n      <div class=\"item\">id</div>\n      <div class=\"item\">name</div>\n      <div class=\"item\">date</div>\n      <div class=\"item\">active</div>\n    </div>\n    <div class=\"card__left\">\n      <div class=\"item\">int</div>\n      <div class=\"item\">varchar</div>\n      <div class=\"item\">datetime</div>\n      <div class=\"item\">boolean</div>\n    </div>\n  </div>\n</div>",
+ "css": "/* From Uiverse.io by Rodrypaladin  - Tags: minimalist, black, card, dark, product, custom, creative */\n.card {\n  width: 250px;\n  background: rgb(44, 44, 44);\n  font-family: \"Courier New\", Courier, monospace;\n  border-top-left-radius: 12px;\n  border-top-right-radius: 12px;\n  border-bottom-left-radius: 4px;\n  border-bottom-right-radius: 4px;\n  overflow: hidden;\n}\n\n.card__title {\n  color: white;\n  font-weight: bold;\n  padding: 5px 10px;\n  border-bottom: 1px solid rgb(167, 159, 159);\n  font-size: 0.95rem;\n}\n\n.card__data {\n  font-size: 0.8rem;\n  display: flex;\n  justify-content: space-between;\n  border-right: 1px solid rgb(203, 203, 203);\n  border-left: 1px solid rgb(203, 203, 203);\n  border-bottom: 1px solid rgb(203, 203, 203);\n}\n\n.card__right {\n  width: 60%;\n  border-right: 1px solid rgb(203, 203, 203);\n}\n\n.card__left {\n  width: 40%;\n  text-align: end;\n}\n\n.item {\n  padding: 3px 0;\n  background-color: white;\n}\n\n.card__right .item {\n  padding-left: 0.8em;\n}\n\n.card__left .item {\n  padding-right: 0.8em;\n}\n\n.item:nth-child(even) {\n  background: rgb(234, 235, 234);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Itchy Sloth 9</title>\n<style>\n/* From Uiverse.io by Rodrypaladin - https://uiverse.io/Rodrypaladin/itchy-sloth-9 */\n/* From Uiverse.io by Rodrypaladin  - Tags: minimalist, black, card, dark, product, custom, creative */\n.card {\n  width: 250px;\n  background: rgb(44, 44, 44);\n  font-family: \"Courier New\", Courier, monospace;\n  border-top-left-radius: 12px;\n  border-top-right-radius: 12px;\n  border-bottom-left-radius: 4px;\n  border-bottom-right-radius: 4px;\n  overflow: hidden;\n}\n\n.card__title {\n  color: white;\n  font-weight: bold;\n  padding: 5px 10px;\n  border-bottom: 1px solid rgb(167, 159, 159);\n  font-size: 0.95rem;\n}\n\n.card__data {\n  font-size: 0.8rem;\n  display: flex;\n  justify-content: space-between;\n  border-right: 1px solid rgb(203, 203, 203);\n  border-left: 1px solid rgb(203, 203, 203);\n  border-bottom: 1px solid rgb(203, 203, 203);\n}\n\n.card__right {\n  width: 60%;\n  border-right: 1px solid rgb(203, 203, 203);\n}\n\n.card__left {\n  width: 40%;\n  text-align: end;\n}\n\n.item {\n  padding: 3px 0;\n  background-color: white;\n}\n\n.card__right .item {\n  padding-left: 0.8em;\n}\n\n.card__left .item {\n  padding-right: 0.8em;\n}\n\n.item:nth-child(even) {\n  background: rgb(234, 235, 234);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"card__title\">table</div>\n  <div class=\"card__data\">\n    <div class=\"card__right\">\n      <div class=\"item\">id</div>\n      <div class=\"item\">name</div>\n      <div class=\"item\">date</div>\n      <div class=\"item\">active</div>\n    </div>\n    <div class=\"card__left\">\n      <div class=\"item\">int</div>\n      <div class=\"item\">varchar</div>\n      <div class=\"item\">datetime</div>\n      <div class=\"item\">boolean</div>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+}

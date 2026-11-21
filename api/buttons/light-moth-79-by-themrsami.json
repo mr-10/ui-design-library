@@ -1,0 +1,18 @@
+{
+ "id": "light-moth-79-by-themrsami",
+ "name": "Light Moth 79",
+ "category": "buttons",
+ "author": "themrsami",
+ "source": "https://uiverse.io/themrsami/light-moth-79",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by themrsami - Tags: button, 3d button, 3d cool effect, 3d hover -->\n<button class=\"relative overflow-hidden bg-gradient-to-r from-green-400 to-blue-500 text-white py-4 px-8 font-semibold rounded-3xl shadow-xl transform transition-all duration-500 hover:scale-110 hover:rotate-3 hover:skew-x-12\">\n  <span class=\"absolute top-0 left-0 w-full h-full bg-blue-300\"></span>\n  <span class=\"relative z-10\">Hover Me</span>\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Light Moth 79</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/light-moth-79 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by themrsami - Tags: button, 3d button, 3d cool effect, 3d hover -->\n<button class=\"relative overflow-hidden bg-gradient-to-r from-green-400 to-blue-500 text-white py-4 px-8 font-semibold rounded-3xl shadow-xl transform transition-all duration-500 hover:scale-110 hover:rotate-3 hover:skew-x-12\">\n  <span class=\"absolute top-0 left-0 w-full h-full bg-blue-300\"></span>\n  <span class=\"relative z-10\">Hover Me</span>\n</button>\n</body>\n</html>\n"
+}

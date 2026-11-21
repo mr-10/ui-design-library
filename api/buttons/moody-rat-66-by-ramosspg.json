@@ -1,0 +1,18 @@
+{
+ "id": "moody-rat-66-by-ramosspg",
+ "name": "Moody Rat 66",
+ "category": "buttons",
+ "author": "Ramosspg",
+ "source": "https://uiverse.io/Ramosspg/moody-rat-66",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Ramosspg - Tags: button, 2FA -->\n<div class=\"flex text-white font-bold text-lg items-center rounded-full justify-center p-2 w-32 border border-[#773BEC] hover:bg-gradient-to-r from-violet-600 to-indigo-600 transition-all duration-75 ease-in-out cursor-pointer\">\n  <button>\n    CLIQUE\n  </button>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Rat 66</title>\n<style>\n/* From Uiverse.io by Ramosspg - https://uiverse.io/Ramosspg/moody-rat-66 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Ramosspg - Tags: button, 2FA -->\n<div class=\"flex text-white font-bold text-lg items-center rounded-full justify-center p-2 w-32 border border-[#773BEC] hover:bg-gradient-to-r from-violet-600 to-indigo-600 transition-all duration-75 ease-in-out cursor-pointer\">\n  <button>\n    CLIQUE\n  </button>\n</div>\n</body>\n</html>\n"
+}

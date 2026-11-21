@@ -1,0 +1,18 @@
+{
+ "id": "average-snail-50-by-galahhad",
+ "name": "Average Snail 50",
+ "category": "inputs",
+ "author": "Galahhad",
+ "source": "https://uiverse.io/Galahhad/average-snail-50",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<input type=\"password\" name=\"text\" class=\"input\" pattern=\"\\d+\" placeholder=\"Numbers only or shake\">",
+ "css": "/* From Uiverse.io by Galahhad - Tags: input */\n.input {\n  max-width: 190px;\n  padding: 12px;\n  border: none;\n  border-radius: 4px;\n  box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);\n  outline: none;\n  color: dimgray;\n}\n\n.input:invalid {\n  animation: justshake 0.3s forwards;\n  color: red;\n}\n\n@keyframes justshake {\n  25% {\n    transform: translateX(5px);\n  }\n\n  50% {\n    transform: translateX(-5px);\n  }\n\n  75% {\n    transform: translateX(5px);\n  }\n\n  100% {\n    transform: translateX-(5px);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Average Snail 50</title>\n<style>\n/* From Uiverse.io by Galahhad - https://uiverse.io/Galahhad/average-snail-50 */\n/* From Uiverse.io by Galahhad - Tags: input */\n.input {\n  max-width: 190px;\n  padding: 12px;\n  border: none;\n  border-radius: 4px;\n  box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);\n  outline: none;\n  color: dimgray;\n}\n\n.input:invalid {\n  animation: justshake 0.3s forwards;\n  color: red;\n}\n\n@keyframes justshake {\n  25% {\n    transform: translateX(5px);\n  }\n\n  50% {\n    transform: translateX(-5px);\n  }\n\n  75% {\n    transform: translateX(5px);\n  }\n\n  100% {\n    transform: translateX-(5px);\n  }\n}\n</style>\n</head>\n<body>\n<input type=\"password\" name=\"text\" class=\"input\" pattern=\"\\d+\" placeholder=\"Numbers only or shake\">\n</body>\n</html>\n"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "ancient-starfish-68-by-gharsh11032000",
+ "name": "Ancient Starfish 68",
+ "category": "cards",
+ "author": "gharsh11032000",
+ "source": "https://uiverse.io/gharsh11032000/ancient-starfish-68",
+ "trigger": "hover",
+ "description": "A card with gradient and hover-effect styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "gradient",
+  "card",
+  "hover",
+  "hover-effect"
+ ],
+ "html": "<div class=\"card\">\n  <div class=\"main-content\">\n    <div class=\"header\">\n  <span>Article on</span>\n  <span>29-June-2023</span>\n</div>\n<p class=\"heading\">Different ways to use CSS in React</p>\n<div class=\"categories\">\n  <span>React</span>\n  <span>Css</span>\n</div>\n  </div>\n<div class=\"footer\">\n  by Harsh Gupta\n</div>\n</div>",
+ "css": "/* From Uiverse.io by gharsh11032000 - Tags: gradient, card, hover, hover effect */\n.card {\n  width: 320px;\n  height: 350px;\n  padding: 20px;\n  color: white;\n  background: linear-gradient(#212121, #212121) padding-box,\n              linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;\n  border: 2px solid transparent;\n  border-radius: 8px;\n  display: flex;\n  flex-direction: column;\n  cursor: pointer;\n  transform-origin: right bottom;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.card .main-content {\n  flex: 1;\n}\n\n.card .header span:first-child {\n  font-weight: 600;\n  color: #717171;\n  margin-right: 4px;\n}\n\n.card .heading {\n  font-size: 24px;\n  margin: 24px 0 16px;\n  font-weight: 600;\n}\n\n.card .categories {\n  display: flex;\n  gap: 8px;\n}\n\n.card .categories span {\n  background-color: #e81cff;\n  padding: 4px 8px;\n  font-weight: 600;\n  text-transform: uppercase;\n  font-size: 12px;\n  border-radius: 50em;\n}\n\n.card .footer {\n  font-weight: 600;\n  color: #717171;\n  margin-right: 4px;\n}\n\n.card:hover {\n  rotate: 8deg;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Starfish 68</title>\n<style>\n/* From Uiverse.io by gharsh11032000 - https://uiverse.io/gharsh11032000/ancient-starfish-68 */\n/* From Uiverse.io by gharsh11032000 - Tags: gradient, card, hover, hover effect */\n.card {\n  width: 320px;\n  height: 350px;\n  padding: 20px;\n  color: white;\n  background: linear-gradient(#212121, #212121) padding-box,\n              linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;\n  border: 2px solid transparent;\n  border-radius: 8px;\n  display: flex;\n  flex-direction: column;\n  cursor: pointer;\n  transform-origin: right bottom;\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.card .main-content {\n  flex: 1;\n}\n\n.card .header span:first-child {\n  font-weight: 600;\n  color: #717171;\n  margin-right: 4px;\n}\n\n.card .heading {\n  font-size: 24px;\n  margin: 24px 0 16px;\n  font-weight: 600;\n}\n\n.card .categories {\n  display: flex;\n  gap: 8px;\n}\n\n.card .categories span {\n  background-color: #e81cff;\n  padding: 4px 8px;\n  font-weight: 600;\n  text-transform: uppercase;\n  font-size: 12px;\n  border-radius: 50em;\n}\n\n.card .footer {\n  font-weight: 600;\n  color: #717171;\n  margin-right: 4px;\n}\n\n.card:hover {\n  rotate: 8deg;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"main-content\">\n    <div class=\"header\">\n  <span>Article on</span>\n  <span>29-June-2023</span>\n</div>\n<p class=\"heading\">Different ways to use CSS in React</p>\n<div class=\"categories\">\n  <span>React</span>\n  <span>Css</span>\n</div>\n  </div>\n<div class=\"footer\">\n  by Harsh Gupta\n</div>\n</div>\n</body>\n</html>\n"
+}

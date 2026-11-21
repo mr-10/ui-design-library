@@ -1,0 +1,18 @@
+{
+ "id": "purple-zebra-43-by-cksunandh",
+ "name": "Purple Zebra 43",
+ "category": "forms",
+ "author": "Cksunandh",
+ "source": "https://uiverse.io/Cksunandh/purple-zebra-43",
+ "trigger": "hover",
+ "description": "A form UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "form",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"file-upload-container\">\n  <div class=\"file-upload\">\n    <input multiple=\"\" class=\"file-input\" id=\"fileInput\" type=\"file\" />\n    <label class=\"file-label\" for=\"fileInput\">\n      <i class=\"upload-icon\">📁</i>\n      <p>Drag &amp; Drop your files here or click to upload</p>\n    </label>\n  </div>\n</div>",
+ "css": "/* From Uiverse.io by Cksunandh  - Tags: form */\n.file-upload-container {\n  width: 50%;\n  max-width: 500px;\n}\n\n.file-upload {\n  position: relative;\n  border: 2px dashed #b8bcbf;\n  border-radius: 10px;\n  padding: 40px;\n  text-align: center;\n  background-color: rgb(255, 255, 255);\n  transition: background-color 0.3s ease-in-out;\n}\n\n.file-upload:hover {\n  background-color: #e2e6ea;\n}\n\n.file-input {\n  display: none;\n}\n\n.file-label {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  cursor: pointer;\n}\n\n.upload-icon {\n  font-size: 50px;\n  color: #007bff;\n  margin-bottom: 10px;\n}\n\n.file-upload p {\n  margin: 0;\n  font-size: 16px;\n  color: #6c757d;\n}\n\n.file-upload.dragover {\n  background-color: #007bff;\n  color: white;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Zebra 43</title>\n<style>\n/* From Uiverse.io by Cksunandh - https://uiverse.io/Cksunandh/purple-zebra-43 */\n/* From Uiverse.io by Cksunandh  - Tags: form */\n.file-upload-container {\n  width: 50%;\n  max-width: 500px;\n}\n\n.file-upload {\n  position: relative;\n  border: 2px dashed #b8bcbf;\n  border-radius: 10px;\n  padding: 40px;\n  text-align: center;\n  background-color: rgb(255, 255, 255);\n  transition: background-color 0.3s ease-in-out;\n}\n\n.file-upload:hover {\n  background-color: #e2e6ea;\n}\n\n.file-input {\n  display: none;\n}\n\n.file-label {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  cursor: pointer;\n}\n\n.upload-icon {\n  font-size: 50px;\n  color: #007bff;\n  margin-bottom: 10px;\n}\n\n.file-upload p {\n  margin: 0;\n  font-size: 16px;\n  color: #6c757d;\n}\n\n.file-upload.dragover {\n  background-color: #007bff;\n  color: white;\n}\n</style>\n</head>\n<body>\n<div class=\"file-upload-container\">\n  <div class=\"file-upload\">\n    <input multiple=\"\" class=\"file-input\" id=\"fileInput\" type=\"file\" />\n    <label class=\"file-label\" for=\"fileInput\">\n      <i class=\"upload-icon\">📁</i>\n      <p>Drag &amp; Drop your files here or click to upload</p>\n    </label>\n  </div>\n</div>\n</body>\n</html>\n"
+}

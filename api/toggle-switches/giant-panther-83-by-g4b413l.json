@@ -1,0 +1,18 @@
+{
+ "id": "giant-panther-83-by-g4b413l",
+ "name": "Giant Panther 83",
+ "category": "toggle-switches",
+ "author": "G4b413l",
+ "source": "https://uiverse.io/G4b413l/giant-panther-83",
+ "trigger": "checked",
+ "description": "A toggle switch with switch styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>",
+ "css": "/* From Uiverse.io by G4b413l - Tags: switch */\n.switch input {\n display: none;\n}\n\n.switch {\n width: 60px;\n height: 30px;\n position: relative;\n}\n\n.slider {\n position: absolute;\n top: 0;\n bottom: 0;\n left: 0;\n right: 0;\n border-radius: 30px;\n box-shadow: 0 0 0 2px #777, 0 0 4px #777;\n cursor: pointer;\n border: 4px solid transparent;\n overflow: hidden;\n transition: 0.2s;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n width: 100%;\n height: 100%;\n background-color: #777;\n border-radius: 30px;\n transform: translateX(-30px);\n /*translateX(-(w-h))*/\n transition: 0.2s;\n}\n\ninput:checked + .slider:before {\n transform: translateX(30px);\n /*translateX(w-h)*/\n background-color: limeGreen;\n}\n\ninput:checked + .slider {\n box-shadow: 0 0 0 2px limeGreen, 0 0 8px limeGreen;\n}\n\n.switch200 .slider:before {\n width: 200%;\n transform: translateX(-82px);\n /*translateX(-(w-h))*/\n}\n\n.switch200 input:checked + .slider:before {\n background-color: red;\n}\n\n.switch200 input:checked + .slider {\n box-shadow: 0 0 0 2px red, 0 0 8px red;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Panther 83</title>\n<style>\n/* From Uiverse.io by G4b413l - https://uiverse.io/G4b413l/giant-panther-83 */\n/* From Uiverse.io by G4b413l - Tags: switch */\n.switch input {\n display: none;\n}\n\n.switch {\n width: 60px;\n height: 30px;\n position: relative;\n}\n\n.slider {\n position: absolute;\n top: 0;\n bottom: 0;\n left: 0;\n right: 0;\n border-radius: 30px;\n box-shadow: 0 0 0 2px #777, 0 0 4px #777;\n cursor: pointer;\n border: 4px solid transparent;\n overflow: hidden;\n transition: 0.2s;\n}\n\n.slider:before {\n position: absolute;\n content: \"\";\n width: 100%;\n height: 100%;\n background-color: #777;\n border-radius: 30px;\n transform: translateX(-30px);\n /*translateX(-(w-h))*/\n transition: 0.2s;\n}\n\ninput:checked + .slider:before {\n transform: translateX(30px);\n /*translateX(w-h)*/\n background-color: limeGreen;\n}\n\ninput:checked + .slider {\n box-shadow: 0 0 0 2px limeGreen, 0 0 8px limeGreen;\n}\n\n.switch200 .slider:before {\n width: 200%;\n transform: translateX(-82px);\n /*translateX(-(w-h))*/\n}\n\n.switch200 input:checked + .slider:before {\n background-color: red;\n}\n\n.switch200 input:checked + .slider {\n box-shadow: 0 0 0 2px red, 0 0 8px red;\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+}

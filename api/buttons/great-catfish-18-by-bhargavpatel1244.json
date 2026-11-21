@@ -1,0 +1,18 @@
+{
+ "id": "great-catfish-18-by-bhargavpatel1244",
+ "name": "Great Catfish 18",
+ "category": "buttons",
+ "author": "BHARGAVPATEL1244",
+ "source": "https://uiverse.io/BHARGAVPATEL1244/great-catfish-18",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button> <span>Button</span>\n</button>",
+ "css": "/* From Uiverse.io by BHARGAVPATEL1244 - Tags: button */\nbutton {\n outline: none;\n cursor: pointer;\n border: none;\n padding: 0.9rem 2rem;\n margin: 0;\n font-family: inherit;\n font-size: inherit;\n position: relative;\n display: inline-block;\n letter-spacing: 0.05rem;\n font-weight: 700;\n font-size: 17px;\n border-radius: 500px;\n overflow: hidden;\n background: #66ff66;\n color: ghostwhite;\n}\n\nbutton span {\n position: relative;\n z-index: 10;\n transition: color 0.4s;\n}\n\nbutton:hover span {\n color: black;\n}\n\nbutton::before,\nbutton::after {\n position: absolute;\n top: 0;\n left: 0;\n width: 100%;\n height: 100%;\n z-index: 0;\n}\n\nbutton::before {\n content: \"\";\n background: #000;\n width: 120%;\n left: -10%;\n transform: skew(30deg);\n transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);\n}\n\nbutton:hover::before {\n transform: translate3d(100%, 0, 0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Great Catfish 18</title>\n<style>\n/* From Uiverse.io by BHARGAVPATEL1244 - https://uiverse.io/BHARGAVPATEL1244/great-catfish-18 */\n/* From Uiverse.io by BHARGAVPATEL1244 - Tags: button */\nbutton {\n outline: none;\n cursor: pointer;\n border: none;\n padding: 0.9rem 2rem;\n margin: 0;\n font-family: inherit;\n font-size: inherit;\n position: relative;\n display: inline-block;\n letter-spacing: 0.05rem;\n font-weight: 700;\n font-size: 17px;\n border-radius: 500px;\n overflow: hidden;\n background: #66ff66;\n color: ghostwhite;\n}\n\nbutton span {\n position: relative;\n z-index: 10;\n transition: color 0.4s;\n}\n\nbutton:hover span {\n color: black;\n}\n\nbutton::before,\nbutton::after {\n position: absolute;\n top: 0;\n left: 0;\n width: 100%;\n height: 100%;\n z-index: 0;\n}\n\nbutton::before {\n content: \"\";\n background: #000;\n width: 120%;\n left: -10%;\n transform: skew(30deg);\n transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);\n}\n\nbutton:hover::before {\n transform: translate3d(100%, 0, 0);\n}\n</style>\n</head>\n<body>\n<button> <span>Button</span>\n</button>\n</body>\n</html>\n"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "wet-parrot-70-by-doniaskima",
+ "name": "Wet Parrot 70",
+ "category": "loaders",
+ "author": "doniaskima",
+ "source": "https://uiverse.io/doniaskima/wet-parrot-70",
+ "trigger": "auto-loop",
+ "description": "A loader with simple and material-design styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "simple",
+  "material-design",
+  "loader",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 80px;\n  height: 70px;\n  border: 5px solid #000;\n  padding: 0 8px;\n  box-sizing: border-box;\n  background: linear-gradient(#fff 0 0) 0    0/8px 20px,\n    linear-gradient(#fff 0 0) 100% 0/8px 20px,\n    radial-gradient(farthest-side,#fff 90%,#0000) 0 5px/8px 8px content-box,\n    #000;\n  background-repeat: no-repeat;\n  animation: l3 2s infinite linear;\n}\n\n@keyframes l3 {\n  25% {\n    background-position: 0 0   ,100% 100%,100% calc(100% - 5px)\n  }\n\n  50% {\n    background-position: 0 100%,100% 100%,0    calc(100% - 5px)\n  }\n\n  75% {\n    background-position: 0 100%,100%    0,100% 5px\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wet Parrot 70</title>\n<style>\n/* From Uiverse.io by doniaskima - https://uiverse.io/doniaskima/wet-parrot-70 */\n/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 80px;\n  height: 70px;\n  border: 5px solid #000;\n  padding: 0 8px;\n  box-sizing: border-box;\n  background: linear-gradient(#fff 0 0) 0    0/8px 20px,\n    linear-gradient(#fff 0 0) 100% 0/8px 20px,\n    radial-gradient(farthest-side,#fff 90%,#0000) 0 5px/8px 8px content-box,\n    #000;\n  background-repeat: no-repeat;\n  animation: l3 2s infinite linear;\n}\n\n@keyframes l3 {\n  25% {\n    background-position: 0 0   ,100% 100%,100% calc(100% - 5px)\n  }\n\n  50% {\n    background-position: 0 100%,100% 100%,0    calc(100% - 5px)\n  }\n\n  75% {\n    background-position: 0 100%,100%    0,100% 5px\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

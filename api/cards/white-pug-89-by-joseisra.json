@@ -1,0 +1,18 @@
+{
+ "id": "white-pug-89-by-joseisra",
+ "name": "White Pug 89",
+ "category": "cards",
+ "author": "JoseIsra",
+ "source": "https://uiverse.io/JoseIsra/white-pug-89",
+ "trigger": "hover",
+ "description": "A card with flip styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "flip",
+  "hover"
+ ],
+ "html": "<div class=\"card\">\n       <div class=\"content\">\n           <div class=\"front\">\n               <h3 class=\"title\">Hey</h3>\n               <p class=\"subtitle\">Hover me :)</p>\n           </div>\n\n           <div class=\"back\">\n               <p class=\"description\">\n                   Cool description so you can read it too my friend\n               </p>\n           </div>\n       </div>\n   </div>",
+ "css": "/* From Uiverse.io by JoseIsra - Tags: card, flip */\n.card {\n  width: 12rem;\n  cursor: pointer;\n}\n\n.content {\n  text-align: center;\n  position: relative;\n  transition: all 2.25s;\n  background-color: rgb(127, 204, 240);\n  padding: 5em;\n  transform-style: preserve-3d;\n}\n\n.card:hover .content {\n  transform: rotateY(0.5turn);\n}\n\n.front,\n.back {\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  padding: 2em;\n  transform-style: preserve-3d;\n  backface-visibility: hidden;\n}\n\n.title {\n  transform: translateZ(5rem);\n  font-size: 2rem;\n}\n\n.subtitle {\n  transform: translateZ(2rem);\n}\n\n.back {\n  transform: rotateY(0.5turn);\n  background-color: #009bff;\n}\n\n.description {\n  transform: translateZ(3rem);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>White Pug 89</title>\n<style>\n/* From Uiverse.io by JoseIsra - https://uiverse.io/JoseIsra/white-pug-89 */\n/* From Uiverse.io by JoseIsra - Tags: card, flip */\n.card {\n  width: 12rem;\n  cursor: pointer;\n}\n\n.content {\n  text-align: center;\n  position: relative;\n  transition: all 2.25s;\n  background-color: rgb(127, 204, 240);\n  padding: 5em;\n  transform-style: preserve-3d;\n}\n\n.card:hover .content {\n  transform: rotateY(0.5turn);\n}\n\n.front,\n.back {\n  position: absolute;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n  padding: 2em;\n  transform-style: preserve-3d;\n  backface-visibility: hidden;\n}\n\n.title {\n  transform: translateZ(5rem);\n  font-size: 2rem;\n}\n\n.subtitle {\n  transform: translateZ(2rem);\n}\n\n.back {\n  transform: rotateY(0.5turn);\n  background-color: #009bff;\n}\n\n.description {\n  transform: translateZ(3rem);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n       <div class=\"content\">\n           <div class=\"front\">\n               <h3 class=\"title\">Hey</h3>\n               <p class=\"subtitle\">Hover me :)</p>\n           </div>\n\n           <div class=\"back\">\n               <p class=\"description\">\n                   Cool description so you can read it too my friend\n               </p>\n           </div>\n       </div>\n   </div>\n</body>\n</html>\n"
+}

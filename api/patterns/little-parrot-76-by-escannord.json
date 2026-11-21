@@ -1,0 +1,20 @@
+{
+ "id": "little-parrot-76-by-escannord",
+ "name": "Little Parrot 76",
+ "category": "patterns",
+ "author": "escannord",
+ "source": "https://uiverse.io/escannord/little-parrot-76",
+ "trigger": "static",
+ "description": "A pattern with 3d, black and sphere styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "3d",
+  "black",
+  "pattern",
+  "sphere",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by escannord  - Tags: 3d, black, pattern, sphere */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: lightblue;\n  background: radial-gradient(\n      circle,\n      rgb(170, 162, 162),\n      #333 30%,\n      rgba(88, 84, 84, 0.226) 0%\n    ),\n    radial-gradient(\n      circle at 40px 40px,\n      rgb(233, 228, 228),\n      #333 30%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 600px 200px,\n      rgb(233, 228, 228),\n      #333 10%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 800px 100px,\n      rgb(233, 228, 228),\n      #333 10%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 700px 500px,\n      rgb(233, 228, 228),\n      #333 2%,\n      rgba(88, 84, 84, 0.123) 0%\n    ),\n    radial-gradient(\n      circle at 200px 400px,\n      rgb(233, 228, 228),\n      #333 1%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 300px 700px,\n      rgb(233, 228, 228),\n      #333 15%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 900px 500px,\n      rgb(233, 228, 228),\n      #333 20%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 650px 400px,\n      rgb(233, 228, 228),\n      #333 10%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 600px 600px,\n      rgb(233, 228, 228),\n      #333 1%,\n      rgba(88, 84, 84, 0.959) 0%\n    );\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Parrot 76</title>\n<style>\n/* From Uiverse.io by escannord - https://uiverse.io/escannord/little-parrot-76 */\n/* From Uiverse.io by escannord  - Tags: 3d, black, pattern, sphere */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: lightblue;\n  background: radial-gradient(\n      circle,\n      rgb(170, 162, 162),\n      #333 30%,\n      rgba(88, 84, 84, 0.226) 0%\n    ),\n    radial-gradient(\n      circle at 40px 40px,\n      rgb(233, 228, 228),\n      #333 30%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 600px 200px,\n      rgb(233, 228, 228),\n      #333 10%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 800px 100px,\n      rgb(233, 228, 228),\n      #333 10%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 700px 500px,\n      rgb(233, 228, 228),\n      #333 2%,\n      rgba(88, 84, 84, 0.123) 0%\n    ),\n    radial-gradient(\n      circle at 200px 400px,\n      rgb(233, 228, 228),\n      #333 1%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 300px 700px,\n      rgb(233, 228, 228),\n      #333 15%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 900px 500px,\n      rgb(233, 228, 228),\n      #333 20%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 650px 400px,\n      rgb(233, 228, 228),\n      #333 10%,\n      rgba(88, 84, 84, 0) 0%\n    ),\n    radial-gradient(\n      circle at 600px 600px,\n      rgb(233, 228, 228),\n      #333 1%,\n      rgba(88, 84, 84, 0.959) 0%\n    );\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

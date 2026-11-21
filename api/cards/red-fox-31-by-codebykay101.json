@@ -1,0 +1,21 @@
+{
+ "id": "red-fox-31-by-codebykay101",
+ "name": "Red Fox 31",
+ "category": "cards",
+ "author": "codebykay101",
+ "source": "https://uiverse.io/codebykay101/red-fox-31",
+ "trigger": "auto-loop",
+ "description": "A card with simple, neon and cool-card styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "simple",
+  "card",
+  "neon",
+  "cool-card",
+  "cardhover",
+  "card-animation"
+ ],
+ "html": "<div class=\"container\">\n  <div class=\"loader\" style=\"--clr:#01e100;--i:1;\"></div>\n  <div class=\"loader\" style=\"--clr:#f50076;--i:2;\"></div>\n  <div class=\"loader\" style=\"--clr:#00e6fd;--i:3;\"></div>\n</div>",
+ "css": "/* From Uiverse.io by codebykay101  - Tags: simple, card, neon, cool card, cardhover , card animation, card hover */\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 20px;\n}\n\n.loader {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  background: rgba(45, 45, 45, 1);\n  overflow: hidden;\n  transform: rotate(calc(90deg * var(--i)));\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  width: 300px;\n  height: 300px;\n  background: radial-gradient(var(--clr), transparent);\n  animation: animate 1.5s linear infinite;\n}\n\n.loader::after {\n  content: \"\";\n  position: absolute;\n  inset: 2px;\n  background: rgba(45, 45, 45, 0.9);\n}\n\n@keyframes animate {\n  0% {\n    transform: translate(-150px, -150px);\n  }\n  25% {\n    transform: translate(0px, -150px);\n  }\n  50% {\n    transform: translate(0px, 0px);\n  }\n  75% {\n    transform: translate(-150px, 0px);\n  }\n  100% {\n    transform: translate(-150px, -150px);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Fox 31</title>\n<style>\n/* From Uiverse.io by codebykay101 - https://uiverse.io/codebykay101/red-fox-31 */\n/* From Uiverse.io by codebykay101  - Tags: simple, card, neon, cool card, cardhover , card animation, card hover */\n.container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 20px;\n}\n\n.loader {\n  position: relative;\n  width: 150px;\n  height: 150px;\n  background: rgba(45, 45, 45, 1);\n  overflow: hidden;\n  transform: rotate(calc(90deg * var(--i)));\n}\n\n.loader::before {\n  content: \"\";\n  position: absolute;\n  width: 300px;\n  height: 300px;\n  background: radial-gradient(var(--clr), transparent);\n  animation: animate 1.5s linear infinite;\n}\n\n.loader::after {\n  content: \"\";\n  position: absolute;\n  inset: 2px;\n  background: rgba(45, 45, 45, 0.9);\n}\n\n@keyframes animate {\n  0% {\n    transform: translate(-150px, -150px);\n  }\n  25% {\n    transform: translate(0px, -150px);\n  }\n  50% {\n    transform: translate(0px, 0px);\n  }\n  75% {\n    transform: translate(-150px, 0px);\n  }\n  100% {\n    transform: translate(-150px, -150px);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <div class=\"loader\" style=\"--clr:#01e100;--i:1;\"></div>\n  <div class=\"loader\" style=\"--clr:#f50076;--i:2;\"></div>\n  <div class=\"loader\" style=\"--clr:#00e6fd;--i:3;\"></div>\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "fast-goose-7-by-yaya12085",
+ "name": "Fast Goose 7",
+ "category": "buttons",
+ "author": "Yaya12085",
+ "source": "https://uiverse.io/Yaya12085/fast-goose-7",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Yaya12085 - Tags: button, dark, box-shadow, tailwind, tailwindbutton -->\n<button class=\"px-6 py-2 font-semibold text-white bg-green-500 border-b-4 border-green-800 rounded shadow-lg shadow-green-600/50 hover:border-b-2 active:border-b-2\">Button</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fast Goose 7</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/fast-goose-7 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Yaya12085 - Tags: button, dark, box-shadow, tailwind, tailwindbutton -->\n<button class=\"px-6 py-2 font-semibold text-white bg-green-500 border-b-4 border-green-800 rounded shadow-lg shadow-green-600/50 hover:border-b-2 active:border-b-2\">Button</button>\n</body>\n</html>\n"
+}

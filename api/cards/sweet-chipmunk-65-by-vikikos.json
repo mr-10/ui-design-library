@@ -1,0 +1,18 @@
+{
+ "id": "sweet-chipmunk-65-by-vikikos",
+ "name": "Sweet Chipmunk 65",
+ "category": "cards",
+ "author": "Vikikos",
+ "source": "https://uiverse.io/Vikikos/sweet-chipmunk-65",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"card\">\n<div></div>\n</div>",
+ "css": "/* From Uiverse.io by Vikikos - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);\n background: #fff;\n display: flex;\n border-radius: 20px;\n justify-content: center;\n position: relative;\n transition: all .4s;\n}\n\n.card::before {\n content: '---content---';\n letter-spacing: 0.2em;\n position: absolute;\n bottom: 8px;\n left: 20px;\n color: rgb(51, 51, 51);\n font-size: 0.8em;\n font-weight: 700;\n}\n\n.card div {\n width: 100%;\n height: 100%;\n border-radius: 20px;\n box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);\n cursor: pointer;\n z-index: 10;\n transition: all .4s;\n background-color: #fff;\n}\n\n.card:hover div {\n transform: translateY(-30px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sweet Chipmunk 65</title>\n<style>\n/* From Uiverse.io by Vikikos - https://uiverse.io/Vikikos/sweet-chipmunk-65 */\n/* From Uiverse.io by Vikikos - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);\n background: #fff;\n display: flex;\n border-radius: 20px;\n justify-content: center;\n position: relative;\n transition: all .4s;\n}\n\n.card::before {\n content: '---content---';\n letter-spacing: 0.2em;\n position: absolute;\n bottom: 8px;\n left: 20px;\n color: rgb(51, 51, 51);\n font-size: 0.8em;\n font-weight: 700;\n}\n\n.card div {\n width: 100%;\n height: 100%;\n border-radius: 20px;\n box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);\n cursor: pointer;\n z-index: 10;\n transition: all .4s;\n background-color: #fff;\n}\n\n.card:hover div {\n transform: translateY(-30px);\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n<div></div>\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "black-chicken-65-by-1osm",
+ "name": "Black Chicken 65",
+ "category": "buttons",
+ "author": "1osm",
+ "source": "https://uiverse.io/1osm/black-chicken-65",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"Btn\">Click Me</button>",
+ "css": "/* From Uiverse.io by 1osm - Tags: button */\n/* Button 1 */\n.Btn {\n  width: 150px;\n  height: 50px;\n  background-color: transparent;\n  color: white;\n  font-weight: bold;\n  border-width: 2px;\n  border-color: #FF5858;\n  border-radius: 20px;\n  transition: all 0.3s;\n}\n\n.Btn:hover {\n  transform: translateY(-10px);\n  background-color: #FF5858;\n}\n\n.Btn::after {\n  transform: translateY(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Black Chicken 65</title>\n<style>\n/* From Uiverse.io by 1osm - https://uiverse.io/1osm/black-chicken-65 */\n/* From Uiverse.io by 1osm - Tags: button */\n/* Button 1 */\n.Btn {\n  width: 150px;\n  height: 50px;\n  background-color: transparent;\n  color: white;\n  font-weight: bold;\n  border-width: 2px;\n  border-color: #FF5858;\n  border-radius: 20px;\n  transition: all 0.3s;\n}\n\n.Btn:hover {\n  transform: translateY(-10px);\n  background-color: #FF5858;\n}\n\n.Btn::after {\n  transform: translateY(0);\n}\n</style>\n</head>\n<body>\n<button class=\"Btn\">Click Me</button>\n</body>\n</html>\n"
+}

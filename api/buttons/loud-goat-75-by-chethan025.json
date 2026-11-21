@@ -1,0 +1,18 @@
+{
+ "id": "loud-goat-75-by-chethan025",
+ "name": "Loud Goat 75",
+ "category": "buttons",
+ "author": "chethan025",
+ "source": "https://uiverse.io/chethan025/loud-goat-75",
+ "trigger": "hover",
+ "description": "A button with scroll-snap styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "scroll-snap",
+  "hover"
+ ],
+ "html": "<button class=\"button\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 97 162\" height=\"162\" width=\"97\" class=\"svg\">\n<path fill=\"#262626\" d=\"M47.2124 0H54.0796V151.644L86.6991 128.712H97L50.646 162L0 128.712H10.3009L47.2124 151.644V0Z\"></path>\n</svg>\n\n</button>",
+ "css": "/* From Uiverse.io by chethan025 - Tags: button, scroll snap */\n.button {\n  width: 38px;\n  height: 82px;\n  padding: 2px;\n  border: 1px solid #474747;\n  border-radius: 50px;\n  background: rgba(141, 141, 141, 0.18);\n  transition: all 0.3s ease-in-out;\n  transform: rotate(180deg);\n}\n\n.svg {\n  width: 22px;\n  height: 62px;\n  transform: rotate(180deg);\n}\n\n.button:hover {\n  transform: scale(-1.2);\n}\n\n.button:focus {\n  height: 0px;\n  width: 0px;\n  padding: 0px;\n  border: 0px;\n}\n\n.button:focus > .svg {\n  display: none;\n  height: 0px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Goat 75</title>\n<style>\n/* From Uiverse.io by chethan025 - https://uiverse.io/chethan025/loud-goat-75 */\n/* From Uiverse.io by chethan025 - Tags: button, scroll snap */\n.button {\n  width: 38px;\n  height: 82px;\n  padding: 2px;\n  border: 1px solid #474747;\n  border-radius: 50px;\n  background: rgba(141, 141, 141, 0.18);\n  transition: all 0.3s ease-in-out;\n  transform: rotate(180deg);\n}\n\n.svg {\n  width: 22px;\n  height: 62px;\n  transform: rotate(180deg);\n}\n\n.button:hover {\n  transform: scale(-1.2);\n}\n\n.button:focus {\n  height: 0px;\n  width: 0px;\n  padding: 0px;\n  border: 0px;\n}\n\n.button:focus > .svg {\n  display: none;\n  height: 0px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 97 162\" height=\"162\" width=\"97\" class=\"svg\">\n<path fill=\"#262626\" d=\"M47.2124 0H54.0796V151.644L86.6991 128.712H97L50.646 162L0 128.712H10.3009L47.2124 151.644V0Z\"></path>\n</svg>\n\n</button>\n</body>\n</html>\n"
+}

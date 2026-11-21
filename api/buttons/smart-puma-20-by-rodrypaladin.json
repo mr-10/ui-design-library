@@ -1,0 +1,21 @@
+{
+ "id": "smart-puma-20-by-rodrypaladin",
+ "name": "Smart Puma 20",
+ "category": "buttons",
+ "author": "Rodrypaladin",
+ "source": "https://uiverse.io/Rodrypaladin/smart-puma-20",
+ "trigger": "active",
+ "description": "A button with simple, animation and minimalist styling.",
+ "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "tags": [
+  "simple",
+  "animation",
+  "minimalist",
+  "black",
+  "button",
+  "creative"
+ ],
+ "html": "<button class=\"button\">\n  Button\n</button>",
+ "css": "/* From Uiverse.io by Rodrypaladin - Tags: simple, animation, minimalist, black, button, creative, hover effect, click animation */\n.button {\n  color: #202020;\n  background-color: #2d2d2d;\n  letter-spacing: .1em;\n  text-shadow: -1px -1px 1px #111111, \n      2px 2px 1px #363636;\n  border: 3px solid #363636;\n  font-size: 2em;\n  padding: 10px 20px;\n  transition: all 0.1s ease-in;\n}\n\n.button:active {\n  border-color: #111111;\n  color: #111111;\n  padding: 10px 30px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smart Puma 20</title>\n<style>\n/* From Uiverse.io by Rodrypaladin - https://uiverse.io/Rodrypaladin/smart-puma-20 */\n/* From Uiverse.io by Rodrypaladin - Tags: simple, animation, minimalist, black, button, creative, hover effect, click animation */\n.button {\n  color: #202020;\n  background-color: #2d2d2d;\n  letter-spacing: .1em;\n  text-shadow: -1px -1px 1px #111111, \n      2px 2px 1px #363636;\n  border: 3px solid #363636;\n  font-size: 2em;\n  padding: 10px 20px;\n  transition: all 0.1s ease-in;\n}\n\n.button:active {\n  border-color: #111111;\n  color: #111111;\n  padding: 10px 30px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+}

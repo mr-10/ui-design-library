@@ -1,0 +1,18 @@
+{
+ "id": "tall-horse-10-by-kevkevkevin",
+ "name": "Tall Horse 10",
+ "category": "buttons",
+ "author": "kevkevkevin",
+ "source": "https://uiverse.io/kevkevkevin/tall-horse-10",
+ "trigger": "hover",
+ "description": "A button with creative styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "creative",
+  "hover"
+ ],
+ "html": "<button class=\"button\">\n  Hover me 🥹\n</button>",
+ "css": "/* From Uiverse.io by kevkevkevin - Tags: button, creative */\n.button {\n  font-size: 16px;\n  font-weight: 700;\n  color: #292930;\n  background: #ffdc60;\n  height: 60px;\n  line-height: 60px;\n  text-align: center;\n  padding: 0 50px;\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  border-radius: 10px;\n  text-transform: capitalize;\n  cursor: pointer;\n  border: none;\n  box-shadow: 0px 0px 77px 12px rgba(0,0,0,0.13);\n  -webkit-box-shadow: 0px 0px 77px 12px rgba(0,0,0,0.13);\n  -moz-box-shadow: 0px 0px 77px 12px rgba(0,0,0,0.13);\n}\n\nbutton:before, button:after {\n  content: \"\";\n  background: #5956e9;\n  height: 50%;\n  width: 0;\n  position: absolute;\n  transition: .3s cubic-bezier(.785,.135,.15,.86);\n  -webkit-transition: .3s cubic-bezier(.785,.135,.15,.86);\n  z-index: -1;\n}\n\nbutton::before {\n  top: 0;\n  left: 0;\n  right: auto;\n}\n\nbutton:after {\n  bottom: 0;\n  right: 0;\n  left: auto;\n}\n\nbutton:hover {\n  color: #fff;\n  background-color: #57c9da;\n}\n\nbutton:hover:before {\n  width: 100%;\n  right: 0;\n  left: auto;\n}\n\nbutton:hover::after {\n  width: 100%;\n  left: 0;\n  right: auto;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tall Horse 10</title>\n<style>\n/* From Uiverse.io by kevkevkevin - https://uiverse.io/kevkevkevin/tall-horse-10 */\n/* From Uiverse.io by kevkevkevin - Tags: button, creative */\n.button {\n  font-size: 16px;\n  font-weight: 700;\n  color: #292930;\n  background: #ffdc60;\n  height: 60px;\n  line-height: 60px;\n  text-align: center;\n  padding: 0 50px;\n  position: relative;\n  z-index: 1;\n  overflow: hidden;\n  border-radius: 10px;\n  text-transform: capitalize;\n  cursor: pointer;\n  border: none;\n  box-shadow: 0px 0px 77px 12px rgba(0,0,0,0.13);\n  -webkit-box-shadow: 0px 0px 77px 12px rgba(0,0,0,0.13);\n  -moz-box-shadow: 0px 0px 77px 12px rgba(0,0,0,0.13);\n}\n\nbutton:before, button:after {\n  content: \"\";\n  background: #5956e9;\n  height: 50%;\n  width: 0;\n  position: absolute;\n  transition: .3s cubic-bezier(.785,.135,.15,.86);\n  -webkit-transition: .3s cubic-bezier(.785,.135,.15,.86);\n  z-index: -1;\n}\n\nbutton::before {\n  top: 0;\n  left: 0;\n  right: auto;\n}\n\nbutton:after {\n  bottom: 0;\n  right: 0;\n  left: auto;\n}\n\nbutton:hover {\n  color: #fff;\n  background-color: #57c9da;\n}\n\nbutton:hover:before {\n  width: 100%;\n  right: 0;\n  left: auto;\n}\n\nbutton:hover::after {\n  width: 100%;\n  left: 0;\n  right: auto;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Hover me 🥹\n</button>\n</body>\n</html>\n"
+}

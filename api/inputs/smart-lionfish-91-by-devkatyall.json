@@ -1,0 +1,19 @@
+{
+ "id": "smart-lionfish-91-by-devkatyall",
+ "name": "Smart Lionfish 91",
+ "category": "inputs",
+ "author": "devkatyall",
+ "source": "https://uiverse.io/devkatyall/smart-lionfish-91",
+ "trigger": "focus",
+ "description": "A input with submit and close styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "submit",
+  "close",
+  "focus"
+ ],
+ "html": "<div class=\"input\">\n  <input\n    class=\"to-do-input\"\n    placeholder=\"Your Tasks Go Here...\"\n    name=\"text\"\n    type=\"text\"\n  />\n  <div class=\"todo-line\">&nbsp;</div>\n</div>\n<button class=\"input button\">Add</button>",
+ "css": "/* From Uiverse.io by devkatyall  - Tags: input, submit, close */\n.input {\n  display: block;\n}\n.to-do-input {\n  color: rgb(133, 198, 255);\n  display: block;\n  max-width: 190px;\n  height: 2.7em;\n  padding: 1em 1em;\n  font-family: \"Instrument Sans\", sans-serif;\n  border: none;\n  border-radius: 4px;\n  background-color: black;\n}\n.to-do-input:focus {\n  outline: none;\n}\n.todo-line {\n  z-index: 2;\n  position: absolute;\n  margin-top: -2px;\n  width: 216px;\n  height: 2px;\n  border-radius: 4px;\n  background-color: black;\n}\n.to-do-input:focus ~ .todo-line {\n  animation: draw 0.3s ease-in;\n  background: rgb(49, 228, 255);\n}\n@keyframes draw {\n  0% {\n    opacity: 0;\n    width: 0px;\n    filter: hue-rotate(0deg);\n  }\n  100% {\n    opacity: 1;\n    width: 200px;\n    filter: hue-rotate(360deg);\n  }\n}\n.input.button {\n  border-top-right-radius: 4px;\n  border-bottom-right-radius: 4px;\n  display: flex;\n  height: 2.7em;\n  padding: 1em 1em;\n  align-items: center;\n  background-color: black;\n  border: none;\n  color: white;\n  transform: translateX(-4px);\n  cursor: pointer;\n  transition: 0.5s all;\n}\n.input.button:active {\n  background-color: rgb(49, 228, 255);\n  transition: 0.5s all;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Smart Lionfish 91</title>\n<style>\n/* From Uiverse.io by devkatyall - https://uiverse.io/devkatyall/smart-lionfish-91 */\n/* From Uiverse.io by devkatyall  - Tags: input, submit, close */\n.input {\n  display: block;\n}\n.to-do-input {\n  color: rgb(133, 198, 255);\n  display: block;\n  max-width: 190px;\n  height: 2.7em;\n  padding: 1em 1em;\n  font-family: \"Instrument Sans\", sans-serif;\n  border: none;\n  border-radius: 4px;\n  background-color: black;\n}\n.to-do-input:focus {\n  outline: none;\n}\n.todo-line {\n  z-index: 2;\n  position: absolute;\n  margin-top: -2px;\n  width: 216px;\n  height: 2px;\n  border-radius: 4px;\n  background-color: black;\n}\n.to-do-input:focus ~ .todo-line {\n  animation: draw 0.3s ease-in;\n  background: rgb(49, 228, 255);\n}\n@keyframes draw {\n  0% {\n    opacity: 0;\n    width: 0px;\n    filter: hue-rotate(0deg);\n  }\n  100% {\n    opacity: 1;\n    width: 200px;\n    filter: hue-rotate(360deg);\n  }\n}\n.input.button {\n  border-top-right-radius: 4px;\n  border-bottom-right-radius: 4px;\n  display: flex;\n  height: 2.7em;\n  padding: 1em 1em;\n  align-items: center;\n  background-color: black;\n  border: none;\n  color: white;\n  transform: translateX(-4px);\n  cursor: pointer;\n  transition: 0.5s all;\n}\n.input.button:active {\n  background-color: rgb(49, 228, 255);\n  transition: 0.5s all;\n}\n</style>\n</head>\n<body>\n<div class=\"input\">\n  <input\n    class=\"to-do-input\"\n    placeholder=\"Your Tasks Go Here...\"\n    name=\"text\"\n    type=\"text\"\n  />\n  <div class=\"todo-line\">&nbsp;</div>\n</div>\n<button class=\"input button\">Add</button>\n</body>\n</html>\n"
+}

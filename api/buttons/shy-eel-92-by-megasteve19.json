@@ -1,0 +1,18 @@
+{
+ "id": "shy-eel-92-by-megasteve19",
+ "name": "Shy Eel 92",
+ "category": "buttons",
+ "author": "megasteve19",
+ "source": "https://uiverse.io/megasteve19/shy-eel-92",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n  Button\n</button>",
+ "css": "/* From Uiverse.io by megasteve19 - Tags: button */\nbutton {\n  border: none;\n  background-color: seagreen;\n  color: white;\n  font-size: 1.15rem;\n  font-weight: 500;\n  padding: 0.8rem 2rem;\n  border-radius: 0.5rem;\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\n  cursor: pointer;\n  transform: translate(1) translate(0, 0);\n  transition: transform 225ms, box-shadow 225ms;\n}\n\nbutton:hover {\n  transform: scale(1.05) translate(0, -0.15rem);\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);\n}\n\nbutton:active {\n  transform: scale(1) translate(0, 0.15rem);\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shy Eel 92</title>\n<style>\n/* From Uiverse.io by megasteve19 - https://uiverse.io/megasteve19/shy-eel-92 */\n/* From Uiverse.io by megasteve19 - Tags: button */\nbutton {\n  border: none;\n  background-color: seagreen;\n  color: white;\n  font-size: 1.15rem;\n  font-weight: 500;\n  padding: 0.8rem 2rem;\n  border-radius: 0.5rem;\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\n  cursor: pointer;\n  transform: translate(1) translate(0, 0);\n  transition: transform 225ms, box-shadow 225ms;\n}\n\nbutton:hover {\n  transform: scale(1.05) translate(0, -0.15rem);\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);\n}\n\nbutton:active {\n  transform: scale(1) translate(0, 0.15rem);\n  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+}

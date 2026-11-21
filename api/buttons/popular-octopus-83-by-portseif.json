@@ -1,0 +1,18 @@
+{
+ "id": "popular-octopus-83-by-portseif",
+ "name": "Popular Octopus 83",
+ "category": "buttons",
+ "author": "portseif",
+ "source": "https://uiverse.io/portseif/popular-octopus-83",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n  Button\n</button>",
+ "css": "/* From Uiverse.io by portseif - Tags: button */\nbutton {\n  align-items: center;\n  background-color: transparent;\n  color: #fff;\n  cursor: pointer;\n  display: flex;\n  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";\n  font-size: 1rem;\n  font-weight: 700;\n  line-height: 1.5;\n  text-decoration: none;\n  text-transform: uppercase;\n  outline: 0;\n  border: 0;\n  padding: 1rem;\n}\n\nbutton:before {\n  background-color: #fff;\n  content: \"\";\n  display: inline-block;\n  height: 1px;\n  margin-right: 10px;\n  transition: all .42s cubic-bezier(.25,.8,.25,1);\n  width: 0;\n}\n\nbutton:hover:before {\n  background-color: #fff;\n  width: 3rem;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Popular Octopus 83</title>\n<style>\n/* From Uiverse.io by portseif - https://uiverse.io/portseif/popular-octopus-83 */\n/* From Uiverse.io by portseif - Tags: button */\nbutton {\n  align-items: center;\n  background-color: transparent;\n  color: #fff;\n  cursor: pointer;\n  display: flex;\n  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";\n  font-size: 1rem;\n  font-weight: 700;\n  line-height: 1.5;\n  text-decoration: none;\n  text-transform: uppercase;\n  outline: 0;\n  border: 0;\n  padding: 1rem;\n}\n\nbutton:before {\n  background-color: #fff;\n  content: \"\";\n  display: inline-block;\n  height: 1px;\n  margin-right: 10px;\n  transition: all .42s cubic-bezier(.25,.8,.25,1);\n  width: 0;\n}\n\nbutton:hover:before {\n  background-color: #fff;\n  width: 3rem;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+}

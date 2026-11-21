@@ -1,0 +1,18 @@
+{
+ "id": "chatty-mule-100-by-sheptalo",
+ "name": "Chatty Mule 100",
+ "category": "buttons",
+ "author": "sheptalo",
+ "source": "https://uiverse.io/sheptalo/chatty-mule-100",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n  HOVER ME!\n</button>",
+ "css": "/* From Uiverse.io by sheptalo - Tags: button */\nbutton {\n  border-style: outset;\n  font-weight: 1000;\n  height: 50px;\n  width: 150px;\n  background: inherit;\n  border: 7px solid orange;\n  transition: all 900ms;\n}\n\nbutton::before {\n  content: \"\";\n  z-index: -1;\n  position: absolute;\n  left: 50%;\n  top: 0;\n  bottom: 0%;\n  height: 100%;\n  width: 0;\n  background-color: yellow;\n  transition-timing-function: ease-in;\n  transition: all 1.3s;\n}\n\nbutton:hover {\n  color: rgb(78, 78, 78);\n  border: 2px solid yellow;\n  transform: scale(1.2);\n}\n\nbutton:hover::before {\n  left: 0%;\n  width: 100%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chatty Mule 100</title>\n<style>\n/* From Uiverse.io by sheptalo - https://uiverse.io/sheptalo/chatty-mule-100 */\n/* From Uiverse.io by sheptalo - Tags: button */\nbutton {\n  border-style: outset;\n  font-weight: 1000;\n  height: 50px;\n  width: 150px;\n  background: inherit;\n  border: 7px solid orange;\n  transition: all 900ms;\n}\n\nbutton::before {\n  content: \"\";\n  z-index: -1;\n  position: absolute;\n  left: 50%;\n  top: 0;\n  bottom: 0%;\n  height: 100%;\n  width: 0;\n  background-color: yellow;\n  transition-timing-function: ease-in;\n  transition: all 1.3s;\n}\n\nbutton:hover {\n  color: rgb(78, 78, 78);\n  border: 2px solid yellow;\n  transform: scale(1.2);\n}\n\nbutton:hover::before {\n  left: 0%;\n  width: 100%;\n}\n</style>\n</head>\n<body>\n<button>\n  HOVER ME!\n</button>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "green-snake-95-by-ahmedrizk101",
+ "name": "Green Snake 95",
+ "category": "buttons",
+ "author": "ahmedrizk101",
+ "source": "https://uiverse.io/ahmedrizk101/green-snake-95",
+ "trigger": "active",
+ "description": "A button with 3d-button styling.",
+ "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "tags": [
+  "button",
+  "3d-button",
+  "active"
+ ],
+ "html": "<button class=\"button\">\nclick me\n</button>",
+ "css": "/* From Uiverse.io by ahmedrizk101 - Tags: button, #button, 3d button */\n.button {\n  width: 200px;\n  height: 40px;\n  background: yellow;\n  box-shadow: -6px 6px 0 0 hsl(60, 100%, 40%);\n  border: none;\n  outline: none;\n  position: relative;\n  font-size: 1.2rem;\n  text-transform: uppercase;\n  font-weight: bold;\n}\n\n.button:active {\n  box-shadow: -3px 3px 0 0 hsl(60, 100%, 40%);\n  top: 3px;\n  left: -3px;\n  background-color: hsl(60, 100%, 45%);\n}\n\n.button::before {\n  content: '';\n  position: absolute;\n  background: none;\n  width: 0;\n  height: 0;\n  border: 6px solid transparent;\n  border-right: 6px solid hsl(60, 100%, 40%);\n  border-left-width: 0;\n  top: 0;\n  left: -6px;\n}\n\n.button:active::before {\n  border: 3px solid transparent;\n  border-right: 3px solid hsl(60, 100%, 40%);\n}\n\n.button::after {\n  content: '';\n  position: absolute;\n  background: none;\n  width: 0;\n  height: 0;\n  border: 6px solid transparent;\n  border-top: 6px solid hsl(60, 100%, 40%);\n  border-bottom-width: 0;\n  bottom: -6px;\n  right: 0;\n}\n\n.button:active:after {\n  border: 3px solid transparent;\n  border-top: 3px solid hsl(60, 100%, 40%);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Green Snake 95</title>\n<style>\n/* From Uiverse.io by ahmedrizk101 - https://uiverse.io/ahmedrizk101/green-snake-95 */\n/* From Uiverse.io by ahmedrizk101 - Tags: button, #button, 3d button */\n.button {\n  width: 200px;\n  height: 40px;\n  background: yellow;\n  box-shadow: -6px 6px 0 0 hsl(60, 100%, 40%);\n  border: none;\n  outline: none;\n  position: relative;\n  font-size: 1.2rem;\n  text-transform: uppercase;\n  font-weight: bold;\n}\n\n.button:active {\n  box-shadow: -3px 3px 0 0 hsl(60, 100%, 40%);\n  top: 3px;\n  left: -3px;\n  background-color: hsl(60, 100%, 45%);\n}\n\n.button::before {\n  content: '';\n  position: absolute;\n  background: none;\n  width: 0;\n  height: 0;\n  border: 6px solid transparent;\n  border-right: 6px solid hsl(60, 100%, 40%);\n  border-left-width: 0;\n  top: 0;\n  left: -6px;\n}\n\n.button:active::before {\n  border: 3px solid transparent;\n  border-right: 3px solid hsl(60, 100%, 40%);\n}\n\n.button::after {\n  content: '';\n  position: absolute;\n  background: none;\n  width: 0;\n  height: 0;\n  border: 6px solid transparent;\n  border-top: 6px solid hsl(60, 100%, 40%);\n  border-bottom-width: 0;\n  bottom: -6px;\n  right: 0;\n}\n\n.button:active:after {\n  border: 3px solid transparent;\n  border-top: 3px solid hsl(60, 100%, 40%);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\nclick me\n</button>\n</body>\n</html>\n"
+}

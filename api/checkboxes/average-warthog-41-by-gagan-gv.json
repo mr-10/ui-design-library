@@ -1,0 +1,18 @@
+{
+ "id": "average-warthog-41-by-gagan-gv",
+ "name": "Average Warthog 41",
+ "category": "checkboxes",
+ "author": "gagan-gv",
+ "source": "https://uiverse.io/gagan-gv/average-warthog-41",
+ "trigger": "checked",
+ "description": "A checkbox UI element.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "checkbox",
+  "checked",
+  "css"
+ ],
+ "html": "<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>",
+ "css": "/* From Uiverse.io by gagan-gv - Tags: checkbox */\n/* Hide the default checkbox */\n.container input {\n position: absolute;\n opacity: 0;\n cursor: pointer;\n height: 0;\n width: 0;\n}\n\n.container {\n display: block;\n position: relative;\n cursor: pointer;\n font-size: 20px;\n user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n position: relative;\n top: 0;\n left: 0;\n height: 1.3em;\n width: 1.3em;\n background-color: #fff;\n transition: all 0.5s;\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n border: 2px solid #080;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n content: \"\";\n position: absolute;\n display: none;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n display: block;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n left: 0.55em;\n top: -0.15em;\n width: 0.35em;\n height: 0.7em;\n border: solid #080;\n border-width: 0 0.25em 0.25em 0;\n transform: rotate(45deg);\n transition: all 0.5s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Average Warthog 41</title>\n<style>\n/* From Uiverse.io by gagan-gv - https://uiverse.io/gagan-gv/average-warthog-41 */\n/* From Uiverse.io by gagan-gv - Tags: checkbox */\n/* Hide the default checkbox */\n.container input {\n position: absolute;\n opacity: 0;\n cursor: pointer;\n height: 0;\n width: 0;\n}\n\n.container {\n display: block;\n position: relative;\n cursor: pointer;\n font-size: 20px;\n user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n position: relative;\n top: 0;\n left: 0;\n height: 1.3em;\n width: 1.3em;\n background-color: #fff;\n transition: all 0.5s;\n}\n\n/* When the checkbox is checked, add a blue background */\n.container input:checked ~ .checkmark {\n border: 2px solid #080;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n content: \"\";\n position: absolute;\n display: none;\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n display: block;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n left: 0.55em;\n top: -0.15em;\n width: 0.35em;\n height: 0.7em;\n border: solid #080;\n border-width: 0 0.25em 0.25em 0;\n transform: rotate(45deg);\n transition: all 0.5s;\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\" checked=\"checked\">\n  <div class=\"checkmark\"></div>\n</label>\n</body>\n</html>\n"
+}

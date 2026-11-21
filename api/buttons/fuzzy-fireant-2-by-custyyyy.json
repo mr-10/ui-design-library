@@ -1,0 +1,18 @@
+{
+ "id": "fuzzy-fireant-2-by-custyyyy",
+ "name": "Fuzzy Fireant 2",
+ "category": "buttons",
+ "author": "Custyyyy",
+ "source": "https://uiverse.io/Custyyyy/fuzzy-fireant-2",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button id=\"bottone1\"><strong>Discover features</strong></button>",
+ "css": "/* From Uiverse.io by Custyyyy - Tags: button */\n#bottone1 {\n padding-left: 33px;\n padding-right: 33px;\n padding-bottom: 16px;\n padding-top: 16px;\n border-radius: 9px;\n background: #d5f365;\n border: none;\n font-family: inherit;\n text-align: center;\n cursor: pointer;\n transition: 0.4s;\n}\n\n#bottone1:hover {\n box-shadow: 7px 5px 56px -14px #C3D900;\n}\n\n#bottone1:active {\n transform: scale(0.97);\n box-shadow: 7px 5px 56px -10px #C3D900;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fuzzy Fireant 2</title>\n<style>\n/* From Uiverse.io by Custyyyy - https://uiverse.io/Custyyyy/fuzzy-fireant-2 */\n/* From Uiverse.io by Custyyyy - Tags: button */\n#bottone1 {\n padding-left: 33px;\n padding-right: 33px;\n padding-bottom: 16px;\n padding-top: 16px;\n border-radius: 9px;\n background: #d5f365;\n border: none;\n font-family: inherit;\n text-align: center;\n cursor: pointer;\n transition: 0.4s;\n}\n\n#bottone1:hover {\n box-shadow: 7px 5px 56px -14px #C3D900;\n}\n\n#bottone1:active {\n transform: scale(0.97);\n box-shadow: 7px 5px 56px -10px #C3D900;\n}\n</style>\n</head>\n<body>\n<button id=\"bottone1\"><strong>Discover features</strong></button>\n</body>\n</html>\n"
+}

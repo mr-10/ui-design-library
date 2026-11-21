@@ -1,0 +1,20 @@
+{
+ "id": "strong-monkey-50-by-priyanshugupta28",
+ "name": "Strong Monkey 50",
+ "category": "loaders",
+ "author": "PriyanshuGupta28",
+ "source": "https://uiverse.io/PriyanshuGupta28/strong-monkey-50",
+ "trigger": "auto-loop",
+ "description": "A loader with circle-loader, cool-loader and 3d-loader styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "circle-loader",
+  "cool-loader",
+  "3d-loader",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\">\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n  </div>",
+ "css": "/* From Uiverse.io by PriyanshuGupta28 - Tags: loader, circle loader, cool loader, 3d loader */\n.loader {\n  flex-direction: row;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.circle {\n  width: 20px;\n  height: 20px;\n  background-color: #8BC6EC;\n  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);\n  border-radius: 50%;\n  margin-right: 1rem;\n  animation: pulse 1.2s ease-in-out infinite;\n}\n\n.circle:nth-child(2) {\n  animation-delay: 0.2s;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n}\n\n.circle:nth-child(3) {\n  animation-delay: 0.4s;\n  background-color: #0093E9;\n  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);\n}\n\n.circle:nth-child(4) {\n  animation-delay: 0.6s;\n  background-color: #8EC5FC;\n  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);\n}\n\n.circle:nth-child(5) {\n  animation-delay: 0.8s;\n  background-color: #00DBDE;\n  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(0.8);\n    opacity: 0.7;\n  }\n\n  50% {\n    transform: scale(1);\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(0.8);\n    opacity: 0.7;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strong Monkey 50</title>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - https://uiverse.io/PriyanshuGupta28/strong-monkey-50 */\n/* From Uiverse.io by PriyanshuGupta28 - Tags: loader, circle loader, cool loader, 3d loader */\n.loader {\n  flex-direction: row;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.circle {\n  width: 20px;\n  height: 20px;\n  background-color: #8BC6EC;\n  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);\n  border-radius: 50%;\n  margin-right: 1rem;\n  animation: pulse 1.2s ease-in-out infinite;\n}\n\n.circle:nth-child(2) {\n  animation-delay: 0.2s;\n  background-color: #4158D0;\n  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);\n}\n\n.circle:nth-child(3) {\n  animation-delay: 0.4s;\n  background-color: #0093E9;\n  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);\n}\n\n.circle:nth-child(4) {\n  animation-delay: 0.6s;\n  background-color: #8EC5FC;\n  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);\n}\n\n.circle:nth-child(5) {\n  animation-delay: 0.8s;\n  background-color: #00DBDE;\n  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);\n}\n\n@keyframes pulse {\n  0% {\n    transform: scale(0.8);\n    opacity: 0.7;\n  }\n\n  50% {\n    transform: scale(1);\n    opacity: 1;\n  }\n\n  100% {\n    transform: scale(0.8);\n    opacity: 0.7;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n  </div>\n</body>\n</html>\n"
+}

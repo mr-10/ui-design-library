@@ -1,0 +1,18 @@
+{
+ "id": "happy-falcon-35-by-lumamantelli",
+ "name": "Happy Falcon 35",
+ "category": "buttons",
+ "author": "lumamantelli",
+ "source": "https://uiverse.io/lumamantelli/happy-falcon-35",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by lumamantelli - Tags: button, focus, #button -->\n<button class=\"cursor-pointer inline-flex items-center rounded-full \npx-9 py-3 text-xl font-mono font-semibold text-rose-600 hover:text-white border-2 border-rose-600 hover:bg-rose-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-75 duration-300 focus:bg-transparent focus:text-rose-600\">\n  Button\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Happy Falcon 35</title>\n<style>\n/* From Uiverse.io by lumamantelli - https://uiverse.io/lumamantelli/happy-falcon-35 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by lumamantelli - Tags: button, focus, #button -->\n<button class=\"cursor-pointer inline-flex items-center rounded-full \npx-9 py-3 text-xl font-mono font-semibold text-rose-600 hover:text-white border-2 border-rose-600 hover:bg-rose-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-75 duration-300 focus:bg-transparent focus:text-rose-600\">\n  Button\n</button>\n</body>\n</html>\n"
+}

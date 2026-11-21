@@ -1,0 +1,18 @@
+{
+ "id": "angry-quail-96-by-elijahgummer",
+ "name": "Angry Quail 96",
+ "category": "buttons",
+ "author": "elijahgummer",
+ "source": "https://uiverse.io/elijahgummer/angry-quail-96",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by elijahgummer  - Tags: glassmorphism, blue, button, glow, yes, shimmer -->\n<button\n  class=\"group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-blue-500/30 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:shadow-blue-600/50 border border-white/20\"\n>\n  <span class=\"text-lg\">Shimmer</span>\n  <div\n    class=\"absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]\"\n  >\n    <div class=\"relative h-full w-10 bg-white/30\"></div>\n  </div>\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Angry Quail 96</title>\n<style>\n/* From Uiverse.io by elijahgummer - https://uiverse.io/elijahgummer/angry-quail-96 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by elijahgummer  - Tags: glassmorphism, blue, button, glow, yes, shimmer -->\n<button\n  class=\"group/button relative inline-flex items-center justify-center overflow-hidden rounded-md bg-blue-500/30 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:shadow-blue-600/50 border border-white/20\"\n>\n  <span class=\"text-lg\">Shimmer</span>\n  <div\n    class=\"absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]\"\n  >\n    <div class=\"relative h-full w-10 bg-white/30\"></div>\n  </div>\n</button>\n</body>\n</html>\n"
+}

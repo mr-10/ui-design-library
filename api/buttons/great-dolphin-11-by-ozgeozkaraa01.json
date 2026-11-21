@@ -1,0 +1,18 @@
+{
+ "id": "great-dolphin-11-by-ozgeozkaraa01",
+ "name": "Great Dolphin 11",
+ "category": "buttons",
+ "author": "ozgeozkaraa01",
+ "source": "https://uiverse.io/ozgeozkaraa01/great-dolphin-11",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"tooltip\">\n  <span class=\"tooltiptext\">delete</span>\n<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" width=\"24\" height=\"24\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0\"></path>\n</svg>\n</button>",
+ "css": "/* From Uiverse.io by ozgeozkaraa01 - Tags: button, #button */\nbutton {\n  border: none;\n  border-radius: 1rem;\n  transition: all 0.5s linear;\n  padding: 1.2em;\n  background-color: #ACB1D6;\n}\n\n.tooltip {\n  position: relative;\n  display: inline-block;\n}\n\n.tooltip .tooltiptext {\n  visibility: hidden;\n  background-color: #AAAAAA;\n  color: white;\n  border-radius: 10px;\n  padding: 5px;\n  position: absolute;\n  z-index: 1;\n  left: 62px;\n  width: 60px;\n}\n\n.tooltip:hover .tooltiptext {\n  visibility: visible;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Great Dolphin 11</title>\n<style>\n/* From Uiverse.io by ozgeozkaraa01 - https://uiverse.io/ozgeozkaraa01/great-dolphin-11 */\n/* From Uiverse.io by ozgeozkaraa01 - Tags: button, #button */\nbutton {\n  border: none;\n  border-radius: 1rem;\n  transition: all 0.5s linear;\n  padding: 1.2em;\n  background-color: #ACB1D6;\n}\n\n.tooltip {\n  position: relative;\n  display: inline-block;\n}\n\n.tooltip .tooltiptext {\n  visibility: hidden;\n  background-color: #AAAAAA;\n  color: white;\n  border-radius: 10px;\n  padding: 5px;\n  position: absolute;\n  z-index: 1;\n  left: 62px;\n  width: 60px;\n}\n\n.tooltip:hover .tooltiptext {\n  visibility: visible;\n}\n</style>\n</head>\n<body>\n<button class=\"tooltip\">\n  <span class=\"tooltiptext\">delete</span>\n<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" width=\"24\" height=\"24\">\n  <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0\"></path>\n</svg>\n</button>\n</body>\n</html>\n"
+}

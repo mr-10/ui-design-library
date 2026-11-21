@@ -1,0 +1,18 @@
+{
+ "id": "big-baboon-18-by-leryley",
+ "name": "Big Baboon 18",
+ "category": "buttons",
+ "author": "LeryLey",
+ "source": "https://uiverse.io/LeryLey/big-baboon-18",
+ "trigger": "hover",
+ "description": "A button with dark styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "dark"
+ ],
+ "html": "<button class=\"button\">Button</button>",
+ "css": "/* From Uiverse.io by LeryLey  - Tags: button, hover, dark */\n.button {\n  cursor: pointer;\n  position: relative;\n  width: 125px;\n  height: 40px;\n  border-radius: 60px;\n  background: #222;\n  color: #fff;\n  outline: none;\n  overflow: hidden;\n  border: 2px solid rgb(56, 56, 56);\n  font-weight: 600;\n  z-index: 1;\n  transition: 0.5s;\n}\n.button:hover {\n  color: white;\n}\n.button::before {\n  position: absolute;\n  content: \"\";\n  width: 0;\n  height: 0;\n  border-radius: 50%;\n  background: linear-gradient(\n    to right,\n    rgb(59, 59, 184),\n    rgb(163, 65, 65),\n    rgb(172, 26, 26)\n  );\n  left: -15px;\n  bottom: 0;\n  transform: translateY(50%);\n  transition: 0.5s;\n  z-index: -1;\n}\n.button:hover:before {\n  width: 170px;\n  height: 170px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Baboon 18</title>\n<style>\n/* From Uiverse.io by LeryLey - https://uiverse.io/LeryLey/big-baboon-18 */\n/* From Uiverse.io by LeryLey  - Tags: button, hover, dark */\n.button {\n  cursor: pointer;\n  position: relative;\n  width: 125px;\n  height: 40px;\n  border-radius: 60px;\n  background: #222;\n  color: #fff;\n  outline: none;\n  overflow: hidden;\n  border: 2px solid rgb(56, 56, 56);\n  font-weight: 600;\n  z-index: 1;\n  transition: 0.5s;\n}\n.button:hover {\n  color: white;\n}\n.button::before {\n  position: absolute;\n  content: \"\";\n  width: 0;\n  height: 0;\n  border-radius: 50%;\n  background: linear-gradient(\n    to right,\n    rgb(59, 59, 184),\n    rgb(163, 65, 65),\n    rgb(172, 26, 26)\n  );\n  left: -15px;\n  bottom: 0;\n  transform: translateY(50%);\n  transition: 0.5s;\n  z-index: -1;\n}\n.button:hover:before {\n  width: 170px;\n  height: 170px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Button</button>\n</body>\n</html>\n"
+}

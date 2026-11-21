@@ -1,0 +1,19 @@
+{
+ "id": "great-gecko-98-by-ahsiber",
+ "name": "Great Gecko 98",
+ "category": "buttons",
+ "author": "AhSiber",
+ "source": "https://uiverse.io/AhSiber/great-gecko-98",
+ "trigger": "hover",
+ "description": "A button with simple and minimalist styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "minimalist",
+  "button",
+  "hover"
+ ],
+ "html": "<button> Button\n</button>",
+ "css": "/* From Uiverse.io by AhSiber - Tags: simple, minimalist, button */\nbutton {\n border: 1px solid seagreen;\n border-radius: 5px;\n background: rgb(255, 255, 255);\n color: seagreen;\n font-style: italic;\n padding: 10px;\n padding-right: 14px;\n padding-left: 12px;\n font-size: 17px;\n}\n\nbutton:hover {\n background-color: seagreen;\n color: white;\n border: 1px solid  seagreen;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Great Gecko 98</title>\n<style>\n/* From Uiverse.io by AhSiber - https://uiverse.io/AhSiber/great-gecko-98 */\n/* From Uiverse.io by AhSiber - Tags: simple, minimalist, button */\nbutton {\n border: 1px solid seagreen;\n border-radius: 5px;\n background: rgb(255, 255, 255);\n color: seagreen;\n font-style: italic;\n padding: 10px;\n padding-right: 14px;\n padding-left: 12px;\n font-size: 17px;\n}\n\nbutton:hover {\n background-color: seagreen;\n color: white;\n border: 1px solid  seagreen;\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n</body>\n</html>\n"
+}

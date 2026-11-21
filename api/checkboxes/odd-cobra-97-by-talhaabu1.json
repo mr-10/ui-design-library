@@ -1,0 +1,18 @@
+{
+ "id": "odd-cobra-97-by-talhaabu1",
+ "name": "Odd Cobra 97",
+ "category": "checkboxes",
+ "author": "talhaabu1",
+ "source": "https://uiverse.io/talhaabu1/odd-cobra-97",
+ "trigger": "checked",
+ "description": "A checkbox UI element.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "checkbox",
+  "checked",
+  "css"
+ ],
+ "html": "<div class=\"checkbox-wrapper-23\">\n  <input type=\"checkbox\" id=\"check-23\">\n  <label for=\"check-23\" style=\"--size: 30px\">\n    <svg viewBox=\"0,0,50,50\">\n      <path d=\"M5 30 L 20 45 L 45 5\"></path>\n    </svg>\n  </label>\n</div>",
+ "css": "/* From Uiverse.io by talhaabu1 - Tags: checkbox */\n.checkbox-wrapper-23 *,\n  .checkbox-wrapper-23 *:after,\n  .checkbox-wrapper-23 *:before {\n  box-sizing: border-box;\n}\n\n.checkbox-wrapper-23 input {\n  position: absolute;\n  opacity: 0;\n}\n\n.checkbox-wrapper-23 input:checked + label svg path {\n  stroke-dashoffset: 0;\n}\n\n.checkbox-wrapper-23 input:focus + label {\n  transform: scale(1.03);\n}\n\n.checkbox-wrapper-23 input + label {\n  display: block;\n  border: 2px solid rgb(253, 237, 237);\n  width: var(--size);\n  height: var(--size);\n  border-radius: 6px;\n  cursor: pointer;\n  transition: all .2s ease;\n}\n\n.checkbox-wrapper-23 input + label:active {\n  transform: scale(1.05);\n  border-radius: 12px;\n}\n\n.checkbox-wrapper-23 input + label svg {\n  pointer-events: none;\n  padding: 5%;\n}\n\n.checkbox-wrapper-23 input + label svg path {\n  fill: none;\n  stroke: rgb(247, 247, 247);\n  stroke-width: 4px;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-dasharray: 100;\n  stroke-dashoffset: 101;\n  transition: all 250ms cubic-bezier(1,0,.37,.91);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Odd Cobra 97</title>\n<style>\n/* From Uiverse.io by talhaabu1 - https://uiverse.io/talhaabu1/odd-cobra-97 */\n/* From Uiverse.io by talhaabu1 - Tags: checkbox */\n.checkbox-wrapper-23 *,\n  .checkbox-wrapper-23 *:after,\n  .checkbox-wrapper-23 *:before {\n  box-sizing: border-box;\n}\n\n.checkbox-wrapper-23 input {\n  position: absolute;\n  opacity: 0;\n}\n\n.checkbox-wrapper-23 input:checked + label svg path {\n  stroke-dashoffset: 0;\n}\n\n.checkbox-wrapper-23 input:focus + label {\n  transform: scale(1.03);\n}\n\n.checkbox-wrapper-23 input + label {\n  display: block;\n  border: 2px solid rgb(253, 237, 237);\n  width: var(--size);\n  height: var(--size);\n  border-radius: 6px;\n  cursor: pointer;\n  transition: all .2s ease;\n}\n\n.checkbox-wrapper-23 input + label:active {\n  transform: scale(1.05);\n  border-radius: 12px;\n}\n\n.checkbox-wrapper-23 input + label svg {\n  pointer-events: none;\n  padding: 5%;\n}\n\n.checkbox-wrapper-23 input + label svg path {\n  fill: none;\n  stroke: rgb(247, 247, 247);\n  stroke-width: 4px;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-dasharray: 100;\n  stroke-dashoffset: 101;\n  transition: all 250ms cubic-bezier(1,0,.37,.91);\n}\n</style>\n</head>\n<body>\n<div class=\"checkbox-wrapper-23\">\n  <input type=\"checkbox\" id=\"check-23\">\n  <label for=\"check-23\" style=\"--size: 30px\">\n    <svg viewBox=\"0,0,50,50\">\n      <path d=\"M5 30 L 20 45 L 45 5\"></path>\n    </svg>\n  </label>\n</div>\n</body>\n</html>\n"
+}

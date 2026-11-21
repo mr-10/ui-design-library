@@ -1,0 +1,18 @@
+{
+ "id": "curly-lionfish-0-by-akhiljith-vn",
+ "name": "Curly Lionfish 0",
+ "category": "buttons",
+ "author": "AKHILJITH-VN",
+ "source": "https://uiverse.io/AKHILJITH-VN/curly-lionfish-0",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n  Button\n</button>",
+ "css": "/* From Uiverse.io by AKHILJITH-VN - Tags: button */\nbutton {\n  height: auto;\n  width: auto;\n  text-align: justify;\n  background: linear-gradient(30deg,rgb(32, 252, 252),rgb(101, 101, 255)\n    ,rgb(254, 183, 196),rgb(224, 17, 224));\n  color: #ffffff;\n  border: none;\n  padding: 12px 24px;\n  font-size: 16px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  border-radius: 8px;\n  box-shadow: 2px 4px 6px #25d0e3;\n  transition: all 0.5s ease;\n}\n\nbutton:hover {\n  background: linear-gradient(30deg,rgb(224, 17, 224), pink, rgb(60, 60, 255), rgb(32, 252, 252));\n  box-shadow: 2px 4px 6px #a8097e;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Lionfish 0</title>\n<style>\n/* From Uiverse.io by AKHILJITH-VN - https://uiverse.io/AKHILJITH-VN/curly-lionfish-0 */\n/* From Uiverse.io by AKHILJITH-VN - Tags: button */\nbutton {\n  height: auto;\n  width: auto;\n  text-align: justify;\n  background: linear-gradient(30deg,rgb(32, 252, 252),rgb(101, 101, 255)\n    ,rgb(254, 183, 196),rgb(224, 17, 224));\n  color: #ffffff;\n  border: none;\n  padding: 12px 24px;\n  font-size: 16px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  border-radius: 8px;\n  box-shadow: 2px 4px 6px #25d0e3;\n  transition: all 0.5s ease;\n}\n\nbutton:hover {\n  background: linear-gradient(30deg,rgb(224, 17, 224), pink, rgb(60, 60, 255), rgb(32, 252, 252));\n  box-shadow: 2px 4px 6px #a8097e;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+}

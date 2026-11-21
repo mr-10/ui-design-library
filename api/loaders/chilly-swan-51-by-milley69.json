@@ -1,0 +1,18 @@
+{
+ "id": "chilly-swan-51-by-milley69",
+ "name": "Chilly Swan 51",
+ "category": "loaders",
+ "author": "milley69",
+ "source": "https://uiverse.io/milley69/chilly-swan-51",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loading\">\n  <svg width=\"64px\" height=\"48px\">\n      <polyline points=\"0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24\" id=\"back\"></polyline>\n    <polyline points=\"0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24\" id=\"front\"></polyline>\n  </svg>\n</div>",
+ "css": "/* From Uiverse.io by milley69 - Tags: loader */\n.loading svg polyline {\n  fill: none;\n  stroke-width: 3;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n}\n\n.loading svg polyline#back {\n  fill: none;\n  stroke: #ff4d5033;\n}\n\n.loading svg polyline#front {\n  fill: none;\n  stroke: #ff4d4f;\n  stroke-dasharray: 48, 144;\n  stroke-dashoffset: 192;\n  animation: dash_682 1.4s linear infinite;\n}\n\n@keyframes dash_682 {\n  72.5% {\n    opacity: 0;\n  }\n\n  to {\n    stroke-dashoffset: 0;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chilly Swan 51</title>\n<style>\n/* From Uiverse.io by milley69 - https://uiverse.io/milley69/chilly-swan-51 */\n/* From Uiverse.io by milley69 - Tags: loader */\n.loading svg polyline {\n  fill: none;\n  stroke-width: 3;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n}\n\n.loading svg polyline#back {\n  fill: none;\n  stroke: #ff4d5033;\n}\n\n.loading svg polyline#front {\n  fill: none;\n  stroke: #ff4d4f;\n  stroke-dasharray: 48, 144;\n  stroke-dashoffset: 192;\n  animation: dash_682 1.4s linear infinite;\n}\n\n@keyframes dash_682 {\n  72.5% {\n    opacity: 0;\n  }\n\n  to {\n    stroke-dashoffset: 0;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loading\">\n  <svg width=\"64px\" height=\"48px\">\n      <polyline points=\"0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24\" id=\"back\"></polyline>\n    <polyline points=\"0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24\" id=\"front\"></polyline>\n  </svg>\n</div>\n</body>\n</html>\n"
+}

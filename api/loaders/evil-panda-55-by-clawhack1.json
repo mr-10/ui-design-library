@@ -1,0 +1,18 @@
+{
+ "id": "evil-panda-55-by-clawhack1",
+ "name": "Evil Panda 55",
+ "category": "loaders",
+ "author": "ClawHack1",
+ "source": "https://uiverse.io/ClawHack1/evil-panda-55",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\">\n  <div class=\"loader__circle\"></div>\n  <div class=\"loader__circle\"></div>\n  <div class=\"loader__circle\"></div>\n  <div class=\"loader__circle\"></div>\n</div>",
+ "css": "/* From Uiverse.io by ClawHack1 - Tags: loader */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.loader__circle {\n  width: 14px;\n  height: 14px;\n  border-radius: 50%;\n  margin: 0 4px;\n  animation: loader_901 1s ease-in-out infinite;\n}\n\n.loader__circle:nth-of-type(1) {\n  background-color: #007aff;\n  animation-delay: 0;\n}\n\n.loader__circle:nth-of-type(2) {\n  background-color: #ff2d55;\n  animation-delay: 0.25s;\n}\n\n.loader__circle:nth-of-type(3) {\n  background-color: #34c759;\n  animation-delay: 0.5s;\n}\n\n.loader__circle:nth-of-type(4) {\n  background-color: #ff9500;\n  animation-delay: 0.75s;\n}\n\n@keyframes loader_901 {\n  0% {\n    transform: scale(1);\n  }\n\n  20% {\n    transform: scale(1.2);\n  }\n\n  40% {\n    transform: scale(1);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Evil Panda 55</title>\n<style>\n/* From Uiverse.io by ClawHack1 - https://uiverse.io/ClawHack1/evil-panda-55 */\n/* From Uiverse.io by ClawHack1 - Tags: loader */\n.loader {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}\n\n.loader__circle {\n  width: 14px;\n  height: 14px;\n  border-radius: 50%;\n  margin: 0 4px;\n  animation: loader_901 1s ease-in-out infinite;\n}\n\n.loader__circle:nth-of-type(1) {\n  background-color: #007aff;\n  animation-delay: 0;\n}\n\n.loader__circle:nth-of-type(2) {\n  background-color: #ff2d55;\n  animation-delay: 0.25s;\n}\n\n.loader__circle:nth-of-type(3) {\n  background-color: #34c759;\n  animation-delay: 0.5s;\n}\n\n.loader__circle:nth-of-type(4) {\n  background-color: #ff9500;\n  animation-delay: 0.75s;\n}\n\n@keyframes loader_901 {\n  0% {\n    transform: scale(1);\n  }\n\n  20% {\n    transform: scale(1.2);\n  }\n\n  40% {\n    transform: scale(1);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"loader__circle\"></div>\n  <div class=\"loader__circle\"></div>\n  <div class=\"loader__circle\"></div>\n  <div class=\"loader__circle\"></div>\n</div>\n</body>\n</html>\n"
+}

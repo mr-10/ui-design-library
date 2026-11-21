@@ -1,0 +1,18 @@
+{
+ "id": "cuddly-rabbit-84-by-manish-tamang",
+ "name": "Cuddly Rabbit 84",
+ "category": "cards",
+ "author": "Manish-Tamang",
+ "source": "https://uiverse.io/Manish-Tamang/cuddly-rabbit-84",
+ "trigger": "static",
+ "description": "A card UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "cards",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Manish-Tamang  - Tags: card, cool card, tailwindcss -->\n<div class=\"p-4 w-[300px] rounded-lg border dark:border-gray-800\">\n  <h1 class=\"text-2xl font-bold\">History</h1>\n  <div class=\"grid gap-4 mt-2\">\n    <div class=\"flex gap-2 items-center\">\n      <div class=\"bg-red-500 w-20 h-10 rounded\"></div>\n      <div class=\"grid gap-1 text-sm flex-1\">\n        <h2 class=\"font-semibold leading-none line-clamp-2\">\n          Introducing the frontend cloud\n        </h2>\n        <div class=\"text-xs text-gray-500 line-clamp-1 dark:text-gray-400\">\n          1.2M views\n        </div>\n      </div>\n    </div>\n    <div class=\"flex gap-2 items-center\">\n      <div class=\"bg-yellow-500 w-20 h-10 rounded\"></div>\n      <div class=\"grid gap-1 text-sm flex-1\">\n        <h2 class=\"font-semibold leading-none line-clamp-2\">\n          Using Vercel KV with Svelte\n        </h2>\n        <div class=\"text-xs text-gray-500 line-clamp-1 dark:text-gray-400\">\n          21K views\n        </div>\n      </div>\n    </div>\n    <div class=\"flex gap-2 items-center\">\n      <div class=\"bg-blue-500 w-20 h-10 rounded\"></div>\n      <div class=\"grid gap-1 text-sm flex-1\">\n        <h2 class=\"font-semibold leading-none line-clamp-2\">\n          Loading UI with Next.js 13\n        </h2>\n        <div class=\"text-xs text-gray-500 line-clamp-1 dark:text-gray-400\">\n          12K views\n        </div>\n      </div>\n    </div>\n  </div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cuddly Rabbit 84</title>\n<style>\n/* From Uiverse.io by Manish-Tamang - https://uiverse.io/Manish-Tamang/cuddly-rabbit-84 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Manish-Tamang  - Tags: card, cool card, tailwindcss -->\n<div class=\"p-4 w-[300px] rounded-lg border dark:border-gray-800\">\n  <h1 class=\"text-2xl font-bold\">History</h1>\n  <div class=\"grid gap-4 mt-2\">\n    <div class=\"flex gap-2 items-center\">\n      <div class=\"bg-red-500 w-20 h-10 rounded\"></div>\n      <div class=\"grid gap-1 text-sm flex-1\">\n        <h2 class=\"font-semibold leading-none line-clamp-2\">\n          Introducing the frontend cloud\n        </h2>\n        <div class=\"text-xs text-gray-500 line-clamp-1 dark:text-gray-400\">\n          1.2M views\n        </div>\n      </div>\n    </div>\n    <div class=\"flex gap-2 items-center\">\n      <div class=\"bg-yellow-500 w-20 h-10 rounded\"></div>\n      <div class=\"grid gap-1 text-sm flex-1\">\n        <h2 class=\"font-semibold leading-none line-clamp-2\">\n          Using Vercel KV with Svelte\n        </h2>\n        <div class=\"text-xs text-gray-500 line-clamp-1 dark:text-gray-400\">\n          21K views\n        </div>\n      </div>\n    </div>\n    <div class=\"flex gap-2 items-center\">\n      <div class=\"bg-blue-500 w-20 h-10 rounded\"></div>\n      <div class=\"grid gap-1 text-sm flex-1\">\n        <h2 class=\"font-semibold leading-none line-clamp-2\">\n          Loading UI with Next.js 13\n        </h2>\n        <div class=\"text-xs text-gray-500 line-clamp-1 dark:text-gray-400\">\n          12K views\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+}

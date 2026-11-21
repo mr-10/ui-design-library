@@ -1,0 +1,20 @@
+{
+ "id": "friendly-skunk-89-by-souravbandyopadhyay",
+ "name": "Friendly Skunk 89",
+ "category": "cards",
+ "author": "SouravBandyopadhyay",
+ "source": "https://uiverse.io/SouravBandyopadhyay/friendly-skunk-89",
+ "trigger": "hover",
+ "description": "A card with animation, bubble and transition styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "animation",
+  "card",
+  "hover",
+  "bubble",
+  "transition"
+ ],
+ "html": "<div class=\"one-div\"></div>",
+ "css": "/* From Uiverse.io by SouravBandyopadhyay - Tags: animation, card, hover, bubble, transition */\n.one-div {\n  width: 300px;\n  height: 300px;\n  background: linear-gradient(135deg, #ff5f6d, #ffc371, #ffd800);\n  position: relative;\n  overflow: hidden;\n  transform: rotate(45deg);\n  animation: rotate 5s infinite linear;\n  border-radius: 1.5rem;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.one-div::before {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 150px;\n  height: 150px;\n  background: radial-gradient(circle, #ffffff, transparent);\n  border-radius: 50%;\n  transform: translate(-50%, -50%);\n  opacity: 0.8;\n  animation: pulse 2s infinite;\n}\n\n@keyframes pulse {\n  0% {\n    transform: translate(-50%, -50%) scale(0.8);\n    opacity: 0.8;\n  }\n\n  50% {\n    transform: translate(-50%, -50%) scale(1.2);\n    opacity: 0.4;\n  }\n\n  100% {\n    transform: translate(-50%, -50%) scale(0.8);\n    opacity: 0.8;\n  }\n}\n\n.one-div:hover {\n  animation-play-state: paused;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Friendly Skunk 89</title>\n<style>\n/* From Uiverse.io by SouravBandyopadhyay - https://uiverse.io/SouravBandyopadhyay/friendly-skunk-89 */\n/* From Uiverse.io by SouravBandyopadhyay - Tags: animation, card, hover, bubble, transition */\n.one-div {\n  width: 300px;\n  height: 300px;\n  background: linear-gradient(135deg, #ff5f6d, #ffc371, #ffd800);\n  position: relative;\n  overflow: hidden;\n  transform: rotate(45deg);\n  animation: rotate 5s infinite linear;\n  border-radius: 1.5rem;\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.one-div::before {\n  content: '';\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 150px;\n  height: 150px;\n  background: radial-gradient(circle, #ffffff, transparent);\n  border-radius: 50%;\n  transform: translate(-50%, -50%);\n  opacity: 0.8;\n  animation: pulse 2s infinite;\n}\n\n@keyframes pulse {\n  0% {\n    transform: translate(-50%, -50%) scale(0.8);\n    opacity: 0.8;\n  }\n\n  50% {\n    transform: translate(-50%, -50%) scale(1.2);\n    opacity: 0.4;\n  }\n\n  100% {\n    transform: translate(-50%, -50%) scale(0.8);\n    opacity: 0.8;\n  }\n}\n\n.one-div:hover {\n  animation-play-state: paused;\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "good-yak-38-by-dear31",
+ "name": "Good Yak 38",
+ "category": "buttons",
+ "author": "Dear31",
+ "source": "https://uiverse.io/Dear31/good-yak-38",
+ "trigger": "hover",
+ "description": "A button with simple styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "button",
+  "hover"
+ ],
+ "html": "<button>\n  Hover Me\n</button>",
+ "css": "/* From Uiverse.io by Dear31 - Tags: simple, button, hover */\nbutton {\n  padding: 12px 32px;\n  border-radius: 10px;\n  border: 3px black solid;\n  box-shadow: 2px 2px 1px;\n  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;\n  font-weight: 700;\n  font-size: 17px;\n  background-color: #01aaba68;\n  overflow: hidden;\n  position: relative;\n  z-index: 10;\n}\n\nbutton::after {\n  content: \"\";\n  position: absolute;\n  background-color: #199fab;\n  width: 0px;\n  height: 0px;\n  border-radius: 50%;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  transition: all .3s ease-in;\n  z-index: -1;\n}\n\nbutton:hover::after {\n  transform-origin: center;\n  transition: all .3s ease-in;\n  width: 200px;\n  height: 200px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Good Yak 38</title>\n<style>\n/* From Uiverse.io by Dear31 - https://uiverse.io/Dear31/good-yak-38 */\n/* From Uiverse.io by Dear31 - Tags: simple, button, hover */\nbutton {\n  padding: 12px 32px;\n  border-radius: 10px;\n  border: 3px black solid;\n  box-shadow: 2px 2px 1px;\n  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;\n  font-weight: 700;\n  font-size: 17px;\n  background-color: #01aaba68;\n  overflow: hidden;\n  position: relative;\n  z-index: 10;\n}\n\nbutton::after {\n  content: \"\";\n  position: absolute;\n  background-color: #199fab;\n  width: 0px;\n  height: 0px;\n  border-radius: 50%;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  transition: all .3s ease-in;\n  z-index: -1;\n}\n\nbutton:hover::after {\n  transform-origin: center;\n  transition: all .3s ease-in;\n  width: 200px;\n  height: 200px;\n}\n</style>\n</head>\n<body>\n<button>\n  Hover Me\n</button>\n</body>\n</html>\n"
+}

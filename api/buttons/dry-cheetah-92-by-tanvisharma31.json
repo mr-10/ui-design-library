@@ -1,0 +1,18 @@
+{
+ "id": "dry-cheetah-92-by-tanvisharma31",
+ "name": "Dry Cheetah 92",
+ "category": "buttons",
+ "author": "Tanvisharma31",
+ "source": "https://uiverse.io/Tanvisharma31/dry-cheetah-92",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"space-adventure-button\">Join the Adventure</button>",
+ "css": "/* From Uiverse.io by Tanvisharma31 - Tags: button */\n.space-adventure-button {\n  background-color: #1a1a2e;\n  color: #fff;\n  border: none;\n  padding: 20px;\n  font-size: 17px;\n  font-weight: bold;\n  text-transform: uppercase;\n  border-radius: 40px;\n  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);\n  transition: all 0.2s ease-in-out;\n}\n\n.space-adventure-button:hover {\n  background-color: #eb4d4b;\n  cursor: pointer;\n  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Dry Cheetah 92</title>\n<style>\n/* From Uiverse.io by Tanvisharma31 - https://uiverse.io/Tanvisharma31/dry-cheetah-92 */\n/* From Uiverse.io by Tanvisharma31 - Tags: button */\n.space-adventure-button {\n  background-color: #1a1a2e;\n  color: #fff;\n  border: none;\n  padding: 20px;\n  font-size: 17px;\n  font-weight: bold;\n  text-transform: uppercase;\n  border-radius: 40px;\n  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);\n  transition: all 0.2s ease-in-out;\n}\n\n.space-adventure-button:hover {\n  background-color: #eb4d4b;\n  cursor: pointer;\n  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);\n}\n</style>\n</head>\n<body>\n<button class=\"space-adventure-button\">Join the Adventure</button>\n</body>\n</html>\n"
+}

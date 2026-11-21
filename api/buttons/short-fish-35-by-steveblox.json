@@ -1,0 +1,19 @@
+{
+ "id": "short-fish-35-by-steveblox",
+ "name": "Short Fish 35",
+ "category": "buttons",
+ "author": "SteveBloX",
+ "source": "https://uiverse.io/SteveBloX/short-fish-35",
+ "trigger": "hover",
+ "description": "A button with blue and white styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "blue",
+  "white",
+  "hover",
+  "button"
+ ],
+ "html": "<button>\n  Button\n</button>",
+ "css": "/* From Uiverse.io by SteveBloX - Tags: blue, white, hover, button */\nbutton {\n  width: 150px;\n  height: 60px;\n  border: 3px solid #315cfd;\n  border-radius: 45px;\n  transition: all 0.3s;\n  cursor: pointer;\n  background: white;\n  font-size: 1.2em;\n  font-weight: 550;\n  font-family: 'Montserrat', sans-serif;\n}\n\nbutton:hover {\n  background: #315cfd;\n  color: white;\n  font-size: 1.5em;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Short Fish 35</title>\n<style>\n/* From Uiverse.io by SteveBloX - https://uiverse.io/SteveBloX/short-fish-35 */\n/* From Uiverse.io by SteveBloX - Tags: blue, white, hover, button */\nbutton {\n  width: 150px;\n  height: 60px;\n  border: 3px solid #315cfd;\n  border-radius: 45px;\n  transition: all 0.3s;\n  cursor: pointer;\n  background: white;\n  font-size: 1.2em;\n  font-weight: 550;\n  font-family: 'Montserrat', sans-serif;\n}\n\nbutton:hover {\n  background: #315cfd;\n  color: white;\n  font-size: 1.5em;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+}

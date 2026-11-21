@@ -1,0 +1,20 @@
+{
+ "id": "evil-eel-92-by-ercnersoy",
+ "name": "Evil Eel 92",
+ "category": "toggle-switches",
+ "author": "ercnersoy",
+ "source": "https://uiverse.io/ercnersoy/evil-eel-92",
+ "trigger": "checked",
+ "description": "A toggle switch with simple, switch and creative styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "simple",
+  "switch",
+  "creative",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<label class=\"switch\">\n  <input class=\"ch\" type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>",
+ "css": "/* From Uiverse.io by ercnersoy  - Tags: simple, switch, creative */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 1.5em;\n}\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  inset: 0;\n  background-color: #ccc;\n  transition: 0.4s;\n  border-radius: 1rem 0rem 1rem;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.5em;\n  width: 1.4em;\n  left: 0em;\n  bottom: 0em;\n  background-color: white;\n  transition: 0.4s;\n  border-radius: 1rem 0rem 1rem;\n  border: 3px solid white;\n}\n\n.ch:checked + .slider {\n  background-color: #72eb67;\n}\n\n.ch:focus + .slider {\n  box-shadow: 0 0 1px #2196f3;\n}\n\n.ch:checked + .slider:before {\n  transform: translateX(2.2em);\n  background-color: green;\n  box-shadow: 0px 0px 40px 5px #72eb67;\n  border: 3px solid white;\n}\n\n.ch:checked + .slider::after {\n  content: \"|\";\n  color: white;\n  position: absolute;\n  right: 0.3rem;\n  top: -3.3px;\n  transform: rotate(45deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Evil Eel 92</title>\n<style>\n/* From Uiverse.io by ercnersoy - https://uiverse.io/ercnersoy/evil-eel-92 */\n/* From Uiverse.io by ercnersoy  - Tags: simple, switch, creative */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 1.5em;\n}\n/* Hide default HTML checkbox */\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  inset: 0;\n  background-color: #ccc;\n  transition: 0.4s;\n  border-radius: 1rem 0rem 1rem;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.5em;\n  width: 1.4em;\n  left: 0em;\n  bottom: 0em;\n  background-color: white;\n  transition: 0.4s;\n  border-radius: 1rem 0rem 1rem;\n  border: 3px solid white;\n}\n\n.ch:checked + .slider {\n  background-color: #72eb67;\n}\n\n.ch:focus + .slider {\n  box-shadow: 0 0 1px #2196f3;\n}\n\n.ch:checked + .slider:before {\n  transform: translateX(2.2em);\n  background-color: green;\n  box-shadow: 0px 0px 40px 5px #72eb67;\n  border: 3px solid white;\n}\n\n.ch:checked + .slider::after {\n  content: \"|\";\n  color: white;\n  position: absolute;\n  right: 0.3rem;\n  top: -3.3px;\n  transform: rotate(45deg);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input class=\"ch\" type=\"checkbox\" />\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+}

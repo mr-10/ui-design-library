@@ -1,0 +1,18 @@
+{
+ "id": "rare-ladybug-6-by-bodyhc",
+ "name": "Rare Ladybug 6",
+ "category": "buttons",
+ "author": "Bodyhc",
+ "source": "https://uiverse.io/Bodyhc/rare-ladybug-6",
+ "trigger": "static",
+ "description": "A button with bootsrap-button styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "button",
+  "bootsrap-button",
+  "static"
+ ],
+ "html": "<button class=\"button\">\nALT\n</button>",
+ "css": "/* From Uiverse.io by Bodyhc - Tags: button, bootsrap button */\n.button {\n  --key-text-color: #969faf;\n  --docsearch-key-shadow: inset 0 -2px 0 0 #cdcde6,inset 0 0 1px 1px #fff,0 1px 2px 1px rgba(30,35,90,0.4);\n  --docsearch-key-gradient: linear-gradient(-225deg,#d5dbe4,#f8f8f8);\n  background: var(--docsearch-key-gradient);\n  border-radius: 5px;\n  box-shadow: var(--docsearch-key-shadow);\n  color: var(--key-text-color);\n  height: 2.5em;\n  text-align: center;\n  padding: 0.6em;\n  margin: 0 0.6em;\n  display: inline-block;\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 1em;\n  min-width: 1em;\n  line-height: 1em;\n  user-select: none;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Rare Ladybug 6</title>\n<style>\n/* From Uiverse.io by Bodyhc - https://uiverse.io/Bodyhc/rare-ladybug-6 */\n/* From Uiverse.io by Bodyhc - Tags: button, bootsrap button */\n.button {\n  --key-text-color: #969faf;\n  --docsearch-key-shadow: inset 0 -2px 0 0 #cdcde6,inset 0 0 1px 1px #fff,0 1px 2px 1px rgba(30,35,90,0.4);\n  --docsearch-key-gradient: linear-gradient(-225deg,#d5dbe4,#f8f8f8);\n  background: var(--docsearch-key-gradient);\n  border-radius: 5px;\n  box-shadow: var(--docsearch-key-shadow);\n  color: var(--key-text-color);\n  height: 2.5em;\n  text-align: center;\n  padding: 0.6em;\n  margin: 0 0.6em;\n  display: inline-block;\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 1em;\n  min-width: 1em;\n  line-height: 1em;\n  user-select: none;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\nALT\n</button>\n</body>\n</html>\n"
+}

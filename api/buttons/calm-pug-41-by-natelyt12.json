@@ -1,0 +1,18 @@
+{
+ "id": "calm-pug-41-by-natelyt12",
+ "name": "Calm Pug 41",
+ "category": "buttons",
+ "author": "natelyt12",
+ "source": "https://uiverse.io/natelyt12/calm-pug-41",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"btn-1\">Hover me!</button>",
+ "css": "/* From Uiverse.io by natelyt12  - Tags: button */\n.btn-1 {\n  position: relative;\n  color: white;\n  border: none;\n  padding: 8px 20px;\n  transition: 300ms;\n  box-sizing: border-box;\n  background-color: transparent;\n}\n\n.btn-1::before {\n  content: \"\";\n  position: absolute;\n  background-color: white;\n  top: 0;\n  left: 0;\n  width: 0px;\n  height: 100%;\n  transition: 300ms;\n  transform: skewX(-20deg);\n}\n\n.btn-1::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 0px;\n  height: 100%;\n  transition: 300ms;\n  background-color: white;\n  opacity: 0.2;\n  transform: skewX(-20deg);\n}\n\n.btn-1:hover {\n  padding-left: 25px;\n  cursor: pointer;\n}\n\n.btn-1:hover::before {\n  width: 5px;\n}\n\n.btn-1:hover::after {\n  width: 100%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Calm Pug 41</title>\n<style>\n/* From Uiverse.io by natelyt12 - https://uiverse.io/natelyt12/calm-pug-41 */\n/* From Uiverse.io by natelyt12  - Tags: button */\n.btn-1 {\n  position: relative;\n  color: white;\n  border: none;\n  padding: 8px 20px;\n  transition: 300ms;\n  box-sizing: border-box;\n  background-color: transparent;\n}\n\n.btn-1::before {\n  content: \"\";\n  position: absolute;\n  background-color: white;\n  top: 0;\n  left: 0;\n  width: 0px;\n  height: 100%;\n  transition: 300ms;\n  transform: skewX(-20deg);\n}\n\n.btn-1::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 0px;\n  height: 100%;\n  transition: 300ms;\n  background-color: white;\n  opacity: 0.2;\n  transform: skewX(-20deg);\n}\n\n.btn-1:hover {\n  padding-left: 25px;\n  cursor: pointer;\n}\n\n.btn-1:hover::before {\n  width: 5px;\n}\n\n.btn-1:hover::after {\n  width: 100%;\n}\n</style>\n</head>\n<body>\n<button class=\"btn-1\">Hover me!</button>\n</body>\n</html>\n"
+}

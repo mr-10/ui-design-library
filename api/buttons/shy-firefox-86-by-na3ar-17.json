@@ -1,0 +1,20 @@
+{
+ "id": "shy-firefox-86-by-na3ar-17",
+ "name": "Shy Firefox 86",
+ "category": "buttons",
+ "author": "Na3ar-17",
+ "source": "https://uiverse.io/Na3ar-17/shy-firefox-86",
+ "trigger": "hover",
+ "description": "A button with simple, icon and animation styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "icon",
+  "animation",
+  "button",
+  "hover"
+ ],
+ "html": "<button class=\"button\">\n  <svg\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    height=\"24\"\n    width=\"24\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    aria-hidden=\"true\"\n    class=\"icon\"\n  >\n    <path\n      d=\"M5 12h14m-7 7V5\"\n      stroke-width=\"2\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      stroke=\"currentColor\"\n    ></path>\n  </svg>\n\n  Create Task\n</button>",
+ "css": "/* From Uiverse.io by Na3ar-17  - Tags: simple, icon, animation, button */\n.button {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 18px;\n  cursor: pointer;\n  transition: all 0.2s ease;\n  display: flex;\n  align-items: center;\n  font-weight: 500;\n  background-color: #268bff;\n  color: white;\n  border: none;\n  gap: 2px;\n  border-radius: 8px;\n  padding: 4px 8px;\n}\n\n.button .icon {\n  width: 20px;\n}\n\n.button:hover {\n  background-color: #268bffaf;\n}\n.button:active {\n  transform: translateY(2px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Shy Firefox 86</title>\n<style>\n/* From Uiverse.io by Na3ar-17 - https://uiverse.io/Na3ar-17/shy-firefox-86 */\n/* From Uiverse.io by Na3ar-17  - Tags: simple, icon, animation, button */\n.button {\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 18px;\n  cursor: pointer;\n  transition: all 0.2s ease;\n  display: flex;\n  align-items: center;\n  font-weight: 500;\n  background-color: #268bff;\n  color: white;\n  border: none;\n  gap: 2px;\n  border-radius: 8px;\n  padding: 4px 8px;\n}\n\n.button .icon {\n  width: 20px;\n}\n\n.button:hover {\n  background-color: #268bffaf;\n}\n.button:active {\n  transform: translateY(2px);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  <svg\n    viewBox=\"0 0 24 24\"\n    fill=\"none\"\n    height=\"24\"\n    width=\"24\"\n    xmlns=\"http://www.w3.org/2000/svg\"\n    aria-hidden=\"true\"\n    class=\"icon\"\n  >\n    <path\n      d=\"M5 12h14m-7 7V5\"\n      stroke-width=\"2\"\n      stroke-linejoin=\"round\"\n      stroke-linecap=\"round\"\n      stroke=\"currentColor\"\n    ></path>\n  </svg>\n\n  Create Task\n</button>\n</body>\n</html>\n"
+}

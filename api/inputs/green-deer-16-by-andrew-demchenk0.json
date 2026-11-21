@@ -1,0 +1,18 @@
+{
+ "id": "green-deer-16-by-andrew-demchenk0",
+ "name": "Green Deer 16",
+ "category": "inputs",
+ "author": "andrew-demchenk0",
+ "source": "https://uiverse.io/andrew-demchenk0/green-deer-16",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<label class=\"wrapper\">\n  <input type=\"text\" placeholder=\"Input label\" name=\"text\" class=\"input\">\n  <span class=\"placeholder\">Input label</span>\n</label>",
+ "css": "/* From Uiverse.io by andrew-demchenk0 - Tags: input */\n.wrapper {\n  position: relative;\n}\n\n.input {\n  width: 190px;\n  height: 35px;\n  border-radius: 5px;\n  border: 2px #323232 solid;\n  padding: 5px 15px;\n  background-color: #e8e8e8;\n  font-size: 15;\n  font-weight: 500;\n}\n\n.placeholder {\n  width: 65%;\n  position: absolute;\n  top: -18px;\n  left: 50%;\n  transform: translateX(-50%);\n  z-index: 2;\n  text-align: center;\n  color: blueviolet;\n  background-color: #e8e8e8;\n  font-weight: 600;\n  font-size: 15px;\n  letter-spacing: 1.5px;\n  transition: all 0.3s;\n  opacity: 0;\n}\n\n.input::placeholder {\n  font-size: 15px;\n  font-weight: 500;\n  letter-spacing: 1px;\n}\n\n.input:focus + .placeholder {\n  opacity: 1;\n}\n\n.input:focus {\n  outline: 2px solid blueviolet;\n  border: none;\n  color: blueviolet;\n}\n\n.input:focus::placeholder {\n  opacity: 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Green Deer 16</title>\n<style>\n/* From Uiverse.io by andrew-demchenk0 - https://uiverse.io/andrew-demchenk0/green-deer-16 */\n/* From Uiverse.io by andrew-demchenk0 - Tags: input */\n.wrapper {\n  position: relative;\n}\n\n.input {\n  width: 190px;\n  height: 35px;\n  border-radius: 5px;\n  border: 2px #323232 solid;\n  padding: 5px 15px;\n  background-color: #e8e8e8;\n  font-size: 15;\n  font-weight: 500;\n}\n\n.placeholder {\n  width: 65%;\n  position: absolute;\n  top: -18px;\n  left: 50%;\n  transform: translateX(-50%);\n  z-index: 2;\n  text-align: center;\n  color: blueviolet;\n  background-color: #e8e8e8;\n  font-weight: 600;\n  font-size: 15px;\n  letter-spacing: 1.5px;\n  transition: all 0.3s;\n  opacity: 0;\n}\n\n.input::placeholder {\n  font-size: 15px;\n  font-weight: 500;\n  letter-spacing: 1px;\n}\n\n.input:focus + .placeholder {\n  opacity: 1;\n}\n\n.input:focus {\n  outline: 2px solid blueviolet;\n  border: none;\n  color: blueviolet;\n}\n\n.input:focus::placeholder {\n  opacity: 0;\n}\n</style>\n</head>\n<body>\n<label class=\"wrapper\">\n  <input type=\"text\" placeholder=\"Input label\" name=\"text\" class=\"input\">\n  <span class=\"placeholder\">Input label</span>\n</label>\n</body>\n</html>\n"
+}

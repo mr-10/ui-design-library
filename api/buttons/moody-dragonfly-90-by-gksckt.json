@@ -1,0 +1,18 @@
+{
+ "id": "moody-dragonfly-90-by-gksckt",
+ "name": "Moody Dragonfly 90",
+ "category": "buttons",
+ "author": "gksckt",
+ "source": "https://uiverse.io/gksckt/moody-dragonfly-90",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"btn\">Hover Me</button>",
+ "css": "/* From Uiverse.io by gksckt - Tags: button */\n.main {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.btn {\n  width: 170px;\n  height: 60px;\n  font-size: 18px;\n  background: #fff;\n  border: none;\n  border-radius: 50px;\n  color: #000;\n  outline: none;\n  cursor: pointer;\n  transition: all 0.4s;\n}\n\n.btn:hover {\n  box-shadow: inset 0 0 0 4px #ef476f, \n              inset 0 0 0 8px #ffd166, \n              inset 0 0 0 12px #06d6a0,\n              inset 0 0 0 16px #118ab2;\n  background: #073b4c;\n  color: #fff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Dragonfly 90</title>\n<style>\n/* From Uiverse.io by gksckt - https://uiverse.io/gksckt/moody-dragonfly-90 */\n/* From Uiverse.io by gksckt - Tags: button */\n.main {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n\n.btn {\n  width: 170px;\n  height: 60px;\n  font-size: 18px;\n  background: #fff;\n  border: none;\n  border-radius: 50px;\n  color: #000;\n  outline: none;\n  cursor: pointer;\n  transition: all 0.4s;\n}\n\n.btn:hover {\n  box-shadow: inset 0 0 0 4px #ef476f, \n              inset 0 0 0 8px #ffd166, \n              inset 0 0 0 12px #06d6a0,\n              inset 0 0 0 16px #118ab2;\n  background: #073b4c;\n  color: #fff;\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">Hover Me</button>\n</body>\n</html>\n"
+}

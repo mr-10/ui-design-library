@@ -1,0 +1,19 @@
+{
+ "id": "modern-rabbit-52-by-souravbandyopadhyay",
+ "name": "Modern Rabbit 52",
+ "category": "inputs",
+ "author": "SouravBandyopadhyay",
+ "source": "https://uiverse.io/SouravBandyopadhyay/modern-rabbit-52",
+ "trigger": "hover",
+ "description": "A input with light and transition styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "input",
+  "light",
+  "transition",
+  "hover"
+ ],
+ "html": "<div class=\"inp-border a1\">\n      <input placeholder=\"Your Name\" name=\"name1\" type=\"text\" class=\"input\">\n  </div>",
+ "css": "/* From Uiverse.io by SouravBandyopadhyay - Tags: input, light, transition */\n.inp-border {\n  padding: 5px;\n  margin: 2em 1em;\n  border-radius: 50px;\n  max-width: 300px;\n}\n\n.input {\n  text-align: center;\n  padding: 15px;\n  outline: none;\n  border: double 0;\n  background: #252525;\n  border-radius: 50px;\n  position: relative;\n  box-sizing: border-box;\n  display: block;\n  width: 100%;\n  font-size: 1.5rem;\n}\n\n.a1 {\n  background: linear-gradient(\n    330.28deg,\n    #ff6e1d 100%,\n    #ff6e1d 100%,\n    #ff6e1d 100%\n  );\n}\n\n.a1 > input {\n  color: #caab98;\n}\n\n.a1 > input::placeholder {\n  color: #ff6e1d;\n  opacity: 0.6;\n}\n\n.inp-border:focus-within {\n  background: linear-gradient(\n    330.28deg,\n    #2cfff2 0%,\n    #1e78ff 30.73%,\n    #ff54a6 55.73%,\n    #ff6e1d 79.17%,\n    #ff3e3e 100%\n  );\n}\n\n.inp-border:hover {\n  background: linear-gradient(\n    330.28deg,\n    #2cfff2 0%,\n    #1e78ff 30.73%,\n    #ff54a6 55.73%,\n    #ff6e1d 79.17%,\n    #ff3e3e 100%\n  );\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Modern Rabbit 52</title>\n<style>\n/* From Uiverse.io by SouravBandyopadhyay - https://uiverse.io/SouravBandyopadhyay/modern-rabbit-52 */\n/* From Uiverse.io by SouravBandyopadhyay - Tags: input, light, transition */\n.inp-border {\n  padding: 5px;\n  margin: 2em 1em;\n  border-radius: 50px;\n  max-width: 300px;\n}\n\n.input {\n  text-align: center;\n  padding: 15px;\n  outline: none;\n  border: double 0;\n  background: #252525;\n  border-radius: 50px;\n  position: relative;\n  box-sizing: border-box;\n  display: block;\n  width: 100%;\n  font-size: 1.5rem;\n}\n\n.a1 {\n  background: linear-gradient(\n    330.28deg,\n    #ff6e1d 100%,\n    #ff6e1d 100%,\n    #ff6e1d 100%\n  );\n}\n\n.a1 > input {\n  color: #caab98;\n}\n\n.a1 > input::placeholder {\n  color: #ff6e1d;\n  opacity: 0.6;\n}\n\n.inp-border:focus-within {\n  background: linear-gradient(\n    330.28deg,\n    #2cfff2 0%,\n    #1e78ff 30.73%,\n    #ff54a6 55.73%,\n    #ff6e1d 79.17%,\n    #ff3e3e 100%\n  );\n}\n\n.inp-border:hover {\n  background: linear-gradient(\n    330.28deg,\n    #2cfff2 0%,\n    #1e78ff 30.73%,\n    #ff54a6 55.73%,\n    #ff6e1d 79.17%,\n    #ff3e3e 100%\n  );\n}\n</style>\n</head>\n<body>\n<div class=\"inp-border a1\">\n      <input placeholder=\"Your Name\" name=\"name1\" type=\"text\" class=\"input\">\n  </div>\n</body>\n</html>\n"
+}

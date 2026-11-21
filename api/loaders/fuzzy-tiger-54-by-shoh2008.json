@@ -1,0 +1,18 @@
+{
+ "id": "fuzzy-tiger-54-by-shoh2008",
+ "name": "Fuzzy Tiger 54",
+ "category": "loaders",
+ "author": "Shoh2008",
+ "source": "https://uiverse.io/Shoh2008/fuzzy-tiger-54",
+ "trigger": "auto-loop",
+ "description": "A loader with pong styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "pong",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by Shoh2008 - Tags: loader, pong */\n.loader {\n  position: relative;\n  height: 40px;\n  width: 6px;\n  color: #FFF;\n  animation: paddles 0.75s ease-out infinite;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  margin: 0 auto;\n  left: 0;\n  right: 0;\n  top: 15px;\n  width: 12px;\n  height: 12px;\n  background-color: greenyellow;\n  border-radius: 50%;\n  animation: ballbounce 0.6s ease-out infinite;\n}\n\n@keyframes paddles {\n  0% {\n    box-shadow: -25px -10px, 25px 10px\n  }\n\n  50% {\n    box-shadow: -25px 8px, 25px -10px\n  }\n\n  100% {\n    box-shadow: -25px -10px, 25px 10px\n  }\n}\n\n@keyframes ballbounce {\n  0% {\n    transform: translateX(-20px) scale(1, 1.2)\n  }\n\n  25% {\n    transform: scale(1.2, 1)\n  }\n\n  50% {\n    transform: translateX(15px) scale(1, 1.2)\n  }\n\n  75% {\n    transform: scale(1.2, 1)\n  }\n\n  100% {\n    transform: translateX(-20px)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fuzzy Tiger 54</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/fuzzy-tiger-54 */\n/* From Uiverse.io by Shoh2008 - Tags: loader, pong */\n.loader {\n  position: relative;\n  height: 40px;\n  width: 6px;\n  color: #FFF;\n  animation: paddles 0.75s ease-out infinite;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  margin: 0 auto;\n  left: 0;\n  right: 0;\n  top: 15px;\n  width: 12px;\n  height: 12px;\n  background-color: greenyellow;\n  border-radius: 50%;\n  animation: ballbounce 0.6s ease-out infinite;\n}\n\n@keyframes paddles {\n  0% {\n    box-shadow: -25px -10px, 25px 10px\n  }\n\n  50% {\n    box-shadow: -25px 8px, 25px -10px\n  }\n\n  100% {\n    box-shadow: -25px -10px, 25px 10px\n  }\n}\n\n@keyframes ballbounce {\n  0% {\n    transform: translateX(-20px) scale(1, 1.2)\n  }\n\n  25% {\n    transform: scale(1.2, 1)\n  }\n\n  50% {\n    transform: translateX(15px) scale(1, 1.2)\n  }\n\n  75% {\n    transform: scale(1.2, 1)\n  }\n\n  100% {\n    transform: translateX(-20px)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

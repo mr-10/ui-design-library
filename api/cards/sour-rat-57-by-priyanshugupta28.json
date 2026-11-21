@@ -1,0 +1,20 @@
+{
+ "id": "sour-rat-57-by-priyanshugupta28",
+ "name": "Sour Rat 57",
+ "category": "cards",
+ "author": "PriyanshuGupta28",
+ "source": "https://uiverse.io/PriyanshuGupta28/sour-rat-57",
+ "trigger": "static",
+ "description": "A card with alert, toast and alearttoast styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "alert",
+  "card",
+  "toast",
+  "alearttoast",
+  "static"
+ ],
+ "html": "<div class=\"toast\">\n    \n    <div class=\"toast-content\">\n      This is a toast message.\n    </div>\n    <div class=\"toast-icon\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n        <path d=\"M15.795 8.342l-5.909 9.545a1 1 0 0 1-1.628 0l-3.182-4.909a1 1 0 0 1 1.629-1.165l2.556 3.953L14.165 7.51a1 1 0 0 1 1.63 1.165z\"></path>\n      </svg>\n    </div>\n  </div>",
+ "css": "/* From Uiverse.io by PriyanshuGupta28 - Tags: alert, card, toast, aleartToast */\n.toast {\n  bottom: 20px;\n  right: 20px;\n  background-color: #333;\n  color: #fff;\n  padding: 10px;\n  border-radius: 5px;\n  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\n.toast-icon svg {\n  width: 30px;\n  height: 20px;\n  fill: #fff;\n}\n\n.toast-content {\n  font-family: Arial, sans-serif;\n  font-size: 14px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sour Rat 57</title>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - https://uiverse.io/PriyanshuGupta28/sour-rat-57 */\n/* From Uiverse.io by PriyanshuGupta28 - Tags: alert, card, toast, aleartToast */\n.toast {\n  bottom: 20px;\n  right: 20px;\n  background-color: #333;\n  color: #fff;\n  padding: 10px;\n  border-radius: 5px;\n  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\n.toast-icon svg {\n  width: 30px;\n  height: 20px;\n  fill: #fff;\n}\n\n.toast-content {\n  font-family: Arial, sans-serif;\n  font-size: 14px;\n}\n</style>\n</head>\n<body>\n<div class=\"toast\">\n    \n    <div class=\"toast-content\">\n      This is a toast message.\n    </div>\n    <div class=\"toast-icon\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n        <path d=\"M15.795 8.342l-5.909 9.545a1 1 0 0 1-1.628 0l-3.182-4.909a1 1 0 0 1 1.629-1.165l2.556 3.953L14.165 7.51a1 1 0 0 1 1.63 1.165z\"></path>\n      </svg>\n    </div>\n  </div>\n</body>\n</html>\n"
+}

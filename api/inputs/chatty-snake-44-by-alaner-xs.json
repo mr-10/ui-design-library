@@ -1,0 +1,18 @@
+{
+ "id": "chatty-snake-44-by-alaner-xs",
+ "name": "Chatty Snake 44",
+ "category": "inputs",
+ "author": "Alaner-xs",
+ "source": "https://uiverse.io/Alaner-xs/chatty-snake-44",
+ "trigger": "hover",
+ "description": "A input UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "input",
+  "hover",
+  "css"
+ ],
+ "html": "<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type your text\">",
+ "css": "/* From Uiverse.io by Alaner-xs - Tags: input */\n.input {\n background-color: #383838;\n border: 1ex solid none;\n border-top-width: 1.7em;\n margin: 0;\n padding: 0;\n color: #383838;\n word-wrap: break-word;\n outline: 7px solid #383838;\n height: 30px;\n font-size: 17px;\n text-align: center;\n transition: all 1s;\n max-width: 190px;\n font-weight: bold;\n font-family: 'Courier New', Courier, monospace;\n}\n\n.input:hover {\n border-top-width: 0.2em;\n background-color: #f1e8e8;\n}\n\n.input:focus {\n border-top-width: 0.2em;\n background-color: #f1e8e8;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Chatty Snake 44</title>\n<style>\n/* From Uiverse.io by Alaner-xs - https://uiverse.io/Alaner-xs/chatty-snake-44 */\n/* From Uiverse.io by Alaner-xs - Tags: input */\n.input {\n background-color: #383838;\n border: 1ex solid none;\n border-top-width: 1.7em;\n margin: 0;\n padding: 0;\n color: #383838;\n word-wrap: break-word;\n outline: 7px solid #383838;\n height: 30px;\n font-size: 17px;\n text-align: center;\n transition: all 1s;\n max-width: 190px;\n font-weight: bold;\n font-family: 'Courier New', Courier, monospace;\n}\n\n.input:hover {\n border-top-width: 0.2em;\n background-color: #f1e8e8;\n}\n\n.input:focus {\n border-top-width: 0.2em;\n background-color: #f1e8e8;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Type your text\">\n</body>\n</html>\n"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "little-eagle-84-by-saidbl1",
+ "name": "Little Eagle 84",
+ "category": "inputs",
+ "author": "saidbl1",
+ "source": "https://uiverse.io/saidbl1/little-eagle-84",
+ "trigger": "focus",
+ "description": "A input with modern, animated and clean styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "modern",
+  "animated",
+  "clean",
+  "focus"
+ ],
+ "html": "<input class=\"input\" name=\"text\" type=\"text\" placeholder=\"Full Name\">",
+ "css": "/* From Uiverse.io by saidbl1 - Tags: input, modern, animated, clean */\n.input {\n  height: 40px;\n  border-radius: 8px;\n  border: 2px solid hsl(236, 92%, 66%);\n  outline: none;\n  transition: 200ms ease-in;\n  padding-left: 1rem;\n}\n\n.input:focus {\n  border-bottom: 4px solid hsl(236, 92%, 66%);\n  padding-top: 2px;\n}\n\n.input::placeholder {\n  color: hsl(236, 92%, 66%);\n  opacity: 0.5;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Eagle 84</title>\n<style>\n/* From Uiverse.io by saidbl1 - https://uiverse.io/saidbl1/little-eagle-84 */\n/* From Uiverse.io by saidbl1 - Tags: input, modern, animated, clean */\n.input {\n  height: 40px;\n  border-radius: 8px;\n  border: 2px solid hsl(236, 92%, 66%);\n  outline: none;\n  transition: 200ms ease-in;\n  padding-left: 1rem;\n}\n\n.input:focus {\n  border-bottom: 4px solid hsl(236, 92%, 66%);\n  padding-top: 2px;\n}\n\n.input::placeholder {\n  color: hsl(236, 92%, 66%);\n  opacity: 0.5;\n}\n</style>\n</head>\n<body>\n<input class=\"input\" name=\"text\" type=\"text\" placeholder=\"Full Name\">\n</body>\n</html>\n"
+}

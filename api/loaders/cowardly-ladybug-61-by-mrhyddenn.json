@@ -1,0 +1,18 @@
+{
+ "id": "cowardly-ladybug-61-by-mrhyddenn",
+ "name": "Cowardly Ladybug 61",
+ "category": "loaders",
+ "author": "mrhyddenn",
+ "source": "https://uiverse.io/mrhyddenn/cowardly-ladybug-61",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  width: 50px;\n  height: 50px;\n  border: 5px solid rgb(0,0,0,0.11);\n  border-radius: 50%;\n  border-top-color: rgb(235, 169, 47);\n  border-left-color: rgb(43, 145, 87);\n  border-right-color: rgb(20, 102, 226);\n  border-bottom-color: rgb(224, 71, 71);\n  animation: loader1776 2s linear infinite;\n}\n\n@keyframes loader1776 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Ladybug 61</title>\n<style>\n/* From Uiverse.io by mrhyddenn - https://uiverse.io/mrhyddenn/cowardly-ladybug-61 */\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.loader {\n  width: 50px;\n  height: 50px;\n  border: 5px solid rgb(0,0,0,0.11);\n  border-radius: 50%;\n  border-top-color: rgb(235, 169, 47);\n  border-left-color: rgb(43, 145, 87);\n  border-right-color: rgb(20, 102, 226);\n  border-bottom-color: rgb(224, 71, 71);\n  animation: loader1776 2s linear infinite;\n}\n\n@keyframes loader1776 {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

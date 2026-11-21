@@ -1,0 +1,21 @@
+{
+ "id": "evil-goat-39-by-rodrypaladin",
+ "name": "Evil Goat 39",
+ "category": "loaders",
+ "author": "Rodrypaladin",
+ "source": "https://uiverse.io/Rodrypaladin/evil-goat-39",
+ "trigger": "auto-loop",
+ "description": "A loader with animation, red and loading styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "animation",
+  "red",
+  "loading",
+  "loader",
+  "modern",
+  "creative"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by Rodrypaladin - Tags: animation, red, loading, loader, modern, creative, multicolor, bounce animation */\n.loader {\n  width: 100px;\n  height: 100px;\n  background-color: orange;\n  border-radius: 50%;\n  box-shadow: -15px -15px 15px #ff6600, 15px -15px 15px #ff9100, 15px 15px 15px #ff5500, -15px 15px 15px #ffa600, -15px 0 15px #ff6600, 15px 0 15px #ffcc00;\n  animation: rotate 1s infinite;\n  transform: rotate(0) scale(0.8);\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(360deg) scale(0.8);\n  }\n\n  50% {\n    transform: rotate(0) scale(1.2);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Evil Goat 39</title>\n<style>\n/* From Uiverse.io by Rodrypaladin - https://uiverse.io/Rodrypaladin/evil-goat-39 */\n/* From Uiverse.io by Rodrypaladin - Tags: animation, red, loading, loader, modern, creative, multicolor, bounce animation */\n.loader {\n  width: 100px;\n  height: 100px;\n  background-color: orange;\n  border-radius: 50%;\n  box-shadow: -15px -15px 15px #ff6600, 15px -15px 15px #ff9100, 15px 15px 15px #ff5500, -15px 15px 15px #ffa600, -15px 0 15px #ff6600, 15px 0 15px #ffcc00;\n  animation: rotate 1s infinite;\n  transform: rotate(0) scale(0.8);\n}\n\n@keyframes rotate {\n  0% {\n    transform: rotate(360deg) scale(0.8);\n  }\n\n  50% {\n    transform: rotate(0) scale(1.2);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

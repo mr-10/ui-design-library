@@ -1,0 +1,18 @@
+{
+ "id": "tough-fox-32-by-themrsami",
+ "name": "Tough Fox 32",
+ "category": "buttons",
+ "author": "themrsami",
+ "source": "https://uiverse.io/themrsami/tough-fox-32",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by themrsami - Tags: simple, button, calculator, tailwind, tailwindbutton, tailwindcss, themrsami -->\n<button\n  class=\"bg-purple-500 text-white px-4 py-2 rounded-full transition duration-200 ease-in-out hover:bg-purple-700 active:bg-purple-900 focus:outline-none\"\n>\n  Click me\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Fox 32</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/tough-fox-32 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by themrsami - Tags: simple, button, calculator, tailwind, tailwindbutton, tailwindcss, themrsami -->\n<button\n  class=\"bg-purple-500 text-white px-4 py-2 rounded-full transition duration-200 ease-in-out hover:bg-purple-700 active:bg-purple-900 focus:outline-none\"\n>\n  Click me\n</button>\n</body>\n</html>\n"
+}

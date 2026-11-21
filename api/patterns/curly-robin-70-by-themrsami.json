@@ -1,0 +1,19 @@
+{
+ "id": "curly-robin-70-by-themrsami",
+ "name": "Curly Robin 70",
+ "category": "patterns",
+ "author": "themrsami",
+ "source": "https://uiverse.io/themrsami/curly-robin-70",
+ "trigger": "static",
+ "description": "A pattern with green and thmrsami styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "green",
+  "pattern",
+  "thmrsami",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by themrsami - Tags: green, pattern, thmrsami */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(45deg, green 25%, transparent 25%, transparent 75%, green 75%, green),\n    linear-gradient(45deg, yellow, yellow);\n  background-size: 100px 100px;\n  background-position: 0, 50px 50px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Robin 70</title>\n<style>\n/* From Uiverse.io by themrsami - https://uiverse.io/themrsami/curly-robin-70 */\n/* From Uiverse.io by themrsami - Tags: green, pattern, thmrsami */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(45deg, green 25%, transparent 25%, transparent 75%, green 75%, green),\n    linear-gradient(45deg, yellow, yellow);\n  background-size: 100px 100px;\n  background-position: 0, 50px 50px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

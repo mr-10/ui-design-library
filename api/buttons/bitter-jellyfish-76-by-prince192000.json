@@ -1,0 +1,18 @@
+{
+ "id": "bitter-jellyfish-76-by-prince192000",
+ "name": "Bitter Jellyfish 76",
+ "category": "buttons",
+ "author": "prince192000",
+ "source": "https://uiverse.io/prince192000/bitter-jellyfish-76",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n  Button\n</button>",
+ "css": "/* From Uiverse.io by prince192000 - Tags: button */\nbutton {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  padding: 15px 30px;\n  text-transform: uppercase;\n  text-decoration: none;\n  color: #fff;\n  background: black;\n  border: none;\n  letter-spacing: 2px;\n  font-size: 17px;\n}\n\nbutton:before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(255, 255, 255, 0.226);\n  z-index: -1;\n  transition: transform 0.5s;\n  transform-origin: bottom right;\n  transform: scale(0);\n}\n\nbutton:hover:before {\n  transition: transform 0.5s;\n  transform-origin: top left;\n  transform: scale(1);\n}\n\nbutton:after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: transparent;\n  border: 2px solid #fff;\n  box-sizing: border-box;\n  z-index: -1;\n  transition: transform 0.5s;\n  transform-origin: bottom right;\n  transform: scale(1);\n}\n\nbutton:hover:after {\n  transition: transform 0.5s;\n  transform-origin: top left;\n  transform: scale(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Jellyfish 76</title>\n<style>\n/* From Uiverse.io by prince192000 - https://uiverse.io/prince192000/bitter-jellyfish-76 */\n/* From Uiverse.io by prince192000 - Tags: button */\nbutton {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%,-50%);\n  padding: 15px 30px;\n  text-transform: uppercase;\n  text-decoration: none;\n  color: #fff;\n  background: black;\n  border: none;\n  letter-spacing: 2px;\n  font-size: 17px;\n}\n\nbutton:before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: rgba(255, 255, 255, 0.226);\n  z-index: -1;\n  transition: transform 0.5s;\n  transform-origin: bottom right;\n  transform: scale(0);\n}\n\nbutton:hover:before {\n  transition: transform 0.5s;\n  transform-origin: top left;\n  transform: scale(1);\n}\n\nbutton:after {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: transparent;\n  border: 2px solid #fff;\n  box-sizing: border-box;\n  z-index: -1;\n  transition: transform 0.5s;\n  transform-origin: bottom right;\n  transform: scale(1);\n}\n\nbutton:hover:after {\n  transition: transform 0.5s;\n  transform-origin: top left;\n  transform: scale(0);\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+}

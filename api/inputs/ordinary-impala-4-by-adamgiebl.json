@@ -1,0 +1,18 @@
+{
+ "id": "ordinary-impala-4-by-adamgiebl",
+ "name": "Ordinary Impala 4",
+ "category": "inputs",
+ "author": "adamgiebl",
+ "source": "https://uiverse.io/adamgiebl/ordinary-impala-4",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "focus",
+  "css"
+ ],
+ "html": "<div class=\"input-wrapper\">\n  <input type=\"text\" placeholder=\"Type here...\" name=\"text\" class=\"input\">\n</div>",
+ "css": "/* From Uiverse.io by adamgiebl - Tags: input */\n.input-wrapper input {\n  background-color: #eee;\n  border: none;\n  padding: 1rem;\n  font-size: 1rem;\n  width: 13em;\n  border-radius: 1rem;\n  color: lightcoral;\n  box-shadow: 0 0.4rem #dfd9d9;\n  cursor: pointer;\n}\n\n.input-wrapper input:focus {\n  outline-color: lightcoral;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ordinary Impala 4</title>\n<style>\n/* From Uiverse.io by adamgiebl - https://uiverse.io/adamgiebl/ordinary-impala-4 */\n/* From Uiverse.io by adamgiebl - Tags: input */\n.input-wrapper input {\n  background-color: #eee;\n  border: none;\n  padding: 1rem;\n  font-size: 1rem;\n  width: 13em;\n  border-radius: 1rem;\n  color: lightcoral;\n  box-shadow: 0 0.4rem #dfd9d9;\n  cursor: pointer;\n}\n\n.input-wrapper input:focus {\n  outline-color: lightcoral;\n}\n</style>\n</head>\n<body>\n<div class=\"input-wrapper\">\n  <input type=\"text\" placeholder=\"Type here...\" name=\"text\" class=\"input\">\n</div>\n</body>\n</html>\n"
+}

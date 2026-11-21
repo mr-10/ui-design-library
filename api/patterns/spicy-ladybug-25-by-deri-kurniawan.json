@@ -1,0 +1,19 @@
+{
+ "id": "spicy-ladybug-25-by-deri-kurniawan",
+ "name": "Spicy Ladybug 25",
+ "category": "patterns",
+ "author": "Deri-Kurniawan",
+ "source": "https://uiverse.io/Deri-Kurniawan/spicy-ladybug-25",
+ "trigger": "static",
+ "description": "A pattern with simple and material-design styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "material-design",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by Deri-Kurniawan  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: radial-gradient(circle at 10% 10%, #3e73f0 5%, transparent 5%),\n    radial-gradient(circle at 90% 10%, #3e73f0 5%, transparent 5%),\n    radial-gradient(circle at 90% 90%, #3e73f0 5%, transparent 5%),\n    radial-gradient(circle at 10% 90%, #3e73f0 5%, transparent 5%);\n  background-size: 20px 20px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Spicy Ladybug 25</title>\n<style>\n/* From Uiverse.io by Deri-Kurniawan - https://uiverse.io/Deri-Kurniawan/spicy-ladybug-25 */\n/* From Uiverse.io by Deri-Kurniawan  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: radial-gradient(circle at 10% 10%, #3e73f0 5%, transparent 5%),\n    radial-gradient(circle at 90% 10%, #3e73f0 5%, transparent 5%),\n    radial-gradient(circle at 90% 90%, #3e73f0 5%, transparent 5%),\n    radial-gradient(circle at 10% 90%, #3e73f0 5%, transparent 5%);\n  background-size: 20px 20px;\n  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "average-panther-44-by-fanishah",
+ "name": "Average Panther 44",
+ "category": "cards",
+ "author": "fanishah",
+ "source": "https://uiverse.io/fanishah/average-panther-44",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"card\"></div>",
+ "css": "/* From Uiverse.io by fanishah - Tags: card */\n.card {\n width: 12.5rem;\n height: 17rem;\n background-color: #212121;\n border-radius: 1rem;\n border: #212121 0.2rem solid;\n transition: all 0.4s ease-in;\n box-shadow: 0.4rem 0.4rem 0.6rem #00000040;\n}\n\n.card:hover {\n transform: translateY(-1.5rem);\n border: #f2295bf0 0.2em solid;\n border-radius: 2.5rem 0 2.5rem 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Average Panther 44</title>\n<style>\n/* From Uiverse.io by fanishah - https://uiverse.io/fanishah/average-panther-44 */\n/* From Uiverse.io by fanishah - Tags: card */\n.card {\n width: 12.5rem;\n height: 17rem;\n background-color: #212121;\n border-radius: 1rem;\n border: #212121 0.2rem solid;\n transition: all 0.4s ease-in;\n box-shadow: 0.4rem 0.4rem 0.6rem #00000040;\n}\n\n.card:hover {\n transform: translateY(-1.5rem);\n border: #f2295bf0 0.2em solid;\n border-radius: 2.5rem 0 2.5rem 0;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+}

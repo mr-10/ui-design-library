@@ -1,0 +1,21 @@
+{
+ "id": "tall-swan-6-by-julandealb",
+ "name": "Tall Swan 6",
+ "category": "checkboxes",
+ "author": "JulanDeAlb",
+ "source": "https://uiverse.io/JulanDeAlb/tall-swan-6",
+ "trigger": "checked",
+ "description": "A checkbox with hamburger, toggle and menu styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "checkbox",
+  "hamburger",
+  "toggle",
+  "menu",
+  "animated",
+  "checked"
+ ],
+ "html": "<label class=\"hamburger\">\n  <input type=\"checkbox\">\n  <svg viewBox=\"0 0 32 32\">\n    <path class=\"line line-top-bottom\" d=\"M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22\"></path>\n    <path class=\"line\" d=\"M7 16 27 16\"></path>\n  </svg>\n</label>",
+ "css": "/* From Uiverse.io by JulanDeAlb - Tags: checkbox, hamburger, toggle, menu, animated */\n.hamburger {\n  cursor: pointer;\n}\n\n.hamburger input {\n  display: none;\n}\n\n.hamburger svg {\n  /* The size of the SVG defines the overall size */\n  height: 3em;\n  /* Define the transition for transforming the SVG */\n  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.line {\n  fill: none;\n  stroke: white;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-width: 3;\n  /* Define the transition for transforming the Stroke */\n  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),\n              stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.line-top-bottom {\n  stroke-dasharray: 12 63;\n}\n\n.hamburger input:checked + svg {\n  transform: rotate(-45deg);\n}\n\n.hamburger input:checked + svg .line-top-bottom {\n  stroke-dasharray: 20 300;\n  stroke-dashoffset: -32.42;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tall Swan 6</title>\n<style>\n/* From Uiverse.io by JulanDeAlb - https://uiverse.io/JulanDeAlb/tall-swan-6 */\n/* From Uiverse.io by JulanDeAlb - Tags: checkbox, hamburger, toggle, menu, animated */\n.hamburger {\n  cursor: pointer;\n}\n\n.hamburger input {\n  display: none;\n}\n\n.hamburger svg {\n  /* The size of the SVG defines the overall size */\n  height: 3em;\n  /* Define the transition for transforming the SVG */\n  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.line {\n  fill: none;\n  stroke: white;\n  stroke-linecap: round;\n  stroke-linejoin: round;\n  stroke-width: 3;\n  /* Define the transition for transforming the Stroke */\n  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),\n              stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);\n}\n\n.line-top-bottom {\n  stroke-dasharray: 12 63;\n}\n\n.hamburger input:checked + svg {\n  transform: rotate(-45deg);\n}\n\n.hamburger input:checked + svg .line-top-bottom {\n  stroke-dasharray: 20 300;\n  stroke-dashoffset: -32.42;\n}\n</style>\n</head>\n<body>\n<label class=\"hamburger\">\n  <input type=\"checkbox\">\n  <svg viewBox=\"0 0 32 32\">\n    <path class=\"line line-top-bottom\" d=\"M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22\"></path>\n    <path class=\"line\" d=\"M7 16 27 16\"></path>\n  </svg>\n</label>\n</body>\n</html>\n"
+}

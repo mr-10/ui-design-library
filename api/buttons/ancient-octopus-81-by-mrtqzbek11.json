@@ -1,0 +1,18 @@
+{
+ "id": "ancient-octopus-81-by-mrtqzbek11",
+ "name": "Ancient Octopus 81",
+ "category": "buttons",
+ "author": "mrtqzbek11",
+ "source": "https://uiverse.io/mrtqzbek11/ancient-octopus-81",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"arc-btn-retro\">\n  Submit\n</button>",
+ "css": "/* From Uiverse.io by mrtqzbek11 - Tags: button */\nbutton {\n  width: 136px;\n  height: 46px;\n  background-color: #19fb9b;\n  border: 1px solid black;\n  border-radius: 6px;\n  cursor: pointer;\n  font-size: 17px;\n  transition: .4s;\n}\n\nbutton:hover {\n  box-shadow: 5px 6px 0px rgb(0, 0, 0);\n}\n\n\n/*Check it out in light theme :) <3 */\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Octopus 81</title>\n<style>\n/* From Uiverse.io by mrtqzbek11 - https://uiverse.io/mrtqzbek11/ancient-octopus-81 */\n/* From Uiverse.io by mrtqzbek11 - Tags: button */\nbutton {\n  width: 136px;\n  height: 46px;\n  background-color: #19fb9b;\n  border: 1px solid black;\n  border-radius: 6px;\n  cursor: pointer;\n  font-size: 17px;\n  transition: .4s;\n}\n\nbutton:hover {\n  box-shadow: 5px 6px 0px rgb(0, 0, 0);\n}\n\n\n/*Check it out in light theme :) <3 */\n</style>\n</head>\n<body>\n<button class=\"arc-btn-retro\">\n  Submit\n</button>\n</body>\n</html>\n"
+}

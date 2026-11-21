@@ -1,0 +1,21 @@
+{
+ "id": "afraid-donkey-40-by-radwakhalil22",
+ "name": "Afraid Donkey 40",
+ "category": "toggle-switches",
+ "author": "radwakhalil22",
+ "source": "https://uiverse.io/radwakhalil22/afraid-donkey-40",
+ "trigger": "checked",
+ "description": "A toggle switch with gradient, switch and checkbox styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "gradient",
+  "switch",
+  "checkbox",
+  "glow",
+  "animated",
+  "toggle-switches"
+ ],
+ "html": "<label class=\"switch\">\n  <input class=\"checkbox\" type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>",
+ "css": "/* From Uiverse.io by radwakhalil22 - Tags: gradient, switch, checkbox, glow, animated */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch .checkbox {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: .4s;\n  border-radius: 30px;\n  box-shadow: 2px 2px 2px 2px #222831, -2px -2px 2px 2px #393E46, -2px 2px 2px 2px #00ADB5, 2px -2px 2px 2px #EEEEEE;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: .4s;\n}\n\n.checkbox:checked + .slider:before {\n  box-shadow: 2px 2px 2px 2px #222831, -2px -2px 2px 2px #393E46, -2px 2px 2px 2px #00ADB5, 2px -2px 2px 2px #EEEEEE;\n}\n\n.checkbox:checked + .slider {\n  background-color: #afa2a2;\n  box-shadow: 2px 2px 2px 2px #222831, -2px -2px 2px 2px #393E46, -2px 2px 2px 2px #00ADB5, 2px -2px 2px 2px #EEEEEE;\n}\n\n.checkbox:checked + .slider:before {\n  transform: translateX(1.5em);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Donkey 40</title>\n<style>\n/* From Uiverse.io by radwakhalil22 - https://uiverse.io/radwakhalil22/afraid-donkey-40 */\n/* From Uiverse.io by radwakhalil22 - Tags: gradient, switch, checkbox, glow, animated */\n/* The switch - the box around the slider */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n}\n\n/* Hide default HTML checkbox */\n.switch .checkbox {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  transition: .4s;\n  border-radius: 30px;\n  box-shadow: 2px 2px 2px 2px #222831, -2px -2px 2px 2px #393E46, -2px 2px 2px 2px #00ADB5, 2px -2px 2px 2px #EEEEEE;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 1.4em;\n  width: 1.4em;\n  border-radius: 20px;\n  left: 0.3em;\n  bottom: 0.3em;\n  background-color: white;\n  transition: .4s;\n}\n\n.checkbox:checked + .slider:before {\n  box-shadow: 2px 2px 2px 2px #222831, -2px -2px 2px 2px #393E46, -2px 2px 2px 2px #00ADB5, 2px -2px 2px 2px #EEEEEE;\n}\n\n.checkbox:checked + .slider {\n  background-color: #afa2a2;\n  box-shadow: 2px 2px 2px 2px #222831, -2px -2px 2px 2px #393E46, -2px 2px 2px 2px #00ADB5, 2px -2px 2px 2px #EEEEEE;\n}\n\n.checkbox:checked + .slider:before {\n  transform: translateX(1.5em);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input class=\"checkbox\" type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+}

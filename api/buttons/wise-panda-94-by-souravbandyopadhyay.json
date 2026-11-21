@@ -1,0 +1,18 @@
+{
+ "id": "wise-panda-94-by-souravbandyopadhyay",
+ "name": "Wise Panda 94",
+ "category": "buttons",
+ "author": "SouravBandyopadhyay",
+ "source": "https://uiverse.io/SouravBandyopadhyay/wise-panda-94",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by SouravBandyopadhyay  - Tags: simple, material design, button, light, modern, clean, hoverme, hover button -->\n<button\n  class=\"flex transform cursor-pointer items-center justify-center space-x-2 rounded-full bg-white px-4 py-2 font-semibold tracking-tight text-black shadow-md transition duration-300 hover:scale-110\"\n>\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    class=\"h-6 w-6 rotate-45 transform transition duration-300\"\n    fill=\"none\"\n    viewBox=\"0 0 24 24\"\n    stroke=\"currentColor\"\n  >\n    <path\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      d=\"M12 19l9 2-9-18-9 18 9-2zm0 0v-8\"\n    ></path>\n  </svg>\n  <span class=\"mr-2\">Send Message</span>\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Wise Panda 94</title>\n<style>\n/* From Uiverse.io by SouravBandyopadhyay - https://uiverse.io/SouravBandyopadhyay/wise-panda-94 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by SouravBandyopadhyay  - Tags: simple, material design, button, light, modern, clean, hoverme, hover button -->\n<button\n  class=\"flex transform cursor-pointer items-center justify-center space-x-2 rounded-full bg-white px-4 py-2 font-semibold tracking-tight text-black shadow-md transition duration-300 hover:scale-110\"\n>\n  <svg\n    xmlns=\"http://www.w3.org/2000/svg\"\n    class=\"h-6 w-6 rotate-45 transform transition duration-300\"\n    fill=\"none\"\n    viewBox=\"0 0 24 24\"\n    stroke=\"currentColor\"\n  >\n    <path\n      stroke-linecap=\"round\"\n      stroke-linejoin=\"round\"\n      stroke-width=\"2\"\n      d=\"M12 19l9 2-9-18-9 18 9-2zm0 0v-8\"\n    ></path>\n  </svg>\n  <span class=\"mr-2\">Send Message</span>\n</button>\n</body>\n</html>\n"
+}

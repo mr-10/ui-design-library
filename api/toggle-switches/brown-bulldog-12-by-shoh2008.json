@@ -1,0 +1,18 @@
+{
+ "id": "brown-bulldog-12-by-shoh2008",
+ "name": "Brown Bulldog 12",
+ "category": "toggle-switches",
+ "author": "Shoh2008",
+ "source": "https://uiverse.io/Shoh2008/brown-bulldog-12",
+ "trigger": "checked",
+ "description": "A toggle switch with switch styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<div class=\"checkbox-wrapper-41\">\n  <input type=\"checkbox\">\n</div>",
+ "css": "/* From Uiverse.io by Shoh2008 - Tags: switch */\n.checkbox-wrapper-41 {\n  --size: 100px;\n}\n\n.checkbox-wrapper-41 input[type=\"checkbox\"] {\n  -webkit-appearance: none;\n  width: var(--size);\n  height: calc(var(--size) / 2);\n  background-color: #fff;\n  border: 3px solid #222;\n  border-radius: 30px 100px 100px 100px;\n  box-shadow: 0 10px 20px rgba(0,0,0,0.2);\n  outline: none;\n  cursor: pointer;\n  position: relative;\n  transition: all 0.5s;\n}\n\n.checkbox-wrapper-41 input[type=\"checkbox\"]::before {\n  content: \"\";\n  position: absolute;\n  width: calc(var(--size) / 2);\n  height: calc(var(--size) / 2);\n  left: 0;\n  top: 50%;\n  transform: translateY(-50%) scale(0.7);\n  border: 3px solid #222;\n  border-radius: 30px 100px 100px 100px;\n  background-color: #fde881;\n  box-sizing: border-box;\n  transition: all 0.5s;\n}\n\n.checkbox-wrapper-41 input[type=\"checkbox\"]:checked {\n  background-color: #fde881;\n  border-radius: 100px 100px 30px 100px;\n}\n\n.checkbox-wrapper-41 input[type=\"checkbox\"]:checked::before {\n  left: 50%;\n  background-color: #fff;\n  border-radius: 100px 100px 30px 100px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Brown Bulldog 12</title>\n<style>\n/* From Uiverse.io by Shoh2008 - https://uiverse.io/Shoh2008/brown-bulldog-12 */\n/* From Uiverse.io by Shoh2008 - Tags: switch */\n.checkbox-wrapper-41 {\n  --size: 100px;\n}\n\n.checkbox-wrapper-41 input[type=\"checkbox\"] {\n  -webkit-appearance: none;\n  width: var(--size);\n  height: calc(var(--size) / 2);\n  background-color: #fff;\n  border: 3px solid #222;\n  border-radius: 30px 100px 100px 100px;\n  box-shadow: 0 10px 20px rgba(0,0,0,0.2);\n  outline: none;\n  cursor: pointer;\n  position: relative;\n  transition: all 0.5s;\n}\n\n.checkbox-wrapper-41 input[type=\"checkbox\"]::before {\n  content: \"\";\n  position: absolute;\n  width: calc(var(--size) / 2);\n  height: calc(var(--size) / 2);\n  left: 0;\n  top: 50%;\n  transform: translateY(-50%) scale(0.7);\n  border: 3px solid #222;\n  border-radius: 30px 100px 100px 100px;\n  background-color: #fde881;\n  box-sizing: border-box;\n  transition: all 0.5s;\n}\n\n.checkbox-wrapper-41 input[type=\"checkbox\"]:checked {\n  background-color: #fde881;\n  border-radius: 100px 100px 30px 100px;\n}\n\n.checkbox-wrapper-41 input[type=\"checkbox\"]:checked::before {\n  left: 50%;\n  background-color: #fff;\n  border-radius: 100px 100px 30px 100px;\n}\n</style>\n</head>\n<body>\n<div class=\"checkbox-wrapper-41\">\n  <input type=\"checkbox\">\n</div>\n</body>\n</html>\n"
+}

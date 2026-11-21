@@ -1,0 +1,21 @@
+{
+ "id": "strange-firefox-86-by-catraco",
+ "name": "Strange Firefox 86",
+ "category": "patterns",
+ "author": "catraco",
+ "source": "https://uiverse.io/catraco/strange-firefox-86",
+ "trigger": "static",
+ "description": "A pattern with simple, orange and smooth styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "orange",
+  "smooth",
+  "pattern",
+  "background",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by catraco  - Tags: simple, orange, smooth, pattern, background */\n.container {\n  width: 100%;\n  height: 100%;\n  background-image: linear-gradient(\n    5deg,\n    orange 50%,\n    orangered 60%,\n    orange 50%\n  );\n  background-color: orange;\n  background-size: 1em 1em;\n  background-repeat: space;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Strange Firefox 86</title>\n<style>\n/* From Uiverse.io by catraco - https://uiverse.io/catraco/strange-firefox-86 */\n/* From Uiverse.io by catraco  - Tags: simple, orange, smooth, pattern, background */\n.container {\n  width: 100%;\n  height: 100%;\n  background-image: linear-gradient(\n    5deg,\n    orange 50%,\n    orangered 60%,\n    orange 50%\n  );\n  background-color: orange;\n  background-size: 1em 1em;\n  background-repeat: space;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

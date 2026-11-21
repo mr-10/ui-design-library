@@ -1,0 +1,18 @@
+{
+ "id": "fluffy-liger-83-by-sharpth",
+ "name": "Fluffy Liger 83",
+ "category": "cards",
+ "author": "SharpTH",
+ "source": "https://uiverse.io/SharpTH/fluffy-liger-83",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"card\"></div>",
+ "css": "/* From Uiverse.io by SharpTH - Tags: card */\n.card {\n cursor: pointer;\n width: 190px;\n height: 254px;\n background: rgb(255, 255, 255);\n border-radius: 5px;\n border: 1px solid rgba(0, 0, 255, .2);\n transition: all .2s;\n box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);\n}\n\n.card:hover {\n box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fluffy Liger 83</title>\n<style>\n/* From Uiverse.io by SharpTH - https://uiverse.io/SharpTH/fluffy-liger-83 */\n/* From Uiverse.io by SharpTH - Tags: card */\n.card {\n cursor: pointer;\n width: 190px;\n height: 254px;\n background: rgb(255, 255, 255);\n border-radius: 5px;\n border: 1px solid rgba(0, 0, 255, .2);\n transition: all .2s;\n box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);\n}\n\n.card:hover {\n box-shadow: -12px 12px 2px -1px rgba(0, 0, 255, .2);\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+}

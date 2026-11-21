@@ -1,0 +1,18 @@
+{
+ "id": "helpless-jellyfish-25-by-adamgiebl",
+ "name": "Helpless Jellyfish 25",
+ "category": "buttons",
+ "author": "adamgiebl",
+ "source": "https://uiverse.io/adamgiebl/helpless-jellyfish-25",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"cyberpunk-button\">Click me</button>",
+ "css": "/* From Uiverse.io by adamgiebl - Tags: button */\n.cyberpunk-button {\n  background-color: #2f3640;\n  color: #fff;\n  border: 2px solid #ff7979;\n  border-radius: 5px;\n  padding: 10px 15px;\n  font-size: 18px;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  font-weight: bold;\n  box-shadow: 2px 2px 10px #ff7979;\n  transition: all 0.2s ease-in-out;\n}\n\n.cyberpunk-button:hover {\n  background-color: #ff7979;\n  color: #2f3640;\n  border-color: #2f3640;\n  box-shadow: 2px 2px 20px #2f3640;\n  transform: translateY(-2px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Helpless Jellyfish 25</title>\n<style>\n/* From Uiverse.io by adamgiebl - https://uiverse.io/adamgiebl/helpless-jellyfish-25 */\n/* From Uiverse.io by adamgiebl - Tags: button */\n.cyberpunk-button {\n  background-color: #2f3640;\n  color: #fff;\n  border: 2px solid #ff7979;\n  border-radius: 5px;\n  padding: 10px 15px;\n  font-size: 18px;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  font-weight: bold;\n  box-shadow: 2px 2px 10px #ff7979;\n  transition: all 0.2s ease-in-out;\n}\n\n.cyberpunk-button:hover {\n  background-color: #ff7979;\n  color: #2f3640;\n  border-color: #2f3640;\n  box-shadow: 2px 2px 20px #2f3640;\n  transform: translateY(-2px);\n}\n</style>\n</head>\n<body>\n<button class=\"cyberpunk-button\">Click me</button>\n</body>\n</html>\n"
+}

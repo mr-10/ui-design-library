@@ -1,0 +1,20 @@
+{
+ "id": "unlucky-wolverine-27-by-jaydipprajapati1910",
+ "name": "Unlucky Wolverine 27",
+ "category": "loaders",
+ "author": "JaydipPrajapati1910",
+ "source": "https://uiverse.io/JaydipPrajapati1910/unlucky-wolverine-27",
+ "trigger": "auto-loop",
+ "description": "A loader with green, circle-loader and loader-circle styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "green",
+  "loader",
+  "circle-loader",
+  "loader-circle",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: green, loader, circle loader, loader circle */\n.loader {\n  background: linear-gradient(to right, #2cc16f 50%, #fafafa 50%);\n  border-radius: 100%;\n  height: 70px;\n  width: 70px;\n  animation: loader-circle-time 8s steps(800, start) infinite;\n}\n\n.loader:after {\n  content: \"\";\n  border-radius: 100% 0 0 100% / 50% 0 0 50%;\n  height: 100%;\n  left: 0;\n  position: absolute;\n  top: 0;\n  width: 50%;\n  animation: loader-circle-mask 8s steps(250, start) infinite;\n  transform-origin: 100% 50%;\n}\n\n@keyframes loader-circle-time {\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes loader-circle-mask {\n  0% {\n    background: #fafafa;\n    transform: rotate(0deg);\n  }\n\n  50% {\n    background: #fafafa;\n    transform: rotate(-180deg);\n  }\n\n  50.01% {\n    background: #2cc16f;\n    transform: rotate(0deg);\n  }\n\n  100% {\n    background: #2cc16f;\n    transform: rotate(-180deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Unlucky Wolverine 27</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/unlucky-wolverine-27 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: green, loader, circle loader, loader circle */\n.loader {\n  background: linear-gradient(to right, #2cc16f 50%, #fafafa 50%);\n  border-radius: 100%;\n  height: 70px;\n  width: 70px;\n  animation: loader-circle-time 8s steps(800, start) infinite;\n}\n\n.loader:after {\n  content: \"\";\n  border-radius: 100% 0 0 100% / 50% 0 0 50%;\n  height: 100%;\n  left: 0;\n  position: absolute;\n  top: 0;\n  width: 50%;\n  animation: loader-circle-mask 8s steps(250, start) infinite;\n  transform-origin: 100% 50%;\n}\n\n@keyframes loader-circle-time {\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes loader-circle-mask {\n  0% {\n    background: #fafafa;\n    transform: rotate(0deg);\n  }\n\n  50% {\n    background: #fafafa;\n    transform: rotate(-180deg);\n  }\n\n  50.01% {\n    background: #2cc16f;\n    transform: rotate(0deg);\n  }\n\n  100% {\n    background: #2cc16f;\n    transform: rotate(-180deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

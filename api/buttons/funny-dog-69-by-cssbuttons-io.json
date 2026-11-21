@@ -1,0 +1,18 @@
+{
+ "id": "funny-dog-69-by-cssbuttons-io",
+ "name": "Funny Dog 69",
+ "category": "buttons",
+ "author": "cssbuttons-io",
+ "source": "https://uiverse.io/cssbuttons-io/funny-dog-69",
+ "trigger": "hover",
+ "description": "A button with glow styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "glow",
+  "hover"
+ ],
+ "html": "<button> Button\n</button>",
+ "css": "/* From Uiverse.io by cssbuttons-io - Tags: button, glow */\nbutton {\n --glow-color: rgb(217, 176, 255);\n --glow-spread-color: rgba(191, 123, 255, 0.781);\n --enhanced-glow-color: rgb(231, 206, 255);\n --btn-color: rgb(100, 61, 136);\n border: .25em solid var(--glow-color);\n padding: 1em 3em;\n color: var(--glow-color);\n font-size: 15px;\n font-weight: bold;\n background-color: var(--btn-color);\n border-radius: 1em;\n outline: none;\n box-shadow: 0 0 1em .25em var(--glow-color),\n        0 0 4em 1em var(--glow-spread-color),\n        inset 0 0 .75em .25em var(--glow-color);\n text-shadow: 0 0 .5em var(--glow-color);\n position: relative;\n transition: all 0.3s;\n}\n\nbutton::after {\n pointer-events: none;\n content: \"\";\n position: absolute;\n top: 120%;\n left: 0;\n height: 100%;\n width: 100%;\n background-color: var(--glow-spread-color);\n filter: blur(2em);\n opacity: .7;\n transform: perspective(1.5em) rotateX(35deg) scale(1, .6);\n}\n\nbutton:hover {\n color: var(--btn-color);\n background-color: var(--glow-color);\n box-shadow: 0 0 1em .25em var(--glow-color),\n        0 0 4em 2em var(--glow-spread-color),\n        inset 0 0 .75em .25em var(--glow-color);\n}\n\nbutton:active {\n box-shadow: 0 0 0.6em .25em var(--glow-color),\n        0 0 2.5em 2em var(--glow-spread-color),\n        inset 0 0 .5em .25em var(--glow-color);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Funny Dog 69</title>\n<style>\n/* From Uiverse.io by cssbuttons-io - https://uiverse.io/cssbuttons-io/funny-dog-69 */\n/* From Uiverse.io by cssbuttons-io - Tags: button, glow */\nbutton {\n --glow-color: rgb(217, 176, 255);\n --glow-spread-color: rgba(191, 123, 255, 0.781);\n --enhanced-glow-color: rgb(231, 206, 255);\n --btn-color: rgb(100, 61, 136);\n border: .25em solid var(--glow-color);\n padding: 1em 3em;\n color: var(--glow-color);\n font-size: 15px;\n font-weight: bold;\n background-color: var(--btn-color);\n border-radius: 1em;\n outline: none;\n box-shadow: 0 0 1em .25em var(--glow-color),\n        0 0 4em 1em var(--glow-spread-color),\n        inset 0 0 .75em .25em var(--glow-color);\n text-shadow: 0 0 .5em var(--glow-color);\n position: relative;\n transition: all 0.3s;\n}\n\nbutton::after {\n pointer-events: none;\n content: \"\";\n position: absolute;\n top: 120%;\n left: 0;\n height: 100%;\n width: 100%;\n background-color: var(--glow-spread-color);\n filter: blur(2em);\n opacity: .7;\n transform: perspective(1.5em) rotateX(35deg) scale(1, .6);\n}\n\nbutton:hover {\n color: var(--btn-color);\n background-color: var(--glow-color);\n box-shadow: 0 0 1em .25em var(--glow-color),\n        0 0 4em 2em var(--glow-spread-color),\n        inset 0 0 .75em .25em var(--glow-color);\n}\n\nbutton:active {\n box-shadow: 0 0 0.6em .25em var(--glow-color),\n        0 0 2.5em 2em var(--glow-spread-color),\n        inset 0 0 .5em .25em var(--glow-color);\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n</body>\n</html>\n"
+}

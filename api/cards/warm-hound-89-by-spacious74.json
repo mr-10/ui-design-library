@@ -1,0 +1,21 @@
+{
+ "id": "warm-hound-89-by-spacious74",
+ "name": "Warm Hound 89",
+ "category": "cards",
+ "author": "Spacious74",
+ "source": "https://uiverse.io/Spacious74/warm-hound-89",
+ "trigger": "static",
+ "description": "A card with flashy, 3d and gradient styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "flashy",
+  "3d",
+  "gradient",
+  "card",
+  "dark",
+  "static"
+ ],
+ "html": "<div class=\"bgblue\">\n  <div class=\"card\">\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestiae\n    explicabo placeat atque praesentium, dolorum corporis amet non, aliquid\n    quasi voluptate delectus nulla exercitationem eius eum, ducimus architecto\n    dolores suscipit!\n  </div>\n</div>",
+ "css": "/* From Uiverse.io by Spacious74  - Tags: flashy, 3d, gradient, card, dark */\n.bgblue {\n  background: linear-gradient(135deg, #fffffff5, #3a4b8a, #ffffff98);\n  padding: 1px;\n  border-radius: 1.2rem;\n  box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;\n  max-width: 300px;\n}\n\n.card {\n  font-size: 1rem;\n  color: #bec4cf;\n  background: linear-gradient(135deg, #0d1120 0%, #3a4b8a 43%, #0d1120 100%);\n  padding: 1.5rem;\n  border-radius: 1.2rem;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Warm Hound 89</title>\n<style>\n/* From Uiverse.io by Spacious74 - https://uiverse.io/Spacious74/warm-hound-89 */\n/* From Uiverse.io by Spacious74  - Tags: flashy, 3d, gradient, card, dark */\n.bgblue {\n  background: linear-gradient(135deg, #fffffff5, #3a4b8a, #ffffff98);\n  padding: 1px;\n  border-radius: 1.2rem;\n  box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;\n  max-width: 300px;\n}\n\n.card {\n  font-size: 1rem;\n  color: #bec4cf;\n  background: linear-gradient(135deg, #0d1120 0%, #3a4b8a 43%, #0d1120 100%);\n  padding: 1.5rem;\n  border-radius: 1.2rem;\n}\n</style>\n</head>\n<body>\n<div class=\"bgblue\">\n  <div class=\"card\">\n    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem molestiae\n    explicabo placeat atque praesentium, dolorum corporis amet non, aliquid\n    quasi voluptate delectus nulla exercitationem eius eum, ducimus architecto\n    dolores suscipit!\n  </div>\n</div>\n</body>\n</html>\n"
+}

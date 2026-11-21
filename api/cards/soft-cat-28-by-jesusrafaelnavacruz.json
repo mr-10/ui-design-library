@@ -1,0 +1,20 @@
+{
+ "id": "soft-cat-28-by-jesusrafaelnavacruz",
+ "name": "Soft Cat 28",
+ "category": "cards",
+ "author": "JesusRafaelNavaCruz",
+ "source": "https://uiverse.io/JesusRafaelNavaCruz/soft-cat-28",
+ "trigger": "scroll",
+ "description": "A card with slider, sliding and slide styling.",
+ "howItWorks": "It reacts as you scroll the page.",
+ "tags": [
+  "slider",
+  "sliding",
+  "slide",
+  "cards",
+  "scroll"
+ ],
+ "html": "<div class=\"container\">\n  <div class=\"card\">\n    <p class=\"title\">\n      Rick Sanchez\n    </p>\n  </div>\n  <div class=\"card\">\n    <p class=\"title\">\n      Morty Smith\n    </p>\n  </div>\n  <div class=\"card\">\n    <p class=\"title\">\n      Summer Smith\n    </p>\n  </div>\n\n  <div class=\"card\">\n    <p class=\"title\">\n      Beth Smith\n    </p>\n  </div>\n</div>",
+ "css": "/* From Uiverse.io by JesusRafaelNavaCruz - Tags: slider, sliding, slide */\n.container {\n  overflow: auto;\n  display: flex;\n  scroll-snap-type: x mandatory;\n  width: 90%;\n  margin: 0 auto;\n  padding: 0 15px;\n}\n\n.card {\n  background: rgba(255, 255, 255, 0.25);\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);\n  backdrop-filter: blur(7px);\n  -webkit-backdrop-filter: blur(7px);\n  border-radius: 10px;\n  padding: 2rem;\n  margin: 1rem;\n  width: 100%;\n}\n\n.title {\n  width: 100%;\n  display: inline-block;\n  word-break: break-all;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  text-align: center;\n  margin: 1rem auto;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Cat 28</title>\n<style>\n/* From Uiverse.io by JesusRafaelNavaCruz - https://uiverse.io/JesusRafaelNavaCruz/soft-cat-28 */\n/* From Uiverse.io by JesusRafaelNavaCruz - Tags: slider, sliding, slide */\n.container {\n  overflow: auto;\n  display: flex;\n  scroll-snap-type: x mandatory;\n  width: 90%;\n  margin: 0 auto;\n  padding: 0 15px;\n}\n\n.card {\n  background: rgba(255, 255, 255, 0.25);\n  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);\n  backdrop-filter: blur(7px);\n  -webkit-backdrop-filter: blur(7px);\n  border-radius: 10px;\n  padding: 2rem;\n  margin: 1rem;\n  width: 100%;\n}\n\n.title {\n  width: 100%;\n  display: inline-block;\n  word-break: break-all;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  text-align: center;\n  margin: 1rem auto;\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n  <div class=\"card\">\n    <p class=\"title\">\n      Rick Sanchez\n    </p>\n  </div>\n  <div class=\"card\">\n    <p class=\"title\">\n      Morty Smith\n    </p>\n  </div>\n  <div class=\"card\">\n    <p class=\"title\">\n      Summer Smith\n    </p>\n  </div>\n\n  <div class=\"card\">\n    <p class=\"title\">\n      Beth Smith\n    </p>\n  </div>\n</div>\n</body>\n</html>\n"
+}

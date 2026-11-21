@@ -1,0 +1,18 @@
+{
+ "id": "moody-treefrog-55-by-cornerstone-04",
+ "name": "Moody Treefrog 55",
+ "category": "cards",
+ "author": "Cornerstone-04",
+ "source": "https://uiverse.io/Cornerstone-04/moody-treefrog-55",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"cards\">\n    <figure class=\"card\">\n        <figcaption class=\"card_title\">3D Hover</figcaption>\n    </figure>\n</div>",
+ "css": "/* From Uiverse.io by Cornerstone-04 - Tags: card */\n.cards {\n  perspective: 500px;\n}\n\n.card {\n  width: 200px;\n  height: 250px;\n  background: #16161d;\n  border: 2px solid #555555;\n  border-radius: 4px;\n  position: relative;\n  transform-style: preserve-3d;\n  will-change: transform;\n  transition: transform .5s;\n}\n\n.card:hover {\n  transform: translateZ(10px) rotateX(20deg) rotateY(20deg);\n}\n\n.card_title {\n  color: #fff;\n  position: absolute;\n  top: 50%;\n  right: 20px;\n  transform: translateY(-50%);\n  transition: transform .5s;\n  font: 700 1.5rem monospace;\n  text-shadow: -1px -1px 0 #000,  \n    1px -1px 0 #000,\n    -1px 1px 0 #000,\n     1px 1px 0 #000;\n}\n\n.card:hover .card_title {\n  transform: translateZ(50px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Treefrog 55</title>\n<style>\n/* From Uiverse.io by Cornerstone-04 - https://uiverse.io/Cornerstone-04/moody-treefrog-55 */\n/* From Uiverse.io by Cornerstone-04 - Tags: card */\n.cards {\n  perspective: 500px;\n}\n\n.card {\n  width: 200px;\n  height: 250px;\n  background: #16161d;\n  border: 2px solid #555555;\n  border-radius: 4px;\n  position: relative;\n  transform-style: preserve-3d;\n  will-change: transform;\n  transition: transform .5s;\n}\n\n.card:hover {\n  transform: translateZ(10px) rotateX(20deg) rotateY(20deg);\n}\n\n.card_title {\n  color: #fff;\n  position: absolute;\n  top: 50%;\n  right: 20px;\n  transform: translateY(-50%);\n  transition: transform .5s;\n  font: 700 1.5rem monospace;\n  text-shadow: -1px -1px 0 #000,  \n    1px -1px 0 #000,\n    -1px 1px 0 #000,\n     1px 1px 0 #000;\n}\n\n.card:hover .card_title {\n  transform: translateZ(50px);\n}\n</style>\n</head>\n<body>\n<div class=\"cards\">\n    <figure class=\"card\">\n        <figcaption class=\"card_title\">3D Hover</figcaption>\n    </figure>\n</div>\n</body>\n</html>\n"
+}

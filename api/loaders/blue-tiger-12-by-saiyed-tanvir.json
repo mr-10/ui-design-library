@@ -1,0 +1,20 @@
+{
+ "id": "blue-tiger-12-by-saiyed-tanvir",
+ "name": "Blue Tiger 12",
+ "category": "loaders",
+ "author": "Saiyed-Tanvir",
+ "source": "https://uiverse.io/Saiyed-Tanvir/blue-tiger-12",
+ "trigger": "auto-loop",
+ "description": "A loader with box, blocky and box-shadow styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "box",
+  "blocky",
+  "box-shadow",
+  "auto-loop"
+ ],
+ "html": "<div class=\"box\"></div>",
+ "css": "/* From Uiverse.io by Saiyed-Tanvir - Tags: loader, box, blocky, box-shadow */\n.box {\n  height: 5cm;\n  width: 5cm;\n  border: 5px solid #ffa600;\n  box-shadow: inset 0 0 0 #ffa600;\n  animation: load 2s ease-in-out infinite;\n}\n\n@keyframes load {\n  0% {\n    box-shadow: inset -2.5cm -2.5cm 0 #ffa600;\n  }\n\n  25% {\n    box-shadow: inset 2.5cm -2.5cm 0 #ffa600;\n  }\n\n  50% {\n    box-shadow: inset 2.5cm 2.5cm 0 #ffa600;\n  }\n\n  75% {\n    box-shadow: inset -2.5cm 2.5cm 0 #ffa600;\n  }\n\n  100% {\n    box-shadow: inset -2.5cm -2.5cm 0 #ffa600;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Blue Tiger 12</title>\n<style>\n/* From Uiverse.io by Saiyed-Tanvir - https://uiverse.io/Saiyed-Tanvir/blue-tiger-12 */\n/* From Uiverse.io by Saiyed-Tanvir - Tags: loader, box, blocky, box-shadow */\n.box {\n  height: 5cm;\n  width: 5cm;\n  border: 5px solid #ffa600;\n  box-shadow: inset 0 0 0 #ffa600;\n  animation: load 2s ease-in-out infinite;\n}\n\n@keyframes load {\n  0% {\n    box-shadow: inset -2.5cm -2.5cm 0 #ffa600;\n  }\n\n  25% {\n    box-shadow: inset 2.5cm -2.5cm 0 #ffa600;\n  }\n\n  50% {\n    box-shadow: inset 2.5cm 2.5cm 0 #ffa600;\n  }\n\n  75% {\n    box-shadow: inset -2.5cm 2.5cm 0 #ffa600;\n  }\n\n  100% {\n    box-shadow: inset -2.5cm -2.5cm 0 #ffa600;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"box\"></div>\n</body>\n</html>\n"
+}

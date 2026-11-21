@@ -1,0 +1,19 @@
+{
+ "id": "silly-octopus-9-by-shadowfax29",
+ "name": "Silly Octopus 9",
+ "category": "loaders",
+ "author": "shadowfax29",
+ "source": "https://uiverse.io/shadowfax29/silly-octopus-9",
+ "trigger": "auto-loop",
+ "description": "A loader with simple and falldown styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "simple",
+  "loader",
+  "falldown",
+  "auto-loop"
+ ],
+ "html": "<div class=\"container\">\n<div class=\"loader\"></div>\n<div class=\"loader\"></div>\n<div class=\"loader\"></div>\n<div class=\"loader\"></div>\n<div class=\"loader\"></div>\n</div>",
+ "css": "/* From Uiverse.io by shadowfax29 - Source: @satyamchaudharydev - Tags: simple, loader, falldown */\n.container {\n  position: relative;\n  width: 200px;\n  height: 200px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 50%;\n}\n\n.loader {\n  width: 10px;\n  height: 30px;\n  left: var(--left);\n  border-radius: 10px 50px;\n  box-shadow: 0px 0px 5px black;\n  animation: dominos 1s ease infinite;\n}\n\n.loader:nth-child(1) {\n  --left: 80px;\n  animation-delay: 0.325s;\n  background-color: red;\n}\n\n.loader:nth-child(3) {\n  left: 60px;\n  animation-delay: 0.625s;\n  background-color: blue;\n}\n\n.loader:nth-child(5) {\n  animation-delay: 0.865s;\n  left: 40px;\n  background-color: green;\n}\n\n.loader:nth-child(2) {\n  --left: 70px;\n  animation-delay: 0.5s;\n  background-color: yellow;\n}\n\n.loader:nth-child(4) {\n  animation-delay: 0.74s;\n  left: 50px;\n  background-color: orange;\n}\n\n@keyframes dominos {\n  50% {\n    opacity: 0.7;\n  }\n\n  75% {\n    -webkit-transform: rotate(90deg);\n    transform: rotate(90deg);\n  }\n\n  80% {\n    opacity: 1;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silly Octopus 9</title>\n<style>\n/* From Uiverse.io by shadowfax29 - https://uiverse.io/shadowfax29/silly-octopus-9 */\n/* From Uiverse.io by shadowfax29 - Source: @satyamchaudharydev - Tags: simple, loader, falldown */\n.container {\n  position: relative;\n  width: 200px;\n  height: 200px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-radius: 50%;\n}\n\n.loader {\n  width: 10px;\n  height: 30px;\n  left: var(--left);\n  border-radius: 10px 50px;\n  box-shadow: 0px 0px 5px black;\n  animation: dominos 1s ease infinite;\n}\n\n.loader:nth-child(1) {\n  --left: 80px;\n  animation-delay: 0.325s;\n  background-color: red;\n}\n\n.loader:nth-child(3) {\n  left: 60px;\n  animation-delay: 0.625s;\n  background-color: blue;\n}\n\n.loader:nth-child(5) {\n  animation-delay: 0.865s;\n  left: 40px;\n  background-color: green;\n}\n\n.loader:nth-child(2) {\n  --left: 70px;\n  animation-delay: 0.5s;\n  background-color: yellow;\n}\n\n.loader:nth-child(4) {\n  animation-delay: 0.74s;\n  left: 50px;\n  background-color: orange;\n}\n\n@keyframes dominos {\n  50% {\n    opacity: 0.7;\n  }\n\n  75% {\n    -webkit-transform: rotate(90deg);\n    transform: rotate(90deg);\n  }\n\n  80% {\n    opacity: 1;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n<div class=\"loader\"></div>\n<div class=\"loader\"></div>\n<div class=\"loader\"></div>\n<div class=\"loader\"></div>\n<div class=\"loader\"></div>\n</div>\n</body>\n</html>\n"
+}

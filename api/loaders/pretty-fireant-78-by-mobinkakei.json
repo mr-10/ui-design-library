@@ -1,0 +1,18 @@
+{
+ "id": "pretty-fireant-78-by-mobinkakei",
+ "name": "Pretty Fireant 78",
+ "category": "loaders",
+ "author": "mobinkakei",
+ "source": "https://uiverse.io/mobinkakei/pretty-fireant-78",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\">\n    <span>Loading...</span>\n</div>",
+ "css": "/* From Uiverse.io by mobinkakei - Tags: loader */\n.loader {\n  width: 100px;\n  height: 100px;\n  box-sizing: border-box;\n  border-radius: 50%;\n  border-top: 5px solid #e74c3c;\n  position: relative;\n  animation: load 2s linear infinite;\n}\n\n.loader::before,.loader::after {\n  content: '';\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  left: 0;\n  top: 0;\n  box-sizing: border-box;\n  border-radius: 50%;\n}\n\n.loader::before {\n  border-top: 5px solid #e67e22;\n  transform: rotate(120deg);\n}\n\n.loader::after {\n  border-top: 5px solid #3498db;\n  transform: rotate(240deg);\n}\n\n.loader span {\n  position: absolute;\n  font-size: small;\n  width: 100px;\n  height: 100px;\n  color: #fff;\n  text-align: center;\n  line-height: 100px;\n  animation: a2 2s linear infinite;\n}\n\n@keyframes load {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes a2 {\n  to {\n    transform: rotate(-360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Pretty Fireant 78</title>\n<style>\n/* From Uiverse.io by mobinkakei - https://uiverse.io/mobinkakei/pretty-fireant-78 */\n/* From Uiverse.io by mobinkakei - Tags: loader */\n.loader {\n  width: 100px;\n  height: 100px;\n  box-sizing: border-box;\n  border-radius: 50%;\n  border-top: 5px solid #e74c3c;\n  position: relative;\n  animation: load 2s linear infinite;\n}\n\n.loader::before,.loader::after {\n  content: '';\n  width: 100px;\n  height: 100px;\n  position: absolute;\n  left: 0;\n  top: 0;\n  box-sizing: border-box;\n  border-radius: 50%;\n}\n\n.loader::before {\n  border-top: 5px solid #e67e22;\n  transform: rotate(120deg);\n}\n\n.loader::after {\n  border-top: 5px solid #3498db;\n  transform: rotate(240deg);\n}\n\n.loader span {\n  position: absolute;\n  font-size: small;\n  width: 100px;\n  height: 100px;\n  color: #fff;\n  text-align: center;\n  line-height: 100px;\n  animation: a2 2s linear infinite;\n}\n\n@keyframes load {\n  to {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes a2 {\n  to {\n    transform: rotate(-360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n    <span>Loading...</span>\n</div>\n</body>\n</html>\n"
+}

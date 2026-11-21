@@ -1,0 +1,21 @@
+{
+ "id": "tough-firefox-72-by-praashoo7",
+ "name": "Tough Firefox 72",
+ "category": "toggle-switches",
+ "author": "Praashoo7",
+ "source": "https://uiverse.io/Praashoo7/tough-firefox-72",
+ "trigger": "checked",
+ "description": "A toggle switch with switch, on and off styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "on",
+  "off",
+  "light",
+  "realistic",
+  "toggle-switches"
+ ],
+ "html": "<label class=\"container\">\n  <input type=\"checkbox\">\n  <div class=\"checkmark\">\n    <div class=\"switch\"></div>\n  </div>\n</label>",
+ "css": "/* From Uiverse.io by Praashoo7 - Tags: switch, on, off, light, realistic */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 6em;\n  width: 3em;\n  background-color: #ccc;\n}\n\n.switch {\n  position: relative;\n  height: 5.4em;\n  width: 2.4em;\n  top: .3em;\n  left: .3em;\n  background-color: white;\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 2px, rgba(0, 0, 0, 0.3) 0px 0px 0px -3px, rgba(0, 0, 0, 0.2) 0px -8px 0px inset;\n}\n\n.container input:checked ~ .checkmark .switch {\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 0px 0px -3px, rgba(0, 0, 0, 0.2) 0px -6px 0px inset;\n  transform: rotateX(180deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tough Firefox 72</title>\n<style>\n/* From Uiverse.io by Praashoo7 - https://uiverse.io/Praashoo7/tough-firefox-72 */\n/* From Uiverse.io by Praashoo7 - Tags: switch, on, off, light, realistic */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 6em;\n  width: 3em;\n  background-color: #ccc;\n}\n\n.switch {\n  position: relative;\n  height: 5.4em;\n  width: 2.4em;\n  top: .3em;\n  left: .3em;\n  background-color: white;\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 10px 2px, rgba(0, 0, 0, 0.3) 0px 0px 0px -3px, rgba(0, 0, 0, 0.2) 0px -8px 0px inset;\n}\n\n.container input:checked ~ .checkmark .switch {\n  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 0px 0px -3px, rgba(0, 0, 0, 0.2) 0px -6px 0px inset;\n  transform: rotateX(180deg);\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input type=\"checkbox\">\n  <div class=\"checkmark\">\n    <div class=\"switch\"></div>\n  </div>\n</label>\n</body>\n</html>\n"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "hungry-penguin-18-by-ziyadouamna",
+ "name": "Hungry Penguin 18",
+ "category": "buttons",
+ "author": "ZiyadOuamna",
+ "source": "https://uiverse.io/ZiyadOuamna/hungry-penguin-18",
+ "trigger": "hover",
+ "description": "A button with active, like and dark styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "active",
+  "like",
+  "dark",
+  "light",
+  "shadow"
+ ],
+ "html": "<button class=\"button\">Button</button>\n\n<footer></footer>",
+ "css": "/* From Uiverse.io by ZiyadOuamna  - Tags: button, active, like, dark, light, shadow, modern, click */\n.button {\n  cursor: pointer;\n  padding: 10px 20px;\n  border-radius: 15px;\n  background-color: gray;\n  font-weight: bolder;\n  font-size: 25px;\n  border: 2px solid black;\n  transition: all 0.5s;\n}\n.button:hover {\n  background-color: aqua;\n  box-shadow: 0px 0px 15px aqua;\n\n  transform: scale(0.9);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Hungry Penguin 18</title>\n<style>\n/* From Uiverse.io by ZiyadOuamna - https://uiverse.io/ZiyadOuamna/hungry-penguin-18 */\n/* From Uiverse.io by ZiyadOuamna  - Tags: button, active, like, dark, light, shadow, modern, click */\n.button {\n  cursor: pointer;\n  padding: 10px 20px;\n  border-radius: 15px;\n  background-color: gray;\n  font-weight: bolder;\n  font-size: 25px;\n  border: 2px solid black;\n  transition: all 0.5s;\n}\n.button:hover {\n  background-color: aqua;\n  box-shadow: 0px 0px 15px aqua;\n\n  transform: scale(0.9);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Button</button>\n\n<footer></footer>\n</body>\n</html>\n"
+}

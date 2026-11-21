@@ -1,0 +1,18 @@
+{
+ "id": "polite-penguin-53-by-chrotsides",
+ "name": "Polite Penguin 53",
+ "category": "buttons",
+ "author": "ChRotsides",
+ "source": "https://uiverse.io/ChRotsides/polite-penguin-53",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by ChRotsides - Tags: simple, button, hover -->\n<button class=\"cursor-pointer text-white font-bold shadow-md hover:scale-[1.2] shadow-purple-400 rounded-full px-5 py-2 bg-gradient-to-bl from-purple-500 to-purple-800\">\n  Button\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Penguin 53</title>\n<style>\n/* From Uiverse.io by ChRotsides - https://uiverse.io/ChRotsides/polite-penguin-53 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by ChRotsides - Tags: simple, button, hover -->\n<button class=\"cursor-pointer text-white font-bold shadow-md hover:scale-[1.2] shadow-purple-400 rounded-full px-5 py-2 bg-gradient-to-bl from-purple-500 to-purple-800\">\n  Button\n</button>\n</body>\n</html>\n"
+}

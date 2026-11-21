@@ -1,0 +1,18 @@
+{
+ "id": "purple-rat-85-by-satyamchaudharydev",
+ "name": "Purple Rat 85",
+ "category": "buttons",
+ "author": "satyamchaudharydev",
+ "source": "https://uiverse.io/satyamchaudharydev/purple-rat-85",
+ "trigger": "hover",
+ "description": "A button with 3d styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "3d",
+  "button",
+  "hover"
+ ],
+ "html": "<button>\n    Click me\n</button>",
+ "css": "/* From Uiverse.io by satyamchaudharydev - Tags: 3d, button */\nbutton {\n  --bg: #e74c3c;\n  --text-color: #fff;\n  position: relative;\n  width: 150px;\n  border: none;\n  background: var(--bg);\n  color: var(--text-color);\n  padding: 1em;\n  font-weight: bold;\n  text-transform: uppercase;\n  transition: 0.2s;\n  border-radius: 5px;\n  opacity: 0.8;\n  letter-spacing: 1px;\n  box-shadow: #c0392b 0px 7px 2px, #000 0px 8px 5px;\n}\n\nbutton:hover {\n  opacity: 1;\n}\n\nbutton:active {\n  top: 4px;\n  box-shadow: #c0392b 0px 3px 2px,#000 0px 3px 5px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Purple Rat 85</title>\n<style>\n/* From Uiverse.io by satyamchaudharydev - https://uiverse.io/satyamchaudharydev/purple-rat-85 */\n/* From Uiverse.io by satyamchaudharydev - Tags: 3d, button */\nbutton {\n  --bg: #e74c3c;\n  --text-color: #fff;\n  position: relative;\n  width: 150px;\n  border: none;\n  background: var(--bg);\n  color: var(--text-color);\n  padding: 1em;\n  font-weight: bold;\n  text-transform: uppercase;\n  transition: 0.2s;\n  border-radius: 5px;\n  opacity: 0.8;\n  letter-spacing: 1px;\n  box-shadow: #c0392b 0px 7px 2px, #000 0px 8px 5px;\n}\n\nbutton:hover {\n  opacity: 1;\n}\n\nbutton:active {\n  top: 4px;\n  box-shadow: #c0392b 0px 3px 2px,#000 0px 3px 5px;\n}\n</style>\n</head>\n<body>\n<button>\n    Click me\n</button>\n</body>\n</html>\n"
+}

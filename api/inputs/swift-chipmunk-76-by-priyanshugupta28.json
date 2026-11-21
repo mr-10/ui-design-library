@@ -1,0 +1,19 @@
+{
+ "id": "swift-chipmunk-76-by-priyanshugupta28",
+ "name": "Swift Chipmunk 76",
+ "category": "inputs",
+ "author": "PriyanshuGupta28",
+ "source": "https://uiverse.io/PriyanshuGupta28/swift-chipmunk-76",
+ "trigger": "checked",
+ "description": "A input with stars and rating styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "input",
+  "stars",
+  "rating",
+  "checked"
+ ],
+ "html": "<div class=\"rating\">\n  <input value=\"5\" name=\"rating\" id=\"star5\" type=\"radio\">\n  <label for=\"star5\"></label>\n  <input value=\"4\" name=\"rating\" id=\"star4\" type=\"radio\">\n  <label for=\"star4\"></label>\n  <input value=\"3\" name=\"rating\" id=\"star3\" type=\"radio\">\n  <label for=\"star3\"></label>\n  <input value=\"2\" name=\"rating\" id=\"star2\" type=\"radio\">\n  <label for=\"star2\"></label>\n  <input value=\"1\" name=\"rating\" id=\"star1\" type=\"radio\">\n  <label for=\"star1\"></label>\n</div>",
+ "css": "/* From Uiverse.io by PriyanshuGupta28 - Tags: input, stars, rating */\n.rating {\n  display: inline-block;\n}\n\n.rating input {\n  display: none;\n}\n\n.rating label {\n  float: right;\n  cursor: pointer;\n  color: #ccc;\n  transition: color 0.3s;\n}\n\n.rating label:before {\n  content: '\\2605';\n  font-size: 30px;\n}\n\n.rating input:checked ~ label,\n.rating label:hover,\n.rating label:hover ~ label {\n  color: #6f00ff;\n  transition: color 0.3s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Chipmunk 76</title>\n<style>\n/* From Uiverse.io by PriyanshuGupta28 - https://uiverse.io/PriyanshuGupta28/swift-chipmunk-76 */\n/* From Uiverse.io by PriyanshuGupta28 - Tags: input, stars, rating */\n.rating {\n  display: inline-block;\n}\n\n.rating input {\n  display: none;\n}\n\n.rating label {\n  float: right;\n  cursor: pointer;\n  color: #ccc;\n  transition: color 0.3s;\n}\n\n.rating label:before {\n  content: '\\2605';\n  font-size: 30px;\n}\n\n.rating input:checked ~ label,\n.rating label:hover,\n.rating label:hover ~ label {\n  color: #6f00ff;\n  transition: color 0.3s;\n}\n</style>\n</head>\n<body>\n<div class=\"rating\">\n  <input value=\"5\" name=\"rating\" id=\"star5\" type=\"radio\">\n  <label for=\"star5\"></label>\n  <input value=\"4\" name=\"rating\" id=\"star4\" type=\"radio\">\n  <label for=\"star4\"></label>\n  <input value=\"3\" name=\"rating\" id=\"star3\" type=\"radio\">\n  <label for=\"star3\"></label>\n  <input value=\"2\" name=\"rating\" id=\"star2\" type=\"radio\">\n  <label for=\"star2\"></label>\n  <input value=\"1\" name=\"rating\" id=\"star1\" type=\"radio\">\n  <label for=\"star1\"></label>\n</div>\n</body>\n</html>\n"
+}

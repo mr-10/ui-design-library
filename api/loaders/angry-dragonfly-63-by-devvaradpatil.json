@@ -1,0 +1,20 @@
+{
+ "id": "angry-dragonfly-63-by-devvaradpatil",
+ "name": "Angry Dragonfly 63",
+ "category": "loaders",
+ "author": "DevVaradPatil",
+ "source": "https://uiverse.io/DevVaradPatil/angry-dragonfly-63",
+ "trigger": "auto-loop",
+ "description": "A loader with black, gradient and dark styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "black",
+  "gradient",
+  "loader",
+  "dark",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by DevVaradPatil  - Tags: black, gradient, loader, dark */\n.loader {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);\n  animation: glow 2s linear infinite;\n}\n@keyframes glow {\n  0% {\n    transform: rotate(0deg);\n    filter: hue-rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n    filter: hue-rotate(360deg);\n  }\n}\n.loader::before {\n  content: \"\";\n  position: absolute;\n  top: 3px;\n  left: 3px;\n  right: 3px;\n  bottom: 3px;\n  background: #212121;\n  border-radius: 50%;\n  z-index: 1000;\n}\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: 0px;\n  left: 0px;\n  right: 0px;\n  bottom: 0px;\n  background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);\n  border-radius: 50%;\n  z-index: 1000;\n  z-index: 1;\n  filter: blur(30px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Angry Dragonfly 63</title>\n<style>\n/* From Uiverse.io by DevVaradPatil - https://uiverse.io/DevVaradPatil/angry-dragonfly-63 */\n/* From Uiverse.io by DevVaradPatil  - Tags: black, gradient, loader, dark */\n.loader {\n  position: relative;\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);\n  animation: glow 2s linear infinite;\n}\n@keyframes glow {\n  0% {\n    transform: rotate(0deg);\n    filter: hue-rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n    filter: hue-rotate(360deg);\n  }\n}\n.loader::before {\n  content: \"\";\n  position: absolute;\n  top: 3px;\n  left: 3px;\n  right: 3px;\n  bottom: 3px;\n  background: #212121;\n  border-radius: 50%;\n  z-index: 1000;\n}\n.loader::after {\n  content: \"\";\n  position: absolute;\n  top: 0px;\n  left: 0px;\n  right: 0px;\n  bottom: 0px;\n  background: linear-gradient(45deg, transparent, transparent 40%, #e5f403);\n  border-radius: 50%;\n  z-index: 1000;\n  z-index: 1;\n  filter: blur(30px);\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

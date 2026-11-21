@@ -1,0 +1,18 @@
+{
+ "id": "heavy-dragon-15-by-barisdogansutcu",
+ "name": "Heavy Dragon 15",
+ "category": "buttons",
+ "author": "barisdogansutcu",
+ "source": "https://uiverse.io/barisdogansutcu/heavy-dragon-15",
+ "trigger": "active",
+ "description": "A button with retro styling.",
+ "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "tags": [
+  "button",
+  "active",
+  "retro"
+ ],
+ "html": "<button>\n    ok\n</button>",
+ "css": "/* From Uiverse.io by barisdogansutcu - Tags: button, active, retro */\nbutton {\n  font-family: inherit;\n  border: none;\n  outline: 1px dotted rgb(37, 37, 37);\n  outline-offset: -4px;\n  background: hsl(0deg 0% 75%);\n  box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;\n  font-size: 14px;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  padding: 5px 30px;\n}\n\nbutton:active {\n  box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Dragon 15</title>\n<style>\n/* From Uiverse.io by barisdogansutcu - https://uiverse.io/barisdogansutcu/heavy-dragon-15 */\n/* From Uiverse.io by barisdogansutcu - Tags: button, active, retro */\nbutton {\n  font-family: inherit;\n  border: none;\n  outline: 1px dotted rgb(37, 37, 37);\n  outline-offset: -4px;\n  background: hsl(0deg 0% 75%);\n  box-shadow: inset -1px -1px #292929, inset 1px 1px #fff, inset -2px -2px rgb(158, 158, 158), inset 2px 2px #ffffff;\n  font-size: 14px;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  padding: 5px 30px;\n}\n\nbutton:active {\n  box-shadow: inset -1px -1px #fff, inset 1px 1px #292929, inset -2px -2px #ffffff, inset 2px 2px rgb(158, 158, 158);\n}\n</style>\n</head>\n<body>\n<button>\n    ok\n</button>\n</body>\n</html>\n"
+}

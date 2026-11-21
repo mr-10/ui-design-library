@@ -1,0 +1,20 @@
+{
+ "id": "unlucky-treefrog-77-by-kabak",
+ "name": "Unlucky Treefrog 77",
+ "category": "buttons",
+ "author": "Kabak",
+ "source": "https://uiverse.io/Kabak/unlucky-treefrog-77",
+ "trigger": "hover",
+ "description": "A button with dark, modern and sleek styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "dark",
+  "modern",
+  "sleek",
+  "hover"
+ ],
+ "html": "<button>\n  Button\n</button>",
+ "css": "/* From Uiverse.io by Kabak - Tags: button, dark, modern, sleek */\nbutton {\n  height: 50px;\n  margin: 5px;\n  width: 120px;\n  background: #333;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  font-family: Consolas, Courier New, monospace;\n  border: solid #404C5D 1px;\n  font-size: 16px;\n  color: rgb(161, 161, 161);\n  -webkit-transition: 500ms;\n  transition: 500ms;\n  border-radius: 5px;\n  background: linear-gradient(145deg, #2e2d2d, #212121);\n  -webkit-box-shadow: -1px -5px 15px #41465B, \n               5px  5px 15px #41465B, \n    inset      5px  5px 10px #212121, \n    inset     -5px -5px 10px #212121;\n  box-shadow: -1px -5px 15px #41465B, \n               5px  5px 15px #41465B, \n    inset      5px  5px 10px #212121, \n    inset     -5px -5px 10px #212121;\n}\n\nbutton:hover {\n  -webkit-box-shadow: 1px 1px 13px #20232e,\n                    -1px -1px 13px #545b78;\n  box-shadow: 1px 1px 13px #20232e,\n             -1px -1px 13px #545b78;\n  color: #d6d6d6;\n  -webkit-transition: 500ms;\n  transition: 500ms;\n}\n\nbutton:active {\n  -webkit-box-shadow: 1px 1px 13px #20232e,\n                     -1px -1px 33px #545b78;\n  box-shadow: 1px 1px 13px #20232e,\n             -1px -1px 33px #545b78;\n  color: #d6d6d6;\n  -webkit-transition: 100ms;\n  transition: 100ms;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Unlucky Treefrog 77</title>\n<style>\n/* From Uiverse.io by Kabak - https://uiverse.io/Kabak/unlucky-treefrog-77 */\n/* From Uiverse.io by Kabak - Tags: button, dark, modern, sleek */\nbutton {\n  height: 50px;\n  margin: 5px;\n  width: 120px;\n  background: #333;\n  -webkit-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  -webkit-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  font-family: Consolas, Courier New, monospace;\n  border: solid #404C5D 1px;\n  font-size: 16px;\n  color: rgb(161, 161, 161);\n  -webkit-transition: 500ms;\n  transition: 500ms;\n  border-radius: 5px;\n  background: linear-gradient(145deg, #2e2d2d, #212121);\n  -webkit-box-shadow: -1px -5px 15px #41465B, \n               5px  5px 15px #41465B, \n    inset      5px  5px 10px #212121, \n    inset     -5px -5px 10px #212121;\n  box-shadow: -1px -5px 15px #41465B, \n               5px  5px 15px #41465B, \n    inset      5px  5px 10px #212121, \n    inset     -5px -5px 10px #212121;\n}\n\nbutton:hover {\n  -webkit-box-shadow: 1px 1px 13px #20232e,\n                    -1px -1px 13px #545b78;\n  box-shadow: 1px 1px 13px #20232e,\n             -1px -1px 13px #545b78;\n  color: #d6d6d6;\n  -webkit-transition: 500ms;\n  transition: 500ms;\n}\n\nbutton:active {\n  -webkit-box-shadow: 1px 1px 13px #20232e,\n                     -1px -1px 33px #545b78;\n  box-shadow: 1px 1px 13px #20232e,\n             -1px -1px 33px #545b78;\n  color: #d6d6d6;\n  -webkit-transition: 100ms;\n  transition: 100ms;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+}

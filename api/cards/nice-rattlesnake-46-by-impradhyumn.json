@@ -1,0 +1,21 @@
+{
+ "id": "nice-rattlesnake-46-by-impradhyumn",
+ "name": "Nice Rattlesnake 46",
+ "category": "cards",
+ "author": "imPradhyumn",
+ "source": "https://uiverse.io/imPradhyumn/nice-rattlesnake-46",
+ "trigger": "hover",
+ "description": "A card with transition, hover-slide and card-hover styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "transition",
+  "hover-slide",
+  "card-hover",
+  "3d-card",
+  "hover"
+ ],
+ "html": "<div class=\"card\">\n  <div class=\"remove-when-use\">\n    <label>Hover over me to show details</label>\n  </div>\n  <div class=\"details\">\n    <label>Title</label>\n    <p>\n      A beautiful place at the shore of XYZ sea.\n      <br>\n      <i>California, USA</i>\n    </p>\n  </div>\n</div>",
+ "css": "/* From Uiverse.io by imPradhyumn - Tags: card, transition, hover slide, card hover, 3d card */\n.card {\n  width: 190px;\n  height: 254px;\n  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);\n  position: relative;\n}\n\n.remove-when-use {\n  text-align: center;\n  width: 100%;\n  position: absolute;\n  color: black;\n  top: 85px;\n  font-weight: bold;\n}\n\n.details > p {\n  font-size: .8em;\n  margin-top: .5em;\n}\n\n.details > label {\n  font-weight: bold;\n}\n\n.details {\n  color: white;\n  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);\n  width: 100%;\n  background-color: rgba(0,0,0,0.5);\n  position: absolute;\n  bottom: 0;\n  height: 2.6em;\n  transition: height .5s ease-in-out;\n  padding: 0.6em;\n  overflow: hidden;\n}\n\n.card:hover > .details {\n  height: 6.7em;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nice Rattlesnake 46</title>\n<style>\n/* From Uiverse.io by imPradhyumn - https://uiverse.io/imPradhyumn/nice-rattlesnake-46 */\n/* From Uiverse.io by imPradhyumn - Tags: card, transition, hover slide, card hover, 3d card */\n.card {\n  width: 190px;\n  height: 254px;\n  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);\n  position: relative;\n}\n\n.remove-when-use {\n  text-align: center;\n  width: 100%;\n  position: absolute;\n  color: black;\n  top: 85px;\n  font-weight: bold;\n}\n\n.details > p {\n  font-size: .8em;\n  margin-top: .5em;\n}\n\n.details > label {\n  font-weight: bold;\n}\n\n.details {\n  color: white;\n  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);\n  width: 100%;\n  background-color: rgba(0,0,0,0.5);\n  position: absolute;\n  bottom: 0;\n  height: 2.6em;\n  transition: height .5s ease-in-out;\n  padding: 0.6em;\n  overflow: hidden;\n}\n\n.card:hover > .details {\n  height: 6.7em;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n  <div class=\"remove-when-use\">\n    <label>Hover over me to show details</label>\n  </div>\n  <div class=\"details\">\n    <label>Title</label>\n    <p>\n      A beautiful place at the shore of XYZ sea.\n      <br>\n      <i>California, USA</i>\n    </p>\n  </div>\n</div>\n</body>\n</html>\n"
+}

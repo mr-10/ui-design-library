@@ -1,0 +1,19 @@
+{
+ "id": "calm-yak-25-by-doniaskima",
+ "name": "Calm Yak 25",
+ "category": "loaders",
+ "author": "doniaskima",
+ "source": "https://uiverse.io/doniaskima/calm-yak-25",
+ "trigger": "auto-loop",
+ "description": "A loader with simple and material-design styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "simple",
+  "material-design",
+  "loader",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 50px;\n  aspect-ratio: 1;\n  --g: #0000 calc(100% - 5px),#000 calc(100% - 3px) 93%,#0000;\n  background: radial-gradient(farthest-side at bottom,var(--g)) top                  /100% 50%,\n    radial-gradient(farthest-side at top   ,var(--g)) bottom 18% right  0  /80%  40%,\n    radial-gradient(farthest-side at bottom,var(--g)) left   50% top    30%/60%  30%,\n    radial-gradient(farthest-side at top   ,var(--g)) right  34% bottom 37%/40%  20%,\n    radial-gradient(farthest-side at bottom,var(--g)) left   52% top    43%/24%  12%;\n  background-repeat: no-repeat;\n  animation: l20 1s infinite linear;\n}\n\n@keyframes l20 {\n  100% {\n    transform: rotate(1turn)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Calm Yak 25</title>\n<style>\n/* From Uiverse.io by doniaskima - https://uiverse.io/doniaskima/calm-yak-25 */\n/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 50px;\n  aspect-ratio: 1;\n  --g: #0000 calc(100% - 5px),#000 calc(100% - 3px) 93%,#0000;\n  background: radial-gradient(farthest-side at bottom,var(--g)) top                  /100% 50%,\n    radial-gradient(farthest-side at top   ,var(--g)) bottom 18% right  0  /80%  40%,\n    radial-gradient(farthest-side at bottom,var(--g)) left   50% top    30%/60%  30%,\n    radial-gradient(farthest-side at top   ,var(--g)) right  34% bottom 37%/40%  20%,\n    radial-gradient(farthest-side at bottom,var(--g)) left   52% top    43%/24%  12%;\n  background-repeat: no-repeat;\n  animation: l20 1s infinite linear;\n}\n\n@keyframes l20 {\n  100% {\n    transform: rotate(1turn)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

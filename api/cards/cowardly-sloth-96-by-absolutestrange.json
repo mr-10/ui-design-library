@@ -1,0 +1,18 @@
+{
+ "id": "cowardly-sloth-96-by-absolutestrange",
+ "name": "Cowardly Sloth 96",
+ "category": "cards",
+ "author": "absoluteSTrange",
+ "source": "https://uiverse.io/absoluteSTrange/cowardly-sloth-96",
+ "trigger": "static",
+ "description": "A card UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "card",
+  "static",
+  "css"
+ ],
+ "html": "<div class=\"card shadow\">\n</div>",
+ "css": "/* From Uiverse.io by absoluteSTrange - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background: white;\n border-radius: 10px;\n transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.shadow {\n box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),\n             0 0  0 2px rgb(190, 190, 190),\n             0.3em 0.3em 1em rgba(0,0,0,0.3);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Sloth 96</title>\n<style>\n/* From Uiverse.io by absoluteSTrange - https://uiverse.io/absoluteSTrange/cowardly-sloth-96 */\n/* From Uiverse.io by absoluteSTrange - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background: white;\n border-radius: 10px;\n transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);\n}\n\n.shadow {\n box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),\n             0 0  0 2px rgb(190, 190, 190),\n             0.3em 0.3em 1em rgba(0,0,0,0.3);\n}\n</style>\n</head>\n<body>\n<div class=\"card shadow\">\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "curly-panda-17-by-vinodjangid07",
+ "name": "Curly Panda 17",
+ "category": "buttons",
+ "author": "vinodjangid07",
+ "source": "https://uiverse.io/vinodjangid07/curly-panda-17",
+ "trigger": "hover",
+ "description": "A button with arrow, hover-effect and back-to-top styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "arrow",
+  "hover-effect",
+  "back-to-top",
+  "scroll-to-top",
+  "hover"
+ ],
+ "html": "<button class=\"Btn\">\n  <svg height=\"1.2em\" class=\"arrow\" viewBox=\"0 0 512 512\"><path d=\"M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z\"></path></svg>\n<p class=\"text\">Back to Top</p>\n</button>",
+ "css": "/* From Uiverse.io by vinodjangid07 - Tags: button, arrow, hover effect, back to top, scroll to top */\n.Btn {\n  width: 45px;\n  height: 45px;\n  background: linear-gradient(#44ea76, #39fad7);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 50%;\n  cursor: pointer;\n  position: relative;\n  border: none;\n}\n\n.arrow path {\n  fill: white;\n}\n\n.text {\n  font-size: 0.7em;\n  width: 100px;\n  position: absolute;\n  color: white;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  bottom: -18px;\n  opacity: 0;\n  transition-duration: .7s;\n}\n\n.Btn:hover .text {\n  opacity: 1;\n  transition-duration: .7s;\n}\n\n.Btn:hover .arrow {\n  animation: slide-in-bottom .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;\n}\n\n@keyframes slide-in-bottom {\n  0% {\n    transform: translateY(10px);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Panda 17</title>\n<style>\n/* From Uiverse.io by vinodjangid07 - https://uiverse.io/vinodjangid07/curly-panda-17 */\n/* From Uiverse.io by vinodjangid07 - Tags: button, arrow, hover effect, back to top, scroll to top */\n.Btn {\n  width: 45px;\n  height: 45px;\n  background: linear-gradient(#44ea76, #39fad7);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  border-radius: 50%;\n  cursor: pointer;\n  position: relative;\n  border: none;\n}\n\n.arrow path {\n  fill: white;\n}\n\n.text {\n  font-size: 0.7em;\n  width: 100px;\n  position: absolute;\n  color: white;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  bottom: -18px;\n  opacity: 0;\n  transition-duration: .7s;\n}\n\n.Btn:hover .text {\n  opacity: 1;\n  transition-duration: .7s;\n}\n\n.Btn:hover .arrow {\n  animation: slide-in-bottom .7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;\n}\n\n@keyframes slide-in-bottom {\n  0% {\n    transform: translateY(10px);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"Btn\">\n  <svg height=\"1.2em\" class=\"arrow\" viewBox=\"0 0 512 512\"><path d=\"M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z\"></path></svg>\n<p class=\"text\">Back to Top</p>\n</button>\n</body>\n</html>\n"
+}

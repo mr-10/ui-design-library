@@ -1,0 +1,21 @@
+{
+ "id": "mean-wolverine-8-by-santhoshsj-dev",
+ "name": "Mean Wolverine 8",
+ "category": "inputs",
+ "author": "SanthoshSJ-Dev",
+ "source": "https://uiverse.io/SanthoshSJ-Dev/mean-wolverine-8",
+ "trigger": "focus",
+ "description": "A input with simple, material-design and animated styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "simple",
+  "material-design",
+  "input",
+  "animated",
+  "line",
+  "text"
+ ],
+ "html": "<div class=\"input-wrapper\">\n  <input class=\"input-box\" type=\"text\" placeholder=\"Enter your text\">\n  <span class=\"underline\"></span>\n</div>",
+ "css": "/* From Uiverse.io by SanthoshSJ-Dev - Tags: simple, material design, input, animated, line, text */\n.input-wrapper {\n  position: relative;\n  width: 200px;\n  margin: 50px auto;\n}\n\n.input-box {\n  font-size: 16px;\n  padding: 10px 0;\n  border: none;\n  border-bottom: 2px solid #ccc;\n  color: #08AEEA;\n  width: 100%;\n  background-color: transparent;\n  transition: border-color 0.3s ease-in-out;\n}\n\n.underline {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  background-color: #08AEEA;\n  transform: scaleX(0);\n  transition: transform 0.3s ease-in-out;\n}\n\n.input-box:focus {\n  border-color: #08AEEA;\n  outline: none;\n}\n\n.input-box:focus + .underline {\n  transform: scaleX(1);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Mean Wolverine 8</title>\n<style>\n/* From Uiverse.io by SanthoshSJ-Dev - https://uiverse.io/SanthoshSJ-Dev/mean-wolverine-8 */\n/* From Uiverse.io by SanthoshSJ-Dev - Tags: simple, material design, input, animated, line, text */\n.input-wrapper {\n  position: relative;\n  width: 200px;\n  margin: 50px auto;\n}\n\n.input-box {\n  font-size: 16px;\n  padding: 10px 0;\n  border: none;\n  border-bottom: 2px solid #ccc;\n  color: #08AEEA;\n  width: 100%;\n  background-color: transparent;\n  transition: border-color 0.3s ease-in-out;\n}\n\n.underline {\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 2px;\n  background-color: #08AEEA;\n  transform: scaleX(0);\n  transition: transform 0.3s ease-in-out;\n}\n\n.input-box:focus {\n  border-color: #08AEEA;\n  outline: none;\n}\n\n.input-box:focus + .underline {\n  transform: scaleX(1);\n}\n</style>\n</head>\n<body>\n<div class=\"input-wrapper\">\n  <input class=\"input-box\" type=\"text\" placeholder=\"Enter your text\">\n  <span class=\"underline\"></span>\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "calm-panda-30-by-na3ar-17",
+ "name": "Calm Panda 30",
+ "category": "inputs",
+ "author": "Na3ar-17",
+ "source": "https://uiverse.io/Na3ar-17/calm-panda-30",
+ "trigger": "focus",
+ "description": "A input UI element.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "inputs",
+  "focus",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Na3ar-17  - Tags: simple, input, tailwind, tailwindcss -->\n<input\n  class=\"bg-[#222630] px-4 py-3 outline-none w-[280px] text-white rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040]\"\n  name=\"text\"\n  placeholder=\"Enter email or username\"\n  type=\"text\"\n/>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Calm Panda 30</title>\n<style>\n/* From Uiverse.io by Na3ar-17 - https://uiverse.io/Na3ar-17/calm-panda-30 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Na3ar-17  - Tags: simple, input, tailwind, tailwindcss -->\n<input\n  class=\"bg-[#222630] px-4 py-3 outline-none w-[280px] text-white rounded-lg border-2 transition-colors duration-100 border-solid focus:border-[#596A95] border-[#2B3040]\"\n  name=\"text\"\n  placeholder=\"Enter email or username\"\n  type=\"text\"\n/>\n</body>\n</html>\n"
+}

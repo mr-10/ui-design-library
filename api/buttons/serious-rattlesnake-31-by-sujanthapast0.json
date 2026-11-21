@@ -1,0 +1,19 @@
+{
+ "id": "serious-rattlesnake-31-by-sujanthapast0",
+ "name": "Serious Rattlesnake 31",
+ "category": "buttons",
+ "author": "Sujanthapast0",
+ "source": "https://uiverse.io/Sujanthapast0/serious-rattlesnake-31",
+ "trigger": "hover",
+ "description": "A button with 3d-button and 2d-button styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "3d-button",
+  "2d-button",
+  "hover"
+ ],
+ "html": "<button>\n  Button\n</button>",
+ "css": "/* From Uiverse.io by Sujanthapast0 - Tags: button, 3d button, 2d button */\nbutton {\n  border: 1px solid black;\n  padding: 12px 30px 12px 30px;\n  border-radius: 30px;\n  background-color: #fdceb6;\n  font-weight: bolder;\n  font-size: 15px;\n  box-shadow: 0px 0px 1px;\n  transform: all 2s esase;\n  transition-duration: .3s;\n}\n\nbutton:hover {\n  transform: translateY(-10px);\n  box-shadow: 0px 7px 1px rgb(0, 0, 0);\n  border: 1px solid black;\n}\n\nbutton:active {\n  transform: translateY(10px);\n  box-shadow: 0px 0px 1px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Serious Rattlesnake 31</title>\n<style>\n/* From Uiverse.io by Sujanthapast0 - https://uiverse.io/Sujanthapast0/serious-rattlesnake-31 */\n/* From Uiverse.io by Sujanthapast0 - Tags: button, 3d button, 2d button */\nbutton {\n  border: 1px solid black;\n  padding: 12px 30px 12px 30px;\n  border-radius: 30px;\n  background-color: #fdceb6;\n  font-weight: bolder;\n  font-size: 15px;\n  box-shadow: 0px 0px 1px;\n  transform: all 2s esase;\n  transition-duration: .3s;\n}\n\nbutton:hover {\n  transform: translateY(-10px);\n  box-shadow: 0px 7px 1px rgb(0, 0, 0);\n  border: 1px solid black;\n}\n\nbutton:active {\n  transform: translateY(10px);\n  box-shadow: 0px 0px 1px;\n}\n</style>\n</head>\n<body>\n<button>\n  Button\n</button>\n</body>\n</html>\n"
+}

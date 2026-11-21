@@ -1,0 +1,18 @@
+{
+ "id": "big-crab-49-by-timtrayler",
+ "name": "Big Crab 49",
+ "category": "buttons",
+ "author": "TimTrayler",
+ "source": "https://uiverse.io/TimTrayler/big-crab-49",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button> Click me\n</button>",
+ "css": "/* From Uiverse.io by TimTrayler - Tags: button */\nbutton {\n --hover-shadows: 16px 16px 33px #121212,\n                   -16px -16px 33px #303030;\n --accent: fuchsia;\n font-weight: bold;\n letter-spacing: 0.1em;\n border: none;\n border-radius: 1.1em;\n background-color: #212121;\n color: white;\n padding: 1em 2em;\n transition: box-shadow ease-in-out 0.3s,\n             background-color ease-in-out 0.1s,\n             letter-spacing ease-in-out 0.1s,\n             transform ease-in-out 0.1s;\n box-shadow: 13px 13px 10px #1c1c1c,\n             -13px -13px 10px #262626;\n}\n\nbutton:hover {\n box-shadow: var(--hover-shadows);\n}\n\nbutton:active {\n box-shadow: var(--hover-shadows),\n              var(--accent) 0px 0px 30px 5px;\n background-color: var(--accent);\n transform: scale(0.95);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Crab 49</title>\n<style>\n/* From Uiverse.io by TimTrayler - https://uiverse.io/TimTrayler/big-crab-49 */\n/* From Uiverse.io by TimTrayler - Tags: button */\nbutton {\n --hover-shadows: 16px 16px 33px #121212,\n                   -16px -16px 33px #303030;\n --accent: fuchsia;\n font-weight: bold;\n letter-spacing: 0.1em;\n border: none;\n border-radius: 1.1em;\n background-color: #212121;\n color: white;\n padding: 1em 2em;\n transition: box-shadow ease-in-out 0.3s,\n             background-color ease-in-out 0.1s,\n             letter-spacing ease-in-out 0.1s,\n             transform ease-in-out 0.1s;\n box-shadow: 13px 13px 10px #1c1c1c,\n             -13px -13px 10px #262626;\n}\n\nbutton:hover {\n box-shadow: var(--hover-shadows);\n}\n\nbutton:active {\n box-shadow: var(--hover-shadows),\n              var(--accent) 0px 0px 30px 5px;\n background-color: var(--accent);\n transform: scale(0.95);\n}\n</style>\n</head>\n<body>\n<button> Click me\n</button>\n</body>\n</html>\n"
+}

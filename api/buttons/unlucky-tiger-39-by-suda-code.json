@@ -1,0 +1,19 @@
+{
+ "id": "unlucky-tiger-39-by-suda-code",
+ "name": "Unlucky Tiger 39",
+ "category": "buttons",
+ "author": "suda-code",
+ "source": "https://uiverse.io/suda-code/unlucky-tiger-39",
+ "trigger": "active",
+ "description": "A button with green and duolingo styling.",
+ "howItWorks": "Press and hold it to see the pressed state; let go and it returns.",
+ "tags": [
+  "green",
+  "button",
+  "duolingo",
+  "active"
+ ],
+ "html": "<button class=\"button\">\n  Duolingo Button\n</button>",
+ "css": "/* From Uiverse.io by suda-code - Tags: green, button, duolingo */\nbutton {\n  align-items: center;\n  color: #ffffff;\n  font-size: 18px;\n  background: #58cc02;\n  border: none !important;\n  padding: 15px 16px;\n  box-shadow: 0 4px 0 #58a700;\n  border-radius: 12px;\n  cursor: pointer;\n}\n\nbutton:active {\n  box-shadow: none;\n  transform: translate(0, 4px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Unlucky Tiger 39</title>\n<style>\n/* From Uiverse.io by suda-code - https://uiverse.io/suda-code/unlucky-tiger-39 */\n/* From Uiverse.io by suda-code - Tags: green, button, duolingo */\nbutton {\n  align-items: center;\n  color: #ffffff;\n  font-size: 18px;\n  background: #58cc02;\n  border: none !important;\n  padding: 15px 16px;\n  box-shadow: 0 4px 0 #58a700;\n  border-radius: 12px;\n  cursor: pointer;\n}\n\nbutton:active {\n  box-shadow: none;\n  transform: translate(0, 4px);\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Duolingo Button\n</button>\n</body>\n</html>\n"
+}

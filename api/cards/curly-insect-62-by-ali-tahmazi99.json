@@ -1,0 +1,18 @@
+{
+ "id": "curly-insect-62-by-ali-tahmazi99",
+ "name": "Curly Insect 62",
+ "category": "cards",
+ "author": "Ali-Tahmazi99",
+ "source": "https://uiverse.io/Ali-Tahmazi99/curly-insect-62",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"card\">\n    <p>\n        Hover Me\n    </p>\n</div>",
+ "css": "/* From Uiverse.io by Ali-Tahmazi99 - Tags: card */\n.card {\n  width: 200px;\n  height: 300px;\n  background: #f8f9fa;\n  position: relative;\n  box-shadow: 15px 15px 50px #adb5bd75;\n  text-align: center;\n  overflow: hidden;\n  transition: all 0.3s ease-in;\n}\n\n.card p {\n  transition: all 0.3s ease-in;\n  margin-top: 40px;\n}\n\n.card:hover {\n  cursor: pointer;\n  box-shadow: none;\n}\n\n.card:hover p {\n  transform: scale(1.5);\n  color: #f8f9fa;\n}\n\n.card::before {\n  content: '';\n  width: 100%;\n  height: 0;\n  background: #3f72ff;\n  position: absolute;\n  left: 0;\n  bottom: 0;\n      /* Or Top */\n  transition: 0.3s ease-in-out;\n  z-index: -1;\n}\n\n.card:hover::before {\n  height: 100%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Insect 62</title>\n<style>\n/* From Uiverse.io by Ali-Tahmazi99 - https://uiverse.io/Ali-Tahmazi99/curly-insect-62 */\n/* From Uiverse.io by Ali-Tahmazi99 - Tags: card */\n.card {\n  width: 200px;\n  height: 300px;\n  background: #f8f9fa;\n  position: relative;\n  box-shadow: 15px 15px 50px #adb5bd75;\n  text-align: center;\n  overflow: hidden;\n  transition: all 0.3s ease-in;\n}\n\n.card p {\n  transition: all 0.3s ease-in;\n  margin-top: 40px;\n}\n\n.card:hover {\n  cursor: pointer;\n  box-shadow: none;\n}\n\n.card:hover p {\n  transform: scale(1.5);\n  color: #f8f9fa;\n}\n\n.card::before {\n  content: '';\n  width: 100%;\n  height: 0;\n  background: #3f72ff;\n  position: absolute;\n  left: 0;\n  bottom: 0;\n      /* Or Top */\n  transition: 0.3s ease-in-out;\n  z-index: -1;\n}\n\n.card:hover::before {\n  height: 100%;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n    <p>\n        Hover Me\n    </p>\n</div>\n</body>\n</html>\n"
+}

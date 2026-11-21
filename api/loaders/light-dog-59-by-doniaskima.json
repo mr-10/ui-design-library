@@ -1,0 +1,21 @@
+{
+ "id": "light-dog-59-by-doniaskima",
+ "name": "Light Dog 59",
+ "category": "loaders",
+ "author": "doniaskima",
+ "source": "https://uiverse.io/doniaskima/light-dog-59",
+ "trigger": "auto-loop",
+ "description": "A loader with simple, material-design and code styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "simple",
+  "material-design",
+  "loader",
+  "code",
+  "modern",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by doniaskima - Tags: simple, material design, loader, code, modern */\n.loader {\n  width: fit-content;\n  font-weight: bold;\n  font-family: monospace;\n  font-size: 30px;\n  background: radial-gradient(circle closest-side,#000 94%,#0000) right/calc(200% - 1em) 100%;\n  animation: l24 1s infinite alternate linear;\n}\n\n.loader::before {\n  content: \"Loading...\";\n  line-height: 1em;\n  color: #0000;\n  background: inherit;\n  background-image: radial-gradient(circle closest-side,#fff 94%,#000);\n  -webkit-background-clip: text;\n  background-clip: text;\n}\n\n@keyframes l24 {\n  100% {\n    background-position: left\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Light Dog 59</title>\n<style>\n/* From Uiverse.io by doniaskima - https://uiverse.io/doniaskima/light-dog-59 */\n/* From Uiverse.io by doniaskima - Tags: simple, material design, loader, code, modern */\n.loader {\n  width: fit-content;\n  font-weight: bold;\n  font-family: monospace;\n  font-size: 30px;\n  background: radial-gradient(circle closest-side,#000 94%,#0000) right/calc(200% - 1em) 100%;\n  animation: l24 1s infinite alternate linear;\n}\n\n.loader::before {\n  content: \"Loading...\";\n  line-height: 1em;\n  color: #0000;\n  background: inherit;\n  background-image: radial-gradient(circle closest-side,#fff 94%,#000);\n  -webkit-background-clip: text;\n  background-clip: text;\n}\n\n@keyframes l24 {\n  100% {\n    background-position: left\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

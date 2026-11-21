@@ -1,0 +1,18 @@
+{
+ "id": "orange-earwig-38-by-codewithvinay",
+ "name": "Orange Earwig 38",
+ "category": "cards",
+ "author": "Codewithvinay",
+ "source": "https://uiverse.io/Codewithvinay/orange-earwig-38",
+ "trigger": "static",
+ "description": "A card with neumorphism styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "neumorphism",
+  "card",
+  "static"
+ ],
+ "html": "<div class=\"card\"></div>",
+ "css": "/* From Uiverse.io by Codewithvinay - Tags: neumorphism, card */\n.card {\n width: 190px;\n height: 254px;\n border-radius: 50px;\n background: #e0e0e0;\n box-shadow: 20px 20px 60px #bebebe,\n               -20px -20px 60px #ffffff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Orange Earwig 38</title>\n<style>\n/* From Uiverse.io by Codewithvinay - https://uiverse.io/Codewithvinay/orange-earwig-38 */\n/* From Uiverse.io by Codewithvinay - Tags: neumorphism, card */\n.card {\n width: 190px;\n height: 254px;\n border-radius: 50px;\n background: #e0e0e0;\n box-shadow: 20px 20px 60px #bebebe,\n               -20px -20px 60px #ffffff;\n}\n</style>\n</head>\n<body>\n<div class=\"card\"></div>\n</body>\n</html>\n"
+}

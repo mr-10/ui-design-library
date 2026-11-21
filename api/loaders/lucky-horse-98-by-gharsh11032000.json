@@ -1,0 +1,18 @@
+{
+ "id": "lucky-horse-98-by-gharsh11032000",
+ "name": "Lucky Horse 98",
+ "category": "loaders",
+ "author": "gharsh11032000",
+ "source": "https://uiverse.io/gharsh11032000/lucky-horse-98",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loaders",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\">\n  <div class=\"loader-small\"></div>\n  <div class=\"loader-large\"></div>\n</div>",
+ "css": "/* From Uiverse.io by gharsh11032000 - Tags:  */\n.loader {\n  position: relative;\n  width: 70px;\n  height: 70px;\n}\n\n.loader-large {\n  position: absolute;\n  inset: 0;\n  margin: auto;\n  width: 100%;\n  height: 100%;\n  background-color: #D4ADFC;\n  border-radius: 10px;\n  animation: loading 2s infinite;\n}\n\n.loader-small {\n  position: absolute;\n  width: 50%;\n  height: 50%;\n  inset: 0;\n  margin: auto;\n  background-color: #5C469C;\n  z-index: 2;\n  border-radius: 6px;\n  animation: loading 2s infinite reverse;\n}\n\n@keyframes loading {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  50% {\n    transform: rotateY(180deg);\n  }\n\n  100% {\n    transform: rotateX(180deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Lucky Horse 98</title>\n<style>\n/* From Uiverse.io by gharsh11032000 - https://uiverse.io/gharsh11032000/lucky-horse-98 */\n/* From Uiverse.io by gharsh11032000 - Tags:  */\n.loader {\n  position: relative;\n  width: 70px;\n  height: 70px;\n}\n\n.loader-large {\n  position: absolute;\n  inset: 0;\n  margin: auto;\n  width: 100%;\n  height: 100%;\n  background-color: #D4ADFC;\n  border-radius: 10px;\n  animation: loading 2s infinite;\n}\n\n.loader-small {\n  position: absolute;\n  width: 50%;\n  height: 50%;\n  inset: 0;\n  margin: auto;\n  background-color: #5C469C;\n  z-index: 2;\n  border-radius: 6px;\n  animation: loading 2s infinite reverse;\n}\n\n@keyframes loading {\n  0% {\n    transform: rotate(0deg);\n  }\n\n  50% {\n    transform: rotateY(180deg);\n  }\n\n  100% {\n    transform: rotateX(180deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"loader-small\"></div>\n  <div class=\"loader-large\"></div>\n</div>\n</body>\n</html>\n"
+}

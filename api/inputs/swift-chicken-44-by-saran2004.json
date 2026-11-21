@@ -1,0 +1,19 @@
+{
+ "id": "swift-chicken-44-by-saran2004",
+ "name": "Swift Chicken 44",
+ "category": "inputs",
+ "author": "SARAN2004",
+ "source": "https://uiverse.io/SARAN2004/swift-chicken-44",
+ "trigger": "focus",
+ "description": "A input with active and click styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "active",
+  "input",
+  "click",
+  "focus"
+ ],
+ "html": "<div class=\"inputs\">\n  <input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Enter Text\" required=\"\">\n</div>",
+ "css": "/* From Uiverse.io by SARAN2004 - Tags: active, input, click */\n.input {\n  max-width: 190px;\n  height: 45px;\n  width: 100%;\n  outline: none;\n  font-size: 16px;\n  border-radius: 5px;\n  padding-left: 15px;\n  border: 1px solid #ccc;\n  border-bottom-width: 2px;\n  transition: all 0.3s ease;\n  position: relative;\n}\n\n.input:valid {\n  border-color: #00ff2a;\n  color: #00ff2a;\n  box-shadow: 2px 2px 8px 1px #00ff2a;\n}\n\n.input:invalid {\n  border-color: #ff0000;\n  color: #ff0000;\n  box-shadow: 2px 2px 8px 1px #ff0000;\n  /* translate: -8px 8px 0px 0px; */\n}\n\n.text {\n  margin-top: 10px;\n  color: black;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Chicken 44</title>\n<style>\n/* From Uiverse.io by SARAN2004 - https://uiverse.io/SARAN2004/swift-chicken-44 */\n/* From Uiverse.io by SARAN2004 - Tags: active, input, click */\n.input {\n  max-width: 190px;\n  height: 45px;\n  width: 100%;\n  outline: none;\n  font-size: 16px;\n  border-radius: 5px;\n  padding-left: 15px;\n  border: 1px solid #ccc;\n  border-bottom-width: 2px;\n  transition: all 0.3s ease;\n  position: relative;\n}\n\n.input:valid {\n  border-color: #00ff2a;\n  color: #00ff2a;\n  box-shadow: 2px 2px 8px 1px #00ff2a;\n}\n\n.input:invalid {\n  border-color: #ff0000;\n  color: #ff0000;\n  box-shadow: 2px 2px 8px 1px #ff0000;\n  /* translate: -8px 8px 0px 0px; */\n}\n\n.text {\n  margin-top: 10px;\n  color: black;\n}\n</style>\n</head>\n<body>\n<div class=\"inputs\">\n  <input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Enter Text\" required=\"\">\n</div>\n</body>\n</html>\n"
+}

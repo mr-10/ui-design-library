@@ -1,0 +1,18 @@
+{
+ "id": "red-duck-59-by-echeverriajesus",
+ "name": "Red Duck 59",
+ "category": "buttons",
+ "author": "EcheverriaJesus",
+ "source": "https://uiverse.io/EcheverriaJesus/red-duck-59",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by EcheverriaJesus - Tags: button, add, accept -->\n<button class=\"cursor-pointer w-32 h-10 bg-blue-500 tracking-widest\nrounded-md text-white text-sm shadow-2xl hover:scale-90 ease-in duration-300\nhover:text-base hover:font-semibold hover:rounded-lg\">\n  Button\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Duck 59</title>\n<style>\n/* From Uiverse.io by EcheverriaJesus - https://uiverse.io/EcheverriaJesus/red-duck-59 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by EcheverriaJesus - Tags: button, add, accept -->\n<button class=\"cursor-pointer w-32 h-10 bg-blue-500 tracking-widest\nrounded-md text-white text-sm shadow-2xl hover:scale-90 ease-in duration-300\nhover:text-base hover:font-semibold hover:rounded-lg\">\n  Button\n</button>\n</body>\n</html>\n"
+}

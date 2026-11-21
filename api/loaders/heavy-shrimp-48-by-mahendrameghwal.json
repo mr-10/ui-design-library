@@ -1,0 +1,18 @@
+{
+ "id": "heavy-shrimp-48-by-mahendrameghwal",
+ "name": "Heavy Shrimp 48",
+ "category": "loaders",
+ "author": "mahendrameghwal",
+ "source": "https://uiverse.io/mahendrameghwal/heavy-shrimp-48",
+ "trigger": "static",
+ "description": "A loader UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "loaders",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by mahendrameghwal  - Tags: animation, loading, loader, circle loader, loading animation, tailwind, tailwindcss -->\n<div class=\"w-full min-h-screen gap-x-2 flex justify-center items-center\">\n  <div\n    class=\"w-5 bg-[#d991c2] animate-pulse h-5 rounded-full animate-bounce\"\n  ></div>\n  <div\n    class=\"w-5 animate-pulse h-5 bg-[#9869b8] rounded-full animate-bounce\"\n  ></div>\n  <div\n    class=\"w-5 h-5 animate-pulse bg-[#6756cc] rounded-full animate-bounce\"\n  ></div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Shrimp 48</title>\n<style>\n/* From Uiverse.io by mahendrameghwal - https://uiverse.io/mahendrameghwal/heavy-shrimp-48 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by mahendrameghwal  - Tags: animation, loading, loader, circle loader, loading animation, tailwind, tailwindcss -->\n<div class=\"w-full min-h-screen gap-x-2 flex justify-center items-center\">\n  <div\n    class=\"w-5 bg-[#d991c2] animate-pulse h-5 rounded-full animate-bounce\"\n  ></div>\n  <div\n    class=\"w-5 animate-pulse h-5 bg-[#9869b8] rounded-full animate-bounce\"\n  ></div>\n  <div\n    class=\"w-5 h-5 animate-pulse bg-[#6756cc] rounded-full animate-bounce\"\n  ></div>\n</div>\n</body>\n</html>\n"
+}

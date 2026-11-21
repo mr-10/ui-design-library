@@ -1,0 +1,18 @@
+{
+ "id": "bitter-turtle-76-by-z4drus",
+ "name": "Bitter Turtle 76",
+ "category": "buttons",
+ "author": "Z4drus",
+ "source": "https://uiverse.io/Z4drus/bitter-turtle-76",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Z4drus  - Tags: simple, animation, minimalist, white, black, button, smooth, light -->\n<button\n  class=\"relative overflow-hidden bg-white border-2 border-gray-300 text-gray-800 font-semibold py-2 px-4 rounded-lg shadow-sm hover:shadow transition-all duration-500 ease-linear focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50 active:scale-95\"\n>\n  Click Me\n  <span\n    class=\"absolute inset-0 bg-gray-100 rounded-lg opacity-0 hover:opacity-10 transition-opacity duration-100 ease-linear\"\n  ></span>\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Turtle 76</title>\n<style>\n/* From Uiverse.io by Z4drus - https://uiverse.io/Z4drus/bitter-turtle-76 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Z4drus  - Tags: simple, animation, minimalist, white, black, button, smooth, light -->\n<button\n  class=\"relative overflow-hidden bg-white border-2 border-gray-300 text-gray-800 font-semibold py-2 px-4 rounded-lg shadow-sm hover:shadow transition-all duration-500 ease-linear focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50 active:scale-95\"\n>\n  Click Me\n  <span\n    class=\"absolute inset-0 bg-gray-100 rounded-lg opacity-0 hover:opacity-10 transition-opacity duration-100 ease-linear\"\n  ></span>\n</button>\n</body>\n</html>\n"
+}

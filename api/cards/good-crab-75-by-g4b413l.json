@@ -1,0 +1,18 @@
+{
+ "id": "good-crab-75-by-g4b413l",
+ "name": "Good Crab 75",
+ "category": "cards",
+ "author": "G4b413l",
+ "source": "https://uiverse.io/G4b413l/good-crab-75",
+ "trigger": "hover",
+ "description": "A card with glassmorphism styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "glassmorphism",
+  "card",
+  "hover"
+ ],
+ "html": "<div class=\"card\">\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"card-inner\"></div>\n</div>",
+ "css": "/* From Uiverse.io by G4b413l - Tags: glassmorphism, card, hover */\n.card {\n  width: 190px;\n  height: 254px;\n  transition: all 0.2s;\n  position: relative;\n  cursor: pointer;\n}\n\n.card-inner {\n  width: inherit;\n  height: inherit;\n  background: rgba(255,255,255,.05);\n  box-shadow: 0 0 10px rgba(0,0,0,0.25);\n  backdrop-filter: blur(10px);\n  border-radius: 8px;\n}\n\n.card:hover {\n  transform: scale(1.04) rotate(1deg);\n}\n\n.circle {\n  width: 100px;\n  height: 100px;\n  background: radial-gradient(#b0e633, #53ef7d);\n  border-radius: 50%;\n  position: absolute;\n  animation: move-up6 2s ease-in infinite alternate-reverse;\n}\n\n.circle:nth-child(1) {\n  top: -25px;\n  left: -25px;\n}\n\n.circle:nth-child(2) {\n  bottom: -25px;\n  right: -25px;\n  animation-name: move-down1;\n}\n\n@keyframes move-up6 {\n  to {\n    transform: translateY(-10px);\n  }\n}\n\n@keyframes move-down1 {\n  to {\n    transform: translateY(10px);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Good Crab 75</title>\n<style>\n/* From Uiverse.io by G4b413l - https://uiverse.io/G4b413l/good-crab-75 */\n/* From Uiverse.io by G4b413l - Tags: glassmorphism, card, hover */\n.card {\n  width: 190px;\n  height: 254px;\n  transition: all 0.2s;\n  position: relative;\n  cursor: pointer;\n}\n\n.card-inner {\n  width: inherit;\n  height: inherit;\n  background: rgba(255,255,255,.05);\n  box-shadow: 0 0 10px rgba(0,0,0,0.25);\n  backdrop-filter: blur(10px);\n  border-radius: 8px;\n}\n\n.card:hover {\n  transform: scale(1.04) rotate(1deg);\n}\n\n.circle {\n  width: 100px;\n  height: 100px;\n  background: radial-gradient(#b0e633, #53ef7d);\n  border-radius: 50%;\n  position: absolute;\n  animation: move-up6 2s ease-in infinite alternate-reverse;\n}\n\n.circle:nth-child(1) {\n  top: -25px;\n  left: -25px;\n}\n\n.circle:nth-child(2) {\n  bottom: -25px;\n  right: -25px;\n  animation-name: move-down1;\n}\n\n@keyframes move-up6 {\n  to {\n    transform: translateY(-10px);\n  }\n}\n\n@keyframes move-down1 {\n  to {\n    transform: translateY(10px);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n    <div class=\"circle\"></div>\n    <div class=\"circle\"></div>\n    <div class=\"card-inner\"></div>\n</div>\n</body>\n</html>\n"
+}

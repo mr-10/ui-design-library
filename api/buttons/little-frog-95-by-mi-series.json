@@ -1,0 +1,21 @@
+{
+ "id": "little-frog-95-by-mi-series",
+ "name": "Little Frog 95",
+ "category": "buttons",
+ "author": "mi-series",
+ "source": "https://uiverse.io/mi-series/little-frog-95",
+ "trigger": "hover",
+ "description": "A button with simple, material-design and flashy styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "material-design",
+  "flashy",
+  "animation",
+  "purple",
+  "minimalist"
+ ],
+ "html": "<div>\n    <button class=\"btn\"><i class=\"animation\"></i>BUTTON<i class=\"animation\"></i>\n    </button>\n</div>",
+ "css": "/* From Uiverse.io by mi-series - Tags: simple, material design, flashy, animation, purple, minimalist, button, animated */\n.btn {\n  outline: 0;\n  display: inline-flex;\n  align-items: center;\n  justify-content: space-between;\n  background: #40B3A2;\n  min-width: 200px;\n  border: 0;\n  border-radius: 4px;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, .1);\n  box-sizing: border-box;\n  padding: 16px 20px;\n  color: #fff;\n  font-size: 12px;\n  font-weight: 600;\n  letter-spacing: 1.2px;\n  text-transform: uppercase;\n  overflow: hidden;\n  cursor: pointer;\n}\n\n.btn:hover {\n  opacity: .95;\n}\n\n.btn .animation {\n  border-radius: 100%;\n  animation: ripple 0.6s linear infinite;\n}\n\n@keyframes ripple {\n  0% {\n    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);\n  }\n\n  100% {\n    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Little Frog 95</title>\n<style>\n/* From Uiverse.io by mi-series - https://uiverse.io/mi-series/little-frog-95 */\n/* From Uiverse.io by mi-series - Tags: simple, material design, flashy, animation, purple, minimalist, button, animated */\n.btn {\n  outline: 0;\n  display: inline-flex;\n  align-items: center;\n  justify-content: space-between;\n  background: #40B3A2;\n  min-width: 200px;\n  border: 0;\n  border-radius: 4px;\n  box-shadow: 0 4px 12px rgba(0, 0, 0, .1);\n  box-sizing: border-box;\n  padding: 16px 20px;\n  color: #fff;\n  font-size: 12px;\n  font-weight: 600;\n  letter-spacing: 1.2px;\n  text-transform: uppercase;\n  overflow: hidden;\n  cursor: pointer;\n}\n\n.btn:hover {\n  opacity: .95;\n}\n\n.btn .animation {\n  border-radius: 100%;\n  animation: ripple 0.6s linear infinite;\n}\n\n@keyframes ripple {\n  0% {\n    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1);\n  }\n\n  100% {\n    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);\n  }\n}\n</style>\n</head>\n<body>\n<div>\n    <button class=\"btn\"><i class=\"animation\"></i>BUTTON<i class=\"animation\"></i>\n    </button>\n</div>\n</body>\n</html>\n"
+}

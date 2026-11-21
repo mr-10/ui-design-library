@@ -1,0 +1,18 @@
+{
+ "id": "afraid-owl-82-by-sherghan7",
+ "name": "Afraid Owl 82",
+ "category": "buttons",
+ "author": "sherghan7",
+ "source": "https://uiverse.io/sherghan7/afraid-owl-82",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n    Button\n</button>",
+ "css": "/* From Uiverse.io by sherghan7 - Tags: button */\nbutton {\n  min-width: 120px;\n  background: #000;\n  color: #EEEEEE;\n  height: 40px;\n  margin: 10px;\n  border: none;\n  border-radius: 0 !important;\n  font-size: 16px;\n  font-weight: bold;\n  cursor: pointer;\n  outline: none;\n  transition: all 0.3s ease-in-out;\n}\n\nbutton:hover {\n  box-shadow: #EEEEEE 0px 0px 0px 11px, #161616 0px 0px 0px 10px;\n  background: #000;\n  color: #EEEEEE;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Afraid Owl 82</title>\n<style>\n/* From Uiverse.io by sherghan7 - https://uiverse.io/sherghan7/afraid-owl-82 */\n/* From Uiverse.io by sherghan7 - Tags: button */\nbutton {\n  min-width: 120px;\n  background: #000;\n  color: #EEEEEE;\n  height: 40px;\n  margin: 10px;\n  border: none;\n  border-radius: 0 !important;\n  font-size: 16px;\n  font-weight: bold;\n  cursor: pointer;\n  outline: none;\n  transition: all 0.3s ease-in-out;\n}\n\nbutton:hover {\n  box-shadow: #EEEEEE 0px 0px 0px 11px, #161616 0px 0px 0px 10px;\n  background: #000;\n  color: #EEEEEE;\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "curly-lizard-40-by-adamgiebl",
+ "name": "Curly Lizard 40",
+ "category": "checkboxes",
+ "author": "adamgiebl",
+ "source": "https://uiverse.io/adamgiebl/curly-lizard-40",
+ "trigger": "checked",
+ "description": "A checkbox UI element.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "checkbox",
+  "checked",
+  "css"
+ ],
+ "html": "<label class=\"cyberpunk-checkbox-label\">\n<input type=\"checkbox\" class=\"cyberpunk-checkbox\">\nCheck me</label>",
+ "css": "/* From Uiverse.io by adamgiebl - Tags: checkbox */\n.cyberpunk-checkbox {\n  appearance: none;\n  width: 20px;\n  height: 20px;\n  border: 2px solid #30cfd0;\n  border-radius: 5px;\n  background-color: transparent;\n  display: inline-block;\n  position: relative;\n  margin-right: 10px;\n  cursor: pointer;\n}\n\n.cyberpunk-checkbox:before {\n  content: \"\";\n  background-color: #30cfd0;\n  display: block;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%) scale(0);\n  width: 10px;\n  height: 10px;\n  border-radius: 3px;\n  transition: all 0.3s ease-in-out;\n}\n\n.cyberpunk-checkbox:checked:before {\n  transform: translate(-50%, -50%) scale(1);\n}\n\n.cyberpunk-checkbox-label {\n  font-size: 18px;\n  color: #fff;\n  cursor: pointer;\n  user-select: none;\n  display: flex;\n  align-items: center;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curly Lizard 40</title>\n<style>\n/* From Uiverse.io by adamgiebl - https://uiverse.io/adamgiebl/curly-lizard-40 */\n/* From Uiverse.io by adamgiebl - Tags: checkbox */\n.cyberpunk-checkbox {\n  appearance: none;\n  width: 20px;\n  height: 20px;\n  border: 2px solid #30cfd0;\n  border-radius: 5px;\n  background-color: transparent;\n  display: inline-block;\n  position: relative;\n  margin-right: 10px;\n  cursor: pointer;\n}\n\n.cyberpunk-checkbox:before {\n  content: \"\";\n  background-color: #30cfd0;\n  display: block;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%) scale(0);\n  width: 10px;\n  height: 10px;\n  border-radius: 3px;\n  transition: all 0.3s ease-in-out;\n}\n\n.cyberpunk-checkbox:checked:before {\n  transform: translate(-50%, -50%) scale(1);\n}\n\n.cyberpunk-checkbox-label {\n  font-size: 18px;\n  color: #fff;\n  cursor: pointer;\n  user-select: none;\n  display: flex;\n  align-items: center;\n}\n</style>\n</head>\n<body>\n<label class=\"cyberpunk-checkbox-label\">\n<input type=\"checkbox\" class=\"cyberpunk-checkbox\">\nCheck me</label>\n</body>\n</html>\n"
+}

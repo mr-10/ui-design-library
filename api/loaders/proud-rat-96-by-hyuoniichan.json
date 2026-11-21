@@ -1,0 +1,18 @@
+{
+ "id": "proud-rat-96-by-hyuoniichan",
+ "name": "Proud Rat 96",
+ "category": "loaders",
+ "author": "HyuOniichan",
+ "source": "https://uiverse.io/HyuOniichan/proud-rat-96",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"eye\">\n    <div class=\"up\"></div>\n    <div class=\"mid\"></div> \n    <div class=\"down\"></div> \n</div>",
+ "css": "/* From Uiverse.io by HyuOniichan - Tags: loader */\n.eye {\n  width: 100px;\n  height: 60px;\n  position: relative;\n  z-index: 1;\n}\n\n.up {\n  position: absolute;\n  top: 0px;\n  height: 100px;\n  width: 100px;\n  border-width: 2px;\n  border-style: solid;\n  border-color: black transparent transparent transparent;\n  border-radius: 50%;\n  z-index: 1;\n}\n\n.down {\n  position: absolute;\n  top: -70px;\n  height: 100px;\n  width: 100px;\n  border-width: 2px;\n  border-style: solid;\n  border-color: transparent transparent black transparent;\n  border-radius: 50%;\n  z-index: 1;\n}\n\n.mid {\n  position: absolute;\n  top: 1px;\n  left: 39px;\n  width: 27px;\n  height: 27px;\n  border: none;\n  border-radius: 50%;\n  background-color: black;\n  z-index: 0;\n  animation: eyemove 4s infinite;\n}\n\n@keyframes eyemove {\n  0% {\n    left: 30px;\n    background-color: rgb(164, 213, 230);\n  }\n\n  50% {\n    left: 43px;\n    background-color: rgb(45, 187, 235);\n  }\n\n  100% {\n    left: 30px;\n    background-color: rgb(164, 213, 230);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Proud Rat 96</title>\n<style>\n/* From Uiverse.io by HyuOniichan - https://uiverse.io/HyuOniichan/proud-rat-96 */\n/* From Uiverse.io by HyuOniichan - Tags: loader */\n.eye {\n  width: 100px;\n  height: 60px;\n  position: relative;\n  z-index: 1;\n}\n\n.up {\n  position: absolute;\n  top: 0px;\n  height: 100px;\n  width: 100px;\n  border-width: 2px;\n  border-style: solid;\n  border-color: black transparent transparent transparent;\n  border-radius: 50%;\n  z-index: 1;\n}\n\n.down {\n  position: absolute;\n  top: -70px;\n  height: 100px;\n  width: 100px;\n  border-width: 2px;\n  border-style: solid;\n  border-color: transparent transparent black transparent;\n  border-radius: 50%;\n  z-index: 1;\n}\n\n.mid {\n  position: absolute;\n  top: 1px;\n  left: 39px;\n  width: 27px;\n  height: 27px;\n  border: none;\n  border-radius: 50%;\n  background-color: black;\n  z-index: 0;\n  animation: eyemove 4s infinite;\n}\n\n@keyframes eyemove {\n  0% {\n    left: 30px;\n    background-color: rgb(164, 213, 230);\n  }\n\n  50% {\n    left: 43px;\n    background-color: rgb(45, 187, 235);\n  }\n\n  100% {\n    left: 30px;\n    background-color: rgb(164, 213, 230);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"eye\">\n    <div class=\"up\"></div>\n    <div class=\"mid\"></div> \n    <div class=\"down\"></div> \n</div>\n</body>\n</html>\n"
+}

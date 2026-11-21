@@ -1,0 +1,21 @@
+{
+ "id": "sharp-cow-38-by-polidahiya",
+ "name": "Sharp Cow 38",
+ "category": "loaders",
+ "author": "polidahiya",
+ "source": "https://uiverse.io/polidahiya/sharp-cow-38",
+ "trigger": "auto-loop",
+ "description": "A loader with simple, loading and download styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "simple",
+  "loading",
+  "loader",
+  "download",
+  "downloading",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loadingtext\">\n  <p>Loading</p>\n</div>",
+ "css": "/* From Uiverse.io by polidahiya  - Tags: simple, loading, loader, download, downloading */\n.loadingtext p {\n  color: white;\n  position: relative;\n}\n\n.loadingtext p::after {\n  position: absolute;\n  animation: b 3s infinite linear;\n  color: white;\n  content: \"\";\n  left: 105%;\n}\n\n@keyframes b {\n  0% {\n    content: \"\";\n  }\n\n  10% {\n    content: \".\";\n  }\n\n  40% {\n    content: \"..\";\n  }\n\n  70% {\n    content: \"...\";\n  }\n\n  100% {\n    content: \"\";\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Sharp Cow 38</title>\n<style>\n/* From Uiverse.io by polidahiya - https://uiverse.io/polidahiya/sharp-cow-38 */\n/* From Uiverse.io by polidahiya  - Tags: simple, loading, loader, download, downloading */\n.loadingtext p {\n  color: white;\n  position: relative;\n}\n\n.loadingtext p::after {\n  position: absolute;\n  animation: b 3s infinite linear;\n  color: white;\n  content: \"\";\n  left: 105%;\n}\n\n@keyframes b {\n  0% {\n    content: \"\";\n  }\n\n  10% {\n    content: \".\";\n  }\n\n  40% {\n    content: \"..\";\n  }\n\n  70% {\n    content: \"...\";\n  }\n\n  100% {\n    content: \"\";\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loadingtext\">\n  <p>Loading</p>\n</div>\n</body>\n</html>\n"
+}

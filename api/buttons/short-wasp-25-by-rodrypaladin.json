@@ -1,0 +1,21 @@
+{
+ "id": "short-wasp-25-by-rodrypaladin",
+ "name": "Short Wasp 25",
+ "category": "buttons",
+ "author": "Rodrypaladin",
+ "source": "https://uiverse.io/Rodrypaladin/short-wasp-25",
+ "trigger": "hover",
+ "description": "A button with simple, animation and purple styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "simple",
+  "animation",
+  "purple",
+  "pink",
+  "button",
+  "click"
+ ],
+ "html": "<button class=\"button\">\n  Button\n</button>",
+ "css": "/* From Uiverse.io by Rodrypaladin - Tags: simple, animation, purple, pink, button, click, css, click animation */\n.button {\n  margin: 0 10px;\n  padding: 10px 30px;\n  border: 5px solid #DF34DB;\n  border-radius: 22px;\n  font-size: 20px;\n  color: #DF34DB;\n  transition: transform 0.1s ease-in, all 0.08s ease-in;\n  box-shadow: 0 5px 0 #dd04d9;\n}\n\n.button:hover {\n  border-color: #ff00c8;\n  box-shadow: 0 5px 0 #ff00c8;\n}\n\n.button:active {\n  transform: translateY(5px);\n  box-shadow: 0 0 0 #DF34DB;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Short Wasp 25</title>\n<style>\n/* From Uiverse.io by Rodrypaladin - https://uiverse.io/Rodrypaladin/short-wasp-25 */\n/* From Uiverse.io by Rodrypaladin - Tags: simple, animation, purple, pink, button, click, css, click animation */\n.button {\n  margin: 0 10px;\n  padding: 10px 30px;\n  border: 5px solid #DF34DB;\n  border-radius: 22px;\n  font-size: 20px;\n  color: #DF34DB;\n  transition: transform 0.1s ease-in, all 0.08s ease-in;\n  box-shadow: 0 5px 0 #dd04d9;\n}\n\n.button:hover {\n  border-color: #ff00c8;\n  box-shadow: 0 5px 0 #ff00c8;\n}\n\n.button:active {\n  transform: translateY(5px);\n  box-shadow: 0 0 0 #DF34DB;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+}

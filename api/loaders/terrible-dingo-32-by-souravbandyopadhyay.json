@@ -1,0 +1,19 @@
+{
+ "id": "terrible-dingo-32-by-souravbandyopadhyay",
+ "name": "Terrible Dingo 32",
+ "category": "loaders",
+ "author": "SouravBandyopadhyay",
+ "source": "https://uiverse.io/SouravBandyopadhyay/terrible-dingo-32",
+ "trigger": "auto-loop",
+ "description": "A loader with spinner and colorful styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "spinner",
+  "colorful",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\">\n  <div class=\"circle outer\"></div>\n  <div class=\"circle inner\"></div>\n</div>",
+ "css": "/* From Uiverse.io by SouravBandyopadhyay - Tags: loader, spinner, colorful */\n.loader {\n  width: 8em;\n  height: 4em;\n  position: relative;\n  margin: 0 auto;\n}\n\n.circle {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border-radius: 50%;\n  border: 0.4em solid transparent;\n  animation-duration: 2s;\n  animation-iteration-count: infinite;\n  animation-timing-function: linear;\n}\n\n.outer {\n  border-top-color: #ff0080;\n  border-right-color: #ffbf00;\n  border-bottom-color: #00bfff;\n  border-left-color: #80ff00;\n  animation-name: rotate-outer;\n}\n\n.inner {\n  border-top-color: #80ff00;\n  border-right-color: #00bfff;\n  border-bottom-color: #ffbf00;\n  border-left-color: #ff0080;\n  animation-name: rotate-inner;\n}\n\n@keyframes rotate-outer {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes rotate-inner {\n  0% {\n    transform: rotate(360deg);\n  }\n\n  100% {\n    transform: rotate(0);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Terrible Dingo 32</title>\n<style>\n/* From Uiverse.io by SouravBandyopadhyay - https://uiverse.io/SouravBandyopadhyay/terrible-dingo-32 */\n/* From Uiverse.io by SouravBandyopadhyay - Tags: loader, spinner, colorful */\n.loader {\n  width: 8em;\n  height: 4em;\n  position: relative;\n  margin: 0 auto;\n}\n\n.circle {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  border-radius: 50%;\n  border: 0.4em solid transparent;\n  animation-duration: 2s;\n  animation-iteration-count: infinite;\n  animation-timing-function: linear;\n}\n\n.outer {\n  border-top-color: #ff0080;\n  border-right-color: #ffbf00;\n  border-bottom-color: #00bfff;\n  border-left-color: #80ff00;\n  animation-name: rotate-outer;\n}\n\n.inner {\n  border-top-color: #80ff00;\n  border-right-color: #00bfff;\n  border-bottom-color: #ffbf00;\n  border-left-color: #ff0080;\n  animation-name: rotate-inner;\n}\n\n@keyframes rotate-outer {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n@keyframes rotate-inner {\n  0% {\n    transform: rotate(360deg);\n  }\n\n  100% {\n    transform: rotate(0);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n  <div class=\"circle outer\"></div>\n  <div class=\"circle inner\"></div>\n</div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,19 @@
+{
+ "id": "jolly-parrot-30-by-uiverse-astronaut",
+ "name": "Jolly Parrot 30",
+ "category": "patterns",
+ "author": "uiverse-astronaut",
+ "source": "https://uiverse.io/uiverse-astronaut/jolly-parrot-30",
+ "trigger": "static",
+ "description": "A pattern with purple and diamond styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "purple",
+  "diamond",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by uiverse-astronaut - Tags: purple, diamond, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --color: #a748f5;\n  background: linear-gradient(95deg, var(--color) 25%, transparent 25%) -50px 0,\n        linear-gradient(-15deg, var(--color) 25%, transparent 25%) -50px 0,\n        linear-gradient(25deg, transparent 75%, var(--color) 75%) -50px 0,\n        linear-gradient(-45deg, transparent 75%, var(--color) 75%) -50px 0,\n        linear-gradient(-15deg, transparent 75%, var(--color) 75%) -50px 0;\n  background-color: #b669fd;\n  background-size: 40px 40px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Jolly Parrot 30</title>\n<style>\n/* From Uiverse.io by uiverse-astronaut - https://uiverse.io/uiverse-astronaut/jolly-parrot-30 */\n/* From Uiverse.io by uiverse-astronaut - Tags: purple, diamond, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --color: #a748f5;\n  background: linear-gradient(95deg, var(--color) 25%, transparent 25%) -50px 0,\n        linear-gradient(-15deg, var(--color) 25%, transparent 25%) -50px 0,\n        linear-gradient(25deg, transparent 75%, var(--color) 75%) -50px 0,\n        linear-gradient(-45deg, transparent 75%, var(--color) 75%) -50px 0,\n        linear-gradient(-15deg, transparent 75%, var(--color) 75%) -50px 0;\n  background-color: #b669fd;\n  background-size: 40px 40px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

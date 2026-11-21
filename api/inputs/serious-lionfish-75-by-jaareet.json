@@ -1,0 +1,18 @@
+{
+ "id": "serious-lionfish-75-by-jaareet",
+ "name": "Serious Lionfish 75",
+ "category": "inputs",
+ "author": "Jaareet",
+ "source": "https://uiverse.io/Jaareet/serious-lionfish-75",
+ "trigger": "hover",
+ "description": "A input UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "input",
+  "hover",
+  "css"
+ ],
+ "html": "<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Write a message\">",
+ "css": "/* From Uiverse.io by Jaareet - Tags: input */\n.input {\n  font-family: -apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Roboto\",\"Oxygen\",\"Ubuntu\",\"Cantarell\",\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",sans-serif;\n  font-weight: 500;\n  font-size: .8vw;\n  color: #fff;\n  background-color: rgb(28,28,30);\n  box-shadow: 0 0 .4vw rgba(0,0,0,0.5), 0 0 0 .15vw transparent;\n  border-radius: 0.4vw;\n  border: none;\n  outline: none;\n  padding: 0.4vw;\n  max-width: 190px;\n  transition: .4s;\n}\n\n.input:hover {\n  box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);\n}\n\n.input:focus {\n  box-shadow: 0 0 0 .15vw skyblue;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Serious Lionfish 75</title>\n<style>\n/* From Uiverse.io by Jaareet - https://uiverse.io/Jaareet/serious-lionfish-75 */\n/* From Uiverse.io by Jaareet - Tags: input */\n.input {\n  font-family: -apple-system,BlinkMacSystemFont,\"Segoe UI\",\"Roboto\",\"Oxygen\",\"Ubuntu\",\"Cantarell\",\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",sans-serif;\n  font-weight: 500;\n  font-size: .8vw;\n  color: #fff;\n  background-color: rgb(28,28,30);\n  box-shadow: 0 0 .4vw rgba(0,0,0,0.5), 0 0 0 .15vw transparent;\n  border-radius: 0.4vw;\n  border: none;\n  outline: none;\n  padding: 0.4vw;\n  max-width: 190px;\n  transition: .4s;\n}\n\n.input:hover {\n  box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);\n}\n\n.input:focus {\n  box-shadow: 0 0 0 .15vw skyblue;\n}\n</style>\n</head>\n<body>\n<input type=\"text\" name=\"text\" class=\"input\" placeholder=\"Write a message\">\n</body>\n</html>\n"
+}

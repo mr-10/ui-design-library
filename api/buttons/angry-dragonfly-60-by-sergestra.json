@@ -1,0 +1,18 @@
+{
+ "id": "angry-dragonfly-60-by-sergestra",
+ "name": "Angry Dragonfly 60",
+ "category": "buttons",
+ "author": "Sergestra",
+ "source": "https://uiverse.io/Sergestra/angry-dragonfly-60",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n  <div>\n    <span>\n      <p>Hover Me</p><p>:)</p>\n    </span>\n  </div>\n  <div>\n    <span>\n      <p>Thanks</p><p>:D</p>\n    </span>\n  </div>\n</button>",
+ "css": "/* From Uiverse.io by Sergestra - Tags: button */\nbutton {\n outline: 0;\n border: 0;\n display: flex;\n flex-direction: column;\n width: 100%;\n max-width: 140px;\n height: 50px;\n border-radius: 0.5em;\n box-shadow: 0 0.625em 1em 0 rgba(30, 143, 255, 0.35);\n overflow: hidden;\n}\n\nbutton div {\n transform: translateY(0px);\n width: 100%;\n}\n\nbutton,\nbutton div {\n transition: 0.6s cubic-bezier(.16,1,.3,1);\n}\n\nbutton div span {\n display: flex;\n align-items: center;\n justify-content: space-between;\n height: 50px;\n padding: 0.75em 1.125em;\n}\n\nbutton div:nth-child(1) {\n background-color: #1e90ff;\n}\n\nbutton div:nth-child(2) {\n background-color: #21dc62;\n}\n\nbutton:hover {\n box-shadow: 0 0.625em 1em 0 rgba(33, 220, 98, 0.35);\n}\n\nbutton:hover div {\n transform: translateY(-50px);\n}\n\nbutton p {\n font-size: 17px;\n font-weight: bold;\n color: #ffffff;\n}\n\nbutton:active {\n transform: scale(0.95);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Angry Dragonfly 60</title>\n<style>\n/* From Uiverse.io by Sergestra - https://uiverse.io/Sergestra/angry-dragonfly-60 */\n/* From Uiverse.io by Sergestra - Tags: button */\nbutton {\n outline: 0;\n border: 0;\n display: flex;\n flex-direction: column;\n width: 100%;\n max-width: 140px;\n height: 50px;\n border-radius: 0.5em;\n box-shadow: 0 0.625em 1em 0 rgba(30, 143, 255, 0.35);\n overflow: hidden;\n}\n\nbutton div {\n transform: translateY(0px);\n width: 100%;\n}\n\nbutton,\nbutton div {\n transition: 0.6s cubic-bezier(.16,1,.3,1);\n}\n\nbutton div span {\n display: flex;\n align-items: center;\n justify-content: space-between;\n height: 50px;\n padding: 0.75em 1.125em;\n}\n\nbutton div:nth-child(1) {\n background-color: #1e90ff;\n}\n\nbutton div:nth-child(2) {\n background-color: #21dc62;\n}\n\nbutton:hover {\n box-shadow: 0 0.625em 1em 0 rgba(33, 220, 98, 0.35);\n}\n\nbutton:hover div {\n transform: translateY(-50px);\n}\n\nbutton p {\n font-size: 17px;\n font-weight: bold;\n color: #ffffff;\n}\n\nbutton:active {\n transform: scale(0.95);\n}\n</style>\n</head>\n<body>\n<button>\n  <div>\n    <span>\n      <p>Hover Me</p><p>:)</p>\n    </span>\n  </div>\n  <div>\n    <span>\n      <p>Thanks</p><p>:D</p>\n    </span>\n  </div>\n</button>\n</body>\n</html>\n"
+}

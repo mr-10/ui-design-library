@@ -1,0 +1,18 @@
+{
+ "id": "silent-owl-69-by-satyamchaudharydev",
+ "name": "Silent Owl 69",
+ "category": "loaders",
+ "author": "satyamchaudharydev",
+ "source": "https://uiverse.io/satyamchaudharydev/silent-owl-69",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\">\n</div>",
+ "css": "/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.loader {\n --clr: #3498db;\n /* color of spining  */\n width: 50px;\n height: 50px;\n position: relative;\n}\n\n.loader:before, .loader:after {\n content: \"\";\n position: absolute;\n top: -10px;\n left: -10px;\n width: 100%;\n height: 100%;\n border-radius: 100%;\n border: 10px solid transparent;\n border-top-color: var(--clr);\n}\n\n.loader:before {\n z-index: 100;\n animation: spin 1s infinite;\n}\n\n.loader:after {\n border: 10px solid #ccc;\n}\n\n@keyframes spin {\n 0% {\n  -webkit-transform: rotate(0deg);\n  -ms-transform: rotate(0deg);\n  -o-transform: rotate(0deg);\n  transform: rotate(0deg);\n }\n\n 100% {\n  -webkit-transform: rotate(360deg);\n  -ms-transform: rotate(360deg);\n  -o-transform: rotate(360deg);\n  transform: rotate(360deg);\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Owl 69</title>\n<style>\n/* From Uiverse.io by satyamchaudharydev - https://uiverse.io/satyamchaudharydev/silent-owl-69 */\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.loader {\n --clr: #3498db;\n /* color of spining  */\n width: 50px;\n height: 50px;\n position: relative;\n}\n\n.loader:before, .loader:after {\n content: \"\";\n position: absolute;\n top: -10px;\n left: -10px;\n width: 100%;\n height: 100%;\n border-radius: 100%;\n border: 10px solid transparent;\n border-top-color: var(--clr);\n}\n\n.loader:before {\n z-index: 100;\n animation: spin 1s infinite;\n}\n\n.loader:after {\n border: 10px solid #ccc;\n}\n\n@keyframes spin {\n 0% {\n  -webkit-transform: rotate(0deg);\n  -ms-transform: rotate(0deg);\n  -o-transform: rotate(0deg);\n  transform: rotate(0deg);\n }\n\n 100% {\n  -webkit-transform: rotate(360deg);\n  -ms-transform: rotate(360deg);\n  -o-transform: rotate(360deg);\n  transform: rotate(360deg);\n }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n</div>\n</body>\n</html>\n"
+}

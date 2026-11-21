@@ -1,0 +1,19 @@
+{
+ "id": "tiny-robin-35-by-danilppzz",
+ "name": "Tiny Robin 35",
+ "category": "inputs",
+ "author": "danilppzz",
+ "source": "https://uiverse.io/danilppzz/tiny-robin-35",
+ "trigger": "hover",
+ "description": "A input with black and dark styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "black",
+  "input",
+  "dark",
+  "hover"
+ ],
+ "html": "<input placeholder=\"Enter your name\" class=\"input\" type=\"text\" />",
+ "css": "/* From Uiverse.io by danilppzz  - Tags: black, input, dark */\n.input {\n  background-color: #292929;\n  border: 1px solid #3e3e3e;\n  border-radius: 8px;\n  color: #fff;\n  padding: 14px 24px;\n  text-decoration: none;\n  font-size: 16px;\n  margin: 12px 14px;\n  cursor: pointer;\n}\n\n.input:hover {\n  border: 1px solid #fff;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tiny Robin 35</title>\n<style>\n/* From Uiverse.io by danilppzz - https://uiverse.io/danilppzz/tiny-robin-35 */\n/* From Uiverse.io by danilppzz  - Tags: black, input, dark */\n.input {\n  background-color: #292929;\n  border: 1px solid #3e3e3e;\n  border-radius: 8px;\n  color: #fff;\n  padding: 14px 24px;\n  text-decoration: none;\n  font-size: 16px;\n  margin: 12px 14px;\n  cursor: pointer;\n}\n\n.input:hover {\n  border: 1px solid #fff;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Enter your name\" class=\"input\" type=\"text\" />\n</body>\n</html>\n"
+}

@@ -1,0 +1,21 @@
+{
+ "id": "loud-husky-59-by-simontheonlyone",
+ "name": "Loud Husky 59",
+ "category": "buttons",
+ "author": "simontheonlyone",
+ "source": "https://uiverse.io/simontheonlyone/loud-husky-59",
+ "trigger": "hover",
+ "description": "A button with minimalist, shadow and glow styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "minimalist",
+  "button",
+  "hover",
+  "shadow",
+  "glow",
+  "lightdark"
+ ],
+ "html": "<button class=\"button\">\n  Button\n</button>",
+ "css": "/* From Uiverse.io by simontheonlyone - Source: WhiteNervosa - https://uiverse.io/WhiteNervosa/popular-ladybug-27 - Tags: minimalist, button, hover, shadow, glow, light&dark, focus */\n.button {\n  position: relative;\n  width: 10em;\n  height: 2em;\n  text-align: center;\n  font-family: poppins;\n  font-size: 17px;\n  font-weight: 300;\n  letter-spacing: 5px;\n  text-transform: uppercase;\n  color: #fff;\n  cursor: pointer;\n  background-color: rgba(3, 3, 3, .5);\n  border: none;\n  transition: color .2s linear,\n        box-shadow .3s linear,\n        background-color .3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.button:focus,\n.button:hover {\n  box-shadow: 0 0 110px #fff;\n  background-color: rgba(255, 255, 255, 0.4);\n  color: #111;\n  font-weight: 500;\n}\n\n.button:focus:before,\n.button:hover:before,\n.button:focus:after,\n.button:hover:after {\n  width: 100%;\n  left: 0%;\n}\n\n.button:before,\n.button:after {\n  content: '';\n  position: absolute;\n  pointer-events: none;\n  left: 50%;\n  width: 0%;\n  height: 2px;\n  background-color: #fff;\n  transition: width, left, 250ms cubic-bezier(0.25, .8, .25, 1);\n}\n\n.button:before {\n  top: -2px;\n}\n\n.button:after {\n  bottom: -2px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Husky 59</title>\n<style>\n/* From Uiverse.io by simontheonlyone - https://uiverse.io/simontheonlyone/loud-husky-59 */\n/* From Uiverse.io by simontheonlyone - Source: WhiteNervosa - https://uiverse.io/WhiteNervosa/popular-ladybug-27 - Tags: minimalist, button, hover, shadow, glow, light&dark, focus */\n.button {\n  position: relative;\n  width: 10em;\n  height: 2em;\n  text-align: center;\n  font-family: poppins;\n  font-size: 17px;\n  font-weight: 300;\n  letter-spacing: 5px;\n  text-transform: uppercase;\n  color: #fff;\n  cursor: pointer;\n  background-color: rgba(3, 3, 3, .5);\n  border: none;\n  transition: color .2s linear,\n        box-shadow .3s linear,\n        background-color .3s cubic-bezier(0.25, 0.8, 0.25, 1);\n}\n\n.button:focus,\n.button:hover {\n  box-shadow: 0 0 110px #fff;\n  background-color: rgba(255, 255, 255, 0.4);\n  color: #111;\n  font-weight: 500;\n}\n\n.button:focus:before,\n.button:hover:before,\n.button:focus:after,\n.button:hover:after {\n  width: 100%;\n  left: 0%;\n}\n\n.button:before,\n.button:after {\n  content: '';\n  position: absolute;\n  pointer-events: none;\n  left: 50%;\n  width: 0%;\n  height: 2px;\n  background-color: #fff;\n  transition: width, left, 250ms cubic-bezier(0.25, .8, .25, 1);\n}\n\n.button:before {\n  top: -2px;\n}\n\n.button:after {\n  bottom: -2px;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">\n  Button\n</button>\n</body>\n</html>\n"
+}

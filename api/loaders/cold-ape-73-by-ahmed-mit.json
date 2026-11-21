@@ -1,0 +1,18 @@
+{
+ "id": "cold-ape-73-by-ahmed-mit",
+ "name": "Cold Ape 73",
+ "category": "loaders",
+ "author": "AHMED-MIT",
+ "source": "https://uiverse.io/AHMED-MIT/cold-ape-73",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"spinner\"></div>",
+ "css": "/* From Uiverse.io by AHMED-MIT - Tags: loader */\n.spinner {\n  position: relative;\n  width: 35.2px;\n  height: 35.2px;\n}\n\n.spinner::before,\n.spinner::after {\n  content: '';\n  width: 100%;\n  height: 100%;\n  display: block;\n  animation: spinner-b4c8mmhg 0.5s backwards, spinner-49opz7hg 1.25s 0.5s infinite ease;\n  border: 8.8px solid #000000;\n  border-radius: 50%;\n  box-shadow: 0 -52.8px 0 -8.8px #000000;\n  position: absolute;\n}\n\n.spinner::after {\n  animation-delay: 0s, 1.25s;\n}\n\n@keyframes spinner-b4c8mmhg {\n  from {\n    box-shadow: 0 0 0 -8.8px #000000;\n  }\n}\n\n@keyframes spinner-49opz7hg {\n  to {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cold Ape 73</title>\n<style>\n/* From Uiverse.io by AHMED-MIT - https://uiverse.io/AHMED-MIT/cold-ape-73 */\n/* From Uiverse.io by AHMED-MIT - Tags: loader */\n.spinner {\n  position: relative;\n  width: 35.2px;\n  height: 35.2px;\n}\n\n.spinner::before,\n.spinner::after {\n  content: '';\n  width: 100%;\n  height: 100%;\n  display: block;\n  animation: spinner-b4c8mmhg 0.5s backwards, spinner-49opz7hg 1.25s 0.5s infinite ease;\n  border: 8.8px solid #000000;\n  border-radius: 50%;\n  box-shadow: 0 -52.8px 0 -8.8px #000000;\n  position: absolute;\n}\n\n.spinner::after {\n  animation-delay: 0s, 1.25s;\n}\n\n@keyframes spinner-b4c8mmhg {\n  from {\n    box-shadow: 0 0 0 -8.8px #000000;\n  }\n}\n\n@keyframes spinner-49opz7hg {\n  to {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"spinner\"></div>\n</body>\n</html>\n"
+}

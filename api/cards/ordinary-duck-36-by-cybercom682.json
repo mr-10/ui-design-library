@@ -1,0 +1,18 @@
+{
+ "id": "ordinary-duck-36-by-cybercom682",
+ "name": "Ordinary Duck 36",
+ "category": "cards",
+ "author": "Cybercom682",
+ "source": "https://uiverse.io/Cybercom682/ordinary-duck-36",
+ "trigger": "static",
+ "description": "A card UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "cards",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Cybercom682  - Tags: alert, progress, card, dark, info -->\n<div\n  class=\"max-w-sm mx-auto bg-white dark:bg-zinc-800 shadow-md rounded-lg overflow-hidden\"\n>\n  <div class=\"px-5 py-3 flex justify-between items-center\">\n    <h3 class=\"text-zinc-900 dark:text-white text-lg\">Progress</h3>\n    <svg\n      stroke-width=\"2\"\n      stroke=\"currentColor\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      class=\"h-6 w-6 text-zinc-900 dark:text-white\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n  </div>\n  <div class=\"px-5 pb-5\">\n    <p class=\"mb-2 text-sm text-zinc-600 dark:text-zinc-400\">\n      File: var/test/admin.php extracted..\n    </p>\n    <div class=\"w-full bg-zinc-200 dark:bg-zinc-700 rounded-full h-2.5\">\n      <div style=\"width: 70%\" class=\"bg-blue-600 h-2.5 rounded-full\"></div>\n    </div>\n    <div class=\"flex justify-between items-center mt-3\">\n      <span class=\"text-sm text-zinc-600 dark:text-zinc-400\">70% Complete</span>\n      <button class=\"text-xs text-blue-600 hover:underline\">Details</button>\n    </div>\n  </div>\n</div>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ordinary Duck 36</title>\n<style>\n/* From Uiverse.io by Cybercom682 - https://uiverse.io/Cybercom682/ordinary-duck-36 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Cybercom682  - Tags: alert, progress, card, dark, info -->\n<div\n  class=\"max-w-sm mx-auto bg-white dark:bg-zinc-800 shadow-md rounded-lg overflow-hidden\"\n>\n  <div class=\"px-5 py-3 flex justify-between items-center\">\n    <h3 class=\"text-zinc-900 dark:text-white text-lg\">Progress</h3>\n    <svg\n      stroke-width=\"2\"\n      stroke=\"currentColor\"\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      class=\"h-6 w-6 text-zinc-900 dark:text-white\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path\n        d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"\n        stroke-linejoin=\"round\"\n        stroke-linecap=\"round\"\n      ></path>\n    </svg>\n  </div>\n  <div class=\"px-5 pb-5\">\n    <p class=\"mb-2 text-sm text-zinc-600 dark:text-zinc-400\">\n      File: var/test/admin.php extracted..\n    </p>\n    <div class=\"w-full bg-zinc-200 dark:bg-zinc-700 rounded-full h-2.5\">\n      <div style=\"width: 70%\" class=\"bg-blue-600 h-2.5 rounded-full\"></div>\n    </div>\n    <div class=\"flex justify-between items-center mt-3\">\n      <span class=\"text-sm text-zinc-600 dark:text-zinc-400\">70% Complete</span>\n      <button class=\"text-xs text-blue-600 hover:underline\">Details</button>\n    </div>\n  </div>\n</div>\n</body>\n</html>\n"
+}

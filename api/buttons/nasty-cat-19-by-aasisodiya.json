@@ -1,0 +1,18 @@
+{
+ "id": "nasty-cat-19-by-aasisodiya",
+ "name": "Nasty Cat 19",
+ "category": "buttons",
+ "author": "aasisodiya",
+ "source": "https://uiverse.io/aasisodiya/nasty-cat-19",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button> Button\n</button>",
+ "css": "/* From Uiverse.io by aasisodiya - Tags: button */\nbutton {\n background-color: #eee;\n border: none;\n padding: 1rem;\n font-size: 1rem;\n width: 10em;\n border-radius: 1rem;\n color: lightcoral;\n box-shadow: 0 0.4rem #dfd9d9;\n cursor: pointer;\n}\n\nbutton:active {\n color: white;\n box-shadow: 0 0.2rem #dfd9d9;\n transform: translateY(0.2rem);\n}\n\nbutton:hover:not(:disabled) {\n background: lightcoral;\n color: white;\n text-shadow: 0 0.1rem #bcb4b4;\n}\n\nbutton:disabled {\n cursor: auto;\n color: grey;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Cat 19</title>\n<style>\n/* From Uiverse.io by aasisodiya - https://uiverse.io/aasisodiya/nasty-cat-19 */\n/* From Uiverse.io by aasisodiya - Tags: button */\nbutton {\n background-color: #eee;\n border: none;\n padding: 1rem;\n font-size: 1rem;\n width: 10em;\n border-radius: 1rem;\n color: lightcoral;\n box-shadow: 0 0.4rem #dfd9d9;\n cursor: pointer;\n}\n\nbutton:active {\n color: white;\n box-shadow: 0 0.2rem #dfd9d9;\n transform: translateY(0.2rem);\n}\n\nbutton:hover:not(:disabled) {\n background: lightcoral;\n color: white;\n text-shadow: 0 0.1rem #bcb4b4;\n}\n\nbutton:disabled {\n cursor: auto;\n color: grey;\n}\n</style>\n</head>\n<body>\n<button> Button\n</button>\n</body>\n</html>\n"
+}

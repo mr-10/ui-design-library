@@ -1,0 +1,20 @@
+{
+ "id": "nasty-panda-23-by-gharsh11032000",
+ "name": "Nasty Panda 23",
+ "category": "checkboxes",
+ "author": "gharsh11032000",
+ "source": "https://uiverse.io/gharsh11032000/nasty-panda-23",
+ "trigger": "checked",
+ "description": "A checkbox with gradient, toggle and click-effect styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "gradient",
+  "checkbox",
+  "toggle",
+  "click-effect",
+  "checked"
+ ],
+ "html": "<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>",
+ "css": "/* From Uiverse.io by gharsh11032000 - Tags: gradient, checkbox, toggle, click effect */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n  overflow: hidden;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  border: 2px solid #414141;\n  transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n/* When the checkbox is checked */\n.container input:checked ~ .checkmark {\n  border-image: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );\n  border-image-slice: 1;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n  left: 0.45em;\n  top: -2em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid white;\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.container .checkmark::before {\n  left: 0.45em;\n  top: 2em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid white;\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n  top: 0.25em;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nasty Panda 23</title>\n<style>\n/* From Uiverse.io by gharsh11032000 - https://uiverse.io/gharsh11032000/nasty-panda-23 */\n/* From Uiverse.io by gharsh11032000 - Tags: gradient, checkbox, toggle, click effect */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n  overflow: hidden;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  border: 2px solid #414141;\n  transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n/* When the checkbox is checked */\n.container input:checked ~ .checkmark {\n  border-image: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );\n  border-image-slice: 1;\n}\n\n/* Create the checkmark/indicator (hidden when not checked) */\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n}\n\n/* Style the checkmark/indicator */\n.container .checkmark:after {\n  left: 0.45em;\n  top: -2em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid white;\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);\n}\n\n.container .checkmark::before {\n  left: 0.45em;\n  top: 2em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid white;\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n}\n\n/* Show the checkmark when checked */\n.container input:checked ~ .checkmark:after {\n  top: 0.25em;\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n  <input checked=\"checked\" type=\"checkbox\">\n  <div class=\"checkmark\"></div>\n</label>\n</body>\n</html>\n"
+}

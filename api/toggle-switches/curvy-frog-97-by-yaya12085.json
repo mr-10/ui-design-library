@@ -1,0 +1,21 @@
+{
+ "id": "curvy-frog-97-by-yaya12085",
+ "name": "Curvy Frog 97",
+ "category": "toggle-switches",
+ "author": "Yaya12085",
+ "source": "https://uiverse.io/Yaya12085/curvy-frog-97",
+ "trigger": "checked",
+ "description": "A toggle switch with switch, input and toggle styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "input",
+  "toggle",
+  "colorful",
+  "variations",
+  "toggle-switches"
+ ],
+ "html": "<input class=\"switch\" type=\"checkbox\" checked=\"true\">",
+ "css": "/* From Uiverse.io by Yaya12085 - Source: https://www.material-tailwind.com/docs/react/switch - Tags: switch, input, toggle, colorful, variations */\n.switch {\n  position: relative;\n  height: 1.5rem;\n  width: 3rem;\n  cursor: pointer;\n  appearance: none;\n  -webkit-appearance: none;\n  border-radius: 9999px;\n  background-color: rgba(100, 116, 139, 0.377);\n  transition: all .3s ease;\n}\n\n.switch:checked {\n  background-color: rgba(236, 72, 153, 1);\n}\n\n.switch::before {\n  position: absolute;\n  content: \"\";\n  left: calc(1.5rem - 1.6rem);\n  top: calc(1.5rem - 1.6rem);\n  display: block;\n  height: 1.6rem;\n  width: 1.6rem;\n  cursor: pointer;\n  border: 1px solid rgba(100, 116, 139, 0.527);\n  border-radius: 9999px;\n  background-color: rgba(255, 255, 255, 1);\n  box-shadow: 0 3px 10px rgba(100, 116, 139, 0.327);\n  transition: all .3s ease;\n}\n\n.switch:hover::before {\n  box-shadow: 0 0 0px 8px rgba(0, 0, 0, .15)\n}\n\n.switch:checked:hover::before {\n  box-shadow: 0 0 0px 8px rgba(236, 72, 153, .15)\n}\n\n.switch:checked:before {\n  transform: translateX(100%);\n  border-color: rgba(236, 72, 153, 1);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Curvy Frog 97</title>\n<style>\n/* From Uiverse.io by Yaya12085 - https://uiverse.io/Yaya12085/curvy-frog-97 */\n/* From Uiverse.io by Yaya12085 - Source: https://www.material-tailwind.com/docs/react/switch - Tags: switch, input, toggle, colorful, variations */\n.switch {\n  position: relative;\n  height: 1.5rem;\n  width: 3rem;\n  cursor: pointer;\n  appearance: none;\n  -webkit-appearance: none;\n  border-radius: 9999px;\n  background-color: rgba(100, 116, 139, 0.377);\n  transition: all .3s ease;\n}\n\n.switch:checked {\n  background-color: rgba(236, 72, 153, 1);\n}\n\n.switch::before {\n  position: absolute;\n  content: \"\";\n  left: calc(1.5rem - 1.6rem);\n  top: calc(1.5rem - 1.6rem);\n  display: block;\n  height: 1.6rem;\n  width: 1.6rem;\n  cursor: pointer;\n  border: 1px solid rgba(100, 116, 139, 0.527);\n  border-radius: 9999px;\n  background-color: rgba(255, 255, 255, 1);\n  box-shadow: 0 3px 10px rgba(100, 116, 139, 0.327);\n  transition: all .3s ease;\n}\n\n.switch:hover::before {\n  box-shadow: 0 0 0px 8px rgba(0, 0, 0, .15)\n}\n\n.switch:checked:hover::before {\n  box-shadow: 0 0 0px 8px rgba(236, 72, 153, .15)\n}\n\n.switch:checked:before {\n  transform: translateX(100%);\n  border-color: rgba(236, 72, 153, 1);\n}\n</style>\n</head>\n<body>\n<input class=\"switch\" type=\"checkbox\" checked=\"true\">\n</body>\n</html>\n"
+}

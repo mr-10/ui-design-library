@@ -1,0 +1,20 @@
+{
+ "id": "terrible-hound-31-by-hoseinnaqvi",
+ "name": "Terrible Hound 31",
+ "category": "cards",
+ "author": "Hoseinnaqvi",
+ "source": "https://uiverse.io/Hoseinnaqvi/terrible-hound-31",
+ "trigger": "auto-loop",
+ "description": "A card with logo, one-div and fruit styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "logo",
+  "one-div",
+  "fruit",
+  "cards",
+  "auto-loop"
+ ],
+ "html": "<div class=\"one-div\"></div>",
+ "css": "/* From Uiverse.io by Hoseinnaqvi - Tags: logo, one-div, fruit */\n.one-div {\n  margin-top: 40px;\n  width: 300px;\n  height: 300px;\n  background-image: linear-gradient(to right,red,orange);\n  border-radius: 40%;\n  box-shadow: 0px 0px 10px black;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: row;\n}\n\n.one-div::before {\n  content: '';\n  height: 90px;\n  width: 90px;\n  border-radius: 0 40% 0 60%;\n  background-color: green;\n  position: absolute;\n  top: 5%;\n  left: 42%;\n  box-shadow: 0px -3px 6px rgba(4, 4, 4, 0.695);\n  z-index: -1;\n}\n\n.one-div::after {\n  content: '😋';\n  filter: hue-rotate(130deg);\n  font-size: 10em;\n  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\n  border-radius: 0 40% 0 60%;\n  text-align: center;\n  top: 33%;\n  left: 37%;\n  animation: txt 1s infinite alternate;\n}\n\n@keyframes txt {\n  0% {\n    opacity: 0.1;\n  }\n\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes intro {\n  0% {\n    top: -100px;\n  }\n\n  50% {\n    top: -50px;\n  }\n\n  100% {\n    top: 0px;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Terrible Hound 31</title>\n<style>\n/* From Uiverse.io by Hoseinnaqvi - https://uiverse.io/Hoseinnaqvi/terrible-hound-31 */\n/* From Uiverse.io by Hoseinnaqvi - Tags: logo, one-div, fruit */\n.one-div {\n  margin-top: 40px;\n  width: 300px;\n  height: 300px;\n  background-image: linear-gradient(to right,red,orange);\n  border-radius: 40%;\n  box-shadow: 0px 0px 10px black;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: row;\n}\n\n.one-div::before {\n  content: '';\n  height: 90px;\n  width: 90px;\n  border-radius: 0 40% 0 60%;\n  background-color: green;\n  position: absolute;\n  top: 5%;\n  left: 42%;\n  box-shadow: 0px -3px 6px rgba(4, 4, 4, 0.695);\n  z-index: -1;\n}\n\n.one-div::after {\n  content: '😋';\n  filter: hue-rotate(130deg);\n  font-size: 10em;\n  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\n  border-radius: 0 40% 0 60%;\n  text-align: center;\n  top: 33%;\n  left: 37%;\n  animation: txt 1s infinite alternate;\n}\n\n@keyframes txt {\n  0% {\n    opacity: 0.1;\n  }\n\n  100% {\n    opacity: 1;\n  }\n}\n\n@keyframes intro {\n  0% {\n    top: -100px;\n  }\n\n  50% {\n    top: -50px;\n  }\n\n  100% {\n    top: 0px;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "red-goat-27-by-devsleonardo",
+ "name": "Red Goat 27",
+ "category": "notifications",
+ "author": "devsleonardo",
+ "source": "https://uiverse.io/devsleonardo/red-goat-27",
+ "trigger": "hover",
+ "description": "A notification UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "notification",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"notification\">\n  <svg viewBox=\"0 0 100 100\" class=\"trophy\">\n    <g>\n      <path d=\"M10,50 L40,50 L30,10 L20,10 Z\"></path>\n      <path d=\"M60,50 L90,50 L80,10 L70,10 Z\"></path>\n      <path d=\"M20,10 L80,10 L70,30 L30,30 Z\"></path>\n      <path d=\"M30,30 L70,30 L60,50 L40,50 Z\"></path>\n      <path d=\"M25,75 L75,75 L85,90 L15,90 Z\"></path>\n      <path d=\"M40,50 L60,50 L55,70 L45,70 Z\"></path>\n    </g>\n  </svg>\n  <p>Congratulations!\n  </p><p>You reached level 10!</p>\n</div>",
+ "css": "/* From Uiverse.io by devsleonardo - Tags: notification */\n.notification {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n  margin: 50px;\n  color: white;\n}\n\n.trophy {\n  fill: gold;\n  width: 80px;\n  height: 80px;\n  animation: bounce 0.5s ease-in-out 1;\n}\n\n.trophy:hover {\n  animation: spin 1s ease-in-out 1;\n}\n\n@keyframes bounce {\n  0% {\n    transform: translateY(0);\n  }\n\n  25% {\n    transform: translateY(-20px);\n  }\n\n  50% {\n    transform: translateY(0);\n  }\n\n  75% {\n    transform: translateY(-10px);\n  }\n\n  100% {\n    transform: translateY(0);\n  }\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Red Goat 27</title>\n<style>\n/* From Uiverse.io by devsleonardo - https://uiverse.io/devsleonardo/red-goat-27 */\n/* From Uiverse.io by devsleonardo - Tags: notification */\n.notification {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n  margin: 50px;\n  color: white;\n}\n\n.trophy {\n  fill: gold;\n  width: 80px;\n  height: 80px;\n  animation: bounce 0.5s ease-in-out 1;\n}\n\n.trophy:hover {\n  animation: spin 1s ease-in-out 1;\n}\n\n@keyframes bounce {\n  0% {\n    transform: translateY(0);\n  }\n\n  25% {\n    transform: translateY(-20px);\n  }\n\n  50% {\n    transform: translateY(0);\n  }\n\n  75% {\n    transform: translateY(-10px);\n  }\n\n  100% {\n    transform: translateY(0);\n  }\n}\n\n@keyframes spin {\n  0% {\n    transform: rotate(0);\n  }\n\n  100% {\n    transform: rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"notification\">\n  <svg viewBox=\"0 0 100 100\" class=\"trophy\">\n    <g>\n      <path d=\"M10,50 L40,50 L30,10 L20,10 Z\"></path>\n      <path d=\"M60,50 L90,50 L80,10 L70,10 Z\"></path>\n      <path d=\"M20,10 L80,10 L70,30 L30,30 Z\"></path>\n      <path d=\"M30,30 L70,30 L60,50 L40,50 Z\"></path>\n      <path d=\"M25,75 L75,75 L85,90 L15,90 Z\"></path>\n      <path d=\"M40,50 L60,50 L55,70 L45,70 Z\"></path>\n    </g>\n  </svg>\n  <p>Congratulations!\n  </p><p>You reached level 10!</p>\n</div>\n</body>\n</html>\n"
+}

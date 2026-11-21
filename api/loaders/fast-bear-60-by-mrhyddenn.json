@@ -1,0 +1,18 @@
+{
+ "id": "fast-bear-60-by-mrhyddenn",
+ "name": "Fast Bear 60",
+ "category": "loaders",
+ "author": "mrhyddenn",
+ "source": "https://uiverse.io/mrhyddenn/fast-bear-60",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"mover\"></div>",
+ "css": "/* From Uiverse.io by mrhyddenn - Tags: loader */\n.mover {\n  background: rgba(248, 25, 25, 0.979);\n  height: 10px;\n  width: 80px;\n  border-radius: 10px;\n  position: relative;\n  animation: mover5 2s ease-in-out infinite;\n}\n\n.mover::before,\n.mover::after {\n  content: '';\n  position: absolute;\n  height: 10px;\n  border-radius: 10px;\n  left: 20px;\n  animation: mover5 2s ease-in-out infinite;\n}\n\n.mover::before {\n  background: rgb(201, 1, 1);\n  top: 20px;\n  width: 50px;\n}\n\n.mover::after {\n  background: rgb(255, 116, 106);\n  top: -20px;\n  width: 60px;\n}\n\n@keyframes mover5 {\n  0% {\n    transform: translateX(30px) scale(1);\n  }\n\n  50% {\n    transform: translateX(-30px) scale(1.1);\n  }\n\n  100% {\n    transform: translateX(30px) scale(1);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fast Bear 60</title>\n<style>\n/* From Uiverse.io by mrhyddenn - https://uiverse.io/mrhyddenn/fast-bear-60 */\n/* From Uiverse.io by mrhyddenn - Tags: loader */\n.mover {\n  background: rgba(248, 25, 25, 0.979);\n  height: 10px;\n  width: 80px;\n  border-radius: 10px;\n  position: relative;\n  animation: mover5 2s ease-in-out infinite;\n}\n\n.mover::before,\n.mover::after {\n  content: '';\n  position: absolute;\n  height: 10px;\n  border-radius: 10px;\n  left: 20px;\n  animation: mover5 2s ease-in-out infinite;\n}\n\n.mover::before {\n  background: rgb(201, 1, 1);\n  top: 20px;\n  width: 50px;\n}\n\n.mover::after {\n  background: rgb(255, 116, 106);\n  top: -20px;\n  width: 60px;\n}\n\n@keyframes mover5 {\n  0% {\n    transform: translateX(30px) scale(1);\n  }\n\n  50% {\n    transform: translateX(-30px) scale(1.1);\n  }\n\n  100% {\n    transform: translateX(30px) scale(1);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"mover\"></div>\n</body>\n</html>\n"
+}

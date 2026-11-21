@@ -1,0 +1,21 @@
+{
+ "id": "bitter-snail-5-by-seyed-mohsen-mousavi",
+ "name": "Bitter Snail 5",
+ "category": "buttons",
+ "author": "seyed-mohsen-mousavi",
+ "source": "https://uiverse.io/seyed-mohsen-mousavi/bitter-snail-5",
+ "trigger": "hover",
+ "description": "A button with 3d, black and dark styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "3d",
+  "black",
+  "button",
+  "dark",
+  "shadow",
+  "rotate"
+ ],
+ "html": "<button class=\"button\">3D Button</button>",
+ "css": "/* From Uiverse.io by seyed-mohsen-mousavi  - Tags: 3d, black, button, dark, shadow, rotate, box-shadow */\n.button {\n  background: rgba(55, 51, 51, 0.49);\n  border-radius: 16px;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(3.7px);\n  -webkit-backdrop-filter: blur(3.7px);\n  outline: none;\n  border: none;\n  padding: 20px;\n  transform: rotate3d(1, 1, 1, 320deg);\n  filter: drop-shadow(1px 1px 8px black);\n  color: white;\n  cursor: pointer;\n  transition: ease-in-out 0.5s;\n}\n.button:hover {\n  transform: rotate3d(1, 1, 1, 360deg);\n  animation: shadow 1s both;\n}\n@keyframes shadow {\n  0% {\n    filter: drop-shadow(1px 1px 8px black);\n  }\n  25% {\n    filter: drop-shadow(1px 1px 5px black);\n  }\n  50% {\n    filter: drop-shadow(1px 1px 2px black);\n  }\n  100% {\n    filter: drop-shadow(1px 1px 2px black);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bitter Snail 5</title>\n<style>\n/* From Uiverse.io by seyed-mohsen-mousavi - https://uiverse.io/seyed-mohsen-mousavi/bitter-snail-5 */\n/* From Uiverse.io by seyed-mohsen-mousavi  - Tags: 3d, black, button, dark, shadow, rotate, box-shadow */\n.button {\n  background: rgba(55, 51, 51, 0.49);\n  border-radius: 16px;\n  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);\n  backdrop-filter: blur(3.7px);\n  -webkit-backdrop-filter: blur(3.7px);\n  outline: none;\n  border: none;\n  padding: 20px;\n  transform: rotate3d(1, 1, 1, 320deg);\n  filter: drop-shadow(1px 1px 8px black);\n  color: white;\n  cursor: pointer;\n  transition: ease-in-out 0.5s;\n}\n.button:hover {\n  transform: rotate3d(1, 1, 1, 360deg);\n  animation: shadow 1s both;\n}\n@keyframes shadow {\n  0% {\n    filter: drop-shadow(1px 1px 8px black);\n  }\n  25% {\n    filter: drop-shadow(1px 1px 5px black);\n  }\n  50% {\n    filter: drop-shadow(1px 1px 2px black);\n  }\n  100% {\n    filter: drop-shadow(1px 1px 2px black);\n  }\n}\n</style>\n</head>\n<body>\n<button class=\"button\">3D Button</button>\n</body>\n</html>\n"
+}

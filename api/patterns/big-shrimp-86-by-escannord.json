@@ -1,0 +1,20 @@
+{
+ "id": "big-shrimp-86-by-escannord",
+ "name": "Big Shrimp 86",
+ "category": "patterns",
+ "author": "escannord",
+ "source": "https://uiverse.io/escannord/big-shrimp-86",
+ "trigger": "static",
+ "description": "A pattern with simple, white and notebook styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "white",
+  "pattern",
+  "notebook",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by escannord  - Tags: simple, white, pattern, notebook */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(#3f87a6 10%, #ebf8e1a2 10%),\n    linear-gradient(to right, #ebf8e100 10%, #c73030 10% 10.2%, #ebf8e100 10.5%);\n  background-size: 100% 25px, 100% 100%;\n  background-repeat: repeat, no-repeat;\n  /* Add your background pattern here */\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Big Shrimp 86</title>\n<style>\n/* From Uiverse.io by escannord - https://uiverse.io/escannord/big-shrimp-86 */\n/* From Uiverse.io by escannord  - Tags: simple, white, pattern, notebook */\n.container {\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(#3f87a6 10%, #ebf8e1a2 10%),\n    linear-gradient(to right, #ebf8e100 10%, #c73030 10% 10.2%, #ebf8e100 10.5%);\n  background-size: 100% 25px, 100% 100%;\n  background-repeat: repeat, no-repeat;\n  /* Add your background pattern here */\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

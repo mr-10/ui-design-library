@@ -1,0 +1,19 @@
+{
+ "id": "neat-impala-82-by-deepak16375",
+ "name": "Neat Impala 82",
+ "category": "inputs",
+ "author": "deepak16375",
+ "source": "https://uiverse.io/deepak16375/neat-impala-82",
+ "trigger": "focus",
+ "description": "A input with subscription and email styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "subscription",
+  "email",
+  "input",
+  "focus"
+ ],
+ "html": "<input placeholder=\"Enter your email\" class=\"input\" name=\"email\" type=\"email\">\n   <button class=\"button\">Subscribe</button>",
+ "css": "/* From Uiverse.io by deepak16375 - Tags: subscription, email, input */\n.input {\n  max-width: 190px;\n  padding: 15px;\n  font-size: 17px;\n  color: black;\n  border-top-left-radius: .5em;\n  border-bottom-left-radius: .5em;\n  border: 2px solid #fff;\n  margin-right: -10px;\n}\n\n.button {\n  border: none;\n  background-color: #1363DF;\n  text-decoration: none;\n  padding: 15px;\n  padding-bottom: 17px;\n  font-size: 17px;\n  color: #fff;\n  border-top-right-radius: .5em;\n  border-bottom-right-radius: .5em;\n  cursor: pointer;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Neat Impala 82</title>\n<style>\n/* From Uiverse.io by deepak16375 - https://uiverse.io/deepak16375/neat-impala-82 */\n/* From Uiverse.io by deepak16375 - Tags: subscription, email, input */\n.input {\n  max-width: 190px;\n  padding: 15px;\n  font-size: 17px;\n  color: black;\n  border-top-left-radius: .5em;\n  border-bottom-left-radius: .5em;\n  border: 2px solid #fff;\n  margin-right: -10px;\n}\n\n.button {\n  border: none;\n  background-color: #1363DF;\n  text-decoration: none;\n  padding: 15px;\n  padding-bottom: 17px;\n  font-size: 17px;\n  color: #fff;\n  border-top-right-radius: .5em;\n  border-bottom-right-radius: .5em;\n  cursor: pointer;\n}\n</style>\n</head>\n<body>\n<input placeholder=\"Enter your email\" class=\"input\" name=\"email\" type=\"email\">\n   <button class=\"button\">Subscribe</button>\n</body>\n</html>\n"
+}

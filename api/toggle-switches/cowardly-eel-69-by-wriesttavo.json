@@ -1,0 +1,20 @@
+{
+ "id": "cowardly-eel-69-by-wriesttavo",
+ "name": "Cowardly Eel 69",
+ "category": "toggle-switches",
+ "author": "WriestTavo",
+ "source": "https://uiverse.io/WriestTavo/cowardly-eel-69",
+ "trigger": "checked",
+ "description": "A toggle switch with switch, 3d-switch and cool-switch styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "3d-switch",
+  "cool-switch",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<label class=\"switch modern-switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider round\"></span>\n</label>",
+ "css": "/* From Uiverse.io by WriestTavo - Tags: switch, 3d switch, cool switch */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  border-radius: 34px;\n  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);\n  transition: 0.4s;\n}\n\n.slider.round {\n  border-radius: 34px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  border-radius: 50%;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);\n  transition: 0.4s;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(26px);\n  background-color: #81da8f;\n}\n\n.switch input:checked + .slider {\n  background-color: #86d993;\n}\n\n.switch input:not(:checked) + .slider:before {\n  background-color: #e66a6a;\n}\n\n.switch input:not(:checked) + .slider {\n  background-color: #e57373;\n}\n\n/* WriestTavo */\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cowardly Eel 69</title>\n<style>\n/* From Uiverse.io by WriestTavo - https://uiverse.io/WriestTavo/cowardly-eel-69 */\n/* From Uiverse.io by WriestTavo - Tags: switch, 3d switch, cool switch */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  border-radius: 34px;\n  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);\n  transition: 0.4s;\n}\n\n.slider.round {\n  border-radius: 34px;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  border-radius: 50%;\n  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);\n  transition: 0.4s;\n}\n\n.switch input:checked + .slider:before {\n  transform: translateX(26px);\n  background-color: #81da8f;\n}\n\n.switch input:checked + .slider {\n  background-color: #86d993;\n}\n\n.switch input:not(:checked) + .slider:before {\n  background-color: #e66a6a;\n}\n\n.switch input:not(:checked) + .slider {\n  background-color: #e57373;\n}\n\n/* WriestTavo */\n</style>\n</head>\n<body>\n<label class=\"switch modern-switch\">\n  <input type=\"checkbox\">\n  <span class=\"slider round\"></span>\n</label>\n</body>\n</html>\n"
+}

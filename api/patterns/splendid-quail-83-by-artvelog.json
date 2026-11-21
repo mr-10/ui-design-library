@@ -1,0 +1,20 @@
+{
+ "id": "splendid-quail-83-by-artvelog",
+ "name": "Splendid Quail 83",
+ "category": "patterns",
+ "author": "artvelog",
+ "source": "https://uiverse.io/artvelog/splendid-quail-83",
+ "trigger": "static",
+ "description": "A pattern with paper, light and modern styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "paper",
+  "light",
+  "modern",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by artvelog  - Tags: paper, light, modern, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: #f1f1f1;\n  background-image: linear-gradient(\n      90deg,\n      transparent 50px,\n      #ffb4b8 50px,\n      #ffb4b8 52px,\n      transparent 52px\n    ),\n    linear-gradient(#e1e1e1 0.1em, transparent 0.1em);\n  background-size: 100% 30px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Splendid Quail 83</title>\n<style>\n/* From Uiverse.io by artvelog - https://uiverse.io/artvelog/splendid-quail-83 */\n/* From Uiverse.io by artvelog  - Tags: paper, light, modern, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  background: #f1f1f1;\n  background-image: linear-gradient(\n      90deg,\n      transparent 50px,\n      #ffb4b8 50px,\n      #ffb4b8 52px,\n      transparent 52px\n    ),\n    linear-gradient(#e1e1e1 0.1em, transparent 0.1em);\n  background-size: 100% 30px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

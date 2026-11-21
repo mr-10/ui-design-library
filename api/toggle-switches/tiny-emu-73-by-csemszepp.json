@@ -1,0 +1,20 @@
+{
+ "id": "tiny-emu-73-by-csemszepp",
+ "name": "Tiny Emu 73",
+ "category": "toggle-switches",
+ "author": "csemszepp",
+ "source": "https://uiverse.io/csemszepp/tiny-emu-73",
+ "trigger": "checked",
+ "description": "A toggle switch with switch, toggle and toggle-switch styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "toggle",
+  "toggle-switch",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<div class=\"content\">\n  <label class=\"switch\">\n    <input type=\"checkbox\" class=\"input\">\n    <span class=\"slider round\"></span>\n  </label>\n</div>",
+ "css": "/* From Uiverse.io by csemszepp - Source: https://codepen.io/GemmaCroad/pen/NWxjrVG - Tags: switch, toggle, toggle switch */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #6E6E6E;\n  transition: .4s;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  transition: .4s;\n}\n\n.input:checked + .slider {\n  background-color: #1849AB;\n}\n\n.input:focus + .slider {\n  box-shadow: 0 0 0 4px rgba(21, 156, 228, 0.7);\n  outline: none;\n}\n\n.input:checked + .slider:before {\n  transform: translateX(26px);\n}\n\n.slider.round {\n  border-radius: 34px;\n}\n\n.slider.round:before {\n  border-radius: 50%;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tiny Emu 73</title>\n<style>\n/* From Uiverse.io by csemszepp - https://uiverse.io/csemszepp/tiny-emu-73 */\n/* From Uiverse.io by csemszepp - Source: https://codepen.io/GemmaCroad/pen/NWxjrVG - Tags: switch, toggle, toggle switch */\n.switch {\n  position: relative;\n  display: inline-block;\n  width: 60px;\n  height: 34px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #6E6E6E;\n  transition: .4s;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 26px;\n  width: 26px;\n  left: 4px;\n  bottom: 4px;\n  background-color: white;\n  transition: .4s;\n}\n\n.input:checked + .slider {\n  background-color: #1849AB;\n}\n\n.input:focus + .slider {\n  box-shadow: 0 0 0 4px rgba(21, 156, 228, 0.7);\n  outline: none;\n}\n\n.input:checked + .slider:before {\n  transform: translateX(26px);\n}\n\n.slider.round {\n  border-radius: 34px;\n}\n\n.slider.round:before {\n  border-radius: 50%;\n}\n</style>\n</head>\n<body>\n<div class=\"content\">\n  <label class=\"switch\">\n    <input type=\"checkbox\" class=\"input\">\n    <span class=\"slider round\"></span>\n  </label>\n</div>\n</body>\n</html>\n"
+}

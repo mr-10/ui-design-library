@@ -1,0 +1,19 @@
+{
+ "id": "serious-shrimp-82-by-cevorob",
+ "name": "Serious Shrimp 82",
+ "category": "buttons",
+ "author": "Cevorob",
+ "source": "https://uiverse.io/Cevorob/serious-shrimp-82",
+ "trigger": "hover",
+ "description": "A button with game and crosshair styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "game",
+  "crosshair",
+  "hover"
+ ],
+ "html": "<button>\n  <span> GAME ON\n  </span>\n</button>",
+ "css": "/* From Uiverse.io by Cevorob - Tags: button, game, crosshair */\nbutton {\n position: relative;\n height: 50px;\n padding: 0 30px;\n border: 2px solid #000;\n background: #e8e8e8;\n user-select: none;\n white-space: nowrap;\n transition: all .05s linear;\n font-family: inherit;\n}\n\nbutton:before, button:after {\n content: \"\";\n position: absolute;\n background: #e8e8e8;\n transition: all .2s linear;\n}\n\nbutton:before {\n width: calc(100% + 6px);\n height: calc(100% - 16px);\n top: 8px;\n left: -3px;\n}\n\nbutton:after {\n width: calc(100% - 16px);\n height: calc(100% + 6px);\n top: -3px;\n left: 8px;\n}\n\nbutton:hover {\n cursor: crosshair;\n}\n\nbutton:active {\n transform: scale(0.95);\n}\n\nbutton:hover:before {\n height: calc(100% - 32px);\n top: 16px;\n}\n\nbutton:hover:after {\n width: calc(100% - 32px);\n left: 16px;\n}\n\nbutton span {\n font-size: 15px;\n z-index: 3;\n position: relative;\n font-weight: 600;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Serious Shrimp 82</title>\n<style>\n/* From Uiverse.io by Cevorob - https://uiverse.io/Cevorob/serious-shrimp-82 */\n/* From Uiverse.io by Cevorob - Tags: button, game, crosshair */\nbutton {\n position: relative;\n height: 50px;\n padding: 0 30px;\n border: 2px solid #000;\n background: #e8e8e8;\n user-select: none;\n white-space: nowrap;\n transition: all .05s linear;\n font-family: inherit;\n}\n\nbutton:before, button:after {\n content: \"\";\n position: absolute;\n background: #e8e8e8;\n transition: all .2s linear;\n}\n\nbutton:before {\n width: calc(100% + 6px);\n height: calc(100% - 16px);\n top: 8px;\n left: -3px;\n}\n\nbutton:after {\n width: calc(100% - 16px);\n height: calc(100% + 6px);\n top: -3px;\n left: 8px;\n}\n\nbutton:hover {\n cursor: crosshair;\n}\n\nbutton:active {\n transform: scale(0.95);\n}\n\nbutton:hover:before {\n height: calc(100% - 32px);\n top: 16px;\n}\n\nbutton:hover:after {\n width: calc(100% - 32px);\n left: 16px;\n}\n\nbutton span {\n font-size: 15px;\n z-index: 3;\n position: relative;\n font-weight: 600;\n}\n</style>\n</head>\n<body>\n<button>\n  <span> GAME ON\n  </span>\n</button>\n</body>\n</html>\n"
+}

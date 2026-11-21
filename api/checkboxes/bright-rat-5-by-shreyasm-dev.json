@@ -1,0 +1,18 @@
+{
+ "id": "bright-rat-5-by-shreyasm-dev",
+ "name": "Bright Rat 5",
+ "category": "checkboxes",
+ "author": "shreyasm-dev",
+ "source": "https://uiverse.io/shreyasm-dev/bright-rat-5",
+ "trigger": "checked",
+ "description": "A checkbox with neumorphism styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "neumorphism",
+  "checkbox",
+  "checked"
+ ],
+ "html": "<label class=\"container\">\n    <input type=\"checkbox\" checked=\"checked\">\n    <div class=\"checkmark\"></div>\n</label>",
+ "css": "/* From Uiverse.io by shreyasm-dev - Tags: neumorphism, checkbox */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  background-color: #ccc;\n  border-radius: 100%;\n  background: #e8e8e8;\n  box-shadow: 3px 3px 5px #c5c5c5,\n              -3px -3px 5px #ffffff;\n  transition-duration: 0.5s;\n}\n\n.container input:checked ~ .checkmark {\n  box-shadow: inset 3px 3px 5px #c5c5c5,\n              inset -3px -3px 5px #ffffff;\n}\n\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  opacity: 0;\n}\n\n.container input:checked ~ .checkmark:after {\n  opacity: 1;\n}\n\n.container .checkmark:after {\n  left: 0.45em;\n  top: 0.25em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid darkgray;\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Bright Rat 5</title>\n<style>\n/* From Uiverse.io by shreyasm-dev - https://uiverse.io/shreyasm-dev/bright-rat-5 */\n/* From Uiverse.io by shreyasm-dev - Tags: neumorphism, checkbox */\n/* Hide the default checkbox */\n.container input {\n  position: absolute;\n  opacity: 0;\n  cursor: pointer;\n  height: 0;\n  width: 0;\n}\n\n.container {\n  display: block;\n  position: relative;\n  cursor: pointer;\n  font-size: 20px;\n  user-select: none;\n}\n\n/* Create a custom checkbox */\n.checkmark {\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 1.3em;\n  width: 1.3em;\n  background-color: #ccc;\n  border-radius: 100%;\n  background: #e8e8e8;\n  box-shadow: 3px 3px 5px #c5c5c5,\n              -3px -3px 5px #ffffff;\n  transition-duration: 0.5s;\n}\n\n.container input:checked ~ .checkmark {\n  box-shadow: inset 3px 3px 5px #c5c5c5,\n              inset -3px -3px 5px #ffffff;\n}\n\n.checkmark:after {\n  content: \"\";\n  position: absolute;\n  opacity: 0;\n}\n\n.container input:checked ~ .checkmark:after {\n  opacity: 1;\n}\n\n.container .checkmark:after {\n  left: 0.45em;\n  top: 0.25em;\n  width: 0.25em;\n  height: 0.5em;\n  border: solid darkgray;\n  border-width: 0 0.15em 0.15em 0;\n  transform: rotate(45deg);\n}\n</style>\n</head>\n<body>\n<label class=\"container\">\n    <input type=\"checkbox\" checked=\"checked\">\n    <div class=\"checkmark\"></div>\n</label>\n</body>\n</html>\n"
+}

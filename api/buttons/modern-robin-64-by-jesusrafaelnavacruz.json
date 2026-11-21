@@ -1,0 +1,18 @@
+{
+ "id": "modern-robin-64-by-jesusrafaelnavacruz",
+ "name": "Modern Robin 64",
+ "category": "buttons",
+ "author": "JesusRafaelNavaCruz",
+ "source": "https://uiverse.io/JesusRafaelNavaCruz/modern-robin-64",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by JesusRafaelNavaCruz - Tags: button, retro, click effect -->\n<button class=\"cursor-pointer uppercase font-mono bg-white font-bold py-2 px-4 rounded border-2 border-black shadow-[0.25rem_0.25rem_#121212] transition-[transform_50ms, box-shadow_50ms] active:translate-x-0.5 active:translate-y-0.5 active:shadow-[0.125rem_0.125rem_#121212]\">\n  Click me!\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Modern Robin 64</title>\n<style>\n/* From Uiverse.io by JesusRafaelNavaCruz - https://uiverse.io/JesusRafaelNavaCruz/modern-robin-64 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by JesusRafaelNavaCruz - Tags: button, retro, click effect -->\n<button class=\"cursor-pointer uppercase font-mono bg-white font-bold py-2 px-4 rounded border-2 border-black shadow-[0.25rem_0.25rem_#121212] transition-[transform_50ms, box-shadow_50ms] active:translate-x-0.5 active:translate-y-0.5 active:shadow-[0.125rem_0.125rem_#121212]\">\n  Click me!\n</button>\n</body>\n</html>\n"
+}

@@ -1,0 +1,20 @@
+{
+ "id": "jolly-fireant-35-by-doniaskima",
+ "name": "Jolly Fireant 35",
+ "category": "loaders",
+ "author": "doniaskima",
+ "source": "https://uiverse.io/doniaskima/jolly-fireant-35",
+ "trigger": "auto-loop",
+ "description": "A loader with simple, neumorphism and success styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "simple",
+  "neumorphism",
+  "success",
+  "loader",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by doniaskima - Tags: simple, neumorphism, success, loader */\n.loader {\n  display: inline-flex;\n  gap: 10px;\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  height: 20px;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  background: radial-gradient(farthest-side,#000 95%,#0000) 35% 35%/6px 6px no-repeat\n    #fff;\n  transform: scaleX(var(--s,1)) rotate(0deg);\n  animation: l6 1s infinite linear;\n}\n\n.loader:after {\n  --s: -1;\n  animation-delay: -0.1s;\n}\n\n@keyframes l6 {\n  100% {\n    transform: scaleX(var(--s,1)) rotate(360deg);\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Jolly Fireant 35</title>\n<style>\n/* From Uiverse.io by doniaskima - https://uiverse.io/doniaskima/jolly-fireant-35 */\n/* From Uiverse.io by doniaskima - Tags: simple, neumorphism, success, loader */\n.loader {\n  display: inline-flex;\n  gap: 10px;\n}\n\n.loader:before,\n.loader:after {\n  content: \"\";\n  height: 20px;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  background: radial-gradient(farthest-side,#000 95%,#0000) 35% 35%/6px 6px no-repeat\n    #fff;\n  transform: scaleX(var(--s,1)) rotate(0deg);\n  animation: l6 1s infinite linear;\n}\n\n.loader:after {\n  --s: -1;\n  animation-delay: -0.1s;\n}\n\n@keyframes l6 {\n  100% {\n    transform: scaleX(var(--s,1)) rotate(360deg);\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

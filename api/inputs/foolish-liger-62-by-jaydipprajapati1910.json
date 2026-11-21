@@ -1,0 +1,20 @@
+{
+ "id": "foolish-liger-62-by-jaydipprajapati1910",
+ "name": "Foolish Liger 62",
+ "category": "inputs",
+ "author": "JaydipPrajapati1910",
+ "source": "https://uiverse.io/JaydipPrajapati1910/foolish-liger-62",
+ "trigger": "focus",
+ "description": "A input with search, border and search-bar styling.",
+ "howItWorks": "Click into it (or tab to it) and it lights up while it has focus.",
+ "tags": [
+  "input",
+  "search",
+  "border",
+  "search-bar",
+  "focus"
+ ],
+ "html": "<div class=\"group\">\n    <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" class=\"icon\">\n        <g>\n            <path d=\"M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z\"></path>\n        </g>\n    </svg>\n    <input class=\"input\" type=\"search\" placeholder=\"Search\">\n</div>",
+ "css": "/* From Uiverse.io by JaydipPrajapati1910 - Tags: input, search, border, search bar */\n.group {\n  display: flex;\n  line-height: 28px;\n  align-items: center;\n  position: relative;\n  max-width: 190px;\n}\n\n.input {\n  height: 40px;\n  line-height: 28px;\n  padding: 0 1rem;\n  width: 100%;\n  padding-left: 2.5rem;\n  outline: none;\n  background: linear-gradient(180deg,     rgb(56, 56, 56) 0%, rgb(36, 36, 36)   66%, rgb(41, 41, 41) 100%);\n  color: #fff;\n  transition: .3s ease;\n  border: 2px solid;\n  border-image: conic-gradient( #00F260, #0575E6,#64f38c) 1;\n}\n\n.input::placeholder {\n  color: #fff;\n}\n\n.input:focus::placeholder {\n  color: #999;\n}\n\n.icon {\n  position: absolute;\n  left: 1rem;\n  fill: #fff;\n  width: 1rem;\n  height: 1rem;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Foolish Liger 62</title>\n<style>\n/* From Uiverse.io by JaydipPrajapati1910 - https://uiverse.io/JaydipPrajapati1910/foolish-liger-62 */\n/* From Uiverse.io by JaydipPrajapati1910 - Tags: input, search, border, search bar */\n.group {\n  display: flex;\n  line-height: 28px;\n  align-items: center;\n  position: relative;\n  max-width: 190px;\n}\n\n.input {\n  height: 40px;\n  line-height: 28px;\n  padding: 0 1rem;\n  width: 100%;\n  padding-left: 2.5rem;\n  outline: none;\n  background: linear-gradient(180deg,     rgb(56, 56, 56) 0%, rgb(36, 36, 36)   66%, rgb(41, 41, 41) 100%);\n  color: #fff;\n  transition: .3s ease;\n  border: 2px solid;\n  border-image: conic-gradient( #00F260, #0575E6,#64f38c) 1;\n}\n\n.input::placeholder {\n  color: #fff;\n}\n\n.input:focus::placeholder {\n  color: #999;\n}\n\n.icon {\n  position: absolute;\n  left: 1rem;\n  fill: #fff;\n  width: 1rem;\n  height: 1rem;\n}\n</style>\n</head>\n<body>\n<div class=\"group\">\n    <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" class=\"icon\">\n        <g>\n            <path d=\"M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z\"></path>\n        </g>\n    </svg>\n    <input class=\"input\" type=\"search\" placeholder=\"Search\">\n</div>\n</body>\n</html>\n"
+}

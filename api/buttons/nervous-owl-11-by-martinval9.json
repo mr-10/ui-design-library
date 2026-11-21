@@ -1,0 +1,18 @@
+{
+ "id": "nervous-owl-11-by-martinval9",
+ "name": "Nervous Owl 11",
+ "category": "buttons",
+ "author": "martinval9",
+ "source": "https://uiverse.io/martinval9/nervous-owl-11",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button class=\"btn\">Button\n</button>",
+ "css": "/* From Uiverse.io by martinval9 - Tags: button */\n.btn {\n color: #B500FF;\n padding: 13px 20px;\n border: 2px solid #B500FF;\n font-size: 17px;\n transition: 0.3s;\n border-radius: 10px;\n font-family: Arial;\n font-weight: 600;\n}\n\n.btn:hover {\n transition: 0.3s;\n background-color: #B500FF;\n margin-top: -20px;\n color: #fff;\n animation-name: button_animation;\n animation-duration: 3s;\n animation-iteration-count: infinite;\n}\n\n.btn:active {\n transform: scale(0.97);\n}\n\n@keyframes button_animation {\n 0% {\n  background-color: #B500FF;\n }\n\n 25% {\n  background-color: #000000;\n }\n\n 50% {\n  background-color: #B500FF;\n }\n\n 75% {\n  background-color: #000000;\n }\n\n 100% {\n  background-color: #B500FF;\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Nervous Owl 11</title>\n<style>\n/* From Uiverse.io by martinval9 - https://uiverse.io/martinval9/nervous-owl-11 */\n/* From Uiverse.io by martinval9 - Tags: button */\n.btn {\n color: #B500FF;\n padding: 13px 20px;\n border: 2px solid #B500FF;\n font-size: 17px;\n transition: 0.3s;\n border-radius: 10px;\n font-family: Arial;\n font-weight: 600;\n}\n\n.btn:hover {\n transition: 0.3s;\n background-color: #B500FF;\n margin-top: -20px;\n color: #fff;\n animation-name: button_animation;\n animation-duration: 3s;\n animation-iteration-count: infinite;\n}\n\n.btn:active {\n transform: scale(0.97);\n}\n\n@keyframes button_animation {\n 0% {\n  background-color: #B500FF;\n }\n\n 25% {\n  background-color: #000000;\n }\n\n 50% {\n  background-color: #B500FF;\n }\n\n 75% {\n  background-color: #000000;\n }\n\n 100% {\n  background-color: #B500FF;\n }\n}\n</style>\n</head>\n<body>\n<button class=\"btn\">Button\n</button>\n</body>\n</html>\n"
+}

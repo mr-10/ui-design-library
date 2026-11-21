@@ -1,0 +1,18 @@
+{
+ "id": "serious-skunk-43-by-ercnersoy",
+ "name": "Serious Skunk 43",
+ "category": "cards",
+ "author": "ercnersoy",
+ "source": "https://uiverse.io/ercnersoy/serious-skunk-43",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"card\">My Card</div>",
+ "css": "/* From Uiverse.io by ercnersoy - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: lightgrey;\n  border: 3px inset white;\n  background: #e8e8e8;\n  box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;\n  transition: all .5s ease-in-out;\n  border-radius: 1.5rem;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-weight: bolder;\n  color: #8a8989;\n  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\n}\n\n.card:hover {\n  transform: translateY(-5px);\n  transition: all .5s ease-in-out;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Serious Skunk 43</title>\n<style>\n/* From Uiverse.io by ercnersoy - https://uiverse.io/ercnersoy/serious-skunk-43 */\n/* From Uiverse.io by ercnersoy - Tags: card */\n.card {\n  width: 190px;\n  height: 254px;\n  background: lightgrey;\n  border: 3px inset white;\n  background: #e8e8e8;\n  box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;\n  transition: all .5s ease-in-out;\n  border-radius: 1.5rem;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-weight: bolder;\n  color: #8a8989;\n  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;\n}\n\n.card:hover {\n  transform: translateY(-5px);\n  transition: all .5s ease-in-out;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">My Card</div>\n</body>\n</html>\n"
+}

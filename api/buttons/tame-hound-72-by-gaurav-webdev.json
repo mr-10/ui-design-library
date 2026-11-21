@@ -1,0 +1,19 @@
+{
+ "id": "tame-hound-72-by-gaurav-webdev",
+ "name": "Tame Hound 72",
+ "category": "buttons",
+ "author": "Gaurav-WebDev",
+ "source": "https://uiverse.io/Gaurav-WebDev/tame-hound-72",
+ "trigger": "hover",
+ "description": "A button with hover-effect and cool-btn styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover-effect",
+  "cool-btn",
+  "hover"
+ ],
+ "html": "<button class=\"button type1\">\n</button>",
+ "css": "/* From Uiverse.io by Gaurav-WebDev - Tags: button, hover effect, cool btn */\n.button {\n  height: 50px;\n  width: 150px;\n  border: none;\n  border-radius: 10px;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: all 0.5s ease-in-out;\n}\n\n.button:hover {\n  box-shadow: .5px .5px 150px #252525;\n}\n\n.type1::after {\n  content: \"Thanks\";\n  height: 50px;\n  width: 150px;\n  background-color: #008080;\n  color: #fff;\n  position: absolute;\n  top: 0%;\n  left: 0%;\n  transform: translateY(50px);\n  font-size: 1.2rem;\n  font-weight: 600;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: all 0.5s ease-in-out;\n}\n\n.type1::before {\n  content: \"Hover Me\";\n  height: 50px;\n  width: 150px;\n  background-color: #fff;\n  color: #008080;\n  position: absolute;\n  top: 0%;\n  left: 0%;\n  transform: translateY(0px) scale(1.2);\n  font-size: 1.2rem;\n  font-weight: 600;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: all 0.5s ease-in-out;\n}\n\n.type1:hover::after {\n  transform: translateY(0) scale(1.2);\n}\n\n.type1:hover::before {\n  transform: translateY(-50px) scale(0) rotate(120deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tame Hound 72</title>\n<style>\n/* From Uiverse.io by Gaurav-WebDev - https://uiverse.io/Gaurav-WebDev/tame-hound-72 */\n/* From Uiverse.io by Gaurav-WebDev - Tags: button, hover effect, cool btn */\n.button {\n  height: 50px;\n  width: 150px;\n  border: none;\n  border-radius: 10px;\n  cursor: pointer;\n  position: relative;\n  overflow: hidden;\n  transition: all 0.5s ease-in-out;\n}\n\n.button:hover {\n  box-shadow: .5px .5px 150px #252525;\n}\n\n.type1::after {\n  content: \"Thanks\";\n  height: 50px;\n  width: 150px;\n  background-color: #008080;\n  color: #fff;\n  position: absolute;\n  top: 0%;\n  left: 0%;\n  transform: translateY(50px);\n  font-size: 1.2rem;\n  font-weight: 600;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: all 0.5s ease-in-out;\n}\n\n.type1::before {\n  content: \"Hover Me\";\n  height: 50px;\n  width: 150px;\n  background-color: #fff;\n  color: #008080;\n  position: absolute;\n  top: 0%;\n  left: 0%;\n  transform: translateY(0px) scale(1.2);\n  font-size: 1.2rem;\n  font-weight: 600;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: all 0.5s ease-in-out;\n}\n\n.type1:hover::after {\n  transform: translateY(0) scale(1.2);\n}\n\n.type1:hover::before {\n  transform: translateY(-50px) scale(0) rotate(120deg);\n}\n</style>\n</head>\n<body>\n<button class=\"button type1\">\n</button>\n</body>\n</html>\n"
+}

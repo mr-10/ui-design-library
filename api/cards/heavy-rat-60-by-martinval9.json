@@ -1,0 +1,18 @@
+{
+ "id": "heavy-rat-60-by-martinval9",
+ "name": "Heavy Rat 60",
+ "category": "cards",
+ "author": "martinval9",
+ "source": "https://uiverse.io/martinval9/heavy-rat-60",
+ "trigger": "hover",
+ "description": "A card UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "card",
+  "hover",
+  "css"
+ ],
+ "html": "<div class=\"card\">\n</div>",
+ "css": "/* From Uiverse.io by martinval9 - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background: rgb(40,40,55);\n background: linear-gradient(344deg, rgba(40,40,55,1) 0%, rgba(16,16,18,1) 50%);\n box-shadow: 4px 6px 14px #00000036;\n border-radius: 3px;\n color: #F9F9F9;\n padding: 16px;\n transition: all .3s;\n}\n\n.card:hover {\n margin-top: -30px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Heavy Rat 60</title>\n<style>\n/* From Uiverse.io by martinval9 - https://uiverse.io/martinval9/heavy-rat-60 */\n/* From Uiverse.io by martinval9 - Tags: card */\n.card {\n width: 190px;\n height: 254px;\n background: rgb(40,40,55);\n background: linear-gradient(344deg, rgba(40,40,55,1) 0%, rgba(16,16,18,1) 50%);\n box-shadow: 4px 6px 14px #00000036;\n border-radius: 3px;\n color: #F9F9F9;\n padding: 16px;\n transition: all .3s;\n}\n\n.card:hover {\n margin-top: -30px;\n}\n</style>\n</head>\n<body>\n<div class=\"card\">\n</div>\n</body>\n</html>\n"
+}

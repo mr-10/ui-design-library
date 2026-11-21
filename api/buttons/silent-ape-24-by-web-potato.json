@@ -1,0 +1,18 @@
+{
+ "id": "silent-ape-24-by-web-potato",
+ "name": "Silent Ape 24",
+ "category": "buttons",
+ "author": "Web-Potato",
+ "source": "https://uiverse.io/Web-Potato/silent-ape-24",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button>\n    <span>\n        Hover Me\n    </span>\n</button>",
+ "css": "/* From Uiverse.io by Web-Potato - Tags: button */\nbutton {\n  padding: 0.1em 0.25em;\n  width: 13em;\n  height: 4.2em;\n  background-color: #212121;\n  border: 0.08em solid #fff;\n  border-radius: 0.3em;\n  font-size: 12px;\n}\n\nbutton span {\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  bottom: 0.4em;\n  width: 8.25em;\n  height: 2.5em;\n  background-color: #212121;\n  border-radius: 0.2em;\n  font-size: 1.5em;\n  color: #fff;\n  border: 0.08em solid #fff;\n  box-shadow: 0 0.4em 0.1em 0.019em #fff;\n}\n\nbutton span:hover {\n  transition: all 0.5s;\n  transform: translate(0, 0.4em);\n  box-shadow: 0 0 0 0 #fff;\n}\n\nbutton span:not(hover) {\n  transition: all 1s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Ape 24</title>\n<style>\n/* From Uiverse.io by Web-Potato - https://uiverse.io/Web-Potato/silent-ape-24 */\n/* From Uiverse.io by Web-Potato - Tags: button */\nbutton {\n  padding: 0.1em 0.25em;\n  width: 13em;\n  height: 4.2em;\n  background-color: #212121;\n  border: 0.08em solid #fff;\n  border-radius: 0.3em;\n  font-size: 12px;\n}\n\nbutton span {\n  position: relative;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  bottom: 0.4em;\n  width: 8.25em;\n  height: 2.5em;\n  background-color: #212121;\n  border-radius: 0.2em;\n  font-size: 1.5em;\n  color: #fff;\n  border: 0.08em solid #fff;\n  box-shadow: 0 0.4em 0.1em 0.019em #fff;\n}\n\nbutton span:hover {\n  transition: all 0.5s;\n  transform: translate(0, 0.4em);\n  box-shadow: 0 0 0 0 #fff;\n}\n\nbutton span:not(hover) {\n  transition: all 1s;\n}\n</style>\n</head>\n<body>\n<button>\n    <span>\n        Hover Me\n    </span>\n</button>\n</body>\n</html>\n"
+}

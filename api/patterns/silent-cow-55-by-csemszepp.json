@@ -1,0 +1,19 @@
+{
+ "id": "silent-cow-55-by-csemszepp",
+ "name": "Silent Cow 55",
+ "category": "patterns",
+ "author": "csemszepp",
+ "source": "https://uiverse.io/csemszepp/silent-cow-55",
+ "trigger": "static",
+ "description": "A pattern with simple and material-design styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "simple",
+  "material-design",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 194px; /* control the size */\n  --c1: #f6edb3;\n  --c2: #acc4a3;\n\n  --_l: #0000 calc(25% / 3), var(--c1) 0 25%, #0000 0;\n  --_g: conic-gradient(from 120deg at 50% 87.5%, var(--c1) 120deg, #0000 0);\n\n  background: var(--_g), var(--_g) 0 calc(var(--s) / 2),\n    conic-gradient(from 180deg at 75%, var(--c2) 60deg, #0000 0),\n    conic-gradient(from 60deg at 75% 75%, var(--c1) 0 60deg, #0000 0),\n    linear-gradient(150deg, var(--_l)) 0 calc(var(--s) / 2),\n    conic-gradient(\n      at 25% 25%,\n      #0000 50%,\n      var(--c2) 0 240deg,\n      var(--c1) 0 300deg,\n      var(--c2) 0\n    ),\n    linear-gradient(-150deg, var(--_l)) #55897c /* third color here */;\n  background-size: calc(0.866 * var(--s)) var(--s);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Silent Cow 55</title>\n<style>\n/* From Uiverse.io by csemszepp - https://uiverse.io/csemszepp/silent-cow-55 */\n/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  --s: 194px; /* control the size */\n  --c1: #f6edb3;\n  --c2: #acc4a3;\n\n  --_l: #0000 calc(25% / 3), var(--c1) 0 25%, #0000 0;\n  --_g: conic-gradient(from 120deg at 50% 87.5%, var(--c1) 120deg, #0000 0);\n\n  background: var(--_g), var(--_g) 0 calc(var(--s) / 2),\n    conic-gradient(from 180deg at 75%, var(--c2) 60deg, #0000 0),\n    conic-gradient(from 60deg at 75% 75%, var(--c1) 0 60deg, #0000 0),\n    linear-gradient(150deg, var(--_l)) 0 calc(var(--s) / 2),\n    conic-gradient(\n      at 25% 25%,\n      #0000 50%,\n      var(--c2) 0 240deg,\n      var(--c1) 0 300deg,\n      var(--c2) 0\n    ),\n    linear-gradient(-150deg, var(--_l)) #55897c /* third color here */;\n  background-size: calc(0.866 * var(--s)) var(--s);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

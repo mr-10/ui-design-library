@@ -1,0 +1,19 @@
+{
+ "id": "tasty-bobcat-17-by-remelens",
+ "name": "Tasty Bobcat 17",
+ "category": "buttons",
+ "author": "Remelens",
+ "source": "https://uiverse.io/Remelens/tasty-bobcat-17",
+ "trigger": "hover",
+ "description": "A button with light and windows11 styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "light",
+  "windows11",
+  "hover"
+ ],
+ "html": "<button class=\"button\">Button</button>",
+ "css": "/* From Uiverse.io by Remelens  - Tags: button, light, windows11 */\n.button {\n  display: inline-block;\n  text-align: center;\n  border: 0.9px solid #aaa;\n  border-radius: 2.5px;\n  background: #fff;\n  cursor: pointer;\n  color: #000;\n  min-width: 80px;\n  padding: 4px 0;\n  margin: 0 5px;\n  line-height: 20px;\n  transition: all 0.2s;\n  appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  font-family: Menlo, Monaco, Consolas, \"Lucida Console\", \"Ubuntu Mono\",\n    \"Microsoft YaHei UI\", \"PingFang SC\", \"Noto Sans CJK SC\", \"SimHei\";\n}\n.button:hover {\n  border-color: #0078d4;\n  background: #e0eef9;\n  transition: all 0.2s;\n}\n.button:active {\n  border-color: #005499;\n  background: #cce4f7;\n  transition: all 0.2s;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tasty Bobcat 17</title>\n<style>\n/* From Uiverse.io by Remelens - https://uiverse.io/Remelens/tasty-bobcat-17 */\n/* From Uiverse.io by Remelens  - Tags: button, light, windows11 */\n.button {\n  display: inline-block;\n  text-align: center;\n  border: 0.9px solid #aaa;\n  border-radius: 2.5px;\n  background: #fff;\n  cursor: pointer;\n  color: #000;\n  min-width: 80px;\n  padding: 4px 0;\n  margin: 0 5px;\n  line-height: 20px;\n  transition: all 0.2s;\n  appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  font-family: Menlo, Monaco, Consolas, \"Lucida Console\", \"Ubuntu Mono\",\n    \"Microsoft YaHei UI\", \"PingFang SC\", \"Noto Sans CJK SC\", \"SimHei\";\n}\n.button:hover {\n  border-color: #0078d4;\n  background: #e0eef9;\n  transition: all 0.2s;\n}\n.button:active {\n  border-color: #005499;\n  background: #cce4f7;\n  transition: all 0.2s;\n}\n</style>\n</head>\n<body>\n<button class=\"button\">Button</button>\n</body>\n</html>\n"
+}

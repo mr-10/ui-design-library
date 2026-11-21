@@ -1,0 +1,18 @@
+{
+ "id": "pretty-dingo-70-by-juliocodessm",
+ "name": "Pretty Dingo 70",
+ "category": "toggle-switches",
+ "author": "JulioCodesSM",
+ "source": "https://uiverse.io/JulioCodesSM/pretty-dingo-70",
+ "trigger": "checked",
+ "description": "A toggle switch with switch styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<label for=\"toggle\" class=\"button\">\n  <input type=\"checkbox\" id=\"toggle\">\n  <span class=\"slider\"></span>\n</label>",
+ "css": "/* From Uiverse.io by JulioCodesSM - Tags: switch */\n.button {\n  display: inline-block;\n  width: 50px;\n  height: 20px;\n  background-color: #fff;\n  border-radius: 30px;\n  cursor: pointer;\n  padding: 0;\n  color: white;\n}\n\n#toggle {\n  display: none;\n}\n\n.slider {\n  display: block;\n  font-size: 10px;\n  position: relative;\n}\n\n.slider::after {\n  content: 'OFF';\n  width: 25px;\n  height: 25px;\n  background-color: #e03c3c;\n  border: 2px solid #fff;\n  border-radius: 50%;\n  box-shadow: 0 0 5px rgba(0, 0, 0, .25);\n  position: absolute;\n  top: -5px;\n  left: 0;\n  display: grid;\n  place-content: center;\n  line-height: 0;\n  transition: background-color .25s, transform .25s ease-in;\n}\n\n#toggle:checked + .slider::after {\n  content: 'ON';\n  background-color: #05ae3e;\n  transform: translateX(25px) rotate(360deg);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Pretty Dingo 70</title>\n<style>\n/* From Uiverse.io by JulioCodesSM - https://uiverse.io/JulioCodesSM/pretty-dingo-70 */\n/* From Uiverse.io by JulioCodesSM - Tags: switch */\n.button {\n  display: inline-block;\n  width: 50px;\n  height: 20px;\n  background-color: #fff;\n  border-radius: 30px;\n  cursor: pointer;\n  padding: 0;\n  color: white;\n}\n\n#toggle {\n  display: none;\n}\n\n.slider {\n  display: block;\n  font-size: 10px;\n  position: relative;\n}\n\n.slider::after {\n  content: 'OFF';\n  width: 25px;\n  height: 25px;\n  background-color: #e03c3c;\n  border: 2px solid #fff;\n  border-radius: 50%;\n  box-shadow: 0 0 5px rgba(0, 0, 0, .25);\n  position: absolute;\n  top: -5px;\n  left: 0;\n  display: grid;\n  place-content: center;\n  line-height: 0;\n  transition: background-color .25s, transform .25s ease-in;\n}\n\n#toggle:checked + .slider::after {\n  content: 'ON';\n  background-color: #05ae3e;\n  transform: translateX(25px) rotate(360deg);\n}\n</style>\n</head>\n<body>\n<label for=\"toggle\" class=\"button\">\n  <input type=\"checkbox\" id=\"toggle\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+}

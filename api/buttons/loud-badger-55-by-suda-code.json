@@ -1,0 +1,18 @@
+{
+ "id": "loud-badger-55-by-suda-code",
+ "name": "Loud Badger 55",
+ "category": "buttons",
+ "author": "suda-code",
+ "source": "https://uiverse.io/suda-code/loud-badger-55",
+ "trigger": "hover",
+ "description": "A button with blue styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "blue",
+  "button",
+  "hover"
+ ],
+ "html": "<button>\n    Button\n</button>",
+ "css": "/* From Uiverse.io by suda-code - Tags: blue, button, hover */\nbutton {\n  padding: 12.5px 30px;\n  border: 0;\n  border-radius: 100px;\n  background-color: #2ba8fb;\n  color: #ffffff;\n  font-weight: Bold;\n  transition: all 0.5s;\n  -webkit-transition: all 0.5s;\n}\n\nbutton:hover {\n  background-color: #6fc5ff;\n  box-shadow: 0 0 20px #6fc5ff50;\n  transform: scale(1.1);\n}\n\nbutton:active {\n  background-color: #3d94cf;\n  transition: all 0.25s;\n  -webkit-transition: all 0.25s;\n  box-shadow: none;\n  transform: scale(0.98);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Loud Badger 55</title>\n<style>\n/* From Uiverse.io by suda-code - https://uiverse.io/suda-code/loud-badger-55 */\n/* From Uiverse.io by suda-code - Tags: blue, button, hover */\nbutton {\n  padding: 12.5px 30px;\n  border: 0;\n  border-radius: 100px;\n  background-color: #2ba8fb;\n  color: #ffffff;\n  font-weight: Bold;\n  transition: all 0.5s;\n  -webkit-transition: all 0.5s;\n}\n\nbutton:hover {\n  background-color: #6fc5ff;\n  box-shadow: 0 0 20px #6fc5ff50;\n  transform: scale(1.1);\n}\n\nbutton:active {\n  background-color: #3d94cf;\n  transition: all 0.25s;\n  -webkit-transition: all 0.25s;\n  box-shadow: none;\n  transform: scale(0.98);\n}\n</style>\n</head>\n<body>\n<button>\n    Button\n</button>\n</body>\n</html>\n"
+}

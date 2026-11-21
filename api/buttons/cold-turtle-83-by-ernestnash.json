@@ -1,0 +1,18 @@
+{
+ "id": "cold-turtle-83-by-ernestnash",
+ "name": "Cold Turtle 83",
+ "category": "buttons",
+ "author": "ernestnash",
+ "source": "https://uiverse.io/ernestnash/cold-turtle-83",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<a class=\"btn\" href=\"#\">I am a button</a>",
+ "css": "/* From Uiverse.io by ernestnash - Tags: button */\n.btn {\n display: inline-block;\n padding: 0.9rem 1.8rem;\n font-size: 16px;\n font-weight: 700;\n color: white;\n border: 3px solid rgb(252, 70, 100);\n cursor: pointer;\n position: relative;\n background-color: transparent;\n text-decoration: none;\n overflow: hidden;\n z-index: 1;\n font-family: inherit;\n}\n\n.btn::before {\n content: \"\";\n position: absolute;\n left: 0;\n top: 0;\n width: 100%;\n height: 100%;\n background-color: rgb(252, 70, 100);\n transform: translateX(-100%);\n transition: all .3s;\n z-index: -1;\n}\n\n.btn:hover::before {\n transform: translateX(0);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Cold Turtle 83</title>\n<style>\n/* From Uiverse.io by ernestnash - https://uiverse.io/ernestnash/cold-turtle-83 */\n/* From Uiverse.io by ernestnash - Tags: button */\n.btn {\n display: inline-block;\n padding: 0.9rem 1.8rem;\n font-size: 16px;\n font-weight: 700;\n color: white;\n border: 3px solid rgb(252, 70, 100);\n cursor: pointer;\n position: relative;\n background-color: transparent;\n text-decoration: none;\n overflow: hidden;\n z-index: 1;\n font-family: inherit;\n}\n\n.btn::before {\n content: \"\";\n position: absolute;\n left: 0;\n top: 0;\n width: 100%;\n height: 100%;\n background-color: rgb(252, 70, 100);\n transform: translateX(-100%);\n transition: all .3s;\n z-index: -1;\n}\n\n.btn:hover::before {\n transform: translateX(0);\n}\n</style>\n</head>\n<body>\n<a class=\"btn\" href=\"#\">I am a button</a>\n</body>\n</html>\n"
+}

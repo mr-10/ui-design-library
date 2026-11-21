@@ -1,0 +1,21 @@
+{
+ "id": "polite-deer-52-by-dalyn-liu",
+ "name": "Polite Deer 52",
+ "category": "cards",
+ "author": "Dalyn-Liu",
+ "source": "https://uiverse.io/Dalyn-Liu/polite-deer-52",
+ "trigger": "auto-loop",
+ "description": "A card with challenge, copy and border styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "challenge",
+  "copy",
+  "border",
+  "box-shadow",
+  "cards",
+  "auto-loop"
+ ],
+ "html": "<div class=\"one-div\"></div>",
+ "css": "/* From Uiverse.io by Dalyn-Liu - Tags: challenge, copy, border, box-shadow */\n.one-div {\n  width: 50px;\n  height: 50px;\n  background: #1abc9c;\n  border-radius: 30% 70% 63% 37% / 30% 30% 70% 70%;\n  margin-right: 15px;\n  animation: logo 1.2s infinite alternate;\n  box-shadow: 0 0 10px #1abc9c;\n}\n\n@keyframes logo {\n  100% {\n    transform: scale(1.2);\n    border-radius: 67% 33% 37% 63% / 29% 60% 40% 71%;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Deer 52</title>\n<style>\n/* From Uiverse.io by Dalyn-Liu - https://uiverse.io/Dalyn-Liu/polite-deer-52 */\n/* From Uiverse.io by Dalyn-Liu - Tags: challenge, copy, border, box-shadow */\n.one-div {\n  width: 50px;\n  height: 50px;\n  background: #1abc9c;\n  border-radius: 30% 70% 63% 37% / 30% 30% 70% 70%;\n  margin-right: 15px;\n  animation: logo 1.2s infinite alternate;\n  box-shadow: 0 0 10px #1abc9c;\n}\n\n@keyframes logo {\n  100% {\n    transform: scale(1.2);\n    border-radius: 67% 33% 37% 63% / 29% 60% 40% 71%;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"one-div\"></div>\n</body>\n</html>\n"
+}

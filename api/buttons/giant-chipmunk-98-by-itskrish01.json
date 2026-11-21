@@ -1,0 +1,18 @@
+{
+ "id": "giant-chipmunk-98-by-itskrish01",
+ "name": "Giant Chipmunk 98",
+ "category": "buttons",
+ "author": "Itskrish01",
+ "source": "https://uiverse.io/Itskrish01/giant-chipmunk-98",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by Itskrish01  - Website: https://ui.aceternity.com/ - Name: aceternity - Tags: button -->\n<button\n  class=\"px-12 py-4 rounded-full bg-[#1ED760] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200\"\n>\n  Spotify\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Giant Chipmunk 98</title>\n<style>\n/* From Uiverse.io by Itskrish01 - https://uiverse.io/Itskrish01/giant-chipmunk-98 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by Itskrish01  - Website: https://ui.aceternity.com/ - Name: aceternity - Tags: button -->\n<button\n  class=\"px-12 py-4 rounded-full bg-[#1ED760] font-bold text-white tracking-widest uppercase transform hover:scale-105 hover:bg-[#21e065] transition-colors duration-200\"\n>\n  Spotify\n</button>\n</body>\n</html>\n"
+}

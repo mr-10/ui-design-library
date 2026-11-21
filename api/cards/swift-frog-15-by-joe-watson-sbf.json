@@ -1,0 +1,18 @@
+{
+ "id": "swift-frog-15-by-joe-watson-sbf",
+ "name": "Swift Frog 15",
+ "category": "cards",
+ "author": "joe-watson-sbf",
+ "source": "https://uiverse.io/joe-watson-sbf/swift-frog-15",
+ "trigger": "scroll",
+ "description": "A card with scroll-snap styling.",
+ "howItWorks": "It reacts as you scroll the page.",
+ "tags": [
+  "card",
+  "scroll-snap",
+  "scroll"
+ ],
+ "html": "<div class=\"container\">\n    <div class=\"item\">SCROLL SNAP</div>\n    <div class=\"item\">SCROLL SNAP</div>\n    <div class=\"item\">SCROLL SNAP</div>\n    <div class=\"item\">SCROLL SNAP</div>\n    <div class=\"item\">SCROLL SNAP</div>\n</div>",
+ "css": "/* From Uiverse.io by joe-watson-sbf - Tags: card, scroll snap */\n.container {\n  display: flex;\n  overflow: auto;\n  scroll-snap-type: x mandatory;\n  padding: 10px;\n  gap: 10px;\n  scroll-padding: 10px;\n  width: 190px;\n  height: 254px;\n  background-color: white;\n  border: 2px solid coral;\n}\n\n.container .item {\n  scroll-snap-align: start;\n  flex: 0 0 60%;\n  background: linear-gradient(120deg, coral 30%, rgb(255, 187, 163) 88%, rgb(255, 185, 160) \n  40%, coral 48%);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: bisque;\n  text-align: center;\n  font-size: 1.3rem;\n  line-height: 1.3em;\n  font-weight: 400;\n  font-family: sans-serif;\n  border-radius: .2rem;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Swift Frog 15</title>\n<style>\n/* From Uiverse.io by joe-watson-sbf - https://uiverse.io/joe-watson-sbf/swift-frog-15 */\n/* From Uiverse.io by joe-watson-sbf - Tags: card, scroll snap */\n.container {\n  display: flex;\n  overflow: auto;\n  scroll-snap-type: x mandatory;\n  padding: 10px;\n  gap: 10px;\n  scroll-padding: 10px;\n  width: 190px;\n  height: 254px;\n  background-color: white;\n  border: 2px solid coral;\n}\n\n.container .item {\n  scroll-snap-align: start;\n  flex: 0 0 60%;\n  background: linear-gradient(120deg, coral 30%, rgb(255, 187, 163) 88%, rgb(255, 185, 160) \n  40%, coral 48%);\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: bisque;\n  text-align: center;\n  font-size: 1.3rem;\n  line-height: 1.3em;\n  font-weight: 400;\n  font-family: sans-serif;\n  border-radius: .2rem;\n}\n</style>\n</head>\n<body>\n<div class=\"container\">\n    <div class=\"item\">SCROLL SNAP</div>\n    <div class=\"item\">SCROLL SNAP</div>\n    <div class=\"item\">SCROLL SNAP</div>\n    <div class=\"item\">SCROLL SNAP</div>\n    <div class=\"item\">SCROLL SNAP</div>\n</div>\n</body>\n</html>\n"
+}

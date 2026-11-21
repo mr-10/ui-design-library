@@ -1,0 +1,18 @@
+{
+ "id": "green-chipmunk-67-by-damithkumara",
+ "name": "Green Chipmunk 67",
+ "category": "buttons",
+ "author": "Damithkumara",
+ "source": "https://uiverse.io/Damithkumara/green-chipmunk-67",
+ "trigger": "hover",
+ "description": "A button UI element.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "css"
+ ],
+ "html": "<button><span></span>button</button>",
+ "css": "/* From Uiverse.io by Damithkumara - Tags: button */\nbutton {\n padding: 0.9em 1.8em;\n text-transform: uppercase;\n text-decoration: none;\n letter-spacing: 4px;\n color: transparent;\n border: 3px solid #ff0;\n font-size: 14px;\n position: relative;\n font-family: inherit;\n background: transparent;\n}\n\nbutton::before {\n content: \"button\";\n position: absolute;\n top: 0;\n left: 0;\n width: 100%;\n height: 100%;\n background-color: #363636;\n color: #ff0;\n display: flex;\n justify-content: center;\n align-items: center;\n transition: all 0.5s;\n}\n\nbutton:hover::before {\n left: 100%;\n transform: scale(0) rotateY(360deg);\n opacity: 0;\n}\n\nbutton::after {\n content: \"button\";\n position: absolute;\n top: 0;\n left: -100%;\n width: 100%;\n height: 100%;\n background-color: #363636;\n color: #ff0;\n display: flex;\n justify-content: center;\n align-items: center;\n transition: all 0.5s;\n transform: scale(0) rotateY(0deg);\n opacity: 0;\n}\n\nbutton:hover::after {\n left: 0;\n transform: scale(1) rotateY(360deg);\n opacity: 1;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Green Chipmunk 67</title>\n<style>\n/* From Uiverse.io by Damithkumara - https://uiverse.io/Damithkumara/green-chipmunk-67 */\n/* From Uiverse.io by Damithkumara - Tags: button */\nbutton {\n padding: 0.9em 1.8em;\n text-transform: uppercase;\n text-decoration: none;\n letter-spacing: 4px;\n color: transparent;\n border: 3px solid #ff0;\n font-size: 14px;\n position: relative;\n font-family: inherit;\n background: transparent;\n}\n\nbutton::before {\n content: \"button\";\n position: absolute;\n top: 0;\n left: 0;\n width: 100%;\n height: 100%;\n background-color: #363636;\n color: #ff0;\n display: flex;\n justify-content: center;\n align-items: center;\n transition: all 0.5s;\n}\n\nbutton:hover::before {\n left: 100%;\n transform: scale(0) rotateY(360deg);\n opacity: 0;\n}\n\nbutton::after {\n content: \"button\";\n position: absolute;\n top: 0;\n left: -100%;\n width: 100%;\n height: 100%;\n background-color: #363636;\n color: #ff0;\n display: flex;\n justify-content: center;\n align-items: center;\n transition: all 0.5s;\n transform: scale(0) rotateY(0deg);\n opacity: 0;\n}\n\nbutton:hover::after {\n left: 0;\n transform: scale(1) rotateY(360deg);\n opacity: 1;\n}\n</style>\n</head>\n<body>\n<button><span></span>button</button>\n</body>\n</html>\n"
+}

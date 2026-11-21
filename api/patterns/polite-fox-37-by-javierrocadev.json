@@ -1,0 +1,19 @@
+{
+ "id": "polite-fox-37-by-javierrocadev",
+ "name": "Polite Fox 37",
+ "category": "patterns",
+ "author": "Javierrocadev",
+ "source": "https://uiverse.io/Javierrocadev/polite-fox-37",
+ "trigger": "static",
+ "description": "A pattern with blue and gradient styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "blue",
+  "gradient",
+  "pattern",
+  "static"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by Javierrocadev - Tags: blue, gradient, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background-image: repeating-radial-gradient(  #f8f1f1ee 87%,#3fa7b4 90%);\n  background-size: 50px 50px;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Polite Fox 37</title>\n<style>\n/* From Uiverse.io by Javierrocadev - https://uiverse.io/Javierrocadev/polite-fox-37 */\n/* From Uiverse.io by Javierrocadev - Tags: blue, gradient, pattern */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background-image: repeating-radial-gradient(  #f8f1f1ee 87%,#3fa7b4 90%);\n  background-size: 50px 50px;\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

@@ -1,0 +1,18 @@
+{
+ "id": "moody-penguin-63-by-fwdjc",
+ "name": "Moody Penguin 63",
+ "category": "buttons",
+ "author": "FWDJc",
+ "source": "https://uiverse.io/FWDJc/moody-penguin-63",
+ "trigger": "static",
+ "description": "A button UI element.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "buttons",
+  "static",
+  "css"
+ ],
+ "html": "<!-- From Uiverse.io by FWDJc - Tags: button, click, hover button, egg -->\n<button class=\"cursor-grab w-32 h-32 flex items-center justify-center rounded-full bg-white animate-bounce\">\n  <span class=\"h-20 w-20 rounded-full bg-yellow-500 hover:bg-red-500 relative rotate-90\">\n    <span class=\"absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2\">\n      <span class=\"block h-2 w-2 bg-black rounded-full\"></span>\n      <span class=\"block h-2 w-2 bg-black rounded-full mt-3\"></span>\n    </span>\n  </span>\n</button>",
+ "css": "\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Moody Penguin 63</title>\n<style>\n/* From Uiverse.io by FWDJc - https://uiverse.io/FWDJc/moody-penguin-63 */\n\n</style>\n</head>\n<body>\n<!-- From Uiverse.io by FWDJc - Tags: button, click, hover button, egg -->\n<button class=\"cursor-grab w-32 h-32 flex items-center justify-center rounded-full bg-white animate-bounce\">\n  <span class=\"h-20 w-20 rounded-full bg-yellow-500 hover:bg-red-500 relative rotate-90\">\n    <span class=\"absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2\">\n      <span class=\"block h-2 w-2 bg-black rounded-full\"></span>\n      <span class=\"block h-2 w-2 bg-black rounded-full mt-3\"></span>\n    </span>\n  </span>\n</button>\n</body>\n</html>\n"
+}

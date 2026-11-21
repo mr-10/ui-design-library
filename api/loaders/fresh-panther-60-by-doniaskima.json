@@ -1,0 +1,19 @@
+{
+ "id": "fresh-panther-60-by-doniaskima",
+ "name": "Fresh Panther 60",
+ "category": "loaders",
+ "author": "doniaskima",
+ "source": "https://uiverse.io/doniaskima/fresh-panther-60",
+ "trigger": "auto-loop",
+ "description": "A loader with simple and material-design styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "simple",
+  "material-design",
+  "loader",
+  "auto-loop"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 80px;\n  height: 40px;\n  border-radius: 100px 100px 0 0;\n  position: relative;\n  overflow: hidden;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  inset: 0 0 -100%;\n  background: radial-gradient(farthest-side,#ffd738 80%,#0000) left 70% top    20%/15px 15px,\n    radial-gradient(farthest-side,#020308 92%,#0000) left 65% bottom 19%/12px 12px,\n    radial-gradient(farthest-side,#ecfefe 92%,#0000) left 70% bottom 20%/15px 15px,\n    linear-gradient(#9eddfe 50%,#020308 0);\n  background-repeat: no-repeat;\n  animation: l5 2s infinite;\n}\n\n@keyframes l5 {\n  0%,20% {\n    transform: rotate(0)\n  }\n\n  40%,60% {\n    transform: rotate(.5turn)\n  }\n\n  80%,100% {\n    transform: rotate(1turn)\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Fresh Panther 60</title>\n<style>\n/* From Uiverse.io by doniaskima - https://uiverse.io/doniaskima/fresh-panther-60 */\n/* From Uiverse.io by doniaskima - Tags: simple, material design, loader */\n/* HTML: <div class=\"loader\"></div> */\n.loader {\n  width: 80px;\n  height: 40px;\n  border-radius: 100px 100px 0 0;\n  position: relative;\n  overflow: hidden;\n}\n\n.loader:before {\n  content: \"\";\n  position: absolute;\n  inset: 0 0 -100%;\n  background: radial-gradient(farthest-side,#ffd738 80%,#0000) left 70% top    20%/15px 15px,\n    radial-gradient(farthest-side,#020308 92%,#0000) left 65% bottom 19%/12px 12px,\n    radial-gradient(farthest-side,#ecfefe 92%,#0000) left 70% bottom 20%/15px 15px,\n    linear-gradient(#9eddfe 50%,#020308 0);\n  background-repeat: no-repeat;\n  animation: l5 2s infinite;\n}\n\n@keyframes l5 {\n  0%,20% {\n    transform: rotate(0)\n  }\n\n  40%,60% {\n    transform: rotate(.5turn)\n  }\n\n  80%,100% {\n    transform: rotate(1turn)\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}

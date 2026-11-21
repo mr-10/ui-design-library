@@ -1,0 +1,18 @@
+{
+ "id": "popular-snake-36-by-satyamchaudharydev",
+ "name": "Popular Snake 36",
+ "category": "loaders",
+ "author": "satyamchaudharydev",
+ "source": "https://uiverse.io/satyamchaudharydev/popular-snake-36",
+ "trigger": "auto-loop",
+ "description": "A loader UI element.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "loader",
+  "auto-loop",
+  "css"
+ ],
+ "html": "<div class=\"loader\">\n<div class=\"box\"></div>\n<div class=\"box\"></div>\n<div class=\"box\"></div>\n</div>",
+ "css": "/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.loader {\n --size: 40px;\n display: flex;\n gap: 0.6rem;\n}\n\n.box {\n width: var(--size);\n height: var(--size);\n background: #0270e1;\n animation: rotate 2s infinite;\n}\n\n.box:nth-child(2) {\n animation-delay: 0.25s;\n}\n\n.box:nth-child(3) {\n animation-delay: 0.5s;\n}\n\n@keyframes rotate {\n 50% {\n  transform: rotate(180deg)\n }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Popular Snake 36</title>\n<style>\n/* From Uiverse.io by satyamchaudharydev - https://uiverse.io/satyamchaudharydev/popular-snake-36 */\n/* From Uiverse.io by satyamchaudharydev - Tags: loader */\n.loader {\n --size: 40px;\n display: flex;\n gap: 0.6rem;\n}\n\n.box {\n width: var(--size);\n height: var(--size);\n background: #0270e1;\n animation: rotate 2s infinite;\n}\n\n.box:nth-child(2) {\n animation-delay: 0.25s;\n}\n\n.box:nth-child(3) {\n animation-delay: 0.5s;\n}\n\n@keyframes rotate {\n 50% {\n  transform: rotate(180deg)\n }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\">\n<div class=\"box\"></div>\n<div class=\"box\"></div>\n<div class=\"box\"></div>\n</div>\n</body>\n</html>\n"
+}

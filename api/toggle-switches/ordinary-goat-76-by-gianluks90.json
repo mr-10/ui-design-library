@@ -1,0 +1,18 @@
+{
+ "id": "ordinary-goat-76-by-gianluks90",
+ "name": "Ordinary Goat 76",
+ "category": "toggle-switches",
+ "author": "Gianluks90",
+ "source": "https://uiverse.io/Gianluks90/ordinary-goat-76",
+ "trigger": "checked",
+ "description": "A toggle switch with switch styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "switch",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<label class=\"switch\">\n  <input type=\"checkbox\" class=\"slider-input\">\n  <span class=\"slider\"></span>\n</label>",
+ "css": "/* From Uiverse.io by Gianluks90 - Tags: switch */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n  margin-right: 12px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  -webkit-transition: .4s;\n  transition: .4s;\n  box-shadow: inset 2px 2px 12px -5px gray;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 2em;\n  width: 1.75em;\n  left: 0;\n  bottom: 0;\n  background-color: white;\n  -webkit-transition: .4s;\n  transition: .4s;\n}\n\n.slider-input:checked + .slider {\n  background-color: #90EE90;\n  box-shadow: inset 2px 2px 9px -5px gray;\n}\n\n.slider-input:focus + .slider {\n  box-shadow: 0 0 1px #90EE90;\n}\n\n.slider-input:checked + .slider:before {\n  -webkit-transform: translateX(1.75em);\n  -ms-transform: translateX(1.75em);\n  transform: translateX(1.75em);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ordinary Goat 76</title>\n<style>\n/* From Uiverse.io by Gianluks90 - https://uiverse.io/Gianluks90/ordinary-goat-76 */\n/* From Uiverse.io by Gianluks90 - Tags: switch */\n.switch {\n  font-size: 17px;\n  position: relative;\n  display: inline-block;\n  width: 3.5em;\n  height: 2em;\n  margin-right: 12px;\n}\n\n.switch input {\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\n.slider {\n  position: absolute;\n  cursor: pointer;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: #ccc;\n  -webkit-transition: .4s;\n  transition: .4s;\n  box-shadow: inset 2px 2px 12px -5px gray;\n}\n\n.slider:before {\n  position: absolute;\n  content: \"\";\n  height: 2em;\n  width: 1.75em;\n  left: 0;\n  bottom: 0;\n  background-color: white;\n  -webkit-transition: .4s;\n  transition: .4s;\n}\n\n.slider-input:checked + .slider {\n  background-color: #90EE90;\n  box-shadow: inset 2px 2px 9px -5px gray;\n}\n\n.slider-input:focus + .slider {\n  box-shadow: 0 0 1px #90EE90;\n}\n\n.slider-input:checked + .slider:before {\n  -webkit-transform: translateX(1.75em);\n  -ms-transform: translateX(1.75em);\n  transform: translateX(1.75em);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input type=\"checkbox\" class=\"slider-input\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+}

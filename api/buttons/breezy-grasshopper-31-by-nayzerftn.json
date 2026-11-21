@@ -1,0 +1,18 @@
+{
+ "id": "breezy-grasshopper-31-by-nayzerftn",
+ "name": "Breezy Grasshopper 31",
+ "category": "buttons",
+ "author": "Nayzerftn",
+ "source": "https://uiverse.io/Nayzerftn/breezy-grasshopper-31",
+ "trigger": "hover",
+ "description": "A button with active styling.",
+ "howItWorks": "Move your mouse over it and it reacts; move away and it returns to its resting state.",
+ "tags": [
+  "button",
+  "hover",
+  "active"
+ ],
+ "html": "<button class=\"btn-hover\">HOVER ME</button>",
+ "css": "/* From Uiverse.io by Nayzerftn - Tags: button, hover, active */\n.btn-hover {\n  position: relative;\n  display: inline-block;\n  padding: 15px 30px;\n  font-size: 18px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #ffffff;\n  background-color: #4b4b4b;\n  border: none;\n  outline: none;\n  overflow: hidden;\n  cursor: pointer;\n  transition: all 0.3s ease-out;\n}\n\n.btn-hover:hover {\n  background-color: #522ba7;\n}\n\n.btn-hover::before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%) scale(0);\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background-color: #ffffff;\n  opacity: 0.8;\n  transition: all 0.5s ease-out;\n}\n\n.btn-hover:hover::before {\n  transform: translate(-50%, -50%) scale(20);\n  opacity: 0;\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Breezy Grasshopper 31</title>\n<style>\n/* From Uiverse.io by Nayzerftn - https://uiverse.io/Nayzerftn/breezy-grasshopper-31 */\n/* From Uiverse.io by Nayzerftn - Tags: button, hover, active */\n.btn-hover {\n  position: relative;\n  display: inline-block;\n  padding: 15px 30px;\n  font-size: 18px;\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 2px;\n  color: #ffffff;\n  background-color: #4b4b4b;\n  border: none;\n  outline: none;\n  overflow: hidden;\n  cursor: pointer;\n  transition: all 0.3s ease-out;\n}\n\n.btn-hover:hover {\n  background-color: #522ba7;\n}\n\n.btn-hover::before {\n  content: \"\";\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%) scale(0);\n  width: 15px;\n  height: 15px;\n  border-radius: 50%;\n  background-color: #ffffff;\n  opacity: 0.8;\n  transition: all 0.5s ease-out;\n}\n\n.btn-hover:hover::before {\n  transform: translate(-50%, -50%) scale(20);\n  opacity: 0;\n}\n</style>\n</head>\n<body>\n<button class=\"btn-hover\">HOVER ME</button>\n</body>\n</html>\n"
+}

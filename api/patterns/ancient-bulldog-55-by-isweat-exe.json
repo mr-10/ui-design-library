@@ -1,0 +1,21 @@
+{
+ "id": "ancient-bulldog-55-by-isweat-exe",
+ "name": "Ancient Bulldog 55",
+ "category": "patterns",
+ "author": "iSweat-exe",
+ "source": "https://uiverse.io/iSweat-exe/ancient-bulldog-55",
+ "trigger": "static",
+ "description": "A pattern with material-design, glassmorphism and success styling.",
+ "howItWorks": "It sits still — a fixed design with no animation or interaction.",
+ "tags": [
+  "material-design",
+  "glassmorphism",
+  "success",
+  "pattern",
+  "background",
+  "3d"
+ ],
+ "html": "<div class=\"container\"></div>",
+ "css": "/* From Uiverse.io by iSweat-exe  - Tags: material design, glassmorphism, success, pattern, background, 3D */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0),\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) 60px 60px,\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(2 * 60px)\n      calc(2 * 60px),\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(3 * 60px)\n      calc(3 * 60px),\n    repeating-linear-gradient(135deg, #adafff 0 12.5%, #474bff 0 25%);\n  background-size: calc(4 * 60px) calc(4 * 60px);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ancient Bulldog 55</title>\n<style>\n/* From Uiverse.io by iSweat-exe - https://uiverse.io/iSweat-exe/ancient-bulldog-55 */\n/* From Uiverse.io by iSweat-exe  - Tags: material design, glassmorphism, success, pattern, background, 3D */\n.container {\n  width: 100%;\n  height: 100%;\n  /* Add your background pattern here */\n  background: conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0),\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) 60px 60px,\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(2 * 60px)\n      calc(2 * 60px),\n    conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(3 * 60px)\n      calc(3 * 60px),\n    repeating-linear-gradient(135deg, #adafff 0 12.5%, #474bff 0 25%);\n  background-size: calc(4 * 60px) calc(4 * 60px);\n}\n</style>\n</head>\n<body>\n<div class=\"container\"></div>\n</body>\n</html>\n"
+}

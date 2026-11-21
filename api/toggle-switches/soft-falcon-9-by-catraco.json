@@ -1,0 +1,20 @@
+{
+ "id": "soft-falcon-9-by-catraco",
+ "name": "Soft Falcon 9",
+ "category": "toggle-switches",
+ "author": "catraco",
+ "source": "https://uiverse.io/catraco/soft-falcon-9",
+ "trigger": "checked",
+ "description": "A toggle switch with simple, small and switcher styling.",
+ "howItWorks": "Click it to switch it on or off — it holds its state until you click it again.",
+ "tags": [
+  "simple",
+  "small",
+  "switcher",
+  "toggle-switches",
+  "checked"
+ ],
+ "html": "<label class=\"switch\">\n  <input class=\"checkbox\" type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>",
+ "css": "/* From Uiverse.io by catraco - Tags: simple, small, switcher */\n/* Switch - Container */\n.switch {\n  --primary: #50F080;\n  --secondary: #F05050;\n  --dark: #505050;\n  --light: #D0D0D0;\n  background-color: var(--dark);\n  position: relative;\n  display: inline-block;\n  border-radius: 1rem;\n  cursor: pointer;\n  width: 50px;\n  height: 25px;\n}\n\n/* Hide default HTML checkbox */\n.checkbox {\n  opacity: 0\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  left: 0;\n  top: 50%;\n  width: 50%;\n  height: 100%;\n  transition: .4s;\n  border-radius: 100%;\n  transform: translateY(-50%);\n  border: 4px solid var(--dark);\n  background-color: var(--secondary);\n}\n\n.checkbox:checked + .slider {\n  background-color: var(--primary);\n  transform: translate(100%, -50%);\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Soft Falcon 9</title>\n<style>\n/* From Uiverse.io by catraco - https://uiverse.io/catraco/soft-falcon-9 */\n/* From Uiverse.io by catraco - Tags: simple, small, switcher */\n/* Switch - Container */\n.switch {\n  --primary: #50F080;\n  --secondary: #F05050;\n  --dark: #505050;\n  --light: #D0D0D0;\n  background-color: var(--dark);\n  position: relative;\n  display: inline-block;\n  border-radius: 1rem;\n  cursor: pointer;\n  width: 50px;\n  height: 25px;\n}\n\n/* Hide default HTML checkbox */\n.checkbox {\n  opacity: 0\n}\n\n/* The slider */\n.slider {\n  position: absolute;\n  left: 0;\n  top: 50%;\n  width: 50%;\n  height: 100%;\n  transition: .4s;\n  border-radius: 100%;\n  transform: translateY(-50%);\n  border: 4px solid var(--dark);\n  background-color: var(--secondary);\n}\n\n.checkbox:checked + .slider {\n  background-color: var(--primary);\n  transform: translate(100%, -50%);\n}\n</style>\n</head>\n<body>\n<label class=\"switch\">\n  <input class=\"checkbox\" type=\"checkbox\">\n  <span class=\"slider\"></span>\n</label>\n</body>\n</html>\n"
+}

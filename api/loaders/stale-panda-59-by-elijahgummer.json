@@ -1,0 +1,21 @@
+{
+ "id": "stale-panda-59-by-elijahgummer",
+ "name": "Stale Panda 59",
+ "category": "loaders",
+ "author": "elijahgummer",
+ "source": "https://uiverse.io/elijahgummer/stale-panda-59",
+ "trigger": "auto-loop",
+ "description": "A loader with simple, red and diamond styling.",
+ "howItWorks": "It animates on its own in a loop — just watch it run, no interaction needed.",
+ "tags": [
+  "simple",
+  "red",
+  "loader",
+  "diamond",
+  "fade",
+  "mitsubishi"
+ ],
+ "html": "<div class=\"loader\"></div>",
+ "css": "/* From Uiverse.io by elijahgummer  - Tags: simple, red, loader, diamond, fade, mitsubishi, appear */\n.loader {\n  width: 50px;\n  height: calc(50px * 0.866);\n  background: #fd135a;\n  clip-path: polygon(50% 0, 100% 100%, 0 100%);\n  --c: at 50% 66%, #000 60deg, #0000 0;\n  -webkit-mask:\n    conic-gradient(from 30deg var(--c)) right,\n    conic-gradient(from 150deg var(--c)) bottom,\n    conic-gradient(from -90deg var(--c)) left,\n    linear-gradient(#000 0 0);\n  -webkit-mask-composite: xor;\n  mask-composite: exclude;\n  -webkit-mask-repeat: no-repeat;\n  animation: appear 1.5s infinite;\n}\n@keyframes appear {\n  0% {\n    -webkit-mask-size:\n      0 0,\n      0 0,\n      0 0,\n      auto;\n  }\n  13.33% {\n    -webkit-mask-size:\n      100% 100%,\n      0 0,\n      0 0,\n      auto;\n  }\n  26.67% {\n    -webkit-mask-size:\n      100% 100%,\n      100% 100%,\n      0 0,\n      auto;\n  }\n  40%,\n  60% {\n    -webkit-mask-size:\n      100% 100%,\n      100% 100%,\n      100% 100%,\n      auto;\n  }\n  73.33% {\n    -webkit-mask-size:\n      0 0,\n      100% 100%,\n      100% 100%,\n      auto;\n  }\n  86.67% {\n    -webkit-mask-size:\n      0 0,\n      0 0,\n      100% 100%,\n      auto;\n  }\n  100% {\n    -webkit-mask-size:\n      0 0,\n      0 0,\n      0 0,\n      auto;\n  }\n}\n",
+ "combined": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Stale Panda 59</title>\n<style>\n/* From Uiverse.io by elijahgummer - https://uiverse.io/elijahgummer/stale-panda-59 */\n/* From Uiverse.io by elijahgummer  - Tags: simple, red, loader, diamond, fade, mitsubishi, appear */\n.loader {\n  width: 50px;\n  height: calc(50px * 0.866);\n  background: #fd135a;\n  clip-path: polygon(50% 0, 100% 100%, 0 100%);\n  --c: at 50% 66%, #000 60deg, #0000 0;\n  -webkit-mask:\n    conic-gradient(from 30deg var(--c)) right,\n    conic-gradient(from 150deg var(--c)) bottom,\n    conic-gradient(from -90deg var(--c)) left,\n    linear-gradient(#000 0 0);\n  -webkit-mask-composite: xor;\n  mask-composite: exclude;\n  -webkit-mask-repeat: no-repeat;\n  animation: appear 1.5s infinite;\n}\n@keyframes appear {\n  0% {\n    -webkit-mask-size:\n      0 0,\n      0 0,\n      0 0,\n      auto;\n  }\n  13.33% {\n    -webkit-mask-size:\n      100% 100%,\n      0 0,\n      0 0,\n      auto;\n  }\n  26.67% {\n    -webkit-mask-size:\n      100% 100%,\n      100% 100%,\n      0 0,\n      auto;\n  }\n  40%,\n  60% {\n    -webkit-mask-size:\n      100% 100%,\n      100% 100%,\n      100% 100%,\n      auto;\n  }\n  73.33% {\n    -webkit-mask-size:\n      0 0,\n      100% 100%,\n      100% 100%,\n      auto;\n  }\n  86.67% {\n    -webkit-mask-size:\n      0 0,\n      0 0,\n      100% 100%,\n      auto;\n  }\n  100% {\n    -webkit-mask-size:\n      0 0,\n      0 0,\n      0 0,\n      auto;\n  }\n}\n</style>\n</head>\n<body>\n<div class=\"loader\"></div>\n</body>\n</html>\n"
+}
