@@ -93,3 +93,27 @@ known reasons (see below).
 - **app.js / style.css are unminified** (Lighthouse: ~12 KiB + ~3 KiB
   savings, ~33 KiB unused JS). Small; a build step would be needed to
   minify without breaking the injected driver string.
+
+## Post-audit fix (21 Nov, commit 08c1acf) — blank card + still previews on mobile
+
+Reported from the live site on a phone: the Afraid Donkey 40 card showed a
+blank preview while the card below it (Afraid Eagle 38) rendered, and many
+grid animations looked still.
+
+Root cause: the browse `IntersectionObserver` watched only the `.preview`
+box. A card whose preview had scrolled just off the top (name still
+visible) had its iframe unloaded and looked blank. Reproduced at 390px
+and confirmed the fix: the observer now watches the whole card, so the
+preview stays loaded while any part of the card is on screen. Verified
+with the preview 210px above the viewport and the name visible — the
+iframe stays loaded.
+
+Second cause: browse previews were created with autoplay off, so hover /
+checked / click elements showed one frozen state. Grid previews now
+autoplay for hover, active, auto-loop and static triggers (class pulse /
+native CSS animation — verified a loader's pseudo-element transform
+changes over time, and a hover button's sim class pulses). checked /
+click / focus stay on their one-shot active state, so the driver never
+steals the search box focus while the user types. Live iframes stay
+bounded (4 at 390px after scrolling). Audit re-run after the fix: 27/28
+(same single flaky wrong-id check).
