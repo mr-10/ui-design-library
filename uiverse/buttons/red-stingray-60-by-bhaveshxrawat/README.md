@@ -1,0 +1,58 @@
+# Red Stingray 60
+
+A button UI element from Uiverse.io by bhaveshxrawat.
+
+Source: https://uiverse.io/bhaveshxrawat/red-stingray-60
+
+Author: bhaveshxrawat
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: #174ea6, #3c4043, #4285f4, #f6f9fe, #fff
+
+Fonts: inherit
+
+Spacing and radius: 24px
+
+## Source Code
+
+### index.html
+
+```html
+<button> Grab it!
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by bhaveshxrawat - Tags: button */
+button {
+ background-color: #fff;
+ border-radius: 24px;
+ border-style: none;
+ box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+ box-sizing: border-box;
+ color: #3c4043;
+ font-size: 14px;
+ font-weight: 500;
+ font-family: inherit;
+ letter-spacing: .25px;
+ line-height: normal;
+ padding: 11px 24px;
+ transition: background box-shadow 280ms ease;
+}
+
+button:hover {
+ background: #F6F9FE;
+ color: #174ea6;
+}
+
+button:active {
+ box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+ outline: none;
+ border: 2px solid #4285f4;
+}
+```
