@@ -1,0 +1,82 @@
+# Smooth Fox 31
+
+A loader UI element from Uiverse.io by vikramsinghnegi.
+
+Source: https://uiverse.io/vikramsinghnegi/smooth-fox-31
+
+Author: vikramsinghnegi
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: animation, loader, refresh loading
+
+Colors: #000
+
+Fonts: monospace
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by vikramsinghnegi  - Tags: animation, loader, refresh loading */
+/* HTML: <div class="loader"></div> */
+.loader {
+  font-weight: bold;
+  font-family: monospace;
+  display: inline-grid;
+  font-size: 30px;
+}
+.loader:before,
+.loader:after {
+  content: "Refresh....";
+  grid-area: 1/1;
+  -webkit-mask-size: 1.5ch 100%, 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: l36-1 1s infinite;
+}
+.loader:before {
+  -webkit-mask-image: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
+}
+.loader:after {
+  -webkit-mask-image: linear-gradient(#000 0 0);
+  animation: l36-1 1s infinite,
+    l36-2 0.2s infinite cubic-bezier(0.5, 200, 0.5, -200);
+}
+
+@keyframes l36-1 {
+  0% {
+    -webkit-mask-position: 0 0, 0 0;
+  }
+  20% {
+    -webkit-mask-position: 0.5ch 0, 0 0;
+  }
+  40% {
+    -webkit-mask-position: 100% 0, 0 0;
+  }
+  60% {
+    -webkit-mask-position: 4.5ch 0, 0 0;
+  }
+  80% {
+    -webkit-mask-position: 6.5ch 0, 0 0;
+  }
+  100% {
+    -webkit-mask-position: 2.5ch 0, 0 0;
+  }
+}
+@keyframes l36-2 {
+  100% {
+    transform: translateY(0.2px);
+  }
+}
+```

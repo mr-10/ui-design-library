@@ -1,0 +1,78 @@
+# Smooth Lionfish 6
+
+A loader UI element from Uiverse.io by vikramsinghnegi.
+
+Source: https://uiverse.io/vikramsinghnegi/smooth-lionfish-6
+
+Author: vikramsinghnegi
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: animation, loader, factory
+
+Colors: #c74d4d, #d2d3e0
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by vikramsinghnegi  - Tags: animation, loader, factory */
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 90px;
+  height: 14px;
+  box-shadow: 0 3px 0 #c74d4d;
+  position: relative;
+  clip-path: inset(-40px 0 -5px);
+}
+.loader:before {
+  content: "";
+  position: absolute;
+  inset: auto calc(50% - 17px) 0;
+  height: 50px;
+  --g: no-repeat linear-gradient(#d2d3e0 0 0);
+  background: var(--g), var(--g), var(--g), var(--g);
+  background-size: 16px 14px;
+  animation: l7-1 2s infinite linear, l7-2 2s infinite linear;
+}
+@keyframes l7-1 {
+  0%,
+  100% {
+    background-position: 0 -50px, 100% -50px;
+  }
+  17.5% {
+    background-position: 0 100%, 100% -50px, 0 -50px, 100% -50px;
+  }
+  35% {
+    background-position: 0 100%, 100% 100%, 0 -50px, 100% -50px;
+  }
+  52.5% {
+    background-position: 0 100%, 100% 100%, 0 calc(100% - 16px), 100% -50px;
+  }
+  70%,
+  98% {
+    background-position: 0 100%, 100% 100%, 0 calc(100% - 16px),
+      100% calc(100% - 16px);
+  }
+}
+@keyframes l7-2 {
+  0%,
+  70% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(200%);
+  }
+}
+```
