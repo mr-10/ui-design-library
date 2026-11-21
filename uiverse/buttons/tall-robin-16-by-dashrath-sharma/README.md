@@ -1,0 +1,91 @@
+# Tall Robin 16
+
+A button UI element from Uiverse.io by Dashrath-Sharma.
+
+Source: https://uiverse.io/Dashrath-Sharma/tall-robin-16
+
+Author: Dashrath-Sharma
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button, text animation, animated, colorful, color, text, btn
+
+Colors: #003566, #0077b6, #0096c7, #00b4d8, #03045e, #333, #48cae4, #90e0ef, #caf0f8, #d00000
+
+Fonts: See styles.css
+
+Spacing and radius: 50%, 8px
+
+## Source Code
+
+### index.html
+
+```html
+<button class="button">
+  Button
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Dashrath-Sharma - Tags: button, text animation, animated, colorful, color, text, btn */
+.button {
+  border: none;
+  font-size: 17px;
+  padding: 1em 2em;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  z-index: 1;
+  background: #caf0f8;
+  border-radius: 8px;
+  box-shadow: 2px 2px 0 #333,
+             2px 2px 200px #ffba08 inset;
+  color: #fff;
+}
+
+.button:active {
+  transform: scale(.98);
+}
+
+.button:hover {
+  box-shadow: 2px 2px 0 #333,
+             2px 2px 200px #003566 inset;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  left: -41%;
+  width: 150%;
+  height: 300%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 0 #333,
+             0 0 0 8px #d00000 inset,
+             0 0 0 16px #dc2f02 inset,
+             0 0 0 24px #e85d04 inset,
+             0 0 0 32px #f48c06 inset,
+             0 0 0 40px #faa307 inset;
+  z-index: -1;
+  transition: .2s;
+}
+
+.button:active::before {
+  opacity: .001;
+  box-shadow: 2px 2px 200px #03045e inset;
+}
+
+.button:hover::before {
+  box-shadow: 2px 2px 0 #333,
+             0 0 0 8px #90e0ef inset,
+             0 0 0 16px #48cae4 inset,
+             0 0 0 24px #00b4d8 inset,
+             0 0 0 32px #0096c7 inset,
+             0 0 0 40px #0077b6 inset;
+  left: -9%;
+  width: 150%;
+  height: 300%;
+}
+```
