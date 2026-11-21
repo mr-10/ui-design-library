@@ -1,0 +1,72 @@
+# New Lion 60
+
+A loader UI element from Uiverse.io by Shoh2008.
+
+Source: https://uiverse.io/Shoh2008/new-lion-60
+
+Author: Shoh2008
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loader
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Shoh2008 - Tags: loader */
+.loader {
+  width: 84px;
+  height: 84px;
+  position: relative;
+  overflow: hidden;
+}
+
+.loader:before , .loader:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: yellow;
+  transform: translate(-50% , 100%)  scale(0);
+  animation: push_4051 2s infinite ease-in;
+}
+
+.loader:after {
+  animation-delay: 1s;
+}
+
+@keyframes push_4051 {
+  0% {
+    transform: translate(-50% , 100%)  scale(1);
+  }
+
+  15% , 25% {
+    transform: translate(-50% , 50%)  scale(1);
+  }
+
+  50% , 75% {
+    transform: translate(-50%, -30%) scale(0.5);
+  }
+
+  80%,  100% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
+```
