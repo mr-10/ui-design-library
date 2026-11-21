@@ -1,0 +1,53 @@
+/* From Uiverse.io by ahmed150up - Tags: notification */
+.notification {
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.notification svg {
+  width: 140px;
+  height: 140px;
+  fill: #FFD700;
+  animation: rotate 3s ease-in-out infinite;
+}
+
+.notification #star {
+  animation: fill 3s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.notification text {
+  font-size: 30px;
+  font-weight: bold;
+  fill: #000;
+}
+
+@keyframes fill {
+  0% {
+    fill: transparent;
+    transform: scale(1);
+  }
+
+  50% {
+    fill: #FFD700;
+    transform: scale(1.2);
+  }
+
+  100% {
+    fill: transparent;
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

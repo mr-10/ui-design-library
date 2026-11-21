@@ -1,0 +1,92 @@
+/* From Uiverse.io by Fujitawa - Tags: notification */
+.notification {
+  width: 250px;
+  height: 60px;
+  color: black;
+  background: white;
+  border-radius: 3px;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-items: center;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  border: 3px solid #ece0b4;
+}
+
+.notification:hover  button.ff3 {
+  background-color: #f4e0a6;
+}
+
+.notification:hover {
+  border-color: #f4e0a6;
+}
+
+.notification:hover .lvl {
+  border-color: #f4e0a6;
+}
+
+button.ff3 {
+  background-color: #ece0b4;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3px;
+  cursor: pointer;
+  border: 0;
+  transition: .5s;
+  font-weight: bold;
+}
+
+.lvl {
+  background: white;
+  padding: 6px;
+  border-radius: 100px;
+  border: 3px solid #ece0b4;
+  position: absolute;
+  left: -10px;
+  transform: scale(.8);
+  top: -10px;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}

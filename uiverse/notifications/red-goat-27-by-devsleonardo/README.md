@@ -1,0 +1,96 @@
+# Red Goat 27
+
+A notification UI element from Uiverse.io by devsleonardo.
+
+Source: https://uiverse.io/devsleonardo/red-goat-27
+
+Author: devsleonardo
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: notification
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<div class="notification">
+  <svg viewBox="0 0 100 100" class="trophy">
+    <g>
+      <path d="M10,50 L40,50 L30,10 L20,10 Z"></path>
+      <path d="M60,50 L90,50 L80,10 L70,10 Z"></path>
+      <path d="M20,10 L80,10 L70,30 L30,30 Z"></path>
+      <path d="M30,30 L70,30 L60,50 L40,50 Z"></path>
+      <path d="M25,75 L75,75 L85,90 L15,90 Z"></path>
+      <path d="M40,50 L60,50 L55,70 L45,70 Z"></path>
+    </g>
+  </svg>
+  <p>Congratulations!
+  </p><p>You reached level 10!</p>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by devsleonardo - Tags: notification */
+.notification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+  color: white;
+}
+
+.trophy {
+  fill: gold;
+  width: 80px;
+  height: 80px;
+  animation: bounce 0.5s ease-in-out 1;
+}
+
+.trophy:hover {
+  animation: spin 1s ease-in-out 1;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(-20px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  75% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+```
