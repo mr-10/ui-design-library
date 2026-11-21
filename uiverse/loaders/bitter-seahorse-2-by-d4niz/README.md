@@ -1,0 +1,64 @@
+# Bitter Seahorse 2
+
+A loader UI element from Uiverse.io by d4niz.
+
+Source: https://uiverse.io/d4niz/bitter-seahorse-2
+
+Author: d4niz
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loader
+
+Colors: #0000, #008cff, #048be6
+
+Fonts: See styles.css
+
+Spacing and radius: 100%, 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by d4niz - Tags: loader */
+.loader {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  border: 4.6px solid #0000;
+  border-radius: 100%;
+  border-color: #008cff #0000;
+  animation: spinner-e04l1k 1.5s infinite linear;
+}
+
+.loader::before, .loader::after {
+  content: "";
+  grid-area: 1/1;
+  margin: 8px;
+  border: inherit;
+  border-radius: 50%;
+}
+
+.loader::before {
+  border-color: #048be6 #0000;
+  animation: inherit;
+  animation-duration: 0.1s;
+}
+
+.loader::after {
+  margin: 2.9px;
+}
+
+@keyframes spinner-e04l1k {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+```

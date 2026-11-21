@@ -1,0 +1,74 @@
+# Big Dolphin 10
+
+A loader UI element from Uiverse.io by Kemboi-Dun.
+
+Source: https://uiverse.io/Kemboi-Dun/big-dolphin-10
+
+Author: Kemboi-Dun
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: simple, animation, blue, minimalist, loading, loader, cube, animated
+
+Colors: #0a7cbe
+
+Fonts: See styles.css
+
+Spacing and radius: 1rem
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Kemboi-Dun - Source: https://uiverse.io/Saiyed-Tanvir/old-mole-38 - Tags: simple, animation, blue, minimalist, loading, loader, cube, animated */
+.loader {
+  height: 5cm;
+  width: 5cm;
+  border-radius: 1rem;
+  /* border: 1px solid #0a7cbe; */
+  box-shadow: inset 0 0 0 #0a7cbe;
+  animation: load 4s ease infinite;
+}
+
+@keyframes load {
+  
+  0% {
+    box-shadow: inset -5cm -2.5cm 0 #0a7cbe;
+  }
+
+  25% {
+    box-shadow: inset 5cm -2.5cm 0 #0a7cbe;
+  }
+
+  25.01% {
+    box-shadow: inset 2.5cm -5cm 0 #0a7cbe;
+  }
+
+  50% {
+    box-shadow: inset 2.5cm 5cm 0 #0a7cbe;
+  }
+
+  50.01% {
+    box-shadow: inset 5cm 2.5cm 0 #0a7cbe;
+  }
+
+  75% {
+    box-shadow: inset -5cm 2.5cm 0 #0a7cbe;
+  }
+
+  75.01% {
+    box-shadow: inset -2.5cm 5cm 0 #0a7cbe;
+  }
+
+  100% {
+    box-shadow: inset -2.5cm -5cm 0 #0a7cbe;
+  }
+}
+```
