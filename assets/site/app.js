@@ -66,15 +66,26 @@
     });
   }
 
-  /* ---------- autoplay driver (injected into preview iframes) ---------- */
+  /* ---------- autoplay + auto-fit driver (injected into preview iframes) ----------
+     MODE 'fit': measure #stage (incl. the hover/active state) and scale it to
+     fit the box, clamped 0.25–1.6. MODE 'vp': no measuring — the parent scales
+     the whole 800x500 iframe instead. */
   var DRIVER = "(function(){try{"
-    + "var TRIGGER='__TRIGGER__',AUTOPLAY=__AUTOPLAY__;"
+    + "var TRIGGER='__TRIGGER__',AUTOPLAY=__AUTOPLAY__,MODE='__MODE__',OVR=__OVERRIDE__;"
     + "var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;"
     + "var speed=1,playing=AUTOPLAY&&!reduced,loop=true,timer=null,phase=false,cycles=0;"
+    + "var stage=document.getElementById('stage');"
     + "function target(){return document.querySelector('input[type=\"checkbox\"],input[type=\"radio\"]')"
     + "||document.querySelector('button,input,select,textarea,a[href],label,[tabindex]')"
     + "||document.body.firstElementChild;}"
     + "function simClass(on,cls){var el=target();if(!el)return;var n=el;while(n&&n!==document.body){n.classList.toggle(cls,on);n=n.parentElement;}document.body.classList.toggle(cls,on);}"
+    + "function prime(){var el=target();if(!el)return;try{"
+    + "if(TRIGGER==='hover'){simClass(true,'uilib-sim-hover');}"
+    + "else if(TRIGGER==='checked'||TRIGGER==='click'){el.click();}"
+    + "else if(TRIGGER==='active'){simClass(true,'uilib-sim-active');}"
+    + "else if(TRIGGER==='focus'){el.focus();if((el.tagName==='INPUT'||el.tagName==='TEXTAREA')&&!el.value){el.value='Hello';el.dispatchEvent(new Event('input',{bubbles:true}));}}"
+    + "else if(TRIGGER==='static'){document.body.classList.add('uilib-in');}"
+    + "}catch(e){}}"
     + "function step(){if(!playing)return;var el=target();if(!el){schedule();return;}"
     + "try{"
     + "if(TRIGGER==='hover'){simClass(!phase,'uilib-sim-hover');phase=!phase;}"
@@ -87,41 +98,116 @@
     + "if(!loop&&cycles>=1){playing=false;try{parent.postMessage({uilib:'ended'},'*');}catch(e){}return;}"
     + "schedule();}"
     + "function schedule(){clearTimeout(timer);if(playing){timer=setTimeout(step,1500/speed);}}"
+    + "function union(){var r=null;function add(x){if(!x)return;if(x.width===0&&x.height===0)return;if(!r)r={l:x.left,t:x.top,r:x.right,b:x.bottom};else{r.l=Math.min(r.l,x.left);r.t=Math.min(r.t,x.top);r.r=Math.max(r.r,x.right);r.b=Math.max(r.b,x.bottom);}}"
+    + "if(stage)add(stage.getBoundingClientRect());"
+    + "var all=document.querySelectorAll('body *');for(var i=0;i<all.length;i++)add(all[i].getBoundingClientRect());return r;}"
+    + "function fit(){if(MODE!=='fit'||!stage)return;"
+    + "if(window.__uilibMode==='actual'){stage.style.transform='scale(1)';return;}"
+    + "var kill=document.createElement('style');kill.textContent='*{transition:none!important}';document.head.appendChild(kill);"
+    + "try{"
+    + "var wasHover=document.body.classList.contains('uilib-sim-hover');"
+    + "var u=null,factor=0.8;"
+    + "if(TRIGGER==='hover'){"
+    + "simClass(false,'uilib-sim-hover');document.body.offsetHeight;var uOff=union();"
+    + "simClass(true,'uilib-sim-hover');document.body.offsetHeight;var uOn=union();"
+    + "u=uOn;if(uOff&&uOn&&(uOn.r-uOn.l>(uOff.r-uOff.l)*1.1||uOn.b-uOn.t>(uOff.b-uOff.t)*1.1))factor=0.7;"
+    + "}else{"
+    + "u=union();"
+    + "if(TRIGGER==='checked'||TRIGGER==='click'){var el=target();if(el){try{el.click();}catch(e){}document.body.offsetHeight;var u2=union();try{el.click();}catch(e){}if(u2&&u){u={l:Math.min(u.l,u2.l),t:Math.min(u.t,u2.t),r:Math.max(u.r,u2.r),b:Math.max(u.b,u2.b)};}}}"
+    + "}"
+    + "if(!wasHover&&TRIGGER==='hover')simClass(false,'uilib-sim-hover');"
+    + "if(!u)return;var cw=u.r-u.l,ch=u.b-u.t;if(cw<=0||ch<=0)return;"
+    + "var boxW=document.documentElement.clientWidth,boxH=document.documentElement.clientHeight;"
+    + "if(OVR&&OVR.padding!=null)factor=1-OVR.padding*2;"
+    + "var s;if(OVR&&OVR.scale)s=OVR.scale;else{s=Math.min(boxW*factor/cw,boxH*factor/ch);s=Math.max(0.25,Math.min(1.6,s));if(OVR&&OVR.minScale)s=Math.min(Math.max(s,OVR.minScale),boxW*factor/cw,boxH*factor/ch);}"
+    + "stage.style.transform='scale('+s+')';"
+    + "var de=document.documentElement;"
+    + "de.dataset.uilibScale=s.toFixed(3);de.dataset.uilibContentW=Math.round(cw);de.dataset.uilibContentH=Math.round(ch);"
+    + "de.dataset.uilibFitW=Math.round(cw*s);de.dataset.uilibFitH=Math.round(ch*s);de.dataset.uilibBoxW=boxW;de.dataset.uilibBoxH=boxH;"
+    + "try{parent.postMessage({uilib:'measured',scale:s,contentW:cw,contentH:ch,fitW:cw*s,fitH:ch*s,boxW:boxW,boxH:boxH},'*');}catch(e){}"
+    + "}finally{kill.remove();}}"
+    + "var fitT=null;function refit(){clearTimeout(fitT);fitT=setTimeout(fit,120);}"
+    + "function scheduleFit(){var done=false;function go(){if(done)return;done=true;if(window.requestAnimationFrame)requestAnimationFrame(fit);else fit();}"
+    + "var to=setTimeout(go,1500);var p=[];"
+    + "if(document.fonts&&document.fonts.ready)p.push(document.fonts.ready);"
+    + "var im=document.images,pend=[];for(var i=0;i<im.length;i++)if(!im[i].complete)pend.push(im[i]);"
+    + "if(pend.length)p.push(new Promise(function(res){var n=pend.length;pend.forEach(function(x){x.onload=x.onerror=function(){if(--n<=0)res();};});}));"
+    + "Promise.all(p).then(function(){clearTimeout(to);go();});}"
     + "window.addEventListener('message',function(e){var d=e.data||{};if(!d||d.uilib!==1)return;"
     + "if(d.cmd==='play'){playing=true;cycles=0;schedule();}"
     + "if(d.cmd==='pause'){playing=false;clearTimeout(timer);}"
     + "if(d.cmd==='speed'){speed=d.speed||1;}"
     + "if(d.cmd==='loop'){loop=!!d.loop;if(loop&&playing)schedule();}"
+    + "if(d.cmd==='mode'){window.__uilibMode=d.mode;if(d.mode==='actual'){if(stage)stage.style.transform='scale(1)';}else{fit();}}"
+    + "if(d.cmd==='remeasure'){refit();}"
     + "});"
+    + "window.addEventListener('resize',refit);"
+    + "if(window.ResizeObserver&&stage){try{var ro=new ResizeObserver(refit);ro.observe(stage);if(stage.firstElementChild)ro.observe(stage.firstElementChild);}catch(e){}}"
+    + "if(document.fonts&&document.fonts.ready){document.fonts.ready.then(function(){refit();});}"
+    + "setTimeout(refit,2500);"
     + "if(TRIGGER==='static'){var st=document.createElement('style');st.textContent='.uilib-in{animation:uilibIn .6s ease both}@keyframes uilibIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}';document.head.appendChild(st);}"
+    + "if(OVR&&OVR.background){document.body.style.background=OVR.background;}"
+    + "prime();"
     + "if(playing){schedule();}"
+    + "scheduleFit();"
     + "}catch(err){}})();";
 
-  function buildSrcdoc(html, trigger, autoplay) {
+  /* The reshape's injected body-centering rule (first <style> in index.html).
+     Auto-fit centers with its own reset, so this rule is removed in fit mode. */
+  var INJECTED_BODY = /body\s*\{\s*display:\s*flex;\s*min-height:\s*100vh;\s*align-items:\s*center;\s*justify-content:\s*center;\s*margin:\s*0;\s*\}/;
+
+  function isVp(rec) {
+    var ovr = window.__uilibOverrides && window.__uilibOverrides[rec.id];
+    return !!(rec.vp || (ovr && ovr.width && ovr.height));
+  }
+
+  function buildSrcdoc(html, trigger, autoplay, rec) {
+    var ovr = (window.__uilibOverrides && window.__uilibOverrides[rec.id]) || null;
+    var vp = isVp(rec);
     var styles = [], m, re = /<style[^>]*>([\s\S]*?)<\/style>/gi;
     while ((m = re.exec(html))) styles.push(m[1]);
-    var css = styles.join('\n');
-    var extra = '';
+    var css = styles.join('\n').replace(INJECTED_BODY, '');
+    var hasBodyBg = /body\s*\{[^}]*background/i.test(css);
+    var sim = '';
     if (!/@media[^{]*hover\s*:/i.test(css)) {
-      var sim = css.replace(/:hover/g, '.uilib-sim-hover').replace(/:active/g, '.uilib-sim-active');
-      extra += '<style id="uilib-sim">' + sim + '</style>';
+      sim = css.replace(/:hover/g, '.uilib-sim-hover').replace(/:active/g, '.uilib-sim-active');
     }
-    if (!/body\s*\{[^}]*background/i.test(html)) {
-      extra += '<style>html,body{background:transparent !important}</style>';
-    }
-    var driver = DRIVER.replace(/__TRIGGER__/g, trigger).replace(/__AUTOPLAY__/g, autoplay ? '1' : '0');
-    var out = html;
-    if (out.indexOf('</head>') !== -1) out = out.replace('</head>', extra + '</head>');
-    else out = extra + out;
+    var driver = DRIVER.replace(/__TRIGGER__/g, trigger)
+      .replace(/__AUTOPLAY__/g, autoplay ? '1' : '0')
+      .replace(/__MODE__/g, vp ? 'vp' : 'fit')
+      .replace(/__OVERRIDE__/g, ovr ? JSON.stringify(ovr) : 'null');
     var tag = '<script>' + driver + '<\/script>';
-    if (out.indexOf('</body>') !== -1) out = out.replace('</body>', tag + '</body>');
-    else out += tag;
-    return out;
+    if (vp) {
+      /* Virtual viewport: the element fills the iframe as before; the parent
+         scales the whole 800x500 iframe to fit the box. */
+      var extra = '';
+      if (sim) extra += '<style id="uilib-sim">' + sim + '</style>';
+      if (!hasBodyBg) extra += '<style>html,body{background:transparent !important}</style>';
+      var out = html;
+      if (out.indexOf('</head>') !== -1) out = out.replace('</head>', extra + '</head>');
+      else out = extra + out;
+      if (out.indexOf('</body>') !== -1) out = out.replace('</body>', tag + '</body>');
+      else out += tag;
+      return out;
+    }
+    /* Fit mode: fresh document, reset + #stage wrapper the driver measures. */
+    var bodyM = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+    var bodyContent = bodyM ? bodyM[1] : html;
+    var reset = '<style>html,body{margin:0;padding:0;height:100%;overflow:hidden}'
+      + 'body{display:grid;place-items:center}'
+      + (hasBodyBg ? '' : 'body{background:transparent}')
+      + '#stage{width:max-content;max-width:100%;height:max-content;max-height:100%;transform-origin:center center}'
+      + '</style>';
+    var simStyle = sim ? '<style id="uilib-sim">' + sim + '</style>' : '';
+    return '<!doctype html><html><head><meta charset="utf-8">'
+      + '<style>' + css + '</style>' + simStyle + reset + '</head>'
+      + '<body><div id="stage">' + bodyContent + '</div>'
+      + tag + '</body></html>';
   }
   function elementSrcdoc(rec, autoplay) {
     function attempt() {
       return fetchText(rec.path + 'index.html').then(function (html) {
-        return buildSrcdoc(html, rec.trigger, autoplay);
+        return buildSrcdoc(html, rec.trigger, autoplay, rec);
       });
     }
     // One retry: a single failed fetch (blip, slow connection) should not
@@ -137,10 +223,59 @@
     f.setAttribute('sandbox', 'allow-scripts');
     f.setAttribute('title', rec.name + ' preview');
     f.setAttribute('loading', 'lazy');
+    if (isVp(rec)) {
+      var ovr = (window.__uilibOverrides && window.__uilibOverrides[rec.id]) || null;
+      f.className = 'vp-frame';
+      f._vpW = (ovr && ovr.width) || 800;
+      f._vpH = (ovr && ovr.height) || 500;
+      f.style.width = f._vpW + 'px';
+      f.style.height = f._vpH + 'px';
+    }
     elementSrcdoc(rec, autoplay).then(function (doc) { f.srcdoc = doc; }).catch(function () {
       f.srcdoc = '<p style="font:14px sans-serif;color:#888;padding:20px">Preview could not be loaded.</p>';
     });
     return f;
+  }
+
+  /* ---------- virtual-viewport scaling (parent side) ---------- */
+  var vpRO = null;
+  function fitVpFrame(holder) {
+    var f = holder.querySelector('iframe.vp-frame');
+    if (!f) return;
+    var bw = holder.clientWidth, bh = holder.clientHeight;
+    if (!bw || !bh) return;
+    var vw = f._vpW || 800, vh = f._vpH || 500;
+    var s = holder._fitMode === 'actual' ? 1 : Math.min(bw / vw, bh / vh);
+    f.style.transform = 'translate(-50%,-50%) scale(' + s + ')';
+  }
+  function vpObserver() {
+    if (vpRO) return vpRO;
+    vpRO = new ResizeObserver(function (entries) {
+      entries.forEach(function (en) { fitVpFrame(en.target); });
+    });
+    return vpRO;
+  }
+  /* Append an iframe to a preview holder; scales virtual-viewport frames. */
+  function attachPreview(holder, rec, autoplay) {
+    var f = previewIframe(rec, autoplay);
+    holder.appendChild(f);
+    if (f.classList.contains('vp-frame')) {
+      fitVpFrame(holder);
+      vpObserver().observe(holder);
+    }
+    return f;
+  }
+
+  /* Per-element preview overrides (data/overrides.json). Loaded once at boot;
+     missing file means no overrides. */
+  window.__uilibOverrides = {};
+  function loadOverrides() {
+    return fetch('data/overrides.json').then(function (r) {
+      if (!r.ok) return {};
+      return r.json();
+    }).then(function (o) {
+      window.__uilibOverrides = o || {};
+    }).catch(function () { window.__uilibOverrides = {}; });
   }
 
   /* ---------- state / filters ---------- */
@@ -235,7 +370,7 @@
             '<div class="by">by ' + esc(rec.author) + ' · ' + esc(rec.category) + '</div></div>' +
           '</a>');
         strip.appendChild(card);
-        card.querySelector('.preview').appendChild(previewIframe(rec, true));
+        attachPreview(card.querySelector('.preview'), rec, true);
       });
     });
     setActiveTree(null, null, null);
@@ -253,8 +388,7 @@
         if (en.isIntersecting) {
           if (!holder._frame) {
             holder.querySelector('.ph') && holder.querySelector('.ph').remove();
-            holder._frame = previewIframe(rec, false);
-            holder.appendChild(holder._frame);
+            holder._frame = attachPreview(holder, rec, false);
           }
         } else if (holder._frame) {
           holder._frame.remove(); holder._frame = null;
@@ -317,16 +451,24 @@
     var grid = $('#grid'), count = $('#resultCount');
     if (!grid) return;
     browse.shown = 0;
+    browse.results = [];
+    browse.loading = true;
+    browse.gen = (browse.gen || 0) + 1;
+    var gen = browse.gen;
     grid.innerHTML = '';
     count.textContent = 'Loading…';
     var needAll = filters.q || filters.category === 'all';
     var ready = needAll ? loadAllCategories() : loadCategory(filters.category);
     ready.then(function () {
+      if (gen !== browse.gen) return; // a newer refresh superseded this one
+      browse.loading = false;
       var list = filters.category === 'all' ? allElements() : (catCache[filters.category] ? catCache[filters.category].elements : []);
       browse.results = applyFilters(list);
       updateCount();
       renderBatch();
     }).catch(function () {
+      if (gen !== browse.gen) return;
+      browse.loading = false;
       count.textContent = 'Could not load the library data. Please reload the page.';
     });
   }
@@ -339,7 +481,8 @@
     var grid = $('#grid');
     if (!grid || browse.loading) return;
     var next = browse.results.slice(browse.shown, browse.shown + BATCH);
-    if (!next.length) { var lm = $('#loadMore'); if (lm) lm.disabled = browse.shown >= browse.results.length; return; }
+    var lm = $('#loadMore');
+    if (!next.length) { if (lm) lm.disabled = browse.shown >= browse.results.length; return; }
     var frag = document.createDocumentFragment();
     next.forEach(function (rec) {
       var card = el(
@@ -359,9 +502,7 @@
     grid.appendChild(frag);
     browse.shown += next.length;
     updateCount();
-    if (browse.shown >= browse.results.length) {
-      var lm2 = $('#loadMore'); if (lm2) lm2.disabled = true;
-    }
+    if (lm) lm.disabled = browse.shown >= browse.results.length;
     if (!browse.results.length) {
       grid.innerHTML = '<div class="empty-state" style="grid-column:1/-1"><h2>No elements match</h2><p>Try a different search, category, trigger, or tag.</p></div>';
     }
@@ -688,7 +829,7 @@
     var next = idx >= 0 && idx < catData.elements.length - 1 ? catData.elements[idx + 1] : null;
     var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-    previewState = { rec: rec, catData: catData, idx: idx, playing: !reduced, speed: 1, loop: true, bg: 'light', tab: tab, iframe: null, files: {} };
+    previewState = { rec: rec, catData: catData, idx: idx, playing: !reduced, speed: 1, loop: true, bg: 'light', fitMode: 'fit', tab: tab, iframe: null, files: {} };
 
     view.innerHTML =
       '<div class="crumb"><a href="#/">Home</a> / <a href="#/browse?cat=' + rec.category + '">' + esc(rec.category) + '</a> / ' + esc(rec.name) + '</div>' +
@@ -710,6 +851,9 @@
           '<span class="spacer"></span>' +
           '<span class="seg" id="bgSeg" role="group" aria-label="Stage background">' +
             '<button data-bg="light" class="active">Light</button><button data-bg="dark">Dark</button><button data-bg="checkered">Checkered</button>' +
+          '</span>' +
+          '<span class="seg" id="fitSeg" role="group" aria-label="Preview size">' +
+            '<button data-fit="fit" class="active">Fit</button><button data-fit="actual">100%</button>' +
           '</span>' +
           '<button class="btn" id="fsBtn">⛶ Fullscreen</button>' +
         '</div>' +
@@ -765,8 +909,8 @@
     var st = previewState, holder = $('#stageFrame');
     if (!holder) return;
     holder.innerHTML = '';
-    var f = previewIframe(st.rec, st.playing);
-    holder.appendChild(f);
+    holder._fitMode = st.fitMode;
+    var f = attachPreview(holder, st.rec, st.playing);
     st.iframe = f;
     var stage = $('#stage');
     var overlay = null;
@@ -802,10 +946,28 @@
     if (on) { if (st._hideOverlay) st._hideOverlay(); }
     else if (st._showOverlay) st._showOverlay();
   }
+  function applyFitMode() {
+    var st = previewState;
+    if (!st) return;
+    var holder = $('#stageFrame');
+    if (holder) {
+      holder._fitMode = st.fitMode;
+      if (st.iframe && st.iframe.classList.contains('vp-frame')) fitVpFrame(holder);
+      else postToFrame('mode', { mode: st.fitMode });
+    }
+    document.querySelectorAll('#fitSeg button').forEach(function (x) {
+      x.classList.toggle('active', x.dataset.fit === st.fitMode);
+    });
+  }
   function wirePreviewControls() {
     var st = previewState;
     $('#playBtn').addEventListener('click', function () { setPlaying(!st.playing); });
     $('#restartBtn').addEventListener('click', function () { mountStageFrame(); });
+    $('#fitSeg').addEventListener('click', function (e) {
+      var b = e.target.closest('button[data-fit]'); if (!b) return;
+      st.fitMode = b.dataset.fit;
+      applyFitMode();
+    });
     $('#speedSeg').addEventListener('click', function (e) {
       var b = e.target.closest('button[data-speed]'); if (!b) return;
       st.speed = parseFloat(b.dataset.speed);
@@ -825,6 +987,7 @@
       var stage = $('#stage');
       stage.classList.remove('bg-light', 'bg-dark', 'bg-checkered');
       stage.classList.add('bg-' + st.bg);
+      postToFrame('remeasure');
     });
     $('#fsBtn').addEventListener('click', function () {
       var stage = $('#stage');
@@ -957,5 +1120,5 @@
 
   initTopbar();
   buildTree();
-  route();
+  loadOverrides().then(function () { route(); });
 })();

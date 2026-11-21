@@ -12,7 +12,7 @@
   --accent-text: #ffffff;
   --code-bg: #f8fafc;
   --shadow: 0 1px 2px rgba(0, 0, 0, .06), 0 4px 16px rgba(0, 0, 0, .05);
-  --radius: 10px;
+  --radius: 12px;
   --radius-sm: 7px;
   --topbar-h: 56px;
   --sidebar-w: 288px;
@@ -146,7 +146,8 @@ button { font-family: inherit; cursor: pointer; }
   text-align: left; padding: 0; color: var(--text);
 }
 .strip-card:hover { border-color: var(--accent); box-shadow: var(--shadow); }
-.strip-card .preview { height: 130px; background: var(--surface-2); position: relative; }
+.strip-card .preview { aspect-ratio: 4 / 3; background-color: var(--surface-2); background-image: radial-gradient(circle, rgba(17, 24, 39, .10) 1px, transparent 1px); background-size: 14px 14px; position: relative; overflow: hidden; border-bottom: 1px solid var(--border); }
+html[data-theme="dark"] .strip-card .preview { background-image: radial-gradient(circle, rgba(229, 231, 235, .10) 1px, transparent 1px); }
 .strip-card .preview iframe { width: 100%; height: 100%; border: 0; display: block; background: transparent; }
 .strip-card .meta { padding: 9px 11px; }
 .strip-card .name { font-weight: 600; font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -174,8 +175,10 @@ button { font-family: inherit; cursor: pointer; }
   display: flex; flex-direction: column;
 }
 .card:hover { border-color: var(--accent); box-shadow: var(--shadow); }
-.card .preview { height: 150px; background: var(--surface-2); position: relative; }
+.card .preview { aspect-ratio: 4 / 3; background-color: var(--surface-2); background-image: radial-gradient(circle, rgba(17, 24, 39, .10) 1px, transparent 1px); background-size: 14px 14px; position: relative; overflow: hidden; border-bottom: 1px solid var(--border); }
+html[data-theme="dark"] .card .preview { background-image: radial-gradient(circle, rgba(229, 231, 235, .10) 1px, transparent 1px); }
 .card .preview iframe { width: 100%; height: 100%; border: 0; display: block; background: transparent; }
+.card .preview iframe.vp-frame, .strip-card .preview iframe.vp-frame, .stage iframe.vp-frame { position: absolute; left: 50%; top: 50%; width: 800px; height: 500px; transform: translate(-50%, -50%); }
 .card .preview .ph { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 13px; }
 .card .meta { padding: 10px 12px 12px; }
 .card .name { font-weight: 600; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -218,7 +221,7 @@ html[data-theme="dark"] .badge.click { background: #7c2d12; color: #fed7aa; bord
 .seg button { border: 0; background: var(--surface); color: var(--muted); padding: 6px 11px; font-size: 13px; }
 .seg button + button { border-left: 1px solid var(--border); }
 .seg button.active { background: var(--accent); color: var(--accent-text); }
-.stage { position: relative; min-height: 340px; display: flex; align-items: center; justify-content: center; }
+.stage { position: relative; aspect-ratio: 16 / 9; min-height: 320px; display: flex; align-items: center; justify-content: center; }
 .stage.bg-light { background: #ffffff; }
 .stage.bg-dark { background: #111827; }
 .stage.bg-checkered {
@@ -230,7 +233,8 @@ html[data-theme="dark"] .stage.bg-checkered {
   background-color: #111827;
   background-image: linear-gradient(45deg, #1f2937 25%, transparent 25%), linear-gradient(-45deg, #1f2937 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #1f2937 75%), linear-gradient(-45deg, transparent 75%, #1f2937 75%);
 }
-.stage iframe { width: 100%; height: 340px; border: 0; display: block; background: transparent; }
+.stage iframe { width: 100%; height: 100%; border: 0; display: block; background: transparent; }
+.stage #stageFrame { width: 100%; height: 100%; position: relative; overflow: hidden; }
 .stage .stage-hint { position: absolute; bottom: 8px; right: 12px; font-size: 12px; color: var(--muted); background: color-mix(in srgb, var(--surface) 80%, transparent); padding: 2px 8px; border-radius: 999px; pointer-events: none; }
 .stage-meta { padding: 14px 16px; border-top: 1px solid var(--border); font-size: 14px; }
 .stage-meta p { margin: 4px 0; }
@@ -308,7 +312,6 @@ html[data-theme="dark"] .tok-num { color: #fbbf24; }
   .view { padding: 18px 14px 96px; }
   .steps { grid-template-columns: 1fr; }
   .stage { min-height: 260px; }
-  .stage iframe { height: 260px; }
   .mobilebar.show { display: flex; }
   .preview-head .nav-arrows { margin-left: 0; }
 }
