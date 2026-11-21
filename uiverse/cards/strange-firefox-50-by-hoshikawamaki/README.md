@@ -1,0 +1,47 @@
+# Strange Firefox 50
+
+A card UI element from Uiverse.io by hoshikawamaki.
+
+Source: https://uiverse.io/hoshikawamaki/strange-firefox-50
+
+Author: hoshikawamaki
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: —
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<!-- From Uiverse.io by hoshikawamaki  - Tags: simple, material design, animation, purple, card, hover, hover effect, tailwindcss -->
+<div
+  class="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-purple-400"
+>
+  <div class="z-10 absolute w-full h-full peer"></div>
+  <div
+    class="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-purple-300 transition-all duration-500"
+  ></div>
+  <div
+    class="absolute flex text-xl text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-full bg-purple-300 transition-all duration-500"
+  >
+    Nice to meet u,<br />Uiverse
+  </div>
+  <div class="w-full h-full items-center justify-center flex uppercase">
+    hover me
+  </div>
+</div>
+```
+
+### styles.css
+
+```css
+/* No CSS in source file */
+```
