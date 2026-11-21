@@ -1,0 +1,79 @@
+# Perfect Bird 26
+
+A loader UI element from Uiverse.io by Shoh2008.
+
+Source: https://uiverse.io/Shoh2008/perfect-bird-26
+
+Author: Shoh2008
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loader
+
+Colors: #ff3d00, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<span class="loader"></span>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Shoh2008 - Tags: loader */
+.loader {
+  position: relative;
+  width: 120px;
+  height: 140px;
+  background-image: radial-gradient(circle 30px, #fff 100%, transparent 0),
+    radial-gradient(circle 5px, #fff 100%, transparent 0),
+    radial-gradient(circle 5px, #fff 100%, transparent 0),
+    linear-gradient(#FFF 20px, transparent 0);
+  background-position: center 127px , 94px 102px , 16px 18px, center 114px;
+  background-size: 60px 60px, 10px 10px , 10px 10px , 4px 14px;
+  background-repeat: no-repeat;
+  z-index: 10;
+  perspective: 500px;
+}
+
+.loader::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -55%) rotate(-45deg);
+  border-right-color: transparent;
+  box-sizing: border-box;
+}
+
+.loader::after {
+  content: '';
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  transform: translate(-50%, -55%) rotate(-45deg) rotateY(0deg);
+  left: 50%;
+  top: 50%;
+  box-sizing: border-box;
+  border: 7px solid #FF3D00;
+  border-radius: 50%;
+  animation: rotate_4191 0.5s linear infinite;
+}
+
+@keyframes rotate_4191 {
+  to {
+    transform: translate(-50%, -55%) rotate(-45deg) rotateY(360deg)
+  }
+}
+```
