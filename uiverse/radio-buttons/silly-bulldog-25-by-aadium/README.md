@@ -1,0 +1,154 @@
+# Silly Bulldog 25
+
+A radio button UI element from Uiverse.io by aadium.
+
+Source: https://uiverse.io/aadium/silly-bulldog-25
+
+Author: aadium
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: radio, futuristic, futuristic-radio-buttons
+
+Colors: #212121, #743ad5, #d53a9d
+
+Fonts: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<label id="topleft" class="container">
+  <input name="my-radio-button" type="radio">
+  <label id="tl">Top <br>Left</label>
+  <div class="selected"></div>
+</label>
+&nbsp;
+<label id="topright" class="container">
+  <input name="my-radio-button" type="radio">
+  <label id="tr">Top<br>Right</label>
+  <div class="selected"></div>
+</label>
+<br>
+<br>
+<label id="bottomleft" class="container">
+  <input name="my-radio-button" type="radio">
+  <label id="bl">Bottom <br>Left</label>
+  <div class="selected"></div>
+</label>
+&nbsp;
+<label id="bottomright" class="container">
+  <input name="my-radio-button" type="radio">
+  <label id="br">Bottom <br>Right</label>
+  <div class="selected"></div>
+</label>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by aadium - Tags: radio, futuristic, futuristic-radio-buttons */
+.container input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 17px;
+  width: 4em;
+  height: 4em;
+  user-select: none;
+  border: 4px solid;
+  border-image-slice: 1;
+  background-color: #212121;
+}
+
+label {
+  font-size: 12px;
+  margin-top: -6px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  visibility: visible;
+}
+
+#topleft {
+  border-image-source: linear-gradient(-45deg, #743ad5, #d53a9d);
+  color: white
+}
+
+#topright {
+  border-image-source: linear-gradient(45deg, #743ad5, #d53a9d);
+  color: white
+}
+
+#bottomleft {
+  border-image-source: linear-gradient(-135deg, #743ad5, #d53a9d);
+  color: white
+}
+
+#bottomright {
+  border-image-source: linear-gradient(135deg, #743ad5, #d53a9d);
+  color: white
+}
+
+.selected {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#topleft:hover {
+  border-image-source: linear-gradient(-45deg, #743ad5, #d53a9d);
+  background-image: linear-gradient(-45deg, #743ad5, #d53a9d);
+}
+
+#topright:hover {
+  border-image-source: linear-gradient(45deg, #743ad5, #d53a9d);
+  background-image: linear-gradient(45deg, #743ad5, #d53a9d);
+}
+
+#bottomleft:hover {
+  border-image-source: linear-gradient(-135deg, #743ad5, #d53a9d);
+  background-image: linear-gradient(-135deg, #743ad5, #d53a9d);
+}
+
+#bottomright:hover {
+  border-image-source: linear-gradient(135deg, #743ad5, #d53a9d);
+  background-image: linear-gradient(135deg, #743ad5, #d53a9d);
+}
+
+#topleft input[type="radio"]:checked ~ .selected {
+  box-shadow: 5px 5px 25px #743ad5,
+                -5px -5px 25px #d53a9d;
+  border-image-slice: 1;
+}
+
+#topright input[type="radio"]:checked ~ .selected {
+  box-shadow: -5px 5px 25px #743ad5,
+                5px -5px 25px #d53a9d;
+  border-image-slice: 1;
+}
+
+#bottomleft input[type="radio"]:checked ~ .selected {
+  box-shadow: -5px 5px 25px #d53a9d,
+                5px -5px 25px #743ad5;
+  border-image-slice: 1;
+}
+
+#bottomright input[type="radio"]:checked ~ .selected {
+  box-shadow: -5px -5px 25px #743ad5,
+                5px 5px 25px #d53a9d;
+  border-image-slice: 1;
+}
+```
