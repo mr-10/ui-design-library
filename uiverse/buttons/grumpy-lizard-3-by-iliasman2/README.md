@@ -1,0 +1,57 @@
+# Grumpy Lizard 3
+
+A button UI element from Uiverse.io by Iliasman2.
+
+Source: https://uiverse.io/Iliasman2/grumpy-lizard-3
+
+Author: Iliasman2
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: #2e2f2e, #323433, #666, #a5a7a6, #b2b5b3
+
+Fonts: See styles.css
+
+Spacing and radius: 30px
+
+## Source Code
+
+### index.html
+
+```html
+<button class="designer-btn">Click me</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Iliasman2 - Tags: button */
+.designer-btn {
+  display: inline-block;
+  padding: 14px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 2px solid black;
+  transition: all 0.3s ease;
+  background: linear-gradient(to bottom, #b2b5b3, #a5a7a6);
+  color: rgb(57, 53, 53);
+}
+
+.designer-btn:hover {
+  border: 2px solid rgb(109, 107, 107);
+  color: #a5a7a6;
+  box-shadow: 0 5px #666;
+  transform: translateY(-5px);
+  background: linear-gradient(to bottom, #2e2f2e, #323433);
+}
+
+.designer-btn:focus,
+.designer-btn:active {
+  transform: translateY(4px);
+}
+```

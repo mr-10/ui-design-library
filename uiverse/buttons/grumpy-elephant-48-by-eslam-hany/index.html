@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Grumpy Elephant 48</title>
+<style>
+body { display: flex; min-height: 100vh; align-items: center; justify-content: center; margin: 0; }
+</style>
+<style>
+/* From Uiverse.io by eslam-hany - Tags: button */
+.btn {
+  position: relative;
+  padding: 10px 50px;
+  font-size: 20px;
+  border: 1px solid #002B5B;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.btn::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  width: 0%;
+  height: 100%;
+  border-radius: 15px;
+  background: linear-gradient(#002B5b,#EA5455);
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.btn:hover::after {
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  transition: all 0.5s;
+}
+</style>
+</head>
+<body>
+<button class="btn">
+  Button
+</button>
+</body>
+</html>
