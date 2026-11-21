@@ -1,0 +1,82 @@
+# Fat Rabbit 79
+
+A button UI element from Uiverse.io by mi-series.
+
+Source: https://uiverse.io/mi-series/fat-rabbit-79
+
+Author: mi-series
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button, spin
+
+Colors: #000, #fff
+
+Fonts: 'Lato', sans-serif
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<button>
+  Hover Me
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by mi-series - Tags: button, spin */
+button {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #000;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  outline: none;
+  text-align: center;
+  z-index: 2;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+button::after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  color: #fff;
+}
+
+button:hover::after {
+  transform: scale(2) rotate(180deg);
+  background: #000;
+  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+}
+```
