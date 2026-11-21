@@ -1,0 +1,49 @@
+# Honest Shrimp 87
+
+A card UI element from Uiverse.io by mvykool.
+
+Source: https://uiverse.io/mvykool/honest-shrimp-87
+
+Author: mvykool
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: —
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<!-- From Uiverse.io by mvykool  - Tags: gradient, card, card hover -->
+<div
+  class="transform transition duration-300 hover:scale-110 rounded-lg shadow-lg h-52 w-56 hover:shadow-xl bg-white"
+>
+  <div
+    class="bg-gradient-to-br from-rose-100 via-purple-200 to-purple-200 m-2 h-3/6 rounded-lg"
+  ></div>
+
+  <div class="px-5 pt-2 flex flex-col">
+    <h2 class="font-semibold">Title</h2>
+
+    <button
+      class="bg-blue-500 cursor-pointer text-white px-2 py-1 mt-2 rounded-md transition duration-150 hover:bg-blue-700"
+      type="button"
+    >
+      Button
+    </button>
+  </div>
+</div>
+```
+
+### styles.css
+
+```css
+/* No CSS in source file */
+```
