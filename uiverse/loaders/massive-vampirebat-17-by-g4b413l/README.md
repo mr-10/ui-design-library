@@ -1,0 +1,85 @@
+# Massive Vampirebat 17
+
+A loader UI element from Uiverse.io by G4b413l.
+
+Source: https://uiverse.io/G4b413l/massive-vampirebat-17
+
+Author: G4b413l
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: loader, ball
+
+Colors: #000, #ffdaaf, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 30px, 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="bar">
+    <div class="ball"></div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by G4b413l - Tags: loader, ball */
+.ball {
+  position: relative;
+  bottom: 50px;
+  left: calc(100% - 20px);
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  animation: ball-move8234 3s ease-in-out 1s infinite alternate;
+}
+
+.ball::after {
+  position: absolute;
+  content: '';
+  top: 25px;
+  right: 5px;
+  width: 5px;
+  height: 5px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.bar {
+  width: 200px;
+  height: 12.5px;
+  background: #FFDAAF;
+  border-radius: 30px;
+  transform: rotate(-15deg);
+  animation: up-down6123 3s ease-in-out 1s infinite alternate;
+}
+
+@keyframes up-down6123 {
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes ball-move8234 {
+  from {
+    left: calc(100% - 40px);
+    transform: rotate(360deg);
+  }
+
+  to {
+    left: calc(0% - 20px);
+    transform: rotate(0deg);
+  }
+}
+```

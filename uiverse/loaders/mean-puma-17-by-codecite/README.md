@@ -1,0 +1,70 @@
+# Mean Puma 17
+
+A loader UI element from Uiverse.io by Codecite.
+
+Source: https://uiverse.io/Codecite/mean-puma-17
+
+Author: Codecite
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: animation, loading, loader, animated
+
+Colors: #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 50%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="spinner-container">
+  <div class="spinner">
+   <div class="spinner">
+    <div class="spinner">
+      <div class="spinner">
+        <div class="spinner">
+            <div class="spinner"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Codecite - Tags: animation, loading, loader, animated */
+.spinner-container {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin: 30px auto;
+  overflow: hidden;
+}
+
+.spinner {
+  position: absolute;
+  width: calc(100% - 9.9px);
+  height: calc(100% - 9.9px);
+  border: 5px solid transparent;
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 5s cubic-bezier(0.17, 0.49, 0.96, 0.79) infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+```
