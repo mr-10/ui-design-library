@@ -119,8 +119,17 @@
     return out;
   }
   function elementSrcdoc(rec, autoplay) {
-    return fetchText(rec.path + 'index.html').then(function (html) {
-      return buildSrcdoc(html, rec.trigger, autoplay);
+    function attempt() {
+      return fetchText(rec.path + 'index.html').then(function (html) {
+        return buildSrcdoc(html, rec.trigger, autoplay);
+      });
+    }
+    // One retry: a single failed fetch (blip, slow connection) should not
+    // leave a card stuck on "Preview could not be loaded".
+    return attempt().catch(function () {
+      return new Promise(function (resolve) {
+        setTimeout(function () { resolve(attempt()); }, 800);
+      });
     });
   }
   function previewIframe(rec, autoplay) {
