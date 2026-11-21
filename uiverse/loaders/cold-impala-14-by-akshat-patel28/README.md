@@ -1,0 +1,69 @@
+# Cold Impala 14
+
+A loader UI element from Uiverse.io by akshat-patel28.
+
+Source: https://uiverse.io/akshat-patel28/cold-impala-14
+
+Author: akshat-patel28
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: animation, loader, text animation, animated, typewriter
+
+Colors: #155799, #159957
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<div class="loader">
+<span class="loader-text">Loading...</span>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by akshat-patel28 - Tags: animation, loader, text animation, animated, typewriter */
+.loader {
+  position: relative;
+  overflow: hidden;
+  border-right: 3px solid;
+  width: 0px;
+  animation: typewriter 2s steps(10)  infinite alternate , blink 0.5s steps(10) infinite;
+}
+
+.loader-text {
+  font-size: 40px;
+  font-weight: 700;
+  background: linear-gradient(to right,#159957, #155799);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 240px;
+  }
+}
+
+@keyframes blink {
+  0% {
+    border-right-color: rgba(255,255,255,.75);
+    ;
+  }
+
+  100% {
+    border-right-color: transparent;
+  }
+}
+```
