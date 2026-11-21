@@ -1,0 +1,90 @@
+# Nasty Dingo 81
+
+A card UI element from Uiverse.io by Javierrocadev.
+
+Source: https://uiverse.io/Javierrocadev/nasty-dingo-81
+
+Author: Javierrocadev
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: card, clip-path, shape, card hover, clip path animation
+
+Colors: #0077b6, #00b4d8, #03045e, #90e0ef, #caf0f8
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<div class="card">
+  <div class="pentagon1"></div>
+  <div class="pentagon2"></div>
+  <div class="pentagon3"></div>
+  <div class="pentagon4"></div>
+  <div class="pentagon5"></div>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Javierrocadev - Source: Javierrocadev - Tags: card, clip-path, shape, card hover, clip path animation */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card * {
+  position: absolute;
+}
+
+.pentagon1 {
+  width: 250px;
+  height: 250px;
+  background: #03045e;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  transition: all .3s ease-in-out;
+}
+
+.pentagon2 {
+  width: 220px;
+  height: 220px;
+  background: #0077b6;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  transition: all .4s ease-in-out;
+}
+
+.pentagon3 {
+  width: 190px;
+  height: 190px;
+  background: #00b4d8;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  transition: all .5s ease-in-out;
+}
+
+.pentagon4 {
+  width: 160px;
+  height: 160px;
+  background: #90e0ef;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  transition: all .6s ease-in-out;
+}
+
+.pentagon5 {
+  width: 130px;
+  height: 130px;
+  background: #caf0f8;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  transition: all .7s ease-in-out;
+}
+
+.card:hover .pentagon1, .card:hover .pentagon2 , .card:hover .pentagon3, .card:hover .pentagon4, .card:hover .pentagon5 {
+  transform: rotate(35deg);
+}
+```
