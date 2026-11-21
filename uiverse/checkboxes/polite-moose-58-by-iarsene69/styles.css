@@ -1,0 +1,50 @@
+/* From Uiverse.io by iArsene69  - Website: https://uiverse.io/Uncannypotato69/honest-starfish-32 - Name: Uncannypotato69 - Tags: checkbox, neon, line */
+.check-container {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background: linear-gradient(90deg, #b3ffab 0%, #12fff7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.check {
+  position: absolute;
+  appearance: none;
+}
+
+.check-toggle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  transform: translateX(-150%) translateY(-50%);
+  border-radius: 0.25em;
+  border: 2px solid #b3ffab;
+}
+
+.check-toggle + .check-svg {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 2rem;
+  width: 2rem;
+  transform: translateX(-120%) translateY(-50%);
+  transition: stroke-dashoffset 0.5s ease-out;
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+}
+
+.check:checked + .check-toggle + .check-svg {
+  stroke-dashoffset: 0;
+}
+
+.check-label {
+  font-size: 1rem;
+  user-select: none;
+  font-weight: semi-bold;
+}

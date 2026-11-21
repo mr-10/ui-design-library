@@ -1,0 +1,91 @@
+# Polite Tiger 12
+
+A checkbox UI element from Uiverse.io by adamgiebl.
+
+Source: https://uiverse.io/adamgiebl/polite-tiger-12
+
+Author: adamgiebl
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: checkbox
+
+Colors: #2196f3, #ccc
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<label class="container">
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by adamgiebl - Tags: checkbox */
+/* Customize the label (the container) */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+```

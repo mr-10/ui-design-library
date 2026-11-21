@@ -1,0 +1,82 @@
+# Rotten Catfish 34
+
+A checkbox UI element from Uiverse.io by andrew-demchenk0.
+
+Source: https://uiverse.io/andrew-demchenk0/rotten-catfish-34
+
+Author: andrew-demchenk0
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: blue, checkbox, transition, checkmark, box-shadow
+
+Colors: #2d8cf0, #323232, #666, #ccc, #fff
+
+Fonts: See styles.css
+
+Spacing and radius: 5px
+
+## Source Code
+
+### index.html
+
+```html
+<label class="container">
+  <input checked="checked" type="checkbox">
+  <div class="checkmark"></div>
+</label>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by andrew-demchenk0 - Tags: blue, checkbox, transition, checkmark, box-shadow */
+.container {
+  --input-focus: #2d8cf0;
+  --input-out-of-focus: #ccc;
+  --bg-color: #fff;
+  --bg-color-alt: #666;
+  --main-color: #323232;
+  position: relative;
+  cursor: pointer;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+}
+
+.checkmark {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  box-shadow: 4px 4px var(--main-color);
+  background-color: var(--input-out-of-focus);
+  transition: all 0.3s;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: var(--input-focus);
+}
+
+.checkmark:after {
+  content: "";
+  width: 7px;
+  height: 15px;
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  display: none;
+  border: solid var(--bg-color);
+  border-width: 0 2.5px 2.5px 0;
+  transform: rotate(45deg);
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+```
