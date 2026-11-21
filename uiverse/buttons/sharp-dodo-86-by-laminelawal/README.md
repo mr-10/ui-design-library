@@ -1,0 +1,60 @@
+# Sharp Dodo 86
+
+A button UI element from Uiverse.io by laminelawal.
+
+Source: https://uiverse.io/laminelawal/sharp-dodo-86
+
+Author: laminelawal
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button, 3d button
+
+Colors: #222, #333, #444
+
+Fonts: monospace
+
+Spacing and radius: 30px
+
+## Source Code
+
+### index.html
+
+```html
+<button class="button">
+  Click Me
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by laminelawal - Tags: button, 3d button */
+button {
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 150px;
+  height: 54px;
+  background-image: linear-gradient(to top, #222 0%, #333 80%, #444 100%);
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: monospace;
+  transition: all 0.3s;
+  text-shadow: 0 4px 3px black;
+}
+
+button:hover {
+  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 0 3px 3px black;
+}
+
+button:active {
+  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 0 3px 3px black;
+}
+
+button:focus {
+  box-shadow: 0 4px 3px 1px #333, 0 6px 8px #222, 0 -4px 4px #222, 0 -6px 4px #333, inset 0 5px 7px 0   black;
+}
+```
