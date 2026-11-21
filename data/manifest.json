@@ -1,0 +1,197 @@
+{
+  "generatedAt": "2026-11-21T07:30:47.760613+00:00",
+  "total": 3805,
+  "categories": [
+    {
+      "name": "buttons",
+      "count": 1232,
+      "file": "data/buttons.json"
+    },
+    {
+      "name": "loaders",
+      "count": 718,
+      "file": "data/loaders.json"
+    },
+    {
+      "name": "cards",
+      "count": 726,
+      "file": "data/cards.json"
+    },
+    {
+      "name": "toggle-switches",
+      "count": 260,
+      "file": "data/toggle-switches.json"
+    },
+    {
+      "name": "inputs",
+      "count": 226,
+      "file": "data/inputs.json"
+    },
+    {
+      "name": "forms",
+      "count": 181,
+      "file": "data/forms.json"
+    },
+    {
+      "name": "checkboxes",
+      "count": 172,
+      "file": "data/checkboxes.json"
+    },
+    {
+      "name": "patterns",
+      "count": 103,
+      "file": "data/patterns.json"
+    },
+    {
+      "name": "radio-buttons",
+      "count": 102,
+      "file": "data/radio-buttons.json"
+    },
+    {
+      "name": "tooltips",
+      "count": 62,
+      "file": "data/tooltips.json"
+    },
+    {
+      "name": "notifications",
+      "count": 23,
+      "file": "data/notifications.json"
+    }
+  ],
+  "triggers": {
+    "hover": 1648,
+    "auto-loop": 765,
+    "static": 585,
+    "checked": 572,
+    "focus": 178,
+    "active": 53,
+    "scroll": 4
+  },
+  "topTags": [
+    {
+      "tag": "css",
+      "count": 1520
+    },
+    {
+      "tag": "hover",
+      "count": 1437
+    },
+    {
+      "tag": "button",
+      "count": 1100
+    },
+    {
+      "tag": "loader",
+      "count": 675
+    },
+    {
+      "tag": "auto-loop",
+      "count": 654
+    },
+    {
+      "tag": "card",
+      "count": 572
+    },
+    {
+      "tag": "static",
+      "count": 554
+    },
+    {
+      "tag": "checked",
+      "count": 467
+    },
+    {
+      "tag": "simple",
+      "count": 364
+    },
+    {
+      "tag": "animation",
+      "count": 345
+    },
+    {
+      "tag": "switch",
+      "count": 230
+    },
+    {
+      "tag": "toggle-switches",
+      "count": 223
+    },
+    {
+      "tag": "input",
+      "count": 206
+    },
+    {
+      "tag": "hover-effect",
+      "count": 191
+    },
+    {
+      "tag": "animated",
+      "count": 191
+    },
+    {
+      "tag": "checkbox",
+      "count": 177
+    },
+    {
+      "tag": "buttons",
+      "count": 172
+    },
+    {
+      "tag": "gradient",
+      "count": 162
+    },
+    {
+      "tag": "focus",
+      "count": 156
+    },
+    {
+      "tag": "cards",
+      "count": 152
+    },
+    {
+      "tag": "form",
+      "count": 133
+    },
+    {
+      "tag": "material-design",
+      "count": 115
+    },
+    {
+      "tag": "minimalist",
+      "count": 114
+    },
+    {
+      "tag": "3d",
+      "count": 109
+    },
+    {
+      "tag": "neumorphism",
+      "count": 107
+    },
+    {
+      "tag": "icon",
+      "count": 102
+    },
+    {
+      "tag": "pattern",
+      "count": 102
+    },
+    {
+      "tag": "active",
+      "count": 95
+    },
+    {
+      "tag": "dark",
+      "count": 92
+    },
+    {
+      "tag": "radio",
+      "count": 91
+    }
+  ],
+  "issues": {
+    "broken": 0,
+    "empty": 0,
+    "jsDependent": 0
+  }
+}
