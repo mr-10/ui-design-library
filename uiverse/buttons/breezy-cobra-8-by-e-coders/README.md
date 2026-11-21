@@ -1,0 +1,56 @@
+# Breezy Cobra 8
+
+A button UI element from Uiverse.io by e-coders.
+
+Source: https://uiverse.io/e-coders/breezy-cobra-8
+
+Author: e-coders
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: See styles.css
+
+Fonts: inherit
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<button class="button-3d button-3d-red"> Button
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by e-coders - Tags: button */
+button.button-3d {
+ margin: 10px;
+ border-right: 0;
+ border-left: 0;
+ border-top: 0;
+ font-family: inherit;
+ font-size: 24px;
+ padding: 8px;
+ color: rgba(255, 255, 255, 0.788);
+}
+
+button.button-3d:active {
+ border-bottom: 0;
+}
+
+button.button-3d {
+ cursor: pointer;
+}
+
+/* RED */
+.button-3d-red {
+ border-bottom: 3px solid rgb(117, 28, 28);
+ background-color: rgb(248, 91, 91);
+}
+```

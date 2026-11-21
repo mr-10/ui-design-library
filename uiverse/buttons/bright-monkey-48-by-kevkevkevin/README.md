@@ -1,0 +1,74 @@
+# Bright Monkey 48
+
+A button UI element from Uiverse.io by kevkevkevin.
+
+Source: https://uiverse.io/kevkevkevin/bright-monkey-48
+
+Author: kevkevkevin
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button, hover, creative, css, css effect, hoverme
+
+Colors: #101a29, #246bfd, #fff, #ffffff00
+
+Fonts: See styles.css
+
+Spacing and radius: 30px
+
+## Source Code
+
+### index.html
+
+```html
+<button class="button">
+  HOVER ME 🙈
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by kevkevkevin - Tags: button, hover, creative, css, css effect, hoverme */
+.button {
+  border: 2px solid #246bfd;
+  color: #101a29;
+  line-height: 52px;
+  border-radius: 30px;
+  font-weight: 600;
+  height: 55px;
+  overflow: hidden;
+  padding: 0 30px;
+  position: relative;
+  transition: all .5s ease;
+  z-index: 0;
+}
+
+button:after {
+  content: "";
+  height: 100%;
+  left: -35%;
+  position: absolute;
+  top: 0;
+  background: #246bfd;
+  -webkit-transform: skew(30deg);
+  transform: skew(30deg);
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  transition: all .3s ease-in;
+  transition-duration: .6s;
+  width: 0;
+  z-index: -1;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #ffffff00;
+  border-color: #ffffff00;
+}
+
+button:hover:after {
+  height: 100%;
+  width: 135%;
+}
+```
