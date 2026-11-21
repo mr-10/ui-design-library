@@ -1,0 +1,50 @@
+# Heavy Fish 82
+
+A pattern UI element from Uiverse.io by escannord.
+
+Source: https://uiverse.io/escannord/heavy-fish-82
+
+Author: escannord
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: simple, gradients, pattern
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<div class="container"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by escannord  - Tags: simple, gradients, pattern */
+.container {
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+  background: repeating-conic-gradient(
+      rgba(195, 195, 197, 0.1) 0%,
+      rgb(7, 7, 7) 10%,
+      rgba(195, 195, 197, 0.3) 20%
+    ),
+    radial-gradient(rgba(7, 112, 94, 0.3), rgba(61, 26, 189, 0.3)),
+    linear-gradient(rgba(155, 0, 0, 0.3), rgba(13, 13, 117, 0.2)),
+    radial-gradient(
+      circle,
+      rgb(255, 252, 252),
+      rgb(10, 10, 10) 30%,
+      rgba(84, 84, 88, 0.562) 0%
+    );
+  background-size: 10px 10px;
+}
+```
