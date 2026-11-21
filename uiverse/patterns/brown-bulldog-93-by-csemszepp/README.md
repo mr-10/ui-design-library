@@ -1,0 +1,57 @@
+# Brown Bulldog 93
+
+A pattern UI element from Uiverse.io by csemszepp.
+
+Source: https://uiverse.io/csemszepp/brown-bulldog-93
+
+Author: csemszepp
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: simple, material design, pattern
+
+Colors: #0000, #53777a, #c02942, #ecd078
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<div class="container"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by csemszepp - Source: https://github.com/Afif13 - Website: https://github.com/Afif13  - Name: Afif13  - Tags: simple, material design, pattern */
+.container {
+  width: 100%;
+  height: 100%;
+  --s: 20px; /* size of the lines */
+  --g: 15px; /* gap between lines */
+
+  --c1: #c02942;
+  --c2: #53777a;
+
+  background: conic-gradient(
+        at var(--s) calc(100% - var(--s)),
+        #0000 270deg,
+        var(--c1) 0
+      )
+      calc(var(--s) + var(--g)) 0,
+    linear-gradient(var(--c2) var(--s), #0000 0) 0 var(--g),
+    conic-gradient(
+      at var(--s) calc(100% - var(--s)),
+      #0000 90deg,
+      var(--c2) 0 180deg,
+      var(--c1) 0
+    ),
+    #ecd078;
+  background-size: calc(2 * (var(--s) + var(--g)))
+    calc(2 * (var(--s) + var(--g)));
+}
+```
