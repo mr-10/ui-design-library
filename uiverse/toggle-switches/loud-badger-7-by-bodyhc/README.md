@@ -1,0 +1,108 @@
+# Loud Badger 7
+
+A toggle switch UI element from Uiverse.io by Bodyhc.
+
+Source: https://uiverse.io/Bodyhc/loud-badger-7
+
+Author: Bodyhc
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: switch, light switch, swith
+
+Colors: #15009c, #260999, #ebebeb, #ffffff
+
+Fonts: Trebuchet, Arial, sans-serif
+
+Spacing and radius: 41px
+
+## Source Code
+
+### index.html
+
+```html
+<div class="flipswitch">
+    <input checked="" id="fs" class="flipswitch-cb" name="flipswitch" type="checkbox">
+    <label for="fs" class="flipswitch-label">
+        <div class="flipswitch-inner"></div>
+        <div class="flipswitch-switch"></div>
+    </label>
+</div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by Bodyhc - Tags: switch, light switch, swith */
+.flipswitch {
+  position: relative;
+  width: 80px;
+}
+
+.flipswitch input[type=checkbox] {
+  display: none;
+}
+
+.flipswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #260999;
+  border-radius: 41px;
+}
+
+.flipswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  transition: margin 0.3s ease-in 0s;
+}
+
+.flipswitch-inner:before, .flipswitch-inner:after {
+  float: left;
+  width: 50%;
+  height: 38px;
+  padding: 0;
+  line-height: 38px;
+  font-size: 25px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.flipswitch-inner:before {
+  content: "✔";
+  padding-left: 20px;
+  background-color: #15009C;
+  color: #FFFFFF;
+}
+
+.flipswitch-inner:after {
+  content: "X";
+  padding-right: 20px;
+  background-color: #EBEBEB;
+  color: #15009C;
+  text-align: right;
+}
+
+.flipswitch-switch {
+  width: 25px;
+  margin: 6.5px;
+  background: #FFFFFF;
+  border: 1px solid #260999;
+  border-radius: 41px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 41px;
+  transition: all 0.3s ease-in 0s;
+}
+
+.flipswitch-cb:checked + .flipswitch-label .flipswitch-inner {
+  margin-left: 0;
+}
+
+.flipswitch-cb:checked + .flipswitch-label .flipswitch-switch {
+  right: 0;
+}
+```
