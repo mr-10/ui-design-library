@@ -1,0 +1,46 @@
+# Proud Husky 84
+
+A input UI element from Uiverse.io by cohencoo.
+
+Source: https://uiverse.io/cohencoo/proud-husky-84
+
+Author: cohencoo
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: input
+
+Colors: #e2e2e2, #febf00, #fff
+
+Fonts: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+Spacing and radius: 10px
+
+## Source Code
+
+### index.html
+
+```html
+<input type="text" placeholder="Write here..." name="text" class="input">
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by cohencoo - Tags: input */
+.input {
+  border-radius: 10px;
+  outline: 2px solid #FEBF00;
+  border: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #e2e2e2;
+  outline-offset: 3px;
+  padding: 10px 1rem;
+  transition: 0.25s;
+}
+
+.input:focus {
+  outline-offset: 5px;
+  background-color: #fff
+}
+```
