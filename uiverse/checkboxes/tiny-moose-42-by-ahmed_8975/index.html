@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tiny Moose 42</title>
+<style>
+body { display: flex; min-height: 100vh; align-items: center; justify-content: center; margin: 0; }
+</style>
+<style>
+.gl-checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  cursor: pointer;
+  user-select: none;
+  font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+}
+
+.gl-checkbox__input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+.gl-checkbox__box {
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Ripple on check */
+.gl-checkbox__box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    rgba(200, 240, 96, 0.35) 0%,
+    transparent 70%
+  );
+  opacity: 0;
+  transform: scale(0);
+  transition:
+    opacity 0.3s ease,
+    transform 0.4s ease;
+}
+
+.gl-checkbox:hover .gl-checkbox__box {
+  border-color: rgba(200, 240, 96, 0.35);
+  transform: scale(1.06);
+}
+
+.gl-checkbox__input:checked ~ .gl-checkbox__box {
+  background: linear-gradient(135deg, #c8f060, #60f0b8);
+  border-color: transparent;
+  box-shadow:
+    0 0 0 3px rgba(200, 240, 96, 0.15),
+    0 4px 14px rgba(200, 240, 96, 0.3);
+  transform: scale(1.05);
+}
+
+.gl-checkbox__input:checked ~ .gl-checkbox__box::before {
+  opacity: 1;
+  transform: scale(1.5);
+}
+
+.gl-checkbox__check {
+  width: 13px;
+  height: 13px;
+  color: #080a0f;
+  stroke-dasharray: 24;
+  stroke-dashoffset: 24;
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) 0.05s;
+}
+
+.gl-checkbox__input:checked ~ .gl-checkbox__box .gl-checkbox__check {
+  stroke-dashoffset: 0;
+}
+
+.gl-checkbox__label {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 0.25s ease;
+}
+
+.gl-checkbox:hover .gl-checkbox__label {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.gl-checkbox__input:checked ~ .gl-checkbox__label {
+  color: rgba(255, 255, 255, 0.9);
+}
+</style>
+</head>
+<body>
+<label class="gl-checkbox">
+  <input class="gl-checkbox__input" type="checkbox" />
+  <span class="gl-checkbox__box">
+    <svg
+      class="gl-checkbox__check"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="3"
+    >
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+  </span>
+  <span class="gl-checkbox__label">Accept terms &amp; conditions</span>
+</label>
+</body>
+</html>
