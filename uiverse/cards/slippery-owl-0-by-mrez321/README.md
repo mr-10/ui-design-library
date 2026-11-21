@@ -1,0 +1,101 @@
+# Slippery Owl 0
+
+A card UI element from Uiverse.io by MRez321.
+
+Source: https://uiverse.io/MRez321/slippery-owl-0
+
+Author: MRez321
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: hover, animated, floating, div, eye
+
+Colors: #00adcc, #04d9ff, #31abd1, #322e2e, #474bff, #dacfcf
+
+Fonts: See styles.css
+
+Spacing and radius: 25% 75% 25% 75% / 25% 75% 25% 75%, 50% 50% 44% 44% / 55% 55% 40% 40%, 75% 25% 75% 25% / 75% 25% 75% 25%
+
+## Source Code
+
+### index.html
+
+```html
+<div class="one-div"></div>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by MRez321 - Tags: hover, animated, floating, div, eye */
+.one-div {
+  background-color: #322e2e;
+  width: 20rem;
+  height: 15rem;
+  position: relative;
+  border: solid 1.2rem #dacfcf;
+  border-radius: 50% 50% 44% 44% / 55% 55% 40% 40%;
+}
+
+.one-div::before,
+.one-div::after {
+  content: '';
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  top: 35%;
+  background-image: repeating-linear-gradient(0deg, #474bff, #474bff 3.5px, transparent 3.5px, transparent);
+  background-size: .4rem .4rem;
+  background-color: #31abd1;
+  border: solid 2px #00adcc;
+  filter: drop-shadow(0 1px 6px #04d9ff);
+}
+
+.one-div::before {
+  left: 1.4rem;
+  border-radius: 25% 75% 25% 75% / 25% 75% 25% 75%;
+}
+
+.one-div::after {
+  right: 1.4rem;
+  border-radius: 75% 25% 75% 25% / 75% 25% 75% 25%;
+}
+
+.one-div:hover {
+  animation: float 2s infinite;
+}
+
+.one-div:hover::before,
+.one-div:hover::after {
+  animation: blink 2.5s infinite;
+}
+
+@keyframes float {
+  0% {
+    bottom: 0;
+  }
+
+  50% {
+    bottom: -.4rem;
+  }
+
+  100% {
+    bottom: 0;
+  }
+}
+
+@keyframes blink {
+  90% {
+    transform: none;
+    animation-timing-function: ease-in;
+  }
+
+  93% {
+    transform: translateY(15px) scaleY(0)
+  }
+
+  100% {
+    animation-timing-function: ease-out;
+  }
+}
+```
