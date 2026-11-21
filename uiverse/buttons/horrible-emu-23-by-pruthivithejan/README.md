@@ -1,0 +1,50 @@
+# Horrible Emu 23
+
+A button UI element from Uiverse.io by pruthivithejan.
+
+Source: https://uiverse.io/pruthivithejan/horrible-emu-23
+
+Author: pruthivithejan
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: —
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<!-- From Uiverse.io by pruthivithejan  - Tags: button -->
+<div class="w-screen h-screen bg-[#fafafa]">
+  <div class="flex justify-center items-center gap-12 h-full">
+    <div
+      class="bg-gradient-to-b from-stone-300/40 to-transparent p-[4px] rounded-[16px]"
+    >
+      <button
+        class="group p-[4px] rounded-[12px] bg-gradient-to-b from-white to-stone-200/40 shadow-[0_1px_3px_rgba(0,0,0,0.5)] active:shadow-[0_0px_1px_rgba(0,0,0,0.5)] active:scale-[0.995]"
+      >
+        <div
+          class="bg-gradient-to-b from-stone-200/40 to-white/80 rounded-[8px] px-2 py-2"
+        >
+          <div class="flex gap-2 items-center font-sans">
+            <span class="font-semibold">Get Started</span>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+```
+
+### styles.css
+
+```css
+/* No CSS in source file */
+```

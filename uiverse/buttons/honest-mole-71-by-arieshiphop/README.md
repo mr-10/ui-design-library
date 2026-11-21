@@ -1,0 +1,50 @@
+# Honest Mole 71
+
+A button UI element from Uiverse.io by arieshiphop.
+
+Source: https://uiverse.io/arieshiphop/honest-mole-71
+
+Author: arieshiphop
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: button
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: 4px
+
+## Source Code
+
+### index.html
+
+```html
+<button> Button
+</button>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by arieshiphop - Tags: button */
+button {
+ font-size: 17px;
+ padding: 0.5em 2em;
+ border: transparent;
+ box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+ background: dodgerblue;
+ color: white;
+ border-radius: 4px;
+}
+
+button:hover {
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+button:active {
+ transform: translate(0em, 0.2em);
+}
+```
