@@ -1,0 +1,87 @@
+# Black Mayfly 32
+
+A toggle switch UI element from Uiverse.io by zebra76966.
+
+Source: https://uiverse.io/zebra76966/black-mayfly-32
+
+Author: zebra76966
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: switch, moon, sun, toggle, light&dark, emoji
+
+Colors: #000429
+
+Fonts: See styles.css
+
+Spacing and radius: 100%, 20px
+
+## Source Code
+
+### index.html
+
+```html
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider"></span>
+</label>
+```
+
+### styles.css
+
+```css
+/* From Uiverse.io by zebra76966 - Tags: switch, moon, sun, toggle, light&dark, emoji */
+.switch {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 60px;
+  padding: 2px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.switch input {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-style: outset;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.slider::before {
+  content: "🌞";
+  font-size: 22px;
+  line-height: 15px;
+  border-radius: 100%;
+  position: absolute;
+  left: -0.8px;
+  top: 8px;
+  background-color: transparent;
+  transition: 0.4s;
+}
+
+.switch > input:checked + .slider {
+  background-color: #000429;
+}
+
+.switch > input:checked + .slider:before {
+  content: "🌑";
+  font-size: 22px;
+  line-height: 25px;
+  background-color: transparent;
+  transform: translateY(24px);
+}
+```

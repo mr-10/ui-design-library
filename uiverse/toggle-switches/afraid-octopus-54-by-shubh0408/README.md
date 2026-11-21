@@ -1,0 +1,49 @@
+# Afraid Octopus 54
+
+A toggle switch UI element from Uiverse.io by Shubh0408.
+
+Source: https://uiverse.io/Shubh0408/afraid-octopus-54
+
+Author: Shubh0408
+
+License: MIT — see [UIVERSE-LICENSE.md](../../UIVERSE-LICENSE.md)
+
+Tags: —
+
+Colors: See styles.css
+
+Fonts: See styles.css
+
+Spacing and radius: See styles.css
+
+## Source Code
+
+### index.html
+
+```html
+<!-- From Uiverse.io by Shubh0408  - Tags: switch -->
+<label
+  class="switch cursor-pointer relative flex w-[6.7rem] scale-75 overflow-hidden p-2"
+>
+  <input type="checkbox" name="" class="peer hidden" />
+  <div
+    class="absolute -right-[6.5rem] z-[1] flex h-12 w-24 skew-x-12 items-center justify-center text-lg duration-500 peer-checked:right-1"
+  >
+    <span class="-skew-x-12">ON</span>
+  </div>
+  <div
+    class="z-0 h-12 w-24 -skew-x-12 border border-black duration-500 peer-checked:skew-x-12 peer-checked:bg-green-500"
+  ></div>
+  <div
+    class="absolute left-[0.3rem] flex h-12 w-24 -skew-x-12 items-center justify-center text-lg duration-500 peer-checked:-left-[6.5rem]"
+  >
+    <span class="skew-x-12">OFF</span>
+  </div>
+</label>
+```
+
+### styles.css
+
+```css
+/* No CSS in source file */
+```
